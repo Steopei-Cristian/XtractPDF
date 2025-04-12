@@ -1,0 +1,32 @@
+UBL\Common\CAC\ProcurementProjectLotType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: UBL\Common\CBC\ID
+        tenderingTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: TenderingTerms
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTenderingTerms
+                setter: setTenderingTerms
+            type: UBL\Common\CAC\TenderingTerms
+        procurementProject:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcurementProject
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getProcurementProject
+                setter: setProcurementProject
+            type: UBL\Common\CAC\ProcurementProject

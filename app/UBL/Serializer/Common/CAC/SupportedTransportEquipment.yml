@@ -1,0 +1,3 @@
+UBL\Common\CAC\SupportedTransportEquipment:
+    xml_root_name: SupportedTransportEquipment
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

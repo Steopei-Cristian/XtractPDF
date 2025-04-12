@@ -1,0 +1,52 @@
+UBL\Common\CAC\TransportEquipmentSealType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: UBL\Common\CBC\ID
+        sealIssuerTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SealIssuerTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSealIssuerTypeCode
+                setter: setSealIssuerTypeCode
+            type: UBL\Common\CBC\SealIssuerTypeCode
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: Condition
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            type: UBL\Common\CBC\Condition
+        sealStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SealStatusCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSealStatusCode
+                setter: setSealStatusCode
+            type: UBL\Common\CBC\SealStatusCode
+        sealingPartyType:
+            expose: true
+            access_type: public_method
+            serialized_name: SealingPartyType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSealingPartyType
+                setter: setSealingPartyType
+            type: UBL\Common\CBC\SealingPartyType

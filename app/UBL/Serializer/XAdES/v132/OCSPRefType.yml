@@ -1,0 +1,22 @@
+UBL\XAdES\v132\OCSPRefType:
+    properties:
+        oCSPIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: OCSPIdentifier
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getOCSPIdentifier
+                setter: setOCSPIdentifier
+            type: UBL\XAdES\v132\OCSPIdentifierType
+        digestAlgAndValue:
+            expose: true
+            access_type: public_method
+            serialized_name: DigestAlgAndValue
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getDigestAlgAndValue
+                setter: setDigestAlgAndValue
+            type: UBL\XAdES\v132\DigestAlgAndValueType

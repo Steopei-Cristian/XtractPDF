@@ -1,0 +1,22 @@
+UBL\Common\CAC\ContractingActivityType:
+    properties:
+        activityTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ActivityTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActivityTypeCode
+                setter: setActivityTypeCode
+            type: UBL\Common\CBC\ActivityTypeCode
+        activityType:
+            expose: true
+            access_type: public_method
+            serialized_name: ActivityType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getActivityType
+                setter: setActivityType
+            type: UBL\Common\CBC\ActivityType

@@ -1,0 +1,3 @@
+UBL\Common\CAC\ReplacedNoticeDocumentReference:
+    xml_root_name: ReplacedNoticeDocumentReference
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

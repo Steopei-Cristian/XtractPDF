@@ -1,0 +1,102 @@
+UBL\Common\CAC\TaxSubtotalType:
+    properties:
+        taxableAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxableAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxableAmount
+                setter: setTaxableAmount
+            type: UBL\Common\CBC\TaxableAmount
+        taxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxAmount
+                setter: setTaxAmount
+            type: UBL\Common\CBC\TaxAmount
+        calculationSequenceNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: CalculationSequenceNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCalculationSequenceNumeric
+                setter: setCalculationSequenceNumeric
+            type: UBL\Common\CBC\CalculationSequenceNumeric
+        transactionCurrencyTaxAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TransactionCurrencyTaxAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransactionCurrencyTaxAmount
+                setter: setTransactionCurrencyTaxAmount
+            type: UBL\Common\CBC\TransactionCurrencyTaxAmount
+        percent:
+            expose: true
+            access_type: public_method
+            serialized_name: Percent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPercent
+                setter: setPercent
+            type: UBL\Common\CBC\Percent
+        baseUnitMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseUnitMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBaseUnitMeasure
+                setter: setBaseUnitMeasure
+            type: UBL\Common\CBC\BaseUnitMeasure
+        perUnitAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PerUnitAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPerUnitAmount
+                setter: setPerUnitAmount
+            type: UBL\Common\CBC\PerUnitAmount
+        tierRange:
+            expose: true
+            access_type: public_method
+            serialized_name: TierRange
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTierRange
+                setter: setTierRange
+            type: UBL\Common\CBC\TierRange
+        tierRatePercent:
+            expose: true
+            access_type: public_method
+            serialized_name: TierRatePercent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTierRatePercent
+                setter: setTierRatePercent
+            type: UBL\Common\CBC\TierRatePercent
+        taxCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCategory
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxCategory
+                setter: setTaxCategory
+            type: UBL\Common\CAC\TaxCategory

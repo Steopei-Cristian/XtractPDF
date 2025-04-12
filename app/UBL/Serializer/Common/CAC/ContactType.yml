@@ -1,0 +1,80 @@
+UBL\Common\CAC\ContactType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: UBL\Common\CBC\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: UBL\Common\CBC\Name
+        telephone:
+            expose: true
+            access_type: public_method
+            serialized_name: Telephone
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelephone
+                setter: setTelephone
+            type: UBL\Common\CBC\Telephone
+        telefax:
+            expose: true
+            access_type: public_method
+            serialized_name: Telefax
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTelefax
+                setter: setTelefax
+            type: UBL\Common\CBC\Telefax
+        electronicMail:
+            expose: true
+            access_type: public_method
+            serialized_name: ElectronicMail
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getElectronicMail
+                setter: setElectronicMail
+            type: UBL\Common\CBC\ElectronicMail
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<UBL\Common\CBC\Note>
+        otherCommunication:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherCommunication
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOtherCommunication
+                setter: setOtherCommunication
+            xml_list:
+                inline: true
+                entry_name: OtherCommunication
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\OtherCommunication>

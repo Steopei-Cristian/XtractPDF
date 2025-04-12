@@ -1,0 +1,42 @@
+UBL\Common\CAC\EndorserPartyType:
+    properties:
+        roleCode:
+            expose: true
+            access_type: public_method
+            serialized_name: RoleCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRoleCode
+                setter: setRoleCode
+            type: UBL\Common\CBC\RoleCode
+        sequenceNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: SequenceNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSequenceNumeric
+                setter: setSequenceNumeric
+            type: UBL\Common\CBC\SequenceNumeric
+        party:
+            expose: true
+            access_type: public_method
+            serialized_name: Party
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getParty
+                setter: setParty
+            type: UBL\Common\CAC\Party
+        signatoryContact:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatoryContact
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignatoryContact
+                setter: setSignatoryContact
+            type: UBL\Common\CAC\SignatoryContact

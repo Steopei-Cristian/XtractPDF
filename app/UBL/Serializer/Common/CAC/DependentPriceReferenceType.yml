@@ -1,0 +1,32 @@
+UBL\Common\CAC\DependentPriceReferenceType:
+    properties:
+        percent:
+            expose: true
+            access_type: public_method
+            serialized_name: Percent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPercent
+                setter: setPercent
+            type: UBL\Common\CBC\Percent
+        locationAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: LocationAddress
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLocationAddress
+                setter: setLocationAddress
+            type: UBL\Common\CAC\LocationAddress
+        dependentLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DependentLineReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDependentLineReference
+                setter: setDependentLineReference
+            type: UBL\Common\CAC\DependentLineReference

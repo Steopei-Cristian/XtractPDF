@@ -1,0 +1,16 @@
+<?php
+
+namespace UBL\Common\CBC;
+
+use UBL\Unqualified\NameType;
+
+/**
+ * Class representing BuildingNameType
+ *
+ *
+ * XSD Type: BuildingNameType
+ */
+class BuildingNameType extends NameType
+{
+}
+

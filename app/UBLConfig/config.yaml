@@ -1,0 +1,115 @@
+xsd2php:
+  naming_strategy: short
+
+  # Aliases let you refer to one or more target namespaces on the command line.
+  aliases:
+    Invoice:
+      - "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+    CCTS:
+      - "urn:oasis:names:specification:ubl:schema:xsd:CCTS_CCT_SchemaModule-2"
+    CommonAggregateComponents:
+      - "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+    CommonBasicComponents:
+      - "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+    CommonExtensionComponents:
+      - "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+    CommonSignatureComponents:
+      - "urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2"
+    CoreComponentParameters:
+      - "urn:oasis:names:specification:ubl:schema:xsd:CoreComponentParameters-2"
+    ExtensionContentDataType:
+      - "urn:oasis:names:specification:ubl:schema:xsd:ExtensionContentDataType-2"
+    QualifiedDataTypes:
+      - "urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2"
+    SignatureAggregateComponents:
+      - "urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2"
+    SignatureBasicComponents:
+      - "urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2"
+    UnqualifiedDataTypes:
+      - "urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2"
+    XAdESv132:
+      - "urn:oasis:names:specification:ubl:schema:xsd:XAdESv132-2"
+    XAdESv141:
+      - "urn:oasis:names:specification:ubl:schema:xsd:XAdESv141-2"
+    XmldsigCore:
+      - "urn:oasis:names:specification:ubl:schema:xsd:xmldsig-core-schema-2"
+
+  # Map the target namespaces (as defined in the XSD files) to PHP namespaces.
+  namespaces:
+    "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2": "UBL\\Invoice"
+    "urn:oasis:names:specification:ubl:schema:xsd:CCTS_CCT_SchemaModule-2": "UBL\\CCTS"
+    "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2": "UBL\\Common\\CAC"
+    "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2": "UBL\\Common\\CBC"
+    "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2": "UBL\\Common\\Extension"
+    "urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2": "UBL\\Common\\CSig"
+    "urn:oasis:names:specification:ubl:schema:xsd:CoreComponentParameters-2": "UBL\\Core"
+    "urn:oasis:names:specification:ubl:schema:xsd:ExtensionContentDataType-2": "UBL\\ExtContent"
+    "urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2": "UBL\\Qualified"
+    "urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2": "UBL\\Common\\SIG\\CAC"
+    "urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2": "UBL\\Common\\SIG\\CBC"
+    "urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2": "UBL\\Unqualified"
+    "urn:oasis:names:specification:ubl:schema:xsd:XAdESv132-2": "UBL\\XAdES\\v132"
+    "urn:oasis:names:specification:ubl:schema:xsd:XAdESv141-2": "UBL\\XAdES\\v141"
+    "urn:oasis:names:specification:ubl:schema:xsd:xmldsig-core-schema-2": "UBL\\Xmldsig"
+    "urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2": "UBL\\CCTS"
+    "http://www.w3.org/2000/09/xmldsig#": "UBL\\Xmldsig"
+    "http://uri.etsi.org/01903/v1.3.2#": "UBL\\XAdES\\v132"
+    "http://uri.etsi.org/01903/v1.4.1#": "UBL\\XAdES\\v141"
+
+  # Specify output directories for generated PHP classes.
+  destinations_php:
+    "UBL\\Invoice": "./app/UBL/Invoice"
+    "UBL\\CCTS": "./app/UBL/CCTS"
+    "UBL\\Common\\CAC": "./app/UBL/Common/CAC"
+    "UBL\\Common\\CBC": "./app/UBL/Common/CBC"
+    "UBL\\Common\\Extension": "./app/UBL/Common/Extension"
+    "UBL\\Common\\CSig": "./app/UBL/Common/CSig"
+    "UBL\\Core": "./app/UBL/Core"
+    "UBL\\ExtContent": "./app/UBL/ExtContent"
+    "UBL\\Qualified": "./app/UBL/Qualified"
+    "UBL\\Common\\SIG\\CAC": "./app/UBL/Common/Sig/CAC"
+    "UBL\\Common\\SIG\\CBC": "./app/UBL/Common/Sig/CBC"
+    "UBL\\Unqualified": "./app/UBL/Unqualified"
+    "UBL\\XAdES\\v132": "./app/UBL/XAdES/v132"
+    "UBL\\XAdES\\v141": "./app/UBL/XAdES/v141"
+    "UBL\\Xmldsig": "./app/UBL/Xmldsig"
+
+  # (Optionally) Specify JMS serializer metadata output directories.
+  destinations_jms:
+    "UBL\\Invoice": "./app/UBL/Serializer/Invoice"
+    "UBL\\CCTS": "./app/UBL/Serializer/CCTS"
+    "UBL\\Common\\CAC": "./app/UBL/Serializer/Common/CAC"
+    "UBL\\Common\\CBC": "./app/UBL/Serializer/Common/CBC"
+    "UBL\\Common\\Extension": "./app/UBL/Serializer/Common/Extension"
+    "UBL\\Common\\CSig": "./app/UBL/Serializer/Common/CSig"
+    "UBL\\Core": "./app/UBL/Serializer/Core"
+    "UBL\\ExtContent": "./app/UBL/Serializer/ExtContent"
+    "UBL\\Qualified": "./app/UBL/Serializer/Qualified"
+    "UBL\\Common\\SIG\\CAC": "./app/UBL/Serializer/Common/Sig/CAC"
+    "UBL\\Common\\SIG\\CBC": "./app/UBL/Serializer/Common/Sig/CBC"
+    "UBL\\Unqualified": "./app/UBL/Serializer/Unqualified"
+    "UBL\\XAdES\\v132": "./app/UBL/Serializer/XAdES/v132"
+    "UBL\\XAdES\\v141": "./app/UBL/Serializer/XAdES/v141"
+    "UBL\\Xmldsig": "./app/UBL/Serializer/Xmldsig"
+
+  # Map each target namespace to the known location (path) of its XSD file.
+  known_locations:
+    "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2": "./app/UBLConfig/UBL-Invoice-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:CCTS_CCT_SchemaModule-2": "./app/common/CCTS_CCT_SchemaModule-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2": "./app/common/UBL-CommonAggregateComponents-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2": "./app/common/UBL-CommonBasicComponents-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2": "./app/common/UBL-CommonExtensionComponents-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2": "./app/common/UBL-CommonSignatureComponents-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:CoreComponentParameters-2": "./app/common/UBL-CoreComponentParameters-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:ExtensionContentDataType-2": "./app/common/UBL-ExtensionContentDataType-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2": "./app/common/UBL-QualifiedDataTypes-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2": "./app/common/UBL-SignatureAggregateComponents-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2": "./app/common/UBL-SignatureBasicComponents-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2": "./app/common/UBL-UnqualifiedDataTypes-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:XAdESv132-2": "./app/common/UBL-XAdESv132-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:XAdESv141-2": "./app/common/UBL-XAdESv141-2.1.xsd"
+    "urn:oasis:names:specification:ubl:schema:xsd:xmldsig-core-schema-2": "./app/common/UBL-xmldsig-core-schema-2.1.xsd"
+    "http://www.w3.org/2000/09/xmldsig#": "./app/common/UBL-xmldsig-core-schema-2.1.xsd"
+    "http://uri.etsi.org/01903/v1.3.2#": "./app/common/UBL-XAdESv132-2.1.xsd"
+    "http://uri.etsi.org/01903/v1.4.1#": "./app/common/UBL-XAdESv141-2.1.xsd"
+    "urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2": "./app/common/CCTS_CCT_SchemaModule-2.1.xsd"

@@ -1,0 +1,256 @@
+UBL\Common\CAC\TenderingProcessType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: UBL\Common\CBC\ID
+        originalContractingSystemID:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalContractingSystemID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOriginalContractingSystemID
+                setter: setOriginalContractingSystemID
+            type: UBL\Common\CBC\OriginalContractingSystemID
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<UBL\Common\CBC\Description>
+        negotiationDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: NegotiationDescription
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNegotiationDescription
+                setter: setNegotiationDescription
+            xml_list:
+                inline: true
+                entry_name: NegotiationDescription
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<UBL\Common\CBC\NegotiationDescription>
+        procedureCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcedureCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getProcedureCode
+                setter: setProcedureCode
+            type: UBL\Common\CBC\ProcedureCode
+        urgencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: UrgencyCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getUrgencyCode
+                setter: setUrgencyCode
+            type: UBL\Common\CBC\UrgencyCode
+        expenseCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpenseCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getExpenseCode
+                setter: setExpenseCode
+            type: UBL\Common\CBC\ExpenseCode
+        partPresentationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PartPresentationCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPartPresentationCode
+                setter: setPartPresentationCode
+            type: UBL\Common\CBC\PartPresentationCode
+        contractingSystemCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ContractingSystemCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getContractingSystemCode
+                setter: setContractingSystemCode
+            type: UBL\Common\CBC\ContractingSystemCode
+        submissionMethodCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SubmissionMethodCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSubmissionMethodCode
+                setter: setSubmissionMethodCode
+            type: UBL\Common\CBC\SubmissionMethodCode
+        candidateReductionConstraintIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: CandidateReductionConstraintIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCandidateReductionConstraintIndicator
+                setter: setCandidateReductionConstraintIndicator
+            type: bool
+        governmentAgreementConstraintIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: GovernmentAgreementConstraintIndicator
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGovernmentAgreementConstraintIndicator
+                setter: setGovernmentAgreementConstraintIndicator
+            type: bool
+        documentAvailabilityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentAvailabilityPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentAvailabilityPeriod
+                setter: setDocumentAvailabilityPeriod
+            type: UBL\Common\CAC\DocumentAvailabilityPeriod
+        tenderSubmissionDeadlinePeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: TenderSubmissionDeadlinePeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTenderSubmissionDeadlinePeriod
+                setter: setTenderSubmissionDeadlinePeriod
+            type: UBL\Common\CAC\TenderSubmissionDeadlinePeriod
+        invitationSubmissionPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: InvitationSubmissionPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getInvitationSubmissionPeriod
+                setter: setInvitationSubmissionPeriod
+            type: UBL\Common\CAC\InvitationSubmissionPeriod
+        participationRequestReceptionPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ParticipationRequestReceptionPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getParticipationRequestReceptionPeriod
+                setter: setParticipationRequestReceptionPeriod
+            type: UBL\Common\CAC\ParticipationRequestReceptionPeriod
+        noticeDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: NoticeDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getNoticeDocumentReference
+                setter: setNoticeDocumentReference
+            xml_list:
+                inline: true
+                entry_name: NoticeDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\NoticeDocumentReference>
+        additionalDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalDocumentReference
+                setter: setAdditionalDocumentReference
+            xml_list:
+                inline: true
+                entry_name: AdditionalDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\AdditionalDocumentReference>
+        processJustification:
+            expose: true
+            access_type: public_method
+            serialized_name: ProcessJustification
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getProcessJustification
+                setter: setProcessJustification
+            xml_list:
+                inline: true
+                entry_name: ProcessJustification
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\ProcessJustification>
+        economicOperatorShortList:
+            expose: true
+            access_type: public_method
+            serialized_name: EconomicOperatorShortList
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEconomicOperatorShortList
+                setter: setEconomicOperatorShortList
+            type: UBL\Common\CAC\EconomicOperatorShortList
+        openTenderEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: OpenTenderEvent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOpenTenderEvent
+                setter: setOpenTenderEvent
+            xml_list:
+                inline: true
+                entry_name: OpenTenderEvent
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\OpenTenderEvent>
+        auctionTerms:
+            expose: true
+            access_type: public_method
+            serialized_name: AuctionTerms
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAuctionTerms
+                setter: setAuctionTerms
+            type: UBL\Common\CAC\AuctionTerms
+        frameworkAgreement:
+            expose: true
+            access_type: public_method
+            serialized_name: FrameworkAgreement
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFrameworkAgreement
+                setter: setFrameworkAgreement
+            type: UBL\Common\CAC\FrameworkAgreement

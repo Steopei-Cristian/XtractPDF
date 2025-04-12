@@ -1,0 +1,82 @@
+UBL\Common\CAC\LocationCoordinateType:
+    properties:
+        coordinateSystemCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CoordinateSystemCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCoordinateSystemCode
+                setter: setCoordinateSystemCode
+            type: UBL\Common\CBC\CoordinateSystemCode
+        latitudeDegreesMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LatitudeDegreesMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatitudeDegreesMeasure
+                setter: setLatitudeDegreesMeasure
+            type: UBL\Common\CBC\LatitudeDegreesMeasure
+        latitudeMinutesMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LatitudeMinutesMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatitudeMinutesMeasure
+                setter: setLatitudeMinutesMeasure
+            type: UBL\Common\CBC\LatitudeMinutesMeasure
+        latitudeDirectionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LatitudeDirectionCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLatitudeDirectionCode
+                setter: setLatitudeDirectionCode
+            type: UBL\Common\CBC\LatitudeDirectionCode
+        longitudeDegreesMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LongitudeDegreesMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLongitudeDegreesMeasure
+                setter: setLongitudeDegreesMeasure
+            type: UBL\Common\CBC\LongitudeDegreesMeasure
+        longitudeMinutesMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: LongitudeMinutesMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLongitudeMinutesMeasure
+                setter: setLongitudeMinutesMeasure
+            type: UBL\Common\CBC\LongitudeMinutesMeasure
+        longitudeDirectionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: LongitudeDirectionCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLongitudeDirectionCode
+                setter: setLongitudeDirectionCode
+            type: UBL\Common\CBC\LongitudeDirectionCode
+        altitudeMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: AltitudeMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAltitudeMeasure
+                setter: setAltitudeMeasure
+            type: UBL\Common\CBC\AltitudeMeasure

@@ -1,0 +1,50 @@
+UBL\Common\CAC\ClassificationCategoryType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: UBL\Common\CBC\Name
+        codeValue:
+            expose: true
+            access_type: public_method
+            serialized_name: CodeValue
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCodeValue
+                setter: setCodeValue
+            type: UBL\Common\CBC\CodeValue
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<UBL\Common\CBC\Description>
+        categorizesClassificationCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: CategorizesClassificationCategory
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCategorizesClassificationCategory
+                setter: setCategorizesClassificationCategory
+            xml_list:
+                inline: true
+                entry_name: CategorizesClassificationCategory
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\CategorizesClassificationCategory>

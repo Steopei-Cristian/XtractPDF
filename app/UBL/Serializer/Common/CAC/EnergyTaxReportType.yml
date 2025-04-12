@@ -1,0 +1,42 @@
+UBL\Common\CAC\EnergyTaxReportType:
+    properties:
+        taxEnergyAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxEnergyAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxEnergyAmount
+                setter: setTaxEnergyAmount
+            type: UBL\Common\CBC\TaxEnergyAmount
+        taxEnergyOnAccountAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxEnergyOnAccountAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxEnergyOnAccountAmount
+                setter: setTaxEnergyOnAccountAmount
+            type: UBL\Common\CBC\TaxEnergyOnAccountAmount
+        taxEnergyBalanceAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxEnergyBalanceAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTaxEnergyBalanceAmount
+                setter: setTaxEnergyBalanceAmount
+            type: UBL\Common\CBC\TaxEnergyBalanceAmount
+        taxScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxScheme
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxScheme
+                setter: setTaxScheme
+            type: UBL\Common\CAC\TaxScheme

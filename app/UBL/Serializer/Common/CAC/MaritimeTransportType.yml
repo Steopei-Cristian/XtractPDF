@@ -1,0 +1,86 @@
+UBL\Common\CAC\MaritimeTransportType:
+    properties:
+        vesselID:
+            expose: true
+            access_type: public_method
+            serialized_name: VesselID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getVesselID
+                setter: setVesselID
+            type: UBL\Common\CBC\VesselID
+        vesselName:
+            expose: true
+            access_type: public_method
+            serialized_name: VesselName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getVesselName
+                setter: setVesselName
+            type: UBL\Common\CBC\VesselName
+        radioCallSignID:
+            expose: true
+            access_type: public_method
+            serialized_name: RadioCallSignID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRadioCallSignID
+                setter: setRadioCallSignID
+            type: UBL\Common\CBC\RadioCallSignID
+        shipsRequirements:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipsRequirements
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getShipsRequirements
+                setter: setShipsRequirements
+            xml_list:
+                inline: true
+                entry_name: ShipsRequirements
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<UBL\Common\CBC\ShipsRequirements>
+        grossTonnageMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: GrossTonnageMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getGrossTonnageMeasure
+                setter: setGrossTonnageMeasure
+            type: UBL\Common\CBC\GrossTonnageMeasure
+        netTonnageMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: NetTonnageMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNetTonnageMeasure
+                setter: setNetTonnageMeasure
+            type: UBL\Common\CBC\NetTonnageMeasure
+        registryCertificateDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistryCertificateDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRegistryCertificateDocumentReference
+                setter: setRegistryCertificateDocumentReference
+            type: UBL\Common\CAC\RegistryCertificateDocumentReference
+        registryPortLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistryPortLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRegistryPortLocation
+                setter: setRegistryPortLocation
+            type: UBL\Common\CAC\RegistryPortLocation

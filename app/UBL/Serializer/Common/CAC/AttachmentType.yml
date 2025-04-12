@@ -1,0 +1,22 @@
+UBL\Common\CAC\AttachmentType:
+    properties:
+        embeddedDocumentBinaryObject:
+            expose: true
+            access_type: public_method
+            serialized_name: EmbeddedDocumentBinaryObject
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getEmbeddedDocumentBinaryObject
+                setter: setEmbeddedDocumentBinaryObject
+            type: UBL\Common\CBC\EmbeddedDocumentBinaryObject
+        externalReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ExternalReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExternalReference
+                setter: setExternalReference
+            type: UBL\Common\CAC\ExternalReference

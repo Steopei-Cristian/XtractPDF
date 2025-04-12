@@ -1,0 +1,182 @@
+UBL\Common\CAC\CertificateOfOriginApplicationType:
+    properties:
+        referenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getReferenceID
+                setter: setReferenceID
+            type: UBL\Common\CBC\ReferenceID
+        certificateType:
+            expose: true
+            access_type: public_method
+            serialized_name: CertificateType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCertificateType
+                setter: setCertificateType
+            type: UBL\Common\CBC\CertificateType
+        applicationStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ApplicationStatusCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getApplicationStatusCode
+                setter: setApplicationStatusCode
+            type: UBL\Common\CBC\ApplicationStatusCode
+        originalJobID:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalJobID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOriginalJobID
+                setter: setOriginalJobID
+            type: UBL\Common\CBC\OriginalJobID
+        previousJobID:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousJobID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPreviousJobID
+                setter: setPreviousJobID
+            type: UBL\Common\CBC\PreviousJobID
+        remarks:
+            expose: true
+            access_type: public_method
+            serialized_name: Remarks
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getRemarks
+                setter: setRemarks
+            xml_list:
+                inline: true
+                entry_name: Remarks
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<UBL\Common\CBC\Remarks>
+        shipment:
+            expose: true
+            access_type: public_method
+            serialized_name: Shipment
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getShipment
+                setter: setShipment
+            type: UBL\Common\CAC\Shipment
+        endorserParty:
+            expose: true
+            access_type: public_method
+            serialized_name: EndorserParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getEndorserParty
+                setter: setEndorserParty
+            xml_list:
+                inline: true
+                entry_name: EndorserParty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\EndorserParty>
+        preparationParty:
+            expose: true
+            access_type: public_method
+            serialized_name: PreparationParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPreparationParty
+                setter: setPreparationParty
+            type: UBL\Common\CAC\PreparationParty
+        issuerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getIssuerParty
+                setter: setIssuerParty
+            type: UBL\Common\CAC\IssuerParty
+        exporterParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ExporterParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getExporterParty
+                setter: setExporterParty
+            type: UBL\Common\CAC\ExporterParty
+        importerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: ImporterParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getImporterParty
+                setter: setImporterParty
+            type: UBL\Common\CAC\ImporterParty
+        issuingCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuingCountry
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getIssuingCountry
+                setter: setIssuingCountry
+            type: UBL\Common\CAC\IssuingCountry
+        documentDistribution:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentDistribution
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDocumentDistribution
+                setter: setDocumentDistribution
+            xml_list:
+                inline: true
+                entry_name: DocumentDistribution
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\DocumentDistribution>
+        supportingDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: SupportingDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSupportingDocumentReference
+                setter: setSupportingDocumentReference
+            xml_list:
+                inline: true
+                entry_name: SupportingDocumentReference
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\SupportingDocumentReference>
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            xml_list:
+                inline: true
+                entry_name: Signature
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\Signature>

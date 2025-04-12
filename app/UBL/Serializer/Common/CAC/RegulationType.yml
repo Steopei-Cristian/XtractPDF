@@ -1,0 +1,32 @@
+UBL\Common\CAC\RegulationType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: UBL\Common\CBC\Name
+        legalReference:
+            expose: true
+            access_type: public_method
+            serialized_name: LegalReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getLegalReference
+                setter: setLegalReference
+            type: UBL\Common\CBC\LegalReference
+        ontologyURI:
+            expose: true
+            access_type: public_method
+            serialized_name: OntologyURI
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOntologyURI
+                setter: setOntologyURI
+            type: UBL\Common\CBC\OntologyURI

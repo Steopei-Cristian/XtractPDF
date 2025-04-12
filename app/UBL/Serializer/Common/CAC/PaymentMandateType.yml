@@ -1,0 +1,106 @@
+UBL\Common\CAC\PaymentMandateType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: UBL\Common\CBC\ID
+        mandateTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: MandateTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMandateTypeCode
+                setter: setMandateTypeCode
+            type: UBL\Common\CBC\MandateTypeCode
+        maximumPaymentInstructionsNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPaymentInstructionsNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumPaymentInstructionsNumeric
+                setter: setMaximumPaymentInstructionsNumeric
+            type: UBL\Common\CBC\MaximumPaymentInstructionsNumeric
+        maximumPaidAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumPaidAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumPaidAmount
+                setter: setMaximumPaidAmount
+            type: UBL\Common\CBC\MaximumPaidAmount
+        signatureID:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatureID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSignatureID
+                setter: setSignatureID
+            type: UBL\Common\CBC\SignatureID
+        payerParty:
+            expose: true
+            access_type: public_method
+            serialized_name: PayerParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayerParty
+                setter: setPayerParty
+            type: UBL\Common\CAC\PayerParty
+        payerFinancialAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: PayerFinancialAccount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPayerFinancialAccount
+                setter: setPayerFinancialAccount
+            type: UBL\Common\CAC\PayerFinancialAccount
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: UBL\Common\CAC\ValidityPeriod
+        paymentReversalPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentReversalPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getPaymentReversalPeriod
+                setter: setPaymentReversalPeriod
+            type: UBL\Common\CAC\PaymentReversalPeriod
+        clause:
+            expose: true
+            access_type: public_method
+            serialized_name: Clause
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getClause
+                setter: setClause
+            xml_list:
+                inline: true
+                entry_name: Clause
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\Clause>

@@ -1,0 +1,32 @@
+UBL\Common\CAC\BudgetAccountType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: UBL\Common\CBC\ID
+        budgetYearNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: BudgetYearNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getBudgetYearNumeric
+                setter: setBudgetYearNumeric
+            type: UBL\Common\CBC\BudgetYearNumeric
+        requiredClassificationScheme:
+            expose: true
+            access_type: public_method
+            serialized_name: RequiredClassificationScheme
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getRequiredClassificationScheme
+                setter: setRequiredClassificationScheme
+            type: UBL\Common\CAC\RequiredClassificationScheme

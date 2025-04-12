@@ -1,0 +1,52 @@
+UBL\Common\CAC\ForecastExceptionCriterionLineType:
+    properties:
+        forecastPurposeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ForecastPurposeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getForecastPurposeCode
+                setter: setForecastPurposeCode
+            type: UBL\Common\CBC\ForecastPurposeCode
+        forecastTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ForecastTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getForecastTypeCode
+                setter: setForecastTypeCode
+            type: UBL\Common\CBC\ForecastTypeCode
+        comparisonDataSourceCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ComparisonDataSourceCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getComparisonDataSourceCode
+                setter: setComparisonDataSourceCode
+            type: UBL\Common\CBC\ComparisonDataSourceCode
+        dataSourceCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DataSourceCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDataSourceCode
+                setter: setDataSourceCode
+            type: UBL\Common\CBC\DataSourceCode
+        timeDeltaDaysQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TimeDeltaDaysQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTimeDeltaDaysQuantity
+                setter: setTimeDeltaDaysQuantity
+            type: UBL\Common\CBC\TimeDeltaDaysQuantity

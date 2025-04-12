@@ -1,0 +1,156 @@
+UBL\Common\CAC\UtilityItemType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: UBL\Common\CBC\ID
+        subscriberID:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriberID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSubscriberID
+                setter: setSubscriberID
+            type: UBL\Common\CBC\SubscriberID
+        subscriberType:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriberType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSubscriberType
+                setter: setSubscriberType
+            type: UBL\Common\CBC\SubscriberType
+        subscriberTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriberTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSubscriberTypeCode
+                setter: setSubscriberTypeCode
+            type: UBL\Common\CBC\SubscriberTypeCode
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            xml_list:
+                inline: true
+                entry_name: Description
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<UBL\Common\CBC\Description>
+        packQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: PackQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPackQuantity
+                setter: setPackQuantity
+            type: UBL\Common\CBC\PackQuantity
+        packSizeNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: PackSizeNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPackSizeNumeric
+                setter: setPackSizeNumeric
+            type: UBL\Common\CBC\PackSizeNumeric
+        consumptionType:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionType
+                setter: setConsumptionType
+            type: UBL\Common\CBC\ConsumptionType
+        consumptionTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionTypeCode
+                setter: setConsumptionTypeCode
+            type: UBL\Common\CBC\ConsumptionTypeCode
+        currentChargeType:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrentChargeType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCurrentChargeType
+                setter: setCurrentChargeType
+            type: UBL\Common\CBC\CurrentChargeType
+        currentChargeTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrentChargeTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCurrentChargeTypeCode
+                setter: setCurrentChargeTypeCode
+            type: UBL\Common\CBC\CurrentChargeTypeCode
+        oneTimeChargeType:
+            expose: true
+            access_type: public_method
+            serialized_name: OneTimeChargeType
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOneTimeChargeType
+                setter: setOneTimeChargeType
+            type: UBL\Common\CBC\OneTimeChargeType
+        oneTimeChargeTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: OneTimeChargeTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getOneTimeChargeTypeCode
+                setter: setOneTimeChargeTypeCode
+            type: UBL\Common\CBC\OneTimeChargeTypeCode
+        taxCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCategory
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getTaxCategory
+                setter: setTaxCategory
+            type: UBL\Common\CAC\TaxCategory
+        contract:
+            expose: true
+            access_type: public_method
+            serialized_name: Contract
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getContract
+                setter: setContract
+            type: UBL\Common\CAC\Contract

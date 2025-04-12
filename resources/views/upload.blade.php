@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XML Upload</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body class="bg-gray-100">
     <div class="min-h-screen p-6">
@@ -24,7 +25,37 @@
                     </div>
                 @endif
 
-                <form action="{{ route('upload.xml') }}" method="POST" enctype="multipart/form-data" class="space-y-4">
+                @if(session('invoice_details'))
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+                        <h2 class="text-lg font-semibold mb-3">Parsed Invoice Details</h2>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <p class="text-sm text-gray-600">Invoice ID</p>
+                                <p class="font-medium">{{ session('invoice_details')['id'] }}</p>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-600">Issue Date</p>
+                                <p class="font-medium">{{ session('invoice_details')['issue_date'] }}</p>
+                            </div>
+                            {{--
+                            <div>
+                                <p class="text-sm text-gray-600">Supplier</p>
+                                <p class="font-medium">{{ session('invoice_details')['supplier'] }}</p>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-600">Customer</p>
+                                <p class="font-medium">{{ session('invoice_details')['customer'] }}</p>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-600">Total Lines</p>
+                                <p class="font-medium">{{ session('invoice_details')['total_lines'] }}</p>
+                            </div>
+                            --}}
+                        </div>
+                    </div>
+                @endif
+
+                <form id="uploadForm" action="{{ route('upload.xml') }}" method="POST" enctype="multipart/form-data" class="space-y-4">
                     @csrf
                     <div>
                         <label for="xmlFile" class="block text-sm font-medium text-gray-700">Select XML File</label>
@@ -47,8 +78,36 @@
                         </button>
                     </div>
                 </form>
+
+                <!-- Progress Bar (Hidden by default) -->
+                <div id="progressContainer" class="hidden mt-4">
+                    <div class="w-full bg-gray-200 rounded-full h-2.5">
+                        <div id="progressBar" class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                    </div>
+                    <p id="progressText" class="text-sm text-gray-600 mt-2 text-center">Processing...</p>
+                </div>
             </div>
         </div>
     </div>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', function(e) {
+            const progressContainer = document.getElementById('progressContainer');
+            const progressBar = document.getElementById('progressBar');
+            const progressText = document.getElementById('progressText');
+            
+            progressContainer.classList.remove('hidden');
+            
+            // Simulate progress
+            let progress = 0;
+            const interval = setInterval(() => {
+                progress += 5;
+                if (progress <= 90) {
+                    progressBar.style.width = progress + '%';
+                    progressText.textContent = `Processing... ${progress}%`;
+                }
+            }, 100);
+        });
+    </script>
 </body>
 </html> 

@@ -1,0 +1,72 @@
+UBL\Common\CAC\HazardousGoodsTransitType:
+    properties:
+        transportEmergencyCardCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportEmergencyCardCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportEmergencyCardCode
+                setter: setTransportEmergencyCardCode
+            type: UBL\Common\CBC\TransportEmergencyCardCode
+        packingCriteriaCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PackingCriteriaCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPackingCriteriaCode
+                setter: setPackingCriteriaCode
+            type: UBL\Common\CBC\PackingCriteriaCode
+        hazardousRegulationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardousRegulationCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getHazardousRegulationCode
+                setter: setHazardousRegulationCode
+            type: UBL\Common\CBC\HazardousRegulationCode
+        inhalationToxicityZoneCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InhalationToxicityZoneCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInhalationToxicityZoneCode
+                setter: setInhalationToxicityZoneCode
+            type: UBL\Common\CBC\InhalationToxicityZoneCode
+        transportAuthorizationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportAuthorizationCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTransportAuthorizationCode
+                setter: setTransportAuthorizationCode
+            type: UBL\Common\CBC\TransportAuthorizationCode
+        maximumTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumTemperature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMaximumTemperature
+                setter: setMaximumTemperature
+            type: UBL\Common\CAC\MaximumTemperature
+        minimumTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumTemperature
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getMinimumTemperature
+                setter: setMinimumTemperature
+            type: UBL\Common\CAC\MinimumTemperature

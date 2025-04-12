@@ -1,0 +1,32 @@
+UBL\Common\CAC\DocumentDistributionType:
+    properties:
+        printQualifier:
+            expose: true
+            access_type: public_method
+            serialized_name: PrintQualifier
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPrintQualifier
+                setter: setPrintQualifier
+            type: UBL\Common\CBC\PrintQualifier
+        maximumCopiesNumeric:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumCopiesNumeric
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getMaximumCopiesNumeric
+                setter: setMaximumCopiesNumeric
+            type: UBL\Common\CBC\MaximumCopiesNumeric
+        party:
+            expose: true
+            access_type: public_method
+            serialized_name: Party
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getParty
+                setter: setParty
+            type: UBL\Common\CAC\Party

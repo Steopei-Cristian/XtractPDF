@@ -1,0 +1,74 @@
+UBL\Common\CAC\NotificationRequirementType:
+    properties:
+        notificationTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NotificationTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNotificationTypeCode
+                setter: setNotificationTypeCode
+            type: UBL\Common\CBC\NotificationTypeCode
+        postEventNotificationDurationMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: PostEventNotificationDurationMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPostEventNotificationDurationMeasure
+                setter: setPostEventNotificationDurationMeasure
+            type: UBL\Common\CBC\PostEventNotificationDurationMeasure
+        preEventNotificationDurationMeasure:
+            expose: true
+            access_type: public_method
+            serialized_name: PreEventNotificationDurationMeasure
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPreEventNotificationDurationMeasure
+                setter: setPreEventNotificationDurationMeasure
+            type: UBL\Common\CBC\PreEventNotificationDurationMeasure
+        notifyParty:
+            expose: true
+            access_type: public_method
+            serialized_name: NotifyParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getNotifyParty
+                setter: setNotifyParty
+            xml_list:
+                inline: true
+                entry_name: NotifyParty
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\NotifyParty>
+        notificationPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: NotificationPeriod
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getNotificationPeriod
+                setter: setNotificationPeriod
+            xml_list:
+                inline: true
+                entry_name: NotificationPeriod
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\NotificationPeriod>
+        notificationLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: NotificationLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getNotificationLocation
+                setter: setNotificationLocation
+            xml_list:
+                inline: true
+                entry_name: NotificationLocation
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL\Common\CAC\NotificationLocation>

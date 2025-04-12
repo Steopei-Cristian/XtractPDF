@@ -1,0 +1,3 @@
+UBL\Common\CAC\SubDebitNoteLine:
+    xml_root_name: SubDebitNoteLine
+    xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
