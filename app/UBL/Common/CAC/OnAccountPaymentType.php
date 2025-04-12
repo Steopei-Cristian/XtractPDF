@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing OnAccountPaymentType
@@ -310,4 +310,5 @@ class OnAccountPaymentType
         return $this;
     }
 }
+
 

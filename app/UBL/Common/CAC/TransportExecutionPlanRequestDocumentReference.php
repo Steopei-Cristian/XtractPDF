@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing TransportExecutionPlanRequestDocumentReference
@@ -8,4 +8,5 @@ namespace UBL\Common\CAC;
 class TransportExecutionPlanRequestDocumentReference extends DocumentReferenceType
 {
 }
+
 

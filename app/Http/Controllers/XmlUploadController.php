@@ -29,32 +29,25 @@ class XmlUploadController extends Controller
 
         try {
             $file = $request->file('xmlFile');
-            $path = $file->store('xml_files', 'public');
             
-            // Read the XML content
-            $xmlContent = Storage::disk('public')->get($path);
+            // Store the file in the local storage
+            $path = $file->store('xml_files', 'local');
+            $fullPath = Storage::disk('local')->path($path);
             
-            // Parse the XML and create Invoice object
-            $invoice = $this->xmlParserService->parseXml($xmlContent);
+            // Parse the XML file and create Invoice object
+            $invoice = $this->xmlParserService->parseXmlFile($fullPath);
             
             // Log the parsed invoice details
-            Log::info('Invoice parsed successfully', [
+            /*Log::info('Invoice parsed successfully', [
                 'invoice_id' => $invoice->getId(),
                 'issue_date' => $invoice->getIssueDate(),
-                //'supplier' => $invoice->getAccountingSupplierParty()->getName(),
-                //'customer' => $invoice->getAccountingCustomerParty()->getName(),
-                //'total_lines' => count($invoice->getInvoiceLines()),
-            ]);
+                'supplier' => $invoice->getAccountingSupplierParty()->getName(),
+                'customer' => $invoice->getAccountingCustomerParty()->getName(),
+                'total_lines' => count($invoice->getInvoiceLines()),
+            ]);*/
             
             return redirect()->route('upload.xml')
-                ->with('success', 'XML file uploaded and parsed successfully!')
-                ->with('invoice_details', [
-                    'id' => $invoice->getId(),
-                    'issue_date' => $invoice->getIssueDate(),
-                    //'supplier' => $invoice->getAccountingSupplierParty()->getName(),
-                    //'customer' => $invoice->getAccountingCustomerParty()->getName(),
-                    //'total_lines' => count($invoice->getInvoiceLines()),
-                ]);
+                ->with('success', 'XML file uploaded and parsed successfully!');
         } catch (\Exception $e) {
             Log::error('Failed to process XML file', [
                 'error' => $e->getMessage(),

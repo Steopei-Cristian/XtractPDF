@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing SPKIDataType
@@ -73,4 +73,5 @@ class SPKIDataType
         return $this;
     }
 }
+
 

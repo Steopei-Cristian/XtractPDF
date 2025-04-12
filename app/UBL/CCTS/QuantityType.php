@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\CCTS;
+namespace App\UBL\CCTS;
 
 /**
  * Class representing QuantityType
@@ -274,4 +274,5 @@ class QuantityType
         return $this;
     }
 }
+
 

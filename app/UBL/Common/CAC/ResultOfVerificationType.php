@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ResultOfVerificationType
@@ -460,4 +460,5 @@ class ResultOfVerificationType
         return $this;
     }
 }
+
 

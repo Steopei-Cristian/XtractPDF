@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\XAdES\v141;
+namespace App\UBL\XAdES\v141;
 
 /**
  * Class representing TimeStampValidationData
@@ -8,4 +8,5 @@ namespace UBL\XAdES\v141;
 class TimeStampValidationData extends ValidationDataType
 {
 }
+
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing RetailPlannedImpactType
@@ -232,4 +232,5 @@ class RetailPlannedImpactType
         return $this;
     }
 }
+
 

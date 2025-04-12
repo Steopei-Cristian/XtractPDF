@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CBC;
+namespace App\UBL\Common\CBC;
 
 /**
  * Class representing ConsumersEnergyLevel
@@ -8,4 +8,5 @@ namespace UBL\Common\CBC;
 class ConsumersEnergyLevel extends ConsumersEnergyLevelType
 {
 }
+
 

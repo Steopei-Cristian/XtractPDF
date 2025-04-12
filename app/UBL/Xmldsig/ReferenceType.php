@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing ReferenceType
@@ -206,4 +206,5 @@ class ReferenceType
         return $this;
     }
 }
+
 

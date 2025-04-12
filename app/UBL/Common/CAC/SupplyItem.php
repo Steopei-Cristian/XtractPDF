@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing SupplyItem
@@ -8,4 +8,5 @@ namespace UBL\Common\CAC;
 class SupplyItem extends ItemType
 {
 }
+
 

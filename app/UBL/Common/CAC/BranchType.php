@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing BranchType
@@ -229,4 +229,5 @@ class BranchType
         return $this;
     }
 }
+
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ProcessJustificationType
@@ -367,4 +367,5 @@ class ProcessJustificationType
         return $this;
     }
 }
+
 

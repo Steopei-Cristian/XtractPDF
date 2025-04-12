@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing OrderLineReferenceType
@@ -289,4 +289,5 @@ class OrderLineReferenceType
         return $this;
     }
 }
+
 

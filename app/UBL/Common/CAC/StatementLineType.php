@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing StatementLineType
@@ -1681,4 +1681,5 @@ class StatementLineType
         return $this;
     }
 }
+
 

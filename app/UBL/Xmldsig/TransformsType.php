@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing TransformsType
@@ -73,4 +73,5 @@ class TransformsType
         return $this;
     }
 }
+
 

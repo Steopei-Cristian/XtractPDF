@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing TransportScheduleType
@@ -745,4 +745,5 @@ class TransportScheduleType
         return $this;
     }
 }
+
 

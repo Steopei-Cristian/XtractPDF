@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\Extension;
+namespace App\UBL\Common\Extension;
 
 /**
  * Class representing ExtensionContent
@@ -8,4 +8,5 @@ namespace UBL\Common\Extension;
 class ExtensionContent extends ExtensionContentType
 {
 }
+
 

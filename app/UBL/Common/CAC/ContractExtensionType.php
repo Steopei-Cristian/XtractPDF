@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ContractExtensionType
@@ -418,4 +418,5 @@ class ContractExtensionType
         return $this;
     }
 }
+
 

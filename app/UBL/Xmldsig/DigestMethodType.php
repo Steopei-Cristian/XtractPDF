@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing DigestMethodType
@@ -37,4 +37,5 @@ class DigestMethodType
         return $this;
     }
 }
+
 

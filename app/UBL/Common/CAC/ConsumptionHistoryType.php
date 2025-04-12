@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ConsumptionHistoryType
@@ -472,4 +472,5 @@ class ConsumptionHistoryType
         return $this;
     }
 }
+
 

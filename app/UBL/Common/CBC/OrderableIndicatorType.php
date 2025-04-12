@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CBC;
+namespace App\UBL\Common\CBC;
 
 /**
  * Class representing OrderableIndicatorType
@@ -49,4 +49,5 @@ class OrderableIndicatorType
         return strval($this->__value);
     }
 }
+
 

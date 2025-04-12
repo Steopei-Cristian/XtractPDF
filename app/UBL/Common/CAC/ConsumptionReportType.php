@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ConsumptionReportType
@@ -1234,4 +1234,5 @@ class ConsumptionReportType
         return $this;
     }
 }
+
 

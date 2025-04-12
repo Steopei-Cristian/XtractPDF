@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Unqualified;
+namespace App\UBL\Unqualified;
 
 use UBL\CCTS\CodeType as CodeTypeBase;
 
@@ -20,4 +20,5 @@ use UBL\CCTS\CodeType as CodeTypeBase;
 class CodeType extends CodeTypeBase
 {
 }
+
 

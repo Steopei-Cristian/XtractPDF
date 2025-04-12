@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\CCTS;
+namespace App\UBL\CCTS;
 
 /**
  * Class representing MeasureType
@@ -166,4 +166,5 @@ class MeasureType
         return $this;
     }
 }
+
 

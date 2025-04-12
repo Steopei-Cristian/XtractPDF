@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CBC;
+namespace App\UBL\Common\CBC;
 
 /**
  * Class representing IssueDateType
@@ -49,4 +49,5 @@ class IssueDateType
         return strval($this->__value);
     }
 }
+
 

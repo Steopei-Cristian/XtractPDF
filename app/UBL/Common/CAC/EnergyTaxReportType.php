@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing EnergyTaxReportType
@@ -241,4 +241,5 @@ class EnergyTaxReportType
         return $this;
     }
 }
+
 

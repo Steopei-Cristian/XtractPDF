@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing DeliveryTermsType
@@ -529,4 +529,5 @@ class DeliveryTermsType
         return $this;
     }
 }
+
 

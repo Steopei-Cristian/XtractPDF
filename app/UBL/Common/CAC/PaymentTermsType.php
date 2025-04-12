@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing PaymentTermsType
@@ -1192,4 +1192,5 @@ class PaymentTermsType
         return $this;
     }
 }
+
 

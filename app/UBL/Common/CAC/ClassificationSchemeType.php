@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ClassificationSchemeType
@@ -979,4 +979,5 @@ class ClassificationSchemeType
         return $this;
     }
 }
+
 

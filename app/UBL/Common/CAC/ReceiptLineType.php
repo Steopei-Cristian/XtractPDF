@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ReceiptLineType
@@ -1498,4 +1498,5 @@ class ReceiptLineType
         return $this;
     }
 }
+
 

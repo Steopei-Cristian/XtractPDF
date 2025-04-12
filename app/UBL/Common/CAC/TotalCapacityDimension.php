@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing TotalCapacityDimension
@@ -8,4 +8,5 @@ namespace UBL\Common\CAC;
 class TotalCapacityDimension extends DimensionType
 {
 }
+
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing CreditAccountType
@@ -70,4 +70,5 @@ class CreditAccountType
         return $this;
     }
 }
+
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\CCTS;
+namespace App\UBL\CCTS;
 
 /**
  * Class representing TextType
@@ -163,4 +163,5 @@ class TextType
         return $this;
     }
 }
+
 

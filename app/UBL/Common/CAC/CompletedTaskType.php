@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing CompletedTaskType
@@ -523,4 +523,5 @@ class CompletedTaskType
         return $this;
     }
 }
+
 

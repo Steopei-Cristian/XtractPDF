@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CBC;
+namespace App\UBL\Common\CBC;
 
 /**
  * Class representing ComparisonForecastIssueDateType
@@ -49,4 +49,5 @@ class ComparisonForecastIssueDateType
         return strval($this->__value);
     }
 }
+
 

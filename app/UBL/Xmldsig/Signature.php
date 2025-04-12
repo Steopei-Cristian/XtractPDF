@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing Signature
@@ -8,4 +8,5 @@ namespace UBL\Xmldsig;
 class Signature extends SignatureType
 {
 }
+
 

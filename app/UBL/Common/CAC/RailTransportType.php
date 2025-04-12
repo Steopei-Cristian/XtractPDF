@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing RailTransportType
@@ -124,4 +124,5 @@ class RailTransportType
         return $this;
     }
 }
+
 

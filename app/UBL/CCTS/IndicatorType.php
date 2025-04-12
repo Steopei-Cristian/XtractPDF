@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\CCTS;
+namespace App\UBL\CCTS;
 
 /**
  * Class representing IndicatorType
@@ -109,4 +109,5 @@ class IndicatorType
         return $this;
     }
 }
+
 

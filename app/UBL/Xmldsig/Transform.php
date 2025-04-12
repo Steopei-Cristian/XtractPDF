@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing Transform
@@ -8,4 +8,5 @@ namespace UBL\Xmldsig;
 class Transform extends TransformType
 {
 }
+
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing DSAKeyValueType
@@ -199,4 +199,5 @@ class DSAKeyValueType
         return $this;
     }
 }
+
 

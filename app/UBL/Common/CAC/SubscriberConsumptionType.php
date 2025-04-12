@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing SubscriberConsumptionType
@@ -703,4 +703,5 @@ class SubscriberConsumptionType
         return $this;
     }
 }
+
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\Extension;
+namespace App\UBL\Common\Extension;
 
 use UBL\Unqualified\CodeType;
 
@@ -13,4 +13,5 @@ use UBL\Unqualified\CodeType;
 class ExtensionReasonCodeType extends CodeType
 {
 }
+
 

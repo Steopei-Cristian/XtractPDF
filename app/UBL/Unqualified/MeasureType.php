@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Unqualified;
+namespace App\UBL\Unqualified;
 
 use UBL\CCTS\MeasureType as MeasureTypeBase;
 
@@ -76,4 +76,5 @@ class MeasureType extends MeasureTypeBase
         return $this;
     }
 }
+
 

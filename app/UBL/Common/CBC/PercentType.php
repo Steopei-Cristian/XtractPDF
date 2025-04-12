@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CBC;
+namespace App\UBL\Common\CBC;
 
 use UBL\Unqualified\PercentType as PercentTypeBase;
 
@@ -13,4 +13,5 @@ use UBL\Unqualified\PercentType as PercentTypeBase;
 class PercentType extends PercentTypeBase
 {
 }
+
 

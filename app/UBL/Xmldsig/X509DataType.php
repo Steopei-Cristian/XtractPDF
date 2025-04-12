@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing X509DataType
@@ -325,4 +325,5 @@ class X509DataType
         return $this;
     }
 }
+
 

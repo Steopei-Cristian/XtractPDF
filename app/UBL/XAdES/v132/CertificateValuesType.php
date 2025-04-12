@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\XAdES\v132;
+namespace App\UBL\XAdES\v132;
 
 /**
  * Class representing CertificateValuesType
@@ -163,4 +163,5 @@ class CertificateValuesType
         return $this;
     }
 }
+
 

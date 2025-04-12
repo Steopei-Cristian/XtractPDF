@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CBC;
+namespace App\UBL\Common\CBC;
 
 /**
  * Class representing AdjustmentReasonCode
@@ -8,4 +8,5 @@ namespace UBL\Common\CBC;
 class AdjustmentReasonCode extends AdjustmentReasonCodeType
 {
 }
+
 

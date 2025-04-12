@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Unqualified;
+namespace App\UBL\Unqualified;
 
 /**
  * Class representing IndicatorType
@@ -55,4 +55,5 @@ class IndicatorType
         return strval($this->__value);
     }
 }
+
 

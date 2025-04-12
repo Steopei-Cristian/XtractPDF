@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing PromotionalSpecificationType
@@ -301,4 +301,5 @@ class PromotionalSpecificationType
         return $this;
     }
 }
+
 

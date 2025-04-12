@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing DeclarationType
@@ -418,4 +418,5 @@ class DeclarationType
         return $this;
     }
 }
+
 

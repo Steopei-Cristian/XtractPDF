@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\XAdES\v141;
+namespace App\UBL\XAdES\v141;
 
 /**
  * Class representing ValidationDataType
@@ -118,4 +118,5 @@ class ValidationDataType
         return $this;
     }
 }
+
 

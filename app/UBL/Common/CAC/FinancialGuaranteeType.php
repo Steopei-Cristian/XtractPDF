@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing FinancialGuaranteeType
@@ -349,4 +349,5 @@ class FinancialGuaranteeType
         return $this;
     }
 }
+
 

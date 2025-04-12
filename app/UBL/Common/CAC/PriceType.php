@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing PriceType
@@ -778,4 +778,5 @@ class PriceType
         return $this;
     }
 }
+
 

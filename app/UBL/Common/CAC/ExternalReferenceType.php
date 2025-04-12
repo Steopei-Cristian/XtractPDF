@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ExternalReferenceType
@@ -676,4 +676,5 @@ class ExternalReferenceType
         return $this;
     }
 }
+
 

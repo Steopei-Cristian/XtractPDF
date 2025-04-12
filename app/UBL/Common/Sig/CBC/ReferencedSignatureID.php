@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\SIG\CBC;
+namespace App\UBL\Common\SIG\CBC;
 
 /**
  * Class representing ReferencedSignatureID
@@ -8,4 +8,5 @@ namespace UBL\Common\SIG\CBC;
 class ReferencedSignatureID extends ReferencedSignatureIDType
 {
 }
+
 

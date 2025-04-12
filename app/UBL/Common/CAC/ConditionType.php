@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ConditionType
@@ -352,4 +352,5 @@ class ConditionType
         return $this;
     }
 }
+
 

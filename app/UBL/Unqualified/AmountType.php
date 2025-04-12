@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Unqualified;
+namespace App\UBL\Unqualified;
 
 use UBL\CCTS\AmountType as AmountTypeBase;
 
@@ -74,4 +74,5 @@ class AmountType extends AmountTypeBase
         return $this;
     }
 }
+
 

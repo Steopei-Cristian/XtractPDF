@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ContractingPartyTypeType
@@ -121,4 +121,5 @@ class ContractingPartyTypeType
         return $this;
     }
 }
+
 

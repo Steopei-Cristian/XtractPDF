@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CBC;
+namespace App\UBL\Common\CBC;
 
 /**
  * Class representing WebsiteURI
@@ -8,4 +8,5 @@ namespace UBL\Common\CBC;
 class WebsiteURI extends WebsiteURIType
 {
 }
+
 

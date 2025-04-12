@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Unqualified;
+namespace App\UBL\Unqualified;
 
 /**
  * Class representing DateTimeType
@@ -56,4 +56,5 @@ class DateTimeType
         return strval($this->__value);
     }
 }
+
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\Extension;
+namespace App\UBL\Common\Extension;
 
 /**
  * Class representing UBLExtensionType
@@ -340,4 +340,5 @@ class UBLExtensionType
         return $this;
     }
 }
+
 

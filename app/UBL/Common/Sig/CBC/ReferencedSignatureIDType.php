@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\SIG\CBC;
+namespace App\UBL\Common\SIG\CBC;
 
 use UBL\Unqualified\IdentifierType;
 
@@ -13,4 +13,5 @@ use UBL\Unqualified\IdentifierType;
 class ReferencedSignatureIDType extends IdentifierType
 {
 }
+
 

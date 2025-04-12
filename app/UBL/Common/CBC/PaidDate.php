@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CBC;
+namespace App\UBL\Common\CBC;
 
 /**
  * Class representing PaidDate
@@ -46,4 +46,5 @@ class PaidDate
         return strval($this->__value);
     }
 }
+
 

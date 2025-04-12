@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ItemLocationQuantityType
@@ -1015,4 +1015,5 @@ class ItemLocationQuantityType
         return $this;
     }
 }
+
 

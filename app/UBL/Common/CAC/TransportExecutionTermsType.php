@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing TransportExecutionTermsType
@@ -1072,4 +1072,5 @@ class TransportExecutionTermsType
         return $this;
     }
 }
+
 

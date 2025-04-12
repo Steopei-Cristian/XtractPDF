@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CBC;
+namespace App\UBL\Common\CBC;
 
 /**
  * Class representing RefrigeratedIndicator
@@ -46,4 +46,5 @@ class RefrigeratedIndicator
         return strval($this->__value);
     }
 }
+
 

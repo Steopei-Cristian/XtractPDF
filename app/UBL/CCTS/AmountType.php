@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\CCTS;
+namespace App\UBL\CCTS;
 
 /**
  * Class representing AmountType
@@ -166,4 +166,5 @@ class AmountType
         return $this;
     }
 }
+
 

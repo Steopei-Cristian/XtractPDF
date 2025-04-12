@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CBC;
+namespace App\UBL\Common\CBC;
 
 use UBL\Unqualified\NumericType;
 
@@ -13,4 +13,5 @@ use UBL\Unqualified\NumericType;
 class SequenceNumericType extends NumericType
 {
 }
+
 

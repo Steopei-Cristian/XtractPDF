@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\Extension;
+namespace App\UBL\Common\Extension;
 
 /**
  * Class representing UBLExtensions
@@ -10,4 +10,5 @@ namespace UBL\Common\Extension;
 class UBLExtensions extends UBLExtensionsType
 {
 }
+
 

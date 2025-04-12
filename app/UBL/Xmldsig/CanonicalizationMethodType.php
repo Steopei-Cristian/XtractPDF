@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing CanonicalizationMethodType
@@ -37,4 +37,5 @@ class CanonicalizationMethodType
         return $this;
     }
 }
+
 

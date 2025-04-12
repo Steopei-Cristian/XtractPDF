@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ShipmentStageType
@@ -4198,4 +4198,5 @@ class ShipmentStageType
         return $this;
     }
 }
+
 

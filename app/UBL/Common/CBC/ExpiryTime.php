@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CBC;
+namespace App\UBL\Common\CBC;
 
 /**
  * Class representing ExpiryTime
@@ -46,4 +46,5 @@ class ExpiryTime
         return strval($this->__value);
     }
 }
+
 

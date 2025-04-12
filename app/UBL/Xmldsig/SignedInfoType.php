@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing SignedInfoType
@@ -154,4 +154,5 @@ class SignedInfoType
         return $this;
     }
 }
+
 

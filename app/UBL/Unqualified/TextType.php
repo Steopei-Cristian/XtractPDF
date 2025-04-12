@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Unqualified;
+namespace App\UBL\Unqualified;
 
 use UBL\CCTS\TextType as TextTypeBase;
 
@@ -19,4 +19,5 @@ use UBL\CCTS\TextType as TextTypeBase;
 class TextType extends TextTypeBase
 {
 }
+
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing TenderRequirementType
@@ -241,4 +241,5 @@ class TenderRequirementType
         return $this;
     }
 }
+
 

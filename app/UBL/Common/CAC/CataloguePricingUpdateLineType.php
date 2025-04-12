@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing CataloguePricingUpdateLineType
@@ -307,4 +307,5 @@ class CataloguePricingUpdateLineType
         return $this;
     }
 }
+
 

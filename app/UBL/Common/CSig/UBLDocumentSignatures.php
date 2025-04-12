@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CSig;
+namespace App\UBL\Common\CSig;
 
 /**
  * Class representing UBLDocumentSignatures
@@ -8,4 +8,5 @@ namespace UBL\Common\CSig;
 class UBLDocumentSignatures extends UBLDocumentSignaturesType
 {
 }
+
 

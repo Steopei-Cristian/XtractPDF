@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Invoice;
+namespace App\UBL\Invoice;
 
 /**
  * Class representing Invoice
@@ -10,4 +10,5 @@ namespace UBL\Invoice;
 class Invoice extends InvoiceType
 {
 }
+
 

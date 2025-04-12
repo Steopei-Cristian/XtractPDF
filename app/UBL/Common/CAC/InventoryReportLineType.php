@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing InventoryReportLineType
@@ -514,4 +514,5 @@ class InventoryReportLineType
         return $this;
     }
 }
+
 

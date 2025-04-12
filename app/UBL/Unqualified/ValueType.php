@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Unqualified;
+namespace App\UBL\Unqualified;
 
 use UBL\CCTS\NumericType;
 
@@ -19,4 +19,5 @@ use UBL\CCTS\NumericType;
 class ValueType extends NumericType
 {
 }
+
 

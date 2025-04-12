@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing SignaturePropertiesType
@@ -100,4 +100,5 @@ class SignaturePropertiesType
         return $this;
     }
 }
+
 

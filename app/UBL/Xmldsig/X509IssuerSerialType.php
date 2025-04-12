@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing X509IssuerSerialType
@@ -64,4 +64,5 @@ class X509IssuerSerialType
         return $this;
     }
 }
+
 

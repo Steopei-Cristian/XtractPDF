@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Invoice;
+namespace App\UBL\Invoice;
 
 /**
  * Class representing InvoiceType
@@ -4286,4 +4286,5 @@ class InvoiceType
         return $this;
     }
 }
+
 

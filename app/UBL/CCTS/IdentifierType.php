@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\CCTS;
+namespace App\UBL\CCTS;
 
 /**
  * Class representing IdentifierType
@@ -436,4 +436,5 @@ class IdentifierType
         return $this;
     }
 }
+
 

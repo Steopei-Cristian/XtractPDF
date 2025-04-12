@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ConsignmentType
@@ -7348,4 +7348,5 @@ class ConsignmentType
         return $this;
     }
 }
+
 

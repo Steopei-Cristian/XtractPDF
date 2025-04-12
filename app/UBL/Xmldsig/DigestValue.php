@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing DigestValue
@@ -46,4 +46,5 @@ class DigestValue
         return strval($this->__value);
     }
 }
+
 

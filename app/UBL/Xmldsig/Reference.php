@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing Reference
@@ -8,4 +8,5 @@ namespace UBL\Xmldsig;
 class Reference extends ReferenceType
 {
 }
+
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\XAdES\v141;
+namespace App\UBL\XAdES\v141;
 
 use UBL\XAdES\v132\XAdESTimeStampType;
 
@@ -10,4 +10,5 @@ use UBL\XAdES\v132\XAdESTimeStampType;
 class ArchiveTimeStampV2 extends XAdESTimeStampType
 {
 }
+
 

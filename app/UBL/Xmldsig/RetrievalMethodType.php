@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing RetrievalMethodType
@@ -125,4 +125,5 @@ class RetrievalMethodType
         return $this;
     }
 }
+
 

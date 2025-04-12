@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\Extension;
+namespace App\UBL\Common\Extension;
 
 /**
  * Class representing ExtensionVersionID
@@ -8,4 +8,5 @@ namespace UBL\Common\Extension;
 class ExtensionVersionID extends ExtensionVersionIDType
 {
 }
+
 

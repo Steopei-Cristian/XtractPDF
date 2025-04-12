@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\SIG\CAC;
+namespace App\UBL\Common\SIG\CAC;
 
 /**
  * Class representing SignatureInformationType
@@ -154,4 +154,5 @@ class SignatureInformationType
         return $this;
     }
 }
+
 

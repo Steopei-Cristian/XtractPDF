@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing RequestForTenderLineType
@@ -1231,4 +1231,5 @@ class RequestForTenderLineType
         return $this;
     }
 }
+
 

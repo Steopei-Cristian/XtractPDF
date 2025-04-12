@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing TaxCategoryType
@@ -628,4 +628,5 @@ class TaxCategoryType
         return $this;
     }
 }
+
 

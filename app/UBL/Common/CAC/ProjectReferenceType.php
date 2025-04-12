@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ProjectReferenceType
@@ -292,4 +292,5 @@ class ProjectReferenceType
         return $this;
     }
 }
+
 

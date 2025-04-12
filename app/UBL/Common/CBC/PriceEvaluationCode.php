@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CBC;
+namespace App\UBL\Common\CBC;
 
 /**
  * Class representing PriceEvaluationCode
@@ -8,4 +8,5 @@ namespace UBL\Common\CBC;
 class PriceEvaluationCode extends PriceEvaluationCodeType
 {
 }
+
 

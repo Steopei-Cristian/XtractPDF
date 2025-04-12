@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing SignatureValueType
@@ -76,4 +76,5 @@ class SignatureValueType
         return $this;
     }
 }
+
 

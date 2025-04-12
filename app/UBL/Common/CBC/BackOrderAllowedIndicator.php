@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CBC;
+namespace App\UBL\Common\CBC;
 
 /**
  * Class representing BackOrderAllowedIndicator
@@ -46,4 +46,5 @@ class BackOrderAllowedIndicator
         return strval($this->__value);
     }
 }
+
 

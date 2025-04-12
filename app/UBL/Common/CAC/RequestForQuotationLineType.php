@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing RequestForQuotationLineType
@@ -574,4 +574,5 @@ class RequestForQuotationLineType
         return $this;
     }
 }
+
 

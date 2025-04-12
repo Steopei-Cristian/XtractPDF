@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\SIG\CAC;
+namespace App\UBL\Common\SIG\CAC;
 
 /**
  * Class representing SignatureInformation
@@ -8,4 +8,5 @@ namespace UBL\Common\SIG\CAC;
 class SignatureInformation extends SignatureInformationType
 {
 }
+
 

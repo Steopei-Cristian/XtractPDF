@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Xmldsig;
+namespace App\UBL\Xmldsig;
 
 /**
  * Class representing ObjectType
@@ -91,4 +91,5 @@ class ObjectType
         return $this;
     }
 }
+
 

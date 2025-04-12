@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\CCTS;
+namespace App\UBL\CCTS;
 
 /**
  * Class representing BinaryObjectType
@@ -379,4 +379,5 @@ class BinaryObjectType
         return $this;
     }
 }
+
 

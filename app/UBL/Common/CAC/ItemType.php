@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing ItemType
@@ -2858,4 +2858,5 @@ class ItemType
         return $this;
     }
 }
+
 

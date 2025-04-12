@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing CatalogueReferenceType
@@ -694,4 +694,5 @@ class CatalogueReferenceType
         return $this;
     }
 }
+
 

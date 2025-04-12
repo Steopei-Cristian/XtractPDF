@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Unqualified;
+namespace App\UBL\Unqualified;
 
 use UBL\CCTS\BinaryObjectType as BinaryObjectTypeBase;
 
@@ -72,4 +72,5 @@ class BinaryObjectType extends BinaryObjectTypeBase
         return $this;
     }
 }
+
 

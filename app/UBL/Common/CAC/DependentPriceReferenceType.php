@@ -1,6 +1,6 @@
 <?php
 
-namespace UBL\Common\CAC;
+namespace App\UBL\Common\CAC;
 
 /**
  * Class representing DependentPriceReferenceType
@@ -181,4 +181,5 @@ class DependentPriceReferenceType
         return $this;
     }
 }
+
 
