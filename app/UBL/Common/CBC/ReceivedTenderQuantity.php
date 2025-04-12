@@ -9,4 +9,3 @@ class ReceivedTenderQuantity extends ReceivedTenderQuantityType
 {
 }
 
-

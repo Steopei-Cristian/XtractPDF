@@ -23,7 +23,7 @@ class EvidenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class EvidenceType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\EvidenceTypeCode $evidenceTypeCode
+     * @var \App\UBL\Common\CBC\EvidenceTypeCode $evidenceTypeCode
      */
     private $evidenceTypeCode = null;
 
@@ -51,7 +51,7 @@ class EvidenceType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -68,7 +68,7 @@ class EvidenceType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\CandidateStatement[] $candidateStatement
+     * @var \App\UBL\Common\CBC\CandidateStatement[] $candidateStatement
      */
     private $candidateStatement = [
         
@@ -85,7 +85,7 @@ class EvidenceType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\EvidenceIssuingParty $evidenceIssuingParty
+     * @var \App\UBL\Common\CAC\EvidenceIssuingParty $evidenceIssuingParty
      */
     private $evidenceIssuingParty = null;
 
@@ -99,7 +99,7 @@ class EvidenceType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference $documentReference
      */
     private $documentReference = null;
 
@@ -113,7 +113,7 @@ class EvidenceType
      *  Language
      *  Language
      *
-     * @var \UBL\Common\CAC\Language $language
+     * @var \App\UBL\Common\CAC\Language $language
      */
     private $language = null;
 
@@ -129,7 +129,7 @@ class EvidenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -148,10 +148,10 @@ class EvidenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -169,7 +169,7 @@ class EvidenceType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\EvidenceTypeCode
+     * @return \App\UBL\Common\CBC\EvidenceTypeCode
      */
     public function getEvidenceTypeCode()
     {
@@ -188,10 +188,10 @@ class EvidenceType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\EvidenceTypeCode $evidenceTypeCode
+     * @param \App\UBL\Common\CBC\EvidenceTypeCode $evidenceTypeCode
      * @return self
      */
-    public function setEvidenceTypeCode(?\UBL\Common\CBC\EvidenceTypeCode $evidenceTypeCode = null)
+    public function setEvidenceTypeCode(?\App\UBL\Common\CBC\EvidenceTypeCode $evidenceTypeCode = null)
     {
         $this->evidenceTypeCode = $evidenceTypeCode;
         return $this;
@@ -210,9 +210,9 @@ class EvidenceType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -270,7 +270,7 @@ class EvidenceType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -289,7 +289,7 @@ class EvidenceType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -312,9 +312,9 @@ class EvidenceType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\CandidateStatement $candidateStatement
+     * @param \App\UBL\Common\CBC\CandidateStatement $candidateStatement
      */
-    public function addToCandidateStatement(\UBL\Common\CBC\CandidateStatement $candidateStatement)
+    public function addToCandidateStatement(\App\UBL\Common\CBC\CandidateStatement $candidateStatement)
     {
         $this->candidateStatement[] = $candidateStatement;
         return $this;
@@ -375,7 +375,7 @@ class EvidenceType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\CandidateStatement[]
+     * @return \App\UBL\Common\CBC\CandidateStatement[]
      */
     public function getCandidateStatement()
     {
@@ -395,7 +395,7 @@ class EvidenceType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\CandidateStatement[] $candidateStatement
+     * @param \App\UBL\Common\CBC\CandidateStatement[] $candidateStatement
      * @return self
      */
     public function setCandidateStatement(?array $candidateStatement = null)
@@ -417,7 +417,7 @@ class EvidenceType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\EvidenceIssuingParty
+     * @return \App\UBL\Common\CAC\EvidenceIssuingParty
      */
     public function getEvidenceIssuingParty()
     {
@@ -437,10 +437,10 @@ class EvidenceType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\EvidenceIssuingParty $evidenceIssuingParty
+     * @param \App\UBL\Common\CAC\EvidenceIssuingParty $evidenceIssuingParty
      * @return self
      */
-    public function setEvidenceIssuingParty(?\UBL\Common\CAC\EvidenceIssuingParty $evidenceIssuingParty = null)
+    public function setEvidenceIssuingParty(?\App\UBL\Common\CAC\EvidenceIssuingParty $evidenceIssuingParty = null)
     {
         $this->evidenceIssuingParty = $evidenceIssuingParty;
         return $this;
@@ -458,7 +458,7 @@ class EvidenceType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference
+     * @return \App\UBL\Common\CAC\DocumentReference
      */
     public function getDocumentReference()
     {
@@ -477,10 +477,10 @@ class EvidenceType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      * @return self
      */
-    public function setDocumentReference(?\UBL\Common\CAC\DocumentReference $documentReference = null)
+    public function setDocumentReference(?\App\UBL\Common\CAC\DocumentReference $documentReference = null)
     {
         $this->documentReference = $documentReference;
         return $this;
@@ -498,7 +498,7 @@ class EvidenceType
      *  Language
      *  Language
      *
-     * @return \UBL\Common\CAC\Language
+     * @return \App\UBL\Common\CAC\Language
      */
     public function getLanguage()
     {
@@ -517,14 +517,13 @@ class EvidenceType
      *  Language
      *  Language
      *
-     * @param \UBL\Common\CAC\Language $language
+     * @param \App\UBL\Common\CAC\Language $language
      * @return self
      */
-    public function setLanguage(?\UBL\Common\CAC\Language $language = null)
+    public function setLanguage(?\App\UBL\Common\CAC\Language $language = null)
     {
         $this->language = $language;
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class TransportUserSpecialTerms extends TransportUserSpecialTermsType
 {
 }
 
-

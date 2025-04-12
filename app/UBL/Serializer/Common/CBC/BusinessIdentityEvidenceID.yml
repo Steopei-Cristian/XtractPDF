@@ -1,3 +1,3 @@
-UBL\Common\CBC\BusinessIdentityEvidenceID:
+App\UBL\Common\CBC\BusinessIdentityEvidenceID:
     xml_root_name: BusinessIdentityEvidenceID
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

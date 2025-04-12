@@ -25,7 +25,7 @@ class CustomsDeclarationType
      *  Identifier. Type
      *  CUST001 3333-44-123
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -40,7 +40,7 @@ class CustomsDeclarationType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\IssuerParty $issuerParty
+     * @var \App\UBL\Common\CAC\IssuerParty $issuerParty
      */
     private $issuerParty = null;
 
@@ -57,7 +57,7 @@ class CustomsDeclarationType
      *  Identifier. Type
      *  CUST001 3333-44-123
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -77,10 +77,10 @@ class CustomsDeclarationType
      *  Identifier. Type
      *  CUST001 3333-44-123
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -99,7 +99,7 @@ class CustomsDeclarationType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\IssuerParty
+     * @return \App\UBL\Common\CAC\IssuerParty
      */
     public function getIssuerParty()
     {
@@ -119,14 +119,13 @@ class CustomsDeclarationType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\IssuerParty $issuerParty
+     * @param \App\UBL\Common\CAC\IssuerParty $issuerParty
      * @return self
      */
-    public function setIssuerParty(?\UBL\Common\CAC\IssuerParty $issuerParty = null)
+    public function setIssuerParty(?\App\UBL\Common\CAC\IssuerParty $issuerParty = null)
     {
         $this->issuerParty = $issuerParty;
         return $this;
     }
 }
-
 

@@ -1,4 +1,4 @@
-UBL\Common\CBC\ActualDespatchTime:
+App\UBL\Common\CBC\ActualDespatchTime:
     xml_root_name: ActualDespatchTime
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

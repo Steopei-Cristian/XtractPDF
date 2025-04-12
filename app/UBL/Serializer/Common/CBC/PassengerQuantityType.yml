@@ -1,2 +1,2 @@
-UBL\Common\CBC\PassengerQuantityType:
+App\UBL\Common\CBC\PassengerQuantityType:
     properties: {  }

@@ -1,4 +1,4 @@
-UBL\XAdES\v132\DocumentationReferencesType:
+App\UBL\XAdES\v132\DocumentationReferencesType:
     properties:
         documentationReference:
             expose: true

@@ -24,7 +24,7 @@ class TenderResultType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TenderResultCode $tenderResultCode
+     * @var \App\UBL\Common\CBC\TenderResultCode $tenderResultCode
      */
     private $tenderResultCode = null;
 
@@ -38,7 +38,7 @@ class TenderResultType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -54,7 +54,7 @@ class TenderResultType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\AdvertisementAmount $advertisementAmount
+     * @var \App\UBL\Common\CBC\AdvertisementAmount $advertisementAmount
      */
     private $advertisementAmount = null;
 
@@ -97,7 +97,7 @@ class TenderResultType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ReceivedTenderQuantity $receivedTenderQuantity
+     * @var \App\UBL\Common\CBC\ReceivedTenderQuantity $receivedTenderQuantity
      */
     private $receivedTenderQuantity = null;
 
@@ -112,7 +112,7 @@ class TenderResultType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\LowerTenderAmount $lowerTenderAmount
+     * @var \App\UBL\Common\CBC\LowerTenderAmount $lowerTenderAmount
      */
     private $lowerTenderAmount = null;
 
@@ -127,7 +127,7 @@ class TenderResultType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\HigherTenderAmount $higherTenderAmount
+     * @var \App\UBL\Common\CBC\HigherTenderAmount $higherTenderAmount
      */
     private $higherTenderAmount = null;
 
@@ -156,7 +156,7 @@ class TenderResultType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ReceivedElectronicTenderQuantity $receivedElectronicTenderQuantity
+     * @var \App\UBL\Common\CBC\ReceivedElectronicTenderQuantity $receivedElectronicTenderQuantity
      */
     private $receivedElectronicTenderQuantity = null;
 
@@ -171,7 +171,7 @@ class TenderResultType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ReceivedForeignTenderQuantity $receivedForeignTenderQuantity
+     * @var \App\UBL\Common\CBC\ReceivedForeignTenderQuantity $receivedForeignTenderQuantity
      */
     private $receivedForeignTenderQuantity = null;
 
@@ -185,7 +185,7 @@ class TenderResultType
      *  Contract
      *  Contract
      *
-     * @var \UBL\Common\CAC\Contract $contract
+     * @var \App\UBL\Common\CAC\Contract $contract
      */
     private $contract = null;
 
@@ -200,7 +200,7 @@ class TenderResultType
      *  Tendered Project
      *  Tendered Project
      *
-     * @var \UBL\Common\CAC\AwardedTenderedProject $awardedTenderedProject
+     * @var \App\UBL\Common\CAC\AwardedTenderedProject $awardedTenderedProject
      */
     private $awardedTenderedProject = null;
 
@@ -215,7 +215,7 @@ class TenderResultType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ContractFormalizationPeriod $contractFormalizationPeriod
+     * @var \App\UBL\Common\CAC\ContractFormalizationPeriod $contractFormalizationPeriod
      */
     private $contractFormalizationPeriod = null;
 
@@ -229,7 +229,7 @@ class TenderResultType
      *  Subcontract Terms
      *  Subcontract Terms
      *
-     * @var \UBL\Common\CAC\SubcontractTerms[] $subcontractTerms
+     * @var \App\UBL\Common\CAC\SubcontractTerms[] $subcontractTerms
      */
     private $subcontractTerms = [
         
@@ -245,7 +245,7 @@ class TenderResultType
      *  Winning Party
      *  Winning Party
      *
-     * @var \UBL\Common\CAC\WinningParty[] $winningParty
+     * @var \App\UBL\Common\CAC\WinningParty[] $winningParty
      */
     private $winningParty = [
         
@@ -264,7 +264,7 @@ class TenderResultType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TenderResultCode
+     * @return \App\UBL\Common\CBC\TenderResultCode
      */
     public function getTenderResultCode()
     {
@@ -284,10 +284,10 @@ class TenderResultType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TenderResultCode $tenderResultCode
+     * @param \App\UBL\Common\CBC\TenderResultCode $tenderResultCode
      * @return self
      */
-    public function setTenderResultCode(?\UBL\Common\CBC\TenderResultCode $tenderResultCode = null)
+    public function setTenderResultCode(?\App\UBL\Common\CBC\TenderResultCode $tenderResultCode = null)
     {
         $this->tenderResultCode = $tenderResultCode;
         return $this;
@@ -306,9 +306,9 @@ class TenderResultType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -366,7 +366,7 @@ class TenderResultType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -385,7 +385,7 @@ class TenderResultType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -406,7 +406,7 @@ class TenderResultType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\AdvertisementAmount
+     * @return \App\UBL\Common\CBC\AdvertisementAmount
      */
     public function getAdvertisementAmount()
     {
@@ -425,10 +425,10 @@ class TenderResultType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\AdvertisementAmount $advertisementAmount
+     * @param \App\UBL\Common\CBC\AdvertisementAmount $advertisementAmount
      * @return self
      */
-    public function setAdvertisementAmount(?\UBL\Common\CBC\AdvertisementAmount $advertisementAmount = null)
+    public function setAdvertisementAmount(?\App\UBL\Common\CBC\AdvertisementAmount $advertisementAmount = null)
     {
         $this->advertisementAmount = $advertisementAmount;
         return $this;
@@ -527,7 +527,7 @@ class TenderResultType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ReceivedTenderQuantity
+     * @return \App\UBL\Common\CBC\ReceivedTenderQuantity
      */
     public function getReceivedTenderQuantity()
     {
@@ -547,10 +547,10 @@ class TenderResultType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ReceivedTenderQuantity $receivedTenderQuantity
+     * @param \App\UBL\Common\CBC\ReceivedTenderQuantity $receivedTenderQuantity
      * @return self
      */
-    public function setReceivedTenderQuantity(?\UBL\Common\CBC\ReceivedTenderQuantity $receivedTenderQuantity = null)
+    public function setReceivedTenderQuantity(?\App\UBL\Common\CBC\ReceivedTenderQuantity $receivedTenderQuantity = null)
     {
         $this->receivedTenderQuantity = $receivedTenderQuantity;
         return $this;
@@ -569,7 +569,7 @@ class TenderResultType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\LowerTenderAmount
+     * @return \App\UBL\Common\CBC\LowerTenderAmount
      */
     public function getLowerTenderAmount()
     {
@@ -589,10 +589,10 @@ class TenderResultType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\LowerTenderAmount $lowerTenderAmount
+     * @param \App\UBL\Common\CBC\LowerTenderAmount $lowerTenderAmount
      * @return self
      */
-    public function setLowerTenderAmount(?\UBL\Common\CBC\LowerTenderAmount $lowerTenderAmount = null)
+    public function setLowerTenderAmount(?\App\UBL\Common\CBC\LowerTenderAmount $lowerTenderAmount = null)
     {
         $this->lowerTenderAmount = $lowerTenderAmount;
         return $this;
@@ -611,7 +611,7 @@ class TenderResultType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\HigherTenderAmount
+     * @return \App\UBL\Common\CBC\HigherTenderAmount
      */
     public function getHigherTenderAmount()
     {
@@ -631,10 +631,10 @@ class TenderResultType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\HigherTenderAmount $higherTenderAmount
+     * @param \App\UBL\Common\CBC\HigherTenderAmount $higherTenderAmount
      * @return self
      */
-    public function setHigherTenderAmount(?\UBL\Common\CBC\HigherTenderAmount $higherTenderAmount = null)
+    public function setHigherTenderAmount(?\App\UBL\Common\CBC\HigherTenderAmount $higherTenderAmount = null)
     {
         $this->higherTenderAmount = $higherTenderAmount;
         return $this;
@@ -693,7 +693,7 @@ class TenderResultType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ReceivedElectronicTenderQuantity
+     * @return \App\UBL\Common\CBC\ReceivedElectronicTenderQuantity
      */
     public function getReceivedElectronicTenderQuantity()
     {
@@ -713,10 +713,10 @@ class TenderResultType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ReceivedElectronicTenderQuantity $receivedElectronicTenderQuantity
+     * @param \App\UBL\Common\CBC\ReceivedElectronicTenderQuantity $receivedElectronicTenderQuantity
      * @return self
      */
-    public function setReceivedElectronicTenderQuantity(?\UBL\Common\CBC\ReceivedElectronicTenderQuantity $receivedElectronicTenderQuantity = null)
+    public function setReceivedElectronicTenderQuantity(?\App\UBL\Common\CBC\ReceivedElectronicTenderQuantity $receivedElectronicTenderQuantity = null)
     {
         $this->receivedElectronicTenderQuantity = $receivedElectronicTenderQuantity;
         return $this;
@@ -735,7 +735,7 @@ class TenderResultType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ReceivedForeignTenderQuantity
+     * @return \App\UBL\Common\CBC\ReceivedForeignTenderQuantity
      */
     public function getReceivedForeignTenderQuantity()
     {
@@ -755,10 +755,10 @@ class TenderResultType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ReceivedForeignTenderQuantity $receivedForeignTenderQuantity
+     * @param \App\UBL\Common\CBC\ReceivedForeignTenderQuantity $receivedForeignTenderQuantity
      * @return self
      */
-    public function setReceivedForeignTenderQuantity(?\UBL\Common\CBC\ReceivedForeignTenderQuantity $receivedForeignTenderQuantity = null)
+    public function setReceivedForeignTenderQuantity(?\App\UBL\Common\CBC\ReceivedForeignTenderQuantity $receivedForeignTenderQuantity = null)
     {
         $this->receivedForeignTenderQuantity = $receivedForeignTenderQuantity;
         return $this;
@@ -776,7 +776,7 @@ class TenderResultType
      *  Contract
      *  Contract
      *
-     * @return \UBL\Common\CAC\Contract
+     * @return \App\UBL\Common\CAC\Contract
      */
     public function getContract()
     {
@@ -795,10 +795,10 @@ class TenderResultType
      *  Contract
      *  Contract
      *
-     * @param \UBL\Common\CAC\Contract $contract
+     * @param \App\UBL\Common\CAC\Contract $contract
      * @return self
      */
-    public function setContract(?\UBL\Common\CAC\Contract $contract = null)
+    public function setContract(?\App\UBL\Common\CAC\Contract $contract = null)
     {
         $this->contract = $contract;
         return $this;
@@ -817,7 +817,7 @@ class TenderResultType
      *  Tendered Project
      *  Tendered Project
      *
-     * @return \UBL\Common\CAC\AwardedTenderedProject
+     * @return \App\UBL\Common\CAC\AwardedTenderedProject
      */
     public function getAwardedTenderedProject()
     {
@@ -837,10 +837,10 @@ class TenderResultType
      *  Tendered Project
      *  Tendered Project
      *
-     * @param \UBL\Common\CAC\AwardedTenderedProject $awardedTenderedProject
+     * @param \App\UBL\Common\CAC\AwardedTenderedProject $awardedTenderedProject
      * @return self
      */
-    public function setAwardedTenderedProject(?\UBL\Common\CAC\AwardedTenderedProject $awardedTenderedProject = null)
+    public function setAwardedTenderedProject(?\App\UBL\Common\CAC\AwardedTenderedProject $awardedTenderedProject = null)
     {
         $this->awardedTenderedProject = $awardedTenderedProject;
         return $this;
@@ -859,7 +859,7 @@ class TenderResultType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ContractFormalizationPeriod
+     * @return \App\UBL\Common\CAC\ContractFormalizationPeriod
      */
     public function getContractFormalizationPeriod()
     {
@@ -879,10 +879,10 @@ class TenderResultType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ContractFormalizationPeriod $contractFormalizationPeriod
+     * @param \App\UBL\Common\CAC\ContractFormalizationPeriod $contractFormalizationPeriod
      * @return self
      */
-    public function setContractFormalizationPeriod(?\UBL\Common\CAC\ContractFormalizationPeriod $contractFormalizationPeriod = null)
+    public function setContractFormalizationPeriod(?\App\UBL\Common\CAC\ContractFormalizationPeriod $contractFormalizationPeriod = null)
     {
         $this->contractFormalizationPeriod = $contractFormalizationPeriod;
         return $this;
@@ -901,9 +901,9 @@ class TenderResultType
      *  Subcontract Terms
      *
      * @return self
-     * @param \UBL\Common\CAC\SubcontractTerms $subcontractTerms
+     * @param \App\UBL\Common\CAC\SubcontractTerms $subcontractTerms
      */
-    public function addToSubcontractTerms(\UBL\Common\CAC\SubcontractTerms $subcontractTerms)
+    public function addToSubcontractTerms(\App\UBL\Common\CAC\SubcontractTerms $subcontractTerms)
     {
         $this->subcontractTerms[] = $subcontractTerms;
         return $this;
@@ -961,7 +961,7 @@ class TenderResultType
      *  Subcontract Terms
      *  Subcontract Terms
      *
-     * @return \UBL\Common\CAC\SubcontractTerms[]
+     * @return \App\UBL\Common\CAC\SubcontractTerms[]
      */
     public function getSubcontractTerms()
     {
@@ -980,7 +980,7 @@ class TenderResultType
      *  Subcontract Terms
      *  Subcontract Terms
      *
-     * @param \UBL\Common\CAC\SubcontractTerms[] $subcontractTerms
+     * @param \App\UBL\Common\CAC\SubcontractTerms[] $subcontractTerms
      * @return self
      */
     public function setSubcontractTerms(?array $subcontractTerms = null)
@@ -1002,9 +1002,9 @@ class TenderResultType
      *  Winning Party
      *
      * @return self
-     * @param \UBL\Common\CAC\WinningParty $winningParty
+     * @param \App\UBL\Common\CAC\WinningParty $winningParty
      */
-    public function addToWinningParty(\UBL\Common\CAC\WinningParty $winningParty)
+    public function addToWinningParty(\App\UBL\Common\CAC\WinningParty $winningParty)
     {
         $this->winningParty[] = $winningParty;
         return $this;
@@ -1062,7 +1062,7 @@ class TenderResultType
      *  Winning Party
      *  Winning Party
      *
-     * @return \UBL\Common\CAC\WinningParty[]
+     * @return \App\UBL\Common\CAC\WinningParty[]
      */
     public function getWinningParty()
     {
@@ -1081,7 +1081,7 @@ class TenderResultType
      *  Winning Party
      *  Winning Party
      *
-     * @param \UBL\Common\CAC\WinningParty[] $winningParty
+     * @param \App\UBL\Common\CAC\WinningParty[] $winningParty
      * @return self
      */
     public function setWinningParty(?array $winningParty = null)
@@ -1090,5 +1090,4 @@ class TenderResultType
         return $this;
     }
 }
-
 

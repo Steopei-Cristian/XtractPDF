@@ -9,4 +9,3 @@ class SupplyChainActivityDataLine extends ActivityDataLineType
 {
 }
 
-

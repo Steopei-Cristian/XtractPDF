@@ -9,4 +9,3 @@ class NegotiationDescription extends NegotiationDescriptionType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ContractorCustomerParty extends CustomerPartyType
 {
 }
 
-

@@ -9,4 +9,3 @@ class LatitudeDirectionCode extends LatitudeDirectionCodeType
 {
 }
 
-

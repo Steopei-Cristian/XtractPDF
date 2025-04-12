@@ -23,7 +23,7 @@ class PromotionalEventLineItemType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\Amount $amount
+     * @var \App\UBL\Common\CBC\Amount $amount
      */
     private $amount = null;
 
@@ -37,7 +37,7 @@ class PromotionalEventLineItemType
      *  Event Line Item
      *  Event Line Item
      *
-     * @var \UBL\Common\CAC\EventLineItem $eventLineItem
+     * @var \App\UBL\Common\CAC\EventLineItem $eventLineItem
      */
     private $eventLineItem = null;
 
@@ -53,7 +53,7 @@ class PromotionalEventLineItemType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\Amount
+     * @return \App\UBL\Common\CBC\Amount
      */
     public function getAmount()
     {
@@ -72,10 +72,10 @@ class PromotionalEventLineItemType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\Amount $amount
+     * @param \App\UBL\Common\CBC\Amount $amount
      * @return self
      */
-    public function setAmount(\UBL\Common\CBC\Amount $amount)
+    public function setAmount(\App\UBL\Common\CBC\Amount $amount)
     {
         $this->amount = $amount;
         return $this;
@@ -93,7 +93,7 @@ class PromotionalEventLineItemType
      *  Event Line Item
      *  Event Line Item
      *
-     * @return \UBL\Common\CAC\EventLineItem
+     * @return \App\UBL\Common\CAC\EventLineItem
      */
     public function getEventLineItem()
     {
@@ -112,14 +112,13 @@ class PromotionalEventLineItemType
      *  Event Line Item
      *  Event Line Item
      *
-     * @param \UBL\Common\CAC\EventLineItem $eventLineItem
+     * @param \App\UBL\Common\CAC\EventLineItem $eventLineItem
      * @return self
      */
-    public function setEventLineItem(\UBL\Common\CAC\EventLineItem $eventLineItem)
+    public function setEventLineItem(\App\UBL\Common\CAC\EventLineItem $eventLineItem)
     {
         $this->eventLineItem = $eventLineItem;
         return $this;
     }
 }
-
 

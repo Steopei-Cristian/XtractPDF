@@ -9,4 +9,3 @@ class RequestedStatusPeriod extends PeriodType
 {
 }
 
-

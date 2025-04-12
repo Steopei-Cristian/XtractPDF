@@ -1,4 +1,4 @@
-UBL\Common\CSig\UBLDocumentSignaturesType:
+App\UBL\Common\CSig\UBLDocumentSignaturesType:
     properties:
         signatureInformation:
             expose: true
@@ -13,4 +13,4 @@ UBL\Common\CSig\UBLDocumentSignaturesType:
                 inline: true
                 entry_name: SignatureInformation
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2'
-            type: array<UBL\Common\SIG\CAC\SignatureInformation>
+            type: array<App\UBL\Common\SIG\CAC\SignatureInformation>

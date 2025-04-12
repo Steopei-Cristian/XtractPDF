@@ -9,4 +9,3 @@ class LineNumberNumeric extends LineNumberNumericType
 {
 }
 
-

@@ -9,4 +9,3 @@ class CreditNoteLine extends CreditNoteLineType
 {
 }
 
-

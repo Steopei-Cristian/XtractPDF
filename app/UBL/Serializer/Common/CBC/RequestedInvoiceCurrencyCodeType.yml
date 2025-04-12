@@ -1,2 +1,2 @@
-UBL\Common\CBC\RequestedInvoiceCurrencyCodeType:
+App\UBL\Common\CBC\RequestedInvoiceCurrencyCodeType:
     properties: {  }

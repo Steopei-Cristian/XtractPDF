@@ -9,4 +9,3 @@ class FloorSpaceMeasurementDimension extends DimensionType
 {
 }
 
-

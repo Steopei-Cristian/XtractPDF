@@ -9,4 +9,3 @@ class ExtensionReasonCode extends ExtensionReasonCodeType
 {
 }
 
-

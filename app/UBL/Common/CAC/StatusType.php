@@ -23,7 +23,7 @@ class StatusType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ConditionCode $conditionCode
+     * @var \App\UBL\Common\CBC\ConditionCode $conditionCode
      */
     private $conditionCode = null;
 
@@ -65,7 +65,7 @@ class StatusType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -81,7 +81,7 @@ class StatusType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\StatusReasonCode $statusReasonCode
+     * @var \App\UBL\Common\CBC\StatusReasonCode $statusReasonCode
      */
     private $statusReasonCode = null;
 
@@ -96,7 +96,7 @@ class StatusType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\StatusReason[] $statusReason
+     * @var \App\UBL\Common\CBC\StatusReason[] $statusReason
      */
     private $statusReason = [
         
@@ -112,7 +112,7 @@ class StatusType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\SequenceID $sequenceID
+     * @var \App\UBL\Common\CBC\SequenceID $sequenceID
      */
     private $sequenceID = null;
 
@@ -126,7 +126,7 @@ class StatusType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Text[] $text
+     * @var \App\UBL\Common\CBC\Text[] $text
      */
     private $text = [
         
@@ -157,7 +157,7 @@ class StatusType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\Percent $percent
+     * @var \App\UBL\Common\CBC\Percent $percent
      */
     private $percent = null;
 
@@ -171,7 +171,7 @@ class StatusType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\ReliabilityPercent $reliabilityPercent
+     * @var \App\UBL\Common\CBC\ReliabilityPercent $reliabilityPercent
      */
     private $reliabilityPercent = null;
 
@@ -185,7 +185,7 @@ class StatusType
      *  Condition
      *  Condition
      *
-     * @var \UBL\Common\CAC\Condition[] $condition
+     * @var \App\UBL\Common\CAC\Condition[] $condition
      */
     private $condition = [
         
@@ -203,7 +203,7 @@ class StatusType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ConditionCode
+     * @return \App\UBL\Common\CBC\ConditionCode
      */
     public function getConditionCode()
     {
@@ -222,10 +222,10 @@ class StatusType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ConditionCode $conditionCode
+     * @param \App\UBL\Common\CBC\ConditionCode $conditionCode
      * @return self
      */
-    public function setConditionCode(?\UBL\Common\CBC\ConditionCode $conditionCode = null)
+    public function setConditionCode(?\App\UBL\Common\CBC\ConditionCode $conditionCode = null)
     {
         $this->conditionCode = $conditionCode;
         return $this;
@@ -324,9 +324,9 @@ class StatusType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -384,7 +384,7 @@ class StatusType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -403,7 +403,7 @@ class StatusType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -424,7 +424,7 @@ class StatusType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\StatusReasonCode
+     * @return \App\UBL\Common\CBC\StatusReasonCode
      */
     public function getStatusReasonCode()
     {
@@ -443,10 +443,10 @@ class StatusType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\StatusReasonCode $statusReasonCode
+     * @param \App\UBL\Common\CBC\StatusReasonCode $statusReasonCode
      * @return self
      */
-    public function setStatusReasonCode(?\UBL\Common\CBC\StatusReasonCode $statusReasonCode = null)
+    public function setStatusReasonCode(?\App\UBL\Common\CBC\StatusReasonCode $statusReasonCode = null)
     {
         $this->statusReasonCode = $statusReasonCode;
         return $this;
@@ -466,9 +466,9 @@ class StatusType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\StatusReason $statusReason
+     * @param \App\UBL\Common\CBC\StatusReason $statusReason
      */
-    public function addToStatusReason(\UBL\Common\CBC\StatusReason $statusReason)
+    public function addToStatusReason(\App\UBL\Common\CBC\StatusReason $statusReason)
     {
         $this->statusReason[] = $statusReason;
         return $this;
@@ -529,7 +529,7 @@ class StatusType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\StatusReason[]
+     * @return \App\UBL\Common\CBC\StatusReason[]
      */
     public function getStatusReason()
     {
@@ -549,7 +549,7 @@ class StatusType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\StatusReason[] $statusReason
+     * @param \App\UBL\Common\CBC\StatusReason[] $statusReason
      * @return self
      */
     public function setStatusReason(?array $statusReason = null)
@@ -570,7 +570,7 @@ class StatusType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\SequenceID
+     * @return \App\UBL\Common\CBC\SequenceID
      */
     public function getSequenceID()
     {
@@ -589,10 +589,10 @@ class StatusType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\SequenceID $sequenceID
+     * @param \App\UBL\Common\CBC\SequenceID $sequenceID
      * @return self
      */
-    public function setSequenceID(?\UBL\Common\CBC\SequenceID $sequenceID = null)
+    public function setSequenceID(?\App\UBL\Common\CBC\SequenceID $sequenceID = null)
     {
         $this->sequenceID = $sequenceID;
         return $this;
@@ -611,9 +611,9 @@ class StatusType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Text $text
+     * @param \App\UBL\Common\CBC\Text $text
      */
-    public function addToText(\UBL\Common\CBC\Text $text)
+    public function addToText(\App\UBL\Common\CBC\Text $text)
     {
         $this->text[] = $text;
         return $this;
@@ -671,7 +671,7 @@ class StatusType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Text[]
+     * @return \App\UBL\Common\CBC\Text[]
      */
     public function getText()
     {
@@ -690,7 +690,7 @@ class StatusType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Text[] $text
+     * @param \App\UBL\Common\CBC\Text[] $text
      * @return self
      */
     public function setText(?array $text = null)
@@ -753,7 +753,7 @@ class StatusType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\Percent
+     * @return \App\UBL\Common\CBC\Percent
      */
     public function getPercent()
     {
@@ -772,10 +772,10 @@ class StatusType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\Percent $percent
+     * @param \App\UBL\Common\CBC\Percent $percent
      * @return self
      */
-    public function setPercent(?\UBL\Common\CBC\Percent $percent = null)
+    public function setPercent(?\App\UBL\Common\CBC\Percent $percent = null)
     {
         $this->percent = $percent;
         return $this;
@@ -793,7 +793,7 @@ class StatusType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\ReliabilityPercent
+     * @return \App\UBL\Common\CBC\ReliabilityPercent
      */
     public function getReliabilityPercent()
     {
@@ -812,10 +812,10 @@ class StatusType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\ReliabilityPercent $reliabilityPercent
+     * @param \App\UBL\Common\CBC\ReliabilityPercent $reliabilityPercent
      * @return self
      */
-    public function setReliabilityPercent(?\UBL\Common\CBC\ReliabilityPercent $reliabilityPercent = null)
+    public function setReliabilityPercent(?\App\UBL\Common\CBC\ReliabilityPercent $reliabilityPercent = null)
     {
         $this->reliabilityPercent = $reliabilityPercent;
         return $this;
@@ -834,9 +834,9 @@ class StatusType
      *  Condition
      *
      * @return self
-     * @param \UBL\Common\CAC\Condition $condition
+     * @param \App\UBL\Common\CAC\Condition $condition
      */
-    public function addToCondition(\UBL\Common\CAC\Condition $condition)
+    public function addToCondition(\App\UBL\Common\CAC\Condition $condition)
     {
         $this->condition[] = $condition;
         return $this;
@@ -894,7 +894,7 @@ class StatusType
      *  Condition
      *  Condition
      *
-     * @return \UBL\Common\CAC\Condition[]
+     * @return \App\UBL\Common\CAC\Condition[]
      */
     public function getCondition()
     {
@@ -913,7 +913,7 @@ class StatusType
      *  Condition
      *  Condition
      *
-     * @param \UBL\Common\CAC\Condition[] $condition
+     * @param \App\UBL\Common\CAC\Condition[] $condition
      * @return self
      */
     public function setCondition(?array $condition = null)
@@ -922,5 +922,4 @@ class StatusType
         return $this;
     }
 }
-
 

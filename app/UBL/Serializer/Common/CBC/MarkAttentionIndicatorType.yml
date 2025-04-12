@@ -1,4 +1,4 @@
-UBL\Common\CBC\MarkAttentionIndicatorType:
+App\UBL\Common\CBC\MarkAttentionIndicatorType:
     properties:
         __value:
             expose: true

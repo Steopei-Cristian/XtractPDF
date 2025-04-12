@@ -9,4 +9,3 @@ class EventComment extends EventCommentType
 {
 }
 
-

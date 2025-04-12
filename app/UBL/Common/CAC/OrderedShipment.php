@@ -9,4 +9,3 @@ class OrderedShipment extends OrderedShipmentType
 {
 }
 
-

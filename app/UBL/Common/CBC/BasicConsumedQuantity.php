@@ -9,4 +9,3 @@ class BasicConsumedQuantity extends BasicConsumedQuantityType
 {
 }
 
-

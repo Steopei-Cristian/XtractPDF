@@ -9,4 +9,3 @@ class FileName extends FileNameType
 {
 }
 
-

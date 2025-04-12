@@ -1,4 +1,4 @@
-UBL\Common\CBC\DangerousGoodsApprovedIndicator:
+App\UBL\Common\CBC\DangerousGoodsApprovedIndicator:
     xml_root_name: DangerousGoodsApprovedIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

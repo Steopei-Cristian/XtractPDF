@@ -1,4 +1,4 @@
-UBL\Common\CBC\RequiredCurriculaIndicatorType:
+App\UBL\Common\CBC\RequiredCurriculaIndicatorType:
     properties:
         __value:
             expose: true

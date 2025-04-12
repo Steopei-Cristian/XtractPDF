@@ -1,4 +1,4 @@
-UBL\Common\CAC\PriceListType:
+App\UBL\Common\CAC\PriceListType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PriceListType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         statusCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\PriceListType:
             accessor:
                 getter: getStatusCode
                 setter: setStatusCode
-            type: UBL\Common\CBC\StatusCode
+            type: App\UBL\Common\CBC\StatusCode
         validityPeriod:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\PriceListType:
                 inline: true
                 entry_name: ValidityPeriod
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ValidityPeriod>
+            type: array<App\UBL\Common\CAC\ValidityPeriod>
         previousPriceList:
             expose: true
             access_type: public_method
@@ -43,4 +43,4 @@ UBL\Common\CAC\PriceListType:
             accessor:
                 getter: getPreviousPriceList
                 setter: setPreviousPriceList
-            type: UBL\Common\CAC\PreviousPriceList
+            type: App\UBL\Common\CAC\PreviousPriceList

@@ -9,4 +9,3 @@ class RoundingAmount extends RoundingAmountType
 {
 }
 
-

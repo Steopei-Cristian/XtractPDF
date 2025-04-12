@@ -9,4 +9,3 @@ class LowTendersDescription extends LowTendersDescriptionType
 {
 }
 
-

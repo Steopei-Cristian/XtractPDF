@@ -9,4 +9,3 @@ class SupplyItem extends ItemType
 {
 }
 
-

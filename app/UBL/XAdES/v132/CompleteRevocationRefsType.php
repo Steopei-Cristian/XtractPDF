@@ -16,17 +16,17 @@ class CompleteRevocationRefsType
     private $id = null;
 
     /**
-     * @var \UBL\XAdES\v132\CRLRefType[] $cRLRefs
+     * @var \App\UBL\XAdES\v132\CRLRefType[] $cRLRefs
      */
     private $cRLRefs = null;
 
     /**
-     * @var \UBL\XAdES\v132\OCSPRefType[] $oCSPRefs
+     * @var \App\UBL\XAdES\v132\OCSPRefType[] $oCSPRefs
      */
     private $oCSPRefs = null;
 
     /**
-     * @var \UBL\XAdES\v132\AnyType[] $otherRefs
+     * @var \App\UBL\XAdES\v132\AnyType[] $otherRefs
      */
     private $otherRefs = null;
 
@@ -56,9 +56,9 @@ class CompleteRevocationRefsType
      * Adds as cRLRef
      *
      * @return self
-     * @param \UBL\XAdES\v132\CRLRefType $cRLRef
+     * @param \App\UBL\XAdES\v132\CRLRefType $cRLRef
      */
-    public function addToCRLRefs(\UBL\XAdES\v132\CRLRefType $cRLRef)
+    public function addToCRLRefs(\App\UBL\XAdES\v132\CRLRefType $cRLRef)
     {
         $this->cRLRefs[] = $cRLRef;
         return $this;
@@ -89,7 +89,7 @@ class CompleteRevocationRefsType
     /**
      * Gets as cRLRefs
      *
-     * @return \UBL\XAdES\v132\CRLRefType[]
+     * @return \App\UBL\XAdES\v132\CRLRefType[]
      */
     public function getCRLRefs()
     {
@@ -99,7 +99,7 @@ class CompleteRevocationRefsType
     /**
      * Sets a new cRLRefs
      *
-     * @param \UBL\XAdES\v132\CRLRefType[] $cRLRefs
+     * @param \App\UBL\XAdES\v132\CRLRefType[] $cRLRefs
      * @return self
      */
     public function setCRLRefs(?array $cRLRefs = null)
@@ -112,9 +112,9 @@ class CompleteRevocationRefsType
      * Adds as oCSPRef
      *
      * @return self
-     * @param \UBL\XAdES\v132\OCSPRefType $oCSPRef
+     * @param \App\UBL\XAdES\v132\OCSPRefType $oCSPRef
      */
-    public function addToOCSPRefs(\UBL\XAdES\v132\OCSPRefType $oCSPRef)
+    public function addToOCSPRefs(\App\UBL\XAdES\v132\OCSPRefType $oCSPRef)
     {
         $this->oCSPRefs[] = $oCSPRef;
         return $this;
@@ -145,7 +145,7 @@ class CompleteRevocationRefsType
     /**
      * Gets as oCSPRefs
      *
-     * @return \UBL\XAdES\v132\OCSPRefType[]
+     * @return \App\UBL\XAdES\v132\OCSPRefType[]
      */
     public function getOCSPRefs()
     {
@@ -155,7 +155,7 @@ class CompleteRevocationRefsType
     /**
      * Sets a new oCSPRefs
      *
-     * @param \UBL\XAdES\v132\OCSPRefType[] $oCSPRefs
+     * @param \App\UBL\XAdES\v132\OCSPRefType[] $oCSPRefs
      * @return self
      */
     public function setOCSPRefs(?array $oCSPRefs = null)
@@ -168,9 +168,9 @@ class CompleteRevocationRefsType
      * Adds as otherRef
      *
      * @return self
-     * @param \UBL\XAdES\v132\AnyType $otherRef
+     * @param \App\UBL\XAdES\v132\AnyType $otherRef
      */
-    public function addToOtherRefs(\UBL\XAdES\v132\AnyType $otherRef)
+    public function addToOtherRefs(\App\UBL\XAdES\v132\AnyType $otherRef)
     {
         $this->otherRefs[] = $otherRef;
         return $this;
@@ -201,7 +201,7 @@ class CompleteRevocationRefsType
     /**
      * Gets as otherRefs
      *
-     * @return \UBL\XAdES\v132\AnyType[]
+     * @return \App\UBL\XAdES\v132\AnyType[]
      */
     public function getOtherRefs()
     {
@@ -211,7 +211,7 @@ class CompleteRevocationRefsType
     /**
      * Sets a new otherRefs
      *
-     * @param \UBL\XAdES\v132\AnyType[] $otherRefs
+     * @param \App\UBL\XAdES\v132\AnyType[] $otherRefs
      * @return self
      */
     public function setOtherRefs(?array $otherRefs = null)
@@ -220,5 +220,4 @@ class CompleteRevocationRefsType
         return $this;
     }
 }
-
 

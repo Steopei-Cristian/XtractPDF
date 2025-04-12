@@ -24,7 +24,7 @@ class SupplierConsumptionType
      *  Text. Type
      *  This is what you pay for electricity to DONG Energy North Utility
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -41,7 +41,7 @@ class SupplierConsumptionType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\UtilitySupplierParty $utilitySupplierParty
+     * @var \App\UBL\Common\CAC\UtilitySupplierParty $utilitySupplierParty
      */
     private $utilitySupplierParty = null;
 
@@ -56,7 +56,7 @@ class SupplierConsumptionType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\UtilityCustomerParty $utilityCustomerParty
+     * @var \App\UBL\Common\CAC\UtilityCustomerParty $utilityCustomerParty
      */
     private $utilityCustomerParty = null;
 
@@ -70,7 +70,7 @@ class SupplierConsumptionType
      *  Consumption
      *  Consumption
      *
-     * @var \UBL\Common\CAC\Consumption $consumption
+     * @var \App\UBL\Common\CAC\Consumption $consumption
      */
     private $consumption = null;
 
@@ -84,7 +84,7 @@ class SupplierConsumptionType
      *  Contract
      *  Contract
      *
-     * @var \UBL\Common\CAC\Contract $contract
+     * @var \App\UBL\Common\CAC\Contract $contract
      */
     private $contract = null;
 
@@ -98,7 +98,7 @@ class SupplierConsumptionType
      *  Consumption Line
      *  Consumption Line
      *
-     * @var \UBL\Common\CAC\ConsumptionLine[] $consumptionLine
+     * @var \App\UBL\Common\CAC\ConsumptionLine[] $consumptionLine
      */
     private $consumptionLine = [
         
@@ -118,9 +118,9 @@ class SupplierConsumptionType
      *  This is what you pay for electricity to DONG Energy North Utility
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -181,7 +181,7 @@ class SupplierConsumptionType
      *  Text. Type
      *  This is what you pay for electricity to DONG Energy North Utility
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -201,7 +201,7 @@ class SupplierConsumptionType
      *  Text. Type
      *  This is what you pay for electricity to DONG Energy North Utility
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -223,7 +223,7 @@ class SupplierConsumptionType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\UtilitySupplierParty
+     * @return \App\UBL\Common\CAC\UtilitySupplierParty
      */
     public function getUtilitySupplierParty()
     {
@@ -243,10 +243,10 @@ class SupplierConsumptionType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\UtilitySupplierParty $utilitySupplierParty
+     * @param \App\UBL\Common\CAC\UtilitySupplierParty $utilitySupplierParty
      * @return self
      */
-    public function setUtilitySupplierParty(?\UBL\Common\CAC\UtilitySupplierParty $utilitySupplierParty = null)
+    public function setUtilitySupplierParty(?\App\UBL\Common\CAC\UtilitySupplierParty $utilitySupplierParty = null)
     {
         $this->utilitySupplierParty = $utilitySupplierParty;
         return $this;
@@ -265,7 +265,7 @@ class SupplierConsumptionType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\UtilityCustomerParty
+     * @return \App\UBL\Common\CAC\UtilityCustomerParty
      */
     public function getUtilityCustomerParty()
     {
@@ -285,10 +285,10 @@ class SupplierConsumptionType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\UtilityCustomerParty $utilityCustomerParty
+     * @param \App\UBL\Common\CAC\UtilityCustomerParty $utilityCustomerParty
      * @return self
      */
-    public function setUtilityCustomerParty(?\UBL\Common\CAC\UtilityCustomerParty $utilityCustomerParty = null)
+    public function setUtilityCustomerParty(?\App\UBL\Common\CAC\UtilityCustomerParty $utilityCustomerParty = null)
     {
         $this->utilityCustomerParty = $utilityCustomerParty;
         return $this;
@@ -306,7 +306,7 @@ class SupplierConsumptionType
      *  Consumption
      *  Consumption
      *
-     * @return \UBL\Common\CAC\Consumption
+     * @return \App\UBL\Common\CAC\Consumption
      */
     public function getConsumption()
     {
@@ -325,10 +325,10 @@ class SupplierConsumptionType
      *  Consumption
      *  Consumption
      *
-     * @param \UBL\Common\CAC\Consumption $consumption
+     * @param \App\UBL\Common\CAC\Consumption $consumption
      * @return self
      */
-    public function setConsumption(\UBL\Common\CAC\Consumption $consumption)
+    public function setConsumption(\App\UBL\Common\CAC\Consumption $consumption)
     {
         $this->consumption = $consumption;
         return $this;
@@ -346,7 +346,7 @@ class SupplierConsumptionType
      *  Contract
      *  Contract
      *
-     * @return \UBL\Common\CAC\Contract
+     * @return \App\UBL\Common\CAC\Contract
      */
     public function getContract()
     {
@@ -365,10 +365,10 @@ class SupplierConsumptionType
      *  Contract
      *  Contract
      *
-     * @param \UBL\Common\CAC\Contract $contract
+     * @param \App\UBL\Common\CAC\Contract $contract
      * @return self
      */
-    public function setContract(?\UBL\Common\CAC\Contract $contract = null)
+    public function setContract(?\App\UBL\Common\CAC\Contract $contract = null)
     {
         $this->contract = $contract;
         return $this;
@@ -387,9 +387,9 @@ class SupplierConsumptionType
      *  Consumption Line
      *
      * @return self
-     * @param \UBL\Common\CAC\ConsumptionLine $consumptionLine
+     * @param \App\UBL\Common\CAC\ConsumptionLine $consumptionLine
      */
-    public function addToConsumptionLine(\UBL\Common\CAC\ConsumptionLine $consumptionLine)
+    public function addToConsumptionLine(\App\UBL\Common\CAC\ConsumptionLine $consumptionLine)
     {
         $this->consumptionLine[] = $consumptionLine;
         return $this;
@@ -447,7 +447,7 @@ class SupplierConsumptionType
      *  Consumption Line
      *  Consumption Line
      *
-     * @return \UBL\Common\CAC\ConsumptionLine[]
+     * @return \App\UBL\Common\CAC\ConsumptionLine[]
      */
     public function getConsumptionLine()
     {
@@ -466,7 +466,7 @@ class SupplierConsumptionType
      *  Consumption Line
      *  Consumption Line
      *
-     * @param \UBL\Common\CAC\ConsumptionLine[] $consumptionLine
+     * @param \App\UBL\Common\CAC\ConsumptionLine[] $consumptionLine
      * @return self
      */
     public function setConsumptionLine(array $consumptionLine)
@@ -475,5 +475,4 @@ class SupplierConsumptionType
         return $this;
     }
 }
-
 

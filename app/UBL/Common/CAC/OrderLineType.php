@@ -24,7 +24,7 @@ class OrderLineType
      *  Substitution Status
      *  Substitution Status_ Code. Type
      *
-     * @var \UBL\Common\CBC\SubstitutionStatusCode $substitutionStatusCode
+     * @var \App\UBL\Common\CBC\SubstitutionStatusCode $substitutionStatusCode
      */
     private $substitutionStatusCode = null;
 
@@ -38,7 +38,7 @@ class OrderLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -54,7 +54,7 @@ class OrderLineType
      *  Line Item
      *  Line Item
      *
-     * @var \UBL\Common\CAC\LineItem $lineItem
+     * @var \App\UBL\Common\CAC\LineItem $lineItem
      */
     private $lineItem = null;
 
@@ -69,7 +69,7 @@ class OrderLineType
      *  Line Item
      *  Line Item
      *
-     * @var \UBL\Common\CAC\SellerProposedSubstituteLineItem[] $sellerProposedSubstituteLineItem
+     * @var \App\UBL\Common\CAC\SellerProposedSubstituteLineItem[] $sellerProposedSubstituteLineItem
      */
     private $sellerProposedSubstituteLineItem = [
         
@@ -86,7 +86,7 @@ class OrderLineType
      *  Line Item
      *  Line Item
      *
-     * @var \UBL\Common\CAC\SellerSubstitutedLineItem[] $sellerSubstitutedLineItem
+     * @var \App\UBL\Common\CAC\SellerSubstitutedLineItem[] $sellerSubstitutedLineItem
      */
     private $sellerSubstitutedLineItem = [
         
@@ -103,7 +103,7 @@ class OrderLineType
      *  Line Item
      *  Line Item
      *
-     * @var \UBL\Common\CAC\BuyerProposedSubstituteLineItem[] $buyerProposedSubstituteLineItem
+     * @var \App\UBL\Common\CAC\BuyerProposedSubstituteLineItem[] $buyerProposedSubstituteLineItem
      */
     private $buyerProposedSubstituteLineItem = [
         
@@ -120,7 +120,7 @@ class OrderLineType
      *  Line Reference
      *  Line Reference
      *
-     * @var \UBL\Common\CAC\CatalogueLineReference $catalogueLineReference
+     * @var \App\UBL\Common\CAC\CatalogueLineReference $catalogueLineReference
      */
     private $catalogueLineReference = null;
 
@@ -135,7 +135,7 @@ class OrderLineType
      *  Line Reference
      *  Line Reference
      *
-     * @var \UBL\Common\CAC\QuotationLineReference $quotationLineReference
+     * @var \App\UBL\Common\CAC\QuotationLineReference $quotationLineReference
      */
     private $quotationLineReference = null;
 
@@ -149,7 +149,7 @@ class OrderLineType
      *  Order Line Reference
      *  Order Line Reference
      *
-     * @var \UBL\Common\CAC\OrderLineReference[] $orderLineReference
+     * @var \App\UBL\Common\CAC\OrderLineReference[] $orderLineReference
      */
     private $orderLineReference = [
         
@@ -165,7 +165,7 @@ class OrderLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -184,7 +184,7 @@ class OrderLineType
      *  Substitution Status
      *  Substitution Status_ Code. Type
      *
-     * @return \UBL\Common\CBC\SubstitutionStatusCode
+     * @return \App\UBL\Common\CBC\SubstitutionStatusCode
      */
     public function getSubstitutionStatusCode()
     {
@@ -204,10 +204,10 @@ class OrderLineType
      *  Substitution Status
      *  Substitution Status_ Code. Type
      *
-     * @param \UBL\Common\CBC\SubstitutionStatusCode $substitutionStatusCode
+     * @param \App\UBL\Common\CBC\SubstitutionStatusCode $substitutionStatusCode
      * @return self
      */
-    public function setSubstitutionStatusCode(?\UBL\Common\CBC\SubstitutionStatusCode $substitutionStatusCode = null)
+    public function setSubstitutionStatusCode(?\App\UBL\Common\CBC\SubstitutionStatusCode $substitutionStatusCode = null)
     {
         $this->substitutionStatusCode = $substitutionStatusCode;
         return $this;
@@ -226,9 +226,9 @@ class OrderLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -286,7 +286,7 @@ class OrderLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -305,7 +305,7 @@ class OrderLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -326,7 +326,7 @@ class OrderLineType
      *  Line Item
      *  Line Item
      *
-     * @return \UBL\Common\CAC\LineItem
+     * @return \App\UBL\Common\CAC\LineItem
      */
     public function getLineItem()
     {
@@ -345,10 +345,10 @@ class OrderLineType
      *  Line Item
      *  Line Item
      *
-     * @param \UBL\Common\CAC\LineItem $lineItem
+     * @param \App\UBL\Common\CAC\LineItem $lineItem
      * @return self
      */
-    public function setLineItem(\UBL\Common\CAC\LineItem $lineItem)
+    public function setLineItem(\App\UBL\Common\CAC\LineItem $lineItem)
     {
         $this->lineItem = $lineItem;
         return $this;
@@ -368,9 +368,9 @@ class OrderLineType
      *  Line Item
      *
      * @return self
-     * @param \UBL\Common\CAC\SellerProposedSubstituteLineItem $sellerProposedSubstituteLineItem
+     * @param \App\UBL\Common\CAC\SellerProposedSubstituteLineItem $sellerProposedSubstituteLineItem
      */
-    public function addToSellerProposedSubstituteLineItem(\UBL\Common\CAC\SellerProposedSubstituteLineItem $sellerProposedSubstituteLineItem)
+    public function addToSellerProposedSubstituteLineItem(\App\UBL\Common\CAC\SellerProposedSubstituteLineItem $sellerProposedSubstituteLineItem)
     {
         $this->sellerProposedSubstituteLineItem[] = $sellerProposedSubstituteLineItem;
         return $this;
@@ -431,7 +431,7 @@ class OrderLineType
      *  Line Item
      *  Line Item
      *
-     * @return \UBL\Common\CAC\SellerProposedSubstituteLineItem[]
+     * @return \App\UBL\Common\CAC\SellerProposedSubstituteLineItem[]
      */
     public function getSellerProposedSubstituteLineItem()
     {
@@ -451,7 +451,7 @@ class OrderLineType
      *  Line Item
      *  Line Item
      *
-     * @param \UBL\Common\CAC\SellerProposedSubstituteLineItem[] $sellerProposedSubstituteLineItem
+     * @param \App\UBL\Common\CAC\SellerProposedSubstituteLineItem[] $sellerProposedSubstituteLineItem
      * @return self
      */
     public function setSellerProposedSubstituteLineItem(?array $sellerProposedSubstituteLineItem = null)
@@ -474,9 +474,9 @@ class OrderLineType
      *  Line Item
      *
      * @return self
-     * @param \UBL\Common\CAC\SellerSubstitutedLineItem $sellerSubstitutedLineItem
+     * @param \App\UBL\Common\CAC\SellerSubstitutedLineItem $sellerSubstitutedLineItem
      */
-    public function addToSellerSubstitutedLineItem(\UBL\Common\CAC\SellerSubstitutedLineItem $sellerSubstitutedLineItem)
+    public function addToSellerSubstitutedLineItem(\App\UBL\Common\CAC\SellerSubstitutedLineItem $sellerSubstitutedLineItem)
     {
         $this->sellerSubstitutedLineItem[] = $sellerSubstitutedLineItem;
         return $this;
@@ -537,7 +537,7 @@ class OrderLineType
      *  Line Item
      *  Line Item
      *
-     * @return \UBL\Common\CAC\SellerSubstitutedLineItem[]
+     * @return \App\UBL\Common\CAC\SellerSubstitutedLineItem[]
      */
     public function getSellerSubstitutedLineItem()
     {
@@ -557,7 +557,7 @@ class OrderLineType
      *  Line Item
      *  Line Item
      *
-     * @param \UBL\Common\CAC\SellerSubstitutedLineItem[] $sellerSubstitutedLineItem
+     * @param \App\UBL\Common\CAC\SellerSubstitutedLineItem[] $sellerSubstitutedLineItem
      * @return self
      */
     public function setSellerSubstitutedLineItem(?array $sellerSubstitutedLineItem = null)
@@ -580,9 +580,9 @@ class OrderLineType
      *  Line Item
      *
      * @return self
-     * @param \UBL\Common\CAC\BuyerProposedSubstituteLineItem $buyerProposedSubstituteLineItem
+     * @param \App\UBL\Common\CAC\BuyerProposedSubstituteLineItem $buyerProposedSubstituteLineItem
      */
-    public function addToBuyerProposedSubstituteLineItem(\UBL\Common\CAC\BuyerProposedSubstituteLineItem $buyerProposedSubstituteLineItem)
+    public function addToBuyerProposedSubstituteLineItem(\App\UBL\Common\CAC\BuyerProposedSubstituteLineItem $buyerProposedSubstituteLineItem)
     {
         $this->buyerProposedSubstituteLineItem[] = $buyerProposedSubstituteLineItem;
         return $this;
@@ -643,7 +643,7 @@ class OrderLineType
      *  Line Item
      *  Line Item
      *
-     * @return \UBL\Common\CAC\BuyerProposedSubstituteLineItem[]
+     * @return \App\UBL\Common\CAC\BuyerProposedSubstituteLineItem[]
      */
     public function getBuyerProposedSubstituteLineItem()
     {
@@ -663,7 +663,7 @@ class OrderLineType
      *  Line Item
      *  Line Item
      *
-     * @param \UBL\Common\CAC\BuyerProposedSubstituteLineItem[] $buyerProposedSubstituteLineItem
+     * @param \App\UBL\Common\CAC\BuyerProposedSubstituteLineItem[] $buyerProposedSubstituteLineItem
      * @return self
      */
     public function setBuyerProposedSubstituteLineItem(?array $buyerProposedSubstituteLineItem = null)
@@ -685,7 +685,7 @@ class OrderLineType
      *  Line Reference
      *  Line Reference
      *
-     * @return \UBL\Common\CAC\CatalogueLineReference
+     * @return \App\UBL\Common\CAC\CatalogueLineReference
      */
     public function getCatalogueLineReference()
     {
@@ -705,10 +705,10 @@ class OrderLineType
      *  Line Reference
      *  Line Reference
      *
-     * @param \UBL\Common\CAC\CatalogueLineReference $catalogueLineReference
+     * @param \App\UBL\Common\CAC\CatalogueLineReference $catalogueLineReference
      * @return self
      */
-    public function setCatalogueLineReference(?\UBL\Common\CAC\CatalogueLineReference $catalogueLineReference = null)
+    public function setCatalogueLineReference(?\App\UBL\Common\CAC\CatalogueLineReference $catalogueLineReference = null)
     {
         $this->catalogueLineReference = $catalogueLineReference;
         return $this;
@@ -727,7 +727,7 @@ class OrderLineType
      *  Line Reference
      *  Line Reference
      *
-     * @return \UBL\Common\CAC\QuotationLineReference
+     * @return \App\UBL\Common\CAC\QuotationLineReference
      */
     public function getQuotationLineReference()
     {
@@ -747,10 +747,10 @@ class OrderLineType
      *  Line Reference
      *  Line Reference
      *
-     * @param \UBL\Common\CAC\QuotationLineReference $quotationLineReference
+     * @param \App\UBL\Common\CAC\QuotationLineReference $quotationLineReference
      * @return self
      */
-    public function setQuotationLineReference(?\UBL\Common\CAC\QuotationLineReference $quotationLineReference = null)
+    public function setQuotationLineReference(?\App\UBL\Common\CAC\QuotationLineReference $quotationLineReference = null)
     {
         $this->quotationLineReference = $quotationLineReference;
         return $this;
@@ -769,9 +769,9 @@ class OrderLineType
      *  Order Line Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\OrderLineReference $orderLineReference
+     * @param \App\UBL\Common\CAC\OrderLineReference $orderLineReference
      */
-    public function addToOrderLineReference(\UBL\Common\CAC\OrderLineReference $orderLineReference)
+    public function addToOrderLineReference(\App\UBL\Common\CAC\OrderLineReference $orderLineReference)
     {
         $this->orderLineReference[] = $orderLineReference;
         return $this;
@@ -829,7 +829,7 @@ class OrderLineType
      *  Order Line Reference
      *  Order Line Reference
      *
-     * @return \UBL\Common\CAC\OrderLineReference[]
+     * @return \App\UBL\Common\CAC\OrderLineReference[]
      */
     public function getOrderLineReference()
     {
@@ -848,7 +848,7 @@ class OrderLineType
      *  Order Line Reference
      *  Order Line Reference
      *
-     * @param \UBL\Common\CAC\OrderLineReference[] $orderLineReference
+     * @param \App\UBL\Common\CAC\OrderLineReference[] $orderLineReference
      * @return self
      */
     public function setOrderLineReference(?array $orderLineReference = null)
@@ -870,9 +870,9 @@ class OrderLineType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -930,7 +930,7 @@ class OrderLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -949,7 +949,7 @@ class OrderLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -958,5 +958,4 @@ class OrderLineType
         return $this;
     }
 }
-
 

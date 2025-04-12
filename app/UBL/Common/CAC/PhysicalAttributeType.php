@@ -24,7 +24,7 @@ class PhysicalAttributeType
      *  Identifier. Type
      *  colour style
      *
-     * @var \UBL\Common\CBC\AttributeID $attributeID
+     * @var \App\UBL\Common\CBC\AttributeID $attributeID
      */
     private $attributeID = null;
 
@@ -38,7 +38,7 @@ class PhysicalAttributeType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PositionCode $positionCode
+     * @var \App\UBL\Common\CBC\PositionCode $positionCode
      */
     private $positionCode = null;
 
@@ -53,7 +53,7 @@ class PhysicalAttributeType
      *  Code. Type
      *  XXL , Small
      *
-     * @var \UBL\Common\CBC\DescriptionCode $descriptionCode
+     * @var \App\UBL\Common\CBC\DescriptionCode $descriptionCode
      */
     private $descriptionCode = null;
 
@@ -67,7 +67,7 @@ class PhysicalAttributeType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -86,7 +86,7 @@ class PhysicalAttributeType
      *  Identifier. Type
      *  colour style
      *
-     * @return \UBL\Common\CBC\AttributeID
+     * @return \App\UBL\Common\CBC\AttributeID
      */
     public function getAttributeID()
     {
@@ -106,10 +106,10 @@ class PhysicalAttributeType
      *  Identifier. Type
      *  colour style
      *
-     * @param \UBL\Common\CBC\AttributeID $attributeID
+     * @param \App\UBL\Common\CBC\AttributeID $attributeID
      * @return self
      */
-    public function setAttributeID(\UBL\Common\CBC\AttributeID $attributeID)
+    public function setAttributeID(\App\UBL\Common\CBC\AttributeID $attributeID)
     {
         $this->attributeID = $attributeID;
         return $this;
@@ -127,7 +127,7 @@ class PhysicalAttributeType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PositionCode
+     * @return \App\UBL\Common\CBC\PositionCode
      */
     public function getPositionCode()
     {
@@ -146,10 +146,10 @@ class PhysicalAttributeType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PositionCode $positionCode
+     * @param \App\UBL\Common\CBC\PositionCode $positionCode
      * @return self
      */
-    public function setPositionCode(?\UBL\Common\CBC\PositionCode $positionCode = null)
+    public function setPositionCode(?\App\UBL\Common\CBC\PositionCode $positionCode = null)
     {
         $this->positionCode = $positionCode;
         return $this;
@@ -168,7 +168,7 @@ class PhysicalAttributeType
      *  Code. Type
      *  XXL , Small
      *
-     * @return \UBL\Common\CBC\DescriptionCode
+     * @return \App\UBL\Common\CBC\DescriptionCode
      */
     public function getDescriptionCode()
     {
@@ -188,10 +188,10 @@ class PhysicalAttributeType
      *  Code. Type
      *  XXL , Small
      *
-     * @param \UBL\Common\CBC\DescriptionCode $descriptionCode
+     * @param \App\UBL\Common\CBC\DescriptionCode $descriptionCode
      * @return self
      */
-    public function setDescriptionCode(?\UBL\Common\CBC\DescriptionCode $descriptionCode = null)
+    public function setDescriptionCode(?\App\UBL\Common\CBC\DescriptionCode $descriptionCode = null)
     {
         $this->descriptionCode = $descriptionCode;
         return $this;
@@ -210,9 +210,9 @@ class PhysicalAttributeType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -270,7 +270,7 @@ class PhysicalAttributeType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -289,7 +289,7 @@ class PhysicalAttributeType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -298,5 +298,4 @@ class PhysicalAttributeType
         return $this;
     }
 }
-
 

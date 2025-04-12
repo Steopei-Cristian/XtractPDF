@@ -9,4 +9,3 @@ class ForecastRevisionLine extends ForecastRevisionLineType
 {
 }
 
-

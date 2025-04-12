@@ -9,4 +9,3 @@ class TaxRepresentativeParty extends PartyType
 {
 }
 
-

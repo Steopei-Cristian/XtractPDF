@@ -26,12 +26,12 @@ class ReferenceType
     private $type = null;
 
     /**
-     * @var \UBL\Xmldsig\Transform[] $transforms
+     * @var \App\UBL\Xmldsig\Transform[] $transforms
      */
     private $transforms = null;
 
     /**
-     * @var \UBL\Xmldsig\DigestMethod $digestMethod
+     * @var \App\UBL\Xmldsig\DigestMethod $digestMethod
      */
     private $digestMethod = null;
 
@@ -110,9 +110,9 @@ class ReferenceType
      * Adds as transform
      *
      * @return self
-     * @param \UBL\Xmldsig\Transform $transform
+     * @param \App\UBL\Xmldsig\Transform $transform
      */
-    public function addToTransforms(\UBL\Xmldsig\Transform $transform)
+    public function addToTransforms(\App\UBL\Xmldsig\Transform $transform)
     {
         $this->transforms[] = $transform;
         return $this;
@@ -143,7 +143,7 @@ class ReferenceType
     /**
      * Gets as transforms
      *
-     * @return \UBL\Xmldsig\Transform[]
+     * @return \App\UBL\Xmldsig\Transform[]
      */
     public function getTransforms()
     {
@@ -153,7 +153,7 @@ class ReferenceType
     /**
      * Sets a new transforms
      *
-     * @param \UBL\Xmldsig\Transform[] $transforms
+     * @param \App\UBL\Xmldsig\Transform[] $transforms
      * @return self
      */
     public function setTransforms(?array $transforms = null)
@@ -165,7 +165,7 @@ class ReferenceType
     /**
      * Gets as digestMethod
      *
-     * @return \UBL\Xmldsig\DigestMethod
+     * @return \App\UBL\Xmldsig\DigestMethod
      */
     public function getDigestMethod()
     {
@@ -175,10 +175,10 @@ class ReferenceType
     /**
      * Sets a new digestMethod
      *
-     * @param \UBL\Xmldsig\DigestMethod $digestMethod
+     * @param \App\UBL\Xmldsig\DigestMethod $digestMethod
      * @return self
      */
-    public function setDigestMethod(\UBL\Xmldsig\DigestMethod $digestMethod)
+    public function setDigestMethod(\App\UBL\Xmldsig\DigestMethod $digestMethod)
     {
         $this->digestMethod = $digestMethod;
         return $this;
@@ -206,5 +206,4 @@ class ReferenceType
         return $this;
     }
 }
-
 

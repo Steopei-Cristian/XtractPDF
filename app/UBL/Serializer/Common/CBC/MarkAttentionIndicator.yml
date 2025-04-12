@@ -1,4 +1,4 @@
-UBL\Common\CBC\MarkAttentionIndicator:
+App\UBL\Common\CBC\MarkAttentionIndicator:
     xml_root_name: MarkAttentionIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

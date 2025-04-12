@@ -9,4 +9,3 @@ class CatalogueLine extends CatalogueLineType
 {
 }
 
-

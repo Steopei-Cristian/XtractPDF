@@ -9,4 +9,3 @@ class ServiceAllowanceCharge extends AllowanceChargeType
 {
 }
 
-

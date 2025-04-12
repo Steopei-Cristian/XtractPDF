@@ -23,7 +23,7 @@ class TaxTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\TaxAmount $taxAmount
+     * @var \App\UBL\Common\CBC\TaxAmount $taxAmount
      */
     private $taxAmount = null;
 
@@ -37,7 +37,7 @@ class TaxTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\RoundingAmount $roundingAmount
+     * @var \App\UBL\Common\CBC\RoundingAmount $roundingAmount
      */
     private $roundingAmount = null;
 
@@ -82,7 +82,7 @@ class TaxTotalType
      *  Tax Subtotal
      *  Tax Subtotal
      *
-     * @var \UBL\Common\CAC\TaxSubtotal[] $taxSubtotal
+     * @var \App\UBL\Common\CAC\TaxSubtotal[] $taxSubtotal
      */
     private $taxSubtotal = [
         
@@ -100,7 +100,7 @@ class TaxTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\TaxAmount
+     * @return \App\UBL\Common\CBC\TaxAmount
      */
     public function getTaxAmount()
     {
@@ -119,10 +119,10 @@ class TaxTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\TaxAmount $taxAmount
+     * @param \App\UBL\Common\CBC\TaxAmount $taxAmount
      * @return self
      */
-    public function setTaxAmount(\UBL\Common\CBC\TaxAmount $taxAmount)
+    public function setTaxAmount(\App\UBL\Common\CBC\TaxAmount $taxAmount)
     {
         $this->taxAmount = $taxAmount;
         return $this;
@@ -140,7 +140,7 @@ class TaxTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\RoundingAmount
+     * @return \App\UBL\Common\CBC\RoundingAmount
      */
     public function getRoundingAmount()
     {
@@ -159,10 +159,10 @@ class TaxTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\RoundingAmount $roundingAmount
+     * @param \App\UBL\Common\CBC\RoundingAmount $roundingAmount
      * @return self
      */
-    public function setRoundingAmount(?\UBL\Common\CBC\RoundingAmount $roundingAmount = null)
+    public function setRoundingAmount(?\App\UBL\Common\CBC\RoundingAmount $roundingAmount = null)
     {
         $this->roundingAmount = $roundingAmount;
         return $this;
@@ -267,9 +267,9 @@ class TaxTotalType
      *  Tax Subtotal
      *
      * @return self
-     * @param \UBL\Common\CAC\TaxSubtotal $taxSubtotal
+     * @param \App\UBL\Common\CAC\TaxSubtotal $taxSubtotal
      */
-    public function addToTaxSubtotal(\UBL\Common\CAC\TaxSubtotal $taxSubtotal)
+    public function addToTaxSubtotal(\App\UBL\Common\CAC\TaxSubtotal $taxSubtotal)
     {
         $this->taxSubtotal[] = $taxSubtotal;
         return $this;
@@ -327,7 +327,7 @@ class TaxTotalType
      *  Tax Subtotal
      *  Tax Subtotal
      *
-     * @return \UBL\Common\CAC\TaxSubtotal[]
+     * @return \App\UBL\Common\CAC\TaxSubtotal[]
      */
     public function getTaxSubtotal()
     {
@@ -346,7 +346,7 @@ class TaxTotalType
      *  Tax Subtotal
      *  Tax Subtotal
      *
-     * @param \UBL\Common\CAC\TaxSubtotal[] $taxSubtotal
+     * @param \App\UBL\Common\CAC\TaxSubtotal[] $taxSubtotal
      * @return self
      */
     public function setTaxSubtotal(?array $taxSubtotal = null)
@@ -355,5 +355,4 @@ class TaxTotalType
         return $this;
     }
 }
-
 

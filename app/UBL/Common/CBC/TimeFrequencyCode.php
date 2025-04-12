@@ -9,4 +9,3 @@ class TimeFrequencyCode extends TimeFrequencyCodeType
 {
 }
 
-

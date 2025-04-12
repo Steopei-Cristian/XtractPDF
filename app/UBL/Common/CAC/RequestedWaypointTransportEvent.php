@@ -9,4 +9,3 @@ class RequestedWaypointTransportEvent extends TransportEventType
 {
 }
 
-

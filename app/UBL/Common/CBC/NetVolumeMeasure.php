@@ -9,4 +9,3 @@ class NetVolumeMeasure extends NetVolumeMeasureType
 {
 }
 
-

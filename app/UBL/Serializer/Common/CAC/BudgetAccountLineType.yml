@@ -1,4 +1,4 @@
-UBL\Common\CAC\BudgetAccountLineType:
+App\UBL\Common\CAC\BudgetAccountLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\BudgetAccountLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         totalAmount:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\BudgetAccountLineType:
             accessor:
                 getter: getTotalAmount
                 setter: setTotalAmount
-            type: UBL\Common\CBC\TotalAmount
+            type: App\UBL\Common\CBC\TotalAmount
         budgetAccount:
             expose: true
             access_type: public_method
@@ -33,4 +33,4 @@ UBL\Common\CAC\BudgetAccountLineType:
                 inline: true
                 entry_name: BudgetAccount
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\BudgetAccount>
+            type: array<App\UBL\Common\CAC\BudgetAccount>

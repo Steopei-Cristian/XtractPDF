@@ -9,4 +9,3 @@ class UnloadingPortLocation extends LocationType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ReferenceID extends ReferenceIDType
 {
 }
 
-

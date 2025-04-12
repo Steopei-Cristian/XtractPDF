@@ -23,7 +23,7 @@ class PowerOfAttorneyType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -65,7 +65,7 @@ class PowerOfAttorneyType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -82,7 +82,7 @@ class PowerOfAttorneyType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\NotaryParty $notaryParty
+     * @var \App\UBL\Common\CAC\NotaryParty $notaryParty
      */
     private $notaryParty = null;
 
@@ -97,7 +97,7 @@ class PowerOfAttorneyType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\AgentParty $agentParty
+     * @var \App\UBL\Common\CAC\AgentParty $agentParty
      */
     private $agentParty = null;
 
@@ -112,7 +112,7 @@ class PowerOfAttorneyType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\WitnessParty[] $witnessParty
+     * @var \App\UBL\Common\CAC\WitnessParty[] $witnessParty
      */
     private $witnessParty = [
         
@@ -129,7 +129,7 @@ class PowerOfAttorneyType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\MandateDocumentReference[] $mandateDocumentReference
+     * @var \App\UBL\Common\CAC\MandateDocumentReference[] $mandateDocumentReference
      */
     private $mandateDocumentReference = [
         
@@ -147,7 +147,7 @@ class PowerOfAttorneyType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -166,10 +166,10 @@ class PowerOfAttorneyType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -268,9 +268,9 @@ class PowerOfAttorneyType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -328,7 +328,7 @@ class PowerOfAttorneyType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -347,7 +347,7 @@ class PowerOfAttorneyType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -369,7 +369,7 @@ class PowerOfAttorneyType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\NotaryParty
+     * @return \App\UBL\Common\CAC\NotaryParty
      */
     public function getNotaryParty()
     {
@@ -389,10 +389,10 @@ class PowerOfAttorneyType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\NotaryParty $notaryParty
+     * @param \App\UBL\Common\CAC\NotaryParty $notaryParty
      * @return self
      */
-    public function setNotaryParty(?\UBL\Common\CAC\NotaryParty $notaryParty = null)
+    public function setNotaryParty(?\App\UBL\Common\CAC\NotaryParty $notaryParty = null)
     {
         $this->notaryParty = $notaryParty;
         return $this;
@@ -411,7 +411,7 @@ class PowerOfAttorneyType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\AgentParty
+     * @return \App\UBL\Common\CAC\AgentParty
      */
     public function getAgentParty()
     {
@@ -431,10 +431,10 @@ class PowerOfAttorneyType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\AgentParty $agentParty
+     * @param \App\UBL\Common\CAC\AgentParty $agentParty
      * @return self
      */
-    public function setAgentParty(\UBL\Common\CAC\AgentParty $agentParty)
+    public function setAgentParty(\App\UBL\Common\CAC\AgentParty $agentParty)
     {
         $this->agentParty = $agentParty;
         return $this;
@@ -454,9 +454,9 @@ class PowerOfAttorneyType
      *  Party
      *
      * @return self
-     * @param \UBL\Common\CAC\WitnessParty $witnessParty
+     * @param \App\UBL\Common\CAC\WitnessParty $witnessParty
      */
-    public function addToWitnessParty(\UBL\Common\CAC\WitnessParty $witnessParty)
+    public function addToWitnessParty(\App\UBL\Common\CAC\WitnessParty $witnessParty)
     {
         $this->witnessParty[] = $witnessParty;
         return $this;
@@ -517,7 +517,7 @@ class PowerOfAttorneyType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\WitnessParty[]
+     * @return \App\UBL\Common\CAC\WitnessParty[]
      */
     public function getWitnessParty()
     {
@@ -537,7 +537,7 @@ class PowerOfAttorneyType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\WitnessParty[] $witnessParty
+     * @param \App\UBL\Common\CAC\WitnessParty[] $witnessParty
      * @return self
      */
     public function setWitnessParty(?array $witnessParty = null)
@@ -560,9 +560,9 @@ class PowerOfAttorneyType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\MandateDocumentReference $mandateDocumentReference
+     * @param \App\UBL\Common\CAC\MandateDocumentReference $mandateDocumentReference
      */
-    public function addToMandateDocumentReference(\UBL\Common\CAC\MandateDocumentReference $mandateDocumentReference)
+    public function addToMandateDocumentReference(\App\UBL\Common\CAC\MandateDocumentReference $mandateDocumentReference)
     {
         $this->mandateDocumentReference[] = $mandateDocumentReference;
         return $this;
@@ -623,7 +623,7 @@ class PowerOfAttorneyType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\MandateDocumentReference[]
+     * @return \App\UBL\Common\CAC\MandateDocumentReference[]
      */
     public function getMandateDocumentReference()
     {
@@ -643,7 +643,7 @@ class PowerOfAttorneyType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\MandateDocumentReference[] $mandateDocumentReference
+     * @param \App\UBL\Common\CAC\MandateDocumentReference[] $mandateDocumentReference
      * @return self
      */
     public function setMandateDocumentReference(?array $mandateDocumentReference = null)
@@ -652,5 +652,4 @@ class PowerOfAttorneyType
         return $this;
     }
 }
-
 

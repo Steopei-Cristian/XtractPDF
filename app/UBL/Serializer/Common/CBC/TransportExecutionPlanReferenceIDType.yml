@@ -1,2 +1,2 @@
-UBL\Common\CBC\TransportExecutionPlanReferenceIDType:
+App\UBL\Common\CBC\TransportExecutionPlanReferenceIDType:
     properties: {  }

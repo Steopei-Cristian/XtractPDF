@@ -1,4 +1,4 @@
-UBL\Common\CAC\LotIdentificationType:
+App\UBL\Common\CAC\LotIdentificationType:
     properties:
         lotNumberID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\LotIdentificationType:
             accessor:
                 getter: getLotNumberID
                 setter: setLotNumberID
-            type: UBL\Common\CBC\LotNumberID
+            type: App\UBL\Common\CBC\LotNumberID
         expiryDate:
             expose: true
             access_type: public_method
@@ -33,4 +33,4 @@ UBL\Common\CAC\LotIdentificationType:
                 inline: true
                 entry_name: AdditionalItemProperty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AdditionalItemProperty>
+            type: array<App\UBL\Common\CAC\AdditionalItemProperty>

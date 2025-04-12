@@ -23,7 +23,7 @@ class EnvironmentalEmissionType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\EnvironmentalEmissionTypeCode $environmentalEmissionTypeCode
+     * @var \App\UBL\Common\CBC\EnvironmentalEmissionTypeCode $environmentalEmissionTypeCode
      */
     private $environmentalEmissionTypeCode = null;
 
@@ -37,7 +37,7 @@ class EnvironmentalEmissionType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\ValueMeasure $valueMeasure
+     * @var \App\UBL\Common\CBC\ValueMeasure $valueMeasure
      */
     private $valueMeasure = null;
 
@@ -51,7 +51,7 @@ class EnvironmentalEmissionType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -67,7 +67,7 @@ class EnvironmentalEmissionType
      *  Emission Calculation Method
      *  Emission Calculation Method
      *
-     * @var \UBL\Common\CAC\EmissionCalculationMethod[] $emissionCalculationMethod
+     * @var \App\UBL\Common\CAC\EmissionCalculationMethod[] $emissionCalculationMethod
      */
     private $emissionCalculationMethod = [
         
@@ -85,7 +85,7 @@ class EnvironmentalEmissionType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\EnvironmentalEmissionTypeCode
+     * @return \App\UBL\Common\CBC\EnvironmentalEmissionTypeCode
      */
     public function getEnvironmentalEmissionTypeCode()
     {
@@ -104,10 +104,10 @@ class EnvironmentalEmissionType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\EnvironmentalEmissionTypeCode $environmentalEmissionTypeCode
+     * @param \App\UBL\Common\CBC\EnvironmentalEmissionTypeCode $environmentalEmissionTypeCode
      * @return self
      */
-    public function setEnvironmentalEmissionTypeCode(\UBL\Common\CBC\EnvironmentalEmissionTypeCode $environmentalEmissionTypeCode)
+    public function setEnvironmentalEmissionTypeCode(\App\UBL\Common\CBC\EnvironmentalEmissionTypeCode $environmentalEmissionTypeCode)
     {
         $this->environmentalEmissionTypeCode = $environmentalEmissionTypeCode;
         return $this;
@@ -125,7 +125,7 @@ class EnvironmentalEmissionType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\ValueMeasure
+     * @return \App\UBL\Common\CBC\ValueMeasure
      */
     public function getValueMeasure()
     {
@@ -144,10 +144,10 @@ class EnvironmentalEmissionType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\ValueMeasure $valueMeasure
+     * @param \App\UBL\Common\CBC\ValueMeasure $valueMeasure
      * @return self
      */
-    public function setValueMeasure(\UBL\Common\CBC\ValueMeasure $valueMeasure)
+    public function setValueMeasure(\App\UBL\Common\CBC\ValueMeasure $valueMeasure)
     {
         $this->valueMeasure = $valueMeasure;
         return $this;
@@ -166,9 +166,9 @@ class EnvironmentalEmissionType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -226,7 +226,7 @@ class EnvironmentalEmissionType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -245,7 +245,7 @@ class EnvironmentalEmissionType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -267,9 +267,9 @@ class EnvironmentalEmissionType
      *  Emission Calculation Method
      *
      * @return self
-     * @param \UBL\Common\CAC\EmissionCalculationMethod $emissionCalculationMethod
+     * @param \App\UBL\Common\CAC\EmissionCalculationMethod $emissionCalculationMethod
      */
-    public function addToEmissionCalculationMethod(\UBL\Common\CAC\EmissionCalculationMethod $emissionCalculationMethod)
+    public function addToEmissionCalculationMethod(\App\UBL\Common\CAC\EmissionCalculationMethod $emissionCalculationMethod)
     {
         $this->emissionCalculationMethod[] = $emissionCalculationMethod;
         return $this;
@@ -327,7 +327,7 @@ class EnvironmentalEmissionType
      *  Emission Calculation Method
      *  Emission Calculation Method
      *
-     * @return \UBL\Common\CAC\EmissionCalculationMethod[]
+     * @return \App\UBL\Common\CAC\EmissionCalculationMethod[]
      */
     public function getEmissionCalculationMethod()
     {
@@ -346,7 +346,7 @@ class EnvironmentalEmissionType
      *  Emission Calculation Method
      *  Emission Calculation Method
      *
-     * @param \UBL\Common\CAC\EmissionCalculationMethod[] $emissionCalculationMethod
+     * @param \App\UBL\Common\CAC\EmissionCalculationMethod[] $emissionCalculationMethod
      * @return self
      */
     public function setEmissionCalculationMethod(?array $emissionCalculationMethod = null)
@@ -355,5 +355,4 @@ class EnvironmentalEmissionType
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class LossRiskResponsibilityCode extends LossRiskResponsibilityCodeType
 {
 }
 
-

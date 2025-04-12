@@ -9,4 +9,3 @@ class OtherInstruction extends OtherInstructionType
 {
 }
 
-

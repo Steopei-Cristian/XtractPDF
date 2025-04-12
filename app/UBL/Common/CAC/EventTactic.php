@@ -9,4 +9,3 @@ class EventTactic extends EventTacticType
 {
 }
 
-

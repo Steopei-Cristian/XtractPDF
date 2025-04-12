@@ -9,4 +9,3 @@ class RequestedCatalogueReference extends CatalogueReferenceType
 {
 }
 
-

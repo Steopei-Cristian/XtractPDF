@@ -9,4 +9,3 @@ class DutyCode extends DutyCodeType
 {
 }
 
-

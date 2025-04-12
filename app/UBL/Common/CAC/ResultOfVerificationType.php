@@ -23,7 +23,7 @@ class ResultOfVerificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ValidatorID $validatorID
+     * @var \App\UBL\Common\CBC\ValidatorID $validatorID
      */
     private $validatorID = null;
 
@@ -38,7 +38,7 @@ class ResultOfVerificationType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ValidationResultCode $validationResultCode
+     * @var \App\UBL\Common\CBC\ValidationResultCode $validationResultCode
      */
     private $validationResultCode = null;
 
@@ -81,7 +81,7 @@ class ResultOfVerificationType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ValidateProcess $validateProcess
+     * @var \App\UBL\Common\CBC\ValidateProcess $validateProcess
      */
     private $validateProcess = null;
 
@@ -96,7 +96,7 @@ class ResultOfVerificationType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ValidateTool $validateTool
+     * @var \App\UBL\Common\CBC\ValidateTool $validateTool
      */
     private $validateTool = null;
 
@@ -111,7 +111,7 @@ class ResultOfVerificationType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ValidateToolVersion $validateToolVersion
+     * @var \App\UBL\Common\CBC\ValidateToolVersion $validateToolVersion
      */
     private $validateToolVersion = null;
 
@@ -126,7 +126,7 @@ class ResultOfVerificationType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\SignatoryParty $signatoryParty
+     * @var \App\UBL\Common\CAC\SignatoryParty $signatoryParty
      */
     private $signatoryParty = null;
 
@@ -142,7 +142,7 @@ class ResultOfVerificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ValidatorID
+     * @return \App\UBL\Common\CBC\ValidatorID
      */
     public function getValidatorID()
     {
@@ -161,10 +161,10 @@ class ResultOfVerificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ValidatorID $validatorID
+     * @param \App\UBL\Common\CBC\ValidatorID $validatorID
      * @return self
      */
-    public function setValidatorID(?\UBL\Common\CBC\ValidatorID $validatorID = null)
+    public function setValidatorID(?\App\UBL\Common\CBC\ValidatorID $validatorID = null)
     {
         $this->validatorID = $validatorID;
         return $this;
@@ -183,7 +183,7 @@ class ResultOfVerificationType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ValidationResultCode
+     * @return \App\UBL\Common\CBC\ValidationResultCode
      */
     public function getValidationResultCode()
     {
@@ -203,10 +203,10 @@ class ResultOfVerificationType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ValidationResultCode $validationResultCode
+     * @param \App\UBL\Common\CBC\ValidationResultCode $validationResultCode
      * @return self
      */
-    public function setValidationResultCode(?\UBL\Common\CBC\ValidationResultCode $validationResultCode = null)
+    public function setValidationResultCode(?\App\UBL\Common\CBC\ValidationResultCode $validationResultCode = null)
     {
         $this->validationResultCode = $validationResultCode;
         return $this;
@@ -305,7 +305,7 @@ class ResultOfVerificationType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ValidateProcess
+     * @return \App\UBL\Common\CBC\ValidateProcess
      */
     public function getValidateProcess()
     {
@@ -325,10 +325,10 @@ class ResultOfVerificationType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ValidateProcess $validateProcess
+     * @param \App\UBL\Common\CBC\ValidateProcess $validateProcess
      * @return self
      */
-    public function setValidateProcess(?\UBL\Common\CBC\ValidateProcess $validateProcess = null)
+    public function setValidateProcess(?\App\UBL\Common\CBC\ValidateProcess $validateProcess = null)
     {
         $this->validateProcess = $validateProcess;
         return $this;
@@ -347,7 +347,7 @@ class ResultOfVerificationType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ValidateTool
+     * @return \App\UBL\Common\CBC\ValidateTool
      */
     public function getValidateTool()
     {
@@ -367,10 +367,10 @@ class ResultOfVerificationType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ValidateTool $validateTool
+     * @param \App\UBL\Common\CBC\ValidateTool $validateTool
      * @return self
      */
-    public function setValidateTool(?\UBL\Common\CBC\ValidateTool $validateTool = null)
+    public function setValidateTool(?\App\UBL\Common\CBC\ValidateTool $validateTool = null)
     {
         $this->validateTool = $validateTool;
         return $this;
@@ -389,7 +389,7 @@ class ResultOfVerificationType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ValidateToolVersion
+     * @return \App\UBL\Common\CBC\ValidateToolVersion
      */
     public function getValidateToolVersion()
     {
@@ -409,10 +409,10 @@ class ResultOfVerificationType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ValidateToolVersion $validateToolVersion
+     * @param \App\UBL\Common\CBC\ValidateToolVersion $validateToolVersion
      * @return self
      */
-    public function setValidateToolVersion(?\UBL\Common\CBC\ValidateToolVersion $validateToolVersion = null)
+    public function setValidateToolVersion(?\App\UBL\Common\CBC\ValidateToolVersion $validateToolVersion = null)
     {
         $this->validateToolVersion = $validateToolVersion;
         return $this;
@@ -431,7 +431,7 @@ class ResultOfVerificationType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\SignatoryParty
+     * @return \App\UBL\Common\CAC\SignatoryParty
      */
     public function getSignatoryParty()
     {
@@ -451,14 +451,13 @@ class ResultOfVerificationType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\SignatoryParty $signatoryParty
+     * @param \App\UBL\Common\CAC\SignatoryParty $signatoryParty
      * @return self
      */
-    public function setSignatoryParty(?\UBL\Common\CAC\SignatoryParty $signatoryParty = null)
+    public function setSignatoryParty(?\App\UBL\Common\CAC\SignatoryParty $signatoryParty = null)
     {
         $this->signatoryParty = $signatoryParty;
         return $this;
     }
 }
-
 

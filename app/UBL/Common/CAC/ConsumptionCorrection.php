@@ -9,4 +9,3 @@ class ConsumptionCorrection extends ConsumptionCorrectionType
 {
 }
 
-

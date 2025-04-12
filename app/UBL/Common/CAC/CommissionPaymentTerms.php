@@ -9,4 +9,3 @@ class CommissionPaymentTerms extends PaymentTermsType
 {
 }
 
-

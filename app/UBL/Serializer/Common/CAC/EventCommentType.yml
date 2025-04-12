@@ -1,4 +1,4 @@
-UBL\Common\CAC\EventCommentType:
+App\UBL\Common\CAC\EventCommentType:
     properties:
         comment:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\EventCommentType:
             accessor:
                 getter: getComment
                 setter: setComment
-            type: UBL\Common\CBC\Comment
+            type: App\UBL\Common\CBC\Comment
         issueDate:
             expose: true
             access_type: public_method

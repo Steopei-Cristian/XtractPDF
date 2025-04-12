@@ -9,4 +9,3 @@ class QualificationResolution extends QualificationResolutionType
 {
 }
 
-

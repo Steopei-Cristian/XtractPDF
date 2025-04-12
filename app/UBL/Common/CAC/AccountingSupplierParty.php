@@ -9,4 +9,3 @@ class AccountingSupplierParty extends SupplierPartyType
 {
 }
 
-

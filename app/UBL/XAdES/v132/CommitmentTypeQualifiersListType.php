@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class CommitmentTypeQualifiersListType
 {
     /**
-     * @var \UBL\XAdES\v132\AnyType[] $commitmentTypeQualifier
+     * @var \App\UBL\XAdES\v132\AnyType[] $commitmentTypeQualifier
      */
     private $commitmentTypeQualifier = [
         
@@ -21,9 +21,9 @@ class CommitmentTypeQualifiersListType
      * Adds as commitmentTypeQualifier
      *
      * @return self
-     * @param \UBL\XAdES\v132\AnyType $commitmentTypeQualifier
+     * @param \App\UBL\XAdES\v132\AnyType $commitmentTypeQualifier
      */
-    public function addToCommitmentTypeQualifier(\UBL\XAdES\v132\AnyType $commitmentTypeQualifier)
+    public function addToCommitmentTypeQualifier(\App\UBL\XAdES\v132\AnyType $commitmentTypeQualifier)
     {
         $this->commitmentTypeQualifier[] = $commitmentTypeQualifier;
         return $this;
@@ -54,7 +54,7 @@ class CommitmentTypeQualifiersListType
     /**
      * Gets as commitmentTypeQualifier
      *
-     * @return \UBL\XAdES\v132\AnyType[]
+     * @return \App\UBL\XAdES\v132\AnyType[]
      */
     public function getCommitmentTypeQualifier()
     {
@@ -64,7 +64,7 @@ class CommitmentTypeQualifiersListType
     /**
      * Sets a new commitmentTypeQualifier
      *
-     * @param \UBL\XAdES\v132\AnyType[] $commitmentTypeQualifier
+     * @param \App\UBL\XAdES\v132\AnyType[] $commitmentTypeQualifier
      * @return self
      */
     public function setCommitmentTypeQualifier(?array $commitmentTypeQualifier = null)
@@ -73,5 +73,4 @@ class CommitmentTypeQualifiersListType
         return $this;
     }
 }
-
 

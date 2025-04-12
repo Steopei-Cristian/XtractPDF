@@ -1,4 +1,4 @@
-UBL\Common\CAC\TenderingTermsType:
+App\UBL\Common\CAC\TenderingTermsType:
     properties:
         awardingMethodTypeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getAwardingMethodTypeCode
                 setter: setAwardingMethodTypeCode
-            type: UBL\Common\CBC\AwardingMethodTypeCode
+            type: App\UBL\Common\CBC\AwardingMethodTypeCode
         priceEvaluationCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getPriceEvaluationCode
                 setter: setPriceEvaluationCode
-            type: UBL\Common\CBC\PriceEvaluationCode
+            type: App\UBL\Common\CBC\PriceEvaluationCode
         maximumVariantQuantity:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getMaximumVariantQuantity
                 setter: setMaximumVariantQuantity
-            type: UBL\Common\CBC\MaximumVariantQuantity
+            type: App\UBL\Common\CBC\MaximumVariantQuantity
         variantConstraintIndicator:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: AcceptedVariantsDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\AcceptedVariantsDescription>
+            type: array<App\UBL\Common\CBC\AcceptedVariantsDescription>
         priceRevisionFormulaDescription:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: PriceRevisionFormulaDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\PriceRevisionFormulaDescription>
+            type: array<App\UBL\Common\CBC\PriceRevisionFormulaDescription>
         fundingProgramCode:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getFundingProgramCode
                 setter: setFundingProgramCode
-            type: UBL\Common\CBC\FundingProgramCode
+            type: App\UBL\Common\CBC\FundingProgramCode
         fundingProgram:
             expose: true
             access_type: public_method
@@ -91,7 +91,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: FundingProgram
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\FundingProgram>
+            type: array<App\UBL\Common\CBC\FundingProgram>
         maximumAdvertisementAmount:
             expose: true
             access_type: public_method
@@ -101,7 +101,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getMaximumAdvertisementAmount
                 setter: setMaximumAdvertisementAmount
-            type: UBL\Common\CBC\MaximumAdvertisementAmount
+            type: App\UBL\Common\CBC\MaximumAdvertisementAmount
         note:
             expose: true
             access_type: public_method
@@ -115,7 +115,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         paymentFrequencyCode:
             expose: true
             access_type: public_method
@@ -125,7 +125,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getPaymentFrequencyCode
                 setter: setPaymentFrequencyCode
-            type: UBL\Common\CBC\PaymentFrequencyCode
+            type: App\UBL\Common\CBC\PaymentFrequencyCode
         economicOperatorRegistryURI:
             expose: true
             access_type: public_method
@@ -135,7 +135,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getEconomicOperatorRegistryURI
                 setter: setEconomicOperatorRegistryURI
-            type: UBL\Common\CBC\EconomicOperatorRegistryURI
+            type: App\UBL\Common\CBC\EconomicOperatorRegistryURI
         requiredCurriculaIndicator:
             expose: true
             access_type: public_method
@@ -169,7 +169,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: AdditionalConditions
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\AdditionalConditions>
+            type: array<App\UBL\Common\CBC\AdditionalConditions>
         latestSecurityClearanceDate:
             expose: true
             access_type: public_method
@@ -189,7 +189,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getDocumentationFeeAmount
                 setter: setDocumentationFeeAmount
-            type: UBL\Common\CBC\DocumentationFeeAmount
+            type: App\UBL\Common\CBC\DocumentationFeeAmount
         penaltyClause:
             expose: true
             access_type: public_method
@@ -203,7 +203,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: PenaltyClause
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PenaltyClause>
+            type: array<App\UBL\Common\CAC\PenaltyClause>
         requiredFinancialGuarantee:
             expose: true
             access_type: public_method
@@ -217,7 +217,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: RequiredFinancialGuarantee
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\RequiredFinancialGuarantee>
+            type: array<App\UBL\Common\CAC\RequiredFinancialGuarantee>
         procurementLegislationDocumentReference:
             expose: true
             access_type: public_method
@@ -227,7 +227,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getProcurementLegislationDocumentReference
                 setter: setProcurementLegislationDocumentReference
-            type: UBL\Common\CAC\ProcurementLegislationDocumentReference
+            type: App\UBL\Common\CAC\ProcurementLegislationDocumentReference
         fiscalLegislationDocumentReference:
             expose: true
             access_type: public_method
@@ -237,7 +237,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getFiscalLegislationDocumentReference
                 setter: setFiscalLegislationDocumentReference
-            type: UBL\Common\CAC\FiscalLegislationDocumentReference
+            type: App\UBL\Common\CAC\FiscalLegislationDocumentReference
         environmentalLegislationDocumentReference:
             expose: true
             access_type: public_method
@@ -247,7 +247,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getEnvironmentalLegislationDocumentReference
                 setter: setEnvironmentalLegislationDocumentReference
-            type: UBL\Common\CAC\EnvironmentalLegislationDocumentReference
+            type: App\UBL\Common\CAC\EnvironmentalLegislationDocumentReference
         employmentLegislationDocumentReference:
             expose: true
             access_type: public_method
@@ -257,7 +257,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getEmploymentLegislationDocumentReference
                 setter: setEmploymentLegislationDocumentReference
-            type: UBL\Common\CAC\EmploymentLegislationDocumentReference
+            type: App\UBL\Common\CAC\EmploymentLegislationDocumentReference
         contractualDocumentReference:
             expose: true
             access_type: public_method
@@ -271,7 +271,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: ContractualDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ContractualDocumentReference>
+            type: array<App\UBL\Common\CAC\ContractualDocumentReference>
         callForTendersDocumentReference:
             expose: true
             access_type: public_method
@@ -281,7 +281,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getCallForTendersDocumentReference
                 setter: setCallForTendersDocumentReference
-            type: UBL\Common\CAC\CallForTendersDocumentReference
+            type: App\UBL\Common\CAC\CallForTendersDocumentReference
         warrantyValidityPeriod:
             expose: true
             access_type: public_method
@@ -291,7 +291,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getWarrantyValidityPeriod
                 setter: setWarrantyValidityPeriod
-            type: UBL\Common\CAC\WarrantyValidityPeriod
+            type: App\UBL\Common\CAC\WarrantyValidityPeriod
         paymentTerms:
             expose: true
             access_type: public_method
@@ -305,7 +305,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: PaymentTerms
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PaymentTerms>
+            type: array<App\UBL\Common\CAC\PaymentTerms>
         tendererQualificationRequest:
             expose: true
             access_type: public_method
@@ -319,7 +319,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: TendererQualificationRequest
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TendererQualificationRequest>
+            type: array<App\UBL\Common\CAC\TendererQualificationRequest>
         allowedSubcontractTerms:
             expose: true
             access_type: public_method
@@ -333,7 +333,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: AllowedSubcontractTerms
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AllowedSubcontractTerms>
+            type: array<App\UBL\Common\CAC\AllowedSubcontractTerms>
         tenderPreparation:
             expose: true
             access_type: public_method
@@ -347,7 +347,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: TenderPreparation
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TenderPreparation>
+            type: array<App\UBL\Common\CAC\TenderPreparation>
         contractExecutionRequirement:
             expose: true
             access_type: public_method
@@ -361,7 +361,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: ContractExecutionRequirement
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ContractExecutionRequirement>
+            type: array<App\UBL\Common\CAC\ContractExecutionRequirement>
         awardingTerms:
             expose: true
             access_type: public_method
@@ -371,7 +371,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getAwardingTerms
                 setter: setAwardingTerms
-            type: UBL\Common\CAC\AwardingTerms
+            type: App\UBL\Common\CAC\AwardingTerms
         additionalInformationParty:
             expose: true
             access_type: public_method
@@ -381,7 +381,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getAdditionalInformationParty
                 setter: setAdditionalInformationParty
-            type: UBL\Common\CAC\AdditionalInformationParty
+            type: App\UBL\Common\CAC\AdditionalInformationParty
         documentProviderParty:
             expose: true
             access_type: public_method
@@ -391,7 +391,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getDocumentProviderParty
                 setter: setDocumentProviderParty
-            type: UBL\Common\CAC\DocumentProviderParty
+            type: App\UBL\Common\CAC\DocumentProviderParty
         tenderRecipientParty:
             expose: true
             access_type: public_method
@@ -401,7 +401,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getTenderRecipientParty
                 setter: setTenderRecipientParty
-            type: UBL\Common\CAC\TenderRecipientParty
+            type: App\UBL\Common\CAC\TenderRecipientParty
         contractResponsibleParty:
             expose: true
             access_type: public_method
@@ -411,7 +411,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getContractResponsibleParty
                 setter: setContractResponsibleParty
-            type: UBL\Common\CAC\ContractResponsibleParty
+            type: App\UBL\Common\CAC\ContractResponsibleParty
         tenderEvaluationParty:
             expose: true
             access_type: public_method
@@ -425,7 +425,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: TenderEvaluationParty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TenderEvaluationParty>
+            type: array<App\UBL\Common\CAC\TenderEvaluationParty>
         tenderValidityPeriod:
             expose: true
             access_type: public_method
@@ -435,7 +435,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getTenderValidityPeriod
                 setter: setTenderValidityPeriod
-            type: UBL\Common\CAC\TenderValidityPeriod
+            type: App\UBL\Common\CAC\TenderValidityPeriod
         contractAcceptancePeriod:
             expose: true
             access_type: public_method
@@ -445,7 +445,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getContractAcceptancePeriod
                 setter: setContractAcceptancePeriod
-            type: UBL\Common\CAC\ContractAcceptancePeriod
+            type: App\UBL\Common\CAC\ContractAcceptancePeriod
         appealTerms:
             expose: true
             access_type: public_method
@@ -455,7 +455,7 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getAppealTerms
                 setter: setAppealTerms
-            type: UBL\Common\CAC\AppealTerms
+            type: App\UBL\Common\CAC\AppealTerms
         language:
             expose: true
             access_type: public_method
@@ -469,7 +469,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: Language
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Language>
+            type: array<App\UBL\Common\CAC\Language>
         budgetAccountLine:
             expose: true
             access_type: public_method
@@ -483,7 +483,7 @@ UBL\Common\CAC\TenderingTermsType:
                 inline: true
                 entry_name: BudgetAccountLine
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\BudgetAccountLine>
+            type: array<App\UBL\Common\CAC\BudgetAccountLine>
         replacedNoticeDocumentReference:
             expose: true
             access_type: public_method
@@ -493,4 +493,4 @@ UBL\Common\CAC\TenderingTermsType:
             accessor:
                 getter: getReplacedNoticeDocumentReference
                 setter: setReplacedNoticeDocumentReference
-            type: UBL\Common\CAC\ReplacedNoticeDocumentReference
+            type: App\UBL\Common\CAC\ReplacedNoticeDocumentReference

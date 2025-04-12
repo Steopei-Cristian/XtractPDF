@@ -24,7 +24,7 @@ class MeterPropertyType
      *  Name. Type
      *  Energy Rating , Collar Size , Fat Content
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -38,7 +38,7 @@ class MeterPropertyType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\NameCode $nameCode
+     * @var \App\UBL\Common\CBC\NameCode $nameCode
      */
     private $nameCode = null;
 
@@ -53,7 +53,7 @@ class MeterPropertyType
      *  Text. Type
      *  100 watts , 15 European , 20% +/- 5%
      *
-     * @var \UBL\Common\CBC\Value $value
+     * @var \App\UBL\Common\CBC\Value $value
      */
     private $value = null;
 
@@ -68,7 +68,7 @@ class MeterPropertyType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ValueQuantity $valueQuantity
+     * @var \App\UBL\Common\CBC\ValueQuantity $valueQuantity
      */
     private $valueQuantity = null;
 
@@ -82,7 +82,7 @@ class MeterPropertyType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ValueQualifier[] $valueQualifier
+     * @var \App\UBL\Common\CBC\ValueQualifier[] $valueQualifier
      */
     private $valueQualifier = [
         
@@ -101,7 +101,7 @@ class MeterPropertyType
      *  Name. Type
      *  Energy Rating , Collar Size , Fat Content
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -121,10 +121,10 @@ class MeterPropertyType
      *  Name. Type
      *  Energy Rating , Collar Size , Fat Content
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -142,7 +142,7 @@ class MeterPropertyType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\NameCode
+     * @return \App\UBL\Common\CBC\NameCode
      */
     public function getNameCode()
     {
@@ -161,10 +161,10 @@ class MeterPropertyType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\NameCode $nameCode
+     * @param \App\UBL\Common\CBC\NameCode $nameCode
      * @return self
      */
-    public function setNameCode(?\UBL\Common\CBC\NameCode $nameCode = null)
+    public function setNameCode(?\App\UBL\Common\CBC\NameCode $nameCode = null)
     {
         $this->nameCode = $nameCode;
         return $this;
@@ -183,7 +183,7 @@ class MeterPropertyType
      *  Text. Type
      *  100 watts , 15 European , 20% +/- 5%
      *
-     * @return \UBL\Common\CBC\Value
+     * @return \App\UBL\Common\CBC\Value
      */
     public function getValue()
     {
@@ -203,10 +203,10 @@ class MeterPropertyType
      *  Text. Type
      *  100 watts , 15 European , 20% +/- 5%
      *
-     * @param \UBL\Common\CBC\Value $value
+     * @param \App\UBL\Common\CBC\Value $value
      * @return self
      */
-    public function setValue(?\UBL\Common\CBC\Value $value = null)
+    public function setValue(?\App\UBL\Common\CBC\Value $value = null)
     {
         $this->value = $value;
         return $this;
@@ -225,7 +225,7 @@ class MeterPropertyType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ValueQuantity
+     * @return \App\UBL\Common\CBC\ValueQuantity
      */
     public function getValueQuantity()
     {
@@ -245,10 +245,10 @@ class MeterPropertyType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ValueQuantity $valueQuantity
+     * @param \App\UBL\Common\CBC\ValueQuantity $valueQuantity
      * @return self
      */
-    public function setValueQuantity(?\UBL\Common\CBC\ValueQuantity $valueQuantity = null)
+    public function setValueQuantity(?\App\UBL\Common\CBC\ValueQuantity $valueQuantity = null)
     {
         $this->valueQuantity = $valueQuantity;
         return $this;
@@ -267,9 +267,9 @@ class MeterPropertyType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ValueQualifier $valueQualifier
+     * @param \App\UBL\Common\CBC\ValueQualifier $valueQualifier
      */
-    public function addToValueQualifier(\UBL\Common\CBC\ValueQualifier $valueQualifier)
+    public function addToValueQualifier(\App\UBL\Common\CBC\ValueQualifier $valueQualifier)
     {
         $this->valueQualifier[] = $valueQualifier;
         return $this;
@@ -327,7 +327,7 @@ class MeterPropertyType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ValueQualifier[]
+     * @return \App\UBL\Common\CBC\ValueQualifier[]
      */
     public function getValueQualifier()
     {
@@ -346,7 +346,7 @@ class MeterPropertyType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ValueQualifier[] $valueQualifier
+     * @param \App\UBL\Common\CBC\ValueQualifier[] $valueQualifier
      * @return self
      */
     public function setValueQualifier(?array $valueQualifier = null)
@@ -355,5 +355,4 @@ class MeterPropertyType
         return $this;
     }
 }
-
 

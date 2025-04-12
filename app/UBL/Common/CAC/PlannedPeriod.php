@@ -9,4 +9,3 @@ class PlannedPeriod extends PeriodType
 {
 }
 
-

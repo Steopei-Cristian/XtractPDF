@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class OCSPValuesType
 {
     /**
-     * @var \UBL\XAdES\v132\EncapsulatedPKIDataType[] $encapsulatedOCSPValue
+     * @var \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $encapsulatedOCSPValue
      */
     private $encapsulatedOCSPValue = [
         
@@ -21,9 +21,9 @@ class OCSPValuesType
      * Adds as encapsulatedOCSPValue
      *
      * @return self
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedOCSPValue
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedOCSPValue
      */
-    public function addToEncapsulatedOCSPValue(\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedOCSPValue)
+    public function addToEncapsulatedOCSPValue(\App\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedOCSPValue)
     {
         $this->encapsulatedOCSPValue[] = $encapsulatedOCSPValue;
         return $this;
@@ -54,7 +54,7 @@ class OCSPValuesType
     /**
      * Gets as encapsulatedOCSPValue
      *
-     * @return \UBL\XAdES\v132\EncapsulatedPKIDataType[]
+     * @return \App\UBL\XAdES\v132\EncapsulatedPKIDataType[]
      */
     public function getEncapsulatedOCSPValue()
     {
@@ -64,7 +64,7 @@ class OCSPValuesType
     /**
      * Sets a new encapsulatedOCSPValue
      *
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType[] $encapsulatedOCSPValue
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $encapsulatedOCSPValue
      * @return self
      */
     public function setEncapsulatedOCSPValue(array $encapsulatedOCSPValue)
@@ -73,5 +73,4 @@ class OCSPValuesType
         return $this;
     }
 }
-
 

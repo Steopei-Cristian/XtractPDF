@@ -25,7 +25,7 @@ class CardAccountType
      *  Identifier. Type
      *  4558 XXXX XXXX XXXX (a real card number)
      *
-     * @var \UBL\Common\CBC\PrimaryAccountNumberID $primaryAccountNumberID
+     * @var \App\UBL\Common\CBC\PrimaryAccountNumberID $primaryAccountNumberID
      */
     private $primaryAccountNumberID = null;
 
@@ -40,7 +40,7 @@ class CardAccountType
      *  Identifier. Type
      *  VISA, MasterCard, American Express
      *
-     * @var \UBL\Common\CBC\NetworkID $networkID
+     * @var \App\UBL\Common\CBC\NetworkID $networkID
      */
     private $networkID = null;
 
@@ -55,7 +55,7 @@ class CardAccountType
      *  Code. Type
      *  Debit Card, Credit Card, Procurement Card
      *
-     * @var \UBL\Common\CBC\CardTypeCode $cardTypeCode
+     * @var \App\UBL\Common\CBC\CardTypeCode $cardTypeCode
      */
     private $cardTypeCode = null;
 
@@ -97,7 +97,7 @@ class CardAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\IssuerID $issuerID
+     * @var \App\UBL\Common\CBC\IssuerID $issuerID
      */
     private $issuerID = null;
 
@@ -111,7 +111,7 @@ class CardAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\IssueNumberID $issueNumberID
+     * @var \App\UBL\Common\CBC\IssueNumberID $issueNumberID
      */
     private $issueNumberID = null;
 
@@ -125,7 +125,7 @@ class CardAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\CV2ID $cV2ID
+     * @var \App\UBL\Common\CBC\CV2ID $cV2ID
      */
     private $cV2ID = null;
 
@@ -140,7 +140,7 @@ class CardAccountType
      *  Chip
      *  Chip_ Code. Type
      *
-     * @var \UBL\Common\CBC\CardChipCode $cardChipCode
+     * @var \App\UBL\Common\CBC\CardChipCode $cardChipCode
      */
     private $cardChipCode = null;
 
@@ -155,7 +155,7 @@ class CardAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ChipApplicationID $chipApplicationID
+     * @var \App\UBL\Common\CBC\ChipApplicationID $chipApplicationID
      */
     private $chipApplicationID = null;
 
@@ -169,7 +169,7 @@ class CardAccountType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\HolderName $holderName
+     * @var \App\UBL\Common\CBC\HolderName $holderName
      */
     private $holderName = null;
 
@@ -187,7 +187,7 @@ class CardAccountType
      *  Identifier. Type
      *  4558 XXXX XXXX XXXX (a real card number)
      *
-     * @return \UBL\Common\CBC\PrimaryAccountNumberID
+     * @return \App\UBL\Common\CBC\PrimaryAccountNumberID
      */
     public function getPrimaryAccountNumberID()
     {
@@ -208,10 +208,10 @@ class CardAccountType
      *  Identifier. Type
      *  4558 XXXX XXXX XXXX (a real card number)
      *
-     * @param \UBL\Common\CBC\PrimaryAccountNumberID $primaryAccountNumberID
+     * @param \App\UBL\Common\CBC\PrimaryAccountNumberID $primaryAccountNumberID
      * @return self
      */
-    public function setPrimaryAccountNumberID(\UBL\Common\CBC\PrimaryAccountNumberID $primaryAccountNumberID)
+    public function setPrimaryAccountNumberID(\App\UBL\Common\CBC\PrimaryAccountNumberID $primaryAccountNumberID)
     {
         $this->primaryAccountNumberID = $primaryAccountNumberID;
         return $this;
@@ -230,7 +230,7 @@ class CardAccountType
      *  Identifier. Type
      *  VISA, MasterCard, American Express
      *
-     * @return \UBL\Common\CBC\NetworkID
+     * @return \App\UBL\Common\CBC\NetworkID
      */
     public function getNetworkID()
     {
@@ -250,10 +250,10 @@ class CardAccountType
      *  Identifier. Type
      *  VISA, MasterCard, American Express
      *
-     * @param \UBL\Common\CBC\NetworkID $networkID
+     * @param \App\UBL\Common\CBC\NetworkID $networkID
      * @return self
      */
-    public function setNetworkID(\UBL\Common\CBC\NetworkID $networkID)
+    public function setNetworkID(\App\UBL\Common\CBC\NetworkID $networkID)
     {
         $this->networkID = $networkID;
         return $this;
@@ -272,7 +272,7 @@ class CardAccountType
      *  Code. Type
      *  Debit Card, Credit Card, Procurement Card
      *
-     * @return \UBL\Common\CBC\CardTypeCode
+     * @return \App\UBL\Common\CBC\CardTypeCode
      */
     public function getCardTypeCode()
     {
@@ -292,10 +292,10 @@ class CardAccountType
      *  Code. Type
      *  Debit Card, Credit Card, Procurement Card
      *
-     * @param \UBL\Common\CBC\CardTypeCode $cardTypeCode
+     * @param \App\UBL\Common\CBC\CardTypeCode $cardTypeCode
      * @return self
      */
-    public function setCardTypeCode(?\UBL\Common\CBC\CardTypeCode $cardTypeCode = null)
+    public function setCardTypeCode(?\App\UBL\Common\CBC\CardTypeCode $cardTypeCode = null)
     {
         $this->cardTypeCode = $cardTypeCode;
         return $this;
@@ -393,7 +393,7 @@ class CardAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\IssuerID
+     * @return \App\UBL\Common\CBC\IssuerID
      */
     public function getIssuerID()
     {
@@ -412,10 +412,10 @@ class CardAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\IssuerID $issuerID
+     * @param \App\UBL\Common\CBC\IssuerID $issuerID
      * @return self
      */
-    public function setIssuerID(?\UBL\Common\CBC\IssuerID $issuerID = null)
+    public function setIssuerID(?\App\UBL\Common\CBC\IssuerID $issuerID = null)
     {
         $this->issuerID = $issuerID;
         return $this;
@@ -433,7 +433,7 @@ class CardAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\IssueNumberID
+     * @return \App\UBL\Common\CBC\IssueNumberID
      */
     public function getIssueNumberID()
     {
@@ -452,10 +452,10 @@ class CardAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\IssueNumberID $issueNumberID
+     * @param \App\UBL\Common\CBC\IssueNumberID $issueNumberID
      * @return self
      */
-    public function setIssueNumberID(?\UBL\Common\CBC\IssueNumberID $issueNumberID = null)
+    public function setIssueNumberID(?\App\UBL\Common\CBC\IssueNumberID $issueNumberID = null)
     {
         $this->issueNumberID = $issueNumberID;
         return $this;
@@ -473,7 +473,7 @@ class CardAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\CV2ID
+     * @return \App\UBL\Common\CBC\CV2ID
      */
     public function getCV2ID()
     {
@@ -492,10 +492,10 @@ class CardAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\CV2ID $cV2ID
+     * @param \App\UBL\Common\CBC\CV2ID $cV2ID
      * @return self
      */
-    public function setCV2ID(?\UBL\Common\CBC\CV2ID $cV2ID = null)
+    public function setCV2ID(?\App\UBL\Common\CBC\CV2ID $cV2ID = null)
     {
         $this->cV2ID = $cV2ID;
         return $this;
@@ -514,7 +514,7 @@ class CardAccountType
      *  Chip
      *  Chip_ Code. Type
      *
-     * @return \UBL\Common\CBC\CardChipCode
+     * @return \App\UBL\Common\CBC\CardChipCode
      */
     public function getCardChipCode()
     {
@@ -534,10 +534,10 @@ class CardAccountType
      *  Chip
      *  Chip_ Code. Type
      *
-     * @param \UBL\Common\CBC\CardChipCode $cardChipCode
+     * @param \App\UBL\Common\CBC\CardChipCode $cardChipCode
      * @return self
      */
-    public function setCardChipCode(?\UBL\Common\CBC\CardChipCode $cardChipCode = null)
+    public function setCardChipCode(?\App\UBL\Common\CBC\CardChipCode $cardChipCode = null)
     {
         $this->cardChipCode = $cardChipCode;
         return $this;
@@ -556,7 +556,7 @@ class CardAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ChipApplicationID
+     * @return \App\UBL\Common\CBC\ChipApplicationID
      */
     public function getChipApplicationID()
     {
@@ -576,10 +576,10 @@ class CardAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ChipApplicationID $chipApplicationID
+     * @param \App\UBL\Common\CBC\ChipApplicationID $chipApplicationID
      * @return self
      */
-    public function setChipApplicationID(?\UBL\Common\CBC\ChipApplicationID $chipApplicationID = null)
+    public function setChipApplicationID(?\App\UBL\Common\CBC\ChipApplicationID $chipApplicationID = null)
     {
         $this->chipApplicationID = $chipApplicationID;
         return $this;
@@ -597,7 +597,7 @@ class CardAccountType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\HolderName
+     * @return \App\UBL\Common\CBC\HolderName
      */
     public function getHolderName()
     {
@@ -616,14 +616,13 @@ class CardAccountType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\HolderName $holderName
+     * @param \App\UBL\Common\CBC\HolderName $holderName
      * @return self
      */
-    public function setHolderName(?\UBL\Common\CBC\HolderName $holderName = null)
+    public function setHolderName(?\App\UBL\Common\CBC\HolderName $holderName = null)
     {
         $this->holderName = $holderName;
         return $this;
     }
 }
-
 

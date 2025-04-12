@@ -23,7 +23,7 @@ class TradeFinancingType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class TradeFinancingType
      *  Code. Type
      *  Factoring , Invoice Financing , Pre-shipment Financing , Letter of Credit , Irrevocable Letter of Credit .
      *
-     * @var \UBL\Common\CBC\FinancingInstrumentCode $financingInstrumentCode
+     * @var \App\UBL\Common\CBC\FinancingInstrumentCode $financingInstrumentCode
      */
     private $financingInstrumentCode = null;
 
@@ -53,7 +53,7 @@ class TradeFinancingType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\ContractDocumentReference $contractDocumentReference
+     * @var \App\UBL\Common\CAC\ContractDocumentReference $contractDocumentReference
      */
     private $contractDocumentReference = null;
 
@@ -67,7 +67,7 @@ class TradeFinancingType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -84,7 +84,7 @@ class TradeFinancingType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\FinancingParty $financingParty
+     * @var \App\UBL\Common\CAC\FinancingParty $financingParty
      */
     private $financingParty = null;
 
@@ -99,7 +99,7 @@ class TradeFinancingType
      *  Financial Account
      *  Financial Account
      *
-     * @var \UBL\Common\CAC\FinancingFinancialAccount $financingFinancialAccount
+     * @var \App\UBL\Common\CAC\FinancingFinancialAccount $financingFinancialAccount
      */
     private $financingFinancialAccount = null;
 
@@ -113,7 +113,7 @@ class TradeFinancingType
      *  Clause
      *  Clause
      *
-     * @var \UBL\Common\CAC\Clause[] $clause
+     * @var \App\UBL\Common\CAC\Clause[] $clause
      */
     private $clause = [
         
@@ -131,7 +131,7 @@ class TradeFinancingType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -150,10 +150,10 @@ class TradeFinancingType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -172,7 +172,7 @@ class TradeFinancingType
      *  Code. Type
      *  Factoring , Invoice Financing , Pre-shipment Financing , Letter of Credit , Irrevocable Letter of Credit .
      *
-     * @return \UBL\Common\CBC\FinancingInstrumentCode
+     * @return \App\UBL\Common\CBC\FinancingInstrumentCode
      */
     public function getFinancingInstrumentCode()
     {
@@ -192,10 +192,10 @@ class TradeFinancingType
      *  Code. Type
      *  Factoring , Invoice Financing , Pre-shipment Financing , Letter of Credit , Irrevocable Letter of Credit .
      *
-     * @param \UBL\Common\CBC\FinancingInstrumentCode $financingInstrumentCode
+     * @param \App\UBL\Common\CBC\FinancingInstrumentCode $financingInstrumentCode
      * @return self
      */
-    public function setFinancingInstrumentCode(?\UBL\Common\CBC\FinancingInstrumentCode $financingInstrumentCode = null)
+    public function setFinancingInstrumentCode(?\App\UBL\Common\CBC\FinancingInstrumentCode $financingInstrumentCode = null)
     {
         $this->financingInstrumentCode = $financingInstrumentCode;
         return $this;
@@ -214,7 +214,7 @@ class TradeFinancingType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\ContractDocumentReference
+     * @return \App\UBL\Common\CAC\ContractDocumentReference
      */
     public function getContractDocumentReference()
     {
@@ -234,10 +234,10 @@ class TradeFinancingType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\ContractDocumentReference $contractDocumentReference
+     * @param \App\UBL\Common\CAC\ContractDocumentReference $contractDocumentReference
      * @return self
      */
-    public function setContractDocumentReference(?\UBL\Common\CAC\ContractDocumentReference $contractDocumentReference = null)
+    public function setContractDocumentReference(?\App\UBL\Common\CAC\ContractDocumentReference $contractDocumentReference = null)
     {
         $this->contractDocumentReference = $contractDocumentReference;
         return $this;
@@ -256,9 +256,9 @@ class TradeFinancingType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -316,7 +316,7 @@ class TradeFinancingType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -335,7 +335,7 @@ class TradeFinancingType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -357,7 +357,7 @@ class TradeFinancingType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\FinancingParty
+     * @return \App\UBL\Common\CAC\FinancingParty
      */
     public function getFinancingParty()
     {
@@ -377,10 +377,10 @@ class TradeFinancingType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\FinancingParty $financingParty
+     * @param \App\UBL\Common\CAC\FinancingParty $financingParty
      * @return self
      */
-    public function setFinancingParty(\UBL\Common\CAC\FinancingParty $financingParty)
+    public function setFinancingParty(\App\UBL\Common\CAC\FinancingParty $financingParty)
     {
         $this->financingParty = $financingParty;
         return $this;
@@ -399,7 +399,7 @@ class TradeFinancingType
      *  Financial Account
      *  Financial Account
      *
-     * @return \UBL\Common\CAC\FinancingFinancialAccount
+     * @return \App\UBL\Common\CAC\FinancingFinancialAccount
      */
     public function getFinancingFinancialAccount()
     {
@@ -419,10 +419,10 @@ class TradeFinancingType
      *  Financial Account
      *  Financial Account
      *
-     * @param \UBL\Common\CAC\FinancingFinancialAccount $financingFinancialAccount
+     * @param \App\UBL\Common\CAC\FinancingFinancialAccount $financingFinancialAccount
      * @return self
      */
-    public function setFinancingFinancialAccount(?\UBL\Common\CAC\FinancingFinancialAccount $financingFinancialAccount = null)
+    public function setFinancingFinancialAccount(?\App\UBL\Common\CAC\FinancingFinancialAccount $financingFinancialAccount = null)
     {
         $this->financingFinancialAccount = $financingFinancialAccount;
         return $this;
@@ -441,9 +441,9 @@ class TradeFinancingType
      *  Clause
      *
      * @return self
-     * @param \UBL\Common\CAC\Clause $clause
+     * @param \App\UBL\Common\CAC\Clause $clause
      */
-    public function addToClause(\UBL\Common\CAC\Clause $clause)
+    public function addToClause(\App\UBL\Common\CAC\Clause $clause)
     {
         $this->clause[] = $clause;
         return $this;
@@ -501,7 +501,7 @@ class TradeFinancingType
      *  Clause
      *  Clause
      *
-     * @return \UBL\Common\CAC\Clause[]
+     * @return \App\UBL\Common\CAC\Clause[]
      */
     public function getClause()
     {
@@ -520,7 +520,7 @@ class TradeFinancingType
      *  Clause
      *  Clause
      *
-     * @param \UBL\Common\CAC\Clause[] $clause
+     * @param \App\UBL\Common\CAC\Clause[] $clause
      * @return self
      */
     public function setClause(?array $clause = null)
@@ -529,5 +529,4 @@ class TradeFinancingType
         return $this;
     }
 }
-
 

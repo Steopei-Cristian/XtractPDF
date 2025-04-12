@@ -1,2 +1,2 @@
-UBL\Common\CBC\AdvertisementAmountType:
+App\UBL\Common\CBC\AdvertisementAmountType:
     properties: {  }

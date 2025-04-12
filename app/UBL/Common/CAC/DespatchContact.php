@@ -9,4 +9,3 @@ class DespatchContact extends ContactType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ProductTraceID extends ProductTraceIDType
 {
 }
 
-

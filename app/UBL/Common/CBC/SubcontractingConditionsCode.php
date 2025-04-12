@@ -9,4 +9,3 @@ class SubcontractingConditionsCode extends SubcontractingConditionsCodeType
 {
 }
 
-

@@ -9,4 +9,3 @@ class AdditionalDocumentReference extends DocumentReferenceType
 {
 }
 
-

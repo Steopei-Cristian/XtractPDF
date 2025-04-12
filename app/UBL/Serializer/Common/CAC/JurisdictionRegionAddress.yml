@@ -1,3 +1,3 @@
-UBL\Common\CAC\JurisdictionRegionAddress:
+App\UBL\Common\CAC\JurisdictionRegionAddress:
     xml_root_name: JurisdictionRegionAddress
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

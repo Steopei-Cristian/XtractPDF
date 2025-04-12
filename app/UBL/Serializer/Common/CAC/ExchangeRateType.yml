@@ -1,4 +1,4 @@
-UBL\Common\CAC\ExchangeRateType:
+App\UBL\Common\CAC\ExchangeRateType:
     properties:
         sourceCurrencyCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ExchangeRateType:
             accessor:
                 getter: getSourceCurrencyCode
                 setter: setSourceCurrencyCode
-            type: UBL\Common\CBC\SourceCurrencyCode
+            type: App\UBL\Common\CBC\SourceCurrencyCode
         sourceCurrencyBaseRate:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ExchangeRateType:
             accessor:
                 getter: getSourceCurrencyBaseRate
                 setter: setSourceCurrencyBaseRate
-            type: UBL\Common\CBC\SourceCurrencyBaseRate
+            type: App\UBL\Common\CBC\SourceCurrencyBaseRate
         targetCurrencyCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\ExchangeRateType:
             accessor:
                 getter: getTargetCurrencyCode
                 setter: setTargetCurrencyCode
-            type: UBL\Common\CBC\TargetCurrencyCode
+            type: App\UBL\Common\CBC\TargetCurrencyCode
         targetCurrencyBaseRate:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\ExchangeRateType:
             accessor:
                 getter: getTargetCurrencyBaseRate
                 setter: setTargetCurrencyBaseRate
-            type: UBL\Common\CBC\TargetCurrencyBaseRate
+            type: App\UBL\Common\CBC\TargetCurrencyBaseRate
         exchangeMarketID:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\ExchangeRateType:
             accessor:
                 getter: getExchangeMarketID
                 setter: setExchangeMarketID
-            type: UBL\Common\CBC\ExchangeMarketID
+            type: App\UBL\Common\CBC\ExchangeMarketID
         calculationRate:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\ExchangeRateType:
             accessor:
                 getter: getCalculationRate
                 setter: setCalculationRate
-            type: UBL\Common\CBC\CalculationRate
+            type: App\UBL\Common\CBC\CalculationRate
         mathematicOperatorCode:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\ExchangeRateType:
             accessor:
                 getter: getMathematicOperatorCode
                 setter: setMathematicOperatorCode
-            type: UBL\Common\CBC\MathematicOperatorCode
+            type: App\UBL\Common\CBC\MathematicOperatorCode
         date:
             expose: true
             access_type: public_method
@@ -89,4 +89,4 @@ UBL\Common\CAC\ExchangeRateType:
             accessor:
                 getter: getForeignExchangeContract
                 setter: setForeignExchangeContract
-            type: UBL\Common\CAC\ForeignExchangeContract
+            type: App\UBL\Common\CAC\ForeignExchangeContract

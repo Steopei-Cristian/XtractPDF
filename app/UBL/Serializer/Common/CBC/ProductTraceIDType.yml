@@ -1,2 +1,2 @@
-UBL\Common\CBC\ProductTraceIDType:
+App\UBL\Common\CBC\ProductTraceIDType:
     properties: {  }

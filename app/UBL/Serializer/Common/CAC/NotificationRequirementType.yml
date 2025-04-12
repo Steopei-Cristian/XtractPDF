@@ -1,4 +1,4 @@
-UBL\Common\CAC\NotificationRequirementType:
+App\UBL\Common\CAC\NotificationRequirementType:
     properties:
         notificationTypeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\NotificationRequirementType:
             accessor:
                 getter: getNotificationTypeCode
                 setter: setNotificationTypeCode
-            type: UBL\Common\CBC\NotificationTypeCode
+            type: App\UBL\Common\CBC\NotificationTypeCode
         postEventNotificationDurationMeasure:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\NotificationRequirementType:
             accessor:
                 getter: getPostEventNotificationDurationMeasure
                 setter: setPostEventNotificationDurationMeasure
-            type: UBL\Common\CBC\PostEventNotificationDurationMeasure
+            type: App\UBL\Common\CBC\PostEventNotificationDurationMeasure
         preEventNotificationDurationMeasure:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\NotificationRequirementType:
             accessor:
                 getter: getPreEventNotificationDurationMeasure
                 setter: setPreEventNotificationDurationMeasure
-            type: UBL\Common\CBC\PreEventNotificationDurationMeasure
+            type: App\UBL\Common\CBC\PreEventNotificationDurationMeasure
         notifyParty:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\NotificationRequirementType:
                 inline: true
                 entry_name: NotifyParty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\NotifyParty>
+            type: array<App\UBL\Common\CAC\NotifyParty>
         notificationPeriod:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\NotificationRequirementType:
                 inline: true
                 entry_name: NotificationPeriod
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\NotificationPeriod>
+            type: array<App\UBL\Common\CAC\NotificationPeriod>
         notificationLocation:
             expose: true
             access_type: public_method
@@ -71,4 +71,4 @@ UBL\Common\CAC\NotificationRequirementType:
                 inline: true
                 entry_name: NotificationLocation
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\NotificationLocation>
+            type: array<App\UBL\Common\CAC\NotificationLocation>

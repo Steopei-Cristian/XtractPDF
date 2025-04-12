@@ -9,4 +9,3 @@ class TotalAmount extends TotalAmountType
 {
 }
 
-

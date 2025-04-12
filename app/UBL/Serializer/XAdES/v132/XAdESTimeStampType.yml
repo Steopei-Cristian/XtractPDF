@@ -1,4 +1,4 @@
-UBL\XAdES\v132\XAdESTimeStampType:
+App\UBL\XAdES\v132\XAdESTimeStampType:
     properties:
         id:
             expose: true
@@ -22,7 +22,7 @@ UBL\XAdES\v132\XAdESTimeStampType:
                 inline: true
                 entry_name: Include
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\IncludeXsd>
+            type: array<App\UBL\XAdES\v132\IncludeXsd>
         canonicalizationMethod:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ UBL\XAdES\v132\XAdESTimeStampType:
             accessor:
                 getter: getCanonicalizationMethod
                 setter: setCanonicalizationMethod
-            type: UBL\Xmldsig\CanonicalizationMethod
+            type: App\UBL\Xmldsig\CanonicalizationMethod
         encapsulatedTimeStamp:
             expose: true
             access_type: public_method
@@ -46,7 +46,7 @@ UBL\XAdES\v132\XAdESTimeStampType:
                 inline: true
                 entry_name: EncapsulatedTimeStamp
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\EncapsulatedPKIDataType>
+            type: array<App\UBL\XAdES\v132\EncapsulatedPKIDataType>
         xMLTimeStamp:
             expose: true
             access_type: public_method
@@ -60,4 +60,4 @@ UBL\XAdES\v132\XAdESTimeStampType:
                 inline: true
                 entry_name: XMLTimeStamp
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\AnyType>
+            type: array<App\UBL\XAdES\v132\AnyType>

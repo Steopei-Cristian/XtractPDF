@@ -9,4 +9,3 @@ class DespatchAdviceTypeCode extends DespatchAdviceTypeCodeType
 {
 }
 
-

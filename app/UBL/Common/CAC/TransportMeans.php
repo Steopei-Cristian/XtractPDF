@@ -9,4 +9,3 @@ class TransportMeans extends TransportMeansType
 {
 }
 
-

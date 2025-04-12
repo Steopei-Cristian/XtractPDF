@@ -9,4 +9,3 @@ class ParticipatingLocationsLocation extends LocationType
 {
 }
 
-

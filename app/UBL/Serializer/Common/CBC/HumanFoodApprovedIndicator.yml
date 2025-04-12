@@ -1,4 +1,4 @@
-UBL\Common\CBC\HumanFoodApprovedIndicator:
+App\UBL\Common\CBC\HumanFoodApprovedIndicator:
     xml_root_name: HumanFoodApprovedIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

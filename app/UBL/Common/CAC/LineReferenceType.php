@@ -23,7 +23,7 @@ class LineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\LineID $lineID
+     * @var \App\UBL\Common\CBC\LineID $lineID
      */
     private $lineID = null;
 
@@ -37,7 +37,7 @@ class LineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -52,7 +52,7 @@ class LineReferenceType
      *  Line Status
      *  Line Status_ Code. Type
      *
-     * @var \UBL\Common\CBC\LineStatusCode $lineStatusCode
+     * @var \App\UBL\Common\CBC\LineStatusCode $lineStatusCode
      */
     private $lineStatusCode = null;
 
@@ -66,7 +66,7 @@ class LineReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference $documentReference
      */
     private $documentReference = null;
 
@@ -82,7 +82,7 @@ class LineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\LineID
+     * @return \App\UBL\Common\CBC\LineID
      */
     public function getLineID()
     {
@@ -101,10 +101,10 @@ class LineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\LineID $lineID
+     * @param \App\UBL\Common\CBC\LineID $lineID
      * @return self
      */
-    public function setLineID(\UBL\Common\CBC\LineID $lineID)
+    public function setLineID(\App\UBL\Common\CBC\LineID $lineID)
     {
         $this->lineID = $lineID;
         return $this;
@@ -122,7 +122,7 @@ class LineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -141,10 +141,10 @@ class LineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -163,7 +163,7 @@ class LineReferenceType
      *  Line Status
      *  Line Status_ Code. Type
      *
-     * @return \UBL\Common\CBC\LineStatusCode
+     * @return \App\UBL\Common\CBC\LineStatusCode
      */
     public function getLineStatusCode()
     {
@@ -183,10 +183,10 @@ class LineReferenceType
      *  Line Status
      *  Line Status_ Code. Type
      *
-     * @param \UBL\Common\CBC\LineStatusCode $lineStatusCode
+     * @param \App\UBL\Common\CBC\LineStatusCode $lineStatusCode
      * @return self
      */
-    public function setLineStatusCode(?\UBL\Common\CBC\LineStatusCode $lineStatusCode = null)
+    public function setLineStatusCode(?\App\UBL\Common\CBC\LineStatusCode $lineStatusCode = null)
     {
         $this->lineStatusCode = $lineStatusCode;
         return $this;
@@ -204,7 +204,7 @@ class LineReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference
+     * @return \App\UBL\Common\CAC\DocumentReference
      */
     public function getDocumentReference()
     {
@@ -223,14 +223,13 @@ class LineReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      * @return self
      */
-    public function setDocumentReference(?\UBL\Common\CAC\DocumentReference $documentReference = null)
+    public function setDocumentReference(?\App\UBL\Common\CAC\DocumentReference $documentReference = null)
     {
         $this->documentReference = $documentReference;
         return $this;
     }
 }
-
 

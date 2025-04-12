@@ -1,4 +1,4 @@
-UBL\XAdES\v132\OtherTimeStampType:
+App\UBL\XAdES\v132\OtherTimeStampType:
     properties:
         id:
             expose: true
@@ -22,7 +22,7 @@ UBL\XAdES\v132\OtherTimeStampType:
                 inline: true
                 entry_name: ReferenceInfo
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\ReferenceInfo>
+            type: array<App\UBL\XAdES\v132\ReferenceInfo>
         canonicalizationMethod:
             expose: true
             access_type: public_method
@@ -32,7 +32,7 @@ UBL\XAdES\v132\OtherTimeStampType:
             accessor:
                 getter: getCanonicalizationMethod
                 setter: setCanonicalizationMethod
-            type: UBL\Xmldsig\CanonicalizationMethod
+            type: App\UBL\Xmldsig\CanonicalizationMethod
         encapsulatedTimeStamp:
             expose: true
             access_type: public_method
@@ -42,7 +42,7 @@ UBL\XAdES\v132\OtherTimeStampType:
             accessor:
                 getter: getEncapsulatedTimeStamp
                 setter: setEncapsulatedTimeStamp
-            type: UBL\XAdES\v132\EncapsulatedPKIDataType
+            type: App\UBL\XAdES\v132\EncapsulatedPKIDataType
         xMLTimeStamp:
             expose: true
             access_type: public_method
@@ -52,4 +52,4 @@ UBL\XAdES\v132\OtherTimeStampType:
             accessor:
                 getter: getXMLTimeStamp
                 setter: setXMLTimeStamp
-            type: UBL\XAdES\v132\AnyType
+            type: App\UBL\XAdES\v132\AnyType

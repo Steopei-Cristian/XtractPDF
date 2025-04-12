@@ -9,4 +9,3 @@ class TrackingDeviceCode extends TrackingDeviceCodeType
 {
 }
 
-

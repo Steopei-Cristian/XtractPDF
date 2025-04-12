@@ -9,4 +9,3 @@ class NominationPeriod extends PeriodType
 {
 }
 
-

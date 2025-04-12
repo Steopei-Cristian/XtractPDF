@@ -9,4 +9,3 @@ class TimeAmount extends TimeAmountType
 {
 }
 
-

@@ -24,7 +24,7 @@ class TenderingTermsType
      *  Code. Type
      *  Price, Multiple criteria
      *
-     * @var \UBL\Common\CBC\AwardingMethodTypeCode $awardingMethodTypeCode
+     * @var \App\UBL\Common\CBC\AwardingMethodTypeCode $awardingMethodTypeCode
      */
     private $awardingMethodTypeCode = null;
 
@@ -39,7 +39,7 @@ class TenderingTermsType
      *  Code. Type
      *  Unit prices, global price
      *
-     * @var \UBL\Common\CBC\PriceEvaluationCode $priceEvaluationCode
+     * @var \App\UBL\Common\CBC\PriceEvaluationCode $priceEvaluationCode
      */
     private $priceEvaluationCode = null;
 
@@ -54,7 +54,7 @@ class TenderingTermsType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MaximumVariantQuantity $maximumVariantQuantity
+     * @var \App\UBL\Common\CBC\MaximumVariantQuantity $maximumVariantQuantity
      */
     private $maximumVariantQuantity = null;
 
@@ -84,7 +84,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\AcceptedVariantsDescription[] $acceptedVariantsDescription
+     * @var \App\UBL\Common\CBC\AcceptedVariantsDescription[] $acceptedVariantsDescription
      */
     private $acceptedVariantsDescription = [
         
@@ -101,7 +101,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\PriceRevisionFormulaDescription[] $priceRevisionFormulaDescription
+     * @var \App\UBL\Common\CBC\PriceRevisionFormulaDescription[] $priceRevisionFormulaDescription
      */
     private $priceRevisionFormulaDescription = [
         
@@ -118,7 +118,7 @@ class TenderingTermsType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\FundingProgramCode $fundingProgramCode
+     * @var \App\UBL\Common\CBC\FundingProgramCode $fundingProgramCode
      */
     private $fundingProgramCode = null;
 
@@ -133,7 +133,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\FundingProgram[] $fundingProgram
+     * @var \App\UBL\Common\CBC\FundingProgram[] $fundingProgram
      */
     private $fundingProgram = [
         
@@ -150,7 +150,7 @@ class TenderingTermsType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\MaximumAdvertisementAmount $maximumAdvertisementAmount
+     * @var \App\UBL\Common\CBC\MaximumAdvertisementAmount $maximumAdvertisementAmount
      */
     private $maximumAdvertisementAmount = null;
 
@@ -164,7 +164,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -180,7 +180,7 @@ class TenderingTermsType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PaymentFrequencyCode $paymentFrequencyCode
+     * @var \App\UBL\Common\CBC\PaymentFrequencyCode $paymentFrequencyCode
      */
     private $paymentFrequencyCode = null;
 
@@ -196,7 +196,7 @@ class TenderingTermsType
      *  Identifier. Type
      *  Web site
      *
-     * @var \UBL\Common\CBC\EconomicOperatorRegistryURI $economicOperatorRegistryURI
+     * @var \App\UBL\Common\CBC\EconomicOperatorRegistryURI $economicOperatorRegistryURI
      */
     private $economicOperatorRegistryURI = null;
 
@@ -240,7 +240,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\AdditionalConditions[] $additionalConditions
+     * @var \App\UBL\Common\CBC\AdditionalConditions[] $additionalConditions
      */
     private $additionalConditions = [
         
@@ -271,7 +271,7 @@ class TenderingTermsType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\DocumentationFeeAmount $documentationFeeAmount
+     * @var \App\UBL\Common\CBC\DocumentationFeeAmount $documentationFeeAmount
      */
     private $documentationFeeAmount = null;
 
@@ -286,7 +286,7 @@ class TenderingTermsType
      *  Clause
      *  Clause
      *
-     * @var \UBL\Common\CAC\PenaltyClause[] $penaltyClause
+     * @var \App\UBL\Common\CAC\PenaltyClause[] $penaltyClause
      */
     private $penaltyClause = [
         
@@ -303,7 +303,7 @@ class TenderingTermsType
      *  Financial Guarantee
      *  Financial Guarantee
      *
-     * @var \UBL\Common\CAC\RequiredFinancialGuarantee[] $requiredFinancialGuarantee
+     * @var \App\UBL\Common\CAC\RequiredFinancialGuarantee[] $requiredFinancialGuarantee
      */
     private $requiredFinancialGuarantee = [
         
@@ -320,7 +320,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\ProcurementLegislationDocumentReference $procurementLegislationDocumentReference
+     * @var \App\UBL\Common\CAC\ProcurementLegislationDocumentReference $procurementLegislationDocumentReference
      */
     private $procurementLegislationDocumentReference = null;
 
@@ -335,7 +335,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\FiscalLegislationDocumentReference $fiscalLegislationDocumentReference
+     * @var \App\UBL\Common\CAC\FiscalLegislationDocumentReference $fiscalLegislationDocumentReference
      */
     private $fiscalLegislationDocumentReference = null;
 
@@ -350,7 +350,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\EnvironmentalLegislationDocumentReference $environmentalLegislationDocumentReference
+     * @var \App\UBL\Common\CAC\EnvironmentalLegislationDocumentReference $environmentalLegislationDocumentReference
      */
     private $environmentalLegislationDocumentReference = null;
 
@@ -365,7 +365,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\EmploymentLegislationDocumentReference $employmentLegislationDocumentReference
+     * @var \App\UBL\Common\CAC\EmploymentLegislationDocumentReference $employmentLegislationDocumentReference
      */
     private $employmentLegislationDocumentReference = null;
 
@@ -380,7 +380,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\ContractualDocumentReference[] $contractualDocumentReference
+     * @var \App\UBL\Common\CAC\ContractualDocumentReference[] $contractualDocumentReference
      */
     private $contractualDocumentReference = [
         
@@ -397,7 +397,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference
+     * @var \App\UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference
      */
     private $callForTendersDocumentReference = null;
 
@@ -412,7 +412,7 @@ class TenderingTermsType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
+     * @var \App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
      */
     private $warrantyValidityPeriod = null;
 
@@ -426,7 +426,7 @@ class TenderingTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @var \UBL\Common\CAC\PaymentTerms[] $paymentTerms
+     * @var \App\UBL\Common\CAC\PaymentTerms[] $paymentTerms
      */
     private $paymentTerms = [
         
@@ -442,7 +442,7 @@ class TenderingTermsType
      *  Tenderer Qualification Request
      *  Tenderer Qualification Request
      *
-     * @var \UBL\Common\CAC\TendererQualificationRequest[] $tendererQualificationRequest
+     * @var \App\UBL\Common\CAC\TendererQualificationRequest[] $tendererQualificationRequest
      */
     private $tendererQualificationRequest = [
         
@@ -459,7 +459,7 @@ class TenderingTermsType
      *  Subcontract Terms
      *  Subcontract Terms
      *
-     * @var \UBL\Common\CAC\AllowedSubcontractTerms[] $allowedSubcontractTerms
+     * @var \App\UBL\Common\CAC\AllowedSubcontractTerms[] $allowedSubcontractTerms
      */
     private $allowedSubcontractTerms = [
         
@@ -476,7 +476,7 @@ class TenderingTermsType
      *  Tender Preparation
      *  Curricula required, Experience required, ....
      *
-     * @var \UBL\Common\CAC\TenderPreparation[] $tenderPreparation
+     * @var \App\UBL\Common\CAC\TenderPreparation[] $tenderPreparation
      */
     private $tenderPreparation = [
         
@@ -492,7 +492,7 @@ class TenderingTermsType
      *  Contract Execution Requirement
      *  Contract Execution Requirement
      *
-     * @var \UBL\Common\CAC\ContractExecutionRequirement[] $contractExecutionRequirement
+     * @var \App\UBL\Common\CAC\ContractExecutionRequirement[] $contractExecutionRequirement
      */
     private $contractExecutionRequirement = [
         
@@ -508,7 +508,7 @@ class TenderingTermsType
      *  Awarding Terms
      *  Awarding Terms
      *
-     * @var \UBL\Common\CAC\AwardingTerms $awardingTerms
+     * @var \App\UBL\Common\CAC\AwardingTerms $awardingTerms
      */
     private $awardingTerms = null;
 
@@ -523,7 +523,7 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\AdditionalInformationParty $additionalInformationParty
+     * @var \App\UBL\Common\CAC\AdditionalInformationParty $additionalInformationParty
      */
     private $additionalInformationParty = null;
 
@@ -538,7 +538,7 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\DocumentProviderParty $documentProviderParty
+     * @var \App\UBL\Common\CAC\DocumentProviderParty $documentProviderParty
      */
     private $documentProviderParty = null;
 
@@ -553,7 +553,7 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\TenderRecipientParty $tenderRecipientParty
+     * @var \App\UBL\Common\CAC\TenderRecipientParty $tenderRecipientParty
      */
     private $tenderRecipientParty = null;
 
@@ -568,7 +568,7 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\ContractResponsibleParty $contractResponsibleParty
+     * @var \App\UBL\Common\CAC\ContractResponsibleParty $contractResponsibleParty
      */
     private $contractResponsibleParty = null;
 
@@ -583,7 +583,7 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\TenderEvaluationParty[] $tenderEvaluationParty
+     * @var \App\UBL\Common\CAC\TenderEvaluationParty[] $tenderEvaluationParty
      */
     private $tenderEvaluationParty = [
         
@@ -600,7 +600,7 @@ class TenderingTermsType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\TenderValidityPeriod $tenderValidityPeriod
+     * @var \App\UBL\Common\CAC\TenderValidityPeriod $tenderValidityPeriod
      */
     private $tenderValidityPeriod = null;
 
@@ -615,7 +615,7 @@ class TenderingTermsType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ContractAcceptancePeriod $contractAcceptancePeriod
+     * @var \App\UBL\Common\CAC\ContractAcceptancePeriod $contractAcceptancePeriod
      */
     private $contractAcceptancePeriod = null;
 
@@ -629,7 +629,7 @@ class TenderingTermsType
      *  Appeal Terms
      *  Appeal Terms
      *
-     * @var \UBL\Common\CAC\AppealTerms $appealTerms
+     * @var \App\UBL\Common\CAC\AppealTerms $appealTerms
      */
     private $appealTerms = null;
 
@@ -643,7 +643,7 @@ class TenderingTermsType
      *  Language
      *  Language
      *
-     * @var \UBL\Common\CAC\Language[] $language
+     * @var \App\UBL\Common\CAC\Language[] $language
      */
     private $language = [
         
@@ -659,7 +659,7 @@ class TenderingTermsType
      *  Budget Account Line
      *  Budget Account Line
      *
-     * @var \UBL\Common\CAC\BudgetAccountLine[] $budgetAccountLine
+     * @var \App\UBL\Common\CAC\BudgetAccountLine[] $budgetAccountLine
      */
     private $budgetAccountLine = [
         
@@ -676,7 +676,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\ReplacedNoticeDocumentReference $replacedNoticeDocumentReference
+     * @var \App\UBL\Common\CAC\ReplacedNoticeDocumentReference $replacedNoticeDocumentReference
      */
     private $replacedNoticeDocumentReference = null;
 
@@ -693,7 +693,7 @@ class TenderingTermsType
      *  Code. Type
      *  Price, Multiple criteria
      *
-     * @return \UBL\Common\CBC\AwardingMethodTypeCode
+     * @return \App\UBL\Common\CBC\AwardingMethodTypeCode
      */
     public function getAwardingMethodTypeCode()
     {
@@ -713,10 +713,10 @@ class TenderingTermsType
      *  Code. Type
      *  Price, Multiple criteria
      *
-     * @param \UBL\Common\CBC\AwardingMethodTypeCode $awardingMethodTypeCode
+     * @param \App\UBL\Common\CBC\AwardingMethodTypeCode $awardingMethodTypeCode
      * @return self
      */
-    public function setAwardingMethodTypeCode(?\UBL\Common\CBC\AwardingMethodTypeCode $awardingMethodTypeCode = null)
+    public function setAwardingMethodTypeCode(?\App\UBL\Common\CBC\AwardingMethodTypeCode $awardingMethodTypeCode = null)
     {
         $this->awardingMethodTypeCode = $awardingMethodTypeCode;
         return $this;
@@ -735,7 +735,7 @@ class TenderingTermsType
      *  Code. Type
      *  Unit prices, global price
      *
-     * @return \UBL\Common\CBC\PriceEvaluationCode
+     * @return \App\UBL\Common\CBC\PriceEvaluationCode
      */
     public function getPriceEvaluationCode()
     {
@@ -755,10 +755,10 @@ class TenderingTermsType
      *  Code. Type
      *  Unit prices, global price
      *
-     * @param \UBL\Common\CBC\PriceEvaluationCode $priceEvaluationCode
+     * @param \App\UBL\Common\CBC\PriceEvaluationCode $priceEvaluationCode
      * @return self
      */
-    public function setPriceEvaluationCode(?\UBL\Common\CBC\PriceEvaluationCode $priceEvaluationCode = null)
+    public function setPriceEvaluationCode(?\App\UBL\Common\CBC\PriceEvaluationCode $priceEvaluationCode = null)
     {
         $this->priceEvaluationCode = $priceEvaluationCode;
         return $this;
@@ -777,7 +777,7 @@ class TenderingTermsType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MaximumVariantQuantity
+     * @return \App\UBL\Common\CBC\MaximumVariantQuantity
      */
     public function getMaximumVariantQuantity()
     {
@@ -797,10 +797,10 @@ class TenderingTermsType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MaximumVariantQuantity $maximumVariantQuantity
+     * @param \App\UBL\Common\CBC\MaximumVariantQuantity $maximumVariantQuantity
      * @return self
      */
-    public function setMaximumVariantQuantity(?\UBL\Common\CBC\MaximumVariantQuantity $maximumVariantQuantity = null)
+    public function setMaximumVariantQuantity(?\App\UBL\Common\CBC\MaximumVariantQuantity $maximumVariantQuantity = null)
     {
         $this->maximumVariantQuantity = $maximumVariantQuantity;
         return $this;
@@ -862,9 +862,9 @@ class TenderingTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\AcceptedVariantsDescription $acceptedVariantsDescription
+     * @param \App\UBL\Common\CBC\AcceptedVariantsDescription $acceptedVariantsDescription
      */
-    public function addToAcceptedVariantsDescription(\UBL\Common\CBC\AcceptedVariantsDescription $acceptedVariantsDescription)
+    public function addToAcceptedVariantsDescription(\App\UBL\Common\CBC\AcceptedVariantsDescription $acceptedVariantsDescription)
     {
         $this->acceptedVariantsDescription[] = $acceptedVariantsDescription;
         return $this;
@@ -925,7 +925,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\AcceptedVariantsDescription[]
+     * @return \App\UBL\Common\CBC\AcceptedVariantsDescription[]
      */
     public function getAcceptedVariantsDescription()
     {
@@ -945,7 +945,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\AcceptedVariantsDescription[] $acceptedVariantsDescription
+     * @param \App\UBL\Common\CBC\AcceptedVariantsDescription[] $acceptedVariantsDescription
      * @return self
      */
     public function setAcceptedVariantsDescription(?array $acceptedVariantsDescription = null)
@@ -968,9 +968,9 @@ class TenderingTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\PriceRevisionFormulaDescription $priceRevisionFormulaDescription
+     * @param \App\UBL\Common\CBC\PriceRevisionFormulaDescription $priceRevisionFormulaDescription
      */
-    public function addToPriceRevisionFormulaDescription(\UBL\Common\CBC\PriceRevisionFormulaDescription $priceRevisionFormulaDescription)
+    public function addToPriceRevisionFormulaDescription(\App\UBL\Common\CBC\PriceRevisionFormulaDescription $priceRevisionFormulaDescription)
     {
         $this->priceRevisionFormulaDescription[] = $priceRevisionFormulaDescription;
         return $this;
@@ -1031,7 +1031,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\PriceRevisionFormulaDescription[]
+     * @return \App\UBL\Common\CBC\PriceRevisionFormulaDescription[]
      */
     public function getPriceRevisionFormulaDescription()
     {
@@ -1051,7 +1051,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\PriceRevisionFormulaDescription[] $priceRevisionFormulaDescription
+     * @param \App\UBL\Common\CBC\PriceRevisionFormulaDescription[] $priceRevisionFormulaDescription
      * @return self
      */
     public function setPriceRevisionFormulaDescription(?array $priceRevisionFormulaDescription = null)
@@ -1073,7 +1073,7 @@ class TenderingTermsType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\FundingProgramCode
+     * @return \App\UBL\Common\CBC\FundingProgramCode
      */
     public function getFundingProgramCode()
     {
@@ -1093,10 +1093,10 @@ class TenderingTermsType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\FundingProgramCode $fundingProgramCode
+     * @param \App\UBL\Common\CBC\FundingProgramCode $fundingProgramCode
      * @return self
      */
-    public function setFundingProgramCode(?\UBL\Common\CBC\FundingProgramCode $fundingProgramCode = null)
+    public function setFundingProgramCode(?\App\UBL\Common\CBC\FundingProgramCode $fundingProgramCode = null)
     {
         $this->fundingProgramCode = $fundingProgramCode;
         return $this;
@@ -1116,9 +1116,9 @@ class TenderingTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\FundingProgram $fundingProgram
+     * @param \App\UBL\Common\CBC\FundingProgram $fundingProgram
      */
-    public function addToFundingProgram(\UBL\Common\CBC\FundingProgram $fundingProgram)
+    public function addToFundingProgram(\App\UBL\Common\CBC\FundingProgram $fundingProgram)
     {
         $this->fundingProgram[] = $fundingProgram;
         return $this;
@@ -1179,7 +1179,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\FundingProgram[]
+     * @return \App\UBL\Common\CBC\FundingProgram[]
      */
     public function getFundingProgram()
     {
@@ -1199,7 +1199,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\FundingProgram[] $fundingProgram
+     * @param \App\UBL\Common\CBC\FundingProgram[] $fundingProgram
      * @return self
      */
     public function setFundingProgram(?array $fundingProgram = null)
@@ -1221,7 +1221,7 @@ class TenderingTermsType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\MaximumAdvertisementAmount
+     * @return \App\UBL\Common\CBC\MaximumAdvertisementAmount
      */
     public function getMaximumAdvertisementAmount()
     {
@@ -1241,10 +1241,10 @@ class TenderingTermsType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\MaximumAdvertisementAmount $maximumAdvertisementAmount
+     * @param \App\UBL\Common\CBC\MaximumAdvertisementAmount $maximumAdvertisementAmount
      * @return self
      */
-    public function setMaximumAdvertisementAmount(?\UBL\Common\CBC\MaximumAdvertisementAmount $maximumAdvertisementAmount = null)
+    public function setMaximumAdvertisementAmount(?\App\UBL\Common\CBC\MaximumAdvertisementAmount $maximumAdvertisementAmount = null)
     {
         $this->maximumAdvertisementAmount = $maximumAdvertisementAmount;
         return $this;
@@ -1263,9 +1263,9 @@ class TenderingTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -1323,7 +1323,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -1342,7 +1342,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -1363,7 +1363,7 @@ class TenderingTermsType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PaymentFrequencyCode
+     * @return \App\UBL\Common\CBC\PaymentFrequencyCode
      */
     public function getPaymentFrequencyCode()
     {
@@ -1382,10 +1382,10 @@ class TenderingTermsType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PaymentFrequencyCode $paymentFrequencyCode
+     * @param \App\UBL\Common\CBC\PaymentFrequencyCode $paymentFrequencyCode
      * @return self
      */
-    public function setPaymentFrequencyCode(?\UBL\Common\CBC\PaymentFrequencyCode $paymentFrequencyCode = null)
+    public function setPaymentFrequencyCode(?\App\UBL\Common\CBC\PaymentFrequencyCode $paymentFrequencyCode = null)
     {
         $this->paymentFrequencyCode = $paymentFrequencyCode;
         return $this;
@@ -1405,7 +1405,7 @@ class TenderingTermsType
      *  Identifier. Type
      *  Web site
      *
-     * @return \UBL\Common\CBC\EconomicOperatorRegistryURI
+     * @return \App\UBL\Common\CBC\EconomicOperatorRegistryURI
      */
     public function getEconomicOperatorRegistryURI()
     {
@@ -1426,10 +1426,10 @@ class TenderingTermsType
      *  Identifier. Type
      *  Web site
      *
-     * @param \UBL\Common\CBC\EconomicOperatorRegistryURI $economicOperatorRegistryURI
+     * @param \App\UBL\Common\CBC\EconomicOperatorRegistryURI $economicOperatorRegistryURI
      * @return self
      */
-    public function setEconomicOperatorRegistryURI(?\UBL\Common\CBC\EconomicOperatorRegistryURI $economicOperatorRegistryURI = null)
+    public function setEconomicOperatorRegistryURI(?\App\UBL\Common\CBC\EconomicOperatorRegistryURI $economicOperatorRegistryURI = null)
     {
         $this->economicOperatorRegistryURI = $economicOperatorRegistryURI;
         return $this;
@@ -1531,9 +1531,9 @@ class TenderingTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\AdditionalConditions $additionalConditions
+     * @param \App\UBL\Common\CBC\AdditionalConditions $additionalConditions
      */
-    public function addToAdditionalConditions(\UBL\Common\CBC\AdditionalConditions $additionalConditions)
+    public function addToAdditionalConditions(\App\UBL\Common\CBC\AdditionalConditions $additionalConditions)
     {
         $this->additionalConditions[] = $additionalConditions;
         return $this;
@@ -1594,7 +1594,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\AdditionalConditions[]
+     * @return \App\UBL\Common\CBC\AdditionalConditions[]
      */
     public function getAdditionalConditions()
     {
@@ -1614,7 +1614,7 @@ class TenderingTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\AdditionalConditions[] $additionalConditions
+     * @param \App\UBL\Common\CBC\AdditionalConditions[] $additionalConditions
      * @return self
      */
     public function setAdditionalConditions(?array $additionalConditions = null)
@@ -1677,7 +1677,7 @@ class TenderingTermsType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\DocumentationFeeAmount
+     * @return \App\UBL\Common\CBC\DocumentationFeeAmount
      */
     public function getDocumentationFeeAmount()
     {
@@ -1696,10 +1696,10 @@ class TenderingTermsType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\DocumentationFeeAmount $documentationFeeAmount
+     * @param \App\UBL\Common\CBC\DocumentationFeeAmount $documentationFeeAmount
      * @return self
      */
-    public function setDocumentationFeeAmount(?\UBL\Common\CBC\DocumentationFeeAmount $documentationFeeAmount = null)
+    public function setDocumentationFeeAmount(?\App\UBL\Common\CBC\DocumentationFeeAmount $documentationFeeAmount = null)
     {
         $this->documentationFeeAmount = $documentationFeeAmount;
         return $this;
@@ -1719,9 +1719,9 @@ class TenderingTermsType
      *  Clause
      *
      * @return self
-     * @param \UBL\Common\CAC\PenaltyClause $penaltyClause
+     * @param \App\UBL\Common\CAC\PenaltyClause $penaltyClause
      */
-    public function addToPenaltyClause(\UBL\Common\CAC\PenaltyClause $penaltyClause)
+    public function addToPenaltyClause(\App\UBL\Common\CAC\PenaltyClause $penaltyClause)
     {
         $this->penaltyClause[] = $penaltyClause;
         return $this;
@@ -1782,7 +1782,7 @@ class TenderingTermsType
      *  Clause
      *  Clause
      *
-     * @return \UBL\Common\CAC\PenaltyClause[]
+     * @return \App\UBL\Common\CAC\PenaltyClause[]
      */
     public function getPenaltyClause()
     {
@@ -1802,7 +1802,7 @@ class TenderingTermsType
      *  Clause
      *  Clause
      *
-     * @param \UBL\Common\CAC\PenaltyClause[] $penaltyClause
+     * @param \App\UBL\Common\CAC\PenaltyClause[] $penaltyClause
      * @return self
      */
     public function setPenaltyClause(?array $penaltyClause = null)
@@ -1825,9 +1825,9 @@ class TenderingTermsType
      *  Financial Guarantee
      *
      * @return self
-     * @param \UBL\Common\CAC\RequiredFinancialGuarantee $requiredFinancialGuarantee
+     * @param \App\UBL\Common\CAC\RequiredFinancialGuarantee $requiredFinancialGuarantee
      */
-    public function addToRequiredFinancialGuarantee(\UBL\Common\CAC\RequiredFinancialGuarantee $requiredFinancialGuarantee)
+    public function addToRequiredFinancialGuarantee(\App\UBL\Common\CAC\RequiredFinancialGuarantee $requiredFinancialGuarantee)
     {
         $this->requiredFinancialGuarantee[] = $requiredFinancialGuarantee;
         return $this;
@@ -1888,7 +1888,7 @@ class TenderingTermsType
      *  Financial Guarantee
      *  Financial Guarantee
      *
-     * @return \UBL\Common\CAC\RequiredFinancialGuarantee[]
+     * @return \App\UBL\Common\CAC\RequiredFinancialGuarantee[]
      */
     public function getRequiredFinancialGuarantee()
     {
@@ -1908,7 +1908,7 @@ class TenderingTermsType
      *  Financial Guarantee
      *  Financial Guarantee
      *
-     * @param \UBL\Common\CAC\RequiredFinancialGuarantee[] $requiredFinancialGuarantee
+     * @param \App\UBL\Common\CAC\RequiredFinancialGuarantee[] $requiredFinancialGuarantee
      * @return self
      */
     public function setRequiredFinancialGuarantee(?array $requiredFinancialGuarantee = null)
@@ -1930,7 +1930,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\ProcurementLegislationDocumentReference
+     * @return \App\UBL\Common\CAC\ProcurementLegislationDocumentReference
      */
     public function getProcurementLegislationDocumentReference()
     {
@@ -1950,10 +1950,10 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\ProcurementLegislationDocumentReference $procurementLegislationDocumentReference
+     * @param \App\UBL\Common\CAC\ProcurementLegislationDocumentReference $procurementLegislationDocumentReference
      * @return self
      */
-    public function setProcurementLegislationDocumentReference(?\UBL\Common\CAC\ProcurementLegislationDocumentReference $procurementLegislationDocumentReference = null)
+    public function setProcurementLegislationDocumentReference(?\App\UBL\Common\CAC\ProcurementLegislationDocumentReference $procurementLegislationDocumentReference = null)
     {
         $this->procurementLegislationDocumentReference = $procurementLegislationDocumentReference;
         return $this;
@@ -1972,7 +1972,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\FiscalLegislationDocumentReference
+     * @return \App\UBL\Common\CAC\FiscalLegislationDocumentReference
      */
     public function getFiscalLegislationDocumentReference()
     {
@@ -1992,10 +1992,10 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\FiscalLegislationDocumentReference $fiscalLegislationDocumentReference
+     * @param \App\UBL\Common\CAC\FiscalLegislationDocumentReference $fiscalLegislationDocumentReference
      * @return self
      */
-    public function setFiscalLegislationDocumentReference(?\UBL\Common\CAC\FiscalLegislationDocumentReference $fiscalLegislationDocumentReference = null)
+    public function setFiscalLegislationDocumentReference(?\App\UBL\Common\CAC\FiscalLegislationDocumentReference $fiscalLegislationDocumentReference = null)
     {
         $this->fiscalLegislationDocumentReference = $fiscalLegislationDocumentReference;
         return $this;
@@ -2014,7 +2014,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\EnvironmentalLegislationDocumentReference
+     * @return \App\UBL\Common\CAC\EnvironmentalLegislationDocumentReference
      */
     public function getEnvironmentalLegislationDocumentReference()
     {
@@ -2034,10 +2034,10 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\EnvironmentalLegislationDocumentReference $environmentalLegislationDocumentReference
+     * @param \App\UBL\Common\CAC\EnvironmentalLegislationDocumentReference $environmentalLegislationDocumentReference
      * @return self
      */
-    public function setEnvironmentalLegislationDocumentReference(?\UBL\Common\CAC\EnvironmentalLegislationDocumentReference $environmentalLegislationDocumentReference = null)
+    public function setEnvironmentalLegislationDocumentReference(?\App\UBL\Common\CAC\EnvironmentalLegislationDocumentReference $environmentalLegislationDocumentReference = null)
     {
         $this->environmentalLegislationDocumentReference = $environmentalLegislationDocumentReference;
         return $this;
@@ -2056,7 +2056,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\EmploymentLegislationDocumentReference
+     * @return \App\UBL\Common\CAC\EmploymentLegislationDocumentReference
      */
     public function getEmploymentLegislationDocumentReference()
     {
@@ -2076,10 +2076,10 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\EmploymentLegislationDocumentReference $employmentLegislationDocumentReference
+     * @param \App\UBL\Common\CAC\EmploymentLegislationDocumentReference $employmentLegislationDocumentReference
      * @return self
      */
-    public function setEmploymentLegislationDocumentReference(?\UBL\Common\CAC\EmploymentLegislationDocumentReference $employmentLegislationDocumentReference = null)
+    public function setEmploymentLegislationDocumentReference(?\App\UBL\Common\CAC\EmploymentLegislationDocumentReference $employmentLegislationDocumentReference = null)
     {
         $this->employmentLegislationDocumentReference = $employmentLegislationDocumentReference;
         return $this;
@@ -2099,9 +2099,9 @@ class TenderingTermsType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\ContractualDocumentReference $contractualDocumentReference
+     * @param \App\UBL\Common\CAC\ContractualDocumentReference $contractualDocumentReference
      */
-    public function addToContractualDocumentReference(\UBL\Common\CAC\ContractualDocumentReference $contractualDocumentReference)
+    public function addToContractualDocumentReference(\App\UBL\Common\CAC\ContractualDocumentReference $contractualDocumentReference)
     {
         $this->contractualDocumentReference[] = $contractualDocumentReference;
         return $this;
@@ -2162,7 +2162,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\ContractualDocumentReference[]
+     * @return \App\UBL\Common\CAC\ContractualDocumentReference[]
      */
     public function getContractualDocumentReference()
     {
@@ -2182,7 +2182,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\ContractualDocumentReference[] $contractualDocumentReference
+     * @param \App\UBL\Common\CAC\ContractualDocumentReference[] $contractualDocumentReference
      * @return self
      */
     public function setContractualDocumentReference(?array $contractualDocumentReference = null)
@@ -2204,7 +2204,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\CallForTendersDocumentReference
+     * @return \App\UBL\Common\CAC\CallForTendersDocumentReference
      */
     public function getCallForTendersDocumentReference()
     {
@@ -2224,10 +2224,10 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference
+     * @param \App\UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference
      * @return self
      */
-    public function setCallForTendersDocumentReference(?\UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference = null)
+    public function setCallForTendersDocumentReference(?\App\UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference = null)
     {
         $this->callForTendersDocumentReference = $callForTendersDocumentReference;
         return $this;
@@ -2246,7 +2246,7 @@ class TenderingTermsType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\WarrantyValidityPeriod
+     * @return \App\UBL\Common\CAC\WarrantyValidityPeriod
      */
     public function getWarrantyValidityPeriod()
     {
@@ -2266,10 +2266,10 @@ class TenderingTermsType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
+     * @param \App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
      * @return self
      */
-    public function setWarrantyValidityPeriod(?\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod = null)
+    public function setWarrantyValidityPeriod(?\App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod = null)
     {
         $this->warrantyValidityPeriod = $warrantyValidityPeriod;
         return $this;
@@ -2288,9 +2288,9 @@ class TenderingTermsType
      *  Payment Terms
      *
      * @return self
-     * @param \UBL\Common\CAC\PaymentTerms $paymentTerms
+     * @param \App\UBL\Common\CAC\PaymentTerms $paymentTerms
      */
-    public function addToPaymentTerms(\UBL\Common\CAC\PaymentTerms $paymentTerms)
+    public function addToPaymentTerms(\App\UBL\Common\CAC\PaymentTerms $paymentTerms)
     {
         $this->paymentTerms[] = $paymentTerms;
         return $this;
@@ -2348,7 +2348,7 @@ class TenderingTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @return \UBL\Common\CAC\PaymentTerms[]
+     * @return \App\UBL\Common\CAC\PaymentTerms[]
      */
     public function getPaymentTerms()
     {
@@ -2367,7 +2367,7 @@ class TenderingTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @param \UBL\Common\CAC\PaymentTerms[] $paymentTerms
+     * @param \App\UBL\Common\CAC\PaymentTerms[] $paymentTerms
      * @return self
      */
     public function setPaymentTerms(?array $paymentTerms = null)
@@ -2389,9 +2389,9 @@ class TenderingTermsType
      *  Tenderer Qualification Request
      *
      * @return self
-     * @param \UBL\Common\CAC\TendererQualificationRequest $tendererQualificationRequest
+     * @param \App\UBL\Common\CAC\TendererQualificationRequest $tendererQualificationRequest
      */
-    public function addToTendererQualificationRequest(\UBL\Common\CAC\TendererQualificationRequest $tendererQualificationRequest)
+    public function addToTendererQualificationRequest(\App\UBL\Common\CAC\TendererQualificationRequest $tendererQualificationRequest)
     {
         $this->tendererQualificationRequest[] = $tendererQualificationRequest;
         return $this;
@@ -2449,7 +2449,7 @@ class TenderingTermsType
      *  Tenderer Qualification Request
      *  Tenderer Qualification Request
      *
-     * @return \UBL\Common\CAC\TendererQualificationRequest[]
+     * @return \App\UBL\Common\CAC\TendererQualificationRequest[]
      */
     public function getTendererQualificationRequest()
     {
@@ -2468,7 +2468,7 @@ class TenderingTermsType
      *  Tenderer Qualification Request
      *  Tenderer Qualification Request
      *
-     * @param \UBL\Common\CAC\TendererQualificationRequest[] $tendererQualificationRequest
+     * @param \App\UBL\Common\CAC\TendererQualificationRequest[] $tendererQualificationRequest
      * @return self
      */
     public function setTendererQualificationRequest(?array $tendererQualificationRequest = null)
@@ -2491,9 +2491,9 @@ class TenderingTermsType
      *  Subcontract Terms
      *
      * @return self
-     * @param \UBL\Common\CAC\AllowedSubcontractTerms $allowedSubcontractTerms
+     * @param \App\UBL\Common\CAC\AllowedSubcontractTerms $allowedSubcontractTerms
      */
-    public function addToAllowedSubcontractTerms(\UBL\Common\CAC\AllowedSubcontractTerms $allowedSubcontractTerms)
+    public function addToAllowedSubcontractTerms(\App\UBL\Common\CAC\AllowedSubcontractTerms $allowedSubcontractTerms)
     {
         $this->allowedSubcontractTerms[] = $allowedSubcontractTerms;
         return $this;
@@ -2554,7 +2554,7 @@ class TenderingTermsType
      *  Subcontract Terms
      *  Subcontract Terms
      *
-     * @return \UBL\Common\CAC\AllowedSubcontractTerms[]
+     * @return \App\UBL\Common\CAC\AllowedSubcontractTerms[]
      */
     public function getAllowedSubcontractTerms()
     {
@@ -2574,7 +2574,7 @@ class TenderingTermsType
      *  Subcontract Terms
      *  Subcontract Terms
      *
-     * @param \UBL\Common\CAC\AllowedSubcontractTerms[] $allowedSubcontractTerms
+     * @param \App\UBL\Common\CAC\AllowedSubcontractTerms[] $allowedSubcontractTerms
      * @return self
      */
     public function setAllowedSubcontractTerms(?array $allowedSubcontractTerms = null)
@@ -2597,9 +2597,9 @@ class TenderingTermsType
      *  Curricula required, Experience required, ....
      *
      * @return self
-     * @param \UBL\Common\CAC\TenderPreparation $tenderPreparation
+     * @param \App\UBL\Common\CAC\TenderPreparation $tenderPreparation
      */
-    public function addToTenderPreparation(\UBL\Common\CAC\TenderPreparation $tenderPreparation)
+    public function addToTenderPreparation(\App\UBL\Common\CAC\TenderPreparation $tenderPreparation)
     {
         $this->tenderPreparation[] = $tenderPreparation;
         return $this;
@@ -2660,7 +2660,7 @@ class TenderingTermsType
      *  Tender Preparation
      *  Curricula required, Experience required, ....
      *
-     * @return \UBL\Common\CAC\TenderPreparation[]
+     * @return \App\UBL\Common\CAC\TenderPreparation[]
      */
     public function getTenderPreparation()
     {
@@ -2680,7 +2680,7 @@ class TenderingTermsType
      *  Tender Preparation
      *  Curricula required, Experience required, ....
      *
-     * @param \UBL\Common\CAC\TenderPreparation[] $tenderPreparation
+     * @param \App\UBL\Common\CAC\TenderPreparation[] $tenderPreparation
      * @return self
      */
     public function setTenderPreparation(?array $tenderPreparation = null)
@@ -2702,9 +2702,9 @@ class TenderingTermsType
      *  Contract Execution Requirement
      *
      * @return self
-     * @param \UBL\Common\CAC\ContractExecutionRequirement $contractExecutionRequirement
+     * @param \App\UBL\Common\CAC\ContractExecutionRequirement $contractExecutionRequirement
      */
-    public function addToContractExecutionRequirement(\UBL\Common\CAC\ContractExecutionRequirement $contractExecutionRequirement)
+    public function addToContractExecutionRequirement(\App\UBL\Common\CAC\ContractExecutionRequirement $contractExecutionRequirement)
     {
         $this->contractExecutionRequirement[] = $contractExecutionRequirement;
         return $this;
@@ -2762,7 +2762,7 @@ class TenderingTermsType
      *  Contract Execution Requirement
      *  Contract Execution Requirement
      *
-     * @return \UBL\Common\CAC\ContractExecutionRequirement[]
+     * @return \App\UBL\Common\CAC\ContractExecutionRequirement[]
      */
     public function getContractExecutionRequirement()
     {
@@ -2781,7 +2781,7 @@ class TenderingTermsType
      *  Contract Execution Requirement
      *  Contract Execution Requirement
      *
-     * @param \UBL\Common\CAC\ContractExecutionRequirement[] $contractExecutionRequirement
+     * @param \App\UBL\Common\CAC\ContractExecutionRequirement[] $contractExecutionRequirement
      * @return self
      */
     public function setContractExecutionRequirement(?array $contractExecutionRequirement = null)
@@ -2802,7 +2802,7 @@ class TenderingTermsType
      *  Awarding Terms
      *  Awarding Terms
      *
-     * @return \UBL\Common\CAC\AwardingTerms
+     * @return \App\UBL\Common\CAC\AwardingTerms
      */
     public function getAwardingTerms()
     {
@@ -2821,10 +2821,10 @@ class TenderingTermsType
      *  Awarding Terms
      *  Awarding Terms
      *
-     * @param \UBL\Common\CAC\AwardingTerms $awardingTerms
+     * @param \App\UBL\Common\CAC\AwardingTerms $awardingTerms
      * @return self
      */
-    public function setAwardingTerms(?\UBL\Common\CAC\AwardingTerms $awardingTerms = null)
+    public function setAwardingTerms(?\App\UBL\Common\CAC\AwardingTerms $awardingTerms = null)
     {
         $this->awardingTerms = $awardingTerms;
         return $this;
@@ -2843,7 +2843,7 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\AdditionalInformationParty
+     * @return \App\UBL\Common\CAC\AdditionalInformationParty
      */
     public function getAdditionalInformationParty()
     {
@@ -2863,10 +2863,10 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\AdditionalInformationParty $additionalInformationParty
+     * @param \App\UBL\Common\CAC\AdditionalInformationParty $additionalInformationParty
      * @return self
      */
-    public function setAdditionalInformationParty(?\UBL\Common\CAC\AdditionalInformationParty $additionalInformationParty = null)
+    public function setAdditionalInformationParty(?\App\UBL\Common\CAC\AdditionalInformationParty $additionalInformationParty = null)
     {
         $this->additionalInformationParty = $additionalInformationParty;
         return $this;
@@ -2885,7 +2885,7 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\DocumentProviderParty
+     * @return \App\UBL\Common\CAC\DocumentProviderParty
      */
     public function getDocumentProviderParty()
     {
@@ -2905,10 +2905,10 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\DocumentProviderParty $documentProviderParty
+     * @param \App\UBL\Common\CAC\DocumentProviderParty $documentProviderParty
      * @return self
      */
-    public function setDocumentProviderParty(?\UBL\Common\CAC\DocumentProviderParty $documentProviderParty = null)
+    public function setDocumentProviderParty(?\App\UBL\Common\CAC\DocumentProviderParty $documentProviderParty = null)
     {
         $this->documentProviderParty = $documentProviderParty;
         return $this;
@@ -2927,7 +2927,7 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\TenderRecipientParty
+     * @return \App\UBL\Common\CAC\TenderRecipientParty
      */
     public function getTenderRecipientParty()
     {
@@ -2947,10 +2947,10 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\TenderRecipientParty $tenderRecipientParty
+     * @param \App\UBL\Common\CAC\TenderRecipientParty $tenderRecipientParty
      * @return self
      */
-    public function setTenderRecipientParty(?\UBL\Common\CAC\TenderRecipientParty $tenderRecipientParty = null)
+    public function setTenderRecipientParty(?\App\UBL\Common\CAC\TenderRecipientParty $tenderRecipientParty = null)
     {
         $this->tenderRecipientParty = $tenderRecipientParty;
         return $this;
@@ -2969,7 +2969,7 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\ContractResponsibleParty
+     * @return \App\UBL\Common\CAC\ContractResponsibleParty
      */
     public function getContractResponsibleParty()
     {
@@ -2989,10 +2989,10 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\ContractResponsibleParty $contractResponsibleParty
+     * @param \App\UBL\Common\CAC\ContractResponsibleParty $contractResponsibleParty
      * @return self
      */
-    public function setContractResponsibleParty(?\UBL\Common\CAC\ContractResponsibleParty $contractResponsibleParty = null)
+    public function setContractResponsibleParty(?\App\UBL\Common\CAC\ContractResponsibleParty $contractResponsibleParty = null)
     {
         $this->contractResponsibleParty = $contractResponsibleParty;
         return $this;
@@ -3012,9 +3012,9 @@ class TenderingTermsType
      *  Party
      *
      * @return self
-     * @param \UBL\Common\CAC\TenderEvaluationParty $tenderEvaluationParty
+     * @param \App\UBL\Common\CAC\TenderEvaluationParty $tenderEvaluationParty
      */
-    public function addToTenderEvaluationParty(\UBL\Common\CAC\TenderEvaluationParty $tenderEvaluationParty)
+    public function addToTenderEvaluationParty(\App\UBL\Common\CAC\TenderEvaluationParty $tenderEvaluationParty)
     {
         $this->tenderEvaluationParty[] = $tenderEvaluationParty;
         return $this;
@@ -3075,7 +3075,7 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\TenderEvaluationParty[]
+     * @return \App\UBL\Common\CAC\TenderEvaluationParty[]
      */
     public function getTenderEvaluationParty()
     {
@@ -3095,7 +3095,7 @@ class TenderingTermsType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\TenderEvaluationParty[] $tenderEvaluationParty
+     * @param \App\UBL\Common\CAC\TenderEvaluationParty[] $tenderEvaluationParty
      * @return self
      */
     public function setTenderEvaluationParty(?array $tenderEvaluationParty = null)
@@ -3117,7 +3117,7 @@ class TenderingTermsType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\TenderValidityPeriod
+     * @return \App\UBL\Common\CAC\TenderValidityPeriod
      */
     public function getTenderValidityPeriod()
     {
@@ -3137,10 +3137,10 @@ class TenderingTermsType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\TenderValidityPeriod $tenderValidityPeriod
+     * @param \App\UBL\Common\CAC\TenderValidityPeriod $tenderValidityPeriod
      * @return self
      */
-    public function setTenderValidityPeriod(?\UBL\Common\CAC\TenderValidityPeriod $tenderValidityPeriod = null)
+    public function setTenderValidityPeriod(?\App\UBL\Common\CAC\TenderValidityPeriod $tenderValidityPeriod = null)
     {
         $this->tenderValidityPeriod = $tenderValidityPeriod;
         return $this;
@@ -3159,7 +3159,7 @@ class TenderingTermsType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ContractAcceptancePeriod
+     * @return \App\UBL\Common\CAC\ContractAcceptancePeriod
      */
     public function getContractAcceptancePeriod()
     {
@@ -3179,10 +3179,10 @@ class TenderingTermsType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ContractAcceptancePeriod $contractAcceptancePeriod
+     * @param \App\UBL\Common\CAC\ContractAcceptancePeriod $contractAcceptancePeriod
      * @return self
      */
-    public function setContractAcceptancePeriod(?\UBL\Common\CAC\ContractAcceptancePeriod $contractAcceptancePeriod = null)
+    public function setContractAcceptancePeriod(?\App\UBL\Common\CAC\ContractAcceptancePeriod $contractAcceptancePeriod = null)
     {
         $this->contractAcceptancePeriod = $contractAcceptancePeriod;
         return $this;
@@ -3200,7 +3200,7 @@ class TenderingTermsType
      *  Appeal Terms
      *  Appeal Terms
      *
-     * @return \UBL\Common\CAC\AppealTerms
+     * @return \App\UBL\Common\CAC\AppealTerms
      */
     public function getAppealTerms()
     {
@@ -3219,10 +3219,10 @@ class TenderingTermsType
      *  Appeal Terms
      *  Appeal Terms
      *
-     * @param \UBL\Common\CAC\AppealTerms $appealTerms
+     * @param \App\UBL\Common\CAC\AppealTerms $appealTerms
      * @return self
      */
-    public function setAppealTerms(?\UBL\Common\CAC\AppealTerms $appealTerms = null)
+    public function setAppealTerms(?\App\UBL\Common\CAC\AppealTerms $appealTerms = null)
     {
         $this->appealTerms = $appealTerms;
         return $this;
@@ -3241,9 +3241,9 @@ class TenderingTermsType
      *  Language
      *
      * @return self
-     * @param \UBL\Common\CAC\Language $language
+     * @param \App\UBL\Common\CAC\Language $language
      */
-    public function addToLanguage(\UBL\Common\CAC\Language $language)
+    public function addToLanguage(\App\UBL\Common\CAC\Language $language)
     {
         $this->language[] = $language;
         return $this;
@@ -3301,7 +3301,7 @@ class TenderingTermsType
      *  Language
      *  Language
      *
-     * @return \UBL\Common\CAC\Language[]
+     * @return \App\UBL\Common\CAC\Language[]
      */
     public function getLanguage()
     {
@@ -3320,7 +3320,7 @@ class TenderingTermsType
      *  Language
      *  Language
      *
-     * @param \UBL\Common\CAC\Language[] $language
+     * @param \App\UBL\Common\CAC\Language[] $language
      * @return self
      */
     public function setLanguage(?array $language = null)
@@ -3342,9 +3342,9 @@ class TenderingTermsType
      *  Budget Account Line
      *
      * @return self
-     * @param \UBL\Common\CAC\BudgetAccountLine $budgetAccountLine
+     * @param \App\UBL\Common\CAC\BudgetAccountLine $budgetAccountLine
      */
-    public function addToBudgetAccountLine(\UBL\Common\CAC\BudgetAccountLine $budgetAccountLine)
+    public function addToBudgetAccountLine(\App\UBL\Common\CAC\BudgetAccountLine $budgetAccountLine)
     {
         $this->budgetAccountLine[] = $budgetAccountLine;
         return $this;
@@ -3402,7 +3402,7 @@ class TenderingTermsType
      *  Budget Account Line
      *  Budget Account Line
      *
-     * @return \UBL\Common\CAC\BudgetAccountLine[]
+     * @return \App\UBL\Common\CAC\BudgetAccountLine[]
      */
     public function getBudgetAccountLine()
     {
@@ -3421,7 +3421,7 @@ class TenderingTermsType
      *  Budget Account Line
      *  Budget Account Line
      *
-     * @param \UBL\Common\CAC\BudgetAccountLine[] $budgetAccountLine
+     * @param \App\UBL\Common\CAC\BudgetAccountLine[] $budgetAccountLine
      * @return self
      */
     public function setBudgetAccountLine(?array $budgetAccountLine = null)
@@ -3443,7 +3443,7 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\ReplacedNoticeDocumentReference
+     * @return \App\UBL\Common\CAC\ReplacedNoticeDocumentReference
      */
     public function getReplacedNoticeDocumentReference()
     {
@@ -3463,14 +3463,13 @@ class TenderingTermsType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\ReplacedNoticeDocumentReference $replacedNoticeDocumentReference
+     * @param \App\UBL\Common\CAC\ReplacedNoticeDocumentReference $replacedNoticeDocumentReference
      * @return self
      */
-    public function setReplacedNoticeDocumentReference(?\UBL\Common\CAC\ReplacedNoticeDocumentReference $replacedNoticeDocumentReference = null)
+    public function setReplacedNoticeDocumentReference(?\App\UBL\Common\CAC\ReplacedNoticeDocumentReference $replacedNoticeDocumentReference = null)
     {
         $this->replacedNoticeDocumentReference = $replacedNoticeDocumentReference;
         return $this;
     }
 }
-
 

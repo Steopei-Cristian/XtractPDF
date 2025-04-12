@@ -1,4 +1,4 @@
-UBL\Common\CAC\CatalogueReferenceType:
+App\UBL\Common\CAC\CatalogueReferenceType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CatalogueReferenceType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         uUID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\CatalogueReferenceType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         issueDate:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\CatalogueReferenceType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         description:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\CatalogueReferenceType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         versionID:
             expose: true
             access_type: public_method
@@ -97,7 +97,7 @@ UBL\Common\CAC\CatalogueReferenceType:
             accessor:
                 getter: getVersionID
                 setter: setVersionID
-            type: UBL\Common\CBC\VersionID
+            type: App\UBL\Common\CBC\VersionID
         previousVersionID:
             expose: true
             access_type: public_method
@@ -107,4 +107,4 @@ UBL\Common\CAC\CatalogueReferenceType:
             accessor:
                 getter: getPreviousVersionID
                 setter: setPreviousVersionID
-            type: UBL\Common\CBC\PreviousVersionID
+            type: App\UBL\Common\CBC\PreviousVersionID

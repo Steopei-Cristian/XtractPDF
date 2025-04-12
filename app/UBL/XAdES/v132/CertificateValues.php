@@ -9,4 +9,3 @@ class CertificateValues extends CertificateValuesType
 {
 }
 
-

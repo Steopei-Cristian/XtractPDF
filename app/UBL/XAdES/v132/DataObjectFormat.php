@@ -9,4 +9,3 @@ class DataObjectFormat extends DataObjectFormatType
 {
 }
 
-

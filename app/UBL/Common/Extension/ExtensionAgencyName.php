@@ -9,4 +9,3 @@ class ExtensionAgencyName extends ExtensionAgencyNameType
 {
 }
 
-

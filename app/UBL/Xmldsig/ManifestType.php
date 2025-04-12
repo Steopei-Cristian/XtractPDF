@@ -16,7 +16,7 @@ class ManifestType
     private $id = null;
 
     /**
-     * @var \UBL\Xmldsig\Reference[] $reference
+     * @var \App\UBL\Xmldsig\Reference[] $reference
      */
     private $reference = [
         
@@ -48,9 +48,9 @@ class ManifestType
      * Adds as reference
      *
      * @return self
-     * @param \UBL\Xmldsig\Reference $reference
+     * @param \App\UBL\Xmldsig\Reference $reference
      */
-    public function addToReference(\UBL\Xmldsig\Reference $reference)
+    public function addToReference(\App\UBL\Xmldsig\Reference $reference)
     {
         $this->reference[] = $reference;
         return $this;
@@ -81,7 +81,7 @@ class ManifestType
     /**
      * Gets as reference
      *
-     * @return \UBL\Xmldsig\Reference[]
+     * @return \App\UBL\Xmldsig\Reference[]
      */
     public function getReference()
     {
@@ -91,7 +91,7 @@ class ManifestType
     /**
      * Sets a new reference
      *
-     * @param \UBL\Xmldsig\Reference[] $reference
+     * @param \App\UBL\Xmldsig\Reference[] $reference
      * @return self
      */
     public function setReference(array $reference)
@@ -100,5 +100,4 @@ class ManifestType
         return $this;
     }
 }
-
 

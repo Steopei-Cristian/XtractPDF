@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class OtherCertStatusRefsType
 {
     /**
-     * @var \UBL\XAdES\v132\AnyType[] $otherRef
+     * @var \App\UBL\XAdES\v132\AnyType[] $otherRef
      */
     private $otherRef = [
         
@@ -21,9 +21,9 @@ class OtherCertStatusRefsType
      * Adds as otherRef
      *
      * @return self
-     * @param \UBL\XAdES\v132\AnyType $otherRef
+     * @param \App\UBL\XAdES\v132\AnyType $otherRef
      */
-    public function addToOtherRef(\UBL\XAdES\v132\AnyType $otherRef)
+    public function addToOtherRef(\App\UBL\XAdES\v132\AnyType $otherRef)
     {
         $this->otherRef[] = $otherRef;
         return $this;
@@ -54,7 +54,7 @@ class OtherCertStatusRefsType
     /**
      * Gets as otherRef
      *
-     * @return \UBL\XAdES\v132\AnyType[]
+     * @return \App\UBL\XAdES\v132\AnyType[]
      */
     public function getOtherRef()
     {
@@ -64,7 +64,7 @@ class OtherCertStatusRefsType
     /**
      * Sets a new otherRef
      *
-     * @param \UBL\XAdES\v132\AnyType[] $otherRef
+     * @param \App\UBL\XAdES\v132\AnyType[] $otherRef
      * @return self
      */
     public function setOtherRef(array $otherRef)
@@ -73,5 +73,4 @@ class OtherCertStatusRefsType
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class FlashpointTemperature extends TemperatureType
 {
 }
 
-

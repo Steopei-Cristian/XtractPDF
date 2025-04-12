@@ -9,4 +9,3 @@ class StreetName extends StreetNameType
 {
 }
 
-

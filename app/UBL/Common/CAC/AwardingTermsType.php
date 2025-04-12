@@ -23,7 +23,7 @@ class AwardingTermsType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\WeightingAlgorithmCode $weightingAlgorithmCode
+     * @var \App\UBL\Common\CBC\WeightingAlgorithmCode $weightingAlgorithmCode
      */
     private $weightingAlgorithmCode = null;
 
@@ -37,7 +37,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -54,7 +54,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\TechnicalCommitteeDescription[] $technicalCommitteeDescription
+     * @var \App\UBL\Common\CBC\TechnicalCommitteeDescription[] $technicalCommitteeDescription
      */
     private $technicalCommitteeDescription = [
         
@@ -71,7 +71,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\LowTendersDescription[] $lowTendersDescription
+     * @var \App\UBL\Common\CBC\LowTendersDescription[] $lowTendersDescription
      */
     private $lowTendersDescription = [
         
@@ -101,7 +101,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\PrizeDescription[] $prizeDescription
+     * @var \App\UBL\Common\CBC\PrizeDescription[] $prizeDescription
      */
     private $prizeDescription = [
         
@@ -117,7 +117,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\PaymentDescription[] $paymentDescription
+     * @var \App\UBL\Common\CBC\PaymentDescription[] $paymentDescription
      */
     private $paymentDescription = [
         
@@ -161,7 +161,7 @@ class AwardingTermsType
      *  Awarding Criterion
      *  Awarding Criterion
      *
-     * @var \UBL\Common\CAC\AwardingCriterion[] $awardingCriterion
+     * @var \App\UBL\Common\CAC\AwardingCriterion[] $awardingCriterion
      */
     private $awardingCriterion = [
         
@@ -178,7 +178,7 @@ class AwardingTermsType
      *  Person
      *  Person
      *
-     * @var \UBL\Common\CAC\TechnicalCommitteePerson[] $technicalCommitteePerson
+     * @var \App\UBL\Common\CAC\TechnicalCommitteePerson[] $technicalCommitteePerson
      */
     private $technicalCommitteePerson = [
         
@@ -196,7 +196,7 @@ class AwardingTermsType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\WeightingAlgorithmCode
+     * @return \App\UBL\Common\CBC\WeightingAlgorithmCode
      */
     public function getWeightingAlgorithmCode()
     {
@@ -215,10 +215,10 @@ class AwardingTermsType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\WeightingAlgorithmCode $weightingAlgorithmCode
+     * @param \App\UBL\Common\CBC\WeightingAlgorithmCode $weightingAlgorithmCode
      * @return self
      */
-    public function setWeightingAlgorithmCode(?\UBL\Common\CBC\WeightingAlgorithmCode $weightingAlgorithmCode = null)
+    public function setWeightingAlgorithmCode(?\App\UBL\Common\CBC\WeightingAlgorithmCode $weightingAlgorithmCode = null)
     {
         $this->weightingAlgorithmCode = $weightingAlgorithmCode;
         return $this;
@@ -237,9 +237,9 @@ class AwardingTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -297,7 +297,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -316,7 +316,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -339,9 +339,9 @@ class AwardingTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\TechnicalCommitteeDescription $technicalCommitteeDescription
+     * @param \App\UBL\Common\CBC\TechnicalCommitteeDescription $technicalCommitteeDescription
      */
-    public function addToTechnicalCommitteeDescription(\UBL\Common\CBC\TechnicalCommitteeDescription $technicalCommitteeDescription)
+    public function addToTechnicalCommitteeDescription(\App\UBL\Common\CBC\TechnicalCommitteeDescription $technicalCommitteeDescription)
     {
         $this->technicalCommitteeDescription[] = $technicalCommitteeDescription;
         return $this;
@@ -402,7 +402,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\TechnicalCommitteeDescription[]
+     * @return \App\UBL\Common\CBC\TechnicalCommitteeDescription[]
      */
     public function getTechnicalCommitteeDescription()
     {
@@ -422,7 +422,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\TechnicalCommitteeDescription[] $technicalCommitteeDescription
+     * @param \App\UBL\Common\CBC\TechnicalCommitteeDescription[] $technicalCommitteeDescription
      * @return self
      */
     public function setTechnicalCommitteeDescription(?array $technicalCommitteeDescription = null)
@@ -445,9 +445,9 @@ class AwardingTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\LowTendersDescription $lowTendersDescription
+     * @param \App\UBL\Common\CBC\LowTendersDescription $lowTendersDescription
      */
-    public function addToLowTendersDescription(\UBL\Common\CBC\LowTendersDescription $lowTendersDescription)
+    public function addToLowTendersDescription(\App\UBL\Common\CBC\LowTendersDescription $lowTendersDescription)
     {
         $this->lowTendersDescription[] = $lowTendersDescription;
         return $this;
@@ -508,7 +508,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\LowTendersDescription[]
+     * @return \App\UBL\Common\CBC\LowTendersDescription[]
      */
     public function getLowTendersDescription()
     {
@@ -528,7 +528,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\LowTendersDescription[] $lowTendersDescription
+     * @param \App\UBL\Common\CBC\LowTendersDescription[] $lowTendersDescription
      * @return self
      */
     public function setLowTendersDescription(?array $lowTendersDescription = null)
@@ -590,9 +590,9 @@ class AwardingTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\PrizeDescription $prizeDescription
+     * @param \App\UBL\Common\CBC\PrizeDescription $prizeDescription
      */
-    public function addToPrizeDescription(\UBL\Common\CBC\PrizeDescription $prizeDescription)
+    public function addToPrizeDescription(\App\UBL\Common\CBC\PrizeDescription $prizeDescription)
     {
         $this->prizeDescription[] = $prizeDescription;
         return $this;
@@ -650,7 +650,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\PrizeDescription[]
+     * @return \App\UBL\Common\CBC\PrizeDescription[]
      */
     public function getPrizeDescription()
     {
@@ -669,7 +669,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\PrizeDescription[] $prizeDescription
+     * @param \App\UBL\Common\CBC\PrizeDescription[] $prizeDescription
      * @return self
      */
     public function setPrizeDescription(?array $prizeDescription = null)
@@ -691,9 +691,9 @@ class AwardingTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\PaymentDescription $paymentDescription
+     * @param \App\UBL\Common\CBC\PaymentDescription $paymentDescription
      */
-    public function addToPaymentDescription(\UBL\Common\CBC\PaymentDescription $paymentDescription)
+    public function addToPaymentDescription(\App\UBL\Common\CBC\PaymentDescription $paymentDescription)
     {
         $this->paymentDescription[] = $paymentDescription;
         return $this;
@@ -751,7 +751,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\PaymentDescription[]
+     * @return \App\UBL\Common\CBC\PaymentDescription[]
      */
     public function getPaymentDescription()
     {
@@ -770,7 +770,7 @@ class AwardingTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\PaymentDescription[] $paymentDescription
+     * @param \App\UBL\Common\CBC\PaymentDescription[] $paymentDescription
      * @return self
      */
     public function setPaymentDescription(?array $paymentDescription = null)
@@ -872,9 +872,9 @@ class AwardingTermsType
      *  Awarding Criterion
      *
      * @return self
-     * @param \UBL\Common\CAC\AwardingCriterion $awardingCriterion
+     * @param \App\UBL\Common\CAC\AwardingCriterion $awardingCriterion
      */
-    public function addToAwardingCriterion(\UBL\Common\CAC\AwardingCriterion $awardingCriterion)
+    public function addToAwardingCriterion(\App\UBL\Common\CAC\AwardingCriterion $awardingCriterion)
     {
         $this->awardingCriterion[] = $awardingCriterion;
         return $this;
@@ -932,7 +932,7 @@ class AwardingTermsType
      *  Awarding Criterion
      *  Awarding Criterion
      *
-     * @return \UBL\Common\CAC\AwardingCriterion[]
+     * @return \App\UBL\Common\CAC\AwardingCriterion[]
      */
     public function getAwardingCriterion()
     {
@@ -951,7 +951,7 @@ class AwardingTermsType
      *  Awarding Criterion
      *  Awarding Criterion
      *
-     * @param \UBL\Common\CAC\AwardingCriterion[] $awardingCriterion
+     * @param \App\UBL\Common\CAC\AwardingCriterion[] $awardingCriterion
      * @return self
      */
     public function setAwardingCriterion(?array $awardingCriterion = null)
@@ -974,9 +974,9 @@ class AwardingTermsType
      *  Person
      *
      * @return self
-     * @param \UBL\Common\CAC\TechnicalCommitteePerson $technicalCommitteePerson
+     * @param \App\UBL\Common\CAC\TechnicalCommitteePerson $technicalCommitteePerson
      */
-    public function addToTechnicalCommitteePerson(\UBL\Common\CAC\TechnicalCommitteePerson $technicalCommitteePerson)
+    public function addToTechnicalCommitteePerson(\App\UBL\Common\CAC\TechnicalCommitteePerson $technicalCommitteePerson)
     {
         $this->technicalCommitteePerson[] = $technicalCommitteePerson;
         return $this;
@@ -1037,7 +1037,7 @@ class AwardingTermsType
      *  Person
      *  Person
      *
-     * @return \UBL\Common\CAC\TechnicalCommitteePerson[]
+     * @return \App\UBL\Common\CAC\TechnicalCommitteePerson[]
      */
     public function getTechnicalCommitteePerson()
     {
@@ -1057,7 +1057,7 @@ class AwardingTermsType
      *  Person
      *  Person
      *
-     * @param \UBL\Common\CAC\TechnicalCommitteePerson[] $technicalCommitteePerson
+     * @param \App\UBL\Common\CAC\TechnicalCommitteePerson[] $technicalCommitteePerson
      * @return self
      */
     public function setTechnicalCommitteePerson(?array $technicalCommitteePerson = null)
@@ -1066,5 +1066,4 @@ class AwardingTermsType
         return $this;
     }
 }
-
 

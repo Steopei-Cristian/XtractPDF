@@ -1,3 +1,3 @@
-UBL\Common\CBC\StatusReasonCode:
+App\UBL\Common\CBC\StatusReasonCode:
     xml_root_name: StatusReasonCode
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

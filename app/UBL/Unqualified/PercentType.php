@@ -2,7 +2,7 @@
 
 namespace App\UBL\Unqualified;
 
-use UBL\CCTS\NumericType;
+use App\UBL\CCTS\NumericType;
 
 /**
  * Class representing PercentType
@@ -19,5 +19,4 @@ use UBL\CCTS\NumericType;
 class PercentType extends NumericType
 {
 }
-
 

@@ -9,4 +9,3 @@ class ResponsibleTransportServiceProviderParty extends PartyType
 {
 }
 
-

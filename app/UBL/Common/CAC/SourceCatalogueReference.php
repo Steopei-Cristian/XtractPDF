@@ -9,4 +9,3 @@ class SourceCatalogueReference extends CatalogueReferenceType
 {
 }
 
-

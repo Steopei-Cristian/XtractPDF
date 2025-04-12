@@ -9,4 +9,3 @@ class FreightChargeLocation extends LocationType
 {
 }
 
-

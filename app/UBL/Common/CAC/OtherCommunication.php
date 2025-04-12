@@ -9,4 +9,3 @@ class OtherCommunication extends CommunicationType
 {
 }
 
-

@@ -23,7 +23,7 @@ class PriceExtensionType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\Amount $amount
+     * @var \App\UBL\Common\CBC\Amount $amount
      */
     private $amount = null;
 
@@ -37,7 +37,7 @@ class PriceExtensionType
      *  Tax Total
      *  Tax Total
      *
-     * @var \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @var \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      */
     private $taxTotal = [
         
@@ -55,7 +55,7 @@ class PriceExtensionType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\Amount
+     * @return \App\UBL\Common\CBC\Amount
      */
     public function getAmount()
     {
@@ -74,10 +74,10 @@ class PriceExtensionType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\Amount $amount
+     * @param \App\UBL\Common\CBC\Amount $amount
      * @return self
      */
-    public function setAmount(\UBL\Common\CBC\Amount $amount)
+    public function setAmount(\App\UBL\Common\CBC\Amount $amount)
     {
         $this->amount = $amount;
         return $this;
@@ -96,9 +96,9 @@ class PriceExtensionType
      *  Tax Total
      *
      * @return self
-     * @param \UBL\Common\CAC\TaxTotal $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal $taxTotal
      */
-    public function addToTaxTotal(\UBL\Common\CAC\TaxTotal $taxTotal)
+    public function addToTaxTotal(\App\UBL\Common\CAC\TaxTotal $taxTotal)
     {
         $this->taxTotal[] = $taxTotal;
         return $this;
@@ -156,7 +156,7 @@ class PriceExtensionType
      *  Tax Total
      *  Tax Total
      *
-     * @return \UBL\Common\CAC\TaxTotal[]
+     * @return \App\UBL\Common\CAC\TaxTotal[]
      */
     public function getTaxTotal()
     {
@@ -175,7 +175,7 @@ class PriceExtensionType
      *  Tax Total
      *  Tax Total
      *
-     * @param \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      * @return self
      */
     public function setTaxTotal(?array $taxTotal = null)
@@ -184,5 +184,4 @@ class PriceExtensionType
         return $this;
     }
 }
-
 

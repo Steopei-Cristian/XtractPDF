@@ -9,4 +9,3 @@ class OrderDocumentReference extends DocumentReferenceType
 {
 }
 
-

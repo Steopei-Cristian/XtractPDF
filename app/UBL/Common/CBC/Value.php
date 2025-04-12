@@ -9,4 +9,3 @@ class Value extends ValueType
 {
 }
 
-

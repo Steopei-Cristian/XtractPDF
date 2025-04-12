@@ -9,4 +9,3 @@ class RequiredFinancialGuarantee extends FinancialGuaranteeType
 {
 }
 
-

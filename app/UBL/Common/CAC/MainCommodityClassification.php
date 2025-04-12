@@ -9,4 +9,3 @@ class MainCommodityClassification extends CommodityClassificationType
 {
 }
 
-

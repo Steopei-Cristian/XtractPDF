@@ -9,4 +9,3 @@ class TenderPreparation extends TenderPreparationType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CBC\AdValoremIndicator:
+App\UBL\Common\CBC\AdValoremIndicator:
     xml_root_name: AdValoremIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

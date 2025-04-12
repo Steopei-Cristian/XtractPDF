@@ -1,4 +1,4 @@
-UBL\Common\CAC\OnAccountPaymentType:
+App\UBL\Common\CAC\OnAccountPaymentType:
     properties:
         estimatedConsumedQuantity:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\OnAccountPaymentType:
             accessor:
                 getter: getEstimatedConsumedQuantity
                 setter: setEstimatedConsumedQuantity
-            type: UBL\Common\CBC\EstimatedConsumedQuantity
+            type: App\UBL\Common\CBC\EstimatedConsumedQuantity
         note:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\OnAccountPaymentType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         paymentTerms:
             expose: true
             access_type: public_method
@@ -37,4 +37,4 @@ UBL\Common\CAC\OnAccountPaymentType:
                 inline: true
                 entry_name: PaymentTerms
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PaymentTerms>
+            type: array<App\UBL\Common\CAC\PaymentTerms>

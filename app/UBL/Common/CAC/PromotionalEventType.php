@@ -23,7 +23,7 @@ class PromotionalEventType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PromotionalEventTypeCode $promotionalEventTypeCode
+     * @var \App\UBL\Common\CBC\PromotionalEventTypeCode $promotionalEventTypeCode
      */
     private $promotionalEventTypeCode = null;
 
@@ -80,7 +80,7 @@ class PromotionalEventType
      *  Promotional Specification
      *  Promotional Specification
      *
-     * @var \UBL\Common\CAC\PromotionalSpecification[] $promotionalSpecification
+     * @var \App\UBL\Common\CAC\PromotionalSpecification[] $promotionalSpecification
      */
     private $promotionalSpecification = [
         
@@ -98,7 +98,7 @@ class PromotionalEventType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PromotionalEventTypeCode
+     * @return \App\UBL\Common\CBC\PromotionalEventTypeCode
      */
     public function getPromotionalEventTypeCode()
     {
@@ -117,10 +117,10 @@ class PromotionalEventType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PromotionalEventTypeCode $promotionalEventTypeCode
+     * @param \App\UBL\Common\CBC\PromotionalEventTypeCode $promotionalEventTypeCode
      * @return self
      */
-    public function setPromotionalEventTypeCode(\UBL\Common\CBC\PromotionalEventTypeCode $promotionalEventTypeCode)
+    public function setPromotionalEventTypeCode(\App\UBL\Common\CBC\PromotionalEventTypeCode $promotionalEventTypeCode)
     {
         $this->promotionalEventTypeCode = $promotionalEventTypeCode;
         return $this;
@@ -261,9 +261,9 @@ class PromotionalEventType
      *  Promotional Specification
      *
      * @return self
-     * @param \UBL\Common\CAC\PromotionalSpecification $promotionalSpecification
+     * @param \App\UBL\Common\CAC\PromotionalSpecification $promotionalSpecification
      */
-    public function addToPromotionalSpecification(\UBL\Common\CAC\PromotionalSpecification $promotionalSpecification)
+    public function addToPromotionalSpecification(\App\UBL\Common\CAC\PromotionalSpecification $promotionalSpecification)
     {
         $this->promotionalSpecification[] = $promotionalSpecification;
         return $this;
@@ -321,7 +321,7 @@ class PromotionalEventType
      *  Promotional Specification
      *  Promotional Specification
      *
-     * @return \UBL\Common\CAC\PromotionalSpecification[]
+     * @return \App\UBL\Common\CAC\PromotionalSpecification[]
      */
     public function getPromotionalSpecification()
     {
@@ -340,7 +340,7 @@ class PromotionalEventType
      *  Promotional Specification
      *  Promotional Specification
      *
-     * @param \UBL\Common\CAC\PromotionalSpecification[] $promotionalSpecification
+     * @param \App\UBL\Common\CAC\PromotionalSpecification[] $promotionalSpecification
      * @return self
      */
     public function setPromotionalSpecification(array $promotionalSpecification)
@@ -349,5 +349,4 @@ class PromotionalEventType
         return $this;
     }
 }
-
 

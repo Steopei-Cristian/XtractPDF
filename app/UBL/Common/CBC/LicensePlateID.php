@@ -9,4 +9,3 @@ class LicensePlateID extends LicensePlateIDType
 {
 }
 
-

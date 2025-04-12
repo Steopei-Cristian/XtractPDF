@@ -1,4 +1,4 @@
-UBL\Common\CBC\PublishAwardIndicator:
+App\UBL\Common\CBC\PublishAwardIndicator:
     xml_root_name: PublishAwardIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

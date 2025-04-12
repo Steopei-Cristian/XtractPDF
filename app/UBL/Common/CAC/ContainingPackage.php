@@ -9,4 +9,3 @@ class ContainingPackage extends PackageType
 {
 }
 
-

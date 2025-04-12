@@ -1,2 +1,2 @@
-UBL\Common\CBC\PreEventNotificationDurationMeasureType:
+App\UBL\Common\CBC\PreEventNotificationDurationMeasureType:
     properties: {  }

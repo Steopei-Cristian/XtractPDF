@@ -1,3 +1,3 @@
-UBL\Common\CBC\DocumentTypeCode:
+App\UBL\Common\CBC\DocumentTypeCode:
     xml_root_name: DocumentTypeCode
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

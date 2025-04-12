@@ -9,4 +9,3 @@ class FullnessIndicationCode extends FullnessIndicationCodeType
 {
 }
 
-

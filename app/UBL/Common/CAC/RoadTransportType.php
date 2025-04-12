@@ -24,7 +24,7 @@ class RoadTransportType
      *  Identifier. Type
      *  Vehicle registration number (WCO ID 167)
      *
-     * @var \UBL\Common\CBC\LicensePlateID $licensePlateID
+     * @var \App\UBL\Common\CBC\LicensePlateID $licensePlateID
      */
     private $licensePlateID = null;
 
@@ -41,7 +41,7 @@ class RoadTransportType
      *  Identifier. Type
      *  Vehicle registration number (WCO ID 167)
      *
-     * @return \UBL\Common\CBC\LicensePlateID
+     * @return \App\UBL\Common\CBC\LicensePlateID
      */
     public function getLicensePlateID()
     {
@@ -61,14 +61,13 @@ class RoadTransportType
      *  Identifier. Type
      *  Vehicle registration number (WCO ID 167)
      *
-     * @param \UBL\Common\CBC\LicensePlateID $licensePlateID
+     * @param \App\UBL\Common\CBC\LicensePlateID $licensePlateID
      * @return self
      */
-    public function setLicensePlateID(\UBL\Common\CBC\LicensePlateID $licensePlateID)
+    public function setLicensePlateID(\App\UBL\Common\CBC\LicensePlateID $licensePlateID)
     {
         $this->licensePlateID = $licensePlateID;
         return $this;
     }
 }
-
 

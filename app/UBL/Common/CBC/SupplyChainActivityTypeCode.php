@@ -9,4 +9,3 @@ class SupplyChainActivityTypeCode extends SupplyChainActivityTypeCodeType
 {
 }
 
-

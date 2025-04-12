@@ -9,4 +9,3 @@ class RegistrationName extends RegistrationNameType
 {
 }
 
-

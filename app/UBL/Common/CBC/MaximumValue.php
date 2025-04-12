@@ -9,4 +9,3 @@ class MaximumValue extends MaximumValueType
 {
 }
 
-

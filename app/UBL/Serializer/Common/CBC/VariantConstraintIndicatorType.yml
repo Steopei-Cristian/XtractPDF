@@ -1,4 +1,4 @@
-UBL\Common\CBC\VariantConstraintIndicatorType:
+App\UBL\Common\CBC\VariantConstraintIndicatorType:
     properties:
         __value:
             expose: true

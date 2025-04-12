@@ -9,4 +9,3 @@ class AverageAmount extends AverageAmountType
 {
 }
 
-

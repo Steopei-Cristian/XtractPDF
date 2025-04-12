@@ -1,4 +1,4 @@
-UBL\Common\CAC\TradingTermsType:
+App\UBL\Common\CAC\TradingTermsType:
     properties:
         information:
             expose: true
@@ -13,7 +13,7 @@ UBL\Common\CAC\TradingTermsType:
                 inline: true
                 entry_name: Information
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Information>
+            type: array<App\UBL\Common\CBC\Information>
         reference:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\TradingTermsType:
             accessor:
                 getter: getReference
                 setter: setReference
-            type: UBL\Common\CBC\Reference
+            type: App\UBL\Common\CBC\Reference
         applicableAddress:
             expose: true
             access_type: public_method
@@ -33,4 +33,4 @@ UBL\Common\CAC\TradingTermsType:
             accessor:
                 getter: getApplicableAddress
                 setter: setApplicableAddress
-            type: UBL\Common\CAC\ApplicableAddress
+            type: App\UBL\Common\CAC\ApplicableAddress

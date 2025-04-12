@@ -24,7 +24,7 @@ class PricingReferenceType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @var \UBL\Common\CAC\OriginalItemLocationQuantity $originalItemLocationQuantity
+     * @var \App\UBL\Common\CAC\OriginalItemLocationQuantity $originalItemLocationQuantity
      */
     private $originalItemLocationQuantity = null;
 
@@ -39,7 +39,7 @@ class PricingReferenceType
      *  Price
      *  Price
      *
-     * @var \UBL\Common\CAC\AlternativeConditionPrice[] $alternativeConditionPrice
+     * @var \App\UBL\Common\CAC\AlternativeConditionPrice[] $alternativeConditionPrice
      */
     private $alternativeConditionPrice = [
         
@@ -58,7 +58,7 @@ class PricingReferenceType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @return \UBL\Common\CAC\OriginalItemLocationQuantity
+     * @return \App\UBL\Common\CAC\OriginalItemLocationQuantity
      */
     public function getOriginalItemLocationQuantity()
     {
@@ -78,10 +78,10 @@ class PricingReferenceType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @param \UBL\Common\CAC\OriginalItemLocationQuantity $originalItemLocationQuantity
+     * @param \App\UBL\Common\CAC\OriginalItemLocationQuantity $originalItemLocationQuantity
      * @return self
      */
-    public function setOriginalItemLocationQuantity(?\UBL\Common\CAC\OriginalItemLocationQuantity $originalItemLocationQuantity = null)
+    public function setOriginalItemLocationQuantity(?\App\UBL\Common\CAC\OriginalItemLocationQuantity $originalItemLocationQuantity = null)
     {
         $this->originalItemLocationQuantity = $originalItemLocationQuantity;
         return $this;
@@ -101,9 +101,9 @@ class PricingReferenceType
      *  Price
      *
      * @return self
-     * @param \UBL\Common\CAC\AlternativeConditionPrice $alternativeConditionPrice
+     * @param \App\UBL\Common\CAC\AlternativeConditionPrice $alternativeConditionPrice
      */
-    public function addToAlternativeConditionPrice(\UBL\Common\CAC\AlternativeConditionPrice $alternativeConditionPrice)
+    public function addToAlternativeConditionPrice(\App\UBL\Common\CAC\AlternativeConditionPrice $alternativeConditionPrice)
     {
         $this->alternativeConditionPrice[] = $alternativeConditionPrice;
         return $this;
@@ -164,7 +164,7 @@ class PricingReferenceType
      *  Price
      *  Price
      *
-     * @return \UBL\Common\CAC\AlternativeConditionPrice[]
+     * @return \App\UBL\Common\CAC\AlternativeConditionPrice[]
      */
     public function getAlternativeConditionPrice()
     {
@@ -184,7 +184,7 @@ class PricingReferenceType
      *  Price
      *  Price
      *
-     * @param \UBL\Common\CAC\AlternativeConditionPrice[] $alternativeConditionPrice
+     * @param \App\UBL\Common\CAC\AlternativeConditionPrice[] $alternativeConditionPrice
      * @return self
      */
     public function setAlternativeConditionPrice(?array $alternativeConditionPrice = null)
@@ -193,5 +193,4 @@ class PricingReferenceType
         return $this;
     }
 }
-
 

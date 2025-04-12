@@ -9,4 +9,3 @@ class AdditionalConditions extends AdditionalConditionsType
 {
 }
 
-

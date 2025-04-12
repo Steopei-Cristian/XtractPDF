@@ -9,4 +9,3 @@ class TaxExemptionReason extends TaxExemptionReasonType
 {
 }
 
-

@@ -1,2 +1,2 @@
-UBL\Common\CBC\OrderTypeCodeType:
+App\UBL\Common\CBC\OrderTypeCodeType:
     properties: {  }

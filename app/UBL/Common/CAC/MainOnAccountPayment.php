@@ -9,4 +9,3 @@ class MainOnAccountPayment extends OnAccountPaymentType
 {
 }
 
-

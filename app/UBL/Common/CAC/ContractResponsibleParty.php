@@ -9,4 +9,3 @@ class ContractResponsibleParty extends PartyType
 {
 }
 
-

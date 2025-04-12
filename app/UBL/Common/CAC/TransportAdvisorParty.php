@@ -9,4 +9,3 @@ class TransportAdvisorParty extends PartyType
 {
 }
 
-

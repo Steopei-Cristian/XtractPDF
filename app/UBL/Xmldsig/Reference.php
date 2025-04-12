@@ -9,4 +9,3 @@ class Reference extends ReferenceType
 {
 }
 
-

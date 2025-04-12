@@ -24,7 +24,7 @@ class ForecastExceptionCriterionLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode
+     * @var \App\UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode
      */
     private $forecastPurposeCode = null;
 
@@ -38,7 +38,7 @@ class ForecastExceptionCriterionLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
+     * @var \App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
      */
     private $forecastTypeCode = null;
 
@@ -52,7 +52,7 @@ class ForecastExceptionCriterionLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ComparisonDataSourceCode $comparisonDataSourceCode
+     * @var \App\UBL\Common\CBC\ComparisonDataSourceCode $comparisonDataSourceCode
      */
     private $comparisonDataSourceCode = null;
 
@@ -66,7 +66,7 @@ class ForecastExceptionCriterionLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\DataSourceCode $dataSourceCode
+     * @var \App\UBL\Common\CBC\DataSourceCode $dataSourceCode
      */
     private $dataSourceCode = null;
 
@@ -80,7 +80,7 @@ class ForecastExceptionCriterionLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\TimeDeltaDaysQuantity $timeDeltaDaysQuantity
+     * @var \App\UBL\Common\CBC\TimeDeltaDaysQuantity $timeDeltaDaysQuantity
      */
     private $timeDeltaDaysQuantity = null;
 
@@ -97,7 +97,7 @@ class ForecastExceptionCriterionLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ForecastPurposeCode
+     * @return \App\UBL\Common\CBC\ForecastPurposeCode
      */
     public function getForecastPurposeCode()
     {
@@ -117,10 +117,10 @@ class ForecastExceptionCriterionLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode
+     * @param \App\UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode
      * @return self
      */
-    public function setForecastPurposeCode(\UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode)
+    public function setForecastPurposeCode(\App\UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode)
     {
         $this->forecastPurposeCode = $forecastPurposeCode;
         return $this;
@@ -138,7 +138,7 @@ class ForecastExceptionCriterionLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ForecastTypeCode
+     * @return \App\UBL\Common\CBC\ForecastTypeCode
      */
     public function getForecastTypeCode()
     {
@@ -157,10 +157,10 @@ class ForecastExceptionCriterionLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
+     * @param \App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
      * @return self
      */
-    public function setForecastTypeCode(\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode)
+    public function setForecastTypeCode(\App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode)
     {
         $this->forecastTypeCode = $forecastTypeCode;
         return $this;
@@ -178,7 +178,7 @@ class ForecastExceptionCriterionLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ComparisonDataSourceCode
+     * @return \App\UBL\Common\CBC\ComparisonDataSourceCode
      */
     public function getComparisonDataSourceCode()
     {
@@ -197,10 +197,10 @@ class ForecastExceptionCriterionLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ComparisonDataSourceCode $comparisonDataSourceCode
+     * @param \App\UBL\Common\CBC\ComparisonDataSourceCode $comparisonDataSourceCode
      * @return self
      */
-    public function setComparisonDataSourceCode(?\UBL\Common\CBC\ComparisonDataSourceCode $comparisonDataSourceCode = null)
+    public function setComparisonDataSourceCode(?\App\UBL\Common\CBC\ComparisonDataSourceCode $comparisonDataSourceCode = null)
     {
         $this->comparisonDataSourceCode = $comparisonDataSourceCode;
         return $this;
@@ -218,7 +218,7 @@ class ForecastExceptionCriterionLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\DataSourceCode
+     * @return \App\UBL\Common\CBC\DataSourceCode
      */
     public function getDataSourceCode()
     {
@@ -237,10 +237,10 @@ class ForecastExceptionCriterionLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\DataSourceCode $dataSourceCode
+     * @param \App\UBL\Common\CBC\DataSourceCode $dataSourceCode
      * @return self
      */
-    public function setDataSourceCode(\UBL\Common\CBC\DataSourceCode $dataSourceCode)
+    public function setDataSourceCode(\App\UBL\Common\CBC\DataSourceCode $dataSourceCode)
     {
         $this->dataSourceCode = $dataSourceCode;
         return $this;
@@ -258,7 +258,7 @@ class ForecastExceptionCriterionLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\TimeDeltaDaysQuantity
+     * @return \App\UBL\Common\CBC\TimeDeltaDaysQuantity
      */
     public function getTimeDeltaDaysQuantity()
     {
@@ -277,14 +277,13 @@ class ForecastExceptionCriterionLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\TimeDeltaDaysQuantity $timeDeltaDaysQuantity
+     * @param \App\UBL\Common\CBC\TimeDeltaDaysQuantity $timeDeltaDaysQuantity
      * @return self
      */
-    public function setTimeDeltaDaysQuantity(?\UBL\Common\CBC\TimeDeltaDaysQuantity $timeDeltaDaysQuantity = null)
+    public function setTimeDeltaDaysQuantity(?\App\UBL\Common\CBC\TimeDeltaDaysQuantity $timeDeltaDaysQuantity = null)
     {
         $this->timeDeltaDaysQuantity = $timeDeltaDaysQuantity;
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class TechnicalName extends TechnicalNameType
 {
 }
 
-

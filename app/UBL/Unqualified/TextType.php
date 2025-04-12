@@ -2,7 +2,7 @@
 
 namespace App\UBL\Unqualified;
 
-use UBL\CCTS\TextType as TextTypeBase;
+use App\UBL\CCTS\TextType as TextTypeBase;
 
 /**
  * Class representing TextType
@@ -19,5 +19,4 @@ use UBL\CCTS\TextType as TextTypeBase;
 class TextType extends TextTypeBase
 {
 }
-
 

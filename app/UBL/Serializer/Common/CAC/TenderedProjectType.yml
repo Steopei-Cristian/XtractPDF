@@ -1,4 +1,4 @@
-UBL\Common\CAC\TenderedProjectType:
+App\UBL\Common\CAC\TenderedProjectType:
     properties:
         variantID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TenderedProjectType:
             accessor:
                 getter: getVariantID
                 setter: setVariantID
-            type: UBL\Common\CBC\VariantID
+            type: App\UBL\Common\CBC\VariantID
         feeAmount:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TenderedProjectType:
             accessor:
                 getter: getFeeAmount
                 setter: setFeeAmount
-            type: UBL\Common\CBC\FeeAmount
+            type: App\UBL\Common\CBC\FeeAmount
         feeDescription:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\TenderedProjectType:
                 inline: true
                 entry_name: FeeDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\FeeDescription>
+            type: array<App\UBL\Common\CBC\FeeDescription>
         tenderEnvelopeID:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\TenderedProjectType:
             accessor:
                 getter: getTenderEnvelopeID
                 setter: setTenderEnvelopeID
-            type: UBL\Common\CBC\TenderEnvelopeID
+            type: App\UBL\Common\CBC\TenderEnvelopeID
         tenderEnvelopeTypeCode:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\TenderedProjectType:
             accessor:
                 getter: getTenderEnvelopeTypeCode
                 setter: setTenderEnvelopeTypeCode
-            type: UBL\Common\CBC\TenderEnvelopeTypeCode
+            type: App\UBL\Common\CBC\TenderEnvelopeTypeCode
         procurementProjectLot:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\TenderedProjectType:
             accessor:
                 getter: getProcurementProjectLot
                 setter: setProcurementProjectLot
-            type: UBL\Common\CAC\ProcurementProjectLot
+            type: App\UBL\Common\CAC\ProcurementProjectLot
         evidenceDocumentReference:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\TenderedProjectType:
                 inline: true
                 entry_name: EvidenceDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\EvidenceDocumentReference>
+            type: array<App\UBL\Common\CAC\EvidenceDocumentReference>
         taxTotal:
             expose: true
             access_type: public_method
@@ -91,7 +91,7 @@ UBL\Common\CAC\TenderedProjectType:
                 inline: true
                 entry_name: TaxTotal
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TaxTotal>
+            type: array<App\UBL\Common\CAC\TaxTotal>
         legalMonetaryTotal:
             expose: true
             access_type: public_method
@@ -101,7 +101,7 @@ UBL\Common\CAC\TenderedProjectType:
             accessor:
                 getter: getLegalMonetaryTotal
                 setter: setLegalMonetaryTotal
-            type: UBL\Common\CAC\LegalMonetaryTotal
+            type: App\UBL\Common\CAC\LegalMonetaryTotal
         tenderLine:
             expose: true
             access_type: public_method
@@ -115,7 +115,7 @@ UBL\Common\CAC\TenderedProjectType:
                 inline: true
                 entry_name: TenderLine
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TenderLine>
+            type: array<App\UBL\Common\CAC\TenderLine>
         awardingCriterionResponse:
             expose: true
             access_type: public_method
@@ -129,4 +129,4 @@ UBL\Common\CAC\TenderedProjectType:
                 inline: true
                 entry_name: AwardingCriterionResponse
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AwardingCriterionResponse>
+            type: array<App\UBL\Common\CAC\AwardingCriterionResponse>

@@ -1,4 +1,4 @@
-UBL\Common\CBC\ApprovalDateType:
+App\UBL\Common\CBC\ApprovalDateType:
     properties:
         __value:
             expose: true

@@ -9,4 +9,3 @@ class PaymentTermsDetailsURI extends PaymentTermsDetailsURIType
 {
 }
 
-

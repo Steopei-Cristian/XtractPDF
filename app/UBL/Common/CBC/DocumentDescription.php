@@ -9,4 +9,3 @@ class DocumentDescription extends DocumentDescriptionType
 {
 }
 
-

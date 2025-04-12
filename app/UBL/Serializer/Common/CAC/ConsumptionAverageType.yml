@@ -1,4 +1,4 @@
-UBL\Common\CAC\ConsumptionAverageType:
+App\UBL\Common\CAC\ConsumptionAverageType:
     properties:
         averageAmount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ConsumptionAverageType:
             accessor:
                 getter: getAverageAmount
                 setter: setAverageAmount
-            type: UBL\Common\CBC\AverageAmount
+            type: App\UBL\Common\CBC\AverageAmount
         description:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ UBL\Common\CAC\ConsumptionAverageType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>

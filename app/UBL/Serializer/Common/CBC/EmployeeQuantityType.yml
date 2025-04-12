@@ -1,2 +1,2 @@
-UBL\Common\CBC\EmployeeQuantityType:
+App\UBL\Common\CBC\EmployeeQuantityType:
     properties: {  }

@@ -1,4 +1,4 @@
-UBL\Common\CBC\OccurrenceDateType:
+App\UBL\Common\CBC\OccurrenceDateType:
     properties:
         __value:
             expose: true

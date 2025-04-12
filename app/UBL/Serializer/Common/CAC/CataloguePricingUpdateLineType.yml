@@ -1,4 +1,4 @@
-UBL\Common\CAC\CataloguePricingUpdateLineType:
+App\UBL\Common\CAC\CataloguePricingUpdateLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CataloguePricingUpdateLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         contractorCustomerParty:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\CataloguePricingUpdateLineType:
             accessor:
                 getter: getContractorCustomerParty
                 setter: setContractorCustomerParty
-            type: UBL\Common\CAC\ContractorCustomerParty
+            type: App\UBL\Common\CAC\ContractorCustomerParty
         sellerSupplierParty:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\CataloguePricingUpdateLineType:
             accessor:
                 getter: getSellerSupplierParty
                 setter: setSellerSupplierParty
-            type: UBL\Common\CAC\SellerSupplierParty
+            type: App\UBL\Common\CAC\SellerSupplierParty
         requiredItemLocationQuantity:
             expose: true
             access_type: public_method
@@ -43,4 +43,4 @@ UBL\Common\CAC\CataloguePricingUpdateLineType:
                 inline: true
                 entry_name: RequiredItemLocationQuantity
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\RequiredItemLocationQuantity>
+            type: array<App\UBL\Common\CAC\RequiredItemLocationQuantity>

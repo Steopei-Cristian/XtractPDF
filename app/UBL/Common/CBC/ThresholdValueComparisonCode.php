@@ -9,4 +9,3 @@ class ThresholdValueComparisonCode extends ThresholdValueComparisonCodeType
 {
 }
 
-

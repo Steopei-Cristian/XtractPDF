@@ -9,4 +9,3 @@ class LatitudeDegreesMeasure extends LatitudeDegreesMeasureType
 {
 }
 
-

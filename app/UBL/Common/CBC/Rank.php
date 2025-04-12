@@ -9,4 +9,3 @@ class Rank extends RankType
 {
 }
 
-

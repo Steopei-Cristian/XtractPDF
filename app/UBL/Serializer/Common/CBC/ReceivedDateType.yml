@@ -1,4 +1,4 @@
-UBL\Common\CBC\ReceivedDateType:
+App\UBL\Common\CBC\ReceivedDateType:
     properties:
         __value:
             expose: true

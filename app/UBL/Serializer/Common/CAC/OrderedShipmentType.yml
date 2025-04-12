@@ -1,4 +1,4 @@
-UBL\Common\CAC\OrderedShipmentType:
+App\UBL\Common\CAC\OrderedShipmentType:
     properties:
         shipment:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\OrderedShipmentType:
             accessor:
                 getter: getShipment
                 setter: setShipment
-            type: UBL\Common\CAC\Shipment
+            type: App\UBL\Common\CAC\Shipment
         package:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ UBL\Common\CAC\OrderedShipmentType:
                 inline: true
                 entry_name: Package
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Package>
+            type: array<App\UBL\Common\CAC\Package>

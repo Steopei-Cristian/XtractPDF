@@ -1,2 +1,2 @@
-UBL\Common\CBC\TotalInvoiceAmountType:
+App\UBL\Common\CBC\TotalInvoiceAmountType:
     properties: {  }

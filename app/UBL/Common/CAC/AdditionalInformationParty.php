@@ -9,4 +9,3 @@ class AdditionalInformationParty extends PartyType
 {
 }
 
-

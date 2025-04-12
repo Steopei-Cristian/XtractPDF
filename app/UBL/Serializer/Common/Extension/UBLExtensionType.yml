@@ -1,4 +1,4 @@
-UBL\Common\Extension\UBLExtensionType:
+App\UBL\Common\Extension\UBLExtensionType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\Extension\UBLExtensionType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         name:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\Extension\UBLExtensionType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         extensionAgencyID:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\Extension\UBLExtensionType:
             accessor:
                 getter: getExtensionAgencyID
                 setter: setExtensionAgencyID
-            type: UBL\Common\Extension\ExtensionAgencyID
+            type: App\UBL\Common\Extension\ExtensionAgencyID
         extensionAgencyName:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\Extension\UBLExtensionType:
             accessor:
                 getter: getExtensionAgencyName
                 setter: setExtensionAgencyName
-            type: UBL\Common\Extension\ExtensionAgencyName
+            type: App\UBL\Common\Extension\ExtensionAgencyName
         extensionVersionID:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\Extension\UBLExtensionType:
             accessor:
                 getter: getExtensionVersionID
                 setter: setExtensionVersionID
-            type: UBL\Common\Extension\ExtensionVersionID
+            type: App\UBL\Common\Extension\ExtensionVersionID
         extensionAgencyURI:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\Extension\UBLExtensionType:
             accessor:
                 getter: getExtensionAgencyURI
                 setter: setExtensionAgencyURI
-            type: UBL\Common\Extension\ExtensionAgencyURI
+            type: App\UBL\Common\Extension\ExtensionAgencyURI
         extensionURI:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\Extension\UBLExtensionType:
             accessor:
                 getter: getExtensionURI
                 setter: setExtensionURI
-            type: UBL\Common\Extension\ExtensionURI
+            type: App\UBL\Common\Extension\ExtensionURI
         extensionReasonCode:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\Extension\UBLExtensionType:
             accessor:
                 getter: getExtensionReasonCode
                 setter: setExtensionReasonCode
-            type: UBL\Common\Extension\ExtensionReasonCode
+            type: App\UBL\Common\Extension\ExtensionReasonCode
         extensionReason:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ UBL\Common\Extension\UBLExtensionType:
             accessor:
                 getter: getExtensionReason
                 setter: setExtensionReason
-            type: UBL\Common\Extension\ExtensionReason
+            type: App\UBL\Common\Extension\ExtensionReason
         extensionContent:
             expose: true
             access_type: public_method
@@ -99,4 +99,4 @@ UBL\Common\Extension\UBLExtensionType:
             accessor:
                 getter: getExtensionContent
                 setter: setExtensionContent
-            type: UBL\Common\Extension\ExtensionContent
+            type: App\UBL\Common\Extension\ExtensionContent

@@ -9,4 +9,3 @@ class ObjectXsd extends ObjectType
 {
 }
 
-

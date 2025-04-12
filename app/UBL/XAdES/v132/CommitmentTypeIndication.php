@@ -9,4 +9,3 @@ class CommitmentTypeIndication extends CommitmentTypeIndicationType
 {
 }
 
-

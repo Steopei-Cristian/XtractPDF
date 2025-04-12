@@ -9,4 +9,3 @@ class LineID extends LineIDType
 {
 }
 
-

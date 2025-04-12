@@ -9,4 +9,3 @@ class InvoicePeriod extends PeriodType
 {
 }
 
-

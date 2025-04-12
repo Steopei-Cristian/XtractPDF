@@ -9,4 +9,3 @@ class CapabilityTypeCode extends CapabilityTypeCodeType
 {
 }
 
-

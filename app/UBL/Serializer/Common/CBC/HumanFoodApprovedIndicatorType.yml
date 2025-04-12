@@ -1,4 +1,4 @@
-UBL\Common\CBC\HumanFoodApprovedIndicatorType:
+App\UBL\Common\CBC\HumanFoodApprovedIndicatorType:
     properties:
         __value:
             expose: true

@@ -1,4 +1,4 @@
-UBL\Common\CBC\MarkCareIndicatorType:
+App\UBL\Common\CBC\MarkCareIndicatorType:
     properties:
         __value:
             expose: true

@@ -9,4 +9,3 @@ class PrepaidPayment extends PaymentType
 {
 }
 
-

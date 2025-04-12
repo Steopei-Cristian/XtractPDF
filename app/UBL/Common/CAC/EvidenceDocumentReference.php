@@ -9,4 +9,3 @@ class EvidenceDocumentReference extends DocumentReferenceType
 {
 }
 
-

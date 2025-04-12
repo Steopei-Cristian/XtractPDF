@@ -9,4 +9,3 @@ class TotalTransportHandlingUnitQuantity extends TotalTransportHandlingUnitQuant
 {
 }
 
-

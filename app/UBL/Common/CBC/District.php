@@ -9,4 +9,3 @@ class District extends DistrictType
 {
 }
 
-

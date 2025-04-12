@@ -1,4 +1,4 @@
-UBL\Common\CBC\BalanceBroughtForwardIndicator:
+App\UBL\Common\CBC\BalanceBroughtForwardIndicator:
     xml_root_name: BalanceBroughtForwardIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

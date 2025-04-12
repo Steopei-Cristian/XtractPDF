@@ -9,4 +9,3 @@ class TargetServicePercent extends TargetServicePercentType
 {
 }
 
-

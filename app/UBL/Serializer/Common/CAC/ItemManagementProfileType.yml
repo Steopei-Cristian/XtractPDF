@@ -1,4 +1,4 @@
-UBL\Common\CAC\ItemManagementProfileType:
+App\UBL\Common\CAC\ItemManagementProfileType:
     properties:
         frozenPeriodDaysNumeric:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ItemManagementProfileType:
             accessor:
                 getter: getFrozenPeriodDaysNumeric
                 setter: setFrozenPeriodDaysNumeric
-            type: UBL\Common\CBC\FrozenPeriodDaysNumeric
+            type: App\UBL\Common\CBC\FrozenPeriodDaysNumeric
         minimumInventoryQuantity:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ItemManagementProfileType:
             accessor:
                 getter: getMinimumInventoryQuantity
                 setter: setMinimumInventoryQuantity
-            type: UBL\Common\CBC\MinimumInventoryQuantity
+            type: App\UBL\Common\CBC\MinimumInventoryQuantity
         multipleOrderQuantity:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\ItemManagementProfileType:
             accessor:
                 getter: getMultipleOrderQuantity
                 setter: setMultipleOrderQuantity
-            type: UBL\Common\CBC\MultipleOrderQuantity
+            type: App\UBL\Common\CBC\MultipleOrderQuantity
         orderIntervalDaysNumeric:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\ItemManagementProfileType:
             accessor:
                 getter: getOrderIntervalDaysNumeric
                 setter: setOrderIntervalDaysNumeric
-            type: UBL\Common\CBC\OrderIntervalDaysNumeric
+            type: App\UBL\Common\CBC\OrderIntervalDaysNumeric
         replenishmentOwnerDescription:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\ItemManagementProfileType:
                 inline: true
                 entry_name: ReplenishmentOwnerDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\ReplenishmentOwnerDescription>
+            type: array<App\UBL\Common\CBC\ReplenishmentOwnerDescription>
         targetServicePercent:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\ItemManagementProfileType:
             accessor:
                 getter: getTargetServicePercent
                 setter: setTargetServicePercent
-            type: UBL\Common\CBC\TargetServicePercent
+            type: App\UBL\Common\CBC\TargetServicePercent
         targetInventoryQuantity:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\ItemManagementProfileType:
             accessor:
                 getter: getTargetInventoryQuantity
                 setter: setTargetInventoryQuantity
-            type: UBL\Common\CBC\TargetInventoryQuantity
+            type: App\UBL\Common\CBC\TargetInventoryQuantity
         effectivePeriod:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\ItemManagementProfileType:
             accessor:
                 getter: getEffectivePeriod
                 setter: setEffectivePeriod
-            type: UBL\Common\CAC\EffectivePeriod
+            type: App\UBL\Common\CAC\EffectivePeriod
         item:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\ItemManagementProfileType:
             accessor:
                 getter: getItem
                 setter: setItem
-            type: UBL\Common\CAC\Item
+            type: App\UBL\Common\CAC\Item
         itemLocationQuantity:
             expose: true
             access_type: public_method
@@ -103,4 +103,4 @@ UBL\Common\CAC\ItemManagementProfileType:
             accessor:
                 getter: getItemLocationQuantity
                 setter: setItemLocationQuantity
-            type: UBL\Common\CAC\ItemLocationQuantity
+            type: App\UBL\Common\CAC\ItemLocationQuantity

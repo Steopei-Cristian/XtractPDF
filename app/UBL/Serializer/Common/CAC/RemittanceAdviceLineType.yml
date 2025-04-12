@@ -1,4 +1,4 @@
-UBL\Common\CAC\RemittanceAdviceLineType:
+App\UBL\Common\CAC\RemittanceAdviceLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         note:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         uUID:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         debitLineAmount:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getDebitLineAmount
                 setter: setDebitLineAmount
-            type: UBL\Common\CBC\DebitLineAmount
+            type: App\UBL\Common\CBC\DebitLineAmount
         creditLineAmount:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getCreditLineAmount
                 setter: setCreditLineAmount
-            type: UBL\Common\CBC\CreditLineAmount
+            type: App\UBL\Common\CBC\CreditLineAmount
         balanceAmount:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getBalanceAmount
                 setter: setBalanceAmount
-            type: UBL\Common\CBC\BalanceAmount
+            type: App\UBL\Common\CBC\BalanceAmount
         paymentPurposeCode:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getPaymentPurposeCode
                 setter: setPaymentPurposeCode
-            type: UBL\Common\CBC\PaymentPurposeCode
+            type: App\UBL\Common\CBC\PaymentPurposeCode
         invoicingPartyReference:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getInvoicingPartyReference
                 setter: setInvoicingPartyReference
-            type: UBL\Common\CBC\InvoicingPartyReference
+            type: App\UBL\Common\CBC\InvoicingPartyReference
         accountingSupplierParty:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getAccountingSupplierParty
                 setter: setAccountingSupplierParty
-            type: UBL\Common\CAC\AccountingSupplierParty
+            type: App\UBL\Common\CAC\AccountingSupplierParty
         accountingCustomerParty:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getAccountingCustomerParty
                 setter: setAccountingCustomerParty
-            type: UBL\Common\CAC\AccountingCustomerParty
+            type: App\UBL\Common\CAC\AccountingCustomerParty
         buyerCustomerParty:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getBuyerCustomerParty
                 setter: setBuyerCustomerParty
-            type: UBL\Common\CAC\BuyerCustomerParty
+            type: App\UBL\Common\CAC\BuyerCustomerParty
         sellerSupplierParty:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getSellerSupplierParty
                 setter: setSellerSupplierParty
-            type: UBL\Common\CAC\SellerSupplierParty
+            type: App\UBL\Common\CAC\SellerSupplierParty
         originatorCustomerParty:
             expose: true
             access_type: public_method
@@ -133,7 +133,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getOriginatorCustomerParty
                 setter: setOriginatorCustomerParty
-            type: UBL\Common\CAC\OriginatorCustomerParty
+            type: App\UBL\Common\CAC\OriginatorCustomerParty
         payeeParty:
             expose: true
             access_type: public_method
@@ -143,7 +143,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getPayeeParty
                 setter: setPayeeParty
-            type: UBL\Common\CAC\PayeeParty
+            type: App\UBL\Common\CAC\PayeeParty
         invoicePeriod:
             expose: true
             access_type: public_method
@@ -157,7 +157,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
                 inline: true
                 entry_name: InvoicePeriod
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\InvoicePeriod>
+            type: array<App\UBL\Common\CAC\InvoicePeriod>
         billingReference:
             expose: true
             access_type: public_method
@@ -171,7 +171,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
                 inline: true
                 entry_name: BillingReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\BillingReference>
+            type: array<App\UBL\Common\CAC\BillingReference>
         documentReference:
             expose: true
             access_type: public_method
@@ -185,7 +185,7 @@ UBL\Common\CAC\RemittanceAdviceLineType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>
         exchangeRate:
             expose: true
             access_type: public_method
@@ -195,4 +195,4 @@ UBL\Common\CAC\RemittanceAdviceLineType:
             accessor:
                 getter: getExchangeRate
                 setter: setExchangeRate
-            type: UBL\Common\CAC\ExchangeRate
+            type: App\UBL\Common\CAC\ExchangeRate

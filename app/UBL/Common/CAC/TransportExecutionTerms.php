@@ -9,4 +9,3 @@ class TransportExecutionTerms extends TransportExecutionTermsType
 {
 }
 
-

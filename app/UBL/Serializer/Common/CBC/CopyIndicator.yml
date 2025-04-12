@@ -1,4 +1,4 @@
-UBL\Common\CBC\CopyIndicator:
+App\UBL\Common\CBC\CopyIndicator:
     xml_root_name: CopyIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

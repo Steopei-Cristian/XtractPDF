@@ -1,4 +1,4 @@
-UBL\Common\CBC\AdValoremIndicatorType:
+App\UBL\Common\CBC\AdValoremIndicatorType:
     properties:
         __value:
             expose: true

@@ -9,4 +9,3 @@ class ConsumptionReportReference extends ConsumptionReportReferenceType
 {
 }
 
-

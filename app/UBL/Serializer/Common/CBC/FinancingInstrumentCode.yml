@@ -1,3 +1,3 @@
-UBL\Common\CBC\FinancingInstrumentCode:
+App\UBL\Common\CBC\FinancingInstrumentCode:
     xml_root_name: FinancingInstrumentCode
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

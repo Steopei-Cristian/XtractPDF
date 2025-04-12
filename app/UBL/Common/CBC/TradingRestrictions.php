@@ -9,4 +9,3 @@ class TradingRestrictions extends TradingRestrictionsType
 {
 }
 
-

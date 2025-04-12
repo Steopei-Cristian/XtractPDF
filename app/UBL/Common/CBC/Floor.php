@@ -9,4 +9,3 @@ class Floor extends FloorType
 {
 }
 
-

@@ -9,4 +9,3 @@ class CatalogueLineReference extends LineReferenceType
 {
 }
 
-

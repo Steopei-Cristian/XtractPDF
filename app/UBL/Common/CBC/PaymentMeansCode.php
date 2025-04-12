@@ -9,4 +9,3 @@ class PaymentMeansCode extends PaymentMeansCodeType
 {
 }
 
-

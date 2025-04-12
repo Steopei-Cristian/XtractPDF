@@ -1,4 +1,4 @@
-UBL\Common\CAC\EconomicOperatorShortListType:
+App\UBL\Common\CAC\EconomicOperatorShortListType:
     properties:
         limitationDescription:
             expose: true
@@ -13,7 +13,7 @@ UBL\Common\CAC\EconomicOperatorShortListType:
                 inline: true
                 entry_name: LimitationDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\LimitationDescription>
+            type: array<App\UBL\Common\CBC\LimitationDescription>
         expectedQuantity:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\EconomicOperatorShortListType:
             accessor:
                 getter: getExpectedQuantity
                 setter: setExpectedQuantity
-            type: UBL\Common\CBC\ExpectedQuantity
+            type: App\UBL\Common\CBC\ExpectedQuantity
         maximumQuantity:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\EconomicOperatorShortListType:
             accessor:
                 getter: getMaximumQuantity
                 setter: setMaximumQuantity
-            type: UBL\Common\CBC\MaximumQuantity
+            type: App\UBL\Common\CBC\MaximumQuantity
         minimumQuantity:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\EconomicOperatorShortListType:
             accessor:
                 getter: getMinimumQuantity
                 setter: setMinimumQuantity
-            type: UBL\Common\CBC\MinimumQuantity
+            type: App\UBL\Common\CBC\MinimumQuantity
         preSelectedParty:
             expose: true
             access_type: public_method
@@ -57,4 +57,4 @@ UBL\Common\CAC\EconomicOperatorShortListType:
                 inline: true
                 entry_name: PreSelectedParty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PreSelectedParty>
+            type: array<App\UBL\Common\CAC\PreSelectedParty>

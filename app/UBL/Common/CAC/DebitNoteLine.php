@@ -9,4 +9,3 @@ class DebitNoteLine extends DebitNoteLineType
 {
 }
 
-

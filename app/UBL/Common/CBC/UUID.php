@@ -9,4 +9,3 @@ class UUID extends UUIDType
 {
 }
 
-

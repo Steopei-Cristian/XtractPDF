@@ -1,4 +1,4 @@
-UBL\XAdES\v132\DataObjectFormatType:
+App\UBL\XAdES\v132\DataObjectFormatType:
     properties:
         objectReference:
             expose: true
@@ -28,7 +28,7 @@ UBL\XAdES\v132\DataObjectFormatType:
             accessor:
                 getter: getObjectIdentifier
                 setter: setObjectIdentifier
-            type: UBL\XAdES\v132\ObjectIdentifierType
+            type: App\UBL\XAdES\v132\ObjectIdentifierType
         mimeType:
             expose: true
             access_type: public_method

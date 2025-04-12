@@ -1,4 +1,4 @@
-UBL\Common\CAC\PaymentMandateType:
+App\UBL\Common\CAC\PaymentMandateType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PaymentMandateType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         mandateTypeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\PaymentMandateType:
             accessor:
                 getter: getMandateTypeCode
                 setter: setMandateTypeCode
-            type: UBL\Common\CBC\MandateTypeCode
+            type: App\UBL\Common\CBC\MandateTypeCode
         maximumPaymentInstructionsNumeric:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\PaymentMandateType:
             accessor:
                 getter: getMaximumPaymentInstructionsNumeric
                 setter: setMaximumPaymentInstructionsNumeric
-            type: UBL\Common\CBC\MaximumPaymentInstructionsNumeric
+            type: App\UBL\Common\CBC\MaximumPaymentInstructionsNumeric
         maximumPaidAmount:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\PaymentMandateType:
             accessor:
                 getter: getMaximumPaidAmount
                 setter: setMaximumPaidAmount
-            type: UBL\Common\CBC\MaximumPaidAmount
+            type: App\UBL\Common\CBC\MaximumPaidAmount
         signatureID:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\PaymentMandateType:
             accessor:
                 getter: getSignatureID
                 setter: setSignatureID
-            type: UBL\Common\CBC\SignatureID
+            type: App\UBL\Common\CBC\SignatureID
         payerParty:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\PaymentMandateType:
             accessor:
                 getter: getPayerParty
                 setter: setPayerParty
-            type: UBL\Common\CAC\PayerParty
+            type: App\UBL\Common\CAC\PayerParty
         payerFinancialAccount:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\PaymentMandateType:
             accessor:
                 getter: getPayerFinancialAccount
                 setter: setPayerFinancialAccount
-            type: UBL\Common\CAC\PayerFinancialAccount
+            type: App\UBL\Common\CAC\PayerFinancialAccount
         validityPeriod:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\CAC\PaymentMandateType:
             accessor:
                 getter: getValidityPeriod
                 setter: setValidityPeriod
-            type: UBL\Common\CAC\ValidityPeriod
+            type: App\UBL\Common\CAC\ValidityPeriod
         paymentReversalPeriod:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ UBL\Common\CAC\PaymentMandateType:
             accessor:
                 getter: getPaymentReversalPeriod
                 setter: setPaymentReversalPeriod
-            type: UBL\Common\CAC\PaymentReversalPeriod
+            type: App\UBL\Common\CAC\PaymentReversalPeriod
         clause:
             expose: true
             access_type: public_method
@@ -103,4 +103,4 @@ UBL\Common\CAC\PaymentMandateType:
                 inline: true
                 entry_name: Clause
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Clause>
+            type: array<App\UBL\Common\CAC\Clause>

@@ -9,4 +9,3 @@ class CanonicalizationMethod extends CanonicalizationMethodType
 {
 }
 
-

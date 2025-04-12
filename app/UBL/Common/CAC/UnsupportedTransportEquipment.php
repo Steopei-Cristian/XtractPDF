@@ -9,4 +9,3 @@ class UnsupportedTransportEquipment extends TransportEquipmentType
 {
 }
 
-

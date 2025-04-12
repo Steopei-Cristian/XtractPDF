@@ -1,3 +1,3 @@
-UBL\Common\CAC\ActualDepartureTransportEvent:
+App\UBL\Common\CAC\ActualDepartureTransportEvent:
     xml_root_name: ActualDepartureTransportEvent
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

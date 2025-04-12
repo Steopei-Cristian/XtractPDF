@@ -9,4 +9,3 @@ class CallBaseAmount extends CallBaseAmountType
 {
 }
 
-

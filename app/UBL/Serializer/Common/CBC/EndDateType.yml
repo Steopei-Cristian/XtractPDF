@@ -1,4 +1,4 @@
-UBL\Common\CBC\EndDateType:
+App\UBL\Common\CBC\EndDateType:
     properties:
         __value:
             expose: true

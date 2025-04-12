@@ -25,7 +25,7 @@ class ExchangeRateType
      *  Currency
      *  Currency_ Code. Type
      *
-     * @var \UBL\Common\CBC\SourceCurrencyCode $sourceCurrencyCode
+     * @var \App\UBL\Common\CBC\SourceCurrencyCode $sourceCurrencyCode
      */
     private $sourceCurrencyCode = null;
 
@@ -40,7 +40,7 @@ class ExchangeRateType
      *  Rate
      *  Rate. Type
      *
-     * @var \UBL\Common\CBC\SourceCurrencyBaseRate $sourceCurrencyBaseRate
+     * @var \App\UBL\Common\CBC\SourceCurrencyBaseRate $sourceCurrencyBaseRate
      */
     private $sourceCurrencyBaseRate = null;
 
@@ -56,7 +56,7 @@ class ExchangeRateType
      *  Currency
      *  Currency_ Code. Type
      *
-     * @var \UBL\Common\CBC\TargetCurrencyCode $targetCurrencyCode
+     * @var \App\UBL\Common\CBC\TargetCurrencyCode $targetCurrencyCode
      */
     private $targetCurrencyCode = null;
 
@@ -71,7 +71,7 @@ class ExchangeRateType
      *  Rate
      *  Rate. Type
      *
-     * @var \UBL\Common\CBC\TargetCurrencyBaseRate $targetCurrencyBaseRate
+     * @var \App\UBL\Common\CBC\TargetCurrencyBaseRate $targetCurrencyBaseRate
      */
     private $targetCurrencyBaseRate = null;
 
@@ -85,7 +85,7 @@ class ExchangeRateType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ExchangeMarketID $exchangeMarketID
+     * @var \App\UBL\Common\CBC\ExchangeMarketID $exchangeMarketID
      */
     private $exchangeMarketID = null;
 
@@ -99,7 +99,7 @@ class ExchangeRateType
      *  Rate
      *  Rate. Type
      *
-     * @var \UBL\Common\CBC\CalculationRate $calculationRate
+     * @var \App\UBL\Common\CBC\CalculationRate $calculationRate
      */
     private $calculationRate = null;
 
@@ -114,7 +114,7 @@ class ExchangeRateType
      *  Operator
      *  Operator_ Code. Type
      *
-     * @var \UBL\Common\CBC\MathematicOperatorCode $mathematicOperatorCode
+     * @var \App\UBL\Common\CBC\MathematicOperatorCode $mathematicOperatorCode
      */
     private $mathematicOperatorCode = null;
 
@@ -143,7 +143,7 @@ class ExchangeRateType
      *  Contract
      *  Contract
      *
-     * @var \UBL\Common\CAC\ForeignExchangeContract $foreignExchangeContract
+     * @var \App\UBL\Common\CAC\ForeignExchangeContract $foreignExchangeContract
      */
     private $foreignExchangeContract = null;
 
@@ -161,7 +161,7 @@ class ExchangeRateType
      *  Currency
      *  Currency_ Code. Type
      *
-     * @return \UBL\Common\CBC\SourceCurrencyCode
+     * @return \App\UBL\Common\CBC\SourceCurrencyCode
      */
     public function getSourceCurrencyCode()
     {
@@ -182,10 +182,10 @@ class ExchangeRateType
      *  Currency
      *  Currency_ Code. Type
      *
-     * @param \UBL\Common\CBC\SourceCurrencyCode $sourceCurrencyCode
+     * @param \App\UBL\Common\CBC\SourceCurrencyCode $sourceCurrencyCode
      * @return self
      */
-    public function setSourceCurrencyCode(\UBL\Common\CBC\SourceCurrencyCode $sourceCurrencyCode)
+    public function setSourceCurrencyCode(\App\UBL\Common\CBC\SourceCurrencyCode $sourceCurrencyCode)
     {
         $this->sourceCurrencyCode = $sourceCurrencyCode;
         return $this;
@@ -204,7 +204,7 @@ class ExchangeRateType
      *  Rate
      *  Rate. Type
      *
-     * @return \UBL\Common\CBC\SourceCurrencyBaseRate
+     * @return \App\UBL\Common\CBC\SourceCurrencyBaseRate
      */
     public function getSourceCurrencyBaseRate()
     {
@@ -224,10 +224,10 @@ class ExchangeRateType
      *  Rate
      *  Rate. Type
      *
-     * @param \UBL\Common\CBC\SourceCurrencyBaseRate $sourceCurrencyBaseRate
+     * @param \App\UBL\Common\CBC\SourceCurrencyBaseRate $sourceCurrencyBaseRate
      * @return self
      */
-    public function setSourceCurrencyBaseRate(?\UBL\Common\CBC\SourceCurrencyBaseRate $sourceCurrencyBaseRate = null)
+    public function setSourceCurrencyBaseRate(?\App\UBL\Common\CBC\SourceCurrencyBaseRate $sourceCurrencyBaseRate = null)
     {
         $this->sourceCurrencyBaseRate = $sourceCurrencyBaseRate;
         return $this;
@@ -247,7 +247,7 @@ class ExchangeRateType
      *  Currency
      *  Currency_ Code. Type
      *
-     * @return \UBL\Common\CBC\TargetCurrencyCode
+     * @return \App\UBL\Common\CBC\TargetCurrencyCode
      */
     public function getTargetCurrencyCode()
     {
@@ -268,10 +268,10 @@ class ExchangeRateType
      *  Currency
      *  Currency_ Code. Type
      *
-     * @param \UBL\Common\CBC\TargetCurrencyCode $targetCurrencyCode
+     * @param \App\UBL\Common\CBC\TargetCurrencyCode $targetCurrencyCode
      * @return self
      */
-    public function setTargetCurrencyCode(\UBL\Common\CBC\TargetCurrencyCode $targetCurrencyCode)
+    public function setTargetCurrencyCode(\App\UBL\Common\CBC\TargetCurrencyCode $targetCurrencyCode)
     {
         $this->targetCurrencyCode = $targetCurrencyCode;
         return $this;
@@ -290,7 +290,7 @@ class ExchangeRateType
      *  Rate
      *  Rate. Type
      *
-     * @return \UBL\Common\CBC\TargetCurrencyBaseRate
+     * @return \App\UBL\Common\CBC\TargetCurrencyBaseRate
      */
     public function getTargetCurrencyBaseRate()
     {
@@ -310,10 +310,10 @@ class ExchangeRateType
      *  Rate
      *  Rate. Type
      *
-     * @param \UBL\Common\CBC\TargetCurrencyBaseRate $targetCurrencyBaseRate
+     * @param \App\UBL\Common\CBC\TargetCurrencyBaseRate $targetCurrencyBaseRate
      * @return self
      */
-    public function setTargetCurrencyBaseRate(?\UBL\Common\CBC\TargetCurrencyBaseRate $targetCurrencyBaseRate = null)
+    public function setTargetCurrencyBaseRate(?\App\UBL\Common\CBC\TargetCurrencyBaseRate $targetCurrencyBaseRate = null)
     {
         $this->targetCurrencyBaseRate = $targetCurrencyBaseRate;
         return $this;
@@ -331,7 +331,7 @@ class ExchangeRateType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ExchangeMarketID
+     * @return \App\UBL\Common\CBC\ExchangeMarketID
      */
     public function getExchangeMarketID()
     {
@@ -350,10 +350,10 @@ class ExchangeRateType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ExchangeMarketID $exchangeMarketID
+     * @param \App\UBL\Common\CBC\ExchangeMarketID $exchangeMarketID
      * @return self
      */
-    public function setExchangeMarketID(?\UBL\Common\CBC\ExchangeMarketID $exchangeMarketID = null)
+    public function setExchangeMarketID(?\App\UBL\Common\CBC\ExchangeMarketID $exchangeMarketID = null)
     {
         $this->exchangeMarketID = $exchangeMarketID;
         return $this;
@@ -371,7 +371,7 @@ class ExchangeRateType
      *  Rate
      *  Rate. Type
      *
-     * @return \UBL\Common\CBC\CalculationRate
+     * @return \App\UBL\Common\CBC\CalculationRate
      */
     public function getCalculationRate()
     {
@@ -390,10 +390,10 @@ class ExchangeRateType
      *  Rate
      *  Rate. Type
      *
-     * @param \UBL\Common\CBC\CalculationRate $calculationRate
+     * @param \App\UBL\Common\CBC\CalculationRate $calculationRate
      * @return self
      */
-    public function setCalculationRate(?\UBL\Common\CBC\CalculationRate $calculationRate = null)
+    public function setCalculationRate(?\App\UBL\Common\CBC\CalculationRate $calculationRate = null)
     {
         $this->calculationRate = $calculationRate;
         return $this;
@@ -412,7 +412,7 @@ class ExchangeRateType
      *  Operator
      *  Operator_ Code. Type
      *
-     * @return \UBL\Common\CBC\MathematicOperatorCode
+     * @return \App\UBL\Common\CBC\MathematicOperatorCode
      */
     public function getMathematicOperatorCode()
     {
@@ -432,10 +432,10 @@ class ExchangeRateType
      *  Operator
      *  Operator_ Code. Type
      *
-     * @param \UBL\Common\CBC\MathematicOperatorCode $mathematicOperatorCode
+     * @param \App\UBL\Common\CBC\MathematicOperatorCode $mathematicOperatorCode
      * @return self
      */
-    public function setMathematicOperatorCode(?\UBL\Common\CBC\MathematicOperatorCode $mathematicOperatorCode = null)
+    public function setMathematicOperatorCode(?\App\UBL\Common\CBC\MathematicOperatorCode $mathematicOperatorCode = null)
     {
         $this->mathematicOperatorCode = $mathematicOperatorCode;
         return $this;
@@ -494,7 +494,7 @@ class ExchangeRateType
      *  Contract
      *  Contract
      *
-     * @return \UBL\Common\CAC\ForeignExchangeContract
+     * @return \App\UBL\Common\CAC\ForeignExchangeContract
      */
     public function getForeignExchangeContract()
     {
@@ -514,14 +514,13 @@ class ExchangeRateType
      *  Contract
      *  Contract
      *
-     * @param \UBL\Common\CAC\ForeignExchangeContract $foreignExchangeContract
+     * @param \App\UBL\Common\CAC\ForeignExchangeContract $foreignExchangeContract
      * @return self
      */
-    public function setForeignExchangeContract(?\UBL\Common\CAC\ForeignExchangeContract $foreignExchangeContract = null)
+    public function setForeignExchangeContract(?\App\UBL\Common\CAC\ForeignExchangeContract $foreignExchangeContract = null)
     {
         $this->foreignExchangeContract = $foreignExchangeContract;
         return $this;
     }
 }
-
 

@@ -1,2 +1,2 @@
-UBL\Common\CBC\OrderIntervalDaysNumericType:
+App\UBL\Common\CBC\OrderIntervalDaysNumericType:
     properties: {  }

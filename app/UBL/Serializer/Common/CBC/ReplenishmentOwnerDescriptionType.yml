@@ -1,2 +1,2 @@
-UBL\Common\CBC\ReplenishmentOwnerDescriptionType:
+App\UBL\Common\CBC\ReplenishmentOwnerDescriptionType:
     properties: {  }

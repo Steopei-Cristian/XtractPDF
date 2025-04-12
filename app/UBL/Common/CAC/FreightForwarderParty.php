@@ -9,4 +9,3 @@ class FreightForwarderParty extends PartyType
 {
 }
 
-

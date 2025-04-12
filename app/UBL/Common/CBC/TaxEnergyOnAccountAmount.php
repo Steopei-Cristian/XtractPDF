@@ -9,4 +9,3 @@ class TaxEnergyOnAccountAmount extends TaxEnergyOnAccountAmountType
 {
 }
 
-

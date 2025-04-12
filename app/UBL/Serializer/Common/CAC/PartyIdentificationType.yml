@@ -1,4 +1,4 @@
-UBL\Common\CAC\PartyIdentificationType:
+App\UBL\Common\CAC\PartyIdentificationType:
     properties:
         iD:
             expose: true
@@ -9,4 +9,4 @@ UBL\Common\CAC\PartyIdentificationType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID

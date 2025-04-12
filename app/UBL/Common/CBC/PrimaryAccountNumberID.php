@@ -9,4 +9,3 @@ class PrimaryAccountNumberID extends PrimaryAccountNumberIDType
 {
 }
 
-

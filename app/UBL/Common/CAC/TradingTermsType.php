@@ -24,7 +24,7 @@ class TradingTermsType
      *  Text. Type
      *  Unless credit terms have been expressly agreed by Dell, payment for the products or services shall be made in full before physical delivery of products or services. Customer shall pay for all shipping and handling charges.
      *
-     * @var \UBL\Common\CBC\Information[] $information
+     * @var \App\UBL\Common\CBC\Information[] $information
      */
     private $information = [
         
@@ -41,7 +41,7 @@ class TradingTermsType
      *  Text. Type
      *  http://www1.ap.dell.com/content/topics/topic.aspx/ap/policy/en/au/sales_terms_au?c=au&l=en&s=gen
      *
-     * @var \UBL\Common\CBC\Reference $reference
+     * @var \App\UBL\Common\CBC\Reference $reference
      */
     private $reference = null;
 
@@ -56,7 +56,7 @@ class TradingTermsType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\ApplicableAddress $applicableAddress
+     * @var \App\UBL\Common\CAC\ApplicableAddress $applicableAddress
      */
     private $applicableAddress = null;
 
@@ -74,9 +74,9 @@ class TradingTermsType
      *  Unless credit terms have been expressly agreed by Dell, payment for the products or services shall be made in full before physical delivery of products or services. Customer shall pay for all shipping and handling charges.
      *
      * @return self
-     * @param \UBL\Common\CBC\Information $information
+     * @param \App\UBL\Common\CBC\Information $information
      */
-    public function addToInformation(\UBL\Common\CBC\Information $information)
+    public function addToInformation(\App\UBL\Common\CBC\Information $information)
     {
         $this->information[] = $information;
         return $this;
@@ -137,7 +137,7 @@ class TradingTermsType
      *  Text. Type
      *  Unless credit terms have been expressly agreed by Dell, payment for the products or services shall be made in full before physical delivery of products or services. Customer shall pay for all shipping and handling charges.
      *
-     * @return \UBL\Common\CBC\Information[]
+     * @return \App\UBL\Common\CBC\Information[]
      */
     public function getInformation()
     {
@@ -157,7 +157,7 @@ class TradingTermsType
      *  Text. Type
      *  Unless credit terms have been expressly agreed by Dell, payment for the products or services shall be made in full before physical delivery of products or services. Customer shall pay for all shipping and handling charges.
      *
-     * @param \UBL\Common\CBC\Information[] $information
+     * @param \App\UBL\Common\CBC\Information[] $information
      * @return self
      */
     public function setInformation(?array $information = null)
@@ -179,7 +179,7 @@ class TradingTermsType
      *  Text. Type
      *  http://www1.ap.dell.com/content/topics/topic.aspx/ap/policy/en/au/sales_terms_au?c=au&l=en&s=gen
      *
-     * @return \UBL\Common\CBC\Reference
+     * @return \App\UBL\Common\CBC\Reference
      */
     public function getReference()
     {
@@ -199,10 +199,10 @@ class TradingTermsType
      *  Text. Type
      *  http://www1.ap.dell.com/content/topics/topic.aspx/ap/policy/en/au/sales_terms_au?c=au&l=en&s=gen
      *
-     * @param \UBL\Common\CBC\Reference $reference
+     * @param \App\UBL\Common\CBC\Reference $reference
      * @return self
      */
-    public function setReference(?\UBL\Common\CBC\Reference $reference = null)
+    public function setReference(?\App\UBL\Common\CBC\Reference $reference = null)
     {
         $this->reference = $reference;
         return $this;
@@ -221,7 +221,7 @@ class TradingTermsType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\ApplicableAddress
+     * @return \App\UBL\Common\CAC\ApplicableAddress
      */
     public function getApplicableAddress()
     {
@@ -241,14 +241,13 @@ class TradingTermsType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\ApplicableAddress $applicableAddress
+     * @param \App\UBL\Common\CAC\ApplicableAddress $applicableAddress
      * @return self
      */
-    public function setApplicableAddress(?\UBL\Common\CAC\ApplicableAddress $applicableAddress = null)
+    public function setApplicableAddress(?\App\UBL\Common\CAC\ApplicableAddress $applicableAddress = null)
     {
         $this->applicableAddress = $applicableAddress;
         return $this;
     }
 }
-
 

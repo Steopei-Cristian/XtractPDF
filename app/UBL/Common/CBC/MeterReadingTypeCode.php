@@ -9,4 +9,3 @@ class MeterReadingTypeCode extends MeterReadingTypeCodeType
 {
 }
 
-

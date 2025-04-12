@@ -9,4 +9,3 @@ class CertificateOfOriginApplication extends CertificateOfOriginApplicationType
 {
 }
 
-

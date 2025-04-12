@@ -23,7 +23,7 @@ class DependentPriceReferenceType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\Percent $percent
+     * @var \App\UBL\Common\CBC\Percent $percent
      */
     private $percent = null;
 
@@ -38,7 +38,7 @@ class DependentPriceReferenceType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\LocationAddress $locationAddress
+     * @var \App\UBL\Common\CAC\LocationAddress $locationAddress
      */
     private $locationAddress = null;
 
@@ -53,7 +53,7 @@ class DependentPriceReferenceType
      *  Line Reference
      *  Line Reference
      *
-     * @var \UBL\Common\CAC\DependentLineReference $dependentLineReference
+     * @var \App\UBL\Common\CAC\DependentLineReference $dependentLineReference
      */
     private $dependentLineReference = null;
 
@@ -69,7 +69,7 @@ class DependentPriceReferenceType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\Percent
+     * @return \App\UBL\Common\CBC\Percent
      */
     public function getPercent()
     {
@@ -88,10 +88,10 @@ class DependentPriceReferenceType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\Percent $percent
+     * @param \App\UBL\Common\CBC\Percent $percent
      * @return self
      */
-    public function setPercent(?\UBL\Common\CBC\Percent $percent = null)
+    public function setPercent(?\App\UBL\Common\CBC\Percent $percent = null)
     {
         $this->percent = $percent;
         return $this;
@@ -110,7 +110,7 @@ class DependentPriceReferenceType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\LocationAddress
+     * @return \App\UBL\Common\CAC\LocationAddress
      */
     public function getLocationAddress()
     {
@@ -130,10 +130,10 @@ class DependentPriceReferenceType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\LocationAddress $locationAddress
+     * @param \App\UBL\Common\CAC\LocationAddress $locationAddress
      * @return self
      */
-    public function setLocationAddress(?\UBL\Common\CAC\LocationAddress $locationAddress = null)
+    public function setLocationAddress(?\App\UBL\Common\CAC\LocationAddress $locationAddress = null)
     {
         $this->locationAddress = $locationAddress;
         return $this;
@@ -152,7 +152,7 @@ class DependentPriceReferenceType
      *  Line Reference
      *  Line Reference
      *
-     * @return \UBL\Common\CAC\DependentLineReference
+     * @return \App\UBL\Common\CAC\DependentLineReference
      */
     public function getDependentLineReference()
     {
@@ -172,14 +172,13 @@ class DependentPriceReferenceType
      *  Line Reference
      *  Line Reference
      *
-     * @param \UBL\Common\CAC\DependentLineReference $dependentLineReference
+     * @param \App\UBL\Common\CAC\DependentLineReference $dependentLineReference
      * @return self
      */
-    public function setDependentLineReference(?\UBL\Common\CAC\DependentLineReference $dependentLineReference = null)
+    public function setDependentLineReference(?\App\UBL\Common\CAC\DependentLineReference $dependentLineReference = null)
     {
         $this->dependentLineReference = $dependentLineReference;
         return $this;
     }
 }
-
 

@@ -1,4 +1,4 @@
-UBL\Common\CAC\MeterPropertyType:
+App\UBL\Common\CAC\MeterPropertyType:
     properties:
         name:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\MeterPropertyType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         nameCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\MeterPropertyType:
             accessor:
                 getter: getNameCode
                 setter: setNameCode
-            type: UBL\Common\CBC\NameCode
+            type: App\UBL\Common\CBC\NameCode
         value:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\MeterPropertyType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: UBL\Common\CBC\Value
+            type: App\UBL\Common\CBC\Value
         valueQuantity:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\MeterPropertyType:
             accessor:
                 getter: getValueQuantity
                 setter: setValueQuantity
-            type: UBL\Common\CBC\ValueQuantity
+            type: App\UBL\Common\CBC\ValueQuantity
         valueQualifier:
             expose: true
             access_type: public_method
@@ -53,4 +53,4 @@ UBL\Common\CAC\MeterPropertyType:
                 inline: true
                 entry_name: ValueQualifier
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\ValueQualifier>
+            type: array<App\UBL\Common\CBC\ValueQualifier>

@@ -9,4 +9,3 @@ class Despatch extends DespatchType
 {
 }
 
-

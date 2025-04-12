@@ -9,4 +9,3 @@ class MinimumTemperature extends TemperatureType
 {
 }
 
-

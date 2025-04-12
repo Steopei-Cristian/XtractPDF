@@ -9,4 +9,3 @@ class DefaultLanguage extends LanguageType
 {
 }
 
-

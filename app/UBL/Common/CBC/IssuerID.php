@@ -9,4 +9,3 @@ class IssuerID extends IssuerIDType
 {
 }
 
-

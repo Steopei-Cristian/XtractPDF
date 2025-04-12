@@ -11,12 +11,12 @@ namespace App\UBL\XAdES\v132;
 class SignerRoleType
 {
     /**
-     * @var \UBL\XAdES\v132\AnyType[] $claimedRoles
+     * @var \App\UBL\XAdES\v132\AnyType[] $claimedRoles
      */
     private $claimedRoles = null;
 
     /**
-     * @var \UBL\XAdES\v132\EncapsulatedPKIDataType[] $certifiedRoles
+     * @var \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $certifiedRoles
      */
     private $certifiedRoles = null;
 
@@ -24,9 +24,9 @@ class SignerRoleType
      * Adds as claimedRole
      *
      * @return self
-     * @param \UBL\XAdES\v132\AnyType $claimedRole
+     * @param \App\UBL\XAdES\v132\AnyType $claimedRole
      */
-    public function addToClaimedRoles(\UBL\XAdES\v132\AnyType $claimedRole)
+    public function addToClaimedRoles(\App\UBL\XAdES\v132\AnyType $claimedRole)
     {
         $this->claimedRoles[] = $claimedRole;
         return $this;
@@ -57,7 +57,7 @@ class SignerRoleType
     /**
      * Gets as claimedRoles
      *
-     * @return \UBL\XAdES\v132\AnyType[]
+     * @return \App\UBL\XAdES\v132\AnyType[]
      */
     public function getClaimedRoles()
     {
@@ -67,7 +67,7 @@ class SignerRoleType
     /**
      * Sets a new claimedRoles
      *
-     * @param \UBL\XAdES\v132\AnyType[] $claimedRoles
+     * @param \App\UBL\XAdES\v132\AnyType[] $claimedRoles
      * @return self
      */
     public function setClaimedRoles(?array $claimedRoles = null)
@@ -80,9 +80,9 @@ class SignerRoleType
      * Adds as certifiedRole
      *
      * @return self
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType $certifiedRole
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType $certifiedRole
      */
-    public function addToCertifiedRoles(\UBL\XAdES\v132\EncapsulatedPKIDataType $certifiedRole)
+    public function addToCertifiedRoles(\App\UBL\XAdES\v132\EncapsulatedPKIDataType $certifiedRole)
     {
         $this->certifiedRoles[] = $certifiedRole;
         return $this;
@@ -113,7 +113,7 @@ class SignerRoleType
     /**
      * Gets as certifiedRoles
      *
-     * @return \UBL\XAdES\v132\EncapsulatedPKIDataType[]
+     * @return \App\UBL\XAdES\v132\EncapsulatedPKIDataType[]
      */
     public function getCertifiedRoles()
     {
@@ -123,7 +123,7 @@ class SignerRoleType
     /**
      * Sets a new certifiedRoles
      *
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType[] $certifiedRoles
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $certifiedRoles
      * @return self
      */
     public function setCertifiedRoles(?array $certifiedRoles = null)
@@ -132,5 +132,4 @@ class SignerRoleType
         return $this;
     }
 }
-
 

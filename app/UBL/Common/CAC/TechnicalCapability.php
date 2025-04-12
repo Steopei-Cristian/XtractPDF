@@ -9,4 +9,3 @@ class TechnicalCapability extends CapabilityType
 {
 }
 
-

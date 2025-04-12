@@ -1,4 +1,4 @@
-UBL\Common\CAC\MaritimeTransportType:
+App\UBL\Common\CAC\MaritimeTransportType:
     properties:
         vesselID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\MaritimeTransportType:
             accessor:
                 getter: getVesselID
                 setter: setVesselID
-            type: UBL\Common\CBC\VesselID
+            type: App\UBL\Common\CBC\VesselID
         vesselName:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\MaritimeTransportType:
             accessor:
                 getter: getVesselName
                 setter: setVesselName
-            type: UBL\Common\CBC\VesselName
+            type: App\UBL\Common\CBC\VesselName
         radioCallSignID:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\MaritimeTransportType:
             accessor:
                 getter: getRadioCallSignID
                 setter: setRadioCallSignID
-            type: UBL\Common\CBC\RadioCallSignID
+            type: App\UBL\Common\CBC\RadioCallSignID
         shipsRequirements:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\MaritimeTransportType:
                 inline: true
                 entry_name: ShipsRequirements
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\ShipsRequirements>
+            type: array<App\UBL\Common\CBC\ShipsRequirements>
         grossTonnageMeasure:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\MaritimeTransportType:
             accessor:
                 getter: getGrossTonnageMeasure
                 setter: setGrossTonnageMeasure
-            type: UBL\Common\CBC\GrossTonnageMeasure
+            type: App\UBL\Common\CBC\GrossTonnageMeasure
         netTonnageMeasure:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\MaritimeTransportType:
             accessor:
                 getter: getNetTonnageMeasure
                 setter: setNetTonnageMeasure
-            type: UBL\Common\CBC\NetTonnageMeasure
+            type: App\UBL\Common\CBC\NetTonnageMeasure
         registryCertificateDocumentReference:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\MaritimeTransportType:
             accessor:
                 getter: getRegistryCertificateDocumentReference
                 setter: setRegistryCertificateDocumentReference
-            type: UBL\Common\CAC\RegistryCertificateDocumentReference
+            type: App\UBL\Common\CAC\RegistryCertificateDocumentReference
         registryPortLocation:
             expose: true
             access_type: public_method
@@ -83,4 +83,4 @@ UBL\Common\CAC\MaritimeTransportType:
             accessor:
                 getter: getRegistryPortLocation
                 setter: setRegistryPortLocation
-            type: UBL\Common\CAC\RegistryPortLocation
+            type: App\UBL\Common\CAC\RegistryPortLocation

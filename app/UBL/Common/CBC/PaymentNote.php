@@ -9,4 +9,3 @@ class PaymentNote extends PaymentNoteType
 {
 }
 
-

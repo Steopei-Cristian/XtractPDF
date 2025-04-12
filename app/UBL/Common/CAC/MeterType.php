@@ -24,7 +24,7 @@ class MeterType
      *  Text. Type
      *  61722x
      *
-     * @var \UBL\Common\CBC\MeterNumber $meterNumber
+     * @var \App\UBL\Common\CBC\MeterNumber $meterNumber
      */
     private $meterNumber = null;
 
@@ -38,7 +38,7 @@ class MeterType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\MeterName $meterName
+     * @var \App\UBL\Common\CBC\MeterName $meterName
      */
     private $meterName = null;
 
@@ -53,7 +53,7 @@ class MeterType
      *  Text. Type
      *  1.000
      *
-     * @var \UBL\Common\CBC\MeterConstant $meterConstant
+     * @var \App\UBL\Common\CBC\MeterConstant $meterConstant
      */
     private $meterConstant = null;
 
@@ -68,7 +68,7 @@ class MeterType
      *  Code. Type
      *  Factor
      *
-     * @var \UBL\Common\CBC\MeterConstantCode $meterConstantCode
+     * @var \App\UBL\Common\CBC\MeterConstantCode $meterConstantCode
      */
     private $meterConstantCode = null;
 
@@ -84,7 +84,7 @@ class MeterType
      *  Quantity. Type
      *  5761.00
      *
-     * @var \UBL\Common\CBC\TotalDeliveredQuantity $totalDeliveredQuantity
+     * @var \App\UBL\Common\CBC\TotalDeliveredQuantity $totalDeliveredQuantity
      */
     private $totalDeliveredQuantity = null;
 
@@ -98,7 +98,7 @@ class MeterType
      *  Meter Reading
      *  Meter Reading
      *
-     * @var \UBL\Common\CAC\MeterReading[] $meterReading
+     * @var \App\UBL\Common\CAC\MeterReading[] $meterReading
      */
     private $meterReading = [
         
@@ -114,7 +114,7 @@ class MeterType
      *  Meter Property
      *  Meter Property
      *
-     * @var \UBL\Common\CAC\MeterProperty[] $meterProperty
+     * @var \App\UBL\Common\CAC\MeterProperty[] $meterProperty
      */
     private $meterProperty = [
         
@@ -133,7 +133,7 @@ class MeterType
      *  Text. Type
      *  61722x
      *
-     * @return \UBL\Common\CBC\MeterNumber
+     * @return \App\UBL\Common\CBC\MeterNumber
      */
     public function getMeterNumber()
     {
@@ -153,10 +153,10 @@ class MeterType
      *  Text. Type
      *  61722x
      *
-     * @param \UBL\Common\CBC\MeterNumber $meterNumber
+     * @param \App\UBL\Common\CBC\MeterNumber $meterNumber
      * @return self
      */
-    public function setMeterNumber(?\UBL\Common\CBC\MeterNumber $meterNumber = null)
+    public function setMeterNumber(?\App\UBL\Common\CBC\MeterNumber $meterNumber = null)
     {
         $this->meterNumber = $meterNumber;
         return $this;
@@ -174,7 +174,7 @@ class MeterType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\MeterName
+     * @return \App\UBL\Common\CBC\MeterName
      */
     public function getMeterName()
     {
@@ -193,10 +193,10 @@ class MeterType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\MeterName $meterName
+     * @param \App\UBL\Common\CBC\MeterName $meterName
      * @return self
      */
-    public function setMeterName(?\UBL\Common\CBC\MeterName $meterName = null)
+    public function setMeterName(?\App\UBL\Common\CBC\MeterName $meterName = null)
     {
         $this->meterName = $meterName;
         return $this;
@@ -215,7 +215,7 @@ class MeterType
      *  Text. Type
      *  1.000
      *
-     * @return \UBL\Common\CBC\MeterConstant
+     * @return \App\UBL\Common\CBC\MeterConstant
      */
     public function getMeterConstant()
     {
@@ -235,10 +235,10 @@ class MeterType
      *  Text. Type
      *  1.000
      *
-     * @param \UBL\Common\CBC\MeterConstant $meterConstant
+     * @param \App\UBL\Common\CBC\MeterConstant $meterConstant
      * @return self
      */
-    public function setMeterConstant(?\UBL\Common\CBC\MeterConstant $meterConstant = null)
+    public function setMeterConstant(?\App\UBL\Common\CBC\MeterConstant $meterConstant = null)
     {
         $this->meterConstant = $meterConstant;
         return $this;
@@ -257,7 +257,7 @@ class MeterType
      *  Code. Type
      *  Factor
      *
-     * @return \UBL\Common\CBC\MeterConstantCode
+     * @return \App\UBL\Common\CBC\MeterConstantCode
      */
     public function getMeterConstantCode()
     {
@@ -277,10 +277,10 @@ class MeterType
      *  Code. Type
      *  Factor
      *
-     * @param \UBL\Common\CBC\MeterConstantCode $meterConstantCode
+     * @param \App\UBL\Common\CBC\MeterConstantCode $meterConstantCode
      * @return self
      */
-    public function setMeterConstantCode(?\UBL\Common\CBC\MeterConstantCode $meterConstantCode = null)
+    public function setMeterConstantCode(?\App\UBL\Common\CBC\MeterConstantCode $meterConstantCode = null)
     {
         $this->meterConstantCode = $meterConstantCode;
         return $this;
@@ -300,7 +300,7 @@ class MeterType
      *  Quantity. Type
      *  5761.00
      *
-     * @return \UBL\Common\CBC\TotalDeliveredQuantity
+     * @return \App\UBL\Common\CBC\TotalDeliveredQuantity
      */
     public function getTotalDeliveredQuantity()
     {
@@ -321,10 +321,10 @@ class MeterType
      *  Quantity. Type
      *  5761.00
      *
-     * @param \UBL\Common\CBC\TotalDeliveredQuantity $totalDeliveredQuantity
+     * @param \App\UBL\Common\CBC\TotalDeliveredQuantity $totalDeliveredQuantity
      * @return self
      */
-    public function setTotalDeliveredQuantity(?\UBL\Common\CBC\TotalDeliveredQuantity $totalDeliveredQuantity = null)
+    public function setTotalDeliveredQuantity(?\App\UBL\Common\CBC\TotalDeliveredQuantity $totalDeliveredQuantity = null)
     {
         $this->totalDeliveredQuantity = $totalDeliveredQuantity;
         return $this;
@@ -343,9 +343,9 @@ class MeterType
      *  Meter Reading
      *
      * @return self
-     * @param \UBL\Common\CAC\MeterReading $meterReading
+     * @param \App\UBL\Common\CAC\MeterReading $meterReading
      */
-    public function addToMeterReading(\UBL\Common\CAC\MeterReading $meterReading)
+    public function addToMeterReading(\App\UBL\Common\CAC\MeterReading $meterReading)
     {
         $this->meterReading[] = $meterReading;
         return $this;
@@ -403,7 +403,7 @@ class MeterType
      *  Meter Reading
      *  Meter Reading
      *
-     * @return \UBL\Common\CAC\MeterReading[]
+     * @return \App\UBL\Common\CAC\MeterReading[]
      */
     public function getMeterReading()
     {
@@ -422,7 +422,7 @@ class MeterType
      *  Meter Reading
      *  Meter Reading
      *
-     * @param \UBL\Common\CAC\MeterReading[] $meterReading
+     * @param \App\UBL\Common\CAC\MeterReading[] $meterReading
      * @return self
      */
     public function setMeterReading(?array $meterReading = null)
@@ -444,9 +444,9 @@ class MeterType
      *  Meter Property
      *
      * @return self
-     * @param \UBL\Common\CAC\MeterProperty $meterProperty
+     * @param \App\UBL\Common\CAC\MeterProperty $meterProperty
      */
-    public function addToMeterProperty(\UBL\Common\CAC\MeterProperty $meterProperty)
+    public function addToMeterProperty(\App\UBL\Common\CAC\MeterProperty $meterProperty)
     {
         $this->meterProperty[] = $meterProperty;
         return $this;
@@ -504,7 +504,7 @@ class MeterType
      *  Meter Property
      *  Meter Property
      *
-     * @return \UBL\Common\CAC\MeterProperty[]
+     * @return \App\UBL\Common\CAC\MeterProperty[]
      */
     public function getMeterProperty()
     {
@@ -523,7 +523,7 @@ class MeterType
      *  Meter Property
      *  Meter Property
      *
-     * @param \UBL\Common\CAC\MeterProperty[] $meterProperty
+     * @param \App\UBL\Common\CAC\MeterProperty[] $meterProperty
      * @return self
      */
     public function setMeterProperty(?array $meterProperty = null)
@@ -532,5 +532,4 @@ class MeterType
         return $this;
     }
 }
-
 

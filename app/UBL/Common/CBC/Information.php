@@ -9,4 +9,3 @@ class Information extends InformationType
 {
 }
 
-

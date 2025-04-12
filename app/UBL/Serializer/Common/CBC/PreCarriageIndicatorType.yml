@@ -1,4 +1,4 @@
-UBL\Common\CBC\PreCarriageIndicatorType:
+App\UBL\Common\CBC\PreCarriageIndicatorType:
     properties:
         __value:
             expose: true

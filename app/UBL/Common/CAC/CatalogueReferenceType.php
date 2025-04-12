@@ -23,7 +23,7 @@ class CatalogueReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class CatalogueReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -107,7 +107,7 @@ class CatalogueReferenceType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -124,7 +124,7 @@ class CatalogueReferenceType
      *  Text. Type
      *  computer accessories for laptops
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -141,7 +141,7 @@ class CatalogueReferenceType
      *  Identifier. Type
      *  1.1
      *
-     * @var \UBL\Common\CBC\VersionID $versionID
+     * @var \App\UBL\Common\CBC\VersionID $versionID
      */
     private $versionID = null;
 
@@ -157,7 +157,7 @@ class CatalogueReferenceType
      *  Identifier. Type
      *  1.0
      *
-     * @var \UBL\Common\CBC\PreviousVersionID $previousVersionID
+     * @var \App\UBL\Common\CBC\PreviousVersionID $previousVersionID
      */
     private $previousVersionID = null;
 
@@ -173,7 +173,7 @@ class CatalogueReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -192,10 +192,10 @@ class CatalogueReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -213,7 +213,7 @@ class CatalogueReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -232,10 +232,10 @@ class CatalogueReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -414,9 +414,9 @@ class CatalogueReferenceType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -474,7 +474,7 @@ class CatalogueReferenceType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -493,7 +493,7 @@ class CatalogueReferenceType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -516,9 +516,9 @@ class CatalogueReferenceType
      *  computer accessories for laptops
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -579,7 +579,7 @@ class CatalogueReferenceType
      *  Text. Type
      *  computer accessories for laptops
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -599,7 +599,7 @@ class CatalogueReferenceType
      *  Text. Type
      *  computer accessories for laptops
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -621,7 +621,7 @@ class CatalogueReferenceType
      *  Identifier. Type
      *  1.1
      *
-     * @return \UBL\Common\CBC\VersionID
+     * @return \App\UBL\Common\CBC\VersionID
      */
     public function getVersionID()
     {
@@ -641,10 +641,10 @@ class CatalogueReferenceType
      *  Identifier. Type
      *  1.1
      *
-     * @param \UBL\Common\CBC\VersionID $versionID
+     * @param \App\UBL\Common\CBC\VersionID $versionID
      * @return self
      */
-    public function setVersionID(?\UBL\Common\CBC\VersionID $versionID = null)
+    public function setVersionID(?\App\UBL\Common\CBC\VersionID $versionID = null)
     {
         $this->versionID = $versionID;
         return $this;
@@ -664,7 +664,7 @@ class CatalogueReferenceType
      *  Identifier. Type
      *  1.0
      *
-     * @return \UBL\Common\CBC\PreviousVersionID
+     * @return \App\UBL\Common\CBC\PreviousVersionID
      */
     public function getPreviousVersionID()
     {
@@ -685,14 +685,13 @@ class CatalogueReferenceType
      *  Identifier. Type
      *  1.0
      *
-     * @param \UBL\Common\CBC\PreviousVersionID $previousVersionID
+     * @param \App\UBL\Common\CBC\PreviousVersionID $previousVersionID
      * @return self
      */
-    public function setPreviousVersionID(?\UBL\Common\CBC\PreviousVersionID $previousVersionID = null)
+    public function setPreviousVersionID(?\App\UBL\Common\CBC\PreviousVersionID $previousVersionID = null)
     {
         $this->previousVersionID = $previousVersionID;
         return $this;
     }
 }
-
 

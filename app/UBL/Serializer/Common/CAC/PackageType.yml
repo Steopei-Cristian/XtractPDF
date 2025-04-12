@@ -1,4 +1,4 @@
-UBL\Common\CAC\PackageType:
+App\UBL\Common\CAC\PackageType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PackageType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         quantity:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\PackageType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         returnableMaterialIndicator:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\PackageType:
             accessor:
                 getter: getPackageLevelCode
                 setter: setPackageLevelCode
-            type: UBL\Common\CBC\PackageLevelCode
+            type: App\UBL\Common\CBC\PackageLevelCode
         packagingTypeCode:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\PackageType:
             accessor:
                 getter: getPackagingTypeCode
                 setter: setPackagingTypeCode
-            type: UBL\Common\CBC\PackagingTypeCode
+            type: App\UBL\Common\CBC\PackagingTypeCode
         packingMaterial:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\PackageType:
                 inline: true
                 entry_name: PackingMaterial
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\PackingMaterial>
+            type: array<App\UBL\Common\CBC\PackingMaterial>
         traceID:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\PackageType:
             accessor:
                 getter: getTraceID
                 setter: setTraceID
-            type: UBL\Common\CBC\TraceID
+            type: App\UBL\Common\CBC\TraceID
         containedPackage:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\PackageType:
                 inline: true
                 entry_name: ContainedPackage
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ContainedPackage>
+            type: array<App\UBL\Common\CAC\ContainedPackage>
         containingTransportEquipment:
             expose: true
             access_type: public_method
@@ -97,7 +97,7 @@ UBL\Common\CAC\PackageType:
             accessor:
                 getter: getContainingTransportEquipment
                 setter: setContainingTransportEquipment
-            type: UBL\Common\CAC\ContainingTransportEquipment
+            type: App\UBL\Common\CAC\ContainingTransportEquipment
         goodsItem:
             expose: true
             access_type: public_method
@@ -111,7 +111,7 @@ UBL\Common\CAC\PackageType:
                 inline: true
                 entry_name: GoodsItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\GoodsItem>
+            type: array<App\UBL\Common\CAC\GoodsItem>
         measurementDimension:
             expose: true
             access_type: public_method
@@ -125,7 +125,7 @@ UBL\Common\CAC\PackageType:
                 inline: true
                 entry_name: MeasurementDimension
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\MeasurementDimension>
+            type: array<App\UBL\Common\CAC\MeasurementDimension>
         deliveryUnit:
             expose: true
             access_type: public_method
@@ -139,7 +139,7 @@ UBL\Common\CAC\PackageType:
                 inline: true
                 entry_name: DeliveryUnit
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DeliveryUnit>
+            type: array<App\UBL\Common\CAC\DeliveryUnit>
         delivery:
             expose: true
             access_type: public_method
@@ -149,7 +149,7 @@ UBL\Common\CAC\PackageType:
             accessor:
                 getter: getDelivery
                 setter: setDelivery
-            type: UBL\Common\CAC\Delivery
+            type: App\UBL\Common\CAC\Delivery
         pickup:
             expose: true
             access_type: public_method
@@ -159,7 +159,7 @@ UBL\Common\CAC\PackageType:
             accessor:
                 getter: getPickup
                 setter: setPickup
-            type: UBL\Common\CAC\Pickup
+            type: App\UBL\Common\CAC\Pickup
         despatch:
             expose: true
             access_type: public_method
@@ -169,4 +169,4 @@ UBL\Common\CAC\PackageType:
             accessor:
                 getter: getDespatch
                 setter: setDespatch
-            type: UBL\Common\CAC\Despatch
+            type: App\UBL\Common\CAC\Despatch

@@ -9,4 +9,3 @@ class AmountRate extends AmountRateType
 {
 }
 
-

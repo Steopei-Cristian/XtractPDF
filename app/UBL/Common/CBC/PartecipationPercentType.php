@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\PercentType;
+use App\UBL\Unqualified\PercentType;
 
 /**
  * Class representing PartecipationPercentType
@@ -13,5 +13,4 @@ use UBL\Unqualified\PercentType;
 class PartecipationPercentType extends PercentType
 {
 }
-
 

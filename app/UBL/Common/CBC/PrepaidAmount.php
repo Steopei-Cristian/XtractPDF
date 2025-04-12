@@ -9,4 +9,3 @@ class PrepaidAmount extends PrepaidAmountType
 {
 }
 
-

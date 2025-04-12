@@ -9,4 +9,3 @@ class TotalPackageQuantity extends TotalPackageQuantityType
 {
 }
 
-

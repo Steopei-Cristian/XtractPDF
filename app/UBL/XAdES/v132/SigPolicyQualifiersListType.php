@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class SigPolicyQualifiersListType
 {
     /**
-     * @var \UBL\XAdES\v132\AnyType[] $sigPolicyQualifier
+     * @var \App\UBL\XAdES\v132\AnyType[] $sigPolicyQualifier
      */
     private $sigPolicyQualifier = [
         
@@ -21,9 +21,9 @@ class SigPolicyQualifiersListType
      * Adds as sigPolicyQualifier
      *
      * @return self
-     * @param \UBL\XAdES\v132\AnyType $sigPolicyQualifier
+     * @param \App\UBL\XAdES\v132\AnyType $sigPolicyQualifier
      */
-    public function addToSigPolicyQualifier(\UBL\XAdES\v132\AnyType $sigPolicyQualifier)
+    public function addToSigPolicyQualifier(\App\UBL\XAdES\v132\AnyType $sigPolicyQualifier)
     {
         $this->sigPolicyQualifier[] = $sigPolicyQualifier;
         return $this;
@@ -54,7 +54,7 @@ class SigPolicyQualifiersListType
     /**
      * Gets as sigPolicyQualifier
      *
-     * @return \UBL\XAdES\v132\AnyType[]
+     * @return \App\UBL\XAdES\v132\AnyType[]
      */
     public function getSigPolicyQualifier()
     {
@@ -64,7 +64,7 @@ class SigPolicyQualifiersListType
     /**
      * Sets a new sigPolicyQualifier
      *
-     * @param \UBL\XAdES\v132\AnyType[] $sigPolicyQualifier
+     * @param \App\UBL\XAdES\v132\AnyType[] $sigPolicyQualifier
      * @return self
      */
     public function setSigPolicyQualifier(array $sigPolicyQualifier)
@@ -73,5 +73,4 @@ class SigPolicyQualifiersListType
         return $this;
     }
 }
-
 

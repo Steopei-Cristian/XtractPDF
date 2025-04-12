@@ -9,4 +9,3 @@ class ExtendedID extends ExtendedIDType
 {
 }
 
-

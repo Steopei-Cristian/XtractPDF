@@ -9,4 +9,3 @@ class BuyerCustomerParty extends CustomerPartyType
 {
 }
 
-

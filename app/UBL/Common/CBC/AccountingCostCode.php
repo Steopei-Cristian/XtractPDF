@@ -9,4 +9,3 @@ class AccountingCostCode extends AccountingCostCodeType
 {
 }
 
-

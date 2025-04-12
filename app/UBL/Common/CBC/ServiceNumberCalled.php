@@ -9,4 +9,3 @@ class ServiceNumberCalled extends ServiceNumberCalledType
 {
 }
 
-

@@ -2,7 +2,7 @@
 
 namespace App\UBL\Unqualified;
 
-use UBL\CCTS\TextType;
+use App\UBL\CCTS\TextType;
 
 /**
  * Class representing NameType
@@ -19,5 +19,4 @@ use UBL\CCTS\TextType;
 class NameType extends TextType
 {
 }
-
 

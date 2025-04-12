@@ -23,7 +23,7 @@ class SecondaryHazardType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class SecondaryHazardType
      *  Text. Type
      *  5.1
      *
-     * @var \UBL\Common\CBC\PlacardNotation $placardNotation
+     * @var \App\UBL\Common\CBC\PlacardNotation $placardNotation
      */
     private $placardNotation = null;
 
@@ -53,7 +53,7 @@ class SecondaryHazardType
      *  Text. Type
      *  2
      *
-     * @var \UBL\Common\CBC\PlacardEndorsement $placardEndorsement
+     * @var \App\UBL\Common\CBC\PlacardEndorsement $placardEndorsement
      */
     private $placardEndorsement = null;
 
@@ -68,7 +68,7 @@ class SecondaryHazardType
      *  Code. Type
      *  EMG code, EMS Page Number
      *
-     * @var \UBL\Common\CBC\EmergencyProceduresCode $emergencyProceduresCode
+     * @var \App\UBL\Common\CBC\EmergencyProceduresCode $emergencyProceduresCode
      */
     private $emergencyProceduresCode = null;
 
@@ -83,7 +83,7 @@ class SecondaryHazardType
      *  Text. Type
      *  N.O.S. or a Waste Characteristics Code in conjunction with an EPA Waste Stream code
      *
-     * @var \UBL\Common\CBC\Extension[] $extension
+     * @var \App\UBL\Common\CBC\Extension[] $extension
      */
     private $extension = [
         
@@ -101,7 +101,7 @@ class SecondaryHazardType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -120,10 +120,10 @@ class SecondaryHazardType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -142,7 +142,7 @@ class SecondaryHazardType
      *  Text. Type
      *  5.1
      *
-     * @return \UBL\Common\CBC\PlacardNotation
+     * @return \App\UBL\Common\CBC\PlacardNotation
      */
     public function getPlacardNotation()
     {
@@ -162,10 +162,10 @@ class SecondaryHazardType
      *  Text. Type
      *  5.1
      *
-     * @param \UBL\Common\CBC\PlacardNotation $placardNotation
+     * @param \App\UBL\Common\CBC\PlacardNotation $placardNotation
      * @return self
      */
-    public function setPlacardNotation(?\UBL\Common\CBC\PlacardNotation $placardNotation = null)
+    public function setPlacardNotation(?\App\UBL\Common\CBC\PlacardNotation $placardNotation = null)
     {
         $this->placardNotation = $placardNotation;
         return $this;
@@ -184,7 +184,7 @@ class SecondaryHazardType
      *  Text. Type
      *  2
      *
-     * @return \UBL\Common\CBC\PlacardEndorsement
+     * @return \App\UBL\Common\CBC\PlacardEndorsement
      */
     public function getPlacardEndorsement()
     {
@@ -204,10 +204,10 @@ class SecondaryHazardType
      *  Text. Type
      *  2
      *
-     * @param \UBL\Common\CBC\PlacardEndorsement $placardEndorsement
+     * @param \App\UBL\Common\CBC\PlacardEndorsement $placardEndorsement
      * @return self
      */
-    public function setPlacardEndorsement(?\UBL\Common\CBC\PlacardEndorsement $placardEndorsement = null)
+    public function setPlacardEndorsement(?\App\UBL\Common\CBC\PlacardEndorsement $placardEndorsement = null)
     {
         $this->placardEndorsement = $placardEndorsement;
         return $this;
@@ -226,7 +226,7 @@ class SecondaryHazardType
      *  Code. Type
      *  EMG code, EMS Page Number
      *
-     * @return \UBL\Common\CBC\EmergencyProceduresCode
+     * @return \App\UBL\Common\CBC\EmergencyProceduresCode
      */
     public function getEmergencyProceduresCode()
     {
@@ -246,10 +246,10 @@ class SecondaryHazardType
      *  Code. Type
      *  EMG code, EMS Page Number
      *
-     * @param \UBL\Common\CBC\EmergencyProceduresCode $emergencyProceduresCode
+     * @param \App\UBL\Common\CBC\EmergencyProceduresCode $emergencyProceduresCode
      * @return self
      */
-    public function setEmergencyProceduresCode(?\UBL\Common\CBC\EmergencyProceduresCode $emergencyProceduresCode = null)
+    public function setEmergencyProceduresCode(?\App\UBL\Common\CBC\EmergencyProceduresCode $emergencyProceduresCode = null)
     {
         $this->emergencyProceduresCode = $emergencyProceduresCode;
         return $this;
@@ -269,9 +269,9 @@ class SecondaryHazardType
      *  N.O.S. or a Waste Characteristics Code in conjunction with an EPA Waste Stream code
      *
      * @return self
-     * @param \UBL\Common\CBC\Extension $extension
+     * @param \App\UBL\Common\CBC\Extension $extension
      */
-    public function addToExtension(\UBL\Common\CBC\Extension $extension)
+    public function addToExtension(\App\UBL\Common\CBC\Extension $extension)
     {
         $this->extension[] = $extension;
         return $this;
@@ -332,7 +332,7 @@ class SecondaryHazardType
      *  Text. Type
      *  N.O.S. or a Waste Characteristics Code in conjunction with an EPA Waste Stream code
      *
-     * @return \UBL\Common\CBC\Extension[]
+     * @return \App\UBL\Common\CBC\Extension[]
      */
     public function getExtension()
     {
@@ -352,7 +352,7 @@ class SecondaryHazardType
      *  Text. Type
      *  N.O.S. or a Waste Characteristics Code in conjunction with an EPA Waste Stream code
      *
-     * @param \UBL\Common\CBC\Extension[] $extension
+     * @param \App\UBL\Common\CBC\Extension[] $extension
      * @return self
      */
     public function setExtension(?array $extension = null)
@@ -361,5 +361,4 @@ class SecondaryHazardType
         return $this;
     }
 }
-
 

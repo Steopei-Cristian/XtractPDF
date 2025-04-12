@@ -9,4 +9,3 @@ class InventoryReportLine extends InventoryReportLineType
 {
 }
 
-

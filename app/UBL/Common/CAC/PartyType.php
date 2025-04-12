@@ -54,7 +54,7 @@ class PartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\WebsiteURI $websiteURI
+     * @var \App\UBL\Common\CBC\WebsiteURI $websiteURI
      */
     private $websiteURI = null;
 
@@ -69,7 +69,7 @@ class PartyType
      *  Identifier. Type
      *  http://www2.coca-cola.com/images/logo.gif
      *
-     * @var \UBL\Common\CBC\LogoReferenceID $logoReferenceID
+     * @var \App\UBL\Common\CBC\LogoReferenceID $logoReferenceID
      */
     private $logoReferenceID = null;
 
@@ -84,7 +84,7 @@ class PartyType
      *  Identifier. Type
      *  5790002221134
      *
-     * @var \UBL\Common\CBC\EndpointID $endpointID
+     * @var \App\UBL\Common\CBC\EndpointID $endpointID
      */
     private $endpointID = null;
 
@@ -99,7 +99,7 @@ class PartyType
      *  Code. Type
      *  Public authority , NAIC codes
      *
-     * @var \UBL\Common\CBC\IndustryClassificationCode $industryClassificationCode
+     * @var \App\UBL\Common\CBC\IndustryClassificationCode $industryClassificationCode
      */
     private $industryClassificationCode = null;
 
@@ -113,7 +113,7 @@ class PartyType
      *  Party Identification
      *  Party Identification
      *
-     * @var \UBL\Common\CAC\PartyIdentification[] $partyIdentification
+     * @var \App\UBL\Common\CAC\PartyIdentification[] $partyIdentification
      */
     private $partyIdentification = [
         
@@ -129,7 +129,7 @@ class PartyType
      *  Party Name
      *  Party Name
      *
-     * @var \UBL\Common\CAC\PartyName[] $partyName
+     * @var \App\UBL\Common\CAC\PartyName[] $partyName
      */
     private $partyName = [
         
@@ -145,7 +145,7 @@ class PartyType
      *  Language
      *  Language
      *
-     * @var \UBL\Common\CAC\Language $language
+     * @var \App\UBL\Common\CAC\Language $language
      */
     private $language = null;
 
@@ -160,7 +160,7 @@ class PartyType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\PostalAddress $postalAddress
+     * @var \App\UBL\Common\CAC\PostalAddress $postalAddress
      */
     private $postalAddress = null;
 
@@ -175,7 +175,7 @@ class PartyType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\PhysicalLocation $physicalLocation
+     * @var \App\UBL\Common\CAC\PhysicalLocation $physicalLocation
      */
     private $physicalLocation = null;
 
@@ -189,7 +189,7 @@ class PartyType
      *  Party Tax Scheme
      *  Party Tax Scheme
      *
-     * @var \UBL\Common\CAC\PartyTaxScheme[] $partyTaxScheme
+     * @var \App\UBL\Common\CAC\PartyTaxScheme[] $partyTaxScheme
      */
     private $partyTaxScheme = [
         
@@ -205,7 +205,7 @@ class PartyType
      *  Party Legal Entity
      *  Party Legal Entity
      *
-     * @var \UBL\Common\CAC\PartyLegalEntity[] $partyLegalEntity
+     * @var \App\UBL\Common\CAC\PartyLegalEntity[] $partyLegalEntity
      */
     private $partyLegalEntity = [
         
@@ -221,7 +221,7 @@ class PartyType
      *  Contact
      *  Contact
      *
-     * @var \UBL\Common\CAC\Contact $contact
+     * @var \App\UBL\Common\CAC\Contact $contact
      */
     private $contact = null;
 
@@ -235,7 +235,7 @@ class PartyType
      *  Person
      *  Person
      *
-     * @var \UBL\Common\CAC\Person[] $person
+     * @var \App\UBL\Common\CAC\Person[] $person
      */
     private $person = [
         
@@ -253,7 +253,7 @@ class PartyType
      *  Party
      *  Customs Broker
      *
-     * @var \UBL\Common\CAC\AgentParty $agentParty
+     * @var \App\UBL\Common\CAC\AgentParty $agentParty
      */
     private $agentParty = null;
 
@@ -267,7 +267,7 @@ class PartyType
      *  Service Provider Party
      *  Service Provider Party
      *
-     * @var \UBL\Common\CAC\ServiceProviderParty[] $serviceProviderParty
+     * @var \App\UBL\Common\CAC\ServiceProviderParty[] $serviceProviderParty
      */
     private $serviceProviderParty = [
         
@@ -283,7 +283,7 @@ class PartyType
      *  Power Of Attorney
      *  Power Of Attorney
      *
-     * @var \UBL\Common\CAC\PowerOfAttorney[] $powerOfAttorney
+     * @var \App\UBL\Common\CAC\PowerOfAttorney[] $powerOfAttorney
      */
     private $powerOfAttorney = [
         
@@ -299,7 +299,7 @@ class PartyType
      *  Financial Account
      *  Financial Account
      *
-     * @var \UBL\Common\CAC\FinancialAccount $financialAccount
+     * @var \App\UBL\Common\CAC\FinancialAccount $financialAccount
      */
     private $financialAccount = null;
 
@@ -400,7 +400,7 @@ class PartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\WebsiteURI
+     * @return \App\UBL\Common\CBC\WebsiteURI
      */
     public function getWebsiteURI()
     {
@@ -420,10 +420,10 @@ class PartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\WebsiteURI $websiteURI
+     * @param \App\UBL\Common\CBC\WebsiteURI $websiteURI
      * @return self
      */
-    public function setWebsiteURI(?\UBL\Common\CBC\WebsiteURI $websiteURI = null)
+    public function setWebsiteURI(?\App\UBL\Common\CBC\WebsiteURI $websiteURI = null)
     {
         $this->websiteURI = $websiteURI;
         return $this;
@@ -442,7 +442,7 @@ class PartyType
      *  Identifier. Type
      *  http://www2.coca-cola.com/images/logo.gif
      *
-     * @return \UBL\Common\CBC\LogoReferenceID
+     * @return \App\UBL\Common\CBC\LogoReferenceID
      */
     public function getLogoReferenceID()
     {
@@ -462,10 +462,10 @@ class PartyType
      *  Identifier. Type
      *  http://www2.coca-cola.com/images/logo.gif
      *
-     * @param \UBL\Common\CBC\LogoReferenceID $logoReferenceID
+     * @param \App\UBL\Common\CBC\LogoReferenceID $logoReferenceID
      * @return self
      */
-    public function setLogoReferenceID(?\UBL\Common\CBC\LogoReferenceID $logoReferenceID = null)
+    public function setLogoReferenceID(?\App\UBL\Common\CBC\LogoReferenceID $logoReferenceID = null)
     {
         $this->logoReferenceID = $logoReferenceID;
         return $this;
@@ -484,7 +484,7 @@ class PartyType
      *  Identifier. Type
      *  5790002221134
      *
-     * @return \UBL\Common\CBC\EndpointID
+     * @return \App\UBL\Common\CBC\EndpointID
      */
     public function getEndpointID()
     {
@@ -504,10 +504,10 @@ class PartyType
      *  Identifier. Type
      *  5790002221134
      *
-     * @param \UBL\Common\CBC\EndpointID $endpointID
+     * @param \App\UBL\Common\CBC\EndpointID $endpointID
      * @return self
      */
-    public function setEndpointID(?\UBL\Common\CBC\EndpointID $endpointID = null)
+    public function setEndpointID(?\App\UBL\Common\CBC\EndpointID $endpointID = null)
     {
         $this->endpointID = $endpointID;
         return $this;
@@ -526,7 +526,7 @@ class PartyType
      *  Code. Type
      *  Public authority , NAIC codes
      *
-     * @return \UBL\Common\CBC\IndustryClassificationCode
+     * @return \App\UBL\Common\CBC\IndustryClassificationCode
      */
     public function getIndustryClassificationCode()
     {
@@ -546,10 +546,10 @@ class PartyType
      *  Code. Type
      *  Public authority , NAIC codes
      *
-     * @param \UBL\Common\CBC\IndustryClassificationCode $industryClassificationCode
+     * @param \App\UBL\Common\CBC\IndustryClassificationCode $industryClassificationCode
      * @return self
      */
-    public function setIndustryClassificationCode(?\UBL\Common\CBC\IndustryClassificationCode $industryClassificationCode = null)
+    public function setIndustryClassificationCode(?\App\UBL\Common\CBC\IndustryClassificationCode $industryClassificationCode = null)
     {
         $this->industryClassificationCode = $industryClassificationCode;
         return $this;
@@ -568,9 +568,9 @@ class PartyType
      *  Party Identification
      *
      * @return self
-     * @param \UBL\Common\CAC\PartyIdentification $partyIdentification
+     * @param \App\UBL\Common\CAC\PartyIdentification $partyIdentification
      */
-    public function addToPartyIdentification(\UBL\Common\CAC\PartyIdentification $partyIdentification)
+    public function addToPartyIdentification(\App\UBL\Common\CAC\PartyIdentification $partyIdentification)
     {
         $this->partyIdentification[] = $partyIdentification;
         return $this;
@@ -628,7 +628,7 @@ class PartyType
      *  Party Identification
      *  Party Identification
      *
-     * @return \UBL\Common\CAC\PartyIdentification[]
+     * @return \App\UBL\Common\CAC\PartyIdentification[]
      */
     public function getPartyIdentification()
     {
@@ -647,7 +647,7 @@ class PartyType
      *  Party Identification
      *  Party Identification
      *
-     * @param \UBL\Common\CAC\PartyIdentification[] $partyIdentification
+     * @param \App\UBL\Common\CAC\PartyIdentification[] $partyIdentification
      * @return self
      */
     public function setPartyIdentification(?array $partyIdentification = null)
@@ -669,9 +669,9 @@ class PartyType
      *  Party Name
      *
      * @return self
-     * @param \UBL\Common\CAC\PartyName $partyName
+     * @param \App\UBL\Common\CAC\PartyName $partyName
      */
-    public function addToPartyName(\UBL\Common\CAC\PartyName $partyName)
+    public function addToPartyName(\App\UBL\Common\CAC\PartyName $partyName)
     {
         $this->partyName[] = $partyName;
         return $this;
@@ -729,7 +729,7 @@ class PartyType
      *  Party Name
      *  Party Name
      *
-     * @return \UBL\Common\CAC\PartyName[]
+     * @return \App\UBL\Common\CAC\PartyName[]
      */
     public function getPartyName()
     {
@@ -748,7 +748,7 @@ class PartyType
      *  Party Name
      *  Party Name
      *
-     * @param \UBL\Common\CAC\PartyName[] $partyName
+     * @param \App\UBL\Common\CAC\PartyName[] $partyName
      * @return self
      */
     public function setPartyName(?array $partyName = null)
@@ -769,7 +769,7 @@ class PartyType
      *  Language
      *  Language
      *
-     * @return \UBL\Common\CAC\Language
+     * @return \App\UBL\Common\CAC\Language
      */
     public function getLanguage()
     {
@@ -788,10 +788,10 @@ class PartyType
      *  Language
      *  Language
      *
-     * @param \UBL\Common\CAC\Language $language
+     * @param \App\UBL\Common\CAC\Language $language
      * @return self
      */
-    public function setLanguage(?\UBL\Common\CAC\Language $language = null)
+    public function setLanguage(?\App\UBL\Common\CAC\Language $language = null)
     {
         $this->language = $language;
         return $this;
@@ -810,7 +810,7 @@ class PartyType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\PostalAddress
+     * @return \App\UBL\Common\CAC\PostalAddress
      */
     public function getPostalAddress()
     {
@@ -830,10 +830,10 @@ class PartyType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\PostalAddress $postalAddress
+     * @param \App\UBL\Common\CAC\PostalAddress $postalAddress
      * @return self
      */
-    public function setPostalAddress(?\UBL\Common\CAC\PostalAddress $postalAddress = null)
+    public function setPostalAddress(?\App\UBL\Common\CAC\PostalAddress $postalAddress = null)
     {
         $this->postalAddress = $postalAddress;
         return $this;
@@ -852,7 +852,7 @@ class PartyType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\PhysicalLocation
+     * @return \App\UBL\Common\CAC\PhysicalLocation
      */
     public function getPhysicalLocation()
     {
@@ -872,10 +872,10 @@ class PartyType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\PhysicalLocation $physicalLocation
+     * @param \App\UBL\Common\CAC\PhysicalLocation $physicalLocation
      * @return self
      */
-    public function setPhysicalLocation(?\UBL\Common\CAC\PhysicalLocation $physicalLocation = null)
+    public function setPhysicalLocation(?\App\UBL\Common\CAC\PhysicalLocation $physicalLocation = null)
     {
         $this->physicalLocation = $physicalLocation;
         return $this;
@@ -894,9 +894,9 @@ class PartyType
      *  Party Tax Scheme
      *
      * @return self
-     * @param \UBL\Common\CAC\PartyTaxScheme $partyTaxScheme
+     * @param \App\UBL\Common\CAC\PartyTaxScheme $partyTaxScheme
      */
-    public function addToPartyTaxScheme(\UBL\Common\CAC\PartyTaxScheme $partyTaxScheme)
+    public function addToPartyTaxScheme(\App\UBL\Common\CAC\PartyTaxScheme $partyTaxScheme)
     {
         $this->partyTaxScheme[] = $partyTaxScheme;
         return $this;
@@ -954,7 +954,7 @@ class PartyType
      *  Party Tax Scheme
      *  Party Tax Scheme
      *
-     * @return \UBL\Common\CAC\PartyTaxScheme[]
+     * @return \App\UBL\Common\CAC\PartyTaxScheme[]
      */
     public function getPartyTaxScheme()
     {
@@ -973,7 +973,7 @@ class PartyType
      *  Party Tax Scheme
      *  Party Tax Scheme
      *
-     * @param \UBL\Common\CAC\PartyTaxScheme[] $partyTaxScheme
+     * @param \App\UBL\Common\CAC\PartyTaxScheme[] $partyTaxScheme
      * @return self
      */
     public function setPartyTaxScheme(?array $partyTaxScheme = null)
@@ -995,9 +995,9 @@ class PartyType
      *  Party Legal Entity
      *
      * @return self
-     * @param \UBL\Common\CAC\PartyLegalEntity $partyLegalEntity
+     * @param \App\UBL\Common\CAC\PartyLegalEntity $partyLegalEntity
      */
-    public function addToPartyLegalEntity(\UBL\Common\CAC\PartyLegalEntity $partyLegalEntity)
+    public function addToPartyLegalEntity(\App\UBL\Common\CAC\PartyLegalEntity $partyLegalEntity)
     {
         $this->partyLegalEntity[] = $partyLegalEntity;
         return $this;
@@ -1055,7 +1055,7 @@ class PartyType
      *  Party Legal Entity
      *  Party Legal Entity
      *
-     * @return \UBL\Common\CAC\PartyLegalEntity[]
+     * @return \App\UBL\Common\CAC\PartyLegalEntity[]
      */
     public function getPartyLegalEntity()
     {
@@ -1074,7 +1074,7 @@ class PartyType
      *  Party Legal Entity
      *  Party Legal Entity
      *
-     * @param \UBL\Common\CAC\PartyLegalEntity[] $partyLegalEntity
+     * @param \App\UBL\Common\CAC\PartyLegalEntity[] $partyLegalEntity
      * @return self
      */
     public function setPartyLegalEntity(?array $partyLegalEntity = null)
@@ -1095,7 +1095,7 @@ class PartyType
      *  Contact
      *  Contact
      *
-     * @return \UBL\Common\CAC\Contact
+     * @return \App\UBL\Common\CAC\Contact
      */
     public function getContact()
     {
@@ -1114,10 +1114,10 @@ class PartyType
      *  Contact
      *  Contact
      *
-     * @param \UBL\Common\CAC\Contact $contact
+     * @param \App\UBL\Common\CAC\Contact $contact
      * @return self
      */
-    public function setContact(?\UBL\Common\CAC\Contact $contact = null)
+    public function setContact(?\App\UBL\Common\CAC\Contact $contact = null)
     {
         $this->contact = $contact;
         return $this;
@@ -1136,9 +1136,9 @@ class PartyType
      *  Person
      *
      * @return self
-     * @param \UBL\Common\CAC\Person $person
+     * @param \App\UBL\Common\CAC\Person $person
      */
-    public function addToPerson(\UBL\Common\CAC\Person $person)
+    public function addToPerson(\App\UBL\Common\CAC\Person $person)
     {
         $this->person[] = $person;
         return $this;
@@ -1196,7 +1196,7 @@ class PartyType
      *  Person
      *  Person
      *
-     * @return \UBL\Common\CAC\Person[]
+     * @return \App\UBL\Common\CAC\Person[]
      */
     public function getPerson()
     {
@@ -1215,7 +1215,7 @@ class PartyType
      *  Person
      *  Person
      *
-     * @param \UBL\Common\CAC\Person[] $person
+     * @param \App\UBL\Common\CAC\Person[] $person
      * @return self
      */
     public function setPerson(?array $person = null)
@@ -1238,7 +1238,7 @@ class PartyType
      *  Party
      *  Customs Broker
      *
-     * @return \UBL\Common\CAC\AgentParty
+     * @return \App\UBL\Common\CAC\AgentParty
      */
     public function getAgentParty()
     {
@@ -1259,10 +1259,10 @@ class PartyType
      *  Party
      *  Customs Broker
      *
-     * @param \UBL\Common\CAC\AgentParty $agentParty
+     * @param \App\UBL\Common\CAC\AgentParty $agentParty
      * @return self
      */
-    public function setAgentParty(?\UBL\Common\CAC\AgentParty $agentParty = null)
+    public function setAgentParty(?\App\UBL\Common\CAC\AgentParty $agentParty = null)
     {
         $this->agentParty = $agentParty;
         return $this;
@@ -1281,9 +1281,9 @@ class PartyType
      *  Service Provider Party
      *
      * @return self
-     * @param \UBL\Common\CAC\ServiceProviderParty $serviceProviderParty
+     * @param \App\UBL\Common\CAC\ServiceProviderParty $serviceProviderParty
      */
-    public function addToServiceProviderParty(\UBL\Common\CAC\ServiceProviderParty $serviceProviderParty)
+    public function addToServiceProviderParty(\App\UBL\Common\CAC\ServiceProviderParty $serviceProviderParty)
     {
         $this->serviceProviderParty[] = $serviceProviderParty;
         return $this;
@@ -1341,7 +1341,7 @@ class PartyType
      *  Service Provider Party
      *  Service Provider Party
      *
-     * @return \UBL\Common\CAC\ServiceProviderParty[]
+     * @return \App\UBL\Common\CAC\ServiceProviderParty[]
      */
     public function getServiceProviderParty()
     {
@@ -1360,7 +1360,7 @@ class PartyType
      *  Service Provider Party
      *  Service Provider Party
      *
-     * @param \UBL\Common\CAC\ServiceProviderParty[] $serviceProviderParty
+     * @param \App\UBL\Common\CAC\ServiceProviderParty[] $serviceProviderParty
      * @return self
      */
     public function setServiceProviderParty(?array $serviceProviderParty = null)
@@ -1382,9 +1382,9 @@ class PartyType
      *  Power Of Attorney
      *
      * @return self
-     * @param \UBL\Common\CAC\PowerOfAttorney $powerOfAttorney
+     * @param \App\UBL\Common\CAC\PowerOfAttorney $powerOfAttorney
      */
-    public function addToPowerOfAttorney(\UBL\Common\CAC\PowerOfAttorney $powerOfAttorney)
+    public function addToPowerOfAttorney(\App\UBL\Common\CAC\PowerOfAttorney $powerOfAttorney)
     {
         $this->powerOfAttorney[] = $powerOfAttorney;
         return $this;
@@ -1442,7 +1442,7 @@ class PartyType
      *  Power Of Attorney
      *  Power Of Attorney
      *
-     * @return \UBL\Common\CAC\PowerOfAttorney[]
+     * @return \App\UBL\Common\CAC\PowerOfAttorney[]
      */
     public function getPowerOfAttorney()
     {
@@ -1461,7 +1461,7 @@ class PartyType
      *  Power Of Attorney
      *  Power Of Attorney
      *
-     * @param \UBL\Common\CAC\PowerOfAttorney[] $powerOfAttorney
+     * @param \App\UBL\Common\CAC\PowerOfAttorney[] $powerOfAttorney
      * @return self
      */
     public function setPowerOfAttorney(?array $powerOfAttorney = null)
@@ -1482,7 +1482,7 @@ class PartyType
      *  Financial Account
      *  Financial Account
      *
-     * @return \UBL\Common\CAC\FinancialAccount
+     * @return \App\UBL\Common\CAC\FinancialAccount
      */
     public function getFinancialAccount()
     {
@@ -1501,14 +1501,13 @@ class PartyType
      *  Financial Account
      *  Financial Account
      *
-     * @param \UBL\Common\CAC\FinancialAccount $financialAccount
+     * @param \App\UBL\Common\CAC\FinancialAccount $financialAccount
      * @return self
      */
-    public function setFinancialAccount(?\UBL\Common\CAC\FinancialAccount $financialAccount = null)
+    public function setFinancialAccount(?\App\UBL\Common\CAC\FinancialAccount $financialAccount = null)
     {
         $this->financialAccount = $financialAccount;
         return $this;
     }
 }
-
 

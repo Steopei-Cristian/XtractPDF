@@ -9,4 +9,3 @@ class TechnicalDocumentReference extends DocumentReferenceType
 {
 }
 
-

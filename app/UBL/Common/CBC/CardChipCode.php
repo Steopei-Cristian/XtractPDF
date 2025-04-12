@@ -9,4 +9,3 @@ class CardChipCode extends CardChipCodeType
 {
 }
 
-

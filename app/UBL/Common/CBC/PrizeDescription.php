@@ -9,4 +9,3 @@ class PrizeDescription extends PrizeDescriptionType
 {
 }
 
-

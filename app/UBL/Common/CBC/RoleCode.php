@@ -9,4 +9,3 @@ class RoleCode extends RoleCodeType
 {
 }
 
-

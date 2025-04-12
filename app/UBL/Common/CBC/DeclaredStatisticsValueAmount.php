@@ -9,4 +9,3 @@ class DeclaredStatisticsValueAmount extends DeclaredStatisticsValueAmountType
 {
 }
 
-

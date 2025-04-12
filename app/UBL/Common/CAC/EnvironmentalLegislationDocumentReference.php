@@ -9,4 +9,3 @@ class EnvironmentalLegislationDocumentReference extends DocumentReferenceType
 {
 }
 
-

@@ -23,7 +23,7 @@ class MiscellaneousEventType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\MiscellaneousEventTypeCode $miscellaneousEventTypeCode
+     * @var \App\UBL\Common\CBC\MiscellaneousEventTypeCode $miscellaneousEventTypeCode
      */
     private $miscellaneousEventTypeCode = null;
 
@@ -37,7 +37,7 @@ class MiscellaneousEventType
      *  Event Line Item
      *  Event Line Item
      *
-     * @var \UBL\Common\CAC\EventLineItem[] $eventLineItem
+     * @var \App\UBL\Common\CAC\EventLineItem[] $eventLineItem
      */
     private $eventLineItem = [
         
@@ -55,7 +55,7 @@ class MiscellaneousEventType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\MiscellaneousEventTypeCode
+     * @return \App\UBL\Common\CBC\MiscellaneousEventTypeCode
      */
     public function getMiscellaneousEventTypeCode()
     {
@@ -74,10 +74,10 @@ class MiscellaneousEventType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\MiscellaneousEventTypeCode $miscellaneousEventTypeCode
+     * @param \App\UBL\Common\CBC\MiscellaneousEventTypeCode $miscellaneousEventTypeCode
      * @return self
      */
-    public function setMiscellaneousEventTypeCode(\UBL\Common\CBC\MiscellaneousEventTypeCode $miscellaneousEventTypeCode)
+    public function setMiscellaneousEventTypeCode(\App\UBL\Common\CBC\MiscellaneousEventTypeCode $miscellaneousEventTypeCode)
     {
         $this->miscellaneousEventTypeCode = $miscellaneousEventTypeCode;
         return $this;
@@ -96,9 +96,9 @@ class MiscellaneousEventType
      *  Event Line Item
      *
      * @return self
-     * @param \UBL\Common\CAC\EventLineItem $eventLineItem
+     * @param \App\UBL\Common\CAC\EventLineItem $eventLineItem
      */
-    public function addToEventLineItem(\UBL\Common\CAC\EventLineItem $eventLineItem)
+    public function addToEventLineItem(\App\UBL\Common\CAC\EventLineItem $eventLineItem)
     {
         $this->eventLineItem[] = $eventLineItem;
         return $this;
@@ -156,7 +156,7 @@ class MiscellaneousEventType
      *  Event Line Item
      *  Event Line Item
      *
-     * @return \UBL\Common\CAC\EventLineItem[]
+     * @return \App\UBL\Common\CAC\EventLineItem[]
      */
     public function getEventLineItem()
     {
@@ -175,7 +175,7 @@ class MiscellaneousEventType
      *  Event Line Item
      *  Event Line Item
      *
-     * @param \UBL\Common\CAC\EventLineItem[] $eventLineItem
+     * @param \App\UBL\Common\CAC\EventLineItem[] $eventLineItem
      * @return self
      */
     public function setEventLineItem(array $eventLineItem)
@@ -184,5 +184,4 @@ class MiscellaneousEventType
         return $this;
     }
 }
-
 

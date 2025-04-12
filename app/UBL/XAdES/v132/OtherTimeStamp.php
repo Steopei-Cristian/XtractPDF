@@ -9,4 +9,3 @@ class OtherTimeStamp extends OtherTimeStampType
 {
 }
 
-

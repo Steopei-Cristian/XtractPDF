@@ -1,3 +1,3 @@
-UBL\Common\CBC\TechnicalName:
+App\UBL\Common\CBC\TechnicalName:
     xml_root_name: TechnicalName
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

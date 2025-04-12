@@ -9,4 +9,3 @@ class BirthplaceName extends BirthplaceNameType
 {
 }
 
-

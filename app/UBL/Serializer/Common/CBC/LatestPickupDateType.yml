@@ -1,4 +1,4 @@
-UBL\Common\CBC\LatestPickupDateType:
+App\UBL\Common\CBC\LatestPickupDateType:
     properties:
         __value:
             expose: true

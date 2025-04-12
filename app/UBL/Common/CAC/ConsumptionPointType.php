@@ -24,7 +24,7 @@ class ConsumptionPointType
      *  Identifier. Type
      *  7411013716x
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class ConsumptionPointType
      *  Text. Type
      *  Additional informations concerning the consumption point
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -56,7 +56,7 @@ class ConsumptionPointType
      *  Identifier. Type
      *  98143211
      *
-     * @var \UBL\Common\CBC\SubscriberID $subscriberID
+     * @var \App\UBL\Common\CBC\SubscriberID $subscriberID
      */
     private $subscriberID = null;
 
@@ -70,7 +70,7 @@ class ConsumptionPointType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\SubscriberType $subscriberType
+     * @var \App\UBL\Common\CBC\SubscriberType $subscriberType
      */
     private $subscriberType = null;
 
@@ -85,7 +85,7 @@ class ConsumptionPointType
      *  Code. Type
      *  APL
      *
-     * @var \UBL\Common\CBC\SubscriberTypeCode $subscriberTypeCode
+     * @var \App\UBL\Common\CBC\SubscriberTypeCode $subscriberTypeCode
      */
     private $subscriberTypeCode = null;
 
@@ -101,7 +101,7 @@ class ConsumptionPointType
      *  Quantity. Type
      *  5761.00
      *
-     * @var \UBL\Common\CBC\TotalDeliveredQuantity $totalDeliveredQuantity
+     * @var \App\UBL\Common\CBC\TotalDeliveredQuantity $totalDeliveredQuantity
      */
     private $totalDeliveredQuantity = null;
 
@@ -115,7 +115,7 @@ class ConsumptionPointType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\Address $address
+     * @var \App\UBL\Common\CAC\Address $address
      */
     private $address = null;
 
@@ -129,7 +129,7 @@ class ConsumptionPointType
      *  Web Site Access
      *  Web Site Access
      *
-     * @var \UBL\Common\CAC\WebSiteAccess $webSiteAccess
+     * @var \App\UBL\Common\CAC\WebSiteAccess $webSiteAccess
      */
     private $webSiteAccess = null;
 
@@ -144,7 +144,7 @@ class ConsumptionPointType
      *  Meter
      *  Meter
      *
-     * @var \UBL\Common\CAC\UtilityMeter[] $utilityMeter
+     * @var \App\UBL\Common\CAC\UtilityMeter[] $utilityMeter
      */
     private $utilityMeter = [
         
@@ -163,7 +163,7 @@ class ConsumptionPointType
      *  Identifier. Type
      *  7411013716x
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -183,10 +183,10 @@ class ConsumptionPointType
      *  Identifier. Type
      *  7411013716x
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -206,9 +206,9 @@ class ConsumptionPointType
      *  Additional informations concerning the consumption point
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -269,7 +269,7 @@ class ConsumptionPointType
      *  Text. Type
      *  Additional informations concerning the consumption point
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -289,7 +289,7 @@ class ConsumptionPointType
      *  Text. Type
      *  Additional informations concerning the consumption point
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -311,7 +311,7 @@ class ConsumptionPointType
      *  Identifier. Type
      *  98143211
      *
-     * @return \UBL\Common\CBC\SubscriberID
+     * @return \App\UBL\Common\CBC\SubscriberID
      */
     public function getSubscriberID()
     {
@@ -331,10 +331,10 @@ class ConsumptionPointType
      *  Identifier. Type
      *  98143211
      *
-     * @param \UBL\Common\CBC\SubscriberID $subscriberID
+     * @param \App\UBL\Common\CBC\SubscriberID $subscriberID
      * @return self
      */
-    public function setSubscriberID(?\UBL\Common\CBC\SubscriberID $subscriberID = null)
+    public function setSubscriberID(?\App\UBL\Common\CBC\SubscriberID $subscriberID = null)
     {
         $this->subscriberID = $subscriberID;
         return $this;
@@ -352,7 +352,7 @@ class ConsumptionPointType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\SubscriberType
+     * @return \App\UBL\Common\CBC\SubscriberType
      */
     public function getSubscriberType()
     {
@@ -371,10 +371,10 @@ class ConsumptionPointType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\SubscriberType $subscriberType
+     * @param \App\UBL\Common\CBC\SubscriberType $subscriberType
      * @return self
      */
-    public function setSubscriberType(?\UBL\Common\CBC\SubscriberType $subscriberType = null)
+    public function setSubscriberType(?\App\UBL\Common\CBC\SubscriberType $subscriberType = null)
     {
         $this->subscriberType = $subscriberType;
         return $this;
@@ -393,7 +393,7 @@ class ConsumptionPointType
      *  Code. Type
      *  APL
      *
-     * @return \UBL\Common\CBC\SubscriberTypeCode
+     * @return \App\UBL\Common\CBC\SubscriberTypeCode
      */
     public function getSubscriberTypeCode()
     {
@@ -413,10 +413,10 @@ class ConsumptionPointType
      *  Code. Type
      *  APL
      *
-     * @param \UBL\Common\CBC\SubscriberTypeCode $subscriberTypeCode
+     * @param \App\UBL\Common\CBC\SubscriberTypeCode $subscriberTypeCode
      * @return self
      */
-    public function setSubscriberTypeCode(?\UBL\Common\CBC\SubscriberTypeCode $subscriberTypeCode = null)
+    public function setSubscriberTypeCode(?\App\UBL\Common\CBC\SubscriberTypeCode $subscriberTypeCode = null)
     {
         $this->subscriberTypeCode = $subscriberTypeCode;
         return $this;
@@ -436,7 +436,7 @@ class ConsumptionPointType
      *  Quantity. Type
      *  5761.00
      *
-     * @return \UBL\Common\CBC\TotalDeliveredQuantity
+     * @return \App\UBL\Common\CBC\TotalDeliveredQuantity
      */
     public function getTotalDeliveredQuantity()
     {
@@ -457,10 +457,10 @@ class ConsumptionPointType
      *  Quantity. Type
      *  5761.00
      *
-     * @param \UBL\Common\CBC\TotalDeliveredQuantity $totalDeliveredQuantity
+     * @param \App\UBL\Common\CBC\TotalDeliveredQuantity $totalDeliveredQuantity
      * @return self
      */
-    public function setTotalDeliveredQuantity(?\UBL\Common\CBC\TotalDeliveredQuantity $totalDeliveredQuantity = null)
+    public function setTotalDeliveredQuantity(?\App\UBL\Common\CBC\TotalDeliveredQuantity $totalDeliveredQuantity = null)
     {
         $this->totalDeliveredQuantity = $totalDeliveredQuantity;
         return $this;
@@ -478,7 +478,7 @@ class ConsumptionPointType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\Address
+     * @return \App\UBL\Common\CAC\Address
      */
     public function getAddress()
     {
@@ -497,10 +497,10 @@ class ConsumptionPointType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\Address $address
+     * @param \App\UBL\Common\CAC\Address $address
      * @return self
      */
-    public function setAddress(?\UBL\Common\CAC\Address $address = null)
+    public function setAddress(?\App\UBL\Common\CAC\Address $address = null)
     {
         $this->address = $address;
         return $this;
@@ -518,7 +518,7 @@ class ConsumptionPointType
      *  Web Site Access
      *  Web Site Access
      *
-     * @return \UBL\Common\CAC\WebSiteAccess
+     * @return \App\UBL\Common\CAC\WebSiteAccess
      */
     public function getWebSiteAccess()
     {
@@ -537,10 +537,10 @@ class ConsumptionPointType
      *  Web Site Access
      *  Web Site Access
      *
-     * @param \UBL\Common\CAC\WebSiteAccess $webSiteAccess
+     * @param \App\UBL\Common\CAC\WebSiteAccess $webSiteAccess
      * @return self
      */
-    public function setWebSiteAccess(?\UBL\Common\CAC\WebSiteAccess $webSiteAccess = null)
+    public function setWebSiteAccess(?\App\UBL\Common\CAC\WebSiteAccess $webSiteAccess = null)
     {
         $this->webSiteAccess = $webSiteAccess;
         return $this;
@@ -560,9 +560,9 @@ class ConsumptionPointType
      *  Meter
      *
      * @return self
-     * @param \UBL\Common\CAC\UtilityMeter $utilityMeter
+     * @param \App\UBL\Common\CAC\UtilityMeter $utilityMeter
      */
-    public function addToUtilityMeter(\UBL\Common\CAC\UtilityMeter $utilityMeter)
+    public function addToUtilityMeter(\App\UBL\Common\CAC\UtilityMeter $utilityMeter)
     {
         $this->utilityMeter[] = $utilityMeter;
         return $this;
@@ -623,7 +623,7 @@ class ConsumptionPointType
      *  Meter
      *  Meter
      *
-     * @return \UBL\Common\CAC\UtilityMeter[]
+     * @return \App\UBL\Common\CAC\UtilityMeter[]
      */
     public function getUtilityMeter()
     {
@@ -643,7 +643,7 @@ class ConsumptionPointType
      *  Meter
      *  Meter
      *
-     * @param \UBL\Common\CAC\UtilityMeter[] $utilityMeter
+     * @param \App\UBL\Common\CAC\UtilityMeter[] $utilityMeter
      * @return self
      */
     public function setUtilityMeter(?array $utilityMeter = null)
@@ -652,5 +652,4 @@ class ConsumptionPointType
         return $this;
     }
 }
-
 

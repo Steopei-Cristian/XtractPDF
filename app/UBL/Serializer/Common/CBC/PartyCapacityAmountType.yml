@@ -1,2 +1,2 @@
-UBL\Common\CBC\PartyCapacityAmountType:
+App\UBL\Common\CBC\PartyCapacityAmountType:
     properties: {  }

@@ -24,7 +24,7 @@ class ContactType
      *  Identifier. Type
      *  Receivals Clerk
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class ContactType
      *  Name. Type
      *  Delivery Dock
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -53,7 +53,7 @@ class ContactType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Telephone $telephone
+     * @var \App\UBL\Common\CBC\Telephone $telephone
      */
     private $telephone = null;
 
@@ -67,7 +67,7 @@ class ContactType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Telefax $telefax
+     * @var \App\UBL\Common\CBC\Telefax $telefax
      */
     private $telefax = null;
 
@@ -82,7 +82,7 @@ class ContactType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ElectronicMail $electronicMail
+     * @var \App\UBL\Common\CBC\ElectronicMail $electronicMail
      */
     private $electronicMail = null;
 
@@ -96,7 +96,7 @@ class ContactType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -113,7 +113,7 @@ class ContactType
      *  Communication
      *  Communication
      *
-     * @var \UBL\Common\CAC\OtherCommunication[] $otherCommunication
+     * @var \App\UBL\Common\CAC\OtherCommunication[] $otherCommunication
      */
     private $otherCommunication = [
         
@@ -132,7 +132,7 @@ class ContactType
      *  Identifier. Type
      *  Receivals Clerk
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -152,10 +152,10 @@ class ContactType
      *  Identifier. Type
      *  Receivals Clerk
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -174,7 +174,7 @@ class ContactType
      *  Name. Type
      *  Delivery Dock
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -194,10 +194,10 @@ class ContactType
      *  Name. Type
      *  Delivery Dock
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -215,7 +215,7 @@ class ContactType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Telephone
+     * @return \App\UBL\Common\CBC\Telephone
      */
     public function getTelephone()
     {
@@ -234,10 +234,10 @@ class ContactType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Telephone $telephone
+     * @param \App\UBL\Common\CBC\Telephone $telephone
      * @return self
      */
-    public function setTelephone(?\UBL\Common\CBC\Telephone $telephone = null)
+    public function setTelephone(?\App\UBL\Common\CBC\Telephone $telephone = null)
     {
         $this->telephone = $telephone;
         return $this;
@@ -255,7 +255,7 @@ class ContactType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Telefax
+     * @return \App\UBL\Common\CBC\Telefax
      */
     public function getTelefax()
     {
@@ -274,10 +274,10 @@ class ContactType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Telefax $telefax
+     * @param \App\UBL\Common\CBC\Telefax $telefax
      * @return self
      */
-    public function setTelefax(?\UBL\Common\CBC\Telefax $telefax = null)
+    public function setTelefax(?\App\UBL\Common\CBC\Telefax $telefax = null)
     {
         $this->telefax = $telefax;
         return $this;
@@ -296,7 +296,7 @@ class ContactType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ElectronicMail
+     * @return \App\UBL\Common\CBC\ElectronicMail
      */
     public function getElectronicMail()
     {
@@ -316,10 +316,10 @@ class ContactType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ElectronicMail $electronicMail
+     * @param \App\UBL\Common\CBC\ElectronicMail $electronicMail
      * @return self
      */
-    public function setElectronicMail(?\UBL\Common\CBC\ElectronicMail $electronicMail = null)
+    public function setElectronicMail(?\App\UBL\Common\CBC\ElectronicMail $electronicMail = null)
     {
         $this->electronicMail = $electronicMail;
         return $this;
@@ -338,9 +338,9 @@ class ContactType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -398,7 +398,7 @@ class ContactType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -417,7 +417,7 @@ class ContactType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -440,9 +440,9 @@ class ContactType
      *  Communication
      *
      * @return self
-     * @param \UBL\Common\CAC\OtherCommunication $otherCommunication
+     * @param \App\UBL\Common\CAC\OtherCommunication $otherCommunication
      */
-    public function addToOtherCommunication(\UBL\Common\CAC\OtherCommunication $otherCommunication)
+    public function addToOtherCommunication(\App\UBL\Common\CAC\OtherCommunication $otherCommunication)
     {
         $this->otherCommunication[] = $otherCommunication;
         return $this;
@@ -503,7 +503,7 @@ class ContactType
      *  Communication
      *  Communication
      *
-     * @return \UBL\Common\CAC\OtherCommunication[]
+     * @return \App\UBL\Common\CAC\OtherCommunication[]
      */
     public function getOtherCommunication()
     {
@@ -523,7 +523,7 @@ class ContactType
      *  Communication
      *  Communication
      *
-     * @param \UBL\Common\CAC\OtherCommunication[] $otherCommunication
+     * @param \App\UBL\Common\CAC\OtherCommunication[] $otherCommunication
      * @return self
      */
     public function setOtherCommunication(?array $otherCommunication = null)
@@ -532,5 +532,4 @@ class ContactType
         return $this;
     }
 }
-
 

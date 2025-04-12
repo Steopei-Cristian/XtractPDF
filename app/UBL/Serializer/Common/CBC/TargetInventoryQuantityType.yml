@@ -1,2 +1,2 @@
-UBL\Common\CBC\TargetInventoryQuantityType:
+App\UBL\Common\CBC\TargetInventoryQuantityType:
     properties: {  }

@@ -9,4 +9,3 @@ class OrderableUnitFactorRate extends OrderableUnitFactorRateType
 {
 }
 
-

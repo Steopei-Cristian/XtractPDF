@@ -9,4 +9,3 @@ class AdditionalQualifyingParty extends QualifyingPartyType
 {
 }
 
-

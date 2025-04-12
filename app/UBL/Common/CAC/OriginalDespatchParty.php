@@ -9,4 +9,3 @@ class OriginalDespatchParty extends PartyType
 {
 }
 
-

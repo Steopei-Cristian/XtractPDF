@@ -9,4 +9,3 @@ class PreferenceCriterionCode extends PreferenceCriterionCodeType
 {
 }
 
-

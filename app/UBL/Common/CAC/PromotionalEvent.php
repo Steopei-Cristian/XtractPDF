@@ -9,4 +9,3 @@ class PromotionalEvent extends PromotionalEventType
 {
 }
 
-

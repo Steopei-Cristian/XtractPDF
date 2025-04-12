@@ -25,7 +25,7 @@ class TransportMeansType
      *  Identifier. Type
      *  Voyage Number, Scheduled Conveyance Identifier (WCO ID 205), Flight Number
      *
-     * @var \UBL\Common\CBC\JourneyID $journeyID
+     * @var \App\UBL\Common\CBC\JourneyID $journeyID
      */
     private $journeyID = null;
 
@@ -42,7 +42,7 @@ class TransportMeansType
      *  Nationality of Means of Transport (WCO 175, 178 and 179)
      *  LIB
      *
-     * @var \UBL\Common\CBC\RegistrationNationalityID $registrationNationalityID
+     * @var \App\UBL\Common\CBC\RegistrationNationalityID $registrationNationalityID
      */
     private $registrationNationalityID = null;
 
@@ -59,7 +59,7 @@ class TransportMeansType
      *  Flag of Vessel, Nationality of Ship
      *  Liberia
      *
-     * @var \UBL\Common\CBC\RegistrationNationality[] $registrationNationality
+     * @var \App\UBL\Common\CBC\RegistrationNationality[] $registrationNationality
      */
     private $registrationNationality = [
         
@@ -77,7 +77,7 @@ class TransportMeansType
      *  Transit Direction
      *  North , East
      *
-     * @var \UBL\Common\CBC\DirectionCode $directionCode
+     * @var \App\UBL\Common\CBC\DirectionCode $directionCode
      */
     private $directionCode = null;
 
@@ -91,7 +91,7 @@ class TransportMeansType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TransportMeansTypeCode $transportMeansTypeCode
+     * @var \App\UBL\Common\CBC\TransportMeansTypeCode $transportMeansTypeCode
      */
     private $transportMeansTypeCode = null;
 
@@ -105,7 +105,7 @@ class TransportMeansType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TradeServiceCode $tradeServiceCode
+     * @var \App\UBL\Common\CBC\TradeServiceCode $tradeServiceCode
      */
     private $tradeServiceCode = null;
 
@@ -119,7 +119,7 @@ class TransportMeansType
      *  Stowage
      *  Stowage
      *
-     * @var \UBL\Common\CAC\Stowage $stowage
+     * @var \App\UBL\Common\CAC\Stowage $stowage
      */
     private $stowage = null;
 
@@ -133,7 +133,7 @@ class TransportMeansType
      *  Air Transport
      *  Air Transport
      *
-     * @var \UBL\Common\CAC\AirTransport $airTransport
+     * @var \App\UBL\Common\CAC\AirTransport $airTransport
      */
     private $airTransport = null;
 
@@ -147,7 +147,7 @@ class TransportMeansType
      *  Road Transport
      *  Road Transport
      *
-     * @var \UBL\Common\CAC\RoadTransport $roadTransport
+     * @var \App\UBL\Common\CAC\RoadTransport $roadTransport
      */
     private $roadTransport = null;
 
@@ -161,7 +161,7 @@ class TransportMeansType
      *  Rail Transport
      *  Rail Transport
      *
-     * @var \UBL\Common\CAC\RailTransport $railTransport
+     * @var \App\UBL\Common\CAC\RailTransport $railTransport
      */
     private $railTransport = null;
 
@@ -175,7 +175,7 @@ class TransportMeansType
      *  Maritime Transport
      *  Maritime Transport
      *
-     * @var \UBL\Common\CAC\MaritimeTransport $maritimeTransport
+     * @var \App\UBL\Common\CAC\MaritimeTransport $maritimeTransport
      */
     private $maritimeTransport = null;
 
@@ -190,7 +190,7 @@ class TransportMeansType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\OwnerParty $ownerParty
+     * @var \App\UBL\Common\CAC\OwnerParty $ownerParty
      */
     private $ownerParty = null;
 
@@ -205,7 +205,7 @@ class TransportMeansType
      *  Dimension
      *  Dimension
      *
-     * @var \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @var \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      */
     private $measurementDimension = [
         
@@ -224,7 +224,7 @@ class TransportMeansType
      *  Identifier. Type
      *  Voyage Number, Scheduled Conveyance Identifier (WCO ID 205), Flight Number
      *
-     * @return \UBL\Common\CBC\JourneyID
+     * @return \App\UBL\Common\CBC\JourneyID
      */
     public function getJourneyID()
     {
@@ -244,10 +244,10 @@ class TransportMeansType
      *  Identifier. Type
      *  Voyage Number, Scheduled Conveyance Identifier (WCO ID 205), Flight Number
      *
-     * @param \UBL\Common\CBC\JourneyID $journeyID
+     * @param \App\UBL\Common\CBC\JourneyID $journeyID
      * @return self
      */
-    public function setJourneyID(?\UBL\Common\CBC\JourneyID $journeyID = null)
+    public function setJourneyID(?\App\UBL\Common\CBC\JourneyID $journeyID = null)
     {
         $this->journeyID = $journeyID;
         return $this;
@@ -268,7 +268,7 @@ class TransportMeansType
      *  Nationality of Means of Transport (WCO 175, 178 and 179)
      *  LIB
      *
-     * @return \UBL\Common\CBC\RegistrationNationalityID
+     * @return \App\UBL\Common\CBC\RegistrationNationalityID
      */
     public function getRegistrationNationalityID()
     {
@@ -290,10 +290,10 @@ class TransportMeansType
      *  Nationality of Means of Transport (WCO 175, 178 and 179)
      *  LIB
      *
-     * @param \UBL\Common\CBC\RegistrationNationalityID $registrationNationalityID
+     * @param \App\UBL\Common\CBC\RegistrationNationalityID $registrationNationalityID
      * @return self
      */
-    public function setRegistrationNationalityID(?\UBL\Common\CBC\RegistrationNationalityID $registrationNationalityID = null)
+    public function setRegistrationNationalityID(?\App\UBL\Common\CBC\RegistrationNationalityID $registrationNationalityID = null)
     {
         $this->registrationNationalityID = $registrationNationalityID;
         return $this;
@@ -315,9 +315,9 @@ class TransportMeansType
      *  Liberia
      *
      * @return self
-     * @param \UBL\Common\CBC\RegistrationNationality $registrationNationality
+     * @param \App\UBL\Common\CBC\RegistrationNationality $registrationNationality
      */
-    public function addToRegistrationNationality(\UBL\Common\CBC\RegistrationNationality $registrationNationality)
+    public function addToRegistrationNationality(\App\UBL\Common\CBC\RegistrationNationality $registrationNationality)
     {
         $this->registrationNationality[] = $registrationNationality;
         return $this;
@@ -384,7 +384,7 @@ class TransportMeansType
      *  Flag of Vessel, Nationality of Ship
      *  Liberia
      *
-     * @return \UBL\Common\CBC\RegistrationNationality[]
+     * @return \App\UBL\Common\CBC\RegistrationNationality[]
      */
     public function getRegistrationNationality()
     {
@@ -406,7 +406,7 @@ class TransportMeansType
      *  Flag of Vessel, Nationality of Ship
      *  Liberia
      *
-     * @param \UBL\Common\CBC\RegistrationNationality[] $registrationNationality
+     * @param \App\UBL\Common\CBC\RegistrationNationality[] $registrationNationality
      * @return self
      */
     public function setRegistrationNationality(?array $registrationNationality = null)
@@ -429,7 +429,7 @@ class TransportMeansType
      *  Transit Direction
      *  North , East
      *
-     * @return \UBL\Common\CBC\DirectionCode
+     * @return \App\UBL\Common\CBC\DirectionCode
      */
     public function getDirectionCode()
     {
@@ -450,10 +450,10 @@ class TransportMeansType
      *  Transit Direction
      *  North , East
      *
-     * @param \UBL\Common\CBC\DirectionCode $directionCode
+     * @param \App\UBL\Common\CBC\DirectionCode $directionCode
      * @return self
      */
-    public function setDirectionCode(?\UBL\Common\CBC\DirectionCode $directionCode = null)
+    public function setDirectionCode(?\App\UBL\Common\CBC\DirectionCode $directionCode = null)
     {
         $this->directionCode = $directionCode;
         return $this;
@@ -471,7 +471,7 @@ class TransportMeansType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TransportMeansTypeCode
+     * @return \App\UBL\Common\CBC\TransportMeansTypeCode
      */
     public function getTransportMeansTypeCode()
     {
@@ -490,10 +490,10 @@ class TransportMeansType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TransportMeansTypeCode $transportMeansTypeCode
+     * @param \App\UBL\Common\CBC\TransportMeansTypeCode $transportMeansTypeCode
      * @return self
      */
-    public function setTransportMeansTypeCode(?\UBL\Common\CBC\TransportMeansTypeCode $transportMeansTypeCode = null)
+    public function setTransportMeansTypeCode(?\App\UBL\Common\CBC\TransportMeansTypeCode $transportMeansTypeCode = null)
     {
         $this->transportMeansTypeCode = $transportMeansTypeCode;
         return $this;
@@ -511,7 +511,7 @@ class TransportMeansType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TradeServiceCode
+     * @return \App\UBL\Common\CBC\TradeServiceCode
      */
     public function getTradeServiceCode()
     {
@@ -530,10 +530,10 @@ class TransportMeansType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TradeServiceCode $tradeServiceCode
+     * @param \App\UBL\Common\CBC\TradeServiceCode $tradeServiceCode
      * @return self
      */
-    public function setTradeServiceCode(?\UBL\Common\CBC\TradeServiceCode $tradeServiceCode = null)
+    public function setTradeServiceCode(?\App\UBL\Common\CBC\TradeServiceCode $tradeServiceCode = null)
     {
         $this->tradeServiceCode = $tradeServiceCode;
         return $this;
@@ -551,7 +551,7 @@ class TransportMeansType
      *  Stowage
      *  Stowage
      *
-     * @return \UBL\Common\CAC\Stowage
+     * @return \App\UBL\Common\CAC\Stowage
      */
     public function getStowage()
     {
@@ -570,10 +570,10 @@ class TransportMeansType
      *  Stowage
      *  Stowage
      *
-     * @param \UBL\Common\CAC\Stowage $stowage
+     * @param \App\UBL\Common\CAC\Stowage $stowage
      * @return self
      */
-    public function setStowage(?\UBL\Common\CAC\Stowage $stowage = null)
+    public function setStowage(?\App\UBL\Common\CAC\Stowage $stowage = null)
     {
         $this->stowage = $stowage;
         return $this;
@@ -591,7 +591,7 @@ class TransportMeansType
      *  Air Transport
      *  Air Transport
      *
-     * @return \UBL\Common\CAC\AirTransport
+     * @return \App\UBL\Common\CAC\AirTransport
      */
     public function getAirTransport()
     {
@@ -610,10 +610,10 @@ class TransportMeansType
      *  Air Transport
      *  Air Transport
      *
-     * @param \UBL\Common\CAC\AirTransport $airTransport
+     * @param \App\UBL\Common\CAC\AirTransport $airTransport
      * @return self
      */
-    public function setAirTransport(?\UBL\Common\CAC\AirTransport $airTransport = null)
+    public function setAirTransport(?\App\UBL\Common\CAC\AirTransport $airTransport = null)
     {
         $this->airTransport = $airTransport;
         return $this;
@@ -631,7 +631,7 @@ class TransportMeansType
      *  Road Transport
      *  Road Transport
      *
-     * @return \UBL\Common\CAC\RoadTransport
+     * @return \App\UBL\Common\CAC\RoadTransport
      */
     public function getRoadTransport()
     {
@@ -650,10 +650,10 @@ class TransportMeansType
      *  Road Transport
      *  Road Transport
      *
-     * @param \UBL\Common\CAC\RoadTransport $roadTransport
+     * @param \App\UBL\Common\CAC\RoadTransport $roadTransport
      * @return self
      */
-    public function setRoadTransport(?\UBL\Common\CAC\RoadTransport $roadTransport = null)
+    public function setRoadTransport(?\App\UBL\Common\CAC\RoadTransport $roadTransport = null)
     {
         $this->roadTransport = $roadTransport;
         return $this;
@@ -671,7 +671,7 @@ class TransportMeansType
      *  Rail Transport
      *  Rail Transport
      *
-     * @return \UBL\Common\CAC\RailTransport
+     * @return \App\UBL\Common\CAC\RailTransport
      */
     public function getRailTransport()
     {
@@ -690,10 +690,10 @@ class TransportMeansType
      *  Rail Transport
      *  Rail Transport
      *
-     * @param \UBL\Common\CAC\RailTransport $railTransport
+     * @param \App\UBL\Common\CAC\RailTransport $railTransport
      * @return self
      */
-    public function setRailTransport(?\UBL\Common\CAC\RailTransport $railTransport = null)
+    public function setRailTransport(?\App\UBL\Common\CAC\RailTransport $railTransport = null)
     {
         $this->railTransport = $railTransport;
         return $this;
@@ -711,7 +711,7 @@ class TransportMeansType
      *  Maritime Transport
      *  Maritime Transport
      *
-     * @return \UBL\Common\CAC\MaritimeTransport
+     * @return \App\UBL\Common\CAC\MaritimeTransport
      */
     public function getMaritimeTransport()
     {
@@ -730,10 +730,10 @@ class TransportMeansType
      *  Maritime Transport
      *  Maritime Transport
      *
-     * @param \UBL\Common\CAC\MaritimeTransport $maritimeTransport
+     * @param \App\UBL\Common\CAC\MaritimeTransport $maritimeTransport
      * @return self
      */
-    public function setMaritimeTransport(?\UBL\Common\CAC\MaritimeTransport $maritimeTransport = null)
+    public function setMaritimeTransport(?\App\UBL\Common\CAC\MaritimeTransport $maritimeTransport = null)
     {
         $this->maritimeTransport = $maritimeTransport;
         return $this;
@@ -752,7 +752,7 @@ class TransportMeansType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\OwnerParty
+     * @return \App\UBL\Common\CAC\OwnerParty
      */
     public function getOwnerParty()
     {
@@ -772,10 +772,10 @@ class TransportMeansType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\OwnerParty $ownerParty
+     * @param \App\UBL\Common\CAC\OwnerParty $ownerParty
      * @return self
      */
-    public function setOwnerParty(?\UBL\Common\CAC\OwnerParty $ownerParty = null)
+    public function setOwnerParty(?\App\UBL\Common\CAC\OwnerParty $ownerParty = null)
     {
         $this->ownerParty = $ownerParty;
         return $this;
@@ -795,9 +795,9 @@ class TransportMeansType
      *  Dimension
      *
      * @return self
-     * @param \UBL\Common\CAC\MeasurementDimension $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension $measurementDimension
      */
-    public function addToMeasurementDimension(\UBL\Common\CAC\MeasurementDimension $measurementDimension)
+    public function addToMeasurementDimension(\App\UBL\Common\CAC\MeasurementDimension $measurementDimension)
     {
         $this->measurementDimension[] = $measurementDimension;
         return $this;
@@ -858,7 +858,7 @@ class TransportMeansType
      *  Dimension
      *  Dimension
      *
-     * @return \UBL\Common\CAC\MeasurementDimension[]
+     * @return \App\UBL\Common\CAC\MeasurementDimension[]
      */
     public function getMeasurementDimension()
     {
@@ -878,7 +878,7 @@ class TransportMeansType
      *  Dimension
      *  Dimension
      *
-     * @param \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      * @return self
      */
     public function setMeasurementDimension(?array $measurementDimension = null)
@@ -887,5 +887,4 @@ class TransportMeansType
         return $this;
     }
 }
-
 

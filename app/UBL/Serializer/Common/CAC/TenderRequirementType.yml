@@ -1,4 +1,4 @@
-UBL\Common\CAC\TenderRequirementType:
+App\UBL\Common\CAC\TenderRequirementType:
     properties:
         name:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TenderRequirementType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         description:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\TenderRequirementType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         templateDocumentReference:
             expose: true
             access_type: public_method
@@ -33,4 +33,4 @@ UBL\Common\CAC\TenderRequirementType:
             accessor:
                 getter: getTemplateDocumentReference
                 setter: setTemplateDocumentReference
-            type: UBL\Common\CAC\TemplateDocumentReference
+            type: App\UBL\Common\CAC\TemplateDocumentReference

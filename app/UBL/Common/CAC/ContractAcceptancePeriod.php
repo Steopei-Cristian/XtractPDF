@@ -9,4 +9,3 @@ class ContractAcceptancePeriod extends PeriodType
 {
 }
 
-

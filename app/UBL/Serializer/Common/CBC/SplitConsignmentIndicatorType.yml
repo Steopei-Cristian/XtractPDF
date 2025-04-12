@@ -1,4 +1,4 @@
-UBL\Common\CBC\SplitConsignmentIndicatorType:
+App\UBL\Common\CBC\SplitConsignmentIndicatorType:
     properties:
         __value:
             expose: true

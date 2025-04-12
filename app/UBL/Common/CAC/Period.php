@@ -9,4 +9,3 @@ class Period extends PeriodType
 {
 }
 
-

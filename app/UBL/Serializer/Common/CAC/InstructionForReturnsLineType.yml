@@ -1,4 +1,4 @@
-UBL\Common\CAC\InstructionForReturnsLineType:
+App\UBL\Common\CAC\InstructionForReturnsLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\InstructionForReturnsLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         note:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\InstructionForReturnsLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         quantity:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\InstructionForReturnsLineType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         manufacturerParty:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\InstructionForReturnsLineType:
             accessor:
                 getter: getManufacturerParty
                 setter: setManufacturerParty
-            type: UBL\Common\CAC\ManufacturerParty
+            type: App\UBL\Common\CAC\ManufacturerParty
         item:
             expose: true
             access_type: public_method
@@ -53,4 +53,4 @@ UBL\Common\CAC\InstructionForReturnsLineType:
             accessor:
                 getter: getItem
                 setter: setItem
-            type: UBL\Common\CAC\Item
+            type: App\UBL\Common\CAC\Item

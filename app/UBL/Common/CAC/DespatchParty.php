@@ -9,4 +9,3 @@ class DespatchParty extends PartyType
 {
 }
 
-

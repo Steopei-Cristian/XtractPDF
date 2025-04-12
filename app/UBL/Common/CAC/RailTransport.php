@@ -9,4 +9,3 @@ class RailTransport extends RailTransportType
 {
 }
 
-

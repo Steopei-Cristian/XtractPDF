@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\RateType as RateTypeBase;
+use App\UBL\Unqualified\RateType as RateTypeBase;
 
 /**
  * Class representing RateType
@@ -13,5 +13,4 @@ use UBL\Unqualified\RateType as RateTypeBase;
 class RateType extends RateTypeBase
 {
 }
-
 

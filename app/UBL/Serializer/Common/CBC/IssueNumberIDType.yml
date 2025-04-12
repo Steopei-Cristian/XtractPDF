@@ -1,2 +1,2 @@
-UBL\Common\CBC\IssueNumberIDType:
+App\UBL\Common\CBC\IssueNumberIDType:
     properties: {  }

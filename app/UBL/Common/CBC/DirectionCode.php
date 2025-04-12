@@ -9,4 +9,3 @@ class DirectionCode extends DirectionCodeType
 {
 }
 
-

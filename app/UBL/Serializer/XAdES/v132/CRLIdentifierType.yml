@@ -1,4 +1,4 @@
-UBL\XAdES\v132\CRLIdentifierType:
+App\UBL\XAdES\v132\CRLIdentifierType:
     properties:
         uRI:
             expose: true

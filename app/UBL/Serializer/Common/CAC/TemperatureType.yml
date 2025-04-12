@@ -1,4 +1,4 @@
-UBL\Common\CAC\TemperatureType:
+App\UBL\Common\CAC\TemperatureType:
     properties:
         attributeID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TemperatureType:
             accessor:
                 getter: getAttributeID
                 setter: setAttributeID
-            type: UBL\Common\CBC\AttributeID
+            type: App\UBL\Common\CBC\AttributeID
         measure:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TemperatureType:
             accessor:
                 getter: getMeasure
                 setter: setMeasure
-            type: UBL\Common\CBC\Measure
+            type: App\UBL\Common\CBC\Measure
         description:
             expose: true
             access_type: public_method
@@ -33,4 +33,4 @@ UBL\Common\CAC\TemperatureType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>

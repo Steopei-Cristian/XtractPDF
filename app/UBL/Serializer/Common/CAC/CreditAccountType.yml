@@ -1,4 +1,4 @@
-UBL\Common\CAC\CreditAccountType:
+App\UBL\Common\CAC\CreditAccountType:
     properties:
         accountID:
             expose: true
@@ -9,4 +9,4 @@ UBL\Common\CAC\CreditAccountType:
             accessor:
                 getter: getAccountID
                 setter: setAccountID
-            type: UBL\Common\CBC\AccountID
+            type: App\UBL\Common\CBC\AccountID

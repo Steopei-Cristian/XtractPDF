@@ -1,4 +1,4 @@
-UBL\Common\CBC\OtherConditionsIndicatorType:
+App\UBL\Common\CBC\OtherConditionsIndicatorType:
     properties:
         __value:
             expose: true

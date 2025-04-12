@@ -1,4 +1,4 @@
-UBL\Common\CBC\PaidDateType:
+App\UBL\Common\CBC\PaidDateType:
     properties:
         __value:
             expose: true

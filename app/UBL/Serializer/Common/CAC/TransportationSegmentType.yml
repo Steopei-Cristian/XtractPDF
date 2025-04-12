@@ -1,4 +1,4 @@
-UBL\Common\CAC\TransportationSegmentType:
+App\UBL\Common\CAC\TransportationSegmentType:
     properties:
         sequenceNumeric:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TransportationSegmentType:
             accessor:
                 getter: getSequenceNumeric
                 setter: setSequenceNumeric
-            type: UBL\Common\CBC\SequenceNumeric
+            type: App\UBL\Common\CBC\SequenceNumeric
         transportExecutionPlanReferenceID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TransportationSegmentType:
             accessor:
                 getter: getTransportExecutionPlanReferenceID
                 setter: setTransportExecutionPlanReferenceID
-            type: UBL\Common\CBC\TransportExecutionPlanReferenceID
+            type: App\UBL\Common\CBC\TransportExecutionPlanReferenceID
         transportationService:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\TransportationSegmentType:
             accessor:
                 getter: getTransportationService
                 setter: setTransportationService
-            type: UBL\Common\CAC\TransportationService
+            type: App\UBL\Common\CAC\TransportationService
         transportServiceProviderParty:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\TransportationSegmentType:
             accessor:
                 getter: getTransportServiceProviderParty
                 setter: setTransportServiceProviderParty
-            type: UBL\Common\CAC\TransportServiceProviderParty
+            type: App\UBL\Common\CAC\TransportServiceProviderParty
         referencedConsignment:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\TransportationSegmentType:
             accessor:
                 getter: getReferencedConsignment
                 setter: setReferencedConsignment
-            type: UBL\Common\CAC\ReferencedConsignment
+            type: App\UBL\Common\CAC\ReferencedConsignment
         shipmentStage:
             expose: true
             access_type: public_method
@@ -63,4 +63,4 @@ UBL\Common\CAC\TransportationSegmentType:
                 inline: true
                 entry_name: ShipmentStage
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ShipmentStage>
+            type: array<App\UBL\Common\CAC\ShipmentStage>

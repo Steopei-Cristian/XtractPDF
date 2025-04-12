@@ -1,4 +1,4 @@
-UBL\Common\CBC\TaxPointDate:
+App\UBL\Common\CBC\TaxPointDate:
     xml_root_name: TaxPointDate
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

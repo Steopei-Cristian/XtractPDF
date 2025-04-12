@@ -1,4 +1,4 @@
-UBL\Common\CAC\OrderLineType:
+App\UBL\Common\CAC\OrderLineType:
     properties:
         substitutionStatusCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\OrderLineType:
             accessor:
                 getter: getSubstitutionStatusCode
                 setter: setSubstitutionStatusCode
-            type: UBL\Common\CBC\SubstitutionStatusCode
+            type: App\UBL\Common\CBC\SubstitutionStatusCode
         note:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\OrderLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         lineItem:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\OrderLineType:
             accessor:
                 getter: getLineItem
                 setter: setLineItem
-            type: UBL\Common\CAC\LineItem
+            type: App\UBL\Common\CAC\LineItem
         sellerProposedSubstituteLineItem:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ UBL\Common\CAC\OrderLineType:
                 inline: true
                 entry_name: SellerProposedSubstituteLineItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SellerProposedSubstituteLineItem>
+            type: array<App\UBL\Common\CAC\SellerProposedSubstituteLineItem>
         sellerSubstitutedLineItem:
             expose: true
             access_type: public_method
@@ -61,7 +61,7 @@ UBL\Common\CAC\OrderLineType:
                 inline: true
                 entry_name: SellerSubstitutedLineItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SellerSubstitutedLineItem>
+            type: array<App\UBL\Common\CAC\SellerSubstitutedLineItem>
         buyerProposedSubstituteLineItem:
             expose: true
             access_type: public_method
@@ -75,7 +75,7 @@ UBL\Common\CAC\OrderLineType:
                 inline: true
                 entry_name: BuyerProposedSubstituteLineItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\BuyerProposedSubstituteLineItem>
+            type: array<App\UBL\Common\CAC\BuyerProposedSubstituteLineItem>
         catalogueLineReference:
             expose: true
             access_type: public_method
@@ -85,7 +85,7 @@ UBL\Common\CAC\OrderLineType:
             accessor:
                 getter: getCatalogueLineReference
                 setter: setCatalogueLineReference
-            type: UBL\Common\CAC\CatalogueLineReference
+            type: App\UBL\Common\CAC\CatalogueLineReference
         quotationLineReference:
             expose: true
             access_type: public_method
@@ -95,7 +95,7 @@ UBL\Common\CAC\OrderLineType:
             accessor:
                 getter: getQuotationLineReference
                 setter: setQuotationLineReference
-            type: UBL\Common\CAC\QuotationLineReference
+            type: App\UBL\Common\CAC\QuotationLineReference
         orderLineReference:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ UBL\Common\CAC\OrderLineType:
                 inline: true
                 entry_name: OrderLineReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\OrderLineReference>
+            type: array<App\UBL\Common\CAC\OrderLineReference>
         documentReference:
             expose: true
             access_type: public_method
@@ -123,4 +123,4 @@ UBL\Common\CAC\OrderLineType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>

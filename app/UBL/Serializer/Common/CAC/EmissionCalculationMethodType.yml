@@ -1,4 +1,4 @@
-UBL\Common\CAC\EmissionCalculationMethodType:
+App\UBL\Common\CAC\EmissionCalculationMethodType:
     properties:
         calculationMethodCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\EmissionCalculationMethodType:
             accessor:
                 getter: getCalculationMethodCode
                 setter: setCalculationMethodCode
-            type: UBL\Common\CBC\CalculationMethodCode
+            type: App\UBL\Common\CBC\CalculationMethodCode
         fullnessIndicationCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\EmissionCalculationMethodType:
             accessor:
                 getter: getFullnessIndicationCode
                 setter: setFullnessIndicationCode
-            type: UBL\Common\CBC\FullnessIndicationCode
+            type: App\UBL\Common\CBC\FullnessIndicationCode
         measurementFromLocation:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\EmissionCalculationMethodType:
             accessor:
                 getter: getMeasurementFromLocation
                 setter: setMeasurementFromLocation
-            type: UBL\Common\CAC\MeasurementFromLocation
+            type: App\UBL\Common\CAC\MeasurementFromLocation
         measurementToLocation:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ UBL\Common\CAC\EmissionCalculationMethodType:
             accessor:
                 getter: getMeasurementToLocation
                 setter: setMeasurementToLocation
-            type: UBL\Common\CAC\MeasurementToLocation
+            type: App\UBL\Common\CAC\MeasurementToLocation

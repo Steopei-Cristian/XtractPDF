@@ -1,4 +1,4 @@
-UBL\Common\CAC\LineItemType:
+App\UBL\Common\CAC\LineItemType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         salesOrderID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getSalesOrderID
                 setter: setSalesOrderID
-            type: UBL\Common\CBC\SalesOrderID
+            type: App\UBL\Common\CBC\SalesOrderID
         uUID:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         note:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\LineItemType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         lineStatusCode:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getLineStatusCode
                 setter: setLineStatusCode
-            type: UBL\Common\CBC\LineStatusCode
+            type: App\UBL\Common\CBC\LineStatusCode
         quantity:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         lineExtensionAmount:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getLineExtensionAmount
                 setter: setLineExtensionAmount
-            type: UBL\Common\CBC\LineExtensionAmount
+            type: App\UBL\Common\CBC\LineExtensionAmount
         totalTaxAmount:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getTotalTaxAmount
                 setter: setTotalTaxAmount
-            type: UBL\Common\CBC\TotalTaxAmount
+            type: App\UBL\Common\CBC\TotalTaxAmount
         minimumQuantity:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getMinimumQuantity
                 setter: setMinimumQuantity
-            type: UBL\Common\CBC\MinimumQuantity
+            type: App\UBL\Common\CBC\MinimumQuantity
         maximumQuantity:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getMaximumQuantity
                 setter: setMaximumQuantity
-            type: UBL\Common\CBC\MaximumQuantity
+            type: App\UBL\Common\CBC\MaximumQuantity
         minimumBackorderQuantity:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getMinimumBackorderQuantity
                 setter: setMinimumBackorderQuantity
-            type: UBL\Common\CBC\MinimumBackorderQuantity
+            type: App\UBL\Common\CBC\MinimumBackorderQuantity
         maximumBackorderQuantity:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getMaximumBackorderQuantity
                 setter: setMaximumBackorderQuantity
-            type: UBL\Common\CBC\MaximumBackorderQuantity
+            type: App\UBL\Common\CBC\MaximumBackorderQuantity
         inspectionMethodCode:
             expose: true
             access_type: public_method
@@ -133,7 +133,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getInspectionMethodCode
                 setter: setInspectionMethodCode
-            type: UBL\Common\CBC\InspectionMethodCode
+            type: App\UBL\Common\CBC\InspectionMethodCode
         partialDeliveryIndicator:
             expose: true
             access_type: public_method
@@ -163,7 +163,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getAccountingCostCode
                 setter: setAccountingCostCode
-            type: UBL\Common\CBC\AccountingCostCode
+            type: App\UBL\Common\CBC\AccountingCostCode
         accountingCost:
             expose: true
             access_type: public_method
@@ -173,7 +173,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getAccountingCost
                 setter: setAccountingCost
-            type: UBL\Common\CBC\AccountingCost
+            type: App\UBL\Common\CBC\AccountingCost
         warrantyInformation:
             expose: true
             access_type: public_method
@@ -187,7 +187,7 @@ UBL\Common\CAC\LineItemType:
                 inline: true
                 entry_name: WarrantyInformation
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\WarrantyInformation>
+            type: array<App\UBL\Common\CBC\WarrantyInformation>
         delivery:
             expose: true
             access_type: public_method
@@ -201,7 +201,7 @@ UBL\Common\CAC\LineItemType:
                 inline: true
                 entry_name: Delivery
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Delivery>
+            type: array<App\UBL\Common\CAC\Delivery>
         deliveryTerms:
             expose: true
             access_type: public_method
@@ -211,7 +211,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getDeliveryTerms
                 setter: setDeliveryTerms
-            type: UBL\Common\CAC\DeliveryTerms
+            type: App\UBL\Common\CAC\DeliveryTerms
         originatorParty:
             expose: true
             access_type: public_method
@@ -221,7 +221,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getOriginatorParty
                 setter: setOriginatorParty
-            type: UBL\Common\CAC\OriginatorParty
+            type: App\UBL\Common\CAC\OriginatorParty
         orderedShipment:
             expose: true
             access_type: public_method
@@ -235,7 +235,7 @@ UBL\Common\CAC\LineItemType:
                 inline: true
                 entry_name: OrderedShipment
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\OrderedShipment>
+            type: array<App\UBL\Common\CAC\OrderedShipment>
         pricingReference:
             expose: true
             access_type: public_method
@@ -245,7 +245,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getPricingReference
                 setter: setPricingReference
-            type: UBL\Common\CAC\PricingReference
+            type: App\UBL\Common\CAC\PricingReference
         allowanceCharge:
             expose: true
             access_type: public_method
@@ -259,7 +259,7 @@ UBL\Common\CAC\LineItemType:
                 inline: true
                 entry_name: AllowanceCharge
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AllowanceCharge>
+            type: array<App\UBL\Common\CAC\AllowanceCharge>
         price:
             expose: true
             access_type: public_method
@@ -269,7 +269,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getPrice
                 setter: setPrice
-            type: UBL\Common\CAC\Price
+            type: App\UBL\Common\CAC\Price
         item:
             expose: true
             access_type: public_method
@@ -279,7 +279,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getItem
                 setter: setItem
-            type: UBL\Common\CAC\Item
+            type: App\UBL\Common\CAC\Item
         subLineItem:
             expose: true
             access_type: public_method
@@ -293,7 +293,7 @@ UBL\Common\CAC\LineItemType:
                 inline: true
                 entry_name: SubLineItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SubLineItem>
+            type: array<App\UBL\Common\CAC\SubLineItem>
         warrantyValidityPeriod:
             expose: true
             access_type: public_method
@@ -303,7 +303,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getWarrantyValidityPeriod
                 setter: setWarrantyValidityPeriod
-            type: UBL\Common\CAC\WarrantyValidityPeriod
+            type: App\UBL\Common\CAC\WarrantyValidityPeriod
         warrantyParty:
             expose: true
             access_type: public_method
@@ -313,7 +313,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getWarrantyParty
                 setter: setWarrantyParty
-            type: UBL\Common\CAC\WarrantyParty
+            type: App\UBL\Common\CAC\WarrantyParty
         taxTotal:
             expose: true
             access_type: public_method
@@ -327,7 +327,7 @@ UBL\Common\CAC\LineItemType:
                 inline: true
                 entry_name: TaxTotal
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TaxTotal>
+            type: array<App\UBL\Common\CAC\TaxTotal>
         itemPriceExtension:
             expose: true
             access_type: public_method
@@ -337,7 +337,7 @@ UBL\Common\CAC\LineItemType:
             accessor:
                 getter: getItemPriceExtension
                 setter: setItemPriceExtension
-            type: UBL\Common\CAC\ItemPriceExtension
+            type: App\UBL\Common\CAC\ItemPriceExtension
         lineReference:
             expose: true
             access_type: public_method
@@ -351,4 +351,4 @@ UBL\Common\CAC\LineItemType:
                 inline: true
                 entry_name: LineReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\LineReference>
+            type: array<App\UBL\Common\CAC\LineReference>

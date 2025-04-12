@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class CertIDListType
 {
     /**
-     * @var \UBL\XAdES\v132\CertIDType[] $cert
+     * @var \App\UBL\XAdES\v132\CertIDType[] $cert
      */
     private $cert = [
         
@@ -21,9 +21,9 @@ class CertIDListType
      * Adds as cert
      *
      * @return self
-     * @param \UBL\XAdES\v132\CertIDType $cert
+     * @param \App\UBL\XAdES\v132\CertIDType $cert
      */
-    public function addToCert(\UBL\XAdES\v132\CertIDType $cert)
+    public function addToCert(\App\UBL\XAdES\v132\CertIDType $cert)
     {
         $this->cert[] = $cert;
         return $this;
@@ -54,7 +54,7 @@ class CertIDListType
     /**
      * Gets as cert
      *
-     * @return \UBL\XAdES\v132\CertIDType[]
+     * @return \App\UBL\XAdES\v132\CertIDType[]
      */
     public function getCert()
     {
@@ -64,7 +64,7 @@ class CertIDListType
     /**
      * Sets a new cert
      *
-     * @param \UBL\XAdES\v132\CertIDType[] $cert
+     * @param \App\UBL\XAdES\v132\CertIDType[] $cert
      * @return self
      */
     public function setCert(array $cert)
@@ -73,5 +73,4 @@ class CertIDListType
         return $this;
     }
 }
-
 

@@ -1,4 +1,4 @@
-UBL\Common\CAC\WorkPhaseReferenceType:
+App\UBL\Common\CAC\WorkPhaseReferenceType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\WorkPhaseReferenceType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         workPhaseCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\WorkPhaseReferenceType:
             accessor:
                 getter: getWorkPhaseCode
                 setter: setWorkPhaseCode
-            type: UBL\Common\CBC\WorkPhaseCode
+            type: App\UBL\Common\CBC\WorkPhaseCode
         workPhase:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\WorkPhaseReferenceType:
                 inline: true
                 entry_name: WorkPhase
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\WorkPhase>
+            type: array<App\UBL\Common\CBC\WorkPhase>
         progressPercent:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\WorkPhaseReferenceType:
             accessor:
                 getter: getProgressPercent
                 setter: setProgressPercent
-            type: UBL\Common\CBC\ProgressPercent
+            type: App\UBL\Common\CBC\ProgressPercent
         startDate:
             expose: true
             access_type: public_method
@@ -77,4 +77,4 @@ UBL\Common\CAC\WorkPhaseReferenceType:
                 inline: true
                 entry_name: WorkOrderDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\WorkOrderDocumentReference>
+            type: array<App\UBL\Common\CAC\WorkOrderDocumentReference>

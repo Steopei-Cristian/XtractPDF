@@ -1,4 +1,4 @@
-UBL\Common\CBC\AvailabilityDateType:
+App\UBL\Common\CBC\AvailabilityDateType:
     properties:
         __value:
             expose: true

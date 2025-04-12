@@ -9,4 +9,3 @@ class ShipsSurgeonPerson extends PersonType
 {
 }
 
-

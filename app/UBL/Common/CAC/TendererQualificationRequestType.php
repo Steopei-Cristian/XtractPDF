@@ -23,7 +23,7 @@ class TendererQualificationRequestType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\CompanyLegalFormCode $companyLegalFormCode
+     * @var \App\UBL\Common\CBC\CompanyLegalFormCode $companyLegalFormCode
      */
     private $companyLegalFormCode = null;
 
@@ -37,7 +37,7 @@ class TendererQualificationRequestType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\CompanyLegalForm $companyLegalForm
+     * @var \App\UBL\Common\CBC\CompanyLegalForm $companyLegalForm
      */
     private $companyLegalForm = null;
 
@@ -51,7 +51,7 @@ class TendererQualificationRequestType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\PersonalSituation[] $personalSituation
+     * @var \App\UBL\Common\CBC\PersonalSituation[] $personalSituation
      */
     private $personalSituation = [
         
@@ -67,7 +67,7 @@ class TendererQualificationRequestType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\OperatingYearsQuantity $operatingYearsQuantity
+     * @var \App\UBL\Common\CBC\OperatingYearsQuantity $operatingYearsQuantity
      */
     private $operatingYearsQuantity = null;
 
@@ -81,7 +81,7 @@ class TendererQualificationRequestType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\EmployeeQuantity $employeeQuantity
+     * @var \App\UBL\Common\CBC\EmployeeQuantity $employeeQuantity
      */
     private $employeeQuantity = null;
 
@@ -95,7 +95,7 @@ class TendererQualificationRequestType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -112,7 +112,7 @@ class TendererQualificationRequestType
      *  Classification Scheme
      *  Classification Scheme
      *
-     * @var \UBL\Common\CAC\RequiredBusinessClassificationScheme[] $requiredBusinessClassificationScheme
+     * @var \App\UBL\Common\CAC\RequiredBusinessClassificationScheme[] $requiredBusinessClassificationScheme
      */
     private $requiredBusinessClassificationScheme = [
         
@@ -129,7 +129,7 @@ class TendererQualificationRequestType
      *  Evaluation Criterion
      *  Evaluation Criterion
      *
-     * @var \UBL\Common\CAC\TechnicalEvaluationCriterion[] $technicalEvaluationCriterion
+     * @var \App\UBL\Common\CAC\TechnicalEvaluationCriterion[] $technicalEvaluationCriterion
      */
     private $technicalEvaluationCriterion = [
         
@@ -146,7 +146,7 @@ class TendererQualificationRequestType
      *  Evaluation Criterion
      *  Evaluation Criterion
      *
-     * @var \UBL\Common\CAC\FinancialEvaluationCriterion[] $financialEvaluationCriterion
+     * @var \App\UBL\Common\CAC\FinancialEvaluationCriterion[] $financialEvaluationCriterion
      */
     private $financialEvaluationCriterion = [
         
@@ -164,7 +164,7 @@ class TendererQualificationRequestType
      *  Tenderer Requirement
      *  Preregistration in a Business Registry
      *
-     * @var \UBL\Common\CAC\SpecificTendererRequirement[] $specificTendererRequirement
+     * @var \App\UBL\Common\CAC\SpecificTendererRequirement[] $specificTendererRequirement
      */
     private $specificTendererRequirement = [
         
@@ -180,7 +180,7 @@ class TendererQualificationRequestType
      *  Economic Operator Role
      *  Economic Operator Role
      *
-     * @var \UBL\Common\CAC\EconomicOperatorRole[] $economicOperatorRole
+     * @var \App\UBL\Common\CAC\EconomicOperatorRole[] $economicOperatorRole
      */
     private $economicOperatorRole = [
         
@@ -198,7 +198,7 @@ class TendererQualificationRequestType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\CompanyLegalFormCode
+     * @return \App\UBL\Common\CBC\CompanyLegalFormCode
      */
     public function getCompanyLegalFormCode()
     {
@@ -217,10 +217,10 @@ class TendererQualificationRequestType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\CompanyLegalFormCode $companyLegalFormCode
+     * @param \App\UBL\Common\CBC\CompanyLegalFormCode $companyLegalFormCode
      * @return self
      */
-    public function setCompanyLegalFormCode(?\UBL\Common\CBC\CompanyLegalFormCode $companyLegalFormCode = null)
+    public function setCompanyLegalFormCode(?\App\UBL\Common\CBC\CompanyLegalFormCode $companyLegalFormCode = null)
     {
         $this->companyLegalFormCode = $companyLegalFormCode;
         return $this;
@@ -238,7 +238,7 @@ class TendererQualificationRequestType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\CompanyLegalForm
+     * @return \App\UBL\Common\CBC\CompanyLegalForm
      */
     public function getCompanyLegalForm()
     {
@@ -257,10 +257,10 @@ class TendererQualificationRequestType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\CompanyLegalForm $companyLegalForm
+     * @param \App\UBL\Common\CBC\CompanyLegalForm $companyLegalForm
      * @return self
      */
-    public function setCompanyLegalForm(?\UBL\Common\CBC\CompanyLegalForm $companyLegalForm = null)
+    public function setCompanyLegalForm(?\App\UBL\Common\CBC\CompanyLegalForm $companyLegalForm = null)
     {
         $this->companyLegalForm = $companyLegalForm;
         return $this;
@@ -279,9 +279,9 @@ class TendererQualificationRequestType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\PersonalSituation $personalSituation
+     * @param \App\UBL\Common\CBC\PersonalSituation $personalSituation
      */
-    public function addToPersonalSituation(\UBL\Common\CBC\PersonalSituation $personalSituation)
+    public function addToPersonalSituation(\App\UBL\Common\CBC\PersonalSituation $personalSituation)
     {
         $this->personalSituation[] = $personalSituation;
         return $this;
@@ -339,7 +339,7 @@ class TendererQualificationRequestType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\PersonalSituation[]
+     * @return \App\UBL\Common\CBC\PersonalSituation[]
      */
     public function getPersonalSituation()
     {
@@ -358,7 +358,7 @@ class TendererQualificationRequestType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\PersonalSituation[] $personalSituation
+     * @param \App\UBL\Common\CBC\PersonalSituation[] $personalSituation
      * @return self
      */
     public function setPersonalSituation(?array $personalSituation = null)
@@ -379,7 +379,7 @@ class TendererQualificationRequestType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\OperatingYearsQuantity
+     * @return \App\UBL\Common\CBC\OperatingYearsQuantity
      */
     public function getOperatingYearsQuantity()
     {
@@ -398,10 +398,10 @@ class TendererQualificationRequestType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\OperatingYearsQuantity $operatingYearsQuantity
+     * @param \App\UBL\Common\CBC\OperatingYearsQuantity $operatingYearsQuantity
      * @return self
      */
-    public function setOperatingYearsQuantity(?\UBL\Common\CBC\OperatingYearsQuantity $operatingYearsQuantity = null)
+    public function setOperatingYearsQuantity(?\App\UBL\Common\CBC\OperatingYearsQuantity $operatingYearsQuantity = null)
     {
         $this->operatingYearsQuantity = $operatingYearsQuantity;
         return $this;
@@ -419,7 +419,7 @@ class TendererQualificationRequestType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\EmployeeQuantity
+     * @return \App\UBL\Common\CBC\EmployeeQuantity
      */
     public function getEmployeeQuantity()
     {
@@ -438,10 +438,10 @@ class TendererQualificationRequestType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\EmployeeQuantity $employeeQuantity
+     * @param \App\UBL\Common\CBC\EmployeeQuantity $employeeQuantity
      * @return self
      */
-    public function setEmployeeQuantity(?\UBL\Common\CBC\EmployeeQuantity $employeeQuantity = null)
+    public function setEmployeeQuantity(?\App\UBL\Common\CBC\EmployeeQuantity $employeeQuantity = null)
     {
         $this->employeeQuantity = $employeeQuantity;
         return $this;
@@ -460,9 +460,9 @@ class TendererQualificationRequestType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -520,7 +520,7 @@ class TendererQualificationRequestType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -539,7 +539,7 @@ class TendererQualificationRequestType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -562,9 +562,9 @@ class TendererQualificationRequestType
      *  Classification Scheme
      *
      * @return self
-     * @param \UBL\Common\CAC\RequiredBusinessClassificationScheme $requiredBusinessClassificationScheme
+     * @param \App\UBL\Common\CAC\RequiredBusinessClassificationScheme $requiredBusinessClassificationScheme
      */
-    public function addToRequiredBusinessClassificationScheme(\UBL\Common\CAC\RequiredBusinessClassificationScheme $requiredBusinessClassificationScheme)
+    public function addToRequiredBusinessClassificationScheme(\App\UBL\Common\CAC\RequiredBusinessClassificationScheme $requiredBusinessClassificationScheme)
     {
         $this->requiredBusinessClassificationScheme[] = $requiredBusinessClassificationScheme;
         return $this;
@@ -625,7 +625,7 @@ class TendererQualificationRequestType
      *  Classification Scheme
      *  Classification Scheme
      *
-     * @return \UBL\Common\CAC\RequiredBusinessClassificationScheme[]
+     * @return \App\UBL\Common\CAC\RequiredBusinessClassificationScheme[]
      */
     public function getRequiredBusinessClassificationScheme()
     {
@@ -645,7 +645,7 @@ class TendererQualificationRequestType
      *  Classification Scheme
      *  Classification Scheme
      *
-     * @param \UBL\Common\CAC\RequiredBusinessClassificationScheme[] $requiredBusinessClassificationScheme
+     * @param \App\UBL\Common\CAC\RequiredBusinessClassificationScheme[] $requiredBusinessClassificationScheme
      * @return self
      */
     public function setRequiredBusinessClassificationScheme(?array $requiredBusinessClassificationScheme = null)
@@ -668,9 +668,9 @@ class TendererQualificationRequestType
      *  Evaluation Criterion
      *
      * @return self
-     * @param \UBL\Common\CAC\TechnicalEvaluationCriterion $technicalEvaluationCriterion
+     * @param \App\UBL\Common\CAC\TechnicalEvaluationCriterion $technicalEvaluationCriterion
      */
-    public function addToTechnicalEvaluationCriterion(\UBL\Common\CAC\TechnicalEvaluationCriterion $technicalEvaluationCriterion)
+    public function addToTechnicalEvaluationCriterion(\App\UBL\Common\CAC\TechnicalEvaluationCriterion $technicalEvaluationCriterion)
     {
         $this->technicalEvaluationCriterion[] = $technicalEvaluationCriterion;
         return $this;
@@ -731,7 +731,7 @@ class TendererQualificationRequestType
      *  Evaluation Criterion
      *  Evaluation Criterion
      *
-     * @return \UBL\Common\CAC\TechnicalEvaluationCriterion[]
+     * @return \App\UBL\Common\CAC\TechnicalEvaluationCriterion[]
      */
     public function getTechnicalEvaluationCriterion()
     {
@@ -751,7 +751,7 @@ class TendererQualificationRequestType
      *  Evaluation Criterion
      *  Evaluation Criterion
      *
-     * @param \UBL\Common\CAC\TechnicalEvaluationCriterion[] $technicalEvaluationCriterion
+     * @param \App\UBL\Common\CAC\TechnicalEvaluationCriterion[] $technicalEvaluationCriterion
      * @return self
      */
     public function setTechnicalEvaluationCriterion(?array $technicalEvaluationCriterion = null)
@@ -774,9 +774,9 @@ class TendererQualificationRequestType
      *  Evaluation Criterion
      *
      * @return self
-     * @param \UBL\Common\CAC\FinancialEvaluationCriterion $financialEvaluationCriterion
+     * @param \App\UBL\Common\CAC\FinancialEvaluationCriterion $financialEvaluationCriterion
      */
-    public function addToFinancialEvaluationCriterion(\UBL\Common\CAC\FinancialEvaluationCriterion $financialEvaluationCriterion)
+    public function addToFinancialEvaluationCriterion(\App\UBL\Common\CAC\FinancialEvaluationCriterion $financialEvaluationCriterion)
     {
         $this->financialEvaluationCriterion[] = $financialEvaluationCriterion;
         return $this;
@@ -837,7 +837,7 @@ class TendererQualificationRequestType
      *  Evaluation Criterion
      *  Evaluation Criterion
      *
-     * @return \UBL\Common\CAC\FinancialEvaluationCriterion[]
+     * @return \App\UBL\Common\CAC\FinancialEvaluationCriterion[]
      */
     public function getFinancialEvaluationCriterion()
     {
@@ -857,7 +857,7 @@ class TendererQualificationRequestType
      *  Evaluation Criterion
      *  Evaluation Criterion
      *
-     * @param \UBL\Common\CAC\FinancialEvaluationCriterion[] $financialEvaluationCriterion
+     * @param \App\UBL\Common\CAC\FinancialEvaluationCriterion[] $financialEvaluationCriterion
      * @return self
      */
     public function setFinancialEvaluationCriterion(?array $financialEvaluationCriterion = null)
@@ -881,9 +881,9 @@ class TendererQualificationRequestType
      *  Preregistration in a Business Registry
      *
      * @return self
-     * @param \UBL\Common\CAC\SpecificTendererRequirement $specificTendererRequirement
+     * @param \App\UBL\Common\CAC\SpecificTendererRequirement $specificTendererRequirement
      */
-    public function addToSpecificTendererRequirement(\UBL\Common\CAC\SpecificTendererRequirement $specificTendererRequirement)
+    public function addToSpecificTendererRequirement(\App\UBL\Common\CAC\SpecificTendererRequirement $specificTendererRequirement)
     {
         $this->specificTendererRequirement[] = $specificTendererRequirement;
         return $this;
@@ -947,7 +947,7 @@ class TendererQualificationRequestType
      *  Tenderer Requirement
      *  Preregistration in a Business Registry
      *
-     * @return \UBL\Common\CAC\SpecificTendererRequirement[]
+     * @return \App\UBL\Common\CAC\SpecificTendererRequirement[]
      */
     public function getSpecificTendererRequirement()
     {
@@ -968,7 +968,7 @@ class TendererQualificationRequestType
      *  Tenderer Requirement
      *  Preregistration in a Business Registry
      *
-     * @param \UBL\Common\CAC\SpecificTendererRequirement[] $specificTendererRequirement
+     * @param \App\UBL\Common\CAC\SpecificTendererRequirement[] $specificTendererRequirement
      * @return self
      */
     public function setSpecificTendererRequirement(?array $specificTendererRequirement = null)
@@ -990,9 +990,9 @@ class TendererQualificationRequestType
      *  Economic Operator Role
      *
      * @return self
-     * @param \UBL\Common\CAC\EconomicOperatorRole $economicOperatorRole
+     * @param \App\UBL\Common\CAC\EconomicOperatorRole $economicOperatorRole
      */
-    public function addToEconomicOperatorRole(\UBL\Common\CAC\EconomicOperatorRole $economicOperatorRole)
+    public function addToEconomicOperatorRole(\App\UBL\Common\CAC\EconomicOperatorRole $economicOperatorRole)
     {
         $this->economicOperatorRole[] = $economicOperatorRole;
         return $this;
@@ -1050,7 +1050,7 @@ class TendererQualificationRequestType
      *  Economic Operator Role
      *  Economic Operator Role
      *
-     * @return \UBL\Common\CAC\EconomicOperatorRole[]
+     * @return \App\UBL\Common\CAC\EconomicOperatorRole[]
      */
     public function getEconomicOperatorRole()
     {
@@ -1069,7 +1069,7 @@ class TendererQualificationRequestType
      *  Economic Operator Role
      *  Economic Operator Role
      *
-     * @param \UBL\Common\CAC\EconomicOperatorRole[] $economicOperatorRole
+     * @param \App\UBL\Common\CAC\EconomicOperatorRole[] $economicOperatorRole
      * @return self
      */
     public function setEconomicOperatorRole(?array $economicOperatorRole = null)
@@ -1078,5 +1078,4 @@ class TendererQualificationRequestType
         return $this;
     }
 }
-
 

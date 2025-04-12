@@ -24,7 +24,7 @@ class ItemIdentificationType
      *  Identifier. Type
      *  CUST001 3333-44-123
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class ItemIdentificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ExtendedID $extendedID
+     * @var \App\UBL\Common\CBC\ExtendedID $extendedID
      */
     private $extendedID = null;
 
@@ -54,7 +54,7 @@ class ItemIdentificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\BarcodeSymbologyID $barcodeSymbologyID
+     * @var \App\UBL\Common\CBC\BarcodeSymbologyID $barcodeSymbologyID
      */
     private $barcodeSymbologyID = null;
 
@@ -68,7 +68,7 @@ class ItemIdentificationType
      *  Physical Attribute
      *  Physical Attribute
      *
-     * @var \UBL\Common\CAC\PhysicalAttribute[] $physicalAttribute
+     * @var \App\UBL\Common\CAC\PhysicalAttribute[] $physicalAttribute
      */
     private $physicalAttribute = [
         
@@ -85,7 +85,7 @@ class ItemIdentificationType
      *  Dimension
      *  Dimension
      *
-     * @var \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @var \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      */
     private $measurementDimension = [
         
@@ -102,7 +102,7 @@ class ItemIdentificationType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\IssuerParty $issuerParty
+     * @var \App\UBL\Common\CAC\IssuerParty $issuerParty
      */
     private $issuerParty = null;
 
@@ -119,7 +119,7 @@ class ItemIdentificationType
      *  Identifier. Type
      *  CUST001 3333-44-123
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -139,10 +139,10 @@ class ItemIdentificationType
      *  Identifier. Type
      *  CUST001 3333-44-123
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -161,7 +161,7 @@ class ItemIdentificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ExtendedID
+     * @return \App\UBL\Common\CBC\ExtendedID
      */
     public function getExtendedID()
     {
@@ -181,10 +181,10 @@ class ItemIdentificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ExtendedID $extendedID
+     * @param \App\UBL\Common\CBC\ExtendedID $extendedID
      * @return self
      */
-    public function setExtendedID(?\UBL\Common\CBC\ExtendedID $extendedID = null)
+    public function setExtendedID(?\App\UBL\Common\CBC\ExtendedID $extendedID = null)
     {
         $this->extendedID = $extendedID;
         return $this;
@@ -203,7 +203,7 @@ class ItemIdentificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\BarcodeSymbologyID
+     * @return \App\UBL\Common\CBC\BarcodeSymbologyID
      */
     public function getBarcodeSymbologyID()
     {
@@ -223,10 +223,10 @@ class ItemIdentificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\BarcodeSymbologyID $barcodeSymbologyID
+     * @param \App\UBL\Common\CBC\BarcodeSymbologyID $barcodeSymbologyID
      * @return self
      */
-    public function setBarcodeSymbologyID(?\UBL\Common\CBC\BarcodeSymbologyID $barcodeSymbologyID = null)
+    public function setBarcodeSymbologyID(?\App\UBL\Common\CBC\BarcodeSymbologyID $barcodeSymbologyID = null)
     {
         $this->barcodeSymbologyID = $barcodeSymbologyID;
         return $this;
@@ -245,9 +245,9 @@ class ItemIdentificationType
      *  Physical Attribute
      *
      * @return self
-     * @param \UBL\Common\CAC\PhysicalAttribute $physicalAttribute
+     * @param \App\UBL\Common\CAC\PhysicalAttribute $physicalAttribute
      */
-    public function addToPhysicalAttribute(\UBL\Common\CAC\PhysicalAttribute $physicalAttribute)
+    public function addToPhysicalAttribute(\App\UBL\Common\CAC\PhysicalAttribute $physicalAttribute)
     {
         $this->physicalAttribute[] = $physicalAttribute;
         return $this;
@@ -305,7 +305,7 @@ class ItemIdentificationType
      *  Physical Attribute
      *  Physical Attribute
      *
-     * @return \UBL\Common\CAC\PhysicalAttribute[]
+     * @return \App\UBL\Common\CAC\PhysicalAttribute[]
      */
     public function getPhysicalAttribute()
     {
@@ -324,7 +324,7 @@ class ItemIdentificationType
      *  Physical Attribute
      *  Physical Attribute
      *
-     * @param \UBL\Common\CAC\PhysicalAttribute[] $physicalAttribute
+     * @param \App\UBL\Common\CAC\PhysicalAttribute[] $physicalAttribute
      * @return self
      */
     public function setPhysicalAttribute(?array $physicalAttribute = null)
@@ -347,9 +347,9 @@ class ItemIdentificationType
      *  Dimension
      *
      * @return self
-     * @param \UBL\Common\CAC\MeasurementDimension $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension $measurementDimension
      */
-    public function addToMeasurementDimension(\UBL\Common\CAC\MeasurementDimension $measurementDimension)
+    public function addToMeasurementDimension(\App\UBL\Common\CAC\MeasurementDimension $measurementDimension)
     {
         $this->measurementDimension[] = $measurementDimension;
         return $this;
@@ -410,7 +410,7 @@ class ItemIdentificationType
      *  Dimension
      *  Dimension
      *
-     * @return \UBL\Common\CAC\MeasurementDimension[]
+     * @return \App\UBL\Common\CAC\MeasurementDimension[]
      */
     public function getMeasurementDimension()
     {
@@ -430,7 +430,7 @@ class ItemIdentificationType
      *  Dimension
      *  Dimension
      *
-     * @param \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      * @return self
      */
     public function setMeasurementDimension(?array $measurementDimension = null)
@@ -452,7 +452,7 @@ class ItemIdentificationType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\IssuerParty
+     * @return \App\UBL\Common\CAC\IssuerParty
      */
     public function getIssuerParty()
     {
@@ -472,14 +472,13 @@ class ItemIdentificationType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\IssuerParty $issuerParty
+     * @param \App\UBL\Common\CAC\IssuerParty $issuerParty
      * @return self
      */
-    public function setIssuerParty(?\UBL\Common\CAC\IssuerParty $issuerParty = null)
+    public function setIssuerParty(?\App\UBL\Common\CAC\IssuerParty $issuerParty = null)
     {
         $this->issuerParty = $issuerParty;
         return $this;
     }
 }
-
 

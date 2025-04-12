@@ -9,4 +9,3 @@ class DamageRemarks extends DamageRemarksType
 {
 }
 
-

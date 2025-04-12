@@ -9,4 +9,3 @@ class TaxExclusiveAmount extends TaxExclusiveAmountType
 {
 }
 
-

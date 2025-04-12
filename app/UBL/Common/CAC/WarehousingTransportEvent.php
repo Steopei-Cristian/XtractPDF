@@ -9,4 +9,3 @@ class WarehousingTransportEvent extends TransportEventType
 {
 }
 
-

@@ -9,4 +9,3 @@ class MedicalFirstAidGuideCode extends MedicalFirstAidGuideCodeType
 {
 }
 
-

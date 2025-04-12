@@ -1,4 +1,4 @@
-UBL\Common\CBC\ResponseTimeType:
+App\UBL\Common\CBC\ResponseTimeType:
     properties:
         __value:
             expose: true

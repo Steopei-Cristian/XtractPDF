@@ -9,4 +9,3 @@ class LineValidityPeriod extends PeriodType
 {
 }
 
-

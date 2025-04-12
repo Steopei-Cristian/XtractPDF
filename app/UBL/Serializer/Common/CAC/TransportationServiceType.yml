@@ -1,4 +1,4 @@
-UBL\Common\CAC\TransportationServiceType:
+App\UBL\Common\CAC\TransportationServiceType:
     properties:
         transportServiceCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TransportationServiceType:
             accessor:
                 getter: getTransportServiceCode
                 setter: setTransportServiceCode
-            type: UBL\Common\CBC\TransportServiceCode
+            type: App\UBL\Common\CBC\TransportServiceCode
         tariffClassCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TransportationServiceType:
             accessor:
                 getter: getTariffClassCode
                 setter: setTariffClassCode
-            type: UBL\Common\CBC\TariffClassCode
+            type: App\UBL\Common\CBC\TariffClassCode
         priority:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\TransportationServiceType:
             accessor:
                 getter: getPriority
                 setter: setPriority
-            type: UBL\Common\CBC\Priority
+            type: App\UBL\Common\CBC\Priority
         freightRateClassCode:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\TransportationServiceType:
             accessor:
                 getter: getFreightRateClassCode
                 setter: setFreightRateClassCode
-            type: UBL\Common\CBC\FreightRateClassCode
+            type: App\UBL\Common\CBC\FreightRateClassCode
         transportationServiceDescription:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\TransportationServiceType:
                 inline: true
                 entry_name: TransportationServiceDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\TransportationServiceDescription>
+            type: array<App\UBL\Common\CBC\TransportationServiceDescription>
         transportationServiceDetailsURI:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\TransportationServiceType:
             accessor:
                 getter: getTransportationServiceDetailsURI
                 setter: setTransportationServiceDetailsURI
-            type: UBL\Common\CBC\TransportationServiceDetailsURI
+            type: App\UBL\Common\CBC\TransportationServiceDetailsURI
         nominationDate:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\TransportationServiceType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         sequenceNumeric:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\TransportationServiceType:
             accessor:
                 getter: getSequenceNumeric
                 setter: setSequenceNumeric
-            type: UBL\Common\CBC\SequenceNumeric
+            type: App\UBL\Common\CBC\SequenceNumeric
         transportEquipment:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ UBL\Common\CAC\TransportationServiceType:
                 inline: true
                 entry_name: TransportEquipment
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TransportEquipment>
+            type: array<App\UBL\Common\CAC\TransportEquipment>
         supportedTransportEquipment:
             expose: true
             access_type: public_method
@@ -131,7 +131,7 @@ UBL\Common\CAC\TransportationServiceType:
                 inline: true
                 entry_name: SupportedTransportEquipment
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SupportedTransportEquipment>
+            type: array<App\UBL\Common\CAC\SupportedTransportEquipment>
         unsupportedTransportEquipment:
             expose: true
             access_type: public_method
@@ -145,7 +145,7 @@ UBL\Common\CAC\TransportationServiceType:
                 inline: true
                 entry_name: UnsupportedTransportEquipment
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\UnsupportedTransportEquipment>
+            type: array<App\UBL\Common\CAC\UnsupportedTransportEquipment>
         commodityClassification:
             expose: true
             access_type: public_method
@@ -159,7 +159,7 @@ UBL\Common\CAC\TransportationServiceType:
                 inline: true
                 entry_name: CommodityClassification
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\CommodityClassification>
+            type: array<App\UBL\Common\CAC\CommodityClassification>
         supportedCommodityClassification:
             expose: true
             access_type: public_method
@@ -173,7 +173,7 @@ UBL\Common\CAC\TransportationServiceType:
                 inline: true
                 entry_name: SupportedCommodityClassification
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SupportedCommodityClassification>
+            type: array<App\UBL\Common\CAC\SupportedCommodityClassification>
         unsupportedCommodityClassification:
             expose: true
             access_type: public_method
@@ -187,7 +187,7 @@ UBL\Common\CAC\TransportationServiceType:
                 inline: true
                 entry_name: UnsupportedCommodityClassification
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\UnsupportedCommodityClassification>
+            type: array<App\UBL\Common\CAC\UnsupportedCommodityClassification>
         totalCapacityDimension:
             expose: true
             access_type: public_method
@@ -197,7 +197,7 @@ UBL\Common\CAC\TransportationServiceType:
             accessor:
                 getter: getTotalCapacityDimension
                 setter: setTotalCapacityDimension
-            type: UBL\Common\CAC\TotalCapacityDimension
+            type: App\UBL\Common\CAC\TotalCapacityDimension
         shipmentStage:
             expose: true
             access_type: public_method
@@ -211,7 +211,7 @@ UBL\Common\CAC\TransportationServiceType:
                 inline: true
                 entry_name: ShipmentStage
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ShipmentStage>
+            type: array<App\UBL\Common\CAC\ShipmentStage>
         transportEvent:
             expose: true
             access_type: public_method
@@ -225,7 +225,7 @@ UBL\Common\CAC\TransportationServiceType:
                 inline: true
                 entry_name: TransportEvent
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TransportEvent>
+            type: array<App\UBL\Common\CAC\TransportEvent>
         responsibleTransportServiceProviderParty:
             expose: true
             access_type: public_method
@@ -235,7 +235,7 @@ UBL\Common\CAC\TransportationServiceType:
             accessor:
                 getter: getResponsibleTransportServiceProviderParty
                 setter: setResponsibleTransportServiceProviderParty
-            type: UBL\Common\CAC\ResponsibleTransportServiceProviderParty
+            type: App\UBL\Common\CAC\ResponsibleTransportServiceProviderParty
         environmentalEmission:
             expose: true
             access_type: public_method
@@ -249,7 +249,7 @@ UBL\Common\CAC\TransportationServiceType:
                 inline: true
                 entry_name: EnvironmentalEmission
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\EnvironmentalEmission>
+            type: array<App\UBL\Common\CAC\EnvironmentalEmission>
         estimatedDurationPeriod:
             expose: true
             access_type: public_method
@@ -259,7 +259,7 @@ UBL\Common\CAC\TransportationServiceType:
             accessor:
                 getter: getEstimatedDurationPeriod
                 setter: setEstimatedDurationPeriod
-            type: UBL\Common\CAC\EstimatedDurationPeriod
+            type: App\UBL\Common\CAC\EstimatedDurationPeriod
         scheduledServiceFrequency:
             expose: true
             access_type: public_method
@@ -273,4 +273,4 @@ UBL\Common\CAC\TransportationServiceType:
                 inline: true
                 entry_name: ScheduledServiceFrequency
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ScheduledServiceFrequency>
+            type: array<App\UBL\Common\CAC\ScheduledServiceFrequency>

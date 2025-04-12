@@ -9,4 +9,3 @@ class UtilityMeter extends MeterType
 {
 }
 
-

@@ -9,4 +9,3 @@ class PackSizeNumeric extends PackSizeNumericType
 {
 }
 
-

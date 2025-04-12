@@ -9,4 +9,3 @@ class EconomicOperatorShortList extends EconomicOperatorShortListType
 {
 }
 
-

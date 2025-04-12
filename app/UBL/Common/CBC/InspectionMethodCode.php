@@ -9,4 +9,3 @@ class InspectionMethodCode extends InspectionMethodCodeType
 {
 }
 
-

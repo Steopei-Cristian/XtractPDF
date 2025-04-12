@@ -9,4 +9,3 @@ class Location extends LocationType
 {
 }
 
-

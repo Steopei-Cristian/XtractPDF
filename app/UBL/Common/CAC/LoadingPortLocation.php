@@ -9,4 +9,3 @@ class LoadingPortLocation extends LocationType
 {
 }
 
-

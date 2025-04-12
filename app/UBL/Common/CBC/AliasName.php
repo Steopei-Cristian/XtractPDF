@@ -9,4 +9,3 @@ class AliasName extends AliasNameType
 {
 }
 
-

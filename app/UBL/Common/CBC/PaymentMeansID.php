@@ -9,4 +9,3 @@ class PaymentMeansID extends PaymentMeansIDType
 {
 }
 
-

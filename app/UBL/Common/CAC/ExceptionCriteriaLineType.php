@@ -23,7 +23,7 @@ class ExceptionCriteriaLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class ExceptionCriteriaLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -53,7 +53,7 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ThresholdValueComparisonCode $thresholdValueComparisonCode
+     * @var \App\UBL\Common\CBC\ThresholdValueComparisonCode $thresholdValueComparisonCode
      */
     private $thresholdValueComparisonCode = null;
 
@@ -68,7 +68,7 @@ class ExceptionCriteriaLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ThresholdQuantity $thresholdQuantity
+     * @var \App\UBL\Common\CBC\ThresholdQuantity $thresholdQuantity
      */
     private $thresholdQuantity = null;
 
@@ -82,7 +82,7 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ExceptionStatusCode $exceptionStatusCode
+     * @var \App\UBL\Common\CBC\ExceptionStatusCode $exceptionStatusCode
      */
     private $exceptionStatusCode = null;
 
@@ -97,7 +97,7 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\CollaborationPriorityCode $collaborationPriorityCode
+     * @var \App\UBL\Common\CBC\CollaborationPriorityCode $collaborationPriorityCode
      */
     private $collaborationPriorityCode = null;
 
@@ -112,7 +112,7 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ExceptionResolutionCode $exceptionResolutionCode
+     * @var \App\UBL\Common\CBC\ExceptionResolutionCode $exceptionResolutionCode
      */
     private $exceptionResolutionCode = null;
 
@@ -126,7 +126,7 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
+     * @var \App\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
      */
     private $supplyChainActivityTypeCode = null;
 
@@ -140,7 +140,7 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
+     * @var \App\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
      */
     private $performanceMetricTypeCode = null;
 
@@ -155,7 +155,7 @@ class ExceptionCriteriaLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\EffectivePeriod $effectivePeriod
+     * @var \App\UBL\Common\CAC\EffectivePeriod $effectivePeriod
      */
     private $effectivePeriod = null;
 
@@ -170,7 +170,7 @@ class ExceptionCriteriaLineType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\SupplyItem[] $supplyItem
+     * @var \App\UBL\Common\CAC\SupplyItem[] $supplyItem
      */
     private $supplyItem = [
         
@@ -186,7 +186,7 @@ class ExceptionCriteriaLineType
      *  Forecast Exception Criterion Line
      *  Forecast Exception Criterion Line
      *
-     * @var \UBL\Common\CAC\ForecastExceptionCriterionLine $forecastExceptionCriterionLine
+     * @var \App\UBL\Common\CAC\ForecastExceptionCriterionLine $forecastExceptionCriterionLine
      */
     private $forecastExceptionCriterionLine = null;
 
@@ -202,7 +202,7 @@ class ExceptionCriteriaLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -221,10 +221,10 @@ class ExceptionCriteriaLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -243,9 +243,9 @@ class ExceptionCriteriaLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -303,7 +303,7 @@ class ExceptionCriteriaLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -322,7 +322,7 @@ class ExceptionCriteriaLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -343,7 +343,7 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ThresholdValueComparisonCode
+     * @return \App\UBL\Common\CBC\ThresholdValueComparisonCode
      */
     public function getThresholdValueComparisonCode()
     {
@@ -362,10 +362,10 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ThresholdValueComparisonCode $thresholdValueComparisonCode
+     * @param \App\UBL\Common\CBC\ThresholdValueComparisonCode $thresholdValueComparisonCode
      * @return self
      */
-    public function setThresholdValueComparisonCode(\UBL\Common\CBC\ThresholdValueComparisonCode $thresholdValueComparisonCode)
+    public function setThresholdValueComparisonCode(\App\UBL\Common\CBC\ThresholdValueComparisonCode $thresholdValueComparisonCode)
     {
         $this->thresholdValueComparisonCode = $thresholdValueComparisonCode;
         return $this;
@@ -384,7 +384,7 @@ class ExceptionCriteriaLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ThresholdQuantity
+     * @return \App\UBL\Common\CBC\ThresholdQuantity
      */
     public function getThresholdQuantity()
     {
@@ -404,10 +404,10 @@ class ExceptionCriteriaLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ThresholdQuantity $thresholdQuantity
+     * @param \App\UBL\Common\CBC\ThresholdQuantity $thresholdQuantity
      * @return self
      */
-    public function setThresholdQuantity(\UBL\Common\CBC\ThresholdQuantity $thresholdQuantity)
+    public function setThresholdQuantity(\App\UBL\Common\CBC\ThresholdQuantity $thresholdQuantity)
     {
         $this->thresholdQuantity = $thresholdQuantity;
         return $this;
@@ -425,7 +425,7 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ExceptionStatusCode
+     * @return \App\UBL\Common\CBC\ExceptionStatusCode
      */
     public function getExceptionStatusCode()
     {
@@ -444,10 +444,10 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ExceptionStatusCode $exceptionStatusCode
+     * @param \App\UBL\Common\CBC\ExceptionStatusCode $exceptionStatusCode
      * @return self
      */
-    public function setExceptionStatusCode(?\UBL\Common\CBC\ExceptionStatusCode $exceptionStatusCode = null)
+    public function setExceptionStatusCode(?\App\UBL\Common\CBC\ExceptionStatusCode $exceptionStatusCode = null)
     {
         $this->exceptionStatusCode = $exceptionStatusCode;
         return $this;
@@ -466,7 +466,7 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\CollaborationPriorityCode
+     * @return \App\UBL\Common\CBC\CollaborationPriorityCode
      */
     public function getCollaborationPriorityCode()
     {
@@ -486,10 +486,10 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\CollaborationPriorityCode $collaborationPriorityCode
+     * @param \App\UBL\Common\CBC\CollaborationPriorityCode $collaborationPriorityCode
      * @return self
      */
-    public function setCollaborationPriorityCode(?\UBL\Common\CBC\CollaborationPriorityCode $collaborationPriorityCode = null)
+    public function setCollaborationPriorityCode(?\App\UBL\Common\CBC\CollaborationPriorityCode $collaborationPriorityCode = null)
     {
         $this->collaborationPriorityCode = $collaborationPriorityCode;
         return $this;
@@ -508,7 +508,7 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ExceptionResolutionCode
+     * @return \App\UBL\Common\CBC\ExceptionResolutionCode
      */
     public function getExceptionResolutionCode()
     {
@@ -528,10 +528,10 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ExceptionResolutionCode $exceptionResolutionCode
+     * @param \App\UBL\Common\CBC\ExceptionResolutionCode $exceptionResolutionCode
      * @return self
      */
-    public function setExceptionResolutionCode(?\UBL\Common\CBC\ExceptionResolutionCode $exceptionResolutionCode = null)
+    public function setExceptionResolutionCode(?\App\UBL\Common\CBC\ExceptionResolutionCode $exceptionResolutionCode = null)
     {
         $this->exceptionResolutionCode = $exceptionResolutionCode;
         return $this;
@@ -549,7 +549,7 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\SupplyChainActivityTypeCode
+     * @return \App\UBL\Common\CBC\SupplyChainActivityTypeCode
      */
     public function getSupplyChainActivityTypeCode()
     {
@@ -568,10 +568,10 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
+     * @param \App\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
      * @return self
      */
-    public function setSupplyChainActivityTypeCode(?\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode = null)
+    public function setSupplyChainActivityTypeCode(?\App\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode = null)
     {
         $this->supplyChainActivityTypeCode = $supplyChainActivityTypeCode;
         return $this;
@@ -589,7 +589,7 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PerformanceMetricTypeCode
+     * @return \App\UBL\Common\CBC\PerformanceMetricTypeCode
      */
     public function getPerformanceMetricTypeCode()
     {
@@ -608,10 +608,10 @@ class ExceptionCriteriaLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
+     * @param \App\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
      * @return self
      */
-    public function setPerformanceMetricTypeCode(?\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode = null)
+    public function setPerformanceMetricTypeCode(?\App\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode = null)
     {
         $this->performanceMetricTypeCode = $performanceMetricTypeCode;
         return $this;
@@ -630,7 +630,7 @@ class ExceptionCriteriaLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\EffectivePeriod
+     * @return \App\UBL\Common\CAC\EffectivePeriod
      */
     public function getEffectivePeriod()
     {
@@ -650,10 +650,10 @@ class ExceptionCriteriaLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\EffectivePeriod $effectivePeriod
+     * @param \App\UBL\Common\CAC\EffectivePeriod $effectivePeriod
      * @return self
      */
-    public function setEffectivePeriod(?\UBL\Common\CAC\EffectivePeriod $effectivePeriod = null)
+    public function setEffectivePeriod(?\App\UBL\Common\CAC\EffectivePeriod $effectivePeriod = null)
     {
         $this->effectivePeriod = $effectivePeriod;
         return $this;
@@ -673,9 +673,9 @@ class ExceptionCriteriaLineType
      *  Item
      *
      * @return self
-     * @param \UBL\Common\CAC\SupplyItem $supplyItem
+     * @param \App\UBL\Common\CAC\SupplyItem $supplyItem
      */
-    public function addToSupplyItem(\UBL\Common\CAC\SupplyItem $supplyItem)
+    public function addToSupplyItem(\App\UBL\Common\CAC\SupplyItem $supplyItem)
     {
         $this->supplyItem[] = $supplyItem;
         return $this;
@@ -736,7 +736,7 @@ class ExceptionCriteriaLineType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\SupplyItem[]
+     * @return \App\UBL\Common\CAC\SupplyItem[]
      */
     public function getSupplyItem()
     {
@@ -756,7 +756,7 @@ class ExceptionCriteriaLineType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\SupplyItem[] $supplyItem
+     * @param \App\UBL\Common\CAC\SupplyItem[] $supplyItem
      * @return self
      */
     public function setSupplyItem(array $supplyItem)
@@ -777,7 +777,7 @@ class ExceptionCriteriaLineType
      *  Forecast Exception Criterion Line
      *  Forecast Exception Criterion Line
      *
-     * @return \UBL\Common\CAC\ForecastExceptionCriterionLine
+     * @return \App\UBL\Common\CAC\ForecastExceptionCriterionLine
      */
     public function getForecastExceptionCriterionLine()
     {
@@ -796,14 +796,13 @@ class ExceptionCriteriaLineType
      *  Forecast Exception Criterion Line
      *  Forecast Exception Criterion Line
      *
-     * @param \UBL\Common\CAC\ForecastExceptionCriterionLine $forecastExceptionCriterionLine
+     * @param \App\UBL\Common\CAC\ForecastExceptionCriterionLine $forecastExceptionCriterionLine
      * @return self
      */
-    public function setForecastExceptionCriterionLine(?\UBL\Common\CAC\ForecastExceptionCriterionLine $forecastExceptionCriterionLine = null)
+    public function setForecastExceptionCriterionLine(?\App\UBL\Common\CAC\ForecastExceptionCriterionLine $forecastExceptionCriterionLine = null)
     {
         $this->forecastExceptionCriterionLine = $forecastExceptionCriterionLine;
         return $this;
     }
 }
-
 

@@ -1,4 +1,4 @@
-UBL\Common\CAC\DocumentDistributionType:
+App\UBL\Common\CAC\DocumentDistributionType:
     properties:
         printQualifier:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\DocumentDistributionType:
             accessor:
                 getter: getPrintQualifier
                 setter: setPrintQualifier
-            type: UBL\Common\CBC\PrintQualifier
+            type: App\UBL\Common\CBC\PrintQualifier
         maximumCopiesNumeric:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\DocumentDistributionType:
             accessor:
                 getter: getMaximumCopiesNumeric
                 setter: setMaximumCopiesNumeric
-            type: UBL\Common\CBC\MaximumCopiesNumeric
+            type: App\UBL\Common\CBC\MaximumCopiesNumeric
         party:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ UBL\Common\CAC\DocumentDistributionType:
             accessor:
                 getter: getParty
                 setter: setParty
-            type: UBL\Common\CAC\Party
+            type: App\UBL\Common\CAC\Party

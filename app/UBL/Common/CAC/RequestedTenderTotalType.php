@@ -24,7 +24,7 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\EstimatedOverallContractAmount $estimatedOverallContractAmount
+     * @var \App\UBL\Common\CBC\EstimatedOverallContractAmount $estimatedOverallContractAmount
      */
     private $estimatedOverallContractAmount = null;
 
@@ -39,7 +39,7 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\TotalAmount $totalAmount
+     * @var \App\UBL\Common\CBC\TotalAmount $totalAmount
      */
     private $totalAmount = null;
 
@@ -69,7 +69,7 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\MinimumAmount $minimumAmount
+     * @var \App\UBL\Common\CBC\MinimumAmount $minimumAmount
      */
     private $minimumAmount = null;
 
@@ -84,7 +84,7 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\MaximumAmount $maximumAmount
+     * @var \App\UBL\Common\CBC\MaximumAmount $maximumAmount
      */
     private $maximumAmount = null;
 
@@ -98,7 +98,7 @@ class RequestedTenderTotalType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\MonetaryScope[] $monetaryScope
+     * @var \App\UBL\Common\CBC\MonetaryScope[] $monetaryScope
      */
     private $monetaryScope = [
         
@@ -115,7 +115,7 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\AverageSubsequentContractAmount $averageSubsequentContractAmount
+     * @var \App\UBL\Common\CBC\AverageSubsequentContractAmount $averageSubsequentContractAmount
      */
     private $averageSubsequentContractAmount = null;
 
@@ -130,7 +130,7 @@ class RequestedTenderTotalType
      *  Tax Category
      *  Tax Category
      *
-     * @var \UBL\Common\CAC\ApplicableTaxCategory[] $applicableTaxCategory
+     * @var \App\UBL\Common\CAC\ApplicableTaxCategory[] $applicableTaxCategory
      */
     private $applicableTaxCategory = [
         
@@ -149,7 +149,7 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\EstimatedOverallContractAmount
+     * @return \App\UBL\Common\CBC\EstimatedOverallContractAmount
      */
     public function getEstimatedOverallContractAmount()
     {
@@ -169,10 +169,10 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\EstimatedOverallContractAmount $estimatedOverallContractAmount
+     * @param \App\UBL\Common\CBC\EstimatedOverallContractAmount $estimatedOverallContractAmount
      * @return self
      */
-    public function setEstimatedOverallContractAmount(?\UBL\Common\CBC\EstimatedOverallContractAmount $estimatedOverallContractAmount = null)
+    public function setEstimatedOverallContractAmount(?\App\UBL\Common\CBC\EstimatedOverallContractAmount $estimatedOverallContractAmount = null)
     {
         $this->estimatedOverallContractAmount = $estimatedOverallContractAmount;
         return $this;
@@ -191,7 +191,7 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\TotalAmount
+     * @return \App\UBL\Common\CBC\TotalAmount
      */
     public function getTotalAmount()
     {
@@ -211,10 +211,10 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\TotalAmount $totalAmount
+     * @param \App\UBL\Common\CBC\TotalAmount $totalAmount
      * @return self
      */
-    public function setTotalAmount(?\UBL\Common\CBC\TotalAmount $totalAmount = null)
+    public function setTotalAmount(?\App\UBL\Common\CBC\TotalAmount $totalAmount = null)
     {
         $this->totalAmount = $totalAmount;
         return $this;
@@ -275,7 +275,7 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\MinimumAmount
+     * @return \App\UBL\Common\CBC\MinimumAmount
      */
     public function getMinimumAmount()
     {
@@ -295,10 +295,10 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\MinimumAmount $minimumAmount
+     * @param \App\UBL\Common\CBC\MinimumAmount $minimumAmount
      * @return self
      */
-    public function setMinimumAmount(?\UBL\Common\CBC\MinimumAmount $minimumAmount = null)
+    public function setMinimumAmount(?\App\UBL\Common\CBC\MinimumAmount $minimumAmount = null)
     {
         $this->minimumAmount = $minimumAmount;
         return $this;
@@ -317,7 +317,7 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\MaximumAmount
+     * @return \App\UBL\Common\CBC\MaximumAmount
      */
     public function getMaximumAmount()
     {
@@ -337,10 +337,10 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\MaximumAmount $maximumAmount
+     * @param \App\UBL\Common\CBC\MaximumAmount $maximumAmount
      * @return self
      */
-    public function setMaximumAmount(?\UBL\Common\CBC\MaximumAmount $maximumAmount = null)
+    public function setMaximumAmount(?\App\UBL\Common\CBC\MaximumAmount $maximumAmount = null)
     {
         $this->maximumAmount = $maximumAmount;
         return $this;
@@ -359,9 +359,9 @@ class RequestedTenderTotalType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\MonetaryScope $monetaryScope
+     * @param \App\UBL\Common\CBC\MonetaryScope $monetaryScope
      */
-    public function addToMonetaryScope(\UBL\Common\CBC\MonetaryScope $monetaryScope)
+    public function addToMonetaryScope(\App\UBL\Common\CBC\MonetaryScope $monetaryScope)
     {
         $this->monetaryScope[] = $monetaryScope;
         return $this;
@@ -419,7 +419,7 @@ class RequestedTenderTotalType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\MonetaryScope[]
+     * @return \App\UBL\Common\CBC\MonetaryScope[]
      */
     public function getMonetaryScope()
     {
@@ -438,7 +438,7 @@ class RequestedTenderTotalType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\MonetaryScope[] $monetaryScope
+     * @param \App\UBL\Common\CBC\MonetaryScope[] $monetaryScope
      * @return self
      */
     public function setMonetaryScope(?array $monetaryScope = null)
@@ -460,7 +460,7 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\AverageSubsequentContractAmount
+     * @return \App\UBL\Common\CBC\AverageSubsequentContractAmount
      */
     public function getAverageSubsequentContractAmount()
     {
@@ -480,10 +480,10 @@ class RequestedTenderTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\AverageSubsequentContractAmount $averageSubsequentContractAmount
+     * @param \App\UBL\Common\CBC\AverageSubsequentContractAmount $averageSubsequentContractAmount
      * @return self
      */
-    public function setAverageSubsequentContractAmount(?\UBL\Common\CBC\AverageSubsequentContractAmount $averageSubsequentContractAmount = null)
+    public function setAverageSubsequentContractAmount(?\App\UBL\Common\CBC\AverageSubsequentContractAmount $averageSubsequentContractAmount = null)
     {
         $this->averageSubsequentContractAmount = $averageSubsequentContractAmount;
         return $this;
@@ -503,9 +503,9 @@ class RequestedTenderTotalType
      *  Tax Category
      *
      * @return self
-     * @param \UBL\Common\CAC\ApplicableTaxCategory $applicableTaxCategory
+     * @param \App\UBL\Common\CAC\ApplicableTaxCategory $applicableTaxCategory
      */
-    public function addToApplicableTaxCategory(\UBL\Common\CAC\ApplicableTaxCategory $applicableTaxCategory)
+    public function addToApplicableTaxCategory(\App\UBL\Common\CAC\ApplicableTaxCategory $applicableTaxCategory)
     {
         $this->applicableTaxCategory[] = $applicableTaxCategory;
         return $this;
@@ -566,7 +566,7 @@ class RequestedTenderTotalType
      *  Tax Category
      *  Tax Category
      *
-     * @return \UBL\Common\CAC\ApplicableTaxCategory[]
+     * @return \App\UBL\Common\CAC\ApplicableTaxCategory[]
      */
     public function getApplicableTaxCategory()
     {
@@ -586,7 +586,7 @@ class RequestedTenderTotalType
      *  Tax Category
      *  Tax Category
      *
-     * @param \UBL\Common\CAC\ApplicableTaxCategory[] $applicableTaxCategory
+     * @param \App\UBL\Common\CAC\ApplicableTaxCategory[] $applicableTaxCategory
      * @return self
      */
     public function setApplicableTaxCategory(?array $applicableTaxCategory = null)
@@ -595,5 +595,4 @@ class RequestedTenderTotalType
         return $this;
     }
 }
-
 

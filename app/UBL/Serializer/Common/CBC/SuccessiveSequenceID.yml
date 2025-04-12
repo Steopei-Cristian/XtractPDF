@@ -1,3 +1,3 @@
-UBL\Common\CBC\SuccessiveSequenceID:
+App\UBL\Common\CBC\SuccessiveSequenceID:
     xml_root_name: SuccessiveSequenceID
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

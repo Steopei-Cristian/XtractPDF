@@ -9,4 +9,3 @@ class PriceList extends PriceListType
 {
 }
 
-

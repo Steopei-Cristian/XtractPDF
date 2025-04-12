@@ -9,4 +9,3 @@ class ConsigneeParty extends PartyType
 {
 }
 
-

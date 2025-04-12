@@ -9,4 +9,3 @@ class EmploymentLegislationDocumentReference extends DocumentReferenceType
 {
 }
 
-

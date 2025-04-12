@@ -9,4 +9,3 @@ class AwardingMethodTypeCode extends AwardingMethodTypeCodeType
 {
 }
 
-

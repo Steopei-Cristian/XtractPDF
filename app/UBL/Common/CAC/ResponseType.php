@@ -23,7 +23,7 @@ class ResponseType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ReferenceID $referenceID
+     * @var \App\UBL\Common\CBC\ReferenceID $referenceID
      */
     private $referenceID = null;
 
@@ -37,7 +37,7 @@ class ResponseType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ResponseCode $responseCode
+     * @var \App\UBL\Common\CBC\ResponseCode $responseCode
      */
     private $responseCode = null;
 
@@ -51,7 +51,7 @@ class ResponseType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -95,7 +95,7 @@ class ResponseType
      *  Status
      *  Status
      *
-     * @var \UBL\Common\CAC\Status[] $status
+     * @var \App\UBL\Common\CAC\Status[] $status
      */
     private $status = [
         
@@ -113,7 +113,7 @@ class ResponseType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ReferenceID
+     * @return \App\UBL\Common\CBC\ReferenceID
      */
     public function getReferenceID()
     {
@@ -132,10 +132,10 @@ class ResponseType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ReferenceID $referenceID
+     * @param \App\UBL\Common\CBC\ReferenceID $referenceID
      * @return self
      */
-    public function setReferenceID(?\UBL\Common\CBC\ReferenceID $referenceID = null)
+    public function setReferenceID(?\App\UBL\Common\CBC\ReferenceID $referenceID = null)
     {
         $this->referenceID = $referenceID;
         return $this;
@@ -153,7 +153,7 @@ class ResponseType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ResponseCode
+     * @return \App\UBL\Common\CBC\ResponseCode
      */
     public function getResponseCode()
     {
@@ -172,10 +172,10 @@ class ResponseType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ResponseCode $responseCode
+     * @param \App\UBL\Common\CBC\ResponseCode $responseCode
      * @return self
      */
-    public function setResponseCode(?\UBL\Common\CBC\ResponseCode $responseCode = null)
+    public function setResponseCode(?\App\UBL\Common\CBC\ResponseCode $responseCode = null)
     {
         $this->responseCode = $responseCode;
         return $this;
@@ -194,9 +194,9 @@ class ResponseType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -254,7 +254,7 @@ class ResponseType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -273,7 +273,7 @@ class ResponseType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -375,9 +375,9 @@ class ResponseType
      *  Status
      *
      * @return self
-     * @param \UBL\Common\CAC\Status $status
+     * @param \App\UBL\Common\CAC\Status $status
      */
-    public function addToStatus(\UBL\Common\CAC\Status $status)
+    public function addToStatus(\App\UBL\Common\CAC\Status $status)
     {
         $this->status[] = $status;
         return $this;
@@ -435,7 +435,7 @@ class ResponseType
      *  Status
      *  Status
      *
-     * @return \UBL\Common\CAC\Status[]
+     * @return \App\UBL\Common\CAC\Status[]
      */
     public function getStatus()
     {
@@ -454,7 +454,7 @@ class ResponseType
      *  Status
      *  Status
      *
-     * @param \UBL\Common\CAC\Status[] $status
+     * @param \App\UBL\Common\CAC\Status[] $status
      * @return self
      */
     public function setStatus(?array $status = null)
@@ -463,5 +463,4 @@ class ResponseType
         return $this;
     }
 }
-
 

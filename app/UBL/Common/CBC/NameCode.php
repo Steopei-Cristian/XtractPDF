@@ -9,4 +9,3 @@ class NameCode extends NameCodeType
 {
 }
 
-

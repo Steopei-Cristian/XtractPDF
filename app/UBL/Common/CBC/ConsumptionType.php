@@ -9,4 +9,3 @@ class ConsumptionType extends ConsumptionTypeType
 {
 }
 
-

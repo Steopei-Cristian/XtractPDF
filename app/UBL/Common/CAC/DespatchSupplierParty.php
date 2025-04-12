@@ -9,4 +9,3 @@ class DespatchSupplierParty extends SupplierPartyType
 {
 }
 
-

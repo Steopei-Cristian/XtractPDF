@@ -9,4 +9,3 @@ class JobTitle extends JobTitleType
 {
 }
 
-

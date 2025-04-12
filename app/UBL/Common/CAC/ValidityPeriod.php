@@ -9,4 +9,3 @@ class ValidityPeriod extends PeriodType
 {
 }
 
-

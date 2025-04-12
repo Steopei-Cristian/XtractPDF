@@ -9,4 +9,3 @@ class ItemLocationQuantity extends ItemLocationQuantityType
 {
 }
 
-

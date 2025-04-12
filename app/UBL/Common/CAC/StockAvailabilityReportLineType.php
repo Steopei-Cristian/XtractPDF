@@ -23,7 +23,7 @@ class StockAvailabilityReportLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class StockAvailabilityReportLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -53,7 +53,7 @@ class StockAvailabilityReportLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -67,7 +67,7 @@ class StockAvailabilityReportLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\ValueAmount $valueAmount
+     * @var \App\UBL\Common\CBC\ValueAmount $valueAmount
      */
     private $valueAmount = null;
 
@@ -95,7 +95,7 @@ class StockAvailabilityReportLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\AvailabilityStatusCode $availabilityStatusCode
+     * @var \App\UBL\Common\CBC\AvailabilityStatusCode $availabilityStatusCode
      */
     private $availabilityStatusCode = null;
 
@@ -109,7 +109,7 @@ class StockAvailabilityReportLineType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item $item
+     * @var \App\UBL\Common\CAC\Item $item
      */
     private $item = null;
 
@@ -125,7 +125,7 @@ class StockAvailabilityReportLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -144,10 +144,10 @@ class StockAvailabilityReportLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -166,9 +166,9 @@ class StockAvailabilityReportLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -226,7 +226,7 @@ class StockAvailabilityReportLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -245,7 +245,7 @@ class StockAvailabilityReportLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -266,7 +266,7 @@ class StockAvailabilityReportLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -285,10 +285,10 @@ class StockAvailabilityReportLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(\UBL\Common\CBC\Quantity $quantity)
+    public function setQuantity(\App\UBL\Common\CBC\Quantity $quantity)
     {
         $this->quantity = $quantity;
         return $this;
@@ -306,7 +306,7 @@ class StockAvailabilityReportLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\ValueAmount
+     * @return \App\UBL\Common\CBC\ValueAmount
      */
     public function getValueAmount()
     {
@@ -325,10 +325,10 @@ class StockAvailabilityReportLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\ValueAmount $valueAmount
+     * @param \App\UBL\Common\CBC\ValueAmount $valueAmount
      * @return self
      */
-    public function setValueAmount(?\UBL\Common\CBC\ValueAmount $valueAmount = null)
+    public function setValueAmount(?\App\UBL\Common\CBC\ValueAmount $valueAmount = null)
     {
         $this->valueAmount = $valueAmount;
         return $this;
@@ -386,7 +386,7 @@ class StockAvailabilityReportLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\AvailabilityStatusCode
+     * @return \App\UBL\Common\CBC\AvailabilityStatusCode
      */
     public function getAvailabilityStatusCode()
     {
@@ -405,10 +405,10 @@ class StockAvailabilityReportLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\AvailabilityStatusCode $availabilityStatusCode
+     * @param \App\UBL\Common\CBC\AvailabilityStatusCode $availabilityStatusCode
      * @return self
      */
-    public function setAvailabilityStatusCode(?\UBL\Common\CBC\AvailabilityStatusCode $availabilityStatusCode = null)
+    public function setAvailabilityStatusCode(?\App\UBL\Common\CBC\AvailabilityStatusCode $availabilityStatusCode = null)
     {
         $this->availabilityStatusCode = $availabilityStatusCode;
         return $this;
@@ -426,7 +426,7 @@ class StockAvailabilityReportLineType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item
+     * @return \App\UBL\Common\CAC\Item
      */
     public function getItem()
     {
@@ -445,14 +445,13 @@ class StockAvailabilityReportLineType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      * @return self
      */
-    public function setItem(\UBL\Common\CAC\Item $item)
+    public function setItem(\App\UBL\Common\CAC\Item $item)
     {
         $this->item = $item;
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class ExternalReference extends ExternalReferenceType
 {
 }
 
-

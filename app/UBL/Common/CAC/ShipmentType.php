@@ -24,7 +24,7 @@ class ShipmentType
      *  Identifier. Type
      *  Waybill Number
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class ShipmentType
      *  Code. Type
      *  Service Level, Service Priority
      *
-     * @var \UBL\Common\CBC\ShippingPriorityLevelCode $shippingPriorityLevelCode
+     * @var \App\UBL\Common\CBC\ShippingPriorityLevelCode $shippingPriorityLevelCode
      */
     private $shippingPriorityLevelCode = null;
 
@@ -54,7 +54,7 @@ class ShipmentType
      *  Code. Type
      *  Special Handling
      *
-     * @var \UBL\Common\CBC\HandlingCode $handlingCode
+     * @var \App\UBL\Common\CBC\HandlingCode $handlingCode
      */
     private $handlingCode = null;
 
@@ -69,7 +69,7 @@ class ShipmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\HandlingInstructions[] $handlingInstructions
+     * @var \App\UBL\Common\CBC\HandlingInstructions[] $handlingInstructions
      */
     private $handlingInstructions = [
         
@@ -85,7 +85,7 @@ class ShipmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Information[] $information
+     * @var \App\UBL\Common\CBC\Information[] $information
      */
     private $information = [
         
@@ -102,7 +102,7 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
+     * @var \App\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
      */
     private $grossWeightMeasure = null;
 
@@ -117,7 +117,7 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
+     * @var \App\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
      */
     private $netWeightMeasure = null;
 
@@ -132,7 +132,7 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure
+     * @var \App\UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure
      */
     private $netNetWeightMeasure = null;
 
@@ -147,7 +147,7 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
+     * @var \App\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
      */
     private $grossVolumeMeasure = null;
 
@@ -162,7 +162,7 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
+     * @var \App\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
      */
     private $netVolumeMeasure = null;
 
@@ -177,7 +177,7 @@ class ShipmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity
+     * @var \App\UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity
      */
     private $totalGoodsItemQuantity = null;
 
@@ -193,7 +193,7 @@ class ShipmentType
      *  Quantity. Type
      *  Number of THUs
      *
-     * @var \UBL\Common\CBC\TotalTransportHandlingUnitQuantity $totalTransportHandlingUnitQuantity
+     * @var \App\UBL\Common\CBC\TotalTransportHandlingUnitQuantity $totalTransportHandlingUnitQuantity
      */
     private $totalTransportHandlingUnitQuantity = null;
 
@@ -209,7 +209,7 @@ class ShipmentType
      *  Amount. Type
      *  Value Insured
      *
-     * @var \UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount
+     * @var \App\UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount
      */
     private $insuranceValueAmount = null;
 
@@ -224,7 +224,7 @@ class ShipmentType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount
+     * @var \App\UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount
      */
     private $declaredCustomsValueAmount = null;
 
@@ -240,7 +240,7 @@ class ShipmentType
      *  Amount. Type
      *  Declared value for carriage, Interest in delivery
      *
-     * @var \UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount
+     * @var \App\UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount
      */
     private $declaredForCarriageValueAmount = null;
 
@@ -256,7 +256,7 @@ class ShipmentType
      *  Amount. Type
      *  Statistical Value
      *
-     * @var \UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount
+     * @var \App\UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount
      */
     private $declaredStatisticsValueAmount = null;
 
@@ -272,7 +272,7 @@ class ShipmentType
      *  Amount. Type
      *  FOB Value
      *
-     * @var \UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount
+     * @var \App\UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount
      */
     private $freeOnBoardValueAmount = null;
 
@@ -287,7 +287,7 @@ class ShipmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\SpecialInstructions[] $specialInstructions
+     * @var \App\UBL\Common\CBC\SpecialInstructions[] $specialInstructions
      */
     private $specialInstructions = [
         
@@ -304,7 +304,7 @@ class ShipmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\DeliveryInstructions[] $deliveryInstructions
+     * @var \App\UBL\Common\CBC\DeliveryInstructions[] $deliveryInstructions
      */
     private $deliveryInstructions = [
         
@@ -336,7 +336,7 @@ class ShipmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ConsignmentQuantity $consignmentQuantity
+     * @var \App\UBL\Common\CBC\ConsignmentQuantity $consignmentQuantity
      */
     private $consignmentQuantity = null;
 
@@ -350,7 +350,7 @@ class ShipmentType
      *  Consignment
      *  Consignment
      *
-     * @var \UBL\Common\CAC\Consignment[] $consignment
+     * @var \App\UBL\Common\CAC\Consignment[] $consignment
      */
     private $consignment = [
         
@@ -366,7 +366,7 @@ class ShipmentType
      *  Goods Item
      *  Goods Item
      *
-     * @var \UBL\Common\CAC\GoodsItem[] $goodsItem
+     * @var \App\UBL\Common\CAC\GoodsItem[] $goodsItem
      */
     private $goodsItem = [
         
@@ -382,7 +382,7 @@ class ShipmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @var \UBL\Common\CAC\ShipmentStage[] $shipmentStage
+     * @var \App\UBL\Common\CAC\ShipmentStage[] $shipmentStage
      */
     private $shipmentStage = [
         
@@ -398,7 +398,7 @@ class ShipmentType
      *  Delivery
      *  Delivery
      *
-     * @var \UBL\Common\CAC\Delivery $delivery
+     * @var \App\UBL\Common\CAC\Delivery $delivery
      */
     private $delivery = null;
 
@@ -412,7 +412,7 @@ class ShipmentType
      *  Transport Handling Unit
      *  Transport Handling Unit
      *
-     * @var \UBL\Common\CAC\TransportHandlingUnit[] $transportHandlingUnit
+     * @var \App\UBL\Common\CAC\TransportHandlingUnit[] $transportHandlingUnit
      */
     private $transportHandlingUnit = [
         
@@ -429,7 +429,7 @@ class ShipmentType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\ReturnAddress $returnAddress
+     * @var \App\UBL\Common\CAC\ReturnAddress $returnAddress
      */
     private $returnAddress = null;
 
@@ -444,7 +444,7 @@ class ShipmentType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\OriginAddress $originAddress
+     * @var \App\UBL\Common\CAC\OriginAddress $originAddress
      */
     private $originAddress = null;
 
@@ -459,7 +459,7 @@ class ShipmentType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\FirstArrivalPortLocation $firstArrivalPortLocation
+     * @var \App\UBL\Common\CAC\FirstArrivalPortLocation $firstArrivalPortLocation
      */
     private $firstArrivalPortLocation = null;
 
@@ -474,7 +474,7 @@ class ShipmentType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\LastExitPortLocation $lastExitPortLocation
+     * @var \App\UBL\Common\CAC\LastExitPortLocation $lastExitPortLocation
      */
     private $lastExitPortLocation = null;
 
@@ -490,7 +490,7 @@ class ShipmentType
      *  Country
      *  Country of exportation (WCO ID 062)
      *
-     * @var \UBL\Common\CAC\ExportCountry $exportCountry
+     * @var \App\UBL\Common\CAC\ExportCountry $exportCountry
      */
     private $exportCountry = null;
 
@@ -506,7 +506,7 @@ class ShipmentType
      *  Allowance Charge
      *  Freight Costs
      *
-     * @var \UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
+     * @var \App\UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
      */
     private $freightAllowanceCharge = [
         
@@ -525,7 +525,7 @@ class ShipmentType
      *  Identifier. Type
      *  Waybill Number
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -545,10 +545,10 @@ class ShipmentType
      *  Identifier. Type
      *  Waybill Number
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -567,7 +567,7 @@ class ShipmentType
      *  Code. Type
      *  Service Level, Service Priority
      *
-     * @return \UBL\Common\CBC\ShippingPriorityLevelCode
+     * @return \App\UBL\Common\CBC\ShippingPriorityLevelCode
      */
     public function getShippingPriorityLevelCode()
     {
@@ -587,10 +587,10 @@ class ShipmentType
      *  Code. Type
      *  Service Level, Service Priority
      *
-     * @param \UBL\Common\CBC\ShippingPriorityLevelCode $shippingPriorityLevelCode
+     * @param \App\UBL\Common\CBC\ShippingPriorityLevelCode $shippingPriorityLevelCode
      * @return self
      */
-    public function setShippingPriorityLevelCode(?\UBL\Common\CBC\ShippingPriorityLevelCode $shippingPriorityLevelCode = null)
+    public function setShippingPriorityLevelCode(?\App\UBL\Common\CBC\ShippingPriorityLevelCode $shippingPriorityLevelCode = null)
     {
         $this->shippingPriorityLevelCode = $shippingPriorityLevelCode;
         return $this;
@@ -609,7 +609,7 @@ class ShipmentType
      *  Code. Type
      *  Special Handling
      *
-     * @return \UBL\Common\CBC\HandlingCode
+     * @return \App\UBL\Common\CBC\HandlingCode
      */
     public function getHandlingCode()
     {
@@ -629,10 +629,10 @@ class ShipmentType
      *  Code. Type
      *  Special Handling
      *
-     * @param \UBL\Common\CBC\HandlingCode $handlingCode
+     * @param \App\UBL\Common\CBC\HandlingCode $handlingCode
      * @return self
      */
-    public function setHandlingCode(?\UBL\Common\CBC\HandlingCode $handlingCode = null)
+    public function setHandlingCode(?\App\UBL\Common\CBC\HandlingCode $handlingCode = null)
     {
         $this->handlingCode = $handlingCode;
         return $this;
@@ -652,9 +652,9 @@ class ShipmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\HandlingInstructions $handlingInstructions
+     * @param \App\UBL\Common\CBC\HandlingInstructions $handlingInstructions
      */
-    public function addToHandlingInstructions(\UBL\Common\CBC\HandlingInstructions $handlingInstructions)
+    public function addToHandlingInstructions(\App\UBL\Common\CBC\HandlingInstructions $handlingInstructions)
     {
         $this->handlingInstructions[] = $handlingInstructions;
         return $this;
@@ -715,7 +715,7 @@ class ShipmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\HandlingInstructions[]
+     * @return \App\UBL\Common\CBC\HandlingInstructions[]
      */
     public function getHandlingInstructions()
     {
@@ -735,7 +735,7 @@ class ShipmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\HandlingInstructions[] $handlingInstructions
+     * @param \App\UBL\Common\CBC\HandlingInstructions[] $handlingInstructions
      * @return self
      */
     public function setHandlingInstructions(?array $handlingInstructions = null)
@@ -757,9 +757,9 @@ class ShipmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Information $information
+     * @param \App\UBL\Common\CBC\Information $information
      */
-    public function addToInformation(\UBL\Common\CBC\Information $information)
+    public function addToInformation(\App\UBL\Common\CBC\Information $information)
     {
         $this->information[] = $information;
         return $this;
@@ -817,7 +817,7 @@ class ShipmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Information[]
+     * @return \App\UBL\Common\CBC\Information[]
      */
     public function getInformation()
     {
@@ -836,7 +836,7 @@ class ShipmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Information[] $information
+     * @param \App\UBL\Common\CBC\Information[] $information
      * @return self
      */
     public function setInformation(?array $information = null)
@@ -858,7 +858,7 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\GrossWeightMeasure
+     * @return \App\UBL\Common\CBC\GrossWeightMeasure
      */
     public function getGrossWeightMeasure()
     {
@@ -878,10 +878,10 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
+     * @param \App\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
      * @return self
      */
-    public function setGrossWeightMeasure(?\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure = null)
+    public function setGrossWeightMeasure(?\App\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure = null)
     {
         $this->grossWeightMeasure = $grossWeightMeasure;
         return $this;
@@ -900,7 +900,7 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\NetWeightMeasure
+     * @return \App\UBL\Common\CBC\NetWeightMeasure
      */
     public function getNetWeightMeasure()
     {
@@ -920,10 +920,10 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
+     * @param \App\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
      * @return self
      */
-    public function setNetWeightMeasure(?\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure = null)
+    public function setNetWeightMeasure(?\App\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure = null)
     {
         $this->netWeightMeasure = $netWeightMeasure;
         return $this;
@@ -942,7 +942,7 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\NetNetWeightMeasure
+     * @return \App\UBL\Common\CBC\NetNetWeightMeasure
      */
     public function getNetNetWeightMeasure()
     {
@@ -962,10 +962,10 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure
+     * @param \App\UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure
      * @return self
      */
-    public function setNetNetWeightMeasure(?\UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure = null)
+    public function setNetNetWeightMeasure(?\App\UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure = null)
     {
         $this->netNetWeightMeasure = $netNetWeightMeasure;
         return $this;
@@ -984,7 +984,7 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\GrossVolumeMeasure
+     * @return \App\UBL\Common\CBC\GrossVolumeMeasure
      */
     public function getGrossVolumeMeasure()
     {
@@ -1004,10 +1004,10 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
+     * @param \App\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
      * @return self
      */
-    public function setGrossVolumeMeasure(?\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure = null)
+    public function setGrossVolumeMeasure(?\App\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure = null)
     {
         $this->grossVolumeMeasure = $grossVolumeMeasure;
         return $this;
@@ -1026,7 +1026,7 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\NetVolumeMeasure
+     * @return \App\UBL\Common\CBC\NetVolumeMeasure
      */
     public function getNetVolumeMeasure()
     {
@@ -1046,10 +1046,10 @@ class ShipmentType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
+     * @param \App\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
      * @return self
      */
-    public function setNetVolumeMeasure(?\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure = null)
+    public function setNetVolumeMeasure(?\App\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure = null)
     {
         $this->netVolumeMeasure = $netVolumeMeasure;
         return $this;
@@ -1068,7 +1068,7 @@ class ShipmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\TotalGoodsItemQuantity
+     * @return \App\UBL\Common\CBC\TotalGoodsItemQuantity
      */
     public function getTotalGoodsItemQuantity()
     {
@@ -1088,10 +1088,10 @@ class ShipmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity
+     * @param \App\UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity
      * @return self
      */
-    public function setTotalGoodsItemQuantity(?\UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity = null)
+    public function setTotalGoodsItemQuantity(?\App\UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity = null)
     {
         $this->totalGoodsItemQuantity = $totalGoodsItemQuantity;
         return $this;
@@ -1111,7 +1111,7 @@ class ShipmentType
      *  Quantity. Type
      *  Number of THUs
      *
-     * @return \UBL\Common\CBC\TotalTransportHandlingUnitQuantity
+     * @return \App\UBL\Common\CBC\TotalTransportHandlingUnitQuantity
      */
     public function getTotalTransportHandlingUnitQuantity()
     {
@@ -1132,10 +1132,10 @@ class ShipmentType
      *  Quantity. Type
      *  Number of THUs
      *
-     * @param \UBL\Common\CBC\TotalTransportHandlingUnitQuantity $totalTransportHandlingUnitQuantity
+     * @param \App\UBL\Common\CBC\TotalTransportHandlingUnitQuantity $totalTransportHandlingUnitQuantity
      * @return self
      */
-    public function setTotalTransportHandlingUnitQuantity(?\UBL\Common\CBC\TotalTransportHandlingUnitQuantity $totalTransportHandlingUnitQuantity = null)
+    public function setTotalTransportHandlingUnitQuantity(?\App\UBL\Common\CBC\TotalTransportHandlingUnitQuantity $totalTransportHandlingUnitQuantity = null)
     {
         $this->totalTransportHandlingUnitQuantity = $totalTransportHandlingUnitQuantity;
         return $this;
@@ -1155,7 +1155,7 @@ class ShipmentType
      *  Amount. Type
      *  Value Insured
      *
-     * @return \UBL\Common\CBC\InsuranceValueAmount
+     * @return \App\UBL\Common\CBC\InsuranceValueAmount
      */
     public function getInsuranceValueAmount()
     {
@@ -1176,10 +1176,10 @@ class ShipmentType
      *  Amount. Type
      *  Value Insured
      *
-     * @param \UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount
+     * @param \App\UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount
      * @return self
      */
-    public function setInsuranceValueAmount(?\UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount = null)
+    public function setInsuranceValueAmount(?\App\UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount = null)
     {
         $this->insuranceValueAmount = $insuranceValueAmount;
         return $this;
@@ -1198,7 +1198,7 @@ class ShipmentType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\DeclaredCustomsValueAmount
+     * @return \App\UBL\Common\CBC\DeclaredCustomsValueAmount
      */
     public function getDeclaredCustomsValueAmount()
     {
@@ -1218,10 +1218,10 @@ class ShipmentType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount
+     * @param \App\UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount
      * @return self
      */
-    public function setDeclaredCustomsValueAmount(?\UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount = null)
+    public function setDeclaredCustomsValueAmount(?\App\UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount = null)
     {
         $this->declaredCustomsValueAmount = $declaredCustomsValueAmount;
         return $this;
@@ -1241,7 +1241,7 @@ class ShipmentType
      *  Amount. Type
      *  Declared value for carriage, Interest in delivery
      *
-     * @return \UBL\Common\CBC\DeclaredForCarriageValueAmount
+     * @return \App\UBL\Common\CBC\DeclaredForCarriageValueAmount
      */
     public function getDeclaredForCarriageValueAmount()
     {
@@ -1262,10 +1262,10 @@ class ShipmentType
      *  Amount. Type
      *  Declared value for carriage, Interest in delivery
      *
-     * @param \UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount
+     * @param \App\UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount
      * @return self
      */
-    public function setDeclaredForCarriageValueAmount(?\UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount = null)
+    public function setDeclaredForCarriageValueAmount(?\App\UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount = null)
     {
         $this->declaredForCarriageValueAmount = $declaredForCarriageValueAmount;
         return $this;
@@ -1285,7 +1285,7 @@ class ShipmentType
      *  Amount. Type
      *  Statistical Value
      *
-     * @return \UBL\Common\CBC\DeclaredStatisticsValueAmount
+     * @return \App\UBL\Common\CBC\DeclaredStatisticsValueAmount
      */
     public function getDeclaredStatisticsValueAmount()
     {
@@ -1306,10 +1306,10 @@ class ShipmentType
      *  Amount. Type
      *  Statistical Value
      *
-     * @param \UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount
+     * @param \App\UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount
      * @return self
      */
-    public function setDeclaredStatisticsValueAmount(?\UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount = null)
+    public function setDeclaredStatisticsValueAmount(?\App\UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount = null)
     {
         $this->declaredStatisticsValueAmount = $declaredStatisticsValueAmount;
         return $this;
@@ -1329,7 +1329,7 @@ class ShipmentType
      *  Amount. Type
      *  FOB Value
      *
-     * @return \UBL\Common\CBC\FreeOnBoardValueAmount
+     * @return \App\UBL\Common\CBC\FreeOnBoardValueAmount
      */
     public function getFreeOnBoardValueAmount()
     {
@@ -1350,10 +1350,10 @@ class ShipmentType
      *  Amount. Type
      *  FOB Value
      *
-     * @param \UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount
+     * @param \App\UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount
      * @return self
      */
-    public function setFreeOnBoardValueAmount(?\UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount = null)
+    public function setFreeOnBoardValueAmount(?\App\UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount = null)
     {
         $this->freeOnBoardValueAmount = $freeOnBoardValueAmount;
         return $this;
@@ -1373,9 +1373,9 @@ class ShipmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\SpecialInstructions $specialInstructions
+     * @param \App\UBL\Common\CBC\SpecialInstructions $specialInstructions
      */
-    public function addToSpecialInstructions(\UBL\Common\CBC\SpecialInstructions $specialInstructions)
+    public function addToSpecialInstructions(\App\UBL\Common\CBC\SpecialInstructions $specialInstructions)
     {
         $this->specialInstructions[] = $specialInstructions;
         return $this;
@@ -1436,7 +1436,7 @@ class ShipmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\SpecialInstructions[]
+     * @return \App\UBL\Common\CBC\SpecialInstructions[]
      */
     public function getSpecialInstructions()
     {
@@ -1456,7 +1456,7 @@ class ShipmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\SpecialInstructions[] $specialInstructions
+     * @param \App\UBL\Common\CBC\SpecialInstructions[] $specialInstructions
      * @return self
      */
     public function setSpecialInstructions(?array $specialInstructions = null)
@@ -1479,9 +1479,9 @@ class ShipmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\DeliveryInstructions $deliveryInstructions
+     * @param \App\UBL\Common\CBC\DeliveryInstructions $deliveryInstructions
      */
-    public function addToDeliveryInstructions(\UBL\Common\CBC\DeliveryInstructions $deliveryInstructions)
+    public function addToDeliveryInstructions(\App\UBL\Common\CBC\DeliveryInstructions $deliveryInstructions)
     {
         $this->deliveryInstructions[] = $deliveryInstructions;
         return $this;
@@ -1542,7 +1542,7 @@ class ShipmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\DeliveryInstructions[]
+     * @return \App\UBL\Common\CBC\DeliveryInstructions[]
      */
     public function getDeliveryInstructions()
     {
@@ -1562,7 +1562,7 @@ class ShipmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\DeliveryInstructions[] $deliveryInstructions
+     * @param \App\UBL\Common\CBC\DeliveryInstructions[] $deliveryInstructions
      * @return self
      */
     public function setDeliveryInstructions(?array $deliveryInstructions = null)
@@ -1626,7 +1626,7 @@ class ShipmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ConsignmentQuantity
+     * @return \App\UBL\Common\CBC\ConsignmentQuantity
      */
     public function getConsignmentQuantity()
     {
@@ -1646,10 +1646,10 @@ class ShipmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ConsignmentQuantity $consignmentQuantity
+     * @param \App\UBL\Common\CBC\ConsignmentQuantity $consignmentQuantity
      * @return self
      */
-    public function setConsignmentQuantity(?\UBL\Common\CBC\ConsignmentQuantity $consignmentQuantity = null)
+    public function setConsignmentQuantity(?\App\UBL\Common\CBC\ConsignmentQuantity $consignmentQuantity = null)
     {
         $this->consignmentQuantity = $consignmentQuantity;
         return $this;
@@ -1668,9 +1668,9 @@ class ShipmentType
      *  Consignment
      *
      * @return self
-     * @param \UBL\Common\CAC\Consignment $consignment
+     * @param \App\UBL\Common\CAC\Consignment $consignment
      */
-    public function addToConsignment(\UBL\Common\CAC\Consignment $consignment)
+    public function addToConsignment(\App\UBL\Common\CAC\Consignment $consignment)
     {
         $this->consignment[] = $consignment;
         return $this;
@@ -1728,7 +1728,7 @@ class ShipmentType
      *  Consignment
      *  Consignment
      *
-     * @return \UBL\Common\CAC\Consignment[]
+     * @return \App\UBL\Common\CAC\Consignment[]
      */
     public function getConsignment()
     {
@@ -1747,7 +1747,7 @@ class ShipmentType
      *  Consignment
      *  Consignment
      *
-     * @param \UBL\Common\CAC\Consignment[] $consignment
+     * @param \App\UBL\Common\CAC\Consignment[] $consignment
      * @return self
      */
     public function setConsignment(?array $consignment = null)
@@ -1769,9 +1769,9 @@ class ShipmentType
      *  Goods Item
      *
      * @return self
-     * @param \UBL\Common\CAC\GoodsItem $goodsItem
+     * @param \App\UBL\Common\CAC\GoodsItem $goodsItem
      */
-    public function addToGoodsItem(\UBL\Common\CAC\GoodsItem $goodsItem)
+    public function addToGoodsItem(\App\UBL\Common\CAC\GoodsItem $goodsItem)
     {
         $this->goodsItem[] = $goodsItem;
         return $this;
@@ -1829,7 +1829,7 @@ class ShipmentType
      *  Goods Item
      *  Goods Item
      *
-     * @return \UBL\Common\CAC\GoodsItem[]
+     * @return \App\UBL\Common\CAC\GoodsItem[]
      */
     public function getGoodsItem()
     {
@@ -1848,7 +1848,7 @@ class ShipmentType
      *  Goods Item
      *  Goods Item
      *
-     * @param \UBL\Common\CAC\GoodsItem[] $goodsItem
+     * @param \App\UBL\Common\CAC\GoodsItem[] $goodsItem
      * @return self
      */
     public function setGoodsItem(?array $goodsItem = null)
@@ -1870,9 +1870,9 @@ class ShipmentType
      *  Shipment Stage
      *
      * @return self
-     * @param \UBL\Common\CAC\ShipmentStage $shipmentStage
+     * @param \App\UBL\Common\CAC\ShipmentStage $shipmentStage
      */
-    public function addToShipmentStage(\UBL\Common\CAC\ShipmentStage $shipmentStage)
+    public function addToShipmentStage(\App\UBL\Common\CAC\ShipmentStage $shipmentStage)
     {
         $this->shipmentStage[] = $shipmentStage;
         return $this;
@@ -1930,7 +1930,7 @@ class ShipmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @return \UBL\Common\CAC\ShipmentStage[]
+     * @return \App\UBL\Common\CAC\ShipmentStage[]
      */
     public function getShipmentStage()
     {
@@ -1949,7 +1949,7 @@ class ShipmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @param \UBL\Common\CAC\ShipmentStage[] $shipmentStage
+     * @param \App\UBL\Common\CAC\ShipmentStage[] $shipmentStage
      * @return self
      */
     public function setShipmentStage(?array $shipmentStage = null)
@@ -1970,7 +1970,7 @@ class ShipmentType
      *  Delivery
      *  Delivery
      *
-     * @return \UBL\Common\CAC\Delivery
+     * @return \App\UBL\Common\CAC\Delivery
      */
     public function getDelivery()
     {
@@ -1989,10 +1989,10 @@ class ShipmentType
      *  Delivery
      *  Delivery
      *
-     * @param \UBL\Common\CAC\Delivery $delivery
+     * @param \App\UBL\Common\CAC\Delivery $delivery
      * @return self
      */
-    public function setDelivery(?\UBL\Common\CAC\Delivery $delivery = null)
+    public function setDelivery(?\App\UBL\Common\CAC\Delivery $delivery = null)
     {
         $this->delivery = $delivery;
         return $this;
@@ -2011,9 +2011,9 @@ class ShipmentType
      *  Transport Handling Unit
      *
      * @return self
-     * @param \UBL\Common\CAC\TransportHandlingUnit $transportHandlingUnit
+     * @param \App\UBL\Common\CAC\TransportHandlingUnit $transportHandlingUnit
      */
-    public function addToTransportHandlingUnit(\UBL\Common\CAC\TransportHandlingUnit $transportHandlingUnit)
+    public function addToTransportHandlingUnit(\App\UBL\Common\CAC\TransportHandlingUnit $transportHandlingUnit)
     {
         $this->transportHandlingUnit[] = $transportHandlingUnit;
         return $this;
@@ -2071,7 +2071,7 @@ class ShipmentType
      *  Transport Handling Unit
      *  Transport Handling Unit
      *
-     * @return \UBL\Common\CAC\TransportHandlingUnit[]
+     * @return \App\UBL\Common\CAC\TransportHandlingUnit[]
      */
     public function getTransportHandlingUnit()
     {
@@ -2090,7 +2090,7 @@ class ShipmentType
      *  Transport Handling Unit
      *  Transport Handling Unit
      *
-     * @param \UBL\Common\CAC\TransportHandlingUnit[] $transportHandlingUnit
+     * @param \App\UBL\Common\CAC\TransportHandlingUnit[] $transportHandlingUnit
      * @return self
      */
     public function setTransportHandlingUnit(?array $transportHandlingUnit = null)
@@ -2112,7 +2112,7 @@ class ShipmentType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\ReturnAddress
+     * @return \App\UBL\Common\CAC\ReturnAddress
      */
     public function getReturnAddress()
     {
@@ -2132,10 +2132,10 @@ class ShipmentType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\ReturnAddress $returnAddress
+     * @param \App\UBL\Common\CAC\ReturnAddress $returnAddress
      * @return self
      */
-    public function setReturnAddress(?\UBL\Common\CAC\ReturnAddress $returnAddress = null)
+    public function setReturnAddress(?\App\UBL\Common\CAC\ReturnAddress $returnAddress = null)
     {
         $this->returnAddress = $returnAddress;
         return $this;
@@ -2154,7 +2154,7 @@ class ShipmentType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\OriginAddress
+     * @return \App\UBL\Common\CAC\OriginAddress
      */
     public function getOriginAddress()
     {
@@ -2174,10 +2174,10 @@ class ShipmentType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\OriginAddress $originAddress
+     * @param \App\UBL\Common\CAC\OriginAddress $originAddress
      * @return self
      */
-    public function setOriginAddress(?\UBL\Common\CAC\OriginAddress $originAddress = null)
+    public function setOriginAddress(?\App\UBL\Common\CAC\OriginAddress $originAddress = null)
     {
         $this->originAddress = $originAddress;
         return $this;
@@ -2196,7 +2196,7 @@ class ShipmentType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\FirstArrivalPortLocation
+     * @return \App\UBL\Common\CAC\FirstArrivalPortLocation
      */
     public function getFirstArrivalPortLocation()
     {
@@ -2216,10 +2216,10 @@ class ShipmentType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\FirstArrivalPortLocation $firstArrivalPortLocation
+     * @param \App\UBL\Common\CAC\FirstArrivalPortLocation $firstArrivalPortLocation
      * @return self
      */
-    public function setFirstArrivalPortLocation(?\UBL\Common\CAC\FirstArrivalPortLocation $firstArrivalPortLocation = null)
+    public function setFirstArrivalPortLocation(?\App\UBL\Common\CAC\FirstArrivalPortLocation $firstArrivalPortLocation = null)
     {
         $this->firstArrivalPortLocation = $firstArrivalPortLocation;
         return $this;
@@ -2238,7 +2238,7 @@ class ShipmentType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\LastExitPortLocation
+     * @return \App\UBL\Common\CAC\LastExitPortLocation
      */
     public function getLastExitPortLocation()
     {
@@ -2258,10 +2258,10 @@ class ShipmentType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\LastExitPortLocation $lastExitPortLocation
+     * @param \App\UBL\Common\CAC\LastExitPortLocation $lastExitPortLocation
      * @return self
      */
-    public function setLastExitPortLocation(?\UBL\Common\CAC\LastExitPortLocation $lastExitPortLocation = null)
+    public function setLastExitPortLocation(?\App\UBL\Common\CAC\LastExitPortLocation $lastExitPortLocation = null)
     {
         $this->lastExitPortLocation = $lastExitPortLocation;
         return $this;
@@ -2281,7 +2281,7 @@ class ShipmentType
      *  Country
      *  Country of exportation (WCO ID 062)
      *
-     * @return \UBL\Common\CAC\ExportCountry
+     * @return \App\UBL\Common\CAC\ExportCountry
      */
     public function getExportCountry()
     {
@@ -2302,10 +2302,10 @@ class ShipmentType
      *  Country
      *  Country of exportation (WCO ID 062)
      *
-     * @param \UBL\Common\CAC\ExportCountry $exportCountry
+     * @param \App\UBL\Common\CAC\ExportCountry $exportCountry
      * @return self
      */
-    public function setExportCountry(?\UBL\Common\CAC\ExportCountry $exportCountry = null)
+    public function setExportCountry(?\App\UBL\Common\CAC\ExportCountry $exportCountry = null)
     {
         $this->exportCountry = $exportCountry;
         return $this;
@@ -2326,9 +2326,9 @@ class ShipmentType
      *  Freight Costs
      *
      * @return self
-     * @param \UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge
+     * @param \App\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge
      */
-    public function addToFreightAllowanceCharge(\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge)
+    public function addToFreightAllowanceCharge(\App\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge)
     {
         $this->freightAllowanceCharge[] = $freightAllowanceCharge;
         return $this;
@@ -2392,7 +2392,7 @@ class ShipmentType
      *  Allowance Charge
      *  Freight Costs
      *
-     * @return \UBL\Common\CAC\FreightAllowanceCharge[]
+     * @return \App\UBL\Common\CAC\FreightAllowanceCharge[]
      */
     public function getFreightAllowanceCharge()
     {
@@ -2413,7 +2413,7 @@ class ShipmentType
      *  Allowance Charge
      *  Freight Costs
      *
-     * @param \UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
+     * @param \App\UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
      * @return self
      */
     public function setFreightAllowanceCharge(?array $freightAllowanceCharge = null)
@@ -2422,5 +2422,4 @@ class ShipmentType
         return $this;
     }
 }
-
 

@@ -1,3 +1,3 @@
-UBL\Common\CAC\TransactionConditions:
+App\UBL\Common\CAC\TransactionConditions:
     xml_root_name: TransactionConditions
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

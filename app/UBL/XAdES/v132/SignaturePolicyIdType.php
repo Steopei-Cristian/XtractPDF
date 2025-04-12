@@ -11,29 +11,29 @@ namespace App\UBL\XAdES\v132;
 class SignaturePolicyIdType
 {
     /**
-     * @var \UBL\XAdES\v132\ObjectIdentifierType $sigPolicyId
+     * @var \App\UBL\XAdES\v132\ObjectIdentifierType $sigPolicyId
      */
     private $sigPolicyId = null;
 
     /**
-     * @var \UBL\Xmldsig\Transform[] $transforms
+     * @var \App\UBL\Xmldsig\Transform[] $transforms
      */
     private $transforms = null;
 
     /**
-     * @var \UBL\XAdES\v132\DigestAlgAndValueType $sigPolicyHash
+     * @var \App\UBL\XAdES\v132\DigestAlgAndValueType $sigPolicyHash
      */
     private $sigPolicyHash = null;
 
     /**
-     * @var \UBL\XAdES\v132\AnyType[] $sigPolicyQualifiers
+     * @var \App\UBL\XAdES\v132\AnyType[] $sigPolicyQualifiers
      */
     private $sigPolicyQualifiers = null;
 
     /**
      * Gets as sigPolicyId
      *
-     * @return \UBL\XAdES\v132\ObjectIdentifierType
+     * @return \App\UBL\XAdES\v132\ObjectIdentifierType
      */
     public function getSigPolicyId()
     {
@@ -43,10 +43,10 @@ class SignaturePolicyIdType
     /**
      * Sets a new sigPolicyId
      *
-     * @param \UBL\XAdES\v132\ObjectIdentifierType $sigPolicyId
+     * @param \App\UBL\XAdES\v132\ObjectIdentifierType $sigPolicyId
      * @return self
      */
-    public function setSigPolicyId(\UBL\XAdES\v132\ObjectIdentifierType $sigPolicyId)
+    public function setSigPolicyId(\App\UBL\XAdES\v132\ObjectIdentifierType $sigPolicyId)
     {
         $this->sigPolicyId = $sigPolicyId;
         return $this;
@@ -56,9 +56,9 @@ class SignaturePolicyIdType
      * Adds as transform
      *
      * @return self
-     * @param \UBL\Xmldsig\Transform $transform
+     * @param \App\UBL\Xmldsig\Transform $transform
      */
-    public function addToTransforms(\UBL\Xmldsig\Transform $transform)
+    public function addToTransforms(\App\UBL\Xmldsig\Transform $transform)
     {
         $this->transforms[] = $transform;
         return $this;
@@ -89,7 +89,7 @@ class SignaturePolicyIdType
     /**
      * Gets as transforms
      *
-     * @return \UBL\Xmldsig\Transform[]
+     * @return \App\UBL\Xmldsig\Transform[]
      */
     public function getTransforms()
     {
@@ -99,7 +99,7 @@ class SignaturePolicyIdType
     /**
      * Sets a new transforms
      *
-     * @param \UBL\Xmldsig\Transform[] $transforms
+     * @param \App\UBL\Xmldsig\Transform[] $transforms
      * @return self
      */
     public function setTransforms(?array $transforms = null)
@@ -111,7 +111,7 @@ class SignaturePolicyIdType
     /**
      * Gets as sigPolicyHash
      *
-     * @return \UBL\XAdES\v132\DigestAlgAndValueType
+     * @return \App\UBL\XAdES\v132\DigestAlgAndValueType
      */
     public function getSigPolicyHash()
     {
@@ -121,10 +121,10 @@ class SignaturePolicyIdType
     /**
      * Sets a new sigPolicyHash
      *
-     * @param \UBL\XAdES\v132\DigestAlgAndValueType $sigPolicyHash
+     * @param \App\UBL\XAdES\v132\DigestAlgAndValueType $sigPolicyHash
      * @return self
      */
-    public function setSigPolicyHash(\UBL\XAdES\v132\DigestAlgAndValueType $sigPolicyHash)
+    public function setSigPolicyHash(\App\UBL\XAdES\v132\DigestAlgAndValueType $sigPolicyHash)
     {
         $this->sigPolicyHash = $sigPolicyHash;
         return $this;
@@ -134,9 +134,9 @@ class SignaturePolicyIdType
      * Adds as sigPolicyQualifier
      *
      * @return self
-     * @param \UBL\XAdES\v132\AnyType $sigPolicyQualifier
+     * @param \App\UBL\XAdES\v132\AnyType $sigPolicyQualifier
      */
-    public function addToSigPolicyQualifiers(\UBL\XAdES\v132\AnyType $sigPolicyQualifier)
+    public function addToSigPolicyQualifiers(\App\UBL\XAdES\v132\AnyType $sigPolicyQualifier)
     {
         $this->sigPolicyQualifiers[] = $sigPolicyQualifier;
         return $this;
@@ -167,7 +167,7 @@ class SignaturePolicyIdType
     /**
      * Gets as sigPolicyQualifiers
      *
-     * @return \UBL\XAdES\v132\AnyType[]
+     * @return \App\UBL\XAdES\v132\AnyType[]
      */
     public function getSigPolicyQualifiers()
     {
@@ -177,7 +177,7 @@ class SignaturePolicyIdType
     /**
      * Sets a new sigPolicyQualifiers
      *
-     * @param \UBL\XAdES\v132\AnyType[] $sigPolicyQualifiers
+     * @param \App\UBL\XAdES\v132\AnyType[] $sigPolicyQualifiers
      * @return self
      */
     public function setSigPolicyQualifiers(?array $sigPolicyQualifiers = null)
@@ -186,5 +186,4 @@ class SignaturePolicyIdType
         return $this;
     }
 }
-
 

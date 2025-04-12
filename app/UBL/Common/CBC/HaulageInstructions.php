@@ -9,4 +9,3 @@ class HaulageInstructions extends HaulageInstructionsType
 {
 }
 
-

@@ -23,7 +23,7 @@ class AirTransportType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\AircraftID $aircraftID
+     * @var \App\UBL\Common\CBC\AircraftID $aircraftID
      */
     private $aircraftID = null;
 
@@ -39,7 +39,7 @@ class AirTransportType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\AircraftID
+     * @return \App\UBL\Common\CBC\AircraftID
      */
     public function getAircraftID()
     {
@@ -58,14 +58,13 @@ class AirTransportType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\AircraftID $aircraftID
+     * @param \App\UBL\Common\CBC\AircraftID $aircraftID
      * @return self
      */
-    public function setAircraftID(\UBL\Common\CBC\AircraftID $aircraftID)
+    public function setAircraftID(\App\UBL\Common\CBC\AircraftID $aircraftID)
     {
         $this->aircraftID = $aircraftID;
         return $this;
     }
 }
-
 

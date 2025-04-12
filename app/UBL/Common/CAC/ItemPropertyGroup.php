@@ -9,4 +9,3 @@ class ItemPropertyGroup extends ItemPropertyGroupType
 {
 }
 
-

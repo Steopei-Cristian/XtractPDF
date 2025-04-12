@@ -9,4 +9,3 @@ class Contact extends ContactType
 {
 }
 
-

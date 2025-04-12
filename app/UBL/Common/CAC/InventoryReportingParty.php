@@ -9,4 +9,3 @@ class InventoryReportingParty extends PartyType
 {
 }
 
-

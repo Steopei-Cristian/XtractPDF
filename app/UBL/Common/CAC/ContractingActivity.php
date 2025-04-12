@@ -9,4 +9,3 @@ class ContractingActivity extends ContractingActivityType
 {
 }
 
-

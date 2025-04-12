@@ -9,4 +9,3 @@ class HumidityPercent extends HumidityPercentType
 {
 }
 
-

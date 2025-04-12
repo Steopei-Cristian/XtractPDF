@@ -23,7 +23,7 @@ class SubscriberConsumptionType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ConsumptionID $consumptionID
+     * @var \App\UBL\Common\CBC\ConsumptionID $consumptionID
      */
     private $consumptionID = null;
 
@@ -37,7 +37,7 @@ class SubscriberConsumptionType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\SpecificationTypeCode $specificationTypeCode
+     * @var \App\UBL\Common\CBC\SpecificationTypeCode $specificationTypeCode
      */
     private $specificationTypeCode = null;
 
@@ -52,7 +52,7 @@ class SubscriberConsumptionType
      *  Text. Type
      *  This is how we have calculating your yearly statement
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -69,7 +69,7 @@ class SubscriberConsumptionType
      *  Quantity. Type
      *  2000.0
      *
-     * @var \UBL\Common\CBC\TotalMeteredQuantity $totalMeteredQuantity
+     * @var \App\UBL\Common\CBC\TotalMeteredQuantity $totalMeteredQuantity
      */
     private $totalMeteredQuantity = null;
 
@@ -84,7 +84,7 @@ class SubscriberConsumptionType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\SubscriberParty $subscriberParty
+     * @var \App\UBL\Common\CAC\SubscriberParty $subscriberParty
      */
     private $subscriberParty = null;
 
@@ -99,7 +99,7 @@ class SubscriberConsumptionType
      *  Consumption Point
      *  Consumption Point
      *
-     * @var \UBL\Common\CAC\UtilityConsumptionPoint $utilityConsumptionPoint
+     * @var \App\UBL\Common\CAC\UtilityConsumptionPoint $utilityConsumptionPoint
      */
     private $utilityConsumptionPoint = null;
 
@@ -113,7 +113,7 @@ class SubscriberConsumptionType
      *  On Account Payment
      *  On Account Payment
      *
-     * @var \UBL\Common\CAC\OnAccountPayment[] $onAccountPayment
+     * @var \App\UBL\Common\CAC\OnAccountPayment[] $onAccountPayment
      */
     private $onAccountPayment = [
         
@@ -129,7 +129,7 @@ class SubscriberConsumptionType
      *  Consumption
      *  Consumption
      *
-     * @var \UBL\Common\CAC\Consumption $consumption
+     * @var \App\UBL\Common\CAC\Consumption $consumption
      */
     private $consumption = null;
 
@@ -143,7 +143,7 @@ class SubscriberConsumptionType
      *  Supplier Consumption
      *  Supplier Consumption
      *
-     * @var \UBL\Common\CAC\SupplierConsumption[] $supplierConsumption
+     * @var \App\UBL\Common\CAC\SupplierConsumption[] $supplierConsumption
      */
     private $supplierConsumption = [
         
@@ -161,7 +161,7 @@ class SubscriberConsumptionType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ConsumptionID
+     * @return \App\UBL\Common\CBC\ConsumptionID
      */
     public function getConsumptionID()
     {
@@ -180,10 +180,10 @@ class SubscriberConsumptionType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ConsumptionID $consumptionID
+     * @param \App\UBL\Common\CBC\ConsumptionID $consumptionID
      * @return self
      */
-    public function setConsumptionID(?\UBL\Common\CBC\ConsumptionID $consumptionID = null)
+    public function setConsumptionID(?\App\UBL\Common\CBC\ConsumptionID $consumptionID = null)
     {
         $this->consumptionID = $consumptionID;
         return $this;
@@ -201,7 +201,7 @@ class SubscriberConsumptionType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\SpecificationTypeCode
+     * @return \App\UBL\Common\CBC\SpecificationTypeCode
      */
     public function getSpecificationTypeCode()
     {
@@ -220,10 +220,10 @@ class SubscriberConsumptionType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\SpecificationTypeCode $specificationTypeCode
+     * @param \App\UBL\Common\CBC\SpecificationTypeCode $specificationTypeCode
      * @return self
      */
-    public function setSpecificationTypeCode(?\UBL\Common\CBC\SpecificationTypeCode $specificationTypeCode = null)
+    public function setSpecificationTypeCode(?\App\UBL\Common\CBC\SpecificationTypeCode $specificationTypeCode = null)
     {
         $this->specificationTypeCode = $specificationTypeCode;
         return $this;
@@ -243,9 +243,9 @@ class SubscriberConsumptionType
      *  This is how we have calculating your yearly statement
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -306,7 +306,7 @@ class SubscriberConsumptionType
      *  Text. Type
      *  This is how we have calculating your yearly statement
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -326,7 +326,7 @@ class SubscriberConsumptionType
      *  Text. Type
      *  This is how we have calculating your yearly statement
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -348,7 +348,7 @@ class SubscriberConsumptionType
      *  Quantity. Type
      *  2000.0
      *
-     * @return \UBL\Common\CBC\TotalMeteredQuantity
+     * @return \App\UBL\Common\CBC\TotalMeteredQuantity
      */
     public function getTotalMeteredQuantity()
     {
@@ -368,10 +368,10 @@ class SubscriberConsumptionType
      *  Quantity. Type
      *  2000.0
      *
-     * @param \UBL\Common\CBC\TotalMeteredQuantity $totalMeteredQuantity
+     * @param \App\UBL\Common\CBC\TotalMeteredQuantity $totalMeteredQuantity
      * @return self
      */
-    public function setTotalMeteredQuantity(?\UBL\Common\CBC\TotalMeteredQuantity $totalMeteredQuantity = null)
+    public function setTotalMeteredQuantity(?\App\UBL\Common\CBC\TotalMeteredQuantity $totalMeteredQuantity = null)
     {
         $this->totalMeteredQuantity = $totalMeteredQuantity;
         return $this;
@@ -390,7 +390,7 @@ class SubscriberConsumptionType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\SubscriberParty
+     * @return \App\UBL\Common\CAC\SubscriberParty
      */
     public function getSubscriberParty()
     {
@@ -410,10 +410,10 @@ class SubscriberConsumptionType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\SubscriberParty $subscriberParty
+     * @param \App\UBL\Common\CAC\SubscriberParty $subscriberParty
      * @return self
      */
-    public function setSubscriberParty(?\UBL\Common\CAC\SubscriberParty $subscriberParty = null)
+    public function setSubscriberParty(?\App\UBL\Common\CAC\SubscriberParty $subscriberParty = null)
     {
         $this->subscriberParty = $subscriberParty;
         return $this;
@@ -432,7 +432,7 @@ class SubscriberConsumptionType
      *  Consumption Point
      *  Consumption Point
      *
-     * @return \UBL\Common\CAC\UtilityConsumptionPoint
+     * @return \App\UBL\Common\CAC\UtilityConsumptionPoint
      */
     public function getUtilityConsumptionPoint()
     {
@@ -452,10 +452,10 @@ class SubscriberConsumptionType
      *  Consumption Point
      *  Consumption Point
      *
-     * @param \UBL\Common\CAC\UtilityConsumptionPoint $utilityConsumptionPoint
+     * @param \App\UBL\Common\CAC\UtilityConsumptionPoint $utilityConsumptionPoint
      * @return self
      */
-    public function setUtilityConsumptionPoint(\UBL\Common\CAC\UtilityConsumptionPoint $utilityConsumptionPoint)
+    public function setUtilityConsumptionPoint(\App\UBL\Common\CAC\UtilityConsumptionPoint $utilityConsumptionPoint)
     {
         $this->utilityConsumptionPoint = $utilityConsumptionPoint;
         return $this;
@@ -474,9 +474,9 @@ class SubscriberConsumptionType
      *  On Account Payment
      *
      * @return self
-     * @param \UBL\Common\CAC\OnAccountPayment $onAccountPayment
+     * @param \App\UBL\Common\CAC\OnAccountPayment $onAccountPayment
      */
-    public function addToOnAccountPayment(\UBL\Common\CAC\OnAccountPayment $onAccountPayment)
+    public function addToOnAccountPayment(\App\UBL\Common\CAC\OnAccountPayment $onAccountPayment)
     {
         $this->onAccountPayment[] = $onAccountPayment;
         return $this;
@@ -534,7 +534,7 @@ class SubscriberConsumptionType
      *  On Account Payment
      *  On Account Payment
      *
-     * @return \UBL\Common\CAC\OnAccountPayment[]
+     * @return \App\UBL\Common\CAC\OnAccountPayment[]
      */
     public function getOnAccountPayment()
     {
@@ -553,7 +553,7 @@ class SubscriberConsumptionType
      *  On Account Payment
      *  On Account Payment
      *
-     * @param \UBL\Common\CAC\OnAccountPayment[] $onAccountPayment
+     * @param \App\UBL\Common\CAC\OnAccountPayment[] $onAccountPayment
      * @return self
      */
     public function setOnAccountPayment(?array $onAccountPayment = null)
@@ -574,7 +574,7 @@ class SubscriberConsumptionType
      *  Consumption
      *  Consumption
      *
-     * @return \UBL\Common\CAC\Consumption
+     * @return \App\UBL\Common\CAC\Consumption
      */
     public function getConsumption()
     {
@@ -593,10 +593,10 @@ class SubscriberConsumptionType
      *  Consumption
      *  Consumption
      *
-     * @param \UBL\Common\CAC\Consumption $consumption
+     * @param \App\UBL\Common\CAC\Consumption $consumption
      * @return self
      */
-    public function setConsumption(?\UBL\Common\CAC\Consumption $consumption = null)
+    public function setConsumption(?\App\UBL\Common\CAC\Consumption $consumption = null)
     {
         $this->consumption = $consumption;
         return $this;
@@ -615,9 +615,9 @@ class SubscriberConsumptionType
      *  Supplier Consumption
      *
      * @return self
-     * @param \UBL\Common\CAC\SupplierConsumption $supplierConsumption
+     * @param \App\UBL\Common\CAC\SupplierConsumption $supplierConsumption
      */
-    public function addToSupplierConsumption(\UBL\Common\CAC\SupplierConsumption $supplierConsumption)
+    public function addToSupplierConsumption(\App\UBL\Common\CAC\SupplierConsumption $supplierConsumption)
     {
         $this->supplierConsumption[] = $supplierConsumption;
         return $this;
@@ -675,7 +675,7 @@ class SubscriberConsumptionType
      *  Supplier Consumption
      *  Supplier Consumption
      *
-     * @return \UBL\Common\CAC\SupplierConsumption[]
+     * @return \App\UBL\Common\CAC\SupplierConsumption[]
      */
     public function getSupplierConsumption()
     {
@@ -694,7 +694,7 @@ class SubscriberConsumptionType
      *  Supplier Consumption
      *  Supplier Consumption
      *
-     * @param \UBL\Common\CAC\SupplierConsumption[] $supplierConsumption
+     * @param \App\UBL\Common\CAC\SupplierConsumption[] $supplierConsumption
      * @return self
      */
     public function setSupplierConsumption(?array $supplierConsumption = null)
@@ -703,5 +703,4 @@ class SubscriberConsumptionType
         return $this;
     }
 }
-
 

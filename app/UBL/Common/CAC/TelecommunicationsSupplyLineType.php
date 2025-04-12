@@ -24,7 +24,7 @@ class TelecommunicationsSupplyLineType
      *  Identifier. Type
      *  1
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class TelecommunicationsSupplyLineType
      *  Text. Type
      *  12345678
      *
-     * @var \UBL\Common\CBC\PhoneNumber $phoneNumber
+     * @var \App\UBL\Common\CBC\PhoneNumber $phoneNumber
      */
     private $phoneNumber = null;
 
@@ -54,7 +54,7 @@ class TelecommunicationsSupplyLineType
      *  Text. Type
      *  Additional informations
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -70,7 +70,7 @@ class TelecommunicationsSupplyLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @var \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      */
     private $lineExtensionAmount = null;
 
@@ -84,7 +84,7 @@ class TelecommunicationsSupplyLineType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @var \UBL\Common\CAC\ExchangeRate[] $exchangeRate
+     * @var \App\UBL\Common\CAC\ExchangeRate[] $exchangeRate
      */
     private $exchangeRate = [
         
@@ -100,7 +100,7 @@ class TelecommunicationsSupplyLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @var \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      */
     private $allowanceCharge = [
         
@@ -116,7 +116,7 @@ class TelecommunicationsSupplyLineType
      *  Tax Total
      *  Tax Total
      *
-     * @var \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @var \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      */
     private $taxTotal = [
         
@@ -132,7 +132,7 @@ class TelecommunicationsSupplyLineType
      *  Telecommunications Service
      *  Telecommunications Service
      *
-     * @var \UBL\Common\CAC\TelecommunicationsService[] $telecommunicationsService
+     * @var \App\UBL\Common\CAC\TelecommunicationsService[] $telecommunicationsService
      */
     private $telecommunicationsService = [
         
@@ -151,7 +151,7 @@ class TelecommunicationsSupplyLineType
      *  Identifier. Type
      *  1
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -171,10 +171,10 @@ class TelecommunicationsSupplyLineType
      *  Identifier. Type
      *  1
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -193,7 +193,7 @@ class TelecommunicationsSupplyLineType
      *  Text. Type
      *  12345678
      *
-     * @return \UBL\Common\CBC\PhoneNumber
+     * @return \App\UBL\Common\CBC\PhoneNumber
      */
     public function getPhoneNumber()
     {
@@ -213,10 +213,10 @@ class TelecommunicationsSupplyLineType
      *  Text. Type
      *  12345678
      *
-     * @param \UBL\Common\CBC\PhoneNumber $phoneNumber
+     * @param \App\UBL\Common\CBC\PhoneNumber $phoneNumber
      * @return self
      */
-    public function setPhoneNumber(\UBL\Common\CBC\PhoneNumber $phoneNumber)
+    public function setPhoneNumber(\App\UBL\Common\CBC\PhoneNumber $phoneNumber)
     {
         $this->phoneNumber = $phoneNumber;
         return $this;
@@ -236,9 +236,9 @@ class TelecommunicationsSupplyLineType
      *  Additional informations
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -299,7 +299,7 @@ class TelecommunicationsSupplyLineType
      *  Text. Type
      *  Additional informations
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -319,7 +319,7 @@ class TelecommunicationsSupplyLineType
      *  Text. Type
      *  Additional informations
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -340,7 +340,7 @@ class TelecommunicationsSupplyLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\LineExtensionAmount
+     * @return \App\UBL\Common\CBC\LineExtensionAmount
      */
     public function getLineExtensionAmount()
     {
@@ -359,10 +359,10 @@ class TelecommunicationsSupplyLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @param \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      * @return self
      */
-    public function setLineExtensionAmount(?\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount = null)
+    public function setLineExtensionAmount(?\App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount = null)
     {
         $this->lineExtensionAmount = $lineExtensionAmount;
         return $this;
@@ -381,9 +381,9 @@ class TelecommunicationsSupplyLineType
      *  Exchange Rate
      *
      * @return self
-     * @param \UBL\Common\CAC\ExchangeRate $exchangeRate
+     * @param \App\UBL\Common\CAC\ExchangeRate $exchangeRate
      */
-    public function addToExchangeRate(\UBL\Common\CAC\ExchangeRate $exchangeRate)
+    public function addToExchangeRate(\App\UBL\Common\CAC\ExchangeRate $exchangeRate)
     {
         $this->exchangeRate[] = $exchangeRate;
         return $this;
@@ -441,7 +441,7 @@ class TelecommunicationsSupplyLineType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @return \UBL\Common\CAC\ExchangeRate[]
+     * @return \App\UBL\Common\CAC\ExchangeRate[]
      */
     public function getExchangeRate()
     {
@@ -460,7 +460,7 @@ class TelecommunicationsSupplyLineType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @param \UBL\Common\CAC\ExchangeRate[] $exchangeRate
+     * @param \App\UBL\Common\CAC\ExchangeRate[] $exchangeRate
      * @return self
      */
     public function setExchangeRate(?array $exchangeRate = null)
@@ -482,9 +482,9 @@ class TelecommunicationsSupplyLineType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\AllowanceCharge $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge $allowanceCharge
      */
-    public function addToAllowanceCharge(\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
+    public function addToAllowanceCharge(\App\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
     {
         $this->allowanceCharge[] = $allowanceCharge;
         return $this;
@@ -542,7 +542,7 @@ class TelecommunicationsSupplyLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\AllowanceCharge[]
+     * @return \App\UBL\Common\CAC\AllowanceCharge[]
      */
     public function getAllowanceCharge()
     {
@@ -561,7 +561,7 @@ class TelecommunicationsSupplyLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      * @return self
      */
     public function setAllowanceCharge(?array $allowanceCharge = null)
@@ -583,9 +583,9 @@ class TelecommunicationsSupplyLineType
      *  Tax Total
      *
      * @return self
-     * @param \UBL\Common\CAC\TaxTotal $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal $taxTotal
      */
-    public function addToTaxTotal(\UBL\Common\CAC\TaxTotal $taxTotal)
+    public function addToTaxTotal(\App\UBL\Common\CAC\TaxTotal $taxTotal)
     {
         $this->taxTotal[] = $taxTotal;
         return $this;
@@ -643,7 +643,7 @@ class TelecommunicationsSupplyLineType
      *  Tax Total
      *  Tax Total
      *
-     * @return \UBL\Common\CAC\TaxTotal[]
+     * @return \App\UBL\Common\CAC\TaxTotal[]
      */
     public function getTaxTotal()
     {
@@ -662,7 +662,7 @@ class TelecommunicationsSupplyLineType
      *  Tax Total
      *  Tax Total
      *
-     * @param \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      * @return self
      */
     public function setTaxTotal(?array $taxTotal = null)
@@ -684,9 +684,9 @@ class TelecommunicationsSupplyLineType
      *  Telecommunications Service
      *
      * @return self
-     * @param \UBL\Common\CAC\TelecommunicationsService $telecommunicationsService
+     * @param \App\UBL\Common\CAC\TelecommunicationsService $telecommunicationsService
      */
-    public function addToTelecommunicationsService(\UBL\Common\CAC\TelecommunicationsService $telecommunicationsService)
+    public function addToTelecommunicationsService(\App\UBL\Common\CAC\TelecommunicationsService $telecommunicationsService)
     {
         $this->telecommunicationsService[] = $telecommunicationsService;
         return $this;
@@ -744,7 +744,7 @@ class TelecommunicationsSupplyLineType
      *  Telecommunications Service
      *  Telecommunications Service
      *
-     * @return \UBL\Common\CAC\TelecommunicationsService[]
+     * @return \App\UBL\Common\CAC\TelecommunicationsService[]
      */
     public function getTelecommunicationsService()
     {
@@ -763,7 +763,7 @@ class TelecommunicationsSupplyLineType
      *  Telecommunications Service
      *  Telecommunications Service
      *
-     * @param \UBL\Common\CAC\TelecommunicationsService[] $telecommunicationsService
+     * @param \App\UBL\Common\CAC\TelecommunicationsService[] $telecommunicationsService
      * @return self
      */
     public function setTelecommunicationsService(array $telecommunicationsService)
@@ -772,5 +772,4 @@ class TelecommunicationsSupplyLineType
         return $this;
     }
 }
-
 

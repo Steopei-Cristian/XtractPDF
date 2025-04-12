@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\IdentifierType;
+use App\UBL\Unqualified\IdentifierType;
 
 /**
  * Class representing MarkingIDType
@@ -13,5 +13,4 @@ use UBL\Unqualified\IdentifierType;
 class MarkingIDType extends IdentifierType
 {
 }
-
 

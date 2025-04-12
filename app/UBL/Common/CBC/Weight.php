@@ -9,4 +9,3 @@ class Weight extends WeightType
 {
 }
 
-

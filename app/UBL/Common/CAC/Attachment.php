@@ -9,4 +9,3 @@ class Attachment extends AttachmentType
 {
 }
 
-

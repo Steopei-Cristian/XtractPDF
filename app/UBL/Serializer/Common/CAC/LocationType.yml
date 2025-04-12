@@ -1,4 +1,4 @@
-UBL\Common\CAC\LocationType:
+App\UBL\Common\CAC\LocationType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\LocationType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         description:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\LocationType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         conditions:
             expose: true
             access_type: public_method
@@ -37,7 +37,7 @@ UBL\Common\CAC\LocationType:
                 inline: true
                 entry_name: Conditions
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Conditions>
+            type: array<App\UBL\Common\CBC\Conditions>
         countrySubentity:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ UBL\Common\CAC\LocationType:
             accessor:
                 getter: getCountrySubentity
                 setter: setCountrySubentity
-            type: UBL\Common\CBC\CountrySubentity
+            type: App\UBL\Common\CBC\CountrySubentity
         countrySubentityCode:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\LocationType:
             accessor:
                 getter: getCountrySubentityCode
                 setter: setCountrySubentityCode
-            type: UBL\Common\CBC\CountrySubentityCode
+            type: App\UBL\Common\CBC\CountrySubentityCode
         locationTypeCode:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\LocationType:
             accessor:
                 getter: getLocationTypeCode
                 setter: setLocationTypeCode
-            type: UBL\Common\CBC\LocationTypeCode
+            type: App\UBL\Common\CBC\LocationTypeCode
         informationURI:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\LocationType:
             accessor:
                 getter: getInformationURI
                 setter: setInformationURI
-            type: UBL\Common\CBC\InformationURI
+            type: App\UBL\Common\CBC\InformationURI
         name:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\LocationType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         validityPeriod:
             expose: true
             access_type: public_method
@@ -101,7 +101,7 @@ UBL\Common\CAC\LocationType:
                 inline: true
                 entry_name: ValidityPeriod
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ValidityPeriod>
+            type: array<App\UBL\Common\CAC\ValidityPeriod>
         address:
             expose: true
             access_type: public_method
@@ -111,7 +111,7 @@ UBL\Common\CAC\LocationType:
             accessor:
                 getter: getAddress
                 setter: setAddress
-            type: UBL\Common\CAC\Address
+            type: App\UBL\Common\CAC\Address
         subsidiaryLocation:
             expose: true
             access_type: public_method
@@ -125,7 +125,7 @@ UBL\Common\CAC\LocationType:
                 inline: true
                 entry_name: SubsidiaryLocation
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SubsidiaryLocation>
+            type: array<App\UBL\Common\CAC\SubsidiaryLocation>
         locationCoordinate:
             expose: true
             access_type: public_method
@@ -139,4 +139,4 @@ UBL\Common\CAC\LocationType:
                 inline: true
                 entry_name: LocationCoordinate
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\LocationCoordinate>
+            type: array<App\UBL\Common\CAC\LocationCoordinate>

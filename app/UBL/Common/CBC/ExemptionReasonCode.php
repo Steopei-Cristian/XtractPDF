@@ -9,4 +9,3 @@ class ExemptionReasonCode extends ExemptionReasonCodeType
 {
 }
 
-

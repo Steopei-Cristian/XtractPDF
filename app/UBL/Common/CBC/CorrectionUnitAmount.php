@@ -9,4 +9,3 @@ class CorrectionUnitAmount extends CorrectionUnitAmountType
 {
 }
 
-

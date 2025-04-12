@@ -1,4 +1,4 @@
-UBL\Common\CBC\DangerousGoodsApprovedIndicatorType:
+App\UBL\Common\CBC\DangerousGoodsApprovedIndicatorType:
     properties:
         __value:
             expose: true

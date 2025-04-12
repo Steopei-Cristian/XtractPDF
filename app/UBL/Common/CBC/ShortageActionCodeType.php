@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\CodeType;
+use App\UBL\Unqualified\CodeType;
 
 /**
  * Class representing ShortageActionCodeType
@@ -13,5 +13,4 @@ use UBL\Unqualified\CodeType;
 class ShortageActionCodeType extends CodeType
 {
 }
-
 

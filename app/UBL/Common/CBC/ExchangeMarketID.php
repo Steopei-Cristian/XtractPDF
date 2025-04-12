@@ -9,4 +9,3 @@ class ExchangeMarketID extends ExchangeMarketIDType
 {
 }
 
-

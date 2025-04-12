@@ -1,3 +1,3 @@
-UBL\Common\CAC\ContractualDocumentReference:
+App\UBL\Common\CAC\ContractualDocumentReference:
     xml_root_name: ContractualDocumentReference
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

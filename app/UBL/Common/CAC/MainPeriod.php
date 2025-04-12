@@ -9,4 +9,3 @@ class MainPeriod extends PeriodType
 {
 }
 
-

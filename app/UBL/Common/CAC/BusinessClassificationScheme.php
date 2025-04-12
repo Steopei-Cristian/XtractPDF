@@ -9,4 +9,3 @@ class BusinessClassificationScheme extends ClassificationSchemeType
 {
 }
 
-

@@ -9,4 +9,3 @@ class DigitalSignatureAttachment extends AttachmentType
 {
 }
 
-

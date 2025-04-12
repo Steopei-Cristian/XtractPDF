@@ -9,4 +9,3 @@ class EstimatedConsumedQuantity extends EstimatedConsumedQuantityType
 {
 }
 
-

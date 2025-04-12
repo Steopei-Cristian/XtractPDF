@@ -23,7 +23,7 @@ class BranchType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class BranchType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -51,7 +51,7 @@ class BranchType
      *  Financial Institution
      *  Financial Institution
      *
-     * @var \UBL\Common\CAC\FinancialInstitution $financialInstitution
+     * @var \App\UBL\Common\CAC\FinancialInstitution $financialInstitution
      */
     private $financialInstitution = null;
 
@@ -65,7 +65,7 @@ class BranchType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\Address $address
+     * @var \App\UBL\Common\CAC\Address $address
      */
     private $address = null;
 
@@ -81,7 +81,7 @@ class BranchType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -100,10 +100,10 @@ class BranchType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -121,7 +121,7 @@ class BranchType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -140,10 +140,10 @@ class BranchType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -161,7 +161,7 @@ class BranchType
      *  Financial Institution
      *  Financial Institution
      *
-     * @return \UBL\Common\CAC\FinancialInstitution
+     * @return \App\UBL\Common\CAC\FinancialInstitution
      */
     public function getFinancialInstitution()
     {
@@ -180,10 +180,10 @@ class BranchType
      *  Financial Institution
      *  Financial Institution
      *
-     * @param \UBL\Common\CAC\FinancialInstitution $financialInstitution
+     * @param \App\UBL\Common\CAC\FinancialInstitution $financialInstitution
      * @return self
      */
-    public function setFinancialInstitution(?\UBL\Common\CAC\FinancialInstitution $financialInstitution = null)
+    public function setFinancialInstitution(?\App\UBL\Common\CAC\FinancialInstitution $financialInstitution = null)
     {
         $this->financialInstitution = $financialInstitution;
         return $this;
@@ -201,7 +201,7 @@ class BranchType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\Address
+     * @return \App\UBL\Common\CAC\Address
      */
     public function getAddress()
     {
@@ -220,14 +220,13 @@ class BranchType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\Address $address
+     * @param \App\UBL\Common\CAC\Address $address
      * @return self
      */
-    public function setAddress(?\UBL\Common\CAC\Address $address = null)
+    public function setAddress(?\App\UBL\Common\CAC\Address $address = null)
     {
         $this->address = $address;
         return $this;
     }
 }
-
 

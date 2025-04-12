@@ -1,3 +1,3 @@
-UBL\Common\CAC\UsabilityPeriod:
+App\UBL\Common\CAC\UsabilityPeriod:
     xml_root_name: UsabilityPeriod
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

@@ -9,4 +9,3 @@ class JurisdictionRegionAddress extends AddressType
 {
 }
 
-

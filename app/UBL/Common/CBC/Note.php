@@ -9,4 +9,3 @@ class Note extends NoteType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CAC\TenderingProcessType:
+App\UBL\Common\CAC\TenderingProcessType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         originalContractingSystemID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getOriginalContractingSystemID
                 setter: setOriginalContractingSystemID
-            type: UBL\Common\CBC\OriginalContractingSystemID
+            type: App\UBL\Common\CBC\OriginalContractingSystemID
         description:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\TenderingProcessType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         negotiationDescription:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ UBL\Common\CAC\TenderingProcessType:
                 inline: true
                 entry_name: NegotiationDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\NegotiationDescription>
+            type: array<App\UBL\Common\CBC\NegotiationDescription>
         procedureCode:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getProcedureCode
                 setter: setProcedureCode
-            type: UBL\Common\CBC\ProcedureCode
+            type: App\UBL\Common\CBC\ProcedureCode
         urgencyCode:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getUrgencyCode
                 setter: setUrgencyCode
-            type: UBL\Common\CBC\UrgencyCode
+            type: App\UBL\Common\CBC\UrgencyCode
         expenseCode:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getExpenseCode
                 setter: setExpenseCode
-            type: UBL\Common\CBC\ExpenseCode
+            type: App\UBL\Common\CBC\ExpenseCode
         partPresentationCode:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getPartPresentationCode
                 setter: setPartPresentationCode
-            type: UBL\Common\CBC\PartPresentationCode
+            type: App\UBL\Common\CBC\PartPresentationCode
         contractingSystemCode:
             expose: true
             access_type: public_method
@@ -97,7 +97,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getContractingSystemCode
                 setter: setContractingSystemCode
-            type: UBL\Common\CBC\ContractingSystemCode
+            type: App\UBL\Common\CBC\ContractingSystemCode
         submissionMethodCode:
             expose: true
             access_type: public_method
@@ -107,7 +107,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getSubmissionMethodCode
                 setter: setSubmissionMethodCode
-            type: UBL\Common\CBC\SubmissionMethodCode
+            type: App\UBL\Common\CBC\SubmissionMethodCode
         candidateReductionConstraintIndicator:
             expose: true
             access_type: public_method
@@ -137,7 +137,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getDocumentAvailabilityPeriod
                 setter: setDocumentAvailabilityPeriod
-            type: UBL\Common\CAC\DocumentAvailabilityPeriod
+            type: App\UBL\Common\CAC\DocumentAvailabilityPeriod
         tenderSubmissionDeadlinePeriod:
             expose: true
             access_type: public_method
@@ -147,7 +147,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getTenderSubmissionDeadlinePeriod
                 setter: setTenderSubmissionDeadlinePeriod
-            type: UBL\Common\CAC\TenderSubmissionDeadlinePeriod
+            type: App\UBL\Common\CAC\TenderSubmissionDeadlinePeriod
         invitationSubmissionPeriod:
             expose: true
             access_type: public_method
@@ -157,7 +157,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getInvitationSubmissionPeriod
                 setter: setInvitationSubmissionPeriod
-            type: UBL\Common\CAC\InvitationSubmissionPeriod
+            type: App\UBL\Common\CAC\InvitationSubmissionPeriod
         participationRequestReceptionPeriod:
             expose: true
             access_type: public_method
@@ -167,7 +167,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getParticipationRequestReceptionPeriod
                 setter: setParticipationRequestReceptionPeriod
-            type: UBL\Common\CAC\ParticipationRequestReceptionPeriod
+            type: App\UBL\Common\CAC\ParticipationRequestReceptionPeriod
         noticeDocumentReference:
             expose: true
             access_type: public_method
@@ -181,7 +181,7 @@ UBL\Common\CAC\TenderingProcessType:
                 inline: true
                 entry_name: NoticeDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\NoticeDocumentReference>
+            type: array<App\UBL\Common\CAC\NoticeDocumentReference>
         additionalDocumentReference:
             expose: true
             access_type: public_method
@@ -195,7 +195,7 @@ UBL\Common\CAC\TenderingProcessType:
                 inline: true
                 entry_name: AdditionalDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AdditionalDocumentReference>
+            type: array<App\UBL\Common\CAC\AdditionalDocumentReference>
         processJustification:
             expose: true
             access_type: public_method
@@ -209,7 +209,7 @@ UBL\Common\CAC\TenderingProcessType:
                 inline: true
                 entry_name: ProcessJustification
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ProcessJustification>
+            type: array<App\UBL\Common\CAC\ProcessJustification>
         economicOperatorShortList:
             expose: true
             access_type: public_method
@@ -219,7 +219,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getEconomicOperatorShortList
                 setter: setEconomicOperatorShortList
-            type: UBL\Common\CAC\EconomicOperatorShortList
+            type: App\UBL\Common\CAC\EconomicOperatorShortList
         openTenderEvent:
             expose: true
             access_type: public_method
@@ -233,7 +233,7 @@ UBL\Common\CAC\TenderingProcessType:
                 inline: true
                 entry_name: OpenTenderEvent
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\OpenTenderEvent>
+            type: array<App\UBL\Common\CAC\OpenTenderEvent>
         auctionTerms:
             expose: true
             access_type: public_method
@@ -243,7 +243,7 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getAuctionTerms
                 setter: setAuctionTerms
-            type: UBL\Common\CAC\AuctionTerms
+            type: App\UBL\Common\CAC\AuctionTerms
         frameworkAgreement:
             expose: true
             access_type: public_method
@@ -253,4 +253,4 @@ UBL\Common\CAC\TenderingProcessType:
             accessor:
                 getter: getFrameworkAgreement
                 setter: setFrameworkAgreement
-            type: UBL\Common\CAC\FrameworkAgreement
+            type: App\UBL\Common\CAC\FrameworkAgreement

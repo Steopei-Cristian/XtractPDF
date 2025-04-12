@@ -24,7 +24,7 @@ class ItemType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -40,7 +40,7 @@ class ItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\PackQuantity $packQuantity
+     * @var \App\UBL\Common\CBC\PackQuantity $packQuantity
      */
     private $packQuantity = null;
 
@@ -54,7 +54,7 @@ class ItemType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\PackSizeNumeric $packSizeNumeric
+     * @var \App\UBL\Common\CBC\PackSizeNumeric $packSizeNumeric
      */
     private $packSizeNumeric = null;
 
@@ -83,7 +83,7 @@ class ItemType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -114,7 +114,7 @@ class ItemType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\AdditionalInformation[] $additionalInformation
+     * @var \App\UBL\Common\CBC\AdditionalInformation[] $additionalInformation
      */
     private $additionalInformation = [
         
@@ -130,7 +130,7 @@ class ItemType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Keyword[] $keyword
+     * @var \App\UBL\Common\CBC\Keyword[] $keyword
      */
     private $keyword = [
         
@@ -147,7 +147,7 @@ class ItemType
      *  Name. Type
      *  Coca-Cola
      *
-     * @var \UBL\Common\CBC\BrandName[] $brandName
+     * @var \App\UBL\Common\CBC\BrandName[] $brandName
      */
     private $brandName = [
         
@@ -164,7 +164,7 @@ class ItemType
      *  Name. Type
      *  VW Beetle
      *
-     * @var \UBL\Common\CBC\ModelName[] $modelName
+     * @var \App\UBL\Common\CBC\ModelName[] $modelName
      */
     private $modelName = [
         
@@ -181,7 +181,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @var \UBL\Common\CAC\BuyersItemIdentification $buyersItemIdentification
+     * @var \App\UBL\Common\CAC\BuyersItemIdentification $buyersItemIdentification
      */
     private $buyersItemIdentification = null;
 
@@ -196,7 +196,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @var \UBL\Common\CAC\SellersItemIdentification $sellersItemIdentification
+     * @var \App\UBL\Common\CAC\SellersItemIdentification $sellersItemIdentification
      */
     private $sellersItemIdentification = null;
 
@@ -211,7 +211,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @var \UBL\Common\CAC\ManufacturersItemIdentification[] $manufacturersItemIdentification
+     * @var \App\UBL\Common\CAC\ManufacturersItemIdentification[] $manufacturersItemIdentification
      */
     private $manufacturersItemIdentification = [
         
@@ -228,7 +228,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @var \UBL\Common\CAC\StandardItemIdentification $standardItemIdentification
+     * @var \App\UBL\Common\CAC\StandardItemIdentification $standardItemIdentification
      */
     private $standardItemIdentification = null;
 
@@ -243,7 +243,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @var \UBL\Common\CAC\CatalogueItemIdentification $catalogueItemIdentification
+     * @var \App\UBL\Common\CAC\CatalogueItemIdentification $catalogueItemIdentification
      */
     private $catalogueItemIdentification = null;
 
@@ -258,7 +258,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @var \UBL\Common\CAC\AdditionalItemIdentification[] $additionalItemIdentification
+     * @var \App\UBL\Common\CAC\AdditionalItemIdentification[] $additionalItemIdentification
      */
     private $additionalItemIdentification = [
         
@@ -275,7 +275,7 @@ class ItemType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\CatalogueDocumentReference $catalogueDocumentReference
+     * @var \App\UBL\Common\CAC\CatalogueDocumentReference $catalogueDocumentReference
      */
     private $catalogueDocumentReference = null;
 
@@ -290,7 +290,7 @@ class ItemType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\ItemSpecificationDocumentReference[] $itemSpecificationDocumentReference
+     * @var \App\UBL\Common\CAC\ItemSpecificationDocumentReference[] $itemSpecificationDocumentReference
      */
     private $itemSpecificationDocumentReference = [
         
@@ -307,7 +307,7 @@ class ItemType
      *  Country
      *  Country
      *
-     * @var \UBL\Common\CAC\OriginCountry $originCountry
+     * @var \App\UBL\Common\CAC\OriginCountry $originCountry
      */
     private $originCountry = null;
 
@@ -321,7 +321,7 @@ class ItemType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @var \UBL\Common\CAC\CommodityClassification[] $commodityClassification
+     * @var \App\UBL\Common\CAC\CommodityClassification[] $commodityClassification
      */
     private $commodityClassification = [
         
@@ -337,7 +337,7 @@ class ItemType
      *  Transaction Conditions
      *  Transaction Conditions
      *
-     * @var \UBL\Common\CAC\TransactionConditions[] $transactionConditions
+     * @var \App\UBL\Common\CAC\TransactionConditions[] $transactionConditions
      */
     private $transactionConditions = [
         
@@ -353,7 +353,7 @@ class ItemType
      *  Hazardous Item
      *  Hazardous Item
      *
-     * @var \UBL\Common\CAC\HazardousItem[] $hazardousItem
+     * @var \App\UBL\Common\CAC\HazardousItem[] $hazardousItem
      */
     private $hazardousItem = [
         
@@ -370,7 +370,7 @@ class ItemType
      *  Tax Category
      *  Tax Category
      *
-     * @var \UBL\Common\CAC\ClassifiedTaxCategory[] $classifiedTaxCategory
+     * @var \App\UBL\Common\CAC\ClassifiedTaxCategory[] $classifiedTaxCategory
      */
     private $classifiedTaxCategory = [
         
@@ -387,7 +387,7 @@ class ItemType
      *  Item Property
      *  Item Property
      *
-     * @var \UBL\Common\CAC\AdditionalItemProperty[] $additionalItemProperty
+     * @var \App\UBL\Common\CAC\AdditionalItemProperty[] $additionalItemProperty
      */
     private $additionalItemProperty = [
         
@@ -404,7 +404,7 @@ class ItemType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\ManufacturerParty[] $manufacturerParty
+     * @var \App\UBL\Common\CAC\ManufacturerParty[] $manufacturerParty
      */
     private $manufacturerParty = [
         
@@ -421,7 +421,7 @@ class ItemType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\InformationContentProviderParty $informationContentProviderParty
+     * @var \App\UBL\Common\CAC\InformationContentProviderParty $informationContentProviderParty
      */
     private $informationContentProviderParty = null;
 
@@ -436,7 +436,7 @@ class ItemType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\OriginAddress[] $originAddress
+     * @var \App\UBL\Common\CAC\OriginAddress[] $originAddress
      */
     private $originAddress = [
         
@@ -452,7 +452,7 @@ class ItemType
      *  Item Instance
      *  Item Instance
      *
-     * @var \UBL\Common\CAC\ItemInstance[] $itemInstance
+     * @var \App\UBL\Common\CAC\ItemInstance[] $itemInstance
      */
     private $itemInstance = [
         
@@ -468,7 +468,7 @@ class ItemType
      *  Certificate
      *  Certificate
      *
-     * @var \UBL\Common\CAC\Certificate[] $certificate
+     * @var \App\UBL\Common\CAC\Certificate[] $certificate
      */
     private $certificate = [
         
@@ -484,7 +484,7 @@ class ItemType
      *  Dimension
      *  Dimension
      *
-     * @var \UBL\Common\CAC\Dimension[] $dimension
+     * @var \App\UBL\Common\CAC\Dimension[] $dimension
      */
     private $dimension = [
         
@@ -503,9 +503,9 @@ class ItemType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -563,7 +563,7 @@ class ItemType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -582,7 +582,7 @@ class ItemType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -603,7 +603,7 @@ class ItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\PackQuantity
+     * @return \App\UBL\Common\CBC\PackQuantity
      */
     public function getPackQuantity()
     {
@@ -622,10 +622,10 @@ class ItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\PackQuantity $packQuantity
+     * @param \App\UBL\Common\CBC\PackQuantity $packQuantity
      * @return self
      */
-    public function setPackQuantity(?\UBL\Common\CBC\PackQuantity $packQuantity = null)
+    public function setPackQuantity(?\App\UBL\Common\CBC\PackQuantity $packQuantity = null)
     {
         $this->packQuantity = $packQuantity;
         return $this;
@@ -643,7 +643,7 @@ class ItemType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\PackSizeNumeric
+     * @return \App\UBL\Common\CBC\PackSizeNumeric
      */
     public function getPackSizeNumeric()
     {
@@ -662,10 +662,10 @@ class ItemType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\PackSizeNumeric $packSizeNumeric
+     * @param \App\UBL\Common\CBC\PackSizeNumeric $packSizeNumeric
      * @return self
      */
-    public function setPackSizeNumeric(?\UBL\Common\CBC\PackSizeNumeric $packSizeNumeric = null)
+    public function setPackSizeNumeric(?\App\UBL\Common\CBC\PackSizeNumeric $packSizeNumeric = null)
     {
         $this->packSizeNumeric = $packSizeNumeric;
         return $this;
@@ -725,7 +725,7 @@ class ItemType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -744,10 +744,10 @@ class ItemType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -811,9 +811,9 @@ class ItemType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\AdditionalInformation $additionalInformation
+     * @param \App\UBL\Common\CBC\AdditionalInformation $additionalInformation
      */
-    public function addToAdditionalInformation(\UBL\Common\CBC\AdditionalInformation $additionalInformation)
+    public function addToAdditionalInformation(\App\UBL\Common\CBC\AdditionalInformation $additionalInformation)
     {
         $this->additionalInformation[] = $additionalInformation;
         return $this;
@@ -874,7 +874,7 @@ class ItemType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\AdditionalInformation[]
+     * @return \App\UBL\Common\CBC\AdditionalInformation[]
      */
     public function getAdditionalInformation()
     {
@@ -894,7 +894,7 @@ class ItemType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\AdditionalInformation[] $additionalInformation
+     * @param \App\UBL\Common\CBC\AdditionalInformation[] $additionalInformation
      * @return self
      */
     public function setAdditionalInformation(?array $additionalInformation = null)
@@ -916,9 +916,9 @@ class ItemType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Keyword $keyword
+     * @param \App\UBL\Common\CBC\Keyword $keyword
      */
-    public function addToKeyword(\UBL\Common\CBC\Keyword $keyword)
+    public function addToKeyword(\App\UBL\Common\CBC\Keyword $keyword)
     {
         $this->keyword[] = $keyword;
         return $this;
@@ -976,7 +976,7 @@ class ItemType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Keyword[]
+     * @return \App\UBL\Common\CBC\Keyword[]
      */
     public function getKeyword()
     {
@@ -995,7 +995,7 @@ class ItemType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Keyword[] $keyword
+     * @param \App\UBL\Common\CBC\Keyword[] $keyword
      * @return self
      */
     public function setKeyword(?array $keyword = null)
@@ -1018,9 +1018,9 @@ class ItemType
      *  Coca-Cola
      *
      * @return self
-     * @param \UBL\Common\CBC\BrandName $brandName
+     * @param \App\UBL\Common\CBC\BrandName $brandName
      */
-    public function addToBrandName(\UBL\Common\CBC\BrandName $brandName)
+    public function addToBrandName(\App\UBL\Common\CBC\BrandName $brandName)
     {
         $this->brandName[] = $brandName;
         return $this;
@@ -1081,7 +1081,7 @@ class ItemType
      *  Name. Type
      *  Coca-Cola
      *
-     * @return \UBL\Common\CBC\BrandName[]
+     * @return \App\UBL\Common\CBC\BrandName[]
      */
     public function getBrandName()
     {
@@ -1101,7 +1101,7 @@ class ItemType
      *  Name. Type
      *  Coca-Cola
      *
-     * @param \UBL\Common\CBC\BrandName[] $brandName
+     * @param \App\UBL\Common\CBC\BrandName[] $brandName
      * @return self
      */
     public function setBrandName(?array $brandName = null)
@@ -1124,9 +1124,9 @@ class ItemType
      *  VW Beetle
      *
      * @return self
-     * @param \UBL\Common\CBC\ModelName $modelName
+     * @param \App\UBL\Common\CBC\ModelName $modelName
      */
-    public function addToModelName(\UBL\Common\CBC\ModelName $modelName)
+    public function addToModelName(\App\UBL\Common\CBC\ModelName $modelName)
     {
         $this->modelName[] = $modelName;
         return $this;
@@ -1187,7 +1187,7 @@ class ItemType
      *  Name. Type
      *  VW Beetle
      *
-     * @return \UBL\Common\CBC\ModelName[]
+     * @return \App\UBL\Common\CBC\ModelName[]
      */
     public function getModelName()
     {
@@ -1207,7 +1207,7 @@ class ItemType
      *  Name. Type
      *  VW Beetle
      *
-     * @param \UBL\Common\CBC\ModelName[] $modelName
+     * @param \App\UBL\Common\CBC\ModelName[] $modelName
      * @return self
      */
     public function setModelName(?array $modelName = null)
@@ -1229,7 +1229,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @return \UBL\Common\CAC\BuyersItemIdentification
+     * @return \App\UBL\Common\CAC\BuyersItemIdentification
      */
     public function getBuyersItemIdentification()
     {
@@ -1249,10 +1249,10 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @param \UBL\Common\CAC\BuyersItemIdentification $buyersItemIdentification
+     * @param \App\UBL\Common\CAC\BuyersItemIdentification $buyersItemIdentification
      * @return self
      */
-    public function setBuyersItemIdentification(?\UBL\Common\CAC\BuyersItemIdentification $buyersItemIdentification = null)
+    public function setBuyersItemIdentification(?\App\UBL\Common\CAC\BuyersItemIdentification $buyersItemIdentification = null)
     {
         $this->buyersItemIdentification = $buyersItemIdentification;
         return $this;
@@ -1271,7 +1271,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @return \UBL\Common\CAC\SellersItemIdentification
+     * @return \App\UBL\Common\CAC\SellersItemIdentification
      */
     public function getSellersItemIdentification()
     {
@@ -1291,10 +1291,10 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @param \UBL\Common\CAC\SellersItemIdentification $sellersItemIdentification
+     * @param \App\UBL\Common\CAC\SellersItemIdentification $sellersItemIdentification
      * @return self
      */
-    public function setSellersItemIdentification(?\UBL\Common\CAC\SellersItemIdentification $sellersItemIdentification = null)
+    public function setSellersItemIdentification(?\App\UBL\Common\CAC\SellersItemIdentification $sellersItemIdentification = null)
     {
         $this->sellersItemIdentification = $sellersItemIdentification;
         return $this;
@@ -1314,9 +1314,9 @@ class ItemType
      *  Item Identification
      *
      * @return self
-     * @param \UBL\Common\CAC\ManufacturersItemIdentification $manufacturersItemIdentification
+     * @param \App\UBL\Common\CAC\ManufacturersItemIdentification $manufacturersItemIdentification
      */
-    public function addToManufacturersItemIdentification(\UBL\Common\CAC\ManufacturersItemIdentification $manufacturersItemIdentification)
+    public function addToManufacturersItemIdentification(\App\UBL\Common\CAC\ManufacturersItemIdentification $manufacturersItemIdentification)
     {
         $this->manufacturersItemIdentification[] = $manufacturersItemIdentification;
         return $this;
@@ -1377,7 +1377,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @return \UBL\Common\CAC\ManufacturersItemIdentification[]
+     * @return \App\UBL\Common\CAC\ManufacturersItemIdentification[]
      */
     public function getManufacturersItemIdentification()
     {
@@ -1397,7 +1397,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @param \UBL\Common\CAC\ManufacturersItemIdentification[] $manufacturersItemIdentification
+     * @param \App\UBL\Common\CAC\ManufacturersItemIdentification[] $manufacturersItemIdentification
      * @return self
      */
     public function setManufacturersItemIdentification(?array $manufacturersItemIdentification = null)
@@ -1419,7 +1419,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @return \UBL\Common\CAC\StandardItemIdentification
+     * @return \App\UBL\Common\CAC\StandardItemIdentification
      */
     public function getStandardItemIdentification()
     {
@@ -1439,10 +1439,10 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @param \UBL\Common\CAC\StandardItemIdentification $standardItemIdentification
+     * @param \App\UBL\Common\CAC\StandardItemIdentification $standardItemIdentification
      * @return self
      */
-    public function setStandardItemIdentification(?\UBL\Common\CAC\StandardItemIdentification $standardItemIdentification = null)
+    public function setStandardItemIdentification(?\App\UBL\Common\CAC\StandardItemIdentification $standardItemIdentification = null)
     {
         $this->standardItemIdentification = $standardItemIdentification;
         return $this;
@@ -1461,7 +1461,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @return \UBL\Common\CAC\CatalogueItemIdentification
+     * @return \App\UBL\Common\CAC\CatalogueItemIdentification
      */
     public function getCatalogueItemIdentification()
     {
@@ -1481,10 +1481,10 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @param \UBL\Common\CAC\CatalogueItemIdentification $catalogueItemIdentification
+     * @param \App\UBL\Common\CAC\CatalogueItemIdentification $catalogueItemIdentification
      * @return self
      */
-    public function setCatalogueItemIdentification(?\UBL\Common\CAC\CatalogueItemIdentification $catalogueItemIdentification = null)
+    public function setCatalogueItemIdentification(?\App\UBL\Common\CAC\CatalogueItemIdentification $catalogueItemIdentification = null)
     {
         $this->catalogueItemIdentification = $catalogueItemIdentification;
         return $this;
@@ -1504,9 +1504,9 @@ class ItemType
      *  Item Identification
      *
      * @return self
-     * @param \UBL\Common\CAC\AdditionalItemIdentification $additionalItemIdentification
+     * @param \App\UBL\Common\CAC\AdditionalItemIdentification $additionalItemIdentification
      */
-    public function addToAdditionalItemIdentification(\UBL\Common\CAC\AdditionalItemIdentification $additionalItemIdentification)
+    public function addToAdditionalItemIdentification(\App\UBL\Common\CAC\AdditionalItemIdentification $additionalItemIdentification)
     {
         $this->additionalItemIdentification[] = $additionalItemIdentification;
         return $this;
@@ -1567,7 +1567,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @return \UBL\Common\CAC\AdditionalItemIdentification[]
+     * @return \App\UBL\Common\CAC\AdditionalItemIdentification[]
      */
     public function getAdditionalItemIdentification()
     {
@@ -1587,7 +1587,7 @@ class ItemType
      *  Item Identification
      *  Item Identification
      *
-     * @param \UBL\Common\CAC\AdditionalItemIdentification[] $additionalItemIdentification
+     * @param \App\UBL\Common\CAC\AdditionalItemIdentification[] $additionalItemIdentification
      * @return self
      */
     public function setAdditionalItemIdentification(?array $additionalItemIdentification = null)
@@ -1609,7 +1609,7 @@ class ItemType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\CatalogueDocumentReference
+     * @return \App\UBL\Common\CAC\CatalogueDocumentReference
      */
     public function getCatalogueDocumentReference()
     {
@@ -1629,10 +1629,10 @@ class ItemType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\CatalogueDocumentReference $catalogueDocumentReference
+     * @param \App\UBL\Common\CAC\CatalogueDocumentReference $catalogueDocumentReference
      * @return self
      */
-    public function setCatalogueDocumentReference(?\UBL\Common\CAC\CatalogueDocumentReference $catalogueDocumentReference = null)
+    public function setCatalogueDocumentReference(?\App\UBL\Common\CAC\CatalogueDocumentReference $catalogueDocumentReference = null)
     {
         $this->catalogueDocumentReference = $catalogueDocumentReference;
         return $this;
@@ -1652,9 +1652,9 @@ class ItemType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\ItemSpecificationDocumentReference $itemSpecificationDocumentReference
+     * @param \App\UBL\Common\CAC\ItemSpecificationDocumentReference $itemSpecificationDocumentReference
      */
-    public function addToItemSpecificationDocumentReference(\UBL\Common\CAC\ItemSpecificationDocumentReference $itemSpecificationDocumentReference)
+    public function addToItemSpecificationDocumentReference(\App\UBL\Common\CAC\ItemSpecificationDocumentReference $itemSpecificationDocumentReference)
     {
         $this->itemSpecificationDocumentReference[] = $itemSpecificationDocumentReference;
         return $this;
@@ -1715,7 +1715,7 @@ class ItemType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\ItemSpecificationDocumentReference[]
+     * @return \App\UBL\Common\CAC\ItemSpecificationDocumentReference[]
      */
     public function getItemSpecificationDocumentReference()
     {
@@ -1735,7 +1735,7 @@ class ItemType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\ItemSpecificationDocumentReference[] $itemSpecificationDocumentReference
+     * @param \App\UBL\Common\CAC\ItemSpecificationDocumentReference[] $itemSpecificationDocumentReference
      * @return self
      */
     public function setItemSpecificationDocumentReference(?array $itemSpecificationDocumentReference = null)
@@ -1757,7 +1757,7 @@ class ItemType
      *  Country
      *  Country
      *
-     * @return \UBL\Common\CAC\OriginCountry
+     * @return \App\UBL\Common\CAC\OriginCountry
      */
     public function getOriginCountry()
     {
@@ -1777,10 +1777,10 @@ class ItemType
      *  Country
      *  Country
      *
-     * @param \UBL\Common\CAC\OriginCountry $originCountry
+     * @param \App\UBL\Common\CAC\OriginCountry $originCountry
      * @return self
      */
-    public function setOriginCountry(?\UBL\Common\CAC\OriginCountry $originCountry = null)
+    public function setOriginCountry(?\App\UBL\Common\CAC\OriginCountry $originCountry = null)
     {
         $this->originCountry = $originCountry;
         return $this;
@@ -1799,9 +1799,9 @@ class ItemType
      *  Commodity Classification
      *
      * @return self
-     * @param \UBL\Common\CAC\CommodityClassification $commodityClassification
+     * @param \App\UBL\Common\CAC\CommodityClassification $commodityClassification
      */
-    public function addToCommodityClassification(\UBL\Common\CAC\CommodityClassification $commodityClassification)
+    public function addToCommodityClassification(\App\UBL\Common\CAC\CommodityClassification $commodityClassification)
     {
         $this->commodityClassification[] = $commodityClassification;
         return $this;
@@ -1859,7 +1859,7 @@ class ItemType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @return \UBL\Common\CAC\CommodityClassification[]
+     * @return \App\UBL\Common\CAC\CommodityClassification[]
      */
     public function getCommodityClassification()
     {
@@ -1878,7 +1878,7 @@ class ItemType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @param \UBL\Common\CAC\CommodityClassification[] $commodityClassification
+     * @param \App\UBL\Common\CAC\CommodityClassification[] $commodityClassification
      * @return self
      */
     public function setCommodityClassification(?array $commodityClassification = null)
@@ -1900,9 +1900,9 @@ class ItemType
      *  Transaction Conditions
      *
      * @return self
-     * @param \UBL\Common\CAC\TransactionConditions $transactionConditions
+     * @param \App\UBL\Common\CAC\TransactionConditions $transactionConditions
      */
-    public function addToTransactionConditions(\UBL\Common\CAC\TransactionConditions $transactionConditions)
+    public function addToTransactionConditions(\App\UBL\Common\CAC\TransactionConditions $transactionConditions)
     {
         $this->transactionConditions[] = $transactionConditions;
         return $this;
@@ -1960,7 +1960,7 @@ class ItemType
      *  Transaction Conditions
      *  Transaction Conditions
      *
-     * @return \UBL\Common\CAC\TransactionConditions[]
+     * @return \App\UBL\Common\CAC\TransactionConditions[]
      */
     public function getTransactionConditions()
     {
@@ -1979,7 +1979,7 @@ class ItemType
      *  Transaction Conditions
      *  Transaction Conditions
      *
-     * @param \UBL\Common\CAC\TransactionConditions[] $transactionConditions
+     * @param \App\UBL\Common\CAC\TransactionConditions[] $transactionConditions
      * @return self
      */
     public function setTransactionConditions(?array $transactionConditions = null)
@@ -2001,9 +2001,9 @@ class ItemType
      *  Hazardous Item
      *
      * @return self
-     * @param \UBL\Common\CAC\HazardousItem $hazardousItem
+     * @param \App\UBL\Common\CAC\HazardousItem $hazardousItem
      */
-    public function addToHazardousItem(\UBL\Common\CAC\HazardousItem $hazardousItem)
+    public function addToHazardousItem(\App\UBL\Common\CAC\HazardousItem $hazardousItem)
     {
         $this->hazardousItem[] = $hazardousItem;
         return $this;
@@ -2061,7 +2061,7 @@ class ItemType
      *  Hazardous Item
      *  Hazardous Item
      *
-     * @return \UBL\Common\CAC\HazardousItem[]
+     * @return \App\UBL\Common\CAC\HazardousItem[]
      */
     public function getHazardousItem()
     {
@@ -2080,7 +2080,7 @@ class ItemType
      *  Hazardous Item
      *  Hazardous Item
      *
-     * @param \UBL\Common\CAC\HazardousItem[] $hazardousItem
+     * @param \App\UBL\Common\CAC\HazardousItem[] $hazardousItem
      * @return self
      */
     public function setHazardousItem(?array $hazardousItem = null)
@@ -2103,9 +2103,9 @@ class ItemType
      *  Tax Category
      *
      * @return self
-     * @param \UBL\Common\CAC\ClassifiedTaxCategory $classifiedTaxCategory
+     * @param \App\UBL\Common\CAC\ClassifiedTaxCategory $classifiedTaxCategory
      */
-    public function addToClassifiedTaxCategory(\UBL\Common\CAC\ClassifiedTaxCategory $classifiedTaxCategory)
+    public function addToClassifiedTaxCategory(\App\UBL\Common\CAC\ClassifiedTaxCategory $classifiedTaxCategory)
     {
         $this->classifiedTaxCategory[] = $classifiedTaxCategory;
         return $this;
@@ -2166,7 +2166,7 @@ class ItemType
      *  Tax Category
      *  Tax Category
      *
-     * @return \UBL\Common\CAC\ClassifiedTaxCategory[]
+     * @return \App\UBL\Common\CAC\ClassifiedTaxCategory[]
      */
     public function getClassifiedTaxCategory()
     {
@@ -2186,7 +2186,7 @@ class ItemType
      *  Tax Category
      *  Tax Category
      *
-     * @param \UBL\Common\CAC\ClassifiedTaxCategory[] $classifiedTaxCategory
+     * @param \App\UBL\Common\CAC\ClassifiedTaxCategory[] $classifiedTaxCategory
      * @return self
      */
     public function setClassifiedTaxCategory(?array $classifiedTaxCategory = null)
@@ -2209,9 +2209,9 @@ class ItemType
      *  Item Property
      *
      * @return self
-     * @param \UBL\Common\CAC\AdditionalItemProperty $additionalItemProperty
+     * @param \App\UBL\Common\CAC\AdditionalItemProperty $additionalItemProperty
      */
-    public function addToAdditionalItemProperty(\UBL\Common\CAC\AdditionalItemProperty $additionalItemProperty)
+    public function addToAdditionalItemProperty(\App\UBL\Common\CAC\AdditionalItemProperty $additionalItemProperty)
     {
         $this->additionalItemProperty[] = $additionalItemProperty;
         return $this;
@@ -2272,7 +2272,7 @@ class ItemType
      *  Item Property
      *  Item Property
      *
-     * @return \UBL\Common\CAC\AdditionalItemProperty[]
+     * @return \App\UBL\Common\CAC\AdditionalItemProperty[]
      */
     public function getAdditionalItemProperty()
     {
@@ -2292,7 +2292,7 @@ class ItemType
      *  Item Property
      *  Item Property
      *
-     * @param \UBL\Common\CAC\AdditionalItemProperty[] $additionalItemProperty
+     * @param \App\UBL\Common\CAC\AdditionalItemProperty[] $additionalItemProperty
      * @return self
      */
     public function setAdditionalItemProperty(?array $additionalItemProperty = null)
@@ -2315,9 +2315,9 @@ class ItemType
      *  Party
      *
      * @return self
-     * @param \UBL\Common\CAC\ManufacturerParty $manufacturerParty
+     * @param \App\UBL\Common\CAC\ManufacturerParty $manufacturerParty
      */
-    public function addToManufacturerParty(\UBL\Common\CAC\ManufacturerParty $manufacturerParty)
+    public function addToManufacturerParty(\App\UBL\Common\CAC\ManufacturerParty $manufacturerParty)
     {
         $this->manufacturerParty[] = $manufacturerParty;
         return $this;
@@ -2378,7 +2378,7 @@ class ItemType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\ManufacturerParty[]
+     * @return \App\UBL\Common\CAC\ManufacturerParty[]
      */
     public function getManufacturerParty()
     {
@@ -2398,7 +2398,7 @@ class ItemType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\ManufacturerParty[] $manufacturerParty
+     * @param \App\UBL\Common\CAC\ManufacturerParty[] $manufacturerParty
      * @return self
      */
     public function setManufacturerParty(?array $manufacturerParty = null)
@@ -2420,7 +2420,7 @@ class ItemType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\InformationContentProviderParty
+     * @return \App\UBL\Common\CAC\InformationContentProviderParty
      */
     public function getInformationContentProviderParty()
     {
@@ -2440,10 +2440,10 @@ class ItemType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\InformationContentProviderParty $informationContentProviderParty
+     * @param \App\UBL\Common\CAC\InformationContentProviderParty $informationContentProviderParty
      * @return self
      */
-    public function setInformationContentProviderParty(?\UBL\Common\CAC\InformationContentProviderParty $informationContentProviderParty = null)
+    public function setInformationContentProviderParty(?\App\UBL\Common\CAC\InformationContentProviderParty $informationContentProviderParty = null)
     {
         $this->informationContentProviderParty = $informationContentProviderParty;
         return $this;
@@ -2463,9 +2463,9 @@ class ItemType
      *  Address
      *
      * @return self
-     * @param \UBL\Common\CAC\OriginAddress $originAddress
+     * @param \App\UBL\Common\CAC\OriginAddress $originAddress
      */
-    public function addToOriginAddress(\UBL\Common\CAC\OriginAddress $originAddress)
+    public function addToOriginAddress(\App\UBL\Common\CAC\OriginAddress $originAddress)
     {
         $this->originAddress[] = $originAddress;
         return $this;
@@ -2526,7 +2526,7 @@ class ItemType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\OriginAddress[]
+     * @return \App\UBL\Common\CAC\OriginAddress[]
      */
     public function getOriginAddress()
     {
@@ -2546,7 +2546,7 @@ class ItemType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\OriginAddress[] $originAddress
+     * @param \App\UBL\Common\CAC\OriginAddress[] $originAddress
      * @return self
      */
     public function setOriginAddress(?array $originAddress = null)
@@ -2568,9 +2568,9 @@ class ItemType
      *  Item Instance
      *
      * @return self
-     * @param \UBL\Common\CAC\ItemInstance $itemInstance
+     * @param \App\UBL\Common\CAC\ItemInstance $itemInstance
      */
-    public function addToItemInstance(\UBL\Common\CAC\ItemInstance $itemInstance)
+    public function addToItemInstance(\App\UBL\Common\CAC\ItemInstance $itemInstance)
     {
         $this->itemInstance[] = $itemInstance;
         return $this;
@@ -2628,7 +2628,7 @@ class ItemType
      *  Item Instance
      *  Item Instance
      *
-     * @return \UBL\Common\CAC\ItemInstance[]
+     * @return \App\UBL\Common\CAC\ItemInstance[]
      */
     public function getItemInstance()
     {
@@ -2647,7 +2647,7 @@ class ItemType
      *  Item Instance
      *  Item Instance
      *
-     * @param \UBL\Common\CAC\ItemInstance[] $itemInstance
+     * @param \App\UBL\Common\CAC\ItemInstance[] $itemInstance
      * @return self
      */
     public function setItemInstance(?array $itemInstance = null)
@@ -2669,9 +2669,9 @@ class ItemType
      *  Certificate
      *
      * @return self
-     * @param \UBL\Common\CAC\Certificate $certificate
+     * @param \App\UBL\Common\CAC\Certificate $certificate
      */
-    public function addToCertificate(\UBL\Common\CAC\Certificate $certificate)
+    public function addToCertificate(\App\UBL\Common\CAC\Certificate $certificate)
     {
         $this->certificate[] = $certificate;
         return $this;
@@ -2729,7 +2729,7 @@ class ItemType
      *  Certificate
      *  Certificate
      *
-     * @return \UBL\Common\CAC\Certificate[]
+     * @return \App\UBL\Common\CAC\Certificate[]
      */
     public function getCertificate()
     {
@@ -2748,7 +2748,7 @@ class ItemType
      *  Certificate
      *  Certificate
      *
-     * @param \UBL\Common\CAC\Certificate[] $certificate
+     * @param \App\UBL\Common\CAC\Certificate[] $certificate
      * @return self
      */
     public function setCertificate(?array $certificate = null)
@@ -2770,9 +2770,9 @@ class ItemType
      *  Dimension
      *
      * @return self
-     * @param \UBL\Common\CAC\Dimension $dimension
+     * @param \App\UBL\Common\CAC\Dimension $dimension
      */
-    public function addToDimension(\UBL\Common\CAC\Dimension $dimension)
+    public function addToDimension(\App\UBL\Common\CAC\Dimension $dimension)
     {
         $this->dimension[] = $dimension;
         return $this;
@@ -2830,7 +2830,7 @@ class ItemType
      *  Dimension
      *  Dimension
      *
-     * @return \UBL\Common\CAC\Dimension[]
+     * @return \App\UBL\Common\CAC\Dimension[]
      */
     public function getDimension()
     {
@@ -2849,7 +2849,7 @@ class ItemType
      *  Dimension
      *  Dimension
      *
-     * @param \UBL\Common\CAC\Dimension[] $dimension
+     * @param \App\UBL\Common\CAC\Dimension[] $dimension
      * @return self
      */
     public function setDimension(?array $dimension = null)
@@ -2858,5 +2858,4 @@ class ItemType
         return $this;
     }
 }
-
 

@@ -1,2 +1,2 @@
-UBL\Common\CBC\LiabilityAmountType:
+App\UBL\Common\CBC\LiabilityAmountType:
     properties: {  }

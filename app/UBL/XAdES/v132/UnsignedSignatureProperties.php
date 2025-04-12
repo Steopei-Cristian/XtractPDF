@@ -9,4 +9,3 @@ class UnsignedSignatureProperties extends UnsignedSignaturePropertiesType
 {
 }
 
-

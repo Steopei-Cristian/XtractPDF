@@ -23,7 +23,7 @@ class ConditionType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\AttributeID $attributeID
+     * @var \App\UBL\Common\CBC\AttributeID $attributeID
      */
     private $attributeID = null;
 
@@ -37,7 +37,7 @@ class ConditionType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\Measure $measure
+     * @var \App\UBL\Common\CBC\Measure $measure
      */
     private $measure = null;
 
@@ -51,7 +51,7 @@ class ConditionType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -68,7 +68,7 @@ class ConditionType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\MinimumMeasure $minimumMeasure
+     * @var \App\UBL\Common\CBC\MinimumMeasure $minimumMeasure
      */
     private $minimumMeasure = null;
 
@@ -83,7 +83,7 @@ class ConditionType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\MaximumMeasure $maximumMeasure
+     * @var \App\UBL\Common\CBC\MaximumMeasure $maximumMeasure
      */
     private $maximumMeasure = null;
 
@@ -99,7 +99,7 @@ class ConditionType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\AttributeID
+     * @return \App\UBL\Common\CBC\AttributeID
      */
     public function getAttributeID()
     {
@@ -118,10 +118,10 @@ class ConditionType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\AttributeID $attributeID
+     * @param \App\UBL\Common\CBC\AttributeID $attributeID
      * @return self
      */
-    public function setAttributeID(\UBL\Common\CBC\AttributeID $attributeID)
+    public function setAttributeID(\App\UBL\Common\CBC\AttributeID $attributeID)
     {
         $this->attributeID = $attributeID;
         return $this;
@@ -139,7 +139,7 @@ class ConditionType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\Measure
+     * @return \App\UBL\Common\CBC\Measure
      */
     public function getMeasure()
     {
@@ -158,10 +158,10 @@ class ConditionType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\Measure $measure
+     * @param \App\UBL\Common\CBC\Measure $measure
      * @return self
      */
-    public function setMeasure(?\UBL\Common\CBC\Measure $measure = null)
+    public function setMeasure(?\App\UBL\Common\CBC\Measure $measure = null)
     {
         $this->measure = $measure;
         return $this;
@@ -180,9 +180,9 @@ class ConditionType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -240,7 +240,7 @@ class ConditionType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -259,7 +259,7 @@ class ConditionType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -281,7 +281,7 @@ class ConditionType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\MinimumMeasure
+     * @return \App\UBL\Common\CBC\MinimumMeasure
      */
     public function getMinimumMeasure()
     {
@@ -301,10 +301,10 @@ class ConditionType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\MinimumMeasure $minimumMeasure
+     * @param \App\UBL\Common\CBC\MinimumMeasure $minimumMeasure
      * @return self
      */
-    public function setMinimumMeasure(?\UBL\Common\CBC\MinimumMeasure $minimumMeasure = null)
+    public function setMinimumMeasure(?\App\UBL\Common\CBC\MinimumMeasure $minimumMeasure = null)
     {
         $this->minimumMeasure = $minimumMeasure;
         return $this;
@@ -323,7 +323,7 @@ class ConditionType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\MaximumMeasure
+     * @return \App\UBL\Common\CBC\MaximumMeasure
      */
     public function getMaximumMeasure()
     {
@@ -343,14 +343,13 @@ class ConditionType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\MaximumMeasure $maximumMeasure
+     * @param \App\UBL\Common\CBC\MaximumMeasure $maximumMeasure
      * @return self
      */
-    public function setMaximumMeasure(?\UBL\Common\CBC\MaximumMeasure $maximumMeasure = null)
+    public function setMaximumMeasure(?\App\UBL\Common\CBC\MaximumMeasure $maximumMeasure = null)
     {
         $this->maximumMeasure = $maximumMeasure;
         return $this;
     }
 }
-
 

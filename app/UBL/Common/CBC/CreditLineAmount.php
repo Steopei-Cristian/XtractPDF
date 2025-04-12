@@ -9,4 +9,3 @@ class CreditLineAmount extends CreditLineAmountType
 {
 }
 
-

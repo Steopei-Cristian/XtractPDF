@@ -9,4 +9,3 @@ class MinimumQuantity extends MinimumQuantityType
 {
 }
 
-

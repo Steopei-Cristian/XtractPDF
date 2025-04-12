@@ -9,4 +9,3 @@ class VesselName extends VesselNameType
 {
 }
 
-

@@ -9,4 +9,3 @@ class AppealReceiverParty extends PartyType
 {
 }
 
-

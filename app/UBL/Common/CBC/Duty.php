@@ -9,4 +9,3 @@ class Duty extends DutyType
 {
 }
 
-

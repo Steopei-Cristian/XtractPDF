@@ -9,4 +9,3 @@ class RequestedDespatchPeriod extends PeriodType
 {
 }
 
-

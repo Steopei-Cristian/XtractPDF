@@ -9,4 +9,3 @@ class Manifest extends ManifestType
 {
 }
 
-

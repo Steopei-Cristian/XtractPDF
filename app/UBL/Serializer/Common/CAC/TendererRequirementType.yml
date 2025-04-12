@@ -1,4 +1,4 @@
-UBL\Common\CAC\TendererRequirementType:
+App\UBL\Common\CAC\TendererRequirementType:
     properties:
         name:
             expose: true
@@ -13,7 +13,7 @@ UBL\Common\CAC\TendererRequirementType:
                 inline: true
                 entry_name: Name
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Name>
+            type: array<App\UBL\Common\CBC\Name>
         tendererRequirementTypeCode:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\TendererRequirementType:
             accessor:
                 getter: getTendererRequirementTypeCode
                 setter: setTendererRequirementTypeCode
-            type: UBL\Common\CBC\TendererRequirementTypeCode
+            type: App\UBL\Common\CBC\TendererRequirementTypeCode
         description:
             expose: true
             access_type: public_method
@@ -37,7 +37,7 @@ UBL\Common\CAC\TendererRequirementType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         legalReference:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ UBL\Common\CAC\TendererRequirementType:
             accessor:
                 getter: getLegalReference
                 setter: setLegalReference
-            type: UBL\Common\CBC\LegalReference
+            type: App\UBL\Common\CBC\LegalReference
         suggestedEvidence:
             expose: true
             access_type: public_method
@@ -61,4 +61,4 @@ UBL\Common\CAC\TendererRequirementType:
                 inline: true
                 entry_name: SuggestedEvidence
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SuggestedEvidence>
+            type: array<App\UBL\Common\CAC\SuggestedEvidence>

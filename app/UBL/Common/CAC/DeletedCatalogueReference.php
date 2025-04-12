@@ -9,4 +9,3 @@ class DeletedCatalogueReference extends CatalogueReferenceType
 {
 }
 
-

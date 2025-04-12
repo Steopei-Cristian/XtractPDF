@@ -1,4 +1,4 @@
-UBL\Common\CAC\PeriodType:
+App\UBL\Common\CAC\PeriodType:
     properties:
         startDate:
             expose: true
@@ -49,7 +49,7 @@ UBL\Common\CAC\PeriodType:
             accessor:
                 getter: getDurationMeasure
                 setter: setDurationMeasure
-            type: UBL\Common\CBC\DurationMeasure
+            type: App\UBL\Common\CBC\DurationMeasure
         descriptionCode:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\PeriodType:
                 inline: true
                 entry_name: DescriptionCode
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\DescriptionCode>
+            type: array<App\UBL\Common\CBC\DescriptionCode>
         description:
             expose: true
             access_type: public_method
@@ -77,4 +77,4 @@ UBL\Common\CAC\PeriodType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>

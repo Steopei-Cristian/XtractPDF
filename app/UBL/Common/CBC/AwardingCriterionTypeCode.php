@@ -9,4 +9,3 @@ class AwardingCriterionTypeCode extends AwardingCriterionTypeCodeType
 {
 }
 
-

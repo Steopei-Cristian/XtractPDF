@@ -9,4 +9,3 @@ class TenderResult extends TenderResultType
 {
 }
 
-

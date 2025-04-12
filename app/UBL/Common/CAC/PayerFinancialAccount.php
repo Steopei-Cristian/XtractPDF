@@ -9,4 +9,3 @@ class PayerFinancialAccount extends FinancialAccountType
 {
 }
 
-

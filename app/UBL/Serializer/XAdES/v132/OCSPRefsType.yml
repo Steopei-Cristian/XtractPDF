@@ -1,4 +1,4 @@
-UBL\XAdES\v132\OCSPRefsType:
+App\UBL\XAdES\v132\OCSPRefsType:
     properties:
         oCSPRef:
             expose: true
@@ -13,4 +13,4 @@ UBL\XAdES\v132\OCSPRefsType:
                 inline: true
                 entry_name: OCSPRef
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\OCSPRefType>
+            type: array<App\UBL\XAdES\v132\OCSPRefType>

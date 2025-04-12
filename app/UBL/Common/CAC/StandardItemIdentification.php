@@ -9,4 +9,3 @@ class StandardItemIdentification extends ItemIdentificationType
 {
 }
 
-

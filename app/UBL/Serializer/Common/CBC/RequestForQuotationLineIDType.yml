@@ -1,2 +1,2 @@
-UBL\Common\CBC\RequestForQuotationLineIDType:
+App\UBL\Common\CBC\RequestForQuotationLineIDType:
     properties: {  }

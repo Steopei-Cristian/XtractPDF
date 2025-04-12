@@ -9,4 +9,3 @@ class ProfileStatusCode extends ProfileStatusCodeType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CAC\DeliveryTermsType:
+App\UBL\Common\CAC\DeliveryTermsType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\DeliveryTermsType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         specialTerms:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\DeliveryTermsType:
                 inline: true
                 entry_name: SpecialTerms
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\SpecialTerms>
+            type: array<App\UBL\Common\CBC\SpecialTerms>
         lossRiskResponsibilityCode:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\DeliveryTermsType:
             accessor:
                 getter: getLossRiskResponsibilityCode
                 setter: setLossRiskResponsibilityCode
-            type: UBL\Common\CBC\LossRiskResponsibilityCode
+            type: App\UBL\Common\CBC\LossRiskResponsibilityCode
         lossRisk:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ UBL\Common\CAC\DeliveryTermsType:
                 inline: true
                 entry_name: LossRisk
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\LossRisk>
+            type: array<App\UBL\Common\CBC\LossRisk>
         amount:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\DeliveryTermsType:
             accessor:
                 getter: getAmount
                 setter: setAmount
-            type: UBL\Common\CBC\Amount
+            type: App\UBL\Common\CBC\Amount
         deliveryLocation:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\DeliveryTermsType:
             accessor:
                 getter: getDeliveryLocation
                 setter: setDeliveryLocation
-            type: UBL\Common\CAC\DeliveryLocation
+            type: App\UBL\Common\CAC\DeliveryLocation
         allowanceCharge:
             expose: true
             access_type: public_method
@@ -77,4 +77,4 @@ UBL\Common\CAC\DeliveryTermsType:
             accessor:
                 getter: getAllowanceCharge
                 setter: setAllowanceCharge
-            type: UBL\Common\CAC\AllowanceCharge
+            type: App\UBL\Common\CAC\AllowanceCharge

@@ -9,4 +9,3 @@ class CalculationMethodCode extends CalculationMethodCodeType
 {
 }
 
-

@@ -9,4 +9,3 @@ class AtLocation extends LocationType
 {
 }
 
-

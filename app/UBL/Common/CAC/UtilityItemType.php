@@ -24,7 +24,7 @@ class UtilityItemType
      *  Identifier. Type
      *  1
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class UtilityItemType
      *  Identifier. Type
      *  98143211
      *
-     * @var \UBL\Common\CBC\SubscriberID $subscriberID
+     * @var \App\UBL\Common\CBC\SubscriberID $subscriberID
      */
     private $subscriberID = null;
 
@@ -53,7 +53,7 @@ class UtilityItemType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\SubscriberType $subscriberType
+     * @var \App\UBL\Common\CBC\SubscriberType $subscriberType
      */
     private $subscriberType = null;
 
@@ -67,7 +67,7 @@ class UtilityItemType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\SubscriberTypeCode $subscriberTypeCode
+     * @var \App\UBL\Common\CBC\SubscriberTypeCode $subscriberTypeCode
      */
     private $subscriberTypeCode = null;
 
@@ -82,7 +82,7 @@ class UtilityItemType
      *  Text. Type
      *  Basis price quarter (5.761 kWh per 35,58 cents), Transport of electricity, etc.
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -99,7 +99,7 @@ class UtilityItemType
      *  Quantity. Type
      *  1
      *
-     * @var \UBL\Common\CBC\PackQuantity $packQuantity
+     * @var \App\UBL\Common\CBC\PackQuantity $packQuantity
      */
     private $packQuantity = null;
 
@@ -113,7 +113,7 @@ class UtilityItemType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\PackSizeNumeric $packSizeNumeric
+     * @var \App\UBL\Common\CBC\PackSizeNumeric $packSizeNumeric
      */
     private $packSizeNumeric = null;
 
@@ -128,7 +128,7 @@ class UtilityItemType
      *  Text. Type
      *  Consumption
      *
-     * @var \UBL\Common\CBC\ConsumptionType $consumptionType
+     * @var \App\UBL\Common\CBC\ConsumptionType $consumptionType
      */
     private $consumptionType = null;
 
@@ -143,7 +143,7 @@ class UtilityItemType
      *  Code. Type
      *  Consumption
      *
-     * @var \UBL\Common\CBC\ConsumptionTypeCode $consumptionTypeCode
+     * @var \App\UBL\Common\CBC\ConsumptionTypeCode $consumptionTypeCode
      */
     private $consumptionTypeCode = null;
 
@@ -158,7 +158,7 @@ class UtilityItemType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\CurrentChargeType $currentChargeType
+     * @var \App\UBL\Common\CBC\CurrentChargeType $currentChargeType
      */
     private $currentChargeType = null;
 
@@ -173,7 +173,7 @@ class UtilityItemType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\CurrentChargeTypeCode $currentChargeTypeCode
+     * @var \App\UBL\Common\CBC\CurrentChargeTypeCode $currentChargeTypeCode
      */
     private $currentChargeTypeCode = null;
 
@@ -188,7 +188,7 @@ class UtilityItemType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\OneTimeChargeType $oneTimeChargeType
+     * @var \App\UBL\Common\CBC\OneTimeChargeType $oneTimeChargeType
      */
     private $oneTimeChargeType = null;
 
@@ -203,7 +203,7 @@ class UtilityItemType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\OneTimeChargeTypeCode $oneTimeChargeTypeCode
+     * @var \App\UBL\Common\CBC\OneTimeChargeTypeCode $oneTimeChargeTypeCode
      */
     private $oneTimeChargeTypeCode = null;
 
@@ -217,7 +217,7 @@ class UtilityItemType
      *  Tax Category
      *  Tax Category
      *
-     * @var \UBL\Common\CAC\TaxCategory $taxCategory
+     * @var \App\UBL\Common\CAC\TaxCategory $taxCategory
      */
     private $taxCategory = null;
 
@@ -231,7 +231,7 @@ class UtilityItemType
      *  Contract
      *  Contract
      *
-     * @var \UBL\Common\CAC\Contract $contract
+     * @var \App\UBL\Common\CAC\Contract $contract
      */
     private $contract = null;
 
@@ -248,7 +248,7 @@ class UtilityItemType
      *  Identifier. Type
      *  1
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -268,10 +268,10 @@ class UtilityItemType
      *  Identifier. Type
      *  1
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -290,7 +290,7 @@ class UtilityItemType
      *  Identifier. Type
      *  98143211
      *
-     * @return \UBL\Common\CBC\SubscriberID
+     * @return \App\UBL\Common\CBC\SubscriberID
      */
     public function getSubscriberID()
     {
@@ -310,10 +310,10 @@ class UtilityItemType
      *  Identifier. Type
      *  98143211
      *
-     * @param \UBL\Common\CBC\SubscriberID $subscriberID
+     * @param \App\UBL\Common\CBC\SubscriberID $subscriberID
      * @return self
      */
-    public function setSubscriberID(?\UBL\Common\CBC\SubscriberID $subscriberID = null)
+    public function setSubscriberID(?\App\UBL\Common\CBC\SubscriberID $subscriberID = null)
     {
         $this->subscriberID = $subscriberID;
         return $this;
@@ -331,7 +331,7 @@ class UtilityItemType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\SubscriberType
+     * @return \App\UBL\Common\CBC\SubscriberType
      */
     public function getSubscriberType()
     {
@@ -350,10 +350,10 @@ class UtilityItemType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\SubscriberType $subscriberType
+     * @param \App\UBL\Common\CBC\SubscriberType $subscriberType
      * @return self
      */
-    public function setSubscriberType(?\UBL\Common\CBC\SubscriberType $subscriberType = null)
+    public function setSubscriberType(?\App\UBL\Common\CBC\SubscriberType $subscriberType = null)
     {
         $this->subscriberType = $subscriberType;
         return $this;
@@ -371,7 +371,7 @@ class UtilityItemType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\SubscriberTypeCode
+     * @return \App\UBL\Common\CBC\SubscriberTypeCode
      */
     public function getSubscriberTypeCode()
     {
@@ -390,10 +390,10 @@ class UtilityItemType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\SubscriberTypeCode $subscriberTypeCode
+     * @param \App\UBL\Common\CBC\SubscriberTypeCode $subscriberTypeCode
      * @return self
      */
-    public function setSubscriberTypeCode(?\UBL\Common\CBC\SubscriberTypeCode $subscriberTypeCode = null)
+    public function setSubscriberTypeCode(?\App\UBL\Common\CBC\SubscriberTypeCode $subscriberTypeCode = null)
     {
         $this->subscriberTypeCode = $subscriberTypeCode;
         return $this;
@@ -413,9 +413,9 @@ class UtilityItemType
      *  Basis price quarter (5.761 kWh per 35,58 cents), Transport of electricity, etc.
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -476,7 +476,7 @@ class UtilityItemType
      *  Text. Type
      *  Basis price quarter (5.761 kWh per 35,58 cents), Transport of electricity, etc.
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -496,7 +496,7 @@ class UtilityItemType
      *  Text. Type
      *  Basis price quarter (5.761 kWh per 35,58 cents), Transport of electricity, etc.
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -518,7 +518,7 @@ class UtilityItemType
      *  Quantity. Type
      *  1
      *
-     * @return \UBL\Common\CBC\PackQuantity
+     * @return \App\UBL\Common\CBC\PackQuantity
      */
     public function getPackQuantity()
     {
@@ -538,10 +538,10 @@ class UtilityItemType
      *  Quantity. Type
      *  1
      *
-     * @param \UBL\Common\CBC\PackQuantity $packQuantity
+     * @param \App\UBL\Common\CBC\PackQuantity $packQuantity
      * @return self
      */
-    public function setPackQuantity(?\UBL\Common\CBC\PackQuantity $packQuantity = null)
+    public function setPackQuantity(?\App\UBL\Common\CBC\PackQuantity $packQuantity = null)
     {
         $this->packQuantity = $packQuantity;
         return $this;
@@ -559,7 +559,7 @@ class UtilityItemType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\PackSizeNumeric
+     * @return \App\UBL\Common\CBC\PackSizeNumeric
      */
     public function getPackSizeNumeric()
     {
@@ -578,10 +578,10 @@ class UtilityItemType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\PackSizeNumeric $packSizeNumeric
+     * @param \App\UBL\Common\CBC\PackSizeNumeric $packSizeNumeric
      * @return self
      */
-    public function setPackSizeNumeric(?\UBL\Common\CBC\PackSizeNumeric $packSizeNumeric = null)
+    public function setPackSizeNumeric(?\App\UBL\Common\CBC\PackSizeNumeric $packSizeNumeric = null)
     {
         $this->packSizeNumeric = $packSizeNumeric;
         return $this;
@@ -600,7 +600,7 @@ class UtilityItemType
      *  Text. Type
      *  Consumption
      *
-     * @return \UBL\Common\CBC\ConsumptionType
+     * @return \App\UBL\Common\CBC\ConsumptionType
      */
     public function getConsumptionType()
     {
@@ -620,10 +620,10 @@ class UtilityItemType
      *  Text. Type
      *  Consumption
      *
-     * @param \UBL\Common\CBC\ConsumptionType $consumptionType
+     * @param \App\UBL\Common\CBC\ConsumptionType $consumptionType
      * @return self
      */
-    public function setConsumptionType(?\UBL\Common\CBC\ConsumptionType $consumptionType = null)
+    public function setConsumptionType(?\App\UBL\Common\CBC\ConsumptionType $consumptionType = null)
     {
         $this->consumptionType = $consumptionType;
         return $this;
@@ -642,7 +642,7 @@ class UtilityItemType
      *  Code. Type
      *  Consumption
      *
-     * @return \UBL\Common\CBC\ConsumptionTypeCode
+     * @return \App\UBL\Common\CBC\ConsumptionTypeCode
      */
     public function getConsumptionTypeCode()
     {
@@ -662,10 +662,10 @@ class UtilityItemType
      *  Code. Type
      *  Consumption
      *
-     * @param \UBL\Common\CBC\ConsumptionTypeCode $consumptionTypeCode
+     * @param \App\UBL\Common\CBC\ConsumptionTypeCode $consumptionTypeCode
      * @return self
      */
-    public function setConsumptionTypeCode(?\UBL\Common\CBC\ConsumptionTypeCode $consumptionTypeCode = null)
+    public function setConsumptionTypeCode(?\App\UBL\Common\CBC\ConsumptionTypeCode $consumptionTypeCode = null)
     {
         $this->consumptionTypeCode = $consumptionTypeCode;
         return $this;
@@ -684,7 +684,7 @@ class UtilityItemType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\CurrentChargeType
+     * @return \App\UBL\Common\CBC\CurrentChargeType
      */
     public function getCurrentChargeType()
     {
@@ -704,10 +704,10 @@ class UtilityItemType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\CurrentChargeType $currentChargeType
+     * @param \App\UBL\Common\CBC\CurrentChargeType $currentChargeType
      * @return self
      */
-    public function setCurrentChargeType(?\UBL\Common\CBC\CurrentChargeType $currentChargeType = null)
+    public function setCurrentChargeType(?\App\UBL\Common\CBC\CurrentChargeType $currentChargeType = null)
     {
         $this->currentChargeType = $currentChargeType;
         return $this;
@@ -726,7 +726,7 @@ class UtilityItemType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\CurrentChargeTypeCode
+     * @return \App\UBL\Common\CBC\CurrentChargeTypeCode
      */
     public function getCurrentChargeTypeCode()
     {
@@ -746,10 +746,10 @@ class UtilityItemType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\CurrentChargeTypeCode $currentChargeTypeCode
+     * @param \App\UBL\Common\CBC\CurrentChargeTypeCode $currentChargeTypeCode
      * @return self
      */
-    public function setCurrentChargeTypeCode(?\UBL\Common\CBC\CurrentChargeTypeCode $currentChargeTypeCode = null)
+    public function setCurrentChargeTypeCode(?\App\UBL\Common\CBC\CurrentChargeTypeCode $currentChargeTypeCode = null)
     {
         $this->currentChargeTypeCode = $currentChargeTypeCode;
         return $this;
@@ -768,7 +768,7 @@ class UtilityItemType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\OneTimeChargeType
+     * @return \App\UBL\Common\CBC\OneTimeChargeType
      */
     public function getOneTimeChargeType()
     {
@@ -788,10 +788,10 @@ class UtilityItemType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\OneTimeChargeType $oneTimeChargeType
+     * @param \App\UBL\Common\CBC\OneTimeChargeType $oneTimeChargeType
      * @return self
      */
-    public function setOneTimeChargeType(?\UBL\Common\CBC\OneTimeChargeType $oneTimeChargeType = null)
+    public function setOneTimeChargeType(?\App\UBL\Common\CBC\OneTimeChargeType $oneTimeChargeType = null)
     {
         $this->oneTimeChargeType = $oneTimeChargeType;
         return $this;
@@ -810,7 +810,7 @@ class UtilityItemType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\OneTimeChargeTypeCode
+     * @return \App\UBL\Common\CBC\OneTimeChargeTypeCode
      */
     public function getOneTimeChargeTypeCode()
     {
@@ -830,10 +830,10 @@ class UtilityItemType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\OneTimeChargeTypeCode $oneTimeChargeTypeCode
+     * @param \App\UBL\Common\CBC\OneTimeChargeTypeCode $oneTimeChargeTypeCode
      * @return self
      */
-    public function setOneTimeChargeTypeCode(?\UBL\Common\CBC\OneTimeChargeTypeCode $oneTimeChargeTypeCode = null)
+    public function setOneTimeChargeTypeCode(?\App\UBL\Common\CBC\OneTimeChargeTypeCode $oneTimeChargeTypeCode = null)
     {
         $this->oneTimeChargeTypeCode = $oneTimeChargeTypeCode;
         return $this;
@@ -851,7 +851,7 @@ class UtilityItemType
      *  Tax Category
      *  Tax Category
      *
-     * @return \UBL\Common\CAC\TaxCategory
+     * @return \App\UBL\Common\CAC\TaxCategory
      */
     public function getTaxCategory()
     {
@@ -870,10 +870,10 @@ class UtilityItemType
      *  Tax Category
      *  Tax Category
      *
-     * @param \UBL\Common\CAC\TaxCategory $taxCategory
+     * @param \App\UBL\Common\CAC\TaxCategory $taxCategory
      * @return self
      */
-    public function setTaxCategory(?\UBL\Common\CAC\TaxCategory $taxCategory = null)
+    public function setTaxCategory(?\App\UBL\Common\CAC\TaxCategory $taxCategory = null)
     {
         $this->taxCategory = $taxCategory;
         return $this;
@@ -891,7 +891,7 @@ class UtilityItemType
      *  Contract
      *  Contract
      *
-     * @return \UBL\Common\CAC\Contract
+     * @return \App\UBL\Common\CAC\Contract
      */
     public function getContract()
     {
@@ -910,14 +910,13 @@ class UtilityItemType
      *  Contract
      *  Contract
      *
-     * @param \UBL\Common\CAC\Contract $contract
+     * @param \App\UBL\Common\CAC\Contract $contract
      * @return self
      */
-    public function setContract(?\UBL\Common\CAC\Contract $contract = null)
+    public function setContract(?\App\UBL\Common\CAC\Contract $contract = null)
     {
         $this->contract = $contract;
         return $this;
     }
 }
-
 

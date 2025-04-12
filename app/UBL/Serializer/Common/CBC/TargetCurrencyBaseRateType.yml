@@ -1,2 +1,2 @@
-UBL\Common\CBC\TargetCurrencyBaseRateType:
+App\UBL\Common\CBC\TargetCurrencyBaseRateType:
     properties: {  }

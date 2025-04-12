@@ -9,4 +9,3 @@ class PreviousMeterQuantity extends PreviousMeterQuantityType
 {
 }
 
-

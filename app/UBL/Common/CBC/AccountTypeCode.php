@@ -9,4 +9,3 @@ class AccountTypeCode extends AccountTypeCodeType
 {
 }
 
-

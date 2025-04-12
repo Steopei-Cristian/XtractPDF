@@ -9,4 +9,3 @@ class MovieTitle extends MovieTitleType
 {
 }
 
-

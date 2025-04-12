@@ -9,4 +9,3 @@ class ContractExecutionRequirement extends ContractExecutionRequirementType
 {
 }
 
-

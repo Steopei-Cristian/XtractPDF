@@ -9,4 +9,3 @@ class ImportanceCode extends ImportanceCodeType
 {
 }
 
-

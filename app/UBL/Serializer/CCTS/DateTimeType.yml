@@ -1,4 +1,4 @@
-UBL\CCTS\DateTimeType:
+App\UBL\CCTS\DateTimeType:
     properties:
         __value:
             expose: true

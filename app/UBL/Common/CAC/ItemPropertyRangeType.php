@@ -24,7 +24,7 @@ class ItemPropertyRangeType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\MinimumValue $minimumValue
+     * @var \App\UBL\Common\CBC\MinimumValue $minimumValue
      */
     private $minimumValue = null;
 
@@ -39,7 +39,7 @@ class ItemPropertyRangeType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\MaximumValue $maximumValue
+     * @var \App\UBL\Common\CBC\MaximumValue $maximumValue
      */
     private $maximumValue = null;
 
@@ -56,7 +56,7 @@ class ItemPropertyRangeType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\MinimumValue
+     * @return \App\UBL\Common\CBC\MinimumValue
      */
     public function getMinimumValue()
     {
@@ -76,10 +76,10 @@ class ItemPropertyRangeType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\MinimumValue $minimumValue
+     * @param \App\UBL\Common\CBC\MinimumValue $minimumValue
      * @return self
      */
-    public function setMinimumValue(?\UBL\Common\CBC\MinimumValue $minimumValue = null)
+    public function setMinimumValue(?\App\UBL\Common\CBC\MinimumValue $minimumValue = null)
     {
         $this->minimumValue = $minimumValue;
         return $this;
@@ -98,7 +98,7 @@ class ItemPropertyRangeType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\MaximumValue
+     * @return \App\UBL\Common\CBC\MaximumValue
      */
     public function getMaximumValue()
     {
@@ -118,14 +118,13 @@ class ItemPropertyRangeType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\MaximumValue $maximumValue
+     * @param \App\UBL\Common\CBC\MaximumValue $maximumValue
      * @return self
      */
-    public function setMaximumValue(?\UBL\Common\CBC\MaximumValue $maximumValue = null)
+    public function setMaximumValue(?\App\UBL\Common\CBC\MaximumValue $maximumValue = null)
     {
         $this->maximumValue = $maximumValue;
         return $this;
     }
 }
-
 

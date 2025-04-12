@@ -9,4 +9,3 @@ class PaymentAlternativeExchangeRate extends ExchangeRateType
 {
 }
 
-

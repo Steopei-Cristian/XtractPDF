@@ -9,4 +9,3 @@ class SalesOrderID extends SalesOrderIDType
 {
 }
 
-

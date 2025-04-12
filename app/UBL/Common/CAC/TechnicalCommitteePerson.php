@@ -9,4 +9,3 @@ class TechnicalCommitteePerson extends PersonType
 {
 }
 
-

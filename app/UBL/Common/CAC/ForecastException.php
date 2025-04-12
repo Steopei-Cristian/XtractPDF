@@ -9,4 +9,3 @@ class ForecastException extends ForecastExceptionType
 {
 }
 
-

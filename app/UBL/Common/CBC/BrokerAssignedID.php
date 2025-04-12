@@ -9,4 +9,3 @@ class BrokerAssignedID extends BrokerAssignedIDType
 {
 }
 
-

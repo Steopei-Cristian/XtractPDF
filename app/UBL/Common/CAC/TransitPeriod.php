@@ -9,4 +9,3 @@ class TransitPeriod extends PeriodType
 {
 }
 
-

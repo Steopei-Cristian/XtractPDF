@@ -9,4 +9,3 @@ class PlacardNotation extends PlacardNotationType
 {
 }
 
-

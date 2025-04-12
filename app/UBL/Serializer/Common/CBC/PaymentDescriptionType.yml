@@ -1,2 +1,2 @@
-UBL\Common\CBC\PaymentDescriptionType:
+App\UBL\Common\CBC\PaymentDescriptionType:
     properties: {  }

@@ -9,4 +9,3 @@ class OriginatorParty extends PartyType
 {
 }
 
-

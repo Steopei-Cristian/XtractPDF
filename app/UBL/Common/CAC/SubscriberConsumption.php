@@ -9,4 +9,3 @@ class SubscriberConsumption extends SubscriberConsumptionType
 {
 }
 
-

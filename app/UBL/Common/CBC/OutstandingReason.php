@@ -9,4 +9,3 @@ class OutstandingReason extends OutstandingReasonType
 {
 }
 
-

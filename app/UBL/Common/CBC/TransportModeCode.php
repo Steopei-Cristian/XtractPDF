@@ -9,4 +9,3 @@ class TransportModeCode extends TransportModeCodeType
 {
 }
 
-

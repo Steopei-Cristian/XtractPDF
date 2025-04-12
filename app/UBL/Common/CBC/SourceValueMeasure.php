@@ -9,4 +9,3 @@ class SourceValueMeasure extends SourceValueMeasureType
 {
 }
 
-

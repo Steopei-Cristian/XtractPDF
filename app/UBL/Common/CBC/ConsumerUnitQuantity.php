@@ -9,4 +9,3 @@ class ConsumerUnitQuantity extends ConsumerUnitQuantityType
 {
 }
 
-

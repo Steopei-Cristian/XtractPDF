@@ -1,4 +1,4 @@
-UBL\Common\CAC\PowerOfAttorneyType:
+App\UBL\Common\CAC\PowerOfAttorneyType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PowerOfAttorneyType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         issueDate:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\PowerOfAttorneyType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         notaryParty:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\PowerOfAttorneyType:
             accessor:
                 getter: getNotaryParty
                 setter: setNotaryParty
-            type: UBL\Common\CAC\NotaryParty
+            type: App\UBL\Common\CAC\NotaryParty
         agentParty:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\PowerOfAttorneyType:
             accessor:
                 getter: getAgentParty
                 setter: setAgentParty
-            type: UBL\Common\CAC\AgentParty
+            type: App\UBL\Common\CAC\AgentParty
         witnessParty:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\PowerOfAttorneyType:
                 inline: true
                 entry_name: WitnessParty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\WitnessParty>
+            type: array<App\UBL\Common\CAC\WitnessParty>
         mandateDocumentReference:
             expose: true
             access_type: public_method
@@ -91,4 +91,4 @@ UBL\Common\CAC\PowerOfAttorneyType:
                 inline: true
                 entry_name: MandateDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\MandateDocumentReference>
+            type: array<App\UBL\Common\CAC\MandateDocumentReference>

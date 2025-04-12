@@ -9,4 +9,3 @@ class AuctionURI extends AuctionURIType
 {
 }
 
-

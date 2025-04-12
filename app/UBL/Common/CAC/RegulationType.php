@@ -24,7 +24,7 @@ class RegulationType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -39,7 +39,7 @@ class RegulationType
      *  Text. Type
      *  Art. 45 2 b
      *
-     * @var \UBL\Common\CBC\LegalReference $legalReference
+     * @var \App\UBL\Common\CBC\LegalReference $legalReference
      */
     private $legalReference = null;
 
@@ -53,7 +53,7 @@ class RegulationType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\OntologyURI $ontologyURI
+     * @var \App\UBL\Common\CBC\OntologyURI $ontologyURI
      */
     private $ontologyURI = null;
 
@@ -69,7 +69,7 @@ class RegulationType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -88,10 +88,10 @@ class RegulationType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(\UBL\Common\CBC\Name $name)
+    public function setName(\App\UBL\Common\CBC\Name $name)
     {
         $this->name = $name;
         return $this;
@@ -110,7 +110,7 @@ class RegulationType
      *  Text. Type
      *  Art. 45 2 b
      *
-     * @return \UBL\Common\CBC\LegalReference
+     * @return \App\UBL\Common\CBC\LegalReference
      */
     public function getLegalReference()
     {
@@ -130,10 +130,10 @@ class RegulationType
      *  Text. Type
      *  Art. 45 2 b
      *
-     * @param \UBL\Common\CBC\LegalReference $legalReference
+     * @param \App\UBL\Common\CBC\LegalReference $legalReference
      * @return self
      */
-    public function setLegalReference(?\UBL\Common\CBC\LegalReference $legalReference = null)
+    public function setLegalReference(?\App\UBL\Common\CBC\LegalReference $legalReference = null)
     {
         $this->legalReference = $legalReference;
         return $this;
@@ -151,7 +151,7 @@ class RegulationType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\OntologyURI
+     * @return \App\UBL\Common\CBC\OntologyURI
      */
     public function getOntologyURI()
     {
@@ -170,14 +170,13 @@ class RegulationType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\OntologyURI $ontologyURI
+     * @param \App\UBL\Common\CBC\OntologyURI $ontologyURI
      * @return self
      */
-    public function setOntologyURI(?\UBL\Common\CBC\OntologyURI $ontologyURI = null)
+    public function setOntologyURI(?\App\UBL\Common\CBC\OntologyURI $ontologyURI = null)
     {
         $this->ontologyURI = $ontologyURI;
         return $this;
     }
 }
-
 

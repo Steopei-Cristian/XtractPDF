@@ -24,7 +24,7 @@ class PartyNameType
      *  Name. Type
      *  Microsoft
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -41,7 +41,7 @@ class PartyNameType
      *  Name. Type
      *  Microsoft
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -61,14 +61,13 @@ class PartyNameType
      *  Name. Type
      *  Microsoft
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(\UBL\Common\CBC\Name $name)
+    public function setName(\App\UBL\Common\CBC\Name $name)
     {
         $this->name = $name;
         return $this;
     }
 }
-
 

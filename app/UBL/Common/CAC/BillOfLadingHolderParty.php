@@ -9,4 +9,3 @@ class BillOfLadingHolderParty extends PartyType
 {
 }
 
-

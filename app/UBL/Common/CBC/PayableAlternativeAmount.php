@@ -9,4 +9,3 @@ class PayableAlternativeAmount extends PayableAlternativeAmountType
 {
 }
 
-

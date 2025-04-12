@@ -21,7 +21,7 @@ class DataObjectFormatType
     private $description = null;
 
     /**
-     * @var \UBL\XAdES\v132\ObjectIdentifierType $objectIdentifier
+     * @var \App\UBL\XAdES\v132\ObjectIdentifierType $objectIdentifier
      */
     private $objectIdentifier = null;
 
@@ -82,7 +82,7 @@ class DataObjectFormatType
     /**
      * Gets as objectIdentifier
      *
-     * @return \UBL\XAdES\v132\ObjectIdentifierType
+     * @return \App\UBL\XAdES\v132\ObjectIdentifierType
      */
     public function getObjectIdentifier()
     {
@@ -92,10 +92,10 @@ class DataObjectFormatType
     /**
      * Sets a new objectIdentifier
      *
-     * @param \UBL\XAdES\v132\ObjectIdentifierType $objectIdentifier
+     * @param \App\UBL\XAdES\v132\ObjectIdentifierType $objectIdentifier
      * @return self
      */
-    public function setObjectIdentifier(?\UBL\XAdES\v132\ObjectIdentifierType $objectIdentifier = null)
+    public function setObjectIdentifier(?\App\UBL\XAdES\v132\ObjectIdentifierType $objectIdentifier = null)
     {
         $this->objectIdentifier = $objectIdentifier;
         return $this;
@@ -145,5 +145,4 @@ class DataObjectFormatType
         return $this;
     }
 }
-
 

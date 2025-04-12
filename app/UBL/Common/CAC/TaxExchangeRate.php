@@ -9,4 +9,3 @@ class TaxExchangeRate extends ExchangeRateType
 {
 }
 
-

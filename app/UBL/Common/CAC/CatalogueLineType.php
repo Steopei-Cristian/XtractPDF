@@ -24,7 +24,7 @@ class CatalogueLineType
      *  Identifier. Type
      *  1
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class CatalogueLineType
      *  Code. Type
      *  Replace , Update , Delete , Add
      *
-     * @var \UBL\Common\CBC\ActionCode $actionCode
+     * @var \App\UBL\Common\CBC\ActionCode $actionCode
      */
     private $actionCode = null;
 
@@ -54,7 +54,7 @@ class CatalogueLineType
      *  Code. Type
      *  new - announcement only , new and available , deleted - announcement only
      *
-     * @var \UBL\Common\CBC\LifeCycleStatusCode $lifeCycleStatusCode
+     * @var \App\UBL\Common\CBC\LifeCycleStatusCode $lifeCycleStatusCode
      */
     private $lifeCycleStatusCode = null;
 
@@ -69,7 +69,7 @@ class CatalogueLineType
      *  Text. Type
      *  Installation , Phase One , Support and Maintenance
      *
-     * @var \UBL\Common\CBC\ContractSubdivision $contractSubdivision
+     * @var \App\UBL\Common\CBC\ContractSubdivision $contractSubdivision
      */
     private $contractSubdivision = null;
 
@@ -83,7 +83,7 @@ class CatalogueLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -116,7 +116,7 @@ class CatalogueLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\OrderableUnit $orderableUnit
+     * @var \App\UBL\Common\CBC\OrderableUnit $orderableUnit
      */
     private $orderableUnit = null;
 
@@ -131,7 +131,7 @@ class CatalogueLineType
      *  Quantity. Type
      *  If order unit measure identifier is each , then content unit quantity is 1 .
      *
-     * @var \UBL\Common\CBC\ContentUnitQuantity $contentUnitQuantity
+     * @var \App\UBL\Common\CBC\ContentUnitQuantity $contentUnitQuantity
      */
     private $contentUnitQuantity = null;
 
@@ -145,7 +145,7 @@ class CatalogueLineType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\OrderQuantityIncrementNumeric $orderQuantityIncrementNumeric
+     * @var \App\UBL\Common\CBC\OrderQuantityIncrementNumeric $orderQuantityIncrementNumeric
      */
     private $orderQuantityIncrementNumeric = null;
 
@@ -161,7 +161,7 @@ class CatalogueLineType
      *  Quantity. Type
      *  10 boxes
      *
-     * @var \UBL\Common\CBC\MinimumOrderQuantity $minimumOrderQuantity
+     * @var \App\UBL\Common\CBC\MinimumOrderQuantity $minimumOrderQuantity
      */
     private $minimumOrderQuantity = null;
 
@@ -177,7 +177,7 @@ class CatalogueLineType
      *  Quantity. Type
      *  1 tonne
      *
-     * @var \UBL\Common\CBC\MaximumOrderQuantity $maximumOrderQuantity
+     * @var \App\UBL\Common\CBC\MaximumOrderQuantity $maximumOrderQuantity
      */
     private $maximumOrderQuantity = null;
 
@@ -193,7 +193,7 @@ class CatalogueLineType
      *  Text. Type
      *  Unless specified otherwise and in addition to any rights the Customer may have under statute, Dell warrants to the Customer that Dell branded Products (excluding third party products and software), will be free from defects in materials and workmanship affecting normal use for a period of one year from invoice date ( Standard Warranty ).
      *
-     * @var \UBL\Common\CBC\WarrantyInformation[] $warrantyInformation
+     * @var \App\UBL\Common\CBC\WarrantyInformation[] $warrantyInformation
      */
     private $warrantyInformation = [
         
@@ -211,7 +211,7 @@ class CatalogueLineType
      *  Consumer Unit, Trading Unit
      *  level 2 , Group 4
      *
-     * @var \UBL\Common\CBC\PackLevelCode $packLevelCode
+     * @var \App\UBL\Common\CBC\PackLevelCode $packLevelCode
      */
     private $packLevelCode = null;
 
@@ -226,7 +226,7 @@ class CatalogueLineType
      *  Customer Party
      *  Customer Party
      *
-     * @var \UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty
+     * @var \App\UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty
      */
     private $contractorCustomerParty = null;
 
@@ -241,7 +241,7 @@ class CatalogueLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @var \UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
+     * @var \App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
      */
     private $sellerSupplierParty = null;
 
@@ -256,7 +256,7 @@ class CatalogueLineType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\WarrantyParty $warrantyParty
+     * @var \App\UBL\Common\CAC\WarrantyParty $warrantyParty
      */
     private $warrantyParty = null;
 
@@ -271,7 +271,7 @@ class CatalogueLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
+     * @var \App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
      */
     private $warrantyValidityPeriod = null;
 
@@ -286,7 +286,7 @@ class CatalogueLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\LineValidityPeriod $lineValidityPeriod
+     * @var \App\UBL\Common\CAC\LineValidityPeriod $lineValidityPeriod
      */
     private $lineValidityPeriod = null;
 
@@ -300,7 +300,7 @@ class CatalogueLineType
      *  Item Comparison
      *  Item Comparison
      *
-     * @var \UBL\Common\CAC\ItemComparison[] $itemComparison
+     * @var \App\UBL\Common\CAC\ItemComparison[] $itemComparison
      */
     private $itemComparison = [
         
@@ -317,7 +317,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @var \UBL\Common\CAC\ComponentRelatedItem[] $componentRelatedItem
+     * @var \App\UBL\Common\CAC\ComponentRelatedItem[] $componentRelatedItem
      */
     private $componentRelatedItem = [
         
@@ -334,7 +334,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @var \UBL\Common\CAC\AccessoryRelatedItem[] $accessoryRelatedItem
+     * @var \App\UBL\Common\CAC\AccessoryRelatedItem[] $accessoryRelatedItem
      */
     private $accessoryRelatedItem = [
         
@@ -351,7 +351,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @var \UBL\Common\CAC\RequiredRelatedItem[] $requiredRelatedItem
+     * @var \App\UBL\Common\CAC\RequiredRelatedItem[] $requiredRelatedItem
      */
     private $requiredRelatedItem = [
         
@@ -368,7 +368,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @var \UBL\Common\CAC\ReplacementRelatedItem[] $replacementRelatedItem
+     * @var \App\UBL\Common\CAC\ReplacementRelatedItem[] $replacementRelatedItem
      */
     private $replacementRelatedItem = [
         
@@ -385,7 +385,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @var \UBL\Common\CAC\ComplementaryRelatedItem[] $complementaryRelatedItem
+     * @var \App\UBL\Common\CAC\ComplementaryRelatedItem[] $complementaryRelatedItem
      */
     private $complementaryRelatedItem = [
         
@@ -402,7 +402,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @var \UBL\Common\CAC\ReplacedRelatedItem[] $replacedRelatedItem
+     * @var \App\UBL\Common\CAC\ReplacedRelatedItem[] $replacedRelatedItem
      */
     private $replacedRelatedItem = [
         
@@ -419,7 +419,7 @@ class CatalogueLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @var \UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
+     * @var \App\UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
      */
     private $requiredItemLocationQuantity = [
         
@@ -435,7 +435,7 @@ class CatalogueLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -451,7 +451,7 @@ class CatalogueLineType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item $item
+     * @var \App\UBL\Common\CAC\Item $item
      */
     private $item = null;
 
@@ -466,7 +466,7 @@ class CatalogueLineType
      *  Item Property
      *  Item Property
      *
-     * @var \UBL\Common\CAC\KeywordItemProperty[] $keywordItemProperty
+     * @var \App\UBL\Common\CAC\KeywordItemProperty[] $keywordItemProperty
      */
     private $keywordItemProperty = [
         
@@ -483,7 +483,7 @@ class CatalogueLineType
      *  Line Reference
      *  Line Reference
      *
-     * @var \UBL\Common\CAC\CallForTendersLineReference $callForTendersLineReference
+     * @var \App\UBL\Common\CAC\CallForTendersLineReference $callForTendersLineReference
      */
     private $callForTendersLineReference = null;
 
@@ -498,7 +498,7 @@ class CatalogueLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference
+     * @var \App\UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference
      */
     private $callForTendersDocumentReference = null;
 
@@ -515,7 +515,7 @@ class CatalogueLineType
      *  Identifier. Type
      *  1
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -535,10 +535,10 @@ class CatalogueLineType
      *  Identifier. Type
      *  1
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -557,7 +557,7 @@ class CatalogueLineType
      *  Code. Type
      *  Replace , Update , Delete , Add
      *
-     * @return \UBL\Common\CBC\ActionCode
+     * @return \App\UBL\Common\CBC\ActionCode
      */
     public function getActionCode()
     {
@@ -577,10 +577,10 @@ class CatalogueLineType
      *  Code. Type
      *  Replace , Update , Delete , Add
      *
-     * @param \UBL\Common\CBC\ActionCode $actionCode
+     * @param \App\UBL\Common\CBC\ActionCode $actionCode
      * @return self
      */
-    public function setActionCode(?\UBL\Common\CBC\ActionCode $actionCode = null)
+    public function setActionCode(?\App\UBL\Common\CBC\ActionCode $actionCode = null)
     {
         $this->actionCode = $actionCode;
         return $this;
@@ -599,7 +599,7 @@ class CatalogueLineType
      *  Code. Type
      *  new - announcement only , new and available , deleted - announcement only
      *
-     * @return \UBL\Common\CBC\LifeCycleStatusCode
+     * @return \App\UBL\Common\CBC\LifeCycleStatusCode
      */
     public function getLifeCycleStatusCode()
     {
@@ -619,10 +619,10 @@ class CatalogueLineType
      *  Code. Type
      *  new - announcement only , new and available , deleted - announcement only
      *
-     * @param \UBL\Common\CBC\LifeCycleStatusCode $lifeCycleStatusCode
+     * @param \App\UBL\Common\CBC\LifeCycleStatusCode $lifeCycleStatusCode
      * @return self
      */
-    public function setLifeCycleStatusCode(?\UBL\Common\CBC\LifeCycleStatusCode $lifeCycleStatusCode = null)
+    public function setLifeCycleStatusCode(?\App\UBL\Common\CBC\LifeCycleStatusCode $lifeCycleStatusCode = null)
     {
         $this->lifeCycleStatusCode = $lifeCycleStatusCode;
         return $this;
@@ -641,7 +641,7 @@ class CatalogueLineType
      *  Text. Type
      *  Installation , Phase One , Support and Maintenance
      *
-     * @return \UBL\Common\CBC\ContractSubdivision
+     * @return \App\UBL\Common\CBC\ContractSubdivision
      */
     public function getContractSubdivision()
     {
@@ -661,10 +661,10 @@ class CatalogueLineType
      *  Text. Type
      *  Installation , Phase One , Support and Maintenance
      *
-     * @param \UBL\Common\CBC\ContractSubdivision $contractSubdivision
+     * @param \App\UBL\Common\CBC\ContractSubdivision $contractSubdivision
      * @return self
      */
-    public function setContractSubdivision(?\UBL\Common\CBC\ContractSubdivision $contractSubdivision = null)
+    public function setContractSubdivision(?\App\UBL\Common\CBC\ContractSubdivision $contractSubdivision = null)
     {
         $this->contractSubdivision = $contractSubdivision;
         return $this;
@@ -683,9 +683,9 @@ class CatalogueLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -743,7 +743,7 @@ class CatalogueLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -762,7 +762,7 @@ class CatalogueLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -828,7 +828,7 @@ class CatalogueLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\OrderableUnit
+     * @return \App\UBL\Common\CBC\OrderableUnit
      */
     public function getOrderableUnit()
     {
@@ -848,10 +848,10 @@ class CatalogueLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\OrderableUnit $orderableUnit
+     * @param \App\UBL\Common\CBC\OrderableUnit $orderableUnit
      * @return self
      */
-    public function setOrderableUnit(?\UBL\Common\CBC\OrderableUnit $orderableUnit = null)
+    public function setOrderableUnit(?\App\UBL\Common\CBC\OrderableUnit $orderableUnit = null)
     {
         $this->orderableUnit = $orderableUnit;
         return $this;
@@ -870,7 +870,7 @@ class CatalogueLineType
      *  Quantity. Type
      *  If order unit measure identifier is each , then content unit quantity is 1 .
      *
-     * @return \UBL\Common\CBC\ContentUnitQuantity
+     * @return \App\UBL\Common\CBC\ContentUnitQuantity
      */
     public function getContentUnitQuantity()
     {
@@ -890,10 +890,10 @@ class CatalogueLineType
      *  Quantity. Type
      *  If order unit measure identifier is each , then content unit quantity is 1 .
      *
-     * @param \UBL\Common\CBC\ContentUnitQuantity $contentUnitQuantity
+     * @param \App\UBL\Common\CBC\ContentUnitQuantity $contentUnitQuantity
      * @return self
      */
-    public function setContentUnitQuantity(?\UBL\Common\CBC\ContentUnitQuantity $contentUnitQuantity = null)
+    public function setContentUnitQuantity(?\App\UBL\Common\CBC\ContentUnitQuantity $contentUnitQuantity = null)
     {
         $this->contentUnitQuantity = $contentUnitQuantity;
         return $this;
@@ -911,7 +911,7 @@ class CatalogueLineType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\OrderQuantityIncrementNumeric
+     * @return \App\UBL\Common\CBC\OrderQuantityIncrementNumeric
      */
     public function getOrderQuantityIncrementNumeric()
     {
@@ -930,10 +930,10 @@ class CatalogueLineType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\OrderQuantityIncrementNumeric $orderQuantityIncrementNumeric
+     * @param \App\UBL\Common\CBC\OrderQuantityIncrementNumeric $orderQuantityIncrementNumeric
      * @return self
      */
-    public function setOrderQuantityIncrementNumeric(?\UBL\Common\CBC\OrderQuantityIncrementNumeric $orderQuantityIncrementNumeric = null)
+    public function setOrderQuantityIncrementNumeric(?\App\UBL\Common\CBC\OrderQuantityIncrementNumeric $orderQuantityIncrementNumeric = null)
     {
         $this->orderQuantityIncrementNumeric = $orderQuantityIncrementNumeric;
         return $this;
@@ -953,7 +953,7 @@ class CatalogueLineType
      *  Quantity. Type
      *  10 boxes
      *
-     * @return \UBL\Common\CBC\MinimumOrderQuantity
+     * @return \App\UBL\Common\CBC\MinimumOrderQuantity
      */
     public function getMinimumOrderQuantity()
     {
@@ -974,10 +974,10 @@ class CatalogueLineType
      *  Quantity. Type
      *  10 boxes
      *
-     * @param \UBL\Common\CBC\MinimumOrderQuantity $minimumOrderQuantity
+     * @param \App\UBL\Common\CBC\MinimumOrderQuantity $minimumOrderQuantity
      * @return self
      */
-    public function setMinimumOrderQuantity(?\UBL\Common\CBC\MinimumOrderQuantity $minimumOrderQuantity = null)
+    public function setMinimumOrderQuantity(?\App\UBL\Common\CBC\MinimumOrderQuantity $minimumOrderQuantity = null)
     {
         $this->minimumOrderQuantity = $minimumOrderQuantity;
         return $this;
@@ -997,7 +997,7 @@ class CatalogueLineType
      *  Quantity. Type
      *  1 tonne
      *
-     * @return \UBL\Common\CBC\MaximumOrderQuantity
+     * @return \App\UBL\Common\CBC\MaximumOrderQuantity
      */
     public function getMaximumOrderQuantity()
     {
@@ -1018,10 +1018,10 @@ class CatalogueLineType
      *  Quantity. Type
      *  1 tonne
      *
-     * @param \UBL\Common\CBC\MaximumOrderQuantity $maximumOrderQuantity
+     * @param \App\UBL\Common\CBC\MaximumOrderQuantity $maximumOrderQuantity
      * @return self
      */
-    public function setMaximumOrderQuantity(?\UBL\Common\CBC\MaximumOrderQuantity $maximumOrderQuantity = null)
+    public function setMaximumOrderQuantity(?\App\UBL\Common\CBC\MaximumOrderQuantity $maximumOrderQuantity = null)
     {
         $this->maximumOrderQuantity = $maximumOrderQuantity;
         return $this;
@@ -1042,9 +1042,9 @@ class CatalogueLineType
      *  Unless specified otherwise and in addition to any rights the Customer may have under statute, Dell warrants to the Customer that Dell branded Products (excluding third party products and software), will be free from defects in materials and workmanship affecting normal use for a period of one year from invoice date ( Standard Warranty ).
      *
      * @return self
-     * @param \UBL\Common\CBC\WarrantyInformation $warrantyInformation
+     * @param \App\UBL\Common\CBC\WarrantyInformation $warrantyInformation
      */
-    public function addToWarrantyInformation(\UBL\Common\CBC\WarrantyInformation $warrantyInformation)
+    public function addToWarrantyInformation(\App\UBL\Common\CBC\WarrantyInformation $warrantyInformation)
     {
         $this->warrantyInformation[] = $warrantyInformation;
         return $this;
@@ -1108,7 +1108,7 @@ class CatalogueLineType
      *  Text. Type
      *  Unless specified otherwise and in addition to any rights the Customer may have under statute, Dell warrants to the Customer that Dell branded Products (excluding third party products and software), will be free from defects in materials and workmanship affecting normal use for a period of one year from invoice date ( Standard Warranty ).
      *
-     * @return \UBL\Common\CBC\WarrantyInformation[]
+     * @return \App\UBL\Common\CBC\WarrantyInformation[]
      */
     public function getWarrantyInformation()
     {
@@ -1129,7 +1129,7 @@ class CatalogueLineType
      *  Text. Type
      *  Unless specified otherwise and in addition to any rights the Customer may have under statute, Dell warrants to the Customer that Dell branded Products (excluding third party products and software), will be free from defects in materials and workmanship affecting normal use for a period of one year from invoice date ( Standard Warranty ).
      *
-     * @param \UBL\Common\CBC\WarrantyInformation[] $warrantyInformation
+     * @param \App\UBL\Common\CBC\WarrantyInformation[] $warrantyInformation
      * @return self
      */
     public function setWarrantyInformation(?array $warrantyInformation = null)
@@ -1152,7 +1152,7 @@ class CatalogueLineType
      *  Consumer Unit, Trading Unit
      *  level 2 , Group 4
      *
-     * @return \UBL\Common\CBC\PackLevelCode
+     * @return \App\UBL\Common\CBC\PackLevelCode
      */
     public function getPackLevelCode()
     {
@@ -1173,10 +1173,10 @@ class CatalogueLineType
      *  Consumer Unit, Trading Unit
      *  level 2 , Group 4
      *
-     * @param \UBL\Common\CBC\PackLevelCode $packLevelCode
+     * @param \App\UBL\Common\CBC\PackLevelCode $packLevelCode
      * @return self
      */
-    public function setPackLevelCode(?\UBL\Common\CBC\PackLevelCode $packLevelCode = null)
+    public function setPackLevelCode(?\App\UBL\Common\CBC\PackLevelCode $packLevelCode = null)
     {
         $this->packLevelCode = $packLevelCode;
         return $this;
@@ -1195,7 +1195,7 @@ class CatalogueLineType
      *  Customer Party
      *  Customer Party
      *
-     * @return \UBL\Common\CAC\ContractorCustomerParty
+     * @return \App\UBL\Common\CAC\ContractorCustomerParty
      */
     public function getContractorCustomerParty()
     {
@@ -1215,10 +1215,10 @@ class CatalogueLineType
      *  Customer Party
      *  Customer Party
      *
-     * @param \UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty
+     * @param \App\UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty
      * @return self
      */
-    public function setContractorCustomerParty(?\UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty = null)
+    public function setContractorCustomerParty(?\App\UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty = null)
     {
         $this->contractorCustomerParty = $contractorCustomerParty;
         return $this;
@@ -1237,7 +1237,7 @@ class CatalogueLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @return \UBL\Common\CAC\SellerSupplierParty
+     * @return \App\UBL\Common\CAC\SellerSupplierParty
      */
     public function getSellerSupplierParty()
     {
@@ -1257,10 +1257,10 @@ class CatalogueLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @param \UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
+     * @param \App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
      * @return self
      */
-    public function setSellerSupplierParty(?\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty = null)
+    public function setSellerSupplierParty(?\App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty = null)
     {
         $this->sellerSupplierParty = $sellerSupplierParty;
         return $this;
@@ -1279,7 +1279,7 @@ class CatalogueLineType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\WarrantyParty
+     * @return \App\UBL\Common\CAC\WarrantyParty
      */
     public function getWarrantyParty()
     {
@@ -1299,10 +1299,10 @@ class CatalogueLineType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\WarrantyParty $warrantyParty
+     * @param \App\UBL\Common\CAC\WarrantyParty $warrantyParty
      * @return self
      */
-    public function setWarrantyParty(?\UBL\Common\CAC\WarrantyParty $warrantyParty = null)
+    public function setWarrantyParty(?\App\UBL\Common\CAC\WarrantyParty $warrantyParty = null)
     {
         $this->warrantyParty = $warrantyParty;
         return $this;
@@ -1321,7 +1321,7 @@ class CatalogueLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\WarrantyValidityPeriod
+     * @return \App\UBL\Common\CAC\WarrantyValidityPeriod
      */
     public function getWarrantyValidityPeriod()
     {
@@ -1341,10 +1341,10 @@ class CatalogueLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
+     * @param \App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
      * @return self
      */
-    public function setWarrantyValidityPeriod(?\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod = null)
+    public function setWarrantyValidityPeriod(?\App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod = null)
     {
         $this->warrantyValidityPeriod = $warrantyValidityPeriod;
         return $this;
@@ -1363,7 +1363,7 @@ class CatalogueLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\LineValidityPeriod
+     * @return \App\UBL\Common\CAC\LineValidityPeriod
      */
     public function getLineValidityPeriod()
     {
@@ -1383,10 +1383,10 @@ class CatalogueLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\LineValidityPeriod $lineValidityPeriod
+     * @param \App\UBL\Common\CAC\LineValidityPeriod $lineValidityPeriod
      * @return self
      */
-    public function setLineValidityPeriod(?\UBL\Common\CAC\LineValidityPeriod $lineValidityPeriod = null)
+    public function setLineValidityPeriod(?\App\UBL\Common\CAC\LineValidityPeriod $lineValidityPeriod = null)
     {
         $this->lineValidityPeriod = $lineValidityPeriod;
         return $this;
@@ -1405,9 +1405,9 @@ class CatalogueLineType
      *  Item Comparison
      *
      * @return self
-     * @param \UBL\Common\CAC\ItemComparison $itemComparison
+     * @param \App\UBL\Common\CAC\ItemComparison $itemComparison
      */
-    public function addToItemComparison(\UBL\Common\CAC\ItemComparison $itemComparison)
+    public function addToItemComparison(\App\UBL\Common\CAC\ItemComparison $itemComparison)
     {
         $this->itemComparison[] = $itemComparison;
         return $this;
@@ -1465,7 +1465,7 @@ class CatalogueLineType
      *  Item Comparison
      *  Item Comparison
      *
-     * @return \UBL\Common\CAC\ItemComparison[]
+     * @return \App\UBL\Common\CAC\ItemComparison[]
      */
     public function getItemComparison()
     {
@@ -1484,7 +1484,7 @@ class CatalogueLineType
      *  Item Comparison
      *  Item Comparison
      *
-     * @param \UBL\Common\CAC\ItemComparison[] $itemComparison
+     * @param \App\UBL\Common\CAC\ItemComparison[] $itemComparison
      * @return self
      */
     public function setItemComparison(?array $itemComparison = null)
@@ -1507,9 +1507,9 @@ class CatalogueLineType
      *  Related Item
      *
      * @return self
-     * @param \UBL\Common\CAC\ComponentRelatedItem $componentRelatedItem
+     * @param \App\UBL\Common\CAC\ComponentRelatedItem $componentRelatedItem
      */
-    public function addToComponentRelatedItem(\UBL\Common\CAC\ComponentRelatedItem $componentRelatedItem)
+    public function addToComponentRelatedItem(\App\UBL\Common\CAC\ComponentRelatedItem $componentRelatedItem)
     {
         $this->componentRelatedItem[] = $componentRelatedItem;
         return $this;
@@ -1570,7 +1570,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @return \UBL\Common\CAC\ComponentRelatedItem[]
+     * @return \App\UBL\Common\CAC\ComponentRelatedItem[]
      */
     public function getComponentRelatedItem()
     {
@@ -1590,7 +1590,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @param \UBL\Common\CAC\ComponentRelatedItem[] $componentRelatedItem
+     * @param \App\UBL\Common\CAC\ComponentRelatedItem[] $componentRelatedItem
      * @return self
      */
     public function setComponentRelatedItem(?array $componentRelatedItem = null)
@@ -1613,9 +1613,9 @@ class CatalogueLineType
      *  Related Item
      *
      * @return self
-     * @param \UBL\Common\CAC\AccessoryRelatedItem $accessoryRelatedItem
+     * @param \App\UBL\Common\CAC\AccessoryRelatedItem $accessoryRelatedItem
      */
-    public function addToAccessoryRelatedItem(\UBL\Common\CAC\AccessoryRelatedItem $accessoryRelatedItem)
+    public function addToAccessoryRelatedItem(\App\UBL\Common\CAC\AccessoryRelatedItem $accessoryRelatedItem)
     {
         $this->accessoryRelatedItem[] = $accessoryRelatedItem;
         return $this;
@@ -1676,7 +1676,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @return \UBL\Common\CAC\AccessoryRelatedItem[]
+     * @return \App\UBL\Common\CAC\AccessoryRelatedItem[]
      */
     public function getAccessoryRelatedItem()
     {
@@ -1696,7 +1696,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @param \UBL\Common\CAC\AccessoryRelatedItem[] $accessoryRelatedItem
+     * @param \App\UBL\Common\CAC\AccessoryRelatedItem[] $accessoryRelatedItem
      * @return self
      */
     public function setAccessoryRelatedItem(?array $accessoryRelatedItem = null)
@@ -1719,9 +1719,9 @@ class CatalogueLineType
      *  Related Item
      *
      * @return self
-     * @param \UBL\Common\CAC\RequiredRelatedItem $requiredRelatedItem
+     * @param \App\UBL\Common\CAC\RequiredRelatedItem $requiredRelatedItem
      */
-    public function addToRequiredRelatedItem(\UBL\Common\CAC\RequiredRelatedItem $requiredRelatedItem)
+    public function addToRequiredRelatedItem(\App\UBL\Common\CAC\RequiredRelatedItem $requiredRelatedItem)
     {
         $this->requiredRelatedItem[] = $requiredRelatedItem;
         return $this;
@@ -1782,7 +1782,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @return \UBL\Common\CAC\RequiredRelatedItem[]
+     * @return \App\UBL\Common\CAC\RequiredRelatedItem[]
      */
     public function getRequiredRelatedItem()
     {
@@ -1802,7 +1802,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @param \UBL\Common\CAC\RequiredRelatedItem[] $requiredRelatedItem
+     * @param \App\UBL\Common\CAC\RequiredRelatedItem[] $requiredRelatedItem
      * @return self
      */
     public function setRequiredRelatedItem(?array $requiredRelatedItem = null)
@@ -1825,9 +1825,9 @@ class CatalogueLineType
      *  Related Item
      *
      * @return self
-     * @param \UBL\Common\CAC\ReplacementRelatedItem $replacementRelatedItem
+     * @param \App\UBL\Common\CAC\ReplacementRelatedItem $replacementRelatedItem
      */
-    public function addToReplacementRelatedItem(\UBL\Common\CAC\ReplacementRelatedItem $replacementRelatedItem)
+    public function addToReplacementRelatedItem(\App\UBL\Common\CAC\ReplacementRelatedItem $replacementRelatedItem)
     {
         $this->replacementRelatedItem[] = $replacementRelatedItem;
         return $this;
@@ -1888,7 +1888,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @return \UBL\Common\CAC\ReplacementRelatedItem[]
+     * @return \App\UBL\Common\CAC\ReplacementRelatedItem[]
      */
     public function getReplacementRelatedItem()
     {
@@ -1908,7 +1908,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @param \UBL\Common\CAC\ReplacementRelatedItem[] $replacementRelatedItem
+     * @param \App\UBL\Common\CAC\ReplacementRelatedItem[] $replacementRelatedItem
      * @return self
      */
     public function setReplacementRelatedItem(?array $replacementRelatedItem = null)
@@ -1931,9 +1931,9 @@ class CatalogueLineType
      *  Related Item
      *
      * @return self
-     * @param \UBL\Common\CAC\ComplementaryRelatedItem $complementaryRelatedItem
+     * @param \App\UBL\Common\CAC\ComplementaryRelatedItem $complementaryRelatedItem
      */
-    public function addToComplementaryRelatedItem(\UBL\Common\CAC\ComplementaryRelatedItem $complementaryRelatedItem)
+    public function addToComplementaryRelatedItem(\App\UBL\Common\CAC\ComplementaryRelatedItem $complementaryRelatedItem)
     {
         $this->complementaryRelatedItem[] = $complementaryRelatedItem;
         return $this;
@@ -1994,7 +1994,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @return \UBL\Common\CAC\ComplementaryRelatedItem[]
+     * @return \App\UBL\Common\CAC\ComplementaryRelatedItem[]
      */
     public function getComplementaryRelatedItem()
     {
@@ -2014,7 +2014,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @param \UBL\Common\CAC\ComplementaryRelatedItem[] $complementaryRelatedItem
+     * @param \App\UBL\Common\CAC\ComplementaryRelatedItem[] $complementaryRelatedItem
      * @return self
      */
     public function setComplementaryRelatedItem(?array $complementaryRelatedItem = null)
@@ -2037,9 +2037,9 @@ class CatalogueLineType
      *  Related Item
      *
      * @return self
-     * @param \UBL\Common\CAC\ReplacedRelatedItem $replacedRelatedItem
+     * @param \App\UBL\Common\CAC\ReplacedRelatedItem $replacedRelatedItem
      */
-    public function addToReplacedRelatedItem(\UBL\Common\CAC\ReplacedRelatedItem $replacedRelatedItem)
+    public function addToReplacedRelatedItem(\App\UBL\Common\CAC\ReplacedRelatedItem $replacedRelatedItem)
     {
         $this->replacedRelatedItem[] = $replacedRelatedItem;
         return $this;
@@ -2100,7 +2100,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @return \UBL\Common\CAC\ReplacedRelatedItem[]
+     * @return \App\UBL\Common\CAC\ReplacedRelatedItem[]
      */
     public function getReplacedRelatedItem()
     {
@@ -2120,7 +2120,7 @@ class CatalogueLineType
      *  Related Item
      *  Related Item
      *
-     * @param \UBL\Common\CAC\ReplacedRelatedItem[] $replacedRelatedItem
+     * @param \App\UBL\Common\CAC\ReplacedRelatedItem[] $replacedRelatedItem
      * @return self
      */
     public function setReplacedRelatedItem(?array $replacedRelatedItem = null)
@@ -2143,9 +2143,9 @@ class CatalogueLineType
      *  Item Location Quantity
      *
      * @return self
-     * @param \UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity
+     * @param \App\UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity
      */
-    public function addToRequiredItemLocationQuantity(\UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity)
+    public function addToRequiredItemLocationQuantity(\App\UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity)
     {
         $this->requiredItemLocationQuantity[] = $requiredItemLocationQuantity;
         return $this;
@@ -2206,7 +2206,7 @@ class CatalogueLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @return \UBL\Common\CAC\RequiredItemLocationQuantity[]
+     * @return \App\UBL\Common\CAC\RequiredItemLocationQuantity[]
      */
     public function getRequiredItemLocationQuantity()
     {
@@ -2226,7 +2226,7 @@ class CatalogueLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @param \UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
+     * @param \App\UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
      * @return self
      */
     public function setRequiredItemLocationQuantity(?array $requiredItemLocationQuantity = null)
@@ -2248,9 +2248,9 @@ class CatalogueLineType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -2308,7 +2308,7 @@ class CatalogueLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -2327,7 +2327,7 @@ class CatalogueLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -2348,7 +2348,7 @@ class CatalogueLineType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item
+     * @return \App\UBL\Common\CAC\Item
      */
     public function getItem()
     {
@@ -2367,10 +2367,10 @@ class CatalogueLineType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      * @return self
      */
-    public function setItem(\UBL\Common\CAC\Item $item)
+    public function setItem(\App\UBL\Common\CAC\Item $item)
     {
         $this->item = $item;
         return $this;
@@ -2390,9 +2390,9 @@ class CatalogueLineType
      *  Item Property
      *
      * @return self
-     * @param \UBL\Common\CAC\KeywordItemProperty $keywordItemProperty
+     * @param \App\UBL\Common\CAC\KeywordItemProperty $keywordItemProperty
      */
-    public function addToKeywordItemProperty(\UBL\Common\CAC\KeywordItemProperty $keywordItemProperty)
+    public function addToKeywordItemProperty(\App\UBL\Common\CAC\KeywordItemProperty $keywordItemProperty)
     {
         $this->keywordItemProperty[] = $keywordItemProperty;
         return $this;
@@ -2453,7 +2453,7 @@ class CatalogueLineType
      *  Item Property
      *  Item Property
      *
-     * @return \UBL\Common\CAC\KeywordItemProperty[]
+     * @return \App\UBL\Common\CAC\KeywordItemProperty[]
      */
     public function getKeywordItemProperty()
     {
@@ -2473,7 +2473,7 @@ class CatalogueLineType
      *  Item Property
      *  Item Property
      *
-     * @param \UBL\Common\CAC\KeywordItemProperty[] $keywordItemProperty
+     * @param \App\UBL\Common\CAC\KeywordItemProperty[] $keywordItemProperty
      * @return self
      */
     public function setKeywordItemProperty(?array $keywordItemProperty = null)
@@ -2495,7 +2495,7 @@ class CatalogueLineType
      *  Line Reference
      *  Line Reference
      *
-     * @return \UBL\Common\CAC\CallForTendersLineReference
+     * @return \App\UBL\Common\CAC\CallForTendersLineReference
      */
     public function getCallForTendersLineReference()
     {
@@ -2515,10 +2515,10 @@ class CatalogueLineType
      *  Line Reference
      *  Line Reference
      *
-     * @param \UBL\Common\CAC\CallForTendersLineReference $callForTendersLineReference
+     * @param \App\UBL\Common\CAC\CallForTendersLineReference $callForTendersLineReference
      * @return self
      */
-    public function setCallForTendersLineReference(?\UBL\Common\CAC\CallForTendersLineReference $callForTendersLineReference = null)
+    public function setCallForTendersLineReference(?\App\UBL\Common\CAC\CallForTendersLineReference $callForTendersLineReference = null)
     {
         $this->callForTendersLineReference = $callForTendersLineReference;
         return $this;
@@ -2537,7 +2537,7 @@ class CatalogueLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\CallForTendersDocumentReference
+     * @return \App\UBL\Common\CAC\CallForTendersDocumentReference
      */
     public function getCallForTendersDocumentReference()
     {
@@ -2557,14 +2557,13 @@ class CatalogueLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference
+     * @param \App\UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference
      * @return self
      */
-    public function setCallForTendersDocumentReference(?\UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference = null)
+    public function setCallForTendersDocumentReference(?\App\UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference = null)
     {
         $this->callForTendersDocumentReference = $callForTendersDocumentReference;
         return $this;
     }
 }
-
 

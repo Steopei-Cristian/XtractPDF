@@ -1,4 +1,4 @@
-UBL\CCTS\IndicatorType:
+App\UBL\CCTS\IndicatorType:
     properties:
         __value:
             expose: true

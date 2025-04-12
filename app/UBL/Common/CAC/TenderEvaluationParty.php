@@ -9,4 +9,3 @@ class TenderEvaluationParty extends PartyType
 {
 }
 
-

@@ -1,3 +1,3 @@
-UBL\Common\CAC\PassengerPerson:
+App\UBL\Common\CAC\PassengerPerson:
     xml_root_name: PassengerPerson
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

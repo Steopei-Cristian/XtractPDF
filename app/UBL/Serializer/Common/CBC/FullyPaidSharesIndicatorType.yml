@@ -1,4 +1,4 @@
-UBL\Common\CBC\FullyPaidSharesIndicatorType:
+App\UBL\Common\CBC\FullyPaidSharesIndicatorType:
     properties:
         __value:
             expose: true

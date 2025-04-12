@@ -24,7 +24,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\InvoiceDocumentReference $invoiceDocumentReference
+     * @var \App\UBL\Common\CAC\InvoiceDocumentReference $invoiceDocumentReference
      */
     private $invoiceDocumentReference = null;
 
@@ -39,7 +39,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\SelfBilledInvoiceDocumentReference $selfBilledInvoiceDocumentReference
+     * @var \App\UBL\Common\CAC\SelfBilledInvoiceDocumentReference $selfBilledInvoiceDocumentReference
      */
     private $selfBilledInvoiceDocumentReference = null;
 
@@ -54,7 +54,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\CreditNoteDocumentReference $creditNoteDocumentReference
+     * @var \App\UBL\Common\CAC\CreditNoteDocumentReference $creditNoteDocumentReference
      */
     private $creditNoteDocumentReference = null;
 
@@ -69,7 +69,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\SelfBilledCreditNoteDocumentReference $selfBilledCreditNoteDocumentReference
+     * @var \App\UBL\Common\CAC\SelfBilledCreditNoteDocumentReference $selfBilledCreditNoteDocumentReference
      */
     private $selfBilledCreditNoteDocumentReference = null;
 
@@ -84,7 +84,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DebitNoteDocumentReference $debitNoteDocumentReference
+     * @var \App\UBL\Common\CAC\DebitNoteDocumentReference $debitNoteDocumentReference
      */
     private $debitNoteDocumentReference = null;
 
@@ -99,7 +99,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\ReminderDocumentReference $reminderDocumentReference
+     * @var \App\UBL\Common\CAC\ReminderDocumentReference $reminderDocumentReference
      */
     private $reminderDocumentReference = null;
 
@@ -114,7 +114,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\AdditionalDocumentReference $additionalDocumentReference
+     * @var \App\UBL\Common\CAC\AdditionalDocumentReference $additionalDocumentReference
      */
     private $additionalDocumentReference = null;
 
@@ -128,7 +128,7 @@ class BillingReferenceType
      *  Billing Reference Line
      *  Billing Reference Line
      *
-     * @var \UBL\Common\CAC\BillingReferenceLine[] $billingReferenceLine
+     * @var \App\UBL\Common\CAC\BillingReferenceLine[] $billingReferenceLine
      */
     private $billingReferenceLine = [
         
@@ -147,7 +147,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\InvoiceDocumentReference
+     * @return \App\UBL\Common\CAC\InvoiceDocumentReference
      */
     public function getInvoiceDocumentReference()
     {
@@ -167,10 +167,10 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\InvoiceDocumentReference $invoiceDocumentReference
+     * @param \App\UBL\Common\CAC\InvoiceDocumentReference $invoiceDocumentReference
      * @return self
      */
-    public function setInvoiceDocumentReference(?\UBL\Common\CAC\InvoiceDocumentReference $invoiceDocumentReference = null)
+    public function setInvoiceDocumentReference(?\App\UBL\Common\CAC\InvoiceDocumentReference $invoiceDocumentReference = null)
     {
         $this->invoiceDocumentReference = $invoiceDocumentReference;
         return $this;
@@ -189,7 +189,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\SelfBilledInvoiceDocumentReference
+     * @return \App\UBL\Common\CAC\SelfBilledInvoiceDocumentReference
      */
     public function getSelfBilledInvoiceDocumentReference()
     {
@@ -209,10 +209,10 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\SelfBilledInvoiceDocumentReference $selfBilledInvoiceDocumentReference
+     * @param \App\UBL\Common\CAC\SelfBilledInvoiceDocumentReference $selfBilledInvoiceDocumentReference
      * @return self
      */
-    public function setSelfBilledInvoiceDocumentReference(?\UBL\Common\CAC\SelfBilledInvoiceDocumentReference $selfBilledInvoiceDocumentReference = null)
+    public function setSelfBilledInvoiceDocumentReference(?\App\UBL\Common\CAC\SelfBilledInvoiceDocumentReference $selfBilledInvoiceDocumentReference = null)
     {
         $this->selfBilledInvoiceDocumentReference = $selfBilledInvoiceDocumentReference;
         return $this;
@@ -231,7 +231,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\CreditNoteDocumentReference
+     * @return \App\UBL\Common\CAC\CreditNoteDocumentReference
      */
     public function getCreditNoteDocumentReference()
     {
@@ -251,10 +251,10 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\CreditNoteDocumentReference $creditNoteDocumentReference
+     * @param \App\UBL\Common\CAC\CreditNoteDocumentReference $creditNoteDocumentReference
      * @return self
      */
-    public function setCreditNoteDocumentReference(?\UBL\Common\CAC\CreditNoteDocumentReference $creditNoteDocumentReference = null)
+    public function setCreditNoteDocumentReference(?\App\UBL\Common\CAC\CreditNoteDocumentReference $creditNoteDocumentReference = null)
     {
         $this->creditNoteDocumentReference = $creditNoteDocumentReference;
         return $this;
@@ -273,7 +273,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\SelfBilledCreditNoteDocumentReference
+     * @return \App\UBL\Common\CAC\SelfBilledCreditNoteDocumentReference
      */
     public function getSelfBilledCreditNoteDocumentReference()
     {
@@ -293,10 +293,10 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\SelfBilledCreditNoteDocumentReference $selfBilledCreditNoteDocumentReference
+     * @param \App\UBL\Common\CAC\SelfBilledCreditNoteDocumentReference $selfBilledCreditNoteDocumentReference
      * @return self
      */
-    public function setSelfBilledCreditNoteDocumentReference(?\UBL\Common\CAC\SelfBilledCreditNoteDocumentReference $selfBilledCreditNoteDocumentReference = null)
+    public function setSelfBilledCreditNoteDocumentReference(?\App\UBL\Common\CAC\SelfBilledCreditNoteDocumentReference $selfBilledCreditNoteDocumentReference = null)
     {
         $this->selfBilledCreditNoteDocumentReference = $selfBilledCreditNoteDocumentReference;
         return $this;
@@ -315,7 +315,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DebitNoteDocumentReference
+     * @return \App\UBL\Common\CAC\DebitNoteDocumentReference
      */
     public function getDebitNoteDocumentReference()
     {
@@ -335,10 +335,10 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DebitNoteDocumentReference $debitNoteDocumentReference
+     * @param \App\UBL\Common\CAC\DebitNoteDocumentReference $debitNoteDocumentReference
      * @return self
      */
-    public function setDebitNoteDocumentReference(?\UBL\Common\CAC\DebitNoteDocumentReference $debitNoteDocumentReference = null)
+    public function setDebitNoteDocumentReference(?\App\UBL\Common\CAC\DebitNoteDocumentReference $debitNoteDocumentReference = null)
     {
         $this->debitNoteDocumentReference = $debitNoteDocumentReference;
         return $this;
@@ -357,7 +357,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\ReminderDocumentReference
+     * @return \App\UBL\Common\CAC\ReminderDocumentReference
      */
     public function getReminderDocumentReference()
     {
@@ -377,10 +377,10 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\ReminderDocumentReference $reminderDocumentReference
+     * @param \App\UBL\Common\CAC\ReminderDocumentReference $reminderDocumentReference
      * @return self
      */
-    public function setReminderDocumentReference(?\UBL\Common\CAC\ReminderDocumentReference $reminderDocumentReference = null)
+    public function setReminderDocumentReference(?\App\UBL\Common\CAC\ReminderDocumentReference $reminderDocumentReference = null)
     {
         $this->reminderDocumentReference = $reminderDocumentReference;
         return $this;
@@ -399,7 +399,7 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\AdditionalDocumentReference
+     * @return \App\UBL\Common\CAC\AdditionalDocumentReference
      */
     public function getAdditionalDocumentReference()
     {
@@ -419,10 +419,10 @@ class BillingReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\AdditionalDocumentReference $additionalDocumentReference
+     * @param \App\UBL\Common\CAC\AdditionalDocumentReference $additionalDocumentReference
      * @return self
      */
-    public function setAdditionalDocumentReference(?\UBL\Common\CAC\AdditionalDocumentReference $additionalDocumentReference = null)
+    public function setAdditionalDocumentReference(?\App\UBL\Common\CAC\AdditionalDocumentReference $additionalDocumentReference = null)
     {
         $this->additionalDocumentReference = $additionalDocumentReference;
         return $this;
@@ -441,9 +441,9 @@ class BillingReferenceType
      *  Billing Reference Line
      *
      * @return self
-     * @param \UBL\Common\CAC\BillingReferenceLine $billingReferenceLine
+     * @param \App\UBL\Common\CAC\BillingReferenceLine $billingReferenceLine
      */
-    public function addToBillingReferenceLine(\UBL\Common\CAC\BillingReferenceLine $billingReferenceLine)
+    public function addToBillingReferenceLine(\App\UBL\Common\CAC\BillingReferenceLine $billingReferenceLine)
     {
         $this->billingReferenceLine[] = $billingReferenceLine;
         return $this;
@@ -501,7 +501,7 @@ class BillingReferenceType
      *  Billing Reference Line
      *  Billing Reference Line
      *
-     * @return \UBL\Common\CAC\BillingReferenceLine[]
+     * @return \App\UBL\Common\CAC\BillingReferenceLine[]
      */
     public function getBillingReferenceLine()
     {
@@ -520,7 +520,7 @@ class BillingReferenceType
      *  Billing Reference Line
      *  Billing Reference Line
      *
-     * @param \UBL\Common\CAC\BillingReferenceLine[] $billingReferenceLine
+     * @param \App\UBL\Common\CAC\BillingReferenceLine[] $billingReferenceLine
      * @return self
      */
     public function setBillingReferenceLine(?array $billingReferenceLine = null)
@@ -529,5 +529,4 @@ class BillingReferenceType
         return $this;
     }
 }
-
 

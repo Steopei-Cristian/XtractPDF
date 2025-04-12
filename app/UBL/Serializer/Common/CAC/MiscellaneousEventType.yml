@@ -1,4 +1,4 @@
-UBL\Common\CAC\MiscellaneousEventType:
+App\UBL\Common\CAC\MiscellaneousEventType:
     properties:
         miscellaneousEventTypeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\MiscellaneousEventType:
             accessor:
                 getter: getMiscellaneousEventTypeCode
                 setter: setMiscellaneousEventTypeCode
-            type: UBL\Common\CBC\MiscellaneousEventTypeCode
+            type: App\UBL\Common\CBC\MiscellaneousEventTypeCode
         eventLineItem:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ UBL\Common\CAC\MiscellaneousEventType:
                 inline: true
                 entry_name: EventLineItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\EventLineItem>
+            type: array<App\UBL\Common\CAC\EventLineItem>

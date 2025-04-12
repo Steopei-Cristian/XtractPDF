@@ -9,4 +9,3 @@ class GasPressureQuantity extends GasPressureQuantityType
 {
 }
 
-

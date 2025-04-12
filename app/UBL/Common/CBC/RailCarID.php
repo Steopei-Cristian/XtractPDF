@@ -9,4 +9,3 @@ class RailCarID extends RailCarIDType
 {
 }
 
-

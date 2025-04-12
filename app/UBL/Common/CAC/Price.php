@@ -9,4 +9,3 @@ class Price extends PriceType
 {
 }
 
-

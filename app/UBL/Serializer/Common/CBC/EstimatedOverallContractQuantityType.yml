@@ -1,2 +1,2 @@
-UBL\Common\CBC\EstimatedOverallContractQuantityType:
+App\UBL\Common\CBC\EstimatedOverallContractQuantityType:
     properties: {  }

@@ -9,4 +9,3 @@ class WebsiteURI extends WebsiteURIType
 {
 }
 
-

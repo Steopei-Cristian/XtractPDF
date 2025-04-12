@@ -24,7 +24,7 @@ class TaxSchemeType
      *  Identifier. Type
      *  http://www.unece.org/uncefact/codelist/standard/EDIFICASEU_TaxExemptionReason_D09B.xsd
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class TaxSchemeType
      *  Name. Type
      *  Value Added Tax , Wholesale Tax , Sales Tax , State Tax
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -54,7 +54,7 @@ class TaxSchemeType
      *  Code. Type
      *  Consumption , Sales
      *
-     * @var \UBL\Common\CBC\TaxTypeCode $taxTypeCode
+     * @var \App\UBL\Common\CBC\TaxTypeCode $taxTypeCode
      */
     private $taxTypeCode = null;
 
@@ -69,7 +69,7 @@ class TaxSchemeType
      *  Currency
      *  Currency_ Code. Type
      *
-     * @var \UBL\Common\CBC\CurrencyCode $currencyCode
+     * @var \App\UBL\Common\CBC\CurrencyCode $currencyCode
      */
     private $currencyCode = null;
 
@@ -84,7 +84,7 @@ class TaxSchemeType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\JurisdictionRegionAddress[] $jurisdictionRegionAddress
+     * @var \App\UBL\Common\CAC\JurisdictionRegionAddress[] $jurisdictionRegionAddress
      */
     private $jurisdictionRegionAddress = [
         
@@ -103,7 +103,7 @@ class TaxSchemeType
      *  Identifier. Type
      *  http://www.unece.org/uncefact/codelist/standard/EDIFICASEU_TaxExemptionReason_D09B.xsd
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -123,10 +123,10 @@ class TaxSchemeType
      *  Identifier. Type
      *  http://www.unece.org/uncefact/codelist/standard/EDIFICASEU_TaxExemptionReason_D09B.xsd
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -145,7 +145,7 @@ class TaxSchemeType
      *  Name. Type
      *  Value Added Tax , Wholesale Tax , Sales Tax , State Tax
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -165,10 +165,10 @@ class TaxSchemeType
      *  Name. Type
      *  Value Added Tax , Wholesale Tax , Sales Tax , State Tax
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -187,7 +187,7 @@ class TaxSchemeType
      *  Code. Type
      *  Consumption , Sales
      *
-     * @return \UBL\Common\CBC\TaxTypeCode
+     * @return \App\UBL\Common\CBC\TaxTypeCode
      */
     public function getTaxTypeCode()
     {
@@ -207,10 +207,10 @@ class TaxSchemeType
      *  Code. Type
      *  Consumption , Sales
      *
-     * @param \UBL\Common\CBC\TaxTypeCode $taxTypeCode
+     * @param \App\UBL\Common\CBC\TaxTypeCode $taxTypeCode
      * @return self
      */
-    public function setTaxTypeCode(?\UBL\Common\CBC\TaxTypeCode $taxTypeCode = null)
+    public function setTaxTypeCode(?\App\UBL\Common\CBC\TaxTypeCode $taxTypeCode = null)
     {
         $this->taxTypeCode = $taxTypeCode;
         return $this;
@@ -229,7 +229,7 @@ class TaxSchemeType
      *  Currency
      *  Currency_ Code. Type
      *
-     * @return \UBL\Common\CBC\CurrencyCode
+     * @return \App\UBL\Common\CBC\CurrencyCode
      */
     public function getCurrencyCode()
     {
@@ -249,10 +249,10 @@ class TaxSchemeType
      *  Currency
      *  Currency_ Code. Type
      *
-     * @param \UBL\Common\CBC\CurrencyCode $currencyCode
+     * @param \App\UBL\Common\CBC\CurrencyCode $currencyCode
      * @return self
      */
-    public function setCurrencyCode(?\UBL\Common\CBC\CurrencyCode $currencyCode = null)
+    public function setCurrencyCode(?\App\UBL\Common\CBC\CurrencyCode $currencyCode = null)
     {
         $this->currencyCode = $currencyCode;
         return $this;
@@ -272,9 +272,9 @@ class TaxSchemeType
      *  Address
      *
      * @return self
-     * @param \UBL\Common\CAC\JurisdictionRegionAddress $jurisdictionRegionAddress
+     * @param \App\UBL\Common\CAC\JurisdictionRegionAddress $jurisdictionRegionAddress
      */
-    public function addToJurisdictionRegionAddress(\UBL\Common\CAC\JurisdictionRegionAddress $jurisdictionRegionAddress)
+    public function addToJurisdictionRegionAddress(\App\UBL\Common\CAC\JurisdictionRegionAddress $jurisdictionRegionAddress)
     {
         $this->jurisdictionRegionAddress[] = $jurisdictionRegionAddress;
         return $this;
@@ -335,7 +335,7 @@ class TaxSchemeType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\JurisdictionRegionAddress[]
+     * @return \App\UBL\Common\CAC\JurisdictionRegionAddress[]
      */
     public function getJurisdictionRegionAddress()
     {
@@ -355,7 +355,7 @@ class TaxSchemeType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\JurisdictionRegionAddress[] $jurisdictionRegionAddress
+     * @param \App\UBL\Common\CAC\JurisdictionRegionAddress[] $jurisdictionRegionAddress
      * @return self
      */
     public function setJurisdictionRegionAddress(?array $jurisdictionRegionAddress = null)
@@ -364,5 +364,4 @@ class TaxSchemeType
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class PerformanceValueQuantity extends PerformanceValueQuantityType
 {
 }
 
-

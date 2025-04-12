@@ -9,4 +9,3 @@ class ReceivedElectronicTenderQuantity extends ReceivedElectronicTenderQuantityT
 {
 }
 
-

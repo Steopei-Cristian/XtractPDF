@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\Extension;
 
-use UBL\Unqualified\TextType;
+use App\UBL\Unqualified\TextType;
 
 /**
  * Class representing ExtensionReasonType
@@ -13,5 +13,4 @@ use UBL\Unqualified\TextType;
 class ExtensionReasonType extends TextType
 {
 }
-
 

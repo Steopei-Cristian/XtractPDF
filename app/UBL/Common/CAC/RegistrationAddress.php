@@ -9,4 +9,3 @@ class RegistrationAddress extends AddressType
 {
 }
 
-

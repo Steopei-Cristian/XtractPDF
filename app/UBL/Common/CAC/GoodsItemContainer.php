@@ -9,4 +9,3 @@ class GoodsItemContainer extends GoodsItemContainerType
 {
 }
 
-

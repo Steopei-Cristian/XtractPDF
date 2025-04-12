@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class CertifiedRolesListType
 {
     /**
-     * @var \UBL\XAdES\v132\EncapsulatedPKIDataType[] $certifiedRole
+     * @var \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $certifiedRole
      */
     private $certifiedRole = [
         
@@ -21,9 +21,9 @@ class CertifiedRolesListType
      * Adds as certifiedRole
      *
      * @return self
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType $certifiedRole
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType $certifiedRole
      */
-    public function addToCertifiedRole(\UBL\XAdES\v132\EncapsulatedPKIDataType $certifiedRole)
+    public function addToCertifiedRole(\App\UBL\XAdES\v132\EncapsulatedPKIDataType $certifiedRole)
     {
         $this->certifiedRole[] = $certifiedRole;
         return $this;
@@ -54,7 +54,7 @@ class CertifiedRolesListType
     /**
      * Gets as certifiedRole
      *
-     * @return \UBL\XAdES\v132\EncapsulatedPKIDataType[]
+     * @return \App\UBL\XAdES\v132\EncapsulatedPKIDataType[]
      */
     public function getCertifiedRole()
     {
@@ -64,7 +64,7 @@ class CertifiedRolesListType
     /**
      * Sets a new certifiedRole
      *
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType[] $certifiedRole
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $certifiedRole
      * @return self
      */
     public function setCertifiedRole(array $certifiedRole)
@@ -73,5 +73,4 @@ class CertifiedRolesListType
         return $this;
     }
 }
-
 

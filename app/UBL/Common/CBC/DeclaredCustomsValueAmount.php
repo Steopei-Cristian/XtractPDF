@@ -9,4 +9,3 @@ class DeclaredCustomsValueAmount extends DeclaredCustomsValueAmountType
 {
 }
 
-

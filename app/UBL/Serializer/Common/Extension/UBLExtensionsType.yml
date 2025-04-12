@@ -1,4 +1,4 @@
-UBL\Common\Extension\UBLExtensionsType:
+App\UBL\Common\Extension\UBLExtensionsType:
     properties:
         uBLExtension:
             expose: true
@@ -13,4 +13,4 @@ UBL\Common\Extension\UBLExtensionsType:
                 inline: true
                 entry_name: UBLExtension
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2'
-            type: array<UBL\Common\Extension\UBLExtension>
+            type: array<App\UBL\Common\Extension\UBLExtension>

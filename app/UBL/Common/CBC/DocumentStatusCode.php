@@ -9,4 +9,3 @@ class DocumentStatusCode extends DocumentStatusCodeType
 {
 }
 
-

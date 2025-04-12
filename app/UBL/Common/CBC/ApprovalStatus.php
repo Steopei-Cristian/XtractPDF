@@ -9,4 +9,3 @@ class ApprovalStatus extends ApprovalStatusType
 {
 }
 
-

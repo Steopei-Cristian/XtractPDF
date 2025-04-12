@@ -1,4 +1,4 @@
-UBL\Common\CAC\ContractingPartyType:
+App\UBL\Common\CAC\ContractingPartyType:
     properties:
         buyerProfileURI:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ContractingPartyType:
             accessor:
                 getter: getBuyerProfileURI
                 setter: setBuyerProfileURI
-            type: UBL\Common\CBC\BuyerProfileURI
+            type: App\UBL\Common\CBC\BuyerProfileURI
         contractingPartyType:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\ContractingPartyType:
                 inline: true
                 entry_name: ContractingPartyType
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ContractingPartyType>
+            type: array<App\UBL\Common\CAC\ContractingPartyType>
         contractingActivity:
             expose: true
             access_type: public_method
@@ -37,7 +37,7 @@ UBL\Common\CAC\ContractingPartyType:
                 inline: true
                 entry_name: ContractingActivity
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ContractingActivity>
+            type: array<App\UBL\Common\CAC\ContractingActivity>
         party:
             expose: true
             access_type: public_method
@@ -47,4 +47,4 @@ UBL\Common\CAC\ContractingPartyType:
             accessor:
                 getter: getParty
                 setter: setParty
-            type: UBL\Common\CAC\Party
+            type: App\UBL\Common\CAC\Party

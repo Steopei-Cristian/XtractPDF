@@ -1,3 +1,3 @@
-UBL\Common\CBC\TelecommunicationsServiceCall:
+App\UBL\Common\CBC\TelecommunicationsServiceCall:
     xml_root_name: TelecommunicationsServiceCall
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

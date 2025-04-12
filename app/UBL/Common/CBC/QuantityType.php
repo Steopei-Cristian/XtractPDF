@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\QuantityType as QuantityTypeBase;
+use App\UBL\Unqualified\QuantityType as QuantityTypeBase;
 
 /**
  * Class representing QuantityType
@@ -13,5 +13,4 @@ use UBL\Unqualified\QuantityType as QuantityTypeBase;
 class QuantityType extends QuantityTypeBase
 {
 }
-
 

@@ -9,4 +9,3 @@ class TaxExemptionReasonCode extends TaxExemptionReasonCodeType
 {
 }
 
-

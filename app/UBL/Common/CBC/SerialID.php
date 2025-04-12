@@ -9,4 +9,3 @@ class SerialID extends SerialIDType
 {
 }
 
-

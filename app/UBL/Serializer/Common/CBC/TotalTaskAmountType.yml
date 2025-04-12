@@ -1,2 +1,2 @@
-UBL\Common\CBC\TotalTaskAmountType:
+App\UBL\Common\CBC\TotalTaskAmountType:
     properties: {  }

@@ -9,4 +9,3 @@ class PriceChangeReason extends PriceChangeReasonType
 {
 }
 
-

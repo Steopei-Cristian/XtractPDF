@@ -1,4 +1,4 @@
-UBL\Common\CBC\ExpiryTime:
+App\UBL\Common\CBC\ExpiryTime:
     xml_root_name: ExpiryTime
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

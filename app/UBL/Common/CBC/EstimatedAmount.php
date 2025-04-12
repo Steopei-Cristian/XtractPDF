@@ -9,4 +9,3 @@ class EstimatedAmount extends EstimatedAmountType
 {
 }
 
-

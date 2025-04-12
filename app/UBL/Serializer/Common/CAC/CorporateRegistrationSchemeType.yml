@@ -1,4 +1,4 @@
-UBL\Common\CAC\CorporateRegistrationSchemeType:
+App\UBL\Common\CAC\CorporateRegistrationSchemeType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CorporateRegistrationSchemeType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         name:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\CorporateRegistrationSchemeType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         corporateRegistrationTypeCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\CorporateRegistrationSchemeType:
             accessor:
                 getter: getCorporateRegistrationTypeCode
                 setter: setCorporateRegistrationTypeCode
-            type: UBL\Common\CBC\CorporateRegistrationTypeCode
+            type: App\UBL\Common\CBC\CorporateRegistrationTypeCode
         jurisdictionRegionAddress:
             expose: true
             access_type: public_method
@@ -43,4 +43,4 @@ UBL\Common\CAC\CorporateRegistrationSchemeType:
                 inline: true
                 entry_name: JurisdictionRegionAddress
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\JurisdictionRegionAddress>
+            type: array<App\UBL\Common\CAC\JurisdictionRegionAddress>

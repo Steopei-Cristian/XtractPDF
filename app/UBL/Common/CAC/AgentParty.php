@@ -9,4 +9,3 @@ class AgentParty extends PartyType
 {
 }
 
-

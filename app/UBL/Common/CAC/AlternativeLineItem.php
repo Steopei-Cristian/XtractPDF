@@ -9,4 +9,3 @@ class AlternativeLineItem extends LineItemType
 {
 }
 
-

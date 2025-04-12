@@ -1,3 +1,3 @@
-UBL\Common\CBC\ProcedureCode:
+App\UBL\Common\CBC\ProcedureCode:
     xml_root_name: ProcedureCode
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

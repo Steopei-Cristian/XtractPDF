@@ -9,4 +9,3 @@ class CountrySubentity extends CountrySubentityType
 {
 }
 
-

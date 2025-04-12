@@ -1,4 +1,4 @@
-UBL\Common\CAC\ContractingActivityType:
+App\UBL\Common\CAC\ContractingActivityType:
     properties:
         activityTypeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ContractingActivityType:
             accessor:
                 getter: getActivityTypeCode
                 setter: setActivityTypeCode
-            type: UBL\Common\CBC\ActivityTypeCode
+            type: App\UBL\Common\CBC\ActivityTypeCode
         activityType:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ UBL\Common\CAC\ContractingActivityType:
             accessor:
                 getter: getActivityType
                 setter: setActivityType
-            type: UBL\Common\CBC\ActivityType
+            type: App\UBL\Common\CBC\ActivityType

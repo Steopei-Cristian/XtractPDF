@@ -9,4 +9,3 @@ class LocationID extends LocationIDType
 {
 }
 
-

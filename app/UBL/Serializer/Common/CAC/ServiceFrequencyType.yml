@@ -1,4 +1,4 @@
-UBL\Common\CAC\ServiceFrequencyType:
+App\UBL\Common\CAC\ServiceFrequencyType:
     properties:
         weekDayCode:
             expose: true
@@ -9,4 +9,4 @@ UBL\Common\CAC\ServiceFrequencyType:
             accessor:
                 getter: getWeekDayCode
                 setter: setWeekDayCode
-            type: UBL\Common\CBC\WeekDayCode
+            type: App\UBL\Common\CBC\WeekDayCode

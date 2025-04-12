@@ -9,4 +9,3 @@ class DependentPriceReference extends DependentPriceReferenceType
 {
 }
 
-

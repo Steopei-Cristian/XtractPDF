@@ -9,4 +9,3 @@ class MediationParty extends PartyType
 {
 }
 
-

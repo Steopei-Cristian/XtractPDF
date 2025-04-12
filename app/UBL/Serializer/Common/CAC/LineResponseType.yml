@@ -1,4 +1,4 @@
-UBL\Common\CAC\LineResponseType:
+App\UBL\Common\CAC\LineResponseType:
     properties:
         lineReference:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\LineResponseType:
             accessor:
                 getter: getLineReference
                 setter: setLineReference
-            type: UBL\Common\CAC\LineReference
+            type: App\UBL\Common\CAC\LineReference
         response:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ UBL\Common\CAC\LineResponseType:
                 inline: true
                 entry_name: Response
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Response>
+            type: array<App\UBL\Common\CAC\Response>

@@ -16,33 +16,33 @@ class GenericTimeStampType
     private $id = null;
 
     /**
-     * @var \UBL\XAdES\v132\IncludeXsd[] $include
+     * @var \App\UBL\XAdES\v132\IncludeXsd[] $include
      */
     private $include = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\ReferenceInfo[] $referenceInfo
+     * @var \App\UBL\XAdES\v132\ReferenceInfo[] $referenceInfo
      */
     private $referenceInfo = [
         
     ];
 
     /**
-     * @var \UBL\Xmldsig\CanonicalizationMethod $canonicalizationMethod
+     * @var \App\UBL\Xmldsig\CanonicalizationMethod $canonicalizationMethod
      */
     private $canonicalizationMethod = null;
 
     /**
-     * @var \UBL\XAdES\v132\EncapsulatedPKIDataType[] $encapsulatedTimeStamp
+     * @var \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $encapsulatedTimeStamp
      */
     private $encapsulatedTimeStamp = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\AnyType[] $xMLTimeStamp
+     * @var \App\UBL\XAdES\v132\AnyType[] $xMLTimeStamp
      */
     private $xMLTimeStamp = [
         
@@ -74,9 +74,9 @@ class GenericTimeStampType
      * Adds as include
      *
      * @return self
-     * @param \UBL\XAdES\v132\IncludeXsd $include
+     * @param \App\UBL\XAdES\v132\IncludeXsd $include
      */
-    public function addToInclude(\UBL\XAdES\v132\IncludeXsd $include)
+    public function addToInclude(\App\UBL\XAdES\v132\IncludeXsd $include)
     {
         $this->include[] = $include;
         return $this;
@@ -107,7 +107,7 @@ class GenericTimeStampType
     /**
      * Gets as include
      *
-     * @return \UBL\XAdES\v132\IncludeXsd[]
+     * @return \App\UBL\XAdES\v132\IncludeXsd[]
      */
     public function getInclude()
     {
@@ -117,7 +117,7 @@ class GenericTimeStampType
     /**
      * Sets a new include
      *
-     * @param \UBL\XAdES\v132\IncludeXsd[] $include
+     * @param \App\UBL\XAdES\v132\IncludeXsd[] $include
      * @return self
      */
     public function setInclude(?array $include = null)
@@ -130,9 +130,9 @@ class GenericTimeStampType
      * Adds as referenceInfo
      *
      * @return self
-     * @param \UBL\XAdES\v132\ReferenceInfo $referenceInfo
+     * @param \App\UBL\XAdES\v132\ReferenceInfo $referenceInfo
      */
-    public function addToReferenceInfo(\UBL\XAdES\v132\ReferenceInfo $referenceInfo)
+    public function addToReferenceInfo(\App\UBL\XAdES\v132\ReferenceInfo $referenceInfo)
     {
         $this->referenceInfo[] = $referenceInfo;
         return $this;
@@ -163,7 +163,7 @@ class GenericTimeStampType
     /**
      * Gets as referenceInfo
      *
-     * @return \UBL\XAdES\v132\ReferenceInfo[]
+     * @return \App\UBL\XAdES\v132\ReferenceInfo[]
      */
     public function getReferenceInfo()
     {
@@ -173,7 +173,7 @@ class GenericTimeStampType
     /**
      * Sets a new referenceInfo
      *
-     * @param \UBL\XAdES\v132\ReferenceInfo[] $referenceInfo
+     * @param \App\UBL\XAdES\v132\ReferenceInfo[] $referenceInfo
      * @return self
      */
     public function setReferenceInfo(?array $referenceInfo = null)
@@ -185,7 +185,7 @@ class GenericTimeStampType
     /**
      * Gets as canonicalizationMethod
      *
-     * @return \UBL\Xmldsig\CanonicalizationMethod
+     * @return \App\UBL\Xmldsig\CanonicalizationMethod
      */
     public function getCanonicalizationMethod()
     {
@@ -195,10 +195,10 @@ class GenericTimeStampType
     /**
      * Sets a new canonicalizationMethod
      *
-     * @param \UBL\Xmldsig\CanonicalizationMethod $canonicalizationMethod
+     * @param \App\UBL\Xmldsig\CanonicalizationMethod $canonicalizationMethod
      * @return self
      */
-    public function setCanonicalizationMethod(?\UBL\Xmldsig\CanonicalizationMethod $canonicalizationMethod = null)
+    public function setCanonicalizationMethod(?\App\UBL\Xmldsig\CanonicalizationMethod $canonicalizationMethod = null)
     {
         $this->canonicalizationMethod = $canonicalizationMethod;
         return $this;
@@ -208,9 +208,9 @@ class GenericTimeStampType
      * Adds as encapsulatedTimeStamp
      *
      * @return self
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedTimeStamp
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedTimeStamp
      */
-    public function addToEncapsulatedTimeStamp(\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedTimeStamp)
+    public function addToEncapsulatedTimeStamp(\App\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedTimeStamp)
     {
         $this->encapsulatedTimeStamp[] = $encapsulatedTimeStamp;
         return $this;
@@ -241,7 +241,7 @@ class GenericTimeStampType
     /**
      * Gets as encapsulatedTimeStamp
      *
-     * @return \UBL\XAdES\v132\EncapsulatedPKIDataType[]
+     * @return \App\UBL\XAdES\v132\EncapsulatedPKIDataType[]
      */
     public function getEncapsulatedTimeStamp()
     {
@@ -251,7 +251,7 @@ class GenericTimeStampType
     /**
      * Sets a new encapsulatedTimeStamp
      *
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType[] $encapsulatedTimeStamp
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $encapsulatedTimeStamp
      * @return self
      */
     public function setEncapsulatedTimeStamp(?array $encapsulatedTimeStamp = null)
@@ -264,9 +264,9 @@ class GenericTimeStampType
      * Adds as xMLTimeStamp
      *
      * @return self
-     * @param \UBL\XAdES\v132\AnyType $xMLTimeStamp
+     * @param \App\UBL\XAdES\v132\AnyType $xMLTimeStamp
      */
-    public function addToXMLTimeStamp(\UBL\XAdES\v132\AnyType $xMLTimeStamp)
+    public function addToXMLTimeStamp(\App\UBL\XAdES\v132\AnyType $xMLTimeStamp)
     {
         $this->xMLTimeStamp[] = $xMLTimeStamp;
         return $this;
@@ -297,7 +297,7 @@ class GenericTimeStampType
     /**
      * Gets as xMLTimeStamp
      *
-     * @return \UBL\XAdES\v132\AnyType[]
+     * @return \App\UBL\XAdES\v132\AnyType[]
      */
     public function getXMLTimeStamp()
     {
@@ -307,7 +307,7 @@ class GenericTimeStampType
     /**
      * Sets a new xMLTimeStamp
      *
-     * @param \UBL\XAdES\v132\AnyType[] $xMLTimeStamp
+     * @param \App\UBL\XAdES\v132\AnyType[] $xMLTimeStamp
      * @return self
      */
     public function setXMLTimeStamp(?array $xMLTimeStamp = null)
@@ -316,5 +316,4 @@ class GenericTimeStampType
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class ReceivedHandlingUnitReceiptLine extends ReceiptLineType
 {
 }
 
-

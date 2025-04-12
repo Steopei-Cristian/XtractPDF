@@ -16,12 +16,12 @@ class SignedPropertiesType
     private $id = null;
 
     /**
-     * @var \UBL\XAdES\v132\SignedSignaturePropertiesType $signedSignatureProperties
+     * @var \App\UBL\XAdES\v132\SignedSignaturePropertiesType $signedSignatureProperties
      */
     private $signedSignatureProperties = null;
 
     /**
-     * @var \UBL\XAdES\v132\SignedDataObjectPropertiesType $signedDataObjectProperties
+     * @var \App\UBL\XAdES\v132\SignedDataObjectPropertiesType $signedDataObjectProperties
      */
     private $signedDataObjectProperties = null;
 
@@ -50,7 +50,7 @@ class SignedPropertiesType
     /**
      * Gets as signedSignatureProperties
      *
-     * @return \UBL\XAdES\v132\SignedSignaturePropertiesType
+     * @return \App\UBL\XAdES\v132\SignedSignaturePropertiesType
      */
     public function getSignedSignatureProperties()
     {
@@ -60,10 +60,10 @@ class SignedPropertiesType
     /**
      * Sets a new signedSignatureProperties
      *
-     * @param \UBL\XAdES\v132\SignedSignaturePropertiesType $signedSignatureProperties
+     * @param \App\UBL\XAdES\v132\SignedSignaturePropertiesType $signedSignatureProperties
      * @return self
      */
-    public function setSignedSignatureProperties(?\UBL\XAdES\v132\SignedSignaturePropertiesType $signedSignatureProperties = null)
+    public function setSignedSignatureProperties(?\App\UBL\XAdES\v132\SignedSignaturePropertiesType $signedSignatureProperties = null)
     {
         $this->signedSignatureProperties = $signedSignatureProperties;
         return $this;
@@ -72,7 +72,7 @@ class SignedPropertiesType
     /**
      * Gets as signedDataObjectProperties
      *
-     * @return \UBL\XAdES\v132\SignedDataObjectPropertiesType
+     * @return \App\UBL\XAdES\v132\SignedDataObjectPropertiesType
      */
     public function getSignedDataObjectProperties()
     {
@@ -82,14 +82,13 @@ class SignedPropertiesType
     /**
      * Sets a new signedDataObjectProperties
      *
-     * @param \UBL\XAdES\v132\SignedDataObjectPropertiesType $signedDataObjectProperties
+     * @param \App\UBL\XAdES\v132\SignedDataObjectPropertiesType $signedDataObjectProperties
      * @return self
      */
-    public function setSignedDataObjectProperties(?\UBL\XAdES\v132\SignedDataObjectPropertiesType $signedDataObjectProperties = null)
+    public function setSignedDataObjectProperties(?\App\UBL\XAdES\v132\SignedDataObjectPropertiesType $signedDataObjectProperties = null)
     {
         $this->signedDataObjectProperties = $signedDataObjectProperties;
         return $this;
     }
 }
-
 

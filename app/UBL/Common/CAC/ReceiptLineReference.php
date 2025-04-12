@@ -9,4 +9,3 @@ class ReceiptLineReference extends LineReferenceType
 {
 }
 
-

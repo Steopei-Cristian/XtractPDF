@@ -1,2 +1,2 @@
-UBL\Common\CBC\TransportEmergencyCardCodeType:
+App\UBL\Common\CBC\TransportEmergencyCardCodeType:
     properties: {  }

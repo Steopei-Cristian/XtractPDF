@@ -9,4 +9,3 @@ class AltitudeMeasure extends AltitudeMeasureType
 {
 }
 
-

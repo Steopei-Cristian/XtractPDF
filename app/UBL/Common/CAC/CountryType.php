@@ -24,7 +24,7 @@ class CountryType
      *  Country Identification
      *  Country Identification_ Code. Type
      *
-     * @var \UBL\Common\CBC\IdentificationCode $identificationCode
+     * @var \App\UBL\Common\CBC\IdentificationCode $identificationCode
      */
     private $identificationCode = null;
 
@@ -39,7 +39,7 @@ class CountryType
      *  Name. Type
      *  SOUTH AFRICA
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -56,7 +56,7 @@ class CountryType
      *  Country Identification
      *  Country Identification_ Code. Type
      *
-     * @return \UBL\Common\CBC\IdentificationCode
+     * @return \App\UBL\Common\CBC\IdentificationCode
      */
     public function getIdentificationCode()
     {
@@ -76,10 +76,10 @@ class CountryType
      *  Country Identification
      *  Country Identification_ Code. Type
      *
-     * @param \UBL\Common\CBC\IdentificationCode $identificationCode
+     * @param \App\UBL\Common\CBC\IdentificationCode $identificationCode
      * @return self
      */
-    public function setIdentificationCode(?\UBL\Common\CBC\IdentificationCode $identificationCode = null)
+    public function setIdentificationCode(?\App\UBL\Common\CBC\IdentificationCode $identificationCode = null)
     {
         $this->identificationCode = $identificationCode;
         return $this;
@@ -98,7 +98,7 @@ class CountryType
      *  Name. Type
      *  SOUTH AFRICA
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -118,14 +118,13 @@ class CountryType
      *  Name. Type
      *  SOUTH AFRICA
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
     }
 }
-
 

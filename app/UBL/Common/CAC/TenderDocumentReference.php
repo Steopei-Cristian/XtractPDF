@@ -9,4 +9,3 @@ class TenderDocumentReference extends DocumentReferenceType
 {
 }
 
-

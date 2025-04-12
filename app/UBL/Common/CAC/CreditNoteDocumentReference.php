@@ -9,4 +9,3 @@ class CreditNoteDocumentReference extends DocumentReferenceType
 {
 }
 
-

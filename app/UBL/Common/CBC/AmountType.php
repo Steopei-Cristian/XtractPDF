@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\AmountType as AmountTypeBase;
+use App\UBL\Unqualified\AmountType as AmountTypeBase;
 
 /**
  * Class representing AmountType
@@ -13,5 +13,4 @@ use UBL\Unqualified\AmountType as AmountTypeBase;
 class AmountType extends AmountTypeBase
 {
 }
-
 

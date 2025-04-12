@@ -9,4 +9,3 @@ class CustomerReference extends CustomerReferenceType
 {
 }
 
-

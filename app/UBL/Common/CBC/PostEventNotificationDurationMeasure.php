@@ -9,4 +9,3 @@ class PostEventNotificationDurationMeasure extends PostEventNotificationDuration
 {
 }
 
-

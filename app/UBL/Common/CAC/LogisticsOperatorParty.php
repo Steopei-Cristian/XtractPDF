@@ -9,4 +9,3 @@ class LogisticsOperatorParty extends PartyType
 {
 }
 
-

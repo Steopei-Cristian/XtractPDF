@@ -23,7 +23,7 @@ class ForecastLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class ForecastLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -68,7 +68,7 @@ class ForecastLineType
      *  Code. Type
      *  seasonal, total
      *
-     * @var \UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
+     * @var \App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
      */
     private $forecastTypeCode = null;
 
@@ -83,7 +83,7 @@ class ForecastLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ForecastPeriod $forecastPeriod
+     * @var \App\UBL\Common\CAC\ForecastPeriod $forecastPeriod
      */
     private $forecastPeriod = null;
 
@@ -97,7 +97,7 @@ class ForecastLineType
      *  Sales Item
      *  Sales Item
      *
-     * @var \UBL\Common\CAC\SalesItem $salesItem
+     * @var \App\UBL\Common\CAC\SalesItem $salesItem
      */
     private $salesItem = null;
 
@@ -113,7 +113,7 @@ class ForecastLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -132,10 +132,10 @@ class ForecastLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -154,9 +154,9 @@ class ForecastLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -214,7 +214,7 @@ class ForecastLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -233,7 +233,7 @@ class ForecastLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -295,7 +295,7 @@ class ForecastLineType
      *  Code. Type
      *  seasonal, total
      *
-     * @return \UBL\Common\CBC\ForecastTypeCode
+     * @return \App\UBL\Common\CBC\ForecastTypeCode
      */
     public function getForecastTypeCode()
     {
@@ -315,10 +315,10 @@ class ForecastLineType
      *  Code. Type
      *  seasonal, total
      *
-     * @param \UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
+     * @param \App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
      * @return self
      */
-    public function setForecastTypeCode(\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode)
+    public function setForecastTypeCode(\App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode)
     {
         $this->forecastTypeCode = $forecastTypeCode;
         return $this;
@@ -337,7 +337,7 @@ class ForecastLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ForecastPeriod
+     * @return \App\UBL\Common\CAC\ForecastPeriod
      */
     public function getForecastPeriod()
     {
@@ -357,10 +357,10 @@ class ForecastLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ForecastPeriod $forecastPeriod
+     * @param \App\UBL\Common\CAC\ForecastPeriod $forecastPeriod
      * @return self
      */
-    public function setForecastPeriod(?\UBL\Common\CAC\ForecastPeriod $forecastPeriod = null)
+    public function setForecastPeriod(?\App\UBL\Common\CAC\ForecastPeriod $forecastPeriod = null)
     {
         $this->forecastPeriod = $forecastPeriod;
         return $this;
@@ -378,7 +378,7 @@ class ForecastLineType
      *  Sales Item
      *  Sales Item
      *
-     * @return \UBL\Common\CAC\SalesItem
+     * @return \App\UBL\Common\CAC\SalesItem
      */
     public function getSalesItem()
     {
@@ -397,14 +397,13 @@ class ForecastLineType
      *  Sales Item
      *  Sales Item
      *
-     * @param \UBL\Common\CAC\SalesItem $salesItem
+     * @param \App\UBL\Common\CAC\SalesItem $salesItem
      * @return self
      */
-    public function setSalesItem(?\UBL\Common\CAC\SalesItem $salesItem = null)
+    public function setSalesItem(?\App\UBL\Common\CAC\SalesItem $salesItem = null)
     {
         $this->salesItem = $salesItem;
         return $this;
     }
 }
-
 

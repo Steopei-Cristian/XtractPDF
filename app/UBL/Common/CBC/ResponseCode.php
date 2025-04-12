@@ -9,4 +9,3 @@ class ResponseCode extends ResponseCodeType
 {
 }
 
-

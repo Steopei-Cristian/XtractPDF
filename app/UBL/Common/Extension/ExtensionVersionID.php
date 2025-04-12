@@ -9,4 +9,3 @@ class ExtensionVersionID extends ExtensionVersionIDType
 {
 }
 
-

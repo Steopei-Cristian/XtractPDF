@@ -1,4 +1,4 @@
-UBL\Common\CAC\TelecommunicationsServiceType:
+App\UBL\Common\CAC\TelecommunicationsServiceType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         callDate:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getServiceNumberCalled
                 setter: setServiceNumberCalled
-            type: UBL\Common\CBC\ServiceNumberCalled
+            type: App\UBL\Common\CBC\ServiceNumberCalled
         telecommunicationsServiceCategory:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getTelecommunicationsServiceCategory
                 setter: setTelecommunicationsServiceCategory
-            type: UBL\Common\CBC\TelecommunicationsServiceCategory
+            type: App\UBL\Common\CBC\TelecommunicationsServiceCategory
         telecommunicationsServiceCategoryCode:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getTelecommunicationsServiceCategoryCode
                 setter: setTelecommunicationsServiceCategoryCode
-            type: UBL\Common\CBC\TelecommunicationsServiceCategoryCode
+            type: App\UBL\Common\CBC\TelecommunicationsServiceCategoryCode
         movieTitle:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getMovieTitle
                 setter: setMovieTitle
-            type: UBL\Common\CBC\MovieTitle
+            type: App\UBL\Common\CBC\MovieTitle
         roamingPartnerName:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getRoamingPartnerName
                 setter: setRoamingPartnerName
-            type: UBL\Common\CBC\RoamingPartnerName
+            type: App\UBL\Common\CBC\RoamingPartnerName
         payPerView:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getPayPerView
                 setter: setPayPerView
-            type: UBL\Common\CBC\PayPerView
+            type: App\UBL\Common\CBC\PayPerView
         quantity:
             expose: true
             access_type: public_method
@@ -99,7 +99,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         telecommunicationsServiceCall:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getTelecommunicationsServiceCall
                 setter: setTelecommunicationsServiceCall
-            type: UBL\Common\CBC\TelecommunicationsServiceCall
+            type: App\UBL\Common\CBC\TelecommunicationsServiceCall
         telecommunicationsServiceCallCode:
             expose: true
             access_type: public_method
@@ -119,7 +119,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getTelecommunicationsServiceCallCode
                 setter: setTelecommunicationsServiceCallCode
-            type: UBL\Common\CBC\TelecommunicationsServiceCallCode
+            type: App\UBL\Common\CBC\TelecommunicationsServiceCallCode
         callBaseAmount:
             expose: true
             access_type: public_method
@@ -129,7 +129,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getCallBaseAmount
                 setter: setCallBaseAmount
-            type: UBL\Common\CBC\CallBaseAmount
+            type: App\UBL\Common\CBC\CallBaseAmount
         callExtensionAmount:
             expose: true
             access_type: public_method
@@ -139,7 +139,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getCallExtensionAmount
                 setter: setCallExtensionAmount
-            type: UBL\Common\CBC\CallExtensionAmount
+            type: App\UBL\Common\CBC\CallExtensionAmount
         price:
             expose: true
             access_type: public_method
@@ -149,7 +149,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getPrice
                 setter: setPrice
-            type: UBL\Common\CAC\Price
+            type: App\UBL\Common\CAC\Price
         country:
             expose: true
             access_type: public_method
@@ -159,7 +159,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
             accessor:
                 getter: getCountry
                 setter: setCountry
-            type: UBL\Common\CAC\Country
+            type: App\UBL\Common\CAC\Country
         exchangeRate:
             expose: true
             access_type: public_method
@@ -173,7 +173,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
                 inline: true
                 entry_name: ExchangeRate
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ExchangeRate>
+            type: array<App\UBL\Common\CAC\ExchangeRate>
         allowanceCharge:
             expose: true
             access_type: public_method
@@ -187,7 +187,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
                 inline: true
                 entry_name: AllowanceCharge
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AllowanceCharge>
+            type: array<App\UBL\Common\CAC\AllowanceCharge>
         taxTotal:
             expose: true
             access_type: public_method
@@ -201,7 +201,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
                 inline: true
                 entry_name: TaxTotal
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TaxTotal>
+            type: array<App\UBL\Common\CAC\TaxTotal>
         callDuty:
             expose: true
             access_type: public_method
@@ -215,7 +215,7 @@ UBL\Common\CAC\TelecommunicationsServiceType:
                 inline: true
                 entry_name: CallDuty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\CallDuty>
+            type: array<App\UBL\Common\CAC\CallDuty>
         timeDuty:
             expose: true
             access_type: public_method
@@ -229,4 +229,4 @@ UBL\Common\CAC\TelecommunicationsServiceType:
                 inline: true
                 entry_name: TimeDuty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TimeDuty>
+            type: array<App\UBL\Common\CAC\TimeDuty>

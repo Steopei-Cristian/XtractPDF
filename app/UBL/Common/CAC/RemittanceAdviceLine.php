@@ -9,4 +9,3 @@ class RemittanceAdviceLine extends RemittanceAdviceLineType
 {
 }
 
-

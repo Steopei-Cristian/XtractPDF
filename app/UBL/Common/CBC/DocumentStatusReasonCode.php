@@ -9,4 +9,3 @@ class DocumentStatusReasonCode extends DocumentStatusReasonCodeType
 {
 }
 
-

@@ -9,4 +9,3 @@ class SpecialInstructions extends SpecialInstructionsType
 {
 }
 
-

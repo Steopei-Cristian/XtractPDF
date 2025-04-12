@@ -1,4 +1,4 @@
-UBL\Common\CAC\RequestedTenderTotalType:
+App\UBL\Common\CAC\RequestedTenderTotalType:
     properties:
         estimatedOverallContractAmount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\RequestedTenderTotalType:
             accessor:
                 getter: getEstimatedOverallContractAmount
                 setter: setEstimatedOverallContractAmount
-            type: UBL\Common\CBC\EstimatedOverallContractAmount
+            type: App\UBL\Common\CBC\EstimatedOverallContractAmount
         totalAmount:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\RequestedTenderTotalType:
             accessor:
                 getter: getTotalAmount
                 setter: setTotalAmount
-            type: UBL\Common\CBC\TotalAmount
+            type: App\UBL\Common\CBC\TotalAmount
         taxIncludedIndicator:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\RequestedTenderTotalType:
             accessor:
                 getter: getMinimumAmount
                 setter: setMinimumAmount
-            type: UBL\Common\CBC\MinimumAmount
+            type: App\UBL\Common\CBC\MinimumAmount
         maximumAmount:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\RequestedTenderTotalType:
             accessor:
                 getter: getMaximumAmount
                 setter: setMaximumAmount
-            type: UBL\Common\CBC\MaximumAmount
+            type: App\UBL\Common\CBC\MaximumAmount
         monetaryScope:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\RequestedTenderTotalType:
                 inline: true
                 entry_name: MonetaryScope
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\MonetaryScope>
+            type: array<App\UBL\Common\CBC\MonetaryScope>
         averageSubsequentContractAmount:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\RequestedTenderTotalType:
             accessor:
                 getter: getAverageSubsequentContractAmount
                 setter: setAverageSubsequentContractAmount
-            type: UBL\Common\CBC\AverageSubsequentContractAmount
+            type: App\UBL\Common\CBC\AverageSubsequentContractAmount
         applicableTaxCategory:
             expose: true
             access_type: public_method
@@ -87,4 +87,4 @@ UBL\Common\CAC\RequestedTenderTotalType:
                 inline: true
                 entry_name: ApplicableTaxCategory
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ApplicableTaxCategory>
+            type: array<App\UBL\Common\CAC\ApplicableTaxCategory>

@@ -1,4 +1,4 @@
-UBL\Common\CAC\ForecastRevisionLineType:
+App\UBL\Common\CAC\ForecastRevisionLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ForecastRevisionLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         note:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\ForecastRevisionLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         description:
             expose: true
             access_type: public_method
@@ -37,7 +37,7 @@ UBL\Common\CAC\ForecastRevisionLineType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         revisedForecastLineID:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ UBL\Common\CAC\ForecastRevisionLineType:
             accessor:
                 getter: getRevisedForecastLineID
                 setter: setRevisedForecastLineID
-            type: UBL\Common\CBC\RevisedForecastLineID
+            type: App\UBL\Common\CBC\RevisedForecastLineID
         sourceForecastIssueDate:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\ForecastRevisionLineType:
             accessor:
                 getter: getAdjustmentReasonCode
                 setter: setAdjustmentReasonCode
-            type: UBL\Common\CBC\AdjustmentReasonCode
+            type: App\UBL\Common\CBC\AdjustmentReasonCode
         forecastPeriod:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\ForecastRevisionLineType:
             accessor:
                 getter: getForecastPeriod
                 setter: setForecastPeriod
-            type: UBL\Common\CAC\ForecastPeriod
+            type: App\UBL\Common\CAC\ForecastPeriod
         salesItem:
             expose: true
             access_type: public_method
@@ -97,4 +97,4 @@ UBL\Common\CAC\ForecastRevisionLineType:
             accessor:
                 getter: getSalesItem
                 setter: setSalesItem
-            type: UBL\Common\CAC\SalesItem
+            type: App\UBL\Common\CAC\SalesItem

@@ -9,4 +9,3 @@ class StorageTransportEvent extends TransportEventType
 {
 }
 
-

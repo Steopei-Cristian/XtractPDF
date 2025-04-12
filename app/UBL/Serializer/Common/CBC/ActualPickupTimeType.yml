@@ -1,4 +1,4 @@
-UBL\Common\CBC\ActualPickupTimeType:
+App\UBL\Common\CBC\ActualPickupTimeType:
     properties:
         __value:
             expose: true

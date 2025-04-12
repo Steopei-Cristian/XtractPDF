@@ -24,7 +24,7 @@ class HazardousItemType
      *  Identifier. Type
      *  Round Up
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class HazardousItemType
      *  Text. Type
      *  5.1
      *
-     * @var \UBL\Common\CBC\PlacardNotation $placardNotation
+     * @var \App\UBL\Common\CBC\PlacardNotation $placardNotation
      */
     private $placardNotation = null;
 
@@ -54,7 +54,7 @@ class HazardousItemType
      *  Text. Type
      *  2
      *
-     * @var \UBL\Common\CBC\PlacardEndorsement $placardEndorsement
+     * @var \App\UBL\Common\CBC\PlacardEndorsement $placardEndorsement
      */
     private $placardEndorsement = null;
 
@@ -70,7 +70,7 @@ class HazardousItemType
      *  Text. Type
      *  Must be stored away from flammable materials N.O.S. or a Waste Characteristics Code in conjunction with an EPA Waste Stream code
      *
-     * @var \UBL\Common\CBC\AdditionalInformation[] $additionalInformation
+     * @var \App\UBL\Common\CBC\AdditionalInformation[] $additionalInformation
      */
     private $additionalInformation = [
         
@@ -87,7 +87,7 @@ class HazardousItemType
      *  Code. Type
      *  UN Code
      *
-     * @var \UBL\Common\CBC\UNDGCode $uNDGCode
+     * @var \App\UBL\Common\CBC\UNDGCode $uNDGCode
      */
     private $uNDGCode = null;
 
@@ -102,7 +102,7 @@ class HazardousItemType
      *  Code. Type
      *  EMG code, EMS Page Number
      *
-     * @var \UBL\Common\CBC\EmergencyProceduresCode $emergencyProceduresCode
+     * @var \App\UBL\Common\CBC\EmergencyProceduresCode $emergencyProceduresCode
      */
     private $emergencyProceduresCode = null;
 
@@ -117,7 +117,7 @@ class HazardousItemType
      *  Code. Type
      *  MFAG page number
      *
-     * @var \UBL\Common\CBC\MedicalFirstAidGuideCode $medicalFirstAidGuideCode
+     * @var \App\UBL\Common\CBC\MedicalFirstAidGuideCode $medicalFirstAidGuideCode
      */
     private $medicalFirstAidGuideCode = null;
 
@@ -133,7 +133,7 @@ class HazardousItemType
      *  Name. Type
      *  Granular Sodium Chlorate WeedKiller
      *
-     * @var \UBL\Common\CBC\TechnicalName $technicalName
+     * @var \App\UBL\Common\CBC\TechnicalName $technicalName
      */
     private $technicalName = null;
 
@@ -147,7 +147,7 @@ class HazardousItemType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\CategoryName $categoryName
+     * @var \App\UBL\Common\CBC\CategoryName $categoryName
      */
     private $categoryName = null;
 
@@ -162,7 +162,7 @@ class HazardousItemType
      *  Code. Type
      *  Hazardous material class code
      *
-     * @var \UBL\Common\CBC\HazardousCategoryCode $hazardousCategoryCode
+     * @var \App\UBL\Common\CBC\HazardousCategoryCode $hazardousCategoryCode
      */
     private $hazardousCategoryCode = null;
 
@@ -178,7 +178,7 @@ class HazardousItemType
      *  Identifier. Type
      *  Hazard identification number (upper part)
      *
-     * @var \UBL\Common\CBC\UpperOrangeHazardPlacardID $upperOrangeHazardPlacardID
+     * @var \App\UBL\Common\CBC\UpperOrangeHazardPlacardID $upperOrangeHazardPlacardID
      */
     private $upperOrangeHazardPlacardID = null;
 
@@ -194,7 +194,7 @@ class HazardousItemType
      *  Identifier. Type
      *  Substance identification number (lower part)
      *
-     * @var \UBL\Common\CBC\LowerOrangeHazardPlacardID $lowerOrangeHazardPlacardID
+     * @var \App\UBL\Common\CBC\LowerOrangeHazardPlacardID $lowerOrangeHazardPlacardID
      */
     private $lowerOrangeHazardPlacardID = null;
 
@@ -209,7 +209,7 @@ class HazardousItemType
      *  Identifier. Type
      *  Dangerous goods label marking
      *
-     * @var \UBL\Common\CBC\MarkingID $markingID
+     * @var \App\UBL\Common\CBC\MarkingID $markingID
      */
     private $markingID = null;
 
@@ -224,7 +224,7 @@ class HazardousItemType
      *  Identifier. Type
      *  IMDG Class Number, ADR/RID Class Number
      *
-     * @var \UBL\Common\CBC\HazardClassID $hazardClassID
+     * @var \App\UBL\Common\CBC\HazardClassID $hazardClassID
      */
     private $hazardClassID = null;
 
@@ -239,7 +239,7 @@ class HazardousItemType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
+     * @var \App\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
      */
     private $netWeightMeasure = null;
 
@@ -254,7 +254,7 @@ class HazardousItemType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
+     * @var \App\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
      */
     private $netVolumeMeasure = null;
 
@@ -268,7 +268,7 @@ class HazardousItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -283,7 +283,7 @@ class HazardousItemType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\ContactParty $contactParty
+     * @var \App\UBL\Common\CAC\ContactParty $contactParty
      */
     private $contactParty = null;
 
@@ -297,7 +297,7 @@ class HazardousItemType
      *  Secondary Hazard
      *  Secondary Hazard
      *
-     * @var \UBL\Common\CAC\SecondaryHazard[] $secondaryHazard
+     * @var \App\UBL\Common\CAC\SecondaryHazard[] $secondaryHazard
      */
     private $secondaryHazard = [
         
@@ -313,7 +313,7 @@ class HazardousItemType
      *  Hazardous Goods Transit
      *  Hazardous Goods Transit
      *
-     * @var \UBL\Common\CAC\HazardousGoodsTransit[] $hazardousGoodsTransit
+     * @var \App\UBL\Common\CAC\HazardousGoodsTransit[] $hazardousGoodsTransit
      */
     private $hazardousGoodsTransit = [
         
@@ -330,7 +330,7 @@ class HazardousItemType
      *  Temperature
      *  Temperature
      *
-     * @var \UBL\Common\CAC\EmergencyTemperature $emergencyTemperature
+     * @var \App\UBL\Common\CAC\EmergencyTemperature $emergencyTemperature
      */
     private $emergencyTemperature = null;
 
@@ -345,7 +345,7 @@ class HazardousItemType
      *  Temperature
      *  Temperature
      *
-     * @var \UBL\Common\CAC\FlashpointTemperature $flashpointTemperature
+     * @var \App\UBL\Common\CAC\FlashpointTemperature $flashpointTemperature
      */
     private $flashpointTemperature = null;
 
@@ -360,7 +360,7 @@ class HazardousItemType
      *  Temperature
      *  Temperature
      *
-     * @var \UBL\Common\CAC\AdditionalTemperature[] $additionalTemperature
+     * @var \App\UBL\Common\CAC\AdditionalTemperature[] $additionalTemperature
      */
     private $additionalTemperature = [
         
@@ -379,7 +379,7 @@ class HazardousItemType
      *  Identifier. Type
      *  Round Up
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -399,10 +399,10 @@ class HazardousItemType
      *  Identifier. Type
      *  Round Up
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -421,7 +421,7 @@ class HazardousItemType
      *  Text. Type
      *  5.1
      *
-     * @return \UBL\Common\CBC\PlacardNotation
+     * @return \App\UBL\Common\CBC\PlacardNotation
      */
     public function getPlacardNotation()
     {
@@ -441,10 +441,10 @@ class HazardousItemType
      *  Text. Type
      *  5.1
      *
-     * @param \UBL\Common\CBC\PlacardNotation $placardNotation
+     * @param \App\UBL\Common\CBC\PlacardNotation $placardNotation
      * @return self
      */
-    public function setPlacardNotation(?\UBL\Common\CBC\PlacardNotation $placardNotation = null)
+    public function setPlacardNotation(?\App\UBL\Common\CBC\PlacardNotation $placardNotation = null)
     {
         $this->placardNotation = $placardNotation;
         return $this;
@@ -463,7 +463,7 @@ class HazardousItemType
      *  Text. Type
      *  2
      *
-     * @return \UBL\Common\CBC\PlacardEndorsement
+     * @return \App\UBL\Common\CBC\PlacardEndorsement
      */
     public function getPlacardEndorsement()
     {
@@ -483,10 +483,10 @@ class HazardousItemType
      *  Text. Type
      *  2
      *
-     * @param \UBL\Common\CBC\PlacardEndorsement $placardEndorsement
+     * @param \App\UBL\Common\CBC\PlacardEndorsement $placardEndorsement
      * @return self
      */
-    public function setPlacardEndorsement(?\UBL\Common\CBC\PlacardEndorsement $placardEndorsement = null)
+    public function setPlacardEndorsement(?\App\UBL\Common\CBC\PlacardEndorsement $placardEndorsement = null)
     {
         $this->placardEndorsement = $placardEndorsement;
         return $this;
@@ -507,9 +507,9 @@ class HazardousItemType
      *  Must be stored away from flammable materials N.O.S. or a Waste Characteristics Code in conjunction with an EPA Waste Stream code
      *
      * @return self
-     * @param \UBL\Common\CBC\AdditionalInformation $additionalInformation
+     * @param \App\UBL\Common\CBC\AdditionalInformation $additionalInformation
      */
-    public function addToAdditionalInformation(\UBL\Common\CBC\AdditionalInformation $additionalInformation)
+    public function addToAdditionalInformation(\App\UBL\Common\CBC\AdditionalInformation $additionalInformation)
     {
         $this->additionalInformation[] = $additionalInformation;
         return $this;
@@ -573,7 +573,7 @@ class HazardousItemType
      *  Text. Type
      *  Must be stored away from flammable materials N.O.S. or a Waste Characteristics Code in conjunction with an EPA Waste Stream code
      *
-     * @return \UBL\Common\CBC\AdditionalInformation[]
+     * @return \App\UBL\Common\CBC\AdditionalInformation[]
      */
     public function getAdditionalInformation()
     {
@@ -594,7 +594,7 @@ class HazardousItemType
      *  Text. Type
      *  Must be stored away from flammable materials N.O.S. or a Waste Characteristics Code in conjunction with an EPA Waste Stream code
      *
-     * @param \UBL\Common\CBC\AdditionalInformation[] $additionalInformation
+     * @param \App\UBL\Common\CBC\AdditionalInformation[] $additionalInformation
      * @return self
      */
     public function setAdditionalInformation(?array $additionalInformation = null)
@@ -616,7 +616,7 @@ class HazardousItemType
      *  Code. Type
      *  UN Code
      *
-     * @return \UBL\Common\CBC\UNDGCode
+     * @return \App\UBL\Common\CBC\UNDGCode
      */
     public function getUNDGCode()
     {
@@ -636,10 +636,10 @@ class HazardousItemType
      *  Code. Type
      *  UN Code
      *
-     * @param \UBL\Common\CBC\UNDGCode $uNDGCode
+     * @param \App\UBL\Common\CBC\UNDGCode $uNDGCode
      * @return self
      */
-    public function setUNDGCode(?\UBL\Common\CBC\UNDGCode $uNDGCode = null)
+    public function setUNDGCode(?\App\UBL\Common\CBC\UNDGCode $uNDGCode = null)
     {
         $this->uNDGCode = $uNDGCode;
         return $this;
@@ -658,7 +658,7 @@ class HazardousItemType
      *  Code. Type
      *  EMG code, EMS Page Number
      *
-     * @return \UBL\Common\CBC\EmergencyProceduresCode
+     * @return \App\UBL\Common\CBC\EmergencyProceduresCode
      */
     public function getEmergencyProceduresCode()
     {
@@ -678,10 +678,10 @@ class HazardousItemType
      *  Code. Type
      *  EMG code, EMS Page Number
      *
-     * @param \UBL\Common\CBC\EmergencyProceduresCode $emergencyProceduresCode
+     * @param \App\UBL\Common\CBC\EmergencyProceduresCode $emergencyProceduresCode
      * @return self
      */
-    public function setEmergencyProceduresCode(?\UBL\Common\CBC\EmergencyProceduresCode $emergencyProceduresCode = null)
+    public function setEmergencyProceduresCode(?\App\UBL\Common\CBC\EmergencyProceduresCode $emergencyProceduresCode = null)
     {
         $this->emergencyProceduresCode = $emergencyProceduresCode;
         return $this;
@@ -700,7 +700,7 @@ class HazardousItemType
      *  Code. Type
      *  MFAG page number
      *
-     * @return \UBL\Common\CBC\MedicalFirstAidGuideCode
+     * @return \App\UBL\Common\CBC\MedicalFirstAidGuideCode
      */
     public function getMedicalFirstAidGuideCode()
     {
@@ -720,10 +720,10 @@ class HazardousItemType
      *  Code. Type
      *  MFAG page number
      *
-     * @param \UBL\Common\CBC\MedicalFirstAidGuideCode $medicalFirstAidGuideCode
+     * @param \App\UBL\Common\CBC\MedicalFirstAidGuideCode $medicalFirstAidGuideCode
      * @return self
      */
-    public function setMedicalFirstAidGuideCode(?\UBL\Common\CBC\MedicalFirstAidGuideCode $medicalFirstAidGuideCode = null)
+    public function setMedicalFirstAidGuideCode(?\App\UBL\Common\CBC\MedicalFirstAidGuideCode $medicalFirstAidGuideCode = null)
     {
         $this->medicalFirstAidGuideCode = $medicalFirstAidGuideCode;
         return $this;
@@ -743,7 +743,7 @@ class HazardousItemType
      *  Name. Type
      *  Granular Sodium Chlorate WeedKiller
      *
-     * @return \UBL\Common\CBC\TechnicalName
+     * @return \App\UBL\Common\CBC\TechnicalName
      */
     public function getTechnicalName()
     {
@@ -764,10 +764,10 @@ class HazardousItemType
      *  Name. Type
      *  Granular Sodium Chlorate WeedKiller
      *
-     * @param \UBL\Common\CBC\TechnicalName $technicalName
+     * @param \App\UBL\Common\CBC\TechnicalName $technicalName
      * @return self
      */
-    public function setTechnicalName(?\UBL\Common\CBC\TechnicalName $technicalName = null)
+    public function setTechnicalName(?\App\UBL\Common\CBC\TechnicalName $technicalName = null)
     {
         $this->technicalName = $technicalName;
         return $this;
@@ -785,7 +785,7 @@ class HazardousItemType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\CategoryName
+     * @return \App\UBL\Common\CBC\CategoryName
      */
     public function getCategoryName()
     {
@@ -804,10 +804,10 @@ class HazardousItemType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\CategoryName $categoryName
+     * @param \App\UBL\Common\CBC\CategoryName $categoryName
      * @return self
      */
-    public function setCategoryName(?\UBL\Common\CBC\CategoryName $categoryName = null)
+    public function setCategoryName(?\App\UBL\Common\CBC\CategoryName $categoryName = null)
     {
         $this->categoryName = $categoryName;
         return $this;
@@ -826,7 +826,7 @@ class HazardousItemType
      *  Code. Type
      *  Hazardous material class code
      *
-     * @return \UBL\Common\CBC\HazardousCategoryCode
+     * @return \App\UBL\Common\CBC\HazardousCategoryCode
      */
     public function getHazardousCategoryCode()
     {
@@ -846,10 +846,10 @@ class HazardousItemType
      *  Code. Type
      *  Hazardous material class code
      *
-     * @param \UBL\Common\CBC\HazardousCategoryCode $hazardousCategoryCode
+     * @param \App\UBL\Common\CBC\HazardousCategoryCode $hazardousCategoryCode
      * @return self
      */
-    public function setHazardousCategoryCode(?\UBL\Common\CBC\HazardousCategoryCode $hazardousCategoryCode = null)
+    public function setHazardousCategoryCode(?\App\UBL\Common\CBC\HazardousCategoryCode $hazardousCategoryCode = null)
     {
         $this->hazardousCategoryCode = $hazardousCategoryCode;
         return $this;
@@ -869,7 +869,7 @@ class HazardousItemType
      *  Identifier. Type
      *  Hazard identification number (upper part)
      *
-     * @return \UBL\Common\CBC\UpperOrangeHazardPlacardID
+     * @return \App\UBL\Common\CBC\UpperOrangeHazardPlacardID
      */
     public function getUpperOrangeHazardPlacardID()
     {
@@ -890,10 +890,10 @@ class HazardousItemType
      *  Identifier. Type
      *  Hazard identification number (upper part)
      *
-     * @param \UBL\Common\CBC\UpperOrangeHazardPlacardID $upperOrangeHazardPlacardID
+     * @param \App\UBL\Common\CBC\UpperOrangeHazardPlacardID $upperOrangeHazardPlacardID
      * @return self
      */
-    public function setUpperOrangeHazardPlacardID(?\UBL\Common\CBC\UpperOrangeHazardPlacardID $upperOrangeHazardPlacardID = null)
+    public function setUpperOrangeHazardPlacardID(?\App\UBL\Common\CBC\UpperOrangeHazardPlacardID $upperOrangeHazardPlacardID = null)
     {
         $this->upperOrangeHazardPlacardID = $upperOrangeHazardPlacardID;
         return $this;
@@ -913,7 +913,7 @@ class HazardousItemType
      *  Identifier. Type
      *  Substance identification number (lower part)
      *
-     * @return \UBL\Common\CBC\LowerOrangeHazardPlacardID
+     * @return \App\UBL\Common\CBC\LowerOrangeHazardPlacardID
      */
     public function getLowerOrangeHazardPlacardID()
     {
@@ -934,10 +934,10 @@ class HazardousItemType
      *  Identifier. Type
      *  Substance identification number (lower part)
      *
-     * @param \UBL\Common\CBC\LowerOrangeHazardPlacardID $lowerOrangeHazardPlacardID
+     * @param \App\UBL\Common\CBC\LowerOrangeHazardPlacardID $lowerOrangeHazardPlacardID
      * @return self
      */
-    public function setLowerOrangeHazardPlacardID(?\UBL\Common\CBC\LowerOrangeHazardPlacardID $lowerOrangeHazardPlacardID = null)
+    public function setLowerOrangeHazardPlacardID(?\App\UBL\Common\CBC\LowerOrangeHazardPlacardID $lowerOrangeHazardPlacardID = null)
     {
         $this->lowerOrangeHazardPlacardID = $lowerOrangeHazardPlacardID;
         return $this;
@@ -956,7 +956,7 @@ class HazardousItemType
      *  Identifier. Type
      *  Dangerous goods label marking
      *
-     * @return \UBL\Common\CBC\MarkingID
+     * @return \App\UBL\Common\CBC\MarkingID
      */
     public function getMarkingID()
     {
@@ -976,10 +976,10 @@ class HazardousItemType
      *  Identifier. Type
      *  Dangerous goods label marking
      *
-     * @param \UBL\Common\CBC\MarkingID $markingID
+     * @param \App\UBL\Common\CBC\MarkingID $markingID
      * @return self
      */
-    public function setMarkingID(?\UBL\Common\CBC\MarkingID $markingID = null)
+    public function setMarkingID(?\App\UBL\Common\CBC\MarkingID $markingID = null)
     {
         $this->markingID = $markingID;
         return $this;
@@ -998,7 +998,7 @@ class HazardousItemType
      *  Identifier. Type
      *  IMDG Class Number, ADR/RID Class Number
      *
-     * @return \UBL\Common\CBC\HazardClassID
+     * @return \App\UBL\Common\CBC\HazardClassID
      */
     public function getHazardClassID()
     {
@@ -1018,10 +1018,10 @@ class HazardousItemType
      *  Identifier. Type
      *  IMDG Class Number, ADR/RID Class Number
      *
-     * @param \UBL\Common\CBC\HazardClassID $hazardClassID
+     * @param \App\UBL\Common\CBC\HazardClassID $hazardClassID
      * @return self
      */
-    public function setHazardClassID(?\UBL\Common\CBC\HazardClassID $hazardClassID = null)
+    public function setHazardClassID(?\App\UBL\Common\CBC\HazardClassID $hazardClassID = null)
     {
         $this->hazardClassID = $hazardClassID;
         return $this;
@@ -1040,7 +1040,7 @@ class HazardousItemType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\NetWeightMeasure
+     * @return \App\UBL\Common\CBC\NetWeightMeasure
      */
     public function getNetWeightMeasure()
     {
@@ -1060,10 +1060,10 @@ class HazardousItemType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
+     * @param \App\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
      * @return self
      */
-    public function setNetWeightMeasure(?\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure = null)
+    public function setNetWeightMeasure(?\App\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure = null)
     {
         $this->netWeightMeasure = $netWeightMeasure;
         return $this;
@@ -1082,7 +1082,7 @@ class HazardousItemType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\NetVolumeMeasure
+     * @return \App\UBL\Common\CBC\NetVolumeMeasure
      */
     public function getNetVolumeMeasure()
     {
@@ -1102,10 +1102,10 @@ class HazardousItemType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
+     * @param \App\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
      * @return self
      */
-    public function setNetVolumeMeasure(?\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure = null)
+    public function setNetVolumeMeasure(?\App\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure = null)
     {
         $this->netVolumeMeasure = $netVolumeMeasure;
         return $this;
@@ -1123,7 +1123,7 @@ class HazardousItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -1142,10 +1142,10 @@ class HazardousItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
@@ -1164,7 +1164,7 @@ class HazardousItemType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\ContactParty
+     * @return \App\UBL\Common\CAC\ContactParty
      */
     public function getContactParty()
     {
@@ -1184,10 +1184,10 @@ class HazardousItemType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\ContactParty $contactParty
+     * @param \App\UBL\Common\CAC\ContactParty $contactParty
      * @return self
      */
-    public function setContactParty(?\UBL\Common\CAC\ContactParty $contactParty = null)
+    public function setContactParty(?\App\UBL\Common\CAC\ContactParty $contactParty = null)
     {
         $this->contactParty = $contactParty;
         return $this;
@@ -1206,9 +1206,9 @@ class HazardousItemType
      *  Secondary Hazard
      *
      * @return self
-     * @param \UBL\Common\CAC\SecondaryHazard $secondaryHazard
+     * @param \App\UBL\Common\CAC\SecondaryHazard $secondaryHazard
      */
-    public function addToSecondaryHazard(\UBL\Common\CAC\SecondaryHazard $secondaryHazard)
+    public function addToSecondaryHazard(\App\UBL\Common\CAC\SecondaryHazard $secondaryHazard)
     {
         $this->secondaryHazard[] = $secondaryHazard;
         return $this;
@@ -1266,7 +1266,7 @@ class HazardousItemType
      *  Secondary Hazard
      *  Secondary Hazard
      *
-     * @return \UBL\Common\CAC\SecondaryHazard[]
+     * @return \App\UBL\Common\CAC\SecondaryHazard[]
      */
     public function getSecondaryHazard()
     {
@@ -1285,7 +1285,7 @@ class HazardousItemType
      *  Secondary Hazard
      *  Secondary Hazard
      *
-     * @param \UBL\Common\CAC\SecondaryHazard[] $secondaryHazard
+     * @param \App\UBL\Common\CAC\SecondaryHazard[] $secondaryHazard
      * @return self
      */
     public function setSecondaryHazard(?array $secondaryHazard = null)
@@ -1307,9 +1307,9 @@ class HazardousItemType
      *  Hazardous Goods Transit
      *
      * @return self
-     * @param \UBL\Common\CAC\HazardousGoodsTransit $hazardousGoodsTransit
+     * @param \App\UBL\Common\CAC\HazardousGoodsTransit $hazardousGoodsTransit
      */
-    public function addToHazardousGoodsTransit(\UBL\Common\CAC\HazardousGoodsTransit $hazardousGoodsTransit)
+    public function addToHazardousGoodsTransit(\App\UBL\Common\CAC\HazardousGoodsTransit $hazardousGoodsTransit)
     {
         $this->hazardousGoodsTransit[] = $hazardousGoodsTransit;
         return $this;
@@ -1367,7 +1367,7 @@ class HazardousItemType
      *  Hazardous Goods Transit
      *  Hazardous Goods Transit
      *
-     * @return \UBL\Common\CAC\HazardousGoodsTransit[]
+     * @return \App\UBL\Common\CAC\HazardousGoodsTransit[]
      */
     public function getHazardousGoodsTransit()
     {
@@ -1386,7 +1386,7 @@ class HazardousItemType
      *  Hazardous Goods Transit
      *  Hazardous Goods Transit
      *
-     * @param \UBL\Common\CAC\HazardousGoodsTransit[] $hazardousGoodsTransit
+     * @param \App\UBL\Common\CAC\HazardousGoodsTransit[] $hazardousGoodsTransit
      * @return self
      */
     public function setHazardousGoodsTransit(?array $hazardousGoodsTransit = null)
@@ -1408,7 +1408,7 @@ class HazardousItemType
      *  Temperature
      *  Temperature
      *
-     * @return \UBL\Common\CAC\EmergencyTemperature
+     * @return \App\UBL\Common\CAC\EmergencyTemperature
      */
     public function getEmergencyTemperature()
     {
@@ -1428,10 +1428,10 @@ class HazardousItemType
      *  Temperature
      *  Temperature
      *
-     * @param \UBL\Common\CAC\EmergencyTemperature $emergencyTemperature
+     * @param \App\UBL\Common\CAC\EmergencyTemperature $emergencyTemperature
      * @return self
      */
-    public function setEmergencyTemperature(?\UBL\Common\CAC\EmergencyTemperature $emergencyTemperature = null)
+    public function setEmergencyTemperature(?\App\UBL\Common\CAC\EmergencyTemperature $emergencyTemperature = null)
     {
         $this->emergencyTemperature = $emergencyTemperature;
         return $this;
@@ -1450,7 +1450,7 @@ class HazardousItemType
      *  Temperature
      *  Temperature
      *
-     * @return \UBL\Common\CAC\FlashpointTemperature
+     * @return \App\UBL\Common\CAC\FlashpointTemperature
      */
     public function getFlashpointTemperature()
     {
@@ -1470,10 +1470,10 @@ class HazardousItemType
      *  Temperature
      *  Temperature
      *
-     * @param \UBL\Common\CAC\FlashpointTemperature $flashpointTemperature
+     * @param \App\UBL\Common\CAC\FlashpointTemperature $flashpointTemperature
      * @return self
      */
-    public function setFlashpointTemperature(?\UBL\Common\CAC\FlashpointTemperature $flashpointTemperature = null)
+    public function setFlashpointTemperature(?\App\UBL\Common\CAC\FlashpointTemperature $flashpointTemperature = null)
     {
         $this->flashpointTemperature = $flashpointTemperature;
         return $this;
@@ -1493,9 +1493,9 @@ class HazardousItemType
      *  Temperature
      *
      * @return self
-     * @param \UBL\Common\CAC\AdditionalTemperature $additionalTemperature
+     * @param \App\UBL\Common\CAC\AdditionalTemperature $additionalTemperature
      */
-    public function addToAdditionalTemperature(\UBL\Common\CAC\AdditionalTemperature $additionalTemperature)
+    public function addToAdditionalTemperature(\App\UBL\Common\CAC\AdditionalTemperature $additionalTemperature)
     {
         $this->additionalTemperature[] = $additionalTemperature;
         return $this;
@@ -1556,7 +1556,7 @@ class HazardousItemType
      *  Temperature
      *  Temperature
      *
-     * @return \UBL\Common\CAC\AdditionalTemperature[]
+     * @return \App\UBL\Common\CAC\AdditionalTemperature[]
      */
     public function getAdditionalTemperature()
     {
@@ -1576,7 +1576,7 @@ class HazardousItemType
      *  Temperature
      *  Temperature
      *
-     * @param \UBL\Common\CAC\AdditionalTemperature[] $additionalTemperature
+     * @param \App\UBL\Common\CAC\AdditionalTemperature[] $additionalTemperature
      * @return self
      */
     public function setAdditionalTemperature(?array $additionalTemperature = null)
@@ -1585,5 +1585,4 @@ class HazardousItemType
         return $this;
     }
 }
-
 

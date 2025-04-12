@@ -9,4 +9,3 @@ class OrderTypeCode extends OrderTypeCodeType
 {
 }
 
-

@@ -9,4 +9,3 @@ class AttributeCertificateRefs extends CompleteCertificateRefsType
 {
 }
 
-

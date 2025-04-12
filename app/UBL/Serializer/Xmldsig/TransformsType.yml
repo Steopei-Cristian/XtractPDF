@@ -1,4 +1,4 @@
-UBL\Xmldsig\TransformsType:
+App\UBL\Xmldsig\TransformsType:
     properties:
         transform:
             expose: true
@@ -13,4 +13,4 @@ UBL\Xmldsig\TransformsType:
                 inline: true
                 entry_name: Transform
                 namespace: 'http://www.w3.org/2000/09/xmldsig#'
-            type: array<UBL\Xmldsig\Transform>
+            type: array<App\UBL\Xmldsig\Transform>

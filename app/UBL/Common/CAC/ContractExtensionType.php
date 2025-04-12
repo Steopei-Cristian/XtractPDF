@@ -23,7 +23,7 @@ class ContractExtensionType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\OptionsDescription[] $optionsDescription
+     * @var \App\UBL\Common\CBC\OptionsDescription[] $optionsDescription
      */
     private $optionsDescription = [
         
@@ -40,7 +40,7 @@ class ContractExtensionType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\MinimumNumberNumeric $minimumNumberNumeric
+     * @var \App\UBL\Common\CBC\MinimumNumberNumeric $minimumNumberNumeric
      */
     private $minimumNumberNumeric = null;
 
@@ -55,7 +55,7 @@ class ContractExtensionType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\MaximumNumberNumeric $maximumNumberNumeric
+     * @var \App\UBL\Common\CBC\MaximumNumberNumeric $maximumNumberNumeric
      */
     private $maximumNumberNumeric = null;
 
@@ -70,7 +70,7 @@ class ContractExtensionType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\OptionValidityPeriod $optionValidityPeriod
+     * @var \App\UBL\Common\CAC\OptionValidityPeriod $optionValidityPeriod
      */
     private $optionValidityPeriod = null;
 
@@ -84,7 +84,7 @@ class ContractExtensionType
      *  Renewal
      *  Renewal
      *
-     * @var \UBL\Common\CAC\Renewal[] $renewal
+     * @var \App\UBL\Common\CAC\Renewal[] $renewal
      */
     private $renewal = [
         
@@ -103,9 +103,9 @@ class ContractExtensionType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\OptionsDescription $optionsDescription
+     * @param \App\UBL\Common\CBC\OptionsDescription $optionsDescription
      */
-    public function addToOptionsDescription(\UBL\Common\CBC\OptionsDescription $optionsDescription)
+    public function addToOptionsDescription(\App\UBL\Common\CBC\OptionsDescription $optionsDescription)
     {
         $this->optionsDescription[] = $optionsDescription;
         return $this;
@@ -163,7 +163,7 @@ class ContractExtensionType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\OptionsDescription[]
+     * @return \App\UBL\Common\CBC\OptionsDescription[]
      */
     public function getOptionsDescription()
     {
@@ -182,7 +182,7 @@ class ContractExtensionType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\OptionsDescription[] $optionsDescription
+     * @param \App\UBL\Common\CBC\OptionsDescription[] $optionsDescription
      * @return self
      */
     public function setOptionsDescription(?array $optionsDescription = null)
@@ -204,7 +204,7 @@ class ContractExtensionType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\MinimumNumberNumeric
+     * @return \App\UBL\Common\CBC\MinimumNumberNumeric
      */
     public function getMinimumNumberNumeric()
     {
@@ -224,10 +224,10 @@ class ContractExtensionType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\MinimumNumberNumeric $minimumNumberNumeric
+     * @param \App\UBL\Common\CBC\MinimumNumberNumeric $minimumNumberNumeric
      * @return self
      */
-    public function setMinimumNumberNumeric(?\UBL\Common\CBC\MinimumNumberNumeric $minimumNumberNumeric = null)
+    public function setMinimumNumberNumeric(?\App\UBL\Common\CBC\MinimumNumberNumeric $minimumNumberNumeric = null)
     {
         $this->minimumNumberNumeric = $minimumNumberNumeric;
         return $this;
@@ -246,7 +246,7 @@ class ContractExtensionType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\MaximumNumberNumeric
+     * @return \App\UBL\Common\CBC\MaximumNumberNumeric
      */
     public function getMaximumNumberNumeric()
     {
@@ -266,10 +266,10 @@ class ContractExtensionType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\MaximumNumberNumeric $maximumNumberNumeric
+     * @param \App\UBL\Common\CBC\MaximumNumberNumeric $maximumNumberNumeric
      * @return self
      */
-    public function setMaximumNumberNumeric(?\UBL\Common\CBC\MaximumNumberNumeric $maximumNumberNumeric = null)
+    public function setMaximumNumberNumeric(?\App\UBL\Common\CBC\MaximumNumberNumeric $maximumNumberNumeric = null)
     {
         $this->maximumNumberNumeric = $maximumNumberNumeric;
         return $this;
@@ -288,7 +288,7 @@ class ContractExtensionType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\OptionValidityPeriod
+     * @return \App\UBL\Common\CAC\OptionValidityPeriod
      */
     public function getOptionValidityPeriod()
     {
@@ -308,10 +308,10 @@ class ContractExtensionType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\OptionValidityPeriod $optionValidityPeriod
+     * @param \App\UBL\Common\CAC\OptionValidityPeriod $optionValidityPeriod
      * @return self
      */
-    public function setOptionValidityPeriod(?\UBL\Common\CAC\OptionValidityPeriod $optionValidityPeriod = null)
+    public function setOptionValidityPeriod(?\App\UBL\Common\CAC\OptionValidityPeriod $optionValidityPeriod = null)
     {
         $this->optionValidityPeriod = $optionValidityPeriod;
         return $this;
@@ -330,9 +330,9 @@ class ContractExtensionType
      *  Renewal
      *
      * @return self
-     * @param \UBL\Common\CAC\Renewal $renewal
+     * @param \App\UBL\Common\CAC\Renewal $renewal
      */
-    public function addToRenewal(\UBL\Common\CAC\Renewal $renewal)
+    public function addToRenewal(\App\UBL\Common\CAC\Renewal $renewal)
     {
         $this->renewal[] = $renewal;
         return $this;
@@ -390,7 +390,7 @@ class ContractExtensionType
      *  Renewal
      *  Renewal
      *
-     * @return \UBL\Common\CAC\Renewal[]
+     * @return \App\UBL\Common\CAC\Renewal[]
      */
     public function getRenewal()
     {
@@ -409,7 +409,7 @@ class ContractExtensionType
      *  Renewal
      *  Renewal
      *
-     * @param \UBL\Common\CAC\Renewal[] $renewal
+     * @param \App\UBL\Common\CAC\Renewal[] $renewal
      * @return self
      */
     public function setRenewal(?array $renewal = null)
@@ -418,5 +418,4 @@ class ContractExtensionType
         return $this;
     }
 }
-
 

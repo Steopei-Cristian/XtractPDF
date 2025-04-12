@@ -9,4 +9,3 @@ class VarianceQuantity extends VarianceQuantityType
 {
 }
 
-

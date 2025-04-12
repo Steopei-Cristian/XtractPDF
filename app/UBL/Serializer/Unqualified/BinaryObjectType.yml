@@ -1,4 +1,4 @@
-UBL\Unqualified\BinaryObjectType:
+App\UBL\Unqualified\BinaryObjectType:
     properties:
         mimeCode:
             expose: true

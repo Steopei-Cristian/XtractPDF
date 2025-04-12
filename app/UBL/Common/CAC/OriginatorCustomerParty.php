@@ -9,4 +9,3 @@ class OriginatorCustomerParty extends CustomerPartyType
 {
 }
 
-

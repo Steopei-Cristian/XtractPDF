@@ -23,7 +23,7 @@ class SalesItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -37,7 +37,7 @@ class SalesItemType
      *  Activity Property
      *  Activity Property
      *
-     * @var \UBL\Common\CAC\ActivityProperty[] $activityProperty
+     * @var \App\UBL\Common\CAC\ActivityProperty[] $activityProperty
      */
     private $activityProperty = [
         
@@ -54,7 +54,7 @@ class SalesItemType
      *  Price
      *  Price
      *
-     * @var \UBL\Common\CAC\TaxExclusivePrice[] $taxExclusivePrice
+     * @var \App\UBL\Common\CAC\TaxExclusivePrice[] $taxExclusivePrice
      */
     private $taxExclusivePrice = [
         
@@ -71,7 +71,7 @@ class SalesItemType
      *  Price
      *  Price
      *
-     * @var \UBL\Common\CAC\TaxInclusivePrice[] $taxInclusivePrice
+     * @var \App\UBL\Common\CAC\TaxInclusivePrice[] $taxInclusivePrice
      */
     private $taxInclusivePrice = [
         
@@ -87,7 +87,7 @@ class SalesItemType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item $item
+     * @var \App\UBL\Common\CAC\Item $item
      */
     private $item = null;
 
@@ -103,7 +103,7 @@ class SalesItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -122,10 +122,10 @@ class SalesItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(\UBL\Common\CBC\Quantity $quantity)
+    public function setQuantity(\App\UBL\Common\CBC\Quantity $quantity)
     {
         $this->quantity = $quantity;
         return $this;
@@ -144,9 +144,9 @@ class SalesItemType
      *  Activity Property
      *
      * @return self
-     * @param \UBL\Common\CAC\ActivityProperty $activityProperty
+     * @param \App\UBL\Common\CAC\ActivityProperty $activityProperty
      */
-    public function addToActivityProperty(\UBL\Common\CAC\ActivityProperty $activityProperty)
+    public function addToActivityProperty(\App\UBL\Common\CAC\ActivityProperty $activityProperty)
     {
         $this->activityProperty[] = $activityProperty;
         return $this;
@@ -204,7 +204,7 @@ class SalesItemType
      *  Activity Property
      *  Activity Property
      *
-     * @return \UBL\Common\CAC\ActivityProperty[]
+     * @return \App\UBL\Common\CAC\ActivityProperty[]
      */
     public function getActivityProperty()
     {
@@ -223,7 +223,7 @@ class SalesItemType
      *  Activity Property
      *  Activity Property
      *
-     * @param \UBL\Common\CAC\ActivityProperty[] $activityProperty
+     * @param \App\UBL\Common\CAC\ActivityProperty[] $activityProperty
      * @return self
      */
     public function setActivityProperty(?array $activityProperty = null)
@@ -246,9 +246,9 @@ class SalesItemType
      *  Price
      *
      * @return self
-     * @param \UBL\Common\CAC\TaxExclusivePrice $taxExclusivePrice
+     * @param \App\UBL\Common\CAC\TaxExclusivePrice $taxExclusivePrice
      */
-    public function addToTaxExclusivePrice(\UBL\Common\CAC\TaxExclusivePrice $taxExclusivePrice)
+    public function addToTaxExclusivePrice(\App\UBL\Common\CAC\TaxExclusivePrice $taxExclusivePrice)
     {
         $this->taxExclusivePrice[] = $taxExclusivePrice;
         return $this;
@@ -309,7 +309,7 @@ class SalesItemType
      *  Price
      *  Price
      *
-     * @return \UBL\Common\CAC\TaxExclusivePrice[]
+     * @return \App\UBL\Common\CAC\TaxExclusivePrice[]
      */
     public function getTaxExclusivePrice()
     {
@@ -329,7 +329,7 @@ class SalesItemType
      *  Price
      *  Price
      *
-     * @param \UBL\Common\CAC\TaxExclusivePrice[] $taxExclusivePrice
+     * @param \App\UBL\Common\CAC\TaxExclusivePrice[] $taxExclusivePrice
      * @return self
      */
     public function setTaxExclusivePrice(?array $taxExclusivePrice = null)
@@ -352,9 +352,9 @@ class SalesItemType
      *  Price
      *
      * @return self
-     * @param \UBL\Common\CAC\TaxInclusivePrice $taxInclusivePrice
+     * @param \App\UBL\Common\CAC\TaxInclusivePrice $taxInclusivePrice
      */
-    public function addToTaxInclusivePrice(\UBL\Common\CAC\TaxInclusivePrice $taxInclusivePrice)
+    public function addToTaxInclusivePrice(\App\UBL\Common\CAC\TaxInclusivePrice $taxInclusivePrice)
     {
         $this->taxInclusivePrice[] = $taxInclusivePrice;
         return $this;
@@ -415,7 +415,7 @@ class SalesItemType
      *  Price
      *  Price
      *
-     * @return \UBL\Common\CAC\TaxInclusivePrice[]
+     * @return \App\UBL\Common\CAC\TaxInclusivePrice[]
      */
     public function getTaxInclusivePrice()
     {
@@ -435,7 +435,7 @@ class SalesItemType
      *  Price
      *  Price
      *
-     * @param \UBL\Common\CAC\TaxInclusivePrice[] $taxInclusivePrice
+     * @param \App\UBL\Common\CAC\TaxInclusivePrice[] $taxInclusivePrice
      * @return self
      */
     public function setTaxInclusivePrice(?array $taxInclusivePrice = null)
@@ -456,7 +456,7 @@ class SalesItemType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item
+     * @return \App\UBL\Common\CAC\Item
      */
     public function getItem()
     {
@@ -475,14 +475,13 @@ class SalesItemType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      * @return self
      */
-    public function setItem(\UBL\Common\CAC\Item $item)
+    public function setItem(\App\UBL\Common\CAC\Item $item)
     {
         $this->item = $item;
         return $this;
     }
 }
-
 

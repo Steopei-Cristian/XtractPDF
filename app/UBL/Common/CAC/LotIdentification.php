@@ -9,4 +9,3 @@ class LotIdentification extends LotIdentificationType
 {
 }
 
-

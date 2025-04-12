@@ -9,4 +9,3 @@ class SignatureProductionPlace extends SignatureProductionPlaceType
 {
 }
 
-

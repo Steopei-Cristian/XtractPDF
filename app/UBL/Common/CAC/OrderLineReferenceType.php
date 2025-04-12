@@ -23,7 +23,7 @@ class OrderLineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\LineID $lineID
+     * @var \App\UBL\Common\CBC\LineID $lineID
      */
     private $lineID = null;
 
@@ -38,7 +38,7 @@ class OrderLineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\SalesOrderLineID $salesOrderLineID
+     * @var \App\UBL\Common\CBC\SalesOrderLineID $salesOrderLineID
      */
     private $salesOrderLineID = null;
 
@@ -52,7 +52,7 @@ class OrderLineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -67,7 +67,7 @@ class OrderLineReferenceType
      *  Line Status
      *  Line Status_ Code. Type
      *
-     * @var \UBL\Common\CBC\LineStatusCode $lineStatusCode
+     * @var \App\UBL\Common\CBC\LineStatusCode $lineStatusCode
      */
     private $lineStatusCode = null;
 
@@ -81,7 +81,7 @@ class OrderLineReferenceType
      *  Order Reference
      *  Order Reference
      *
-     * @var \UBL\Common\CAC\OrderReference $orderReference
+     * @var \App\UBL\Common\CAC\OrderReference $orderReference
      */
     private $orderReference = null;
 
@@ -97,7 +97,7 @@ class OrderLineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\LineID
+     * @return \App\UBL\Common\CBC\LineID
      */
     public function getLineID()
     {
@@ -116,10 +116,10 @@ class OrderLineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\LineID $lineID
+     * @param \App\UBL\Common\CBC\LineID $lineID
      * @return self
      */
-    public function setLineID(\UBL\Common\CBC\LineID $lineID)
+    public function setLineID(\App\UBL\Common\CBC\LineID $lineID)
     {
         $this->lineID = $lineID;
         return $this;
@@ -138,7 +138,7 @@ class OrderLineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\SalesOrderLineID
+     * @return \App\UBL\Common\CBC\SalesOrderLineID
      */
     public function getSalesOrderLineID()
     {
@@ -158,10 +158,10 @@ class OrderLineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\SalesOrderLineID $salesOrderLineID
+     * @param \App\UBL\Common\CBC\SalesOrderLineID $salesOrderLineID
      * @return self
      */
-    public function setSalesOrderLineID(?\UBL\Common\CBC\SalesOrderLineID $salesOrderLineID = null)
+    public function setSalesOrderLineID(?\App\UBL\Common\CBC\SalesOrderLineID $salesOrderLineID = null)
     {
         $this->salesOrderLineID = $salesOrderLineID;
         return $this;
@@ -179,7 +179,7 @@ class OrderLineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -198,10 +198,10 @@ class OrderLineReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -220,7 +220,7 @@ class OrderLineReferenceType
      *  Line Status
      *  Line Status_ Code. Type
      *
-     * @return \UBL\Common\CBC\LineStatusCode
+     * @return \App\UBL\Common\CBC\LineStatusCode
      */
     public function getLineStatusCode()
     {
@@ -240,10 +240,10 @@ class OrderLineReferenceType
      *  Line Status
      *  Line Status_ Code. Type
      *
-     * @param \UBL\Common\CBC\LineStatusCode $lineStatusCode
+     * @param \App\UBL\Common\CBC\LineStatusCode $lineStatusCode
      * @return self
      */
-    public function setLineStatusCode(?\UBL\Common\CBC\LineStatusCode $lineStatusCode = null)
+    public function setLineStatusCode(?\App\UBL\Common\CBC\LineStatusCode $lineStatusCode = null)
     {
         $this->lineStatusCode = $lineStatusCode;
         return $this;
@@ -261,7 +261,7 @@ class OrderLineReferenceType
      *  Order Reference
      *  Order Reference
      *
-     * @return \UBL\Common\CAC\OrderReference
+     * @return \App\UBL\Common\CAC\OrderReference
      */
     public function getOrderReference()
     {
@@ -280,14 +280,13 @@ class OrderLineReferenceType
      *  Order Reference
      *  Order Reference
      *
-     * @param \UBL\Common\CAC\OrderReference $orderReference
+     * @param \App\UBL\Common\CAC\OrderReference $orderReference
      * @return self
      */
-    public function setOrderReference(?\UBL\Common\CAC\OrderReference $orderReference = null)
+    public function setOrderReference(?\App\UBL\Common\CAC\OrderReference $orderReference = null)
     {
         $this->orderReference = $orderReference;
         return $this;
     }
 }
-
 

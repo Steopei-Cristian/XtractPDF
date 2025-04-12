@@ -9,4 +9,3 @@ class NoticeDocumentReference extends DocumentReferenceType
 {
 }
 
-

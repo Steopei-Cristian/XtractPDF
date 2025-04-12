@@ -1,4 +1,4 @@
-UBL\Common\CAC\InvoiceLineType:
+App\UBL\Common\CAC\InvoiceLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\InvoiceLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         uUID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\InvoiceLineType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         note:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\InvoiceLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         invoicedQuantity:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\InvoiceLineType:
             accessor:
                 getter: getInvoicedQuantity
                 setter: setInvoicedQuantity
-            type: UBL\Common\CBC\InvoicedQuantity
+            type: App\UBL\Common\CBC\InvoicedQuantity
         lineExtensionAmount:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\InvoiceLineType:
             accessor:
                 getter: getLineExtensionAmount
                 setter: setLineExtensionAmount
-            type: UBL\Common\CBC\LineExtensionAmount
+            type: App\UBL\Common\CBC\LineExtensionAmount
         taxPointDate:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\InvoiceLineType:
             accessor:
                 getter: getAccountingCostCode
                 setter: setAccountingCostCode
-            type: UBL\Common\CBC\AccountingCostCode
+            type: App\UBL\Common\CBC\AccountingCostCode
         accountingCost:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\InvoiceLineType:
             accessor:
                 getter: getAccountingCost
                 setter: setAccountingCost
-            type: UBL\Common\CBC\AccountingCost
+            type: App\UBL\Common\CBC\AccountingCost
         paymentPurposeCode:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\InvoiceLineType:
             accessor:
                 getter: getPaymentPurposeCode
                 setter: setPaymentPurposeCode
-            type: UBL\Common\CBC\PaymentPurposeCode
+            type: App\UBL\Common\CBC\PaymentPurposeCode
         freeOfChargeIndicator:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ UBL\Common\CAC\InvoiceLineType:
                 inline: true
                 entry_name: InvoicePeriod
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\InvoicePeriod>
+            type: array<App\UBL\Common\CAC\InvoicePeriod>
         orderLineReference:
             expose: true
             access_type: public_method
@@ -131,7 +131,7 @@ UBL\Common\CAC\InvoiceLineType:
                 inline: true
                 entry_name: OrderLineReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\OrderLineReference>
+            type: array<App\UBL\Common\CAC\OrderLineReference>
         despatchLineReference:
             expose: true
             access_type: public_method
@@ -145,7 +145,7 @@ UBL\Common\CAC\InvoiceLineType:
                 inline: true
                 entry_name: DespatchLineReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DespatchLineReference>
+            type: array<App\UBL\Common\CAC\DespatchLineReference>
         receiptLineReference:
             expose: true
             access_type: public_method
@@ -159,7 +159,7 @@ UBL\Common\CAC\InvoiceLineType:
                 inline: true
                 entry_name: ReceiptLineReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ReceiptLineReference>
+            type: array<App\UBL\Common\CAC\ReceiptLineReference>
         billingReference:
             expose: true
             access_type: public_method
@@ -173,7 +173,7 @@ UBL\Common\CAC\InvoiceLineType:
                 inline: true
                 entry_name: BillingReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\BillingReference>
+            type: array<App\UBL\Common\CAC\BillingReference>
         documentReference:
             expose: true
             access_type: public_method
@@ -187,7 +187,7 @@ UBL\Common\CAC\InvoiceLineType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>
         pricingReference:
             expose: true
             access_type: public_method
@@ -197,7 +197,7 @@ UBL\Common\CAC\InvoiceLineType:
             accessor:
                 getter: getPricingReference
                 setter: setPricingReference
-            type: UBL\Common\CAC\PricingReference
+            type: App\UBL\Common\CAC\PricingReference
         originatorParty:
             expose: true
             access_type: public_method
@@ -207,7 +207,7 @@ UBL\Common\CAC\InvoiceLineType:
             accessor:
                 getter: getOriginatorParty
                 setter: setOriginatorParty
-            type: UBL\Common\CAC\OriginatorParty
+            type: App\UBL\Common\CAC\OriginatorParty
         delivery:
             expose: true
             access_type: public_method
@@ -221,7 +221,7 @@ UBL\Common\CAC\InvoiceLineType:
                 inline: true
                 entry_name: Delivery
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Delivery>
+            type: array<App\UBL\Common\CAC\Delivery>
         paymentTerms:
             expose: true
             access_type: public_method
@@ -235,7 +235,7 @@ UBL\Common\CAC\InvoiceLineType:
                 inline: true
                 entry_name: PaymentTerms
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PaymentTerms>
+            type: array<App\UBL\Common\CAC\PaymentTerms>
         allowanceCharge:
             expose: true
             access_type: public_method
@@ -249,7 +249,7 @@ UBL\Common\CAC\InvoiceLineType:
                 inline: true
                 entry_name: AllowanceCharge
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AllowanceCharge>
+            type: array<App\UBL\Common\CAC\AllowanceCharge>
         taxTotal:
             expose: true
             access_type: public_method
@@ -263,7 +263,7 @@ UBL\Common\CAC\InvoiceLineType:
                 inline: true
                 entry_name: TaxTotal
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TaxTotal>
+            type: array<App\UBL\Common\CAC\TaxTotal>
         withholdingTaxTotal:
             expose: true
             access_type: public_method
@@ -277,7 +277,7 @@ UBL\Common\CAC\InvoiceLineType:
                 inline: true
                 entry_name: WithholdingTaxTotal
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\WithholdingTaxTotal>
+            type: array<App\UBL\Common\CAC\WithholdingTaxTotal>
         item:
             expose: true
             access_type: public_method
@@ -287,7 +287,7 @@ UBL\Common\CAC\InvoiceLineType:
             accessor:
                 getter: getItem
                 setter: setItem
-            type: UBL\Common\CAC\Item
+            type: App\UBL\Common\CAC\Item
         price:
             expose: true
             access_type: public_method
@@ -297,7 +297,7 @@ UBL\Common\CAC\InvoiceLineType:
             accessor:
                 getter: getPrice
                 setter: setPrice
-            type: UBL\Common\CAC\Price
+            type: App\UBL\Common\CAC\Price
         deliveryTerms:
             expose: true
             access_type: public_method
@@ -307,7 +307,7 @@ UBL\Common\CAC\InvoiceLineType:
             accessor:
                 getter: getDeliveryTerms
                 setter: setDeliveryTerms
-            type: UBL\Common\CAC\DeliveryTerms
+            type: App\UBL\Common\CAC\DeliveryTerms
         subInvoiceLine:
             expose: true
             access_type: public_method
@@ -321,7 +321,7 @@ UBL\Common\CAC\InvoiceLineType:
                 inline: true
                 entry_name: SubInvoiceLine
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SubInvoiceLine>
+            type: array<App\UBL\Common\CAC\SubInvoiceLine>
         itemPriceExtension:
             expose: true
             access_type: public_method
@@ -331,4 +331,4 @@ UBL\Common\CAC\InvoiceLineType:
             accessor:
                 getter: getItemPriceExtension
                 setter: setItemPriceExtension
-            type: UBL\Common\CAC\ItemPriceExtension
+            type: App\UBL\Common\CAC\ItemPriceExtension

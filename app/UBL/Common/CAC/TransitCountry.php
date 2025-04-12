@@ -9,4 +9,3 @@ class TransitCountry extends CountryType
 {
 }
 
-

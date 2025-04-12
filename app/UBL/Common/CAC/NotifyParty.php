@@ -9,4 +9,3 @@ class NotifyParty extends PartyType
 {
 }
 
-

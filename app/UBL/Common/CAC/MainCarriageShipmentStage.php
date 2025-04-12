@@ -9,4 +9,3 @@ class MainCarriageShipmentStage extends ShipmentStageType
 {
 }
 
-

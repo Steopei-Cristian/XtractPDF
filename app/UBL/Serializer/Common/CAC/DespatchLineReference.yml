@@ -1,3 +1,3 @@
-UBL\Common\CAC\DespatchLineReference:
+App\UBL\Common\CAC\DespatchLineReference:
     xml_root_name: DespatchLineReference
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

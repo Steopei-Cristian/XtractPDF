@@ -9,4 +9,3 @@ class Country extends CountryType
 {
 }
 
-

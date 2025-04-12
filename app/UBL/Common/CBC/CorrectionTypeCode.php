@@ -9,4 +9,3 @@ class CorrectionTypeCode extends CorrectionTypeCodeType
 {
 }
 
-

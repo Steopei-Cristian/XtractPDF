@@ -2,7 +2,7 @@
 
 namespace App\UBL\Unqualified;
 
-use UBL\CCTS\AmountType as AmountTypeBase;
+use App\UBL\CCTS\AmountType as AmountTypeBase;
 
 /**
  * Class representing AmountType
@@ -74,5 +74,4 @@ class AmountType extends AmountTypeBase
         return $this;
     }
 }
-
 

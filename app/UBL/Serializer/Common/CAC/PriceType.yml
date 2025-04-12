@@ -1,4 +1,4 @@
-UBL\Common\CAC\PriceType:
+App\UBL\Common\CAC\PriceType:
     properties:
         priceAmount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PriceType:
             accessor:
                 getter: getPriceAmount
                 setter: setPriceAmount
-            type: UBL\Common\CBC\PriceAmount
+            type: App\UBL\Common\CBC\PriceAmount
         baseQuantity:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\PriceType:
             accessor:
                 getter: getBaseQuantity
                 setter: setBaseQuantity
-            type: UBL\Common\CBC\BaseQuantity
+            type: App\UBL\Common\CBC\BaseQuantity
         priceChangeReason:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\PriceType:
                 inline: true
                 entry_name: PriceChangeReason
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\PriceChangeReason>
+            type: array<App\UBL\Common\CBC\PriceChangeReason>
         priceTypeCode:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\PriceType:
             accessor:
                 getter: getPriceTypeCode
                 setter: setPriceTypeCode
-            type: UBL\Common\CBC\PriceTypeCode
+            type: App\UBL\Common\CBC\PriceTypeCode
         priceType:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\PriceType:
             accessor:
                 getter: getPriceType
                 setter: setPriceType
-            type: UBL\Common\CBC\PriceType
+            type: App\UBL\Common\CBC\PriceType
         orderableUnitFactorRate:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\PriceType:
             accessor:
                 getter: getOrderableUnitFactorRate
                 setter: setOrderableUnitFactorRate
-            type: UBL\Common\CBC\OrderableUnitFactorRate
+            type: App\UBL\Common\CBC\OrderableUnitFactorRate
         validityPeriod:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\PriceType:
                 inline: true
                 entry_name: ValidityPeriod
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ValidityPeriod>
+            type: array<App\UBL\Common\CAC\ValidityPeriod>
         priceList:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\PriceType:
             accessor:
                 getter: getPriceList
                 setter: setPriceList
-            type: UBL\Common\CAC\PriceList
+            type: App\UBL\Common\CAC\PriceList
         allowanceCharge:
             expose: true
             access_type: public_method
@@ -101,7 +101,7 @@ UBL\Common\CAC\PriceType:
                 inline: true
                 entry_name: AllowanceCharge
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AllowanceCharge>
+            type: array<App\UBL\Common\CAC\AllowanceCharge>
         pricingExchangeRate:
             expose: true
             access_type: public_method
@@ -111,4 +111,4 @@ UBL\Common\CAC\PriceType:
             accessor:
                 getter: getPricingExchangeRate
                 setter: setPricingExchangeRate
-            type: UBL\Common\CAC\PricingExchangeRate
+            type: App\UBL\Common\CAC\PricingExchangeRate

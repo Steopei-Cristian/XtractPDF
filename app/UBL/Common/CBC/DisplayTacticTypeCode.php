@@ -9,4 +9,3 @@ class DisplayTacticTypeCode extends DisplayTacticTypeCodeType
 {
 }
 
-

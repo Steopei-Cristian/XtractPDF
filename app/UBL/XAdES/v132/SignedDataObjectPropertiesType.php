@@ -16,28 +16,28 @@ class SignedDataObjectPropertiesType
     private $id = null;
 
     /**
-     * @var \UBL\XAdES\v132\DataObjectFormatType[] $dataObjectFormat
+     * @var \App\UBL\XAdES\v132\DataObjectFormatType[] $dataObjectFormat
      */
     private $dataObjectFormat = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\CommitmentTypeIndicationType[] $commitmentTypeIndication
+     * @var \App\UBL\XAdES\v132\CommitmentTypeIndicationType[] $commitmentTypeIndication
      */
     private $commitmentTypeIndication = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\XAdESTimeStampType[] $allDataObjectsTimeStamp
+     * @var \App\UBL\XAdES\v132\XAdESTimeStampType[] $allDataObjectsTimeStamp
      */
     private $allDataObjectsTimeStamp = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\XAdESTimeStampType[] $individualDataObjectsTimeStamp
+     * @var \App\UBL\XAdES\v132\XAdESTimeStampType[] $individualDataObjectsTimeStamp
      */
     private $individualDataObjectsTimeStamp = [
         
@@ -69,9 +69,9 @@ class SignedDataObjectPropertiesType
      * Adds as dataObjectFormat
      *
      * @return self
-     * @param \UBL\XAdES\v132\DataObjectFormatType $dataObjectFormat
+     * @param \App\UBL\XAdES\v132\DataObjectFormatType $dataObjectFormat
      */
-    public function addToDataObjectFormat(\UBL\XAdES\v132\DataObjectFormatType $dataObjectFormat)
+    public function addToDataObjectFormat(\App\UBL\XAdES\v132\DataObjectFormatType $dataObjectFormat)
     {
         $this->dataObjectFormat[] = $dataObjectFormat;
         return $this;
@@ -102,7 +102,7 @@ class SignedDataObjectPropertiesType
     /**
      * Gets as dataObjectFormat
      *
-     * @return \UBL\XAdES\v132\DataObjectFormatType[]
+     * @return \App\UBL\XAdES\v132\DataObjectFormatType[]
      */
     public function getDataObjectFormat()
     {
@@ -112,7 +112,7 @@ class SignedDataObjectPropertiesType
     /**
      * Sets a new dataObjectFormat
      *
-     * @param \UBL\XAdES\v132\DataObjectFormatType[] $dataObjectFormat
+     * @param \App\UBL\XAdES\v132\DataObjectFormatType[] $dataObjectFormat
      * @return self
      */
     public function setDataObjectFormat(?array $dataObjectFormat = null)
@@ -125,9 +125,9 @@ class SignedDataObjectPropertiesType
      * Adds as commitmentTypeIndication
      *
      * @return self
-     * @param \UBL\XAdES\v132\CommitmentTypeIndicationType $commitmentTypeIndication
+     * @param \App\UBL\XAdES\v132\CommitmentTypeIndicationType $commitmentTypeIndication
      */
-    public function addToCommitmentTypeIndication(\UBL\XAdES\v132\CommitmentTypeIndicationType $commitmentTypeIndication)
+    public function addToCommitmentTypeIndication(\App\UBL\XAdES\v132\CommitmentTypeIndicationType $commitmentTypeIndication)
     {
         $this->commitmentTypeIndication[] = $commitmentTypeIndication;
         return $this;
@@ -158,7 +158,7 @@ class SignedDataObjectPropertiesType
     /**
      * Gets as commitmentTypeIndication
      *
-     * @return \UBL\XAdES\v132\CommitmentTypeIndicationType[]
+     * @return \App\UBL\XAdES\v132\CommitmentTypeIndicationType[]
      */
     public function getCommitmentTypeIndication()
     {
@@ -168,7 +168,7 @@ class SignedDataObjectPropertiesType
     /**
      * Sets a new commitmentTypeIndication
      *
-     * @param \UBL\XAdES\v132\CommitmentTypeIndicationType[] $commitmentTypeIndication
+     * @param \App\UBL\XAdES\v132\CommitmentTypeIndicationType[] $commitmentTypeIndication
      * @return self
      */
     public function setCommitmentTypeIndication(?array $commitmentTypeIndication = null)
@@ -181,9 +181,9 @@ class SignedDataObjectPropertiesType
      * Adds as allDataObjectsTimeStamp
      *
      * @return self
-     * @param \UBL\XAdES\v132\XAdESTimeStampType $allDataObjectsTimeStamp
+     * @param \App\UBL\XAdES\v132\XAdESTimeStampType $allDataObjectsTimeStamp
      */
-    public function addToAllDataObjectsTimeStamp(\UBL\XAdES\v132\XAdESTimeStampType $allDataObjectsTimeStamp)
+    public function addToAllDataObjectsTimeStamp(\App\UBL\XAdES\v132\XAdESTimeStampType $allDataObjectsTimeStamp)
     {
         $this->allDataObjectsTimeStamp[] = $allDataObjectsTimeStamp;
         return $this;
@@ -214,7 +214,7 @@ class SignedDataObjectPropertiesType
     /**
      * Gets as allDataObjectsTimeStamp
      *
-     * @return \UBL\XAdES\v132\XAdESTimeStampType[]
+     * @return \App\UBL\XAdES\v132\XAdESTimeStampType[]
      */
     public function getAllDataObjectsTimeStamp()
     {
@@ -224,7 +224,7 @@ class SignedDataObjectPropertiesType
     /**
      * Sets a new allDataObjectsTimeStamp
      *
-     * @param \UBL\XAdES\v132\XAdESTimeStampType[] $allDataObjectsTimeStamp
+     * @param \App\UBL\XAdES\v132\XAdESTimeStampType[] $allDataObjectsTimeStamp
      * @return self
      */
     public function setAllDataObjectsTimeStamp(?array $allDataObjectsTimeStamp = null)
@@ -237,9 +237,9 @@ class SignedDataObjectPropertiesType
      * Adds as individualDataObjectsTimeStamp
      *
      * @return self
-     * @param \UBL\XAdES\v132\XAdESTimeStampType $individualDataObjectsTimeStamp
+     * @param \App\UBL\XAdES\v132\XAdESTimeStampType $individualDataObjectsTimeStamp
      */
-    public function addToIndividualDataObjectsTimeStamp(\UBL\XAdES\v132\XAdESTimeStampType $individualDataObjectsTimeStamp)
+    public function addToIndividualDataObjectsTimeStamp(\App\UBL\XAdES\v132\XAdESTimeStampType $individualDataObjectsTimeStamp)
     {
         $this->individualDataObjectsTimeStamp[] = $individualDataObjectsTimeStamp;
         return $this;
@@ -270,7 +270,7 @@ class SignedDataObjectPropertiesType
     /**
      * Gets as individualDataObjectsTimeStamp
      *
-     * @return \UBL\XAdES\v132\XAdESTimeStampType[]
+     * @return \App\UBL\XAdES\v132\XAdESTimeStampType[]
      */
     public function getIndividualDataObjectsTimeStamp()
     {
@@ -280,7 +280,7 @@ class SignedDataObjectPropertiesType
     /**
      * Sets a new individualDataObjectsTimeStamp
      *
-     * @param \UBL\XAdES\v132\XAdESTimeStampType[] $individualDataObjectsTimeStamp
+     * @param \App\UBL\XAdES\v132\XAdESTimeStampType[] $individualDataObjectsTimeStamp
      * @return self
      */
     public function setIndividualDataObjectsTimeStamp(?array $individualDataObjectsTimeStamp = null)
@@ -289,5 +289,4 @@ class SignedDataObjectPropertiesType
         return $this;
     }
 }
-
 

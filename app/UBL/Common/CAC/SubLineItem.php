@@ -9,4 +9,3 @@ class SubLineItem extends LineItemType
 {
 }
 
-

@@ -9,4 +9,3 @@ class RequestedLanguage extends LanguageType
 {
 }
 
-

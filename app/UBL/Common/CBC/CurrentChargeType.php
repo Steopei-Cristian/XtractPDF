@@ -9,4 +9,3 @@ class CurrentChargeType extends CurrentChargeTypeType
 {
 }
 
-

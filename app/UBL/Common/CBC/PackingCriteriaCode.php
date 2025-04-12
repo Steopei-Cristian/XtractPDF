@@ -9,4 +9,3 @@ class PackingCriteriaCode extends PackingCriteriaCodeType
 {
 }
 
-

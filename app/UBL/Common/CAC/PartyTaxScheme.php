@@ -9,4 +9,3 @@ class PartyTaxScheme extends PartyTaxSchemeType
 {
 }
 
-

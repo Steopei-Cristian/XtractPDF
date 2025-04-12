@@ -9,4 +9,3 @@ class FreightForwarderAssignedID extends FreightForwarderAssignedIDType
 {
 }
 
-

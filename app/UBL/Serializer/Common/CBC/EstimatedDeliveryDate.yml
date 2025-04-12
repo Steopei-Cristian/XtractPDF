@@ -1,4 +1,4 @@
-UBL\Common\CBC\EstimatedDeliveryDate:
+App\UBL\Common\CBC\EstimatedDeliveryDate:
     xml_root_name: EstimatedDeliveryDate
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

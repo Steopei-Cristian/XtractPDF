@@ -1,4 +1,4 @@
-UBL\Common\CAC\TransportEquipmentSealType:
+App\UBL\Common\CAC\TransportEquipmentSealType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TransportEquipmentSealType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         sealIssuerTypeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TransportEquipmentSealType:
             accessor:
                 getter: getSealIssuerTypeCode
                 setter: setSealIssuerTypeCode
-            type: UBL\Common\CBC\SealIssuerTypeCode
+            type: App\UBL\Common\CBC\SealIssuerTypeCode
         condition:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\TransportEquipmentSealType:
             accessor:
                 getter: getCondition
                 setter: setCondition
-            type: UBL\Common\CBC\Condition
+            type: App\UBL\Common\CBC\Condition
         sealStatusCode:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\TransportEquipmentSealType:
             accessor:
                 getter: getSealStatusCode
                 setter: setSealStatusCode
-            type: UBL\Common\CBC\SealStatusCode
+            type: App\UBL\Common\CBC\SealStatusCode
         sealingPartyType:
             expose: true
             access_type: public_method
@@ -49,4 +49,4 @@ UBL\Common\CAC\TransportEquipmentSealType:
             accessor:
                 getter: getSealingPartyType
                 setter: setSealingPartyType
-            type: UBL\Common\CBC\SealingPartyType
+            type: App\UBL\Common\CBC\SealingPartyType

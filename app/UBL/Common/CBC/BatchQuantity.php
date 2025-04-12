@@ -9,4 +9,3 @@ class BatchQuantity extends BatchQuantityType
 {
 }
 
-

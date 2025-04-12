@@ -1,4 +1,4 @@
-UBL\Common\CAC\PromotionalEventLineItemType:
+App\UBL\Common\CAC\PromotionalEventLineItemType:
     properties:
         amount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PromotionalEventLineItemType:
             accessor:
                 getter: getAmount
                 setter: setAmount
-            type: UBL\Common\CBC\Amount
+            type: App\UBL\Common\CBC\Amount
         eventLineItem:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ UBL\Common\CAC\PromotionalEventLineItemType:
             accessor:
                 getter: getEventLineItem
                 setter: setEventLineItem
-            type: UBL\Common\CAC\EventLineItem
+            type: App\UBL\Common\CAC\EventLineItem

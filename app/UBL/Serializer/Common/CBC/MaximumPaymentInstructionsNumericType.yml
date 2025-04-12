@@ -1,2 +1,2 @@
-UBL\Common\CBC\MaximumPaymentInstructionsNumericType:
+App\UBL\Common\CBC\MaximumPaymentInstructionsNumericType:
     properties: {  }

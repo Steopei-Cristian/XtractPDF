@@ -1,4 +1,4 @@
-UBL\XAdES\v132\SigPolicyQualifiersListType:
+App\UBL\XAdES\v132\SigPolicyQualifiersListType:
     properties:
         sigPolicyQualifier:
             expose: true
@@ -13,4 +13,4 @@ UBL\XAdES\v132\SigPolicyQualifiersListType:
                 inline: true
                 entry_name: SigPolicyQualifier
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\AnyType>
+            type: array<App\UBL\XAdES\v132\AnyType>

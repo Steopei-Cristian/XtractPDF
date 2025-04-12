@@ -9,4 +9,3 @@ class CataloguePricingUpdateLine extends CataloguePricingUpdateLineType
 {
 }
 
-

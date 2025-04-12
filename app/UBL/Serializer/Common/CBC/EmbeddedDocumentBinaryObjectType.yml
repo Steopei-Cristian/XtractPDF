@@ -1,2 +1,2 @@
-UBL\Common\CBC\EmbeddedDocumentBinaryObjectType:
+App\UBL\Common\CBC\EmbeddedDocumentBinaryObjectType:
     properties: {  }

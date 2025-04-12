@@ -1,3 +1,3 @@
-UBL\Common\CBC\BarcodeSymbologyID:
+App\UBL\Common\CBC\BarcodeSymbologyID:
     xml_root_name: BarcodeSymbologyID
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

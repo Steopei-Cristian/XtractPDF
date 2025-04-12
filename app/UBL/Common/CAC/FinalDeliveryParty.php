@@ -9,4 +9,3 @@ class FinalDeliveryParty extends PartyType
 {
 }
 
-

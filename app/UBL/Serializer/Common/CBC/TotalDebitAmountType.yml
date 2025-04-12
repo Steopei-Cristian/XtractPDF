@@ -1,2 +1,2 @@
-UBL\Common\CBC\TotalDebitAmountType:
+App\UBL\Common\CBC\TotalDebitAmountType:
     properties: {  }

@@ -1,4 +1,4 @@
-UBL\Common\CAC\BranchType:
+App\UBL\Common\CAC\BranchType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\BranchType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         name:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\BranchType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         financialInstitution:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\BranchType:
             accessor:
                 getter: getFinancialInstitution
                 setter: setFinancialInstitution
-            type: UBL\Common\CAC\FinancialInstitution
+            type: App\UBL\Common\CAC\FinancialInstitution
         address:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ UBL\Common\CAC\BranchType:
             accessor:
                 getter: getAddress
                 setter: setAddress
-            type: UBL\Common\CAC\Address
+            type: App\UBL\Common\CAC\Address

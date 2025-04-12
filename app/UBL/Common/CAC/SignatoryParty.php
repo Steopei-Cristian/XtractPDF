@@ -9,4 +9,3 @@ class SignatoryParty extends PartyType
 {
 }
 
-

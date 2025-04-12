@@ -9,4 +9,3 @@ class MinimumValue extends MinimumValueType
 {
 }
 
-

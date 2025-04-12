@@ -9,4 +9,3 @@ class SubcontractorParty extends PartyType
 {
 }
 
-

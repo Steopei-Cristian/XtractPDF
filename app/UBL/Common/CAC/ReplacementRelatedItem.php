@@ -9,4 +9,3 @@ class ReplacementRelatedItem extends RelatedItemType
 {
 }
 
-

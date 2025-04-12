@@ -1,4 +1,4 @@
-UBL\Common\CBC\SourceForecastIssueDate:
+App\UBL\Common\CBC\SourceForecastIssueDate:
     xml_root_name: SourceForecastIssueDate
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

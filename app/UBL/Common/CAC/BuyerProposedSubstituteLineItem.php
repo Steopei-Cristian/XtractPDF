@@ -9,4 +9,3 @@ class BuyerProposedSubstituteLineItem extends LineItemType
 {
 }
 
-

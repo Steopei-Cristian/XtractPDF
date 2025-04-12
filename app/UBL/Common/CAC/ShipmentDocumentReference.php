@@ -9,4 +9,3 @@ class ShipmentDocumentReference extends DocumentReferenceType
 {
 }
 
-

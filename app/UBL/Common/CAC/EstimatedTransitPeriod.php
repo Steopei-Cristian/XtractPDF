@@ -9,4 +9,3 @@ class EstimatedTransitPeriod extends PeriodType
 {
 }
 
-

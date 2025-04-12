@@ -9,4 +9,3 @@ class Renewal extends RenewalType
 {
 }
 
-

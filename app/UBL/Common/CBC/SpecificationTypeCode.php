@@ -9,4 +9,3 @@ class SpecificationTypeCode extends SpecificationTypeCodeType
 {
 }
 
-

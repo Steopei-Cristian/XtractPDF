@@ -24,7 +24,7 @@ class TransportationSegmentType
      *  Numeric. Type
      *  1, 2, 3, 4, etc.
      *
-     * @var \UBL\Common\CBC\SequenceNumeric $sequenceNumeric
+     * @var \App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric
      */
     private $sequenceNumeric = null;
 
@@ -38,7 +38,7 @@ class TransportationSegmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\TransportExecutionPlanReferenceID $transportExecutionPlanReferenceID
+     * @var \App\UBL\Common\CBC\TransportExecutionPlanReferenceID $transportExecutionPlanReferenceID
      */
     private $transportExecutionPlanReferenceID = null;
 
@@ -52,7 +52,7 @@ class TransportationSegmentType
      *  Transportation Service
      *  Transportation Service
      *
-     * @var \UBL\Common\CAC\TransportationService $transportationService
+     * @var \App\UBL\Common\CAC\TransportationService $transportationService
      */
     private $transportationService = null;
 
@@ -67,7 +67,7 @@ class TransportationSegmentType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\TransportServiceProviderParty $transportServiceProviderParty
+     * @var \App\UBL\Common\CAC\TransportServiceProviderParty $transportServiceProviderParty
      */
     private $transportServiceProviderParty = null;
 
@@ -82,7 +82,7 @@ class TransportationSegmentType
      *  Consignment
      *  Consignment
      *
-     * @var \UBL\Common\CAC\ReferencedConsignment $referencedConsignment
+     * @var \App\UBL\Common\CAC\ReferencedConsignment $referencedConsignment
      */
     private $referencedConsignment = null;
 
@@ -96,7 +96,7 @@ class TransportationSegmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @var \UBL\Common\CAC\ShipmentStage[] $shipmentStage
+     * @var \App\UBL\Common\CAC\ShipmentStage[] $shipmentStage
      */
     private $shipmentStage = [
         
@@ -115,7 +115,7 @@ class TransportationSegmentType
      *  Numeric. Type
      *  1, 2, 3, 4, etc.
      *
-     * @return \UBL\Common\CBC\SequenceNumeric
+     * @return \App\UBL\Common\CBC\SequenceNumeric
      */
     public function getSequenceNumeric()
     {
@@ -135,10 +135,10 @@ class TransportationSegmentType
      *  Numeric. Type
      *  1, 2, 3, 4, etc.
      *
-     * @param \UBL\Common\CBC\SequenceNumeric $sequenceNumeric
+     * @param \App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric
      * @return self
      */
-    public function setSequenceNumeric(\UBL\Common\CBC\SequenceNumeric $sequenceNumeric)
+    public function setSequenceNumeric(\App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric)
     {
         $this->sequenceNumeric = $sequenceNumeric;
         return $this;
@@ -156,7 +156,7 @@ class TransportationSegmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\TransportExecutionPlanReferenceID
+     * @return \App\UBL\Common\CBC\TransportExecutionPlanReferenceID
      */
     public function getTransportExecutionPlanReferenceID()
     {
@@ -175,10 +175,10 @@ class TransportationSegmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\TransportExecutionPlanReferenceID $transportExecutionPlanReferenceID
+     * @param \App\UBL\Common\CBC\TransportExecutionPlanReferenceID $transportExecutionPlanReferenceID
      * @return self
      */
-    public function setTransportExecutionPlanReferenceID(?\UBL\Common\CBC\TransportExecutionPlanReferenceID $transportExecutionPlanReferenceID = null)
+    public function setTransportExecutionPlanReferenceID(?\App\UBL\Common\CBC\TransportExecutionPlanReferenceID $transportExecutionPlanReferenceID = null)
     {
         $this->transportExecutionPlanReferenceID = $transportExecutionPlanReferenceID;
         return $this;
@@ -196,7 +196,7 @@ class TransportationSegmentType
      *  Transportation Service
      *  Transportation Service
      *
-     * @return \UBL\Common\CAC\TransportationService
+     * @return \App\UBL\Common\CAC\TransportationService
      */
     public function getTransportationService()
     {
@@ -215,10 +215,10 @@ class TransportationSegmentType
      *  Transportation Service
      *  Transportation Service
      *
-     * @param \UBL\Common\CAC\TransportationService $transportationService
+     * @param \App\UBL\Common\CAC\TransportationService $transportationService
      * @return self
      */
-    public function setTransportationService(\UBL\Common\CAC\TransportationService $transportationService)
+    public function setTransportationService(\App\UBL\Common\CAC\TransportationService $transportationService)
     {
         $this->transportationService = $transportationService;
         return $this;
@@ -237,7 +237,7 @@ class TransportationSegmentType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\TransportServiceProviderParty
+     * @return \App\UBL\Common\CAC\TransportServiceProviderParty
      */
     public function getTransportServiceProviderParty()
     {
@@ -257,10 +257,10 @@ class TransportationSegmentType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\TransportServiceProviderParty $transportServiceProviderParty
+     * @param \App\UBL\Common\CAC\TransportServiceProviderParty $transportServiceProviderParty
      * @return self
      */
-    public function setTransportServiceProviderParty(\UBL\Common\CAC\TransportServiceProviderParty $transportServiceProviderParty)
+    public function setTransportServiceProviderParty(\App\UBL\Common\CAC\TransportServiceProviderParty $transportServiceProviderParty)
     {
         $this->transportServiceProviderParty = $transportServiceProviderParty;
         return $this;
@@ -279,7 +279,7 @@ class TransportationSegmentType
      *  Consignment
      *  Consignment
      *
-     * @return \UBL\Common\CAC\ReferencedConsignment
+     * @return \App\UBL\Common\CAC\ReferencedConsignment
      */
     public function getReferencedConsignment()
     {
@@ -299,10 +299,10 @@ class TransportationSegmentType
      *  Consignment
      *  Consignment
      *
-     * @param \UBL\Common\CAC\ReferencedConsignment $referencedConsignment
+     * @param \App\UBL\Common\CAC\ReferencedConsignment $referencedConsignment
      * @return self
      */
-    public function setReferencedConsignment(?\UBL\Common\CAC\ReferencedConsignment $referencedConsignment = null)
+    public function setReferencedConsignment(?\App\UBL\Common\CAC\ReferencedConsignment $referencedConsignment = null)
     {
         $this->referencedConsignment = $referencedConsignment;
         return $this;
@@ -321,9 +321,9 @@ class TransportationSegmentType
      *  Shipment Stage
      *
      * @return self
-     * @param \UBL\Common\CAC\ShipmentStage $shipmentStage
+     * @param \App\UBL\Common\CAC\ShipmentStage $shipmentStage
      */
-    public function addToShipmentStage(\UBL\Common\CAC\ShipmentStage $shipmentStage)
+    public function addToShipmentStage(\App\UBL\Common\CAC\ShipmentStage $shipmentStage)
     {
         $this->shipmentStage[] = $shipmentStage;
         return $this;
@@ -381,7 +381,7 @@ class TransportationSegmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @return \UBL\Common\CAC\ShipmentStage[]
+     * @return \App\UBL\Common\CAC\ShipmentStage[]
      */
     public function getShipmentStage()
     {
@@ -400,7 +400,7 @@ class TransportationSegmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @param \UBL\Common\CAC\ShipmentStage[] $shipmentStage
+     * @param \App\UBL\Common\CAC\ShipmentStage[] $shipmentStage
      * @return self
      */
     public function setShipmentStage(?array $shipmentStage = null)
@@ -409,5 +409,4 @@ class TransportationSegmentType
         return $this;
     }
 }
-
 

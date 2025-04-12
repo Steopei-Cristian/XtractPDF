@@ -23,7 +23,7 @@ class TenderedProjectType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\VariantID $variantID
+     * @var \App\UBL\Common\CBC\VariantID $variantID
      */
     private $variantID = null;
 
@@ -37,7 +37,7 @@ class TenderedProjectType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\FeeAmount $feeAmount
+     * @var \App\UBL\Common\CBC\FeeAmount $feeAmount
      */
     private $feeAmount = null;
 
@@ -52,7 +52,7 @@ class TenderedProjectType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\FeeDescription[] $feeDescription
+     * @var \App\UBL\Common\CBC\FeeDescription[] $feeDescription
      */
     private $feeDescription = [
         
@@ -68,7 +68,7 @@ class TenderedProjectType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\TenderEnvelopeID $tenderEnvelopeID
+     * @var \App\UBL\Common\CBC\TenderEnvelopeID $tenderEnvelopeID
      */
     private $tenderEnvelopeID = null;
 
@@ -82,7 +82,7 @@ class TenderedProjectType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TenderEnvelopeTypeCode $tenderEnvelopeTypeCode
+     * @var \App\UBL\Common\CBC\TenderEnvelopeTypeCode $tenderEnvelopeTypeCode
      */
     private $tenderEnvelopeTypeCode = null;
 
@@ -96,7 +96,7 @@ class TenderedProjectType
      *  Procurement Project Lot
      *  Procurement Project Lot
      *
-     * @var \UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot
+     * @var \App\UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot
      */
     private $procurementProjectLot = null;
 
@@ -111,7 +111,7 @@ class TenderedProjectType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\EvidenceDocumentReference[] $evidenceDocumentReference
+     * @var \App\UBL\Common\CAC\EvidenceDocumentReference[] $evidenceDocumentReference
      */
     private $evidenceDocumentReference = [
         
@@ -127,7 +127,7 @@ class TenderedProjectType
      *  Tax Total
      *  Tax Total
      *
-     * @var \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @var \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      */
     private $taxTotal = [
         
@@ -144,7 +144,7 @@ class TenderedProjectType
      *  Monetary Total
      *  Monetary Total
      *
-     * @var \UBL\Common\CAC\LegalMonetaryTotal $legalMonetaryTotal
+     * @var \App\UBL\Common\CAC\LegalMonetaryTotal $legalMonetaryTotal
      */
     private $legalMonetaryTotal = null;
 
@@ -158,7 +158,7 @@ class TenderedProjectType
      *  Tender Line
      *  Tender Line
      *
-     * @var \UBL\Common\CAC\TenderLine[] $tenderLine
+     * @var \App\UBL\Common\CAC\TenderLine[] $tenderLine
      */
     private $tenderLine = [
         
@@ -174,7 +174,7 @@ class TenderedProjectType
      *  Awarding Criterion Response
      *  Awarding Criterion Response
      *
-     * @var \UBL\Common\CAC\AwardingCriterionResponse[] $awardingCriterionResponse
+     * @var \App\UBL\Common\CAC\AwardingCriterionResponse[] $awardingCriterionResponse
      */
     private $awardingCriterionResponse = [
         
@@ -192,7 +192,7 @@ class TenderedProjectType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\VariantID
+     * @return \App\UBL\Common\CBC\VariantID
      */
     public function getVariantID()
     {
@@ -211,10 +211,10 @@ class TenderedProjectType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\VariantID $variantID
+     * @param \App\UBL\Common\CBC\VariantID $variantID
      * @return self
      */
-    public function setVariantID(?\UBL\Common\CBC\VariantID $variantID = null)
+    public function setVariantID(?\App\UBL\Common\CBC\VariantID $variantID = null)
     {
         $this->variantID = $variantID;
         return $this;
@@ -232,7 +232,7 @@ class TenderedProjectType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\FeeAmount
+     * @return \App\UBL\Common\CBC\FeeAmount
      */
     public function getFeeAmount()
     {
@@ -251,10 +251,10 @@ class TenderedProjectType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\FeeAmount $feeAmount
+     * @param \App\UBL\Common\CBC\FeeAmount $feeAmount
      * @return self
      */
-    public function setFeeAmount(?\UBL\Common\CBC\FeeAmount $feeAmount = null)
+    public function setFeeAmount(?\App\UBL\Common\CBC\FeeAmount $feeAmount = null)
     {
         $this->feeAmount = $feeAmount;
         return $this;
@@ -274,9 +274,9 @@ class TenderedProjectType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\FeeDescription $feeDescription
+     * @param \App\UBL\Common\CBC\FeeDescription $feeDescription
      */
-    public function addToFeeDescription(\UBL\Common\CBC\FeeDescription $feeDescription)
+    public function addToFeeDescription(\App\UBL\Common\CBC\FeeDescription $feeDescription)
     {
         $this->feeDescription[] = $feeDescription;
         return $this;
@@ -337,7 +337,7 @@ class TenderedProjectType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\FeeDescription[]
+     * @return \App\UBL\Common\CBC\FeeDescription[]
      */
     public function getFeeDescription()
     {
@@ -357,7 +357,7 @@ class TenderedProjectType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\FeeDescription[] $feeDescription
+     * @param \App\UBL\Common\CBC\FeeDescription[] $feeDescription
      * @return self
      */
     public function setFeeDescription(?array $feeDescription = null)
@@ -378,7 +378,7 @@ class TenderedProjectType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\TenderEnvelopeID
+     * @return \App\UBL\Common\CBC\TenderEnvelopeID
      */
     public function getTenderEnvelopeID()
     {
@@ -397,10 +397,10 @@ class TenderedProjectType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\TenderEnvelopeID $tenderEnvelopeID
+     * @param \App\UBL\Common\CBC\TenderEnvelopeID $tenderEnvelopeID
      * @return self
      */
-    public function setTenderEnvelopeID(?\UBL\Common\CBC\TenderEnvelopeID $tenderEnvelopeID = null)
+    public function setTenderEnvelopeID(?\App\UBL\Common\CBC\TenderEnvelopeID $tenderEnvelopeID = null)
     {
         $this->tenderEnvelopeID = $tenderEnvelopeID;
         return $this;
@@ -418,7 +418,7 @@ class TenderedProjectType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TenderEnvelopeTypeCode
+     * @return \App\UBL\Common\CBC\TenderEnvelopeTypeCode
      */
     public function getTenderEnvelopeTypeCode()
     {
@@ -437,10 +437,10 @@ class TenderedProjectType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TenderEnvelopeTypeCode $tenderEnvelopeTypeCode
+     * @param \App\UBL\Common\CBC\TenderEnvelopeTypeCode $tenderEnvelopeTypeCode
      * @return self
      */
-    public function setTenderEnvelopeTypeCode(?\UBL\Common\CBC\TenderEnvelopeTypeCode $tenderEnvelopeTypeCode = null)
+    public function setTenderEnvelopeTypeCode(?\App\UBL\Common\CBC\TenderEnvelopeTypeCode $tenderEnvelopeTypeCode = null)
     {
         $this->tenderEnvelopeTypeCode = $tenderEnvelopeTypeCode;
         return $this;
@@ -458,7 +458,7 @@ class TenderedProjectType
      *  Procurement Project Lot
      *  Procurement Project Lot
      *
-     * @return \UBL\Common\CAC\ProcurementProjectLot
+     * @return \App\UBL\Common\CAC\ProcurementProjectLot
      */
     public function getProcurementProjectLot()
     {
@@ -477,10 +477,10 @@ class TenderedProjectType
      *  Procurement Project Lot
      *  Procurement Project Lot
      *
-     * @param \UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot
+     * @param \App\UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot
      * @return self
      */
-    public function setProcurementProjectLot(?\UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot = null)
+    public function setProcurementProjectLot(?\App\UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot = null)
     {
         $this->procurementProjectLot = $procurementProjectLot;
         return $this;
@@ -500,9 +500,9 @@ class TenderedProjectType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\EvidenceDocumentReference $evidenceDocumentReference
+     * @param \App\UBL\Common\CAC\EvidenceDocumentReference $evidenceDocumentReference
      */
-    public function addToEvidenceDocumentReference(\UBL\Common\CAC\EvidenceDocumentReference $evidenceDocumentReference)
+    public function addToEvidenceDocumentReference(\App\UBL\Common\CAC\EvidenceDocumentReference $evidenceDocumentReference)
     {
         $this->evidenceDocumentReference[] = $evidenceDocumentReference;
         return $this;
@@ -563,7 +563,7 @@ class TenderedProjectType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\EvidenceDocumentReference[]
+     * @return \App\UBL\Common\CAC\EvidenceDocumentReference[]
      */
     public function getEvidenceDocumentReference()
     {
@@ -583,7 +583,7 @@ class TenderedProjectType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\EvidenceDocumentReference[] $evidenceDocumentReference
+     * @param \App\UBL\Common\CAC\EvidenceDocumentReference[] $evidenceDocumentReference
      * @return self
      */
     public function setEvidenceDocumentReference(?array $evidenceDocumentReference = null)
@@ -605,9 +605,9 @@ class TenderedProjectType
      *  Tax Total
      *
      * @return self
-     * @param \UBL\Common\CAC\TaxTotal $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal $taxTotal
      */
-    public function addToTaxTotal(\UBL\Common\CAC\TaxTotal $taxTotal)
+    public function addToTaxTotal(\App\UBL\Common\CAC\TaxTotal $taxTotal)
     {
         $this->taxTotal[] = $taxTotal;
         return $this;
@@ -665,7 +665,7 @@ class TenderedProjectType
      *  Tax Total
      *  Tax Total
      *
-     * @return \UBL\Common\CAC\TaxTotal[]
+     * @return \App\UBL\Common\CAC\TaxTotal[]
      */
     public function getTaxTotal()
     {
@@ -684,7 +684,7 @@ class TenderedProjectType
      *  Tax Total
      *  Tax Total
      *
-     * @param \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      * @return self
      */
     public function setTaxTotal(?array $taxTotal = null)
@@ -706,7 +706,7 @@ class TenderedProjectType
      *  Monetary Total
      *  Monetary Total
      *
-     * @return \UBL\Common\CAC\LegalMonetaryTotal
+     * @return \App\UBL\Common\CAC\LegalMonetaryTotal
      */
     public function getLegalMonetaryTotal()
     {
@@ -726,10 +726,10 @@ class TenderedProjectType
      *  Monetary Total
      *  Monetary Total
      *
-     * @param \UBL\Common\CAC\LegalMonetaryTotal $legalMonetaryTotal
+     * @param \App\UBL\Common\CAC\LegalMonetaryTotal $legalMonetaryTotal
      * @return self
      */
-    public function setLegalMonetaryTotal(?\UBL\Common\CAC\LegalMonetaryTotal $legalMonetaryTotal = null)
+    public function setLegalMonetaryTotal(?\App\UBL\Common\CAC\LegalMonetaryTotal $legalMonetaryTotal = null)
     {
         $this->legalMonetaryTotal = $legalMonetaryTotal;
         return $this;
@@ -748,9 +748,9 @@ class TenderedProjectType
      *  Tender Line
      *
      * @return self
-     * @param \UBL\Common\CAC\TenderLine $tenderLine
+     * @param \App\UBL\Common\CAC\TenderLine $tenderLine
      */
-    public function addToTenderLine(\UBL\Common\CAC\TenderLine $tenderLine)
+    public function addToTenderLine(\App\UBL\Common\CAC\TenderLine $tenderLine)
     {
         $this->tenderLine[] = $tenderLine;
         return $this;
@@ -808,7 +808,7 @@ class TenderedProjectType
      *  Tender Line
      *  Tender Line
      *
-     * @return \UBL\Common\CAC\TenderLine[]
+     * @return \App\UBL\Common\CAC\TenderLine[]
      */
     public function getTenderLine()
     {
@@ -827,7 +827,7 @@ class TenderedProjectType
      *  Tender Line
      *  Tender Line
      *
-     * @param \UBL\Common\CAC\TenderLine[] $tenderLine
+     * @param \App\UBL\Common\CAC\TenderLine[] $tenderLine
      * @return self
      */
     public function setTenderLine(?array $tenderLine = null)
@@ -849,9 +849,9 @@ class TenderedProjectType
      *  Awarding Criterion Response
      *
      * @return self
-     * @param \UBL\Common\CAC\AwardingCriterionResponse $awardingCriterionResponse
+     * @param \App\UBL\Common\CAC\AwardingCriterionResponse $awardingCriterionResponse
      */
-    public function addToAwardingCriterionResponse(\UBL\Common\CAC\AwardingCriterionResponse $awardingCriterionResponse)
+    public function addToAwardingCriterionResponse(\App\UBL\Common\CAC\AwardingCriterionResponse $awardingCriterionResponse)
     {
         $this->awardingCriterionResponse[] = $awardingCriterionResponse;
         return $this;
@@ -909,7 +909,7 @@ class TenderedProjectType
      *  Awarding Criterion Response
      *  Awarding Criterion Response
      *
-     * @return \UBL\Common\CAC\AwardingCriterionResponse[]
+     * @return \App\UBL\Common\CAC\AwardingCriterionResponse[]
      */
     public function getAwardingCriterionResponse()
     {
@@ -928,7 +928,7 @@ class TenderedProjectType
      *  Awarding Criterion Response
      *  Awarding Criterion Response
      *
-     * @param \UBL\Common\CAC\AwardingCriterionResponse[] $awardingCriterionResponse
+     * @param \App\UBL\Common\CAC\AwardingCriterionResponse[] $awardingCriterionResponse
      * @return self
      */
     public function setAwardingCriterionResponse(?array $awardingCriterionResponse = null)
@@ -937,5 +937,4 @@ class TenderedProjectType
         return $this;
     }
 }
-
 

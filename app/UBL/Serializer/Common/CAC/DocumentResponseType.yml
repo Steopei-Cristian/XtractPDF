@@ -1,4 +1,4 @@
-UBL\Common\CAC\DocumentResponseType:
+App\UBL\Common\CAC\DocumentResponseType:
     properties:
         response:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\DocumentResponseType:
             accessor:
                 getter: getResponse
                 setter: setResponse
-            type: UBL\Common\CAC\Response
+            type: App\UBL\Common\CAC\Response
         documentReference:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\DocumentResponseType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>
         issuerParty:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\DocumentResponseType:
             accessor:
                 getter: getIssuerParty
                 setter: setIssuerParty
-            type: UBL\Common\CAC\IssuerParty
+            type: App\UBL\Common\CAC\IssuerParty
         recipientParty:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\DocumentResponseType:
             accessor:
                 getter: getRecipientParty
                 setter: setRecipientParty
-            type: UBL\Common\CAC\RecipientParty
+            type: App\UBL\Common\CAC\RecipientParty
         lineResponse:
             expose: true
             access_type: public_method
@@ -57,4 +57,4 @@ UBL\Common\CAC\DocumentResponseType:
                 inline: true
                 entry_name: LineResponse
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\LineResponse>
+            type: array<App\UBL\Common\CAC\LineResponse>

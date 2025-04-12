@@ -1,4 +1,4 @@
-UBL\Common\CBC\EarliestPickupTime:
+App\UBL\Common\CBC\EarliestPickupTime:
     xml_root_name: EarliestPickupTime
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

@@ -1,2 +1,2 @@
-UBL\Common\CBC\PrepaidAmountType:
+App\UBL\Common\CBC\PrepaidAmountType:
     properties: {  }

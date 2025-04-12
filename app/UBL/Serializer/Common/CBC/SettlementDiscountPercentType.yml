@@ -1,2 +1,2 @@
-UBL\Common\CBC\SettlementDiscountPercentType:
+App\UBL\Common\CBC\SettlementDiscountPercentType:
     properties: {  }

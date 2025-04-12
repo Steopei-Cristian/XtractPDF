@@ -9,4 +9,3 @@ class GoodsItem extends GoodsItemType
 {
 }
 
-

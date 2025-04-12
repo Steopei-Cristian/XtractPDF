@@ -1,2 +1,2 @@
-UBL\Common\CBC\ReceiptAdviceTypeCodeType:
+App\UBL\Common\CBC\ReceiptAdviceTypeCodeType:
     properties: {  }

@@ -9,4 +9,3 @@ class CV2ID extends CV2IDType
 {
 }
 
-

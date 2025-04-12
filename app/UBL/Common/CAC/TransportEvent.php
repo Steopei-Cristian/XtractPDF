@@ -9,4 +9,3 @@ class TransportEvent extends TransportEventType
 {
 }
 
-

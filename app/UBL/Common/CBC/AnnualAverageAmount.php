@@ -9,4 +9,3 @@ class AnnualAverageAmount extends AnnualAverageAmountType
 {
 }
 
-

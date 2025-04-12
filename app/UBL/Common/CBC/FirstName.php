@@ -9,4 +9,3 @@ class FirstName extends FirstNameType
 {
 }
 
-

@@ -9,4 +9,3 @@ class PartyIdentification extends PartyIdentificationType
 {
 }
 
-

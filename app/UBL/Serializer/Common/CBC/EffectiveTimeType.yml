@@ -1,4 +1,4 @@
-UBL\Common\CBC\EffectiveTimeType:
+App\UBL\Common\CBC\EffectiveTimeType:
     properties:
         __value:
             expose: true

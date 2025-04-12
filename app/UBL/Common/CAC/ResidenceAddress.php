@@ -9,4 +9,3 @@ class ResidenceAddress extends AddressType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ComponentRelatedItem extends RelatedItemType
 {
 }
 
-

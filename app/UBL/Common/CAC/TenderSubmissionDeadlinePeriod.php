@@ -9,4 +9,3 @@ class TenderSubmissionDeadlinePeriod extends PeriodType
 {
 }
 
-

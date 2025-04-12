@@ -24,7 +24,7 @@ class AddressType
      *  Identifier. Type
      *  DetailsKey
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class AddressType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\AddressTypeCode $addressTypeCode
+     * @var \App\UBL\Common\CBC\AddressTypeCode $addressTypeCode
      */
     private $addressTypeCode = null;
 
@@ -52,7 +52,7 @@ class AddressType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\AddressFormatCode $addressFormatCode
+     * @var \App\UBL\Common\CBC\AddressFormatCode $addressFormatCode
      */
     private $addressFormatCode = null;
 
@@ -68,7 +68,7 @@ class AddressType
      *  PostBox, PO Box
      *  123
      *
-     * @var \UBL\Common\CBC\Postbox $postbox
+     * @var \App\UBL\Common\CBC\Postbox $postbox
      */
     private $postbox = null;
 
@@ -84,7 +84,7 @@ class AddressType
      *  SubPremiseNumber
      *  30
      *
-     * @var \UBL\Common\CBC\Floor $floor
+     * @var \App\UBL\Common\CBC\Floor $floor
      */
     private $floor = null;
 
@@ -100,7 +100,7 @@ class AddressType
      *  SubPremiseNumber
      *  Reception
      *
-     * @var \UBL\Common\CBC\Room $room
+     * @var \App\UBL\Common\CBC\Room $room
      */
     private $room = null;
 
@@ -116,7 +116,7 @@ class AddressType
      *  Thoroughfare
      *  Kwun Tong Road
      *
-     * @var \UBL\Common\CBC\StreetName $streetName
+     * @var \App\UBL\Common\CBC\StreetName $streetName
      */
     private $streetName = null;
 
@@ -133,7 +133,7 @@ class AddressType
      *  Thoroughfare
      *  Cnr Aberdeen Road
      *
-     * @var \UBL\Common\CBC\AdditionalStreetName $additionalStreetName
+     * @var \App\UBL\Common\CBC\AdditionalStreetName $additionalStreetName
      */
     private $additionalStreetName = null;
 
@@ -148,7 +148,7 @@ class AddressType
      *  Name. Type
      *  Seabird
      *
-     * @var \UBL\Common\CBC\BlockName $blockName
+     * @var \App\UBL\Common\CBC\BlockName $blockName
      */
     private $blockName = null;
 
@@ -164,7 +164,7 @@ class AddressType
      *  BuildingName
      *  Plot 421
      *
-     * @var \UBL\Common\CBC\BuildingName $buildingName
+     * @var \App\UBL\Common\CBC\BuildingName $buildingName
      */
     private $buildingName = null;
 
@@ -180,7 +180,7 @@ class AddressType
      *  PremiseNumber
      *  388
      *
-     * @var \UBL\Common\CBC\BuildingNumber $buildingNumber
+     * @var \App\UBL\Common\CBC\BuildingNumber $buildingNumber
      */
     private $buildingNumber = null;
 
@@ -196,7 +196,7 @@ class AddressType
      *  Text. Type
      *  MailStop
      *
-     * @var \UBL\Common\CBC\InhouseMail $inhouseMail
+     * @var \App\UBL\Common\CBC\InhouseMail $inhouseMail
      */
     private $inhouseMail = null;
 
@@ -212,7 +212,7 @@ class AddressType
      *  Department
      *  Accounts Payable
      *
-     * @var \UBL\Common\CBC\Department $department
+     * @var \App\UBL\Common\CBC\Department $department
      */
     private $department = null;
 
@@ -226,7 +226,7 @@ class AddressType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\MarkAttention $markAttention
+     * @var \App\UBL\Common\CBC\MarkAttention $markAttention
      */
     private $markAttention = null;
 
@@ -240,7 +240,7 @@ class AddressType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\MarkCare $markCare
+     * @var \App\UBL\Common\CBC\MarkCare $markCare
      */
     private $markCare = null;
 
@@ -254,7 +254,7 @@ class AddressType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\PlotIdentification $plotIdentification
+     * @var \App\UBL\Common\CBC\PlotIdentification $plotIdentification
      */
     private $plotIdentification = null;
 
@@ -268,7 +268,7 @@ class AddressType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\CitySubdivisionName $citySubdivisionName
+     * @var \App\UBL\Common\CBC\CitySubdivisionName $citySubdivisionName
      */
     private $citySubdivisionName = null;
 
@@ -284,7 +284,7 @@ class AddressType
      *  LocalityName
      *  Hong Kong
      *
-     * @var \UBL\Common\CBC\CityName $cityName
+     * @var \App\UBL\Common\CBC\CityName $cityName
      */
     private $cityName = null;
 
@@ -301,7 +301,7 @@ class AddressType
      *  PostalCodeNumber
      *  SW11 4EW 2500 GG
      *
-     * @var \UBL\Common\CBC\PostalZone $postalZone
+     * @var \App\UBL\Common\CBC\PostalZone $postalZone
      */
     private $postalZone = null;
 
@@ -317,7 +317,7 @@ class AddressType
      *  AdministrativeArea, State, Country, Shire, Canton
      *  Florida , Tamilnadu
      *
-     * @var \UBL\Common\CBC\CountrySubentity $countrySubentity
+     * @var \App\UBL\Common\CBC\CountrySubentity $countrySubentity
      */
     private $countrySubentity = null;
 
@@ -332,7 +332,7 @@ class AddressType
      *  Code. Type
      *  AdministrativeAreaCode, State Code
      *
-     * @var \UBL\Common\CBC\CountrySubentityCode $countrySubentityCode
+     * @var \App\UBL\Common\CBC\CountrySubentityCode $countrySubentityCode
      */
     private $countrySubentityCode = null;
 
@@ -348,7 +348,7 @@ class AddressType
      *  LocalityName, Economic Zone
      *  European Union
      *
-     * @var \UBL\Common\CBC\Region $region
+     * @var \App\UBL\Common\CBC\Region $region
      */
     private $region = null;
 
@@ -364,7 +364,7 @@ class AddressType
      *  LocalityName, Area
      *  East Coast
      *
-     * @var \UBL\Common\CBC\District $district
+     * @var \App\UBL\Common\CBC\District $district
      */
     private $district = null;
 
@@ -379,7 +379,7 @@ class AddressType
      *  Text. Type
      *  +8:00 -3:00
      *
-     * @var \UBL\Common\CBC\TimezoneOffset $timezoneOffset
+     * @var \App\UBL\Common\CBC\TimezoneOffset $timezoneOffset
      */
     private $timezoneOffset = null;
 
@@ -393,7 +393,7 @@ class AddressType
      *  Address Line
      *  Address Line
      *
-     * @var \UBL\Common\CAC\AddressLine[] $addressLine
+     * @var \App\UBL\Common\CAC\AddressLine[] $addressLine
      */
     private $addressLine = [
         
@@ -409,7 +409,7 @@ class AddressType
      *  Country
      *  Country
      *
-     * @var \UBL\Common\CAC\Country $country
+     * @var \App\UBL\Common\CAC\Country $country
      */
     private $country = null;
 
@@ -423,7 +423,7 @@ class AddressType
      *  Location Coordinate
      *  Location Coordinate
      *
-     * @var \UBL\Common\CAC\LocationCoordinate[] $locationCoordinate
+     * @var \App\UBL\Common\CAC\LocationCoordinate[] $locationCoordinate
      */
     private $locationCoordinate = [
         
@@ -442,7 +442,7 @@ class AddressType
      *  Identifier. Type
      *  DetailsKey
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -462,10 +462,10 @@ class AddressType
      *  Identifier. Type
      *  DetailsKey
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -483,7 +483,7 @@ class AddressType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\AddressTypeCode
+     * @return \App\UBL\Common\CBC\AddressTypeCode
      */
     public function getAddressTypeCode()
     {
@@ -502,10 +502,10 @@ class AddressType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\AddressTypeCode $addressTypeCode
+     * @param \App\UBL\Common\CBC\AddressTypeCode $addressTypeCode
      * @return self
      */
-    public function setAddressTypeCode(?\UBL\Common\CBC\AddressTypeCode $addressTypeCode = null)
+    public function setAddressTypeCode(?\App\UBL\Common\CBC\AddressTypeCode $addressTypeCode = null)
     {
         $this->addressTypeCode = $addressTypeCode;
         return $this;
@@ -523,7 +523,7 @@ class AddressType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\AddressFormatCode
+     * @return \App\UBL\Common\CBC\AddressFormatCode
      */
     public function getAddressFormatCode()
     {
@@ -542,10 +542,10 @@ class AddressType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\AddressFormatCode $addressFormatCode
+     * @param \App\UBL\Common\CBC\AddressFormatCode $addressFormatCode
      * @return self
      */
-    public function setAddressFormatCode(?\UBL\Common\CBC\AddressFormatCode $addressFormatCode = null)
+    public function setAddressFormatCode(?\App\UBL\Common\CBC\AddressFormatCode $addressFormatCode = null)
     {
         $this->addressFormatCode = $addressFormatCode;
         return $this;
@@ -565,7 +565,7 @@ class AddressType
      *  PostBox, PO Box
      *  123
      *
-     * @return \UBL\Common\CBC\Postbox
+     * @return \App\UBL\Common\CBC\Postbox
      */
     public function getPostbox()
     {
@@ -586,10 +586,10 @@ class AddressType
      *  PostBox, PO Box
      *  123
      *
-     * @param \UBL\Common\CBC\Postbox $postbox
+     * @param \App\UBL\Common\CBC\Postbox $postbox
      * @return self
      */
-    public function setPostbox(?\UBL\Common\CBC\Postbox $postbox = null)
+    public function setPostbox(?\App\UBL\Common\CBC\Postbox $postbox = null)
     {
         $this->postbox = $postbox;
         return $this;
@@ -609,7 +609,7 @@ class AddressType
      *  SubPremiseNumber
      *  30
      *
-     * @return \UBL\Common\CBC\Floor
+     * @return \App\UBL\Common\CBC\Floor
      */
     public function getFloor()
     {
@@ -630,10 +630,10 @@ class AddressType
      *  SubPremiseNumber
      *  30
      *
-     * @param \UBL\Common\CBC\Floor $floor
+     * @param \App\UBL\Common\CBC\Floor $floor
      * @return self
      */
-    public function setFloor(?\UBL\Common\CBC\Floor $floor = null)
+    public function setFloor(?\App\UBL\Common\CBC\Floor $floor = null)
     {
         $this->floor = $floor;
         return $this;
@@ -653,7 +653,7 @@ class AddressType
      *  SubPremiseNumber
      *  Reception
      *
-     * @return \UBL\Common\CBC\Room
+     * @return \App\UBL\Common\CBC\Room
      */
     public function getRoom()
     {
@@ -674,10 +674,10 @@ class AddressType
      *  SubPremiseNumber
      *  Reception
      *
-     * @param \UBL\Common\CBC\Room $room
+     * @param \App\UBL\Common\CBC\Room $room
      * @return self
      */
-    public function setRoom(?\UBL\Common\CBC\Room $room = null)
+    public function setRoom(?\App\UBL\Common\CBC\Room $room = null)
     {
         $this->room = $room;
         return $this;
@@ -697,7 +697,7 @@ class AddressType
      *  Thoroughfare
      *  Kwun Tong Road
      *
-     * @return \UBL\Common\CBC\StreetName
+     * @return \App\UBL\Common\CBC\StreetName
      */
     public function getStreetName()
     {
@@ -718,10 +718,10 @@ class AddressType
      *  Thoroughfare
      *  Kwun Tong Road
      *
-     * @param \UBL\Common\CBC\StreetName $streetName
+     * @param \App\UBL\Common\CBC\StreetName $streetName
      * @return self
      */
-    public function setStreetName(?\UBL\Common\CBC\StreetName $streetName = null)
+    public function setStreetName(?\App\UBL\Common\CBC\StreetName $streetName = null)
     {
         $this->streetName = $streetName;
         return $this;
@@ -742,7 +742,7 @@ class AddressType
      *  Thoroughfare
      *  Cnr Aberdeen Road
      *
-     * @return \UBL\Common\CBC\AdditionalStreetName
+     * @return \App\UBL\Common\CBC\AdditionalStreetName
      */
     public function getAdditionalStreetName()
     {
@@ -764,10 +764,10 @@ class AddressType
      *  Thoroughfare
      *  Cnr Aberdeen Road
      *
-     * @param \UBL\Common\CBC\AdditionalStreetName $additionalStreetName
+     * @param \App\UBL\Common\CBC\AdditionalStreetName $additionalStreetName
      * @return self
      */
-    public function setAdditionalStreetName(?\UBL\Common\CBC\AdditionalStreetName $additionalStreetName = null)
+    public function setAdditionalStreetName(?\App\UBL\Common\CBC\AdditionalStreetName $additionalStreetName = null)
     {
         $this->additionalStreetName = $additionalStreetName;
         return $this;
@@ -786,7 +786,7 @@ class AddressType
      *  Name. Type
      *  Seabird
      *
-     * @return \UBL\Common\CBC\BlockName
+     * @return \App\UBL\Common\CBC\BlockName
      */
     public function getBlockName()
     {
@@ -806,10 +806,10 @@ class AddressType
      *  Name. Type
      *  Seabird
      *
-     * @param \UBL\Common\CBC\BlockName $blockName
+     * @param \App\UBL\Common\CBC\BlockName $blockName
      * @return self
      */
-    public function setBlockName(?\UBL\Common\CBC\BlockName $blockName = null)
+    public function setBlockName(?\App\UBL\Common\CBC\BlockName $blockName = null)
     {
         $this->blockName = $blockName;
         return $this;
@@ -829,7 +829,7 @@ class AddressType
      *  BuildingName
      *  Plot 421
      *
-     * @return \UBL\Common\CBC\BuildingName
+     * @return \App\UBL\Common\CBC\BuildingName
      */
     public function getBuildingName()
     {
@@ -850,10 +850,10 @@ class AddressType
      *  BuildingName
      *  Plot 421
      *
-     * @param \UBL\Common\CBC\BuildingName $buildingName
+     * @param \App\UBL\Common\CBC\BuildingName $buildingName
      * @return self
      */
-    public function setBuildingName(?\UBL\Common\CBC\BuildingName $buildingName = null)
+    public function setBuildingName(?\App\UBL\Common\CBC\BuildingName $buildingName = null)
     {
         $this->buildingName = $buildingName;
         return $this;
@@ -873,7 +873,7 @@ class AddressType
      *  PremiseNumber
      *  388
      *
-     * @return \UBL\Common\CBC\BuildingNumber
+     * @return \App\UBL\Common\CBC\BuildingNumber
      */
     public function getBuildingNumber()
     {
@@ -894,10 +894,10 @@ class AddressType
      *  PremiseNumber
      *  388
      *
-     * @param \UBL\Common\CBC\BuildingNumber $buildingNumber
+     * @param \App\UBL\Common\CBC\BuildingNumber $buildingNumber
      * @return self
      */
-    public function setBuildingNumber(?\UBL\Common\CBC\BuildingNumber $buildingNumber = null)
+    public function setBuildingNumber(?\App\UBL\Common\CBC\BuildingNumber $buildingNumber = null)
     {
         $this->buildingNumber = $buildingNumber;
         return $this;
@@ -917,7 +917,7 @@ class AddressType
      *  Text. Type
      *  MailStop
      *
-     * @return \UBL\Common\CBC\InhouseMail
+     * @return \App\UBL\Common\CBC\InhouseMail
      */
     public function getInhouseMail()
     {
@@ -938,10 +938,10 @@ class AddressType
      *  Text. Type
      *  MailStop
      *
-     * @param \UBL\Common\CBC\InhouseMail $inhouseMail
+     * @param \App\UBL\Common\CBC\InhouseMail $inhouseMail
      * @return self
      */
-    public function setInhouseMail(?\UBL\Common\CBC\InhouseMail $inhouseMail = null)
+    public function setInhouseMail(?\App\UBL\Common\CBC\InhouseMail $inhouseMail = null)
     {
         $this->inhouseMail = $inhouseMail;
         return $this;
@@ -961,7 +961,7 @@ class AddressType
      *  Department
      *  Accounts Payable
      *
-     * @return \UBL\Common\CBC\Department
+     * @return \App\UBL\Common\CBC\Department
      */
     public function getDepartment()
     {
@@ -982,10 +982,10 @@ class AddressType
      *  Department
      *  Accounts Payable
      *
-     * @param \UBL\Common\CBC\Department $department
+     * @param \App\UBL\Common\CBC\Department $department
      * @return self
      */
-    public function setDepartment(?\UBL\Common\CBC\Department $department = null)
+    public function setDepartment(?\App\UBL\Common\CBC\Department $department = null)
     {
         $this->department = $department;
         return $this;
@@ -1003,7 +1003,7 @@ class AddressType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\MarkAttention
+     * @return \App\UBL\Common\CBC\MarkAttention
      */
     public function getMarkAttention()
     {
@@ -1022,10 +1022,10 @@ class AddressType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\MarkAttention $markAttention
+     * @param \App\UBL\Common\CBC\MarkAttention $markAttention
      * @return self
      */
-    public function setMarkAttention(?\UBL\Common\CBC\MarkAttention $markAttention = null)
+    public function setMarkAttention(?\App\UBL\Common\CBC\MarkAttention $markAttention = null)
     {
         $this->markAttention = $markAttention;
         return $this;
@@ -1043,7 +1043,7 @@ class AddressType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\MarkCare
+     * @return \App\UBL\Common\CBC\MarkCare
      */
     public function getMarkCare()
     {
@@ -1062,10 +1062,10 @@ class AddressType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\MarkCare $markCare
+     * @param \App\UBL\Common\CBC\MarkCare $markCare
      * @return self
      */
-    public function setMarkCare(?\UBL\Common\CBC\MarkCare $markCare = null)
+    public function setMarkCare(?\App\UBL\Common\CBC\MarkCare $markCare = null)
     {
         $this->markCare = $markCare;
         return $this;
@@ -1083,7 +1083,7 @@ class AddressType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\PlotIdentification
+     * @return \App\UBL\Common\CBC\PlotIdentification
      */
     public function getPlotIdentification()
     {
@@ -1102,10 +1102,10 @@ class AddressType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\PlotIdentification $plotIdentification
+     * @param \App\UBL\Common\CBC\PlotIdentification $plotIdentification
      * @return self
      */
-    public function setPlotIdentification(?\UBL\Common\CBC\PlotIdentification $plotIdentification = null)
+    public function setPlotIdentification(?\App\UBL\Common\CBC\PlotIdentification $plotIdentification = null)
     {
         $this->plotIdentification = $plotIdentification;
         return $this;
@@ -1123,7 +1123,7 @@ class AddressType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\CitySubdivisionName
+     * @return \App\UBL\Common\CBC\CitySubdivisionName
      */
     public function getCitySubdivisionName()
     {
@@ -1142,10 +1142,10 @@ class AddressType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\CitySubdivisionName $citySubdivisionName
+     * @param \App\UBL\Common\CBC\CitySubdivisionName $citySubdivisionName
      * @return self
      */
-    public function setCitySubdivisionName(?\UBL\Common\CBC\CitySubdivisionName $citySubdivisionName = null)
+    public function setCitySubdivisionName(?\App\UBL\Common\CBC\CitySubdivisionName $citySubdivisionName = null)
     {
         $this->citySubdivisionName = $citySubdivisionName;
         return $this;
@@ -1165,7 +1165,7 @@ class AddressType
      *  LocalityName
      *  Hong Kong
      *
-     * @return \UBL\Common\CBC\CityName
+     * @return \App\UBL\Common\CBC\CityName
      */
     public function getCityName()
     {
@@ -1186,10 +1186,10 @@ class AddressType
      *  LocalityName
      *  Hong Kong
      *
-     * @param \UBL\Common\CBC\CityName $cityName
+     * @param \App\UBL\Common\CBC\CityName $cityName
      * @return self
      */
-    public function setCityName(?\UBL\Common\CBC\CityName $cityName = null)
+    public function setCityName(?\App\UBL\Common\CBC\CityName $cityName = null)
     {
         $this->cityName = $cityName;
         return $this;
@@ -1210,7 +1210,7 @@ class AddressType
      *  PostalCodeNumber
      *  SW11 4EW 2500 GG
      *
-     * @return \UBL\Common\CBC\PostalZone
+     * @return \App\UBL\Common\CBC\PostalZone
      */
     public function getPostalZone()
     {
@@ -1232,10 +1232,10 @@ class AddressType
      *  PostalCodeNumber
      *  SW11 4EW 2500 GG
      *
-     * @param \UBL\Common\CBC\PostalZone $postalZone
+     * @param \App\UBL\Common\CBC\PostalZone $postalZone
      * @return self
      */
-    public function setPostalZone(?\UBL\Common\CBC\PostalZone $postalZone = null)
+    public function setPostalZone(?\App\UBL\Common\CBC\PostalZone $postalZone = null)
     {
         $this->postalZone = $postalZone;
         return $this;
@@ -1255,7 +1255,7 @@ class AddressType
      *  AdministrativeArea, State, Country, Shire, Canton
      *  Florida , Tamilnadu
      *
-     * @return \UBL\Common\CBC\CountrySubentity
+     * @return \App\UBL\Common\CBC\CountrySubentity
      */
     public function getCountrySubentity()
     {
@@ -1276,10 +1276,10 @@ class AddressType
      *  AdministrativeArea, State, Country, Shire, Canton
      *  Florida , Tamilnadu
      *
-     * @param \UBL\Common\CBC\CountrySubentity $countrySubentity
+     * @param \App\UBL\Common\CBC\CountrySubentity $countrySubentity
      * @return self
      */
-    public function setCountrySubentity(?\UBL\Common\CBC\CountrySubentity $countrySubentity = null)
+    public function setCountrySubentity(?\App\UBL\Common\CBC\CountrySubentity $countrySubentity = null)
     {
         $this->countrySubentity = $countrySubentity;
         return $this;
@@ -1298,7 +1298,7 @@ class AddressType
      *  Code. Type
      *  AdministrativeAreaCode, State Code
      *
-     * @return \UBL\Common\CBC\CountrySubentityCode
+     * @return \App\UBL\Common\CBC\CountrySubentityCode
      */
     public function getCountrySubentityCode()
     {
@@ -1318,10 +1318,10 @@ class AddressType
      *  Code. Type
      *  AdministrativeAreaCode, State Code
      *
-     * @param \UBL\Common\CBC\CountrySubentityCode $countrySubentityCode
+     * @param \App\UBL\Common\CBC\CountrySubentityCode $countrySubentityCode
      * @return self
      */
-    public function setCountrySubentityCode(?\UBL\Common\CBC\CountrySubentityCode $countrySubentityCode = null)
+    public function setCountrySubentityCode(?\App\UBL\Common\CBC\CountrySubentityCode $countrySubentityCode = null)
     {
         $this->countrySubentityCode = $countrySubentityCode;
         return $this;
@@ -1341,7 +1341,7 @@ class AddressType
      *  LocalityName, Economic Zone
      *  European Union
      *
-     * @return \UBL\Common\CBC\Region
+     * @return \App\UBL\Common\CBC\Region
      */
     public function getRegion()
     {
@@ -1362,10 +1362,10 @@ class AddressType
      *  LocalityName, Economic Zone
      *  European Union
      *
-     * @param \UBL\Common\CBC\Region $region
+     * @param \App\UBL\Common\CBC\Region $region
      * @return self
      */
-    public function setRegion(?\UBL\Common\CBC\Region $region = null)
+    public function setRegion(?\App\UBL\Common\CBC\Region $region = null)
     {
         $this->region = $region;
         return $this;
@@ -1385,7 +1385,7 @@ class AddressType
      *  LocalityName, Area
      *  East Coast
      *
-     * @return \UBL\Common\CBC\District
+     * @return \App\UBL\Common\CBC\District
      */
     public function getDistrict()
     {
@@ -1406,10 +1406,10 @@ class AddressType
      *  LocalityName, Area
      *  East Coast
      *
-     * @param \UBL\Common\CBC\District $district
+     * @param \App\UBL\Common\CBC\District $district
      * @return self
      */
-    public function setDistrict(?\UBL\Common\CBC\District $district = null)
+    public function setDistrict(?\App\UBL\Common\CBC\District $district = null)
     {
         $this->district = $district;
         return $this;
@@ -1428,7 +1428,7 @@ class AddressType
      *  Text. Type
      *  +8:00 -3:00
      *
-     * @return \UBL\Common\CBC\TimezoneOffset
+     * @return \App\UBL\Common\CBC\TimezoneOffset
      */
     public function getTimezoneOffset()
     {
@@ -1448,10 +1448,10 @@ class AddressType
      *  Text. Type
      *  +8:00 -3:00
      *
-     * @param \UBL\Common\CBC\TimezoneOffset $timezoneOffset
+     * @param \App\UBL\Common\CBC\TimezoneOffset $timezoneOffset
      * @return self
      */
-    public function setTimezoneOffset(?\UBL\Common\CBC\TimezoneOffset $timezoneOffset = null)
+    public function setTimezoneOffset(?\App\UBL\Common\CBC\TimezoneOffset $timezoneOffset = null)
     {
         $this->timezoneOffset = $timezoneOffset;
         return $this;
@@ -1470,9 +1470,9 @@ class AddressType
      *  Address Line
      *
      * @return self
-     * @param \UBL\Common\CAC\AddressLine $addressLine
+     * @param \App\UBL\Common\CAC\AddressLine $addressLine
      */
-    public function addToAddressLine(\UBL\Common\CAC\AddressLine $addressLine)
+    public function addToAddressLine(\App\UBL\Common\CAC\AddressLine $addressLine)
     {
         $this->addressLine[] = $addressLine;
         return $this;
@@ -1530,7 +1530,7 @@ class AddressType
      *  Address Line
      *  Address Line
      *
-     * @return \UBL\Common\CAC\AddressLine[]
+     * @return \App\UBL\Common\CAC\AddressLine[]
      */
     public function getAddressLine()
     {
@@ -1549,7 +1549,7 @@ class AddressType
      *  Address Line
      *  Address Line
      *
-     * @param \UBL\Common\CAC\AddressLine[] $addressLine
+     * @param \App\UBL\Common\CAC\AddressLine[] $addressLine
      * @return self
      */
     public function setAddressLine(?array $addressLine = null)
@@ -1570,7 +1570,7 @@ class AddressType
      *  Country
      *  Country
      *
-     * @return \UBL\Common\CAC\Country
+     * @return \App\UBL\Common\CAC\Country
      */
     public function getCountry()
     {
@@ -1589,10 +1589,10 @@ class AddressType
      *  Country
      *  Country
      *
-     * @param \UBL\Common\CAC\Country $country
+     * @param \App\UBL\Common\CAC\Country $country
      * @return self
      */
-    public function setCountry(?\UBL\Common\CAC\Country $country = null)
+    public function setCountry(?\App\UBL\Common\CAC\Country $country = null)
     {
         $this->country = $country;
         return $this;
@@ -1611,9 +1611,9 @@ class AddressType
      *  Location Coordinate
      *
      * @return self
-     * @param \UBL\Common\CAC\LocationCoordinate $locationCoordinate
+     * @param \App\UBL\Common\CAC\LocationCoordinate $locationCoordinate
      */
-    public function addToLocationCoordinate(\UBL\Common\CAC\LocationCoordinate $locationCoordinate)
+    public function addToLocationCoordinate(\App\UBL\Common\CAC\LocationCoordinate $locationCoordinate)
     {
         $this->locationCoordinate[] = $locationCoordinate;
         return $this;
@@ -1671,7 +1671,7 @@ class AddressType
      *  Location Coordinate
      *  Location Coordinate
      *
-     * @return \UBL\Common\CAC\LocationCoordinate[]
+     * @return \App\UBL\Common\CAC\LocationCoordinate[]
      */
     public function getLocationCoordinate()
     {
@@ -1690,7 +1690,7 @@ class AddressType
      *  Location Coordinate
      *  Location Coordinate
      *
-     * @param \UBL\Common\CAC\LocationCoordinate[] $locationCoordinate
+     * @param \App\UBL\Common\CAC\LocationCoordinate[] $locationCoordinate
      * @return self
      */
     public function setLocationCoordinate(?array $locationCoordinate = null)
@@ -1699,5 +1699,4 @@ class AddressType
         return $this;
     }
 }
-
 

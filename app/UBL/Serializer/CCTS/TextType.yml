@@ -1,4 +1,4 @@
-UBL\CCTS\TextType:
+App\UBL\CCTS\TextType:
     properties:
         __value:
             expose: true

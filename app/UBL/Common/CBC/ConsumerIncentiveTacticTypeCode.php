@@ -9,4 +9,3 @@ class ConsumerIncentiveTacticTypeCode extends ConsumerIncentiveTacticTypeCodeTyp
 {
 }
 
-

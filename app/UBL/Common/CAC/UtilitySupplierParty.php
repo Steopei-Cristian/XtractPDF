@@ -9,4 +9,3 @@ class UtilitySupplierParty extends PartyType
 {
 }
 
-

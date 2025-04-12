@@ -9,4 +9,3 @@ class TotalMeteredQuantity extends TotalMeteredQuantityType
 {
 }
 
-

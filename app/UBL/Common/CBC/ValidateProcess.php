@@ -9,4 +9,3 @@ class ValidateProcess extends ValidateProcessType
 {
 }
 
-

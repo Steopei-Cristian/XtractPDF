@@ -1,3 +1,3 @@
-UBL\Common\CAC\RoadTransport:
+App\UBL\Common\CAC\RoadTransport:
     xml_root_name: RoadTransport
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

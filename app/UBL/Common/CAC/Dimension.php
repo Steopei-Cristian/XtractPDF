@@ -9,4 +9,3 @@ class Dimension extends DimensionType
 {
 }
 
-

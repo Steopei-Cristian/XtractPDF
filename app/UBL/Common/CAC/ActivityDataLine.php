@@ -9,4 +9,3 @@ class ActivityDataLine extends ActivityDataLineType
 {
 }
 
-

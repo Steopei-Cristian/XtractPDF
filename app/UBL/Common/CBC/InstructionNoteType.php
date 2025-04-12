@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\TextType;
+use App\UBL\Unqualified\TextType;
 
 /**
  * Class representing InstructionNoteType
@@ -13,5 +13,4 @@ use UBL\Unqualified\TextType;
 class InstructionNoteType extends TextType
 {
 }
-
 

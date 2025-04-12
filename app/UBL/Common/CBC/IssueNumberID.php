@@ -9,4 +9,3 @@ class IssueNumberID extends IssueNumberIDType
 {
 }
 
-

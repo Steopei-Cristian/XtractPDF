@@ -9,4 +9,3 @@ class ChangeConditions extends ChangeConditionsType
 {
 }
 
-

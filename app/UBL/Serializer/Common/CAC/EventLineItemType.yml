@@ -1,4 +1,4 @@
-UBL\Common\CAC\EventLineItemType:
+App\UBL\Common\CAC\EventLineItemType:
     properties:
         lineNumberNumeric:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\EventLineItemType:
             accessor:
                 getter: getLineNumberNumeric
                 setter: setLineNumberNumeric
-            type: UBL\Common\CBC\LineNumberNumeric
+            type: App\UBL\Common\CBC\LineNumberNumeric
         participatingLocationsLocation:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\EventLineItemType:
             accessor:
                 getter: getParticipatingLocationsLocation
                 setter: setParticipatingLocationsLocation
-            type: UBL\Common\CAC\ParticipatingLocationsLocation
+            type: App\UBL\Common\CAC\ParticipatingLocationsLocation
         retailPlannedImpact:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\EventLineItemType:
                 inline: true
                 entry_name: RetailPlannedImpact
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\RetailPlannedImpact>
+            type: array<App\UBL\Common\CAC\RetailPlannedImpact>
         supplyItem:
             expose: true
             access_type: public_method
@@ -43,4 +43,4 @@ UBL\Common\CAC\EventLineItemType:
             accessor:
                 getter: getSupplyItem
                 setter: setSupplyItem
-            type: UBL\Common\CAC\SupplyItem
+            type: App\UBL\Common\CAC\SupplyItem

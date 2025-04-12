@@ -1,2 +1,2 @@
-UBL\Common\CBC\BackorderQuantityType:
+App\UBL\Common\CBC\BackorderQuantityType:
     properties: {  }

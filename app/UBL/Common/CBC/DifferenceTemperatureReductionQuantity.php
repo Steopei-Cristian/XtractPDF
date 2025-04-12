@@ -9,4 +9,3 @@ class DifferenceTemperatureReductionQuantity extends DifferenceTemperatureReduct
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CAC\PartyLegalEntityType:
+App\UBL\Common\CAC\PartyLegalEntityType:
     properties:
         registrationName:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PartyLegalEntityType:
             accessor:
                 getter: getRegistrationName
                 setter: setRegistrationName
-            type: UBL\Common\CBC\RegistrationName
+            type: App\UBL\Common\CBC\RegistrationName
         companyID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\PartyLegalEntityType:
             accessor:
                 getter: getCompanyID
                 setter: setCompanyID
-            type: UBL\Common\CBC\CompanyID
+            type: App\UBL\Common\CBC\CompanyID
         registrationDate:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\PartyLegalEntityType:
             accessor:
                 getter: getCompanyLegalFormCode
                 setter: setCompanyLegalFormCode
-            type: UBL\Common\CBC\CompanyLegalFormCode
+            type: App\UBL\Common\CBC\CompanyLegalFormCode
         companyLegalForm:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\PartyLegalEntityType:
             accessor:
                 getter: getCompanyLegalForm
                 setter: setCompanyLegalForm
-            type: UBL\Common\CBC\CompanyLegalForm
+            type: App\UBL\Common\CBC\CompanyLegalForm
         soleProprietorshipIndicator:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\CAC\PartyLegalEntityType:
             accessor:
                 getter: getCompanyLiquidationStatusCode
                 setter: setCompanyLiquidationStatusCode
-            type: UBL\Common\CBC\CompanyLiquidationStatusCode
+            type: App\UBL\Common\CBC\CompanyLiquidationStatusCode
         corporateStockAmount:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ UBL\Common\CAC\PartyLegalEntityType:
             accessor:
                 getter: getCorporateStockAmount
                 setter: setCorporateStockAmount
-            type: UBL\Common\CBC\CorporateStockAmount
+            type: App\UBL\Common\CBC\CorporateStockAmount
         fullyPaidSharesIndicator:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ UBL\Common\CAC\PartyLegalEntityType:
             accessor:
                 getter: getRegistrationAddress
                 setter: setRegistrationAddress
-            type: UBL\Common\CAC\RegistrationAddress
+            type: App\UBL\Common\CAC\RegistrationAddress
         corporateRegistrationScheme:
             expose: true
             access_type: public_method
@@ -119,7 +119,7 @@ UBL\Common\CAC\PartyLegalEntityType:
             accessor:
                 getter: getCorporateRegistrationScheme
                 setter: setCorporateRegistrationScheme
-            type: UBL\Common\CAC\CorporateRegistrationScheme
+            type: App\UBL\Common\CAC\CorporateRegistrationScheme
         headOfficeParty:
             expose: true
             access_type: public_method
@@ -129,7 +129,7 @@ UBL\Common\CAC\PartyLegalEntityType:
             accessor:
                 getter: getHeadOfficeParty
                 setter: setHeadOfficeParty
-            type: UBL\Common\CAC\HeadOfficeParty
+            type: App\UBL\Common\CAC\HeadOfficeParty
         shareholderParty:
             expose: true
             access_type: public_method
@@ -143,4 +143,4 @@ UBL\Common\CAC\PartyLegalEntityType:
                 inline: true
                 entry_name: ShareholderParty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ShareholderParty>
+            type: array<App\UBL\Common\CAC\ShareholderParty>

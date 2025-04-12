@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\TextType;
+use App\UBL\Unqualified\TextType;
 
 /**
  * Class representing LossRiskType
@@ -13,5 +13,4 @@ use UBL\Unqualified\TextType;
 class LossRiskType extends TextType
 {
 }
-
 

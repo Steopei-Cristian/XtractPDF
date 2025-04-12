@@ -9,4 +9,3 @@ class EventTacticEnumeration extends EventTacticEnumerationType
 {
 }
 
-

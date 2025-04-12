@@ -9,4 +9,3 @@ class WeekDayCode extends WeekDayCodeType
 {
 }
 
-

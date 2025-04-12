@@ -9,4 +9,3 @@ class OrganizationDepartment extends OrganizationDepartmentType
 {
 }
 
-

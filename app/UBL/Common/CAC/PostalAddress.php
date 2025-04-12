@@ -9,4 +9,3 @@ class PostalAddress extends AddressType
 {
 }
 
-

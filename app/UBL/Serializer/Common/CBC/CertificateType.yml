@@ -1,3 +1,3 @@
-UBL\Common\CBC\CertificateType:
+App\UBL\Common\CBC\CertificateType:
     xml_root_name: CertificateType
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

@@ -9,4 +9,3 @@ class CatalogueReference extends CatalogueReferenceType
 {
 }
 
-

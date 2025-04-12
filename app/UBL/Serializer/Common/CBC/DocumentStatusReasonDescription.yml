@@ -1,3 +1,3 @@
-UBL\Common\CBC\DocumentStatusReasonDescription:
+App\UBL\Common\CBC\DocumentStatusReasonDescription:
     xml_root_name: DocumentStatusReasonDescription
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

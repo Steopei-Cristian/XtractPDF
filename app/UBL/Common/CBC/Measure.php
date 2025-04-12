@@ -9,4 +9,3 @@ class Measure extends MeasureType
 {
 }
 
-

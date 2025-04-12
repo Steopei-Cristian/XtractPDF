@@ -9,4 +9,3 @@ class ResidentOccupantsNumeric extends ResidentOccupantsNumericType
 {
 }
 
-

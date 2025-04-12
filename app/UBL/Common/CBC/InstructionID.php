@@ -9,4 +9,3 @@ class InstructionID extends InstructionIDType
 {
 }
 
-

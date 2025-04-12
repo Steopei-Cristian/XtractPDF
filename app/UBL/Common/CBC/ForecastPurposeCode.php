@@ -9,4 +9,3 @@ class ForecastPurposeCode extends ForecastPurposeCodeType
 {
 }
 
-

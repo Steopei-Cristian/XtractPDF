@@ -1,3 +1,3 @@
-UBL\Common\CAC\LineResponse:
+App\UBL\Common\CAC\LineResponse:
     xml_root_name: LineResponse
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

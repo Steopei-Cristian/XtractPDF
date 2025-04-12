@@ -23,7 +23,7 @@ class ActivityDataLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class ActivityDataLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
+     * @var \App\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
      */
     private $supplyChainActivityTypeCode = null;
 
@@ -52,7 +52,7 @@ class ActivityDataLineType
      *  Customer Party
      *  Customer Party
      *
-     * @var \UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty
+     * @var \App\UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty
      */
     private $buyerCustomerParty = null;
 
@@ -67,7 +67,7 @@ class ActivityDataLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @var \UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
+     * @var \App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
      */
     private $sellerSupplierParty = null;
 
@@ -82,7 +82,7 @@ class ActivityDataLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ActivityPeriod $activityPeriod
+     * @var \App\UBL\Common\CAC\ActivityPeriod $activityPeriod
      */
     private $activityPeriod = null;
 
@@ -97,7 +97,7 @@ class ActivityDataLineType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\ActivityOriginLocation $activityOriginLocation
+     * @var \App\UBL\Common\CAC\ActivityOriginLocation $activityOriginLocation
      */
     private $activityOriginLocation = null;
 
@@ -112,7 +112,7 @@ class ActivityDataLineType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\ActivityFinalLocation $activityFinalLocation
+     * @var \App\UBL\Common\CAC\ActivityFinalLocation $activityFinalLocation
      */
     private $activityFinalLocation = null;
 
@@ -126,7 +126,7 @@ class ActivityDataLineType
      *  Sales Item
      *  Sales Item
      *
-     * @var \UBL\Common\CAC\SalesItem[] $salesItem
+     * @var \App\UBL\Common\CAC\SalesItem[] $salesItem
      */
     private $salesItem = [
         
@@ -144,7 +144,7 @@ class ActivityDataLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -163,10 +163,10 @@ class ActivityDataLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -184,7 +184,7 @@ class ActivityDataLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\SupplyChainActivityTypeCode
+     * @return \App\UBL\Common\CBC\SupplyChainActivityTypeCode
      */
     public function getSupplyChainActivityTypeCode()
     {
@@ -203,10 +203,10 @@ class ActivityDataLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
+     * @param \App\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
      * @return self
      */
-    public function setSupplyChainActivityTypeCode(\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode)
+    public function setSupplyChainActivityTypeCode(\App\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode)
     {
         $this->supplyChainActivityTypeCode = $supplyChainActivityTypeCode;
         return $this;
@@ -225,7 +225,7 @@ class ActivityDataLineType
      *  Customer Party
      *  Customer Party
      *
-     * @return \UBL\Common\CAC\BuyerCustomerParty
+     * @return \App\UBL\Common\CAC\BuyerCustomerParty
      */
     public function getBuyerCustomerParty()
     {
@@ -245,10 +245,10 @@ class ActivityDataLineType
      *  Customer Party
      *  Customer Party
      *
-     * @param \UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty
+     * @param \App\UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty
      * @return self
      */
-    public function setBuyerCustomerParty(?\UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty = null)
+    public function setBuyerCustomerParty(?\App\UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty = null)
     {
         $this->buyerCustomerParty = $buyerCustomerParty;
         return $this;
@@ -267,7 +267,7 @@ class ActivityDataLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @return \UBL\Common\CAC\SellerSupplierParty
+     * @return \App\UBL\Common\CAC\SellerSupplierParty
      */
     public function getSellerSupplierParty()
     {
@@ -287,10 +287,10 @@ class ActivityDataLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @param \UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
+     * @param \App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
      * @return self
      */
-    public function setSellerSupplierParty(?\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty = null)
+    public function setSellerSupplierParty(?\App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty = null)
     {
         $this->sellerSupplierParty = $sellerSupplierParty;
         return $this;
@@ -309,7 +309,7 @@ class ActivityDataLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ActivityPeriod
+     * @return \App\UBL\Common\CAC\ActivityPeriod
      */
     public function getActivityPeriod()
     {
@@ -329,10 +329,10 @@ class ActivityDataLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ActivityPeriod $activityPeriod
+     * @param \App\UBL\Common\CAC\ActivityPeriod $activityPeriod
      * @return self
      */
-    public function setActivityPeriod(?\UBL\Common\CAC\ActivityPeriod $activityPeriod = null)
+    public function setActivityPeriod(?\App\UBL\Common\CAC\ActivityPeriod $activityPeriod = null)
     {
         $this->activityPeriod = $activityPeriod;
         return $this;
@@ -351,7 +351,7 @@ class ActivityDataLineType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\ActivityOriginLocation
+     * @return \App\UBL\Common\CAC\ActivityOriginLocation
      */
     public function getActivityOriginLocation()
     {
@@ -371,10 +371,10 @@ class ActivityDataLineType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\ActivityOriginLocation $activityOriginLocation
+     * @param \App\UBL\Common\CAC\ActivityOriginLocation $activityOriginLocation
      * @return self
      */
-    public function setActivityOriginLocation(\UBL\Common\CAC\ActivityOriginLocation $activityOriginLocation)
+    public function setActivityOriginLocation(\App\UBL\Common\CAC\ActivityOriginLocation $activityOriginLocation)
     {
         $this->activityOriginLocation = $activityOriginLocation;
         return $this;
@@ -393,7 +393,7 @@ class ActivityDataLineType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\ActivityFinalLocation
+     * @return \App\UBL\Common\CAC\ActivityFinalLocation
      */
     public function getActivityFinalLocation()
     {
@@ -413,10 +413,10 @@ class ActivityDataLineType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\ActivityFinalLocation $activityFinalLocation
+     * @param \App\UBL\Common\CAC\ActivityFinalLocation $activityFinalLocation
      * @return self
      */
-    public function setActivityFinalLocation(?\UBL\Common\CAC\ActivityFinalLocation $activityFinalLocation = null)
+    public function setActivityFinalLocation(?\App\UBL\Common\CAC\ActivityFinalLocation $activityFinalLocation = null)
     {
         $this->activityFinalLocation = $activityFinalLocation;
         return $this;
@@ -435,9 +435,9 @@ class ActivityDataLineType
      *  Sales Item
      *
      * @return self
-     * @param \UBL\Common\CAC\SalesItem $salesItem
+     * @param \App\UBL\Common\CAC\SalesItem $salesItem
      */
-    public function addToSalesItem(\UBL\Common\CAC\SalesItem $salesItem)
+    public function addToSalesItem(\App\UBL\Common\CAC\SalesItem $salesItem)
     {
         $this->salesItem[] = $salesItem;
         return $this;
@@ -495,7 +495,7 @@ class ActivityDataLineType
      *  Sales Item
      *  Sales Item
      *
-     * @return \UBL\Common\CAC\SalesItem[]
+     * @return \App\UBL\Common\CAC\SalesItem[]
      */
     public function getSalesItem()
     {
@@ -514,7 +514,7 @@ class ActivityDataLineType
      *  Sales Item
      *  Sales Item
      *
-     * @param \UBL\Common\CAC\SalesItem[] $salesItem
+     * @param \App\UBL\Common\CAC\SalesItem[] $salesItem
      * @return self
      */
     public function setSalesItem(array $salesItem)
@@ -523,5 +523,4 @@ class ActivityDataLineType
         return $this;
     }
 }
-
 

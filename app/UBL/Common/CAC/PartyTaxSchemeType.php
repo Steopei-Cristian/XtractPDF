@@ -25,7 +25,7 @@ class PartyTaxSchemeType
      *  Name. Type
      *  Microsoft Corporation
      *
-     * @var \UBL\Common\CBC\RegistrationName $registrationName
+     * @var \App\UBL\Common\CBC\RegistrationName $registrationName
      */
     private $registrationName = null;
 
@@ -41,7 +41,7 @@ class PartyTaxSchemeType
      *  VAT Number
      *  3556625
      *
-     * @var \UBL\Common\CBC\CompanyID $companyID
+     * @var \App\UBL\Common\CBC\CompanyID $companyID
      */
     private $companyID = null;
 
@@ -55,7 +55,7 @@ class PartyTaxSchemeType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TaxLevelCode $taxLevelCode
+     * @var \App\UBL\Common\CBC\TaxLevelCode $taxLevelCode
      */
     private $taxLevelCode = null;
 
@@ -69,7 +69,7 @@ class PartyTaxSchemeType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ExemptionReasonCode $exemptionReasonCode
+     * @var \App\UBL\Common\CBC\ExemptionReasonCode $exemptionReasonCode
      */
     private $exemptionReasonCode = null;
 
@@ -84,7 +84,7 @@ class PartyTaxSchemeType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ExemptionReason[] $exemptionReason
+     * @var \App\UBL\Common\CBC\ExemptionReason[] $exemptionReason
      */
     private $exemptionReason = [
         
@@ -101,7 +101,7 @@ class PartyTaxSchemeType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\RegistrationAddress $registrationAddress
+     * @var \App\UBL\Common\CAC\RegistrationAddress $registrationAddress
      */
     private $registrationAddress = null;
 
@@ -115,7 +115,7 @@ class PartyTaxSchemeType
      *  Tax Scheme
      *  Tax Scheme
      *
-     * @var \UBL\Common\CAC\TaxScheme $taxScheme
+     * @var \App\UBL\Common\CAC\TaxScheme $taxScheme
      */
     private $taxScheme = null;
 
@@ -133,7 +133,7 @@ class PartyTaxSchemeType
      *  Name. Type
      *  Microsoft Corporation
      *
-     * @return \UBL\Common\CBC\RegistrationName
+     * @return \App\UBL\Common\CBC\RegistrationName
      */
     public function getRegistrationName()
     {
@@ -154,10 +154,10 @@ class PartyTaxSchemeType
      *  Name. Type
      *  Microsoft Corporation
      *
-     * @param \UBL\Common\CBC\RegistrationName $registrationName
+     * @param \App\UBL\Common\CBC\RegistrationName $registrationName
      * @return self
      */
-    public function setRegistrationName(?\UBL\Common\CBC\RegistrationName $registrationName = null)
+    public function setRegistrationName(?\App\UBL\Common\CBC\RegistrationName $registrationName = null)
     {
         $this->registrationName = $registrationName;
         return $this;
@@ -177,7 +177,7 @@ class PartyTaxSchemeType
      *  VAT Number
      *  3556625
      *
-     * @return \UBL\Common\CBC\CompanyID
+     * @return \App\UBL\Common\CBC\CompanyID
      */
     public function getCompanyID()
     {
@@ -198,10 +198,10 @@ class PartyTaxSchemeType
      *  VAT Number
      *  3556625
      *
-     * @param \UBL\Common\CBC\CompanyID $companyID
+     * @param \App\UBL\Common\CBC\CompanyID $companyID
      * @return self
      */
-    public function setCompanyID(?\UBL\Common\CBC\CompanyID $companyID = null)
+    public function setCompanyID(?\App\UBL\Common\CBC\CompanyID $companyID = null)
     {
         $this->companyID = $companyID;
         return $this;
@@ -219,7 +219,7 @@ class PartyTaxSchemeType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TaxLevelCode
+     * @return \App\UBL\Common\CBC\TaxLevelCode
      */
     public function getTaxLevelCode()
     {
@@ -238,10 +238,10 @@ class PartyTaxSchemeType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TaxLevelCode $taxLevelCode
+     * @param \App\UBL\Common\CBC\TaxLevelCode $taxLevelCode
      * @return self
      */
-    public function setTaxLevelCode(?\UBL\Common\CBC\TaxLevelCode $taxLevelCode = null)
+    public function setTaxLevelCode(?\App\UBL\Common\CBC\TaxLevelCode $taxLevelCode = null)
     {
         $this->taxLevelCode = $taxLevelCode;
         return $this;
@@ -259,7 +259,7 @@ class PartyTaxSchemeType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ExemptionReasonCode
+     * @return \App\UBL\Common\CBC\ExemptionReasonCode
      */
     public function getExemptionReasonCode()
     {
@@ -278,10 +278,10 @@ class PartyTaxSchemeType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ExemptionReasonCode $exemptionReasonCode
+     * @param \App\UBL\Common\CBC\ExemptionReasonCode $exemptionReasonCode
      * @return self
      */
-    public function setExemptionReasonCode(?\UBL\Common\CBC\ExemptionReasonCode $exemptionReasonCode = null)
+    public function setExemptionReasonCode(?\App\UBL\Common\CBC\ExemptionReasonCode $exemptionReasonCode = null)
     {
         $this->exemptionReasonCode = $exemptionReasonCode;
         return $this;
@@ -301,9 +301,9 @@ class PartyTaxSchemeType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ExemptionReason $exemptionReason
+     * @param \App\UBL\Common\CBC\ExemptionReason $exemptionReason
      */
-    public function addToExemptionReason(\UBL\Common\CBC\ExemptionReason $exemptionReason)
+    public function addToExemptionReason(\App\UBL\Common\CBC\ExemptionReason $exemptionReason)
     {
         $this->exemptionReason[] = $exemptionReason;
         return $this;
@@ -364,7 +364,7 @@ class PartyTaxSchemeType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ExemptionReason[]
+     * @return \App\UBL\Common\CBC\ExemptionReason[]
      */
     public function getExemptionReason()
     {
@@ -384,7 +384,7 @@ class PartyTaxSchemeType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ExemptionReason[] $exemptionReason
+     * @param \App\UBL\Common\CBC\ExemptionReason[] $exemptionReason
      * @return self
      */
     public function setExemptionReason(?array $exemptionReason = null)
@@ -406,7 +406,7 @@ class PartyTaxSchemeType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\RegistrationAddress
+     * @return \App\UBL\Common\CAC\RegistrationAddress
      */
     public function getRegistrationAddress()
     {
@@ -426,10 +426,10 @@ class PartyTaxSchemeType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\RegistrationAddress $registrationAddress
+     * @param \App\UBL\Common\CAC\RegistrationAddress $registrationAddress
      * @return self
      */
-    public function setRegistrationAddress(?\UBL\Common\CAC\RegistrationAddress $registrationAddress = null)
+    public function setRegistrationAddress(?\App\UBL\Common\CAC\RegistrationAddress $registrationAddress = null)
     {
         $this->registrationAddress = $registrationAddress;
         return $this;
@@ -447,7 +447,7 @@ class PartyTaxSchemeType
      *  Tax Scheme
      *  Tax Scheme
      *
-     * @return \UBL\Common\CAC\TaxScheme
+     * @return \App\UBL\Common\CAC\TaxScheme
      */
     public function getTaxScheme()
     {
@@ -466,14 +466,13 @@ class PartyTaxSchemeType
      *  Tax Scheme
      *  Tax Scheme
      *
-     * @param \UBL\Common\CAC\TaxScheme $taxScheme
+     * @param \App\UBL\Common\CAC\TaxScheme $taxScheme
      * @return self
      */
-    public function setTaxScheme(\UBL\Common\CAC\TaxScheme $taxScheme)
+    public function setTaxScheme(\App\UBL\Common\CAC\TaxScheme $taxScheme)
     {
         $this->taxScheme = $taxScheme;
         return $this;
     }
 }
-
 

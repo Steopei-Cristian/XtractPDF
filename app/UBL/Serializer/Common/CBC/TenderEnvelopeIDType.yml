@@ -1,2 +1,2 @@
-UBL\Common\CBC\TenderEnvelopeIDType:
+App\UBL\Common\CBC\TenderEnvelopeIDType:
     properties: {  }

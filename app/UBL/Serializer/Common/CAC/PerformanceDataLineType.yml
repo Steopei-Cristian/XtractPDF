@@ -1,4 +1,4 @@
-UBL\Common\CAC\PerformanceDataLineType:
+App\UBL\Common\CAC\PerformanceDataLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PerformanceDataLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         note:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\PerformanceDataLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         performanceValueQuantity:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\PerformanceDataLineType:
             accessor:
                 getter: getPerformanceValueQuantity
                 setter: setPerformanceValueQuantity
-            type: UBL\Common\CBC\PerformanceValueQuantity
+            type: App\UBL\Common\CBC\PerformanceValueQuantity
         performanceMetricTypeCode:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\PerformanceDataLineType:
             accessor:
                 getter: getPerformanceMetricTypeCode
                 setter: setPerformanceMetricTypeCode
-            type: UBL\Common\CBC\PerformanceMetricTypeCode
+            type: App\UBL\Common\CBC\PerformanceMetricTypeCode
         period:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\PerformanceDataLineType:
             accessor:
                 getter: getPeriod
                 setter: setPeriod
-            type: UBL\Common\CAC\Period
+            type: App\UBL\Common\CAC\Period
         item:
             expose: true
             access_type: public_method
@@ -63,4 +63,4 @@ UBL\Common\CAC\PerformanceDataLineType:
             accessor:
                 getter: getItem
                 setter: setItem
-            type: UBL\Common\CAC\Item
+            type: App\UBL\Common\CAC\Item

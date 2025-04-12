@@ -9,4 +9,3 @@ class ReceiptDocumentReference extends DocumentReferenceType
 {
 }
 
-

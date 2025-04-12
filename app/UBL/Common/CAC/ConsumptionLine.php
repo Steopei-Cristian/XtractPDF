@@ -9,4 +9,3 @@ class ConsumptionLine extends ConsumptionLineType
 {
 }
 
-

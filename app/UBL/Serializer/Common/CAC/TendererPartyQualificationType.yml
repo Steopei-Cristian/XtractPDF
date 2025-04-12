@@ -1,4 +1,4 @@
-UBL\Common\CAC\TendererPartyQualificationType:
+App\UBL\Common\CAC\TendererPartyQualificationType:
     properties:
         interestedProcurementProjectLot:
             expose: true
@@ -13,7 +13,7 @@ UBL\Common\CAC\TendererPartyQualificationType:
                 inline: true
                 entry_name: InterestedProcurementProjectLot
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\InterestedProcurementProjectLot>
+            type: array<App\UBL\Common\CAC\InterestedProcurementProjectLot>
         mainQualifyingParty:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\TendererPartyQualificationType:
             accessor:
                 getter: getMainQualifyingParty
                 setter: setMainQualifyingParty
-            type: UBL\Common\CAC\MainQualifyingParty
+            type: App\UBL\Common\CAC\MainQualifyingParty
         additionalQualifyingParty:
             expose: true
             access_type: public_method
@@ -37,4 +37,4 @@ UBL\Common\CAC\TendererPartyQualificationType:
                 inline: true
                 entry_name: AdditionalQualifyingParty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AdditionalQualifyingParty>
+            type: array<App\UBL\Common\CAC\AdditionalQualifyingParty>

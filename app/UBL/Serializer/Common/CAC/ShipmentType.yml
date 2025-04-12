@@ -1,4 +1,4 @@
-UBL\Common\CAC\ShipmentType:
+App\UBL\Common\CAC\ShipmentType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         shippingPriorityLevelCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getShippingPriorityLevelCode
                 setter: setShippingPriorityLevelCode
-            type: UBL\Common\CBC\ShippingPriorityLevelCode
+            type: App\UBL\Common\CBC\ShippingPriorityLevelCode
         handlingCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getHandlingCode
                 setter: setHandlingCode
-            type: UBL\Common\CBC\HandlingCode
+            type: App\UBL\Common\CBC\HandlingCode
         handlingInstructions:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\ShipmentType:
                 inline: true
                 entry_name: HandlingInstructions
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\HandlingInstructions>
+            type: array<App\UBL\Common\CBC\HandlingInstructions>
         information:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\ShipmentType:
                 inline: true
                 entry_name: Information
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Information>
+            type: array<App\UBL\Common\CBC\Information>
         grossWeightMeasure:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getGrossWeightMeasure
                 setter: setGrossWeightMeasure
-            type: UBL\Common\CBC\GrossWeightMeasure
+            type: App\UBL\Common\CBC\GrossWeightMeasure
         netWeightMeasure:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getNetWeightMeasure
                 setter: setNetWeightMeasure
-            type: UBL\Common\CBC\NetWeightMeasure
+            type: App\UBL\Common\CBC\NetWeightMeasure
         netNetWeightMeasure:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getNetNetWeightMeasure
                 setter: setNetNetWeightMeasure
-            type: UBL\Common\CBC\NetNetWeightMeasure
+            type: App\UBL\Common\CBC\NetNetWeightMeasure
         grossVolumeMeasure:
             expose: true
             access_type: public_method
@@ -97,7 +97,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getGrossVolumeMeasure
                 setter: setGrossVolumeMeasure
-            type: UBL\Common\CBC\GrossVolumeMeasure
+            type: App\UBL\Common\CBC\GrossVolumeMeasure
         netVolumeMeasure:
             expose: true
             access_type: public_method
@@ -107,7 +107,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getNetVolumeMeasure
                 setter: setNetVolumeMeasure
-            type: UBL\Common\CBC\NetVolumeMeasure
+            type: App\UBL\Common\CBC\NetVolumeMeasure
         totalGoodsItemQuantity:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getTotalGoodsItemQuantity
                 setter: setTotalGoodsItemQuantity
-            type: UBL\Common\CBC\TotalGoodsItemQuantity
+            type: App\UBL\Common\CBC\TotalGoodsItemQuantity
         totalTransportHandlingUnitQuantity:
             expose: true
             access_type: public_method
@@ -127,7 +127,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getTotalTransportHandlingUnitQuantity
                 setter: setTotalTransportHandlingUnitQuantity
-            type: UBL\Common\CBC\TotalTransportHandlingUnitQuantity
+            type: App\UBL\Common\CBC\TotalTransportHandlingUnitQuantity
         insuranceValueAmount:
             expose: true
             access_type: public_method
@@ -137,7 +137,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getInsuranceValueAmount
                 setter: setInsuranceValueAmount
-            type: UBL\Common\CBC\InsuranceValueAmount
+            type: App\UBL\Common\CBC\InsuranceValueAmount
         declaredCustomsValueAmount:
             expose: true
             access_type: public_method
@@ -147,7 +147,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getDeclaredCustomsValueAmount
                 setter: setDeclaredCustomsValueAmount
-            type: UBL\Common\CBC\DeclaredCustomsValueAmount
+            type: App\UBL\Common\CBC\DeclaredCustomsValueAmount
         declaredForCarriageValueAmount:
             expose: true
             access_type: public_method
@@ -157,7 +157,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getDeclaredForCarriageValueAmount
                 setter: setDeclaredForCarriageValueAmount
-            type: UBL\Common\CBC\DeclaredForCarriageValueAmount
+            type: App\UBL\Common\CBC\DeclaredForCarriageValueAmount
         declaredStatisticsValueAmount:
             expose: true
             access_type: public_method
@@ -167,7 +167,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getDeclaredStatisticsValueAmount
                 setter: setDeclaredStatisticsValueAmount
-            type: UBL\Common\CBC\DeclaredStatisticsValueAmount
+            type: App\UBL\Common\CBC\DeclaredStatisticsValueAmount
         freeOnBoardValueAmount:
             expose: true
             access_type: public_method
@@ -177,7 +177,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getFreeOnBoardValueAmount
                 setter: setFreeOnBoardValueAmount
-            type: UBL\Common\CBC\FreeOnBoardValueAmount
+            type: App\UBL\Common\CBC\FreeOnBoardValueAmount
         specialInstructions:
             expose: true
             access_type: public_method
@@ -191,7 +191,7 @@ UBL\Common\CAC\ShipmentType:
                 inline: true
                 entry_name: SpecialInstructions
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\SpecialInstructions>
+            type: array<App\UBL\Common\CBC\SpecialInstructions>
         deliveryInstructions:
             expose: true
             access_type: public_method
@@ -205,7 +205,7 @@ UBL\Common\CAC\ShipmentType:
                 inline: true
                 entry_name: DeliveryInstructions
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\DeliveryInstructions>
+            type: array<App\UBL\Common\CBC\DeliveryInstructions>
         splitConsignmentIndicator:
             expose: true
             access_type: public_method
@@ -225,7 +225,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getConsignmentQuantity
                 setter: setConsignmentQuantity
-            type: UBL\Common\CBC\ConsignmentQuantity
+            type: App\UBL\Common\CBC\ConsignmentQuantity
         consignment:
             expose: true
             access_type: public_method
@@ -239,7 +239,7 @@ UBL\Common\CAC\ShipmentType:
                 inline: true
                 entry_name: Consignment
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Consignment>
+            type: array<App\UBL\Common\CAC\Consignment>
         goodsItem:
             expose: true
             access_type: public_method
@@ -253,7 +253,7 @@ UBL\Common\CAC\ShipmentType:
                 inline: true
                 entry_name: GoodsItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\GoodsItem>
+            type: array<App\UBL\Common\CAC\GoodsItem>
         shipmentStage:
             expose: true
             access_type: public_method
@@ -267,7 +267,7 @@ UBL\Common\CAC\ShipmentType:
                 inline: true
                 entry_name: ShipmentStage
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ShipmentStage>
+            type: array<App\UBL\Common\CAC\ShipmentStage>
         delivery:
             expose: true
             access_type: public_method
@@ -277,7 +277,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getDelivery
                 setter: setDelivery
-            type: UBL\Common\CAC\Delivery
+            type: App\UBL\Common\CAC\Delivery
         transportHandlingUnit:
             expose: true
             access_type: public_method
@@ -291,7 +291,7 @@ UBL\Common\CAC\ShipmentType:
                 inline: true
                 entry_name: TransportHandlingUnit
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TransportHandlingUnit>
+            type: array<App\UBL\Common\CAC\TransportHandlingUnit>
         returnAddress:
             expose: true
             access_type: public_method
@@ -301,7 +301,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getReturnAddress
                 setter: setReturnAddress
-            type: UBL\Common\CAC\ReturnAddress
+            type: App\UBL\Common\CAC\ReturnAddress
         originAddress:
             expose: true
             access_type: public_method
@@ -311,7 +311,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getOriginAddress
                 setter: setOriginAddress
-            type: UBL\Common\CAC\OriginAddress
+            type: App\UBL\Common\CAC\OriginAddress
         firstArrivalPortLocation:
             expose: true
             access_type: public_method
@@ -321,7 +321,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getFirstArrivalPortLocation
                 setter: setFirstArrivalPortLocation
-            type: UBL\Common\CAC\FirstArrivalPortLocation
+            type: App\UBL\Common\CAC\FirstArrivalPortLocation
         lastExitPortLocation:
             expose: true
             access_type: public_method
@@ -331,7 +331,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getLastExitPortLocation
                 setter: setLastExitPortLocation
-            type: UBL\Common\CAC\LastExitPortLocation
+            type: App\UBL\Common\CAC\LastExitPortLocation
         exportCountry:
             expose: true
             access_type: public_method
@@ -341,7 +341,7 @@ UBL\Common\CAC\ShipmentType:
             accessor:
                 getter: getExportCountry
                 setter: setExportCountry
-            type: UBL\Common\CAC\ExportCountry
+            type: App\UBL\Common\CAC\ExportCountry
         freightAllowanceCharge:
             expose: true
             access_type: public_method
@@ -355,4 +355,4 @@ UBL\Common\CAC\ShipmentType:
                 inline: true
                 entry_name: FreightAllowanceCharge
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\FreightAllowanceCharge>
+            type: array<App\UBL\Common\CAC\FreightAllowanceCharge>

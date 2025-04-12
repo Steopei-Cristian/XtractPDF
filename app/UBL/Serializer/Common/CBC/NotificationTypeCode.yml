@@ -1,3 +1,3 @@
-UBL\Common\CBC\NotificationTypeCode:
+App\UBL\Common\CBC\NotificationTypeCode:
     xml_root_name: NotificationTypeCode
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

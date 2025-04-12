@@ -9,4 +9,3 @@ class ProgressPercent extends ProgressPercentType
 {
 }
 
-

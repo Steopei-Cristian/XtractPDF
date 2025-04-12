@@ -1,4 +1,4 @@
-UBL\Common\CBC\ResolutionDateType:
+App\UBL\Common\CBC\ResolutionDateType:
     properties:
         __value:
             expose: true

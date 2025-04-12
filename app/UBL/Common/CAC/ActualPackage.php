@@ -9,4 +9,3 @@ class ActualPackage extends PackageType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CAC\CertificateType:
+App\UBL\Common\CAC\CertificateType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CertificateType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         certificateTypeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\CertificateType:
             accessor:
                 getter: getCertificateTypeCode
                 setter: setCertificateTypeCode
-            type: UBL\Common\CBC\CertificateTypeCode
+            type: App\UBL\Common\CBC\CertificateTypeCode
         certificateType:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\CertificateType:
             accessor:
                 getter: getCertificateType
                 setter: setCertificateType
-            type: UBL\Common\CBC\CertificateType
+            type: App\UBL\Common\CBC\CertificateType
         remarks:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\CertificateType:
                 inline: true
                 entry_name: Remarks
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Remarks>
+            type: array<App\UBL\Common\CBC\Remarks>
         issuerParty:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\CertificateType:
             accessor:
                 getter: getIssuerParty
                 setter: setIssuerParty
-            type: UBL\Common\CAC\IssuerParty
+            type: App\UBL\Common\CAC\IssuerParty
         documentReference:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\CertificateType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>
         signature:
             expose: true
             access_type: public_method
@@ -81,4 +81,4 @@ UBL\Common\CAC\CertificateType:
                 inline: true
                 entry_name: Signature
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Signature>
+            type: array<App\UBL\Common\CAC\Signature>

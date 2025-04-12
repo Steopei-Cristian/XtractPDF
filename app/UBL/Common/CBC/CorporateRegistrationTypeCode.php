@@ -9,4 +9,3 @@ class CorporateRegistrationTypeCode extends CorporateRegistrationTypeCodeType
 {
 }
 
-

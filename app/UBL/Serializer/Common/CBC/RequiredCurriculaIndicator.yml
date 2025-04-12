@@ -1,4 +1,4 @@
-UBL\Common\CBC\RequiredCurriculaIndicator:
+App\UBL\Common\CBC\RequiredCurriculaIndicator:
     xml_root_name: RequiredCurriculaIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

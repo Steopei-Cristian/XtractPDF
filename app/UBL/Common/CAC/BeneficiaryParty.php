@@ -9,4 +9,3 @@ class BeneficiaryParty extends PartyType
 {
 }
 
-

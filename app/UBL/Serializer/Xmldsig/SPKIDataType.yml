@@ -1,4 +1,4 @@
-UBL\Xmldsig\SPKIDataType:
+App\UBL\Xmldsig\SPKIDataType:
     properties:
         sPKISexp:
             expose: true

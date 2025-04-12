@@ -1,3 +1,3 @@
-UBL\Common\CAC\PaymentMeans:
+App\UBL\Common\CAC\PaymentMeans:
     xml_root_name: PaymentMeans
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

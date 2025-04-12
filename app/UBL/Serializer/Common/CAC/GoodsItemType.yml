@@ -1,4 +1,4 @@
-UBL\Common\CAC\GoodsItemType:
+App\UBL\Common\CAC\GoodsItemType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         sequenceNumberID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getSequenceNumberID
                 setter: setSequenceNumberID
-            type: UBL\Common\CBC\SequenceNumberID
+            type: App\UBL\Common\CBC\SequenceNumberID
         description:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\GoodsItemType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         hazardousRiskIndicator:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getDeclaredCustomsValueAmount
                 setter: setDeclaredCustomsValueAmount
-            type: UBL\Common\CBC\DeclaredCustomsValueAmount
+            type: App\UBL\Common\CBC\DeclaredCustomsValueAmount
         declaredForCarriageValueAmount:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getDeclaredForCarriageValueAmount
                 setter: setDeclaredForCarriageValueAmount
-            type: UBL\Common\CBC\DeclaredForCarriageValueAmount
+            type: App\UBL\Common\CBC\DeclaredForCarriageValueAmount
         declaredStatisticsValueAmount:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getDeclaredStatisticsValueAmount
                 setter: setDeclaredStatisticsValueAmount
-            type: UBL\Common\CBC\DeclaredStatisticsValueAmount
+            type: App\UBL\Common\CBC\DeclaredStatisticsValueAmount
         freeOnBoardValueAmount:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getFreeOnBoardValueAmount
                 setter: setFreeOnBoardValueAmount
-            type: UBL\Common\CBC\FreeOnBoardValueAmount
+            type: App\UBL\Common\CBC\FreeOnBoardValueAmount
         insuranceValueAmount:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getInsuranceValueAmount
                 setter: setInsuranceValueAmount
-            type: UBL\Common\CBC\InsuranceValueAmount
+            type: App\UBL\Common\CBC\InsuranceValueAmount
         valueAmount:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getValueAmount
                 setter: setValueAmount
-            type: UBL\Common\CBC\ValueAmount
+            type: App\UBL\Common\CBC\ValueAmount
         grossWeightMeasure:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getGrossWeightMeasure
                 setter: setGrossWeightMeasure
-            type: UBL\Common\CBC\GrossWeightMeasure
+            type: App\UBL\Common\CBC\GrossWeightMeasure
         netWeightMeasure:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getNetWeightMeasure
                 setter: setNetWeightMeasure
-            type: UBL\Common\CBC\NetWeightMeasure
+            type: App\UBL\Common\CBC\NetWeightMeasure
         netNetWeightMeasure:
             expose: true
             access_type: public_method
@@ -133,7 +133,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getNetNetWeightMeasure
                 setter: setNetNetWeightMeasure
-            type: UBL\Common\CBC\NetNetWeightMeasure
+            type: App\UBL\Common\CBC\NetNetWeightMeasure
         chargeableWeightMeasure:
             expose: true
             access_type: public_method
@@ -143,7 +143,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getChargeableWeightMeasure
                 setter: setChargeableWeightMeasure
-            type: UBL\Common\CBC\ChargeableWeightMeasure
+            type: App\UBL\Common\CBC\ChargeableWeightMeasure
         grossVolumeMeasure:
             expose: true
             access_type: public_method
@@ -153,7 +153,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getGrossVolumeMeasure
                 setter: setGrossVolumeMeasure
-            type: UBL\Common\CBC\GrossVolumeMeasure
+            type: App\UBL\Common\CBC\GrossVolumeMeasure
         netVolumeMeasure:
             expose: true
             access_type: public_method
@@ -163,7 +163,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getNetVolumeMeasure
                 setter: setNetVolumeMeasure
-            type: UBL\Common\CBC\NetVolumeMeasure
+            type: App\UBL\Common\CBC\NetVolumeMeasure
         quantity:
             expose: true
             access_type: public_method
@@ -173,7 +173,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         preferenceCriterionCode:
             expose: true
             access_type: public_method
@@ -183,7 +183,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getPreferenceCriterionCode
                 setter: setPreferenceCriterionCode
-            type: UBL\Common\CBC\PreferenceCriterionCode
+            type: App\UBL\Common\CBC\PreferenceCriterionCode
         requiredCustomsID:
             expose: true
             access_type: public_method
@@ -193,7 +193,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getRequiredCustomsID
                 setter: setRequiredCustomsID
-            type: UBL\Common\CBC\RequiredCustomsID
+            type: App\UBL\Common\CBC\RequiredCustomsID
         customsStatusCode:
             expose: true
             access_type: public_method
@@ -203,7 +203,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getCustomsStatusCode
                 setter: setCustomsStatusCode
-            type: UBL\Common\CBC\CustomsStatusCode
+            type: App\UBL\Common\CBC\CustomsStatusCode
         customsTariffQuantity:
             expose: true
             access_type: public_method
@@ -213,7 +213,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getCustomsTariffQuantity
                 setter: setCustomsTariffQuantity
-            type: UBL\Common\CBC\CustomsTariffQuantity
+            type: App\UBL\Common\CBC\CustomsTariffQuantity
         customsImportClassifiedIndicator:
             expose: true
             access_type: public_method
@@ -233,7 +233,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getChargeableQuantity
                 setter: setChargeableQuantity
-            type: UBL\Common\CBC\ChargeableQuantity
+            type: App\UBL\Common\CBC\ChargeableQuantity
         returnableQuantity:
             expose: true
             access_type: public_method
@@ -243,7 +243,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getReturnableQuantity
                 setter: setReturnableQuantity
-            type: UBL\Common\CBC\ReturnableQuantity
+            type: App\UBL\Common\CBC\ReturnableQuantity
         traceID:
             expose: true
             access_type: public_method
@@ -253,7 +253,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getTraceID
                 setter: setTraceID
-            type: UBL\Common\CBC\TraceID
+            type: App\UBL\Common\CBC\TraceID
         item:
             expose: true
             access_type: public_method
@@ -267,7 +267,7 @@ UBL\Common\CAC\GoodsItemType:
                 inline: true
                 entry_name: Item
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Item>
+            type: array<App\UBL\Common\CAC\Item>
         goodsItemContainer:
             expose: true
             access_type: public_method
@@ -281,7 +281,7 @@ UBL\Common\CAC\GoodsItemType:
                 inline: true
                 entry_name: GoodsItemContainer
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\GoodsItemContainer>
+            type: array<App\UBL\Common\CAC\GoodsItemContainer>
         freightAllowanceCharge:
             expose: true
             access_type: public_method
@@ -295,7 +295,7 @@ UBL\Common\CAC\GoodsItemType:
                 inline: true
                 entry_name: FreightAllowanceCharge
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\FreightAllowanceCharge>
+            type: array<App\UBL\Common\CAC\FreightAllowanceCharge>
         invoiceLine:
             expose: true
             access_type: public_method
@@ -309,7 +309,7 @@ UBL\Common\CAC\GoodsItemType:
                 inline: true
                 entry_name: InvoiceLine
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\InvoiceLine>
+            type: array<App\UBL\Common\CAC\InvoiceLine>
         temperature:
             expose: true
             access_type: public_method
@@ -323,7 +323,7 @@ UBL\Common\CAC\GoodsItemType:
                 inline: true
                 entry_name: Temperature
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Temperature>
+            type: array<App\UBL\Common\CAC\Temperature>
         containedGoodsItem:
             expose: true
             access_type: public_method
@@ -337,7 +337,7 @@ UBL\Common\CAC\GoodsItemType:
                 inline: true
                 entry_name: ContainedGoodsItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ContainedGoodsItem>
+            type: array<App\UBL\Common\CAC\ContainedGoodsItem>
         originAddress:
             expose: true
             access_type: public_method
@@ -347,7 +347,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getOriginAddress
                 setter: setOriginAddress
-            type: UBL\Common\CAC\OriginAddress
+            type: App\UBL\Common\CAC\OriginAddress
         delivery:
             expose: true
             access_type: public_method
@@ -357,7 +357,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getDelivery
                 setter: setDelivery
-            type: UBL\Common\CAC\Delivery
+            type: App\UBL\Common\CAC\Delivery
         pickup:
             expose: true
             access_type: public_method
@@ -367,7 +367,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getPickup
                 setter: setPickup
-            type: UBL\Common\CAC\Pickup
+            type: App\UBL\Common\CAC\Pickup
         despatch:
             expose: true
             access_type: public_method
@@ -377,7 +377,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getDespatch
                 setter: setDespatch
-            type: UBL\Common\CAC\Despatch
+            type: App\UBL\Common\CAC\Despatch
         measurementDimension:
             expose: true
             access_type: public_method
@@ -391,7 +391,7 @@ UBL\Common\CAC\GoodsItemType:
                 inline: true
                 entry_name: MeasurementDimension
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\MeasurementDimension>
+            type: array<App\UBL\Common\CAC\MeasurementDimension>
         containingPackage:
             expose: true
             access_type: public_method
@@ -405,7 +405,7 @@ UBL\Common\CAC\GoodsItemType:
                 inline: true
                 entry_name: ContainingPackage
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ContainingPackage>
+            type: array<App\UBL\Common\CAC\ContainingPackage>
         shipmentDocumentReference:
             expose: true
             access_type: public_method
@@ -415,7 +415,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getShipmentDocumentReference
                 setter: setShipmentDocumentReference
-            type: UBL\Common\CAC\ShipmentDocumentReference
+            type: App\UBL\Common\CAC\ShipmentDocumentReference
         minimumTemperature:
             expose: true
             access_type: public_method
@@ -425,7 +425,7 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getMinimumTemperature
                 setter: setMinimumTemperature
-            type: UBL\Common\CAC\MinimumTemperature
+            type: App\UBL\Common\CAC\MinimumTemperature
         maximumTemperature:
             expose: true
             access_type: public_method
@@ -435,4 +435,4 @@ UBL\Common\CAC\GoodsItemType:
             accessor:
                 getter: getMaximumTemperature
                 setter: setMaximumTemperature
-            type: UBL\Common\CAC\MaximumTemperature
+            type: App\UBL\Common\CAC\MaximumTemperature

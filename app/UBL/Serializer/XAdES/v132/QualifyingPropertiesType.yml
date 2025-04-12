@@ -1,4 +1,4 @@
-UBL\XAdES\v132\QualifyingPropertiesType:
+App\UBL\XAdES\v132\QualifyingPropertiesType:
     properties:
         target:
             expose: true
@@ -27,7 +27,7 @@ UBL\XAdES\v132\QualifyingPropertiesType:
             accessor:
                 getter: getSignedProperties
                 setter: setSignedProperties
-            type: UBL\XAdES\v132\SignedPropertiesType
+            type: App\UBL\XAdES\v132\SignedPropertiesType
         unsignedProperties:
             expose: true
             access_type: public_method
@@ -37,4 +37,4 @@ UBL\XAdES\v132\QualifyingPropertiesType:
             accessor:
                 getter: getUnsignedProperties
                 setter: setUnsignedProperties
-            type: UBL\XAdES\v132\UnsignedPropertiesType
+            type: App\UBL\XAdES\v132\UnsignedPropertiesType

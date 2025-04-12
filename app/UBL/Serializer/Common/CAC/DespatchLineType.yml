@@ -1,4 +1,4 @@
-UBL\Common\CAC\DespatchLineType:
+App\UBL\Common\CAC\DespatchLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\DespatchLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         uUID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\DespatchLineType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         note:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\DespatchLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         lineStatusCode:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\DespatchLineType:
             accessor:
                 getter: getLineStatusCode
                 setter: setLineStatusCode
-            type: UBL\Common\CBC\LineStatusCode
+            type: App\UBL\Common\CBC\LineStatusCode
         deliveredQuantity:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\DespatchLineType:
             accessor:
                 getter: getDeliveredQuantity
                 setter: setDeliveredQuantity
-            type: UBL\Common\CBC\DeliveredQuantity
+            type: App\UBL\Common\CBC\DeliveredQuantity
         backorderQuantity:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\DespatchLineType:
             accessor:
                 getter: getBackorderQuantity
                 setter: setBackorderQuantity
-            type: UBL\Common\CBC\BackorderQuantity
+            type: App\UBL\Common\CBC\BackorderQuantity
         backorderReason:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\DespatchLineType:
                 inline: true
                 entry_name: BackorderReason
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\BackorderReason>
+            type: array<App\UBL\Common\CBC\BackorderReason>
         outstandingQuantity:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\DespatchLineType:
             accessor:
                 getter: getOutstandingQuantity
                 setter: setOutstandingQuantity
-            type: UBL\Common\CBC\OutstandingQuantity
+            type: App\UBL\Common\CBC\OutstandingQuantity
         outstandingReason:
             expose: true
             access_type: public_method
@@ -101,7 +101,7 @@ UBL\Common\CAC\DespatchLineType:
                 inline: true
                 entry_name: OutstandingReason
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\OutstandingReason>
+            type: array<App\UBL\Common\CBC\OutstandingReason>
         oversupplyQuantity:
             expose: true
             access_type: public_method
@@ -111,7 +111,7 @@ UBL\Common\CAC\DespatchLineType:
             accessor:
                 getter: getOversupplyQuantity
                 setter: setOversupplyQuantity
-            type: UBL\Common\CBC\OversupplyQuantity
+            type: App\UBL\Common\CBC\OversupplyQuantity
         orderLineReference:
             expose: true
             access_type: public_method
@@ -125,7 +125,7 @@ UBL\Common\CAC\DespatchLineType:
                 inline: true
                 entry_name: OrderLineReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\OrderLineReference>
+            type: array<App\UBL\Common\CAC\OrderLineReference>
         documentReference:
             expose: true
             access_type: public_method
@@ -139,7 +139,7 @@ UBL\Common\CAC\DespatchLineType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>
         item:
             expose: true
             access_type: public_method
@@ -149,7 +149,7 @@ UBL\Common\CAC\DespatchLineType:
             accessor:
                 getter: getItem
                 setter: setItem
-            type: UBL\Common\CAC\Item
+            type: App\UBL\Common\CAC\Item
         shipment:
             expose: true
             access_type: public_method
@@ -163,4 +163,4 @@ UBL\Common\CAC\DespatchLineType:
                 inline: true
                 entry_name: Shipment
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Shipment>
+            type: array<App\UBL\Common\CAC\Shipment>

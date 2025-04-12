@@ -9,4 +9,3 @@ class TransportUserParty extends PartyType
 {
 }
 
-

@@ -1,2 +1,2 @@
-UBL\Common\CBC\CallBaseAmountType:
+App\UBL\Common\CBC\CallBaseAmountType:
     properties: {  }

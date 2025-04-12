@@ -9,4 +9,3 @@ class SealStatusCode extends SealStatusCodeType
 {
 }
 
-

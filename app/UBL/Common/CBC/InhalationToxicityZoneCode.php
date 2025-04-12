@@ -9,4 +9,3 @@ class InhalationToxicityZoneCode extends InhalationToxicityZoneCodeType
 {
 }
 
-

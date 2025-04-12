@@ -23,7 +23,7 @@ class EndorsementType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\DocumentID $documentID
+     * @var \App\UBL\Common\CBC\DocumentID $documentID
      */
     private $documentID = null;
 
@@ -38,7 +38,7 @@ class EndorsementType
      *  Text. Type
      *  Authentication Code
      *
-     * @var \UBL\Common\CBC\ApprovalStatus $approvalStatus
+     * @var \App\UBL\Common\CBC\ApprovalStatus $approvalStatus
      */
     private $approvalStatus = null;
 
@@ -52,7 +52,7 @@ class EndorsementType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Remarks[] $remarks
+     * @var \App\UBL\Common\CBC\Remarks[] $remarks
      */
     private $remarks = [
         
@@ -68,7 +68,7 @@ class EndorsementType
      *  Endorser Party
      *  Endorser Party
      *
-     * @var \UBL\Common\CAC\EndorserParty $endorserParty
+     * @var \App\UBL\Common\CAC\EndorserParty $endorserParty
      */
     private $endorserParty = null;
 
@@ -82,7 +82,7 @@ class EndorsementType
      *  Signature
      *  Signature
      *
-     * @var \UBL\Common\CAC\Signature[] $signature
+     * @var \App\UBL\Common\CAC\Signature[] $signature
      */
     private $signature = [
         
@@ -100,7 +100,7 @@ class EndorsementType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\DocumentID
+     * @return \App\UBL\Common\CBC\DocumentID
      */
     public function getDocumentID()
     {
@@ -119,10 +119,10 @@ class EndorsementType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\DocumentID $documentID
+     * @param \App\UBL\Common\CBC\DocumentID $documentID
      * @return self
      */
-    public function setDocumentID(\UBL\Common\CBC\DocumentID $documentID)
+    public function setDocumentID(\App\UBL\Common\CBC\DocumentID $documentID)
     {
         $this->documentID = $documentID;
         return $this;
@@ -141,7 +141,7 @@ class EndorsementType
      *  Text. Type
      *  Authentication Code
      *
-     * @return \UBL\Common\CBC\ApprovalStatus
+     * @return \App\UBL\Common\CBC\ApprovalStatus
      */
     public function getApprovalStatus()
     {
@@ -161,10 +161,10 @@ class EndorsementType
      *  Text. Type
      *  Authentication Code
      *
-     * @param \UBL\Common\CBC\ApprovalStatus $approvalStatus
+     * @param \App\UBL\Common\CBC\ApprovalStatus $approvalStatus
      * @return self
      */
-    public function setApprovalStatus(\UBL\Common\CBC\ApprovalStatus $approvalStatus)
+    public function setApprovalStatus(\App\UBL\Common\CBC\ApprovalStatus $approvalStatus)
     {
         $this->approvalStatus = $approvalStatus;
         return $this;
@@ -183,9 +183,9 @@ class EndorsementType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Remarks $remarks
+     * @param \App\UBL\Common\CBC\Remarks $remarks
      */
-    public function addToRemarks(\UBL\Common\CBC\Remarks $remarks)
+    public function addToRemarks(\App\UBL\Common\CBC\Remarks $remarks)
     {
         $this->remarks[] = $remarks;
         return $this;
@@ -243,7 +243,7 @@ class EndorsementType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Remarks[]
+     * @return \App\UBL\Common\CBC\Remarks[]
      */
     public function getRemarks()
     {
@@ -262,7 +262,7 @@ class EndorsementType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Remarks[] $remarks
+     * @param \App\UBL\Common\CBC\Remarks[] $remarks
      * @return self
      */
     public function setRemarks(?array $remarks = null)
@@ -283,7 +283,7 @@ class EndorsementType
      *  Endorser Party
      *  Endorser Party
      *
-     * @return \UBL\Common\CAC\EndorserParty
+     * @return \App\UBL\Common\CAC\EndorserParty
      */
     public function getEndorserParty()
     {
@@ -302,10 +302,10 @@ class EndorsementType
      *  Endorser Party
      *  Endorser Party
      *
-     * @param \UBL\Common\CAC\EndorserParty $endorserParty
+     * @param \App\UBL\Common\CAC\EndorserParty $endorserParty
      * @return self
      */
-    public function setEndorserParty(\UBL\Common\CAC\EndorserParty $endorserParty)
+    public function setEndorserParty(\App\UBL\Common\CAC\EndorserParty $endorserParty)
     {
         $this->endorserParty = $endorserParty;
         return $this;
@@ -324,9 +324,9 @@ class EndorsementType
      *  Signature
      *
      * @return self
-     * @param \UBL\Common\CAC\Signature $signature
+     * @param \App\UBL\Common\CAC\Signature $signature
      */
-    public function addToSignature(\UBL\Common\CAC\Signature $signature)
+    public function addToSignature(\App\UBL\Common\CAC\Signature $signature)
     {
         $this->signature[] = $signature;
         return $this;
@@ -384,7 +384,7 @@ class EndorsementType
      *  Signature
      *  Signature
      *
-     * @return \UBL\Common\CAC\Signature[]
+     * @return \App\UBL\Common\CAC\Signature[]
      */
     public function getSignature()
     {
@@ -403,7 +403,7 @@ class EndorsementType
      *  Signature
      *  Signature
      *
-     * @param \UBL\Common\CAC\Signature[] $signature
+     * @param \App\UBL\Common\CAC\Signature[] $signature
      * @return self
      */
     public function setSignature(?array $signature = null)
@@ -412,5 +412,4 @@ class EndorsementType
         return $this;
     }
 }
-
 

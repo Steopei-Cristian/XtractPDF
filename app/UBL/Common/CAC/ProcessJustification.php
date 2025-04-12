@@ -9,4 +9,3 @@ class ProcessJustification extends ProcessJustificationType
 {
 }
 
-

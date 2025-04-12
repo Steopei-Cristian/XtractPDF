@@ -9,4 +9,3 @@ class InvoicedQuantity extends InvoicedQuantityType
 {
 }
 
-

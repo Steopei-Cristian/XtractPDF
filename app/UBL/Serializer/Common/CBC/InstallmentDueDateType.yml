@@ -1,4 +1,4 @@
-UBL\Common\CBC\InstallmentDueDateType:
+App\UBL\Common\CBC\InstallmentDueDateType:
     properties:
         __value:
             expose: true

@@ -9,4 +9,3 @@ class AcceptedVariantsDescription extends AcceptedVariantsDescriptionType
 {
 }
 
-

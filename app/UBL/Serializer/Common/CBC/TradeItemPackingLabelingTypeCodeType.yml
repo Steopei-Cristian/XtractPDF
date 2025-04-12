@@ -1,2 +1,2 @@
-UBL\Common\CBC\TradeItemPackingLabelingTypeCodeType:
+App\UBL\Common\CBC\TradeItemPackingLabelingTypeCodeType:
     properties: {  }

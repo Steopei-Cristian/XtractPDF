@@ -9,4 +9,3 @@ class CarrierServiceInstructions extends CarrierServiceInstructionsType
 {
 }
 
-

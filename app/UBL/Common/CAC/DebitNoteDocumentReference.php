@@ -9,4 +9,3 @@ class DebitNoteDocumentReference extends DocumentReferenceType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ActivityType extends ActivityTypeType
 {
 }
 
-

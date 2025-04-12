@@ -9,4 +9,3 @@ class TrainID extends TrainIDType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CAC\AttachmentType:
+App\UBL\Common\CAC\AttachmentType:
     properties:
         embeddedDocumentBinaryObject:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\AttachmentType:
             accessor:
                 getter: getEmbeddedDocumentBinaryObject
                 setter: setEmbeddedDocumentBinaryObject
-            type: UBL\Common\CBC\EmbeddedDocumentBinaryObject
+            type: App\UBL\Common\CBC\EmbeddedDocumentBinaryObject
         externalReference:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ UBL\Common\CAC\AttachmentType:
             accessor:
                 getter: getExternalReference
                 setter: setExternalReference
-            type: UBL\Common\CAC\ExternalReference
+            type: App\UBL\Common\CAC\ExternalReference

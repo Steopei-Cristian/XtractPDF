@@ -1,4 +1,4 @@
-UBL\Common\CAC\ReceiptLineType:
+App\UBL\Common\CAC\ReceiptLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ReceiptLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         uUID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ReceiptLineType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         note:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\ReceiptLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         receivedQuantity:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\ReceiptLineType:
             accessor:
                 getter: getReceivedQuantity
                 setter: setReceivedQuantity
-            type: UBL\Common\CBC\ReceivedQuantity
+            type: App\UBL\Common\CBC\ReceivedQuantity
         shortQuantity:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\ReceiptLineType:
             accessor:
                 getter: getShortQuantity
                 setter: setShortQuantity
-            type: UBL\Common\CBC\ShortQuantity
+            type: App\UBL\Common\CBC\ShortQuantity
         shortageActionCode:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\ReceiptLineType:
             accessor:
                 getter: getShortageActionCode
                 setter: setShortageActionCode
-            type: UBL\Common\CBC\ShortageActionCode
+            type: App\UBL\Common\CBC\ShortageActionCode
         rejectedQuantity:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\ReceiptLineType:
             accessor:
                 getter: getRejectedQuantity
                 setter: setRejectedQuantity
-            type: UBL\Common\CBC\RejectedQuantity
+            type: App\UBL\Common\CBC\RejectedQuantity
         rejectReasonCode:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\ReceiptLineType:
             accessor:
                 getter: getRejectReasonCode
                 setter: setRejectReasonCode
-            type: UBL\Common\CBC\RejectReasonCode
+            type: App\UBL\Common\CBC\RejectReasonCode
         rejectReason:
             expose: true
             access_type: public_method
@@ -97,7 +97,7 @@ UBL\Common\CAC\ReceiptLineType:
                 inline: true
                 entry_name: RejectReason
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\RejectReason>
+            type: array<App\UBL\Common\CBC\RejectReason>
         rejectActionCode:
             expose: true
             access_type: public_method
@@ -107,7 +107,7 @@ UBL\Common\CAC\ReceiptLineType:
             accessor:
                 getter: getRejectActionCode
                 setter: setRejectActionCode
-            type: UBL\Common\CBC\RejectActionCode
+            type: App\UBL\Common\CBC\RejectActionCode
         quantityDiscrepancyCode:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ UBL\Common\CAC\ReceiptLineType:
             accessor:
                 getter: getQuantityDiscrepancyCode
                 setter: setQuantityDiscrepancyCode
-            type: UBL\Common\CBC\QuantityDiscrepancyCode
+            type: App\UBL\Common\CBC\QuantityDiscrepancyCode
         oversupplyQuantity:
             expose: true
             access_type: public_method
@@ -127,7 +127,7 @@ UBL\Common\CAC\ReceiptLineType:
             accessor:
                 getter: getOversupplyQuantity
                 setter: setOversupplyQuantity
-            type: UBL\Common\CBC\OversupplyQuantity
+            type: App\UBL\Common\CBC\OversupplyQuantity
         receivedDate:
             expose: true
             access_type: public_method
@@ -147,7 +147,7 @@ UBL\Common\CAC\ReceiptLineType:
             accessor:
                 getter: getTimingComplaintCode
                 setter: setTimingComplaintCode
-            type: UBL\Common\CBC\TimingComplaintCode
+            type: App\UBL\Common\CBC\TimingComplaintCode
         timingComplaint:
             expose: true
             access_type: public_method
@@ -157,7 +157,7 @@ UBL\Common\CAC\ReceiptLineType:
             accessor:
                 getter: getTimingComplaint
                 setter: setTimingComplaint
-            type: UBL\Common\CBC\TimingComplaint
+            type: App\UBL\Common\CBC\TimingComplaint
         orderLineReference:
             expose: true
             access_type: public_method
@@ -167,7 +167,7 @@ UBL\Common\CAC\ReceiptLineType:
             accessor:
                 getter: getOrderLineReference
                 setter: setOrderLineReference
-            type: UBL\Common\CAC\OrderLineReference
+            type: App\UBL\Common\CAC\OrderLineReference
         despatchLineReference:
             expose: true
             access_type: public_method
@@ -181,7 +181,7 @@ UBL\Common\CAC\ReceiptLineType:
                 inline: true
                 entry_name: DespatchLineReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DespatchLineReference>
+            type: array<App\UBL\Common\CAC\DespatchLineReference>
         documentReference:
             expose: true
             access_type: public_method
@@ -195,7 +195,7 @@ UBL\Common\CAC\ReceiptLineType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>
         item:
             expose: true
             access_type: public_method
@@ -209,7 +209,7 @@ UBL\Common\CAC\ReceiptLineType:
                 inline: true
                 entry_name: Item
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Item>
+            type: array<App\UBL\Common\CAC\Item>
         shipment:
             expose: true
             access_type: public_method
@@ -223,4 +223,4 @@ UBL\Common\CAC\ReceiptLineType:
                 inline: true
                 entry_name: Shipment
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Shipment>
+            type: array<App\UBL\Common\CAC\Shipment>

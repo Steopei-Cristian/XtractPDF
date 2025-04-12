@@ -9,4 +9,3 @@ class StatementDocumentReference extends DocumentReferenceType
 {
 }
 
-

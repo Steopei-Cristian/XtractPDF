@@ -9,4 +9,3 @@ class PackagedTransportHandlingUnit extends TransportHandlingUnitType
 {
 }
 
-

@@ -23,7 +23,7 @@ class PaymentTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class PaymentTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\PaymentMeansID[] $paymentMeansID
+     * @var \App\UBL\Common\CBC\PaymentMeansID[] $paymentMeansID
      */
     private $paymentMeansID = [
         
@@ -53,7 +53,7 @@ class PaymentTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\PrepaidPaymentReferenceID $prepaidPaymentReferenceID
+     * @var \App\UBL\Common\CBC\PrepaidPaymentReferenceID $prepaidPaymentReferenceID
      */
     private $prepaidPaymentReferenceID = null;
 
@@ -67,7 +67,7 @@ class PaymentTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -84,7 +84,7 @@ class PaymentTermsType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ReferenceEventCode $referenceEventCode
+     * @var \App\UBL\Common\CBC\ReferenceEventCode $referenceEventCode
      */
     private $referenceEventCode = null;
 
@@ -99,7 +99,7 @@ class PaymentTermsType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\SettlementDiscountPercent $settlementDiscountPercent
+     * @var \App\UBL\Common\CBC\SettlementDiscountPercent $settlementDiscountPercent
      */
     private $settlementDiscountPercent = null;
 
@@ -114,7 +114,7 @@ class PaymentTermsType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\PenaltySurchargePercent $penaltySurchargePercent
+     * @var \App\UBL\Common\CBC\PenaltySurchargePercent $penaltySurchargePercent
      */
     private $penaltySurchargePercent = null;
 
@@ -128,7 +128,7 @@ class PaymentTermsType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\PaymentPercent $paymentPercent
+     * @var \App\UBL\Common\CBC\PaymentPercent $paymentPercent
      */
     private $paymentPercent = null;
 
@@ -142,7 +142,7 @@ class PaymentTermsType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\Amount $amount
+     * @var \App\UBL\Common\CBC\Amount $amount
      */
     private $amount = null;
 
@@ -157,7 +157,7 @@ class PaymentTermsType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\SettlementDiscountAmount $settlementDiscountAmount
+     * @var \App\UBL\Common\CBC\SettlementDiscountAmount $settlementDiscountAmount
      */
     private $settlementDiscountAmount = null;
 
@@ -172,7 +172,7 @@ class PaymentTermsType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\PenaltyAmount $penaltyAmount
+     * @var \App\UBL\Common\CBC\PenaltyAmount $penaltyAmount
      */
     private $penaltyAmount = null;
 
@@ -186,7 +186,7 @@ class PaymentTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\PaymentTermsDetailsURI $paymentTermsDetailsURI
+     * @var \App\UBL\Common\CBC\PaymentTermsDetailsURI $paymentTermsDetailsURI
      */
     private $paymentTermsDetailsURI = null;
 
@@ -229,7 +229,7 @@ class PaymentTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\InvoicingPartyReference $invoicingPartyReference
+     * @var \App\UBL\Common\CBC\InvoicingPartyReference $invoicingPartyReference
      */
     private $invoicingPartyReference = null;
 
@@ -244,7 +244,7 @@ class PaymentTermsType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\SettlementPeriod $settlementPeriod
+     * @var \App\UBL\Common\CAC\SettlementPeriod $settlementPeriod
      */
     private $settlementPeriod = null;
 
@@ -259,7 +259,7 @@ class PaymentTermsType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\PenaltyPeriod $penaltyPeriod
+     * @var \App\UBL\Common\CAC\PenaltyPeriod $penaltyPeriod
      */
     private $penaltyPeriod = null;
 
@@ -273,7 +273,7 @@ class PaymentTermsType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @var \UBL\Common\CAC\ExchangeRate $exchangeRate
+     * @var \App\UBL\Common\CAC\ExchangeRate $exchangeRate
      */
     private $exchangeRate = null;
 
@@ -288,7 +288,7 @@ class PaymentTermsType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ValidityPeriod $validityPeriod
+     * @var \App\UBL\Common\CAC\ValidityPeriod $validityPeriod
      */
     private $validityPeriod = null;
 
@@ -304,7 +304,7 @@ class PaymentTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -323,10 +323,10 @@ class PaymentTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -345,9 +345,9 @@ class PaymentTermsType
      *  Identifier. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\PaymentMeansID $paymentMeansID
+     * @param \App\UBL\Common\CBC\PaymentMeansID $paymentMeansID
      */
-    public function addToPaymentMeansID(\UBL\Common\CBC\PaymentMeansID $paymentMeansID)
+    public function addToPaymentMeansID(\App\UBL\Common\CBC\PaymentMeansID $paymentMeansID)
     {
         $this->paymentMeansID[] = $paymentMeansID;
         return $this;
@@ -405,7 +405,7 @@ class PaymentTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\PaymentMeansID[]
+     * @return \App\UBL\Common\CBC\PaymentMeansID[]
      */
     public function getPaymentMeansID()
     {
@@ -424,7 +424,7 @@ class PaymentTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\PaymentMeansID[] $paymentMeansID
+     * @param \App\UBL\Common\CBC\PaymentMeansID[] $paymentMeansID
      * @return self
      */
     public function setPaymentMeansID(?array $paymentMeansID = null)
@@ -445,7 +445,7 @@ class PaymentTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\PrepaidPaymentReferenceID
+     * @return \App\UBL\Common\CBC\PrepaidPaymentReferenceID
      */
     public function getPrepaidPaymentReferenceID()
     {
@@ -464,10 +464,10 @@ class PaymentTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\PrepaidPaymentReferenceID $prepaidPaymentReferenceID
+     * @param \App\UBL\Common\CBC\PrepaidPaymentReferenceID $prepaidPaymentReferenceID
      * @return self
      */
-    public function setPrepaidPaymentReferenceID(?\UBL\Common\CBC\PrepaidPaymentReferenceID $prepaidPaymentReferenceID = null)
+    public function setPrepaidPaymentReferenceID(?\App\UBL\Common\CBC\PrepaidPaymentReferenceID $prepaidPaymentReferenceID = null)
     {
         $this->prepaidPaymentReferenceID = $prepaidPaymentReferenceID;
         return $this;
@@ -486,9 +486,9 @@ class PaymentTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -546,7 +546,7 @@ class PaymentTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -565,7 +565,7 @@ class PaymentTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -587,7 +587,7 @@ class PaymentTermsType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ReferenceEventCode
+     * @return \App\UBL\Common\CBC\ReferenceEventCode
      */
     public function getReferenceEventCode()
     {
@@ -607,10 +607,10 @@ class PaymentTermsType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ReferenceEventCode $referenceEventCode
+     * @param \App\UBL\Common\CBC\ReferenceEventCode $referenceEventCode
      * @return self
      */
-    public function setReferenceEventCode(?\UBL\Common\CBC\ReferenceEventCode $referenceEventCode = null)
+    public function setReferenceEventCode(?\App\UBL\Common\CBC\ReferenceEventCode $referenceEventCode = null)
     {
         $this->referenceEventCode = $referenceEventCode;
         return $this;
@@ -629,7 +629,7 @@ class PaymentTermsType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\SettlementDiscountPercent
+     * @return \App\UBL\Common\CBC\SettlementDiscountPercent
      */
     public function getSettlementDiscountPercent()
     {
@@ -649,10 +649,10 @@ class PaymentTermsType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\SettlementDiscountPercent $settlementDiscountPercent
+     * @param \App\UBL\Common\CBC\SettlementDiscountPercent $settlementDiscountPercent
      * @return self
      */
-    public function setSettlementDiscountPercent(?\UBL\Common\CBC\SettlementDiscountPercent $settlementDiscountPercent = null)
+    public function setSettlementDiscountPercent(?\App\UBL\Common\CBC\SettlementDiscountPercent $settlementDiscountPercent = null)
     {
         $this->settlementDiscountPercent = $settlementDiscountPercent;
         return $this;
@@ -671,7 +671,7 @@ class PaymentTermsType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\PenaltySurchargePercent
+     * @return \App\UBL\Common\CBC\PenaltySurchargePercent
      */
     public function getPenaltySurchargePercent()
     {
@@ -691,10 +691,10 @@ class PaymentTermsType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\PenaltySurchargePercent $penaltySurchargePercent
+     * @param \App\UBL\Common\CBC\PenaltySurchargePercent $penaltySurchargePercent
      * @return self
      */
-    public function setPenaltySurchargePercent(?\UBL\Common\CBC\PenaltySurchargePercent $penaltySurchargePercent = null)
+    public function setPenaltySurchargePercent(?\App\UBL\Common\CBC\PenaltySurchargePercent $penaltySurchargePercent = null)
     {
         $this->penaltySurchargePercent = $penaltySurchargePercent;
         return $this;
@@ -712,7 +712,7 @@ class PaymentTermsType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\PaymentPercent
+     * @return \App\UBL\Common\CBC\PaymentPercent
      */
     public function getPaymentPercent()
     {
@@ -731,10 +731,10 @@ class PaymentTermsType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\PaymentPercent $paymentPercent
+     * @param \App\UBL\Common\CBC\PaymentPercent $paymentPercent
      * @return self
      */
-    public function setPaymentPercent(?\UBL\Common\CBC\PaymentPercent $paymentPercent = null)
+    public function setPaymentPercent(?\App\UBL\Common\CBC\PaymentPercent $paymentPercent = null)
     {
         $this->paymentPercent = $paymentPercent;
         return $this;
@@ -752,7 +752,7 @@ class PaymentTermsType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\Amount
+     * @return \App\UBL\Common\CBC\Amount
      */
     public function getAmount()
     {
@@ -771,10 +771,10 @@ class PaymentTermsType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\Amount $amount
+     * @param \App\UBL\Common\CBC\Amount $amount
      * @return self
      */
-    public function setAmount(?\UBL\Common\CBC\Amount $amount = null)
+    public function setAmount(?\App\UBL\Common\CBC\Amount $amount = null)
     {
         $this->amount = $amount;
         return $this;
@@ -793,7 +793,7 @@ class PaymentTermsType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\SettlementDiscountAmount
+     * @return \App\UBL\Common\CBC\SettlementDiscountAmount
      */
     public function getSettlementDiscountAmount()
     {
@@ -813,10 +813,10 @@ class PaymentTermsType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\SettlementDiscountAmount $settlementDiscountAmount
+     * @param \App\UBL\Common\CBC\SettlementDiscountAmount $settlementDiscountAmount
      * @return self
      */
-    public function setSettlementDiscountAmount(?\UBL\Common\CBC\SettlementDiscountAmount $settlementDiscountAmount = null)
+    public function setSettlementDiscountAmount(?\App\UBL\Common\CBC\SettlementDiscountAmount $settlementDiscountAmount = null)
     {
         $this->settlementDiscountAmount = $settlementDiscountAmount;
         return $this;
@@ -835,7 +835,7 @@ class PaymentTermsType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\PenaltyAmount
+     * @return \App\UBL\Common\CBC\PenaltyAmount
      */
     public function getPenaltyAmount()
     {
@@ -855,10 +855,10 @@ class PaymentTermsType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\PenaltyAmount $penaltyAmount
+     * @param \App\UBL\Common\CBC\PenaltyAmount $penaltyAmount
      * @return self
      */
-    public function setPenaltyAmount(?\UBL\Common\CBC\PenaltyAmount $penaltyAmount = null)
+    public function setPenaltyAmount(?\App\UBL\Common\CBC\PenaltyAmount $penaltyAmount = null)
     {
         $this->penaltyAmount = $penaltyAmount;
         return $this;
@@ -876,7 +876,7 @@ class PaymentTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\PaymentTermsDetailsURI
+     * @return \App\UBL\Common\CBC\PaymentTermsDetailsURI
      */
     public function getPaymentTermsDetailsURI()
     {
@@ -895,10 +895,10 @@ class PaymentTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\PaymentTermsDetailsURI $paymentTermsDetailsURI
+     * @param \App\UBL\Common\CBC\PaymentTermsDetailsURI $paymentTermsDetailsURI
      * @return self
      */
-    public function setPaymentTermsDetailsURI(?\UBL\Common\CBC\PaymentTermsDetailsURI $paymentTermsDetailsURI = null)
+    public function setPaymentTermsDetailsURI(?\App\UBL\Common\CBC\PaymentTermsDetailsURI $paymentTermsDetailsURI = null)
     {
         $this->paymentTermsDetailsURI = $paymentTermsDetailsURI;
         return $this;
@@ -997,7 +997,7 @@ class PaymentTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\InvoicingPartyReference
+     * @return \App\UBL\Common\CBC\InvoicingPartyReference
      */
     public function getInvoicingPartyReference()
     {
@@ -1017,10 +1017,10 @@ class PaymentTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\InvoicingPartyReference $invoicingPartyReference
+     * @param \App\UBL\Common\CBC\InvoicingPartyReference $invoicingPartyReference
      * @return self
      */
-    public function setInvoicingPartyReference(?\UBL\Common\CBC\InvoicingPartyReference $invoicingPartyReference = null)
+    public function setInvoicingPartyReference(?\App\UBL\Common\CBC\InvoicingPartyReference $invoicingPartyReference = null)
     {
         $this->invoicingPartyReference = $invoicingPartyReference;
         return $this;
@@ -1039,7 +1039,7 @@ class PaymentTermsType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\SettlementPeriod
+     * @return \App\UBL\Common\CAC\SettlementPeriod
      */
     public function getSettlementPeriod()
     {
@@ -1059,10 +1059,10 @@ class PaymentTermsType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\SettlementPeriod $settlementPeriod
+     * @param \App\UBL\Common\CAC\SettlementPeriod $settlementPeriod
      * @return self
      */
-    public function setSettlementPeriod(?\UBL\Common\CAC\SettlementPeriod $settlementPeriod = null)
+    public function setSettlementPeriod(?\App\UBL\Common\CAC\SettlementPeriod $settlementPeriod = null)
     {
         $this->settlementPeriod = $settlementPeriod;
         return $this;
@@ -1081,7 +1081,7 @@ class PaymentTermsType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\PenaltyPeriod
+     * @return \App\UBL\Common\CAC\PenaltyPeriod
      */
     public function getPenaltyPeriod()
     {
@@ -1101,10 +1101,10 @@ class PaymentTermsType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\PenaltyPeriod $penaltyPeriod
+     * @param \App\UBL\Common\CAC\PenaltyPeriod $penaltyPeriod
      * @return self
      */
-    public function setPenaltyPeriod(?\UBL\Common\CAC\PenaltyPeriod $penaltyPeriod = null)
+    public function setPenaltyPeriod(?\App\UBL\Common\CAC\PenaltyPeriod $penaltyPeriod = null)
     {
         $this->penaltyPeriod = $penaltyPeriod;
         return $this;
@@ -1122,7 +1122,7 @@ class PaymentTermsType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @return \UBL\Common\CAC\ExchangeRate
+     * @return \App\UBL\Common\CAC\ExchangeRate
      */
     public function getExchangeRate()
     {
@@ -1141,10 +1141,10 @@ class PaymentTermsType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @param \UBL\Common\CAC\ExchangeRate $exchangeRate
+     * @param \App\UBL\Common\CAC\ExchangeRate $exchangeRate
      * @return self
      */
-    public function setExchangeRate(?\UBL\Common\CAC\ExchangeRate $exchangeRate = null)
+    public function setExchangeRate(?\App\UBL\Common\CAC\ExchangeRate $exchangeRate = null)
     {
         $this->exchangeRate = $exchangeRate;
         return $this;
@@ -1163,7 +1163,7 @@ class PaymentTermsType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ValidityPeriod
+     * @return \App\UBL\Common\CAC\ValidityPeriod
      */
     public function getValidityPeriod()
     {
@@ -1183,14 +1183,13 @@ class PaymentTermsType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ValidityPeriod $validityPeriod
+     * @param \App\UBL\Common\CAC\ValidityPeriod $validityPeriod
      * @return self
      */
-    public function setValidityPeriod(?\UBL\Common\CAC\ValidityPeriod $validityPeriod = null)
+    public function setValidityPeriod(?\App\UBL\Common\CAC\ValidityPeriod $validityPeriod = null)
     {
         $this->validityPeriod = $validityPeriod;
         return $this;
     }
 }
-
 

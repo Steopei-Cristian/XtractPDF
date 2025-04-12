@@ -9,4 +9,3 @@ class BudgetYearNumeric extends BudgetYearNumericType
 {
 }
 
-

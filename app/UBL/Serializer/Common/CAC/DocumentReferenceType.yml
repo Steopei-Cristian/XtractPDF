@@ -1,4 +1,4 @@
-UBL\Common\CAC\DocumentReferenceType:
+App\UBL\Common\CAC\DocumentReferenceType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\DocumentReferenceType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         copyIndicator:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\DocumentReferenceType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         issueDate:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\DocumentReferenceType:
             accessor:
                 getter: getDocumentTypeCode
                 setter: setDocumentTypeCode
-            type: UBL\Common\CBC\DocumentTypeCode
+            type: App\UBL\Common\CBC\DocumentTypeCode
         documentType:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\DocumentReferenceType:
             accessor:
                 getter: getDocumentType
                 setter: setDocumentType
-            type: UBL\Common\CBC\DocumentType
+            type: App\UBL\Common\CBC\DocumentType
         xPath:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\DocumentReferenceType:
                 inline: true
                 entry_name: XPath
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\XPath>
+            type: array<App\UBL\Common\CBC\XPath>
         languageID:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\DocumentReferenceType:
             accessor:
                 getter: getLanguageID
                 setter: setLanguageID
-            type: UBL\Common\CBC\LanguageID
+            type: App\UBL\Common\CBC\LanguageID
         localeCode:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\DocumentReferenceType:
             accessor:
                 getter: getLocaleCode
                 setter: setLocaleCode
-            type: UBL\Common\CBC\LocaleCode
+            type: App\UBL\Common\CBC\LocaleCode
         versionID:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\DocumentReferenceType:
             accessor:
                 getter: getVersionID
                 setter: setVersionID
-            type: UBL\Common\CBC\VersionID
+            type: App\UBL\Common\CBC\VersionID
         documentStatusCode:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ UBL\Common\CAC\DocumentReferenceType:
             accessor:
                 getter: getDocumentStatusCode
                 setter: setDocumentStatusCode
-            type: UBL\Common\CBC\DocumentStatusCode
+            type: App\UBL\Common\CBC\DocumentStatusCode
         documentDescription:
             expose: true
             access_type: public_method
@@ -137,7 +137,7 @@ UBL\Common\CAC\DocumentReferenceType:
                 inline: true
                 entry_name: DocumentDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\DocumentDescription>
+            type: array<App\UBL\Common\CBC\DocumentDescription>
         attachment:
             expose: true
             access_type: public_method
@@ -147,7 +147,7 @@ UBL\Common\CAC\DocumentReferenceType:
             accessor:
                 getter: getAttachment
                 setter: setAttachment
-            type: UBL\Common\CAC\Attachment
+            type: App\UBL\Common\CAC\Attachment
         validityPeriod:
             expose: true
             access_type: public_method
@@ -157,7 +157,7 @@ UBL\Common\CAC\DocumentReferenceType:
             accessor:
                 getter: getValidityPeriod
                 setter: setValidityPeriod
-            type: UBL\Common\CAC\ValidityPeriod
+            type: App\UBL\Common\CAC\ValidityPeriod
         issuerParty:
             expose: true
             access_type: public_method
@@ -167,7 +167,7 @@ UBL\Common\CAC\DocumentReferenceType:
             accessor:
                 getter: getIssuerParty
                 setter: setIssuerParty
-            type: UBL\Common\CAC\IssuerParty
+            type: App\UBL\Common\CAC\IssuerParty
         resultOfVerification:
             expose: true
             access_type: public_method
@@ -177,4 +177,4 @@ UBL\Common\CAC\DocumentReferenceType:
             accessor:
                 getter: getResultOfVerification
                 setter: setResultOfVerification
-            type: UBL\Common\CAC\ResultOfVerification
+            type: App\UBL\Common\CAC\ResultOfVerification

@@ -1,2 +1,2 @@
-UBL\Common\CBC\PayableAmountType:
+App\UBL\Common\CBC\PayableAmountType:
     properties: {  }

@@ -39,7 +39,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\JustificationDescription[] $justificationDescription
+     * @var \App\UBL\Common\CBC\JustificationDescription[] $justificationDescription
      */
     private $justificationDescription = [
         
@@ -55,7 +55,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -72,7 +72,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ProcessDescription[] $processDescription
+     * @var \App\UBL\Common\CBC\ProcessDescription[] $processDescription
      */
     private $processDescription = [
         
@@ -89,7 +89,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ConditionsDescription[] $conditionsDescription
+     * @var \App\UBL\Common\CBC\ConditionsDescription[] $conditionsDescription
      */
     private $conditionsDescription = [
         
@@ -106,7 +106,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ElectronicDeviceDescription[] $electronicDeviceDescription
+     * @var \App\UBL\Common\CBC\ElectronicDeviceDescription[] $electronicDeviceDescription
      */
     private $electronicDeviceDescription = [
         
@@ -123,7 +123,7 @@ class AuctionTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\AuctionURI $auctionURI
+     * @var \App\UBL\Common\CBC\AuctionURI $auctionURI
      */
     private $auctionURI = null;
 
@@ -183,9 +183,9 @@ class AuctionTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\JustificationDescription $justificationDescription
+     * @param \App\UBL\Common\CBC\JustificationDescription $justificationDescription
      */
-    public function addToJustificationDescription(\UBL\Common\CBC\JustificationDescription $justificationDescription)
+    public function addToJustificationDescription(\App\UBL\Common\CBC\JustificationDescription $justificationDescription)
     {
         $this->justificationDescription[] = $justificationDescription;
         return $this;
@@ -246,7 +246,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\JustificationDescription[]
+     * @return \App\UBL\Common\CBC\JustificationDescription[]
      */
     public function getJustificationDescription()
     {
@@ -266,7 +266,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\JustificationDescription[] $justificationDescription
+     * @param \App\UBL\Common\CBC\JustificationDescription[] $justificationDescription
      * @return self
      */
     public function setJustificationDescription(?array $justificationDescription = null)
@@ -288,9 +288,9 @@ class AuctionTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -348,7 +348,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -367,7 +367,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -390,9 +390,9 @@ class AuctionTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ProcessDescription $processDescription
+     * @param \App\UBL\Common\CBC\ProcessDescription $processDescription
      */
-    public function addToProcessDescription(\UBL\Common\CBC\ProcessDescription $processDescription)
+    public function addToProcessDescription(\App\UBL\Common\CBC\ProcessDescription $processDescription)
     {
         $this->processDescription[] = $processDescription;
         return $this;
@@ -453,7 +453,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ProcessDescription[]
+     * @return \App\UBL\Common\CBC\ProcessDescription[]
      */
     public function getProcessDescription()
     {
@@ -473,7 +473,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ProcessDescription[] $processDescription
+     * @param \App\UBL\Common\CBC\ProcessDescription[] $processDescription
      * @return self
      */
     public function setProcessDescription(?array $processDescription = null)
@@ -496,9 +496,9 @@ class AuctionTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ConditionsDescription $conditionsDescription
+     * @param \App\UBL\Common\CBC\ConditionsDescription $conditionsDescription
      */
-    public function addToConditionsDescription(\UBL\Common\CBC\ConditionsDescription $conditionsDescription)
+    public function addToConditionsDescription(\App\UBL\Common\CBC\ConditionsDescription $conditionsDescription)
     {
         $this->conditionsDescription[] = $conditionsDescription;
         return $this;
@@ -559,7 +559,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ConditionsDescription[]
+     * @return \App\UBL\Common\CBC\ConditionsDescription[]
      */
     public function getConditionsDescription()
     {
@@ -579,7 +579,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ConditionsDescription[] $conditionsDescription
+     * @param \App\UBL\Common\CBC\ConditionsDescription[] $conditionsDescription
      * @return self
      */
     public function setConditionsDescription(?array $conditionsDescription = null)
@@ -602,9 +602,9 @@ class AuctionTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ElectronicDeviceDescription $electronicDeviceDescription
+     * @param \App\UBL\Common\CBC\ElectronicDeviceDescription $electronicDeviceDescription
      */
-    public function addToElectronicDeviceDescription(\UBL\Common\CBC\ElectronicDeviceDescription $electronicDeviceDescription)
+    public function addToElectronicDeviceDescription(\App\UBL\Common\CBC\ElectronicDeviceDescription $electronicDeviceDescription)
     {
         $this->electronicDeviceDescription[] = $electronicDeviceDescription;
         return $this;
@@ -665,7 +665,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ElectronicDeviceDescription[]
+     * @return \App\UBL\Common\CBC\ElectronicDeviceDescription[]
      */
     public function getElectronicDeviceDescription()
     {
@@ -685,7 +685,7 @@ class AuctionTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ElectronicDeviceDescription[] $electronicDeviceDescription
+     * @param \App\UBL\Common\CBC\ElectronicDeviceDescription[] $electronicDeviceDescription
      * @return self
      */
     public function setElectronicDeviceDescription(?array $electronicDeviceDescription = null)
@@ -707,7 +707,7 @@ class AuctionTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\AuctionURI
+     * @return \App\UBL\Common\CBC\AuctionURI
      */
     public function getAuctionURI()
     {
@@ -727,14 +727,13 @@ class AuctionTermsType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\AuctionURI $auctionURI
+     * @param \App\UBL\Common\CBC\AuctionURI $auctionURI
      * @return self
      */
-    public function setAuctionURI(?\UBL\Common\CBC\AuctionURI $auctionURI = null)
+    public function setAuctionURI(?\App\UBL\Common\CBC\AuctionURI $auctionURI = null)
     {
         $this->auctionURI = $auctionURI;
         return $this;
     }
 }
-
 

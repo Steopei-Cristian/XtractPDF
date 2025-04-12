@@ -1,4 +1,4 @@
-UBL\Common\CAC\EventTacticEnumerationType:
+App\UBL\Common\CAC\EventTacticEnumerationType:
     properties:
         consumerIncentiveTacticTypeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\EventTacticEnumerationType:
             accessor:
                 getter: getConsumerIncentiveTacticTypeCode
                 setter: setConsumerIncentiveTacticTypeCode
-            type: UBL\Common\CBC\ConsumerIncentiveTacticTypeCode
+            type: App\UBL\Common\CBC\ConsumerIncentiveTacticTypeCode
         displayTacticTypeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\EventTacticEnumerationType:
             accessor:
                 getter: getDisplayTacticTypeCode
                 setter: setDisplayTacticTypeCode
-            type: UBL\Common\CBC\DisplayTacticTypeCode
+            type: App\UBL\Common\CBC\DisplayTacticTypeCode
         featureTacticTypeCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\EventTacticEnumerationType:
             accessor:
                 getter: getFeatureTacticTypeCode
                 setter: setFeatureTacticTypeCode
-            type: UBL\Common\CBC\FeatureTacticTypeCode
+            type: App\UBL\Common\CBC\FeatureTacticTypeCode
         tradeItemPackingLabelingTypeCode:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ UBL\Common\CAC\EventTacticEnumerationType:
             accessor:
                 getter: getTradeItemPackingLabelingTypeCode
                 setter: setTradeItemPackingLabelingTypeCode
-            type: UBL\Common\CBC\TradeItemPackingLabelingTypeCode
+            type: App\UBL\Common\CBC\TradeItemPackingLabelingTypeCode

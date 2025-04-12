@@ -1,4 +1,4 @@
-UBL\Xmldsig\DigestMethodType:
+App\UBL\Xmldsig\DigestMethodType:
     properties:
         algorithm:
             expose: true

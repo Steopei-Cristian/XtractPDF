@@ -9,4 +9,3 @@ class SourceCurrencyBaseRate extends SourceCurrencyBaseRateType
 {
 }
 
-

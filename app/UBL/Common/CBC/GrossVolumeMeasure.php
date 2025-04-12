@@ -9,4 +9,3 @@ class GrossVolumeMeasure extends GrossVolumeMeasureType
 {
 }
 
-

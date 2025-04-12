@@ -1,4 +1,4 @@
-UBL\Common\CAC\ActivityPropertyType:
+App\UBL\Common\CAC\ActivityPropertyType:
     properties:
         name:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ActivityPropertyType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         value:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ UBL\Common\CAC\ActivityPropertyType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: UBL\Common\CBC\Value
+            type: App\UBL\Common\CBC\Value

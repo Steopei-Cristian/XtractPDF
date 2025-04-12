@@ -9,4 +9,3 @@ class ForecastTypeCode extends ForecastTypeCodeType
 {
 }
 
-

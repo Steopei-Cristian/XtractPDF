@@ -9,4 +9,3 @@ class HandlingUnitDespatchLine extends DespatchLineType
 {
 }
 
-

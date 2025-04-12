@@ -1,4 +1,4 @@
-UBL\Common\CAC\CardAccountType:
+App\UBL\Common\CAC\CardAccountType:
     properties:
         primaryAccountNumberID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CardAccountType:
             accessor:
                 getter: getPrimaryAccountNumberID
                 setter: setPrimaryAccountNumberID
-            type: UBL\Common\CBC\PrimaryAccountNumberID
+            type: App\UBL\Common\CBC\PrimaryAccountNumberID
         networkID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\CardAccountType:
             accessor:
                 getter: getNetworkID
                 setter: setNetworkID
-            type: UBL\Common\CBC\NetworkID
+            type: App\UBL\Common\CBC\NetworkID
         cardTypeCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\CardAccountType:
             accessor:
                 getter: getCardTypeCode
                 setter: setCardTypeCode
-            type: UBL\Common\CBC\CardTypeCode
+            type: App\UBL\Common\CBC\CardTypeCode
         validityStartDate:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\CardAccountType:
             accessor:
                 getter: getIssuerID
                 setter: setIssuerID
-            type: UBL\Common\CBC\IssuerID
+            type: App\UBL\Common\CBC\IssuerID
         issueNumberID:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\CardAccountType:
             accessor:
                 getter: getIssueNumberID
                 setter: setIssueNumberID
-            type: UBL\Common\CBC\IssueNumberID
+            type: App\UBL\Common\CBC\IssueNumberID
         cV2ID:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\CAC\CardAccountType:
             accessor:
                 getter: getCV2ID
                 setter: setCV2ID
-            type: UBL\Common\CBC\CV2ID
+            type: App\UBL\Common\CBC\CV2ID
         cardChipCode:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ UBL\Common\CAC\CardAccountType:
             accessor:
                 getter: getCardChipCode
                 setter: setCardChipCode
-            type: UBL\Common\CBC\CardChipCode
+            type: App\UBL\Common\CBC\CardChipCode
         chipApplicationID:
             expose: true
             access_type: public_method
@@ -99,7 +99,7 @@ UBL\Common\CAC\CardAccountType:
             accessor:
                 getter: getChipApplicationID
                 setter: setChipApplicationID
-            type: UBL\Common\CBC\ChipApplicationID
+            type: App\UBL\Common\CBC\ChipApplicationID
         holderName:
             expose: true
             access_type: public_method
@@ -109,4 +109,4 @@ UBL\Common\CAC\CardAccountType:
             accessor:
                 getter: getHolderName
                 setter: setHolderName
-            type: UBL\Common\CBC\HolderName
+            type: App\UBL\Common\CBC\HolderName

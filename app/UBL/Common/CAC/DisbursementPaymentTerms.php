@@ -9,4 +9,3 @@ class DisbursementPaymentTerms extends PaymentTermsType
 {
 }
 
-

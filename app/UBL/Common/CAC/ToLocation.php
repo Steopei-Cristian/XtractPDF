@@ -9,4 +9,3 @@ class ToLocation extends LocationType
 {
 }
 
-

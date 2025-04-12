@@ -23,7 +23,7 @@ class LineResponseType
      *  Line Reference
      *  Line Reference
      *
-     * @var \UBL\Common\CAC\LineReference $lineReference
+     * @var \App\UBL\Common\CAC\LineReference $lineReference
      */
     private $lineReference = null;
 
@@ -37,7 +37,7 @@ class LineResponseType
      *  Response
      *  Response
      *
-     * @var \UBL\Common\CAC\Response[] $response
+     * @var \App\UBL\Common\CAC\Response[] $response
      */
     private $response = [
         
@@ -55,7 +55,7 @@ class LineResponseType
      *  Line Reference
      *  Line Reference
      *
-     * @return \UBL\Common\CAC\LineReference
+     * @return \App\UBL\Common\CAC\LineReference
      */
     public function getLineReference()
     {
@@ -74,10 +74,10 @@ class LineResponseType
      *  Line Reference
      *  Line Reference
      *
-     * @param \UBL\Common\CAC\LineReference $lineReference
+     * @param \App\UBL\Common\CAC\LineReference $lineReference
      * @return self
      */
-    public function setLineReference(\UBL\Common\CAC\LineReference $lineReference)
+    public function setLineReference(\App\UBL\Common\CAC\LineReference $lineReference)
     {
         $this->lineReference = $lineReference;
         return $this;
@@ -96,9 +96,9 @@ class LineResponseType
      *  Response
      *
      * @return self
-     * @param \UBL\Common\CAC\Response $response
+     * @param \App\UBL\Common\CAC\Response $response
      */
-    public function addToResponse(\UBL\Common\CAC\Response $response)
+    public function addToResponse(\App\UBL\Common\CAC\Response $response)
     {
         $this->response[] = $response;
         return $this;
@@ -156,7 +156,7 @@ class LineResponseType
      *  Response
      *  Response
      *
-     * @return \UBL\Common\CAC\Response[]
+     * @return \App\UBL\Common\CAC\Response[]
      */
     public function getResponse()
     {
@@ -175,7 +175,7 @@ class LineResponseType
      *  Response
      *  Response
      *
-     * @param \UBL\Common\CAC\Response[] $response
+     * @param \App\UBL\Common\CAC\Response[] $response
      * @return self
      */
     public function setResponse(array $response)
@@ -184,5 +184,4 @@ class LineResponseType
         return $this;
     }
 }
-
 

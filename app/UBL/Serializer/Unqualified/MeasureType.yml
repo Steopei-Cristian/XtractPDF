@@ -1,4 +1,4 @@
-UBL\Unqualified\MeasureType:
+App\UBL\Unqualified\MeasureType:
     properties:
         unitCode:
             expose: true

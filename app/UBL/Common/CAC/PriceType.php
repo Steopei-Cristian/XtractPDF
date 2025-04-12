@@ -25,7 +25,7 @@ class PriceType
      *  unit price
      *  23.45
      *
-     * @var \UBL\Common\CBC\PriceAmount $priceAmount
+     * @var \App\UBL\Common\CBC\PriceAmount $priceAmount
      */
     private $priceAmount = null;
 
@@ -40,7 +40,7 @@ class PriceType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\BaseQuantity $baseQuantity
+     * @var \App\UBL\Common\CBC\BaseQuantity $baseQuantity
      */
     private $baseQuantity = null;
 
@@ -56,7 +56,7 @@ class PriceType
      *  Text. Type
      *  Clearance of old stock , New contract applies
      *
-     * @var \UBL\Common\CBC\PriceChangeReason[] $priceChangeReason
+     * @var \App\UBL\Common\CBC\PriceChangeReason[] $priceChangeReason
      */
     private $priceChangeReason = [
         
@@ -72,7 +72,7 @@ class PriceType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PriceTypeCode $priceTypeCode
+     * @var \App\UBL\Common\CBC\PriceTypeCode $priceTypeCode
      */
     private $priceTypeCode = null;
 
@@ -87,7 +87,7 @@ class PriceType
      *  Text. Type
      *  retail, wholesale, discount, contract
      *
-     * @var \UBL\Common\CBC\PriceType $priceType
+     * @var \App\UBL\Common\CBC\PriceType $priceType
      */
     private $priceType = null;
 
@@ -102,7 +102,7 @@ class PriceType
      *  Rate. Type
      *  Nails are priced by weight but ordered by quantity. So this would say how many nails per kilo
      *
-     * @var \UBL\Common\CBC\OrderableUnitFactorRate $orderableUnitFactorRate
+     * @var \App\UBL\Common\CBC\OrderableUnitFactorRate $orderableUnitFactorRate
      */
     private $orderableUnitFactorRate = null;
 
@@ -117,7 +117,7 @@ class PriceType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ValidityPeriod[] $validityPeriod
+     * @var \App\UBL\Common\CAC\ValidityPeriod[] $validityPeriod
      */
     private $validityPeriod = [
         
@@ -133,7 +133,7 @@ class PriceType
      *  Price List
      *  Price List
      *
-     * @var \UBL\Common\CAC\PriceList $priceList
+     * @var \App\UBL\Common\CAC\PriceList $priceList
      */
     private $priceList = null;
 
@@ -147,7 +147,7 @@ class PriceType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @var \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      */
     private $allowanceCharge = [
         
@@ -164,7 +164,7 @@ class PriceType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @var \UBL\Common\CAC\PricingExchangeRate $pricingExchangeRate
+     * @var \App\UBL\Common\CAC\PricingExchangeRate $pricingExchangeRate
      */
     private $pricingExchangeRate = null;
 
@@ -182,7 +182,7 @@ class PriceType
      *  unit price
      *  23.45
      *
-     * @return \UBL\Common\CBC\PriceAmount
+     * @return \App\UBL\Common\CBC\PriceAmount
      */
     public function getPriceAmount()
     {
@@ -203,10 +203,10 @@ class PriceType
      *  unit price
      *  23.45
      *
-     * @param \UBL\Common\CBC\PriceAmount $priceAmount
+     * @param \App\UBL\Common\CBC\PriceAmount $priceAmount
      * @return self
      */
-    public function setPriceAmount(\UBL\Common\CBC\PriceAmount $priceAmount)
+    public function setPriceAmount(\App\UBL\Common\CBC\PriceAmount $priceAmount)
     {
         $this->priceAmount = $priceAmount;
         return $this;
@@ -225,7 +225,7 @@ class PriceType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\BaseQuantity
+     * @return \App\UBL\Common\CBC\BaseQuantity
      */
     public function getBaseQuantity()
     {
@@ -245,10 +245,10 @@ class PriceType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\BaseQuantity $baseQuantity
+     * @param \App\UBL\Common\CBC\BaseQuantity $baseQuantity
      * @return self
      */
-    public function setBaseQuantity(?\UBL\Common\CBC\BaseQuantity $baseQuantity = null)
+    public function setBaseQuantity(?\App\UBL\Common\CBC\BaseQuantity $baseQuantity = null)
     {
         $this->baseQuantity = $baseQuantity;
         return $this;
@@ -269,9 +269,9 @@ class PriceType
      *  Clearance of old stock , New contract applies
      *
      * @return self
-     * @param \UBL\Common\CBC\PriceChangeReason $priceChangeReason
+     * @param \App\UBL\Common\CBC\PriceChangeReason $priceChangeReason
      */
-    public function addToPriceChangeReason(\UBL\Common\CBC\PriceChangeReason $priceChangeReason)
+    public function addToPriceChangeReason(\App\UBL\Common\CBC\PriceChangeReason $priceChangeReason)
     {
         $this->priceChangeReason[] = $priceChangeReason;
         return $this;
@@ -335,7 +335,7 @@ class PriceType
      *  Text. Type
      *  Clearance of old stock , New contract applies
      *
-     * @return \UBL\Common\CBC\PriceChangeReason[]
+     * @return \App\UBL\Common\CBC\PriceChangeReason[]
      */
     public function getPriceChangeReason()
     {
@@ -356,7 +356,7 @@ class PriceType
      *  Text. Type
      *  Clearance of old stock , New contract applies
      *
-     * @param \UBL\Common\CBC\PriceChangeReason[] $priceChangeReason
+     * @param \App\UBL\Common\CBC\PriceChangeReason[] $priceChangeReason
      * @return self
      */
     public function setPriceChangeReason(?array $priceChangeReason = null)
@@ -377,7 +377,7 @@ class PriceType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PriceTypeCode
+     * @return \App\UBL\Common\CBC\PriceTypeCode
      */
     public function getPriceTypeCode()
     {
@@ -396,10 +396,10 @@ class PriceType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PriceTypeCode $priceTypeCode
+     * @param \App\UBL\Common\CBC\PriceTypeCode $priceTypeCode
      * @return self
      */
-    public function setPriceTypeCode(?\UBL\Common\CBC\PriceTypeCode $priceTypeCode = null)
+    public function setPriceTypeCode(?\App\UBL\Common\CBC\PriceTypeCode $priceTypeCode = null)
     {
         $this->priceTypeCode = $priceTypeCode;
         return $this;
@@ -418,7 +418,7 @@ class PriceType
      *  Text. Type
      *  retail, wholesale, discount, contract
      *
-     * @return \UBL\Common\CBC\PriceType
+     * @return \App\UBL\Common\CBC\PriceType
      */
     public function getPriceType()
     {
@@ -438,10 +438,10 @@ class PriceType
      *  Text. Type
      *  retail, wholesale, discount, contract
      *
-     * @param \UBL\Common\CBC\PriceType $priceType
+     * @param \App\UBL\Common\CBC\PriceType $priceType
      * @return self
      */
-    public function setPriceType(?\UBL\Common\CBC\PriceType $priceType = null)
+    public function setPriceType(?\App\UBL\Common\CBC\PriceType $priceType = null)
     {
         $this->priceType = $priceType;
         return $this;
@@ -460,7 +460,7 @@ class PriceType
      *  Rate. Type
      *  Nails are priced by weight but ordered by quantity. So this would say how many nails per kilo
      *
-     * @return \UBL\Common\CBC\OrderableUnitFactorRate
+     * @return \App\UBL\Common\CBC\OrderableUnitFactorRate
      */
     public function getOrderableUnitFactorRate()
     {
@@ -480,10 +480,10 @@ class PriceType
      *  Rate. Type
      *  Nails are priced by weight but ordered by quantity. So this would say how many nails per kilo
      *
-     * @param \UBL\Common\CBC\OrderableUnitFactorRate $orderableUnitFactorRate
+     * @param \App\UBL\Common\CBC\OrderableUnitFactorRate $orderableUnitFactorRate
      * @return self
      */
-    public function setOrderableUnitFactorRate(?\UBL\Common\CBC\OrderableUnitFactorRate $orderableUnitFactorRate = null)
+    public function setOrderableUnitFactorRate(?\App\UBL\Common\CBC\OrderableUnitFactorRate $orderableUnitFactorRate = null)
     {
         $this->orderableUnitFactorRate = $orderableUnitFactorRate;
         return $this;
@@ -503,9 +503,9 @@ class PriceType
      *  Period
      *
      * @return self
-     * @param \UBL\Common\CAC\ValidityPeriod $validityPeriod
+     * @param \App\UBL\Common\CAC\ValidityPeriod $validityPeriod
      */
-    public function addToValidityPeriod(\UBL\Common\CAC\ValidityPeriod $validityPeriod)
+    public function addToValidityPeriod(\App\UBL\Common\CAC\ValidityPeriod $validityPeriod)
     {
         $this->validityPeriod[] = $validityPeriod;
         return $this;
@@ -566,7 +566,7 @@ class PriceType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ValidityPeriod[]
+     * @return \App\UBL\Common\CAC\ValidityPeriod[]
      */
     public function getValidityPeriod()
     {
@@ -586,7 +586,7 @@ class PriceType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ValidityPeriod[] $validityPeriod
+     * @param \App\UBL\Common\CAC\ValidityPeriod[] $validityPeriod
      * @return self
      */
     public function setValidityPeriod(?array $validityPeriod = null)
@@ -607,7 +607,7 @@ class PriceType
      *  Price List
      *  Price List
      *
-     * @return \UBL\Common\CAC\PriceList
+     * @return \App\UBL\Common\CAC\PriceList
      */
     public function getPriceList()
     {
@@ -626,10 +626,10 @@ class PriceType
      *  Price List
      *  Price List
      *
-     * @param \UBL\Common\CAC\PriceList $priceList
+     * @param \App\UBL\Common\CAC\PriceList $priceList
      * @return self
      */
-    public function setPriceList(?\UBL\Common\CAC\PriceList $priceList = null)
+    public function setPriceList(?\App\UBL\Common\CAC\PriceList $priceList = null)
     {
         $this->priceList = $priceList;
         return $this;
@@ -648,9 +648,9 @@ class PriceType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\AllowanceCharge $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge $allowanceCharge
      */
-    public function addToAllowanceCharge(\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
+    public function addToAllowanceCharge(\App\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
     {
         $this->allowanceCharge[] = $allowanceCharge;
         return $this;
@@ -708,7 +708,7 @@ class PriceType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\AllowanceCharge[]
+     * @return \App\UBL\Common\CAC\AllowanceCharge[]
      */
     public function getAllowanceCharge()
     {
@@ -727,7 +727,7 @@ class PriceType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      * @return self
      */
     public function setAllowanceCharge(?array $allowanceCharge = null)
@@ -749,7 +749,7 @@ class PriceType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @return \UBL\Common\CAC\PricingExchangeRate
+     * @return \App\UBL\Common\CAC\PricingExchangeRate
      */
     public function getPricingExchangeRate()
     {
@@ -769,14 +769,13 @@ class PriceType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @param \UBL\Common\CAC\PricingExchangeRate $pricingExchangeRate
+     * @param \App\UBL\Common\CAC\PricingExchangeRate $pricingExchangeRate
      * @return self
      */
-    public function setPricingExchangeRate(?\UBL\Common\CAC\PricingExchangeRate $pricingExchangeRate = null)
+    public function setPricingExchangeRate(?\App\UBL\Common\CAC\PricingExchangeRate $pricingExchangeRate = null)
     {
         $this->pricingExchangeRate = $pricingExchangeRate;
         return $this;
     }
 }
-
 

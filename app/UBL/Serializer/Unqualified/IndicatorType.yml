@@ -1,4 +1,4 @@
-UBL\Unqualified\IndicatorType:
+App\UBL\Unqualified\IndicatorType:
     properties:
         __value:
             expose: true

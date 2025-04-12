@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class ObjectIdentifierType
 {
     /**
-     * @var \UBL\XAdES\v132\IdentifierType $identifier
+     * @var \App\UBL\XAdES\v132\IdentifierType $identifier
      */
     private $identifier = null;
 
@@ -28,7 +28,7 @@ class ObjectIdentifierType
     /**
      * Gets as identifier
      *
-     * @return \UBL\XAdES\v132\IdentifierType
+     * @return \App\UBL\XAdES\v132\IdentifierType
      */
     public function getIdentifier()
     {
@@ -38,10 +38,10 @@ class ObjectIdentifierType
     /**
      * Sets a new identifier
      *
-     * @param \UBL\XAdES\v132\IdentifierType $identifier
+     * @param \App\UBL\XAdES\v132\IdentifierType $identifier
      * @return self
      */
-    public function setIdentifier(\UBL\XAdES\v132\IdentifierType $identifier)
+    public function setIdentifier(\App\UBL\XAdES\v132\IdentifierType $identifier)
     {
         $this->identifier = $identifier;
         return $this;
@@ -125,5 +125,4 @@ class ObjectIdentifierType
         return $this;
     }
 }
-
 

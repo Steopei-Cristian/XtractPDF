@@ -9,4 +9,3 @@ class ActivityFinalLocation extends LocationType
 {
 }
 
-

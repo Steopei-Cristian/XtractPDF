@@ -9,4 +9,3 @@ class RetailEventStatusCode extends RetailEventStatusCodeType
 {
 }
 
-

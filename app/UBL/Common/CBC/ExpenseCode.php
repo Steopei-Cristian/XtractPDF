@@ -9,4 +9,3 @@ class ExpenseCode extends ExpenseCodeType
 {
 }
 
-

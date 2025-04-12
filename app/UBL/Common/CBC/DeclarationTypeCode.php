@@ -9,4 +9,3 @@ class DeclarationTypeCode extends DeclarationTypeCodeType
 {
 }
 
-

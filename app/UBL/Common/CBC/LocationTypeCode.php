@@ -9,4 +9,3 @@ class LocationTypeCode extends LocationTypeCodeType
 {
 }
 
-

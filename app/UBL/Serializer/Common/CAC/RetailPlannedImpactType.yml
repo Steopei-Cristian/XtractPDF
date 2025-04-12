@@ -1,4 +1,4 @@
-UBL\Common\CAC\RetailPlannedImpactType:
+App\UBL\Common\CAC\RetailPlannedImpactType:
     properties:
         amount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\RetailPlannedImpactType:
             accessor:
                 getter: getAmount
                 setter: setAmount
-            type: UBL\Common\CBC\Amount
+            type: App\UBL\Common\CBC\Amount
         forecastPurposeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\RetailPlannedImpactType:
             accessor:
                 getter: getForecastPurposeCode
                 setter: setForecastPurposeCode
-            type: UBL\Common\CBC\ForecastPurposeCode
+            type: App\UBL\Common\CBC\ForecastPurposeCode
         forecastTypeCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\RetailPlannedImpactType:
             accessor:
                 getter: getForecastTypeCode
                 setter: setForecastTypeCode
-            type: UBL\Common\CBC\ForecastTypeCode
+            type: App\UBL\Common\CBC\ForecastTypeCode
         period:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ UBL\Common\CAC\RetailPlannedImpactType:
             accessor:
                 getter: getPeriod
                 setter: setPeriod
-            type: UBL\Common\CAC\Period
+            type: App\UBL\Common\CAC\Period

@@ -1,2 +1,2 @@
-UBL\Common\CBC\PaymentFrequencyCodeType:
+App\UBL\Common\CBC\PaymentFrequencyCodeType:
     properties: {  }

@@ -9,4 +9,3 @@ class GenderCode extends GenderCodeType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\XAdES\v132\CRLRefType:
+App\UBL\XAdES\v132\CRLRefType:
     properties:
         digestAlgAndValue:
             expose: true
@@ -9,7 +9,7 @@ UBL\XAdES\v132\CRLRefType:
             accessor:
                 getter: getDigestAlgAndValue
                 setter: setDigestAlgAndValue
-            type: UBL\XAdES\v132\DigestAlgAndValueType
+            type: App\UBL\XAdES\v132\DigestAlgAndValueType
         cRLIdentifier:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ UBL\XAdES\v132\CRLRefType:
             accessor:
                 getter: getCRLIdentifier
                 setter: setCRLIdentifier
-            type: UBL\XAdES\v132\CRLIdentifierType
+            type: App\UBL\XAdES\v132\CRLIdentifierType

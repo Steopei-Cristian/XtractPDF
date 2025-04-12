@@ -1,4 +1,4 @@
-UBL\Common\CBC\OnCarriageIndicator:
+App\UBL\Common\CBC\OnCarriageIndicator:
     xml_root_name: OnCarriageIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

@@ -9,4 +9,3 @@ class ObjectIdentifier extends ObjectIdentifierType
 {
 }
 
-

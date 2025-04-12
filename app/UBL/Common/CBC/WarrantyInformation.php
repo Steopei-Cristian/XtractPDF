@@ -9,4 +9,3 @@ class WarrantyInformation extends WarrantyInformationType
 {
 }
 
-

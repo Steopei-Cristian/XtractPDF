@@ -9,4 +9,3 @@ class HazardClassID extends HazardClassIDType
 {
 }
 
-

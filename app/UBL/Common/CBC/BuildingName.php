@@ -9,4 +9,3 @@ class BuildingName extends BuildingNameType
 {
 }
 
-

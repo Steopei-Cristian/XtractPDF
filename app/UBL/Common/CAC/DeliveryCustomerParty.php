@@ -9,4 +9,3 @@ class DeliveryCustomerParty extends CustomerPartyType
 {
 }
 
-

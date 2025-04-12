@@ -9,4 +9,3 @@ class CustomsStatusCode extends CustomsStatusCodeType
 {
 }
 
-

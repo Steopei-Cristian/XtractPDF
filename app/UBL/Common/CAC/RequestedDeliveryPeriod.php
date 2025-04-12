@@ -9,4 +9,3 @@ class RequestedDeliveryPeriod extends PeriodType
 {
 }
 
-

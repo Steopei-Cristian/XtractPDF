@@ -9,4 +9,3 @@ class AdvertisementAmount extends AdvertisementAmountType
 {
 }
 
-

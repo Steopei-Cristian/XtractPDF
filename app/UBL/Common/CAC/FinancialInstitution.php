@@ -9,4 +9,3 @@ class FinancialInstitution extends FinancialInstitutionType
 {
 }
 
-

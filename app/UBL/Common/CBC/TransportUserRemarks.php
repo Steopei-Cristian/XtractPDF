@@ -9,4 +9,3 @@ class TransportUserRemarks extends TransportUserRemarksType
 {
 }
 
-

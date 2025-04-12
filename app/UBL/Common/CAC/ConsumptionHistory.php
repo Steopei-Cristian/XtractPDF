@@ -9,4 +9,3 @@ class ConsumptionHistory extends ConsumptionHistoryType
 {
 }
 
-

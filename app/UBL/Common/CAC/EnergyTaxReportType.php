@@ -24,7 +24,7 @@ class EnergyTaxReportType
      *  Amount. Type
      *  3087.90
      *
-     * @var \UBL\Common\CBC\TaxEnergyAmount $taxEnergyAmount
+     * @var \App\UBL\Common\CBC\TaxEnergyAmount $taxEnergyAmount
      */
     private $taxEnergyAmount = null;
 
@@ -40,7 +40,7 @@ class EnergyTaxReportType
      *  Amount. Type
      *  2855.40
      *
-     * @var \UBL\Common\CBC\TaxEnergyOnAccountAmount $taxEnergyOnAccountAmount
+     * @var \App\UBL\Common\CBC\TaxEnergyOnAccountAmount $taxEnergyOnAccountAmount
      */
     private $taxEnergyOnAccountAmount = null;
 
@@ -55,7 +55,7 @@ class EnergyTaxReportType
      *  Amount. Type
      *  232.49
      *
-     * @var \UBL\Common\CBC\TaxEnergyBalanceAmount $taxEnergyBalanceAmount
+     * @var \App\UBL\Common\CBC\TaxEnergyBalanceAmount $taxEnergyBalanceAmount
      */
     private $taxEnergyBalanceAmount = null;
 
@@ -69,7 +69,7 @@ class EnergyTaxReportType
      *  Tax Scheme
      *  Tax Scheme
      *
-     * @var \UBL\Common\CAC\TaxScheme $taxScheme
+     * @var \App\UBL\Common\CAC\TaxScheme $taxScheme
      */
     private $taxScheme = null;
 
@@ -86,7 +86,7 @@ class EnergyTaxReportType
      *  Amount. Type
      *  3087.90
      *
-     * @return \UBL\Common\CBC\TaxEnergyAmount
+     * @return \App\UBL\Common\CBC\TaxEnergyAmount
      */
     public function getTaxEnergyAmount()
     {
@@ -106,10 +106,10 @@ class EnergyTaxReportType
      *  Amount. Type
      *  3087.90
      *
-     * @param \UBL\Common\CBC\TaxEnergyAmount $taxEnergyAmount
+     * @param \App\UBL\Common\CBC\TaxEnergyAmount $taxEnergyAmount
      * @return self
      */
-    public function setTaxEnergyAmount(?\UBL\Common\CBC\TaxEnergyAmount $taxEnergyAmount = null)
+    public function setTaxEnergyAmount(?\App\UBL\Common\CBC\TaxEnergyAmount $taxEnergyAmount = null)
     {
         $this->taxEnergyAmount = $taxEnergyAmount;
         return $this;
@@ -129,7 +129,7 @@ class EnergyTaxReportType
      *  Amount. Type
      *  2855.40
      *
-     * @return \UBL\Common\CBC\TaxEnergyOnAccountAmount
+     * @return \App\UBL\Common\CBC\TaxEnergyOnAccountAmount
      */
     public function getTaxEnergyOnAccountAmount()
     {
@@ -150,10 +150,10 @@ class EnergyTaxReportType
      *  Amount. Type
      *  2855.40
      *
-     * @param \UBL\Common\CBC\TaxEnergyOnAccountAmount $taxEnergyOnAccountAmount
+     * @param \App\UBL\Common\CBC\TaxEnergyOnAccountAmount $taxEnergyOnAccountAmount
      * @return self
      */
-    public function setTaxEnergyOnAccountAmount(?\UBL\Common\CBC\TaxEnergyOnAccountAmount $taxEnergyOnAccountAmount = null)
+    public function setTaxEnergyOnAccountAmount(?\App\UBL\Common\CBC\TaxEnergyOnAccountAmount $taxEnergyOnAccountAmount = null)
     {
         $this->taxEnergyOnAccountAmount = $taxEnergyOnAccountAmount;
         return $this;
@@ -172,7 +172,7 @@ class EnergyTaxReportType
      *  Amount. Type
      *  232.49
      *
-     * @return \UBL\Common\CBC\TaxEnergyBalanceAmount
+     * @return \App\UBL\Common\CBC\TaxEnergyBalanceAmount
      */
     public function getTaxEnergyBalanceAmount()
     {
@@ -192,10 +192,10 @@ class EnergyTaxReportType
      *  Amount. Type
      *  232.49
      *
-     * @param \UBL\Common\CBC\TaxEnergyBalanceAmount $taxEnergyBalanceAmount
+     * @param \App\UBL\Common\CBC\TaxEnergyBalanceAmount $taxEnergyBalanceAmount
      * @return self
      */
-    public function setTaxEnergyBalanceAmount(?\UBL\Common\CBC\TaxEnergyBalanceAmount $taxEnergyBalanceAmount = null)
+    public function setTaxEnergyBalanceAmount(?\App\UBL\Common\CBC\TaxEnergyBalanceAmount $taxEnergyBalanceAmount = null)
     {
         $this->taxEnergyBalanceAmount = $taxEnergyBalanceAmount;
         return $this;
@@ -213,7 +213,7 @@ class EnergyTaxReportType
      *  Tax Scheme
      *  Tax Scheme
      *
-     * @return \UBL\Common\CAC\TaxScheme
+     * @return \App\UBL\Common\CAC\TaxScheme
      */
     public function getTaxScheme()
     {
@@ -232,14 +232,13 @@ class EnergyTaxReportType
      *  Tax Scheme
      *  Tax Scheme
      *
-     * @param \UBL\Common\CAC\TaxScheme $taxScheme
+     * @param \App\UBL\Common\CAC\TaxScheme $taxScheme
      * @return self
      */
-    public function setTaxScheme(\UBL\Common\CAC\TaxScheme $taxScheme)
+    public function setTaxScheme(\App\UBL\Common\CAC\TaxScheme $taxScheme)
     {
         $this->taxScheme = $taxScheme;
         return $this;
     }
 }
-
 

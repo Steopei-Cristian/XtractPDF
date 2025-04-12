@@ -9,4 +9,3 @@ class SignatureInformation extends SignatureInformationType
 {
 }
 
-

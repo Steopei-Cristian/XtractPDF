@@ -1,2 +1,2 @@
-UBL\Common\CBC\DocumentStatusReasonDescriptionType:
+App\UBL\Common\CBC\DocumentStatusReasonDescriptionType:
     properties: {  }

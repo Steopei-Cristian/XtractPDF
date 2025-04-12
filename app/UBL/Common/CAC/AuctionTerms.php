@@ -9,4 +9,3 @@ class AuctionTerms extends AuctionTermsType
 {
 }
 
-

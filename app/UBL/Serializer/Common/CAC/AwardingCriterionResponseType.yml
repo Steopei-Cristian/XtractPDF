@@ -1,4 +1,4 @@
-UBL\Common\CAC\AwardingCriterionResponseType:
+App\UBL\Common\CAC\AwardingCriterionResponseType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\AwardingCriterionResponseType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         awardingCriterionID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\AwardingCriterionResponseType:
             accessor:
                 getter: getAwardingCriterionID
                 setter: setAwardingCriterionID
-            type: UBL\Common\CBC\AwardingCriterionID
+            type: App\UBL\Common\CBC\AwardingCriterionID
         awardingCriterionDescription:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\AwardingCriterionResponseType:
                 inline: true
                 entry_name: AwardingCriterionDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\AwardingCriterionDescription>
+            type: array<App\UBL\Common\CBC\AwardingCriterionDescription>
         description:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ UBL\Common\CAC\AwardingCriterionResponseType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         quantity:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\AwardingCriterionResponseType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         amount:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\AwardingCriterionResponseType:
             accessor:
                 getter: getAmount
                 setter: setAmount
-            type: UBL\Common\CBC\Amount
+            type: App\UBL\Common\CBC\Amount
         subordinateAwardingCriterionResponse:
             expose: true
             access_type: public_method
@@ -81,4 +81,4 @@ UBL\Common\CAC\AwardingCriterionResponseType:
                 inline: true
                 entry_name: SubordinateAwardingCriterionResponse
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SubordinateAwardingCriterionResponse>
+            type: array<App\UBL\Common\CAC\SubordinateAwardingCriterionResponse>

@@ -9,4 +9,3 @@ class LoadingSequenceID extends LoadingSequenceIDType
 {
 }
 
-

@@ -9,4 +9,3 @@ class PreviousMeterReadingMethodCode extends PreviousMeterReadingMethodCodeType
 {
 }
 
-

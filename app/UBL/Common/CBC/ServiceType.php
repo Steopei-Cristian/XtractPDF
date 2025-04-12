@@ -9,4 +9,3 @@ class ServiceType extends ServiceTypeType
 {
 }
 
-

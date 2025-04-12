@@ -11,14 +11,14 @@ namespace App\UBL\XAdES\v132;
 class CounterSignatureType
 {
     /**
-     * @var \UBL\Xmldsig\Signature $signature
+     * @var \App\UBL\Xmldsig\Signature $signature
      */
     private $signature = null;
 
     /**
      * Gets as signature
      *
-     * @return \UBL\Xmldsig\Signature
+     * @return \App\UBL\Xmldsig\Signature
      */
     public function getSignature()
     {
@@ -28,14 +28,13 @@ class CounterSignatureType
     /**
      * Sets a new signature
      *
-     * @param \UBL\Xmldsig\Signature $signature
+     * @param \App\UBL\Xmldsig\Signature $signature
      * @return self
      */
-    public function setSignature(\UBL\Xmldsig\Signature $signature)
+    public function setSignature(\App\UBL\Xmldsig\Signature $signature)
     {
         $this->signature = $signature;
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class EvidenceTypeCode extends EvidenceTypeCodeType
 {
 }
 
-

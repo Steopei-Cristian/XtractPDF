@@ -1,3 +1,3 @@
-UBL\Common\CAC\ItemInformationRequestLine:
+App\UBL\Common\CAC\ItemInformationRequestLine:
     xml_root_name: ItemInformationRequestLine
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

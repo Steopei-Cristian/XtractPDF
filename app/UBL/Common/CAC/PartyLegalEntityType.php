@@ -25,7 +25,7 @@ class PartyLegalEntityType
      *  Name. Type
      *  Microsoft Corporation
      *
-     * @var \UBL\Common\CBC\RegistrationName $registrationName
+     * @var \App\UBL\Common\CBC\RegistrationName $registrationName
      */
     private $registrationName = null;
 
@@ -41,7 +41,7 @@ class PartyLegalEntityType
      *  Business Registration Number, Company Number
      *  3556625
      *
-     * @var \UBL\Common\CBC\CompanyID $companyID
+     * @var \App\UBL\Common\CBC\CompanyID $companyID
      */
     private $companyID = null;
 
@@ -86,7 +86,7 @@ class PartyLegalEntityType
      *  Code. Type
      *  Legal Status
      *
-     * @var \UBL\Common\CBC\CompanyLegalFormCode $companyLegalFormCode
+     * @var \App\UBL\Common\CBC\CompanyLegalFormCode $companyLegalFormCode
      */
     private $companyLegalFormCode = null;
 
@@ -100,7 +100,7 @@ class PartyLegalEntityType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\CompanyLegalForm $companyLegalForm
+     * @var \App\UBL\Common\CBC\CompanyLegalForm $companyLegalForm
      */
     private $companyLegalForm = null;
 
@@ -128,7 +128,7 @@ class PartyLegalEntityType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\CompanyLiquidationStatusCode $companyLiquidationStatusCode
+     * @var \App\UBL\Common\CBC\CompanyLiquidationStatusCode $companyLiquidationStatusCode
      */
     private $companyLiquidationStatusCode = null;
 
@@ -143,7 +143,7 @@ class PartyLegalEntityType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\CorporateStockAmount $corporateStockAmount
+     * @var \App\UBL\Common\CBC\CorporateStockAmount $corporateStockAmount
      */
     private $corporateStockAmount = null;
 
@@ -172,7 +172,7 @@ class PartyLegalEntityType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\RegistrationAddress $registrationAddress
+     * @var \App\UBL\Common\CAC\RegistrationAddress $registrationAddress
      */
     private $registrationAddress = null;
 
@@ -186,7 +186,7 @@ class PartyLegalEntityType
      *  Corporate Registration Scheme
      *  Corporate Registration Scheme
      *
-     * @var \UBL\Common\CAC\CorporateRegistrationScheme $corporateRegistrationScheme
+     * @var \App\UBL\Common\CAC\CorporateRegistrationScheme $corporateRegistrationScheme
      */
     private $corporateRegistrationScheme = null;
 
@@ -201,7 +201,7 @@ class PartyLegalEntityType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\HeadOfficeParty $headOfficeParty
+     * @var \App\UBL\Common\CAC\HeadOfficeParty $headOfficeParty
      */
     private $headOfficeParty = null;
 
@@ -215,7 +215,7 @@ class PartyLegalEntityType
      *  Shareholder Party
      *  Shareholder Party
      *
-     * @var \UBL\Common\CAC\ShareholderParty[] $shareholderParty
+     * @var \App\UBL\Common\CAC\ShareholderParty[] $shareholderParty
      */
     private $shareholderParty = [
         
@@ -235,7 +235,7 @@ class PartyLegalEntityType
      *  Name. Type
      *  Microsoft Corporation
      *
-     * @return \UBL\Common\CBC\RegistrationName
+     * @return \App\UBL\Common\CBC\RegistrationName
      */
     public function getRegistrationName()
     {
@@ -256,10 +256,10 @@ class PartyLegalEntityType
      *  Name. Type
      *  Microsoft Corporation
      *
-     * @param \UBL\Common\CBC\RegistrationName $registrationName
+     * @param \App\UBL\Common\CBC\RegistrationName $registrationName
      * @return self
      */
-    public function setRegistrationName(?\UBL\Common\CBC\RegistrationName $registrationName = null)
+    public function setRegistrationName(?\App\UBL\Common\CBC\RegistrationName $registrationName = null)
     {
         $this->registrationName = $registrationName;
         return $this;
@@ -279,7 +279,7 @@ class PartyLegalEntityType
      *  Business Registration Number, Company Number
      *  3556625
      *
-     * @return \UBL\Common\CBC\CompanyID
+     * @return \App\UBL\Common\CBC\CompanyID
      */
     public function getCompanyID()
     {
@@ -300,10 +300,10 @@ class PartyLegalEntityType
      *  Business Registration Number, Company Number
      *  3556625
      *
-     * @param \UBL\Common\CBC\CompanyID $companyID
+     * @param \App\UBL\Common\CBC\CompanyID $companyID
      * @return self
      */
-    public function setCompanyID(?\UBL\Common\CBC\CompanyID $companyID = null)
+    public function setCompanyID(?\App\UBL\Common\CBC\CompanyID $companyID = null)
     {
         $this->companyID = $companyID;
         return $this;
@@ -406,7 +406,7 @@ class PartyLegalEntityType
      *  Code. Type
      *  Legal Status
      *
-     * @return \UBL\Common\CBC\CompanyLegalFormCode
+     * @return \App\UBL\Common\CBC\CompanyLegalFormCode
      */
     public function getCompanyLegalFormCode()
     {
@@ -426,10 +426,10 @@ class PartyLegalEntityType
      *  Code. Type
      *  Legal Status
      *
-     * @param \UBL\Common\CBC\CompanyLegalFormCode $companyLegalFormCode
+     * @param \App\UBL\Common\CBC\CompanyLegalFormCode $companyLegalFormCode
      * @return self
      */
-    public function setCompanyLegalFormCode(?\UBL\Common\CBC\CompanyLegalFormCode $companyLegalFormCode = null)
+    public function setCompanyLegalFormCode(?\App\UBL\Common\CBC\CompanyLegalFormCode $companyLegalFormCode = null)
     {
         $this->companyLegalFormCode = $companyLegalFormCode;
         return $this;
@@ -447,7 +447,7 @@ class PartyLegalEntityType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\CompanyLegalForm
+     * @return \App\UBL\Common\CBC\CompanyLegalForm
      */
     public function getCompanyLegalForm()
     {
@@ -466,10 +466,10 @@ class PartyLegalEntityType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\CompanyLegalForm $companyLegalForm
+     * @param \App\UBL\Common\CBC\CompanyLegalForm $companyLegalForm
      * @return self
      */
-    public function setCompanyLegalForm(?\UBL\Common\CBC\CompanyLegalForm $companyLegalForm = null)
+    public function setCompanyLegalForm(?\App\UBL\Common\CBC\CompanyLegalForm $companyLegalForm = null)
     {
         $this->companyLegalForm = $companyLegalForm;
         return $this;
@@ -527,7 +527,7 @@ class PartyLegalEntityType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\CompanyLiquidationStatusCode
+     * @return \App\UBL\Common\CBC\CompanyLiquidationStatusCode
      */
     public function getCompanyLiquidationStatusCode()
     {
@@ -546,10 +546,10 @@ class PartyLegalEntityType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\CompanyLiquidationStatusCode $companyLiquidationStatusCode
+     * @param \App\UBL\Common\CBC\CompanyLiquidationStatusCode $companyLiquidationStatusCode
      * @return self
      */
-    public function setCompanyLiquidationStatusCode(?\UBL\Common\CBC\CompanyLiquidationStatusCode $companyLiquidationStatusCode = null)
+    public function setCompanyLiquidationStatusCode(?\App\UBL\Common\CBC\CompanyLiquidationStatusCode $companyLiquidationStatusCode = null)
     {
         $this->companyLiquidationStatusCode = $companyLiquidationStatusCode;
         return $this;
@@ -568,7 +568,7 @@ class PartyLegalEntityType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\CorporateStockAmount
+     * @return \App\UBL\Common\CBC\CorporateStockAmount
      */
     public function getCorporateStockAmount()
     {
@@ -588,10 +588,10 @@ class PartyLegalEntityType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\CorporateStockAmount $corporateStockAmount
+     * @param \App\UBL\Common\CBC\CorporateStockAmount $corporateStockAmount
      * @return self
      */
-    public function setCorporateStockAmount(?\UBL\Common\CBC\CorporateStockAmount $corporateStockAmount = null)
+    public function setCorporateStockAmount(?\App\UBL\Common\CBC\CorporateStockAmount $corporateStockAmount = null)
     {
         $this->corporateStockAmount = $corporateStockAmount;
         return $this;
@@ -650,7 +650,7 @@ class PartyLegalEntityType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\RegistrationAddress
+     * @return \App\UBL\Common\CAC\RegistrationAddress
      */
     public function getRegistrationAddress()
     {
@@ -670,10 +670,10 @@ class PartyLegalEntityType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\RegistrationAddress $registrationAddress
+     * @param \App\UBL\Common\CAC\RegistrationAddress $registrationAddress
      * @return self
      */
-    public function setRegistrationAddress(?\UBL\Common\CAC\RegistrationAddress $registrationAddress = null)
+    public function setRegistrationAddress(?\App\UBL\Common\CAC\RegistrationAddress $registrationAddress = null)
     {
         $this->registrationAddress = $registrationAddress;
         return $this;
@@ -691,7 +691,7 @@ class PartyLegalEntityType
      *  Corporate Registration Scheme
      *  Corporate Registration Scheme
      *
-     * @return \UBL\Common\CAC\CorporateRegistrationScheme
+     * @return \App\UBL\Common\CAC\CorporateRegistrationScheme
      */
     public function getCorporateRegistrationScheme()
     {
@@ -710,10 +710,10 @@ class PartyLegalEntityType
      *  Corporate Registration Scheme
      *  Corporate Registration Scheme
      *
-     * @param \UBL\Common\CAC\CorporateRegistrationScheme $corporateRegistrationScheme
+     * @param \App\UBL\Common\CAC\CorporateRegistrationScheme $corporateRegistrationScheme
      * @return self
      */
-    public function setCorporateRegistrationScheme(?\UBL\Common\CAC\CorporateRegistrationScheme $corporateRegistrationScheme = null)
+    public function setCorporateRegistrationScheme(?\App\UBL\Common\CAC\CorporateRegistrationScheme $corporateRegistrationScheme = null)
     {
         $this->corporateRegistrationScheme = $corporateRegistrationScheme;
         return $this;
@@ -732,7 +732,7 @@ class PartyLegalEntityType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\HeadOfficeParty
+     * @return \App\UBL\Common\CAC\HeadOfficeParty
      */
     public function getHeadOfficeParty()
     {
@@ -752,10 +752,10 @@ class PartyLegalEntityType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\HeadOfficeParty $headOfficeParty
+     * @param \App\UBL\Common\CAC\HeadOfficeParty $headOfficeParty
      * @return self
      */
-    public function setHeadOfficeParty(?\UBL\Common\CAC\HeadOfficeParty $headOfficeParty = null)
+    public function setHeadOfficeParty(?\App\UBL\Common\CAC\HeadOfficeParty $headOfficeParty = null)
     {
         $this->headOfficeParty = $headOfficeParty;
         return $this;
@@ -774,9 +774,9 @@ class PartyLegalEntityType
      *  Shareholder Party
      *
      * @return self
-     * @param \UBL\Common\CAC\ShareholderParty $shareholderParty
+     * @param \App\UBL\Common\CAC\ShareholderParty $shareholderParty
      */
-    public function addToShareholderParty(\UBL\Common\CAC\ShareholderParty $shareholderParty)
+    public function addToShareholderParty(\App\UBL\Common\CAC\ShareholderParty $shareholderParty)
     {
         $this->shareholderParty[] = $shareholderParty;
         return $this;
@@ -834,7 +834,7 @@ class PartyLegalEntityType
      *  Shareholder Party
      *  Shareholder Party
      *
-     * @return \UBL\Common\CAC\ShareholderParty[]
+     * @return \App\UBL\Common\CAC\ShareholderParty[]
      */
     public function getShareholderParty()
     {
@@ -853,7 +853,7 @@ class PartyLegalEntityType
      *  Shareholder Party
      *  Shareholder Party
      *
-     * @param \UBL\Common\CAC\ShareholderParty[] $shareholderParty
+     * @param \App\UBL\Common\CAC\ShareholderParty[] $shareholderParty
      * @return self
      */
     public function setShareholderParty(?array $shareholderParty = null)
@@ -862,5 +862,4 @@ class PartyLegalEntityType
         return $this;
     }
 }
-
 

@@ -1,4 +1,4 @@
-UBL\Common\CAC\ProcurementProjectType:
+App\UBL\Common\CAC\ProcurementProjectType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ProcurementProjectType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         name:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\ProcurementProjectType:
                 inline: true
                 entry_name: Name
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Name>
+            type: array<App\UBL\Common\CBC\Name>
         description:
             expose: true
             access_type: public_method
@@ -37,7 +37,7 @@ UBL\Common\CAC\ProcurementProjectType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         procurementTypeCode:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ UBL\Common\CAC\ProcurementProjectType:
             accessor:
                 getter: getProcurementTypeCode
                 setter: setProcurementTypeCode
-            type: UBL\Common\CBC\ProcurementTypeCode
+            type: App\UBL\Common\CBC\ProcurementTypeCode
         procurementSubTypeCode:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\ProcurementProjectType:
             accessor:
                 getter: getProcurementSubTypeCode
                 setter: setProcurementSubTypeCode
-            type: UBL\Common\CBC\ProcurementSubTypeCode
+            type: App\UBL\Common\CBC\ProcurementSubTypeCode
         qualityControlCode:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\ProcurementProjectType:
             accessor:
                 getter: getQualityControlCode
                 setter: setQualityControlCode
-            type: UBL\Common\CBC\QualityControlCode
+            type: App\UBL\Common\CBC\QualityControlCode
         requiredFeeAmount:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\ProcurementProjectType:
             accessor:
                 getter: getRequiredFeeAmount
                 setter: setRequiredFeeAmount
-            type: UBL\Common\CBC\RequiredFeeAmount
+            type: App\UBL\Common\CBC\RequiredFeeAmount
         feeDescription:
             expose: true
             access_type: public_method
@@ -91,7 +91,7 @@ UBL\Common\CAC\ProcurementProjectType:
                 inline: true
                 entry_name: FeeDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\FeeDescription>
+            type: array<App\UBL\Common\CBC\FeeDescription>
         requestedDeliveryDate:
             expose: true
             access_type: public_method
@@ -111,7 +111,7 @@ UBL\Common\CAC\ProcurementProjectType:
             accessor:
                 getter: getEstimatedOverallContractQuantity
                 setter: setEstimatedOverallContractQuantity
-            type: UBL\Common\CBC\EstimatedOverallContractQuantity
+            type: App\UBL\Common\CBC\EstimatedOverallContractQuantity
         note:
             expose: true
             access_type: public_method
@@ -125,7 +125,7 @@ UBL\Common\CAC\ProcurementProjectType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         requestedTenderTotal:
             expose: true
             access_type: public_method
@@ -135,7 +135,7 @@ UBL\Common\CAC\ProcurementProjectType:
             accessor:
                 getter: getRequestedTenderTotal
                 setter: setRequestedTenderTotal
-            type: UBL\Common\CAC\RequestedTenderTotal
+            type: App\UBL\Common\CAC\RequestedTenderTotal
         mainCommodityClassification:
             expose: true
             access_type: public_method
@@ -145,7 +145,7 @@ UBL\Common\CAC\ProcurementProjectType:
             accessor:
                 getter: getMainCommodityClassification
                 setter: setMainCommodityClassification
-            type: UBL\Common\CAC\MainCommodityClassification
+            type: App\UBL\Common\CAC\MainCommodityClassification
         additionalCommodityClassification:
             expose: true
             access_type: public_method
@@ -159,7 +159,7 @@ UBL\Common\CAC\ProcurementProjectType:
                 inline: true
                 entry_name: AdditionalCommodityClassification
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AdditionalCommodityClassification>
+            type: array<App\UBL\Common\CAC\AdditionalCommodityClassification>
         realizedLocation:
             expose: true
             access_type: public_method
@@ -173,7 +173,7 @@ UBL\Common\CAC\ProcurementProjectType:
                 inline: true
                 entry_name: RealizedLocation
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\RealizedLocation>
+            type: array<App\UBL\Common\CAC\RealizedLocation>
         plannedPeriod:
             expose: true
             access_type: public_method
@@ -183,7 +183,7 @@ UBL\Common\CAC\ProcurementProjectType:
             accessor:
                 getter: getPlannedPeriod
                 setter: setPlannedPeriod
-            type: UBL\Common\CAC\PlannedPeriod
+            type: App\UBL\Common\CAC\PlannedPeriod
         contractExtension:
             expose: true
             access_type: public_method
@@ -193,7 +193,7 @@ UBL\Common\CAC\ProcurementProjectType:
             accessor:
                 getter: getContractExtension
                 setter: setContractExtension
-            type: UBL\Common\CAC\ContractExtension
+            type: App\UBL\Common\CAC\ContractExtension
         requestForTenderLine:
             expose: true
             access_type: public_method
@@ -207,4 +207,4 @@ UBL\Common\CAC\ProcurementProjectType:
                 inline: true
                 entry_name: RequestForTenderLine
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\RequestForTenderLine>
+            type: array<App\UBL\Common\CAC\RequestForTenderLine>

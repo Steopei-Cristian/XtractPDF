@@ -1,4 +1,4 @@
-UBL\Common\CAC\TenderLineType:
+App\UBL\Common\CAC\TenderLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         note:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\TenderLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         quantity:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         lineExtensionAmount:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getLineExtensionAmount
                 setter: setLineExtensionAmount
-            type: UBL\Common\CBC\LineExtensionAmount
+            type: App\UBL\Common\CBC\LineExtensionAmount
         totalTaxAmount:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getTotalTaxAmount
                 setter: setTotalTaxAmount
-            type: UBL\Common\CBC\TotalTaxAmount
+            type: App\UBL\Common\CBC\TotalTaxAmount
         orderableUnit:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getOrderableUnit
                 setter: setOrderableUnit
-            type: UBL\Common\CBC\OrderableUnit
+            type: App\UBL\Common\CBC\OrderableUnit
         contentUnitQuantity:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getContentUnitQuantity
                 setter: setContentUnitQuantity
-            type: UBL\Common\CBC\ContentUnitQuantity
+            type: App\UBL\Common\CBC\ContentUnitQuantity
         orderQuantityIncrementNumeric:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getOrderQuantityIncrementNumeric
                 setter: setOrderQuantityIncrementNumeric
-            type: UBL\Common\CBC\OrderQuantityIncrementNumeric
+            type: App\UBL\Common\CBC\OrderQuantityIncrementNumeric
         minimumOrderQuantity:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getMinimumOrderQuantity
                 setter: setMinimumOrderQuantity
-            type: UBL\Common\CBC\MinimumOrderQuantity
+            type: App\UBL\Common\CBC\MinimumOrderQuantity
         maximumOrderQuantity:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getMaximumOrderQuantity
                 setter: setMaximumOrderQuantity
-            type: UBL\Common\CBC\MaximumOrderQuantity
+            type: App\UBL\Common\CBC\MaximumOrderQuantity
         warrantyInformation:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ UBL\Common\CAC\TenderLineType:
                 inline: true
                 entry_name: WarrantyInformation
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\WarrantyInformation>
+            type: array<App\UBL\Common\CBC\WarrantyInformation>
         packLevelCode:
             expose: true
             access_type: public_method
@@ -127,7 +127,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getPackLevelCode
                 setter: setPackLevelCode
-            type: UBL\Common\CBC\PackLevelCode
+            type: App\UBL\Common\CBC\PackLevelCode
         documentReference:
             expose: true
             access_type: public_method
@@ -141,7 +141,7 @@ UBL\Common\CAC\TenderLineType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>
         item:
             expose: true
             access_type: public_method
@@ -151,7 +151,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getItem
                 setter: setItem
-            type: UBL\Common\CAC\Item
+            type: App\UBL\Common\CAC\Item
         offeredItemLocationQuantity:
             expose: true
             access_type: public_method
@@ -165,7 +165,7 @@ UBL\Common\CAC\TenderLineType:
                 inline: true
                 entry_name: OfferedItemLocationQuantity
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\OfferedItemLocationQuantity>
+            type: array<App\UBL\Common\CAC\OfferedItemLocationQuantity>
         replacementRelatedItem:
             expose: true
             access_type: public_method
@@ -179,7 +179,7 @@ UBL\Common\CAC\TenderLineType:
                 inline: true
                 entry_name: ReplacementRelatedItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ReplacementRelatedItem>
+            type: array<App\UBL\Common\CAC\ReplacementRelatedItem>
         warrantyParty:
             expose: true
             access_type: public_method
@@ -189,7 +189,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getWarrantyParty
                 setter: setWarrantyParty
-            type: UBL\Common\CAC\WarrantyParty
+            type: App\UBL\Common\CAC\WarrantyParty
         warrantyValidityPeriod:
             expose: true
             access_type: public_method
@@ -199,7 +199,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getWarrantyValidityPeriod
                 setter: setWarrantyValidityPeriod
-            type: UBL\Common\CAC\WarrantyValidityPeriod
+            type: App\UBL\Common\CAC\WarrantyValidityPeriod
         subTenderLine:
             expose: true
             access_type: public_method
@@ -213,7 +213,7 @@ UBL\Common\CAC\TenderLineType:
                 inline: true
                 entry_name: SubTenderLine
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SubTenderLine>
+            type: array<App\UBL\Common\CAC\SubTenderLine>
         callForTendersLineReference:
             expose: true
             access_type: public_method
@@ -223,7 +223,7 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getCallForTendersLineReference
                 setter: setCallForTendersLineReference
-            type: UBL\Common\CAC\CallForTendersLineReference
+            type: App\UBL\Common\CAC\CallForTendersLineReference
         callForTendersDocumentReference:
             expose: true
             access_type: public_method
@@ -233,4 +233,4 @@ UBL\Common\CAC\TenderLineType:
             accessor:
                 getter: getCallForTendersDocumentReference
                 setter: setCallForTendersDocumentReference
-            type: UBL\Common\CAC\CallForTendersDocumentReference
+            type: App\UBL\Common\CAC\CallForTendersDocumentReference

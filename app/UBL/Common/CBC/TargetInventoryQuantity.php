@@ -9,4 +9,3 @@ class TargetInventoryQuantity extends TargetInventoryQuantityType
 {
 }
 
-

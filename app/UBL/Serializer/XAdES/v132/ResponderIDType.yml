@@ -1,4 +1,4 @@
-UBL\XAdES\v132\ResponderIDType:
+App\UBL\XAdES\v132\ResponderIDType:
     properties:
         byName:
             expose: true

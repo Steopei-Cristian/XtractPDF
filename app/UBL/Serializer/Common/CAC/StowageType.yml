@@ -1,4 +1,4 @@
-UBL\Common\CAC\StowageType:
+App\UBL\Common\CAC\StowageType:
     properties:
         locationID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\StowageType:
             accessor:
                 getter: getLocationID
                 setter: setLocationID
-            type: UBL\Common\CBC\LocationID
+            type: App\UBL\Common\CBC\LocationID
         location:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\StowageType:
                 inline: true
                 entry_name: Location
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Location>
+            type: array<App\UBL\Common\CBC\Location>
         measurementDimension:
             expose: true
             access_type: public_method
@@ -37,4 +37,4 @@ UBL\Common\CAC\StowageType:
                 inline: true
                 entry_name: MeasurementDimension
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\MeasurementDimension>
+            type: array<App\UBL\Common\CAC\MeasurementDimension>

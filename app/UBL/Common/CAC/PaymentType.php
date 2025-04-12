@@ -23,7 +23,7 @@ class PaymentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class PaymentType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\PaidAmount $paidAmount
+     * @var \App\UBL\Common\CBC\PaidAmount $paidAmount
      */
     private $paidAmount = null;
 
@@ -97,7 +97,7 @@ class PaymentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\InstructionID $instructionID
+     * @var \App\UBL\Common\CBC\InstructionID $instructionID
      */
     private $instructionID = null;
 
@@ -113,7 +113,7 @@ class PaymentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -132,10 +132,10 @@ class PaymentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -154,7 +154,7 @@ class PaymentType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\PaidAmount
+     * @return \App\UBL\Common\CBC\PaidAmount
      */
     public function getPaidAmount()
     {
@@ -174,10 +174,10 @@ class PaymentType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\PaidAmount $paidAmount
+     * @param \App\UBL\Common\CBC\PaidAmount $paidAmount
      * @return self
      */
-    public function setPaidAmount(?\UBL\Common\CBC\PaidAmount $paidAmount = null)
+    public function setPaidAmount(?\App\UBL\Common\CBC\PaidAmount $paidAmount = null)
     {
         $this->paidAmount = $paidAmount;
         return $this;
@@ -321,7 +321,7 @@ class PaymentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\InstructionID
+     * @return \App\UBL\Common\CBC\InstructionID
      */
     public function getInstructionID()
     {
@@ -340,14 +340,13 @@ class PaymentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\InstructionID $instructionID
+     * @param \App\UBL\Common\CBC\InstructionID $instructionID
      * @return self
      */
-    public function setInstructionID(?\UBL\Common\CBC\InstructionID $instructionID = null)
+    public function setInstructionID(?\App\UBL\Common\CBC\InstructionID $instructionID = null)
     {
         $this->instructionID = $instructionID;
         return $this;
     }
 }
-
 

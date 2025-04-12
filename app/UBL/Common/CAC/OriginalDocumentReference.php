@@ -9,4 +9,3 @@ class OriginalDocumentReference extends DocumentReferenceType
 {
 }
 
-

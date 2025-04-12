@@ -1,4 +1,4 @@
-UBL\Common\CAC\AllowanceChargeType:
+App\UBL\Common\CAC\AllowanceChargeType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\AllowanceChargeType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         chargeIndicator:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\AllowanceChargeType:
             accessor:
                 getter: getAllowanceChargeReasonCode
                 setter: setAllowanceChargeReasonCode
-            type: UBL\Common\CBC\AllowanceChargeReasonCode
+            type: App\UBL\Common\CBC\AllowanceChargeReasonCode
         allowanceChargeReason:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\AllowanceChargeType:
                 inline: true
                 entry_name: AllowanceChargeReason
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\AllowanceChargeReason>
+            type: array<App\UBL\Common\CBC\AllowanceChargeReason>
         multiplierFactorNumeric:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\AllowanceChargeType:
             accessor:
                 getter: getMultiplierFactorNumeric
                 setter: setMultiplierFactorNumeric
-            type: UBL\Common\CBC\MultiplierFactorNumeric
+            type: App\UBL\Common\CBC\MultiplierFactorNumeric
         prepaidIndicator:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\AllowanceChargeType:
             accessor:
                 getter: getSequenceNumeric
                 setter: setSequenceNumeric
-            type: UBL\Common\CBC\SequenceNumeric
+            type: App\UBL\Common\CBC\SequenceNumeric
         amount:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\AllowanceChargeType:
             accessor:
                 getter: getAmount
                 setter: setAmount
-            type: UBL\Common\CBC\Amount
+            type: App\UBL\Common\CBC\Amount
         baseAmount:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\AllowanceChargeType:
             accessor:
                 getter: getBaseAmount
                 setter: setBaseAmount
-            type: UBL\Common\CBC\BaseAmount
+            type: App\UBL\Common\CBC\BaseAmount
         accountingCostCode:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\AllowanceChargeType:
             accessor:
                 getter: getAccountingCostCode
                 setter: setAccountingCostCode
-            type: UBL\Common\CBC\AccountingCostCode
+            type: App\UBL\Common\CBC\AccountingCostCode
         accountingCost:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\AllowanceChargeType:
             accessor:
                 getter: getAccountingCost
                 setter: setAccountingCost
-            type: UBL\Common\CBC\AccountingCost
+            type: App\UBL\Common\CBC\AccountingCost
         perUnitAmount:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ UBL\Common\CAC\AllowanceChargeType:
             accessor:
                 getter: getPerUnitAmount
                 setter: setPerUnitAmount
-            type: UBL\Common\CBC\PerUnitAmount
+            type: App\UBL\Common\CBC\PerUnitAmount
         taxCategory:
             expose: true
             access_type: public_method
@@ -137,7 +137,7 @@ UBL\Common\CAC\AllowanceChargeType:
                 inline: true
                 entry_name: TaxCategory
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TaxCategory>
+            type: array<App\UBL\Common\CAC\TaxCategory>
         taxTotal:
             expose: true
             access_type: public_method
@@ -147,7 +147,7 @@ UBL\Common\CAC\AllowanceChargeType:
             accessor:
                 getter: getTaxTotal
                 setter: setTaxTotal
-            type: UBL\Common\CAC\TaxTotal
+            type: App\UBL\Common\CAC\TaxTotal
         paymentMeans:
             expose: true
             access_type: public_method
@@ -161,4 +161,4 @@ UBL\Common\CAC\AllowanceChargeType:
                 inline: true
                 entry_name: PaymentMeans
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PaymentMeans>
+            type: array<App\UBL\Common\CAC\PaymentMeans>

@@ -1,4 +1,4 @@
-UBL\Common\CAC\TelecommunicationsSupplyLineType:
+App\UBL\Common\CAC\TelecommunicationsSupplyLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TelecommunicationsSupplyLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         phoneNumber:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TelecommunicationsSupplyLineType:
             accessor:
                 getter: getPhoneNumber
                 setter: setPhoneNumber
-            type: UBL\Common\CBC\PhoneNumber
+            type: App\UBL\Common\CBC\PhoneNumber
         description:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\TelecommunicationsSupplyLineType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         lineExtensionAmount:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\TelecommunicationsSupplyLineType:
             accessor:
                 getter: getLineExtensionAmount
                 setter: setLineExtensionAmount
-            type: UBL\Common\CBC\LineExtensionAmount
+            type: App\UBL\Common\CBC\LineExtensionAmount
         exchangeRate:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\TelecommunicationsSupplyLineType:
                 inline: true
                 entry_name: ExchangeRate
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ExchangeRate>
+            type: array<App\UBL\Common\CAC\ExchangeRate>
         allowanceCharge:
             expose: true
             access_type: public_method
@@ -71,7 +71,7 @@ UBL\Common\CAC\TelecommunicationsSupplyLineType:
                 inline: true
                 entry_name: AllowanceCharge
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AllowanceCharge>
+            type: array<App\UBL\Common\CAC\AllowanceCharge>
         taxTotal:
             expose: true
             access_type: public_method
@@ -85,7 +85,7 @@ UBL\Common\CAC\TelecommunicationsSupplyLineType:
                 inline: true
                 entry_name: TaxTotal
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TaxTotal>
+            type: array<App\UBL\Common\CAC\TaxTotal>
         telecommunicationsService:
             expose: true
             access_type: public_method
@@ -99,4 +99,4 @@ UBL\Common\CAC\TelecommunicationsSupplyLineType:
                 inline: true
                 entry_name: TelecommunicationsService
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TelecommunicationsService>
+            type: array<App\UBL\Common\CAC\TelecommunicationsService>

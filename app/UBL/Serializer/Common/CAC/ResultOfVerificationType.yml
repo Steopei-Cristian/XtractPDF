@@ -1,4 +1,4 @@
-UBL\Common\CAC\ResultOfVerificationType:
+App\UBL\Common\CAC\ResultOfVerificationType:
     properties:
         validatorID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ResultOfVerificationType:
             accessor:
                 getter: getValidatorID
                 setter: setValidatorID
-            type: UBL\Common\CBC\ValidatorID
+            type: App\UBL\Common\CBC\ValidatorID
         validationResultCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ResultOfVerificationType:
             accessor:
                 getter: getValidationResultCode
                 setter: setValidationResultCode
-            type: UBL\Common\CBC\ValidationResultCode
+            type: App\UBL\Common\CBC\ValidationResultCode
         validationDate:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\ResultOfVerificationType:
             accessor:
                 getter: getValidateProcess
                 setter: setValidateProcess
-            type: UBL\Common\CBC\ValidateProcess
+            type: App\UBL\Common\CBC\ValidateProcess
         validateTool:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\ResultOfVerificationType:
             accessor:
                 getter: getValidateTool
                 setter: setValidateTool
-            type: UBL\Common\CBC\ValidateTool
+            type: App\UBL\Common\CBC\ValidateTool
         validateToolVersion:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\ResultOfVerificationType:
             accessor:
                 getter: getValidateToolVersion
                 setter: setValidateToolVersion
-            type: UBL\Common\CBC\ValidateToolVersion
+            type: App\UBL\Common\CBC\ValidateToolVersion
         signatoryParty:
             expose: true
             access_type: public_method
@@ -79,4 +79,4 @@ UBL\Common\CAC\ResultOfVerificationType:
             accessor:
                 getter: getSignatoryParty
                 setter: setSignatoryParty
-            type: UBL\Common\CAC\SignatoryParty
+            type: App\UBL\Common\CAC\SignatoryParty

@@ -9,4 +9,3 @@ class FinalDeliveryTransportationService extends TransportationServiceType
 {
 }
 
-

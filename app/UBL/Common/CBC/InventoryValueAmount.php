@@ -9,4 +9,3 @@ class InventoryValueAmount extends InventoryValueAmountType
 {
 }
 
-

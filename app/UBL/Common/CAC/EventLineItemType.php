@@ -23,7 +23,7 @@ class EventLineItemType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\LineNumberNumeric $lineNumberNumeric
+     * @var \App\UBL\Common\CBC\LineNumberNumeric $lineNumberNumeric
      */
     private $lineNumberNumeric = null;
 
@@ -38,7 +38,7 @@ class EventLineItemType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\ParticipatingLocationsLocation $participatingLocationsLocation
+     * @var \App\UBL\Common\CAC\ParticipatingLocationsLocation $participatingLocationsLocation
      */
     private $participatingLocationsLocation = null;
 
@@ -52,7 +52,7 @@ class EventLineItemType
      *  Retail Planned Impact
      *  Retail Planned Impact
      *
-     * @var \UBL\Common\CAC\RetailPlannedImpact[] $retailPlannedImpact
+     * @var \App\UBL\Common\CAC\RetailPlannedImpact[] $retailPlannedImpact
      */
     private $retailPlannedImpact = [
         
@@ -69,7 +69,7 @@ class EventLineItemType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\SupplyItem $supplyItem
+     * @var \App\UBL\Common\CAC\SupplyItem $supplyItem
      */
     private $supplyItem = null;
 
@@ -85,7 +85,7 @@ class EventLineItemType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\LineNumberNumeric
+     * @return \App\UBL\Common\CBC\LineNumberNumeric
      */
     public function getLineNumberNumeric()
     {
@@ -104,10 +104,10 @@ class EventLineItemType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\LineNumberNumeric $lineNumberNumeric
+     * @param \App\UBL\Common\CBC\LineNumberNumeric $lineNumberNumeric
      * @return self
      */
-    public function setLineNumberNumeric(?\UBL\Common\CBC\LineNumberNumeric $lineNumberNumeric = null)
+    public function setLineNumberNumeric(?\App\UBL\Common\CBC\LineNumberNumeric $lineNumberNumeric = null)
     {
         $this->lineNumberNumeric = $lineNumberNumeric;
         return $this;
@@ -126,7 +126,7 @@ class EventLineItemType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\ParticipatingLocationsLocation
+     * @return \App\UBL\Common\CAC\ParticipatingLocationsLocation
      */
     public function getParticipatingLocationsLocation()
     {
@@ -146,10 +146,10 @@ class EventLineItemType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\ParticipatingLocationsLocation $participatingLocationsLocation
+     * @param \App\UBL\Common\CAC\ParticipatingLocationsLocation $participatingLocationsLocation
      * @return self
      */
-    public function setParticipatingLocationsLocation(?\UBL\Common\CAC\ParticipatingLocationsLocation $participatingLocationsLocation = null)
+    public function setParticipatingLocationsLocation(?\App\UBL\Common\CAC\ParticipatingLocationsLocation $participatingLocationsLocation = null)
     {
         $this->participatingLocationsLocation = $participatingLocationsLocation;
         return $this;
@@ -168,9 +168,9 @@ class EventLineItemType
      *  Retail Planned Impact
      *
      * @return self
-     * @param \UBL\Common\CAC\RetailPlannedImpact $retailPlannedImpact
+     * @param \App\UBL\Common\CAC\RetailPlannedImpact $retailPlannedImpact
      */
-    public function addToRetailPlannedImpact(\UBL\Common\CAC\RetailPlannedImpact $retailPlannedImpact)
+    public function addToRetailPlannedImpact(\App\UBL\Common\CAC\RetailPlannedImpact $retailPlannedImpact)
     {
         $this->retailPlannedImpact[] = $retailPlannedImpact;
         return $this;
@@ -228,7 +228,7 @@ class EventLineItemType
      *  Retail Planned Impact
      *  Retail Planned Impact
      *
-     * @return \UBL\Common\CAC\RetailPlannedImpact[]
+     * @return \App\UBL\Common\CAC\RetailPlannedImpact[]
      */
     public function getRetailPlannedImpact()
     {
@@ -247,7 +247,7 @@ class EventLineItemType
      *  Retail Planned Impact
      *  Retail Planned Impact
      *
-     * @param \UBL\Common\CAC\RetailPlannedImpact[] $retailPlannedImpact
+     * @param \App\UBL\Common\CAC\RetailPlannedImpact[] $retailPlannedImpact
      * @return self
      */
     public function setRetailPlannedImpact(?array $retailPlannedImpact = null)
@@ -269,7 +269,7 @@ class EventLineItemType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\SupplyItem
+     * @return \App\UBL\Common\CAC\SupplyItem
      */
     public function getSupplyItem()
     {
@@ -289,14 +289,13 @@ class EventLineItemType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\SupplyItem $supplyItem
+     * @param \App\UBL\Common\CAC\SupplyItem $supplyItem
      * @return self
      */
-    public function setSupplyItem(\UBL\Common\CAC\SupplyItem $supplyItem)
+    public function setSupplyItem(\App\UBL\Common\CAC\SupplyItem $supplyItem)
     {
         $this->supplyItem = $supplyItem;
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class InventoryPeriod extends PeriodType
 {
 }
 
-

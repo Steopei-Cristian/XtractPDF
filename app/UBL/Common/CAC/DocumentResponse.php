@@ -9,4 +9,3 @@ class DocumentResponse extends DocumentResponseType
 {
 }
 
-

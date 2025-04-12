@@ -9,4 +9,3 @@ class ContentUnitQuantity extends ContentUnitQuantityType
 {
 }
 
-

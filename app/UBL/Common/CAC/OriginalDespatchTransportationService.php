@@ -9,4 +9,3 @@ class OriginalDespatchTransportationService extends TransportationServiceType
 {
 }
 
-

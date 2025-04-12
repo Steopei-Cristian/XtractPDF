@@ -1,3 +1,3 @@
-UBL\Common\CBC\ConsigneeAssignedID:
+App\UBL\Common\CBC\ConsigneeAssignedID:
     xml_root_name: ConsigneeAssignedID
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

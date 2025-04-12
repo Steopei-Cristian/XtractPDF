@@ -9,4 +9,3 @@ class InhouseMail extends InhouseMailType
 {
 }
 
-

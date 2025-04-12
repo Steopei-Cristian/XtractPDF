@@ -25,7 +25,7 @@ class ConsumptionAverageType
      *  Amount. Type
      *  1.65
      *
-     * @var \UBL\Common\CBC\AverageAmount $averageAmount
+     * @var \App\UBL\Common\CBC\AverageAmount $averageAmount
      */
     private $averageAmount = null;
 
@@ -40,7 +40,7 @@ class ConsumptionAverageType
      *  Text. Type
      *  Average price incl. value added tax per kilowatt-hour in the billing period.
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -60,7 +60,7 @@ class ConsumptionAverageType
      *  Amount. Type
      *  1.65
      *
-     * @return \UBL\Common\CBC\AverageAmount
+     * @return \App\UBL\Common\CBC\AverageAmount
      */
     public function getAverageAmount()
     {
@@ -81,10 +81,10 @@ class ConsumptionAverageType
      *  Amount. Type
      *  1.65
      *
-     * @param \UBL\Common\CBC\AverageAmount $averageAmount
+     * @param \App\UBL\Common\CBC\AverageAmount $averageAmount
      * @return self
      */
-    public function setAverageAmount(?\UBL\Common\CBC\AverageAmount $averageAmount = null)
+    public function setAverageAmount(?\App\UBL\Common\CBC\AverageAmount $averageAmount = null)
     {
         $this->averageAmount = $averageAmount;
         return $this;
@@ -104,9 +104,9 @@ class ConsumptionAverageType
      *  Average price incl. value added tax per kilowatt-hour in the billing period.
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -167,7 +167,7 @@ class ConsumptionAverageType
      *  Text. Type
      *  Average price incl. value added tax per kilowatt-hour in the billing period.
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -187,7 +187,7 @@ class ConsumptionAverageType
      *  Text. Type
      *  Average price incl. value added tax per kilowatt-hour in the billing period.
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -196,5 +196,4 @@ class ConsumptionAverageType
         return $this;
     }
 }
-
 

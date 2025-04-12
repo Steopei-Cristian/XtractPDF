@@ -9,4 +9,3 @@ class NameSuffix extends NameSuffixType
 {
 }
 
-

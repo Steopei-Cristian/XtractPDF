@@ -1,4 +1,4 @@
-UBL\Common\CAC\TaxCategoryType:
+App\UBL\Common\CAC\TaxCategoryType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TaxCategoryType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         name:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TaxCategoryType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         percent:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\TaxCategoryType:
             accessor:
                 getter: getPercent
                 setter: setPercent
-            type: UBL\Common\CBC\Percent
+            type: App\UBL\Common\CBC\Percent
         baseUnitMeasure:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\TaxCategoryType:
             accessor:
                 getter: getBaseUnitMeasure
                 setter: setBaseUnitMeasure
-            type: UBL\Common\CBC\BaseUnitMeasure
+            type: App\UBL\Common\CBC\BaseUnitMeasure
         perUnitAmount:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\TaxCategoryType:
             accessor:
                 getter: getPerUnitAmount
                 setter: setPerUnitAmount
-            type: UBL\Common\CBC\PerUnitAmount
+            type: App\UBL\Common\CBC\PerUnitAmount
         taxExemptionReasonCode:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\TaxCategoryType:
             accessor:
                 getter: getTaxExemptionReasonCode
                 setter: setTaxExemptionReasonCode
-            type: UBL\Common\CBC\TaxExemptionReasonCode
+            type: App\UBL\Common\CBC\TaxExemptionReasonCode
         taxExemptionReason:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\TaxCategoryType:
                 inline: true
                 entry_name: TaxExemptionReason
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\TaxExemptionReason>
+            type: array<App\UBL\Common\CBC\TaxExemptionReason>
         tierRange:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\TaxCategoryType:
             accessor:
                 getter: getTierRange
                 setter: setTierRange
-            type: UBL\Common\CBC\TierRange
+            type: App\UBL\Common\CBC\TierRange
         tierRatePercent:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\TaxCategoryType:
             accessor:
                 getter: getTierRatePercent
                 setter: setTierRatePercent
-            type: UBL\Common\CBC\TierRatePercent
+            type: App\UBL\Common\CBC\TierRatePercent
         taxScheme:
             expose: true
             access_type: public_method
@@ -103,4 +103,4 @@ UBL\Common\CAC\TaxCategoryType:
             accessor:
                 getter: getTaxScheme
                 setter: setTaxScheme
-            type: UBL\Common\CAC\TaxScheme
+            type: App\UBL\Common\CAC\TaxScheme

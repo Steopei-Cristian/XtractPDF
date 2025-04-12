@@ -1,4 +1,4 @@
-UBL\Common\CAC\CountryType:
+App\UBL\Common\CAC\CountryType:
     properties:
         identificationCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CountryType:
             accessor:
                 getter: getIdentificationCode
                 setter: setIdentificationCode
-            type: UBL\Common\CBC\IdentificationCode
+            type: App\UBL\Common\CBC\IdentificationCode
         name:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ UBL\Common\CAC\CountryType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name

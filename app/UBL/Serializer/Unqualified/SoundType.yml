@@ -1,4 +1,4 @@
-UBL\Unqualified\SoundType:
+App\UBL\Unqualified\SoundType:
     properties:
         mimeCode:
             expose: true

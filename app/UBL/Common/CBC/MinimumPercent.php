@@ -9,4 +9,3 @@ class MinimumPercent extends MinimumPercentType
 {
 }
 
-

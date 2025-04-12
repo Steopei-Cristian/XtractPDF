@@ -9,4 +9,3 @@ class TaxTypeCode extends TaxTypeCodeType
 {
 }
 
-

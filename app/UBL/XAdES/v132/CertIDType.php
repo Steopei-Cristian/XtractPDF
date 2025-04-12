@@ -16,12 +16,12 @@ class CertIDType
     private $uRI = null;
 
     /**
-     * @var \UBL\XAdES\v132\DigestAlgAndValueType $certDigest
+     * @var \App\UBL\XAdES\v132\DigestAlgAndValueType $certDigest
      */
     private $certDigest = null;
 
     /**
-     * @var \UBL\Xmldsig\X509IssuerSerialType $issuerSerial
+     * @var \App\UBL\Xmldsig\X509IssuerSerialType $issuerSerial
      */
     private $issuerSerial = null;
 
@@ -50,7 +50,7 @@ class CertIDType
     /**
      * Gets as certDigest
      *
-     * @return \UBL\XAdES\v132\DigestAlgAndValueType
+     * @return \App\UBL\XAdES\v132\DigestAlgAndValueType
      */
     public function getCertDigest()
     {
@@ -60,10 +60,10 @@ class CertIDType
     /**
      * Sets a new certDigest
      *
-     * @param \UBL\XAdES\v132\DigestAlgAndValueType $certDigest
+     * @param \App\UBL\XAdES\v132\DigestAlgAndValueType $certDigest
      * @return self
      */
-    public function setCertDigest(\UBL\XAdES\v132\DigestAlgAndValueType $certDigest)
+    public function setCertDigest(\App\UBL\XAdES\v132\DigestAlgAndValueType $certDigest)
     {
         $this->certDigest = $certDigest;
         return $this;
@@ -72,7 +72,7 @@ class CertIDType
     /**
      * Gets as issuerSerial
      *
-     * @return \UBL\Xmldsig\X509IssuerSerialType
+     * @return \App\UBL\Xmldsig\X509IssuerSerialType
      */
     public function getIssuerSerial()
     {
@@ -82,14 +82,13 @@ class CertIDType
     /**
      * Sets a new issuerSerial
      *
-     * @param \UBL\Xmldsig\X509IssuerSerialType $issuerSerial
+     * @param \App\UBL\Xmldsig\X509IssuerSerialType $issuerSerial
      * @return self
      */
-    public function setIssuerSerial(\UBL\Xmldsig\X509IssuerSerialType $issuerSerial)
+    public function setIssuerSerial(\App\UBL\Xmldsig\X509IssuerSerialType $issuerSerial)
     {
         $this->issuerSerial = $issuerSerial;
         return $this;
     }
 }
-
 

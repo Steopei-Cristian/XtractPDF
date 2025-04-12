@@ -9,4 +9,3 @@ class SequenceID extends SequenceIDType
 {
 }
 
-

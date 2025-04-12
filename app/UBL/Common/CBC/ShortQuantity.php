@@ -9,4 +9,3 @@ class ShortQuantity extends ShortQuantityType
 {
 }
 
-

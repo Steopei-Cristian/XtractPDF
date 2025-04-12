@@ -9,4 +9,3 @@ class PricingReference extends PricingReferenceType
 {
 }
 
-

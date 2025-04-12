@@ -23,7 +23,7 @@ class TenderPreparationType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\TenderEnvelopeID $tenderEnvelopeID
+     * @var \App\UBL\Common\CBC\TenderEnvelopeID $tenderEnvelopeID
      */
     private $tenderEnvelopeID = null;
 
@@ -37,7 +37,7 @@ class TenderPreparationType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TenderEnvelopeTypeCode $tenderEnvelopeTypeCode
+     * @var \App\UBL\Common\CBC\TenderEnvelopeTypeCode $tenderEnvelopeTypeCode
      */
     private $tenderEnvelopeTypeCode = null;
 
@@ -51,7 +51,7 @@ class TenderPreparationType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -67,7 +67,7 @@ class TenderPreparationType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\OpenTenderID $openTenderID
+     * @var \App\UBL\Common\CBC\OpenTenderID $openTenderID
      */
     private $openTenderID = null;
 
@@ -81,7 +81,7 @@ class TenderPreparationType
      *  Procurement Project Lot
      *  Procurement Project Lot
      *
-     * @var \UBL\Common\CAC\ProcurementProjectLot[] $procurementProjectLot
+     * @var \App\UBL\Common\CAC\ProcurementProjectLot[] $procurementProjectLot
      */
     private $procurementProjectLot = [
         
@@ -99,7 +99,7 @@ class TenderPreparationType
      *  Tender Requirement
      *  Curricula required, Experience required, ....
      *
-     * @var \UBL\Common\CAC\DocumentTenderRequirement[] $documentTenderRequirement
+     * @var \App\UBL\Common\CAC\DocumentTenderRequirement[] $documentTenderRequirement
      */
     private $documentTenderRequirement = [
         
@@ -117,7 +117,7 @@ class TenderPreparationType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\TenderEnvelopeID
+     * @return \App\UBL\Common\CBC\TenderEnvelopeID
      */
     public function getTenderEnvelopeID()
     {
@@ -136,10 +136,10 @@ class TenderPreparationType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\TenderEnvelopeID $tenderEnvelopeID
+     * @param \App\UBL\Common\CBC\TenderEnvelopeID $tenderEnvelopeID
      * @return self
      */
-    public function setTenderEnvelopeID(\UBL\Common\CBC\TenderEnvelopeID $tenderEnvelopeID)
+    public function setTenderEnvelopeID(\App\UBL\Common\CBC\TenderEnvelopeID $tenderEnvelopeID)
     {
         $this->tenderEnvelopeID = $tenderEnvelopeID;
         return $this;
@@ -157,7 +157,7 @@ class TenderPreparationType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TenderEnvelopeTypeCode
+     * @return \App\UBL\Common\CBC\TenderEnvelopeTypeCode
      */
     public function getTenderEnvelopeTypeCode()
     {
@@ -176,10 +176,10 @@ class TenderPreparationType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TenderEnvelopeTypeCode $tenderEnvelopeTypeCode
+     * @param \App\UBL\Common\CBC\TenderEnvelopeTypeCode $tenderEnvelopeTypeCode
      * @return self
      */
-    public function setTenderEnvelopeTypeCode(?\UBL\Common\CBC\TenderEnvelopeTypeCode $tenderEnvelopeTypeCode = null)
+    public function setTenderEnvelopeTypeCode(?\App\UBL\Common\CBC\TenderEnvelopeTypeCode $tenderEnvelopeTypeCode = null)
     {
         $this->tenderEnvelopeTypeCode = $tenderEnvelopeTypeCode;
         return $this;
@@ -198,9 +198,9 @@ class TenderPreparationType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -258,7 +258,7 @@ class TenderPreparationType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -277,7 +277,7 @@ class TenderPreparationType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -298,7 +298,7 @@ class TenderPreparationType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\OpenTenderID
+     * @return \App\UBL\Common\CBC\OpenTenderID
      */
     public function getOpenTenderID()
     {
@@ -317,10 +317,10 @@ class TenderPreparationType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\OpenTenderID $openTenderID
+     * @param \App\UBL\Common\CBC\OpenTenderID $openTenderID
      * @return self
      */
-    public function setOpenTenderID(?\UBL\Common\CBC\OpenTenderID $openTenderID = null)
+    public function setOpenTenderID(?\App\UBL\Common\CBC\OpenTenderID $openTenderID = null)
     {
         $this->openTenderID = $openTenderID;
         return $this;
@@ -339,9 +339,9 @@ class TenderPreparationType
      *  Procurement Project Lot
      *
      * @return self
-     * @param \UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot
+     * @param \App\UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot
      */
-    public function addToProcurementProjectLot(\UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot)
+    public function addToProcurementProjectLot(\App\UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot)
     {
         $this->procurementProjectLot[] = $procurementProjectLot;
         return $this;
@@ -399,7 +399,7 @@ class TenderPreparationType
      *  Procurement Project Lot
      *  Procurement Project Lot
      *
-     * @return \UBL\Common\CAC\ProcurementProjectLot[]
+     * @return \App\UBL\Common\CAC\ProcurementProjectLot[]
      */
     public function getProcurementProjectLot()
     {
@@ -418,7 +418,7 @@ class TenderPreparationType
      *  Procurement Project Lot
      *  Procurement Project Lot
      *
-     * @param \UBL\Common\CAC\ProcurementProjectLot[] $procurementProjectLot
+     * @param \App\UBL\Common\CAC\ProcurementProjectLot[] $procurementProjectLot
      * @return self
      */
     public function setProcurementProjectLot(?array $procurementProjectLot = null)
@@ -442,9 +442,9 @@ class TenderPreparationType
      *  Curricula required, Experience required, ....
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentTenderRequirement $documentTenderRequirement
+     * @param \App\UBL\Common\CAC\DocumentTenderRequirement $documentTenderRequirement
      */
-    public function addToDocumentTenderRequirement(\UBL\Common\CAC\DocumentTenderRequirement $documentTenderRequirement)
+    public function addToDocumentTenderRequirement(\App\UBL\Common\CAC\DocumentTenderRequirement $documentTenderRequirement)
     {
         $this->documentTenderRequirement[] = $documentTenderRequirement;
         return $this;
@@ -508,7 +508,7 @@ class TenderPreparationType
      *  Tender Requirement
      *  Curricula required, Experience required, ....
      *
-     * @return \UBL\Common\CAC\DocumentTenderRequirement[]
+     * @return \App\UBL\Common\CAC\DocumentTenderRequirement[]
      */
     public function getDocumentTenderRequirement()
     {
@@ -529,7 +529,7 @@ class TenderPreparationType
      *  Tender Requirement
      *  Curricula required, Experience required, ....
      *
-     * @param \UBL\Common\CAC\DocumentTenderRequirement[] $documentTenderRequirement
+     * @param \App\UBL\Common\CAC\DocumentTenderRequirement[] $documentTenderRequirement
      * @return self
      */
     public function setDocumentTenderRequirement(?array $documentTenderRequirement = null)
@@ -538,5 +538,4 @@ class TenderPreparationType
         return $this;
     }
 }
-
 

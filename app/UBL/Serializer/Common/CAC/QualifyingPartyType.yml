@@ -1,4 +1,4 @@
-UBL\Common\CAC\QualifyingPartyType:
+App\UBL\Common\CAC\QualifyingPartyType:
     properties:
         participationPercent:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\QualifyingPartyType:
             accessor:
                 getter: getParticipationPercent
                 setter: setParticipationPercent
-            type: UBL\Common\CBC\ParticipationPercent
+            type: App\UBL\Common\CBC\ParticipationPercent
         personalSituation:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\QualifyingPartyType:
                 inline: true
                 entry_name: PersonalSituation
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\PersonalSituation>
+            type: array<App\UBL\Common\CBC\PersonalSituation>
         operatingYearsQuantity:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\QualifyingPartyType:
             accessor:
                 getter: getOperatingYearsQuantity
                 setter: setOperatingYearsQuantity
-            type: UBL\Common\CBC\OperatingYearsQuantity
+            type: App\UBL\Common\CBC\OperatingYearsQuantity
         employeeQuantity:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\QualifyingPartyType:
             accessor:
                 getter: getEmployeeQuantity
                 setter: setEmployeeQuantity
-            type: UBL\Common\CBC\EmployeeQuantity
+            type: App\UBL\Common\CBC\EmployeeQuantity
         businessClassificationEvidenceID:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\QualifyingPartyType:
             accessor:
                 getter: getBusinessClassificationEvidenceID
                 setter: setBusinessClassificationEvidenceID
-            type: UBL\Common\CBC\BusinessClassificationEvidenceID
+            type: App\UBL\Common\CBC\BusinessClassificationEvidenceID
         businessIdentityEvidenceID:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\QualifyingPartyType:
             accessor:
                 getter: getBusinessIdentityEvidenceID
                 setter: setBusinessIdentityEvidenceID
-            type: UBL\Common\CBC\BusinessIdentityEvidenceID
+            type: App\UBL\Common\CBC\BusinessIdentityEvidenceID
         tendererRoleCode:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\QualifyingPartyType:
             accessor:
                 getter: getTendererRoleCode
                 setter: setTendererRoleCode
-            type: UBL\Common\CBC\TendererRoleCode
+            type: App\UBL\Common\CBC\TendererRoleCode
         businessClassificationScheme:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\QualifyingPartyType:
             accessor:
                 getter: getBusinessClassificationScheme
                 setter: setBusinessClassificationScheme
-            type: UBL\Common\CAC\BusinessClassificationScheme
+            type: App\UBL\Common\CAC\BusinessClassificationScheme
         technicalCapability:
             expose: true
             access_type: public_method
@@ -97,7 +97,7 @@ UBL\Common\CAC\QualifyingPartyType:
                 inline: true
                 entry_name: TechnicalCapability
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TechnicalCapability>
+            type: array<App\UBL\Common\CAC\TechnicalCapability>
         financialCapability:
             expose: true
             access_type: public_method
@@ -111,7 +111,7 @@ UBL\Common\CAC\QualifyingPartyType:
                 inline: true
                 entry_name: FinancialCapability
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\FinancialCapability>
+            type: array<App\UBL\Common\CAC\FinancialCapability>
         completedTask:
             expose: true
             access_type: public_method
@@ -125,7 +125,7 @@ UBL\Common\CAC\QualifyingPartyType:
                 inline: true
                 entry_name: CompletedTask
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\CompletedTask>
+            type: array<App\UBL\Common\CAC\CompletedTask>
         declaration:
             expose: true
             access_type: public_method
@@ -139,7 +139,7 @@ UBL\Common\CAC\QualifyingPartyType:
                 inline: true
                 entry_name: Declaration
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Declaration>
+            type: array<App\UBL\Common\CAC\Declaration>
         party:
             expose: true
             access_type: public_method
@@ -149,7 +149,7 @@ UBL\Common\CAC\QualifyingPartyType:
             accessor:
                 getter: getParty
                 setter: setParty
-            type: UBL\Common\CAC\Party
+            type: App\UBL\Common\CAC\Party
         economicOperatorRole:
             expose: true
             access_type: public_method
@@ -159,4 +159,4 @@ UBL\Common\CAC\QualifyingPartyType:
             accessor:
                 getter: getEconomicOperatorRole
                 setter: setEconomicOperatorRole
-            type: UBL\Common\CAC\EconomicOperatorRole
+            type: App\UBL\Common\CAC\EconomicOperatorRole

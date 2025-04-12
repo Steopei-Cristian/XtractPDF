@@ -1,4 +1,4 @@
-UBL\Common\CAC\CompletedTaskType:
+App\UBL\Common\CAC\CompletedTaskType:
     properties:
         annualAverageAmount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CompletedTaskType:
             accessor:
                 getter: getAnnualAverageAmount
                 setter: setAnnualAverageAmount
-            type: UBL\Common\CBC\AnnualAverageAmount
+            type: App\UBL\Common\CBC\AnnualAverageAmount
         totalTaskAmount:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\CompletedTaskType:
             accessor:
                 getter: getTotalTaskAmount
                 setter: setTotalTaskAmount
-            type: UBL\Common\CBC\TotalTaskAmount
+            type: App\UBL\Common\CBC\TotalTaskAmount
         partyCapacityAmount:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\CompletedTaskType:
             accessor:
                 getter: getPartyCapacityAmount
                 setter: setPartyCapacityAmount
-            type: UBL\Common\CBC\PartyCapacityAmount
+            type: App\UBL\Common\CBC\PartyCapacityAmount
         description:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\CompletedTaskType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         evidenceSupplied:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\CompletedTaskType:
                 inline: true
                 entry_name: EvidenceSupplied
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\EvidenceSupplied>
+            type: array<App\UBL\Common\CAC\EvidenceSupplied>
         period:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\CompletedTaskType:
             accessor:
                 getter: getPeriod
                 setter: setPeriod
-            type: UBL\Common\CAC\Period
+            type: App\UBL\Common\CAC\Period
         recipientCustomerParty:
             expose: true
             access_type: public_method
@@ -77,4 +77,4 @@ UBL\Common\CAC\CompletedTaskType:
             accessor:
                 getter: getRecipientCustomerParty
                 setter: setRecipientCustomerParty
-            type: UBL\Common\CAC\RecipientCustomerParty
+            type: App\UBL\Common\CAC\RecipientCustomerParty

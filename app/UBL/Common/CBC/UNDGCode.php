@@ -9,4 +9,3 @@ class UNDGCode extends UNDGCodeType
 {
 }
 
-

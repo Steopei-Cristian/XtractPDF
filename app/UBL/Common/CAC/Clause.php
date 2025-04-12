@@ -9,4 +9,3 @@ class Clause extends ClauseType
 {
 }
 
-

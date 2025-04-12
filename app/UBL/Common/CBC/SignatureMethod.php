@@ -9,4 +9,3 @@ class SignatureMethod extends SignatureMethodType
 {
 }
 
-

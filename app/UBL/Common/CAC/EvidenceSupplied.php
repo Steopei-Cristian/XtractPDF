@@ -9,4 +9,3 @@ class EvidenceSupplied extends EvidenceSuppliedType
 {
 }
 
-

@@ -9,4 +9,3 @@ class AllDataObjectsTimeStamp extends XAdESTimeStampType
 {
 }
 
-

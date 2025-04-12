@@ -9,4 +9,3 @@ class ConsumptionPoint extends ConsumptionPointType
 {
 }
 
-

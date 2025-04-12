@@ -23,7 +23,7 @@ class CreditNoteLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class CreditNoteLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -51,7 +51,7 @@ class CreditNoteLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -68,7 +68,7 @@ class CreditNoteLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\CreditedQuantity $creditedQuantity
+     * @var \App\UBL\Common\CBC\CreditedQuantity $creditedQuantity
      */
     private $creditedQuantity = null;
 
@@ -82,7 +82,7 @@ class CreditNoteLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @var \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      */
     private $lineExtensionAmount = null;
 
@@ -110,7 +110,7 @@ class CreditNoteLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\AccountingCostCode $accountingCostCode
+     * @var \App\UBL\Common\CBC\AccountingCostCode $accountingCostCode
      */
     private $accountingCostCode = null;
 
@@ -124,7 +124,7 @@ class CreditNoteLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\AccountingCost $accountingCost
+     * @var \App\UBL\Common\CBC\AccountingCost $accountingCost
      */
     private $accountingCost = null;
 
@@ -138,7 +138,7 @@ class CreditNoteLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
+     * @var \App\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
      */
     private $paymentPurposeCode = null;
 
@@ -168,7 +168,7 @@ class CreditNoteLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\InvoicePeriod[] $invoicePeriod
+     * @var \App\UBL\Common\CAC\InvoicePeriod[] $invoicePeriod
      */
     private $invoicePeriod = [
         
@@ -184,7 +184,7 @@ class CreditNoteLineType
      *  Order Line Reference
      *  Order Line Reference
      *
-     * @var \UBL\Common\CAC\OrderLineReference[] $orderLineReference
+     * @var \App\UBL\Common\CAC\OrderLineReference[] $orderLineReference
      */
     private $orderLineReference = [
         
@@ -201,7 +201,7 @@ class CreditNoteLineType
      *  Response
      *  Response
      *
-     * @var \UBL\Common\CAC\DiscrepancyResponse[] $discrepancyResponse
+     * @var \App\UBL\Common\CAC\DiscrepancyResponse[] $discrepancyResponse
      */
     private $discrepancyResponse = [
         
@@ -218,7 +218,7 @@ class CreditNoteLineType
      *  Line Reference
      *  Line Reference
      *
-     * @var \UBL\Common\CAC\DespatchLineReference[] $despatchLineReference
+     * @var \App\UBL\Common\CAC\DespatchLineReference[] $despatchLineReference
      */
     private $despatchLineReference = [
         
@@ -235,7 +235,7 @@ class CreditNoteLineType
      *  Line Reference
      *  Line Reference
      *
-     * @var \UBL\Common\CAC\ReceiptLineReference[] $receiptLineReference
+     * @var \App\UBL\Common\CAC\ReceiptLineReference[] $receiptLineReference
      */
     private $receiptLineReference = [
         
@@ -251,7 +251,7 @@ class CreditNoteLineType
      *  Billing Reference
      *  Billing Reference
      *
-     * @var \UBL\Common\CAC\BillingReference[] $billingReference
+     * @var \App\UBL\Common\CAC\BillingReference[] $billingReference
      */
     private $billingReference = [
         
@@ -267,7 +267,7 @@ class CreditNoteLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -283,7 +283,7 @@ class CreditNoteLineType
      *  Pricing Reference
      *  Pricing Reference
      *
-     * @var \UBL\Common\CAC\PricingReference $pricingReference
+     * @var \App\UBL\Common\CAC\PricingReference $pricingReference
      */
     private $pricingReference = null;
 
@@ -298,7 +298,7 @@ class CreditNoteLineType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\OriginatorParty $originatorParty
+     * @var \App\UBL\Common\CAC\OriginatorParty $originatorParty
      */
     private $originatorParty = null;
 
@@ -312,7 +312,7 @@ class CreditNoteLineType
      *  Delivery
      *  Delivery
      *
-     * @var \UBL\Common\CAC\Delivery[] $delivery
+     * @var \App\UBL\Common\CAC\Delivery[] $delivery
      */
     private $delivery = [
         
@@ -328,7 +328,7 @@ class CreditNoteLineType
      *  Payment Terms
      *  Payment Terms
      *
-     * @var \UBL\Common\CAC\PaymentTerms[] $paymentTerms
+     * @var \App\UBL\Common\CAC\PaymentTerms[] $paymentTerms
      */
     private $paymentTerms = [
         
@@ -344,7 +344,7 @@ class CreditNoteLineType
      *  Tax Total
      *  Tax Total
      *
-     * @var \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @var \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      */
     private $taxTotal = [
         
@@ -360,7 +360,7 @@ class CreditNoteLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @var \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      */
     private $allowanceCharge = [
         
@@ -376,7 +376,7 @@ class CreditNoteLineType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item $item
+     * @var \App\UBL\Common\CAC\Item $item
      */
     private $item = null;
 
@@ -391,7 +391,7 @@ class CreditNoteLineType
      *  Price
      *  Unit Price, Base Price
      *
-     * @var \UBL\Common\CAC\Price $price
+     * @var \App\UBL\Common\CAC\Price $price
      */
     private $price = null;
 
@@ -405,7 +405,7 @@ class CreditNoteLineType
      *  Delivery Terms
      *  Delivery Terms
      *
-     * @var \UBL\Common\CAC\DeliveryTerms[] $deliveryTerms
+     * @var \App\UBL\Common\CAC\DeliveryTerms[] $deliveryTerms
      */
     private $deliveryTerms = [
         
@@ -422,7 +422,7 @@ class CreditNoteLineType
      *  Credit Note Line
      *  Credit Note Line
      *
-     * @var \UBL\Common\CAC\SubCreditNoteLine[] $subCreditNoteLine
+     * @var \App\UBL\Common\CAC\SubCreditNoteLine[] $subCreditNoteLine
      */
     private $subCreditNoteLine = [
         
@@ -439,7 +439,7 @@ class CreditNoteLineType
      *  Price Extension
      *  Price Extension
      *
-     * @var \UBL\Common\CAC\ItemPriceExtension $itemPriceExtension
+     * @var \App\UBL\Common\CAC\ItemPriceExtension $itemPriceExtension
      */
     private $itemPriceExtension = null;
 
@@ -455,7 +455,7 @@ class CreditNoteLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -474,10 +474,10 @@ class CreditNoteLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -495,7 +495,7 @@ class CreditNoteLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -514,10 +514,10 @@ class CreditNoteLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -536,9 +536,9 @@ class CreditNoteLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -596,7 +596,7 @@ class CreditNoteLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -615,7 +615,7 @@ class CreditNoteLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -637,7 +637,7 @@ class CreditNoteLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\CreditedQuantity
+     * @return \App\UBL\Common\CBC\CreditedQuantity
      */
     public function getCreditedQuantity()
     {
@@ -657,10 +657,10 @@ class CreditNoteLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\CreditedQuantity $creditedQuantity
+     * @param \App\UBL\Common\CBC\CreditedQuantity $creditedQuantity
      * @return self
      */
-    public function setCreditedQuantity(?\UBL\Common\CBC\CreditedQuantity $creditedQuantity = null)
+    public function setCreditedQuantity(?\App\UBL\Common\CBC\CreditedQuantity $creditedQuantity = null)
     {
         $this->creditedQuantity = $creditedQuantity;
         return $this;
@@ -678,7 +678,7 @@ class CreditNoteLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\LineExtensionAmount
+     * @return \App\UBL\Common\CBC\LineExtensionAmount
      */
     public function getLineExtensionAmount()
     {
@@ -697,10 +697,10 @@ class CreditNoteLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @param \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      * @return self
      */
-    public function setLineExtensionAmount(?\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount = null)
+    public function setLineExtensionAmount(?\App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount = null)
     {
         $this->lineExtensionAmount = $lineExtensionAmount;
         return $this;
@@ -758,7 +758,7 @@ class CreditNoteLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\AccountingCostCode
+     * @return \App\UBL\Common\CBC\AccountingCostCode
      */
     public function getAccountingCostCode()
     {
@@ -777,10 +777,10 @@ class CreditNoteLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\AccountingCostCode $accountingCostCode
+     * @param \App\UBL\Common\CBC\AccountingCostCode $accountingCostCode
      * @return self
      */
-    public function setAccountingCostCode(?\UBL\Common\CBC\AccountingCostCode $accountingCostCode = null)
+    public function setAccountingCostCode(?\App\UBL\Common\CBC\AccountingCostCode $accountingCostCode = null)
     {
         $this->accountingCostCode = $accountingCostCode;
         return $this;
@@ -798,7 +798,7 @@ class CreditNoteLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\AccountingCost
+     * @return \App\UBL\Common\CBC\AccountingCost
      */
     public function getAccountingCost()
     {
@@ -817,10 +817,10 @@ class CreditNoteLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\AccountingCost $accountingCost
+     * @param \App\UBL\Common\CBC\AccountingCost $accountingCost
      * @return self
      */
-    public function setAccountingCost(?\UBL\Common\CBC\AccountingCost $accountingCost = null)
+    public function setAccountingCost(?\App\UBL\Common\CBC\AccountingCost $accountingCost = null)
     {
         $this->accountingCost = $accountingCost;
         return $this;
@@ -838,7 +838,7 @@ class CreditNoteLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PaymentPurposeCode
+     * @return \App\UBL\Common\CBC\PaymentPurposeCode
      */
     public function getPaymentPurposeCode()
     {
@@ -857,10 +857,10 @@ class CreditNoteLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
+     * @param \App\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
      * @return self
      */
-    public function setPaymentPurposeCode(?\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode = null)
+    public function setPaymentPurposeCode(?\App\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode = null)
     {
         $this->paymentPurposeCode = $paymentPurposeCode;
         return $this;
@@ -922,9 +922,9 @@ class CreditNoteLineType
      *  Period
      *
      * @return self
-     * @param \UBL\Common\CAC\InvoicePeriod $invoicePeriod
+     * @param \App\UBL\Common\CAC\InvoicePeriod $invoicePeriod
      */
-    public function addToInvoicePeriod(\UBL\Common\CAC\InvoicePeriod $invoicePeriod)
+    public function addToInvoicePeriod(\App\UBL\Common\CAC\InvoicePeriod $invoicePeriod)
     {
         $this->invoicePeriod[] = $invoicePeriod;
         return $this;
@@ -985,7 +985,7 @@ class CreditNoteLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\InvoicePeriod[]
+     * @return \App\UBL\Common\CAC\InvoicePeriod[]
      */
     public function getInvoicePeriod()
     {
@@ -1005,7 +1005,7 @@ class CreditNoteLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\InvoicePeriod[] $invoicePeriod
+     * @param \App\UBL\Common\CAC\InvoicePeriod[] $invoicePeriod
      * @return self
      */
     public function setInvoicePeriod(?array $invoicePeriod = null)
@@ -1027,9 +1027,9 @@ class CreditNoteLineType
      *  Order Line Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\OrderLineReference $orderLineReference
+     * @param \App\UBL\Common\CAC\OrderLineReference $orderLineReference
      */
-    public function addToOrderLineReference(\UBL\Common\CAC\OrderLineReference $orderLineReference)
+    public function addToOrderLineReference(\App\UBL\Common\CAC\OrderLineReference $orderLineReference)
     {
         $this->orderLineReference[] = $orderLineReference;
         return $this;
@@ -1087,7 +1087,7 @@ class CreditNoteLineType
      *  Order Line Reference
      *  Order Line Reference
      *
-     * @return \UBL\Common\CAC\OrderLineReference[]
+     * @return \App\UBL\Common\CAC\OrderLineReference[]
      */
     public function getOrderLineReference()
     {
@@ -1106,7 +1106,7 @@ class CreditNoteLineType
      *  Order Line Reference
      *  Order Line Reference
      *
-     * @param \UBL\Common\CAC\OrderLineReference[] $orderLineReference
+     * @param \App\UBL\Common\CAC\OrderLineReference[] $orderLineReference
      * @return self
      */
     public function setOrderLineReference(?array $orderLineReference = null)
@@ -1129,9 +1129,9 @@ class CreditNoteLineType
      *  Response
      *
      * @return self
-     * @param \UBL\Common\CAC\DiscrepancyResponse $discrepancyResponse
+     * @param \App\UBL\Common\CAC\DiscrepancyResponse $discrepancyResponse
      */
-    public function addToDiscrepancyResponse(\UBL\Common\CAC\DiscrepancyResponse $discrepancyResponse)
+    public function addToDiscrepancyResponse(\App\UBL\Common\CAC\DiscrepancyResponse $discrepancyResponse)
     {
         $this->discrepancyResponse[] = $discrepancyResponse;
         return $this;
@@ -1192,7 +1192,7 @@ class CreditNoteLineType
      *  Response
      *  Response
      *
-     * @return \UBL\Common\CAC\DiscrepancyResponse[]
+     * @return \App\UBL\Common\CAC\DiscrepancyResponse[]
      */
     public function getDiscrepancyResponse()
     {
@@ -1212,7 +1212,7 @@ class CreditNoteLineType
      *  Response
      *  Response
      *
-     * @param \UBL\Common\CAC\DiscrepancyResponse[] $discrepancyResponse
+     * @param \App\UBL\Common\CAC\DiscrepancyResponse[] $discrepancyResponse
      * @return self
      */
     public function setDiscrepancyResponse(?array $discrepancyResponse = null)
@@ -1235,9 +1235,9 @@ class CreditNoteLineType
      *  Line Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DespatchLineReference $despatchLineReference
+     * @param \App\UBL\Common\CAC\DespatchLineReference $despatchLineReference
      */
-    public function addToDespatchLineReference(\UBL\Common\CAC\DespatchLineReference $despatchLineReference)
+    public function addToDespatchLineReference(\App\UBL\Common\CAC\DespatchLineReference $despatchLineReference)
     {
         $this->despatchLineReference[] = $despatchLineReference;
         return $this;
@@ -1298,7 +1298,7 @@ class CreditNoteLineType
      *  Line Reference
      *  Line Reference
      *
-     * @return \UBL\Common\CAC\DespatchLineReference[]
+     * @return \App\UBL\Common\CAC\DespatchLineReference[]
      */
     public function getDespatchLineReference()
     {
@@ -1318,7 +1318,7 @@ class CreditNoteLineType
      *  Line Reference
      *  Line Reference
      *
-     * @param \UBL\Common\CAC\DespatchLineReference[] $despatchLineReference
+     * @param \App\UBL\Common\CAC\DespatchLineReference[] $despatchLineReference
      * @return self
      */
     public function setDespatchLineReference(?array $despatchLineReference = null)
@@ -1341,9 +1341,9 @@ class CreditNoteLineType
      *  Line Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\ReceiptLineReference $receiptLineReference
+     * @param \App\UBL\Common\CAC\ReceiptLineReference $receiptLineReference
      */
-    public function addToReceiptLineReference(\UBL\Common\CAC\ReceiptLineReference $receiptLineReference)
+    public function addToReceiptLineReference(\App\UBL\Common\CAC\ReceiptLineReference $receiptLineReference)
     {
         $this->receiptLineReference[] = $receiptLineReference;
         return $this;
@@ -1404,7 +1404,7 @@ class CreditNoteLineType
      *  Line Reference
      *  Line Reference
      *
-     * @return \UBL\Common\CAC\ReceiptLineReference[]
+     * @return \App\UBL\Common\CAC\ReceiptLineReference[]
      */
     public function getReceiptLineReference()
     {
@@ -1424,7 +1424,7 @@ class CreditNoteLineType
      *  Line Reference
      *  Line Reference
      *
-     * @param \UBL\Common\CAC\ReceiptLineReference[] $receiptLineReference
+     * @param \App\UBL\Common\CAC\ReceiptLineReference[] $receiptLineReference
      * @return self
      */
     public function setReceiptLineReference(?array $receiptLineReference = null)
@@ -1446,9 +1446,9 @@ class CreditNoteLineType
      *  Billing Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\BillingReference $billingReference
+     * @param \App\UBL\Common\CAC\BillingReference $billingReference
      */
-    public function addToBillingReference(\UBL\Common\CAC\BillingReference $billingReference)
+    public function addToBillingReference(\App\UBL\Common\CAC\BillingReference $billingReference)
     {
         $this->billingReference[] = $billingReference;
         return $this;
@@ -1506,7 +1506,7 @@ class CreditNoteLineType
      *  Billing Reference
      *  Billing Reference
      *
-     * @return \UBL\Common\CAC\BillingReference[]
+     * @return \App\UBL\Common\CAC\BillingReference[]
      */
     public function getBillingReference()
     {
@@ -1525,7 +1525,7 @@ class CreditNoteLineType
      *  Billing Reference
      *  Billing Reference
      *
-     * @param \UBL\Common\CAC\BillingReference[] $billingReference
+     * @param \App\UBL\Common\CAC\BillingReference[] $billingReference
      * @return self
      */
     public function setBillingReference(?array $billingReference = null)
@@ -1547,9 +1547,9 @@ class CreditNoteLineType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -1607,7 +1607,7 @@ class CreditNoteLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -1626,7 +1626,7 @@ class CreditNoteLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -1647,7 +1647,7 @@ class CreditNoteLineType
      *  Pricing Reference
      *  Pricing Reference
      *
-     * @return \UBL\Common\CAC\PricingReference
+     * @return \App\UBL\Common\CAC\PricingReference
      */
     public function getPricingReference()
     {
@@ -1666,10 +1666,10 @@ class CreditNoteLineType
      *  Pricing Reference
      *  Pricing Reference
      *
-     * @param \UBL\Common\CAC\PricingReference $pricingReference
+     * @param \App\UBL\Common\CAC\PricingReference $pricingReference
      * @return self
      */
-    public function setPricingReference(?\UBL\Common\CAC\PricingReference $pricingReference = null)
+    public function setPricingReference(?\App\UBL\Common\CAC\PricingReference $pricingReference = null)
     {
         $this->pricingReference = $pricingReference;
         return $this;
@@ -1688,7 +1688,7 @@ class CreditNoteLineType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\OriginatorParty
+     * @return \App\UBL\Common\CAC\OriginatorParty
      */
     public function getOriginatorParty()
     {
@@ -1708,10 +1708,10 @@ class CreditNoteLineType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\OriginatorParty $originatorParty
+     * @param \App\UBL\Common\CAC\OriginatorParty $originatorParty
      * @return self
      */
-    public function setOriginatorParty(?\UBL\Common\CAC\OriginatorParty $originatorParty = null)
+    public function setOriginatorParty(?\App\UBL\Common\CAC\OriginatorParty $originatorParty = null)
     {
         $this->originatorParty = $originatorParty;
         return $this;
@@ -1730,9 +1730,9 @@ class CreditNoteLineType
      *  Delivery
      *
      * @return self
-     * @param \UBL\Common\CAC\Delivery $delivery
+     * @param \App\UBL\Common\CAC\Delivery $delivery
      */
-    public function addToDelivery(\UBL\Common\CAC\Delivery $delivery)
+    public function addToDelivery(\App\UBL\Common\CAC\Delivery $delivery)
     {
         $this->delivery[] = $delivery;
         return $this;
@@ -1790,7 +1790,7 @@ class CreditNoteLineType
      *  Delivery
      *  Delivery
      *
-     * @return \UBL\Common\CAC\Delivery[]
+     * @return \App\UBL\Common\CAC\Delivery[]
      */
     public function getDelivery()
     {
@@ -1809,7 +1809,7 @@ class CreditNoteLineType
      *  Delivery
      *  Delivery
      *
-     * @param \UBL\Common\CAC\Delivery[] $delivery
+     * @param \App\UBL\Common\CAC\Delivery[] $delivery
      * @return self
      */
     public function setDelivery(?array $delivery = null)
@@ -1831,9 +1831,9 @@ class CreditNoteLineType
      *  Payment Terms
      *
      * @return self
-     * @param \UBL\Common\CAC\PaymentTerms $paymentTerms
+     * @param \App\UBL\Common\CAC\PaymentTerms $paymentTerms
      */
-    public function addToPaymentTerms(\UBL\Common\CAC\PaymentTerms $paymentTerms)
+    public function addToPaymentTerms(\App\UBL\Common\CAC\PaymentTerms $paymentTerms)
     {
         $this->paymentTerms[] = $paymentTerms;
         return $this;
@@ -1891,7 +1891,7 @@ class CreditNoteLineType
      *  Payment Terms
      *  Payment Terms
      *
-     * @return \UBL\Common\CAC\PaymentTerms[]
+     * @return \App\UBL\Common\CAC\PaymentTerms[]
      */
     public function getPaymentTerms()
     {
@@ -1910,7 +1910,7 @@ class CreditNoteLineType
      *  Payment Terms
      *  Payment Terms
      *
-     * @param \UBL\Common\CAC\PaymentTerms[] $paymentTerms
+     * @param \App\UBL\Common\CAC\PaymentTerms[] $paymentTerms
      * @return self
      */
     public function setPaymentTerms(?array $paymentTerms = null)
@@ -1932,9 +1932,9 @@ class CreditNoteLineType
      *  Tax Total
      *
      * @return self
-     * @param \UBL\Common\CAC\TaxTotal $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal $taxTotal
      */
-    public function addToTaxTotal(\UBL\Common\CAC\TaxTotal $taxTotal)
+    public function addToTaxTotal(\App\UBL\Common\CAC\TaxTotal $taxTotal)
     {
         $this->taxTotal[] = $taxTotal;
         return $this;
@@ -1992,7 +1992,7 @@ class CreditNoteLineType
      *  Tax Total
      *  Tax Total
      *
-     * @return \UBL\Common\CAC\TaxTotal[]
+     * @return \App\UBL\Common\CAC\TaxTotal[]
      */
     public function getTaxTotal()
     {
@@ -2011,7 +2011,7 @@ class CreditNoteLineType
      *  Tax Total
      *  Tax Total
      *
-     * @param \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      * @return self
      */
     public function setTaxTotal(?array $taxTotal = null)
@@ -2033,9 +2033,9 @@ class CreditNoteLineType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\AllowanceCharge $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge $allowanceCharge
      */
-    public function addToAllowanceCharge(\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
+    public function addToAllowanceCharge(\App\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
     {
         $this->allowanceCharge[] = $allowanceCharge;
         return $this;
@@ -2093,7 +2093,7 @@ class CreditNoteLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\AllowanceCharge[]
+     * @return \App\UBL\Common\CAC\AllowanceCharge[]
      */
     public function getAllowanceCharge()
     {
@@ -2112,7 +2112,7 @@ class CreditNoteLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      * @return self
      */
     public function setAllowanceCharge(?array $allowanceCharge = null)
@@ -2133,7 +2133,7 @@ class CreditNoteLineType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item
+     * @return \App\UBL\Common\CAC\Item
      */
     public function getItem()
     {
@@ -2152,10 +2152,10 @@ class CreditNoteLineType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      * @return self
      */
-    public function setItem(?\UBL\Common\CAC\Item $item = null)
+    public function setItem(?\App\UBL\Common\CAC\Item $item = null)
     {
         $this->item = $item;
         return $this;
@@ -2174,7 +2174,7 @@ class CreditNoteLineType
      *  Price
      *  Unit Price, Base Price
      *
-     * @return \UBL\Common\CAC\Price
+     * @return \App\UBL\Common\CAC\Price
      */
     public function getPrice()
     {
@@ -2194,10 +2194,10 @@ class CreditNoteLineType
      *  Price
      *  Unit Price, Base Price
      *
-     * @param \UBL\Common\CAC\Price $price
+     * @param \App\UBL\Common\CAC\Price $price
      * @return self
      */
-    public function setPrice(?\UBL\Common\CAC\Price $price = null)
+    public function setPrice(?\App\UBL\Common\CAC\Price $price = null)
     {
         $this->price = $price;
         return $this;
@@ -2216,9 +2216,9 @@ class CreditNoteLineType
      *  Delivery Terms
      *
      * @return self
-     * @param \UBL\Common\CAC\DeliveryTerms $deliveryTerms
+     * @param \App\UBL\Common\CAC\DeliveryTerms $deliveryTerms
      */
-    public function addToDeliveryTerms(\UBL\Common\CAC\DeliveryTerms $deliveryTerms)
+    public function addToDeliveryTerms(\App\UBL\Common\CAC\DeliveryTerms $deliveryTerms)
     {
         $this->deliveryTerms[] = $deliveryTerms;
         return $this;
@@ -2276,7 +2276,7 @@ class CreditNoteLineType
      *  Delivery Terms
      *  Delivery Terms
      *
-     * @return \UBL\Common\CAC\DeliveryTerms[]
+     * @return \App\UBL\Common\CAC\DeliveryTerms[]
      */
     public function getDeliveryTerms()
     {
@@ -2295,7 +2295,7 @@ class CreditNoteLineType
      *  Delivery Terms
      *  Delivery Terms
      *
-     * @param \UBL\Common\CAC\DeliveryTerms[] $deliveryTerms
+     * @param \App\UBL\Common\CAC\DeliveryTerms[] $deliveryTerms
      * @return self
      */
     public function setDeliveryTerms(?array $deliveryTerms = null)
@@ -2318,9 +2318,9 @@ class CreditNoteLineType
      *  Credit Note Line
      *
      * @return self
-     * @param \UBL\Common\CAC\SubCreditNoteLine $subCreditNoteLine
+     * @param \App\UBL\Common\CAC\SubCreditNoteLine $subCreditNoteLine
      */
-    public function addToSubCreditNoteLine(\UBL\Common\CAC\SubCreditNoteLine $subCreditNoteLine)
+    public function addToSubCreditNoteLine(\App\UBL\Common\CAC\SubCreditNoteLine $subCreditNoteLine)
     {
         $this->subCreditNoteLine[] = $subCreditNoteLine;
         return $this;
@@ -2381,7 +2381,7 @@ class CreditNoteLineType
      *  Credit Note Line
      *  Credit Note Line
      *
-     * @return \UBL\Common\CAC\SubCreditNoteLine[]
+     * @return \App\UBL\Common\CAC\SubCreditNoteLine[]
      */
     public function getSubCreditNoteLine()
     {
@@ -2401,7 +2401,7 @@ class CreditNoteLineType
      *  Credit Note Line
      *  Credit Note Line
      *
-     * @param \UBL\Common\CAC\SubCreditNoteLine[] $subCreditNoteLine
+     * @param \App\UBL\Common\CAC\SubCreditNoteLine[] $subCreditNoteLine
      * @return self
      */
     public function setSubCreditNoteLine(?array $subCreditNoteLine = null)
@@ -2423,7 +2423,7 @@ class CreditNoteLineType
      *  Price Extension
      *  Price Extension
      *
-     * @return \UBL\Common\CAC\ItemPriceExtension
+     * @return \App\UBL\Common\CAC\ItemPriceExtension
      */
     public function getItemPriceExtension()
     {
@@ -2443,14 +2443,13 @@ class CreditNoteLineType
      *  Price Extension
      *  Price Extension
      *
-     * @param \UBL\Common\CAC\ItemPriceExtension $itemPriceExtension
+     * @param \App\UBL\Common\CAC\ItemPriceExtension $itemPriceExtension
      * @return self
      */
-    public function setItemPriceExtension(?\UBL\Common\CAC\ItemPriceExtension $itemPriceExtension = null)
+    public function setItemPriceExtension(?\App\UBL\Common\CAC\ItemPriceExtension $itemPriceExtension = null)
     {
         $this->itemPriceExtension = $itemPriceExtension;
         return $this;
     }
 }
-
 

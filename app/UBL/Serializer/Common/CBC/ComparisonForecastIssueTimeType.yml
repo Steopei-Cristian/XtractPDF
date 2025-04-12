@@ -1,4 +1,4 @@
-UBL\Common\CBC\ComparisonForecastIssueTimeType:
+App\UBL\Common\CBC\ComparisonForecastIssueTimeType:
     properties:
         __value:
             expose: true

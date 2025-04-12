@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\PercentType as PercentTypeBase;
+use App\UBL\Unqualified\PercentType as PercentTypeBase;
 
 /**
  * Class representing PercentType
@@ -13,5 +13,4 @@ use UBL\Unqualified\PercentType as PercentTypeBase;
 class PercentType extends PercentTypeBase
 {
 }
-
 

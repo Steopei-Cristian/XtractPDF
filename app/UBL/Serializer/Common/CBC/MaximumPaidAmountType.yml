@@ -1,2 +1,2 @@
-UBL\Common\CBC\MaximumPaidAmountType:
+App\UBL\Common\CBC\MaximumPaidAmountType:
     properties: {  }

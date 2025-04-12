@@ -1,4 +1,4 @@
-UBL\Common\CBC\ReturnableMaterialIndicatorType:
+App\UBL\Common\CBC\ReturnableMaterialIndicatorType:
     properties:
         __value:
             expose: true

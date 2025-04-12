@@ -9,4 +9,3 @@ class LeadTimeMeasure extends LeadTimeMeasureType
 {
 }
 
-

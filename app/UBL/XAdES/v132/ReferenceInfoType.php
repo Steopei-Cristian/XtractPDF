@@ -21,7 +21,7 @@ class ReferenceInfoType
     private $uRI = null;
 
     /**
-     * @var \UBL\Xmldsig\DigestMethod $digestMethod
+     * @var \App\UBL\Xmldsig\DigestMethod $digestMethod
      */
     private $digestMethod = null;
 
@@ -77,7 +77,7 @@ class ReferenceInfoType
     /**
      * Gets as digestMethod
      *
-     * @return \UBL\Xmldsig\DigestMethod
+     * @return \App\UBL\Xmldsig\DigestMethod
      */
     public function getDigestMethod()
     {
@@ -87,10 +87,10 @@ class ReferenceInfoType
     /**
      * Sets a new digestMethod
      *
-     * @param \UBL\Xmldsig\DigestMethod $digestMethod
+     * @param \App\UBL\Xmldsig\DigestMethod $digestMethod
      * @return self
      */
-    public function setDigestMethod(\UBL\Xmldsig\DigestMethod $digestMethod)
+    public function setDigestMethod(\App\UBL\Xmldsig\DigestMethod $digestMethod)
     {
         $this->digestMethod = $digestMethod;
         return $this;
@@ -118,5 +118,4 @@ class ReferenceInfoType
         return $this;
     }
 }
-
 

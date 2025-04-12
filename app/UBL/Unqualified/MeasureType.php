@@ -2,7 +2,7 @@
 
 namespace App\UBL\Unqualified;
 
-use UBL\CCTS\MeasureType as MeasureTypeBase;
+use App\UBL\CCTS\MeasureType as MeasureTypeBase;
 
 /**
  * Class representing MeasureType
@@ -76,5 +76,4 @@ class MeasureType extends MeasureTypeBase
         return $this;
     }
 }
-
 

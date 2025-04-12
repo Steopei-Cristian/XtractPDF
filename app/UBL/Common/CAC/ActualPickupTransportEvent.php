@@ -9,4 +9,3 @@ class ActualPickupTransportEvent extends TransportEventType
 {
 }
 
-

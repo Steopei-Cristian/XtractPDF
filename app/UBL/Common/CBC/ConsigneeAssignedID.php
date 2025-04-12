@@ -9,4 +9,3 @@ class ConsigneeAssignedID extends ConsigneeAssignedIDType
 {
 }
 
-

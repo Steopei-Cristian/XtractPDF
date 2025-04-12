@@ -9,4 +9,3 @@ class SalesOrderLineID extends SalesOrderLineIDType
 {
 }
 
-

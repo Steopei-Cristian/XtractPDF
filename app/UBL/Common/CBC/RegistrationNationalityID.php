@@ -9,4 +9,3 @@ class RegistrationNationalityID extends RegistrationNationalityIDType
 {
 }
 
-

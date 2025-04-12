@@ -9,4 +9,3 @@ class ExceptionObservationPeriod extends PeriodType
 {
 }
 
-

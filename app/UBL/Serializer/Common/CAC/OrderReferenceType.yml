@@ -1,4 +1,4 @@
-UBL\Common\CAC\OrderReferenceType:
+App\UBL\Common\CAC\OrderReferenceType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\OrderReferenceType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         salesOrderID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\OrderReferenceType:
             accessor:
                 getter: getSalesOrderID
                 setter: setSalesOrderID
-            type: UBL\Common\CBC\SalesOrderID
+            type: App\UBL\Common\CBC\SalesOrderID
         copyIndicator:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\OrderReferenceType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         issueDate:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\OrderReferenceType:
             accessor:
                 getter: getCustomerReference
                 setter: setCustomerReference
-            type: UBL\Common\CBC\CustomerReference
+            type: App\UBL\Common\CBC\CustomerReference
         orderTypeCode:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\CAC\OrderReferenceType:
             accessor:
                 getter: getOrderTypeCode
                 setter: setOrderTypeCode
-            type: UBL\Common\CBC\OrderTypeCode
+            type: App\UBL\Common\CBC\OrderTypeCode
         documentReference:
             expose: true
             access_type: public_method
@@ -89,4 +89,4 @@ UBL\Common\CAC\OrderReferenceType:
             accessor:
                 getter: getDocumentReference
                 setter: setDocumentReference
-            type: UBL\Common\CAC\DocumentReference
+            type: App\UBL\Common\CAC\DocumentReference

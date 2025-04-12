@@ -9,4 +9,3 @@ class OriginatorDocumentReference extends DocumentReferenceType
 {
 }
 
-

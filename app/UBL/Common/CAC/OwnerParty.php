@@ -9,4 +9,3 @@ class OwnerParty extends PartyType
 {
 }
 
-

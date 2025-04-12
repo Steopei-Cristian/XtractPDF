@@ -9,4 +9,3 @@ class EconomicOperatorRole extends EconomicOperatorRoleType
 {
 }
 
-

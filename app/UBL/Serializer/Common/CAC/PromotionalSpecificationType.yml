@@ -1,4 +1,4 @@
-UBL\Common\CAC\PromotionalSpecificationType:
+App\UBL\Common\CAC\PromotionalSpecificationType:
     properties:
         specificationID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PromotionalSpecificationType:
             accessor:
                 getter: getSpecificationID
                 setter: setSpecificationID
-            type: UBL\Common\CBC\SpecificationID
+            type: App\UBL\Common\CBC\SpecificationID
         promotionalEventLineItem:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\PromotionalSpecificationType:
                 inline: true
                 entry_name: PromotionalEventLineItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PromotionalEventLineItem>
+            type: array<App\UBL\Common\CAC\PromotionalEventLineItem>
         eventTactic:
             expose: true
             access_type: public_method
@@ -37,4 +37,4 @@ UBL\Common\CAC\PromotionalSpecificationType:
                 inline: true
                 entry_name: EventTactic
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\EventTactic>
+            type: array<App\UBL\Common\CAC\EventTactic>

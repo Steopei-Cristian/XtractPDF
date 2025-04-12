@@ -1,2 +1,2 @@
-UBL\Common\CBC\TransportationStatusTypeCodeType:
+App\UBL\Common\CBC\TransportationStatusTypeCodeType:
     properties: {  }

@@ -9,4 +9,3 @@ class ShareholderParty extends ShareholderPartyType
 {
 }
 
-

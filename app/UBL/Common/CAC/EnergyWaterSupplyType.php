@@ -23,7 +23,7 @@ class EnergyWaterSupplyType
      *  Consumption Report
      *  Consumption Report
      *
-     * @var \UBL\Common\CAC\ConsumptionReport[] $consumptionReport
+     * @var \App\UBL\Common\CAC\ConsumptionReport[] $consumptionReport
      */
     private $consumptionReport = [
         
@@ -39,7 +39,7 @@ class EnergyWaterSupplyType
      *  Energy Tax Report
      *  Energy Tax Report
      *
-     * @var \UBL\Common\CAC\EnergyTaxReport[] $energyTaxReport
+     * @var \App\UBL\Common\CAC\EnergyTaxReport[] $energyTaxReport
      */
     private $energyTaxReport = [
         
@@ -55,7 +55,7 @@ class EnergyWaterSupplyType
      *  Consumption Average
      *  Consumption Average
      *
-     * @var \UBL\Common\CAC\ConsumptionAverage[] $consumptionAverage
+     * @var \App\UBL\Common\CAC\ConsumptionAverage[] $consumptionAverage
      */
     private $consumptionAverage = [
         
@@ -72,7 +72,7 @@ class EnergyWaterSupplyType
      *  Consumption Correction
      *  Consumption Correction
      *
-     * @var \UBL\Common\CAC\EnergyWaterConsumptionCorrection[] $energyWaterConsumptionCorrection
+     * @var \App\UBL\Common\CAC\EnergyWaterConsumptionCorrection[] $energyWaterConsumptionCorrection
      */
     private $energyWaterConsumptionCorrection = [
         
@@ -91,9 +91,9 @@ class EnergyWaterSupplyType
      *  Consumption Report
      *
      * @return self
-     * @param \UBL\Common\CAC\ConsumptionReport $consumptionReport
+     * @param \App\UBL\Common\CAC\ConsumptionReport $consumptionReport
      */
-    public function addToConsumptionReport(\UBL\Common\CAC\ConsumptionReport $consumptionReport)
+    public function addToConsumptionReport(\App\UBL\Common\CAC\ConsumptionReport $consumptionReport)
     {
         $this->consumptionReport[] = $consumptionReport;
         return $this;
@@ -151,7 +151,7 @@ class EnergyWaterSupplyType
      *  Consumption Report
      *  Consumption Report
      *
-     * @return \UBL\Common\CAC\ConsumptionReport[]
+     * @return \App\UBL\Common\CAC\ConsumptionReport[]
      */
     public function getConsumptionReport()
     {
@@ -170,7 +170,7 @@ class EnergyWaterSupplyType
      *  Consumption Report
      *  Consumption Report
      *
-     * @param \UBL\Common\CAC\ConsumptionReport[] $consumptionReport
+     * @param \App\UBL\Common\CAC\ConsumptionReport[] $consumptionReport
      * @return self
      */
     public function setConsumptionReport(?array $consumptionReport = null)
@@ -192,9 +192,9 @@ class EnergyWaterSupplyType
      *  Energy Tax Report
      *
      * @return self
-     * @param \UBL\Common\CAC\EnergyTaxReport $energyTaxReport
+     * @param \App\UBL\Common\CAC\EnergyTaxReport $energyTaxReport
      */
-    public function addToEnergyTaxReport(\UBL\Common\CAC\EnergyTaxReport $energyTaxReport)
+    public function addToEnergyTaxReport(\App\UBL\Common\CAC\EnergyTaxReport $energyTaxReport)
     {
         $this->energyTaxReport[] = $energyTaxReport;
         return $this;
@@ -252,7 +252,7 @@ class EnergyWaterSupplyType
      *  Energy Tax Report
      *  Energy Tax Report
      *
-     * @return \UBL\Common\CAC\EnergyTaxReport[]
+     * @return \App\UBL\Common\CAC\EnergyTaxReport[]
      */
     public function getEnergyTaxReport()
     {
@@ -271,7 +271,7 @@ class EnergyWaterSupplyType
      *  Energy Tax Report
      *  Energy Tax Report
      *
-     * @param \UBL\Common\CAC\EnergyTaxReport[] $energyTaxReport
+     * @param \App\UBL\Common\CAC\EnergyTaxReport[] $energyTaxReport
      * @return self
      */
     public function setEnergyTaxReport(?array $energyTaxReport = null)
@@ -293,9 +293,9 @@ class EnergyWaterSupplyType
      *  Consumption Average
      *
      * @return self
-     * @param \UBL\Common\CAC\ConsumptionAverage $consumptionAverage
+     * @param \App\UBL\Common\CAC\ConsumptionAverage $consumptionAverage
      */
-    public function addToConsumptionAverage(\UBL\Common\CAC\ConsumptionAverage $consumptionAverage)
+    public function addToConsumptionAverage(\App\UBL\Common\CAC\ConsumptionAverage $consumptionAverage)
     {
         $this->consumptionAverage[] = $consumptionAverage;
         return $this;
@@ -353,7 +353,7 @@ class EnergyWaterSupplyType
      *  Consumption Average
      *  Consumption Average
      *
-     * @return \UBL\Common\CAC\ConsumptionAverage[]
+     * @return \App\UBL\Common\CAC\ConsumptionAverage[]
      */
     public function getConsumptionAverage()
     {
@@ -372,7 +372,7 @@ class EnergyWaterSupplyType
      *  Consumption Average
      *  Consumption Average
      *
-     * @param \UBL\Common\CAC\ConsumptionAverage[] $consumptionAverage
+     * @param \App\UBL\Common\CAC\ConsumptionAverage[] $consumptionAverage
      * @return self
      */
     public function setConsumptionAverage(?array $consumptionAverage = null)
@@ -395,9 +395,9 @@ class EnergyWaterSupplyType
      *  Consumption Correction
      *
      * @return self
-     * @param \UBL\Common\CAC\EnergyWaterConsumptionCorrection $energyWaterConsumptionCorrection
+     * @param \App\UBL\Common\CAC\EnergyWaterConsumptionCorrection $energyWaterConsumptionCorrection
      */
-    public function addToEnergyWaterConsumptionCorrection(\UBL\Common\CAC\EnergyWaterConsumptionCorrection $energyWaterConsumptionCorrection)
+    public function addToEnergyWaterConsumptionCorrection(\App\UBL\Common\CAC\EnergyWaterConsumptionCorrection $energyWaterConsumptionCorrection)
     {
         $this->energyWaterConsumptionCorrection[] = $energyWaterConsumptionCorrection;
         return $this;
@@ -458,7 +458,7 @@ class EnergyWaterSupplyType
      *  Consumption Correction
      *  Consumption Correction
      *
-     * @return \UBL\Common\CAC\EnergyWaterConsumptionCorrection[]
+     * @return \App\UBL\Common\CAC\EnergyWaterConsumptionCorrection[]
      */
     public function getEnergyWaterConsumptionCorrection()
     {
@@ -478,7 +478,7 @@ class EnergyWaterSupplyType
      *  Consumption Correction
      *  Consumption Correction
      *
-     * @param \UBL\Common\CAC\EnergyWaterConsumptionCorrection[] $energyWaterConsumptionCorrection
+     * @param \App\UBL\Common\CAC\EnergyWaterConsumptionCorrection[] $energyWaterConsumptionCorrection
      * @return self
      */
     public function setEnergyWaterConsumptionCorrection(?array $energyWaterConsumptionCorrection = null)
@@ -487,5 +487,4 @@ class EnergyWaterSupplyType
         return $this;
     }
 }
-
 

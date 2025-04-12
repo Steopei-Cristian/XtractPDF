@@ -9,4 +9,3 @@ class HazardousRegulationCode extends HazardousRegulationCodeType
 {
 }
 
-

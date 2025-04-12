@@ -23,7 +23,7 @@ class ClauseType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class ClauseType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Content[] $content
+     * @var \App\UBL\Common\CBC\Content[] $content
      */
     private $content = [
         
@@ -55,7 +55,7 @@ class ClauseType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -74,10 +74,10 @@ class ClauseType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -96,9 +96,9 @@ class ClauseType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Content $content
+     * @param \App\UBL\Common\CBC\Content $content
      */
-    public function addToContent(\UBL\Common\CBC\Content $content)
+    public function addToContent(\App\UBL\Common\CBC\Content $content)
     {
         $this->content[] = $content;
         return $this;
@@ -156,7 +156,7 @@ class ClauseType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Content[]
+     * @return \App\UBL\Common\CBC\Content[]
      */
     public function getContent()
     {
@@ -175,7 +175,7 @@ class ClauseType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Content[] $content
+     * @param \App\UBL\Common\CBC\Content[] $content
      * @return self
      */
     public function setContent(?array $content = null)
@@ -184,5 +184,4 @@ class ClauseType
         return $this;
     }
 }
-
 

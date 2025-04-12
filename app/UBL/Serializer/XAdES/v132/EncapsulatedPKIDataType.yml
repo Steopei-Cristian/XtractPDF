@@ -1,4 +1,4 @@
-UBL\XAdES\v132\EncapsulatedPKIDataType:
+App\UBL\XAdES\v132\EncapsulatedPKIDataType:
     properties:
         __value:
             expose: true

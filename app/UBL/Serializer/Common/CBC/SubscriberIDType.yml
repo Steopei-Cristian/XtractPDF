@@ -1,2 +1,2 @@
-UBL\Common\CBC\SubscriberIDType:
+App\UBL\Common\CBC\SubscriberIDType:
     properties: {  }

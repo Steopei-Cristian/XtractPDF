@@ -9,4 +9,3 @@ class CorporateRegistrationScheme extends CorporateRegistrationSchemeType
 {
 }
 
-

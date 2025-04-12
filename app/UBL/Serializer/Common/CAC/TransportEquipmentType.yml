@@ -1,4 +1,4 @@
-UBL\Common\CAC\TransportEquipmentType:
+App\UBL\Common\CAC\TransportEquipmentType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         referencedConsignmentID:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: ReferencedConsignmentID
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\ReferencedConsignmentID>
+            type: array<App\UBL\Common\CBC\ReferencedConsignmentID>
         transportEquipmentTypeCode:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getTransportEquipmentTypeCode
                 setter: setTransportEquipmentTypeCode
-            type: UBL\Common\CBC\TransportEquipmentTypeCode
+            type: App\UBL\Common\CBC\TransportEquipmentTypeCode
         providerTypeCode:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getProviderTypeCode
                 setter: setProviderTypeCode
-            type: UBL\Common\CBC\ProviderTypeCode
+            type: App\UBL\Common\CBC\ProviderTypeCode
         ownerTypeCode:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getOwnerTypeCode
                 setter: setOwnerTypeCode
-            type: UBL\Common\CBC\OwnerTypeCode
+            type: App\UBL\Common\CBC\OwnerTypeCode
         sizeTypeCode:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getSizeTypeCode
                 setter: setSizeTypeCode
-            type: UBL\Common\CBC\SizeTypeCode
+            type: App\UBL\Common\CBC\SizeTypeCode
         dispositionCode:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getDispositionCode
                 setter: setDispositionCode
-            type: UBL\Common\CBC\DispositionCode
+            type: App\UBL\Common\CBC\DispositionCode
         fullnessIndicationCode:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getFullnessIndicationCode
                 setter: setFullnessIndicationCode
-            type: UBL\Common\CBC\FullnessIndicationCode
+            type: App\UBL\Common\CBC\FullnessIndicationCode
         refrigerationOnIndicator:
             expose: true
             access_type: public_method
@@ -107,7 +107,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: Information
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Information>
+            type: array<App\UBL\Common\CBC\Information>
         returnabilityIndicator:
             expose: true
             access_type: public_method
@@ -137,7 +137,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getAirFlowPercent
                 setter: setAirFlowPercent
-            type: UBL\Common\CBC\AirFlowPercent
+            type: App\UBL\Common\CBC\AirFlowPercent
         humidityPercent:
             expose: true
             access_type: public_method
@@ -147,7 +147,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getHumidityPercent
                 setter: setHumidityPercent
-            type: UBL\Common\CBC\HumidityPercent
+            type: App\UBL\Common\CBC\HumidityPercent
         animalFoodApprovedIndicator:
             expose: true
             access_type: public_method
@@ -197,7 +197,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getCharacteristics
                 setter: setCharacteristics
-            type: UBL\Common\CBC\Characteristics
+            type: App\UBL\Common\CBC\Characteristics
         damageRemarks:
             expose: true
             access_type: public_method
@@ -211,7 +211,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: DamageRemarks
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\DamageRemarks>
+            type: array<App\UBL\Common\CBC\DamageRemarks>
         description:
             expose: true
             access_type: public_method
@@ -225,7 +225,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         specialTransportRequirements:
             expose: true
             access_type: public_method
@@ -239,7 +239,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: SpecialTransportRequirements
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\SpecialTransportRequirements>
+            type: array<App\UBL\Common\CBC\SpecialTransportRequirements>
         grossWeightMeasure:
             expose: true
             access_type: public_method
@@ -249,7 +249,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getGrossWeightMeasure
                 setter: setGrossWeightMeasure
-            type: UBL\Common\CBC\GrossWeightMeasure
+            type: App\UBL\Common\CBC\GrossWeightMeasure
         grossVolumeMeasure:
             expose: true
             access_type: public_method
@@ -259,7 +259,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getGrossVolumeMeasure
                 setter: setGrossVolumeMeasure
-            type: UBL\Common\CBC\GrossVolumeMeasure
+            type: App\UBL\Common\CBC\GrossVolumeMeasure
         tareWeightMeasure:
             expose: true
             access_type: public_method
@@ -269,7 +269,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getTareWeightMeasure
                 setter: setTareWeightMeasure
-            type: UBL\Common\CBC\TareWeightMeasure
+            type: App\UBL\Common\CBC\TareWeightMeasure
         trackingDeviceCode:
             expose: true
             access_type: public_method
@@ -279,7 +279,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getTrackingDeviceCode
                 setter: setTrackingDeviceCode
-            type: UBL\Common\CBC\TrackingDeviceCode
+            type: App\UBL\Common\CBC\TrackingDeviceCode
         powerIndicator:
             expose: true
             access_type: public_method
@@ -299,7 +299,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getTraceID
                 setter: setTraceID
-            type: UBL\Common\CBC\TraceID
+            type: App\UBL\Common\CBC\TraceID
         measurementDimension:
             expose: true
             access_type: public_method
@@ -313,7 +313,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: MeasurementDimension
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\MeasurementDimension>
+            type: array<App\UBL\Common\CAC\MeasurementDimension>
         transportEquipmentSeal:
             expose: true
             access_type: public_method
@@ -327,7 +327,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: TransportEquipmentSeal
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TransportEquipmentSeal>
+            type: array<App\UBL\Common\CAC\TransportEquipmentSeal>
         minimumTemperature:
             expose: true
             access_type: public_method
@@ -337,7 +337,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getMinimumTemperature
                 setter: setMinimumTemperature
-            type: UBL\Common\CAC\MinimumTemperature
+            type: App\UBL\Common\CAC\MinimumTemperature
         maximumTemperature:
             expose: true
             access_type: public_method
@@ -347,7 +347,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getMaximumTemperature
                 setter: setMaximumTemperature
-            type: UBL\Common\CAC\MaximumTemperature
+            type: App\UBL\Common\CAC\MaximumTemperature
         providerParty:
             expose: true
             access_type: public_method
@@ -357,7 +357,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getProviderParty
                 setter: setProviderParty
-            type: UBL\Common\CAC\ProviderParty
+            type: App\UBL\Common\CAC\ProviderParty
         loadingProofParty:
             expose: true
             access_type: public_method
@@ -367,7 +367,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getLoadingProofParty
                 setter: setLoadingProofParty
-            type: UBL\Common\CAC\LoadingProofParty
+            type: App\UBL\Common\CAC\LoadingProofParty
         supplierParty:
             expose: true
             access_type: public_method
@@ -377,7 +377,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getSupplierParty
                 setter: setSupplierParty
-            type: UBL\Common\CAC\SupplierParty
+            type: App\UBL\Common\CAC\SupplierParty
         ownerParty:
             expose: true
             access_type: public_method
@@ -387,7 +387,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getOwnerParty
                 setter: setOwnerParty
-            type: UBL\Common\CAC\OwnerParty
+            type: App\UBL\Common\CAC\OwnerParty
         operatingParty:
             expose: true
             access_type: public_method
@@ -397,7 +397,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getOperatingParty
                 setter: setOperatingParty
-            type: UBL\Common\CAC\OperatingParty
+            type: App\UBL\Common\CAC\OperatingParty
         loadingLocation:
             expose: true
             access_type: public_method
@@ -407,7 +407,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getLoadingLocation
                 setter: setLoadingLocation
-            type: UBL\Common\CAC\LoadingLocation
+            type: App\UBL\Common\CAC\LoadingLocation
         unloadingLocation:
             expose: true
             access_type: public_method
@@ -417,7 +417,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getUnloadingLocation
                 setter: setUnloadingLocation
-            type: UBL\Common\CAC\UnloadingLocation
+            type: App\UBL\Common\CAC\UnloadingLocation
         storageLocation:
             expose: true
             access_type: public_method
@@ -427,7 +427,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getStorageLocation
                 setter: setStorageLocation
-            type: UBL\Common\CAC\StorageLocation
+            type: App\UBL\Common\CAC\StorageLocation
         positioningTransportEvent:
             expose: true
             access_type: public_method
@@ -441,7 +441,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: PositioningTransportEvent
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PositioningTransportEvent>
+            type: array<App\UBL\Common\CAC\PositioningTransportEvent>
         quarantineTransportEvent:
             expose: true
             access_type: public_method
@@ -455,7 +455,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: QuarantineTransportEvent
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\QuarantineTransportEvent>
+            type: array<App\UBL\Common\CAC\QuarantineTransportEvent>
         deliveryTransportEvent:
             expose: true
             access_type: public_method
@@ -469,7 +469,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: DeliveryTransportEvent
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DeliveryTransportEvent>
+            type: array<App\UBL\Common\CAC\DeliveryTransportEvent>
         pickupTransportEvent:
             expose: true
             access_type: public_method
@@ -483,7 +483,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: PickupTransportEvent
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PickupTransportEvent>
+            type: array<App\UBL\Common\CAC\PickupTransportEvent>
         handlingTransportEvent:
             expose: true
             access_type: public_method
@@ -497,7 +497,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: HandlingTransportEvent
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\HandlingTransportEvent>
+            type: array<App\UBL\Common\CAC\HandlingTransportEvent>
         loadingTransportEvent:
             expose: true
             access_type: public_method
@@ -511,7 +511,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: LoadingTransportEvent
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\LoadingTransportEvent>
+            type: array<App\UBL\Common\CAC\LoadingTransportEvent>
         transportEvent:
             expose: true
             access_type: public_method
@@ -525,7 +525,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: TransportEvent
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TransportEvent>
+            type: array<App\UBL\Common\CAC\TransportEvent>
         applicableTransportMeans:
             expose: true
             access_type: public_method
@@ -535,7 +535,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getApplicableTransportMeans
                 setter: setApplicableTransportMeans
-            type: UBL\Common\CAC\ApplicableTransportMeans
+            type: App\UBL\Common\CAC\ApplicableTransportMeans
         haulageTradingTerms:
             expose: true
             access_type: public_method
@@ -549,7 +549,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: HaulageTradingTerms
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\HaulageTradingTerms>
+            type: array<App\UBL\Common\CAC\HaulageTradingTerms>
         hazardousGoodsTransit:
             expose: true
             access_type: public_method
@@ -563,7 +563,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: HazardousGoodsTransit
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\HazardousGoodsTransit>
+            type: array<App\UBL\Common\CAC\HazardousGoodsTransit>
         packagedTransportHandlingUnit:
             expose: true
             access_type: public_method
@@ -577,7 +577,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: PackagedTransportHandlingUnit
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PackagedTransportHandlingUnit>
+            type: array<App\UBL\Common\CAC\PackagedTransportHandlingUnit>
         serviceAllowanceCharge:
             expose: true
             access_type: public_method
@@ -591,7 +591,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: ServiceAllowanceCharge
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ServiceAllowanceCharge>
+            type: array<App\UBL\Common\CAC\ServiceAllowanceCharge>
         freightAllowanceCharge:
             expose: true
             access_type: public_method
@@ -605,7 +605,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: FreightAllowanceCharge
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\FreightAllowanceCharge>
+            type: array<App\UBL\Common\CAC\FreightAllowanceCharge>
         attachedTransportEquipment:
             expose: true
             access_type: public_method
@@ -619,7 +619,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: AttachedTransportEquipment
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AttachedTransportEquipment>
+            type: array<App\UBL\Common\CAC\AttachedTransportEquipment>
         delivery:
             expose: true
             access_type: public_method
@@ -629,7 +629,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getDelivery
                 setter: setDelivery
-            type: UBL\Common\CAC\Delivery
+            type: App\UBL\Common\CAC\Delivery
         pickup:
             expose: true
             access_type: public_method
@@ -639,7 +639,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getPickup
                 setter: setPickup
-            type: UBL\Common\CAC\Pickup
+            type: App\UBL\Common\CAC\Pickup
         despatch:
             expose: true
             access_type: public_method
@@ -649,7 +649,7 @@ UBL\Common\CAC\TransportEquipmentType:
             accessor:
                 getter: getDespatch
                 setter: setDespatch
-            type: UBL\Common\CAC\Despatch
+            type: App\UBL\Common\CAC\Despatch
         shipmentDocumentReference:
             expose: true
             access_type: public_method
@@ -663,7 +663,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: ShipmentDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ShipmentDocumentReference>
+            type: array<App\UBL\Common\CAC\ShipmentDocumentReference>
         containedInTransportEquipment:
             expose: true
             access_type: public_method
@@ -677,7 +677,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: ContainedInTransportEquipment
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ContainedInTransportEquipment>
+            type: array<App\UBL\Common\CAC\ContainedInTransportEquipment>
         package:
             expose: true
             access_type: public_method
@@ -691,7 +691,7 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: Package
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Package>
+            type: array<App\UBL\Common\CAC\Package>
         goodsItem:
             expose: true
             access_type: public_method
@@ -705,4 +705,4 @@ UBL\Common\CAC\TransportEquipmentType:
                 inline: true
                 entry_name: GoodsItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\GoodsItem>
+            type: array<App\UBL\Common\CAC\GoodsItem>

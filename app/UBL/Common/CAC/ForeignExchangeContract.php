@@ -9,4 +9,3 @@ class ForeignExchangeContract extends ContractType
 {
 }
 
-

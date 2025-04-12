@@ -9,4 +9,3 @@ class LineExtensionAmount extends LineExtensionAmountType
 {
 }
 
-

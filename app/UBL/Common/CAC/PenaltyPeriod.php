@@ -9,4 +9,3 @@ class PenaltyPeriod extends PeriodType
 {
 }
 
-

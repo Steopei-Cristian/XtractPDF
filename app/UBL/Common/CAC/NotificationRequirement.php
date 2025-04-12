@@ -9,4 +9,3 @@ class NotificationRequirement extends NotificationRequirementType
 {
 }
 
-

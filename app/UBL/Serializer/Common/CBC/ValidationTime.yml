@@ -1,4 +1,4 @@
-UBL\Common\CBC\ValidationTime:
+App\UBL\Common\CBC\ValidationTime:
     xml_root_name: ValidationTime
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

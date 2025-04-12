@@ -9,4 +9,3 @@ class CounterSignature extends CounterSignatureType
 {
 }
 
-

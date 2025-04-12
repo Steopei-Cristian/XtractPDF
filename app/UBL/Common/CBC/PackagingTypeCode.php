@@ -9,4 +9,3 @@ class PackagingTypeCode extends PackagingTypeCodeType
 {
 }
 
-

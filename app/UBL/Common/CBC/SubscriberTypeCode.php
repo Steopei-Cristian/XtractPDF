@@ -9,4 +9,3 @@ class SubscriberTypeCode extends SubscriberTypeCodeType
 {
 }
 
-

@@ -9,4 +9,3 @@ class PickupLocation extends LocationType
 {
 }
 
-

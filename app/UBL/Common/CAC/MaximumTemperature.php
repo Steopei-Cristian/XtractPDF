@@ -9,4 +9,3 @@ class MaximumTemperature extends TemperatureType
 {
 }
 
-

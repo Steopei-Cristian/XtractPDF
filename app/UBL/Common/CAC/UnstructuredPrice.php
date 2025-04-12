@@ -9,4 +9,3 @@ class UnstructuredPrice extends UnstructuredPriceType
 {
 }
 
-

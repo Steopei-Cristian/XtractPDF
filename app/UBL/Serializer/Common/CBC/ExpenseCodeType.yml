@@ -1,2 +1,2 @@
-UBL\Common\CBC\ExpenseCodeType:
+App\UBL\Common\CBC\ExpenseCodeType:
     properties: {  }

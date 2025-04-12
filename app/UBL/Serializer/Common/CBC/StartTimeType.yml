@@ -1,4 +1,4 @@
-UBL\Common\CBC\StartTimeType:
+App\UBL\Common\CBC\StartTimeType:
     properties:
         __value:
             expose: true

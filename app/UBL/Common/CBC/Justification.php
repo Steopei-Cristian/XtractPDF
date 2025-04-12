@@ -9,4 +9,3 @@ class Justification extends JustificationType
 {
 }
 
-

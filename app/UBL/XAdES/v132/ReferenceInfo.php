@@ -9,4 +9,3 @@ class ReferenceInfo extends ReferenceInfoType
 {
 }
 
-

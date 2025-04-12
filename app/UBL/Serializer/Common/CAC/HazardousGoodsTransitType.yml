@@ -1,4 +1,4 @@
-UBL\Common\CAC\HazardousGoodsTransitType:
+App\UBL\Common\CAC\HazardousGoodsTransitType:
     properties:
         transportEmergencyCardCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\HazardousGoodsTransitType:
             accessor:
                 getter: getTransportEmergencyCardCode
                 setter: setTransportEmergencyCardCode
-            type: UBL\Common\CBC\TransportEmergencyCardCode
+            type: App\UBL\Common\CBC\TransportEmergencyCardCode
         packingCriteriaCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\HazardousGoodsTransitType:
             accessor:
                 getter: getPackingCriteriaCode
                 setter: setPackingCriteriaCode
-            type: UBL\Common\CBC\PackingCriteriaCode
+            type: App\UBL\Common\CBC\PackingCriteriaCode
         hazardousRegulationCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\HazardousGoodsTransitType:
             accessor:
                 getter: getHazardousRegulationCode
                 setter: setHazardousRegulationCode
-            type: UBL\Common\CBC\HazardousRegulationCode
+            type: App\UBL\Common\CBC\HazardousRegulationCode
         inhalationToxicityZoneCode:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\HazardousGoodsTransitType:
             accessor:
                 getter: getInhalationToxicityZoneCode
                 setter: setInhalationToxicityZoneCode
-            type: UBL\Common\CBC\InhalationToxicityZoneCode
+            type: App\UBL\Common\CBC\InhalationToxicityZoneCode
         transportAuthorizationCode:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\HazardousGoodsTransitType:
             accessor:
                 getter: getTransportAuthorizationCode
                 setter: setTransportAuthorizationCode
-            type: UBL\Common\CBC\TransportAuthorizationCode
+            type: App\UBL\Common\CBC\TransportAuthorizationCode
         maximumTemperature:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\HazardousGoodsTransitType:
             accessor:
                 getter: getMaximumTemperature
                 setter: setMaximumTemperature
-            type: UBL\Common\CAC\MaximumTemperature
+            type: App\UBL\Common\CAC\MaximumTemperature
         minimumTemperature:
             expose: true
             access_type: public_method
@@ -69,4 +69,4 @@ UBL\Common\CAC\HazardousGoodsTransitType:
             accessor:
                 getter: getMinimumTemperature
                 setter: setMinimumTemperature
-            type: UBL\Common\CAC\MinimumTemperature
+            type: App\UBL\Common\CAC\MinimumTemperature

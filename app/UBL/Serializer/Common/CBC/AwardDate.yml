@@ -1,4 +1,4 @@
-UBL\Common\CBC\AwardDate:
+App\UBL\Common\CBC\AwardDate:
     xml_root_name: AwardDate
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

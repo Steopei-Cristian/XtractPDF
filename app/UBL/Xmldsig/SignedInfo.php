@@ -9,4 +9,3 @@ class SignedInfo extends SignedInfoType
 {
 }
 
-

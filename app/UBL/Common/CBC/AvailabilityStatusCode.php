@@ -9,4 +9,3 @@ class AvailabilityStatusCode extends AvailabilityStatusCodeType
 {
 }
 
-

@@ -9,4 +9,3 @@ class WebSiteAccess extends WebSiteAccessType
 {
 }
 
-

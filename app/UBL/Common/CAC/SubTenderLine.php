@@ -9,4 +9,3 @@ class SubTenderLine extends TenderLineType
 {
 }
 
-

@@ -23,7 +23,7 @@ class ServiceProviderPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class ServiceProviderPartyType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ServiceTypeCode $serviceTypeCode
+     * @var \App\UBL\Common\CBC\ServiceTypeCode $serviceTypeCode
      */
     private $serviceTypeCode = null;
 
@@ -51,7 +51,7 @@ class ServiceProviderPartyType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ServiceType[] $serviceType
+     * @var \App\UBL\Common\CBC\ServiceType[] $serviceType
      */
     private $serviceType = [
         
@@ -67,7 +67,7 @@ class ServiceProviderPartyType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\Party $party
+     * @var \App\UBL\Common\CAC\Party $party
      */
     private $party = null;
 
@@ -82,7 +82,7 @@ class ServiceProviderPartyType
      *  Contact
      *  Contact
      *
-     * @var \UBL\Common\CAC\SellerContact $sellerContact
+     * @var \App\UBL\Common\CAC\SellerContact $sellerContact
      */
     private $sellerContact = null;
 
@@ -98,7 +98,7 @@ class ServiceProviderPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -117,10 +117,10 @@ class ServiceProviderPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -138,7 +138,7 @@ class ServiceProviderPartyType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ServiceTypeCode
+     * @return \App\UBL\Common\CBC\ServiceTypeCode
      */
     public function getServiceTypeCode()
     {
@@ -157,10 +157,10 @@ class ServiceProviderPartyType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ServiceTypeCode $serviceTypeCode
+     * @param \App\UBL\Common\CBC\ServiceTypeCode $serviceTypeCode
      * @return self
      */
-    public function setServiceTypeCode(?\UBL\Common\CBC\ServiceTypeCode $serviceTypeCode = null)
+    public function setServiceTypeCode(?\App\UBL\Common\CBC\ServiceTypeCode $serviceTypeCode = null)
     {
         $this->serviceTypeCode = $serviceTypeCode;
         return $this;
@@ -179,9 +179,9 @@ class ServiceProviderPartyType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ServiceType $serviceType
+     * @param \App\UBL\Common\CBC\ServiceType $serviceType
      */
-    public function addToServiceType(\UBL\Common\CBC\ServiceType $serviceType)
+    public function addToServiceType(\App\UBL\Common\CBC\ServiceType $serviceType)
     {
         $this->serviceType[] = $serviceType;
         return $this;
@@ -239,7 +239,7 @@ class ServiceProviderPartyType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ServiceType[]
+     * @return \App\UBL\Common\CBC\ServiceType[]
      */
     public function getServiceType()
     {
@@ -258,7 +258,7 @@ class ServiceProviderPartyType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ServiceType[] $serviceType
+     * @param \App\UBL\Common\CBC\ServiceType[] $serviceType
      * @return self
      */
     public function setServiceType(?array $serviceType = null)
@@ -279,7 +279,7 @@ class ServiceProviderPartyType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\Party
+     * @return \App\UBL\Common\CAC\Party
      */
     public function getParty()
     {
@@ -298,10 +298,10 @@ class ServiceProviderPartyType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\Party $party
+     * @param \App\UBL\Common\CAC\Party $party
      * @return self
      */
-    public function setParty(\UBL\Common\CAC\Party $party)
+    public function setParty(\App\UBL\Common\CAC\Party $party)
     {
         $this->party = $party;
         return $this;
@@ -320,7 +320,7 @@ class ServiceProviderPartyType
      *  Contact
      *  Contact
      *
-     * @return \UBL\Common\CAC\SellerContact
+     * @return \App\UBL\Common\CAC\SellerContact
      */
     public function getSellerContact()
     {
@@ -340,14 +340,13 @@ class ServiceProviderPartyType
      *  Contact
      *  Contact
      *
-     * @param \UBL\Common\CAC\SellerContact $sellerContact
+     * @param \App\UBL\Common\CAC\SellerContact $sellerContact
      * @return self
      */
-    public function setSellerContact(?\UBL\Common\CAC\SellerContact $sellerContact = null)
+    public function setSellerContact(?\App\UBL\Common\CAC\SellerContact $sellerContact = null)
     {
         $this->sellerContact = $sellerContact;
         return $this;
     }
 }
-
 

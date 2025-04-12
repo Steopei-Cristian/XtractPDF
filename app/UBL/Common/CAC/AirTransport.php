@@ -9,4 +9,3 @@ class AirTransport extends AirTransportType
 {
 }
 
-

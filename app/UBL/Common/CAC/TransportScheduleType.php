@@ -23,7 +23,7 @@ class TransportScheduleType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\SequenceNumeric $sequenceNumeric
+     * @var \App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric
      */
     private $sequenceNumeric = null;
 
@@ -65,7 +65,7 @@ class TransportScheduleType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\ReliabilityPercent $reliabilityPercent
+     * @var \App\UBL\Common\CBC\ReliabilityPercent $reliabilityPercent
      */
     private $reliabilityPercent = null;
 
@@ -79,7 +79,7 @@ class TransportScheduleType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Remarks[] $remarks
+     * @var \App\UBL\Common\CBC\Remarks[] $remarks
      */
     private $remarks = [
         
@@ -96,7 +96,7 @@ class TransportScheduleType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\StatusLocation $statusLocation
+     * @var \App\UBL\Common\CAC\StatusLocation $statusLocation
      */
     private $statusLocation = null;
 
@@ -111,7 +111,7 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\ActualArrivalTransportEvent $actualArrivalTransportEvent
+     * @var \App\UBL\Common\CAC\ActualArrivalTransportEvent $actualArrivalTransportEvent
      */
     private $actualArrivalTransportEvent = null;
 
@@ -126,7 +126,7 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\ActualDepartureTransportEvent $actualDepartureTransportEvent
+     * @var \App\UBL\Common\CAC\ActualDepartureTransportEvent $actualDepartureTransportEvent
      */
     private $actualDepartureTransportEvent = null;
 
@@ -141,7 +141,7 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\EstimatedDepartureTransportEvent $estimatedDepartureTransportEvent
+     * @var \App\UBL\Common\CAC\EstimatedDepartureTransportEvent $estimatedDepartureTransportEvent
      */
     private $estimatedDepartureTransportEvent = null;
 
@@ -156,7 +156,7 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\EstimatedArrivalTransportEvent $estimatedArrivalTransportEvent
+     * @var \App\UBL\Common\CAC\EstimatedArrivalTransportEvent $estimatedArrivalTransportEvent
      */
     private $estimatedArrivalTransportEvent = null;
 
@@ -171,7 +171,7 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\PlannedDepartureTransportEvent $plannedDepartureTransportEvent
+     * @var \App\UBL\Common\CAC\PlannedDepartureTransportEvent $plannedDepartureTransportEvent
      */
     private $plannedDepartureTransportEvent = null;
 
@@ -186,7 +186,7 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\PlannedArrivalTransportEvent $plannedArrivalTransportEvent
+     * @var \App\UBL\Common\CAC\PlannedArrivalTransportEvent $plannedArrivalTransportEvent
      */
     private $plannedArrivalTransportEvent = null;
 
@@ -202,7 +202,7 @@ class TransportScheduleType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\SequenceNumeric
+     * @return \App\UBL\Common\CBC\SequenceNumeric
      */
     public function getSequenceNumeric()
     {
@@ -221,10 +221,10 @@ class TransportScheduleType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\SequenceNumeric $sequenceNumeric
+     * @param \App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric
      * @return self
      */
-    public function setSequenceNumeric(\UBL\Common\CBC\SequenceNumeric $sequenceNumeric)
+    public function setSequenceNumeric(\App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric)
     {
         $this->sequenceNumeric = $sequenceNumeric;
         return $this;
@@ -322,7 +322,7 @@ class TransportScheduleType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\ReliabilityPercent
+     * @return \App\UBL\Common\CBC\ReliabilityPercent
      */
     public function getReliabilityPercent()
     {
@@ -341,10 +341,10 @@ class TransportScheduleType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\ReliabilityPercent $reliabilityPercent
+     * @param \App\UBL\Common\CBC\ReliabilityPercent $reliabilityPercent
      * @return self
      */
-    public function setReliabilityPercent(?\UBL\Common\CBC\ReliabilityPercent $reliabilityPercent = null)
+    public function setReliabilityPercent(?\App\UBL\Common\CBC\ReliabilityPercent $reliabilityPercent = null)
     {
         $this->reliabilityPercent = $reliabilityPercent;
         return $this;
@@ -363,9 +363,9 @@ class TransportScheduleType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Remarks $remarks
+     * @param \App\UBL\Common\CBC\Remarks $remarks
      */
-    public function addToRemarks(\UBL\Common\CBC\Remarks $remarks)
+    public function addToRemarks(\App\UBL\Common\CBC\Remarks $remarks)
     {
         $this->remarks[] = $remarks;
         return $this;
@@ -423,7 +423,7 @@ class TransportScheduleType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Remarks[]
+     * @return \App\UBL\Common\CBC\Remarks[]
      */
     public function getRemarks()
     {
@@ -442,7 +442,7 @@ class TransportScheduleType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Remarks[] $remarks
+     * @param \App\UBL\Common\CBC\Remarks[] $remarks
      * @return self
      */
     public function setRemarks(?array $remarks = null)
@@ -464,7 +464,7 @@ class TransportScheduleType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\StatusLocation
+     * @return \App\UBL\Common\CAC\StatusLocation
      */
     public function getStatusLocation()
     {
@@ -484,10 +484,10 @@ class TransportScheduleType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\StatusLocation $statusLocation
+     * @param \App\UBL\Common\CAC\StatusLocation $statusLocation
      * @return self
      */
-    public function setStatusLocation(\UBL\Common\CAC\StatusLocation $statusLocation)
+    public function setStatusLocation(\App\UBL\Common\CAC\StatusLocation $statusLocation)
     {
         $this->statusLocation = $statusLocation;
         return $this;
@@ -506,7 +506,7 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\ActualArrivalTransportEvent
+     * @return \App\UBL\Common\CAC\ActualArrivalTransportEvent
      */
     public function getActualArrivalTransportEvent()
     {
@@ -526,10 +526,10 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\ActualArrivalTransportEvent $actualArrivalTransportEvent
+     * @param \App\UBL\Common\CAC\ActualArrivalTransportEvent $actualArrivalTransportEvent
      * @return self
      */
-    public function setActualArrivalTransportEvent(?\UBL\Common\CAC\ActualArrivalTransportEvent $actualArrivalTransportEvent = null)
+    public function setActualArrivalTransportEvent(?\App\UBL\Common\CAC\ActualArrivalTransportEvent $actualArrivalTransportEvent = null)
     {
         $this->actualArrivalTransportEvent = $actualArrivalTransportEvent;
         return $this;
@@ -548,7 +548,7 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\ActualDepartureTransportEvent
+     * @return \App\UBL\Common\CAC\ActualDepartureTransportEvent
      */
     public function getActualDepartureTransportEvent()
     {
@@ -568,10 +568,10 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\ActualDepartureTransportEvent $actualDepartureTransportEvent
+     * @param \App\UBL\Common\CAC\ActualDepartureTransportEvent $actualDepartureTransportEvent
      * @return self
      */
-    public function setActualDepartureTransportEvent(?\UBL\Common\CAC\ActualDepartureTransportEvent $actualDepartureTransportEvent = null)
+    public function setActualDepartureTransportEvent(?\App\UBL\Common\CAC\ActualDepartureTransportEvent $actualDepartureTransportEvent = null)
     {
         $this->actualDepartureTransportEvent = $actualDepartureTransportEvent;
         return $this;
@@ -590,7 +590,7 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\EstimatedDepartureTransportEvent
+     * @return \App\UBL\Common\CAC\EstimatedDepartureTransportEvent
      */
     public function getEstimatedDepartureTransportEvent()
     {
@@ -610,10 +610,10 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\EstimatedDepartureTransportEvent $estimatedDepartureTransportEvent
+     * @param \App\UBL\Common\CAC\EstimatedDepartureTransportEvent $estimatedDepartureTransportEvent
      * @return self
      */
-    public function setEstimatedDepartureTransportEvent(?\UBL\Common\CAC\EstimatedDepartureTransportEvent $estimatedDepartureTransportEvent = null)
+    public function setEstimatedDepartureTransportEvent(?\App\UBL\Common\CAC\EstimatedDepartureTransportEvent $estimatedDepartureTransportEvent = null)
     {
         $this->estimatedDepartureTransportEvent = $estimatedDepartureTransportEvent;
         return $this;
@@ -632,7 +632,7 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\EstimatedArrivalTransportEvent
+     * @return \App\UBL\Common\CAC\EstimatedArrivalTransportEvent
      */
     public function getEstimatedArrivalTransportEvent()
     {
@@ -652,10 +652,10 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\EstimatedArrivalTransportEvent $estimatedArrivalTransportEvent
+     * @param \App\UBL\Common\CAC\EstimatedArrivalTransportEvent $estimatedArrivalTransportEvent
      * @return self
      */
-    public function setEstimatedArrivalTransportEvent(?\UBL\Common\CAC\EstimatedArrivalTransportEvent $estimatedArrivalTransportEvent = null)
+    public function setEstimatedArrivalTransportEvent(?\App\UBL\Common\CAC\EstimatedArrivalTransportEvent $estimatedArrivalTransportEvent = null)
     {
         $this->estimatedArrivalTransportEvent = $estimatedArrivalTransportEvent;
         return $this;
@@ -674,7 +674,7 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\PlannedDepartureTransportEvent
+     * @return \App\UBL\Common\CAC\PlannedDepartureTransportEvent
      */
     public function getPlannedDepartureTransportEvent()
     {
@@ -694,10 +694,10 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\PlannedDepartureTransportEvent $plannedDepartureTransportEvent
+     * @param \App\UBL\Common\CAC\PlannedDepartureTransportEvent $plannedDepartureTransportEvent
      * @return self
      */
-    public function setPlannedDepartureTransportEvent(?\UBL\Common\CAC\PlannedDepartureTransportEvent $plannedDepartureTransportEvent = null)
+    public function setPlannedDepartureTransportEvent(?\App\UBL\Common\CAC\PlannedDepartureTransportEvent $plannedDepartureTransportEvent = null)
     {
         $this->plannedDepartureTransportEvent = $plannedDepartureTransportEvent;
         return $this;
@@ -716,7 +716,7 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\PlannedArrivalTransportEvent
+     * @return \App\UBL\Common\CAC\PlannedArrivalTransportEvent
      */
     public function getPlannedArrivalTransportEvent()
     {
@@ -736,14 +736,13 @@ class TransportScheduleType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\PlannedArrivalTransportEvent $plannedArrivalTransportEvent
+     * @param \App\UBL\Common\CAC\PlannedArrivalTransportEvent $plannedArrivalTransportEvent
      * @return self
      */
-    public function setPlannedArrivalTransportEvent(?\UBL\Common\CAC\PlannedArrivalTransportEvent $plannedArrivalTransportEvent = null)
+    public function setPlannedArrivalTransportEvent(?\App\UBL\Common\CAC\PlannedArrivalTransportEvent $plannedArrivalTransportEvent = null)
     {
         $this->plannedArrivalTransportEvent = $plannedArrivalTransportEvent;
         return $this;
     }
 }
-
 

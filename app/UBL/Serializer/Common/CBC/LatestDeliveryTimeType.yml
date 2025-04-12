@@ -1,4 +1,4 @@
-UBL\Common\CBC\LatestDeliveryTimeType:
+App\UBL\Common\CBC\LatestDeliveryTimeType:
     properties:
         __value:
             expose: true

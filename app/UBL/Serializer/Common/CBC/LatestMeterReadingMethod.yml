@@ -1,3 +1,3 @@
-UBL\Common\CBC\LatestMeterReadingMethod:
+App\UBL\Common\CBC\LatestMeterReadingMethod:
     xml_root_name: LatestMeterReadingMethod
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

@@ -23,7 +23,7 @@ class WorkPhaseReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class WorkPhaseReferenceType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\WorkPhaseCode $workPhaseCode
+     * @var \App\UBL\Common\CBC\WorkPhaseCode $workPhaseCode
      */
     private $workPhaseCode = null;
 
@@ -51,7 +51,7 @@ class WorkPhaseReferenceType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\WorkPhase[] $workPhase
+     * @var \App\UBL\Common\CBC\WorkPhase[] $workPhase
      */
     private $workPhase = [
         
@@ -67,7 +67,7 @@ class WorkPhaseReferenceType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\ProgressPercent $progressPercent
+     * @var \App\UBL\Common\CBC\ProgressPercent $progressPercent
      */
     private $progressPercent = null;
 
@@ -110,7 +110,7 @@ class WorkPhaseReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\WorkOrderDocumentReference[] $workOrderDocumentReference
+     * @var \App\UBL\Common\CAC\WorkOrderDocumentReference[] $workOrderDocumentReference
      */
     private $workOrderDocumentReference = [
         
@@ -128,7 +128,7 @@ class WorkPhaseReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -147,10 +147,10 @@ class WorkPhaseReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -168,7 +168,7 @@ class WorkPhaseReferenceType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\WorkPhaseCode
+     * @return \App\UBL\Common\CBC\WorkPhaseCode
      */
     public function getWorkPhaseCode()
     {
@@ -187,10 +187,10 @@ class WorkPhaseReferenceType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\WorkPhaseCode $workPhaseCode
+     * @param \App\UBL\Common\CBC\WorkPhaseCode $workPhaseCode
      * @return self
      */
-    public function setWorkPhaseCode(?\UBL\Common\CBC\WorkPhaseCode $workPhaseCode = null)
+    public function setWorkPhaseCode(?\App\UBL\Common\CBC\WorkPhaseCode $workPhaseCode = null)
     {
         $this->workPhaseCode = $workPhaseCode;
         return $this;
@@ -209,9 +209,9 @@ class WorkPhaseReferenceType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\WorkPhase $workPhase
+     * @param \App\UBL\Common\CBC\WorkPhase $workPhase
      */
-    public function addToWorkPhase(\UBL\Common\CBC\WorkPhase $workPhase)
+    public function addToWorkPhase(\App\UBL\Common\CBC\WorkPhase $workPhase)
     {
         $this->workPhase[] = $workPhase;
         return $this;
@@ -269,7 +269,7 @@ class WorkPhaseReferenceType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\WorkPhase[]
+     * @return \App\UBL\Common\CBC\WorkPhase[]
      */
     public function getWorkPhase()
     {
@@ -288,7 +288,7 @@ class WorkPhaseReferenceType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\WorkPhase[] $workPhase
+     * @param \App\UBL\Common\CBC\WorkPhase[] $workPhase
      * @return self
      */
     public function setWorkPhase(?array $workPhase = null)
@@ -309,7 +309,7 @@ class WorkPhaseReferenceType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\ProgressPercent
+     * @return \App\UBL\Common\CBC\ProgressPercent
      */
     public function getProgressPercent()
     {
@@ -328,10 +328,10 @@ class WorkPhaseReferenceType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\ProgressPercent $progressPercent
+     * @param \App\UBL\Common\CBC\ProgressPercent $progressPercent
      * @return self
      */
-    public function setProgressPercent(?\UBL\Common\CBC\ProgressPercent $progressPercent = null)
+    public function setProgressPercent(?\App\UBL\Common\CBC\ProgressPercent $progressPercent = null)
     {
         $this->progressPercent = $progressPercent;
         return $this;
@@ -431,9 +431,9 @@ class WorkPhaseReferenceType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\WorkOrderDocumentReference $workOrderDocumentReference
+     * @param \App\UBL\Common\CAC\WorkOrderDocumentReference $workOrderDocumentReference
      */
-    public function addToWorkOrderDocumentReference(\UBL\Common\CAC\WorkOrderDocumentReference $workOrderDocumentReference)
+    public function addToWorkOrderDocumentReference(\App\UBL\Common\CAC\WorkOrderDocumentReference $workOrderDocumentReference)
     {
         $this->workOrderDocumentReference[] = $workOrderDocumentReference;
         return $this;
@@ -494,7 +494,7 @@ class WorkPhaseReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\WorkOrderDocumentReference[]
+     * @return \App\UBL\Common\CAC\WorkOrderDocumentReference[]
      */
     public function getWorkOrderDocumentReference()
     {
@@ -514,7 +514,7 @@ class WorkPhaseReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\WorkOrderDocumentReference[] $workOrderDocumentReference
+     * @param \App\UBL\Common\CAC\WorkOrderDocumentReference[] $workOrderDocumentReference
      * @return self
      */
     public function setWorkOrderDocumentReference(?array $workOrderDocumentReference = null)
@@ -523,5 +523,4 @@ class WorkPhaseReferenceType
         return $this;
     }
 }
-
 

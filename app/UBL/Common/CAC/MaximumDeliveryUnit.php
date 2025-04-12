@@ -9,4 +9,3 @@ class MaximumDeliveryUnit extends DeliveryUnitType
 {
 }
 
-

@@ -9,4 +9,3 @@ class CalculationExpressionCode extends CalculationExpressionCodeType
 {
 }
 
-

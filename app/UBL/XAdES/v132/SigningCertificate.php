@@ -9,4 +9,3 @@ class SigningCertificate extends CertIDListType
 {
 }
 
-

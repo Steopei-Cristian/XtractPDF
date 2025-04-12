@@ -9,4 +9,3 @@ class ReceivedQuantity extends ReceivedQuantityType
 {
 }
 
-

@@ -23,7 +23,7 @@ class PackageType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class PackageType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -66,7 +66,7 @@ class PackageType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PackageLevelCode $packageLevelCode
+     * @var \App\UBL\Common\CBC\PackageLevelCode $packageLevelCode
      */
     private $packageLevelCode = null;
 
@@ -82,7 +82,7 @@ class PackageType
      *  Packaging Type_ Code. Type
      *  Package classification code
      *
-     * @var \UBL\Common\CBC\PackagingTypeCode $packagingTypeCode
+     * @var \App\UBL\Common\CBC\PackagingTypeCode $packagingTypeCode
      */
     private $packagingTypeCode = null;
 
@@ -96,7 +96,7 @@ class PackageType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\PackingMaterial[] $packingMaterial
+     * @var \App\UBL\Common\CBC\PackingMaterial[] $packingMaterial
      */
     private $packingMaterial = [
         
@@ -113,7 +113,7 @@ class PackageType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\TraceID $traceID
+     * @var \App\UBL\Common\CBC\TraceID $traceID
      */
     private $traceID = null;
 
@@ -128,7 +128,7 @@ class PackageType
      *  Package
      *  Package
      *
-     * @var \UBL\Common\CAC\ContainedPackage[] $containedPackage
+     * @var \App\UBL\Common\CAC\ContainedPackage[] $containedPackage
      */
     private $containedPackage = [
         
@@ -145,7 +145,7 @@ class PackageType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @var \UBL\Common\CAC\ContainingTransportEquipment $containingTransportEquipment
+     * @var \App\UBL\Common\CAC\ContainingTransportEquipment $containingTransportEquipment
      */
     private $containingTransportEquipment = null;
 
@@ -159,7 +159,7 @@ class PackageType
      *  Goods Item
      *  Goods Item
      *
-     * @var \UBL\Common\CAC\GoodsItem[] $goodsItem
+     * @var \App\UBL\Common\CAC\GoodsItem[] $goodsItem
      */
     private $goodsItem = [
         
@@ -176,7 +176,7 @@ class PackageType
      *  Dimension
      *  Dimension
      *
-     * @var \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @var \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      */
     private $measurementDimension = [
         
@@ -192,7 +192,7 @@ class PackageType
      *  Delivery Unit
      *  Delivery Unit
      *
-     * @var \UBL\Common\CAC\DeliveryUnit[] $deliveryUnit
+     * @var \App\UBL\Common\CAC\DeliveryUnit[] $deliveryUnit
      */
     private $deliveryUnit = [
         
@@ -208,7 +208,7 @@ class PackageType
      *  Delivery
      *  Delivery
      *
-     * @var \UBL\Common\CAC\Delivery $delivery
+     * @var \App\UBL\Common\CAC\Delivery $delivery
      */
     private $delivery = null;
 
@@ -222,7 +222,7 @@ class PackageType
      *  Pickup
      *  Pickup
      *
-     * @var \UBL\Common\CAC\Pickup $pickup
+     * @var \App\UBL\Common\CAC\Pickup $pickup
      */
     private $pickup = null;
 
@@ -236,7 +236,7 @@ class PackageType
      *  Despatch
      *  Despatch
      *
-     * @var \UBL\Common\CAC\Despatch $despatch
+     * @var \App\UBL\Common\CAC\Despatch $despatch
      */
     private $despatch = null;
 
@@ -252,7 +252,7 @@ class PackageType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -271,10 +271,10 @@ class PackageType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -292,7 +292,7 @@ class PackageType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -311,10 +311,10 @@ class PackageType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
@@ -374,7 +374,7 @@ class PackageType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PackageLevelCode
+     * @return \App\UBL\Common\CBC\PackageLevelCode
      */
     public function getPackageLevelCode()
     {
@@ -393,10 +393,10 @@ class PackageType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PackageLevelCode $packageLevelCode
+     * @param \App\UBL\Common\CBC\PackageLevelCode $packageLevelCode
      * @return self
      */
-    public function setPackageLevelCode(?\UBL\Common\CBC\PackageLevelCode $packageLevelCode = null)
+    public function setPackageLevelCode(?\App\UBL\Common\CBC\PackageLevelCode $packageLevelCode = null)
     {
         $this->packageLevelCode = $packageLevelCode;
         return $this;
@@ -416,7 +416,7 @@ class PackageType
      *  Packaging Type_ Code. Type
      *  Package classification code
      *
-     * @return \UBL\Common\CBC\PackagingTypeCode
+     * @return \App\UBL\Common\CBC\PackagingTypeCode
      */
     public function getPackagingTypeCode()
     {
@@ -437,10 +437,10 @@ class PackageType
      *  Packaging Type_ Code. Type
      *  Package classification code
      *
-     * @param \UBL\Common\CBC\PackagingTypeCode $packagingTypeCode
+     * @param \App\UBL\Common\CBC\PackagingTypeCode $packagingTypeCode
      * @return self
      */
-    public function setPackagingTypeCode(?\UBL\Common\CBC\PackagingTypeCode $packagingTypeCode = null)
+    public function setPackagingTypeCode(?\App\UBL\Common\CBC\PackagingTypeCode $packagingTypeCode = null)
     {
         $this->packagingTypeCode = $packagingTypeCode;
         return $this;
@@ -459,9 +459,9 @@ class PackageType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\PackingMaterial $packingMaterial
+     * @param \App\UBL\Common\CBC\PackingMaterial $packingMaterial
      */
-    public function addToPackingMaterial(\UBL\Common\CBC\PackingMaterial $packingMaterial)
+    public function addToPackingMaterial(\App\UBL\Common\CBC\PackingMaterial $packingMaterial)
     {
         $this->packingMaterial[] = $packingMaterial;
         return $this;
@@ -519,7 +519,7 @@ class PackageType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\PackingMaterial[]
+     * @return \App\UBL\Common\CBC\PackingMaterial[]
      */
     public function getPackingMaterial()
     {
@@ -538,7 +538,7 @@ class PackageType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\PackingMaterial[] $packingMaterial
+     * @param \App\UBL\Common\CBC\PackingMaterial[] $packingMaterial
      * @return self
      */
     public function setPackingMaterial(?array $packingMaterial = null)
@@ -560,7 +560,7 @@ class PackageType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\TraceID
+     * @return \App\UBL\Common\CBC\TraceID
      */
     public function getTraceID()
     {
@@ -580,10 +580,10 @@ class PackageType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\TraceID $traceID
+     * @param \App\UBL\Common\CBC\TraceID $traceID
      * @return self
      */
-    public function setTraceID(?\UBL\Common\CBC\TraceID $traceID = null)
+    public function setTraceID(?\App\UBL\Common\CBC\TraceID $traceID = null)
     {
         $this->traceID = $traceID;
         return $this;
@@ -603,9 +603,9 @@ class PackageType
      *  Package
      *
      * @return self
-     * @param \UBL\Common\CAC\ContainedPackage $containedPackage
+     * @param \App\UBL\Common\CAC\ContainedPackage $containedPackage
      */
-    public function addToContainedPackage(\UBL\Common\CAC\ContainedPackage $containedPackage)
+    public function addToContainedPackage(\App\UBL\Common\CAC\ContainedPackage $containedPackage)
     {
         $this->containedPackage[] = $containedPackage;
         return $this;
@@ -666,7 +666,7 @@ class PackageType
      *  Package
      *  Package
      *
-     * @return \UBL\Common\CAC\ContainedPackage[]
+     * @return \App\UBL\Common\CAC\ContainedPackage[]
      */
     public function getContainedPackage()
     {
@@ -686,7 +686,7 @@ class PackageType
      *  Package
      *  Package
      *
-     * @param \UBL\Common\CAC\ContainedPackage[] $containedPackage
+     * @param \App\UBL\Common\CAC\ContainedPackage[] $containedPackage
      * @return self
      */
     public function setContainedPackage(?array $containedPackage = null)
@@ -708,7 +708,7 @@ class PackageType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @return \UBL\Common\CAC\ContainingTransportEquipment
+     * @return \App\UBL\Common\CAC\ContainingTransportEquipment
      */
     public function getContainingTransportEquipment()
     {
@@ -728,10 +728,10 @@ class PackageType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @param \UBL\Common\CAC\ContainingTransportEquipment $containingTransportEquipment
+     * @param \App\UBL\Common\CAC\ContainingTransportEquipment $containingTransportEquipment
      * @return self
      */
-    public function setContainingTransportEquipment(?\UBL\Common\CAC\ContainingTransportEquipment $containingTransportEquipment = null)
+    public function setContainingTransportEquipment(?\App\UBL\Common\CAC\ContainingTransportEquipment $containingTransportEquipment = null)
     {
         $this->containingTransportEquipment = $containingTransportEquipment;
         return $this;
@@ -750,9 +750,9 @@ class PackageType
      *  Goods Item
      *
      * @return self
-     * @param \UBL\Common\CAC\GoodsItem $goodsItem
+     * @param \App\UBL\Common\CAC\GoodsItem $goodsItem
      */
-    public function addToGoodsItem(\UBL\Common\CAC\GoodsItem $goodsItem)
+    public function addToGoodsItem(\App\UBL\Common\CAC\GoodsItem $goodsItem)
     {
         $this->goodsItem[] = $goodsItem;
         return $this;
@@ -810,7 +810,7 @@ class PackageType
      *  Goods Item
      *  Goods Item
      *
-     * @return \UBL\Common\CAC\GoodsItem[]
+     * @return \App\UBL\Common\CAC\GoodsItem[]
      */
     public function getGoodsItem()
     {
@@ -829,7 +829,7 @@ class PackageType
      *  Goods Item
      *  Goods Item
      *
-     * @param \UBL\Common\CAC\GoodsItem[] $goodsItem
+     * @param \App\UBL\Common\CAC\GoodsItem[] $goodsItem
      * @return self
      */
     public function setGoodsItem(?array $goodsItem = null)
@@ -852,9 +852,9 @@ class PackageType
      *  Dimension
      *
      * @return self
-     * @param \UBL\Common\CAC\MeasurementDimension $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension $measurementDimension
      */
-    public function addToMeasurementDimension(\UBL\Common\CAC\MeasurementDimension $measurementDimension)
+    public function addToMeasurementDimension(\App\UBL\Common\CAC\MeasurementDimension $measurementDimension)
     {
         $this->measurementDimension[] = $measurementDimension;
         return $this;
@@ -915,7 +915,7 @@ class PackageType
      *  Dimension
      *  Dimension
      *
-     * @return \UBL\Common\CAC\MeasurementDimension[]
+     * @return \App\UBL\Common\CAC\MeasurementDimension[]
      */
     public function getMeasurementDimension()
     {
@@ -935,7 +935,7 @@ class PackageType
      *  Dimension
      *  Dimension
      *
-     * @param \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      * @return self
      */
     public function setMeasurementDimension(?array $measurementDimension = null)
@@ -957,9 +957,9 @@ class PackageType
      *  Delivery Unit
      *
      * @return self
-     * @param \UBL\Common\CAC\DeliveryUnit $deliveryUnit
+     * @param \App\UBL\Common\CAC\DeliveryUnit $deliveryUnit
      */
-    public function addToDeliveryUnit(\UBL\Common\CAC\DeliveryUnit $deliveryUnit)
+    public function addToDeliveryUnit(\App\UBL\Common\CAC\DeliveryUnit $deliveryUnit)
     {
         $this->deliveryUnit[] = $deliveryUnit;
         return $this;
@@ -1017,7 +1017,7 @@ class PackageType
      *  Delivery Unit
      *  Delivery Unit
      *
-     * @return \UBL\Common\CAC\DeliveryUnit[]
+     * @return \App\UBL\Common\CAC\DeliveryUnit[]
      */
     public function getDeliveryUnit()
     {
@@ -1036,7 +1036,7 @@ class PackageType
      *  Delivery Unit
      *  Delivery Unit
      *
-     * @param \UBL\Common\CAC\DeliveryUnit[] $deliveryUnit
+     * @param \App\UBL\Common\CAC\DeliveryUnit[] $deliveryUnit
      * @return self
      */
     public function setDeliveryUnit(?array $deliveryUnit = null)
@@ -1057,7 +1057,7 @@ class PackageType
      *  Delivery
      *  Delivery
      *
-     * @return \UBL\Common\CAC\Delivery
+     * @return \App\UBL\Common\CAC\Delivery
      */
     public function getDelivery()
     {
@@ -1076,10 +1076,10 @@ class PackageType
      *  Delivery
      *  Delivery
      *
-     * @param \UBL\Common\CAC\Delivery $delivery
+     * @param \App\UBL\Common\CAC\Delivery $delivery
      * @return self
      */
-    public function setDelivery(?\UBL\Common\CAC\Delivery $delivery = null)
+    public function setDelivery(?\App\UBL\Common\CAC\Delivery $delivery = null)
     {
         $this->delivery = $delivery;
         return $this;
@@ -1097,7 +1097,7 @@ class PackageType
      *  Pickup
      *  Pickup
      *
-     * @return \UBL\Common\CAC\Pickup
+     * @return \App\UBL\Common\CAC\Pickup
      */
     public function getPickup()
     {
@@ -1116,10 +1116,10 @@ class PackageType
      *  Pickup
      *  Pickup
      *
-     * @param \UBL\Common\CAC\Pickup $pickup
+     * @param \App\UBL\Common\CAC\Pickup $pickup
      * @return self
      */
-    public function setPickup(?\UBL\Common\CAC\Pickup $pickup = null)
+    public function setPickup(?\App\UBL\Common\CAC\Pickup $pickup = null)
     {
         $this->pickup = $pickup;
         return $this;
@@ -1137,7 +1137,7 @@ class PackageType
      *  Despatch
      *  Despatch
      *
-     * @return \UBL\Common\CAC\Despatch
+     * @return \App\UBL\Common\CAC\Despatch
      */
     public function getDespatch()
     {
@@ -1156,14 +1156,13 @@ class PackageType
      *  Despatch
      *  Despatch
      *
-     * @param \UBL\Common\CAC\Despatch $despatch
+     * @param \App\UBL\Common\CAC\Despatch $despatch
      * @return self
      */
-    public function setDespatch(?\UBL\Common\CAC\Despatch $despatch = null)
+    public function setDespatch(?\App\UBL\Common\CAC\Despatch $despatch = null)
     {
         $this->despatch = $despatch;
         return $this;
     }
 }
-
 

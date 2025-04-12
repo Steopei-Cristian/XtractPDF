@@ -23,7 +23,7 @@ class PerformanceDataLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class PerformanceDataLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -53,7 +53,7 @@ class PerformanceDataLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\PerformanceValueQuantity $performanceValueQuantity
+     * @var \App\UBL\Common\CBC\PerformanceValueQuantity $performanceValueQuantity
      */
     private $performanceValueQuantity = null;
 
@@ -67,7 +67,7 @@ class PerformanceDataLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
+     * @var \App\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
      */
     private $performanceMetricTypeCode = null;
 
@@ -81,7 +81,7 @@ class PerformanceDataLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\Period $period
+     * @var \App\UBL\Common\CAC\Period $period
      */
     private $period = null;
 
@@ -95,7 +95,7 @@ class PerformanceDataLineType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item $item
+     * @var \App\UBL\Common\CAC\Item $item
      */
     private $item = null;
 
@@ -111,7 +111,7 @@ class PerformanceDataLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -130,10 +130,10 @@ class PerformanceDataLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -152,9 +152,9 @@ class PerformanceDataLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -212,7 +212,7 @@ class PerformanceDataLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -231,7 +231,7 @@ class PerformanceDataLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -252,7 +252,7 @@ class PerformanceDataLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\PerformanceValueQuantity
+     * @return \App\UBL\Common\CBC\PerformanceValueQuantity
      */
     public function getPerformanceValueQuantity()
     {
@@ -271,10 +271,10 @@ class PerformanceDataLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\PerformanceValueQuantity $performanceValueQuantity
+     * @param \App\UBL\Common\CBC\PerformanceValueQuantity $performanceValueQuantity
      * @return self
      */
-    public function setPerformanceValueQuantity(\UBL\Common\CBC\PerformanceValueQuantity $performanceValueQuantity)
+    public function setPerformanceValueQuantity(\App\UBL\Common\CBC\PerformanceValueQuantity $performanceValueQuantity)
     {
         $this->performanceValueQuantity = $performanceValueQuantity;
         return $this;
@@ -292,7 +292,7 @@ class PerformanceDataLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PerformanceMetricTypeCode
+     * @return \App\UBL\Common\CBC\PerformanceMetricTypeCode
      */
     public function getPerformanceMetricTypeCode()
     {
@@ -311,10 +311,10 @@ class PerformanceDataLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
+     * @param \App\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
      * @return self
      */
-    public function setPerformanceMetricTypeCode(\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode)
+    public function setPerformanceMetricTypeCode(\App\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode)
     {
         $this->performanceMetricTypeCode = $performanceMetricTypeCode;
         return $this;
@@ -332,7 +332,7 @@ class PerformanceDataLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\Period
+     * @return \App\UBL\Common\CAC\Period
      */
     public function getPeriod()
     {
@@ -351,10 +351,10 @@ class PerformanceDataLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\Period $period
+     * @param \App\UBL\Common\CAC\Period $period
      * @return self
      */
-    public function setPeriod(?\UBL\Common\CAC\Period $period = null)
+    public function setPeriod(?\App\UBL\Common\CAC\Period $period = null)
     {
         $this->period = $period;
         return $this;
@@ -372,7 +372,7 @@ class PerformanceDataLineType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item
+     * @return \App\UBL\Common\CAC\Item
      */
     public function getItem()
     {
@@ -391,14 +391,13 @@ class PerformanceDataLineType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      * @return self
      */
-    public function setItem(?\UBL\Common\CAC\Item $item = null)
+    public function setItem(?\App\UBL\Common\CAC\Item $item = null)
     {
         $this->item = $item;
         return $this;
     }
 }
-
 

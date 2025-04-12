@@ -1,4 +1,4 @@
-UBL\Xmldsig\X509DataType:
+App\UBL\Xmldsig\X509DataType:
     properties:
         x509IssuerSerial:
             expose: true
@@ -13,7 +13,7 @@ UBL\Xmldsig\X509DataType:
                 inline: true
                 entry_name: X509IssuerSerial
                 namespace: 'http://www.w3.org/2000/09/xmldsig#'
-            type: array<UBL\Xmldsig\X509IssuerSerialType>
+            type: array<App\UBL\Xmldsig\X509IssuerSerialType>
         x509SKI:
             expose: true
             access_type: public_method

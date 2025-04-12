@@ -23,7 +23,7 @@ class TendererRequirementType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\Name[] $name
+     * @var \App\UBL\Common\CBC\Name[] $name
      */
     private $name = [
         
@@ -40,7 +40,7 @@ class TendererRequirementType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TendererRequirementTypeCode $tendererRequirementTypeCode
+     * @var \App\UBL\Common\CBC\TendererRequirementTypeCode $tendererRequirementTypeCode
      */
     private $tendererRequirementTypeCode = null;
 
@@ -54,7 +54,7 @@ class TendererRequirementType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -71,7 +71,7 @@ class TendererRequirementType
      *  Text. Type
      *  Art. 45 2 b
      *
-     * @var \UBL\Common\CBC\LegalReference $legalReference
+     * @var \App\UBL\Common\CBC\LegalReference $legalReference
      */
     private $legalReference = null;
 
@@ -86,7 +86,7 @@ class TendererRequirementType
      *  Evidence
      *  Evidence
      *
-     * @var \UBL\Common\CAC\SuggestedEvidence[] $suggestedEvidence
+     * @var \App\UBL\Common\CAC\SuggestedEvidence[] $suggestedEvidence
      */
     private $suggestedEvidence = [
         
@@ -105,9 +105,9 @@ class TendererRequirementType
      *  Name. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      */
-    public function addToName(\UBL\Common\CBC\Name $name)
+    public function addToName(\App\UBL\Common\CBC\Name $name)
     {
         $this->name[] = $name;
         return $this;
@@ -165,7 +165,7 @@ class TendererRequirementType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\Name[]
+     * @return \App\UBL\Common\CBC\Name[]
      */
     public function getName()
     {
@@ -184,7 +184,7 @@ class TendererRequirementType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\Name[] $name
+     * @param \App\UBL\Common\CBC\Name[] $name
      * @return self
      */
     public function setName(?array $name = null)
@@ -206,7 +206,7 @@ class TendererRequirementType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TendererRequirementTypeCode
+     * @return \App\UBL\Common\CBC\TendererRequirementTypeCode
      */
     public function getTendererRequirementTypeCode()
     {
@@ -226,10 +226,10 @@ class TendererRequirementType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TendererRequirementTypeCode $tendererRequirementTypeCode
+     * @param \App\UBL\Common\CBC\TendererRequirementTypeCode $tendererRequirementTypeCode
      * @return self
      */
-    public function setTendererRequirementTypeCode(?\UBL\Common\CBC\TendererRequirementTypeCode $tendererRequirementTypeCode = null)
+    public function setTendererRequirementTypeCode(?\App\UBL\Common\CBC\TendererRequirementTypeCode $tendererRequirementTypeCode = null)
     {
         $this->tendererRequirementTypeCode = $tendererRequirementTypeCode;
         return $this;
@@ -248,9 +248,9 @@ class TendererRequirementType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -308,7 +308,7 @@ class TendererRequirementType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -327,7 +327,7 @@ class TendererRequirementType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -349,7 +349,7 @@ class TendererRequirementType
      *  Text. Type
      *  Art. 45 2 b
      *
-     * @return \UBL\Common\CBC\LegalReference
+     * @return \App\UBL\Common\CBC\LegalReference
      */
     public function getLegalReference()
     {
@@ -369,10 +369,10 @@ class TendererRequirementType
      *  Text. Type
      *  Art. 45 2 b
      *
-     * @param \UBL\Common\CBC\LegalReference $legalReference
+     * @param \App\UBL\Common\CBC\LegalReference $legalReference
      * @return self
      */
-    public function setLegalReference(?\UBL\Common\CBC\LegalReference $legalReference = null)
+    public function setLegalReference(?\App\UBL\Common\CBC\LegalReference $legalReference = null)
     {
         $this->legalReference = $legalReference;
         return $this;
@@ -392,9 +392,9 @@ class TendererRequirementType
      *  Evidence
      *
      * @return self
-     * @param \UBL\Common\CAC\SuggestedEvidence $suggestedEvidence
+     * @param \App\UBL\Common\CAC\SuggestedEvidence $suggestedEvidence
      */
-    public function addToSuggestedEvidence(\UBL\Common\CAC\SuggestedEvidence $suggestedEvidence)
+    public function addToSuggestedEvidence(\App\UBL\Common\CAC\SuggestedEvidence $suggestedEvidence)
     {
         $this->suggestedEvidence[] = $suggestedEvidence;
         return $this;
@@ -455,7 +455,7 @@ class TendererRequirementType
      *  Evidence
      *  Evidence
      *
-     * @return \UBL\Common\CAC\SuggestedEvidence[]
+     * @return \App\UBL\Common\CAC\SuggestedEvidence[]
      */
     public function getSuggestedEvidence()
     {
@@ -475,7 +475,7 @@ class TendererRequirementType
      *  Evidence
      *  Evidence
      *
-     * @param \UBL\Common\CAC\SuggestedEvidence[] $suggestedEvidence
+     * @param \App\UBL\Common\CAC\SuggestedEvidence[] $suggestedEvidence
      * @return self
      */
     public function setSuggestedEvidence(?array $suggestedEvidence = null)
@@ -484,5 +484,4 @@ class TendererRequirementType
         return $this;
     }
 }
-
 

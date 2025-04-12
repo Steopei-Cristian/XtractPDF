@@ -9,4 +9,3 @@ class X509Data extends X509DataType
 {
 }
 
-

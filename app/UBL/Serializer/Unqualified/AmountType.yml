@@ -1,4 +1,4 @@
-UBL\Unqualified\AmountType:
+App\UBL\Unqualified\AmountType:
     properties:
         currencyID:
             expose: true

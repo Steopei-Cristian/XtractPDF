@@ -1,4 +1,4 @@
-UBL\Common\CBC\FollowupContractIndicatorType:
+App\UBL\Common\CBC\FollowupContractIndicatorType:
     properties:
         __value:
             expose: true

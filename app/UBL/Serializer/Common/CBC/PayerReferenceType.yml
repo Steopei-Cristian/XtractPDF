@@ -1,2 +1,2 @@
-UBL\Common\CBC\PayerReferenceType:
+App\UBL\Common\CBC\PayerReferenceType:
     properties: {  }

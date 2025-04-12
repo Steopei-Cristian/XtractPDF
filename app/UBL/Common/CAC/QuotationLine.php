@@ -9,4 +9,3 @@ class QuotationLine extends QuotationLineType
 {
 }
 
-

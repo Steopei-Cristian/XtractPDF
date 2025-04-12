@@ -23,7 +23,7 @@ class LocationCoordinateType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\CoordinateSystemCode $coordinateSystemCode
+     * @var \App\UBL\Common\CBC\CoordinateSystemCode $coordinateSystemCode
      */
     private $coordinateSystemCode = null;
 
@@ -38,7 +38,7 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\LatitudeDegreesMeasure $latitudeDegreesMeasure
+     * @var \App\UBL\Common\CBC\LatitudeDegreesMeasure $latitudeDegreesMeasure
      */
     private $latitudeDegreesMeasure = null;
 
@@ -53,7 +53,7 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\LatitudeMinutesMeasure $latitudeMinutesMeasure
+     * @var \App\UBL\Common\CBC\LatitudeMinutesMeasure $latitudeMinutesMeasure
      */
     private $latitudeMinutesMeasure = null;
 
@@ -68,7 +68,7 @@ class LocationCoordinateType
      *  Latitude Direction
      *  Latitude Direction_ Code. Type
      *
-     * @var \UBL\Common\CBC\LatitudeDirectionCode $latitudeDirectionCode
+     * @var \App\UBL\Common\CBC\LatitudeDirectionCode $latitudeDirectionCode
      */
     private $latitudeDirectionCode = null;
 
@@ -83,7 +83,7 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\LongitudeDegreesMeasure $longitudeDegreesMeasure
+     * @var \App\UBL\Common\CBC\LongitudeDegreesMeasure $longitudeDegreesMeasure
      */
     private $longitudeDegreesMeasure = null;
 
@@ -98,7 +98,7 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\LongitudeMinutesMeasure $longitudeMinutesMeasure
+     * @var \App\UBL\Common\CBC\LongitudeMinutesMeasure $longitudeMinutesMeasure
      */
     private $longitudeMinutesMeasure = null;
 
@@ -113,7 +113,7 @@ class LocationCoordinateType
      *  Longitude Direction
      *  Longitude Direction_ Code. Type
      *
-     * @var \UBL\Common\CBC\LongitudeDirectionCode $longitudeDirectionCode
+     * @var \App\UBL\Common\CBC\LongitudeDirectionCode $longitudeDirectionCode
      */
     private $longitudeDirectionCode = null;
 
@@ -127,7 +127,7 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\AltitudeMeasure $altitudeMeasure
+     * @var \App\UBL\Common\CBC\AltitudeMeasure $altitudeMeasure
      */
     private $altitudeMeasure = null;
 
@@ -143,7 +143,7 @@ class LocationCoordinateType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\CoordinateSystemCode
+     * @return \App\UBL\Common\CBC\CoordinateSystemCode
      */
     public function getCoordinateSystemCode()
     {
@@ -162,10 +162,10 @@ class LocationCoordinateType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\CoordinateSystemCode $coordinateSystemCode
+     * @param \App\UBL\Common\CBC\CoordinateSystemCode $coordinateSystemCode
      * @return self
      */
-    public function setCoordinateSystemCode(?\UBL\Common\CBC\CoordinateSystemCode $coordinateSystemCode = null)
+    public function setCoordinateSystemCode(?\App\UBL\Common\CBC\CoordinateSystemCode $coordinateSystemCode = null)
     {
         $this->coordinateSystemCode = $coordinateSystemCode;
         return $this;
@@ -184,7 +184,7 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\LatitudeDegreesMeasure
+     * @return \App\UBL\Common\CBC\LatitudeDegreesMeasure
      */
     public function getLatitudeDegreesMeasure()
     {
@@ -204,10 +204,10 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\LatitudeDegreesMeasure $latitudeDegreesMeasure
+     * @param \App\UBL\Common\CBC\LatitudeDegreesMeasure $latitudeDegreesMeasure
      * @return self
      */
-    public function setLatitudeDegreesMeasure(?\UBL\Common\CBC\LatitudeDegreesMeasure $latitudeDegreesMeasure = null)
+    public function setLatitudeDegreesMeasure(?\App\UBL\Common\CBC\LatitudeDegreesMeasure $latitudeDegreesMeasure = null)
     {
         $this->latitudeDegreesMeasure = $latitudeDegreesMeasure;
         return $this;
@@ -226,7 +226,7 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\LatitudeMinutesMeasure
+     * @return \App\UBL\Common\CBC\LatitudeMinutesMeasure
      */
     public function getLatitudeMinutesMeasure()
     {
@@ -246,10 +246,10 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\LatitudeMinutesMeasure $latitudeMinutesMeasure
+     * @param \App\UBL\Common\CBC\LatitudeMinutesMeasure $latitudeMinutesMeasure
      * @return self
      */
-    public function setLatitudeMinutesMeasure(?\UBL\Common\CBC\LatitudeMinutesMeasure $latitudeMinutesMeasure = null)
+    public function setLatitudeMinutesMeasure(?\App\UBL\Common\CBC\LatitudeMinutesMeasure $latitudeMinutesMeasure = null)
     {
         $this->latitudeMinutesMeasure = $latitudeMinutesMeasure;
         return $this;
@@ -268,7 +268,7 @@ class LocationCoordinateType
      *  Latitude Direction
      *  Latitude Direction_ Code. Type
      *
-     * @return \UBL\Common\CBC\LatitudeDirectionCode
+     * @return \App\UBL\Common\CBC\LatitudeDirectionCode
      */
     public function getLatitudeDirectionCode()
     {
@@ -288,10 +288,10 @@ class LocationCoordinateType
      *  Latitude Direction
      *  Latitude Direction_ Code. Type
      *
-     * @param \UBL\Common\CBC\LatitudeDirectionCode $latitudeDirectionCode
+     * @param \App\UBL\Common\CBC\LatitudeDirectionCode $latitudeDirectionCode
      * @return self
      */
-    public function setLatitudeDirectionCode(?\UBL\Common\CBC\LatitudeDirectionCode $latitudeDirectionCode = null)
+    public function setLatitudeDirectionCode(?\App\UBL\Common\CBC\LatitudeDirectionCode $latitudeDirectionCode = null)
     {
         $this->latitudeDirectionCode = $latitudeDirectionCode;
         return $this;
@@ -310,7 +310,7 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\LongitudeDegreesMeasure
+     * @return \App\UBL\Common\CBC\LongitudeDegreesMeasure
      */
     public function getLongitudeDegreesMeasure()
     {
@@ -330,10 +330,10 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\LongitudeDegreesMeasure $longitudeDegreesMeasure
+     * @param \App\UBL\Common\CBC\LongitudeDegreesMeasure $longitudeDegreesMeasure
      * @return self
      */
-    public function setLongitudeDegreesMeasure(?\UBL\Common\CBC\LongitudeDegreesMeasure $longitudeDegreesMeasure = null)
+    public function setLongitudeDegreesMeasure(?\App\UBL\Common\CBC\LongitudeDegreesMeasure $longitudeDegreesMeasure = null)
     {
         $this->longitudeDegreesMeasure = $longitudeDegreesMeasure;
         return $this;
@@ -352,7 +352,7 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\LongitudeMinutesMeasure
+     * @return \App\UBL\Common\CBC\LongitudeMinutesMeasure
      */
     public function getLongitudeMinutesMeasure()
     {
@@ -372,10 +372,10 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\LongitudeMinutesMeasure $longitudeMinutesMeasure
+     * @param \App\UBL\Common\CBC\LongitudeMinutesMeasure $longitudeMinutesMeasure
      * @return self
      */
-    public function setLongitudeMinutesMeasure(?\UBL\Common\CBC\LongitudeMinutesMeasure $longitudeMinutesMeasure = null)
+    public function setLongitudeMinutesMeasure(?\App\UBL\Common\CBC\LongitudeMinutesMeasure $longitudeMinutesMeasure = null)
     {
         $this->longitudeMinutesMeasure = $longitudeMinutesMeasure;
         return $this;
@@ -394,7 +394,7 @@ class LocationCoordinateType
      *  Longitude Direction
      *  Longitude Direction_ Code. Type
      *
-     * @return \UBL\Common\CBC\LongitudeDirectionCode
+     * @return \App\UBL\Common\CBC\LongitudeDirectionCode
      */
     public function getLongitudeDirectionCode()
     {
@@ -414,10 +414,10 @@ class LocationCoordinateType
      *  Longitude Direction
      *  Longitude Direction_ Code. Type
      *
-     * @param \UBL\Common\CBC\LongitudeDirectionCode $longitudeDirectionCode
+     * @param \App\UBL\Common\CBC\LongitudeDirectionCode $longitudeDirectionCode
      * @return self
      */
-    public function setLongitudeDirectionCode(?\UBL\Common\CBC\LongitudeDirectionCode $longitudeDirectionCode = null)
+    public function setLongitudeDirectionCode(?\App\UBL\Common\CBC\LongitudeDirectionCode $longitudeDirectionCode = null)
     {
         $this->longitudeDirectionCode = $longitudeDirectionCode;
         return $this;
@@ -435,7 +435,7 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\AltitudeMeasure
+     * @return \App\UBL\Common\CBC\AltitudeMeasure
      */
     public function getAltitudeMeasure()
     {
@@ -454,14 +454,13 @@ class LocationCoordinateType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\AltitudeMeasure $altitudeMeasure
+     * @param \App\UBL\Common\CBC\AltitudeMeasure $altitudeMeasure
      * @return self
      */
-    public function setAltitudeMeasure(?\UBL\Common\CBC\AltitudeMeasure $altitudeMeasure = null)
+    public function setAltitudeMeasure(?\App\UBL\Common\CBC\AltitudeMeasure $altitudeMeasure = null)
     {
         $this->altitudeMeasure = $altitudeMeasure;
         return $this;
     }
 }
-
 

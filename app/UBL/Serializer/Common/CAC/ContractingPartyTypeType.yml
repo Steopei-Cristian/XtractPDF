@@ -1,4 +1,4 @@
-UBL\Common\CAC\ContractingPartyTypeType:
+App\UBL\Common\CAC\ContractingPartyTypeType:
     properties:
         partyTypeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ContractingPartyTypeType:
             accessor:
                 getter: getPartyTypeCode
                 setter: setPartyTypeCode
-            type: UBL\Common\CBC\PartyTypeCode
+            type: App\UBL\Common\CBC\PartyTypeCode
         partyType:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ UBL\Common\CAC\ContractingPartyTypeType:
             accessor:
                 getter: getPartyType
                 setter: setPartyType
-            type: UBL\Common\CBC\PartyType
+            type: App\UBL\Common\CBC\PartyType

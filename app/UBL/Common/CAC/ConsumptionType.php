@@ -24,7 +24,7 @@ class ConsumptionType
      *  Code. Type
      *  Electricity
      *
-     * @var \UBL\Common\CBC\UtilityStatementTypeCode $utilityStatementTypeCode
+     * @var \App\UBL\Common\CBC\UtilityStatementTypeCode $utilityStatementTypeCode
      */
     private $utilityStatementTypeCode = null;
 
@@ -39,7 +39,7 @@ class ConsumptionType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\MainPeriod $mainPeriod
+     * @var \App\UBL\Common\CAC\MainPeriod $mainPeriod
      */
     private $mainPeriod = null;
 
@@ -53,7 +53,7 @@ class ConsumptionType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @var \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      */
     private $allowanceCharge = [
         
@@ -69,7 +69,7 @@ class ConsumptionType
      *  Tax Total
      *  Tax Total
      *
-     * @var \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @var \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      */
     private $taxTotal = [
         
@@ -85,7 +85,7 @@ class ConsumptionType
      *  Energy Water Supply
      *  Energy Water Supply
      *
-     * @var \UBL\Common\CAC\EnergyWaterSupply $energyWaterSupply
+     * @var \App\UBL\Common\CAC\EnergyWaterSupply $energyWaterSupply
      */
     private $energyWaterSupply = null;
 
@@ -99,7 +99,7 @@ class ConsumptionType
      *  Telecommunications Supply
      *  Telecommunications Supply
      *
-     * @var \UBL\Common\CAC\TelecommunicationsSupply $telecommunicationsSupply
+     * @var \App\UBL\Common\CAC\TelecommunicationsSupply $telecommunicationsSupply
      */
     private $telecommunicationsSupply = null;
 
@@ -114,7 +114,7 @@ class ConsumptionType
      *  Monetary Total
      *  Monetary Total
      *
-     * @var \UBL\Common\CAC\LegalMonetaryTotal $legalMonetaryTotal
+     * @var \App\UBL\Common\CAC\LegalMonetaryTotal $legalMonetaryTotal
      */
     private $legalMonetaryTotal = null;
 
@@ -131,7 +131,7 @@ class ConsumptionType
      *  Code. Type
      *  Electricity
      *
-     * @return \UBL\Common\CBC\UtilityStatementTypeCode
+     * @return \App\UBL\Common\CBC\UtilityStatementTypeCode
      */
     public function getUtilityStatementTypeCode()
     {
@@ -151,10 +151,10 @@ class ConsumptionType
      *  Code. Type
      *  Electricity
      *
-     * @param \UBL\Common\CBC\UtilityStatementTypeCode $utilityStatementTypeCode
+     * @param \App\UBL\Common\CBC\UtilityStatementTypeCode $utilityStatementTypeCode
      * @return self
      */
-    public function setUtilityStatementTypeCode(?\UBL\Common\CBC\UtilityStatementTypeCode $utilityStatementTypeCode = null)
+    public function setUtilityStatementTypeCode(?\App\UBL\Common\CBC\UtilityStatementTypeCode $utilityStatementTypeCode = null)
     {
         $this->utilityStatementTypeCode = $utilityStatementTypeCode;
         return $this;
@@ -173,7 +173,7 @@ class ConsumptionType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\MainPeriod
+     * @return \App\UBL\Common\CAC\MainPeriod
      */
     public function getMainPeriod()
     {
@@ -193,10 +193,10 @@ class ConsumptionType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\MainPeriod $mainPeriod
+     * @param \App\UBL\Common\CAC\MainPeriod $mainPeriod
      * @return self
      */
-    public function setMainPeriod(?\UBL\Common\CAC\MainPeriod $mainPeriod = null)
+    public function setMainPeriod(?\App\UBL\Common\CAC\MainPeriod $mainPeriod = null)
     {
         $this->mainPeriod = $mainPeriod;
         return $this;
@@ -215,9 +215,9 @@ class ConsumptionType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\AllowanceCharge $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge $allowanceCharge
      */
-    public function addToAllowanceCharge(\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
+    public function addToAllowanceCharge(\App\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
     {
         $this->allowanceCharge[] = $allowanceCharge;
         return $this;
@@ -275,7 +275,7 @@ class ConsumptionType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\AllowanceCharge[]
+     * @return \App\UBL\Common\CAC\AllowanceCharge[]
      */
     public function getAllowanceCharge()
     {
@@ -294,7 +294,7 @@ class ConsumptionType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      * @return self
      */
     public function setAllowanceCharge(?array $allowanceCharge = null)
@@ -316,9 +316,9 @@ class ConsumptionType
      *  Tax Total
      *
      * @return self
-     * @param \UBL\Common\CAC\TaxTotal $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal $taxTotal
      */
-    public function addToTaxTotal(\UBL\Common\CAC\TaxTotal $taxTotal)
+    public function addToTaxTotal(\App\UBL\Common\CAC\TaxTotal $taxTotal)
     {
         $this->taxTotal[] = $taxTotal;
         return $this;
@@ -376,7 +376,7 @@ class ConsumptionType
      *  Tax Total
      *  Tax Total
      *
-     * @return \UBL\Common\CAC\TaxTotal[]
+     * @return \App\UBL\Common\CAC\TaxTotal[]
      */
     public function getTaxTotal()
     {
@@ -395,7 +395,7 @@ class ConsumptionType
      *  Tax Total
      *  Tax Total
      *
-     * @param \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      * @return self
      */
     public function setTaxTotal(?array $taxTotal = null)
@@ -416,7 +416,7 @@ class ConsumptionType
      *  Energy Water Supply
      *  Energy Water Supply
      *
-     * @return \UBL\Common\CAC\EnergyWaterSupply
+     * @return \App\UBL\Common\CAC\EnergyWaterSupply
      */
     public function getEnergyWaterSupply()
     {
@@ -435,10 +435,10 @@ class ConsumptionType
      *  Energy Water Supply
      *  Energy Water Supply
      *
-     * @param \UBL\Common\CAC\EnergyWaterSupply $energyWaterSupply
+     * @param \App\UBL\Common\CAC\EnergyWaterSupply $energyWaterSupply
      * @return self
      */
-    public function setEnergyWaterSupply(?\UBL\Common\CAC\EnergyWaterSupply $energyWaterSupply = null)
+    public function setEnergyWaterSupply(?\App\UBL\Common\CAC\EnergyWaterSupply $energyWaterSupply = null)
     {
         $this->energyWaterSupply = $energyWaterSupply;
         return $this;
@@ -456,7 +456,7 @@ class ConsumptionType
      *  Telecommunications Supply
      *  Telecommunications Supply
      *
-     * @return \UBL\Common\CAC\TelecommunicationsSupply
+     * @return \App\UBL\Common\CAC\TelecommunicationsSupply
      */
     public function getTelecommunicationsSupply()
     {
@@ -475,10 +475,10 @@ class ConsumptionType
      *  Telecommunications Supply
      *  Telecommunications Supply
      *
-     * @param \UBL\Common\CAC\TelecommunicationsSupply $telecommunicationsSupply
+     * @param \App\UBL\Common\CAC\TelecommunicationsSupply $telecommunicationsSupply
      * @return self
      */
-    public function setTelecommunicationsSupply(?\UBL\Common\CAC\TelecommunicationsSupply $telecommunicationsSupply = null)
+    public function setTelecommunicationsSupply(?\App\UBL\Common\CAC\TelecommunicationsSupply $telecommunicationsSupply = null)
     {
         $this->telecommunicationsSupply = $telecommunicationsSupply;
         return $this;
@@ -497,7 +497,7 @@ class ConsumptionType
      *  Monetary Total
      *  Monetary Total
      *
-     * @return \UBL\Common\CAC\LegalMonetaryTotal
+     * @return \App\UBL\Common\CAC\LegalMonetaryTotal
      */
     public function getLegalMonetaryTotal()
     {
@@ -517,14 +517,13 @@ class ConsumptionType
      *  Monetary Total
      *  Monetary Total
      *
-     * @param \UBL\Common\CAC\LegalMonetaryTotal $legalMonetaryTotal
+     * @param \App\UBL\Common\CAC\LegalMonetaryTotal $legalMonetaryTotal
      * @return self
      */
-    public function setLegalMonetaryTotal(\UBL\Common\CAC\LegalMonetaryTotal $legalMonetaryTotal)
+    public function setLegalMonetaryTotal(\App\UBL\Common\CAC\LegalMonetaryTotal $legalMonetaryTotal)
     {
         $this->legalMonetaryTotal = $legalMonetaryTotal;
         return $this;
     }
 }
-
 

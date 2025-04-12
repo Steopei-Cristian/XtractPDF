@@ -1,4 +1,4 @@
-UBL\Common\CAC\TaxTotalType:
+App\UBL\Common\CAC\TaxTotalType:
     properties:
         taxAmount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TaxTotalType:
             accessor:
                 getter: getTaxAmount
                 setter: setTaxAmount
-            type: UBL\Common\CBC\TaxAmount
+            type: App\UBL\Common\CBC\TaxAmount
         roundingAmount:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TaxTotalType:
             accessor:
                 getter: getRoundingAmount
                 setter: setRoundingAmount
-            type: UBL\Common\CBC\RoundingAmount
+            type: App\UBL\Common\CBC\RoundingAmount
         taxEvidenceIndicator:
             expose: true
             access_type: public_method
@@ -53,4 +53,4 @@ UBL\Common\CAC\TaxTotalType:
                 inline: true
                 entry_name: TaxSubtotal
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TaxSubtotal>
+            type: array<App\UBL\Common\CAC\TaxSubtotal>

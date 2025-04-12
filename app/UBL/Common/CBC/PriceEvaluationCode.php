@@ -9,4 +9,3 @@ class PriceEvaluationCode extends PriceEvaluationCodeType
 {
 }
 
-

@@ -23,7 +23,7 @@ class ExceptionNotificationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class ExceptionNotificationLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -53,7 +53,7 @@ class ExceptionNotificationLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -69,7 +69,7 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ExceptionStatusCode $exceptionStatusCode
+     * @var \App\UBL\Common\CBC\ExceptionStatusCode $exceptionStatusCode
      */
     private $exceptionStatusCode = null;
 
@@ -84,7 +84,7 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\CollaborationPriorityCode $collaborationPriorityCode
+     * @var \App\UBL\Common\CBC\CollaborationPriorityCode $collaborationPriorityCode
      */
     private $collaborationPriorityCode = null;
 
@@ -98,7 +98,7 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ResolutionCode $resolutionCode
+     * @var \App\UBL\Common\CBC\ResolutionCode $resolutionCode
      */
     private $resolutionCode = null;
 
@@ -112,7 +112,7 @@ class ExceptionNotificationLineType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\ComparedValueMeasure $comparedValueMeasure
+     * @var \App\UBL\Common\CBC\ComparedValueMeasure $comparedValueMeasure
      */
     private $comparedValueMeasure = null;
 
@@ -126,7 +126,7 @@ class ExceptionNotificationLineType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\SourceValueMeasure $sourceValueMeasure
+     * @var \App\UBL\Common\CBC\SourceValueMeasure $sourceValueMeasure
      */
     private $sourceValueMeasure = null;
 
@@ -140,7 +140,7 @@ class ExceptionNotificationLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\VarianceQuantity $varianceQuantity
+     * @var \App\UBL\Common\CBC\VarianceQuantity $varianceQuantity
      */
     private $varianceQuantity = null;
 
@@ -154,7 +154,7 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
+     * @var \App\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
      */
     private $supplyChainActivityTypeCode = null;
 
@@ -168,7 +168,7 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
+     * @var \App\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
      */
     private $performanceMetricTypeCode = null;
 
@@ -183,7 +183,7 @@ class ExceptionNotificationLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ExceptionObservationPeriod $exceptionObservationPeriod
+     * @var \App\UBL\Common\CAC\ExceptionObservationPeriod $exceptionObservationPeriod
      */
     private $exceptionObservationPeriod = null;
 
@@ -197,7 +197,7 @@ class ExceptionNotificationLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -213,7 +213,7 @@ class ExceptionNotificationLineType
      *  Forecast Exception
      *  Forecast Exception
      *
-     * @var \UBL\Common\CAC\ForecastException $forecastException
+     * @var \App\UBL\Common\CAC\ForecastException $forecastException
      */
     private $forecastException = null;
 
@@ -228,7 +228,7 @@ class ExceptionNotificationLineType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\SupplyItem $supplyItem
+     * @var \App\UBL\Common\CAC\SupplyItem $supplyItem
      */
     private $supplyItem = null;
 
@@ -244,7 +244,7 @@ class ExceptionNotificationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -263,10 +263,10 @@ class ExceptionNotificationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -285,9 +285,9 @@ class ExceptionNotificationLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -345,7 +345,7 @@ class ExceptionNotificationLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -364,7 +364,7 @@ class ExceptionNotificationLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -386,9 +386,9 @@ class ExceptionNotificationLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -446,7 +446,7 @@ class ExceptionNotificationLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -465,7 +465,7 @@ class ExceptionNotificationLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -486,7 +486,7 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ExceptionStatusCode
+     * @return \App\UBL\Common\CBC\ExceptionStatusCode
      */
     public function getExceptionStatusCode()
     {
@@ -505,10 +505,10 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ExceptionStatusCode $exceptionStatusCode
+     * @param \App\UBL\Common\CBC\ExceptionStatusCode $exceptionStatusCode
      * @return self
      */
-    public function setExceptionStatusCode(?\UBL\Common\CBC\ExceptionStatusCode $exceptionStatusCode = null)
+    public function setExceptionStatusCode(?\App\UBL\Common\CBC\ExceptionStatusCode $exceptionStatusCode = null)
     {
         $this->exceptionStatusCode = $exceptionStatusCode;
         return $this;
@@ -527,7 +527,7 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\CollaborationPriorityCode
+     * @return \App\UBL\Common\CBC\CollaborationPriorityCode
      */
     public function getCollaborationPriorityCode()
     {
@@ -547,10 +547,10 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\CollaborationPriorityCode $collaborationPriorityCode
+     * @param \App\UBL\Common\CBC\CollaborationPriorityCode $collaborationPriorityCode
      * @return self
      */
-    public function setCollaborationPriorityCode(?\UBL\Common\CBC\CollaborationPriorityCode $collaborationPriorityCode = null)
+    public function setCollaborationPriorityCode(?\App\UBL\Common\CBC\CollaborationPriorityCode $collaborationPriorityCode = null)
     {
         $this->collaborationPriorityCode = $collaborationPriorityCode;
         return $this;
@@ -568,7 +568,7 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ResolutionCode
+     * @return \App\UBL\Common\CBC\ResolutionCode
      */
     public function getResolutionCode()
     {
@@ -587,10 +587,10 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ResolutionCode $resolutionCode
+     * @param \App\UBL\Common\CBC\ResolutionCode $resolutionCode
      * @return self
      */
-    public function setResolutionCode(?\UBL\Common\CBC\ResolutionCode $resolutionCode = null)
+    public function setResolutionCode(?\App\UBL\Common\CBC\ResolutionCode $resolutionCode = null)
     {
         $this->resolutionCode = $resolutionCode;
         return $this;
@@ -608,7 +608,7 @@ class ExceptionNotificationLineType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\ComparedValueMeasure
+     * @return \App\UBL\Common\CBC\ComparedValueMeasure
      */
     public function getComparedValueMeasure()
     {
@@ -627,10 +627,10 @@ class ExceptionNotificationLineType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\ComparedValueMeasure $comparedValueMeasure
+     * @param \App\UBL\Common\CBC\ComparedValueMeasure $comparedValueMeasure
      * @return self
      */
-    public function setComparedValueMeasure(\UBL\Common\CBC\ComparedValueMeasure $comparedValueMeasure)
+    public function setComparedValueMeasure(\App\UBL\Common\CBC\ComparedValueMeasure $comparedValueMeasure)
     {
         $this->comparedValueMeasure = $comparedValueMeasure;
         return $this;
@@ -648,7 +648,7 @@ class ExceptionNotificationLineType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\SourceValueMeasure
+     * @return \App\UBL\Common\CBC\SourceValueMeasure
      */
     public function getSourceValueMeasure()
     {
@@ -667,10 +667,10 @@ class ExceptionNotificationLineType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\SourceValueMeasure $sourceValueMeasure
+     * @param \App\UBL\Common\CBC\SourceValueMeasure $sourceValueMeasure
      * @return self
      */
-    public function setSourceValueMeasure(\UBL\Common\CBC\SourceValueMeasure $sourceValueMeasure)
+    public function setSourceValueMeasure(\App\UBL\Common\CBC\SourceValueMeasure $sourceValueMeasure)
     {
         $this->sourceValueMeasure = $sourceValueMeasure;
         return $this;
@@ -688,7 +688,7 @@ class ExceptionNotificationLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\VarianceQuantity
+     * @return \App\UBL\Common\CBC\VarianceQuantity
      */
     public function getVarianceQuantity()
     {
@@ -707,10 +707,10 @@ class ExceptionNotificationLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\VarianceQuantity $varianceQuantity
+     * @param \App\UBL\Common\CBC\VarianceQuantity $varianceQuantity
      * @return self
      */
-    public function setVarianceQuantity(?\UBL\Common\CBC\VarianceQuantity $varianceQuantity = null)
+    public function setVarianceQuantity(?\App\UBL\Common\CBC\VarianceQuantity $varianceQuantity = null)
     {
         $this->varianceQuantity = $varianceQuantity;
         return $this;
@@ -728,7 +728,7 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\SupplyChainActivityTypeCode
+     * @return \App\UBL\Common\CBC\SupplyChainActivityTypeCode
      */
     public function getSupplyChainActivityTypeCode()
     {
@@ -747,10 +747,10 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
+     * @param \App\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
      * @return self
      */
-    public function setSupplyChainActivityTypeCode(?\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode = null)
+    public function setSupplyChainActivityTypeCode(?\App\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode = null)
     {
         $this->supplyChainActivityTypeCode = $supplyChainActivityTypeCode;
         return $this;
@@ -768,7 +768,7 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PerformanceMetricTypeCode
+     * @return \App\UBL\Common\CBC\PerformanceMetricTypeCode
      */
     public function getPerformanceMetricTypeCode()
     {
@@ -787,10 +787,10 @@ class ExceptionNotificationLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
+     * @param \App\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
      * @return self
      */
-    public function setPerformanceMetricTypeCode(?\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode = null)
+    public function setPerformanceMetricTypeCode(?\App\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode = null)
     {
         $this->performanceMetricTypeCode = $performanceMetricTypeCode;
         return $this;
@@ -809,7 +809,7 @@ class ExceptionNotificationLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ExceptionObservationPeriod
+     * @return \App\UBL\Common\CAC\ExceptionObservationPeriod
      */
     public function getExceptionObservationPeriod()
     {
@@ -829,10 +829,10 @@ class ExceptionNotificationLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ExceptionObservationPeriod $exceptionObservationPeriod
+     * @param \App\UBL\Common\CAC\ExceptionObservationPeriod $exceptionObservationPeriod
      * @return self
      */
-    public function setExceptionObservationPeriod(?\UBL\Common\CAC\ExceptionObservationPeriod $exceptionObservationPeriod = null)
+    public function setExceptionObservationPeriod(?\App\UBL\Common\CAC\ExceptionObservationPeriod $exceptionObservationPeriod = null)
     {
         $this->exceptionObservationPeriod = $exceptionObservationPeriod;
         return $this;
@@ -851,9 +851,9 @@ class ExceptionNotificationLineType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -911,7 +911,7 @@ class ExceptionNotificationLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -930,7 +930,7 @@ class ExceptionNotificationLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -951,7 +951,7 @@ class ExceptionNotificationLineType
      *  Forecast Exception
      *  Forecast Exception
      *
-     * @return \UBL\Common\CAC\ForecastException
+     * @return \App\UBL\Common\CAC\ForecastException
      */
     public function getForecastException()
     {
@@ -970,10 +970,10 @@ class ExceptionNotificationLineType
      *  Forecast Exception
      *  Forecast Exception
      *
-     * @param \UBL\Common\CAC\ForecastException $forecastException
+     * @param \App\UBL\Common\CAC\ForecastException $forecastException
      * @return self
      */
-    public function setForecastException(?\UBL\Common\CAC\ForecastException $forecastException = null)
+    public function setForecastException(?\App\UBL\Common\CAC\ForecastException $forecastException = null)
     {
         $this->forecastException = $forecastException;
         return $this;
@@ -992,7 +992,7 @@ class ExceptionNotificationLineType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\SupplyItem
+     * @return \App\UBL\Common\CAC\SupplyItem
      */
     public function getSupplyItem()
     {
@@ -1012,14 +1012,13 @@ class ExceptionNotificationLineType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\SupplyItem $supplyItem
+     * @param \App\UBL\Common\CAC\SupplyItem $supplyItem
      * @return self
      */
-    public function setSupplyItem(\UBL\Common\CAC\SupplyItem $supplyItem)
+    public function setSupplyItem(\App\UBL\Common\CAC\SupplyItem $supplyItem)
     {
         $this->supplyItem = $supplyItem;
         return $this;
     }
 }
-
 

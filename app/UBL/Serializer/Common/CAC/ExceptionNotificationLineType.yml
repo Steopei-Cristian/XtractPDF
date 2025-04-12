@@ -1,4 +1,4 @@
-UBL\Common\CAC\ExceptionNotificationLineType:
+App\UBL\Common\CAC\ExceptionNotificationLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         note:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         description:
             expose: true
             access_type: public_method
@@ -37,7 +37,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         exceptionStatusCode:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
             accessor:
                 getter: getExceptionStatusCode
                 setter: setExceptionStatusCode
-            type: UBL\Common\CBC\ExceptionStatusCode
+            type: App\UBL\Common\CBC\ExceptionStatusCode
         collaborationPriorityCode:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
             accessor:
                 getter: getCollaborationPriorityCode
                 setter: setCollaborationPriorityCode
-            type: UBL\Common\CBC\CollaborationPriorityCode
+            type: App\UBL\Common\CBC\CollaborationPriorityCode
         resolutionCode:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
             accessor:
                 getter: getResolutionCode
                 setter: setResolutionCode
-            type: UBL\Common\CBC\ResolutionCode
+            type: App\UBL\Common\CBC\ResolutionCode
         comparedValueMeasure:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
             accessor:
                 getter: getComparedValueMeasure
                 setter: setComparedValueMeasure
-            type: UBL\Common\CBC\ComparedValueMeasure
+            type: App\UBL\Common\CBC\ComparedValueMeasure
         sourceValueMeasure:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
             accessor:
                 getter: getSourceValueMeasure
                 setter: setSourceValueMeasure
-            type: UBL\Common\CBC\SourceValueMeasure
+            type: App\UBL\Common\CBC\SourceValueMeasure
         varianceQuantity:
             expose: true
             access_type: public_method
@@ -97,7 +97,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
             accessor:
                 getter: getVarianceQuantity
                 setter: setVarianceQuantity
-            type: UBL\Common\CBC\VarianceQuantity
+            type: App\UBL\Common\CBC\VarianceQuantity
         supplyChainActivityTypeCode:
             expose: true
             access_type: public_method
@@ -107,7 +107,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
             accessor:
                 getter: getSupplyChainActivityTypeCode
                 setter: setSupplyChainActivityTypeCode
-            type: UBL\Common\CBC\SupplyChainActivityTypeCode
+            type: App\UBL\Common\CBC\SupplyChainActivityTypeCode
         performanceMetricTypeCode:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
             accessor:
                 getter: getPerformanceMetricTypeCode
                 setter: setPerformanceMetricTypeCode
-            type: UBL\Common\CBC\PerformanceMetricTypeCode
+            type: App\UBL\Common\CBC\PerformanceMetricTypeCode
         exceptionObservationPeriod:
             expose: true
             access_type: public_method
@@ -127,7 +127,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
             accessor:
                 getter: getExceptionObservationPeriod
                 setter: setExceptionObservationPeriod
-            type: UBL\Common\CAC\ExceptionObservationPeriod
+            type: App\UBL\Common\CAC\ExceptionObservationPeriod
         documentReference:
             expose: true
             access_type: public_method
@@ -141,7 +141,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>
         forecastException:
             expose: true
             access_type: public_method
@@ -151,7 +151,7 @@ UBL\Common\CAC\ExceptionNotificationLineType:
             accessor:
                 getter: getForecastException
                 setter: setForecastException
-            type: UBL\Common\CAC\ForecastException
+            type: App\UBL\Common\CAC\ForecastException
         supplyItem:
             expose: true
             access_type: public_method
@@ -161,4 +161,4 @@ UBL\Common\CAC\ExceptionNotificationLineType:
             accessor:
                 getter: getSupplyItem
                 setter: setSupplyItem
-            type: UBL\Common\CAC\SupplyItem
+            type: App\UBL\Common\CAC\SupplyItem

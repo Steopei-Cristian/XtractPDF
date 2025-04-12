@@ -9,4 +9,3 @@ class ReferencedGoodsItem extends GoodsItemType
 {
 }
 
-

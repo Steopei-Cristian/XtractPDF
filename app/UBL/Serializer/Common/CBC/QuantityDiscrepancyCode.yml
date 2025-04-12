@@ -1,3 +1,3 @@
-UBL\Common\CBC\QuantityDiscrepancyCode:
+App\UBL\Common\CBC\QuantityDiscrepancyCode:
     xml_root_name: QuantityDiscrepancyCode
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

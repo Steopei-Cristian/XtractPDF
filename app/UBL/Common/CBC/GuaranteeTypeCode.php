@@ -9,4 +9,3 @@ class GuaranteeTypeCode extends GuaranteeTypeCodeType
 {
 }
 
-

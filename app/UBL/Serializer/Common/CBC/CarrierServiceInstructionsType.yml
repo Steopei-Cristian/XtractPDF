@@ -1,2 +1,2 @@
-UBL\Common\CBC\CarrierServiceInstructionsType:
+App\UBL\Common\CBC\CarrierServiceInstructionsType:
     properties: {  }

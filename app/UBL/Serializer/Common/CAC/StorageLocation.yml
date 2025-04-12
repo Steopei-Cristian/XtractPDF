@@ -1,3 +1,3 @@
-UBL\Common\CAC\StorageLocation:
+App\UBL\Common\CAC\StorageLocation:
     xml_root_name: StorageLocation
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

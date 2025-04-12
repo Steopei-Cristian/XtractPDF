@@ -9,4 +9,3 @@ class AgencyName extends AgencyNameType
 {
 }
 
-

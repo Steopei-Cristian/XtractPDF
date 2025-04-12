@@ -9,4 +9,3 @@ class TendererParty extends PartyType
 {
 }
 
-

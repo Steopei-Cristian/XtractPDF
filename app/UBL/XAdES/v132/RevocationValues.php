@@ -9,4 +9,3 @@ class RevocationValues extends RevocationValuesType
 {
 }
 
-

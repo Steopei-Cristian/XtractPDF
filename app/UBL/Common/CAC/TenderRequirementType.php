@@ -23,7 +23,7 @@ class TenderRequirementType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -37,7 +37,7 @@ class TenderRequirementType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -54,7 +54,7 @@ class TenderRequirementType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\TemplateDocumentReference $templateDocumentReference
+     * @var \App\UBL\Common\CAC\TemplateDocumentReference $templateDocumentReference
      */
     private $templateDocumentReference = null;
 
@@ -70,7 +70,7 @@ class TenderRequirementType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -89,10 +89,10 @@ class TenderRequirementType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(\UBL\Common\CBC\Name $name)
+    public function setName(\App\UBL\Common\CBC\Name $name)
     {
         $this->name = $name;
         return $this;
@@ -111,9 +111,9 @@ class TenderRequirementType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -171,7 +171,7 @@ class TenderRequirementType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -190,7 +190,7 @@ class TenderRequirementType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -212,7 +212,7 @@ class TenderRequirementType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\TemplateDocumentReference
+     * @return \App\UBL\Common\CAC\TemplateDocumentReference
      */
     public function getTemplateDocumentReference()
     {
@@ -232,14 +232,13 @@ class TenderRequirementType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\TemplateDocumentReference $templateDocumentReference
+     * @param \App\UBL\Common\CAC\TemplateDocumentReference $templateDocumentReference
      * @return self
      */
-    public function setTemplateDocumentReference(?\UBL\Common\CAC\TemplateDocumentReference $templateDocumentReference = null)
+    public function setTemplateDocumentReference(?\App\UBL\Common\CAC\TemplateDocumentReference $templateDocumentReference = null)
     {
         $this->templateDocumentReference = $templateDocumentReference;
         return $this;
     }
 }
-
 

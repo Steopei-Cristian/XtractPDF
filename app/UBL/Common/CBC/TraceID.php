@@ -9,4 +9,3 @@ class TraceID extends TraceIDType
 {
 }
 
-

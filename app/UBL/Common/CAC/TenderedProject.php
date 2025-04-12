@@ -9,4 +9,3 @@ class TenderedProject extends TenderedProjectType
 {
 }
 
-

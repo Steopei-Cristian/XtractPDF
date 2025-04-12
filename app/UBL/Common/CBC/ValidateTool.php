@@ -9,4 +9,3 @@ class ValidateTool extends ValidateToolType
 {
 }
 
-

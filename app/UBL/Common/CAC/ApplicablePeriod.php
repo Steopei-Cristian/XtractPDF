@@ -9,4 +9,3 @@ class ApplicablePeriod extends PeriodType
 {
 }
 
-

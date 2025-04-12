@@ -23,7 +23,7 @@ class TenderingProcessType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class TenderingProcessType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\OriginalContractingSystemID $originalContractingSystemID
+     * @var \App\UBL\Common\CBC\OriginalContractingSystemID $originalContractingSystemID
      */
     private $originalContractingSystemID = null;
 
@@ -52,7 +52,7 @@ class TenderingProcessType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -69,7 +69,7 @@ class TenderingProcessType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\NegotiationDescription[] $negotiationDescription
+     * @var \App\UBL\Common\CBC\NegotiationDescription[] $negotiationDescription
      */
     private $negotiationDescription = [
         
@@ -86,7 +86,7 @@ class TenderingProcessType
      *  Code. Type
      *  Open, Restricted, Negotiated
      *
-     * @var \UBL\Common\CBC\ProcedureCode $procedureCode
+     * @var \App\UBL\Common\CBC\ProcedureCode $procedureCode
      */
     private $procedureCode = null;
 
@@ -101,7 +101,7 @@ class TenderingProcessType
      *  Code. Type
      *  Urgent, Normal, Emergency
      *
-     * @var \UBL\Common\CBC\UrgencyCode $urgencyCode
+     * @var \App\UBL\Common\CBC\UrgencyCode $urgencyCode
      */
     private $urgencyCode = null;
 
@@ -116,7 +116,7 @@ class TenderingProcessType
      *  Code. Type
      *  Normal, Anticipated
      *
-     * @var \UBL\Common\CBC\ExpenseCode $expenseCode
+     * @var \App\UBL\Common\CBC\ExpenseCode $expenseCode
      */
     private $expenseCode = null;
 
@@ -131,7 +131,7 @@ class TenderingProcessType
      *  Code. Type
      *  One Lot, Multiple Lots, All Lots
      *
-     * @var \UBL\Common\CBC\PartPresentationCode $partPresentationCode
+     * @var \App\UBL\Common\CBC\PartPresentationCode $partPresentationCode
      */
     private $partPresentationCode = null;
 
@@ -146,7 +146,7 @@ class TenderingProcessType
      *  Code. Type
      *  Framework Agreement, Dynamic Purchasing System
      *
-     * @var \UBL\Common\CBC\ContractingSystemCode $contractingSystemCode
+     * @var \App\UBL\Common\CBC\ContractingSystemCode $contractingSystemCode
      */
     private $contractingSystemCode = null;
 
@@ -161,7 +161,7 @@ class TenderingProcessType
      *  Code. Type
      *  Manual, Electronically, etc.
      *
-     * @var \UBL\Common\CBC\SubmissionMethodCode $submissionMethodCode
+     * @var \App\UBL\Common\CBC\SubmissionMethodCode $submissionMethodCode
      */
     private $submissionMethodCode = null;
 
@@ -206,7 +206,7 @@ class TenderingProcessType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\DocumentAvailabilityPeriod $documentAvailabilityPeriod
+     * @var \App\UBL\Common\CAC\DocumentAvailabilityPeriod $documentAvailabilityPeriod
      */
     private $documentAvailabilityPeriod = null;
 
@@ -221,7 +221,7 @@ class TenderingProcessType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\TenderSubmissionDeadlinePeriod $tenderSubmissionDeadlinePeriod
+     * @var \App\UBL\Common\CAC\TenderSubmissionDeadlinePeriod $tenderSubmissionDeadlinePeriod
      */
     private $tenderSubmissionDeadlinePeriod = null;
 
@@ -236,7 +236,7 @@ class TenderingProcessType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\InvitationSubmissionPeriod $invitationSubmissionPeriod
+     * @var \App\UBL\Common\CAC\InvitationSubmissionPeriod $invitationSubmissionPeriod
      */
     private $invitationSubmissionPeriod = null;
 
@@ -251,7 +251,7 @@ class TenderingProcessType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ParticipationRequestReceptionPeriod $participationRequestReceptionPeriod
+     * @var \App\UBL\Common\CAC\ParticipationRequestReceptionPeriod $participationRequestReceptionPeriod
      */
     private $participationRequestReceptionPeriod = null;
 
@@ -266,7 +266,7 @@ class TenderingProcessType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\NoticeDocumentReference[] $noticeDocumentReference
+     * @var \App\UBL\Common\CAC\NoticeDocumentReference[] $noticeDocumentReference
      */
     private $noticeDocumentReference = [
         
@@ -283,7 +283,7 @@ class TenderingProcessType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\AdditionalDocumentReference[] $additionalDocumentReference
+     * @var \App\UBL\Common\CAC\AdditionalDocumentReference[] $additionalDocumentReference
      */
     private $additionalDocumentReference = [
         
@@ -299,7 +299,7 @@ class TenderingProcessType
      *  Process Justification
      *  Process Justification
      *
-     * @var \UBL\Common\CAC\ProcessJustification[] $processJustification
+     * @var \App\UBL\Common\CAC\ProcessJustification[] $processJustification
      */
     private $processJustification = [
         
@@ -315,7 +315,7 @@ class TenderingProcessType
      *  Economic Operator Short List
      *  Economic Operator Short List
      *
-     * @var \UBL\Common\CAC\EconomicOperatorShortList $economicOperatorShortList
+     * @var \App\UBL\Common\CAC\EconomicOperatorShortList $economicOperatorShortList
      */
     private $economicOperatorShortList = null;
 
@@ -330,7 +330,7 @@ class TenderingProcessType
      *  Event
      *  Event
      *
-     * @var \UBL\Common\CAC\OpenTenderEvent[] $openTenderEvent
+     * @var \App\UBL\Common\CAC\OpenTenderEvent[] $openTenderEvent
      */
     private $openTenderEvent = [
         
@@ -346,7 +346,7 @@ class TenderingProcessType
      *  Auction Terms
      *  Auction Terms
      *
-     * @var \UBL\Common\CAC\AuctionTerms $auctionTerms
+     * @var \App\UBL\Common\CAC\AuctionTerms $auctionTerms
      */
     private $auctionTerms = null;
 
@@ -360,7 +360,7 @@ class TenderingProcessType
      *  Framework Agreement
      *  Framework Agreement
      *
-     * @var \UBL\Common\CAC\FrameworkAgreement $frameworkAgreement
+     * @var \App\UBL\Common\CAC\FrameworkAgreement $frameworkAgreement
      */
     private $frameworkAgreement = null;
 
@@ -376,7 +376,7 @@ class TenderingProcessType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -395,10 +395,10 @@ class TenderingProcessType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -417,7 +417,7 @@ class TenderingProcessType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\OriginalContractingSystemID
+     * @return \App\UBL\Common\CBC\OriginalContractingSystemID
      */
     public function getOriginalContractingSystemID()
     {
@@ -437,10 +437,10 @@ class TenderingProcessType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\OriginalContractingSystemID $originalContractingSystemID
+     * @param \App\UBL\Common\CBC\OriginalContractingSystemID $originalContractingSystemID
      * @return self
      */
-    public function setOriginalContractingSystemID(?\UBL\Common\CBC\OriginalContractingSystemID $originalContractingSystemID = null)
+    public function setOriginalContractingSystemID(?\App\UBL\Common\CBC\OriginalContractingSystemID $originalContractingSystemID = null)
     {
         $this->originalContractingSystemID = $originalContractingSystemID;
         return $this;
@@ -459,9 +459,9 @@ class TenderingProcessType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -519,7 +519,7 @@ class TenderingProcessType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -538,7 +538,7 @@ class TenderingProcessType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -561,9 +561,9 @@ class TenderingProcessType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\NegotiationDescription $negotiationDescription
+     * @param \App\UBL\Common\CBC\NegotiationDescription $negotiationDescription
      */
-    public function addToNegotiationDescription(\UBL\Common\CBC\NegotiationDescription $negotiationDescription)
+    public function addToNegotiationDescription(\App\UBL\Common\CBC\NegotiationDescription $negotiationDescription)
     {
         $this->negotiationDescription[] = $negotiationDescription;
         return $this;
@@ -624,7 +624,7 @@ class TenderingProcessType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\NegotiationDescription[]
+     * @return \App\UBL\Common\CBC\NegotiationDescription[]
      */
     public function getNegotiationDescription()
     {
@@ -644,7 +644,7 @@ class TenderingProcessType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\NegotiationDescription[] $negotiationDescription
+     * @param \App\UBL\Common\CBC\NegotiationDescription[] $negotiationDescription
      * @return self
      */
     public function setNegotiationDescription(?array $negotiationDescription = null)
@@ -666,7 +666,7 @@ class TenderingProcessType
      *  Code. Type
      *  Open, Restricted, Negotiated
      *
-     * @return \UBL\Common\CBC\ProcedureCode
+     * @return \App\UBL\Common\CBC\ProcedureCode
      */
     public function getProcedureCode()
     {
@@ -686,10 +686,10 @@ class TenderingProcessType
      *  Code. Type
      *  Open, Restricted, Negotiated
      *
-     * @param \UBL\Common\CBC\ProcedureCode $procedureCode
+     * @param \App\UBL\Common\CBC\ProcedureCode $procedureCode
      * @return self
      */
-    public function setProcedureCode(?\UBL\Common\CBC\ProcedureCode $procedureCode = null)
+    public function setProcedureCode(?\App\UBL\Common\CBC\ProcedureCode $procedureCode = null)
     {
         $this->procedureCode = $procedureCode;
         return $this;
@@ -708,7 +708,7 @@ class TenderingProcessType
      *  Code. Type
      *  Urgent, Normal, Emergency
      *
-     * @return \UBL\Common\CBC\UrgencyCode
+     * @return \App\UBL\Common\CBC\UrgencyCode
      */
     public function getUrgencyCode()
     {
@@ -728,10 +728,10 @@ class TenderingProcessType
      *  Code. Type
      *  Urgent, Normal, Emergency
      *
-     * @param \UBL\Common\CBC\UrgencyCode $urgencyCode
+     * @param \App\UBL\Common\CBC\UrgencyCode $urgencyCode
      * @return self
      */
-    public function setUrgencyCode(?\UBL\Common\CBC\UrgencyCode $urgencyCode = null)
+    public function setUrgencyCode(?\App\UBL\Common\CBC\UrgencyCode $urgencyCode = null)
     {
         $this->urgencyCode = $urgencyCode;
         return $this;
@@ -750,7 +750,7 @@ class TenderingProcessType
      *  Code. Type
      *  Normal, Anticipated
      *
-     * @return \UBL\Common\CBC\ExpenseCode
+     * @return \App\UBL\Common\CBC\ExpenseCode
      */
     public function getExpenseCode()
     {
@@ -770,10 +770,10 @@ class TenderingProcessType
      *  Code. Type
      *  Normal, Anticipated
      *
-     * @param \UBL\Common\CBC\ExpenseCode $expenseCode
+     * @param \App\UBL\Common\CBC\ExpenseCode $expenseCode
      * @return self
      */
-    public function setExpenseCode(?\UBL\Common\CBC\ExpenseCode $expenseCode = null)
+    public function setExpenseCode(?\App\UBL\Common\CBC\ExpenseCode $expenseCode = null)
     {
         $this->expenseCode = $expenseCode;
         return $this;
@@ -792,7 +792,7 @@ class TenderingProcessType
      *  Code. Type
      *  One Lot, Multiple Lots, All Lots
      *
-     * @return \UBL\Common\CBC\PartPresentationCode
+     * @return \App\UBL\Common\CBC\PartPresentationCode
      */
     public function getPartPresentationCode()
     {
@@ -812,10 +812,10 @@ class TenderingProcessType
      *  Code. Type
      *  One Lot, Multiple Lots, All Lots
      *
-     * @param \UBL\Common\CBC\PartPresentationCode $partPresentationCode
+     * @param \App\UBL\Common\CBC\PartPresentationCode $partPresentationCode
      * @return self
      */
-    public function setPartPresentationCode(?\UBL\Common\CBC\PartPresentationCode $partPresentationCode = null)
+    public function setPartPresentationCode(?\App\UBL\Common\CBC\PartPresentationCode $partPresentationCode = null)
     {
         $this->partPresentationCode = $partPresentationCode;
         return $this;
@@ -834,7 +834,7 @@ class TenderingProcessType
      *  Code. Type
      *  Framework Agreement, Dynamic Purchasing System
      *
-     * @return \UBL\Common\CBC\ContractingSystemCode
+     * @return \App\UBL\Common\CBC\ContractingSystemCode
      */
     public function getContractingSystemCode()
     {
@@ -854,10 +854,10 @@ class TenderingProcessType
      *  Code. Type
      *  Framework Agreement, Dynamic Purchasing System
      *
-     * @param \UBL\Common\CBC\ContractingSystemCode $contractingSystemCode
+     * @param \App\UBL\Common\CBC\ContractingSystemCode $contractingSystemCode
      * @return self
      */
-    public function setContractingSystemCode(?\UBL\Common\CBC\ContractingSystemCode $contractingSystemCode = null)
+    public function setContractingSystemCode(?\App\UBL\Common\CBC\ContractingSystemCode $contractingSystemCode = null)
     {
         $this->contractingSystemCode = $contractingSystemCode;
         return $this;
@@ -876,7 +876,7 @@ class TenderingProcessType
      *  Code. Type
      *  Manual, Electronically, etc.
      *
-     * @return \UBL\Common\CBC\SubmissionMethodCode
+     * @return \App\UBL\Common\CBC\SubmissionMethodCode
      */
     public function getSubmissionMethodCode()
     {
@@ -896,10 +896,10 @@ class TenderingProcessType
      *  Code. Type
      *  Manual, Electronically, etc.
      *
-     * @param \UBL\Common\CBC\SubmissionMethodCode $submissionMethodCode
+     * @param \App\UBL\Common\CBC\SubmissionMethodCode $submissionMethodCode
      * @return self
      */
-    public function setSubmissionMethodCode(?\UBL\Common\CBC\SubmissionMethodCode $submissionMethodCode = null)
+    public function setSubmissionMethodCode(?\App\UBL\Common\CBC\SubmissionMethodCode $submissionMethodCode = null)
     {
         $this->submissionMethodCode = $submissionMethodCode;
         return $this;
@@ -1002,7 +1002,7 @@ class TenderingProcessType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\DocumentAvailabilityPeriod
+     * @return \App\UBL\Common\CAC\DocumentAvailabilityPeriod
      */
     public function getDocumentAvailabilityPeriod()
     {
@@ -1022,10 +1022,10 @@ class TenderingProcessType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\DocumentAvailabilityPeriod $documentAvailabilityPeriod
+     * @param \App\UBL\Common\CAC\DocumentAvailabilityPeriod $documentAvailabilityPeriod
      * @return self
      */
-    public function setDocumentAvailabilityPeriod(?\UBL\Common\CAC\DocumentAvailabilityPeriod $documentAvailabilityPeriod = null)
+    public function setDocumentAvailabilityPeriod(?\App\UBL\Common\CAC\DocumentAvailabilityPeriod $documentAvailabilityPeriod = null)
     {
         $this->documentAvailabilityPeriod = $documentAvailabilityPeriod;
         return $this;
@@ -1044,7 +1044,7 @@ class TenderingProcessType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\TenderSubmissionDeadlinePeriod
+     * @return \App\UBL\Common\CAC\TenderSubmissionDeadlinePeriod
      */
     public function getTenderSubmissionDeadlinePeriod()
     {
@@ -1064,10 +1064,10 @@ class TenderingProcessType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\TenderSubmissionDeadlinePeriod $tenderSubmissionDeadlinePeriod
+     * @param \App\UBL\Common\CAC\TenderSubmissionDeadlinePeriod $tenderSubmissionDeadlinePeriod
      * @return self
      */
-    public function setTenderSubmissionDeadlinePeriod(?\UBL\Common\CAC\TenderSubmissionDeadlinePeriod $tenderSubmissionDeadlinePeriod = null)
+    public function setTenderSubmissionDeadlinePeriod(?\App\UBL\Common\CAC\TenderSubmissionDeadlinePeriod $tenderSubmissionDeadlinePeriod = null)
     {
         $this->tenderSubmissionDeadlinePeriod = $tenderSubmissionDeadlinePeriod;
         return $this;
@@ -1086,7 +1086,7 @@ class TenderingProcessType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\InvitationSubmissionPeriod
+     * @return \App\UBL\Common\CAC\InvitationSubmissionPeriod
      */
     public function getInvitationSubmissionPeriod()
     {
@@ -1106,10 +1106,10 @@ class TenderingProcessType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\InvitationSubmissionPeriod $invitationSubmissionPeriod
+     * @param \App\UBL\Common\CAC\InvitationSubmissionPeriod $invitationSubmissionPeriod
      * @return self
      */
-    public function setInvitationSubmissionPeriod(?\UBL\Common\CAC\InvitationSubmissionPeriod $invitationSubmissionPeriod = null)
+    public function setInvitationSubmissionPeriod(?\App\UBL\Common\CAC\InvitationSubmissionPeriod $invitationSubmissionPeriod = null)
     {
         $this->invitationSubmissionPeriod = $invitationSubmissionPeriod;
         return $this;
@@ -1128,7 +1128,7 @@ class TenderingProcessType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ParticipationRequestReceptionPeriod
+     * @return \App\UBL\Common\CAC\ParticipationRequestReceptionPeriod
      */
     public function getParticipationRequestReceptionPeriod()
     {
@@ -1148,10 +1148,10 @@ class TenderingProcessType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ParticipationRequestReceptionPeriod $participationRequestReceptionPeriod
+     * @param \App\UBL\Common\CAC\ParticipationRequestReceptionPeriod $participationRequestReceptionPeriod
      * @return self
      */
-    public function setParticipationRequestReceptionPeriod(?\UBL\Common\CAC\ParticipationRequestReceptionPeriod $participationRequestReceptionPeriod = null)
+    public function setParticipationRequestReceptionPeriod(?\App\UBL\Common\CAC\ParticipationRequestReceptionPeriod $participationRequestReceptionPeriod = null)
     {
         $this->participationRequestReceptionPeriod = $participationRequestReceptionPeriod;
         return $this;
@@ -1171,9 +1171,9 @@ class TenderingProcessType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\NoticeDocumentReference $noticeDocumentReference
+     * @param \App\UBL\Common\CAC\NoticeDocumentReference $noticeDocumentReference
      */
-    public function addToNoticeDocumentReference(\UBL\Common\CAC\NoticeDocumentReference $noticeDocumentReference)
+    public function addToNoticeDocumentReference(\App\UBL\Common\CAC\NoticeDocumentReference $noticeDocumentReference)
     {
         $this->noticeDocumentReference[] = $noticeDocumentReference;
         return $this;
@@ -1234,7 +1234,7 @@ class TenderingProcessType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\NoticeDocumentReference[]
+     * @return \App\UBL\Common\CAC\NoticeDocumentReference[]
      */
     public function getNoticeDocumentReference()
     {
@@ -1254,7 +1254,7 @@ class TenderingProcessType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\NoticeDocumentReference[] $noticeDocumentReference
+     * @param \App\UBL\Common\CAC\NoticeDocumentReference[] $noticeDocumentReference
      * @return self
      */
     public function setNoticeDocumentReference(?array $noticeDocumentReference = null)
@@ -1277,9 +1277,9 @@ class TenderingProcessType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\AdditionalDocumentReference $additionalDocumentReference
+     * @param \App\UBL\Common\CAC\AdditionalDocumentReference $additionalDocumentReference
      */
-    public function addToAdditionalDocumentReference(\UBL\Common\CAC\AdditionalDocumentReference $additionalDocumentReference)
+    public function addToAdditionalDocumentReference(\App\UBL\Common\CAC\AdditionalDocumentReference $additionalDocumentReference)
     {
         $this->additionalDocumentReference[] = $additionalDocumentReference;
         return $this;
@@ -1340,7 +1340,7 @@ class TenderingProcessType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\AdditionalDocumentReference[]
+     * @return \App\UBL\Common\CAC\AdditionalDocumentReference[]
      */
     public function getAdditionalDocumentReference()
     {
@@ -1360,7 +1360,7 @@ class TenderingProcessType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\AdditionalDocumentReference[] $additionalDocumentReference
+     * @param \App\UBL\Common\CAC\AdditionalDocumentReference[] $additionalDocumentReference
      * @return self
      */
     public function setAdditionalDocumentReference(?array $additionalDocumentReference = null)
@@ -1382,9 +1382,9 @@ class TenderingProcessType
      *  Process Justification
      *
      * @return self
-     * @param \UBL\Common\CAC\ProcessJustification $processJustification
+     * @param \App\UBL\Common\CAC\ProcessJustification $processJustification
      */
-    public function addToProcessJustification(\UBL\Common\CAC\ProcessJustification $processJustification)
+    public function addToProcessJustification(\App\UBL\Common\CAC\ProcessJustification $processJustification)
     {
         $this->processJustification[] = $processJustification;
         return $this;
@@ -1442,7 +1442,7 @@ class TenderingProcessType
      *  Process Justification
      *  Process Justification
      *
-     * @return \UBL\Common\CAC\ProcessJustification[]
+     * @return \App\UBL\Common\CAC\ProcessJustification[]
      */
     public function getProcessJustification()
     {
@@ -1461,7 +1461,7 @@ class TenderingProcessType
      *  Process Justification
      *  Process Justification
      *
-     * @param \UBL\Common\CAC\ProcessJustification[] $processJustification
+     * @param \App\UBL\Common\CAC\ProcessJustification[] $processJustification
      * @return self
      */
     public function setProcessJustification(?array $processJustification = null)
@@ -1482,7 +1482,7 @@ class TenderingProcessType
      *  Economic Operator Short List
      *  Economic Operator Short List
      *
-     * @return \UBL\Common\CAC\EconomicOperatorShortList
+     * @return \App\UBL\Common\CAC\EconomicOperatorShortList
      */
     public function getEconomicOperatorShortList()
     {
@@ -1501,10 +1501,10 @@ class TenderingProcessType
      *  Economic Operator Short List
      *  Economic Operator Short List
      *
-     * @param \UBL\Common\CAC\EconomicOperatorShortList $economicOperatorShortList
+     * @param \App\UBL\Common\CAC\EconomicOperatorShortList $economicOperatorShortList
      * @return self
      */
-    public function setEconomicOperatorShortList(?\UBL\Common\CAC\EconomicOperatorShortList $economicOperatorShortList = null)
+    public function setEconomicOperatorShortList(?\App\UBL\Common\CAC\EconomicOperatorShortList $economicOperatorShortList = null)
     {
         $this->economicOperatorShortList = $economicOperatorShortList;
         return $this;
@@ -1524,9 +1524,9 @@ class TenderingProcessType
      *  Event
      *
      * @return self
-     * @param \UBL\Common\CAC\OpenTenderEvent $openTenderEvent
+     * @param \App\UBL\Common\CAC\OpenTenderEvent $openTenderEvent
      */
-    public function addToOpenTenderEvent(\UBL\Common\CAC\OpenTenderEvent $openTenderEvent)
+    public function addToOpenTenderEvent(\App\UBL\Common\CAC\OpenTenderEvent $openTenderEvent)
     {
         $this->openTenderEvent[] = $openTenderEvent;
         return $this;
@@ -1587,7 +1587,7 @@ class TenderingProcessType
      *  Event
      *  Event
      *
-     * @return \UBL\Common\CAC\OpenTenderEvent[]
+     * @return \App\UBL\Common\CAC\OpenTenderEvent[]
      */
     public function getOpenTenderEvent()
     {
@@ -1607,7 +1607,7 @@ class TenderingProcessType
      *  Event
      *  Event
      *
-     * @param \UBL\Common\CAC\OpenTenderEvent[] $openTenderEvent
+     * @param \App\UBL\Common\CAC\OpenTenderEvent[] $openTenderEvent
      * @return self
      */
     public function setOpenTenderEvent(?array $openTenderEvent = null)
@@ -1628,7 +1628,7 @@ class TenderingProcessType
      *  Auction Terms
      *  Auction Terms
      *
-     * @return \UBL\Common\CAC\AuctionTerms
+     * @return \App\UBL\Common\CAC\AuctionTerms
      */
     public function getAuctionTerms()
     {
@@ -1647,10 +1647,10 @@ class TenderingProcessType
      *  Auction Terms
      *  Auction Terms
      *
-     * @param \UBL\Common\CAC\AuctionTerms $auctionTerms
+     * @param \App\UBL\Common\CAC\AuctionTerms $auctionTerms
      * @return self
      */
-    public function setAuctionTerms(?\UBL\Common\CAC\AuctionTerms $auctionTerms = null)
+    public function setAuctionTerms(?\App\UBL\Common\CAC\AuctionTerms $auctionTerms = null)
     {
         $this->auctionTerms = $auctionTerms;
         return $this;
@@ -1668,7 +1668,7 @@ class TenderingProcessType
      *  Framework Agreement
      *  Framework Agreement
      *
-     * @return \UBL\Common\CAC\FrameworkAgreement
+     * @return \App\UBL\Common\CAC\FrameworkAgreement
      */
     public function getFrameworkAgreement()
     {
@@ -1687,14 +1687,13 @@ class TenderingProcessType
      *  Framework Agreement
      *  Framework Agreement
      *
-     * @param \UBL\Common\CAC\FrameworkAgreement $frameworkAgreement
+     * @param \App\UBL\Common\CAC\FrameworkAgreement $frameworkAgreement
      * @return self
      */
-    public function setFrameworkAgreement(?\UBL\Common\CAC\FrameworkAgreement $frameworkAgreement = null)
+    public function setFrameworkAgreement(?\App\UBL\Common\CAC\FrameworkAgreement $frameworkAgreement = null)
     {
         $this->frameworkAgreement = $frameworkAgreement;
         return $this;
     }
 }
-
 

@@ -1,2 +1,2 @@
-UBL\Common\CBC\SuccessiveSequenceIDType:
+App\UBL\Common\CBC\SuccessiveSequenceIDType:
     properties: {  }

@@ -1,4 +1,4 @@
-UBL\Common\CBC\RefrigerationOnIndicator:
+App\UBL\Common\CBC\RefrigerationOnIndicator:
     xml_root_name: RefrigerationOnIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

@@ -1,4 +1,4 @@
-UBL\Xmldsig\RSAKeyValueType:
+App\UBL\Xmldsig\RSAKeyValueType:
     properties:
         modulus:
             expose: true

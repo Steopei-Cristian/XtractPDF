@@ -1,4 +1,4 @@
-UBL\Common\CAC\UnstructuredPriceType:
+App\UBL\Common\CAC\UnstructuredPriceType:
     properties:
         priceAmount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\UnstructuredPriceType:
             accessor:
                 getter: getPriceAmount
                 setter: setPriceAmount
-            type: UBL\Common\CBC\PriceAmount
+            type: App\UBL\Common\CBC\PriceAmount
         timeAmount:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ UBL\Common\CAC\UnstructuredPriceType:
             accessor:
                 getter: getTimeAmount
                 setter: setTimeAmount
-            type: UBL\Common\CBC\TimeAmount
+            type: App\UBL\Common\CBC\TimeAmount

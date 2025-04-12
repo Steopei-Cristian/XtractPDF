@@ -9,4 +9,3 @@ class FormatCode extends FormatCodeType
 {
 }
 
-

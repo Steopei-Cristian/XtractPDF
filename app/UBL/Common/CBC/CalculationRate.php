@@ -9,4 +9,3 @@ class CalculationRate extends CalculationRateType
 {
 }
 
-

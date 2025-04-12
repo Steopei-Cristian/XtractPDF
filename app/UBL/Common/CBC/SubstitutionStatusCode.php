@@ -9,4 +9,3 @@ class SubstitutionStatusCode extends SubstitutionStatusCodeType
 {
 }
 
-

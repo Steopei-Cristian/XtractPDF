@@ -9,4 +9,3 @@ class QuotationDocumentReference extends DocumentReferenceType
 {
 }
 
-

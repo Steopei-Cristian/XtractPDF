@@ -9,4 +9,3 @@ class CategoryName extends CategoryNameType
 {
 }
 
-

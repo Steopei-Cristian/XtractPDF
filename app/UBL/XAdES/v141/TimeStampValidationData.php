@@ -9,4 +9,3 @@ class TimeStampValidationData extends ValidationDataType
 {
 }
 
-

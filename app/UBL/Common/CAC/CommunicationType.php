@@ -25,7 +25,7 @@ class CommunicationType
      *  Channel_ Code. Type
      *  Phone Fax Email
      *
-     * @var \UBL\Common\CBC\ChannelCode $channelCode
+     * @var \App\UBL\Common\CBC\ChannelCode $channelCode
      */
     private $channelCode = null;
 
@@ -40,7 +40,7 @@ class CommunicationType
      *  Text. Type
      *  Skype
      *
-     * @var \UBL\Common\CBC\Channel $channel
+     * @var \App\UBL\Common\CBC\Channel $channel
      */
     private $channel = null;
 
@@ -55,7 +55,7 @@ class CommunicationType
      *  Text. Type
      *  +44 1 2345 6789 president@whitehouse.com
      *
-     * @var \UBL\Common\CBC\Value $value
+     * @var \App\UBL\Common\CBC\Value $value
      */
     private $value = null;
 
@@ -73,7 +73,7 @@ class CommunicationType
      *  Channel_ Code. Type
      *  Phone Fax Email
      *
-     * @return \UBL\Common\CBC\ChannelCode
+     * @return \App\UBL\Common\CBC\ChannelCode
      */
     public function getChannelCode()
     {
@@ -94,10 +94,10 @@ class CommunicationType
      *  Channel_ Code. Type
      *  Phone Fax Email
      *
-     * @param \UBL\Common\CBC\ChannelCode $channelCode
+     * @param \App\UBL\Common\CBC\ChannelCode $channelCode
      * @return self
      */
-    public function setChannelCode(?\UBL\Common\CBC\ChannelCode $channelCode = null)
+    public function setChannelCode(?\App\UBL\Common\CBC\ChannelCode $channelCode = null)
     {
         $this->channelCode = $channelCode;
         return $this;
@@ -116,7 +116,7 @@ class CommunicationType
      *  Text. Type
      *  Skype
      *
-     * @return \UBL\Common\CBC\Channel
+     * @return \App\UBL\Common\CBC\Channel
      */
     public function getChannel()
     {
@@ -136,10 +136,10 @@ class CommunicationType
      *  Text. Type
      *  Skype
      *
-     * @param \UBL\Common\CBC\Channel $channel
+     * @param \App\UBL\Common\CBC\Channel $channel
      * @return self
      */
-    public function setChannel(?\UBL\Common\CBC\Channel $channel = null)
+    public function setChannel(?\App\UBL\Common\CBC\Channel $channel = null)
     {
         $this->channel = $channel;
         return $this;
@@ -158,7 +158,7 @@ class CommunicationType
      *  Text. Type
      *  +44 1 2345 6789 president@whitehouse.com
      *
-     * @return \UBL\Common\CBC\Value
+     * @return \App\UBL\Common\CBC\Value
      */
     public function getValue()
     {
@@ -178,14 +178,13 @@ class CommunicationType
      *  Text. Type
      *  +44 1 2345 6789 president@whitehouse.com
      *
-     * @param \UBL\Common\CBC\Value $value
+     * @param \App\UBL\Common\CBC\Value $value
      * @return self
      */
-    public function setValue(?\UBL\Common\CBC\Value $value = null)
+    public function setValue(?\App\UBL\Common\CBC\Value $value = null)
     {
         $this->value = $value;
         return $this;
     }
 }
-
 

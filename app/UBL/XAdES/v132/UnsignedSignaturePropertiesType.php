@@ -16,91 +16,91 @@ class UnsignedSignaturePropertiesType
     private $id = null;
 
     /**
-     * @var \UBL\XAdES\v132\CounterSignatureType[] $counterSignature
+     * @var \App\UBL\XAdES\v132\CounterSignatureType[] $counterSignature
      */
     private $counterSignature = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\XAdESTimeStampType[] $signatureTimeStamp
+     * @var \App\UBL\XAdES\v132\XAdESTimeStampType[] $signatureTimeStamp
      */
     private $signatureTimeStamp = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\CompleteCertificateRefsType[] $completeCertificateRefs
+     * @var \App\UBL\XAdES\v132\CompleteCertificateRefsType[] $completeCertificateRefs
      */
     private $completeCertificateRefs = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\CompleteRevocationRefsType[] $completeRevocationRefs
+     * @var \App\UBL\XAdES\v132\CompleteRevocationRefsType[] $completeRevocationRefs
      */
     private $completeRevocationRefs = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\CompleteCertificateRefsType[] $attributeCertificateRefs
+     * @var \App\UBL\XAdES\v132\CompleteCertificateRefsType[] $attributeCertificateRefs
      */
     private $attributeCertificateRefs = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\CompleteRevocationRefsType[] $attributeRevocationRefs
+     * @var \App\UBL\XAdES\v132\CompleteRevocationRefsType[] $attributeRevocationRefs
      */
     private $attributeRevocationRefs = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\XAdESTimeStampType[] $sigAndRefsTimeStamp
+     * @var \App\UBL\XAdES\v132\XAdESTimeStampType[] $sigAndRefsTimeStamp
      */
     private $sigAndRefsTimeStamp = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\XAdESTimeStampType[] $refsOnlyTimeStamp
+     * @var \App\UBL\XAdES\v132\XAdESTimeStampType[] $refsOnlyTimeStamp
      */
     private $refsOnlyTimeStamp = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\CertificateValuesType[] $certificateValues
+     * @var \App\UBL\XAdES\v132\CertificateValuesType[] $certificateValues
      */
     private $certificateValues = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\RevocationValuesType[] $revocationValues
+     * @var \App\UBL\XAdES\v132\RevocationValuesType[] $revocationValues
      */
     private $revocationValues = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\CertificateValuesType[] $attrAuthoritiesCertValues
+     * @var \App\UBL\XAdES\v132\CertificateValuesType[] $attrAuthoritiesCertValues
      */
     private $attrAuthoritiesCertValues = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\RevocationValuesType[] $attributeRevocationValues
+     * @var \App\UBL\XAdES\v132\RevocationValuesType[] $attributeRevocationValues
      */
     private $attributeRevocationValues = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\XAdESTimeStampType[] $archiveTimeStamp
+     * @var \App\UBL\XAdES\v132\XAdESTimeStampType[] $archiveTimeStamp
      */
     private $archiveTimeStamp = [
         
@@ -132,9 +132,9 @@ class UnsignedSignaturePropertiesType
      * Adds as counterSignature
      *
      * @return self
-     * @param \UBL\XAdES\v132\CounterSignatureType $counterSignature
+     * @param \App\UBL\XAdES\v132\CounterSignatureType $counterSignature
      */
-    public function addToCounterSignature(\UBL\XAdES\v132\CounterSignatureType $counterSignature)
+    public function addToCounterSignature(\App\UBL\XAdES\v132\CounterSignatureType $counterSignature)
     {
         $this->counterSignature[] = $counterSignature;
         return $this;
@@ -165,7 +165,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Gets as counterSignature
      *
-     * @return \UBL\XAdES\v132\CounterSignatureType[]
+     * @return \App\UBL\XAdES\v132\CounterSignatureType[]
      */
     public function getCounterSignature()
     {
@@ -175,7 +175,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Sets a new counterSignature
      *
-     * @param \UBL\XAdES\v132\CounterSignatureType[] $counterSignature
+     * @param \App\UBL\XAdES\v132\CounterSignatureType[] $counterSignature
      * @return self
      */
     public function setCounterSignature(?array $counterSignature = null)
@@ -188,9 +188,9 @@ class UnsignedSignaturePropertiesType
      * Adds as signatureTimeStamp
      *
      * @return self
-     * @param \UBL\XAdES\v132\XAdESTimeStampType $signatureTimeStamp
+     * @param \App\UBL\XAdES\v132\XAdESTimeStampType $signatureTimeStamp
      */
-    public function addToSignatureTimeStamp(\UBL\XAdES\v132\XAdESTimeStampType $signatureTimeStamp)
+    public function addToSignatureTimeStamp(\App\UBL\XAdES\v132\XAdESTimeStampType $signatureTimeStamp)
     {
         $this->signatureTimeStamp[] = $signatureTimeStamp;
         return $this;
@@ -221,7 +221,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Gets as signatureTimeStamp
      *
-     * @return \UBL\XAdES\v132\XAdESTimeStampType[]
+     * @return \App\UBL\XAdES\v132\XAdESTimeStampType[]
      */
     public function getSignatureTimeStamp()
     {
@@ -231,7 +231,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Sets a new signatureTimeStamp
      *
-     * @param \UBL\XAdES\v132\XAdESTimeStampType[] $signatureTimeStamp
+     * @param \App\UBL\XAdES\v132\XAdESTimeStampType[] $signatureTimeStamp
      * @return self
      */
     public function setSignatureTimeStamp(?array $signatureTimeStamp = null)
@@ -244,9 +244,9 @@ class UnsignedSignaturePropertiesType
      * Adds as completeCertificateRefs
      *
      * @return self
-     * @param \UBL\XAdES\v132\CompleteCertificateRefsType $completeCertificateRefs
+     * @param \App\UBL\XAdES\v132\CompleteCertificateRefsType $completeCertificateRefs
      */
-    public function addToCompleteCertificateRefs(\UBL\XAdES\v132\CompleteCertificateRefsType $completeCertificateRefs)
+    public function addToCompleteCertificateRefs(\App\UBL\XAdES\v132\CompleteCertificateRefsType $completeCertificateRefs)
     {
         $this->completeCertificateRefs[] = $completeCertificateRefs;
         return $this;
@@ -277,7 +277,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Gets as completeCertificateRefs
      *
-     * @return \UBL\XAdES\v132\CompleteCertificateRefsType[]
+     * @return \App\UBL\XAdES\v132\CompleteCertificateRefsType[]
      */
     public function getCompleteCertificateRefs()
     {
@@ -287,7 +287,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Sets a new completeCertificateRefs
      *
-     * @param \UBL\XAdES\v132\CompleteCertificateRefsType[] $completeCertificateRefs
+     * @param \App\UBL\XAdES\v132\CompleteCertificateRefsType[] $completeCertificateRefs
      * @return self
      */
     public function setCompleteCertificateRefs(?array $completeCertificateRefs = null)
@@ -300,9 +300,9 @@ class UnsignedSignaturePropertiesType
      * Adds as completeRevocationRefs
      *
      * @return self
-     * @param \UBL\XAdES\v132\CompleteRevocationRefsType $completeRevocationRefs
+     * @param \App\UBL\XAdES\v132\CompleteRevocationRefsType $completeRevocationRefs
      */
-    public function addToCompleteRevocationRefs(\UBL\XAdES\v132\CompleteRevocationRefsType $completeRevocationRefs)
+    public function addToCompleteRevocationRefs(\App\UBL\XAdES\v132\CompleteRevocationRefsType $completeRevocationRefs)
     {
         $this->completeRevocationRefs[] = $completeRevocationRefs;
         return $this;
@@ -333,7 +333,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Gets as completeRevocationRefs
      *
-     * @return \UBL\XAdES\v132\CompleteRevocationRefsType[]
+     * @return \App\UBL\XAdES\v132\CompleteRevocationRefsType[]
      */
     public function getCompleteRevocationRefs()
     {
@@ -343,7 +343,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Sets a new completeRevocationRefs
      *
-     * @param \UBL\XAdES\v132\CompleteRevocationRefsType[] $completeRevocationRefs
+     * @param \App\UBL\XAdES\v132\CompleteRevocationRefsType[] $completeRevocationRefs
      * @return self
      */
     public function setCompleteRevocationRefs(?array $completeRevocationRefs = null)
@@ -356,9 +356,9 @@ class UnsignedSignaturePropertiesType
      * Adds as attributeCertificateRefs
      *
      * @return self
-     * @param \UBL\XAdES\v132\CompleteCertificateRefsType $attributeCertificateRefs
+     * @param \App\UBL\XAdES\v132\CompleteCertificateRefsType $attributeCertificateRefs
      */
-    public function addToAttributeCertificateRefs(\UBL\XAdES\v132\CompleteCertificateRefsType $attributeCertificateRefs)
+    public function addToAttributeCertificateRefs(\App\UBL\XAdES\v132\CompleteCertificateRefsType $attributeCertificateRefs)
     {
         $this->attributeCertificateRefs[] = $attributeCertificateRefs;
         return $this;
@@ -389,7 +389,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Gets as attributeCertificateRefs
      *
-     * @return \UBL\XAdES\v132\CompleteCertificateRefsType[]
+     * @return \App\UBL\XAdES\v132\CompleteCertificateRefsType[]
      */
     public function getAttributeCertificateRefs()
     {
@@ -399,7 +399,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Sets a new attributeCertificateRefs
      *
-     * @param \UBL\XAdES\v132\CompleteCertificateRefsType[] $attributeCertificateRefs
+     * @param \App\UBL\XAdES\v132\CompleteCertificateRefsType[] $attributeCertificateRefs
      * @return self
      */
     public function setAttributeCertificateRefs(?array $attributeCertificateRefs = null)
@@ -412,9 +412,9 @@ class UnsignedSignaturePropertiesType
      * Adds as attributeRevocationRefs
      *
      * @return self
-     * @param \UBL\XAdES\v132\CompleteRevocationRefsType $attributeRevocationRefs
+     * @param \App\UBL\XAdES\v132\CompleteRevocationRefsType $attributeRevocationRefs
      */
-    public function addToAttributeRevocationRefs(\UBL\XAdES\v132\CompleteRevocationRefsType $attributeRevocationRefs)
+    public function addToAttributeRevocationRefs(\App\UBL\XAdES\v132\CompleteRevocationRefsType $attributeRevocationRefs)
     {
         $this->attributeRevocationRefs[] = $attributeRevocationRefs;
         return $this;
@@ -445,7 +445,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Gets as attributeRevocationRefs
      *
-     * @return \UBL\XAdES\v132\CompleteRevocationRefsType[]
+     * @return \App\UBL\XAdES\v132\CompleteRevocationRefsType[]
      */
     public function getAttributeRevocationRefs()
     {
@@ -455,7 +455,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Sets a new attributeRevocationRefs
      *
-     * @param \UBL\XAdES\v132\CompleteRevocationRefsType[] $attributeRevocationRefs
+     * @param \App\UBL\XAdES\v132\CompleteRevocationRefsType[] $attributeRevocationRefs
      * @return self
      */
     public function setAttributeRevocationRefs(?array $attributeRevocationRefs = null)
@@ -468,9 +468,9 @@ class UnsignedSignaturePropertiesType
      * Adds as sigAndRefsTimeStamp
      *
      * @return self
-     * @param \UBL\XAdES\v132\XAdESTimeStampType $sigAndRefsTimeStamp
+     * @param \App\UBL\XAdES\v132\XAdESTimeStampType $sigAndRefsTimeStamp
      */
-    public function addToSigAndRefsTimeStamp(\UBL\XAdES\v132\XAdESTimeStampType $sigAndRefsTimeStamp)
+    public function addToSigAndRefsTimeStamp(\App\UBL\XAdES\v132\XAdESTimeStampType $sigAndRefsTimeStamp)
     {
         $this->sigAndRefsTimeStamp[] = $sigAndRefsTimeStamp;
         return $this;
@@ -501,7 +501,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Gets as sigAndRefsTimeStamp
      *
-     * @return \UBL\XAdES\v132\XAdESTimeStampType[]
+     * @return \App\UBL\XAdES\v132\XAdESTimeStampType[]
      */
     public function getSigAndRefsTimeStamp()
     {
@@ -511,7 +511,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Sets a new sigAndRefsTimeStamp
      *
-     * @param \UBL\XAdES\v132\XAdESTimeStampType[] $sigAndRefsTimeStamp
+     * @param \App\UBL\XAdES\v132\XAdESTimeStampType[] $sigAndRefsTimeStamp
      * @return self
      */
     public function setSigAndRefsTimeStamp(?array $sigAndRefsTimeStamp = null)
@@ -524,9 +524,9 @@ class UnsignedSignaturePropertiesType
      * Adds as refsOnlyTimeStamp
      *
      * @return self
-     * @param \UBL\XAdES\v132\XAdESTimeStampType $refsOnlyTimeStamp
+     * @param \App\UBL\XAdES\v132\XAdESTimeStampType $refsOnlyTimeStamp
      */
-    public function addToRefsOnlyTimeStamp(\UBL\XAdES\v132\XAdESTimeStampType $refsOnlyTimeStamp)
+    public function addToRefsOnlyTimeStamp(\App\UBL\XAdES\v132\XAdESTimeStampType $refsOnlyTimeStamp)
     {
         $this->refsOnlyTimeStamp[] = $refsOnlyTimeStamp;
         return $this;
@@ -557,7 +557,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Gets as refsOnlyTimeStamp
      *
-     * @return \UBL\XAdES\v132\XAdESTimeStampType[]
+     * @return \App\UBL\XAdES\v132\XAdESTimeStampType[]
      */
     public function getRefsOnlyTimeStamp()
     {
@@ -567,7 +567,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Sets a new refsOnlyTimeStamp
      *
-     * @param \UBL\XAdES\v132\XAdESTimeStampType[] $refsOnlyTimeStamp
+     * @param \App\UBL\XAdES\v132\XAdESTimeStampType[] $refsOnlyTimeStamp
      * @return self
      */
     public function setRefsOnlyTimeStamp(?array $refsOnlyTimeStamp = null)
@@ -580,9 +580,9 @@ class UnsignedSignaturePropertiesType
      * Adds as certificateValues
      *
      * @return self
-     * @param \UBL\XAdES\v132\CertificateValuesType $certificateValues
+     * @param \App\UBL\XAdES\v132\CertificateValuesType $certificateValues
      */
-    public function addToCertificateValues(\UBL\XAdES\v132\CertificateValuesType $certificateValues)
+    public function addToCertificateValues(\App\UBL\XAdES\v132\CertificateValuesType $certificateValues)
     {
         $this->certificateValues[] = $certificateValues;
         return $this;
@@ -613,7 +613,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Gets as certificateValues
      *
-     * @return \UBL\XAdES\v132\CertificateValuesType[]
+     * @return \App\UBL\XAdES\v132\CertificateValuesType[]
      */
     public function getCertificateValues()
     {
@@ -623,7 +623,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Sets a new certificateValues
      *
-     * @param \UBL\XAdES\v132\CertificateValuesType[] $certificateValues
+     * @param \App\UBL\XAdES\v132\CertificateValuesType[] $certificateValues
      * @return self
      */
     public function setCertificateValues(?array $certificateValues = null)
@@ -636,9 +636,9 @@ class UnsignedSignaturePropertiesType
      * Adds as revocationValues
      *
      * @return self
-     * @param \UBL\XAdES\v132\RevocationValuesType $revocationValues
+     * @param \App\UBL\XAdES\v132\RevocationValuesType $revocationValues
      */
-    public function addToRevocationValues(\UBL\XAdES\v132\RevocationValuesType $revocationValues)
+    public function addToRevocationValues(\App\UBL\XAdES\v132\RevocationValuesType $revocationValues)
     {
         $this->revocationValues[] = $revocationValues;
         return $this;
@@ -669,7 +669,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Gets as revocationValues
      *
-     * @return \UBL\XAdES\v132\RevocationValuesType[]
+     * @return \App\UBL\XAdES\v132\RevocationValuesType[]
      */
     public function getRevocationValues()
     {
@@ -679,7 +679,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Sets a new revocationValues
      *
-     * @param \UBL\XAdES\v132\RevocationValuesType[] $revocationValues
+     * @param \App\UBL\XAdES\v132\RevocationValuesType[] $revocationValues
      * @return self
      */
     public function setRevocationValues(?array $revocationValues = null)
@@ -692,9 +692,9 @@ class UnsignedSignaturePropertiesType
      * Adds as attrAuthoritiesCertValues
      *
      * @return self
-     * @param \UBL\XAdES\v132\CertificateValuesType $attrAuthoritiesCertValues
+     * @param \App\UBL\XAdES\v132\CertificateValuesType $attrAuthoritiesCertValues
      */
-    public function addToAttrAuthoritiesCertValues(\UBL\XAdES\v132\CertificateValuesType $attrAuthoritiesCertValues)
+    public function addToAttrAuthoritiesCertValues(\App\UBL\XAdES\v132\CertificateValuesType $attrAuthoritiesCertValues)
     {
         $this->attrAuthoritiesCertValues[] = $attrAuthoritiesCertValues;
         return $this;
@@ -725,7 +725,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Gets as attrAuthoritiesCertValues
      *
-     * @return \UBL\XAdES\v132\CertificateValuesType[]
+     * @return \App\UBL\XAdES\v132\CertificateValuesType[]
      */
     public function getAttrAuthoritiesCertValues()
     {
@@ -735,7 +735,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Sets a new attrAuthoritiesCertValues
      *
-     * @param \UBL\XAdES\v132\CertificateValuesType[] $attrAuthoritiesCertValues
+     * @param \App\UBL\XAdES\v132\CertificateValuesType[] $attrAuthoritiesCertValues
      * @return self
      */
     public function setAttrAuthoritiesCertValues(?array $attrAuthoritiesCertValues = null)
@@ -748,9 +748,9 @@ class UnsignedSignaturePropertiesType
      * Adds as attributeRevocationValues
      *
      * @return self
-     * @param \UBL\XAdES\v132\RevocationValuesType $attributeRevocationValues
+     * @param \App\UBL\XAdES\v132\RevocationValuesType $attributeRevocationValues
      */
-    public function addToAttributeRevocationValues(\UBL\XAdES\v132\RevocationValuesType $attributeRevocationValues)
+    public function addToAttributeRevocationValues(\App\UBL\XAdES\v132\RevocationValuesType $attributeRevocationValues)
     {
         $this->attributeRevocationValues[] = $attributeRevocationValues;
         return $this;
@@ -781,7 +781,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Gets as attributeRevocationValues
      *
-     * @return \UBL\XAdES\v132\RevocationValuesType[]
+     * @return \App\UBL\XAdES\v132\RevocationValuesType[]
      */
     public function getAttributeRevocationValues()
     {
@@ -791,7 +791,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Sets a new attributeRevocationValues
      *
-     * @param \UBL\XAdES\v132\RevocationValuesType[] $attributeRevocationValues
+     * @param \App\UBL\XAdES\v132\RevocationValuesType[] $attributeRevocationValues
      * @return self
      */
     public function setAttributeRevocationValues(?array $attributeRevocationValues = null)
@@ -804,9 +804,9 @@ class UnsignedSignaturePropertiesType
      * Adds as archiveTimeStamp
      *
      * @return self
-     * @param \UBL\XAdES\v132\XAdESTimeStampType $archiveTimeStamp
+     * @param \App\UBL\XAdES\v132\XAdESTimeStampType $archiveTimeStamp
      */
-    public function addToArchiveTimeStamp(\UBL\XAdES\v132\XAdESTimeStampType $archiveTimeStamp)
+    public function addToArchiveTimeStamp(\App\UBL\XAdES\v132\XAdESTimeStampType $archiveTimeStamp)
     {
         $this->archiveTimeStamp[] = $archiveTimeStamp;
         return $this;
@@ -837,7 +837,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Gets as archiveTimeStamp
      *
-     * @return \UBL\XAdES\v132\XAdESTimeStampType[]
+     * @return \App\UBL\XAdES\v132\XAdESTimeStampType[]
      */
     public function getArchiveTimeStamp()
     {
@@ -847,7 +847,7 @@ class UnsignedSignaturePropertiesType
     /**
      * Sets a new archiveTimeStamp
      *
-     * @param \UBL\XAdES\v132\XAdESTimeStampType[] $archiveTimeStamp
+     * @param \App\UBL\XAdES\v132\XAdESTimeStampType[] $archiveTimeStamp
      * @return self
      */
     public function setArchiveTimeStamp(?array $archiveTimeStamp = null)
@@ -856,5 +856,4 @@ class UnsignedSignaturePropertiesType
         return $this;
     }
 }
-
 

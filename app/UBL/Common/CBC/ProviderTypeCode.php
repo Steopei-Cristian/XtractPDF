@@ -9,4 +9,3 @@ class ProviderTypeCode extends ProviderTypeCodeType
 {
 }
 
-

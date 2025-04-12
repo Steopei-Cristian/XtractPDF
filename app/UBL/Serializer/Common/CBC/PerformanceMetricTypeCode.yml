@@ -1,3 +1,3 @@
-UBL\Common\CBC\PerformanceMetricTypeCode:
+App\UBL\Common\CBC\PerformanceMetricTypeCode:
     xml_root_name: PerformanceMetricTypeCode
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

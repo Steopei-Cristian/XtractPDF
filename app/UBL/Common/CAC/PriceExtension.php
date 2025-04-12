@@ -9,4 +9,3 @@ class PriceExtension extends PriceExtensionType
 {
 }
 
-

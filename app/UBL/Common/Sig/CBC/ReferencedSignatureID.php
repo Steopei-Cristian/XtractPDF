@@ -9,4 +9,3 @@ class ReferencedSignatureID extends ReferencedSignatureIDType
 {
 }
 
-

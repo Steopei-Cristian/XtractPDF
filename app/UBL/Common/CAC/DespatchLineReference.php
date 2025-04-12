@@ -9,4 +9,3 @@ class DespatchLineReference extends LineReferenceType
 {
 }
 
-

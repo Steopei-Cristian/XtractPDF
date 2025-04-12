@@ -9,4 +9,3 @@ class CustomizationID extends CustomizationIDType
 {
 }
 
-

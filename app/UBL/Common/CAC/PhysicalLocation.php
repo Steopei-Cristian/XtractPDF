@@ -9,4 +9,3 @@ class PhysicalLocation extends LocationType
 {
 }
 
-

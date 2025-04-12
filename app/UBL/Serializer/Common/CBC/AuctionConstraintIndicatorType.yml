@@ -1,4 +1,4 @@
-UBL\Common\CBC\AuctionConstraintIndicatorType:
+App\UBL\Common\CBC\AuctionConstraintIndicatorType:
     properties:
         __value:
             expose: true

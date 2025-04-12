@@ -1,4 +1,4 @@
-UBL\Common\CAC\TaxSchemeType:
+App\UBL\Common\CAC\TaxSchemeType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TaxSchemeType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         name:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TaxSchemeType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         taxTypeCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\TaxSchemeType:
             accessor:
                 getter: getTaxTypeCode
                 setter: setTaxTypeCode
-            type: UBL\Common\CBC\TaxTypeCode
+            type: App\UBL\Common\CBC\TaxTypeCode
         currencyCode:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\TaxSchemeType:
             accessor:
                 getter: getCurrencyCode
                 setter: setCurrencyCode
-            type: UBL\Common\CBC\CurrencyCode
+            type: App\UBL\Common\CBC\CurrencyCode
         jurisdictionRegionAddress:
             expose: true
             access_type: public_method
@@ -53,4 +53,4 @@ UBL\Common\CAC\TaxSchemeType:
                 inline: true
                 entry_name: JurisdictionRegionAddress
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\JurisdictionRegionAddress>
+            type: array<App\UBL\Common\CAC\JurisdictionRegionAddress>

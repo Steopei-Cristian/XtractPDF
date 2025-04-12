@@ -9,4 +9,3 @@ class ReferencedContract extends ContractType
 {
 }
 
-

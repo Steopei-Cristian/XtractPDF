@@ -1,4 +1,4 @@
-UBL\Common\CAC\SubcontractTermsType:
+App\UBL\Common\CAC\SubcontractTermsType:
     properties:
         rate:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\SubcontractTermsType:
             accessor:
                 getter: getRate
                 setter: setRate
-            type: UBL\Common\CBC\Rate
+            type: App\UBL\Common\CBC\Rate
         unknownPriceIndicator:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\SubcontractTermsType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         amount:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\SubcontractTermsType:
             accessor:
                 getter: getAmount
                 setter: setAmount
-            type: UBL\Common\CBC\Amount
+            type: App\UBL\Common\CBC\Amount
         subcontractingConditionsCode:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\SubcontractTermsType:
             accessor:
                 getter: getSubcontractingConditionsCode
                 setter: setSubcontractingConditionsCode
-            type: UBL\Common\CBC\SubcontractingConditionsCode
+            type: App\UBL\Common\CBC\SubcontractingConditionsCode
         maximumPercent:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\SubcontractTermsType:
             accessor:
                 getter: getMaximumPercent
                 setter: setMaximumPercent
-            type: UBL\Common\CBC\MaximumPercent
+            type: App\UBL\Common\CBC\MaximumPercent
         minimumPercent:
             expose: true
             access_type: public_method
@@ -73,4 +73,4 @@ UBL\Common\CAC\SubcontractTermsType:
             accessor:
                 getter: getMinimumPercent
                 setter: setMinimumPercent
-            type: UBL\Common\CBC\MinimumPercent
+            type: App\UBL\Common\CBC\MinimumPercent

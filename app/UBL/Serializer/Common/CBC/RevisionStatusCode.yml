@@ -1,3 +1,3 @@
-UBL\Common\CBC\RevisionStatusCode:
+App\UBL\Common\CBC\RevisionStatusCode:
     xml_root_name: RevisionStatusCode
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

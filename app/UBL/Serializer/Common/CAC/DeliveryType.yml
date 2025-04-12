@@ -1,4 +1,4 @@
-UBL\Common\CAC\DeliveryType:
+App\UBL\Common\CAC\DeliveryType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         quantity:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         minimumQuantity:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getMinimumQuantity
                 setter: setMinimumQuantity
-            type: UBL\Common\CBC\MinimumQuantity
+            type: App\UBL\Common\CBC\MinimumQuantity
         maximumQuantity:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getMaximumQuantity
                 setter: setMaximumQuantity
-            type: UBL\Common\CBC\MaximumQuantity
+            type: App\UBL\Common\CBC\MaximumQuantity
         actualDeliveryDate:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getReleaseID
                 setter: setReleaseID
-            type: UBL\Common\CBC\ReleaseID
+            type: App\UBL\Common\CBC\ReleaseID
         trackingID:
             expose: true
             access_type: public_method
@@ -99,7 +99,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getTrackingID
                 setter: setTrackingID
-            type: UBL\Common\CBC\TrackingID
+            type: App\UBL\Common\CBC\TrackingID
         deliveryAddress:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getDeliveryAddress
                 setter: setDeliveryAddress
-            type: UBL\Common\CAC\DeliveryAddress
+            type: App\UBL\Common\CAC\DeliveryAddress
         deliveryLocation:
             expose: true
             access_type: public_method
@@ -119,7 +119,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getDeliveryLocation
                 setter: setDeliveryLocation
-            type: UBL\Common\CAC\DeliveryLocation
+            type: App\UBL\Common\CAC\DeliveryLocation
         alternativeDeliveryLocation:
             expose: true
             access_type: public_method
@@ -129,7 +129,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getAlternativeDeliveryLocation
                 setter: setAlternativeDeliveryLocation
-            type: UBL\Common\CAC\AlternativeDeliveryLocation
+            type: App\UBL\Common\CAC\AlternativeDeliveryLocation
         requestedDeliveryPeriod:
             expose: true
             access_type: public_method
@@ -139,7 +139,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getRequestedDeliveryPeriod
                 setter: setRequestedDeliveryPeriod
-            type: UBL\Common\CAC\RequestedDeliveryPeriod
+            type: App\UBL\Common\CAC\RequestedDeliveryPeriod
         promisedDeliveryPeriod:
             expose: true
             access_type: public_method
@@ -149,7 +149,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getPromisedDeliveryPeriod
                 setter: setPromisedDeliveryPeriod
-            type: UBL\Common\CAC\PromisedDeliveryPeriod
+            type: App\UBL\Common\CAC\PromisedDeliveryPeriod
         estimatedDeliveryPeriod:
             expose: true
             access_type: public_method
@@ -159,7 +159,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getEstimatedDeliveryPeriod
                 setter: setEstimatedDeliveryPeriod
-            type: UBL\Common\CAC\EstimatedDeliveryPeriod
+            type: App\UBL\Common\CAC\EstimatedDeliveryPeriod
         carrierParty:
             expose: true
             access_type: public_method
@@ -169,7 +169,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getCarrierParty
                 setter: setCarrierParty
-            type: UBL\Common\CAC\CarrierParty
+            type: App\UBL\Common\CAC\CarrierParty
         deliveryParty:
             expose: true
             access_type: public_method
@@ -179,7 +179,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getDeliveryParty
                 setter: setDeliveryParty
-            type: UBL\Common\CAC\DeliveryParty
+            type: App\UBL\Common\CAC\DeliveryParty
         notifyParty:
             expose: true
             access_type: public_method
@@ -193,7 +193,7 @@ UBL\Common\CAC\DeliveryType:
                 inline: true
                 entry_name: NotifyParty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\NotifyParty>
+            type: array<App\UBL\Common\CAC\NotifyParty>
         despatch:
             expose: true
             access_type: public_method
@@ -203,7 +203,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getDespatch
                 setter: setDespatch
-            type: UBL\Common\CAC\Despatch
+            type: App\UBL\Common\CAC\Despatch
         deliveryTerms:
             expose: true
             access_type: public_method
@@ -217,7 +217,7 @@ UBL\Common\CAC\DeliveryType:
                 inline: true
                 entry_name: DeliveryTerms
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DeliveryTerms>
+            type: array<App\UBL\Common\CAC\DeliveryTerms>
         minimumDeliveryUnit:
             expose: true
             access_type: public_method
@@ -227,7 +227,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getMinimumDeliveryUnit
                 setter: setMinimumDeliveryUnit
-            type: UBL\Common\CAC\MinimumDeliveryUnit
+            type: App\UBL\Common\CAC\MinimumDeliveryUnit
         maximumDeliveryUnit:
             expose: true
             access_type: public_method
@@ -237,7 +237,7 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getMaximumDeliveryUnit
                 setter: setMaximumDeliveryUnit
-            type: UBL\Common\CAC\MaximumDeliveryUnit
+            type: App\UBL\Common\CAC\MaximumDeliveryUnit
         shipment:
             expose: true
             access_type: public_method
@@ -247,4 +247,4 @@ UBL\Common\CAC\DeliveryType:
             accessor:
                 getter: getShipment
                 setter: setShipment
-            type: UBL\Common\CAC\Shipment
+            type: App\UBL\Common\CAC\Shipment

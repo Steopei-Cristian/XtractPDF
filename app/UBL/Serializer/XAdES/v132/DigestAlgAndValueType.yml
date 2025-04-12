@@ -1,4 +1,4 @@
-UBL\XAdES\v132\DigestAlgAndValueType:
+App\UBL\XAdES\v132\DigestAlgAndValueType:
     properties:
         digestMethod:
             expose: true
@@ -9,7 +9,7 @@ UBL\XAdES\v132\DigestAlgAndValueType:
             accessor:
                 getter: getDigestMethod
                 setter: setDigestMethod
-            type: UBL\Xmldsig\DigestMethod
+            type: App\UBL\Xmldsig\DigestMethod
         digestValue:
             expose: true
             access_type: public_method

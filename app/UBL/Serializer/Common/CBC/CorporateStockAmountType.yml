@@ -1,2 +1,2 @@
-UBL\Common\CBC\CorporateStockAmountType:
+App\UBL\Common\CBC\CorporateStockAmountType:
     properties: {  }

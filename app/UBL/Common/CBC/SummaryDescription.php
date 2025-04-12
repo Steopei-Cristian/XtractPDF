@@ -9,4 +9,3 @@ class SummaryDescription extends SummaryDescriptionType
 {
 }
 
-

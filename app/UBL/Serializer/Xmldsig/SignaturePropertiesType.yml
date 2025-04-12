@@ -1,4 +1,4 @@
-UBL\Xmldsig\SignaturePropertiesType:
+App\UBL\Xmldsig\SignaturePropertiesType:
     properties:
         id:
             expose: true
@@ -22,4 +22,4 @@ UBL\Xmldsig\SignaturePropertiesType:
                 inline: true
                 entry_name: SignatureProperty
                 namespace: 'http://www.w3.org/2000/09/xmldsig#'
-            type: array<UBL\Xmldsig\SignatureProperty>
+            type: array<App\UBL\Xmldsig\SignatureProperty>

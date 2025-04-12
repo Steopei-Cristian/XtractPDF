@@ -1,4 +1,4 @@
-UBL\Common\CAC\SalesItemType:
+App\UBL\Common\CAC\SalesItemType:
     properties:
         quantity:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\SalesItemType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         activityProperty:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\SalesItemType:
                 inline: true
                 entry_name: ActivityProperty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ActivityProperty>
+            type: array<App\UBL\Common\CAC\ActivityProperty>
         taxExclusivePrice:
             expose: true
             access_type: public_method
@@ -37,7 +37,7 @@ UBL\Common\CAC\SalesItemType:
                 inline: true
                 entry_name: TaxExclusivePrice
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TaxExclusivePrice>
+            type: array<App\UBL\Common\CAC\TaxExclusivePrice>
         taxInclusivePrice:
             expose: true
             access_type: public_method
@@ -51,7 +51,7 @@ UBL\Common\CAC\SalesItemType:
                 inline: true
                 entry_name: TaxInclusivePrice
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TaxInclusivePrice>
+            type: array<App\UBL\Common\CAC\TaxInclusivePrice>
         item:
             expose: true
             access_type: public_method
@@ -61,4 +61,4 @@ UBL\Common\CAC\SalesItemType:
             accessor:
                 getter: getItem
                 setter: setItem
-            type: UBL\Common\CAC\Item
+            type: App\UBL\Common\CAC\Item

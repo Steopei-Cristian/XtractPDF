@@ -9,4 +9,3 @@ class GuaranteeDocumentReference extends DocumentReferenceType
 {
 }
 
-

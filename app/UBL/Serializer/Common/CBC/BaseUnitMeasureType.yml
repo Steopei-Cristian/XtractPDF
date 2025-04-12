@@ -1,2 +1,2 @@
-UBL\Common\CBC\BaseUnitMeasureType:
+App\UBL\Common\CBC\BaseUnitMeasureType:
     properties: {  }

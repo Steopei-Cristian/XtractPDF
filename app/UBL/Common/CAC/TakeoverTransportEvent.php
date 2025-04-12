@@ -9,4 +9,3 @@ class TakeoverTransportEvent extends TransportEventType
 {
 }
 
-

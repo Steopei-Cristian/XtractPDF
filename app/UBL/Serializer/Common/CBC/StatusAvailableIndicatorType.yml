@@ -1,4 +1,4 @@
-UBL\Common\CBC\StatusAvailableIndicatorType:
+App\UBL\Common\CBC\StatusAvailableIndicatorType:
     properties:
         __value:
             expose: true

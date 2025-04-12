@@ -1,2 +1,2 @@
-UBL\Common\CBC\TotalTransportHandlingUnitQuantityType:
+App\UBL\Common\CBC\TotalTransportHandlingUnitQuantityType:
     properties: {  }

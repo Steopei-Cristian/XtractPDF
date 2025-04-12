@@ -9,4 +9,3 @@ class TransactionCurrencyTaxAmount extends TransactionCurrencyTaxAmountType
 {
 }
 
-

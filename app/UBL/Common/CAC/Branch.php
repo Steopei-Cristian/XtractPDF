@@ -9,4 +9,3 @@ class Branch extends BranchType
 {
 }
 
-

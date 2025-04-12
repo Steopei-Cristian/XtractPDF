@@ -9,4 +9,3 @@ class TenderValidityPeriod extends PeriodType
 {
 }
 
-

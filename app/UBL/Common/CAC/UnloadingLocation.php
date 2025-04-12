@@ -9,4 +9,3 @@ class UnloadingLocation extends LocationType
 {
 }
 
-

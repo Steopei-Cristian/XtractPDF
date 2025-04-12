@@ -1,3 +1,3 @@
-UBL\Common\CAC\BuyerProposedSubstituteLineItem:
+App\UBL\Common\CAC\BuyerProposedSubstituteLineItem:
     xml_root_name: BuyerProposedSubstituteLineItem
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

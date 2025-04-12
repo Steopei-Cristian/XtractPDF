@@ -24,7 +24,7 @@ class RelatedItemType
      *  Identifier. Type
      *  First , Second
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class RelatedItemType
      *  Quantity. Type
      *  6 , 10mg per Kilo
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -54,7 +54,7 @@ class RelatedItemType
      *  Text. Type
      *  If used in wet conditions or extreme environments
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -73,7 +73,7 @@ class RelatedItemType
      *  Identifier. Type
      *  First , Second
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -93,10 +93,10 @@ class RelatedItemType
      *  Identifier. Type
      *  First , Second
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -115,7 +115,7 @@ class RelatedItemType
      *  Quantity. Type
      *  6 , 10mg per Kilo
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -135,10 +135,10 @@ class RelatedItemType
      *  Quantity. Type
      *  6 , 10mg per Kilo
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
@@ -158,9 +158,9 @@ class RelatedItemType
      *  If used in wet conditions or extreme environments
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -221,7 +221,7 @@ class RelatedItemType
      *  Text. Type
      *  If used in wet conditions or extreme environments
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -241,7 +241,7 @@ class RelatedItemType
      *  Text. Type
      *  If used in wet conditions or extreme environments
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -250,5 +250,4 @@ class RelatedItemType
         return $this;
     }
 }
-
 

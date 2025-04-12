@@ -9,4 +9,3 @@ class CallForTendersDocumentReference extends DocumentReferenceType
 {
 }
 
-

@@ -9,4 +9,3 @@ class HolderName extends HolderNameType
 {
 }
 
-

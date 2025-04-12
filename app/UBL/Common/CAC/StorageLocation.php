@@ -9,4 +9,3 @@ class StorageLocation extends LocationType
 {
 }
 
-

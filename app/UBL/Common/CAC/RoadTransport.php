@@ -9,4 +9,3 @@ class RoadTransport extends RoadTransportType
 {
 }
 
-

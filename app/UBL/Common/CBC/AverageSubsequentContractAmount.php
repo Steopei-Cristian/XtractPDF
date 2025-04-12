@@ -9,4 +9,3 @@ class AverageSubsequentContractAmount extends AverageSubsequentContractAmountTyp
 {
 }
 
-

@@ -9,4 +9,3 @@ class AirFlowPercent extends AirFlowPercentType
 {
 }
 
-

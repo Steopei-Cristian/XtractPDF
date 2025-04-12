@@ -9,4 +9,3 @@ class UnsignedProperties extends UnsignedPropertiesType
 {
 }
 
-

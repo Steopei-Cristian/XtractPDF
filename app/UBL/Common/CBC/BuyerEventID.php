@@ -9,4 +9,3 @@ class BuyerEventID extends BuyerEventIDType
 {
 }
 
-

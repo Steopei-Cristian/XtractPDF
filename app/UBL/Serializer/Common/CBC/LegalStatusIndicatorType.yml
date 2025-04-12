@@ -1,4 +1,4 @@
-UBL\Common\CBC\LegalStatusIndicatorType:
+App\UBL\Common\CBC\LegalStatusIndicatorType:
     properties:
         __value:
             expose: true

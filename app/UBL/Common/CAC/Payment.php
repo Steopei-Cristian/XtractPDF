@@ -9,4 +9,3 @@ class Payment extends PaymentType
 {
 }
 
-

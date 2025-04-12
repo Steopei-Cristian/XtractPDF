@@ -9,4 +9,3 @@ class RetrievalMethod extends RetrievalMethodType
 {
 }
 
-

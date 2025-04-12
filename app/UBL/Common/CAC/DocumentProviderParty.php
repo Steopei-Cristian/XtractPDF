@@ -9,4 +9,3 @@ class DocumentProviderParty extends PartyType
 {
 }
 
-

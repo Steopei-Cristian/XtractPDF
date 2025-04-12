@@ -24,7 +24,7 @@ class OnAccountPaymentType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\EstimatedConsumedQuantity $estimatedConsumedQuantity
+     * @var \App\UBL\Common\CBC\EstimatedConsumedQuantity $estimatedConsumedQuantity
      */
     private $estimatedConsumedQuantity = null;
 
@@ -39,7 +39,7 @@ class OnAccountPaymentType
      *  Text. Type
      *  We make a reservation for price regulations. You will receive you next yearly statement about one year from today.
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -55,7 +55,7 @@ class OnAccountPaymentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @var \UBL\Common\CAC\PaymentTerms[] $paymentTerms
+     * @var \App\UBL\Common\CAC\PaymentTerms[] $paymentTerms
      */
     private $paymentTerms = [
         
@@ -74,7 +74,7 @@ class OnAccountPaymentType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\EstimatedConsumedQuantity
+     * @return \App\UBL\Common\CBC\EstimatedConsumedQuantity
      */
     public function getEstimatedConsumedQuantity()
     {
@@ -94,10 +94,10 @@ class OnAccountPaymentType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\EstimatedConsumedQuantity $estimatedConsumedQuantity
+     * @param \App\UBL\Common\CBC\EstimatedConsumedQuantity $estimatedConsumedQuantity
      * @return self
      */
-    public function setEstimatedConsumedQuantity(\UBL\Common\CBC\EstimatedConsumedQuantity $estimatedConsumedQuantity)
+    public function setEstimatedConsumedQuantity(\App\UBL\Common\CBC\EstimatedConsumedQuantity $estimatedConsumedQuantity)
     {
         $this->estimatedConsumedQuantity = $estimatedConsumedQuantity;
         return $this;
@@ -117,9 +117,9 @@ class OnAccountPaymentType
      *  We make a reservation for price regulations. You will receive you next yearly statement about one year from today.
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -180,7 +180,7 @@ class OnAccountPaymentType
      *  Text. Type
      *  We make a reservation for price regulations. You will receive you next yearly statement about one year from today.
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -200,7 +200,7 @@ class OnAccountPaymentType
      *  Text. Type
      *  We make a reservation for price regulations. You will receive you next yearly statement about one year from today.
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -222,9 +222,9 @@ class OnAccountPaymentType
      *  Payment Terms
      *
      * @return self
-     * @param \UBL\Common\CAC\PaymentTerms $paymentTerms
+     * @param \App\UBL\Common\CAC\PaymentTerms $paymentTerms
      */
-    public function addToPaymentTerms(\UBL\Common\CAC\PaymentTerms $paymentTerms)
+    public function addToPaymentTerms(\App\UBL\Common\CAC\PaymentTerms $paymentTerms)
     {
         $this->paymentTerms[] = $paymentTerms;
         return $this;
@@ -282,7 +282,7 @@ class OnAccountPaymentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @return \UBL\Common\CAC\PaymentTerms[]
+     * @return \App\UBL\Common\CAC\PaymentTerms[]
      */
     public function getPaymentTerms()
     {
@@ -301,7 +301,7 @@ class OnAccountPaymentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @param \UBL\Common\CAC\PaymentTerms[] $paymentTerms
+     * @param \App\UBL\Common\CAC\PaymentTerms[] $paymentTerms
      * @return self
      */
     public function setPaymentTerms(array $paymentTerms)
@@ -310,5 +310,4 @@ class OnAccountPaymentType
         return $this;
     }
 }
-
 

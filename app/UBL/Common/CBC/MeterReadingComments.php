@@ -9,4 +9,3 @@ class MeterReadingComments extends MeterReadingCommentsType
 {
 }
 
-

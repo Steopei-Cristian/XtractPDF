@@ -23,35 +23,35 @@ class KeyInfoType
     ];
 
     /**
-     * @var \UBL\Xmldsig\KeyValue[] $keyValue
+     * @var \App\UBL\Xmldsig\KeyValue[] $keyValue
      */
     private $keyValue = [
         
     ];
 
     /**
-     * @var \UBL\Xmldsig\RetrievalMethod[] $retrievalMethod
+     * @var \App\UBL\Xmldsig\RetrievalMethod[] $retrievalMethod
      */
     private $retrievalMethod = [
         
     ];
 
     /**
-     * @var \UBL\Xmldsig\X509Data[] $x509Data
+     * @var \App\UBL\Xmldsig\X509Data[] $x509Data
      */
     private $x509Data = [
         
     ];
 
     /**
-     * @var \UBL\Xmldsig\PGPData[] $pGPData
+     * @var \App\UBL\Xmldsig\PGPData[] $pGPData
      */
     private $pGPData = [
         
     ];
 
     /**
-     * @var \UBL\Xmldsig\SPKIData[] $sPKIData
+     * @var \App\UBL\Xmldsig\SPKIData[] $sPKIData
      */
     private $sPKIData = [
         
@@ -146,9 +146,9 @@ class KeyInfoType
      * Adds as keyValue
      *
      * @return self
-     * @param \UBL\Xmldsig\KeyValue $keyValue
+     * @param \App\UBL\Xmldsig\KeyValue $keyValue
      */
-    public function addToKeyValue(\UBL\Xmldsig\KeyValue $keyValue)
+    public function addToKeyValue(\App\UBL\Xmldsig\KeyValue $keyValue)
     {
         $this->keyValue[] = $keyValue;
         return $this;
@@ -179,7 +179,7 @@ class KeyInfoType
     /**
      * Gets as keyValue
      *
-     * @return \UBL\Xmldsig\KeyValue[]
+     * @return \App\UBL\Xmldsig\KeyValue[]
      */
     public function getKeyValue()
     {
@@ -189,7 +189,7 @@ class KeyInfoType
     /**
      * Sets a new keyValue
      *
-     * @param \UBL\Xmldsig\KeyValue[] $keyValue
+     * @param \App\UBL\Xmldsig\KeyValue[] $keyValue
      * @return self
      */
     public function setKeyValue(?array $keyValue = null)
@@ -202,9 +202,9 @@ class KeyInfoType
      * Adds as retrievalMethod
      *
      * @return self
-     * @param \UBL\Xmldsig\RetrievalMethod $retrievalMethod
+     * @param \App\UBL\Xmldsig\RetrievalMethod $retrievalMethod
      */
-    public function addToRetrievalMethod(\UBL\Xmldsig\RetrievalMethod $retrievalMethod)
+    public function addToRetrievalMethod(\App\UBL\Xmldsig\RetrievalMethod $retrievalMethod)
     {
         $this->retrievalMethod[] = $retrievalMethod;
         return $this;
@@ -235,7 +235,7 @@ class KeyInfoType
     /**
      * Gets as retrievalMethod
      *
-     * @return \UBL\Xmldsig\RetrievalMethod[]
+     * @return \App\UBL\Xmldsig\RetrievalMethod[]
      */
     public function getRetrievalMethod()
     {
@@ -245,7 +245,7 @@ class KeyInfoType
     /**
      * Sets a new retrievalMethod
      *
-     * @param \UBL\Xmldsig\RetrievalMethod[] $retrievalMethod
+     * @param \App\UBL\Xmldsig\RetrievalMethod[] $retrievalMethod
      * @return self
      */
     public function setRetrievalMethod(?array $retrievalMethod = null)
@@ -258,9 +258,9 @@ class KeyInfoType
      * Adds as x509Data
      *
      * @return self
-     * @param \UBL\Xmldsig\X509Data $x509Data
+     * @param \App\UBL\Xmldsig\X509Data $x509Data
      */
-    public function addToX509Data(\UBL\Xmldsig\X509Data $x509Data)
+    public function addToX509Data(\App\UBL\Xmldsig\X509Data $x509Data)
     {
         $this->x509Data[] = $x509Data;
         return $this;
@@ -291,7 +291,7 @@ class KeyInfoType
     /**
      * Gets as x509Data
      *
-     * @return \UBL\Xmldsig\X509Data[]
+     * @return \App\UBL\Xmldsig\X509Data[]
      */
     public function getX509Data()
     {
@@ -301,7 +301,7 @@ class KeyInfoType
     /**
      * Sets a new x509Data
      *
-     * @param \UBL\Xmldsig\X509Data[] $x509Data
+     * @param \App\UBL\Xmldsig\X509Data[] $x509Data
      * @return self
      */
     public function setX509Data(?array $x509Data = null)
@@ -314,9 +314,9 @@ class KeyInfoType
      * Adds as pGPData
      *
      * @return self
-     * @param \UBL\Xmldsig\PGPData $pGPData
+     * @param \App\UBL\Xmldsig\PGPData $pGPData
      */
-    public function addToPGPData(\UBL\Xmldsig\PGPData $pGPData)
+    public function addToPGPData(\App\UBL\Xmldsig\PGPData $pGPData)
     {
         $this->pGPData[] = $pGPData;
         return $this;
@@ -347,7 +347,7 @@ class KeyInfoType
     /**
      * Gets as pGPData
      *
-     * @return \UBL\Xmldsig\PGPData[]
+     * @return \App\UBL\Xmldsig\PGPData[]
      */
     public function getPGPData()
     {
@@ -357,7 +357,7 @@ class KeyInfoType
     /**
      * Sets a new pGPData
      *
-     * @param \UBL\Xmldsig\PGPData[] $pGPData
+     * @param \App\UBL\Xmldsig\PGPData[] $pGPData
      * @return self
      */
     public function setPGPData(?array $pGPData = null)
@@ -370,9 +370,9 @@ class KeyInfoType
      * Adds as sPKIData
      *
      * @return self
-     * @param \UBL\Xmldsig\SPKIData $sPKIData
+     * @param \App\UBL\Xmldsig\SPKIData $sPKIData
      */
-    public function addToSPKIData(\UBL\Xmldsig\SPKIData $sPKIData)
+    public function addToSPKIData(\App\UBL\Xmldsig\SPKIData $sPKIData)
     {
         $this->sPKIData[] = $sPKIData;
         return $this;
@@ -403,7 +403,7 @@ class KeyInfoType
     /**
      * Gets as sPKIData
      *
-     * @return \UBL\Xmldsig\SPKIData[]
+     * @return \App\UBL\Xmldsig\SPKIData[]
      */
     public function getSPKIData()
     {
@@ -413,7 +413,7 @@ class KeyInfoType
     /**
      * Sets a new sPKIData
      *
-     * @param \UBL\Xmldsig\SPKIData[] $sPKIData
+     * @param \App\UBL\Xmldsig\SPKIData[] $sPKIData
      * @return self
      */
     public function setSPKIData(?array $sPKIData = null)
@@ -478,5 +478,4 @@ class KeyInfoType
         return $this;
     }
 }
-
 

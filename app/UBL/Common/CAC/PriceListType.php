@@ -23,7 +23,7 @@ class PriceListType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class PriceListType
      *  Code. Type
      *  new - announcement only , new and available , deleted - announcement only
      *
-     * @var \UBL\Common\CBC\StatusCode $statusCode
+     * @var \App\UBL\Common\CBC\StatusCode $statusCode
      */
     private $statusCode = null;
 
@@ -53,7 +53,7 @@ class PriceListType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ValidityPeriod[] $validityPeriod
+     * @var \App\UBL\Common\CAC\ValidityPeriod[] $validityPeriod
      */
     private $validityPeriod = [
         
@@ -70,7 +70,7 @@ class PriceListType
      *  Price List
      *  Price List
      *
-     * @var \UBL\Common\CAC\PreviousPriceList $previousPriceList
+     * @var \App\UBL\Common\CAC\PreviousPriceList $previousPriceList
      */
     private $previousPriceList = null;
 
@@ -86,7 +86,7 @@ class PriceListType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -105,10 +105,10 @@ class PriceListType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -127,7 +127,7 @@ class PriceListType
      *  Code. Type
      *  new - announcement only , new and available , deleted - announcement only
      *
-     * @return \UBL\Common\CBC\StatusCode
+     * @return \App\UBL\Common\CBC\StatusCode
      */
     public function getStatusCode()
     {
@@ -147,10 +147,10 @@ class PriceListType
      *  Code. Type
      *  new - announcement only , new and available , deleted - announcement only
      *
-     * @param \UBL\Common\CBC\StatusCode $statusCode
+     * @param \App\UBL\Common\CBC\StatusCode $statusCode
      * @return self
      */
-    public function setStatusCode(?\UBL\Common\CBC\StatusCode $statusCode = null)
+    public function setStatusCode(?\App\UBL\Common\CBC\StatusCode $statusCode = null)
     {
         $this->statusCode = $statusCode;
         return $this;
@@ -170,9 +170,9 @@ class PriceListType
      *  Period
      *
      * @return self
-     * @param \UBL\Common\CAC\ValidityPeriod $validityPeriod
+     * @param \App\UBL\Common\CAC\ValidityPeriod $validityPeriod
      */
-    public function addToValidityPeriod(\UBL\Common\CAC\ValidityPeriod $validityPeriod)
+    public function addToValidityPeriod(\App\UBL\Common\CAC\ValidityPeriod $validityPeriod)
     {
         $this->validityPeriod[] = $validityPeriod;
         return $this;
@@ -233,7 +233,7 @@ class PriceListType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ValidityPeriod[]
+     * @return \App\UBL\Common\CAC\ValidityPeriod[]
      */
     public function getValidityPeriod()
     {
@@ -253,7 +253,7 @@ class PriceListType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ValidityPeriod[] $validityPeriod
+     * @param \App\UBL\Common\CAC\ValidityPeriod[] $validityPeriod
      * @return self
      */
     public function setValidityPeriod(?array $validityPeriod = null)
@@ -275,7 +275,7 @@ class PriceListType
      *  Price List
      *  Price List
      *
-     * @return \UBL\Common\CAC\PreviousPriceList
+     * @return \App\UBL\Common\CAC\PreviousPriceList
      */
     public function getPreviousPriceList()
     {
@@ -295,14 +295,13 @@ class PriceListType
      *  Price List
      *  Price List
      *
-     * @param \UBL\Common\CAC\PreviousPriceList $previousPriceList
+     * @param \App\UBL\Common\CAC\PreviousPriceList $previousPriceList
      * @return self
      */
-    public function setPreviousPriceList(?\UBL\Common\CAC\PreviousPriceList $previousPriceList = null)
+    public function setPreviousPriceList(?\App\UBL\Common\CAC\PreviousPriceList $previousPriceList = null)
     {
         $this->previousPriceList = $previousPriceList;
         return $this;
     }
 }
-
 

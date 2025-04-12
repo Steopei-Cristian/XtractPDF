@@ -9,4 +9,3 @@ class MultiplierFactorNumeric extends MultiplierFactorNumericType
 {
 }
 
-

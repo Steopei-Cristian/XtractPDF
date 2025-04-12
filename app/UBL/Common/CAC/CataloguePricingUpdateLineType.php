@@ -24,7 +24,7 @@ class CataloguePricingUpdateLineType
      *  Identifier. Type
      *  1
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class CataloguePricingUpdateLineType
      *  Customer Party
      *  Customer Party
      *
-     * @var \UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty
+     * @var \App\UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty
      */
     private $contractorCustomerParty = null;
 
@@ -54,7 +54,7 @@ class CataloguePricingUpdateLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @var \UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
+     * @var \App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
      */
     private $sellerSupplierParty = null;
 
@@ -69,7 +69,7 @@ class CataloguePricingUpdateLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @var \UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
+     * @var \App\UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
      */
     private $requiredItemLocationQuantity = [
         
@@ -88,7 +88,7 @@ class CataloguePricingUpdateLineType
      *  Identifier. Type
      *  1
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -108,10 +108,10 @@ class CataloguePricingUpdateLineType
      *  Identifier. Type
      *  1
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -130,7 +130,7 @@ class CataloguePricingUpdateLineType
      *  Customer Party
      *  Customer Party
      *
-     * @return \UBL\Common\CAC\ContractorCustomerParty
+     * @return \App\UBL\Common\CAC\ContractorCustomerParty
      */
     public function getContractorCustomerParty()
     {
@@ -150,10 +150,10 @@ class CataloguePricingUpdateLineType
      *  Customer Party
      *  Customer Party
      *
-     * @param \UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty
+     * @param \App\UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty
      * @return self
      */
-    public function setContractorCustomerParty(?\UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty = null)
+    public function setContractorCustomerParty(?\App\UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty = null)
     {
         $this->contractorCustomerParty = $contractorCustomerParty;
         return $this;
@@ -172,7 +172,7 @@ class CataloguePricingUpdateLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @return \UBL\Common\CAC\SellerSupplierParty
+     * @return \App\UBL\Common\CAC\SellerSupplierParty
      */
     public function getSellerSupplierParty()
     {
@@ -192,10 +192,10 @@ class CataloguePricingUpdateLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @param \UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
+     * @param \App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
      * @return self
      */
-    public function setSellerSupplierParty(?\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty = null)
+    public function setSellerSupplierParty(?\App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty = null)
     {
         $this->sellerSupplierParty = $sellerSupplierParty;
         return $this;
@@ -215,9 +215,9 @@ class CataloguePricingUpdateLineType
      *  Item Location Quantity
      *
      * @return self
-     * @param \UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity
+     * @param \App\UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity
      */
-    public function addToRequiredItemLocationQuantity(\UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity)
+    public function addToRequiredItemLocationQuantity(\App\UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity)
     {
         $this->requiredItemLocationQuantity[] = $requiredItemLocationQuantity;
         return $this;
@@ -278,7 +278,7 @@ class CataloguePricingUpdateLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @return \UBL\Common\CAC\RequiredItemLocationQuantity[]
+     * @return \App\UBL\Common\CAC\RequiredItemLocationQuantity[]
      */
     public function getRequiredItemLocationQuantity()
     {
@@ -298,7 +298,7 @@ class CataloguePricingUpdateLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @param \UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
+     * @param \App\UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
      * @return self
      */
     public function setRequiredItemLocationQuantity(?array $requiredItemLocationQuantity = null)
@@ -307,5 +307,4 @@ class CataloguePricingUpdateLineType
         return $this;
     }
 }
-
 

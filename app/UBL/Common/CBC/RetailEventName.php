@@ -9,4 +9,3 @@ class RetailEventName extends RetailEventNameType
 {
 }
 
-

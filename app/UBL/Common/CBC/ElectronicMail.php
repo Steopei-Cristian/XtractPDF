@@ -9,4 +9,3 @@ class ElectronicMail extends ElectronicMailType
 {
 }
 
-

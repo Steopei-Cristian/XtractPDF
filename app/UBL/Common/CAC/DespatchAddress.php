@@ -9,4 +9,3 @@ class DespatchAddress extends AddressType
 {
 }
 
-

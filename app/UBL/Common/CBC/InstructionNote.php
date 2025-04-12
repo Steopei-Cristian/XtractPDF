@@ -9,4 +9,3 @@ class InstructionNote extends InstructionNoteType
 {
 }
 
-

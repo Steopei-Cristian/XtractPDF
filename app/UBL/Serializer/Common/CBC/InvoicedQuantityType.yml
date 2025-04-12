@@ -1,2 +1,2 @@
-UBL\Common\CBC\InvoicedQuantityType:
+App\UBL\Common\CBC\InvoicedQuantityType:
     properties: {  }

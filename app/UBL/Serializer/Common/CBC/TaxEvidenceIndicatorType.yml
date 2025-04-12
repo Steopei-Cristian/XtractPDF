@@ -1,4 +1,4 @@
-UBL\Common\CBC\TaxEvidenceIndicatorType:
+App\UBL\Common\CBC\TaxEvidenceIndicatorType:
     properties:
         __value:
             expose: true

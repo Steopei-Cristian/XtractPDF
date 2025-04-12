@@ -9,4 +9,3 @@ class StatusPeriod extends PeriodType
 {
 }
 
-

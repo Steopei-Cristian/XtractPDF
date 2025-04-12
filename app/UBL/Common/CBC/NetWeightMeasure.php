@@ -9,4 +9,3 @@ class NetWeightMeasure extends NetWeightMeasureType
 {
 }
 
-

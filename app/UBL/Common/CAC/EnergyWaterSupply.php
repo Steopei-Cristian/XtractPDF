@@ -9,4 +9,3 @@ class EnergyWaterSupply extends EnergyWaterSupplyType
 {
 }
 
-

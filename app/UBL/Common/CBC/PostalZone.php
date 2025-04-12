@@ -9,4 +9,3 @@ class PostalZone extends PostalZoneType
 {
 }
 
-

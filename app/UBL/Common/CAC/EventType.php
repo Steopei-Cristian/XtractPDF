@@ -23,7 +23,7 @@ class EventType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\IdentificationID $identificationID
+     * @var \App\UBL\Common\CBC\IdentificationID $identificationID
      */
     private $identificationID = null;
 
@@ -65,7 +65,7 @@ class EventType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TypeCode $typeCode
+     * @var \App\UBL\Common\CBC\TypeCode $typeCode
      */
     private $typeCode = null;
 
@@ -79,7 +79,7 @@ class EventType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -111,7 +111,7 @@ class EventType
      *  Status
      *  Status
      *
-     * @var \UBL\Common\CAC\CurrentStatus[] $currentStatus
+     * @var \App\UBL\Common\CAC\CurrentStatus[] $currentStatus
      */
     private $currentStatus = [
         
@@ -127,7 +127,7 @@ class EventType
      *  Contact
      *  Contact
      *
-     * @var \UBL\Common\CAC\Contact[] $contact
+     * @var \App\UBL\Common\CAC\Contact[] $contact
      */
     private $contact = [
         
@@ -144,7 +144,7 @@ class EventType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\OccurenceLocation $occurenceLocation
+     * @var \App\UBL\Common\CAC\OccurenceLocation $occurenceLocation
      */
     private $occurenceLocation = null;
 
@@ -160,7 +160,7 @@ class EventType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\IdentificationID
+     * @return \App\UBL\Common\CBC\IdentificationID
      */
     public function getIdentificationID()
     {
@@ -179,10 +179,10 @@ class EventType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\IdentificationID $identificationID
+     * @param \App\UBL\Common\CBC\IdentificationID $identificationID
      * @return self
      */
-    public function setIdentificationID(?\UBL\Common\CBC\IdentificationID $identificationID = null)
+    public function setIdentificationID(?\App\UBL\Common\CBC\IdentificationID $identificationID = null)
     {
         $this->identificationID = $identificationID;
         return $this;
@@ -280,7 +280,7 @@ class EventType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TypeCode
+     * @return \App\UBL\Common\CBC\TypeCode
      */
     public function getTypeCode()
     {
@@ -299,10 +299,10 @@ class EventType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TypeCode $typeCode
+     * @param \App\UBL\Common\CBC\TypeCode $typeCode
      * @return self
      */
-    public function setTypeCode(?\UBL\Common\CBC\TypeCode $typeCode = null)
+    public function setTypeCode(?\App\UBL\Common\CBC\TypeCode $typeCode = null)
     {
         $this->typeCode = $typeCode;
         return $this;
@@ -321,9 +321,9 @@ class EventType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -381,7 +381,7 @@ class EventType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -400,7 +400,7 @@ class EventType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -465,9 +465,9 @@ class EventType
      *  Status
      *
      * @return self
-     * @param \UBL\Common\CAC\CurrentStatus $currentStatus
+     * @param \App\UBL\Common\CAC\CurrentStatus $currentStatus
      */
-    public function addToCurrentStatus(\UBL\Common\CAC\CurrentStatus $currentStatus)
+    public function addToCurrentStatus(\App\UBL\Common\CAC\CurrentStatus $currentStatus)
     {
         $this->currentStatus[] = $currentStatus;
         return $this;
@@ -528,7 +528,7 @@ class EventType
      *  Status
      *  Status
      *
-     * @return \UBL\Common\CAC\CurrentStatus[]
+     * @return \App\UBL\Common\CAC\CurrentStatus[]
      */
     public function getCurrentStatus()
     {
@@ -548,7 +548,7 @@ class EventType
      *  Status
      *  Status
      *
-     * @param \UBL\Common\CAC\CurrentStatus[] $currentStatus
+     * @param \App\UBL\Common\CAC\CurrentStatus[] $currentStatus
      * @return self
      */
     public function setCurrentStatus(?array $currentStatus = null)
@@ -570,9 +570,9 @@ class EventType
      *  Contact
      *
      * @return self
-     * @param \UBL\Common\CAC\Contact $contact
+     * @param \App\UBL\Common\CAC\Contact $contact
      */
-    public function addToContact(\UBL\Common\CAC\Contact $contact)
+    public function addToContact(\App\UBL\Common\CAC\Contact $contact)
     {
         $this->contact[] = $contact;
         return $this;
@@ -630,7 +630,7 @@ class EventType
      *  Contact
      *  Contact
      *
-     * @return \UBL\Common\CAC\Contact[]
+     * @return \App\UBL\Common\CAC\Contact[]
      */
     public function getContact()
     {
@@ -649,7 +649,7 @@ class EventType
      *  Contact
      *  Contact
      *
-     * @param \UBL\Common\CAC\Contact[] $contact
+     * @param \App\UBL\Common\CAC\Contact[] $contact
      * @return self
      */
     public function setContact(?array $contact = null)
@@ -671,7 +671,7 @@ class EventType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\OccurenceLocation
+     * @return \App\UBL\Common\CAC\OccurenceLocation
      */
     public function getOccurenceLocation()
     {
@@ -691,14 +691,13 @@ class EventType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\OccurenceLocation $occurenceLocation
+     * @param \App\UBL\Common\CAC\OccurenceLocation $occurenceLocation
      * @return self
      */
-    public function setOccurenceLocation(?\UBL\Common\CAC\OccurenceLocation $occurenceLocation = null)
+    public function setOccurenceLocation(?\App\UBL\Common\CAC\OccurenceLocation $occurenceLocation = null)
     {
         $this->occurenceLocation = $occurenceLocation;
         return $this;
     }
 }
-
 

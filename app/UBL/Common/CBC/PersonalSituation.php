@@ -9,4 +9,3 @@ class PersonalSituation extends PersonalSituationType
 {
 }
 
-

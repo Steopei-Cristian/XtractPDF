@@ -9,4 +9,3 @@ class HandlingInstructions extends HandlingInstructionsType
 {
 }
 
-

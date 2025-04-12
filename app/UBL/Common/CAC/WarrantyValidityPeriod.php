@@ -9,4 +9,3 @@ class WarrantyValidityPeriod extends PeriodType
 {
 }
 
-

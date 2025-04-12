@@ -9,4 +9,3 @@ class AdmissionCode extends AdmissionCodeType
 {
 }
 
-

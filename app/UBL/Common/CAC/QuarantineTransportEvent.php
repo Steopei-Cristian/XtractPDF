@@ -9,4 +9,3 @@ class QuarantineTransportEvent extends TransportEventType
 {
 }
 
-

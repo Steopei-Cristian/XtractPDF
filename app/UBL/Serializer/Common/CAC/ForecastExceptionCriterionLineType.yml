@@ -1,4 +1,4 @@
-UBL\Common\CAC\ForecastExceptionCriterionLineType:
+App\UBL\Common\CAC\ForecastExceptionCriterionLineType:
     properties:
         forecastPurposeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ForecastExceptionCriterionLineType:
             accessor:
                 getter: getForecastPurposeCode
                 setter: setForecastPurposeCode
-            type: UBL\Common\CBC\ForecastPurposeCode
+            type: App\UBL\Common\CBC\ForecastPurposeCode
         forecastTypeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ForecastExceptionCriterionLineType:
             accessor:
                 getter: getForecastTypeCode
                 setter: setForecastTypeCode
-            type: UBL\Common\CBC\ForecastTypeCode
+            type: App\UBL\Common\CBC\ForecastTypeCode
         comparisonDataSourceCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\ForecastExceptionCriterionLineType:
             accessor:
                 getter: getComparisonDataSourceCode
                 setter: setComparisonDataSourceCode
-            type: UBL\Common\CBC\ComparisonDataSourceCode
+            type: App\UBL\Common\CBC\ComparisonDataSourceCode
         dataSourceCode:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\ForecastExceptionCriterionLineType:
             accessor:
                 getter: getDataSourceCode
                 setter: setDataSourceCode
-            type: UBL\Common\CBC\DataSourceCode
+            type: App\UBL\Common\CBC\DataSourceCode
         timeDeltaDaysQuantity:
             expose: true
             access_type: public_method
@@ -49,4 +49,4 @@ UBL\Common\CAC\ForecastExceptionCriterionLineType:
             accessor:
                 getter: getTimeDeltaDaysQuantity
                 setter: setTimeDeltaDaysQuantity
-            type: UBL\Common\CBC\TimeDeltaDaysQuantity
+            type: App\UBL\Common\CBC\TimeDeltaDaysQuantity

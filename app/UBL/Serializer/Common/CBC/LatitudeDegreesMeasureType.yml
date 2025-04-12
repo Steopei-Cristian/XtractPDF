@@ -1,2 +1,2 @@
-UBL\Common\CBC\LatitudeDegreesMeasureType:
+App\UBL\Common\CBC\LatitudeDegreesMeasureType:
     properties: {  }

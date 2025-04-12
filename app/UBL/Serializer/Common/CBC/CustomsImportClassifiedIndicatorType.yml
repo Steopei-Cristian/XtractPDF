@@ -1,4 +1,4 @@
-UBL\Common\CBC\CustomsImportClassifiedIndicatorType:
+App\UBL\Common\CBC\CustomsImportClassifiedIndicatorType:
     properties:
         __value:
             expose: true

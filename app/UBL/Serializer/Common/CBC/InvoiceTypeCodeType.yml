@@ -1,2 +1,2 @@
-UBL\Common\CBC\InvoiceTypeCodeType:
+App\UBL\Common\CBC\InvoiceTypeCodeType:
     properties: {  }

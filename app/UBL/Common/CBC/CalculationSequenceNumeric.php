@@ -9,4 +9,3 @@ class CalculationSequenceNumeric extends CalculationSequenceNumericType
 {
 }
 
-

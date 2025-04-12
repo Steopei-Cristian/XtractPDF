@@ -9,4 +9,3 @@ class PromisedDeliveryPeriod extends PeriodType
 {
 }
 
-

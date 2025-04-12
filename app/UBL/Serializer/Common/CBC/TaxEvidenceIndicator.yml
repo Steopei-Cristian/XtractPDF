@@ -1,4 +1,4 @@
-UBL\Common\CBC\TaxEvidenceIndicator:
+App\UBL\Common\CBC\TaxEvidenceIndicator:
     xml_root_name: TaxEvidenceIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

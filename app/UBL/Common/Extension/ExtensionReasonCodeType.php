@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\Extension;
 
-use UBL\Unqualified\CodeType;
+use App\UBL\Unqualified\CodeType;
 
 /**
  * Class representing ExtensionReasonCodeType
@@ -13,5 +13,4 @@ use UBL\Unqualified\CodeType;
 class ExtensionReasonCodeType extends CodeType
 {
 }
-
 

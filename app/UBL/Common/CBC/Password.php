@@ -9,4 +9,3 @@ class Password extends PasswordType
 {
 }
 
-

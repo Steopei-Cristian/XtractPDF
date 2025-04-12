@@ -9,4 +9,3 @@ class AllowanceTotalAmount extends AllowanceTotalAmountType
 {
 }
 
-

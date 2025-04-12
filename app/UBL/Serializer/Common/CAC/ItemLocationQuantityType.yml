@@ -1,4 +1,4 @@
-UBL\Common\CAC\ItemLocationQuantityType:
+App\UBL\Common\CAC\ItemLocationQuantityType:
     properties:
         leadTimeMeasure:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ItemLocationQuantityType:
             accessor:
                 getter: getLeadTimeMeasure
                 setter: setLeadTimeMeasure
-            type: UBL\Common\CBC\LeadTimeMeasure
+            type: App\UBL\Common\CBC\LeadTimeMeasure
         minimumQuantity:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ItemLocationQuantityType:
             accessor:
                 getter: getMinimumQuantity
                 setter: setMinimumQuantity
-            type: UBL\Common\CBC\MinimumQuantity
+            type: App\UBL\Common\CBC\MinimumQuantity
         maximumQuantity:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\ItemLocationQuantityType:
             accessor:
                 getter: getMaximumQuantity
                 setter: setMaximumQuantity
-            type: UBL\Common\CBC\MaximumQuantity
+            type: App\UBL\Common\CBC\MaximumQuantity
         hazardousRiskIndicator:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\ItemLocationQuantityType:
                 inline: true
                 entry_name: TradingRestrictions
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\TradingRestrictions>
+            type: array<App\UBL\Common\CBC\TradingRestrictions>
         applicableTerritoryAddress:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\ItemLocationQuantityType:
                 inline: true
                 entry_name: ApplicableTerritoryAddress
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ApplicableTerritoryAddress>
+            type: array<App\UBL\Common\CAC\ApplicableTerritoryAddress>
         price:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\ItemLocationQuantityType:
             accessor:
                 getter: getPrice
                 setter: setPrice
-            type: UBL\Common\CAC\Price
+            type: App\UBL\Common\CAC\Price
         deliveryUnit:
             expose: true
             access_type: public_method
@@ -91,7 +91,7 @@ UBL\Common\CAC\ItemLocationQuantityType:
                 inline: true
                 entry_name: DeliveryUnit
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DeliveryUnit>
+            type: array<App\UBL\Common\CAC\DeliveryUnit>
         applicableTaxCategory:
             expose: true
             access_type: public_method
@@ -105,7 +105,7 @@ UBL\Common\CAC\ItemLocationQuantityType:
                 inline: true
                 entry_name: ApplicableTaxCategory
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ApplicableTaxCategory>
+            type: array<App\UBL\Common\CAC\ApplicableTaxCategory>
         package:
             expose: true
             access_type: public_method
@@ -115,7 +115,7 @@ UBL\Common\CAC\ItemLocationQuantityType:
             accessor:
                 getter: getPackage
                 setter: setPackage
-            type: UBL\Common\CAC\Package
+            type: App\UBL\Common\CAC\Package
         allowanceCharge:
             expose: true
             access_type: public_method
@@ -129,7 +129,7 @@ UBL\Common\CAC\ItemLocationQuantityType:
                 inline: true
                 entry_name: AllowanceCharge
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AllowanceCharge>
+            type: array<App\UBL\Common\CAC\AllowanceCharge>
         dependentPriceReference:
             expose: true
             access_type: public_method
@@ -139,4 +139,4 @@ UBL\Common\CAC\ItemLocationQuantityType:
             accessor:
                 getter: getDependentPriceReference
                 setter: setDependentPriceReference
-            type: UBL\Common\CAC\DependentPriceReference
+            type: App\UBL\Common\CAC\DependentPriceReference

@@ -9,4 +9,3 @@ class ArchiveTimeStamp extends XAdESTimeStampType
 {
 }
 
-

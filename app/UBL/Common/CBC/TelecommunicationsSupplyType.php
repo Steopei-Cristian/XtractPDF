@@ -9,4 +9,3 @@ class TelecommunicationsSupplyType extends TelecommunicationsSupplyTypeType
 {
 }
 
-

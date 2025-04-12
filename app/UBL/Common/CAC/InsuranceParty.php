@@ -9,4 +9,3 @@ class InsuranceParty extends PartyType
 {
 }
 
-

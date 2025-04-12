@@ -9,4 +9,3 @@ class ResidenceType extends ResidenceTypeType
 {
 }
 
-

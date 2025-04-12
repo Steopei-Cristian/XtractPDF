@@ -1,4 +1,4 @@
-UBL\Common\CBC\ActualDespatchTimeType:
+App\UBL\Common\CBC\ActualDespatchTimeType:
     properties:
         __value:
             expose: true

@@ -9,4 +9,3 @@ class ProcurementSubTypeCode extends ProcurementSubTypeCodeType
 {
 }
 
-

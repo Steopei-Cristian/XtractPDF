@@ -1,2 +1,2 @@
-UBL\Common\CBC\TaxCurrencyCodeType:
+App\UBL\Common\CBC\TaxCurrencyCodeType:
     properties: {  }

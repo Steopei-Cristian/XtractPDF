@@ -9,4 +9,3 @@ class UnsupportedCommodityClassification extends CommodityClassificationType
 {
 }
 
-

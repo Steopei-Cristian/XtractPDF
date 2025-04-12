@@ -1,2 +1,2 @@
-UBL\Common\CBC\DebitedQuantityType:
+App\UBL\Common\CBC\DebitedQuantityType:
     properties: {  }

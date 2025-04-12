@@ -9,4 +9,3 @@ class SchemeURI extends SchemeURIType
 {
 }
 
-

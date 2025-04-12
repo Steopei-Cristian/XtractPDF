@@ -1,2 +1,2 @@
-UBL\Common\CBC\OrderableUnitFactorRateType:
+App\UBL\Common\CBC\OrderableUnitFactorRateType:
     properties: {  }

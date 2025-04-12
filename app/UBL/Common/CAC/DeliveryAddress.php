@@ -9,4 +9,3 @@ class DeliveryAddress extends AddressType
 {
 }
 
-

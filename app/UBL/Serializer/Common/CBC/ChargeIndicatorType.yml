@@ -1,4 +1,4 @@
-UBL\Common\CBC\ChargeIndicatorType:
+App\UBL\Common\CBC\ChargeIndicatorType:
     properties:
         __value:
             expose: true

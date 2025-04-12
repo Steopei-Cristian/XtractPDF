@@ -9,4 +9,3 @@ class MarkCare extends MarkCareType
 {
 }
 
-

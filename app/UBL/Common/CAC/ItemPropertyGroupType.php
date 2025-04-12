@@ -24,7 +24,7 @@ class ItemPropertyGroupType
      *  Identifier. Type
      *  233-004
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class ItemPropertyGroupType
      *  Name. Type
      *  Electrical Specifications , Dietary Content
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -53,7 +53,7 @@ class ItemPropertyGroupType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ImportanceCode $importanceCode
+     * @var \App\UBL\Common\CBC\ImportanceCode $importanceCode
      */
     private $importanceCode = null;
 
@@ -70,7 +70,7 @@ class ItemPropertyGroupType
      *  Identifier. Type
      *  233-004
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -90,10 +90,10 @@ class ItemPropertyGroupType
      *  Identifier. Type
      *  233-004
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -112,7 +112,7 @@ class ItemPropertyGroupType
      *  Name. Type
      *  Electrical Specifications , Dietary Content
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -132,10 +132,10 @@ class ItemPropertyGroupType
      *  Name. Type
      *  Electrical Specifications , Dietary Content
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -153,7 +153,7 @@ class ItemPropertyGroupType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ImportanceCode
+     * @return \App\UBL\Common\CBC\ImportanceCode
      */
     public function getImportanceCode()
     {
@@ -172,14 +172,13 @@ class ItemPropertyGroupType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ImportanceCode $importanceCode
+     * @param \App\UBL\Common\CBC\ImportanceCode $importanceCode
      * @return self
      */
-    public function setImportanceCode(?\UBL\Common\CBC\ImportanceCode $importanceCode = null)
+    public function setImportanceCode(?\App\UBL\Common\CBC\ImportanceCode $importanceCode = null)
     {
         $this->importanceCode = $importanceCode;
         return $this;
     }
 }
-
 

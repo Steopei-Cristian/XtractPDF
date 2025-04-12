@@ -1,4 +1,4 @@
-UBL\Common\CBC\ResolutionTimeType:
+App\UBL\Common\CBC\ResolutionTimeType:
     properties:
         __value:
             expose: true

@@ -9,4 +9,3 @@ class PlannedWaypointTransportEvent extends TransportEventType
 {
 }
 
-

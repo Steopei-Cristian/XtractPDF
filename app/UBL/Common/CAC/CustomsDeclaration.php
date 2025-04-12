@@ -9,4 +9,3 @@ class CustomsDeclaration extends CustomsDeclarationType
 {
 }
 
-

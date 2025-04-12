@@ -9,4 +9,3 @@ class TestMethod extends TestMethodType
 {
 }
 
-

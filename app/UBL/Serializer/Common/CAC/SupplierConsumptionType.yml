@@ -1,4 +1,4 @@
-UBL\Common\CAC\SupplierConsumptionType:
+App\UBL\Common\CAC\SupplierConsumptionType:
     properties:
         description:
             expose: true
@@ -13,7 +13,7 @@ UBL\Common\CAC\SupplierConsumptionType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         utilitySupplierParty:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\SupplierConsumptionType:
             accessor:
                 getter: getUtilitySupplierParty
                 setter: setUtilitySupplierParty
-            type: UBL\Common\CAC\UtilitySupplierParty
+            type: App\UBL\Common\CAC\UtilitySupplierParty
         utilityCustomerParty:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\SupplierConsumptionType:
             accessor:
                 getter: getUtilityCustomerParty
                 setter: setUtilityCustomerParty
-            type: UBL\Common\CAC\UtilityCustomerParty
+            type: App\UBL\Common\CAC\UtilityCustomerParty
         consumption:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\SupplierConsumptionType:
             accessor:
                 getter: getConsumption
                 setter: setConsumption
-            type: UBL\Common\CAC\Consumption
+            type: App\UBL\Common\CAC\Consumption
         contract:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\SupplierConsumptionType:
             accessor:
                 getter: getContract
                 setter: setContract
-            type: UBL\Common\CAC\Contract
+            type: App\UBL\Common\CAC\Contract
         consumptionLine:
             expose: true
             access_type: public_method
@@ -67,4 +67,4 @@ UBL\Common\CAC\SupplierConsumptionType:
                 inline: true
                 entry_name: ConsumptionLine
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ConsumptionLine>
+            type: array<App\UBL\Common\CAC\ConsumptionLine>

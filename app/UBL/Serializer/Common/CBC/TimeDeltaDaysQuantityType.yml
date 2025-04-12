@@ -1,2 +1,2 @@
-UBL\Common\CBC\TimeDeltaDaysQuantityType:
+App\UBL\Common\CBC\TimeDeltaDaysQuantityType:
     properties: {  }

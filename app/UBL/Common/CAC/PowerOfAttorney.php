@@ -9,4 +9,3 @@ class PowerOfAttorney extends PowerOfAttorneyType
 {
 }
 
-

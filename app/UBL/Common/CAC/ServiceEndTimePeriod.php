@@ -9,4 +9,3 @@ class ServiceEndTimePeriod extends PeriodType
 {
 }
 
-

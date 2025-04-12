@@ -1,4 +1,4 @@
-UBL\Common\CAC\HazardousItemType:
+App\UBL\Common\CAC\HazardousItemType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         placardNotation:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getPlacardNotation
                 setter: setPlacardNotation
-            type: UBL\Common\CBC\PlacardNotation
+            type: App\UBL\Common\CBC\PlacardNotation
         placardEndorsement:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getPlacardEndorsement
                 setter: setPlacardEndorsement
-            type: UBL\Common\CBC\PlacardEndorsement
+            type: App\UBL\Common\CBC\PlacardEndorsement
         additionalInformation:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\HazardousItemType:
                 inline: true
                 entry_name: AdditionalInformation
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\AdditionalInformation>
+            type: array<App\UBL\Common\CBC\AdditionalInformation>
         uNDGCode:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getUNDGCode
                 setter: setUNDGCode
-            type: UBL\Common\CBC\UNDGCode
+            type: App\UBL\Common\CBC\UNDGCode
         emergencyProceduresCode:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getEmergencyProceduresCode
                 setter: setEmergencyProceduresCode
-            type: UBL\Common\CBC\EmergencyProceduresCode
+            type: App\UBL\Common\CBC\EmergencyProceduresCode
         medicalFirstAidGuideCode:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getMedicalFirstAidGuideCode
                 setter: setMedicalFirstAidGuideCode
-            type: UBL\Common\CBC\MedicalFirstAidGuideCode
+            type: App\UBL\Common\CBC\MedicalFirstAidGuideCode
         technicalName:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getTechnicalName
                 setter: setTechnicalName
-            type: UBL\Common\CBC\TechnicalName
+            type: App\UBL\Common\CBC\TechnicalName
         categoryName:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getCategoryName
                 setter: setCategoryName
-            type: UBL\Common\CBC\CategoryName
+            type: App\UBL\Common\CBC\CategoryName
         hazardousCategoryCode:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getHazardousCategoryCode
                 setter: setHazardousCategoryCode
-            type: UBL\Common\CBC\HazardousCategoryCode
+            type: App\UBL\Common\CBC\HazardousCategoryCode
         upperOrangeHazardPlacardID:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getUpperOrangeHazardPlacardID
                 setter: setUpperOrangeHazardPlacardID
-            type: UBL\Common\CBC\UpperOrangeHazardPlacardID
+            type: App\UBL\Common\CBC\UpperOrangeHazardPlacardID
         lowerOrangeHazardPlacardID:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getLowerOrangeHazardPlacardID
                 setter: setLowerOrangeHazardPlacardID
-            type: UBL\Common\CBC\LowerOrangeHazardPlacardID
+            type: App\UBL\Common\CBC\LowerOrangeHazardPlacardID
         markingID:
             expose: true
             access_type: public_method
@@ -133,7 +133,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getMarkingID
                 setter: setMarkingID
-            type: UBL\Common\CBC\MarkingID
+            type: App\UBL\Common\CBC\MarkingID
         hazardClassID:
             expose: true
             access_type: public_method
@@ -143,7 +143,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getHazardClassID
                 setter: setHazardClassID
-            type: UBL\Common\CBC\HazardClassID
+            type: App\UBL\Common\CBC\HazardClassID
         netWeightMeasure:
             expose: true
             access_type: public_method
@@ -153,7 +153,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getNetWeightMeasure
                 setter: setNetWeightMeasure
-            type: UBL\Common\CBC\NetWeightMeasure
+            type: App\UBL\Common\CBC\NetWeightMeasure
         netVolumeMeasure:
             expose: true
             access_type: public_method
@@ -163,7 +163,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getNetVolumeMeasure
                 setter: setNetVolumeMeasure
-            type: UBL\Common\CBC\NetVolumeMeasure
+            type: App\UBL\Common\CBC\NetVolumeMeasure
         quantity:
             expose: true
             access_type: public_method
@@ -173,7 +173,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         contactParty:
             expose: true
             access_type: public_method
@@ -183,7 +183,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getContactParty
                 setter: setContactParty
-            type: UBL\Common\CAC\ContactParty
+            type: App\UBL\Common\CAC\ContactParty
         secondaryHazard:
             expose: true
             access_type: public_method
@@ -197,7 +197,7 @@ UBL\Common\CAC\HazardousItemType:
                 inline: true
                 entry_name: SecondaryHazard
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SecondaryHazard>
+            type: array<App\UBL\Common\CAC\SecondaryHazard>
         hazardousGoodsTransit:
             expose: true
             access_type: public_method
@@ -211,7 +211,7 @@ UBL\Common\CAC\HazardousItemType:
                 inline: true
                 entry_name: HazardousGoodsTransit
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\HazardousGoodsTransit>
+            type: array<App\UBL\Common\CAC\HazardousGoodsTransit>
         emergencyTemperature:
             expose: true
             access_type: public_method
@@ -221,7 +221,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getEmergencyTemperature
                 setter: setEmergencyTemperature
-            type: UBL\Common\CAC\EmergencyTemperature
+            type: App\UBL\Common\CAC\EmergencyTemperature
         flashpointTemperature:
             expose: true
             access_type: public_method
@@ -231,7 +231,7 @@ UBL\Common\CAC\HazardousItemType:
             accessor:
                 getter: getFlashpointTemperature
                 setter: setFlashpointTemperature
-            type: UBL\Common\CAC\FlashpointTemperature
+            type: App\UBL\Common\CAC\FlashpointTemperature
         additionalTemperature:
             expose: true
             access_type: public_method
@@ -245,4 +245,4 @@ UBL\Common\CAC\HazardousItemType:
                 inline: true
                 entry_name: AdditionalTemperature
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AdditionalTemperature>
+            type: array<App\UBL\Common\CAC\AdditionalTemperature>

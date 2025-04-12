@@ -9,4 +9,3 @@ class PhysicalAttribute extends PhysicalAttributeType
 {
 }
 
-

@@ -16,7 +16,7 @@ class SignaturePropertiesType
     private $id = null;
 
     /**
-     * @var \UBL\Xmldsig\SignatureProperty[] $signatureProperty
+     * @var \App\UBL\Xmldsig\SignatureProperty[] $signatureProperty
      */
     private $signatureProperty = [
         
@@ -48,9 +48,9 @@ class SignaturePropertiesType
      * Adds as signatureProperty
      *
      * @return self
-     * @param \UBL\Xmldsig\SignatureProperty $signatureProperty
+     * @param \App\UBL\Xmldsig\SignatureProperty $signatureProperty
      */
-    public function addToSignatureProperty(\UBL\Xmldsig\SignatureProperty $signatureProperty)
+    public function addToSignatureProperty(\App\UBL\Xmldsig\SignatureProperty $signatureProperty)
     {
         $this->signatureProperty[] = $signatureProperty;
         return $this;
@@ -81,7 +81,7 @@ class SignaturePropertiesType
     /**
      * Gets as signatureProperty
      *
-     * @return \UBL\Xmldsig\SignatureProperty[]
+     * @return \App\UBL\Xmldsig\SignatureProperty[]
      */
     public function getSignatureProperty()
     {
@@ -91,7 +91,7 @@ class SignaturePropertiesType
     /**
      * Sets a new signatureProperty
      *
-     * @param \UBL\Xmldsig\SignatureProperty[] $signatureProperty
+     * @param \App\UBL\Xmldsig\SignatureProperty[] $signatureProperty
      * @return self
      */
     public function setSignatureProperty(array $signatureProperty)
@@ -100,5 +100,4 @@ class SignaturePropertiesType
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class TradeServiceCode extends TradeServiceCodeType
 {
 }
 
-

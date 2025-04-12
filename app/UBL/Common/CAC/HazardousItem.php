@@ -9,4 +9,3 @@ class HazardousItem extends HazardousItemType
 {
 }
 
-

@@ -9,4 +9,3 @@ class TendererRequirementTypeCode extends TendererRequirementTypeCodeType
 {
 }
 
-

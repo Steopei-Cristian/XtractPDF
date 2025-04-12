@@ -9,4 +9,3 @@ class PaymentReversalPeriod extends PeriodType
 {
 }
 
-

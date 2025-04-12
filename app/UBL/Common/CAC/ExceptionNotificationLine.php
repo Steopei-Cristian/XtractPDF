@@ -9,4 +9,3 @@ class ExceptionNotificationLine extends ExceptionNotificationLineType
 {
 }
 
-

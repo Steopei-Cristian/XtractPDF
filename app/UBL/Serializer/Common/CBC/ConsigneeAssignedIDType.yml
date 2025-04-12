@@ -1,2 +1,2 @@
-UBL\Common\CBC\ConsigneeAssignedIDType:
+App\UBL\Common\CBC\ConsigneeAssignedIDType:
     properties: {  }

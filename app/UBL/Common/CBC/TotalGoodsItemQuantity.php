@@ -9,4 +9,3 @@ class TotalGoodsItemQuantity extends TotalGoodsItemQuantityType
 {
 }
 
-

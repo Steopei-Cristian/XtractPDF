@@ -9,4 +9,3 @@ class IssuerEndorsement extends EndorsementType
 {
 }
 
-

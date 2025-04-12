@@ -9,4 +9,3 @@ class PalletSpaceMeasurementDimension extends DimensionType
 {
 }
 
-

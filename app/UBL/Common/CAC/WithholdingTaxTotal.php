@@ -9,4 +9,3 @@ class WithholdingTaxTotal extends TaxTotalType
 {
 }
 
-

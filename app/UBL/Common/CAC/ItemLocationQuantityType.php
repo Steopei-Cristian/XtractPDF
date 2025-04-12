@@ -24,7 +24,7 @@ class ItemLocationQuantityType
      *  Measure. Type
      *  2 days , 24 hours
      *
-     * @var \UBL\Common\CBC\LeadTimeMeasure $leadTimeMeasure
+     * @var \App\UBL\Common\CBC\LeadTimeMeasure $leadTimeMeasure
      */
     private $leadTimeMeasure = null;
 
@@ -40,7 +40,7 @@ class ItemLocationQuantityType
      *  Quantity. Type
      *  10 boxes , 1 carton , 1000 sheets
      *
-     * @var \UBL\Common\CBC\MinimumQuantity $minimumQuantity
+     * @var \App\UBL\Common\CBC\MinimumQuantity $minimumQuantity
      */
     private $minimumQuantity = null;
 
@@ -56,7 +56,7 @@ class ItemLocationQuantityType
      *  Quantity. Type
      *  10 boxes , 1 carton , 1000 sheets
      *
-     * @var \UBL\Common\CBC\MaximumQuantity $maximumQuantity
+     * @var \App\UBL\Common\CBC\MaximumQuantity $maximumQuantity
      */
     private $maximumQuantity = null;
 
@@ -87,7 +87,7 @@ class ItemLocationQuantityType
      *  Text. Type
      *  not for export
      *
-     * @var \UBL\Common\CBC\TradingRestrictions[] $tradingRestrictions
+     * @var \App\UBL\Common\CBC\TradingRestrictions[] $tradingRestrictions
      */
     private $tradingRestrictions = [
         
@@ -104,7 +104,7 @@ class ItemLocationQuantityType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\ApplicableTerritoryAddress[] $applicableTerritoryAddress
+     * @var \App\UBL\Common\CAC\ApplicableTerritoryAddress[] $applicableTerritoryAddress
      */
     private $applicableTerritoryAddress = [
         
@@ -120,7 +120,7 @@ class ItemLocationQuantityType
      *  Price
      *  Price
      *
-     * @var \UBL\Common\CAC\Price $price
+     * @var \App\UBL\Common\CAC\Price $price
      */
     private $price = null;
 
@@ -134,7 +134,7 @@ class ItemLocationQuantityType
      *  Delivery Unit
      *  Delivery Unit
      *
-     * @var \UBL\Common\CAC\DeliveryUnit[] $deliveryUnit
+     * @var \App\UBL\Common\CAC\DeliveryUnit[] $deliveryUnit
      */
     private $deliveryUnit = [
         
@@ -151,7 +151,7 @@ class ItemLocationQuantityType
      *  Tax Category
      *  Tax Category
      *
-     * @var \UBL\Common\CAC\ApplicableTaxCategory[] $applicableTaxCategory
+     * @var \App\UBL\Common\CAC\ApplicableTaxCategory[] $applicableTaxCategory
      */
     private $applicableTaxCategory = [
         
@@ -167,7 +167,7 @@ class ItemLocationQuantityType
      *  Package
      *  Package
      *
-     * @var \UBL\Common\CAC\Package $package
+     * @var \App\UBL\Common\CAC\Package $package
      */
     private $package = null;
 
@@ -181,7 +181,7 @@ class ItemLocationQuantityType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @var \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      */
     private $allowanceCharge = [
         
@@ -197,7 +197,7 @@ class ItemLocationQuantityType
      *  Dependent Price Reference
      *  Dependent Price Reference
      *
-     * @var \UBL\Common\CAC\DependentPriceReference $dependentPriceReference
+     * @var \App\UBL\Common\CAC\DependentPriceReference $dependentPriceReference
      */
     private $dependentPriceReference = null;
 
@@ -214,7 +214,7 @@ class ItemLocationQuantityType
      *  Measure. Type
      *  2 days , 24 hours
      *
-     * @return \UBL\Common\CBC\LeadTimeMeasure
+     * @return \App\UBL\Common\CBC\LeadTimeMeasure
      */
     public function getLeadTimeMeasure()
     {
@@ -234,10 +234,10 @@ class ItemLocationQuantityType
      *  Measure. Type
      *  2 days , 24 hours
      *
-     * @param \UBL\Common\CBC\LeadTimeMeasure $leadTimeMeasure
+     * @param \App\UBL\Common\CBC\LeadTimeMeasure $leadTimeMeasure
      * @return self
      */
-    public function setLeadTimeMeasure(?\UBL\Common\CBC\LeadTimeMeasure $leadTimeMeasure = null)
+    public function setLeadTimeMeasure(?\App\UBL\Common\CBC\LeadTimeMeasure $leadTimeMeasure = null)
     {
         $this->leadTimeMeasure = $leadTimeMeasure;
         return $this;
@@ -257,7 +257,7 @@ class ItemLocationQuantityType
      *  Quantity. Type
      *  10 boxes , 1 carton , 1000 sheets
      *
-     * @return \UBL\Common\CBC\MinimumQuantity
+     * @return \App\UBL\Common\CBC\MinimumQuantity
      */
     public function getMinimumQuantity()
     {
@@ -278,10 +278,10 @@ class ItemLocationQuantityType
      *  Quantity. Type
      *  10 boxes , 1 carton , 1000 sheets
      *
-     * @param \UBL\Common\CBC\MinimumQuantity $minimumQuantity
+     * @param \App\UBL\Common\CBC\MinimumQuantity $minimumQuantity
      * @return self
      */
-    public function setMinimumQuantity(?\UBL\Common\CBC\MinimumQuantity $minimumQuantity = null)
+    public function setMinimumQuantity(?\App\UBL\Common\CBC\MinimumQuantity $minimumQuantity = null)
     {
         $this->minimumQuantity = $minimumQuantity;
         return $this;
@@ -301,7 +301,7 @@ class ItemLocationQuantityType
      *  Quantity. Type
      *  10 boxes , 1 carton , 1000 sheets
      *
-     * @return \UBL\Common\CBC\MaximumQuantity
+     * @return \App\UBL\Common\CBC\MaximumQuantity
      */
     public function getMaximumQuantity()
     {
@@ -322,10 +322,10 @@ class ItemLocationQuantityType
      *  Quantity. Type
      *  10 boxes , 1 carton , 1000 sheets
      *
-     * @param \UBL\Common\CBC\MaximumQuantity $maximumQuantity
+     * @param \App\UBL\Common\CBC\MaximumQuantity $maximumQuantity
      * @return self
      */
-    public function setMaximumQuantity(?\UBL\Common\CBC\MaximumQuantity $maximumQuantity = null)
+    public function setMaximumQuantity(?\App\UBL\Common\CBC\MaximumQuantity $maximumQuantity = null)
     {
         $this->maximumQuantity = $maximumQuantity;
         return $this;
@@ -389,9 +389,9 @@ class ItemLocationQuantityType
      *  not for export
      *
      * @return self
-     * @param \UBL\Common\CBC\TradingRestrictions $tradingRestrictions
+     * @param \App\UBL\Common\CBC\TradingRestrictions $tradingRestrictions
      */
-    public function addToTradingRestrictions(\UBL\Common\CBC\TradingRestrictions $tradingRestrictions)
+    public function addToTradingRestrictions(\App\UBL\Common\CBC\TradingRestrictions $tradingRestrictions)
     {
         $this->tradingRestrictions[] = $tradingRestrictions;
         return $this;
@@ -452,7 +452,7 @@ class ItemLocationQuantityType
      *  Text. Type
      *  not for export
      *
-     * @return \UBL\Common\CBC\TradingRestrictions[]
+     * @return \App\UBL\Common\CBC\TradingRestrictions[]
      */
     public function getTradingRestrictions()
     {
@@ -472,7 +472,7 @@ class ItemLocationQuantityType
      *  Text. Type
      *  not for export
      *
-     * @param \UBL\Common\CBC\TradingRestrictions[] $tradingRestrictions
+     * @param \App\UBL\Common\CBC\TradingRestrictions[] $tradingRestrictions
      * @return self
      */
     public function setTradingRestrictions(?array $tradingRestrictions = null)
@@ -495,9 +495,9 @@ class ItemLocationQuantityType
      *  Address
      *
      * @return self
-     * @param \UBL\Common\CAC\ApplicableTerritoryAddress $applicableTerritoryAddress
+     * @param \App\UBL\Common\CAC\ApplicableTerritoryAddress $applicableTerritoryAddress
      */
-    public function addToApplicableTerritoryAddress(\UBL\Common\CAC\ApplicableTerritoryAddress $applicableTerritoryAddress)
+    public function addToApplicableTerritoryAddress(\App\UBL\Common\CAC\ApplicableTerritoryAddress $applicableTerritoryAddress)
     {
         $this->applicableTerritoryAddress[] = $applicableTerritoryAddress;
         return $this;
@@ -558,7 +558,7 @@ class ItemLocationQuantityType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\ApplicableTerritoryAddress[]
+     * @return \App\UBL\Common\CAC\ApplicableTerritoryAddress[]
      */
     public function getApplicableTerritoryAddress()
     {
@@ -578,7 +578,7 @@ class ItemLocationQuantityType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\ApplicableTerritoryAddress[] $applicableTerritoryAddress
+     * @param \App\UBL\Common\CAC\ApplicableTerritoryAddress[] $applicableTerritoryAddress
      * @return self
      */
     public function setApplicableTerritoryAddress(?array $applicableTerritoryAddress = null)
@@ -599,7 +599,7 @@ class ItemLocationQuantityType
      *  Price
      *  Price
      *
-     * @return \UBL\Common\CAC\Price
+     * @return \App\UBL\Common\CAC\Price
      */
     public function getPrice()
     {
@@ -618,10 +618,10 @@ class ItemLocationQuantityType
      *  Price
      *  Price
      *
-     * @param \UBL\Common\CAC\Price $price
+     * @param \App\UBL\Common\CAC\Price $price
      * @return self
      */
-    public function setPrice(?\UBL\Common\CAC\Price $price = null)
+    public function setPrice(?\App\UBL\Common\CAC\Price $price = null)
     {
         $this->price = $price;
         return $this;
@@ -640,9 +640,9 @@ class ItemLocationQuantityType
      *  Delivery Unit
      *
      * @return self
-     * @param \UBL\Common\CAC\DeliveryUnit $deliveryUnit
+     * @param \App\UBL\Common\CAC\DeliveryUnit $deliveryUnit
      */
-    public function addToDeliveryUnit(\UBL\Common\CAC\DeliveryUnit $deliveryUnit)
+    public function addToDeliveryUnit(\App\UBL\Common\CAC\DeliveryUnit $deliveryUnit)
     {
         $this->deliveryUnit[] = $deliveryUnit;
         return $this;
@@ -700,7 +700,7 @@ class ItemLocationQuantityType
      *  Delivery Unit
      *  Delivery Unit
      *
-     * @return \UBL\Common\CAC\DeliveryUnit[]
+     * @return \App\UBL\Common\CAC\DeliveryUnit[]
      */
     public function getDeliveryUnit()
     {
@@ -719,7 +719,7 @@ class ItemLocationQuantityType
      *  Delivery Unit
      *  Delivery Unit
      *
-     * @param \UBL\Common\CAC\DeliveryUnit[] $deliveryUnit
+     * @param \App\UBL\Common\CAC\DeliveryUnit[] $deliveryUnit
      * @return self
      */
     public function setDeliveryUnit(?array $deliveryUnit = null)
@@ -742,9 +742,9 @@ class ItemLocationQuantityType
      *  Tax Category
      *
      * @return self
-     * @param \UBL\Common\CAC\ApplicableTaxCategory $applicableTaxCategory
+     * @param \App\UBL\Common\CAC\ApplicableTaxCategory $applicableTaxCategory
      */
-    public function addToApplicableTaxCategory(\UBL\Common\CAC\ApplicableTaxCategory $applicableTaxCategory)
+    public function addToApplicableTaxCategory(\App\UBL\Common\CAC\ApplicableTaxCategory $applicableTaxCategory)
     {
         $this->applicableTaxCategory[] = $applicableTaxCategory;
         return $this;
@@ -805,7 +805,7 @@ class ItemLocationQuantityType
      *  Tax Category
      *  Tax Category
      *
-     * @return \UBL\Common\CAC\ApplicableTaxCategory[]
+     * @return \App\UBL\Common\CAC\ApplicableTaxCategory[]
      */
     public function getApplicableTaxCategory()
     {
@@ -825,7 +825,7 @@ class ItemLocationQuantityType
      *  Tax Category
      *  Tax Category
      *
-     * @param \UBL\Common\CAC\ApplicableTaxCategory[] $applicableTaxCategory
+     * @param \App\UBL\Common\CAC\ApplicableTaxCategory[] $applicableTaxCategory
      * @return self
      */
     public function setApplicableTaxCategory(?array $applicableTaxCategory = null)
@@ -846,7 +846,7 @@ class ItemLocationQuantityType
      *  Package
      *  Package
      *
-     * @return \UBL\Common\CAC\Package
+     * @return \App\UBL\Common\CAC\Package
      */
     public function getPackage()
     {
@@ -865,10 +865,10 @@ class ItemLocationQuantityType
      *  Package
      *  Package
      *
-     * @param \UBL\Common\CAC\Package $package
+     * @param \App\UBL\Common\CAC\Package $package
      * @return self
      */
-    public function setPackage(?\UBL\Common\CAC\Package $package = null)
+    public function setPackage(?\App\UBL\Common\CAC\Package $package = null)
     {
         $this->package = $package;
         return $this;
@@ -887,9 +887,9 @@ class ItemLocationQuantityType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\AllowanceCharge $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge $allowanceCharge
      */
-    public function addToAllowanceCharge(\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
+    public function addToAllowanceCharge(\App\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
     {
         $this->allowanceCharge[] = $allowanceCharge;
         return $this;
@@ -947,7 +947,7 @@ class ItemLocationQuantityType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\AllowanceCharge[]
+     * @return \App\UBL\Common\CAC\AllowanceCharge[]
      */
     public function getAllowanceCharge()
     {
@@ -966,7 +966,7 @@ class ItemLocationQuantityType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      * @return self
      */
     public function setAllowanceCharge(?array $allowanceCharge = null)
@@ -987,7 +987,7 @@ class ItemLocationQuantityType
      *  Dependent Price Reference
      *  Dependent Price Reference
      *
-     * @return \UBL\Common\CAC\DependentPriceReference
+     * @return \App\UBL\Common\CAC\DependentPriceReference
      */
     public function getDependentPriceReference()
     {
@@ -1006,14 +1006,13 @@ class ItemLocationQuantityType
      *  Dependent Price Reference
      *  Dependent Price Reference
      *
-     * @param \UBL\Common\CAC\DependentPriceReference $dependentPriceReference
+     * @param \App\UBL\Common\CAC\DependentPriceReference $dependentPriceReference
      * @return self
      */
-    public function setDependentPriceReference(?\UBL\Common\CAC\DependentPriceReference $dependentPriceReference = null)
+    public function setDependentPriceReference(?\App\UBL\Common\CAC\DependentPriceReference $dependentPriceReference = null)
     {
         $this->dependentPriceReference = $dependentPriceReference;
         return $this;
     }
 }
-
 

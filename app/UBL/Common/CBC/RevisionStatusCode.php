@@ -9,4 +9,3 @@ class RevisionStatusCode extends RevisionStatusCodeType
 {
 }
 
-

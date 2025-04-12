@@ -9,4 +9,3 @@ class EventLineItem extends EventLineItemType
 {
 }
 
-

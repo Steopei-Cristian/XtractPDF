@@ -9,4 +9,3 @@ class Temperature extends TemperatureType
 {
 }
 
-

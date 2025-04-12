@@ -9,4 +9,3 @@ class InformationContentProviderParty extends PartyType
 {
 }
 
-

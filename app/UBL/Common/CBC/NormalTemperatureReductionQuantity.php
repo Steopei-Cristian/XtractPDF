@@ -9,4 +9,3 @@ class NormalTemperatureReductionQuantity extends NormalTemperatureReductionQuant
 {
 }
 
-

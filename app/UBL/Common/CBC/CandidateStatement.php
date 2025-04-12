@@ -9,4 +9,3 @@ class CandidateStatement extends CandidateStatementType
 {
 }
 
-

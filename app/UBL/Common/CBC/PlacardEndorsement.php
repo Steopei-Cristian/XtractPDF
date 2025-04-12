@@ -9,4 +9,3 @@ class PlacardEndorsement extends PlacardEndorsementType
 {
 }
 
-

@@ -9,4 +9,3 @@ class DocumentTenderRequirement extends TenderRequirementType
 {
 }
 
-

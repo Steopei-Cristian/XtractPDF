@@ -9,4 +9,3 @@ class AddressTypeCode extends AddressTypeCodeType
 {
 }
 
-

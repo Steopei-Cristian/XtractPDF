@@ -9,4 +9,3 @@ class ReturnAddress extends AddressType
 {
 }
 
-

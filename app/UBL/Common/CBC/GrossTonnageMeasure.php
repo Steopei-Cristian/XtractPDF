@@ -9,4 +9,3 @@ class GrossTonnageMeasure extends GrossTonnageMeasureType
 {
 }
 
-

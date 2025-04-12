@@ -1,2 +1,2 @@
-UBL\Common\CBC\CompanyLegalFormCodeType:
+App\UBL\Common\CBC\CompanyLegalFormCodeType:
     properties: {  }

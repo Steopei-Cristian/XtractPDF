@@ -1,2 +1,2 @@
-UBL\Common\CBC\BatchQuantityType:
+App\UBL\Common\CBC\BatchQuantityType:
     properties: {  }

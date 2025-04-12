@@ -1,4 +1,4 @@
-UBL\Common\CBC\EndTimeType:
+App\UBL\Common\CBC\EndTimeType:
     properties:
         __value:
             expose: true

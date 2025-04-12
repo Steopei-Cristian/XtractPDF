@@ -1,4 +1,4 @@
-UBL\Common\CAC\LineReferenceType:
+App\UBL\Common\CAC\LineReferenceType:
     properties:
         lineID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\LineReferenceType:
             accessor:
                 getter: getLineID
                 setter: setLineID
-            type: UBL\Common\CBC\LineID
+            type: App\UBL\Common\CBC\LineID
         uUID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\LineReferenceType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         lineStatusCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\LineReferenceType:
             accessor:
                 getter: getLineStatusCode
                 setter: setLineStatusCode
-            type: UBL\Common\CBC\LineStatusCode
+            type: App\UBL\Common\CBC\LineStatusCode
         documentReference:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ UBL\Common\CAC\LineReferenceType:
             accessor:
                 getter: getDocumentReference
                 setter: setDocumentReference
-            type: UBL\Common\CAC\DocumentReference
+            type: App\UBL\Common\CAC\DocumentReference

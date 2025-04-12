@@ -9,4 +9,3 @@ class StockAvailabilityReportLine extends StockAvailabilityReportLineType
 {
 }
 
-

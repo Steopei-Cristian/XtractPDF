@@ -1,4 +1,4 @@
-UBL\Common\CAC\PaymentMeansType:
+App\UBL\Common\CAC\PaymentMeansType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PaymentMeansType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         paymentMeansCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\PaymentMeansType:
             accessor:
                 getter: getPaymentMeansCode
                 setter: setPaymentMeansCode
-            type: UBL\Common\CBC\PaymentMeansCode
+            type: App\UBL\Common\CBC\PaymentMeansCode
         paymentDueDate:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\PaymentMeansType:
             accessor:
                 getter: getPaymentChannelCode
                 setter: setPaymentChannelCode
-            type: UBL\Common\CBC\PaymentChannelCode
+            type: App\UBL\Common\CBC\PaymentChannelCode
         instructionID:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\PaymentMeansType:
             accessor:
                 getter: getInstructionID
                 setter: setInstructionID
-            type: UBL\Common\CBC\InstructionID
+            type: App\UBL\Common\CBC\InstructionID
         instructionNote:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\PaymentMeansType:
                 inline: true
                 entry_name: InstructionNote
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\InstructionNote>
+            type: array<App\UBL\Common\CBC\InstructionNote>
         paymentID:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\PaymentMeansType:
                 inline: true
                 entry_name: PaymentID
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\PaymentID>
+            type: array<App\UBL\Common\CBC\PaymentID>
         cardAccount:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\PaymentMeansType:
             accessor:
                 getter: getCardAccount
                 setter: setCardAccount
-            type: UBL\Common\CAC\CardAccount
+            type: App\UBL\Common\CAC\CardAccount
         payerFinancialAccount:
             expose: true
             access_type: public_method
@@ -97,7 +97,7 @@ UBL\Common\CAC\PaymentMeansType:
             accessor:
                 getter: getPayerFinancialAccount
                 setter: setPayerFinancialAccount
-            type: UBL\Common\CAC\PayerFinancialAccount
+            type: App\UBL\Common\CAC\PayerFinancialAccount
         payeeFinancialAccount:
             expose: true
             access_type: public_method
@@ -107,7 +107,7 @@ UBL\Common\CAC\PaymentMeansType:
             accessor:
                 getter: getPayeeFinancialAccount
                 setter: setPayeeFinancialAccount
-            type: UBL\Common\CAC\PayeeFinancialAccount
+            type: App\UBL\Common\CAC\PayeeFinancialAccount
         creditAccount:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ UBL\Common\CAC\PaymentMeansType:
             accessor:
                 getter: getCreditAccount
                 setter: setCreditAccount
-            type: UBL\Common\CAC\CreditAccount
+            type: App\UBL\Common\CAC\CreditAccount
         paymentMandate:
             expose: true
             access_type: public_method
@@ -127,7 +127,7 @@ UBL\Common\CAC\PaymentMeansType:
             accessor:
                 getter: getPaymentMandate
                 setter: setPaymentMandate
-            type: UBL\Common\CAC\PaymentMandate
+            type: App\UBL\Common\CAC\PaymentMandate
         tradeFinancing:
             expose: true
             access_type: public_method
@@ -137,4 +137,4 @@ UBL\Common\CAC\PaymentMeansType:
             accessor:
                 getter: getTradeFinancing
                 setter: setTradeFinancing
-            type: UBL\Common\CAC\TradeFinancing
+            type: App\UBL\Common\CAC\TradeFinancing

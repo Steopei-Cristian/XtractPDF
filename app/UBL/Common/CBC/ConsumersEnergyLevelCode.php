@@ -9,4 +9,3 @@ class ConsumersEnergyLevelCode extends ConsumersEnergyLevelCodeType
 {
 }
 
-

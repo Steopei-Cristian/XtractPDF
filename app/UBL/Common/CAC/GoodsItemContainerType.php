@@ -23,7 +23,7 @@ class GoodsItemContainerType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class GoodsItemContainerType
      *  Quantity. Type
      *  Number of packages stuffed
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -52,7 +52,7 @@ class GoodsItemContainerType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @var \UBL\Common\CAC\TransportEquipment[] $transportEquipment
+     * @var \App\UBL\Common\CAC\TransportEquipment[] $transportEquipment
      */
     private $transportEquipment = [
         
@@ -70,7 +70,7 @@ class GoodsItemContainerType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -89,10 +89,10 @@ class GoodsItemContainerType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -111,7 +111,7 @@ class GoodsItemContainerType
      *  Quantity. Type
      *  Number of packages stuffed
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -131,10 +131,10 @@ class GoodsItemContainerType
      *  Quantity. Type
      *  Number of packages stuffed
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
@@ -153,9 +153,9 @@ class GoodsItemContainerType
      *  Transport Equipment
      *
      * @return self
-     * @param \UBL\Common\CAC\TransportEquipment $transportEquipment
+     * @param \App\UBL\Common\CAC\TransportEquipment $transportEquipment
      */
-    public function addToTransportEquipment(\UBL\Common\CAC\TransportEquipment $transportEquipment)
+    public function addToTransportEquipment(\App\UBL\Common\CAC\TransportEquipment $transportEquipment)
     {
         $this->transportEquipment[] = $transportEquipment;
         return $this;
@@ -213,7 +213,7 @@ class GoodsItemContainerType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @return \UBL\Common\CAC\TransportEquipment[]
+     * @return \App\UBL\Common\CAC\TransportEquipment[]
      */
     public function getTransportEquipment()
     {
@@ -232,7 +232,7 @@ class GoodsItemContainerType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @param \UBL\Common\CAC\TransportEquipment[] $transportEquipment
+     * @param \App\UBL\Common\CAC\TransportEquipment[] $transportEquipment
      * @return self
      */
     public function setTransportEquipment(?array $transportEquipment = null)
@@ -241,5 +241,4 @@ class GoodsItemContainerType
         return $this;
     }
 }
-
 

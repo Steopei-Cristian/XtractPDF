@@ -24,7 +24,7 @@ class TendererPartyQualificationType
      *  Procurement Project Lot
      *  Procurement Project Lot
      *
-     * @var \UBL\Common\CAC\InterestedProcurementProjectLot[] $interestedProcurementProjectLot
+     * @var \App\UBL\Common\CAC\InterestedProcurementProjectLot[] $interestedProcurementProjectLot
      */
     private $interestedProcurementProjectLot = [
         
@@ -41,7 +41,7 @@ class TendererPartyQualificationType
      *  Qualifying Party
      *  Qualifying Party
      *
-     * @var \UBL\Common\CAC\MainQualifyingParty $mainQualifyingParty
+     * @var \App\UBL\Common\CAC\MainQualifyingParty $mainQualifyingParty
      */
     private $mainQualifyingParty = null;
 
@@ -56,7 +56,7 @@ class TendererPartyQualificationType
      *  Qualifying Party
      *  Qualifying Party
      *
-     * @var \UBL\Common\CAC\AdditionalQualifyingParty[] $additionalQualifyingParty
+     * @var \App\UBL\Common\CAC\AdditionalQualifyingParty[] $additionalQualifyingParty
      */
     private $additionalQualifyingParty = [
         
@@ -76,9 +76,9 @@ class TendererPartyQualificationType
      *  Procurement Project Lot
      *
      * @return self
-     * @param \UBL\Common\CAC\InterestedProcurementProjectLot $interestedProcurementProjectLot
+     * @param \App\UBL\Common\CAC\InterestedProcurementProjectLot $interestedProcurementProjectLot
      */
-    public function addToInterestedProcurementProjectLot(\UBL\Common\CAC\InterestedProcurementProjectLot $interestedProcurementProjectLot)
+    public function addToInterestedProcurementProjectLot(\App\UBL\Common\CAC\InterestedProcurementProjectLot $interestedProcurementProjectLot)
     {
         $this->interestedProcurementProjectLot[] = $interestedProcurementProjectLot;
         return $this;
@@ -139,7 +139,7 @@ class TendererPartyQualificationType
      *  Procurement Project Lot
      *  Procurement Project Lot
      *
-     * @return \UBL\Common\CAC\InterestedProcurementProjectLot[]
+     * @return \App\UBL\Common\CAC\InterestedProcurementProjectLot[]
      */
     public function getInterestedProcurementProjectLot()
     {
@@ -159,7 +159,7 @@ class TendererPartyQualificationType
      *  Procurement Project Lot
      *  Procurement Project Lot
      *
-     * @param \UBL\Common\CAC\InterestedProcurementProjectLot[] $interestedProcurementProjectLot
+     * @param \App\UBL\Common\CAC\InterestedProcurementProjectLot[] $interestedProcurementProjectLot
      * @return self
      */
     public function setInterestedProcurementProjectLot(?array $interestedProcurementProjectLot = null)
@@ -181,7 +181,7 @@ class TendererPartyQualificationType
      *  Qualifying Party
      *  Qualifying Party
      *
-     * @return \UBL\Common\CAC\MainQualifyingParty
+     * @return \App\UBL\Common\CAC\MainQualifyingParty
      */
     public function getMainQualifyingParty()
     {
@@ -201,10 +201,10 @@ class TendererPartyQualificationType
      *  Qualifying Party
      *  Qualifying Party
      *
-     * @param \UBL\Common\CAC\MainQualifyingParty $mainQualifyingParty
+     * @param \App\UBL\Common\CAC\MainQualifyingParty $mainQualifyingParty
      * @return self
      */
-    public function setMainQualifyingParty(\UBL\Common\CAC\MainQualifyingParty $mainQualifyingParty)
+    public function setMainQualifyingParty(\App\UBL\Common\CAC\MainQualifyingParty $mainQualifyingParty)
     {
         $this->mainQualifyingParty = $mainQualifyingParty;
         return $this;
@@ -224,9 +224,9 @@ class TendererPartyQualificationType
      *  Qualifying Party
      *
      * @return self
-     * @param \UBL\Common\CAC\AdditionalQualifyingParty $additionalQualifyingParty
+     * @param \App\UBL\Common\CAC\AdditionalQualifyingParty $additionalQualifyingParty
      */
-    public function addToAdditionalQualifyingParty(\UBL\Common\CAC\AdditionalQualifyingParty $additionalQualifyingParty)
+    public function addToAdditionalQualifyingParty(\App\UBL\Common\CAC\AdditionalQualifyingParty $additionalQualifyingParty)
     {
         $this->additionalQualifyingParty[] = $additionalQualifyingParty;
         return $this;
@@ -287,7 +287,7 @@ class TendererPartyQualificationType
      *  Qualifying Party
      *  Qualifying Party
      *
-     * @return \UBL\Common\CAC\AdditionalQualifyingParty[]
+     * @return \App\UBL\Common\CAC\AdditionalQualifyingParty[]
      */
     public function getAdditionalQualifyingParty()
     {
@@ -307,7 +307,7 @@ class TendererPartyQualificationType
      *  Qualifying Party
      *  Qualifying Party
      *
-     * @param \UBL\Common\CAC\AdditionalQualifyingParty[] $additionalQualifyingParty
+     * @param \App\UBL\Common\CAC\AdditionalQualifyingParty[] $additionalQualifyingParty
      * @return self
      */
     public function setAdditionalQualifyingParty(?array $additionalQualifyingParty = null)
@@ -316,5 +316,4 @@ class TendererPartyQualificationType
         return $this;
     }
 }
-
 

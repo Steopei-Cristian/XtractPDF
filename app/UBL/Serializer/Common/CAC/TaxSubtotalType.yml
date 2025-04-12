@@ -1,4 +1,4 @@
-UBL\Common\CAC\TaxSubtotalType:
+App\UBL\Common\CAC\TaxSubtotalType:
     properties:
         taxableAmount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TaxSubtotalType:
             accessor:
                 getter: getTaxableAmount
                 setter: setTaxableAmount
-            type: UBL\Common\CBC\TaxableAmount
+            type: App\UBL\Common\CBC\TaxableAmount
         taxAmount:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TaxSubtotalType:
             accessor:
                 getter: getTaxAmount
                 setter: setTaxAmount
-            type: UBL\Common\CBC\TaxAmount
+            type: App\UBL\Common\CBC\TaxAmount
         calculationSequenceNumeric:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\TaxSubtotalType:
             accessor:
                 getter: getCalculationSequenceNumeric
                 setter: setCalculationSequenceNumeric
-            type: UBL\Common\CBC\CalculationSequenceNumeric
+            type: App\UBL\Common\CBC\CalculationSequenceNumeric
         transactionCurrencyTaxAmount:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\TaxSubtotalType:
             accessor:
                 getter: getTransactionCurrencyTaxAmount
                 setter: setTransactionCurrencyTaxAmount
-            type: UBL\Common\CBC\TransactionCurrencyTaxAmount
+            type: App\UBL\Common\CBC\TransactionCurrencyTaxAmount
         percent:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\TaxSubtotalType:
             accessor:
                 getter: getPercent
                 setter: setPercent
-            type: UBL\Common\CBC\Percent
+            type: App\UBL\Common\CBC\Percent
         baseUnitMeasure:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\TaxSubtotalType:
             accessor:
                 getter: getBaseUnitMeasure
                 setter: setBaseUnitMeasure
-            type: UBL\Common\CBC\BaseUnitMeasure
+            type: App\UBL\Common\CBC\BaseUnitMeasure
         perUnitAmount:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\TaxSubtotalType:
             accessor:
                 getter: getPerUnitAmount
                 setter: setPerUnitAmount
-            type: UBL\Common\CBC\PerUnitAmount
+            type: App\UBL\Common\CBC\PerUnitAmount
         tierRange:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\CAC\TaxSubtotalType:
             accessor:
                 getter: getTierRange
                 setter: setTierRange
-            type: UBL\Common\CBC\TierRange
+            type: App\UBL\Common\CBC\TierRange
         tierRatePercent:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ UBL\Common\CAC\TaxSubtotalType:
             accessor:
                 getter: getTierRatePercent
                 setter: setTierRatePercent
-            type: UBL\Common\CBC\TierRatePercent
+            type: App\UBL\Common\CBC\TierRatePercent
         taxCategory:
             expose: true
             access_type: public_method
@@ -99,4 +99,4 @@ UBL\Common\CAC\TaxSubtotalType:
             accessor:
                 getter: getTaxCategory
                 setter: setTaxCategory
-            type: UBL\Common\CAC\TaxCategory
+            type: App\UBL\Common\CAC\TaxCategory

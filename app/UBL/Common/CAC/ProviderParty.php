@@ -9,4 +9,3 @@ class ProviderParty extends PartyType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CAC\MonetaryTotalType:
+App\UBL\Common\CAC\MonetaryTotalType:
     properties:
         lineExtensionAmount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\MonetaryTotalType:
             accessor:
                 getter: getLineExtensionAmount
                 setter: setLineExtensionAmount
-            type: UBL\Common\CBC\LineExtensionAmount
+            type: App\UBL\Common\CBC\LineExtensionAmount
         taxExclusiveAmount:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\MonetaryTotalType:
             accessor:
                 getter: getTaxExclusiveAmount
                 setter: setTaxExclusiveAmount
-            type: UBL\Common\CBC\TaxExclusiveAmount
+            type: App\UBL\Common\CBC\TaxExclusiveAmount
         taxInclusiveAmount:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\MonetaryTotalType:
             accessor:
                 getter: getTaxInclusiveAmount
                 setter: setTaxInclusiveAmount
-            type: UBL\Common\CBC\TaxInclusiveAmount
+            type: App\UBL\Common\CBC\TaxInclusiveAmount
         allowanceTotalAmount:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\MonetaryTotalType:
             accessor:
                 getter: getAllowanceTotalAmount
                 setter: setAllowanceTotalAmount
-            type: UBL\Common\CBC\AllowanceTotalAmount
+            type: App\UBL\Common\CBC\AllowanceTotalAmount
         chargeTotalAmount:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\MonetaryTotalType:
             accessor:
                 getter: getChargeTotalAmount
                 setter: setChargeTotalAmount
-            type: UBL\Common\CBC\ChargeTotalAmount
+            type: App\UBL\Common\CBC\ChargeTotalAmount
         prepaidAmount:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\MonetaryTotalType:
             accessor:
                 getter: getPrepaidAmount
                 setter: setPrepaidAmount
-            type: UBL\Common\CBC\PrepaidAmount
+            type: App\UBL\Common\CBC\PrepaidAmount
         payableRoundingAmount:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\MonetaryTotalType:
             accessor:
                 getter: getPayableRoundingAmount
                 setter: setPayableRoundingAmount
-            type: UBL\Common\CBC\PayableRoundingAmount
+            type: App\UBL\Common\CBC\PayableRoundingAmount
         payableAmount:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\CAC\MonetaryTotalType:
             accessor:
                 getter: getPayableAmount
                 setter: setPayableAmount
-            type: UBL\Common\CBC\PayableAmount
+            type: App\UBL\Common\CBC\PayableAmount
         payableAlternativeAmount:
             expose: true
             access_type: public_method
@@ -89,4 +89,4 @@ UBL\Common\CAC\MonetaryTotalType:
             accessor:
                 getter: getPayableAlternativeAmount
                 setter: setPayableAlternativeAmount
-            type: UBL\Common\CBC\PayableAlternativeAmount
+            type: App\UBL\Common\CBC\PayableAlternativeAmount

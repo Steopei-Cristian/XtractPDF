@@ -9,4 +9,3 @@ class ChargeableWeightMeasure extends ChargeableWeightMeasureType
 {
 }
 
-

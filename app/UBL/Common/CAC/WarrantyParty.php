@@ -9,4 +9,3 @@ class WarrantyParty extends PartyType
 {
 }
 
-

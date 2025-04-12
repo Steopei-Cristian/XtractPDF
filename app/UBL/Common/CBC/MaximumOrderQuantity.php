@@ -9,4 +9,3 @@ class MaximumOrderQuantity extends MaximumOrderQuantityType
 {
 }
 
-

@@ -9,4 +9,3 @@ class DebitLineAmount extends DebitLineAmountType
 {
 }
 
-

@@ -9,4 +9,3 @@ class PositioningTransportEvent extends TransportEventType
 {
 }
 
-

@@ -9,4 +9,3 @@ class RequiredItemLocationQuantity extends ItemLocationQuantityType
 {
 }
 
-

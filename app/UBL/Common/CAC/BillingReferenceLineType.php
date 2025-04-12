@@ -23,7 +23,7 @@ class BillingReferenceLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class BillingReferenceLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\Amount $amount
+     * @var \App\UBL\Common\CBC\Amount $amount
      */
     private $amount = null;
 
@@ -51,7 +51,7 @@ class BillingReferenceLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @var \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      */
     private $allowanceCharge = [
         
@@ -69,7 +69,7 @@ class BillingReferenceLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -88,10 +88,10 @@ class BillingReferenceLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -109,7 +109,7 @@ class BillingReferenceLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\Amount
+     * @return \App\UBL\Common\CBC\Amount
      */
     public function getAmount()
     {
@@ -128,10 +128,10 @@ class BillingReferenceLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\Amount $amount
+     * @param \App\UBL\Common\CBC\Amount $amount
      * @return self
      */
-    public function setAmount(?\UBL\Common\CBC\Amount $amount = null)
+    public function setAmount(?\App\UBL\Common\CBC\Amount $amount = null)
     {
         $this->amount = $amount;
         return $this;
@@ -150,9 +150,9 @@ class BillingReferenceLineType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\AllowanceCharge $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge $allowanceCharge
      */
-    public function addToAllowanceCharge(\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
+    public function addToAllowanceCharge(\App\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
     {
         $this->allowanceCharge[] = $allowanceCharge;
         return $this;
@@ -210,7 +210,7 @@ class BillingReferenceLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\AllowanceCharge[]
+     * @return \App\UBL\Common\CAC\AllowanceCharge[]
      */
     public function getAllowanceCharge()
     {
@@ -229,7 +229,7 @@ class BillingReferenceLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      * @return self
      */
     public function setAllowanceCharge(?array $allowanceCharge = null)
@@ -238,5 +238,4 @@ class BillingReferenceLineType
         return $this;
     }
 }
-
 

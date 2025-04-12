@@ -1,4 +1,4 @@
-UBL\Common\CBC\ThirdPartyPayerIndicatorType:
+App\UBL\Common\CBC\ThirdPartyPayerIndicatorType:
     properties:
         __value:
             expose: true

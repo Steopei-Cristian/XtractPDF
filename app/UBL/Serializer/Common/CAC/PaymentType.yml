@@ -1,4 +1,4 @@
-UBL\Common\CAC\PaymentType:
+App\UBL\Common\CAC\PaymentType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PaymentType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         paidAmount:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\PaymentType:
             accessor:
                 getter: getPaidAmount
                 setter: setPaidAmount
-            type: UBL\Common\CBC\PaidAmount
+            type: App\UBL\Common\CBC\PaidAmount
         receivedDate:
             expose: true
             access_type: public_method
@@ -59,4 +59,4 @@ UBL\Common\CAC\PaymentType:
             accessor:
                 getter: getInstructionID
                 setter: setInstructionID
-            type: UBL\Common\CBC\InstructionID
+            type: App\UBL\Common\CBC\InstructionID

@@ -23,7 +23,7 @@ class ExternalReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\URI $uRI
+     * @var \App\UBL\Common\CBC\URI $uRI
      */
     private $uRI = null;
 
@@ -37,7 +37,7 @@ class ExternalReferenceType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\DocumentHash $documentHash
+     * @var \App\UBL\Common\CBC\DocumentHash $documentHash
      */
     private $documentHash = null;
 
@@ -51,7 +51,7 @@ class ExternalReferenceType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\HashAlgorithmMethod $hashAlgorithmMethod
+     * @var \App\UBL\Common\CBC\HashAlgorithmMethod $hashAlgorithmMethod
      */
     private $hashAlgorithmMethod = null;
 
@@ -93,7 +93,7 @@ class ExternalReferenceType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\MimeCode $mimeCode
+     * @var \App\UBL\Common\CBC\MimeCode $mimeCode
      */
     private $mimeCode = null;
 
@@ -107,7 +107,7 @@ class ExternalReferenceType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\FormatCode $formatCode
+     * @var \App\UBL\Common\CBC\FormatCode $formatCode
      */
     private $formatCode = null;
 
@@ -121,7 +121,7 @@ class ExternalReferenceType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\EncodingCode $encodingCode
+     * @var \App\UBL\Common\CBC\EncodingCode $encodingCode
      */
     private $encodingCode = null;
 
@@ -135,7 +135,7 @@ class ExternalReferenceType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\CharacterSetCode $characterSetCode
+     * @var \App\UBL\Common\CBC\CharacterSetCode $characterSetCode
      */
     private $characterSetCode = null;
 
@@ -149,7 +149,7 @@ class ExternalReferenceType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\FileName $fileName
+     * @var \App\UBL\Common\CBC\FileName $fileName
      */
     private $fileName = null;
 
@@ -164,7 +164,7 @@ class ExternalReferenceType
      *  Text. Type
      *  computer accessories for laptops
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -182,7 +182,7 @@ class ExternalReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\URI
+     * @return \App\UBL\Common\CBC\URI
      */
     public function getURI()
     {
@@ -201,10 +201,10 @@ class ExternalReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\URI $uRI
+     * @param \App\UBL\Common\CBC\URI $uRI
      * @return self
      */
-    public function setURI(?\UBL\Common\CBC\URI $uRI = null)
+    public function setURI(?\App\UBL\Common\CBC\URI $uRI = null)
     {
         $this->uRI = $uRI;
         return $this;
@@ -222,7 +222,7 @@ class ExternalReferenceType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\DocumentHash
+     * @return \App\UBL\Common\CBC\DocumentHash
      */
     public function getDocumentHash()
     {
@@ -241,10 +241,10 @@ class ExternalReferenceType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\DocumentHash $documentHash
+     * @param \App\UBL\Common\CBC\DocumentHash $documentHash
      * @return self
      */
-    public function setDocumentHash(?\UBL\Common\CBC\DocumentHash $documentHash = null)
+    public function setDocumentHash(?\App\UBL\Common\CBC\DocumentHash $documentHash = null)
     {
         $this->documentHash = $documentHash;
         return $this;
@@ -262,7 +262,7 @@ class ExternalReferenceType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\HashAlgorithmMethod
+     * @return \App\UBL\Common\CBC\HashAlgorithmMethod
      */
     public function getHashAlgorithmMethod()
     {
@@ -281,10 +281,10 @@ class ExternalReferenceType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\HashAlgorithmMethod $hashAlgorithmMethod
+     * @param \App\UBL\Common\CBC\HashAlgorithmMethod $hashAlgorithmMethod
      * @return self
      */
-    public function setHashAlgorithmMethod(?\UBL\Common\CBC\HashAlgorithmMethod $hashAlgorithmMethod = null)
+    public function setHashAlgorithmMethod(?\App\UBL\Common\CBC\HashAlgorithmMethod $hashAlgorithmMethod = null)
     {
         $this->hashAlgorithmMethod = $hashAlgorithmMethod;
         return $this;
@@ -382,7 +382,7 @@ class ExternalReferenceType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\MimeCode
+     * @return \App\UBL\Common\CBC\MimeCode
      */
     public function getMimeCode()
     {
@@ -401,10 +401,10 @@ class ExternalReferenceType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\MimeCode $mimeCode
+     * @param \App\UBL\Common\CBC\MimeCode $mimeCode
      * @return self
      */
-    public function setMimeCode(?\UBL\Common\CBC\MimeCode $mimeCode = null)
+    public function setMimeCode(?\App\UBL\Common\CBC\MimeCode $mimeCode = null)
     {
         $this->mimeCode = $mimeCode;
         return $this;
@@ -422,7 +422,7 @@ class ExternalReferenceType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\FormatCode
+     * @return \App\UBL\Common\CBC\FormatCode
      */
     public function getFormatCode()
     {
@@ -441,10 +441,10 @@ class ExternalReferenceType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\FormatCode $formatCode
+     * @param \App\UBL\Common\CBC\FormatCode $formatCode
      * @return self
      */
-    public function setFormatCode(?\UBL\Common\CBC\FormatCode $formatCode = null)
+    public function setFormatCode(?\App\UBL\Common\CBC\FormatCode $formatCode = null)
     {
         $this->formatCode = $formatCode;
         return $this;
@@ -462,7 +462,7 @@ class ExternalReferenceType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\EncodingCode
+     * @return \App\UBL\Common\CBC\EncodingCode
      */
     public function getEncodingCode()
     {
@@ -481,10 +481,10 @@ class ExternalReferenceType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\EncodingCode $encodingCode
+     * @param \App\UBL\Common\CBC\EncodingCode $encodingCode
      * @return self
      */
-    public function setEncodingCode(?\UBL\Common\CBC\EncodingCode $encodingCode = null)
+    public function setEncodingCode(?\App\UBL\Common\CBC\EncodingCode $encodingCode = null)
     {
         $this->encodingCode = $encodingCode;
         return $this;
@@ -502,7 +502,7 @@ class ExternalReferenceType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\CharacterSetCode
+     * @return \App\UBL\Common\CBC\CharacterSetCode
      */
     public function getCharacterSetCode()
     {
@@ -521,10 +521,10 @@ class ExternalReferenceType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\CharacterSetCode $characterSetCode
+     * @param \App\UBL\Common\CBC\CharacterSetCode $characterSetCode
      * @return self
      */
-    public function setCharacterSetCode(?\UBL\Common\CBC\CharacterSetCode $characterSetCode = null)
+    public function setCharacterSetCode(?\App\UBL\Common\CBC\CharacterSetCode $characterSetCode = null)
     {
         $this->characterSetCode = $characterSetCode;
         return $this;
@@ -542,7 +542,7 @@ class ExternalReferenceType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\FileName
+     * @return \App\UBL\Common\CBC\FileName
      */
     public function getFileName()
     {
@@ -561,10 +561,10 @@ class ExternalReferenceType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\FileName $fileName
+     * @param \App\UBL\Common\CBC\FileName $fileName
      * @return self
      */
-    public function setFileName(?\UBL\Common\CBC\FileName $fileName = null)
+    public function setFileName(?\App\UBL\Common\CBC\FileName $fileName = null)
     {
         $this->fileName = $fileName;
         return $this;
@@ -584,9 +584,9 @@ class ExternalReferenceType
      *  computer accessories for laptops
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -647,7 +647,7 @@ class ExternalReferenceType
      *  Text. Type
      *  computer accessories for laptops
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -667,7 +667,7 @@ class ExternalReferenceType
      *  Text. Type
      *  computer accessories for laptops
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -676,5 +676,4 @@ class ExternalReferenceType
         return $this;
     }
 }
-
 

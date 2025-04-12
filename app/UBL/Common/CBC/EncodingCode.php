@@ -9,4 +9,3 @@ class EncodingCode extends EncodingCodeType
 {
 }
 
-

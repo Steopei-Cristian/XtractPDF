@@ -9,4 +9,3 @@ class Content extends ContentType
 {
 }
 
-

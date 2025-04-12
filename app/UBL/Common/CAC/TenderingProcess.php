@@ -9,4 +9,3 @@ class TenderingProcess extends TenderingProcessType
 {
 }
 
-

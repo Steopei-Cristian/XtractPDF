@@ -1,4 +1,4 @@
-UBL\Common\CAC\AppealTermsType:
+App\UBL\Common\CAC\AppealTermsType:
     properties:
         description:
             expose: true
@@ -13,7 +13,7 @@ UBL\Common\CAC\AppealTermsType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         presentationPeriod:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\AppealTermsType:
             accessor:
                 getter: getPresentationPeriod
                 setter: setPresentationPeriod
-            type: UBL\Common\CAC\PresentationPeriod
+            type: App\UBL\Common\CAC\PresentationPeriod
         appealInformationParty:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\AppealTermsType:
             accessor:
                 getter: getAppealInformationParty
                 setter: setAppealInformationParty
-            type: UBL\Common\CAC\AppealInformationParty
+            type: App\UBL\Common\CAC\AppealInformationParty
         appealReceiverParty:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\AppealTermsType:
             accessor:
                 getter: getAppealReceiverParty
                 setter: setAppealReceiverParty
-            type: UBL\Common\CAC\AppealReceiverParty
+            type: App\UBL\Common\CAC\AppealReceiverParty
         mediationParty:
             expose: true
             access_type: public_method
@@ -53,4 +53,4 @@ UBL\Common\CAC\AppealTermsType:
             accessor:
                 getter: getMediationParty
                 setter: setMediationParty
-            type: UBL\Common\CAC\MediationParty
+            type: App\UBL\Common\CAC\MediationParty

@@ -1,2 +1,2 @@
-UBL\Common\CBC\InventoryValueAmountType:
+App\UBL\Common\CBC\InventoryValueAmountType:
     properties: {  }

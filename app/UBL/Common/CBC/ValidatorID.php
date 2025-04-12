@@ -9,4 +9,3 @@ class ValidatorID extends ValidatorIDType
 {
 }
 
-

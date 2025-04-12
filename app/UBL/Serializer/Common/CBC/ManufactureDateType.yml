@@ -1,4 +1,4 @@
-UBL\Common\CBC\ManufactureDateType:
+App\UBL\Common\CBC\ManufactureDateType:
     properties:
         __value:
             expose: true

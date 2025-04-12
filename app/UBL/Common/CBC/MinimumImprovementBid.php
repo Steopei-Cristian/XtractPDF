@@ -9,4 +9,3 @@ class MinimumImprovementBid extends MinimumImprovementBidType
 {
 }
 
-

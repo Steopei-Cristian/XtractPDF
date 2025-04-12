@@ -9,4 +9,3 @@ class CatalogueItemSpecificationUpdateLine extends CatalogueItemSpecificationUpd
 {
 }
 
-

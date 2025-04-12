@@ -9,4 +9,3 @@ class PreviousJobID extends PreviousJobIDType
 {
 }
 
-

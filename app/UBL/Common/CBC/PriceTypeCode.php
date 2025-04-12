@@ -9,4 +9,3 @@ class PriceTypeCode extends PriceTypeCodeType
 {
 }
 
-

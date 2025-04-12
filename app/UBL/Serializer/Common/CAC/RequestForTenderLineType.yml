@@ -1,4 +1,4 @@
-UBL\Common\CAC\RequestForTenderLineType:
+App\UBL\Common\CAC\RequestForTenderLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\RequestForTenderLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         uUID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\RequestForTenderLineType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         note:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\RequestForTenderLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         quantity:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\RequestForTenderLineType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         minimumQuantity:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\RequestForTenderLineType:
             accessor:
                 getter: getMinimumQuantity
                 setter: setMinimumQuantity
-            type: UBL\Common\CBC\MinimumQuantity
+            type: App\UBL\Common\CBC\MinimumQuantity
         maximumQuantity:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\RequestForTenderLineType:
             accessor:
                 getter: getMaximumQuantity
                 setter: setMaximumQuantity
-            type: UBL\Common\CBC\MaximumQuantity
+            type: App\UBL\Common\CBC\MaximumQuantity
         taxIncludedIndicator:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\RequestForTenderLineType:
             accessor:
                 getter: getMinimumAmount
                 setter: setMinimumAmount
-            type: UBL\Common\CBC\MinimumAmount
+            type: App\UBL\Common\CBC\MinimumAmount
         maximumAmount:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\RequestForTenderLineType:
             accessor:
                 getter: getMaximumAmount
                 setter: setMaximumAmount
-            type: UBL\Common\CBC\MaximumAmount
+            type: App\UBL\Common\CBC\MaximumAmount
         estimatedAmount:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\RequestForTenderLineType:
             accessor:
                 getter: getEstimatedAmount
                 setter: setEstimatedAmount
-            type: UBL\Common\CBC\EstimatedAmount
+            type: App\UBL\Common\CBC\EstimatedAmount
         documentReference:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ UBL\Common\CAC\RequestForTenderLineType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>
         deliveryPeriod:
             expose: true
             access_type: public_method
@@ -131,7 +131,7 @@ UBL\Common\CAC\RequestForTenderLineType:
                 inline: true
                 entry_name: DeliveryPeriod
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DeliveryPeriod>
+            type: array<App\UBL\Common\CAC\DeliveryPeriod>
         requiredItemLocationQuantity:
             expose: true
             access_type: public_method
@@ -145,7 +145,7 @@ UBL\Common\CAC\RequestForTenderLineType:
                 inline: true
                 entry_name: RequiredItemLocationQuantity
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\RequiredItemLocationQuantity>
+            type: array<App\UBL\Common\CAC\RequiredItemLocationQuantity>
         warrantyValidityPeriod:
             expose: true
             access_type: public_method
@@ -155,7 +155,7 @@ UBL\Common\CAC\RequestForTenderLineType:
             accessor:
                 getter: getWarrantyValidityPeriod
                 setter: setWarrantyValidityPeriod
-            type: UBL\Common\CAC\WarrantyValidityPeriod
+            type: App\UBL\Common\CAC\WarrantyValidityPeriod
         item:
             expose: true
             access_type: public_method
@@ -165,7 +165,7 @@ UBL\Common\CAC\RequestForTenderLineType:
             accessor:
                 getter: getItem
                 setter: setItem
-            type: UBL\Common\CAC\Item
+            type: App\UBL\Common\CAC\Item
         subRequestForTenderLine:
             expose: true
             access_type: public_method
@@ -179,4 +179,4 @@ UBL\Common\CAC\RequestForTenderLineType:
                 inline: true
                 entry_name: SubRequestForTenderLine
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SubRequestForTenderLine>
+            type: array<App\UBL\Common\CAC\SubRequestForTenderLine>

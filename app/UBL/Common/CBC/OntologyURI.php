@@ -9,4 +9,3 @@ class OntologyURI extends OntologyURIType
 {
 }
 
-

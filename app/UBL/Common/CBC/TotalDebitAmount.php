@@ -9,4 +9,3 @@ class TotalDebitAmount extends TotalDebitAmountType
 {
 }
 
-

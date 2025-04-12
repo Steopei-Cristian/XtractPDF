@@ -9,4 +9,3 @@ class ReceiptTransportEvent extends TransportEventType
 {
 }
 
-

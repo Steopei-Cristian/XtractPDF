@@ -23,7 +23,7 @@ class WinningPartyType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Rank $rank
+     * @var \App\UBL\Common\CBC\Rank $rank
      */
     private $rank = null;
 
@@ -37,7 +37,7 @@ class WinningPartyType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\Party $party
+     * @var \App\UBL\Common\CAC\Party $party
      */
     private $party = null;
 
@@ -53,7 +53,7 @@ class WinningPartyType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Rank
+     * @return \App\UBL\Common\CBC\Rank
      */
     public function getRank()
     {
@@ -72,10 +72,10 @@ class WinningPartyType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Rank $rank
+     * @param \App\UBL\Common\CBC\Rank $rank
      * @return self
      */
-    public function setRank(?\UBL\Common\CBC\Rank $rank = null)
+    public function setRank(?\App\UBL\Common\CBC\Rank $rank = null)
     {
         $this->rank = $rank;
         return $this;
@@ -93,7 +93,7 @@ class WinningPartyType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\Party
+     * @return \App\UBL\Common\CAC\Party
      */
     public function getParty()
     {
@@ -112,14 +112,13 @@ class WinningPartyType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\Party $party
+     * @param \App\UBL\Common\CAC\Party $party
      * @return self
      */
-    public function setParty(\UBL\Common\CAC\Party $party)
+    public function setParty(\App\UBL\Common\CAC\Party $party)
     {
         $this->party = $party;
         return $this;
     }
 }
-
 

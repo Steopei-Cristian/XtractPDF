@@ -9,4 +9,3 @@ class Text extends TextType
 {
 }
 
-

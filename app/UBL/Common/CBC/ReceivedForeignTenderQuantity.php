@@ -9,4 +9,3 @@ class ReceivedForeignTenderQuantity extends ReceivedForeignTenderQuantityType
 {
 }
 
-

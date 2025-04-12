@@ -9,4 +9,3 @@ class Postbox extends PostboxType
 {
 }
 
-

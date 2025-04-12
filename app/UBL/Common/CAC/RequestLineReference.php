@@ -9,4 +9,3 @@ class RequestLineReference extends LineReferenceType
 {
 }
 
-

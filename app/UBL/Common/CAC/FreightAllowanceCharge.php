@@ -9,4 +9,3 @@ class FreightAllowanceCharge extends AllowanceChargeType
 {
 }
 
-

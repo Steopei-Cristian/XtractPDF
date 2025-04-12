@@ -1,4 +1,4 @@
-UBL\Common\CBC\IssueDate:
+App\UBL\Common\CBC\IssueDate:
     xml_root_name: IssueDate
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

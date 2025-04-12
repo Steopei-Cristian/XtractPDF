@@ -9,4 +9,3 @@ class ConsumptionEnergyQuantity extends ConsumptionEnergyQuantityType
 {
 }
 
-

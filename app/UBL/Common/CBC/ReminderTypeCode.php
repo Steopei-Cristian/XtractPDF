@@ -9,4 +9,3 @@ class ReminderTypeCode extends ReminderTypeCodeType
 {
 }
 
-

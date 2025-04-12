@@ -23,7 +23,7 @@ class WebSiteAccessType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\URI $uRI
+     * @var \App\UBL\Common\CBC\URI $uRI
      */
     private $uRI = null;
 
@@ -38,7 +38,7 @@ class WebSiteAccessType
      *  Text. Type
      *  confidence
      *
-     * @var \UBL\Common\CBC\Password $password
+     * @var \App\UBL\Common\CBC\Password $password
      */
     private $password = null;
 
@@ -53,7 +53,7 @@ class WebSiteAccessType
      *  Text. Type
      *  Utsuser
      *
-     * @var \UBL\Common\CBC\Login $login
+     * @var \App\UBL\Common\CBC\Login $login
      */
     private $login = null;
 
@@ -69,7 +69,7 @@ class WebSiteAccessType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\URI
+     * @return \App\UBL\Common\CBC\URI
      */
     public function getURI()
     {
@@ -88,10 +88,10 @@ class WebSiteAccessType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\URI $uRI
+     * @param \App\UBL\Common\CBC\URI $uRI
      * @return self
      */
-    public function setURI(?\UBL\Common\CBC\URI $uRI = null)
+    public function setURI(?\App\UBL\Common\CBC\URI $uRI = null)
     {
         $this->uRI = $uRI;
         return $this;
@@ -110,7 +110,7 @@ class WebSiteAccessType
      *  Text. Type
      *  confidence
      *
-     * @return \UBL\Common\CBC\Password
+     * @return \App\UBL\Common\CBC\Password
      */
     public function getPassword()
     {
@@ -130,10 +130,10 @@ class WebSiteAccessType
      *  Text. Type
      *  confidence
      *
-     * @param \UBL\Common\CBC\Password $password
+     * @param \App\UBL\Common\CBC\Password $password
      * @return self
      */
-    public function setPassword(\UBL\Common\CBC\Password $password)
+    public function setPassword(\App\UBL\Common\CBC\Password $password)
     {
         $this->password = $password;
         return $this;
@@ -152,7 +152,7 @@ class WebSiteAccessType
      *  Text. Type
      *  Utsuser
      *
-     * @return \UBL\Common\CBC\Login
+     * @return \App\UBL\Common\CBC\Login
      */
     public function getLogin()
     {
@@ -172,14 +172,13 @@ class WebSiteAccessType
      *  Text. Type
      *  Utsuser
      *
-     * @param \UBL\Common\CBC\Login $login
+     * @param \App\UBL\Common\CBC\Login $login
      * @return self
      */
-    public function setLogin(\UBL\Common\CBC\Login $login)
+    public function setLogin(\App\UBL\Common\CBC\Login $login)
     {
         $this->login = $login;
         return $this;
     }
 }
-
 

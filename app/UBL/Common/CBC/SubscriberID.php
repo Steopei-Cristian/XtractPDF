@@ -9,4 +9,3 @@ class SubscriberID extends SubscriberIDType
 {
 }
 
-

@@ -24,7 +24,7 @@ class DocumentReferenceType
      *  Identifier. Type
      *  PO-001 3333-44-123
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -53,7 +53,7 @@ class DocumentReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -95,7 +95,7 @@ class DocumentReferenceType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\DocumentTypeCode $documentTypeCode
+     * @var \App\UBL\Common\CBC\DocumentTypeCode $documentTypeCode
      */
     private $documentTypeCode = null;
 
@@ -109,7 +109,7 @@ class DocumentReferenceType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\DocumentType $documentType
+     * @var \App\UBL\Common\CBC\DocumentType $documentType
      */
     private $documentType = null;
 
@@ -123,7 +123,7 @@ class DocumentReferenceType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\XPath[] $xPath
+     * @var \App\UBL\Common\CBC\XPath[] $xPath
      */
     private $xPath = [
         
@@ -139,7 +139,7 @@ class DocumentReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\LanguageID $languageID
+     * @var \App\UBL\Common\CBC\LanguageID $languageID
      */
     private $languageID = null;
 
@@ -153,7 +153,7 @@ class DocumentReferenceType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\LocaleCode $localeCode
+     * @var \App\UBL\Common\CBC\LocaleCode $localeCode
      */
     private $localeCode = null;
 
@@ -168,7 +168,7 @@ class DocumentReferenceType
      *  Identifier. Type
      *  1.1
      *
-     * @var \UBL\Common\CBC\VersionID $versionID
+     * @var \App\UBL\Common\CBC\VersionID $versionID
      */
     private $versionID = null;
 
@@ -183,7 +183,7 @@ class DocumentReferenceType
      *  Document Status
      *  Document Status_ Code. Type
      *
-     * @var \UBL\Common\CBC\DocumentStatusCode $documentStatusCode
+     * @var \App\UBL\Common\CBC\DocumentStatusCode $documentStatusCode
      */
     private $documentStatusCode = null;
 
@@ -199,7 +199,7 @@ class DocumentReferenceType
      *  Text. Type
      *  stock no longer provided
      *
-     * @var \UBL\Common\CBC\DocumentDescription[] $documentDescription
+     * @var \App\UBL\Common\CBC\DocumentDescription[] $documentDescription
      */
     private $documentDescription = [
         
@@ -215,7 +215,7 @@ class DocumentReferenceType
      *  Attachment
      *  Attachment
      *
-     * @var \UBL\Common\CAC\Attachment $attachment
+     * @var \App\UBL\Common\CAC\Attachment $attachment
      */
     private $attachment = null;
 
@@ -230,7 +230,7 @@ class DocumentReferenceType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ValidityPeriod $validityPeriod
+     * @var \App\UBL\Common\CAC\ValidityPeriod $validityPeriod
      */
     private $validityPeriod = null;
 
@@ -245,7 +245,7 @@ class DocumentReferenceType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\IssuerParty $issuerParty
+     * @var \App\UBL\Common\CAC\IssuerParty $issuerParty
      */
     private $issuerParty = null;
 
@@ -259,7 +259,7 @@ class DocumentReferenceType
      *  Result Of Verification
      *  Result Of Verification
      *
-     * @var \UBL\Common\CAC\ResultOfVerification $resultOfVerification
+     * @var \App\UBL\Common\CAC\ResultOfVerification $resultOfVerification
      */
     private $resultOfVerification = null;
 
@@ -276,7 +276,7 @@ class DocumentReferenceType
      *  Identifier. Type
      *  PO-001 3333-44-123
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -296,10 +296,10 @@ class DocumentReferenceType
      *  Identifier. Type
      *  PO-001 3333-44-123
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -359,7 +359,7 @@ class DocumentReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -378,10 +378,10 @@ class DocumentReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -479,7 +479,7 @@ class DocumentReferenceType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\DocumentTypeCode
+     * @return \App\UBL\Common\CBC\DocumentTypeCode
      */
     public function getDocumentTypeCode()
     {
@@ -498,10 +498,10 @@ class DocumentReferenceType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\DocumentTypeCode $documentTypeCode
+     * @param \App\UBL\Common\CBC\DocumentTypeCode $documentTypeCode
      * @return self
      */
-    public function setDocumentTypeCode(?\UBL\Common\CBC\DocumentTypeCode $documentTypeCode = null)
+    public function setDocumentTypeCode(?\App\UBL\Common\CBC\DocumentTypeCode $documentTypeCode = null)
     {
         $this->documentTypeCode = $documentTypeCode;
         return $this;
@@ -519,7 +519,7 @@ class DocumentReferenceType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\DocumentType
+     * @return \App\UBL\Common\CBC\DocumentType
      */
     public function getDocumentType()
     {
@@ -538,10 +538,10 @@ class DocumentReferenceType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\DocumentType $documentType
+     * @param \App\UBL\Common\CBC\DocumentType $documentType
      * @return self
      */
-    public function setDocumentType(?\UBL\Common\CBC\DocumentType $documentType = null)
+    public function setDocumentType(?\App\UBL\Common\CBC\DocumentType $documentType = null)
     {
         $this->documentType = $documentType;
         return $this;
@@ -560,9 +560,9 @@ class DocumentReferenceType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\XPath $xPath
+     * @param \App\UBL\Common\CBC\XPath $xPath
      */
-    public function addToXPath(\UBL\Common\CBC\XPath $xPath)
+    public function addToXPath(\App\UBL\Common\CBC\XPath $xPath)
     {
         $this->xPath[] = $xPath;
         return $this;
@@ -620,7 +620,7 @@ class DocumentReferenceType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\XPath[]
+     * @return \App\UBL\Common\CBC\XPath[]
      */
     public function getXPath()
     {
@@ -639,7 +639,7 @@ class DocumentReferenceType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\XPath[] $xPath
+     * @param \App\UBL\Common\CBC\XPath[] $xPath
      * @return self
      */
     public function setXPath(?array $xPath = null)
@@ -660,7 +660,7 @@ class DocumentReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\LanguageID
+     * @return \App\UBL\Common\CBC\LanguageID
      */
     public function getLanguageID()
     {
@@ -679,10 +679,10 @@ class DocumentReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\LanguageID $languageID
+     * @param \App\UBL\Common\CBC\LanguageID $languageID
      * @return self
      */
-    public function setLanguageID(?\UBL\Common\CBC\LanguageID $languageID = null)
+    public function setLanguageID(?\App\UBL\Common\CBC\LanguageID $languageID = null)
     {
         $this->languageID = $languageID;
         return $this;
@@ -700,7 +700,7 @@ class DocumentReferenceType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\LocaleCode
+     * @return \App\UBL\Common\CBC\LocaleCode
      */
     public function getLocaleCode()
     {
@@ -719,10 +719,10 @@ class DocumentReferenceType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\LocaleCode $localeCode
+     * @param \App\UBL\Common\CBC\LocaleCode $localeCode
      * @return self
      */
-    public function setLocaleCode(?\UBL\Common\CBC\LocaleCode $localeCode = null)
+    public function setLocaleCode(?\App\UBL\Common\CBC\LocaleCode $localeCode = null)
     {
         $this->localeCode = $localeCode;
         return $this;
@@ -741,7 +741,7 @@ class DocumentReferenceType
      *  Identifier. Type
      *  1.1
      *
-     * @return \UBL\Common\CBC\VersionID
+     * @return \App\UBL\Common\CBC\VersionID
      */
     public function getVersionID()
     {
@@ -761,10 +761,10 @@ class DocumentReferenceType
      *  Identifier. Type
      *  1.1
      *
-     * @param \UBL\Common\CBC\VersionID $versionID
+     * @param \App\UBL\Common\CBC\VersionID $versionID
      * @return self
      */
-    public function setVersionID(?\UBL\Common\CBC\VersionID $versionID = null)
+    public function setVersionID(?\App\UBL\Common\CBC\VersionID $versionID = null)
     {
         $this->versionID = $versionID;
         return $this;
@@ -783,7 +783,7 @@ class DocumentReferenceType
      *  Document Status
      *  Document Status_ Code. Type
      *
-     * @return \UBL\Common\CBC\DocumentStatusCode
+     * @return \App\UBL\Common\CBC\DocumentStatusCode
      */
     public function getDocumentStatusCode()
     {
@@ -803,10 +803,10 @@ class DocumentReferenceType
      *  Document Status
      *  Document Status_ Code. Type
      *
-     * @param \UBL\Common\CBC\DocumentStatusCode $documentStatusCode
+     * @param \App\UBL\Common\CBC\DocumentStatusCode $documentStatusCode
      * @return self
      */
-    public function setDocumentStatusCode(?\UBL\Common\CBC\DocumentStatusCode $documentStatusCode = null)
+    public function setDocumentStatusCode(?\App\UBL\Common\CBC\DocumentStatusCode $documentStatusCode = null)
     {
         $this->documentStatusCode = $documentStatusCode;
         return $this;
@@ -827,9 +827,9 @@ class DocumentReferenceType
      *  stock no longer provided
      *
      * @return self
-     * @param \UBL\Common\CBC\DocumentDescription $documentDescription
+     * @param \App\UBL\Common\CBC\DocumentDescription $documentDescription
      */
-    public function addToDocumentDescription(\UBL\Common\CBC\DocumentDescription $documentDescription)
+    public function addToDocumentDescription(\App\UBL\Common\CBC\DocumentDescription $documentDescription)
     {
         $this->documentDescription[] = $documentDescription;
         return $this;
@@ -893,7 +893,7 @@ class DocumentReferenceType
      *  Text. Type
      *  stock no longer provided
      *
-     * @return \UBL\Common\CBC\DocumentDescription[]
+     * @return \App\UBL\Common\CBC\DocumentDescription[]
      */
     public function getDocumentDescription()
     {
@@ -914,7 +914,7 @@ class DocumentReferenceType
      *  Text. Type
      *  stock no longer provided
      *
-     * @param \UBL\Common\CBC\DocumentDescription[] $documentDescription
+     * @param \App\UBL\Common\CBC\DocumentDescription[] $documentDescription
      * @return self
      */
     public function setDocumentDescription(?array $documentDescription = null)
@@ -935,7 +935,7 @@ class DocumentReferenceType
      *  Attachment
      *  Attachment
      *
-     * @return \UBL\Common\CAC\Attachment
+     * @return \App\UBL\Common\CAC\Attachment
      */
     public function getAttachment()
     {
@@ -954,10 +954,10 @@ class DocumentReferenceType
      *  Attachment
      *  Attachment
      *
-     * @param \UBL\Common\CAC\Attachment $attachment
+     * @param \App\UBL\Common\CAC\Attachment $attachment
      * @return self
      */
-    public function setAttachment(?\UBL\Common\CAC\Attachment $attachment = null)
+    public function setAttachment(?\App\UBL\Common\CAC\Attachment $attachment = null)
     {
         $this->attachment = $attachment;
         return $this;
@@ -976,7 +976,7 @@ class DocumentReferenceType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ValidityPeriod
+     * @return \App\UBL\Common\CAC\ValidityPeriod
      */
     public function getValidityPeriod()
     {
@@ -996,10 +996,10 @@ class DocumentReferenceType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ValidityPeriod $validityPeriod
+     * @param \App\UBL\Common\CAC\ValidityPeriod $validityPeriod
      * @return self
      */
-    public function setValidityPeriod(?\UBL\Common\CAC\ValidityPeriod $validityPeriod = null)
+    public function setValidityPeriod(?\App\UBL\Common\CAC\ValidityPeriod $validityPeriod = null)
     {
         $this->validityPeriod = $validityPeriod;
         return $this;
@@ -1018,7 +1018,7 @@ class DocumentReferenceType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\IssuerParty
+     * @return \App\UBL\Common\CAC\IssuerParty
      */
     public function getIssuerParty()
     {
@@ -1038,10 +1038,10 @@ class DocumentReferenceType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\IssuerParty $issuerParty
+     * @param \App\UBL\Common\CAC\IssuerParty $issuerParty
      * @return self
      */
-    public function setIssuerParty(?\UBL\Common\CAC\IssuerParty $issuerParty = null)
+    public function setIssuerParty(?\App\UBL\Common\CAC\IssuerParty $issuerParty = null)
     {
         $this->issuerParty = $issuerParty;
         return $this;
@@ -1059,7 +1059,7 @@ class DocumentReferenceType
      *  Result Of Verification
      *  Result Of Verification
      *
-     * @return \UBL\Common\CAC\ResultOfVerification
+     * @return \App\UBL\Common\CAC\ResultOfVerification
      */
     public function getResultOfVerification()
     {
@@ -1078,14 +1078,13 @@ class DocumentReferenceType
      *  Result Of Verification
      *  Result Of Verification
      *
-     * @param \UBL\Common\CAC\ResultOfVerification $resultOfVerification
+     * @param \App\UBL\Common\CAC\ResultOfVerification $resultOfVerification
      * @return self
      */
-    public function setResultOfVerification(?\UBL\Common\CAC\ResultOfVerification $resultOfVerification = null)
+    public function setResultOfVerification(?\App\UBL\Common\CAC\ResultOfVerification $resultOfVerification = null)
     {
         $this->resultOfVerification = $resultOfVerification;
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class SubstituteCarrierParty extends PartyType
 {
 }
 
-

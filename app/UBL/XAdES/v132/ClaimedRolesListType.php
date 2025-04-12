@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class ClaimedRolesListType
 {
     /**
-     * @var \UBL\XAdES\v132\AnyType[] $claimedRole
+     * @var \App\UBL\XAdES\v132\AnyType[] $claimedRole
      */
     private $claimedRole = [
         
@@ -21,9 +21,9 @@ class ClaimedRolesListType
      * Adds as claimedRole
      *
      * @return self
-     * @param \UBL\XAdES\v132\AnyType $claimedRole
+     * @param \App\UBL\XAdES\v132\AnyType $claimedRole
      */
-    public function addToClaimedRole(\UBL\XAdES\v132\AnyType $claimedRole)
+    public function addToClaimedRole(\App\UBL\XAdES\v132\AnyType $claimedRole)
     {
         $this->claimedRole[] = $claimedRole;
         return $this;
@@ -54,7 +54,7 @@ class ClaimedRolesListType
     /**
      * Gets as claimedRole
      *
-     * @return \UBL\XAdES\v132\AnyType[]
+     * @return \App\UBL\XAdES\v132\AnyType[]
      */
     public function getClaimedRole()
     {
@@ -64,7 +64,7 @@ class ClaimedRolesListType
     /**
      * Sets a new claimedRole
      *
-     * @param \UBL\XAdES\v132\AnyType[] $claimedRole
+     * @param \App\UBL\XAdES\v132\AnyType[] $claimedRole
      * @return self
      */
     public function setClaimedRole(array $claimedRole)
@@ -73,5 +73,4 @@ class ClaimedRolesListType
         return $this;
     }
 }
-
 

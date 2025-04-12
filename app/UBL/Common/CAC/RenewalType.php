@@ -23,7 +23,7 @@ class RenewalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\Amount $amount
+     * @var \App\UBL\Common\CBC\Amount $amount
      */
     private $amount = null;
 
@@ -37,7 +37,7 @@ class RenewalType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\Period $period
+     * @var \App\UBL\Common\CAC\Period $period
      */
     private $period = null;
 
@@ -53,7 +53,7 @@ class RenewalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\Amount
+     * @return \App\UBL\Common\CBC\Amount
      */
     public function getAmount()
     {
@@ -72,10 +72,10 @@ class RenewalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\Amount $amount
+     * @param \App\UBL\Common\CBC\Amount $amount
      * @return self
      */
-    public function setAmount(?\UBL\Common\CBC\Amount $amount = null)
+    public function setAmount(?\App\UBL\Common\CBC\Amount $amount = null)
     {
         $this->amount = $amount;
         return $this;
@@ -93,7 +93,7 @@ class RenewalType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\Period
+     * @return \App\UBL\Common\CAC\Period
      */
     public function getPeriod()
     {
@@ -112,14 +112,13 @@ class RenewalType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\Period $period
+     * @param \App\UBL\Common\CAC\Period $period
      * @return self
      */
-    public function setPeriod(?\UBL\Common\CAC\Period $period = null)
+    public function setPeriod(?\App\UBL\Common\CAC\Period $period = null)
     {
         $this->period = $period;
         return $this;
     }
 }
-
 

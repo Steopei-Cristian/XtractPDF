@@ -9,4 +9,3 @@ class TechnicalCommitteeDescription extends TechnicalCommitteeDescriptionType
 {
 }
 
-

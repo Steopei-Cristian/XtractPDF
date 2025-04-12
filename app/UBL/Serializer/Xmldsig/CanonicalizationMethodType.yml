@@ -1,4 +1,4 @@
-UBL\Xmldsig\CanonicalizationMethodType:
+App\UBL\Xmldsig\CanonicalizationMethodType:
     properties:
         algorithm:
             expose: true

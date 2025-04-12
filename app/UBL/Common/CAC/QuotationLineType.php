@@ -23,7 +23,7 @@ class QuotationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class QuotationLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -53,7 +53,7 @@ class QuotationLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -67,7 +67,7 @@ class QuotationLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @var \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      */
     private $lineExtensionAmount = null;
 
@@ -82,7 +82,7 @@ class QuotationLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\TotalTaxAmount $totalTaxAmount
+     * @var \App\UBL\Common\CBC\TotalTaxAmount $totalTaxAmount
      */
     private $totalTaxAmount = null;
 
@@ -96,7 +96,7 @@ class QuotationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\RequestForQuotationLineID $requestForQuotationLineID
+     * @var \App\UBL\Common\CBC\RequestForQuotationLineID $requestForQuotationLineID
      */
     private $requestForQuotationLineID = null;
 
@@ -110,7 +110,7 @@ class QuotationLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -126,7 +126,7 @@ class QuotationLineType
      *  Line Item
      *  Line Item
      *
-     * @var \UBL\Common\CAC\LineItem $lineItem
+     * @var \App\UBL\Common\CAC\LineItem $lineItem
      */
     private $lineItem = null;
 
@@ -141,7 +141,7 @@ class QuotationLineType
      *  Line Item
      *  Line Item
      *
-     * @var \UBL\Common\CAC\SellerProposedSubstituteLineItem[] $sellerProposedSubstituteLineItem
+     * @var \App\UBL\Common\CAC\SellerProposedSubstituteLineItem[] $sellerProposedSubstituteLineItem
      */
     private $sellerProposedSubstituteLineItem = [
         
@@ -158,7 +158,7 @@ class QuotationLineType
      *  Line Item
      *  Line Item
      *
-     * @var \UBL\Common\CAC\AlternativeLineItem[] $alternativeLineItem
+     * @var \App\UBL\Common\CAC\AlternativeLineItem[] $alternativeLineItem
      */
     private $alternativeLineItem = [
         
@@ -175,7 +175,7 @@ class QuotationLineType
      *  Line Reference
      *  Line Reference
      *
-     * @var \UBL\Common\CAC\RequestLineReference $requestLineReference
+     * @var \App\UBL\Common\CAC\RequestLineReference $requestLineReference
      */
     private $requestLineReference = null;
 
@@ -191,7 +191,7 @@ class QuotationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -210,10 +210,10 @@ class QuotationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -232,9 +232,9 @@ class QuotationLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -292,7 +292,7 @@ class QuotationLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -311,7 +311,7 @@ class QuotationLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -332,7 +332,7 @@ class QuotationLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -351,10 +351,10 @@ class QuotationLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
@@ -372,7 +372,7 @@ class QuotationLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\LineExtensionAmount
+     * @return \App\UBL\Common\CBC\LineExtensionAmount
      */
     public function getLineExtensionAmount()
     {
@@ -391,10 +391,10 @@ class QuotationLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @param \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      * @return self
      */
-    public function setLineExtensionAmount(?\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount = null)
+    public function setLineExtensionAmount(?\App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount = null)
     {
         $this->lineExtensionAmount = $lineExtensionAmount;
         return $this;
@@ -413,7 +413,7 @@ class QuotationLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\TotalTaxAmount
+     * @return \App\UBL\Common\CBC\TotalTaxAmount
      */
     public function getTotalTaxAmount()
     {
@@ -433,10 +433,10 @@ class QuotationLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\TotalTaxAmount $totalTaxAmount
+     * @param \App\UBL\Common\CBC\TotalTaxAmount $totalTaxAmount
      * @return self
      */
-    public function setTotalTaxAmount(?\UBL\Common\CBC\TotalTaxAmount $totalTaxAmount = null)
+    public function setTotalTaxAmount(?\App\UBL\Common\CBC\TotalTaxAmount $totalTaxAmount = null)
     {
         $this->totalTaxAmount = $totalTaxAmount;
         return $this;
@@ -454,7 +454,7 @@ class QuotationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\RequestForQuotationLineID
+     * @return \App\UBL\Common\CBC\RequestForQuotationLineID
      */
     public function getRequestForQuotationLineID()
     {
@@ -473,10 +473,10 @@ class QuotationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\RequestForQuotationLineID $requestForQuotationLineID
+     * @param \App\UBL\Common\CBC\RequestForQuotationLineID $requestForQuotationLineID
      * @return self
      */
-    public function setRequestForQuotationLineID(?\UBL\Common\CBC\RequestForQuotationLineID $requestForQuotationLineID = null)
+    public function setRequestForQuotationLineID(?\App\UBL\Common\CBC\RequestForQuotationLineID $requestForQuotationLineID = null)
     {
         $this->requestForQuotationLineID = $requestForQuotationLineID;
         return $this;
@@ -495,9 +495,9 @@ class QuotationLineType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -555,7 +555,7 @@ class QuotationLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -574,7 +574,7 @@ class QuotationLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -595,7 +595,7 @@ class QuotationLineType
      *  Line Item
      *  Line Item
      *
-     * @return \UBL\Common\CAC\LineItem
+     * @return \App\UBL\Common\CAC\LineItem
      */
     public function getLineItem()
     {
@@ -614,10 +614,10 @@ class QuotationLineType
      *  Line Item
      *  Line Item
      *
-     * @param \UBL\Common\CAC\LineItem $lineItem
+     * @param \App\UBL\Common\CAC\LineItem $lineItem
      * @return self
      */
-    public function setLineItem(\UBL\Common\CAC\LineItem $lineItem)
+    public function setLineItem(\App\UBL\Common\CAC\LineItem $lineItem)
     {
         $this->lineItem = $lineItem;
         return $this;
@@ -637,9 +637,9 @@ class QuotationLineType
      *  Line Item
      *
      * @return self
-     * @param \UBL\Common\CAC\SellerProposedSubstituteLineItem $sellerProposedSubstituteLineItem
+     * @param \App\UBL\Common\CAC\SellerProposedSubstituteLineItem $sellerProposedSubstituteLineItem
      */
-    public function addToSellerProposedSubstituteLineItem(\UBL\Common\CAC\SellerProposedSubstituteLineItem $sellerProposedSubstituteLineItem)
+    public function addToSellerProposedSubstituteLineItem(\App\UBL\Common\CAC\SellerProposedSubstituteLineItem $sellerProposedSubstituteLineItem)
     {
         $this->sellerProposedSubstituteLineItem[] = $sellerProposedSubstituteLineItem;
         return $this;
@@ -700,7 +700,7 @@ class QuotationLineType
      *  Line Item
      *  Line Item
      *
-     * @return \UBL\Common\CAC\SellerProposedSubstituteLineItem[]
+     * @return \App\UBL\Common\CAC\SellerProposedSubstituteLineItem[]
      */
     public function getSellerProposedSubstituteLineItem()
     {
@@ -720,7 +720,7 @@ class QuotationLineType
      *  Line Item
      *  Line Item
      *
-     * @param \UBL\Common\CAC\SellerProposedSubstituteLineItem[] $sellerProposedSubstituteLineItem
+     * @param \App\UBL\Common\CAC\SellerProposedSubstituteLineItem[] $sellerProposedSubstituteLineItem
      * @return self
      */
     public function setSellerProposedSubstituteLineItem(?array $sellerProposedSubstituteLineItem = null)
@@ -743,9 +743,9 @@ class QuotationLineType
      *  Line Item
      *
      * @return self
-     * @param \UBL\Common\CAC\AlternativeLineItem $alternativeLineItem
+     * @param \App\UBL\Common\CAC\AlternativeLineItem $alternativeLineItem
      */
-    public function addToAlternativeLineItem(\UBL\Common\CAC\AlternativeLineItem $alternativeLineItem)
+    public function addToAlternativeLineItem(\App\UBL\Common\CAC\AlternativeLineItem $alternativeLineItem)
     {
         $this->alternativeLineItem[] = $alternativeLineItem;
         return $this;
@@ -806,7 +806,7 @@ class QuotationLineType
      *  Line Item
      *  Line Item
      *
-     * @return \UBL\Common\CAC\AlternativeLineItem[]
+     * @return \App\UBL\Common\CAC\AlternativeLineItem[]
      */
     public function getAlternativeLineItem()
     {
@@ -826,7 +826,7 @@ class QuotationLineType
      *  Line Item
      *  Line Item
      *
-     * @param \UBL\Common\CAC\AlternativeLineItem[] $alternativeLineItem
+     * @param \App\UBL\Common\CAC\AlternativeLineItem[] $alternativeLineItem
      * @return self
      */
     public function setAlternativeLineItem(?array $alternativeLineItem = null)
@@ -848,7 +848,7 @@ class QuotationLineType
      *  Line Reference
      *  Line Reference
      *
-     * @return \UBL\Common\CAC\RequestLineReference
+     * @return \App\UBL\Common\CAC\RequestLineReference
      */
     public function getRequestLineReference()
     {
@@ -868,14 +868,13 @@ class QuotationLineType
      *  Line Reference
      *  Line Reference
      *
-     * @param \UBL\Common\CAC\RequestLineReference $requestLineReference
+     * @param \App\UBL\Common\CAC\RequestLineReference $requestLineReference
      * @return self
      */
-    public function setRequestLineReference(?\UBL\Common\CAC\RequestLineReference $requestLineReference = null)
+    public function setRequestLineReference(?\App\UBL\Common\CAC\RequestLineReference $requestLineReference = null)
     {
         $this->requestLineReference = $requestLineReference;
         return $this;
     }
 }
-
 

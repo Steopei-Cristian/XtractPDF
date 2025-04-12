@@ -9,4 +9,3 @@ class PaymentMandate extends PaymentMandateType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ContractFolderID extends ContractFolderIDType
 {
 }
 
-

@@ -9,4 +9,3 @@ class EffectivePeriod extends PeriodType
 {
 }
 
-

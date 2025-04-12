@@ -1,4 +1,4 @@
-UBL\Common\CBC\RefrigeratedIndicatorType:
+App\UBL\Common\CBC\RefrigeratedIndicatorType:
     properties:
         __value:
             expose: true

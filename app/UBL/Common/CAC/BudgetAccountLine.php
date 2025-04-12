@@ -9,4 +9,3 @@ class BudgetAccountLine extends BudgetAccountLineType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CAC\TransportScheduleType:
+App\UBL\Common\CAC\TransportScheduleType:
     properties:
         sequenceNumeric:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TransportScheduleType:
             accessor:
                 getter: getSequenceNumeric
                 setter: setSequenceNumeric
-            type: UBL\Common\CBC\SequenceNumeric
+            type: App\UBL\Common\CBC\SequenceNumeric
         referenceDate:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\TransportScheduleType:
             accessor:
                 getter: getReliabilityPercent
                 setter: setReliabilityPercent
-            type: UBL\Common\CBC\ReliabilityPercent
+            type: App\UBL\Common\CBC\ReliabilityPercent
         remarks:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\TransportScheduleType:
                 inline: true
                 entry_name: Remarks
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Remarks>
+            type: array<App\UBL\Common\CBC\Remarks>
         statusLocation:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\TransportScheduleType:
             accessor:
                 getter: getStatusLocation
                 setter: setStatusLocation
-            type: UBL\Common\CAC\StatusLocation
+            type: App\UBL\Common\CAC\StatusLocation
         actualArrivalTransportEvent:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\TransportScheduleType:
             accessor:
                 getter: getActualArrivalTransportEvent
                 setter: setActualArrivalTransportEvent
-            type: UBL\Common\CAC\ActualArrivalTransportEvent
+            type: App\UBL\Common\CAC\ActualArrivalTransportEvent
         actualDepartureTransportEvent:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\TransportScheduleType:
             accessor:
                 getter: getActualDepartureTransportEvent
                 setter: setActualDepartureTransportEvent
-            type: UBL\Common\CAC\ActualDepartureTransportEvent
+            type: App\UBL\Common\CAC\ActualDepartureTransportEvent
         estimatedDepartureTransportEvent:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\TransportScheduleType:
             accessor:
                 getter: getEstimatedDepartureTransportEvent
                 setter: setEstimatedDepartureTransportEvent
-            type: UBL\Common\CAC\EstimatedDepartureTransportEvent
+            type: App\UBL\Common\CAC\EstimatedDepartureTransportEvent
         estimatedArrivalTransportEvent:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\TransportScheduleType:
             accessor:
                 getter: getEstimatedArrivalTransportEvent
                 setter: setEstimatedArrivalTransportEvent
-            type: UBL\Common\CAC\EstimatedArrivalTransportEvent
+            type: App\UBL\Common\CAC\EstimatedArrivalTransportEvent
         plannedDepartureTransportEvent:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\TransportScheduleType:
             accessor:
                 getter: getPlannedDepartureTransportEvent
                 setter: setPlannedDepartureTransportEvent
-            type: UBL\Common\CAC\PlannedDepartureTransportEvent
+            type: App\UBL\Common\CAC\PlannedDepartureTransportEvent
         plannedArrivalTransportEvent:
             expose: true
             access_type: public_method
@@ -123,4 +123,4 @@ UBL\Common\CAC\TransportScheduleType:
             accessor:
                 getter: getPlannedArrivalTransportEvent
                 setter: setPlannedArrivalTransportEvent
-            type: UBL\Common\CAC\PlannedArrivalTransportEvent
+            type: App\UBL\Common\CAC\PlannedArrivalTransportEvent

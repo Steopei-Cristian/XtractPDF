@@ -9,4 +9,3 @@ class AlternativeConditionPrice extends PriceType
 {
 }
 
-

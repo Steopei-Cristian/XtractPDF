@@ -23,7 +23,7 @@ class NotificationRequirementType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\NotificationTypeCode $notificationTypeCode
+     * @var \App\UBL\Common\CBC\NotificationTypeCode $notificationTypeCode
      */
     private $notificationTypeCode = null;
 
@@ -37,7 +37,7 @@ class NotificationRequirementType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\PostEventNotificationDurationMeasure $postEventNotificationDurationMeasure
+     * @var \App\UBL\Common\CBC\PostEventNotificationDurationMeasure $postEventNotificationDurationMeasure
      */
     private $postEventNotificationDurationMeasure = null;
 
@@ -51,7 +51,7 @@ class NotificationRequirementType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\PreEventNotificationDurationMeasure $preEventNotificationDurationMeasure
+     * @var \App\UBL\Common\CBC\PreEventNotificationDurationMeasure $preEventNotificationDurationMeasure
      */
     private $preEventNotificationDurationMeasure = null;
 
@@ -66,7 +66,7 @@ class NotificationRequirementType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\NotifyParty[] $notifyParty
+     * @var \App\UBL\Common\CAC\NotifyParty[] $notifyParty
      */
     private $notifyParty = [
         
@@ -83,7 +83,7 @@ class NotificationRequirementType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\NotificationPeriod[] $notificationPeriod
+     * @var \App\UBL\Common\CAC\NotificationPeriod[] $notificationPeriod
      */
     private $notificationPeriod = [
         
@@ -100,7 +100,7 @@ class NotificationRequirementType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\NotificationLocation[] $notificationLocation
+     * @var \App\UBL\Common\CAC\NotificationLocation[] $notificationLocation
      */
     private $notificationLocation = [
         
@@ -118,7 +118,7 @@ class NotificationRequirementType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\NotificationTypeCode
+     * @return \App\UBL\Common\CBC\NotificationTypeCode
      */
     public function getNotificationTypeCode()
     {
@@ -137,10 +137,10 @@ class NotificationRequirementType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\NotificationTypeCode $notificationTypeCode
+     * @param \App\UBL\Common\CBC\NotificationTypeCode $notificationTypeCode
      * @return self
      */
-    public function setNotificationTypeCode(\UBL\Common\CBC\NotificationTypeCode $notificationTypeCode)
+    public function setNotificationTypeCode(\App\UBL\Common\CBC\NotificationTypeCode $notificationTypeCode)
     {
         $this->notificationTypeCode = $notificationTypeCode;
         return $this;
@@ -158,7 +158,7 @@ class NotificationRequirementType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\PostEventNotificationDurationMeasure
+     * @return \App\UBL\Common\CBC\PostEventNotificationDurationMeasure
      */
     public function getPostEventNotificationDurationMeasure()
     {
@@ -177,10 +177,10 @@ class NotificationRequirementType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\PostEventNotificationDurationMeasure $postEventNotificationDurationMeasure
+     * @param \App\UBL\Common\CBC\PostEventNotificationDurationMeasure $postEventNotificationDurationMeasure
      * @return self
      */
-    public function setPostEventNotificationDurationMeasure(?\UBL\Common\CBC\PostEventNotificationDurationMeasure $postEventNotificationDurationMeasure = null)
+    public function setPostEventNotificationDurationMeasure(?\App\UBL\Common\CBC\PostEventNotificationDurationMeasure $postEventNotificationDurationMeasure = null)
     {
         $this->postEventNotificationDurationMeasure = $postEventNotificationDurationMeasure;
         return $this;
@@ -198,7 +198,7 @@ class NotificationRequirementType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\PreEventNotificationDurationMeasure
+     * @return \App\UBL\Common\CBC\PreEventNotificationDurationMeasure
      */
     public function getPreEventNotificationDurationMeasure()
     {
@@ -217,10 +217,10 @@ class NotificationRequirementType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\PreEventNotificationDurationMeasure $preEventNotificationDurationMeasure
+     * @param \App\UBL\Common\CBC\PreEventNotificationDurationMeasure $preEventNotificationDurationMeasure
      * @return self
      */
-    public function setPreEventNotificationDurationMeasure(?\UBL\Common\CBC\PreEventNotificationDurationMeasure $preEventNotificationDurationMeasure = null)
+    public function setPreEventNotificationDurationMeasure(?\App\UBL\Common\CBC\PreEventNotificationDurationMeasure $preEventNotificationDurationMeasure = null)
     {
         $this->preEventNotificationDurationMeasure = $preEventNotificationDurationMeasure;
         return $this;
@@ -240,9 +240,9 @@ class NotificationRequirementType
      *  Party
      *
      * @return self
-     * @param \UBL\Common\CAC\NotifyParty $notifyParty
+     * @param \App\UBL\Common\CAC\NotifyParty $notifyParty
      */
-    public function addToNotifyParty(\UBL\Common\CAC\NotifyParty $notifyParty)
+    public function addToNotifyParty(\App\UBL\Common\CAC\NotifyParty $notifyParty)
     {
         $this->notifyParty[] = $notifyParty;
         return $this;
@@ -303,7 +303,7 @@ class NotificationRequirementType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\NotifyParty[]
+     * @return \App\UBL\Common\CAC\NotifyParty[]
      */
     public function getNotifyParty()
     {
@@ -323,7 +323,7 @@ class NotificationRequirementType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\NotifyParty[] $notifyParty
+     * @param \App\UBL\Common\CAC\NotifyParty[] $notifyParty
      * @return self
      */
     public function setNotifyParty(?array $notifyParty = null)
@@ -346,9 +346,9 @@ class NotificationRequirementType
      *  Period
      *
      * @return self
-     * @param \UBL\Common\CAC\NotificationPeriod $notificationPeriod
+     * @param \App\UBL\Common\CAC\NotificationPeriod $notificationPeriod
      */
-    public function addToNotificationPeriod(\UBL\Common\CAC\NotificationPeriod $notificationPeriod)
+    public function addToNotificationPeriod(\App\UBL\Common\CAC\NotificationPeriod $notificationPeriod)
     {
         $this->notificationPeriod[] = $notificationPeriod;
         return $this;
@@ -409,7 +409,7 @@ class NotificationRequirementType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\NotificationPeriod[]
+     * @return \App\UBL\Common\CAC\NotificationPeriod[]
      */
     public function getNotificationPeriod()
     {
@@ -429,7 +429,7 @@ class NotificationRequirementType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\NotificationPeriod[] $notificationPeriod
+     * @param \App\UBL\Common\CAC\NotificationPeriod[] $notificationPeriod
      * @return self
      */
     public function setNotificationPeriod(?array $notificationPeriod = null)
@@ -452,9 +452,9 @@ class NotificationRequirementType
      *  Location
      *
      * @return self
-     * @param \UBL\Common\CAC\NotificationLocation $notificationLocation
+     * @param \App\UBL\Common\CAC\NotificationLocation $notificationLocation
      */
-    public function addToNotificationLocation(\UBL\Common\CAC\NotificationLocation $notificationLocation)
+    public function addToNotificationLocation(\App\UBL\Common\CAC\NotificationLocation $notificationLocation)
     {
         $this->notificationLocation[] = $notificationLocation;
         return $this;
@@ -515,7 +515,7 @@ class NotificationRequirementType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\NotificationLocation[]
+     * @return \App\UBL\Common\CAC\NotificationLocation[]
      */
     public function getNotificationLocation()
     {
@@ -535,7 +535,7 @@ class NotificationRequirementType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\NotificationLocation[] $notificationLocation
+     * @param \App\UBL\Common\CAC\NotificationLocation[] $notificationLocation
      * @return self
      */
     public function setNotificationLocation(?array $notificationLocation = null)
@@ -544,5 +544,4 @@ class NotificationRequirementType
         return $this;
     }
 }
-
 

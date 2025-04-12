@@ -9,4 +9,3 @@ class LotNumberID extends LotNumberIDType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CAC\ClassificationCategoryType:
+App\UBL\Common\CAC\ClassificationCategoryType:
     properties:
         name:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ClassificationCategoryType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         codeValue:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ClassificationCategoryType:
             accessor:
                 getter: getCodeValue
                 setter: setCodeValue
-            type: UBL\Common\CBC\CodeValue
+            type: App\UBL\Common\CBC\CodeValue
         description:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\ClassificationCategoryType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         categorizesClassificationCategory:
             expose: true
             access_type: public_method
@@ -47,4 +47,4 @@ UBL\Common\CAC\ClassificationCategoryType:
                 inline: true
                 entry_name: CategorizesClassificationCategory
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\CategorizesClassificationCategory>
+            type: array<App\UBL\Common\CAC\CategorizesClassificationCategory>

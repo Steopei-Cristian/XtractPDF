@@ -1,2 +1,2 @@
-UBL\Common\CBC\LongitudeMinutesMeasureType:
+App\UBL\Common\CBC\LongitudeMinutesMeasureType:
     properties: {  }

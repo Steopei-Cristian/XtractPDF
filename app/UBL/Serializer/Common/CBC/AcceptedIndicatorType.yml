@@ -1,4 +1,4 @@
-UBL\Common\CBC\AcceptedIndicatorType:
+App\UBL\Common\CBC\AcceptedIndicatorType:
     properties:
         __value:
             expose: true

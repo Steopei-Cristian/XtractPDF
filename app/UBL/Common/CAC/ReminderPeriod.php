@@ -9,4 +9,3 @@ class ReminderPeriod extends PeriodType
 {
 }
 
-

@@ -9,4 +9,3 @@ class SpecialTerms extends SpecialTermsType
 {
 }
 
-

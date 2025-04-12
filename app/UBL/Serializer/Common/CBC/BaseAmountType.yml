@@ -1,2 +1,2 @@
-UBL\Common\CBC\BaseAmountType:
+App\UBL\Common\CBC\BaseAmountType:
     properties: {  }

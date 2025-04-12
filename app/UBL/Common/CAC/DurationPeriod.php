@@ -9,4 +9,3 @@ class DurationPeriod extends PeriodType
 {
 }
 
-

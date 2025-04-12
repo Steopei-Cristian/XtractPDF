@@ -9,4 +9,3 @@ class WorkOrderDocumentReference extends DocumentReferenceType
 {
 }
 
-

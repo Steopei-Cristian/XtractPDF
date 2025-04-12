@@ -24,7 +24,7 @@ class AddressLineType
      *  Text. Type
      *  123 Standard Chartered Tower
      *
-     * @var \UBL\Common\CBC\Line $line
+     * @var \App\UBL\Common\CBC\Line $line
      */
     private $line = null;
 
@@ -41,7 +41,7 @@ class AddressLineType
      *  Text. Type
      *  123 Standard Chartered Tower
      *
-     * @return \UBL\Common\CBC\Line
+     * @return \App\UBL\Common\CBC\Line
      */
     public function getLine()
     {
@@ -61,14 +61,13 @@ class AddressLineType
      *  Text. Type
      *  123 Standard Chartered Tower
      *
-     * @param \UBL\Common\CBC\Line $line
+     * @param \App\UBL\Common\CBC\Line $line
      * @return self
      */
-    public function setLine(\UBL\Common\CBC\Line $line)
+    public function setLine(\App\UBL\Common\CBC\Line $line)
     {
         $this->line = $line;
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class OptionalTakeoverTransportEvent extends TransportEventType
 {
 }
 
-

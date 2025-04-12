@@ -9,4 +9,3 @@ class Pickup extends PickupType
 {
 }
 
-

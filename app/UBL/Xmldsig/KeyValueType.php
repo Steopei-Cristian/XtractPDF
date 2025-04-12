@@ -11,19 +11,19 @@ namespace App\UBL\Xmldsig;
 class KeyValueType
 {
     /**
-     * @var \UBL\Xmldsig\DSAKeyValue $dSAKeyValue
+     * @var \App\UBL\Xmldsig\DSAKeyValue $dSAKeyValue
      */
     private $dSAKeyValue = null;
 
     /**
-     * @var \UBL\Xmldsig\RSAKeyValue $rSAKeyValue
+     * @var \App\UBL\Xmldsig\RSAKeyValue $rSAKeyValue
      */
     private $rSAKeyValue = null;
 
     /**
      * Gets as dSAKeyValue
      *
-     * @return \UBL\Xmldsig\DSAKeyValue
+     * @return \App\UBL\Xmldsig\DSAKeyValue
      */
     public function getDSAKeyValue()
     {
@@ -33,10 +33,10 @@ class KeyValueType
     /**
      * Sets a new dSAKeyValue
      *
-     * @param \UBL\Xmldsig\DSAKeyValue $dSAKeyValue
+     * @param \App\UBL\Xmldsig\DSAKeyValue $dSAKeyValue
      * @return self
      */
-    public function setDSAKeyValue(?\UBL\Xmldsig\DSAKeyValue $dSAKeyValue = null)
+    public function setDSAKeyValue(?\App\UBL\Xmldsig\DSAKeyValue $dSAKeyValue = null)
     {
         $this->dSAKeyValue = $dSAKeyValue;
         return $this;
@@ -45,7 +45,7 @@ class KeyValueType
     /**
      * Gets as rSAKeyValue
      *
-     * @return \UBL\Xmldsig\RSAKeyValue
+     * @return \App\UBL\Xmldsig\RSAKeyValue
      */
     public function getRSAKeyValue()
     {
@@ -55,14 +55,13 @@ class KeyValueType
     /**
      * Sets a new rSAKeyValue
      *
-     * @param \UBL\Xmldsig\RSAKeyValue $rSAKeyValue
+     * @param \App\UBL\Xmldsig\RSAKeyValue $rSAKeyValue
      * @return self
      */
-    public function setRSAKeyValue(?\UBL\Xmldsig\RSAKeyValue $rSAKeyValue = null)
+    public function setRSAKeyValue(?\App\UBL\Xmldsig\RSAKeyValue $rSAKeyValue = null)
     {
         $this->rSAKeyValue = $rSAKeyValue;
         return $this;
     }
 }
-
 

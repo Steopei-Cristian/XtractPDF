@@ -23,7 +23,7 @@ class QualifyingPartyType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\ParticipationPercent $participationPercent
+     * @var \App\UBL\Common\CBC\ParticipationPercent $participationPercent
      */
     private $participationPercent = null;
 
@@ -37,7 +37,7 @@ class QualifyingPartyType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\PersonalSituation[] $personalSituation
+     * @var \App\UBL\Common\CBC\PersonalSituation[] $personalSituation
      */
     private $personalSituation = [
         
@@ -53,7 +53,7 @@ class QualifyingPartyType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\OperatingYearsQuantity $operatingYearsQuantity
+     * @var \App\UBL\Common\CBC\OperatingYearsQuantity $operatingYearsQuantity
      */
     private $operatingYearsQuantity = null;
 
@@ -67,7 +67,7 @@ class QualifyingPartyType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\EmployeeQuantity $employeeQuantity
+     * @var \App\UBL\Common\CBC\EmployeeQuantity $employeeQuantity
      */
     private $employeeQuantity = null;
 
@@ -81,7 +81,7 @@ class QualifyingPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\BusinessClassificationEvidenceID $businessClassificationEvidenceID
+     * @var \App\UBL\Common\CBC\BusinessClassificationEvidenceID $businessClassificationEvidenceID
      */
     private $businessClassificationEvidenceID = null;
 
@@ -95,7 +95,7 @@ class QualifyingPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\BusinessIdentityEvidenceID $businessIdentityEvidenceID
+     * @var \App\UBL\Common\CBC\BusinessIdentityEvidenceID $businessIdentityEvidenceID
      */
     private $businessIdentityEvidenceID = null;
 
@@ -109,7 +109,7 @@ class QualifyingPartyType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TendererRoleCode $tendererRoleCode
+     * @var \App\UBL\Common\CBC\TendererRoleCode $tendererRoleCode
      */
     private $tendererRoleCode = null;
 
@@ -124,7 +124,7 @@ class QualifyingPartyType
      *  Classification Scheme
      *  Classification Scheme
      *
-     * @var \UBL\Common\CAC\BusinessClassificationScheme $businessClassificationScheme
+     * @var \App\UBL\Common\CAC\BusinessClassificationScheme $businessClassificationScheme
      */
     private $businessClassificationScheme = null;
 
@@ -139,7 +139,7 @@ class QualifyingPartyType
      *  Capability
      *  Capability
      *
-     * @var \UBL\Common\CAC\TechnicalCapability[] $technicalCapability
+     * @var \App\UBL\Common\CAC\TechnicalCapability[] $technicalCapability
      */
     private $technicalCapability = [
         
@@ -156,7 +156,7 @@ class QualifyingPartyType
      *  Capability
      *  Capability
      *
-     * @var \UBL\Common\CAC\FinancialCapability[] $financialCapability
+     * @var \App\UBL\Common\CAC\FinancialCapability[] $financialCapability
      */
     private $financialCapability = [
         
@@ -172,7 +172,7 @@ class QualifyingPartyType
      *  Completed Task
      *  Completed Task
      *
-     * @var \UBL\Common\CAC\CompletedTask[] $completedTask
+     * @var \App\UBL\Common\CAC\CompletedTask[] $completedTask
      */
     private $completedTask = [
         
@@ -188,7 +188,7 @@ class QualifyingPartyType
      *  Declaration
      *  Declaration
      *
-     * @var \UBL\Common\CAC\Declaration[] $declaration
+     * @var \App\UBL\Common\CAC\Declaration[] $declaration
      */
     private $declaration = [
         
@@ -204,7 +204,7 @@ class QualifyingPartyType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\Party $party
+     * @var \App\UBL\Common\CAC\Party $party
      */
     private $party = null;
 
@@ -218,7 +218,7 @@ class QualifyingPartyType
      *  Economic Operator Role
      *  Economic Operator Role
      *
-     * @var \UBL\Common\CAC\EconomicOperatorRole $economicOperatorRole
+     * @var \App\UBL\Common\CAC\EconomicOperatorRole $economicOperatorRole
      */
     private $economicOperatorRole = null;
 
@@ -234,7 +234,7 @@ class QualifyingPartyType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\ParticipationPercent
+     * @return \App\UBL\Common\CBC\ParticipationPercent
      */
     public function getParticipationPercent()
     {
@@ -253,10 +253,10 @@ class QualifyingPartyType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\ParticipationPercent $participationPercent
+     * @param \App\UBL\Common\CBC\ParticipationPercent $participationPercent
      * @return self
      */
-    public function setParticipationPercent(?\UBL\Common\CBC\ParticipationPercent $participationPercent = null)
+    public function setParticipationPercent(?\App\UBL\Common\CBC\ParticipationPercent $participationPercent = null)
     {
         $this->participationPercent = $participationPercent;
         return $this;
@@ -275,9 +275,9 @@ class QualifyingPartyType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\PersonalSituation $personalSituation
+     * @param \App\UBL\Common\CBC\PersonalSituation $personalSituation
      */
-    public function addToPersonalSituation(\UBL\Common\CBC\PersonalSituation $personalSituation)
+    public function addToPersonalSituation(\App\UBL\Common\CBC\PersonalSituation $personalSituation)
     {
         $this->personalSituation[] = $personalSituation;
         return $this;
@@ -335,7 +335,7 @@ class QualifyingPartyType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\PersonalSituation[]
+     * @return \App\UBL\Common\CBC\PersonalSituation[]
      */
     public function getPersonalSituation()
     {
@@ -354,7 +354,7 @@ class QualifyingPartyType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\PersonalSituation[] $personalSituation
+     * @param \App\UBL\Common\CBC\PersonalSituation[] $personalSituation
      * @return self
      */
     public function setPersonalSituation(?array $personalSituation = null)
@@ -375,7 +375,7 @@ class QualifyingPartyType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\OperatingYearsQuantity
+     * @return \App\UBL\Common\CBC\OperatingYearsQuantity
      */
     public function getOperatingYearsQuantity()
     {
@@ -394,10 +394,10 @@ class QualifyingPartyType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\OperatingYearsQuantity $operatingYearsQuantity
+     * @param \App\UBL\Common\CBC\OperatingYearsQuantity $operatingYearsQuantity
      * @return self
      */
-    public function setOperatingYearsQuantity(?\UBL\Common\CBC\OperatingYearsQuantity $operatingYearsQuantity = null)
+    public function setOperatingYearsQuantity(?\App\UBL\Common\CBC\OperatingYearsQuantity $operatingYearsQuantity = null)
     {
         $this->operatingYearsQuantity = $operatingYearsQuantity;
         return $this;
@@ -415,7 +415,7 @@ class QualifyingPartyType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\EmployeeQuantity
+     * @return \App\UBL\Common\CBC\EmployeeQuantity
      */
     public function getEmployeeQuantity()
     {
@@ -434,10 +434,10 @@ class QualifyingPartyType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\EmployeeQuantity $employeeQuantity
+     * @param \App\UBL\Common\CBC\EmployeeQuantity $employeeQuantity
      * @return self
      */
-    public function setEmployeeQuantity(?\UBL\Common\CBC\EmployeeQuantity $employeeQuantity = null)
+    public function setEmployeeQuantity(?\App\UBL\Common\CBC\EmployeeQuantity $employeeQuantity = null)
     {
         $this->employeeQuantity = $employeeQuantity;
         return $this;
@@ -455,7 +455,7 @@ class QualifyingPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\BusinessClassificationEvidenceID
+     * @return \App\UBL\Common\CBC\BusinessClassificationEvidenceID
      */
     public function getBusinessClassificationEvidenceID()
     {
@@ -474,10 +474,10 @@ class QualifyingPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\BusinessClassificationEvidenceID $businessClassificationEvidenceID
+     * @param \App\UBL\Common\CBC\BusinessClassificationEvidenceID $businessClassificationEvidenceID
      * @return self
      */
-    public function setBusinessClassificationEvidenceID(?\UBL\Common\CBC\BusinessClassificationEvidenceID $businessClassificationEvidenceID = null)
+    public function setBusinessClassificationEvidenceID(?\App\UBL\Common\CBC\BusinessClassificationEvidenceID $businessClassificationEvidenceID = null)
     {
         $this->businessClassificationEvidenceID = $businessClassificationEvidenceID;
         return $this;
@@ -495,7 +495,7 @@ class QualifyingPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\BusinessIdentityEvidenceID
+     * @return \App\UBL\Common\CBC\BusinessIdentityEvidenceID
      */
     public function getBusinessIdentityEvidenceID()
     {
@@ -514,10 +514,10 @@ class QualifyingPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\BusinessIdentityEvidenceID $businessIdentityEvidenceID
+     * @param \App\UBL\Common\CBC\BusinessIdentityEvidenceID $businessIdentityEvidenceID
      * @return self
      */
-    public function setBusinessIdentityEvidenceID(?\UBL\Common\CBC\BusinessIdentityEvidenceID $businessIdentityEvidenceID = null)
+    public function setBusinessIdentityEvidenceID(?\App\UBL\Common\CBC\BusinessIdentityEvidenceID $businessIdentityEvidenceID = null)
     {
         $this->businessIdentityEvidenceID = $businessIdentityEvidenceID;
         return $this;
@@ -535,7 +535,7 @@ class QualifyingPartyType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TendererRoleCode
+     * @return \App\UBL\Common\CBC\TendererRoleCode
      */
     public function getTendererRoleCode()
     {
@@ -554,10 +554,10 @@ class QualifyingPartyType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TendererRoleCode $tendererRoleCode
+     * @param \App\UBL\Common\CBC\TendererRoleCode $tendererRoleCode
      * @return self
      */
-    public function setTendererRoleCode(?\UBL\Common\CBC\TendererRoleCode $tendererRoleCode = null)
+    public function setTendererRoleCode(?\App\UBL\Common\CBC\TendererRoleCode $tendererRoleCode = null)
     {
         $this->tendererRoleCode = $tendererRoleCode;
         return $this;
@@ -576,7 +576,7 @@ class QualifyingPartyType
      *  Classification Scheme
      *  Classification Scheme
      *
-     * @return \UBL\Common\CAC\BusinessClassificationScheme
+     * @return \App\UBL\Common\CAC\BusinessClassificationScheme
      */
     public function getBusinessClassificationScheme()
     {
@@ -596,10 +596,10 @@ class QualifyingPartyType
      *  Classification Scheme
      *  Classification Scheme
      *
-     * @param \UBL\Common\CAC\BusinessClassificationScheme $businessClassificationScheme
+     * @param \App\UBL\Common\CAC\BusinessClassificationScheme $businessClassificationScheme
      * @return self
      */
-    public function setBusinessClassificationScheme(?\UBL\Common\CAC\BusinessClassificationScheme $businessClassificationScheme = null)
+    public function setBusinessClassificationScheme(?\App\UBL\Common\CAC\BusinessClassificationScheme $businessClassificationScheme = null)
     {
         $this->businessClassificationScheme = $businessClassificationScheme;
         return $this;
@@ -619,9 +619,9 @@ class QualifyingPartyType
      *  Capability
      *
      * @return self
-     * @param \UBL\Common\CAC\TechnicalCapability $technicalCapability
+     * @param \App\UBL\Common\CAC\TechnicalCapability $technicalCapability
      */
-    public function addToTechnicalCapability(\UBL\Common\CAC\TechnicalCapability $technicalCapability)
+    public function addToTechnicalCapability(\App\UBL\Common\CAC\TechnicalCapability $technicalCapability)
     {
         $this->technicalCapability[] = $technicalCapability;
         return $this;
@@ -682,7 +682,7 @@ class QualifyingPartyType
      *  Capability
      *  Capability
      *
-     * @return \UBL\Common\CAC\TechnicalCapability[]
+     * @return \App\UBL\Common\CAC\TechnicalCapability[]
      */
     public function getTechnicalCapability()
     {
@@ -702,7 +702,7 @@ class QualifyingPartyType
      *  Capability
      *  Capability
      *
-     * @param \UBL\Common\CAC\TechnicalCapability[] $technicalCapability
+     * @param \App\UBL\Common\CAC\TechnicalCapability[] $technicalCapability
      * @return self
      */
     public function setTechnicalCapability(?array $technicalCapability = null)
@@ -725,9 +725,9 @@ class QualifyingPartyType
      *  Capability
      *
      * @return self
-     * @param \UBL\Common\CAC\FinancialCapability $financialCapability
+     * @param \App\UBL\Common\CAC\FinancialCapability $financialCapability
      */
-    public function addToFinancialCapability(\UBL\Common\CAC\FinancialCapability $financialCapability)
+    public function addToFinancialCapability(\App\UBL\Common\CAC\FinancialCapability $financialCapability)
     {
         $this->financialCapability[] = $financialCapability;
         return $this;
@@ -788,7 +788,7 @@ class QualifyingPartyType
      *  Capability
      *  Capability
      *
-     * @return \UBL\Common\CAC\FinancialCapability[]
+     * @return \App\UBL\Common\CAC\FinancialCapability[]
      */
     public function getFinancialCapability()
     {
@@ -808,7 +808,7 @@ class QualifyingPartyType
      *  Capability
      *  Capability
      *
-     * @param \UBL\Common\CAC\FinancialCapability[] $financialCapability
+     * @param \App\UBL\Common\CAC\FinancialCapability[] $financialCapability
      * @return self
      */
     public function setFinancialCapability(?array $financialCapability = null)
@@ -830,9 +830,9 @@ class QualifyingPartyType
      *  Completed Task
      *
      * @return self
-     * @param \UBL\Common\CAC\CompletedTask $completedTask
+     * @param \App\UBL\Common\CAC\CompletedTask $completedTask
      */
-    public function addToCompletedTask(\UBL\Common\CAC\CompletedTask $completedTask)
+    public function addToCompletedTask(\App\UBL\Common\CAC\CompletedTask $completedTask)
     {
         $this->completedTask[] = $completedTask;
         return $this;
@@ -890,7 +890,7 @@ class QualifyingPartyType
      *  Completed Task
      *  Completed Task
      *
-     * @return \UBL\Common\CAC\CompletedTask[]
+     * @return \App\UBL\Common\CAC\CompletedTask[]
      */
     public function getCompletedTask()
     {
@@ -909,7 +909,7 @@ class QualifyingPartyType
      *  Completed Task
      *  Completed Task
      *
-     * @param \UBL\Common\CAC\CompletedTask[] $completedTask
+     * @param \App\UBL\Common\CAC\CompletedTask[] $completedTask
      * @return self
      */
     public function setCompletedTask(?array $completedTask = null)
@@ -931,9 +931,9 @@ class QualifyingPartyType
      *  Declaration
      *
      * @return self
-     * @param \UBL\Common\CAC\Declaration $declaration
+     * @param \App\UBL\Common\CAC\Declaration $declaration
      */
-    public function addToDeclaration(\UBL\Common\CAC\Declaration $declaration)
+    public function addToDeclaration(\App\UBL\Common\CAC\Declaration $declaration)
     {
         $this->declaration[] = $declaration;
         return $this;
@@ -991,7 +991,7 @@ class QualifyingPartyType
      *  Declaration
      *  Declaration
      *
-     * @return \UBL\Common\CAC\Declaration[]
+     * @return \App\UBL\Common\CAC\Declaration[]
      */
     public function getDeclaration()
     {
@@ -1010,7 +1010,7 @@ class QualifyingPartyType
      *  Declaration
      *  Declaration
      *
-     * @param \UBL\Common\CAC\Declaration[] $declaration
+     * @param \App\UBL\Common\CAC\Declaration[] $declaration
      * @return self
      */
     public function setDeclaration(?array $declaration = null)
@@ -1031,7 +1031,7 @@ class QualifyingPartyType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\Party
+     * @return \App\UBL\Common\CAC\Party
      */
     public function getParty()
     {
@@ -1050,10 +1050,10 @@ class QualifyingPartyType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\Party $party
+     * @param \App\UBL\Common\CAC\Party $party
      * @return self
      */
-    public function setParty(?\UBL\Common\CAC\Party $party = null)
+    public function setParty(?\App\UBL\Common\CAC\Party $party = null)
     {
         $this->party = $party;
         return $this;
@@ -1071,7 +1071,7 @@ class QualifyingPartyType
      *  Economic Operator Role
      *  Economic Operator Role
      *
-     * @return \UBL\Common\CAC\EconomicOperatorRole
+     * @return \App\UBL\Common\CAC\EconomicOperatorRole
      */
     public function getEconomicOperatorRole()
     {
@@ -1090,14 +1090,13 @@ class QualifyingPartyType
      *  Economic Operator Role
      *  Economic Operator Role
      *
-     * @param \UBL\Common\CAC\EconomicOperatorRole $economicOperatorRole
+     * @param \App\UBL\Common\CAC\EconomicOperatorRole $economicOperatorRole
      * @return self
      */
-    public function setEconomicOperatorRole(?\UBL\Common\CAC\EconomicOperatorRole $economicOperatorRole = null)
+    public function setEconomicOperatorRole(?\App\UBL\Common\CAC\EconomicOperatorRole $economicOperatorRole = null)
     {
         $this->economicOperatorRole = $economicOperatorRole;
         return $this;
     }
 }
-
 

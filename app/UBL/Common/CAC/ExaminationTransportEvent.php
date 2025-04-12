@@ -9,4 +9,3 @@ class ExaminationTransportEvent extends TransportEventType
 {
 }
 
-

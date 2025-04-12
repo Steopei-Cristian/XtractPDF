@@ -23,7 +23,7 @@ class TelecommunicationsServiceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -70,7 +70,7 @@ class TelecommunicationsServiceType
      *  Text. Type
      *  12345679
      *
-     * @var \UBL\Common\CBC\ServiceNumberCalled $serviceNumberCalled
+     * @var \App\UBL\Common\CBC\ServiceNumberCalled $serviceNumberCalled
      */
     private $serviceNumberCalled = null;
 
@@ -85,7 +85,7 @@ class TelecommunicationsServiceType
      *  Text. Type
      *  Subscription
      *
-     * @var \UBL\Common\CBC\TelecommunicationsServiceCategory $telecommunicationsServiceCategory
+     * @var \App\UBL\Common\CBC\TelecommunicationsServiceCategory $telecommunicationsServiceCategory
      */
     private $telecommunicationsServiceCategory = null;
 
@@ -100,7 +100,7 @@ class TelecommunicationsServiceType
      *  Code. Type
      *  Subscription
      *
-     * @var \UBL\Common\CBC\TelecommunicationsServiceCategoryCode $telecommunicationsServiceCategoryCode
+     * @var \App\UBL\Common\CBC\TelecommunicationsServiceCategoryCode $telecommunicationsServiceCategoryCode
      */
     private $telecommunicationsServiceCategoryCode = null;
 
@@ -115,7 +115,7 @@ class TelecommunicationsServiceType
      *  Text. Type
      *  The Matrix
      *
-     * @var \UBL\Common\CBC\MovieTitle $movieTitle
+     * @var \App\UBL\Common\CBC\MovieTitle $movieTitle
      */
     private $movieTitle = null;
 
@@ -129,7 +129,7 @@ class TelecommunicationsServiceType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\RoamingPartnerName $roamingPartnerName
+     * @var \App\UBL\Common\CBC\RoamingPartnerName $roamingPartnerName
      */
     private $roamingPartnerName = null;
 
@@ -143,7 +143,7 @@ class TelecommunicationsServiceType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\PayPerView $payPerView
+     * @var \App\UBL\Common\CBC\PayPerView $payPerView
      */
     private $payPerView = null;
 
@@ -158,7 +158,7 @@ class TelecommunicationsServiceType
      *  Quantity. Type
      *  5761
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -173,7 +173,7 @@ class TelecommunicationsServiceType
      *  Text. Type
      *  CallAttempt
      *
-     * @var \UBL\Common\CBC\TelecommunicationsServiceCall $telecommunicationsServiceCall
+     * @var \App\UBL\Common\CBC\TelecommunicationsServiceCall $telecommunicationsServiceCall
      */
     private $telecommunicationsServiceCall = null;
 
@@ -188,7 +188,7 @@ class TelecommunicationsServiceType
      *  Code. Type
      *  CallAttempt
      *
-     * @var \UBL\Common\CBC\TelecommunicationsServiceCallCode $telecommunicationsServiceCallCode
+     * @var \App\UBL\Common\CBC\TelecommunicationsServiceCallCode $telecommunicationsServiceCallCode
      */
     private $telecommunicationsServiceCallCode = null;
 
@@ -203,7 +203,7 @@ class TelecommunicationsServiceType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\CallBaseAmount $callBaseAmount
+     * @var \App\UBL\Common\CBC\CallBaseAmount $callBaseAmount
      */
     private $callBaseAmount = null;
 
@@ -219,7 +219,7 @@ class TelecommunicationsServiceType
      *  Amount. Type
      *  542.44
      *
-     * @var \UBL\Common\CBC\CallExtensionAmount $callExtensionAmount
+     * @var \App\UBL\Common\CBC\CallExtensionAmount $callExtensionAmount
      */
     private $callExtensionAmount = null;
 
@@ -233,7 +233,7 @@ class TelecommunicationsServiceType
      *  Price
      *  Price
      *
-     * @var \UBL\Common\CAC\Price $price
+     * @var \App\UBL\Common\CAC\Price $price
      */
     private $price = null;
 
@@ -247,7 +247,7 @@ class TelecommunicationsServiceType
      *  Country
      *  Country
      *
-     * @var \UBL\Common\CAC\Country $country
+     * @var \App\UBL\Common\CAC\Country $country
      */
     private $country = null;
 
@@ -261,7 +261,7 @@ class TelecommunicationsServiceType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @var \UBL\Common\CAC\ExchangeRate[] $exchangeRate
+     * @var \App\UBL\Common\CAC\ExchangeRate[] $exchangeRate
      */
     private $exchangeRate = [
         
@@ -277,7 +277,7 @@ class TelecommunicationsServiceType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @var \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      */
     private $allowanceCharge = [
         
@@ -293,7 +293,7 @@ class TelecommunicationsServiceType
      *  Tax Total
      *  Tax Total
      *
-     * @var \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @var \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      */
     private $taxTotal = [
         
@@ -310,7 +310,7 @@ class TelecommunicationsServiceType
      *  Duty
      *  Duty
      *
-     * @var \UBL\Common\CAC\CallDuty[] $callDuty
+     * @var \App\UBL\Common\CAC\CallDuty[] $callDuty
      */
     private $callDuty = [
         
@@ -327,7 +327,7 @@ class TelecommunicationsServiceType
      *  Duty
      *  Duty
      *
-     * @var \UBL\Common\CAC\TimeDuty[] $timeDuty
+     * @var \App\UBL\Common\CAC\TimeDuty[] $timeDuty
      */
     private $timeDuty = [
         
@@ -345,7 +345,7 @@ class TelecommunicationsServiceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -364,10 +364,10 @@ class TelecommunicationsServiceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -474,7 +474,7 @@ class TelecommunicationsServiceType
      *  Text. Type
      *  12345679
      *
-     * @return \UBL\Common\CBC\ServiceNumberCalled
+     * @return \App\UBL\Common\CBC\ServiceNumberCalled
      */
     public function getServiceNumberCalled()
     {
@@ -494,10 +494,10 @@ class TelecommunicationsServiceType
      *  Text. Type
      *  12345679
      *
-     * @param \UBL\Common\CBC\ServiceNumberCalled $serviceNumberCalled
+     * @param \App\UBL\Common\CBC\ServiceNumberCalled $serviceNumberCalled
      * @return self
      */
-    public function setServiceNumberCalled(\UBL\Common\CBC\ServiceNumberCalled $serviceNumberCalled)
+    public function setServiceNumberCalled(\App\UBL\Common\CBC\ServiceNumberCalled $serviceNumberCalled)
     {
         $this->serviceNumberCalled = $serviceNumberCalled;
         return $this;
@@ -516,7 +516,7 @@ class TelecommunicationsServiceType
      *  Text. Type
      *  Subscription
      *
-     * @return \UBL\Common\CBC\TelecommunicationsServiceCategory
+     * @return \App\UBL\Common\CBC\TelecommunicationsServiceCategory
      */
     public function getTelecommunicationsServiceCategory()
     {
@@ -536,10 +536,10 @@ class TelecommunicationsServiceType
      *  Text. Type
      *  Subscription
      *
-     * @param \UBL\Common\CBC\TelecommunicationsServiceCategory $telecommunicationsServiceCategory
+     * @param \App\UBL\Common\CBC\TelecommunicationsServiceCategory $telecommunicationsServiceCategory
      * @return self
      */
-    public function setTelecommunicationsServiceCategory(?\UBL\Common\CBC\TelecommunicationsServiceCategory $telecommunicationsServiceCategory = null)
+    public function setTelecommunicationsServiceCategory(?\App\UBL\Common\CBC\TelecommunicationsServiceCategory $telecommunicationsServiceCategory = null)
     {
         $this->telecommunicationsServiceCategory = $telecommunicationsServiceCategory;
         return $this;
@@ -558,7 +558,7 @@ class TelecommunicationsServiceType
      *  Code. Type
      *  Subscription
      *
-     * @return \UBL\Common\CBC\TelecommunicationsServiceCategoryCode
+     * @return \App\UBL\Common\CBC\TelecommunicationsServiceCategoryCode
      */
     public function getTelecommunicationsServiceCategoryCode()
     {
@@ -578,10 +578,10 @@ class TelecommunicationsServiceType
      *  Code. Type
      *  Subscription
      *
-     * @param \UBL\Common\CBC\TelecommunicationsServiceCategoryCode $telecommunicationsServiceCategoryCode
+     * @param \App\UBL\Common\CBC\TelecommunicationsServiceCategoryCode $telecommunicationsServiceCategoryCode
      * @return self
      */
-    public function setTelecommunicationsServiceCategoryCode(?\UBL\Common\CBC\TelecommunicationsServiceCategoryCode $telecommunicationsServiceCategoryCode = null)
+    public function setTelecommunicationsServiceCategoryCode(?\App\UBL\Common\CBC\TelecommunicationsServiceCategoryCode $telecommunicationsServiceCategoryCode = null)
     {
         $this->telecommunicationsServiceCategoryCode = $telecommunicationsServiceCategoryCode;
         return $this;
@@ -600,7 +600,7 @@ class TelecommunicationsServiceType
      *  Text. Type
      *  The Matrix
      *
-     * @return \UBL\Common\CBC\MovieTitle
+     * @return \App\UBL\Common\CBC\MovieTitle
      */
     public function getMovieTitle()
     {
@@ -620,10 +620,10 @@ class TelecommunicationsServiceType
      *  Text. Type
      *  The Matrix
      *
-     * @param \UBL\Common\CBC\MovieTitle $movieTitle
+     * @param \App\UBL\Common\CBC\MovieTitle $movieTitle
      * @return self
      */
-    public function setMovieTitle(?\UBL\Common\CBC\MovieTitle $movieTitle = null)
+    public function setMovieTitle(?\App\UBL\Common\CBC\MovieTitle $movieTitle = null)
     {
         $this->movieTitle = $movieTitle;
         return $this;
@@ -641,7 +641,7 @@ class TelecommunicationsServiceType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\RoamingPartnerName
+     * @return \App\UBL\Common\CBC\RoamingPartnerName
      */
     public function getRoamingPartnerName()
     {
@@ -660,10 +660,10 @@ class TelecommunicationsServiceType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\RoamingPartnerName $roamingPartnerName
+     * @param \App\UBL\Common\CBC\RoamingPartnerName $roamingPartnerName
      * @return self
      */
-    public function setRoamingPartnerName(?\UBL\Common\CBC\RoamingPartnerName $roamingPartnerName = null)
+    public function setRoamingPartnerName(?\App\UBL\Common\CBC\RoamingPartnerName $roamingPartnerName = null)
     {
         $this->roamingPartnerName = $roamingPartnerName;
         return $this;
@@ -681,7 +681,7 @@ class TelecommunicationsServiceType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\PayPerView
+     * @return \App\UBL\Common\CBC\PayPerView
      */
     public function getPayPerView()
     {
@@ -700,10 +700,10 @@ class TelecommunicationsServiceType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\PayPerView $payPerView
+     * @param \App\UBL\Common\CBC\PayPerView $payPerView
      * @return self
      */
-    public function setPayPerView(?\UBL\Common\CBC\PayPerView $payPerView = null)
+    public function setPayPerView(?\App\UBL\Common\CBC\PayPerView $payPerView = null)
     {
         $this->payPerView = $payPerView;
         return $this;
@@ -722,7 +722,7 @@ class TelecommunicationsServiceType
      *  Quantity. Type
      *  5761
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -742,10 +742,10 @@ class TelecommunicationsServiceType
      *  Quantity. Type
      *  5761
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
@@ -764,7 +764,7 @@ class TelecommunicationsServiceType
      *  Text. Type
      *  CallAttempt
      *
-     * @return \UBL\Common\CBC\TelecommunicationsServiceCall
+     * @return \App\UBL\Common\CBC\TelecommunicationsServiceCall
      */
     public function getTelecommunicationsServiceCall()
     {
@@ -784,10 +784,10 @@ class TelecommunicationsServiceType
      *  Text. Type
      *  CallAttempt
      *
-     * @param \UBL\Common\CBC\TelecommunicationsServiceCall $telecommunicationsServiceCall
+     * @param \App\UBL\Common\CBC\TelecommunicationsServiceCall $telecommunicationsServiceCall
      * @return self
      */
-    public function setTelecommunicationsServiceCall(?\UBL\Common\CBC\TelecommunicationsServiceCall $telecommunicationsServiceCall = null)
+    public function setTelecommunicationsServiceCall(?\App\UBL\Common\CBC\TelecommunicationsServiceCall $telecommunicationsServiceCall = null)
     {
         $this->telecommunicationsServiceCall = $telecommunicationsServiceCall;
         return $this;
@@ -806,7 +806,7 @@ class TelecommunicationsServiceType
      *  Code. Type
      *  CallAttempt
      *
-     * @return \UBL\Common\CBC\TelecommunicationsServiceCallCode
+     * @return \App\UBL\Common\CBC\TelecommunicationsServiceCallCode
      */
     public function getTelecommunicationsServiceCallCode()
     {
@@ -826,10 +826,10 @@ class TelecommunicationsServiceType
      *  Code. Type
      *  CallAttempt
      *
-     * @param \UBL\Common\CBC\TelecommunicationsServiceCallCode $telecommunicationsServiceCallCode
+     * @param \App\UBL\Common\CBC\TelecommunicationsServiceCallCode $telecommunicationsServiceCallCode
      * @return self
      */
-    public function setTelecommunicationsServiceCallCode(?\UBL\Common\CBC\TelecommunicationsServiceCallCode $telecommunicationsServiceCallCode = null)
+    public function setTelecommunicationsServiceCallCode(?\App\UBL\Common\CBC\TelecommunicationsServiceCallCode $telecommunicationsServiceCallCode = null)
     {
         $this->telecommunicationsServiceCallCode = $telecommunicationsServiceCallCode;
         return $this;
@@ -848,7 +848,7 @@ class TelecommunicationsServiceType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\CallBaseAmount
+     * @return \App\UBL\Common\CBC\CallBaseAmount
      */
     public function getCallBaseAmount()
     {
@@ -868,10 +868,10 @@ class TelecommunicationsServiceType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\CallBaseAmount $callBaseAmount
+     * @param \App\UBL\Common\CBC\CallBaseAmount $callBaseAmount
      * @return self
      */
-    public function setCallBaseAmount(?\UBL\Common\CBC\CallBaseAmount $callBaseAmount = null)
+    public function setCallBaseAmount(?\App\UBL\Common\CBC\CallBaseAmount $callBaseAmount = null)
     {
         $this->callBaseAmount = $callBaseAmount;
         return $this;
@@ -891,7 +891,7 @@ class TelecommunicationsServiceType
      *  Amount. Type
      *  542.44
      *
-     * @return \UBL\Common\CBC\CallExtensionAmount
+     * @return \App\UBL\Common\CBC\CallExtensionAmount
      */
     public function getCallExtensionAmount()
     {
@@ -912,10 +912,10 @@ class TelecommunicationsServiceType
      *  Amount. Type
      *  542.44
      *
-     * @param \UBL\Common\CBC\CallExtensionAmount $callExtensionAmount
+     * @param \App\UBL\Common\CBC\CallExtensionAmount $callExtensionAmount
      * @return self
      */
-    public function setCallExtensionAmount(?\UBL\Common\CBC\CallExtensionAmount $callExtensionAmount = null)
+    public function setCallExtensionAmount(?\App\UBL\Common\CBC\CallExtensionAmount $callExtensionAmount = null)
     {
         $this->callExtensionAmount = $callExtensionAmount;
         return $this;
@@ -933,7 +933,7 @@ class TelecommunicationsServiceType
      *  Price
      *  Price
      *
-     * @return \UBL\Common\CAC\Price
+     * @return \App\UBL\Common\CAC\Price
      */
     public function getPrice()
     {
@@ -952,10 +952,10 @@ class TelecommunicationsServiceType
      *  Price
      *  Price
      *
-     * @param \UBL\Common\CAC\Price $price
+     * @param \App\UBL\Common\CAC\Price $price
      * @return self
      */
-    public function setPrice(?\UBL\Common\CAC\Price $price = null)
+    public function setPrice(?\App\UBL\Common\CAC\Price $price = null)
     {
         $this->price = $price;
         return $this;
@@ -973,7 +973,7 @@ class TelecommunicationsServiceType
      *  Country
      *  Country
      *
-     * @return \UBL\Common\CAC\Country
+     * @return \App\UBL\Common\CAC\Country
      */
     public function getCountry()
     {
@@ -992,10 +992,10 @@ class TelecommunicationsServiceType
      *  Country
      *  Country
      *
-     * @param \UBL\Common\CAC\Country $country
+     * @param \App\UBL\Common\CAC\Country $country
      * @return self
      */
-    public function setCountry(?\UBL\Common\CAC\Country $country = null)
+    public function setCountry(?\App\UBL\Common\CAC\Country $country = null)
     {
         $this->country = $country;
         return $this;
@@ -1014,9 +1014,9 @@ class TelecommunicationsServiceType
      *  Exchange Rate
      *
      * @return self
-     * @param \UBL\Common\CAC\ExchangeRate $exchangeRate
+     * @param \App\UBL\Common\CAC\ExchangeRate $exchangeRate
      */
-    public function addToExchangeRate(\UBL\Common\CAC\ExchangeRate $exchangeRate)
+    public function addToExchangeRate(\App\UBL\Common\CAC\ExchangeRate $exchangeRate)
     {
         $this->exchangeRate[] = $exchangeRate;
         return $this;
@@ -1074,7 +1074,7 @@ class TelecommunicationsServiceType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @return \UBL\Common\CAC\ExchangeRate[]
+     * @return \App\UBL\Common\CAC\ExchangeRate[]
      */
     public function getExchangeRate()
     {
@@ -1093,7 +1093,7 @@ class TelecommunicationsServiceType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @param \UBL\Common\CAC\ExchangeRate[] $exchangeRate
+     * @param \App\UBL\Common\CAC\ExchangeRate[] $exchangeRate
      * @return self
      */
     public function setExchangeRate(?array $exchangeRate = null)
@@ -1115,9 +1115,9 @@ class TelecommunicationsServiceType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\AllowanceCharge $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge $allowanceCharge
      */
-    public function addToAllowanceCharge(\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
+    public function addToAllowanceCharge(\App\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
     {
         $this->allowanceCharge[] = $allowanceCharge;
         return $this;
@@ -1175,7 +1175,7 @@ class TelecommunicationsServiceType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\AllowanceCharge[]
+     * @return \App\UBL\Common\CAC\AllowanceCharge[]
      */
     public function getAllowanceCharge()
     {
@@ -1194,7 +1194,7 @@ class TelecommunicationsServiceType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      * @return self
      */
     public function setAllowanceCharge(?array $allowanceCharge = null)
@@ -1216,9 +1216,9 @@ class TelecommunicationsServiceType
      *  Tax Total
      *
      * @return self
-     * @param \UBL\Common\CAC\TaxTotal $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal $taxTotal
      */
-    public function addToTaxTotal(\UBL\Common\CAC\TaxTotal $taxTotal)
+    public function addToTaxTotal(\App\UBL\Common\CAC\TaxTotal $taxTotal)
     {
         $this->taxTotal[] = $taxTotal;
         return $this;
@@ -1276,7 +1276,7 @@ class TelecommunicationsServiceType
      *  Tax Total
      *  Tax Total
      *
-     * @return \UBL\Common\CAC\TaxTotal[]
+     * @return \App\UBL\Common\CAC\TaxTotal[]
      */
     public function getTaxTotal()
     {
@@ -1295,7 +1295,7 @@ class TelecommunicationsServiceType
      *  Tax Total
      *  Tax Total
      *
-     * @param \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      * @return self
      */
     public function setTaxTotal(?array $taxTotal = null)
@@ -1318,9 +1318,9 @@ class TelecommunicationsServiceType
      *  Duty
      *
      * @return self
-     * @param \UBL\Common\CAC\CallDuty $callDuty
+     * @param \App\UBL\Common\CAC\CallDuty $callDuty
      */
-    public function addToCallDuty(\UBL\Common\CAC\CallDuty $callDuty)
+    public function addToCallDuty(\App\UBL\Common\CAC\CallDuty $callDuty)
     {
         $this->callDuty[] = $callDuty;
         return $this;
@@ -1381,7 +1381,7 @@ class TelecommunicationsServiceType
      *  Duty
      *  Duty
      *
-     * @return \UBL\Common\CAC\CallDuty[]
+     * @return \App\UBL\Common\CAC\CallDuty[]
      */
     public function getCallDuty()
     {
@@ -1401,7 +1401,7 @@ class TelecommunicationsServiceType
      *  Duty
      *  Duty
      *
-     * @param \UBL\Common\CAC\CallDuty[] $callDuty
+     * @param \App\UBL\Common\CAC\CallDuty[] $callDuty
      * @return self
      */
     public function setCallDuty(?array $callDuty = null)
@@ -1424,9 +1424,9 @@ class TelecommunicationsServiceType
      *  Duty
      *
      * @return self
-     * @param \UBL\Common\CAC\TimeDuty $timeDuty
+     * @param \App\UBL\Common\CAC\TimeDuty $timeDuty
      */
-    public function addToTimeDuty(\UBL\Common\CAC\TimeDuty $timeDuty)
+    public function addToTimeDuty(\App\UBL\Common\CAC\TimeDuty $timeDuty)
     {
         $this->timeDuty[] = $timeDuty;
         return $this;
@@ -1487,7 +1487,7 @@ class TelecommunicationsServiceType
      *  Duty
      *  Duty
      *
-     * @return \UBL\Common\CAC\TimeDuty[]
+     * @return \App\UBL\Common\CAC\TimeDuty[]
      */
     public function getTimeDuty()
     {
@@ -1507,7 +1507,7 @@ class TelecommunicationsServiceType
      *  Duty
      *  Duty
      *
-     * @param \UBL\Common\CAC\TimeDuty[] $timeDuty
+     * @param \App\UBL\Common\CAC\TimeDuty[] $timeDuty
      * @return self
      */
     public function setTimeDuty(?array $timeDuty = null)
@@ -1516,5 +1516,4 @@ class TelecommunicationsServiceType
         return $this;
     }
 }
-
 

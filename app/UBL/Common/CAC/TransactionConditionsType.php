@@ -24,7 +24,7 @@ class TransactionConditionsType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class TransactionConditionsType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ActionCode $actionCode
+     * @var \App\UBL\Common\CBC\ActionCode $actionCode
      */
     private $actionCode = null;
 
@@ -52,7 +52,7 @@ class TransactionConditionsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -68,7 +68,7 @@ class TransactionConditionsType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -86,7 +86,7 @@ class TransactionConditionsType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -105,10 +105,10 @@ class TransactionConditionsType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -126,7 +126,7 @@ class TransactionConditionsType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ActionCode
+     * @return \App\UBL\Common\CBC\ActionCode
      */
     public function getActionCode()
     {
@@ -145,10 +145,10 @@ class TransactionConditionsType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ActionCode $actionCode
+     * @param \App\UBL\Common\CBC\ActionCode $actionCode
      * @return self
      */
-    public function setActionCode(?\UBL\Common\CBC\ActionCode $actionCode = null)
+    public function setActionCode(?\App\UBL\Common\CBC\ActionCode $actionCode = null)
     {
         $this->actionCode = $actionCode;
         return $this;
@@ -167,9 +167,9 @@ class TransactionConditionsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -227,7 +227,7 @@ class TransactionConditionsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -246,7 +246,7 @@ class TransactionConditionsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -268,9 +268,9 @@ class TransactionConditionsType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -328,7 +328,7 @@ class TransactionConditionsType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -347,7 +347,7 @@ class TransactionConditionsType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -356,5 +356,4 @@ class TransactionConditionsType
         return $this;
     }
 }
-
 

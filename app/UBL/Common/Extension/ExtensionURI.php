@@ -9,4 +9,3 @@ class ExtensionURI extends ExtensionURIType
 {
 }
 
-

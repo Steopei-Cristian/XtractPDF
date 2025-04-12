@@ -9,4 +9,3 @@ class ConsumptionAverage extends ConsumptionAverageType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\XAdES\v141\ValidationDataType:
+App\UBL\XAdES\v141\ValidationDataType:
     properties:
         id:
             expose: true
@@ -27,7 +27,7 @@ UBL\XAdES\v141\ValidationDataType:
             accessor:
                 getter: getCertificateValues
                 setter: setCertificateValues
-            type: UBL\XAdES\v132\CertificateValues
+            type: App\UBL\XAdES\v132\CertificateValues
         revocationValues:
             expose: true
             access_type: public_method
@@ -37,4 +37,4 @@ UBL\XAdES\v141\ValidationDataType:
             accessor:
                 getter: getRevocationValues
                 setter: setRevocationValues
-            type: UBL\XAdES\v132\RevocationValues
+            type: App\UBL\XAdES\v132\RevocationValues

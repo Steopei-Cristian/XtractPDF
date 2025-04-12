@@ -1,2 +1,2 @@
-UBL\Common\CBC\InsurancePremiumAmountType:
+App\UBL\Common\CBC\InsurancePremiumAmountType:
     properties: {  }

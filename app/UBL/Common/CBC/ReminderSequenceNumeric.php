@@ -9,4 +9,3 @@ class ReminderSequenceNumeric extends ReminderSequenceNumericType
 {
 }
 
-

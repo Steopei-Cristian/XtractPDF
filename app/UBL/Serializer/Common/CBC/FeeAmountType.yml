@@ -1,2 +1,2 @@
-UBL\Common\CBC\FeeAmountType:
+App\UBL\Common\CBC\FeeAmountType:
     properties: {  }

@@ -11,19 +11,19 @@ namespace App\UBL\XAdES\v132;
 class CRLRefType
 {
     /**
-     * @var \UBL\XAdES\v132\DigestAlgAndValueType $digestAlgAndValue
+     * @var \App\UBL\XAdES\v132\DigestAlgAndValueType $digestAlgAndValue
      */
     private $digestAlgAndValue = null;
 
     /**
-     * @var \UBL\XAdES\v132\CRLIdentifierType $cRLIdentifier
+     * @var \App\UBL\XAdES\v132\CRLIdentifierType $cRLIdentifier
      */
     private $cRLIdentifier = null;
 
     /**
      * Gets as digestAlgAndValue
      *
-     * @return \UBL\XAdES\v132\DigestAlgAndValueType
+     * @return \App\UBL\XAdES\v132\DigestAlgAndValueType
      */
     public function getDigestAlgAndValue()
     {
@@ -33,10 +33,10 @@ class CRLRefType
     /**
      * Sets a new digestAlgAndValue
      *
-     * @param \UBL\XAdES\v132\DigestAlgAndValueType $digestAlgAndValue
+     * @param \App\UBL\XAdES\v132\DigestAlgAndValueType $digestAlgAndValue
      * @return self
      */
-    public function setDigestAlgAndValue(\UBL\XAdES\v132\DigestAlgAndValueType $digestAlgAndValue)
+    public function setDigestAlgAndValue(\App\UBL\XAdES\v132\DigestAlgAndValueType $digestAlgAndValue)
     {
         $this->digestAlgAndValue = $digestAlgAndValue;
         return $this;
@@ -45,7 +45,7 @@ class CRLRefType
     /**
      * Gets as cRLIdentifier
      *
-     * @return \UBL\XAdES\v132\CRLIdentifierType
+     * @return \App\UBL\XAdES\v132\CRLIdentifierType
      */
     public function getCRLIdentifier()
     {
@@ -55,14 +55,13 @@ class CRLRefType
     /**
      * Sets a new cRLIdentifier
      *
-     * @param \UBL\XAdES\v132\CRLIdentifierType $cRLIdentifier
+     * @param \App\UBL\XAdES\v132\CRLIdentifierType $cRLIdentifier
      * @return self
      */
-    public function setCRLIdentifier(?\UBL\XAdES\v132\CRLIdentifierType $cRLIdentifier = null)
+    public function setCRLIdentifier(?\App\UBL\XAdES\v132\CRLIdentifierType $cRLIdentifier = null)
     {
         $this->cRLIdentifier = $cRLIdentifier;
         return $this;
     }
 }
-
 

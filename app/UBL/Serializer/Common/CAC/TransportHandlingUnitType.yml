@@ -1,4 +1,4 @@
-UBL\Common\CAC\TransportHandlingUnitType:
+App\UBL\Common\CAC\TransportHandlingUnitType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         transportHandlingUnitTypeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
             accessor:
                 getter: getTransportHandlingUnitTypeCode
                 setter: setTransportHandlingUnitTypeCode
-            type: UBL\Common\CBC\TransportHandlingUnitTypeCode
+            type: App\UBL\Common\CBC\TransportHandlingUnitTypeCode
         handlingCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
             accessor:
                 getter: getHandlingCode
                 setter: setHandlingCode
-            type: UBL\Common\CBC\HandlingCode
+            type: App\UBL\Common\CBC\HandlingCode
         handlingInstructions:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: HandlingInstructions
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\HandlingInstructions>
+            type: array<App\UBL\Common\CBC\HandlingInstructions>
         hazardousRiskIndicator:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
             accessor:
                 getter: getTotalGoodsItemQuantity
                 setter: setTotalGoodsItemQuantity
-            type: UBL\Common\CBC\TotalGoodsItemQuantity
+            type: App\UBL\Common\CBC\TotalGoodsItemQuantity
         totalPackageQuantity:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
             accessor:
                 getter: getTotalPackageQuantity
                 setter: setTotalPackageQuantity
-            type: UBL\Common\CBC\TotalPackageQuantity
+            type: App\UBL\Common\CBC\TotalPackageQuantity
         damageRemarks:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: DamageRemarks
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\DamageRemarks>
+            type: array<App\UBL\Common\CBC\DamageRemarks>
         shippingMarks:
             expose: true
             access_type: public_method
@@ -101,7 +101,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: ShippingMarks
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\ShippingMarks>
+            type: array<App\UBL\Common\CBC\ShippingMarks>
         traceID:
             expose: true
             access_type: public_method
@@ -111,7 +111,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
             accessor:
                 getter: getTraceID
                 setter: setTraceID
-            type: UBL\Common\CBC\TraceID
+            type: App\UBL\Common\CBC\TraceID
         handlingUnitDespatchLine:
             expose: true
             access_type: public_method
@@ -125,7 +125,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: HandlingUnitDespatchLine
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\HandlingUnitDespatchLine>
+            type: array<App\UBL\Common\CAC\HandlingUnitDespatchLine>
         actualPackage:
             expose: true
             access_type: public_method
@@ -139,7 +139,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: ActualPackage
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ActualPackage>
+            type: array<App\UBL\Common\CAC\ActualPackage>
         receivedHandlingUnitReceiptLine:
             expose: true
             access_type: public_method
@@ -153,7 +153,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: ReceivedHandlingUnitReceiptLine
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ReceivedHandlingUnitReceiptLine>
+            type: array<App\UBL\Common\CAC\ReceivedHandlingUnitReceiptLine>
         transportEquipment:
             expose: true
             access_type: public_method
@@ -167,7 +167,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: TransportEquipment
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TransportEquipment>
+            type: array<App\UBL\Common\CAC\TransportEquipment>
         transportMeans:
             expose: true
             access_type: public_method
@@ -181,7 +181,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: TransportMeans
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TransportMeans>
+            type: array<App\UBL\Common\CAC\TransportMeans>
         hazardousGoodsTransit:
             expose: true
             access_type: public_method
@@ -195,7 +195,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: HazardousGoodsTransit
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\HazardousGoodsTransit>
+            type: array<App\UBL\Common\CAC\HazardousGoodsTransit>
         measurementDimension:
             expose: true
             access_type: public_method
@@ -209,7 +209,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: MeasurementDimension
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\MeasurementDimension>
+            type: array<App\UBL\Common\CAC\MeasurementDimension>
         minimumTemperature:
             expose: true
             access_type: public_method
@@ -219,7 +219,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
             accessor:
                 getter: getMinimumTemperature
                 setter: setMinimumTemperature
-            type: UBL\Common\CAC\MinimumTemperature
+            type: App\UBL\Common\CAC\MinimumTemperature
         maximumTemperature:
             expose: true
             access_type: public_method
@@ -229,7 +229,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
             accessor:
                 getter: getMaximumTemperature
                 setter: setMaximumTemperature
-            type: UBL\Common\CAC\MaximumTemperature
+            type: App\UBL\Common\CAC\MaximumTemperature
         goodsItem:
             expose: true
             access_type: public_method
@@ -243,7 +243,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: GoodsItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\GoodsItem>
+            type: array<App\UBL\Common\CAC\GoodsItem>
         floorSpaceMeasurementDimension:
             expose: true
             access_type: public_method
@@ -253,7 +253,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
             accessor:
                 getter: getFloorSpaceMeasurementDimension
                 setter: setFloorSpaceMeasurementDimension
-            type: UBL\Common\CAC\FloorSpaceMeasurementDimension
+            type: App\UBL\Common\CAC\FloorSpaceMeasurementDimension
         palletSpaceMeasurementDimension:
             expose: true
             access_type: public_method
@@ -263,7 +263,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
             accessor:
                 getter: getPalletSpaceMeasurementDimension
                 setter: setPalletSpaceMeasurementDimension
-            type: UBL\Common\CAC\PalletSpaceMeasurementDimension
+            type: App\UBL\Common\CAC\PalletSpaceMeasurementDimension
         shipmentDocumentReference:
             expose: true
             access_type: public_method
@@ -277,7 +277,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: ShipmentDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ShipmentDocumentReference>
+            type: array<App\UBL\Common\CAC\ShipmentDocumentReference>
         status:
             expose: true
             access_type: public_method
@@ -291,7 +291,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: Status
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Status>
+            type: array<App\UBL\Common\CAC\Status>
         customsDeclaration:
             expose: true
             access_type: public_method
@@ -305,7 +305,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: CustomsDeclaration
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\CustomsDeclaration>
+            type: array<App\UBL\Common\CAC\CustomsDeclaration>
         referencedShipment:
             expose: true
             access_type: public_method
@@ -319,7 +319,7 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: ReferencedShipment
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ReferencedShipment>
+            type: array<App\UBL\Common\CAC\ReferencedShipment>
         package:
             expose: true
             access_type: public_method
@@ -333,4 +333,4 @@ UBL\Common\CAC\TransportHandlingUnitType:
                 inline: true
                 entry_name: Package
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Package>
+            type: array<App\UBL\Common\CAC\Package>

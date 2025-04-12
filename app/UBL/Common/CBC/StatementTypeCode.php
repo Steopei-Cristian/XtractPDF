@@ -9,4 +9,3 @@ class StatementTypeCode extends StatementTypeCodeType
 {
 }
 
-

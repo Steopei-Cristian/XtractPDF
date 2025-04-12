@@ -9,4 +9,3 @@ class SubmissionMethodCode extends SubmissionMethodCodeType
 {
 }
 
-

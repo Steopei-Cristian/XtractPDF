@@ -9,4 +9,3 @@ class CreditedQuantity extends CreditedQuantityType
 {
 }
 
-

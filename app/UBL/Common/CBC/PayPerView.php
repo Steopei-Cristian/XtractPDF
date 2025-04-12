@@ -9,4 +9,3 @@ class PayPerView extends PayPerViewType
 {
 }
 
-

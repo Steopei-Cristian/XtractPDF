@@ -1,4 +1,4 @@
-UBL\Common\CBC\PlannedDateType:
+App\UBL\Common\CBC\PlannedDateType:
     properties:
         __value:
             expose: true

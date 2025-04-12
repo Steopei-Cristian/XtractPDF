@@ -9,4 +9,3 @@ class IssuerParty extends PartyType
 {
 }
 
-

@@ -11,4 +11,3 @@ class UBLExtensions extends UBLExtensionsType
 {
 }
 
-

@@ -1,2 +1,2 @@
-UBL\Common\CBC\TotalGoodsItemQuantityType:
+App\UBL\Common\CBC\TotalGoodsItemQuantityType:
     properties: {  }

@@ -9,4 +9,3 @@ class LoadingLocation extends LocationType
 {
 }
 
-

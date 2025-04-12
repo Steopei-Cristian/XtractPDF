@@ -1,3 +1,3 @@
-UBL\Common\CAC\CollectedPayment:
+App\UBL\Common\CAC\CollectedPayment:
     xml_root_name: CollectedPayment
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

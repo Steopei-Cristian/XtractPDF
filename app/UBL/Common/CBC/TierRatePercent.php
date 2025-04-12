@@ -9,4 +9,3 @@ class TierRatePercent extends TierRatePercentType
 {
 }
 
-

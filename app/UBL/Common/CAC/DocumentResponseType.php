@@ -23,7 +23,7 @@ class DocumentResponseType
      *  Response
      *  Response
      *
-     * @var \UBL\Common\CAC\Response $response
+     * @var \App\UBL\Common\CAC\Response $response
      */
     private $response = null;
 
@@ -37,7 +37,7 @@ class DocumentResponseType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -54,7 +54,7 @@ class DocumentResponseType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\IssuerParty $issuerParty
+     * @var \App\UBL\Common\CAC\IssuerParty $issuerParty
      */
     private $issuerParty = null;
 
@@ -69,7 +69,7 @@ class DocumentResponseType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\RecipientParty $recipientParty
+     * @var \App\UBL\Common\CAC\RecipientParty $recipientParty
      */
     private $recipientParty = null;
 
@@ -83,7 +83,7 @@ class DocumentResponseType
      *  Line Response
      *  Line Response
      *
-     * @var \UBL\Common\CAC\LineResponse[] $lineResponse
+     * @var \App\UBL\Common\CAC\LineResponse[] $lineResponse
      */
     private $lineResponse = [
         
@@ -101,7 +101,7 @@ class DocumentResponseType
      *  Response
      *  Response
      *
-     * @return \UBL\Common\CAC\Response
+     * @return \App\UBL\Common\CAC\Response
      */
     public function getResponse()
     {
@@ -120,10 +120,10 @@ class DocumentResponseType
      *  Response
      *  Response
      *
-     * @param \UBL\Common\CAC\Response $response
+     * @param \App\UBL\Common\CAC\Response $response
      * @return self
      */
-    public function setResponse(\UBL\Common\CAC\Response $response)
+    public function setResponse(\App\UBL\Common\CAC\Response $response)
     {
         $this->response = $response;
         return $this;
@@ -142,9 +142,9 @@ class DocumentResponseType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -202,7 +202,7 @@ class DocumentResponseType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -221,7 +221,7 @@ class DocumentResponseType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(array $documentReference)
@@ -243,7 +243,7 @@ class DocumentResponseType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\IssuerParty
+     * @return \App\UBL\Common\CAC\IssuerParty
      */
     public function getIssuerParty()
     {
@@ -263,10 +263,10 @@ class DocumentResponseType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\IssuerParty $issuerParty
+     * @param \App\UBL\Common\CAC\IssuerParty $issuerParty
      * @return self
      */
-    public function setIssuerParty(?\UBL\Common\CAC\IssuerParty $issuerParty = null)
+    public function setIssuerParty(?\App\UBL\Common\CAC\IssuerParty $issuerParty = null)
     {
         $this->issuerParty = $issuerParty;
         return $this;
@@ -285,7 +285,7 @@ class DocumentResponseType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\RecipientParty
+     * @return \App\UBL\Common\CAC\RecipientParty
      */
     public function getRecipientParty()
     {
@@ -305,10 +305,10 @@ class DocumentResponseType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\RecipientParty $recipientParty
+     * @param \App\UBL\Common\CAC\RecipientParty $recipientParty
      * @return self
      */
-    public function setRecipientParty(?\UBL\Common\CAC\RecipientParty $recipientParty = null)
+    public function setRecipientParty(?\App\UBL\Common\CAC\RecipientParty $recipientParty = null)
     {
         $this->recipientParty = $recipientParty;
         return $this;
@@ -327,9 +327,9 @@ class DocumentResponseType
      *  Line Response
      *
      * @return self
-     * @param \UBL\Common\CAC\LineResponse $lineResponse
+     * @param \App\UBL\Common\CAC\LineResponse $lineResponse
      */
-    public function addToLineResponse(\UBL\Common\CAC\LineResponse $lineResponse)
+    public function addToLineResponse(\App\UBL\Common\CAC\LineResponse $lineResponse)
     {
         $this->lineResponse[] = $lineResponse;
         return $this;
@@ -387,7 +387,7 @@ class DocumentResponseType
      *  Line Response
      *  Line Response
      *
-     * @return \UBL\Common\CAC\LineResponse[]
+     * @return \App\UBL\Common\CAC\LineResponse[]
      */
     public function getLineResponse()
     {
@@ -406,7 +406,7 @@ class DocumentResponseType
      *  Line Response
      *  Line Response
      *
-     * @param \UBL\Common\CAC\LineResponse[] $lineResponse
+     * @param \App\UBL\Common\CAC\LineResponse[] $lineResponse
      * @return self
      */
     public function setLineResponse(?array $lineResponse = null)
@@ -415,5 +415,4 @@ class DocumentResponseType
         return $this;
     }
 }
-
 

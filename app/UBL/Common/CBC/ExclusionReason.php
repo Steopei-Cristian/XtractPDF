@@ -9,4 +9,3 @@ class ExclusionReason extends ExclusionReasonType
 {
 }
 
-

@@ -13,7 +13,7 @@ class UBLExtensionsType
     /**
      * A single extension for private use.
      *
-     * @var \UBL\Common\Extension\UBLExtension[] $uBLExtension
+     * @var \App\UBL\Common\Extension\UBLExtension[] $uBLExtension
      */
     private $uBLExtension = [
         
@@ -25,9 +25,9 @@ class UBLExtensionsType
      * A single extension for private use.
      *
      * @return self
-     * @param \UBL\Common\Extension\UBLExtension $uBLExtension
+     * @param \App\UBL\Common\Extension\UBLExtension $uBLExtension
      */
-    public function addToUBLExtension(\UBL\Common\Extension\UBLExtension $uBLExtension)
+    public function addToUBLExtension(\App\UBL\Common\Extension\UBLExtension $uBLExtension)
     {
         $this->uBLExtension[] = $uBLExtension;
         return $this;
@@ -64,7 +64,7 @@ class UBLExtensionsType
      *
      * A single extension for private use.
      *
-     * @return \UBL\Common\Extension\UBLExtension[]
+     * @return \App\UBL\Common\Extension\UBLExtension[]
      */
     public function getUBLExtension()
     {
@@ -76,7 +76,7 @@ class UBLExtensionsType
      *
      * A single extension for private use.
      *
-     * @param \UBL\Common\Extension\UBLExtension[] $uBLExtension
+     * @param \App\UBL\Common\Extension\UBLExtension[] $uBLExtension
      * @return self
      */
     public function setUBLExtension(array $uBLExtension)
@@ -85,5 +85,4 @@ class UBLExtensionsType
         return $this;
     }
 }
-
 

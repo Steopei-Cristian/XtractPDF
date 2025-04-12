@@ -24,7 +24,7 @@ class ShipmentStageType
      *  Identifier. Type
      *  1 , 2 , etc..
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class ShipmentStageType
      *  Transport Mode
      *  Transport Mode_ Code. Type
      *
-     * @var \UBL\Common\CBC\TransportModeCode $transportModeCode
+     * @var \App\UBL\Common\CBC\TransportModeCode $transportModeCode
      */
     private $transportModeCode = null;
 
@@ -53,7 +53,7 @@ class ShipmentStageType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TransportMeansTypeCode $transportMeansTypeCode
+     * @var \App\UBL\Common\CBC\TransportMeansTypeCode $transportMeansTypeCode
      */
     private $transportMeansTypeCode = null;
 
@@ -68,7 +68,7 @@ class ShipmentStageType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TransitDirectionCode $transitDirectionCode
+     * @var \App\UBL\Common\CBC\TransitDirectionCode $transitDirectionCode
      */
     private $transitDirectionCode = null;
 
@@ -175,7 +175,7 @@ class ShipmentStageType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\LoadingSequenceID $loadingSequenceID
+     * @var \App\UBL\Common\CBC\LoadingSequenceID $loadingSequenceID
      */
     private $loadingSequenceID = null;
 
@@ -190,7 +190,7 @@ class ShipmentStageType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\SuccessiveSequenceID $successiveSequenceID
+     * @var \App\UBL\Common\CBC\SuccessiveSequenceID $successiveSequenceID
      */
     private $successiveSequenceID = null;
 
@@ -204,7 +204,7 @@ class ShipmentStageType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Instructions[] $instructions
+     * @var \App\UBL\Common\CBC\Instructions[] $instructions
      */
     private $instructions = [
         
@@ -221,7 +221,7 @@ class ShipmentStageType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\DemurrageInstructions[] $demurrageInstructions
+     * @var \App\UBL\Common\CBC\DemurrageInstructions[] $demurrageInstructions
      */
     private $demurrageInstructions = [
         
@@ -237,7 +237,7 @@ class ShipmentStageType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\CrewQuantity $crewQuantity
+     * @var \App\UBL\Common\CBC\CrewQuantity $crewQuantity
      */
     private $crewQuantity = null;
 
@@ -251,7 +251,7 @@ class ShipmentStageType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\PassengerQuantity $passengerQuantity
+     * @var \App\UBL\Common\CBC\PassengerQuantity $passengerQuantity
      */
     private $passengerQuantity = null;
 
@@ -266,7 +266,7 @@ class ShipmentStageType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\TransitPeriod $transitPeriod
+     * @var \App\UBL\Common\CAC\TransitPeriod $transitPeriod
      */
     private $transitPeriod = null;
 
@@ -281,7 +281,7 @@ class ShipmentStageType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\CarrierParty[] $carrierParty
+     * @var \App\UBL\Common\CAC\CarrierParty[] $carrierParty
      */
     private $carrierParty = [
         
@@ -297,7 +297,7 @@ class ShipmentStageType
      *  Transport Means
      *  Transport Means
      *
-     * @var \UBL\Common\CAC\TransportMeans $transportMeans
+     * @var \App\UBL\Common\CAC\TransportMeans $transportMeans
      */
     private $transportMeans = null;
 
@@ -312,7 +312,7 @@ class ShipmentStageType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\LoadingPortLocation $loadingPortLocation
+     * @var \App\UBL\Common\CAC\LoadingPortLocation $loadingPortLocation
      */
     private $loadingPortLocation = null;
 
@@ -327,7 +327,7 @@ class ShipmentStageType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\UnloadingPortLocation $unloadingPortLocation
+     * @var \App\UBL\Common\CAC\UnloadingPortLocation $unloadingPortLocation
      */
     private $unloadingPortLocation = null;
 
@@ -342,7 +342,7 @@ class ShipmentStageType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\TransshipPortLocation $transshipPortLocation
+     * @var \App\UBL\Common\CAC\TransshipPortLocation $transshipPortLocation
      */
     private $transshipPortLocation = null;
 
@@ -357,7 +357,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\LoadingTransportEvent $loadingTransportEvent
+     * @var \App\UBL\Common\CAC\LoadingTransportEvent $loadingTransportEvent
      */
     private $loadingTransportEvent = null;
 
@@ -372,7 +372,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\ExaminationTransportEvent $examinationTransportEvent
+     * @var \App\UBL\Common\CAC\ExaminationTransportEvent $examinationTransportEvent
      */
     private $examinationTransportEvent = null;
 
@@ -387,7 +387,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\AvailabilityTransportEvent $availabilityTransportEvent
+     * @var \App\UBL\Common\CAC\AvailabilityTransportEvent $availabilityTransportEvent
      */
     private $availabilityTransportEvent = null;
 
@@ -402,7 +402,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\ExportationTransportEvent $exportationTransportEvent
+     * @var \App\UBL\Common\CAC\ExportationTransportEvent $exportationTransportEvent
      */
     private $exportationTransportEvent = null;
 
@@ -417,7 +417,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\DischargeTransportEvent $dischargeTransportEvent
+     * @var \App\UBL\Common\CAC\DischargeTransportEvent $dischargeTransportEvent
      */
     private $dischargeTransportEvent = null;
 
@@ -432,7 +432,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\WarehousingTransportEvent $warehousingTransportEvent
+     * @var \App\UBL\Common\CAC\WarehousingTransportEvent $warehousingTransportEvent
      */
     private $warehousingTransportEvent = null;
 
@@ -447,7 +447,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\TakeoverTransportEvent $takeoverTransportEvent
+     * @var \App\UBL\Common\CAC\TakeoverTransportEvent $takeoverTransportEvent
      */
     private $takeoverTransportEvent = null;
 
@@ -462,7 +462,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\OptionalTakeoverTransportEvent $optionalTakeoverTransportEvent
+     * @var \App\UBL\Common\CAC\OptionalTakeoverTransportEvent $optionalTakeoverTransportEvent
      */
     private $optionalTakeoverTransportEvent = null;
 
@@ -477,7 +477,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\DropoffTransportEvent $dropoffTransportEvent
+     * @var \App\UBL\Common\CAC\DropoffTransportEvent $dropoffTransportEvent
      */
     private $dropoffTransportEvent = null;
 
@@ -492,7 +492,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\ActualPickupTransportEvent $actualPickupTransportEvent
+     * @var \App\UBL\Common\CAC\ActualPickupTransportEvent $actualPickupTransportEvent
      */
     private $actualPickupTransportEvent = null;
 
@@ -507,7 +507,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\DeliveryTransportEvent $deliveryTransportEvent
+     * @var \App\UBL\Common\CAC\DeliveryTransportEvent $deliveryTransportEvent
      */
     private $deliveryTransportEvent = null;
 
@@ -522,7 +522,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\ReceiptTransportEvent $receiptTransportEvent
+     * @var \App\UBL\Common\CAC\ReceiptTransportEvent $receiptTransportEvent
      */
     private $receiptTransportEvent = null;
 
@@ -537,7 +537,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\StorageTransportEvent $storageTransportEvent
+     * @var \App\UBL\Common\CAC\StorageTransportEvent $storageTransportEvent
      */
     private $storageTransportEvent = null;
 
@@ -552,7 +552,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\AcceptanceTransportEvent $acceptanceTransportEvent
+     * @var \App\UBL\Common\CAC\AcceptanceTransportEvent $acceptanceTransportEvent
      */
     private $acceptanceTransportEvent = null;
 
@@ -567,7 +567,7 @@ class ShipmentStageType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\TerminalOperatorParty $terminalOperatorParty
+     * @var \App\UBL\Common\CAC\TerminalOperatorParty $terminalOperatorParty
      */
     private $terminalOperatorParty = null;
 
@@ -582,7 +582,7 @@ class ShipmentStageType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\CustomsAgentParty $customsAgentParty
+     * @var \App\UBL\Common\CAC\CustomsAgentParty $customsAgentParty
      */
     private $customsAgentParty = null;
 
@@ -597,7 +597,7 @@ class ShipmentStageType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\EstimatedTransitPeriod $estimatedTransitPeriod
+     * @var \App\UBL\Common\CAC\EstimatedTransitPeriod $estimatedTransitPeriod
      */
     private $estimatedTransitPeriod = null;
 
@@ -612,7 +612,7 @@ class ShipmentStageType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
+     * @var \App\UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
      */
     private $freightAllowanceCharge = [
         
@@ -629,7 +629,7 @@ class ShipmentStageType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\FreightChargeLocation $freightChargeLocation
+     * @var \App\UBL\Common\CAC\FreightChargeLocation $freightChargeLocation
      */
     private $freightChargeLocation = null;
 
@@ -644,7 +644,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\DetentionTransportEvent[] $detentionTransportEvent
+     * @var \App\UBL\Common\CAC\DetentionTransportEvent[] $detentionTransportEvent
      */
     private $detentionTransportEvent = [
         
@@ -661,7 +661,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\RequestedDepartureTransportEvent $requestedDepartureTransportEvent
+     * @var \App\UBL\Common\CAC\RequestedDepartureTransportEvent $requestedDepartureTransportEvent
      */
     private $requestedDepartureTransportEvent = null;
 
@@ -676,7 +676,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\RequestedArrivalTransportEvent $requestedArrivalTransportEvent
+     * @var \App\UBL\Common\CAC\RequestedArrivalTransportEvent $requestedArrivalTransportEvent
      */
     private $requestedArrivalTransportEvent = null;
 
@@ -691,7 +691,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\RequestedWaypointTransportEvent[] $requestedWaypointTransportEvent
+     * @var \App\UBL\Common\CAC\RequestedWaypointTransportEvent[] $requestedWaypointTransportEvent
      */
     private $requestedWaypointTransportEvent = [
         
@@ -708,7 +708,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\PlannedDepartureTransportEvent $plannedDepartureTransportEvent
+     * @var \App\UBL\Common\CAC\PlannedDepartureTransportEvent $plannedDepartureTransportEvent
      */
     private $plannedDepartureTransportEvent = null;
 
@@ -723,7 +723,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\PlannedArrivalTransportEvent $plannedArrivalTransportEvent
+     * @var \App\UBL\Common\CAC\PlannedArrivalTransportEvent $plannedArrivalTransportEvent
      */
     private $plannedArrivalTransportEvent = null;
 
@@ -738,7 +738,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\PlannedWaypointTransportEvent[] $plannedWaypointTransportEvent
+     * @var \App\UBL\Common\CAC\PlannedWaypointTransportEvent[] $plannedWaypointTransportEvent
      */
     private $plannedWaypointTransportEvent = [
         
@@ -755,7 +755,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\ActualDepartureTransportEvent $actualDepartureTransportEvent
+     * @var \App\UBL\Common\CAC\ActualDepartureTransportEvent $actualDepartureTransportEvent
      */
     private $actualDepartureTransportEvent = null;
 
@@ -770,7 +770,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\ActualWaypointTransportEvent $actualWaypointTransportEvent
+     * @var \App\UBL\Common\CAC\ActualWaypointTransportEvent $actualWaypointTransportEvent
      */
     private $actualWaypointTransportEvent = null;
 
@@ -785,7 +785,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\ActualArrivalTransportEvent $actualArrivalTransportEvent
+     * @var \App\UBL\Common\CAC\ActualArrivalTransportEvent $actualArrivalTransportEvent
      */
     private $actualArrivalTransportEvent = null;
 
@@ -799,7 +799,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\TransportEvent[] $transportEvent
+     * @var \App\UBL\Common\CAC\TransportEvent[] $transportEvent
      */
     private $transportEvent = [
         
@@ -816,7 +816,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\EstimatedDepartureTransportEvent $estimatedDepartureTransportEvent
+     * @var \App\UBL\Common\CAC\EstimatedDepartureTransportEvent $estimatedDepartureTransportEvent
      */
     private $estimatedDepartureTransportEvent = null;
 
@@ -831,7 +831,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\EstimatedArrivalTransportEvent $estimatedArrivalTransportEvent
+     * @var \App\UBL\Common\CAC\EstimatedArrivalTransportEvent $estimatedArrivalTransportEvent
      */
     private $estimatedArrivalTransportEvent = null;
 
@@ -846,7 +846,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @var \UBL\Common\CAC\PassengerPerson[] $passengerPerson
+     * @var \App\UBL\Common\CAC\PassengerPerson[] $passengerPerson
      */
     private $passengerPerson = [
         
@@ -863,7 +863,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @var \UBL\Common\CAC\DriverPerson[] $driverPerson
+     * @var \App\UBL\Common\CAC\DriverPerson[] $driverPerson
      */
     private $driverPerson = [
         
@@ -880,7 +880,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @var \UBL\Common\CAC\ReportingPerson $reportingPerson
+     * @var \App\UBL\Common\CAC\ReportingPerson $reportingPerson
      */
     private $reportingPerson = null;
 
@@ -895,7 +895,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @var \UBL\Common\CAC\CrewMemberPerson[] $crewMemberPerson
+     * @var \App\UBL\Common\CAC\CrewMemberPerson[] $crewMemberPerson
      */
     private $crewMemberPerson = [
         
@@ -912,7 +912,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @var \UBL\Common\CAC\SecurityOfficerPerson $securityOfficerPerson
+     * @var \App\UBL\Common\CAC\SecurityOfficerPerson $securityOfficerPerson
      */
     private $securityOfficerPerson = null;
 
@@ -927,7 +927,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @var \UBL\Common\CAC\MasterPerson $masterPerson
+     * @var \App\UBL\Common\CAC\MasterPerson $masterPerson
      */
     private $masterPerson = null;
 
@@ -942,7 +942,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @var \UBL\Common\CAC\ShipsSurgeonPerson $shipsSurgeonPerson
+     * @var \App\UBL\Common\CAC\ShipsSurgeonPerson $shipsSurgeonPerson
      */
     private $shipsSurgeonPerson = null;
 
@@ -959,7 +959,7 @@ class ShipmentStageType
      *  Identifier. Type
      *  1 , 2 , etc..
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -979,10 +979,10 @@ class ShipmentStageType
      *  Identifier. Type
      *  1 , 2 , etc..
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -1001,7 +1001,7 @@ class ShipmentStageType
      *  Transport Mode
      *  Transport Mode_ Code. Type
      *
-     * @return \UBL\Common\CBC\TransportModeCode
+     * @return \App\UBL\Common\CBC\TransportModeCode
      */
     public function getTransportModeCode()
     {
@@ -1021,10 +1021,10 @@ class ShipmentStageType
      *  Transport Mode
      *  Transport Mode_ Code. Type
      *
-     * @param \UBL\Common\CBC\TransportModeCode $transportModeCode
+     * @param \App\UBL\Common\CBC\TransportModeCode $transportModeCode
      * @return self
      */
-    public function setTransportModeCode(?\UBL\Common\CBC\TransportModeCode $transportModeCode = null)
+    public function setTransportModeCode(?\App\UBL\Common\CBC\TransportModeCode $transportModeCode = null)
     {
         $this->transportModeCode = $transportModeCode;
         return $this;
@@ -1042,7 +1042,7 @@ class ShipmentStageType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TransportMeansTypeCode
+     * @return \App\UBL\Common\CBC\TransportMeansTypeCode
      */
     public function getTransportMeansTypeCode()
     {
@@ -1061,10 +1061,10 @@ class ShipmentStageType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TransportMeansTypeCode $transportMeansTypeCode
+     * @param \App\UBL\Common\CBC\TransportMeansTypeCode $transportMeansTypeCode
      * @return self
      */
-    public function setTransportMeansTypeCode(?\UBL\Common\CBC\TransportMeansTypeCode $transportMeansTypeCode = null)
+    public function setTransportMeansTypeCode(?\App\UBL\Common\CBC\TransportMeansTypeCode $transportMeansTypeCode = null)
     {
         $this->transportMeansTypeCode = $transportMeansTypeCode;
         return $this;
@@ -1083,7 +1083,7 @@ class ShipmentStageType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TransitDirectionCode
+     * @return \App\UBL\Common\CBC\TransitDirectionCode
      */
     public function getTransitDirectionCode()
     {
@@ -1103,10 +1103,10 @@ class ShipmentStageType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TransitDirectionCode $transitDirectionCode
+     * @param \App\UBL\Common\CBC\TransitDirectionCode $transitDirectionCode
      * @return self
      */
-    public function setTransitDirectionCode(?\UBL\Common\CBC\TransitDirectionCode $transitDirectionCode = null)
+    public function setTransitDirectionCode(?\App\UBL\Common\CBC\TransitDirectionCode $transitDirectionCode = null)
     {
         $this->transitDirectionCode = $transitDirectionCode;
         return $this;
@@ -1381,7 +1381,7 @@ class ShipmentStageType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\LoadingSequenceID
+     * @return \App\UBL\Common\CBC\LoadingSequenceID
      */
     public function getLoadingSequenceID()
     {
@@ -1401,10 +1401,10 @@ class ShipmentStageType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\LoadingSequenceID $loadingSequenceID
+     * @param \App\UBL\Common\CBC\LoadingSequenceID $loadingSequenceID
      * @return self
      */
-    public function setLoadingSequenceID(?\UBL\Common\CBC\LoadingSequenceID $loadingSequenceID = null)
+    public function setLoadingSequenceID(?\App\UBL\Common\CBC\LoadingSequenceID $loadingSequenceID = null)
     {
         $this->loadingSequenceID = $loadingSequenceID;
         return $this;
@@ -1423,7 +1423,7 @@ class ShipmentStageType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\SuccessiveSequenceID
+     * @return \App\UBL\Common\CBC\SuccessiveSequenceID
      */
     public function getSuccessiveSequenceID()
     {
@@ -1443,10 +1443,10 @@ class ShipmentStageType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\SuccessiveSequenceID $successiveSequenceID
+     * @param \App\UBL\Common\CBC\SuccessiveSequenceID $successiveSequenceID
      * @return self
      */
-    public function setSuccessiveSequenceID(?\UBL\Common\CBC\SuccessiveSequenceID $successiveSequenceID = null)
+    public function setSuccessiveSequenceID(?\App\UBL\Common\CBC\SuccessiveSequenceID $successiveSequenceID = null)
     {
         $this->successiveSequenceID = $successiveSequenceID;
         return $this;
@@ -1465,9 +1465,9 @@ class ShipmentStageType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Instructions $instructions
+     * @param \App\UBL\Common\CBC\Instructions $instructions
      */
-    public function addToInstructions(\UBL\Common\CBC\Instructions $instructions)
+    public function addToInstructions(\App\UBL\Common\CBC\Instructions $instructions)
     {
         $this->instructions[] = $instructions;
         return $this;
@@ -1525,7 +1525,7 @@ class ShipmentStageType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Instructions[]
+     * @return \App\UBL\Common\CBC\Instructions[]
      */
     public function getInstructions()
     {
@@ -1544,7 +1544,7 @@ class ShipmentStageType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Instructions[] $instructions
+     * @param \App\UBL\Common\CBC\Instructions[] $instructions
      * @return self
      */
     public function setInstructions(?array $instructions = null)
@@ -1567,9 +1567,9 @@ class ShipmentStageType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\DemurrageInstructions $demurrageInstructions
+     * @param \App\UBL\Common\CBC\DemurrageInstructions $demurrageInstructions
      */
-    public function addToDemurrageInstructions(\UBL\Common\CBC\DemurrageInstructions $demurrageInstructions)
+    public function addToDemurrageInstructions(\App\UBL\Common\CBC\DemurrageInstructions $demurrageInstructions)
     {
         $this->demurrageInstructions[] = $demurrageInstructions;
         return $this;
@@ -1630,7 +1630,7 @@ class ShipmentStageType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\DemurrageInstructions[]
+     * @return \App\UBL\Common\CBC\DemurrageInstructions[]
      */
     public function getDemurrageInstructions()
     {
@@ -1650,7 +1650,7 @@ class ShipmentStageType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\DemurrageInstructions[] $demurrageInstructions
+     * @param \App\UBL\Common\CBC\DemurrageInstructions[] $demurrageInstructions
      * @return self
      */
     public function setDemurrageInstructions(?array $demurrageInstructions = null)
@@ -1671,7 +1671,7 @@ class ShipmentStageType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\CrewQuantity
+     * @return \App\UBL\Common\CBC\CrewQuantity
      */
     public function getCrewQuantity()
     {
@@ -1690,10 +1690,10 @@ class ShipmentStageType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\CrewQuantity $crewQuantity
+     * @param \App\UBL\Common\CBC\CrewQuantity $crewQuantity
      * @return self
      */
-    public function setCrewQuantity(?\UBL\Common\CBC\CrewQuantity $crewQuantity = null)
+    public function setCrewQuantity(?\App\UBL\Common\CBC\CrewQuantity $crewQuantity = null)
     {
         $this->crewQuantity = $crewQuantity;
         return $this;
@@ -1711,7 +1711,7 @@ class ShipmentStageType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\PassengerQuantity
+     * @return \App\UBL\Common\CBC\PassengerQuantity
      */
     public function getPassengerQuantity()
     {
@@ -1730,10 +1730,10 @@ class ShipmentStageType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\PassengerQuantity $passengerQuantity
+     * @param \App\UBL\Common\CBC\PassengerQuantity $passengerQuantity
      * @return self
      */
-    public function setPassengerQuantity(?\UBL\Common\CBC\PassengerQuantity $passengerQuantity = null)
+    public function setPassengerQuantity(?\App\UBL\Common\CBC\PassengerQuantity $passengerQuantity = null)
     {
         $this->passengerQuantity = $passengerQuantity;
         return $this;
@@ -1752,7 +1752,7 @@ class ShipmentStageType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\TransitPeriod
+     * @return \App\UBL\Common\CAC\TransitPeriod
      */
     public function getTransitPeriod()
     {
@@ -1772,10 +1772,10 @@ class ShipmentStageType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\TransitPeriod $transitPeriod
+     * @param \App\UBL\Common\CAC\TransitPeriod $transitPeriod
      * @return self
      */
-    public function setTransitPeriod(?\UBL\Common\CAC\TransitPeriod $transitPeriod = null)
+    public function setTransitPeriod(?\App\UBL\Common\CAC\TransitPeriod $transitPeriod = null)
     {
         $this->transitPeriod = $transitPeriod;
         return $this;
@@ -1795,9 +1795,9 @@ class ShipmentStageType
      *  Party
      *
      * @return self
-     * @param \UBL\Common\CAC\CarrierParty $carrierParty
+     * @param \App\UBL\Common\CAC\CarrierParty $carrierParty
      */
-    public function addToCarrierParty(\UBL\Common\CAC\CarrierParty $carrierParty)
+    public function addToCarrierParty(\App\UBL\Common\CAC\CarrierParty $carrierParty)
     {
         $this->carrierParty[] = $carrierParty;
         return $this;
@@ -1858,7 +1858,7 @@ class ShipmentStageType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\CarrierParty[]
+     * @return \App\UBL\Common\CAC\CarrierParty[]
      */
     public function getCarrierParty()
     {
@@ -1878,7 +1878,7 @@ class ShipmentStageType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\CarrierParty[] $carrierParty
+     * @param \App\UBL\Common\CAC\CarrierParty[] $carrierParty
      * @return self
      */
     public function setCarrierParty(?array $carrierParty = null)
@@ -1899,7 +1899,7 @@ class ShipmentStageType
      *  Transport Means
      *  Transport Means
      *
-     * @return \UBL\Common\CAC\TransportMeans
+     * @return \App\UBL\Common\CAC\TransportMeans
      */
     public function getTransportMeans()
     {
@@ -1918,10 +1918,10 @@ class ShipmentStageType
      *  Transport Means
      *  Transport Means
      *
-     * @param \UBL\Common\CAC\TransportMeans $transportMeans
+     * @param \App\UBL\Common\CAC\TransportMeans $transportMeans
      * @return self
      */
-    public function setTransportMeans(?\UBL\Common\CAC\TransportMeans $transportMeans = null)
+    public function setTransportMeans(?\App\UBL\Common\CAC\TransportMeans $transportMeans = null)
     {
         $this->transportMeans = $transportMeans;
         return $this;
@@ -1940,7 +1940,7 @@ class ShipmentStageType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\LoadingPortLocation
+     * @return \App\UBL\Common\CAC\LoadingPortLocation
      */
     public function getLoadingPortLocation()
     {
@@ -1960,10 +1960,10 @@ class ShipmentStageType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\LoadingPortLocation $loadingPortLocation
+     * @param \App\UBL\Common\CAC\LoadingPortLocation $loadingPortLocation
      * @return self
      */
-    public function setLoadingPortLocation(?\UBL\Common\CAC\LoadingPortLocation $loadingPortLocation = null)
+    public function setLoadingPortLocation(?\App\UBL\Common\CAC\LoadingPortLocation $loadingPortLocation = null)
     {
         $this->loadingPortLocation = $loadingPortLocation;
         return $this;
@@ -1982,7 +1982,7 @@ class ShipmentStageType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\UnloadingPortLocation
+     * @return \App\UBL\Common\CAC\UnloadingPortLocation
      */
     public function getUnloadingPortLocation()
     {
@@ -2002,10 +2002,10 @@ class ShipmentStageType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\UnloadingPortLocation $unloadingPortLocation
+     * @param \App\UBL\Common\CAC\UnloadingPortLocation $unloadingPortLocation
      * @return self
      */
-    public function setUnloadingPortLocation(?\UBL\Common\CAC\UnloadingPortLocation $unloadingPortLocation = null)
+    public function setUnloadingPortLocation(?\App\UBL\Common\CAC\UnloadingPortLocation $unloadingPortLocation = null)
     {
         $this->unloadingPortLocation = $unloadingPortLocation;
         return $this;
@@ -2024,7 +2024,7 @@ class ShipmentStageType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\TransshipPortLocation
+     * @return \App\UBL\Common\CAC\TransshipPortLocation
      */
     public function getTransshipPortLocation()
     {
@@ -2044,10 +2044,10 @@ class ShipmentStageType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\TransshipPortLocation $transshipPortLocation
+     * @param \App\UBL\Common\CAC\TransshipPortLocation $transshipPortLocation
      * @return self
      */
-    public function setTransshipPortLocation(?\UBL\Common\CAC\TransshipPortLocation $transshipPortLocation = null)
+    public function setTransshipPortLocation(?\App\UBL\Common\CAC\TransshipPortLocation $transshipPortLocation = null)
     {
         $this->transshipPortLocation = $transshipPortLocation;
         return $this;
@@ -2066,7 +2066,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\LoadingTransportEvent
+     * @return \App\UBL\Common\CAC\LoadingTransportEvent
      */
     public function getLoadingTransportEvent()
     {
@@ -2086,10 +2086,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\LoadingTransportEvent $loadingTransportEvent
+     * @param \App\UBL\Common\CAC\LoadingTransportEvent $loadingTransportEvent
      * @return self
      */
-    public function setLoadingTransportEvent(?\UBL\Common\CAC\LoadingTransportEvent $loadingTransportEvent = null)
+    public function setLoadingTransportEvent(?\App\UBL\Common\CAC\LoadingTransportEvent $loadingTransportEvent = null)
     {
         $this->loadingTransportEvent = $loadingTransportEvent;
         return $this;
@@ -2108,7 +2108,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\ExaminationTransportEvent
+     * @return \App\UBL\Common\CAC\ExaminationTransportEvent
      */
     public function getExaminationTransportEvent()
     {
@@ -2128,10 +2128,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\ExaminationTransportEvent $examinationTransportEvent
+     * @param \App\UBL\Common\CAC\ExaminationTransportEvent $examinationTransportEvent
      * @return self
      */
-    public function setExaminationTransportEvent(?\UBL\Common\CAC\ExaminationTransportEvent $examinationTransportEvent = null)
+    public function setExaminationTransportEvent(?\App\UBL\Common\CAC\ExaminationTransportEvent $examinationTransportEvent = null)
     {
         $this->examinationTransportEvent = $examinationTransportEvent;
         return $this;
@@ -2150,7 +2150,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\AvailabilityTransportEvent
+     * @return \App\UBL\Common\CAC\AvailabilityTransportEvent
      */
     public function getAvailabilityTransportEvent()
     {
@@ -2170,10 +2170,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\AvailabilityTransportEvent $availabilityTransportEvent
+     * @param \App\UBL\Common\CAC\AvailabilityTransportEvent $availabilityTransportEvent
      * @return self
      */
-    public function setAvailabilityTransportEvent(?\UBL\Common\CAC\AvailabilityTransportEvent $availabilityTransportEvent = null)
+    public function setAvailabilityTransportEvent(?\App\UBL\Common\CAC\AvailabilityTransportEvent $availabilityTransportEvent = null)
     {
         $this->availabilityTransportEvent = $availabilityTransportEvent;
         return $this;
@@ -2192,7 +2192,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\ExportationTransportEvent
+     * @return \App\UBL\Common\CAC\ExportationTransportEvent
      */
     public function getExportationTransportEvent()
     {
@@ -2212,10 +2212,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\ExportationTransportEvent $exportationTransportEvent
+     * @param \App\UBL\Common\CAC\ExportationTransportEvent $exportationTransportEvent
      * @return self
      */
-    public function setExportationTransportEvent(?\UBL\Common\CAC\ExportationTransportEvent $exportationTransportEvent = null)
+    public function setExportationTransportEvent(?\App\UBL\Common\CAC\ExportationTransportEvent $exportationTransportEvent = null)
     {
         $this->exportationTransportEvent = $exportationTransportEvent;
         return $this;
@@ -2234,7 +2234,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\DischargeTransportEvent
+     * @return \App\UBL\Common\CAC\DischargeTransportEvent
      */
     public function getDischargeTransportEvent()
     {
@@ -2254,10 +2254,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\DischargeTransportEvent $dischargeTransportEvent
+     * @param \App\UBL\Common\CAC\DischargeTransportEvent $dischargeTransportEvent
      * @return self
      */
-    public function setDischargeTransportEvent(?\UBL\Common\CAC\DischargeTransportEvent $dischargeTransportEvent = null)
+    public function setDischargeTransportEvent(?\App\UBL\Common\CAC\DischargeTransportEvent $dischargeTransportEvent = null)
     {
         $this->dischargeTransportEvent = $dischargeTransportEvent;
         return $this;
@@ -2276,7 +2276,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\WarehousingTransportEvent
+     * @return \App\UBL\Common\CAC\WarehousingTransportEvent
      */
     public function getWarehousingTransportEvent()
     {
@@ -2296,10 +2296,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\WarehousingTransportEvent $warehousingTransportEvent
+     * @param \App\UBL\Common\CAC\WarehousingTransportEvent $warehousingTransportEvent
      * @return self
      */
-    public function setWarehousingTransportEvent(?\UBL\Common\CAC\WarehousingTransportEvent $warehousingTransportEvent = null)
+    public function setWarehousingTransportEvent(?\App\UBL\Common\CAC\WarehousingTransportEvent $warehousingTransportEvent = null)
     {
         $this->warehousingTransportEvent = $warehousingTransportEvent;
         return $this;
@@ -2318,7 +2318,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\TakeoverTransportEvent
+     * @return \App\UBL\Common\CAC\TakeoverTransportEvent
      */
     public function getTakeoverTransportEvent()
     {
@@ -2338,10 +2338,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\TakeoverTransportEvent $takeoverTransportEvent
+     * @param \App\UBL\Common\CAC\TakeoverTransportEvent $takeoverTransportEvent
      * @return self
      */
-    public function setTakeoverTransportEvent(?\UBL\Common\CAC\TakeoverTransportEvent $takeoverTransportEvent = null)
+    public function setTakeoverTransportEvent(?\App\UBL\Common\CAC\TakeoverTransportEvent $takeoverTransportEvent = null)
     {
         $this->takeoverTransportEvent = $takeoverTransportEvent;
         return $this;
@@ -2360,7 +2360,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\OptionalTakeoverTransportEvent
+     * @return \App\UBL\Common\CAC\OptionalTakeoverTransportEvent
      */
     public function getOptionalTakeoverTransportEvent()
     {
@@ -2380,10 +2380,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\OptionalTakeoverTransportEvent $optionalTakeoverTransportEvent
+     * @param \App\UBL\Common\CAC\OptionalTakeoverTransportEvent $optionalTakeoverTransportEvent
      * @return self
      */
-    public function setOptionalTakeoverTransportEvent(?\UBL\Common\CAC\OptionalTakeoverTransportEvent $optionalTakeoverTransportEvent = null)
+    public function setOptionalTakeoverTransportEvent(?\App\UBL\Common\CAC\OptionalTakeoverTransportEvent $optionalTakeoverTransportEvent = null)
     {
         $this->optionalTakeoverTransportEvent = $optionalTakeoverTransportEvent;
         return $this;
@@ -2402,7 +2402,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\DropoffTransportEvent
+     * @return \App\UBL\Common\CAC\DropoffTransportEvent
      */
     public function getDropoffTransportEvent()
     {
@@ -2422,10 +2422,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\DropoffTransportEvent $dropoffTransportEvent
+     * @param \App\UBL\Common\CAC\DropoffTransportEvent $dropoffTransportEvent
      * @return self
      */
-    public function setDropoffTransportEvent(?\UBL\Common\CAC\DropoffTransportEvent $dropoffTransportEvent = null)
+    public function setDropoffTransportEvent(?\App\UBL\Common\CAC\DropoffTransportEvent $dropoffTransportEvent = null)
     {
         $this->dropoffTransportEvent = $dropoffTransportEvent;
         return $this;
@@ -2444,7 +2444,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\ActualPickupTransportEvent
+     * @return \App\UBL\Common\CAC\ActualPickupTransportEvent
      */
     public function getActualPickupTransportEvent()
     {
@@ -2464,10 +2464,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\ActualPickupTransportEvent $actualPickupTransportEvent
+     * @param \App\UBL\Common\CAC\ActualPickupTransportEvent $actualPickupTransportEvent
      * @return self
      */
-    public function setActualPickupTransportEvent(?\UBL\Common\CAC\ActualPickupTransportEvent $actualPickupTransportEvent = null)
+    public function setActualPickupTransportEvent(?\App\UBL\Common\CAC\ActualPickupTransportEvent $actualPickupTransportEvent = null)
     {
         $this->actualPickupTransportEvent = $actualPickupTransportEvent;
         return $this;
@@ -2486,7 +2486,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\DeliveryTransportEvent
+     * @return \App\UBL\Common\CAC\DeliveryTransportEvent
      */
     public function getDeliveryTransportEvent()
     {
@@ -2506,10 +2506,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\DeliveryTransportEvent $deliveryTransportEvent
+     * @param \App\UBL\Common\CAC\DeliveryTransportEvent $deliveryTransportEvent
      * @return self
      */
-    public function setDeliveryTransportEvent(?\UBL\Common\CAC\DeliveryTransportEvent $deliveryTransportEvent = null)
+    public function setDeliveryTransportEvent(?\App\UBL\Common\CAC\DeliveryTransportEvent $deliveryTransportEvent = null)
     {
         $this->deliveryTransportEvent = $deliveryTransportEvent;
         return $this;
@@ -2528,7 +2528,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\ReceiptTransportEvent
+     * @return \App\UBL\Common\CAC\ReceiptTransportEvent
      */
     public function getReceiptTransportEvent()
     {
@@ -2548,10 +2548,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\ReceiptTransportEvent $receiptTransportEvent
+     * @param \App\UBL\Common\CAC\ReceiptTransportEvent $receiptTransportEvent
      * @return self
      */
-    public function setReceiptTransportEvent(?\UBL\Common\CAC\ReceiptTransportEvent $receiptTransportEvent = null)
+    public function setReceiptTransportEvent(?\App\UBL\Common\CAC\ReceiptTransportEvent $receiptTransportEvent = null)
     {
         $this->receiptTransportEvent = $receiptTransportEvent;
         return $this;
@@ -2570,7 +2570,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\StorageTransportEvent
+     * @return \App\UBL\Common\CAC\StorageTransportEvent
      */
     public function getStorageTransportEvent()
     {
@@ -2590,10 +2590,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\StorageTransportEvent $storageTransportEvent
+     * @param \App\UBL\Common\CAC\StorageTransportEvent $storageTransportEvent
      * @return self
      */
-    public function setStorageTransportEvent(?\UBL\Common\CAC\StorageTransportEvent $storageTransportEvent = null)
+    public function setStorageTransportEvent(?\App\UBL\Common\CAC\StorageTransportEvent $storageTransportEvent = null)
     {
         $this->storageTransportEvent = $storageTransportEvent;
         return $this;
@@ -2612,7 +2612,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\AcceptanceTransportEvent
+     * @return \App\UBL\Common\CAC\AcceptanceTransportEvent
      */
     public function getAcceptanceTransportEvent()
     {
@@ -2632,10 +2632,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\AcceptanceTransportEvent $acceptanceTransportEvent
+     * @param \App\UBL\Common\CAC\AcceptanceTransportEvent $acceptanceTransportEvent
      * @return self
      */
-    public function setAcceptanceTransportEvent(?\UBL\Common\CAC\AcceptanceTransportEvent $acceptanceTransportEvent = null)
+    public function setAcceptanceTransportEvent(?\App\UBL\Common\CAC\AcceptanceTransportEvent $acceptanceTransportEvent = null)
     {
         $this->acceptanceTransportEvent = $acceptanceTransportEvent;
         return $this;
@@ -2654,7 +2654,7 @@ class ShipmentStageType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\TerminalOperatorParty
+     * @return \App\UBL\Common\CAC\TerminalOperatorParty
      */
     public function getTerminalOperatorParty()
     {
@@ -2674,10 +2674,10 @@ class ShipmentStageType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\TerminalOperatorParty $terminalOperatorParty
+     * @param \App\UBL\Common\CAC\TerminalOperatorParty $terminalOperatorParty
      * @return self
      */
-    public function setTerminalOperatorParty(?\UBL\Common\CAC\TerminalOperatorParty $terminalOperatorParty = null)
+    public function setTerminalOperatorParty(?\App\UBL\Common\CAC\TerminalOperatorParty $terminalOperatorParty = null)
     {
         $this->terminalOperatorParty = $terminalOperatorParty;
         return $this;
@@ -2696,7 +2696,7 @@ class ShipmentStageType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\CustomsAgentParty
+     * @return \App\UBL\Common\CAC\CustomsAgentParty
      */
     public function getCustomsAgentParty()
     {
@@ -2716,10 +2716,10 @@ class ShipmentStageType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\CustomsAgentParty $customsAgentParty
+     * @param \App\UBL\Common\CAC\CustomsAgentParty $customsAgentParty
      * @return self
      */
-    public function setCustomsAgentParty(?\UBL\Common\CAC\CustomsAgentParty $customsAgentParty = null)
+    public function setCustomsAgentParty(?\App\UBL\Common\CAC\CustomsAgentParty $customsAgentParty = null)
     {
         $this->customsAgentParty = $customsAgentParty;
         return $this;
@@ -2738,7 +2738,7 @@ class ShipmentStageType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\EstimatedTransitPeriod
+     * @return \App\UBL\Common\CAC\EstimatedTransitPeriod
      */
     public function getEstimatedTransitPeriod()
     {
@@ -2758,10 +2758,10 @@ class ShipmentStageType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\EstimatedTransitPeriod $estimatedTransitPeriod
+     * @param \App\UBL\Common\CAC\EstimatedTransitPeriod $estimatedTransitPeriod
      * @return self
      */
-    public function setEstimatedTransitPeriod(?\UBL\Common\CAC\EstimatedTransitPeriod $estimatedTransitPeriod = null)
+    public function setEstimatedTransitPeriod(?\App\UBL\Common\CAC\EstimatedTransitPeriod $estimatedTransitPeriod = null)
     {
         $this->estimatedTransitPeriod = $estimatedTransitPeriod;
         return $this;
@@ -2781,9 +2781,9 @@ class ShipmentStageType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge
+     * @param \App\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge
      */
-    public function addToFreightAllowanceCharge(\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge)
+    public function addToFreightAllowanceCharge(\App\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge)
     {
         $this->freightAllowanceCharge[] = $freightAllowanceCharge;
         return $this;
@@ -2844,7 +2844,7 @@ class ShipmentStageType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\FreightAllowanceCharge[]
+     * @return \App\UBL\Common\CAC\FreightAllowanceCharge[]
      */
     public function getFreightAllowanceCharge()
     {
@@ -2864,7 +2864,7 @@ class ShipmentStageType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
+     * @param \App\UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
      * @return self
      */
     public function setFreightAllowanceCharge(?array $freightAllowanceCharge = null)
@@ -2886,7 +2886,7 @@ class ShipmentStageType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\FreightChargeLocation
+     * @return \App\UBL\Common\CAC\FreightChargeLocation
      */
     public function getFreightChargeLocation()
     {
@@ -2906,10 +2906,10 @@ class ShipmentStageType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\FreightChargeLocation $freightChargeLocation
+     * @param \App\UBL\Common\CAC\FreightChargeLocation $freightChargeLocation
      * @return self
      */
-    public function setFreightChargeLocation(?\UBL\Common\CAC\FreightChargeLocation $freightChargeLocation = null)
+    public function setFreightChargeLocation(?\App\UBL\Common\CAC\FreightChargeLocation $freightChargeLocation = null)
     {
         $this->freightChargeLocation = $freightChargeLocation;
         return $this;
@@ -2929,9 +2929,9 @@ class ShipmentStageType
      *  Transport Event
      *
      * @return self
-     * @param \UBL\Common\CAC\DetentionTransportEvent $detentionTransportEvent
+     * @param \App\UBL\Common\CAC\DetentionTransportEvent $detentionTransportEvent
      */
-    public function addToDetentionTransportEvent(\UBL\Common\CAC\DetentionTransportEvent $detentionTransportEvent)
+    public function addToDetentionTransportEvent(\App\UBL\Common\CAC\DetentionTransportEvent $detentionTransportEvent)
     {
         $this->detentionTransportEvent[] = $detentionTransportEvent;
         return $this;
@@ -2992,7 +2992,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\DetentionTransportEvent[]
+     * @return \App\UBL\Common\CAC\DetentionTransportEvent[]
      */
     public function getDetentionTransportEvent()
     {
@@ -3012,7 +3012,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\DetentionTransportEvent[] $detentionTransportEvent
+     * @param \App\UBL\Common\CAC\DetentionTransportEvent[] $detentionTransportEvent
      * @return self
      */
     public function setDetentionTransportEvent(?array $detentionTransportEvent = null)
@@ -3034,7 +3034,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\RequestedDepartureTransportEvent
+     * @return \App\UBL\Common\CAC\RequestedDepartureTransportEvent
      */
     public function getRequestedDepartureTransportEvent()
     {
@@ -3054,10 +3054,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\RequestedDepartureTransportEvent $requestedDepartureTransportEvent
+     * @param \App\UBL\Common\CAC\RequestedDepartureTransportEvent $requestedDepartureTransportEvent
      * @return self
      */
-    public function setRequestedDepartureTransportEvent(?\UBL\Common\CAC\RequestedDepartureTransportEvent $requestedDepartureTransportEvent = null)
+    public function setRequestedDepartureTransportEvent(?\App\UBL\Common\CAC\RequestedDepartureTransportEvent $requestedDepartureTransportEvent = null)
     {
         $this->requestedDepartureTransportEvent = $requestedDepartureTransportEvent;
         return $this;
@@ -3076,7 +3076,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\RequestedArrivalTransportEvent
+     * @return \App\UBL\Common\CAC\RequestedArrivalTransportEvent
      */
     public function getRequestedArrivalTransportEvent()
     {
@@ -3096,10 +3096,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\RequestedArrivalTransportEvent $requestedArrivalTransportEvent
+     * @param \App\UBL\Common\CAC\RequestedArrivalTransportEvent $requestedArrivalTransportEvent
      * @return self
      */
-    public function setRequestedArrivalTransportEvent(?\UBL\Common\CAC\RequestedArrivalTransportEvent $requestedArrivalTransportEvent = null)
+    public function setRequestedArrivalTransportEvent(?\App\UBL\Common\CAC\RequestedArrivalTransportEvent $requestedArrivalTransportEvent = null)
     {
         $this->requestedArrivalTransportEvent = $requestedArrivalTransportEvent;
         return $this;
@@ -3119,9 +3119,9 @@ class ShipmentStageType
      *  Transport Event
      *
      * @return self
-     * @param \UBL\Common\CAC\RequestedWaypointTransportEvent $requestedWaypointTransportEvent
+     * @param \App\UBL\Common\CAC\RequestedWaypointTransportEvent $requestedWaypointTransportEvent
      */
-    public function addToRequestedWaypointTransportEvent(\UBL\Common\CAC\RequestedWaypointTransportEvent $requestedWaypointTransportEvent)
+    public function addToRequestedWaypointTransportEvent(\App\UBL\Common\CAC\RequestedWaypointTransportEvent $requestedWaypointTransportEvent)
     {
         $this->requestedWaypointTransportEvent[] = $requestedWaypointTransportEvent;
         return $this;
@@ -3182,7 +3182,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\RequestedWaypointTransportEvent[]
+     * @return \App\UBL\Common\CAC\RequestedWaypointTransportEvent[]
      */
     public function getRequestedWaypointTransportEvent()
     {
@@ -3202,7 +3202,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\RequestedWaypointTransportEvent[] $requestedWaypointTransportEvent
+     * @param \App\UBL\Common\CAC\RequestedWaypointTransportEvent[] $requestedWaypointTransportEvent
      * @return self
      */
     public function setRequestedWaypointTransportEvent(?array $requestedWaypointTransportEvent = null)
@@ -3224,7 +3224,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\PlannedDepartureTransportEvent
+     * @return \App\UBL\Common\CAC\PlannedDepartureTransportEvent
      */
     public function getPlannedDepartureTransportEvent()
     {
@@ -3244,10 +3244,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\PlannedDepartureTransportEvent $plannedDepartureTransportEvent
+     * @param \App\UBL\Common\CAC\PlannedDepartureTransportEvent $plannedDepartureTransportEvent
      * @return self
      */
-    public function setPlannedDepartureTransportEvent(?\UBL\Common\CAC\PlannedDepartureTransportEvent $plannedDepartureTransportEvent = null)
+    public function setPlannedDepartureTransportEvent(?\App\UBL\Common\CAC\PlannedDepartureTransportEvent $plannedDepartureTransportEvent = null)
     {
         $this->plannedDepartureTransportEvent = $plannedDepartureTransportEvent;
         return $this;
@@ -3266,7 +3266,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\PlannedArrivalTransportEvent
+     * @return \App\UBL\Common\CAC\PlannedArrivalTransportEvent
      */
     public function getPlannedArrivalTransportEvent()
     {
@@ -3286,10 +3286,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\PlannedArrivalTransportEvent $plannedArrivalTransportEvent
+     * @param \App\UBL\Common\CAC\PlannedArrivalTransportEvent $plannedArrivalTransportEvent
      * @return self
      */
-    public function setPlannedArrivalTransportEvent(?\UBL\Common\CAC\PlannedArrivalTransportEvent $plannedArrivalTransportEvent = null)
+    public function setPlannedArrivalTransportEvent(?\App\UBL\Common\CAC\PlannedArrivalTransportEvent $plannedArrivalTransportEvent = null)
     {
         $this->plannedArrivalTransportEvent = $plannedArrivalTransportEvent;
         return $this;
@@ -3309,9 +3309,9 @@ class ShipmentStageType
      *  Transport Event
      *
      * @return self
-     * @param \UBL\Common\CAC\PlannedWaypointTransportEvent $plannedWaypointTransportEvent
+     * @param \App\UBL\Common\CAC\PlannedWaypointTransportEvent $plannedWaypointTransportEvent
      */
-    public function addToPlannedWaypointTransportEvent(\UBL\Common\CAC\PlannedWaypointTransportEvent $plannedWaypointTransportEvent)
+    public function addToPlannedWaypointTransportEvent(\App\UBL\Common\CAC\PlannedWaypointTransportEvent $plannedWaypointTransportEvent)
     {
         $this->plannedWaypointTransportEvent[] = $plannedWaypointTransportEvent;
         return $this;
@@ -3372,7 +3372,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\PlannedWaypointTransportEvent[]
+     * @return \App\UBL\Common\CAC\PlannedWaypointTransportEvent[]
      */
     public function getPlannedWaypointTransportEvent()
     {
@@ -3392,7 +3392,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\PlannedWaypointTransportEvent[] $plannedWaypointTransportEvent
+     * @param \App\UBL\Common\CAC\PlannedWaypointTransportEvent[] $plannedWaypointTransportEvent
      * @return self
      */
     public function setPlannedWaypointTransportEvent(?array $plannedWaypointTransportEvent = null)
@@ -3414,7 +3414,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\ActualDepartureTransportEvent
+     * @return \App\UBL\Common\CAC\ActualDepartureTransportEvent
      */
     public function getActualDepartureTransportEvent()
     {
@@ -3434,10 +3434,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\ActualDepartureTransportEvent $actualDepartureTransportEvent
+     * @param \App\UBL\Common\CAC\ActualDepartureTransportEvent $actualDepartureTransportEvent
      * @return self
      */
-    public function setActualDepartureTransportEvent(?\UBL\Common\CAC\ActualDepartureTransportEvent $actualDepartureTransportEvent = null)
+    public function setActualDepartureTransportEvent(?\App\UBL\Common\CAC\ActualDepartureTransportEvent $actualDepartureTransportEvent = null)
     {
         $this->actualDepartureTransportEvent = $actualDepartureTransportEvent;
         return $this;
@@ -3456,7 +3456,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\ActualWaypointTransportEvent
+     * @return \App\UBL\Common\CAC\ActualWaypointTransportEvent
      */
     public function getActualWaypointTransportEvent()
     {
@@ -3476,10 +3476,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\ActualWaypointTransportEvent $actualWaypointTransportEvent
+     * @param \App\UBL\Common\CAC\ActualWaypointTransportEvent $actualWaypointTransportEvent
      * @return self
      */
-    public function setActualWaypointTransportEvent(?\UBL\Common\CAC\ActualWaypointTransportEvent $actualWaypointTransportEvent = null)
+    public function setActualWaypointTransportEvent(?\App\UBL\Common\CAC\ActualWaypointTransportEvent $actualWaypointTransportEvent = null)
     {
         $this->actualWaypointTransportEvent = $actualWaypointTransportEvent;
         return $this;
@@ -3498,7 +3498,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\ActualArrivalTransportEvent
+     * @return \App\UBL\Common\CAC\ActualArrivalTransportEvent
      */
     public function getActualArrivalTransportEvent()
     {
@@ -3518,10 +3518,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\ActualArrivalTransportEvent $actualArrivalTransportEvent
+     * @param \App\UBL\Common\CAC\ActualArrivalTransportEvent $actualArrivalTransportEvent
      * @return self
      */
-    public function setActualArrivalTransportEvent(?\UBL\Common\CAC\ActualArrivalTransportEvent $actualArrivalTransportEvent = null)
+    public function setActualArrivalTransportEvent(?\App\UBL\Common\CAC\ActualArrivalTransportEvent $actualArrivalTransportEvent = null)
     {
         $this->actualArrivalTransportEvent = $actualArrivalTransportEvent;
         return $this;
@@ -3540,9 +3540,9 @@ class ShipmentStageType
      *  Transport Event
      *
      * @return self
-     * @param \UBL\Common\CAC\TransportEvent $transportEvent
+     * @param \App\UBL\Common\CAC\TransportEvent $transportEvent
      */
-    public function addToTransportEvent(\UBL\Common\CAC\TransportEvent $transportEvent)
+    public function addToTransportEvent(\App\UBL\Common\CAC\TransportEvent $transportEvent)
     {
         $this->transportEvent[] = $transportEvent;
         return $this;
@@ -3600,7 +3600,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\TransportEvent[]
+     * @return \App\UBL\Common\CAC\TransportEvent[]
      */
     public function getTransportEvent()
     {
@@ -3619,7 +3619,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\TransportEvent[] $transportEvent
+     * @param \App\UBL\Common\CAC\TransportEvent[] $transportEvent
      * @return self
      */
     public function setTransportEvent(?array $transportEvent = null)
@@ -3641,7 +3641,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\EstimatedDepartureTransportEvent
+     * @return \App\UBL\Common\CAC\EstimatedDepartureTransportEvent
      */
     public function getEstimatedDepartureTransportEvent()
     {
@@ -3661,10 +3661,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\EstimatedDepartureTransportEvent $estimatedDepartureTransportEvent
+     * @param \App\UBL\Common\CAC\EstimatedDepartureTransportEvent $estimatedDepartureTransportEvent
      * @return self
      */
-    public function setEstimatedDepartureTransportEvent(?\UBL\Common\CAC\EstimatedDepartureTransportEvent $estimatedDepartureTransportEvent = null)
+    public function setEstimatedDepartureTransportEvent(?\App\UBL\Common\CAC\EstimatedDepartureTransportEvent $estimatedDepartureTransportEvent = null)
     {
         $this->estimatedDepartureTransportEvent = $estimatedDepartureTransportEvent;
         return $this;
@@ -3683,7 +3683,7 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\EstimatedArrivalTransportEvent
+     * @return \App\UBL\Common\CAC\EstimatedArrivalTransportEvent
      */
     public function getEstimatedArrivalTransportEvent()
     {
@@ -3703,10 +3703,10 @@ class ShipmentStageType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\EstimatedArrivalTransportEvent $estimatedArrivalTransportEvent
+     * @param \App\UBL\Common\CAC\EstimatedArrivalTransportEvent $estimatedArrivalTransportEvent
      * @return self
      */
-    public function setEstimatedArrivalTransportEvent(?\UBL\Common\CAC\EstimatedArrivalTransportEvent $estimatedArrivalTransportEvent = null)
+    public function setEstimatedArrivalTransportEvent(?\App\UBL\Common\CAC\EstimatedArrivalTransportEvent $estimatedArrivalTransportEvent = null)
     {
         $this->estimatedArrivalTransportEvent = $estimatedArrivalTransportEvent;
         return $this;
@@ -3726,9 +3726,9 @@ class ShipmentStageType
      *  Person
      *
      * @return self
-     * @param \UBL\Common\CAC\PassengerPerson $passengerPerson
+     * @param \App\UBL\Common\CAC\PassengerPerson $passengerPerson
      */
-    public function addToPassengerPerson(\UBL\Common\CAC\PassengerPerson $passengerPerson)
+    public function addToPassengerPerson(\App\UBL\Common\CAC\PassengerPerson $passengerPerson)
     {
         $this->passengerPerson[] = $passengerPerson;
         return $this;
@@ -3789,7 +3789,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @return \UBL\Common\CAC\PassengerPerson[]
+     * @return \App\UBL\Common\CAC\PassengerPerson[]
      */
     public function getPassengerPerson()
     {
@@ -3809,7 +3809,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @param \UBL\Common\CAC\PassengerPerson[] $passengerPerson
+     * @param \App\UBL\Common\CAC\PassengerPerson[] $passengerPerson
      * @return self
      */
     public function setPassengerPerson(?array $passengerPerson = null)
@@ -3832,9 +3832,9 @@ class ShipmentStageType
      *  Person
      *
      * @return self
-     * @param \UBL\Common\CAC\DriverPerson $driverPerson
+     * @param \App\UBL\Common\CAC\DriverPerson $driverPerson
      */
-    public function addToDriverPerson(\UBL\Common\CAC\DriverPerson $driverPerson)
+    public function addToDriverPerson(\App\UBL\Common\CAC\DriverPerson $driverPerson)
     {
         $this->driverPerson[] = $driverPerson;
         return $this;
@@ -3895,7 +3895,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @return \UBL\Common\CAC\DriverPerson[]
+     * @return \App\UBL\Common\CAC\DriverPerson[]
      */
     public function getDriverPerson()
     {
@@ -3915,7 +3915,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @param \UBL\Common\CAC\DriverPerson[] $driverPerson
+     * @param \App\UBL\Common\CAC\DriverPerson[] $driverPerson
      * @return self
      */
     public function setDriverPerson(?array $driverPerson = null)
@@ -3937,7 +3937,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @return \UBL\Common\CAC\ReportingPerson
+     * @return \App\UBL\Common\CAC\ReportingPerson
      */
     public function getReportingPerson()
     {
@@ -3957,10 +3957,10 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @param \UBL\Common\CAC\ReportingPerson $reportingPerson
+     * @param \App\UBL\Common\CAC\ReportingPerson $reportingPerson
      * @return self
      */
-    public function setReportingPerson(?\UBL\Common\CAC\ReportingPerson $reportingPerson = null)
+    public function setReportingPerson(?\App\UBL\Common\CAC\ReportingPerson $reportingPerson = null)
     {
         $this->reportingPerson = $reportingPerson;
         return $this;
@@ -3980,9 +3980,9 @@ class ShipmentStageType
      *  Person
      *
      * @return self
-     * @param \UBL\Common\CAC\CrewMemberPerson $crewMemberPerson
+     * @param \App\UBL\Common\CAC\CrewMemberPerson $crewMemberPerson
      */
-    public function addToCrewMemberPerson(\UBL\Common\CAC\CrewMemberPerson $crewMemberPerson)
+    public function addToCrewMemberPerson(\App\UBL\Common\CAC\CrewMemberPerson $crewMemberPerson)
     {
         $this->crewMemberPerson[] = $crewMemberPerson;
         return $this;
@@ -4043,7 +4043,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @return \UBL\Common\CAC\CrewMemberPerson[]
+     * @return \App\UBL\Common\CAC\CrewMemberPerson[]
      */
     public function getCrewMemberPerson()
     {
@@ -4063,7 +4063,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @param \UBL\Common\CAC\CrewMemberPerson[] $crewMemberPerson
+     * @param \App\UBL\Common\CAC\CrewMemberPerson[] $crewMemberPerson
      * @return self
      */
     public function setCrewMemberPerson(?array $crewMemberPerson = null)
@@ -4085,7 +4085,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @return \UBL\Common\CAC\SecurityOfficerPerson
+     * @return \App\UBL\Common\CAC\SecurityOfficerPerson
      */
     public function getSecurityOfficerPerson()
     {
@@ -4105,10 +4105,10 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @param \UBL\Common\CAC\SecurityOfficerPerson $securityOfficerPerson
+     * @param \App\UBL\Common\CAC\SecurityOfficerPerson $securityOfficerPerson
      * @return self
      */
-    public function setSecurityOfficerPerson(?\UBL\Common\CAC\SecurityOfficerPerson $securityOfficerPerson = null)
+    public function setSecurityOfficerPerson(?\App\UBL\Common\CAC\SecurityOfficerPerson $securityOfficerPerson = null)
     {
         $this->securityOfficerPerson = $securityOfficerPerson;
         return $this;
@@ -4127,7 +4127,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @return \UBL\Common\CAC\MasterPerson
+     * @return \App\UBL\Common\CAC\MasterPerson
      */
     public function getMasterPerson()
     {
@@ -4147,10 +4147,10 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @param \UBL\Common\CAC\MasterPerson $masterPerson
+     * @param \App\UBL\Common\CAC\MasterPerson $masterPerson
      * @return self
      */
-    public function setMasterPerson(?\UBL\Common\CAC\MasterPerson $masterPerson = null)
+    public function setMasterPerson(?\App\UBL\Common\CAC\MasterPerson $masterPerson = null)
     {
         $this->masterPerson = $masterPerson;
         return $this;
@@ -4169,7 +4169,7 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @return \UBL\Common\CAC\ShipsSurgeonPerson
+     * @return \App\UBL\Common\CAC\ShipsSurgeonPerson
      */
     public function getShipsSurgeonPerson()
     {
@@ -4189,14 +4189,13 @@ class ShipmentStageType
      *  Person
      *  Person
      *
-     * @param \UBL\Common\CAC\ShipsSurgeonPerson $shipsSurgeonPerson
+     * @param \App\UBL\Common\CAC\ShipsSurgeonPerson $shipsSurgeonPerson
      * @return self
      */
-    public function setShipsSurgeonPerson(?\UBL\Common\CAC\ShipsSurgeonPerson $shipsSurgeonPerson = null)
+    public function setShipsSurgeonPerson(?\App\UBL\Common\CAC\ShipsSurgeonPerson $shipsSurgeonPerson = null)
     {
         $this->shipsSurgeonPerson = $shipsSurgeonPerson;
         return $this;
     }
 }
-
 

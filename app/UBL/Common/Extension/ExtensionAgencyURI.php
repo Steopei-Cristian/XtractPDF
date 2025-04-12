@@ -9,4 +9,3 @@ class ExtensionAgencyURI extends ExtensionAgencyURIType
 {
 }
 
-

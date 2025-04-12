@@ -9,4 +9,3 @@ class RequestedMonetaryTotal extends MonetaryTotalType
 {
 }
 
-

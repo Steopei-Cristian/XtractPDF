@@ -79,7 +79,7 @@ class PeriodType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\DurationMeasure $durationMeasure
+     * @var \App\UBL\Common\CBC\DurationMeasure $durationMeasure
      */
     private $durationMeasure = null;
 
@@ -93,7 +93,7 @@ class PeriodType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\DescriptionCode[] $descriptionCode
+     * @var \App\UBL\Common\CBC\DescriptionCode[] $descriptionCode
      */
     private $descriptionCode = [
         
@@ -109,7 +109,7 @@ class PeriodType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -287,7 +287,7 @@ class PeriodType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\DurationMeasure
+     * @return \App\UBL\Common\CBC\DurationMeasure
      */
     public function getDurationMeasure()
     {
@@ -306,10 +306,10 @@ class PeriodType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\DurationMeasure $durationMeasure
+     * @param \App\UBL\Common\CBC\DurationMeasure $durationMeasure
      * @return self
      */
-    public function setDurationMeasure(?\UBL\Common\CBC\DurationMeasure $durationMeasure = null)
+    public function setDurationMeasure(?\App\UBL\Common\CBC\DurationMeasure $durationMeasure = null)
     {
         $this->durationMeasure = $durationMeasure;
         return $this;
@@ -328,9 +328,9 @@ class PeriodType
      *  Code. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\DescriptionCode $descriptionCode
+     * @param \App\UBL\Common\CBC\DescriptionCode $descriptionCode
      */
-    public function addToDescriptionCode(\UBL\Common\CBC\DescriptionCode $descriptionCode)
+    public function addToDescriptionCode(\App\UBL\Common\CBC\DescriptionCode $descriptionCode)
     {
         $this->descriptionCode[] = $descriptionCode;
         return $this;
@@ -388,7 +388,7 @@ class PeriodType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\DescriptionCode[]
+     * @return \App\UBL\Common\CBC\DescriptionCode[]
      */
     public function getDescriptionCode()
     {
@@ -407,7 +407,7 @@ class PeriodType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\DescriptionCode[] $descriptionCode
+     * @param \App\UBL\Common\CBC\DescriptionCode[] $descriptionCode
      * @return self
      */
     public function setDescriptionCode(?array $descriptionCode = null)
@@ -429,9 +429,9 @@ class PeriodType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -489,7 +489,7 @@ class PeriodType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -508,7 +508,7 @@ class PeriodType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -517,5 +517,4 @@ class PeriodType
         return $this;
     }
 }
-
 

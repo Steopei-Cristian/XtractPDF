@@ -24,7 +24,7 @@ class CorporateRegistrationSchemeType
      *  Identifier. Type
      *  ASIC in Australia
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class CorporateRegistrationSchemeType
      *  Name. Type
      *  Australian Securities and Investment Commission in Australia
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -54,7 +54,7 @@ class CorporateRegistrationSchemeType
      *  Code. Type
      *  ACN
      *
-     * @var \UBL\Common\CBC\CorporateRegistrationTypeCode $corporateRegistrationTypeCode
+     * @var \App\UBL\Common\CBC\CorporateRegistrationTypeCode $corporateRegistrationTypeCode
      */
     private $corporateRegistrationTypeCode = null;
 
@@ -70,7 +70,7 @@ class CorporateRegistrationSchemeType
      *  Address
      *  England , Wales
      *
-     * @var \UBL\Common\CAC\JurisdictionRegionAddress[] $jurisdictionRegionAddress
+     * @var \App\UBL\Common\CAC\JurisdictionRegionAddress[] $jurisdictionRegionAddress
      */
     private $jurisdictionRegionAddress = [
         
@@ -89,7 +89,7 @@ class CorporateRegistrationSchemeType
      *  Identifier. Type
      *  ASIC in Australia
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -109,10 +109,10 @@ class CorporateRegistrationSchemeType
      *  Identifier. Type
      *  ASIC in Australia
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -131,7 +131,7 @@ class CorporateRegistrationSchemeType
      *  Name. Type
      *  Australian Securities and Investment Commission in Australia
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -151,10 +151,10 @@ class CorporateRegistrationSchemeType
      *  Name. Type
      *  Australian Securities and Investment Commission in Australia
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -173,7 +173,7 @@ class CorporateRegistrationSchemeType
      *  Code. Type
      *  ACN
      *
-     * @return \UBL\Common\CBC\CorporateRegistrationTypeCode
+     * @return \App\UBL\Common\CBC\CorporateRegistrationTypeCode
      */
     public function getCorporateRegistrationTypeCode()
     {
@@ -193,10 +193,10 @@ class CorporateRegistrationSchemeType
      *  Code. Type
      *  ACN
      *
-     * @param \UBL\Common\CBC\CorporateRegistrationTypeCode $corporateRegistrationTypeCode
+     * @param \App\UBL\Common\CBC\CorporateRegistrationTypeCode $corporateRegistrationTypeCode
      * @return self
      */
-    public function setCorporateRegistrationTypeCode(?\UBL\Common\CBC\CorporateRegistrationTypeCode $corporateRegistrationTypeCode = null)
+    public function setCorporateRegistrationTypeCode(?\App\UBL\Common\CBC\CorporateRegistrationTypeCode $corporateRegistrationTypeCode = null)
     {
         $this->corporateRegistrationTypeCode = $corporateRegistrationTypeCode;
         return $this;
@@ -217,9 +217,9 @@ class CorporateRegistrationSchemeType
      *  England , Wales
      *
      * @return self
-     * @param \UBL\Common\CAC\JurisdictionRegionAddress $jurisdictionRegionAddress
+     * @param \App\UBL\Common\CAC\JurisdictionRegionAddress $jurisdictionRegionAddress
      */
-    public function addToJurisdictionRegionAddress(\UBL\Common\CAC\JurisdictionRegionAddress $jurisdictionRegionAddress)
+    public function addToJurisdictionRegionAddress(\App\UBL\Common\CAC\JurisdictionRegionAddress $jurisdictionRegionAddress)
     {
         $this->jurisdictionRegionAddress[] = $jurisdictionRegionAddress;
         return $this;
@@ -283,7 +283,7 @@ class CorporateRegistrationSchemeType
      *  Address
      *  England , Wales
      *
-     * @return \UBL\Common\CAC\JurisdictionRegionAddress[]
+     * @return \App\UBL\Common\CAC\JurisdictionRegionAddress[]
      */
     public function getJurisdictionRegionAddress()
     {
@@ -304,7 +304,7 @@ class CorporateRegistrationSchemeType
      *  Address
      *  England , Wales
      *
-     * @param \UBL\Common\CAC\JurisdictionRegionAddress[] $jurisdictionRegionAddress
+     * @param \App\UBL\Common\CAC\JurisdictionRegionAddress[] $jurisdictionRegionAddress
      * @return self
      */
     public function setJurisdictionRegionAddress(?array $jurisdictionRegionAddress = null)
@@ -313,5 +313,4 @@ class CorporateRegistrationSchemeType
         return $this;
     }
 }
-
 

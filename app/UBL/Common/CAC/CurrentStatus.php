@@ -9,4 +9,3 @@ class CurrentStatus extends StatusType
 {
 }
 
-

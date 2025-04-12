@@ -1,4 +1,4 @@
-UBL\CCTS\NumericType:
+App\UBL\CCTS\NumericType:
     properties:
         __value:
             expose: true

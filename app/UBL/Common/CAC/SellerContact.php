@@ -9,4 +9,3 @@ class SellerContact extends ContactType
 {
 }
 
-

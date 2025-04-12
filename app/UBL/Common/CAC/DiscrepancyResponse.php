@@ -9,4 +9,3 @@ class DiscrepancyResponse extends ResponseType
 {
 }
 
-

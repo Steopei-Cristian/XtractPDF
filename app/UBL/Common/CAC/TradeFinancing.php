@@ -9,4 +9,3 @@ class TradeFinancing extends TradeFinancingType
 {
 }
 
-

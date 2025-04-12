@@ -23,7 +23,7 @@ class SignatureType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class SignatureType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -81,7 +81,7 @@ class SignatureType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ValidatorID $validatorID
+     * @var \App\UBL\Common\CBC\ValidatorID $validatorID
      */
     private $validatorID = null;
 
@@ -95,7 +95,7 @@ class SignatureType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\CanonicalizationMethod $canonicalizationMethod
+     * @var \App\UBL\Common\CBC\CanonicalizationMethod $canonicalizationMethod
      */
     private $canonicalizationMethod = null;
 
@@ -109,7 +109,7 @@ class SignatureType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\SignatureMethod $signatureMethod
+     * @var \App\UBL\Common\CBC\SignatureMethod $signatureMethod
      */
     private $signatureMethod = null;
 
@@ -124,7 +124,7 @@ class SignatureType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\SignatoryParty $signatoryParty
+     * @var \App\UBL\Common\CAC\SignatoryParty $signatoryParty
      */
     private $signatoryParty = null;
 
@@ -139,7 +139,7 @@ class SignatureType
      *  Attachment
      *  Attachment
      *
-     * @var \UBL\Common\CAC\DigitalSignatureAttachment $digitalSignatureAttachment
+     * @var \App\UBL\Common\CAC\DigitalSignatureAttachment $digitalSignatureAttachment
      */
     private $digitalSignatureAttachment = null;
 
@@ -154,7 +154,7 @@ class SignatureType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\OriginalDocumentReference $originalDocumentReference
+     * @var \App\UBL\Common\CAC\OriginalDocumentReference $originalDocumentReference
      */
     private $originalDocumentReference = null;
 
@@ -170,7 +170,7 @@ class SignatureType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -189,10 +189,10 @@ class SignatureType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -211,9 +211,9 @@ class SignatureType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -271,7 +271,7 @@ class SignatureType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -290,7 +290,7 @@ class SignatureType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -391,7 +391,7 @@ class SignatureType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ValidatorID
+     * @return \App\UBL\Common\CBC\ValidatorID
      */
     public function getValidatorID()
     {
@@ -410,10 +410,10 @@ class SignatureType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ValidatorID $validatorID
+     * @param \App\UBL\Common\CBC\ValidatorID $validatorID
      * @return self
      */
-    public function setValidatorID(?\UBL\Common\CBC\ValidatorID $validatorID = null)
+    public function setValidatorID(?\App\UBL\Common\CBC\ValidatorID $validatorID = null)
     {
         $this->validatorID = $validatorID;
         return $this;
@@ -431,7 +431,7 @@ class SignatureType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\CanonicalizationMethod
+     * @return \App\UBL\Common\CBC\CanonicalizationMethod
      */
     public function getCanonicalizationMethod()
     {
@@ -450,10 +450,10 @@ class SignatureType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\CanonicalizationMethod $canonicalizationMethod
+     * @param \App\UBL\Common\CBC\CanonicalizationMethod $canonicalizationMethod
      * @return self
      */
-    public function setCanonicalizationMethod(?\UBL\Common\CBC\CanonicalizationMethod $canonicalizationMethod = null)
+    public function setCanonicalizationMethod(?\App\UBL\Common\CBC\CanonicalizationMethod $canonicalizationMethod = null)
     {
         $this->canonicalizationMethod = $canonicalizationMethod;
         return $this;
@@ -471,7 +471,7 @@ class SignatureType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\SignatureMethod
+     * @return \App\UBL\Common\CBC\SignatureMethod
      */
     public function getSignatureMethod()
     {
@@ -490,10 +490,10 @@ class SignatureType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\SignatureMethod $signatureMethod
+     * @param \App\UBL\Common\CBC\SignatureMethod $signatureMethod
      * @return self
      */
-    public function setSignatureMethod(?\UBL\Common\CBC\SignatureMethod $signatureMethod = null)
+    public function setSignatureMethod(?\App\UBL\Common\CBC\SignatureMethod $signatureMethod = null)
     {
         $this->signatureMethod = $signatureMethod;
         return $this;
@@ -512,7 +512,7 @@ class SignatureType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\SignatoryParty
+     * @return \App\UBL\Common\CAC\SignatoryParty
      */
     public function getSignatoryParty()
     {
@@ -532,10 +532,10 @@ class SignatureType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\SignatoryParty $signatoryParty
+     * @param \App\UBL\Common\CAC\SignatoryParty $signatoryParty
      * @return self
      */
-    public function setSignatoryParty(?\UBL\Common\CAC\SignatoryParty $signatoryParty = null)
+    public function setSignatoryParty(?\App\UBL\Common\CAC\SignatoryParty $signatoryParty = null)
     {
         $this->signatoryParty = $signatoryParty;
         return $this;
@@ -554,7 +554,7 @@ class SignatureType
      *  Attachment
      *  Attachment
      *
-     * @return \UBL\Common\CAC\DigitalSignatureAttachment
+     * @return \App\UBL\Common\CAC\DigitalSignatureAttachment
      */
     public function getDigitalSignatureAttachment()
     {
@@ -574,10 +574,10 @@ class SignatureType
      *  Attachment
      *  Attachment
      *
-     * @param \UBL\Common\CAC\DigitalSignatureAttachment $digitalSignatureAttachment
+     * @param \App\UBL\Common\CAC\DigitalSignatureAttachment $digitalSignatureAttachment
      * @return self
      */
-    public function setDigitalSignatureAttachment(?\UBL\Common\CAC\DigitalSignatureAttachment $digitalSignatureAttachment = null)
+    public function setDigitalSignatureAttachment(?\App\UBL\Common\CAC\DigitalSignatureAttachment $digitalSignatureAttachment = null)
     {
         $this->digitalSignatureAttachment = $digitalSignatureAttachment;
         return $this;
@@ -596,7 +596,7 @@ class SignatureType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\OriginalDocumentReference
+     * @return \App\UBL\Common\CAC\OriginalDocumentReference
      */
     public function getOriginalDocumentReference()
     {
@@ -616,14 +616,13 @@ class SignatureType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\OriginalDocumentReference $originalDocumentReference
+     * @param \App\UBL\Common\CAC\OriginalDocumentReference $originalDocumentReference
      * @return self
      */
-    public function setOriginalDocumentReference(?\UBL\Common\CAC\OriginalDocumentReference $originalDocumentReference = null)
+    public function setOriginalDocumentReference(?\App\UBL\Common\CAC\OriginalDocumentReference $originalDocumentReference = null)
     {
         $this->originalDocumentReference = $originalDocumentReference;
         return $this;
     }
 }
-
 

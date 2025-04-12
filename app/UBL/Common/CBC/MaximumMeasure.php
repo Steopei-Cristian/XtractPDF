@@ -9,4 +9,3 @@ class MaximumMeasure extends MaximumMeasureType
 {
 }
 
-

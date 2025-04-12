@@ -1,4 +1,4 @@
-UBL\Common\CAC\FinancialGuaranteeType:
+App\UBL\Common\CAC\FinancialGuaranteeType:
     properties:
         guaranteeTypeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\FinancialGuaranteeType:
             accessor:
                 getter: getGuaranteeTypeCode
                 setter: setGuaranteeTypeCode
-            type: UBL\Common\CBC\GuaranteeTypeCode
+            type: App\UBL\Common\CBC\GuaranteeTypeCode
         description:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\FinancialGuaranteeType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         liabilityAmount:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\FinancialGuaranteeType:
             accessor:
                 getter: getLiabilityAmount
                 setter: setLiabilityAmount
-            type: UBL\Common\CBC\LiabilityAmount
+            type: App\UBL\Common\CBC\LiabilityAmount
         amountRate:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\FinancialGuaranteeType:
             accessor:
                 getter: getAmountRate
                 setter: setAmountRate
-            type: UBL\Common\CBC\AmountRate
+            type: App\UBL\Common\CBC\AmountRate
         constitutionPeriod:
             expose: true
             access_type: public_method
@@ -53,4 +53,4 @@ UBL\Common\CAC\FinancialGuaranteeType:
             accessor:
                 getter: getConstitutionPeriod
                 setter: setConstitutionPeriod
-            type: UBL\Common\CAC\ConstitutionPeriod
+            type: App\UBL\Common\CAC\ConstitutionPeriod

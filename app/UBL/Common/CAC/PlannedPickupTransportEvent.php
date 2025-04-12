@@ -9,4 +9,3 @@ class PlannedPickupTransportEvent extends TransportEventType
 {
 }
 
-

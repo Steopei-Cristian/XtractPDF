@@ -1,4 +1,4 @@
-UBL\XAdES\v132\SignaturePolicyIdentifierType:
+App\UBL\XAdES\v132\SignaturePolicyIdentifierType:
     properties:
         signaturePolicyId:
             expose: true
@@ -9,7 +9,7 @@ UBL\XAdES\v132\SignaturePolicyIdentifierType:
             accessor:
                 getter: getSignaturePolicyId
                 setter: setSignaturePolicyId
-            type: UBL\XAdES\v132\SignaturePolicyIdType
+            type: App\UBL\XAdES\v132\SignaturePolicyIdType
         signaturePolicyImplied:
             expose: true
             access_type: public_method

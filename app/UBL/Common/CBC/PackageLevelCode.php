@@ -9,4 +9,3 @@ class PackageLevelCode extends PackageLevelCodeType
 {
 }
 
-

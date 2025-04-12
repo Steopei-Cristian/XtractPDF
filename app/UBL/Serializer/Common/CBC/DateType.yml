@@ -1,4 +1,4 @@
-UBL\Common\CBC\DateType:
+App\UBL\Common\CBC\DateType:
     properties:
         __value:
             expose: true

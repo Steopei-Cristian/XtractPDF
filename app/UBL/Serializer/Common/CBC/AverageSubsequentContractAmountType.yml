@@ -1,2 +1,2 @@
-UBL\Common\CBC\AverageSubsequentContractAmountType:
+App\UBL\Common\CBC\AverageSubsequentContractAmountType:
     properties: {  }

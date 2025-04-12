@@ -1,4 +1,4 @@
-UBL\Common\CAC\ClassificationSchemeType:
+App\UBL\Common\CAC\ClassificationSchemeType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ClassificationSchemeType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         uUID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ClassificationSchemeType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         lastRevisionDate:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\ClassificationSchemeType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         name:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\ClassificationSchemeType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         description:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\ClassificationSchemeType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         agencyID:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\ClassificationSchemeType:
             accessor:
                 getter: getAgencyID
                 setter: setAgencyID
-            type: UBL\Common\CBC\AgencyID
+            type: App\UBL\Common\CBC\AgencyID
         agencyName:
             expose: true
             access_type: public_method
@@ -97,7 +97,7 @@ UBL\Common\CAC\ClassificationSchemeType:
             accessor:
                 getter: getAgencyName
                 setter: setAgencyName
-            type: UBL\Common\CBC\AgencyName
+            type: App\UBL\Common\CBC\AgencyName
         versionID:
             expose: true
             access_type: public_method
@@ -107,7 +107,7 @@ UBL\Common\CAC\ClassificationSchemeType:
             accessor:
                 getter: getVersionID
                 setter: setVersionID
-            type: UBL\Common\CBC\VersionID
+            type: App\UBL\Common\CBC\VersionID
         uRI:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ UBL\Common\CAC\ClassificationSchemeType:
             accessor:
                 getter: getURI
                 setter: setURI
-            type: UBL\Common\CBC\URI
+            type: App\UBL\Common\CBC\URI
         schemeURI:
             expose: true
             access_type: public_method
@@ -127,7 +127,7 @@ UBL\Common\CAC\ClassificationSchemeType:
             accessor:
                 getter: getSchemeURI
                 setter: setSchemeURI
-            type: UBL\Common\CBC\SchemeURI
+            type: App\UBL\Common\CBC\SchemeURI
         languageID:
             expose: true
             access_type: public_method
@@ -137,7 +137,7 @@ UBL\Common\CAC\ClassificationSchemeType:
             accessor:
                 getter: getLanguageID
                 setter: setLanguageID
-            type: UBL\Common\CBC\LanguageID
+            type: App\UBL\Common\CBC\LanguageID
         classificationCategory:
             expose: true
             access_type: public_method
@@ -151,4 +151,4 @@ UBL\Common\CAC\ClassificationSchemeType:
                 inline: true
                 entry_name: ClassificationCategory
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ClassificationCategory>
+            type: array<App\UBL\Common\CAC\ClassificationCategory>

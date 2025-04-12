@@ -9,4 +9,3 @@ class MeterProperty extends MeterPropertyType
 {
 }
 
-

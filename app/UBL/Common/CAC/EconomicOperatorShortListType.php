@@ -24,7 +24,7 @@ class EconomicOperatorShortListType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\LimitationDescription[] $limitationDescription
+     * @var \App\UBL\Common\CBC\LimitationDescription[] $limitationDescription
      */
     private $limitationDescription = [
         
@@ -41,7 +41,7 @@ class EconomicOperatorShortListType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ExpectedQuantity $expectedQuantity
+     * @var \App\UBL\Common\CBC\ExpectedQuantity $expectedQuantity
      */
     private $expectedQuantity = null;
 
@@ -56,7 +56,7 @@ class EconomicOperatorShortListType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MaximumQuantity $maximumQuantity
+     * @var \App\UBL\Common\CBC\MaximumQuantity $maximumQuantity
      */
     private $maximumQuantity = null;
 
@@ -71,7 +71,7 @@ class EconomicOperatorShortListType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MinimumQuantity $minimumQuantity
+     * @var \App\UBL\Common\CBC\MinimumQuantity $minimumQuantity
      */
     private $minimumQuantity = null;
 
@@ -86,7 +86,7 @@ class EconomicOperatorShortListType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\PreSelectedParty[] $preSelectedParty
+     * @var \App\UBL\Common\CAC\PreSelectedParty[] $preSelectedParty
      */
     private $preSelectedParty = [
         
@@ -106,9 +106,9 @@ class EconomicOperatorShortListType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\LimitationDescription $limitationDescription
+     * @param \App\UBL\Common\CBC\LimitationDescription $limitationDescription
      */
-    public function addToLimitationDescription(\UBL\Common\CBC\LimitationDescription $limitationDescription)
+    public function addToLimitationDescription(\App\UBL\Common\CBC\LimitationDescription $limitationDescription)
     {
         $this->limitationDescription[] = $limitationDescription;
         return $this;
@@ -169,7 +169,7 @@ class EconomicOperatorShortListType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\LimitationDescription[]
+     * @return \App\UBL\Common\CBC\LimitationDescription[]
      */
     public function getLimitationDescription()
     {
@@ -189,7 +189,7 @@ class EconomicOperatorShortListType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\LimitationDescription[] $limitationDescription
+     * @param \App\UBL\Common\CBC\LimitationDescription[] $limitationDescription
      * @return self
      */
     public function setLimitationDescription(?array $limitationDescription = null)
@@ -211,7 +211,7 @@ class EconomicOperatorShortListType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ExpectedQuantity
+     * @return \App\UBL\Common\CBC\ExpectedQuantity
      */
     public function getExpectedQuantity()
     {
@@ -231,10 +231,10 @@ class EconomicOperatorShortListType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ExpectedQuantity $expectedQuantity
+     * @param \App\UBL\Common\CBC\ExpectedQuantity $expectedQuantity
      * @return self
      */
-    public function setExpectedQuantity(?\UBL\Common\CBC\ExpectedQuantity $expectedQuantity = null)
+    public function setExpectedQuantity(?\App\UBL\Common\CBC\ExpectedQuantity $expectedQuantity = null)
     {
         $this->expectedQuantity = $expectedQuantity;
         return $this;
@@ -253,7 +253,7 @@ class EconomicOperatorShortListType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MaximumQuantity
+     * @return \App\UBL\Common\CBC\MaximumQuantity
      */
     public function getMaximumQuantity()
     {
@@ -273,10 +273,10 @@ class EconomicOperatorShortListType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MaximumQuantity $maximumQuantity
+     * @param \App\UBL\Common\CBC\MaximumQuantity $maximumQuantity
      * @return self
      */
-    public function setMaximumQuantity(?\UBL\Common\CBC\MaximumQuantity $maximumQuantity = null)
+    public function setMaximumQuantity(?\App\UBL\Common\CBC\MaximumQuantity $maximumQuantity = null)
     {
         $this->maximumQuantity = $maximumQuantity;
         return $this;
@@ -295,7 +295,7 @@ class EconomicOperatorShortListType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MinimumQuantity
+     * @return \App\UBL\Common\CBC\MinimumQuantity
      */
     public function getMinimumQuantity()
     {
@@ -315,10 +315,10 @@ class EconomicOperatorShortListType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MinimumQuantity $minimumQuantity
+     * @param \App\UBL\Common\CBC\MinimumQuantity $minimumQuantity
      * @return self
      */
-    public function setMinimumQuantity(?\UBL\Common\CBC\MinimumQuantity $minimumQuantity = null)
+    public function setMinimumQuantity(?\App\UBL\Common\CBC\MinimumQuantity $minimumQuantity = null)
     {
         $this->minimumQuantity = $minimumQuantity;
         return $this;
@@ -338,9 +338,9 @@ class EconomicOperatorShortListType
      *  Party
      *
      * @return self
-     * @param \UBL\Common\CAC\PreSelectedParty $preSelectedParty
+     * @param \App\UBL\Common\CAC\PreSelectedParty $preSelectedParty
      */
-    public function addToPreSelectedParty(\UBL\Common\CAC\PreSelectedParty $preSelectedParty)
+    public function addToPreSelectedParty(\App\UBL\Common\CAC\PreSelectedParty $preSelectedParty)
     {
         $this->preSelectedParty[] = $preSelectedParty;
         return $this;
@@ -401,7 +401,7 @@ class EconomicOperatorShortListType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\PreSelectedParty[]
+     * @return \App\UBL\Common\CAC\PreSelectedParty[]
      */
     public function getPreSelectedParty()
     {
@@ -421,7 +421,7 @@ class EconomicOperatorShortListType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\PreSelectedParty[] $preSelectedParty
+     * @param \App\UBL\Common\CAC\PreSelectedParty[] $preSelectedParty
      * @return self
      */
     public function setPreSelectedParty(?array $preSelectedParty = null)
@@ -430,5 +430,4 @@ class EconomicOperatorShortListType
         return $this;
     }
 }
-
 

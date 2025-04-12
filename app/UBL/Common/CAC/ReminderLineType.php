@@ -23,7 +23,7 @@ class ReminderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class ReminderLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -53,7 +53,7 @@ class ReminderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -83,7 +83,7 @@ class ReminderLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\DebitLineAmount $debitLineAmount
+     * @var \App\UBL\Common\CBC\DebitLineAmount $debitLineAmount
      */
     private $debitLineAmount = null;
 
@@ -98,7 +98,7 @@ class ReminderLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\CreditLineAmount $creditLineAmount
+     * @var \App\UBL\Common\CBC\CreditLineAmount $creditLineAmount
      */
     private $creditLineAmount = null;
 
@@ -112,7 +112,7 @@ class ReminderLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\AccountingCostCode $accountingCostCode
+     * @var \App\UBL\Common\CBC\AccountingCostCode $accountingCostCode
      */
     private $accountingCostCode = null;
 
@@ -126,7 +126,7 @@ class ReminderLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\AccountingCost $accountingCost
+     * @var \App\UBL\Common\CBC\AccountingCost $accountingCost
      */
     private $accountingCost = null;
 
@@ -141,7 +141,7 @@ class ReminderLineType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\PenaltySurchargePercent $penaltySurchargePercent
+     * @var \App\UBL\Common\CBC\PenaltySurchargePercent $penaltySurchargePercent
      */
     private $penaltySurchargePercent = null;
 
@@ -155,7 +155,7 @@ class ReminderLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\Amount $amount
+     * @var \App\UBL\Common\CBC\Amount $amount
      */
     private $amount = null;
 
@@ -169,7 +169,7 @@ class ReminderLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
+     * @var \App\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
      */
     private $paymentPurposeCode = null;
 
@@ -184,7 +184,7 @@ class ReminderLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ReminderPeriod[] $reminderPeriod
+     * @var \App\UBL\Common\CAC\ReminderPeriod[] $reminderPeriod
      */
     private $reminderPeriod = [
         
@@ -200,7 +200,7 @@ class ReminderLineType
      *  Billing Reference
      *  Billing Reference
      *
-     * @var \UBL\Common\CAC\BillingReference[] $billingReference
+     * @var \App\UBL\Common\CAC\BillingReference[] $billingReference
      */
     private $billingReference = [
         
@@ -216,7 +216,7 @@ class ReminderLineType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @var \UBL\Common\CAC\ExchangeRate $exchangeRate
+     * @var \App\UBL\Common\CAC\ExchangeRate $exchangeRate
      */
     private $exchangeRate = null;
 
@@ -232,7 +232,7 @@ class ReminderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -251,10 +251,10 @@ class ReminderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -273,9 +273,9 @@ class ReminderLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -333,7 +333,7 @@ class ReminderLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -352,7 +352,7 @@ class ReminderLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -373,7 +373,7 @@ class ReminderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -392,10 +392,10 @@ class ReminderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -456,7 +456,7 @@ class ReminderLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\DebitLineAmount
+     * @return \App\UBL\Common\CBC\DebitLineAmount
      */
     public function getDebitLineAmount()
     {
@@ -476,10 +476,10 @@ class ReminderLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\DebitLineAmount $debitLineAmount
+     * @param \App\UBL\Common\CBC\DebitLineAmount $debitLineAmount
      * @return self
      */
-    public function setDebitLineAmount(?\UBL\Common\CBC\DebitLineAmount $debitLineAmount = null)
+    public function setDebitLineAmount(?\App\UBL\Common\CBC\DebitLineAmount $debitLineAmount = null)
     {
         $this->debitLineAmount = $debitLineAmount;
         return $this;
@@ -498,7 +498,7 @@ class ReminderLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\CreditLineAmount
+     * @return \App\UBL\Common\CBC\CreditLineAmount
      */
     public function getCreditLineAmount()
     {
@@ -518,10 +518,10 @@ class ReminderLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\CreditLineAmount $creditLineAmount
+     * @param \App\UBL\Common\CBC\CreditLineAmount $creditLineAmount
      * @return self
      */
-    public function setCreditLineAmount(?\UBL\Common\CBC\CreditLineAmount $creditLineAmount = null)
+    public function setCreditLineAmount(?\App\UBL\Common\CBC\CreditLineAmount $creditLineAmount = null)
     {
         $this->creditLineAmount = $creditLineAmount;
         return $this;
@@ -539,7 +539,7 @@ class ReminderLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\AccountingCostCode
+     * @return \App\UBL\Common\CBC\AccountingCostCode
      */
     public function getAccountingCostCode()
     {
@@ -558,10 +558,10 @@ class ReminderLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\AccountingCostCode $accountingCostCode
+     * @param \App\UBL\Common\CBC\AccountingCostCode $accountingCostCode
      * @return self
      */
-    public function setAccountingCostCode(?\UBL\Common\CBC\AccountingCostCode $accountingCostCode = null)
+    public function setAccountingCostCode(?\App\UBL\Common\CBC\AccountingCostCode $accountingCostCode = null)
     {
         $this->accountingCostCode = $accountingCostCode;
         return $this;
@@ -579,7 +579,7 @@ class ReminderLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\AccountingCost
+     * @return \App\UBL\Common\CBC\AccountingCost
      */
     public function getAccountingCost()
     {
@@ -598,10 +598,10 @@ class ReminderLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\AccountingCost $accountingCost
+     * @param \App\UBL\Common\CBC\AccountingCost $accountingCost
      * @return self
      */
-    public function setAccountingCost(?\UBL\Common\CBC\AccountingCost $accountingCost = null)
+    public function setAccountingCost(?\App\UBL\Common\CBC\AccountingCost $accountingCost = null)
     {
         $this->accountingCost = $accountingCost;
         return $this;
@@ -620,7 +620,7 @@ class ReminderLineType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\PenaltySurchargePercent
+     * @return \App\UBL\Common\CBC\PenaltySurchargePercent
      */
     public function getPenaltySurchargePercent()
     {
@@ -640,10 +640,10 @@ class ReminderLineType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\PenaltySurchargePercent $penaltySurchargePercent
+     * @param \App\UBL\Common\CBC\PenaltySurchargePercent $penaltySurchargePercent
      * @return self
      */
-    public function setPenaltySurchargePercent(?\UBL\Common\CBC\PenaltySurchargePercent $penaltySurchargePercent = null)
+    public function setPenaltySurchargePercent(?\App\UBL\Common\CBC\PenaltySurchargePercent $penaltySurchargePercent = null)
     {
         $this->penaltySurchargePercent = $penaltySurchargePercent;
         return $this;
@@ -661,7 +661,7 @@ class ReminderLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\Amount
+     * @return \App\UBL\Common\CBC\Amount
      */
     public function getAmount()
     {
@@ -680,10 +680,10 @@ class ReminderLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\Amount $amount
+     * @param \App\UBL\Common\CBC\Amount $amount
      * @return self
      */
-    public function setAmount(?\UBL\Common\CBC\Amount $amount = null)
+    public function setAmount(?\App\UBL\Common\CBC\Amount $amount = null)
     {
         $this->amount = $amount;
         return $this;
@@ -701,7 +701,7 @@ class ReminderLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PaymentPurposeCode
+     * @return \App\UBL\Common\CBC\PaymentPurposeCode
      */
     public function getPaymentPurposeCode()
     {
@@ -720,10 +720,10 @@ class ReminderLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
+     * @param \App\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
      * @return self
      */
-    public function setPaymentPurposeCode(?\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode = null)
+    public function setPaymentPurposeCode(?\App\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode = null)
     {
         $this->paymentPurposeCode = $paymentPurposeCode;
         return $this;
@@ -743,9 +743,9 @@ class ReminderLineType
      *  Period
      *
      * @return self
-     * @param \UBL\Common\CAC\ReminderPeriod $reminderPeriod
+     * @param \App\UBL\Common\CAC\ReminderPeriod $reminderPeriod
      */
-    public function addToReminderPeriod(\UBL\Common\CAC\ReminderPeriod $reminderPeriod)
+    public function addToReminderPeriod(\App\UBL\Common\CAC\ReminderPeriod $reminderPeriod)
     {
         $this->reminderPeriod[] = $reminderPeriod;
         return $this;
@@ -806,7 +806,7 @@ class ReminderLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ReminderPeriod[]
+     * @return \App\UBL\Common\CAC\ReminderPeriod[]
      */
     public function getReminderPeriod()
     {
@@ -826,7 +826,7 @@ class ReminderLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ReminderPeriod[] $reminderPeriod
+     * @param \App\UBL\Common\CAC\ReminderPeriod[] $reminderPeriod
      * @return self
      */
     public function setReminderPeriod(?array $reminderPeriod = null)
@@ -848,9 +848,9 @@ class ReminderLineType
      *  Billing Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\BillingReference $billingReference
+     * @param \App\UBL\Common\CAC\BillingReference $billingReference
      */
-    public function addToBillingReference(\UBL\Common\CAC\BillingReference $billingReference)
+    public function addToBillingReference(\App\UBL\Common\CAC\BillingReference $billingReference)
     {
         $this->billingReference[] = $billingReference;
         return $this;
@@ -908,7 +908,7 @@ class ReminderLineType
      *  Billing Reference
      *  Billing Reference
      *
-     * @return \UBL\Common\CAC\BillingReference[]
+     * @return \App\UBL\Common\CAC\BillingReference[]
      */
     public function getBillingReference()
     {
@@ -927,7 +927,7 @@ class ReminderLineType
      *  Billing Reference
      *  Billing Reference
      *
-     * @param \UBL\Common\CAC\BillingReference[] $billingReference
+     * @param \App\UBL\Common\CAC\BillingReference[] $billingReference
      * @return self
      */
     public function setBillingReference(?array $billingReference = null)
@@ -948,7 +948,7 @@ class ReminderLineType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @return \UBL\Common\CAC\ExchangeRate
+     * @return \App\UBL\Common\CAC\ExchangeRate
      */
     public function getExchangeRate()
     {
@@ -967,14 +967,13 @@ class ReminderLineType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @param \UBL\Common\CAC\ExchangeRate $exchangeRate
+     * @param \App\UBL\Common\CAC\ExchangeRate $exchangeRate
      * @return self
      */
-    public function setExchangeRate(?\UBL\Common\CAC\ExchangeRate $exchangeRate = null)
+    public function setExchangeRate(?\App\UBL\Common\CAC\ExchangeRate $exchangeRate = null)
     {
         $this->exchangeRate = $exchangeRate;
         return $this;
     }
 }
-
 

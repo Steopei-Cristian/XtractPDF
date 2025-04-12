@@ -9,4 +9,3 @@ class PayableAmount extends PayableAmountType
 {
 }
 
-

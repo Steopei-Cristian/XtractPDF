@@ -24,7 +24,7 @@ class RailTransportType
      *  Identifier. Type
      *  Train Number (WCO ID 167)
      *
-     * @var \UBL\Common\CBC\TrainID $trainID
+     * @var \App\UBL\Common\CBC\TrainID $trainID
      */
     private $trainID = null;
 
@@ -38,7 +38,7 @@ class RailTransportType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\RailCarID $railCarID
+     * @var \App\UBL\Common\CBC\RailCarID $railCarID
      */
     private $railCarID = null;
 
@@ -55,7 +55,7 @@ class RailTransportType
      *  Identifier. Type
      *  Train Number (WCO ID 167)
      *
-     * @return \UBL\Common\CBC\TrainID
+     * @return \App\UBL\Common\CBC\TrainID
      */
     public function getTrainID()
     {
@@ -75,10 +75,10 @@ class RailTransportType
      *  Identifier. Type
      *  Train Number (WCO ID 167)
      *
-     * @param \UBL\Common\CBC\TrainID $trainID
+     * @param \App\UBL\Common\CBC\TrainID $trainID
      * @return self
      */
-    public function setTrainID(\UBL\Common\CBC\TrainID $trainID)
+    public function setTrainID(\App\UBL\Common\CBC\TrainID $trainID)
     {
         $this->trainID = $trainID;
         return $this;
@@ -96,7 +96,7 @@ class RailTransportType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\RailCarID
+     * @return \App\UBL\Common\CBC\RailCarID
      */
     public function getRailCarID()
     {
@@ -115,14 +115,13 @@ class RailTransportType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\RailCarID $railCarID
+     * @param \App\UBL\Common\CBC\RailCarID $railCarID
      * @return self
      */
-    public function setRailCarID(?\UBL\Common\CBC\RailCarID $railCarID = null)
+    public function setRailCarID(?\App\UBL\Common\CBC\RailCarID $railCarID = null)
     {
         $this->railCarID = $railCarID;
         return $this;
     }
 }
-
 

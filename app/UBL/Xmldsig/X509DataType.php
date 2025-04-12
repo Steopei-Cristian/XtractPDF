@@ -11,7 +11,7 @@ namespace App\UBL\Xmldsig;
 class X509DataType
 {
     /**
-     * @var \UBL\Xmldsig\X509IssuerSerialType[] $x509IssuerSerial
+     * @var \App\UBL\Xmldsig\X509IssuerSerialType[] $x509IssuerSerial
      */
     private $x509IssuerSerial = [
         
@@ -49,9 +49,9 @@ class X509DataType
      * Adds as x509IssuerSerial
      *
      * @return self
-     * @param \UBL\Xmldsig\X509IssuerSerialType $x509IssuerSerial
+     * @param \App\UBL\Xmldsig\X509IssuerSerialType $x509IssuerSerial
      */
-    public function addToX509IssuerSerial(\UBL\Xmldsig\X509IssuerSerialType $x509IssuerSerial)
+    public function addToX509IssuerSerial(\App\UBL\Xmldsig\X509IssuerSerialType $x509IssuerSerial)
     {
         $this->x509IssuerSerial[] = $x509IssuerSerial;
         return $this;
@@ -82,7 +82,7 @@ class X509DataType
     /**
      * Gets as x509IssuerSerial
      *
-     * @return \UBL\Xmldsig\X509IssuerSerialType[]
+     * @return \App\UBL\Xmldsig\X509IssuerSerialType[]
      */
     public function getX509IssuerSerial()
     {
@@ -92,7 +92,7 @@ class X509DataType
     /**
      * Sets a new x509IssuerSerial
      *
-     * @param \UBL\Xmldsig\X509IssuerSerialType[] $x509IssuerSerial
+     * @param \App\UBL\Xmldsig\X509IssuerSerialType[] $x509IssuerSerial
      * @return self
      */
     public function setX509IssuerSerial(?array $x509IssuerSerial = null)
@@ -325,5 +325,4 @@ class X509DataType
         return $this;
     }
 }
-
 

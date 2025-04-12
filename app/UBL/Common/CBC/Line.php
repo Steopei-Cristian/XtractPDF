@@ -9,4 +9,3 @@ class Line extends LineType
 {
 }
 
-

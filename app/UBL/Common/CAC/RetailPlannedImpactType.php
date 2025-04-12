@@ -23,7 +23,7 @@ class RetailPlannedImpactType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\Amount $amount
+     * @var \App\UBL\Common\CBC\Amount $amount
      */
     private $amount = null;
 
@@ -38,7 +38,7 @@ class RetailPlannedImpactType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode
+     * @var \App\UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode
      */
     private $forecastPurposeCode = null;
 
@@ -52,7 +52,7 @@ class RetailPlannedImpactType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
+     * @var \App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
      */
     private $forecastTypeCode = null;
 
@@ -66,7 +66,7 @@ class RetailPlannedImpactType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\Period $period
+     * @var \App\UBL\Common\CAC\Period $period
      */
     private $period = null;
 
@@ -82,7 +82,7 @@ class RetailPlannedImpactType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\Amount
+     * @return \App\UBL\Common\CBC\Amount
      */
     public function getAmount()
     {
@@ -101,10 +101,10 @@ class RetailPlannedImpactType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\Amount $amount
+     * @param \App\UBL\Common\CBC\Amount $amount
      * @return self
      */
-    public function setAmount(\UBL\Common\CBC\Amount $amount)
+    public function setAmount(\App\UBL\Common\CBC\Amount $amount)
     {
         $this->amount = $amount;
         return $this;
@@ -123,7 +123,7 @@ class RetailPlannedImpactType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ForecastPurposeCode
+     * @return \App\UBL\Common\CBC\ForecastPurposeCode
      */
     public function getForecastPurposeCode()
     {
@@ -143,10 +143,10 @@ class RetailPlannedImpactType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode
+     * @param \App\UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode
      * @return self
      */
-    public function setForecastPurposeCode(\UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode)
+    public function setForecastPurposeCode(\App\UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode)
     {
         $this->forecastPurposeCode = $forecastPurposeCode;
         return $this;
@@ -164,7 +164,7 @@ class RetailPlannedImpactType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ForecastTypeCode
+     * @return \App\UBL\Common\CBC\ForecastTypeCode
      */
     public function getForecastTypeCode()
     {
@@ -183,10 +183,10 @@ class RetailPlannedImpactType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
+     * @param \App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
      * @return self
      */
-    public function setForecastTypeCode(\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode)
+    public function setForecastTypeCode(\App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode)
     {
         $this->forecastTypeCode = $forecastTypeCode;
         return $this;
@@ -204,7 +204,7 @@ class RetailPlannedImpactType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\Period
+     * @return \App\UBL\Common\CAC\Period
      */
     public function getPeriod()
     {
@@ -223,14 +223,13 @@ class RetailPlannedImpactType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\Period $period
+     * @param \App\UBL\Common\CAC\Period $period
      * @return self
      */
-    public function setPeriod(?\UBL\Common\CAC\Period $period = null)
+    public function setPeriod(?\App\UBL\Common\CAC\Period $period = null)
     {
         $this->period = $period;
         return $this;
     }
 }
-
 

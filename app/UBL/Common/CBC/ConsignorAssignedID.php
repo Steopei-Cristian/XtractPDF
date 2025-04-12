@@ -9,4 +9,3 @@ class ConsignorAssignedID extends ConsignorAssignedIDType
 {
 }
 
-

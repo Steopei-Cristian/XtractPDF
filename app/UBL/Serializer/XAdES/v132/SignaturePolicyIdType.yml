@@ -1,4 +1,4 @@
-UBL\XAdES\v132\SignaturePolicyIdType:
+App\UBL\XAdES\v132\SignaturePolicyIdType:
     properties:
         sigPolicyId:
             expose: true
@@ -9,7 +9,7 @@ UBL\XAdES\v132\SignaturePolicyIdType:
             accessor:
                 getter: getSigPolicyId
                 setter: setSigPolicyId
-            type: UBL\XAdES\v132\ObjectIdentifierType
+            type: App\UBL\XAdES\v132\ObjectIdentifierType
         transforms:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\XAdES\v132\SignaturePolicyIdType:
             accessor:
                 getter: getTransforms
                 setter: setTransforms
-            type: array<UBL\Xmldsig\Transform>
+            type: array<App\UBL\Xmldsig\Transform>
             xml_list:
                 inline: false
                 entry_name: Transform
@@ -34,7 +34,7 @@ UBL\XAdES\v132\SignaturePolicyIdType:
             accessor:
                 getter: getSigPolicyHash
                 setter: setSigPolicyHash
-            type: UBL\XAdES\v132\DigestAlgAndValueType
+            type: App\UBL\XAdES\v132\DigestAlgAndValueType
         sigPolicyQualifiers:
             expose: true
             access_type: public_method
@@ -44,7 +44,7 @@ UBL\XAdES\v132\SignaturePolicyIdType:
             accessor:
                 getter: getSigPolicyQualifiers
                 setter: setSigPolicyQualifiers
-            type: array<UBL\XAdES\v132\AnyType>
+            type: array<App\UBL\XAdES\v132\AnyType>
             xml_list:
                 inline: false
                 entry_name: SigPolicyQualifier

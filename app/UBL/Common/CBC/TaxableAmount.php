@@ -9,4 +9,3 @@ class TaxableAmount extends TaxableAmountType
 {
 }
 
-

@@ -9,4 +9,3 @@ class MiddleName extends MiddleNameType
 {
 }
 
-

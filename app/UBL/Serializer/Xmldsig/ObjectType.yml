@@ -1,4 +1,4 @@
-UBL\Xmldsig\ObjectType:
+App\UBL\Xmldsig\ObjectType:
     properties:
         id:
             expose: true

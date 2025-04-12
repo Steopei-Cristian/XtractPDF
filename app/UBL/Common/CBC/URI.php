@@ -9,4 +9,3 @@ class URI extends URIType
 {
 }
 
-

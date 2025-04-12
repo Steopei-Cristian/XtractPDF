@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class OtherCertStatusValuesType
 {
     /**
-     * @var \UBL\XAdES\v132\AnyType[] $otherValue
+     * @var \App\UBL\XAdES\v132\AnyType[] $otherValue
      */
     private $otherValue = [
         
@@ -21,9 +21,9 @@ class OtherCertStatusValuesType
      * Adds as otherValue
      *
      * @return self
-     * @param \UBL\XAdES\v132\AnyType $otherValue
+     * @param \App\UBL\XAdES\v132\AnyType $otherValue
      */
-    public function addToOtherValue(\UBL\XAdES\v132\AnyType $otherValue)
+    public function addToOtherValue(\App\UBL\XAdES\v132\AnyType $otherValue)
     {
         $this->otherValue[] = $otherValue;
         return $this;
@@ -54,7 +54,7 @@ class OtherCertStatusValuesType
     /**
      * Gets as otherValue
      *
-     * @return \UBL\XAdES\v132\AnyType[]
+     * @return \App\UBL\XAdES\v132\AnyType[]
      */
     public function getOtherValue()
     {
@@ -64,7 +64,7 @@ class OtherCertStatusValuesType
     /**
      * Sets a new otherValue
      *
-     * @param \UBL\XAdES\v132\AnyType[] $otherValue
+     * @param \App\UBL\XAdES\v132\AnyType[] $otherValue
      * @return self
      */
     public function setOtherValue(array $otherValue)
@@ -73,5 +73,4 @@ class OtherCertStatusValuesType
         return $this;
     }
 }
-
 

@@ -21,12 +21,12 @@ class ValidationDataType
     private $uR = null;
 
     /**
-     * @var \UBL\XAdES\v132\CertificateValues $certificateValues
+     * @var \App\UBL\XAdES\v132\CertificateValues $certificateValues
      */
     private $certificateValues = null;
 
     /**
-     * @var \UBL\XAdES\v132\RevocationValues $revocationValues
+     * @var \App\UBL\XAdES\v132\RevocationValues $revocationValues
      */
     private $revocationValues = null;
 
@@ -77,7 +77,7 @@ class ValidationDataType
     /**
      * Gets as certificateValues
      *
-     * @return \UBL\XAdES\v132\CertificateValues
+     * @return \App\UBL\XAdES\v132\CertificateValues
      */
     public function getCertificateValues()
     {
@@ -87,10 +87,10 @@ class ValidationDataType
     /**
      * Sets a new certificateValues
      *
-     * @param \UBL\XAdES\v132\CertificateValues $certificateValues
+     * @param \App\UBL\XAdES\v132\CertificateValues $certificateValues
      * @return self
      */
-    public function setCertificateValues(?\UBL\XAdES\v132\CertificateValues $certificateValues = null)
+    public function setCertificateValues(?\App\UBL\XAdES\v132\CertificateValues $certificateValues = null)
     {
         $this->certificateValues = $certificateValues;
         return $this;
@@ -99,7 +99,7 @@ class ValidationDataType
     /**
      * Gets as revocationValues
      *
-     * @return \UBL\XAdES\v132\RevocationValues
+     * @return \App\UBL\XAdES\v132\RevocationValues
      */
     public function getRevocationValues()
     {
@@ -109,14 +109,13 @@ class ValidationDataType
     /**
      * Sets a new revocationValues
      *
-     * @param \UBL\XAdES\v132\RevocationValues $revocationValues
+     * @param \App\UBL\XAdES\v132\RevocationValues $revocationValues
      * @return self
      */
-    public function setRevocationValues(?\UBL\XAdES\v132\RevocationValues $revocationValues = null)
+    public function setRevocationValues(?\App\UBL\XAdES\v132\RevocationValues $revocationValues = null)
     {
         $this->revocationValues = $revocationValues;
         return $this;
     }
 }
-
 

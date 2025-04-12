@@ -9,4 +9,3 @@ class TendererRoleCode extends TendererRoleCodeType
 {
 }
 
-

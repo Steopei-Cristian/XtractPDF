@@ -9,4 +9,3 @@ class BaseUnitMeasure extends BaseUnitMeasureType
 {
 }
 
-

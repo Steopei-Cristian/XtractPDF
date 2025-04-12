@@ -1,4 +1,4 @@
-UBL\Common\CAC\ReminderLineType:
+App\UBL\Common\CAC\ReminderLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ReminderLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         note:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\ReminderLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         uUID:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\ReminderLineType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         balanceBroughtForwardIndicator:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\ReminderLineType:
             accessor:
                 getter: getDebitLineAmount
                 setter: setDebitLineAmount
-            type: UBL\Common\CBC\DebitLineAmount
+            type: App\UBL\Common\CBC\DebitLineAmount
         creditLineAmount:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\ReminderLineType:
             accessor:
                 getter: getCreditLineAmount
                 setter: setCreditLineAmount
-            type: UBL\Common\CBC\CreditLineAmount
+            type: App\UBL\Common\CBC\CreditLineAmount
         accountingCostCode:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\ReminderLineType:
             accessor:
                 getter: getAccountingCostCode
                 setter: setAccountingCostCode
-            type: UBL\Common\CBC\AccountingCostCode
+            type: App\UBL\Common\CBC\AccountingCostCode
         accountingCost:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\ReminderLineType:
             accessor:
                 getter: getAccountingCost
                 setter: setAccountingCost
-            type: UBL\Common\CBC\AccountingCost
+            type: App\UBL\Common\CBC\AccountingCost
         penaltySurchargePercent:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\ReminderLineType:
             accessor:
                 getter: getPenaltySurchargePercent
                 setter: setPenaltySurchargePercent
-            type: UBL\Common\CBC\PenaltySurchargePercent
+            type: App\UBL\Common\CBC\PenaltySurchargePercent
         amount:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\ReminderLineType:
             accessor:
                 getter: getAmount
                 setter: setAmount
-            type: UBL\Common\CBC\Amount
+            type: App\UBL\Common\CBC\Amount
         paymentPurposeCode:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\ReminderLineType:
             accessor:
                 getter: getPaymentPurposeCode
                 setter: setPaymentPurposeCode
-            type: UBL\Common\CBC\PaymentPurposeCode
+            type: App\UBL\Common\CBC\PaymentPurposeCode
         reminderPeriod:
             expose: true
             access_type: public_method
@@ -127,7 +127,7 @@ UBL\Common\CAC\ReminderLineType:
                 inline: true
                 entry_name: ReminderPeriod
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ReminderPeriod>
+            type: array<App\UBL\Common\CAC\ReminderPeriod>
         billingReference:
             expose: true
             access_type: public_method
@@ -141,7 +141,7 @@ UBL\Common\CAC\ReminderLineType:
                 inline: true
                 entry_name: BillingReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\BillingReference>
+            type: array<App\UBL\Common\CAC\BillingReference>
         exchangeRate:
             expose: true
             access_type: public_method
@@ -151,4 +151,4 @@ UBL\Common\CAC\ReminderLineType:
             accessor:
                 getter: getExchangeRate
                 setter: setExchangeRate
-            type: UBL\Common\CAC\ExchangeRate
+            type: App\UBL\Common\CAC\ExchangeRate

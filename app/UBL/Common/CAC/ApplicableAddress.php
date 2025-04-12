@@ -9,4 +9,3 @@ class ApplicableAddress extends AddressType
 {
 }
 
-

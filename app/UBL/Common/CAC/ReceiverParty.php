@@ -9,4 +9,3 @@ class ReceiverParty extends PartyType
 {
 }
 
-

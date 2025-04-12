@@ -9,4 +9,3 @@ class ShortageActionCode extends ShortageActionCodeType
 {
 }
 
-

@@ -1,3 +1,3 @@
-UBL\Common\CBC\ContractName:
+App\UBL\Common\CBC\ContractName:
     xml_root_name: ContractName
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

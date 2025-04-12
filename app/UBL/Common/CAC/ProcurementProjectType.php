@@ -23,7 +23,7 @@ class ProcurementProjectType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class ProcurementProjectType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\Name[] $name
+     * @var \App\UBL\Common\CBC\Name[] $name
      */
     private $name = [
         
@@ -53,7 +53,7 @@ class ProcurementProjectType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -70,7 +70,7 @@ class ProcurementProjectType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ProcurementTypeCode $procurementTypeCode
+     * @var \App\UBL\Common\CBC\ProcurementTypeCode $procurementTypeCode
      */
     private $procurementTypeCode = null;
 
@@ -85,7 +85,7 @@ class ProcurementProjectType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ProcurementSubTypeCode $procurementSubTypeCode
+     * @var \App\UBL\Common\CBC\ProcurementSubTypeCode $procurementSubTypeCode
      */
     private $procurementSubTypeCode = null;
 
@@ -99,7 +99,7 @@ class ProcurementProjectType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\QualityControlCode $qualityControlCode
+     * @var \App\UBL\Common\CBC\QualityControlCode $qualityControlCode
      */
     private $qualityControlCode = null;
 
@@ -114,7 +114,7 @@ class ProcurementProjectType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\RequiredFeeAmount $requiredFeeAmount
+     * @var \App\UBL\Common\CBC\RequiredFeeAmount $requiredFeeAmount
      */
     private $requiredFeeAmount = null;
 
@@ -129,7 +129,7 @@ class ProcurementProjectType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\FeeDescription[] $feeDescription
+     * @var \App\UBL\Common\CBC\FeeDescription[] $feeDescription
      */
     private $feeDescription = [
         
@@ -161,7 +161,7 @@ class ProcurementProjectType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\EstimatedOverallContractQuantity $estimatedOverallContractQuantity
+     * @var \App\UBL\Common\CBC\EstimatedOverallContractQuantity $estimatedOverallContractQuantity
      */
     private $estimatedOverallContractQuantity = null;
 
@@ -175,7 +175,7 @@ class ProcurementProjectType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -191,7 +191,7 @@ class ProcurementProjectType
      *  Requested Tender Total
      *  Requested Tender Total
      *
-     * @var \UBL\Common\CAC\RequestedTenderTotal $requestedTenderTotal
+     * @var \App\UBL\Common\CAC\RequestedTenderTotal $requestedTenderTotal
      */
     private $requestedTenderTotal = null;
 
@@ -206,7 +206,7 @@ class ProcurementProjectType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @var \UBL\Common\CAC\MainCommodityClassification $mainCommodityClassification
+     * @var \App\UBL\Common\CAC\MainCommodityClassification $mainCommodityClassification
      */
     private $mainCommodityClassification = null;
 
@@ -221,7 +221,7 @@ class ProcurementProjectType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @var \UBL\Common\CAC\AdditionalCommodityClassification[] $additionalCommodityClassification
+     * @var \App\UBL\Common\CAC\AdditionalCommodityClassification[] $additionalCommodityClassification
      */
     private $additionalCommodityClassification = [
         
@@ -238,7 +238,7 @@ class ProcurementProjectType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\RealizedLocation[] $realizedLocation
+     * @var \App\UBL\Common\CAC\RealizedLocation[] $realizedLocation
      */
     private $realizedLocation = [
         
@@ -255,7 +255,7 @@ class ProcurementProjectType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\PlannedPeriod $plannedPeriod
+     * @var \App\UBL\Common\CAC\PlannedPeriod $plannedPeriod
      */
     private $plannedPeriod = null;
 
@@ -269,7 +269,7 @@ class ProcurementProjectType
      *  Contract Extension
      *  Contract Extension
      *
-     * @var \UBL\Common\CAC\ContractExtension $contractExtension
+     * @var \App\UBL\Common\CAC\ContractExtension $contractExtension
      */
     private $contractExtension = null;
 
@@ -283,7 +283,7 @@ class ProcurementProjectType
      *  Request For Tender Line
      *  Request For Tender Line
      *
-     * @var \UBL\Common\CAC\RequestForTenderLine[] $requestForTenderLine
+     * @var \App\UBL\Common\CAC\RequestForTenderLine[] $requestForTenderLine
      */
     private $requestForTenderLine = [
         
@@ -301,7 +301,7 @@ class ProcurementProjectType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -320,10 +320,10 @@ class ProcurementProjectType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -342,9 +342,9 @@ class ProcurementProjectType
      *  Name. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      */
-    public function addToName(\UBL\Common\CBC\Name $name)
+    public function addToName(\App\UBL\Common\CBC\Name $name)
     {
         $this->name[] = $name;
         return $this;
@@ -402,7 +402,7 @@ class ProcurementProjectType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\Name[]
+     * @return \App\UBL\Common\CBC\Name[]
      */
     public function getName()
     {
@@ -421,7 +421,7 @@ class ProcurementProjectType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\Name[] $name
+     * @param \App\UBL\Common\CBC\Name[] $name
      * @return self
      */
     public function setName(array $name)
@@ -443,9 +443,9 @@ class ProcurementProjectType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -503,7 +503,7 @@ class ProcurementProjectType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -522,7 +522,7 @@ class ProcurementProjectType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -544,7 +544,7 @@ class ProcurementProjectType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ProcurementTypeCode
+     * @return \App\UBL\Common\CBC\ProcurementTypeCode
      */
     public function getProcurementTypeCode()
     {
@@ -564,10 +564,10 @@ class ProcurementProjectType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ProcurementTypeCode $procurementTypeCode
+     * @param \App\UBL\Common\CBC\ProcurementTypeCode $procurementTypeCode
      * @return self
      */
-    public function setProcurementTypeCode(?\UBL\Common\CBC\ProcurementTypeCode $procurementTypeCode = null)
+    public function setProcurementTypeCode(?\App\UBL\Common\CBC\ProcurementTypeCode $procurementTypeCode = null)
     {
         $this->procurementTypeCode = $procurementTypeCode;
         return $this;
@@ -586,7 +586,7 @@ class ProcurementProjectType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ProcurementSubTypeCode
+     * @return \App\UBL\Common\CBC\ProcurementSubTypeCode
      */
     public function getProcurementSubTypeCode()
     {
@@ -606,10 +606,10 @@ class ProcurementProjectType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ProcurementSubTypeCode $procurementSubTypeCode
+     * @param \App\UBL\Common\CBC\ProcurementSubTypeCode $procurementSubTypeCode
      * @return self
      */
-    public function setProcurementSubTypeCode(?\UBL\Common\CBC\ProcurementSubTypeCode $procurementSubTypeCode = null)
+    public function setProcurementSubTypeCode(?\App\UBL\Common\CBC\ProcurementSubTypeCode $procurementSubTypeCode = null)
     {
         $this->procurementSubTypeCode = $procurementSubTypeCode;
         return $this;
@@ -627,7 +627,7 @@ class ProcurementProjectType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\QualityControlCode
+     * @return \App\UBL\Common\CBC\QualityControlCode
      */
     public function getQualityControlCode()
     {
@@ -646,10 +646,10 @@ class ProcurementProjectType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\QualityControlCode $qualityControlCode
+     * @param \App\UBL\Common\CBC\QualityControlCode $qualityControlCode
      * @return self
      */
-    public function setQualityControlCode(?\UBL\Common\CBC\QualityControlCode $qualityControlCode = null)
+    public function setQualityControlCode(?\App\UBL\Common\CBC\QualityControlCode $qualityControlCode = null)
     {
         $this->qualityControlCode = $qualityControlCode;
         return $this;
@@ -668,7 +668,7 @@ class ProcurementProjectType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\RequiredFeeAmount
+     * @return \App\UBL\Common\CBC\RequiredFeeAmount
      */
     public function getRequiredFeeAmount()
     {
@@ -688,10 +688,10 @@ class ProcurementProjectType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\RequiredFeeAmount $requiredFeeAmount
+     * @param \App\UBL\Common\CBC\RequiredFeeAmount $requiredFeeAmount
      * @return self
      */
-    public function setRequiredFeeAmount(?\UBL\Common\CBC\RequiredFeeAmount $requiredFeeAmount = null)
+    public function setRequiredFeeAmount(?\App\UBL\Common\CBC\RequiredFeeAmount $requiredFeeAmount = null)
     {
         $this->requiredFeeAmount = $requiredFeeAmount;
         return $this;
@@ -711,9 +711,9 @@ class ProcurementProjectType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\FeeDescription $feeDescription
+     * @param \App\UBL\Common\CBC\FeeDescription $feeDescription
      */
-    public function addToFeeDescription(\UBL\Common\CBC\FeeDescription $feeDescription)
+    public function addToFeeDescription(\App\UBL\Common\CBC\FeeDescription $feeDescription)
     {
         $this->feeDescription[] = $feeDescription;
         return $this;
@@ -774,7 +774,7 @@ class ProcurementProjectType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\FeeDescription[]
+     * @return \App\UBL\Common\CBC\FeeDescription[]
      */
     public function getFeeDescription()
     {
@@ -794,7 +794,7 @@ class ProcurementProjectType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\FeeDescription[] $feeDescription
+     * @param \App\UBL\Common\CBC\FeeDescription[] $feeDescription
      * @return self
      */
     public function setFeeDescription(?array $feeDescription = null)
@@ -858,7 +858,7 @@ class ProcurementProjectType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\EstimatedOverallContractQuantity
+     * @return \App\UBL\Common\CBC\EstimatedOverallContractQuantity
      */
     public function getEstimatedOverallContractQuantity()
     {
@@ -878,10 +878,10 @@ class ProcurementProjectType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\EstimatedOverallContractQuantity $estimatedOverallContractQuantity
+     * @param \App\UBL\Common\CBC\EstimatedOverallContractQuantity $estimatedOverallContractQuantity
      * @return self
      */
-    public function setEstimatedOverallContractQuantity(?\UBL\Common\CBC\EstimatedOverallContractQuantity $estimatedOverallContractQuantity = null)
+    public function setEstimatedOverallContractQuantity(?\App\UBL\Common\CBC\EstimatedOverallContractQuantity $estimatedOverallContractQuantity = null)
     {
         $this->estimatedOverallContractQuantity = $estimatedOverallContractQuantity;
         return $this;
@@ -900,9 +900,9 @@ class ProcurementProjectType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -960,7 +960,7 @@ class ProcurementProjectType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -979,7 +979,7 @@ class ProcurementProjectType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -1000,7 +1000,7 @@ class ProcurementProjectType
      *  Requested Tender Total
      *  Requested Tender Total
      *
-     * @return \UBL\Common\CAC\RequestedTenderTotal
+     * @return \App\UBL\Common\CAC\RequestedTenderTotal
      */
     public function getRequestedTenderTotal()
     {
@@ -1019,10 +1019,10 @@ class ProcurementProjectType
      *  Requested Tender Total
      *  Requested Tender Total
      *
-     * @param \UBL\Common\CAC\RequestedTenderTotal $requestedTenderTotal
+     * @param \App\UBL\Common\CAC\RequestedTenderTotal $requestedTenderTotal
      * @return self
      */
-    public function setRequestedTenderTotal(?\UBL\Common\CAC\RequestedTenderTotal $requestedTenderTotal = null)
+    public function setRequestedTenderTotal(?\App\UBL\Common\CAC\RequestedTenderTotal $requestedTenderTotal = null)
     {
         $this->requestedTenderTotal = $requestedTenderTotal;
         return $this;
@@ -1041,7 +1041,7 @@ class ProcurementProjectType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @return \UBL\Common\CAC\MainCommodityClassification
+     * @return \App\UBL\Common\CAC\MainCommodityClassification
      */
     public function getMainCommodityClassification()
     {
@@ -1061,10 +1061,10 @@ class ProcurementProjectType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @param \UBL\Common\CAC\MainCommodityClassification $mainCommodityClassification
+     * @param \App\UBL\Common\CAC\MainCommodityClassification $mainCommodityClassification
      * @return self
      */
-    public function setMainCommodityClassification(?\UBL\Common\CAC\MainCommodityClassification $mainCommodityClassification = null)
+    public function setMainCommodityClassification(?\App\UBL\Common\CAC\MainCommodityClassification $mainCommodityClassification = null)
     {
         $this->mainCommodityClassification = $mainCommodityClassification;
         return $this;
@@ -1084,9 +1084,9 @@ class ProcurementProjectType
      *  Commodity Classification
      *
      * @return self
-     * @param \UBL\Common\CAC\AdditionalCommodityClassification $additionalCommodityClassification
+     * @param \App\UBL\Common\CAC\AdditionalCommodityClassification $additionalCommodityClassification
      */
-    public function addToAdditionalCommodityClassification(\UBL\Common\CAC\AdditionalCommodityClassification $additionalCommodityClassification)
+    public function addToAdditionalCommodityClassification(\App\UBL\Common\CAC\AdditionalCommodityClassification $additionalCommodityClassification)
     {
         $this->additionalCommodityClassification[] = $additionalCommodityClassification;
         return $this;
@@ -1147,7 +1147,7 @@ class ProcurementProjectType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @return \UBL\Common\CAC\AdditionalCommodityClassification[]
+     * @return \App\UBL\Common\CAC\AdditionalCommodityClassification[]
      */
     public function getAdditionalCommodityClassification()
     {
@@ -1167,7 +1167,7 @@ class ProcurementProjectType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @param \UBL\Common\CAC\AdditionalCommodityClassification[] $additionalCommodityClassification
+     * @param \App\UBL\Common\CAC\AdditionalCommodityClassification[] $additionalCommodityClassification
      * @return self
      */
     public function setAdditionalCommodityClassification(?array $additionalCommodityClassification = null)
@@ -1190,9 +1190,9 @@ class ProcurementProjectType
      *  Location
      *
      * @return self
-     * @param \UBL\Common\CAC\RealizedLocation $realizedLocation
+     * @param \App\UBL\Common\CAC\RealizedLocation $realizedLocation
      */
-    public function addToRealizedLocation(\UBL\Common\CAC\RealizedLocation $realizedLocation)
+    public function addToRealizedLocation(\App\UBL\Common\CAC\RealizedLocation $realizedLocation)
     {
         $this->realizedLocation[] = $realizedLocation;
         return $this;
@@ -1253,7 +1253,7 @@ class ProcurementProjectType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\RealizedLocation[]
+     * @return \App\UBL\Common\CAC\RealizedLocation[]
      */
     public function getRealizedLocation()
     {
@@ -1273,7 +1273,7 @@ class ProcurementProjectType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\RealizedLocation[] $realizedLocation
+     * @param \App\UBL\Common\CAC\RealizedLocation[] $realizedLocation
      * @return self
      */
     public function setRealizedLocation(?array $realizedLocation = null)
@@ -1295,7 +1295,7 @@ class ProcurementProjectType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\PlannedPeriod
+     * @return \App\UBL\Common\CAC\PlannedPeriod
      */
     public function getPlannedPeriod()
     {
@@ -1315,10 +1315,10 @@ class ProcurementProjectType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\PlannedPeriod $plannedPeriod
+     * @param \App\UBL\Common\CAC\PlannedPeriod $plannedPeriod
      * @return self
      */
-    public function setPlannedPeriod(?\UBL\Common\CAC\PlannedPeriod $plannedPeriod = null)
+    public function setPlannedPeriod(?\App\UBL\Common\CAC\PlannedPeriod $plannedPeriod = null)
     {
         $this->plannedPeriod = $plannedPeriod;
         return $this;
@@ -1336,7 +1336,7 @@ class ProcurementProjectType
      *  Contract Extension
      *  Contract Extension
      *
-     * @return \UBL\Common\CAC\ContractExtension
+     * @return \App\UBL\Common\CAC\ContractExtension
      */
     public function getContractExtension()
     {
@@ -1355,10 +1355,10 @@ class ProcurementProjectType
      *  Contract Extension
      *  Contract Extension
      *
-     * @param \UBL\Common\CAC\ContractExtension $contractExtension
+     * @param \App\UBL\Common\CAC\ContractExtension $contractExtension
      * @return self
      */
-    public function setContractExtension(?\UBL\Common\CAC\ContractExtension $contractExtension = null)
+    public function setContractExtension(?\App\UBL\Common\CAC\ContractExtension $contractExtension = null)
     {
         $this->contractExtension = $contractExtension;
         return $this;
@@ -1377,9 +1377,9 @@ class ProcurementProjectType
      *  Request For Tender Line
      *
      * @return self
-     * @param \UBL\Common\CAC\RequestForTenderLine $requestForTenderLine
+     * @param \App\UBL\Common\CAC\RequestForTenderLine $requestForTenderLine
      */
-    public function addToRequestForTenderLine(\UBL\Common\CAC\RequestForTenderLine $requestForTenderLine)
+    public function addToRequestForTenderLine(\App\UBL\Common\CAC\RequestForTenderLine $requestForTenderLine)
     {
         $this->requestForTenderLine[] = $requestForTenderLine;
         return $this;
@@ -1437,7 +1437,7 @@ class ProcurementProjectType
      *  Request For Tender Line
      *  Request For Tender Line
      *
-     * @return \UBL\Common\CAC\RequestForTenderLine[]
+     * @return \App\UBL\Common\CAC\RequestForTenderLine[]
      */
     public function getRequestForTenderLine()
     {
@@ -1456,7 +1456,7 @@ class ProcurementProjectType
      *  Request For Tender Line
      *  Request For Tender Line
      *
-     * @param \UBL\Common\CAC\RequestForTenderLine[] $requestForTenderLine
+     * @param \App\UBL\Common\CAC\RequestForTenderLine[] $requestForTenderLine
      * @return self
      */
     public function setRequestForTenderLine(?array $requestForTenderLine = null)
@@ -1465,5 +1465,4 @@ class ProcurementProjectType
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class AddressFormatCode extends AddressFormatCodeType
 {
 }
 
-

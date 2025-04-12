@@ -23,7 +23,7 @@ class EndorserPartyType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\RoleCode $roleCode
+     * @var \App\UBL\Common\CBC\RoleCode $roleCode
      */
     private $roleCode = null;
 
@@ -37,7 +37,7 @@ class EndorserPartyType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\SequenceNumeric $sequenceNumeric
+     * @var \App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric
      */
     private $sequenceNumeric = null;
 
@@ -51,7 +51,7 @@ class EndorserPartyType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\Party $party
+     * @var \App\UBL\Common\CAC\Party $party
      */
     private $party = null;
 
@@ -66,7 +66,7 @@ class EndorserPartyType
      *  Contact
      *  Contact
      *
-     * @var \UBL\Common\CAC\SignatoryContact $signatoryContact
+     * @var \App\UBL\Common\CAC\SignatoryContact $signatoryContact
      */
     private $signatoryContact = null;
 
@@ -82,7 +82,7 @@ class EndorserPartyType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\RoleCode
+     * @return \App\UBL\Common\CBC\RoleCode
      */
     public function getRoleCode()
     {
@@ -101,10 +101,10 @@ class EndorserPartyType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\RoleCode $roleCode
+     * @param \App\UBL\Common\CBC\RoleCode $roleCode
      * @return self
      */
-    public function setRoleCode(\UBL\Common\CBC\RoleCode $roleCode)
+    public function setRoleCode(\App\UBL\Common\CBC\RoleCode $roleCode)
     {
         $this->roleCode = $roleCode;
         return $this;
@@ -122,7 +122,7 @@ class EndorserPartyType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\SequenceNumeric
+     * @return \App\UBL\Common\CBC\SequenceNumeric
      */
     public function getSequenceNumeric()
     {
@@ -141,10 +141,10 @@ class EndorserPartyType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\SequenceNumeric $sequenceNumeric
+     * @param \App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric
      * @return self
      */
-    public function setSequenceNumeric(\UBL\Common\CBC\SequenceNumeric $sequenceNumeric)
+    public function setSequenceNumeric(\App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric)
     {
         $this->sequenceNumeric = $sequenceNumeric;
         return $this;
@@ -162,7 +162,7 @@ class EndorserPartyType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\Party
+     * @return \App\UBL\Common\CAC\Party
      */
     public function getParty()
     {
@@ -181,10 +181,10 @@ class EndorserPartyType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\Party $party
+     * @param \App\UBL\Common\CAC\Party $party
      * @return self
      */
-    public function setParty(\UBL\Common\CAC\Party $party)
+    public function setParty(\App\UBL\Common\CAC\Party $party)
     {
         $this->party = $party;
         return $this;
@@ -203,7 +203,7 @@ class EndorserPartyType
      *  Contact
      *  Contact
      *
-     * @return \UBL\Common\CAC\SignatoryContact
+     * @return \App\UBL\Common\CAC\SignatoryContact
      */
     public function getSignatoryContact()
     {
@@ -223,14 +223,13 @@ class EndorserPartyType
      *  Contact
      *  Contact
      *
-     * @param \UBL\Common\CAC\SignatoryContact $signatoryContact
+     * @param \App\UBL\Common\CAC\SignatoryContact $signatoryContact
      * @return self
      */
-    public function setSignatoryContact(\UBL\Common\CAC\SignatoryContact $signatoryContact)
+    public function setSignatoryContact(\App\UBL\Common\CAC\SignatoryContact $signatoryContact)
     {
         $this->signatoryContact = $signatoryContact;
         return $this;
     }
 }
-
 

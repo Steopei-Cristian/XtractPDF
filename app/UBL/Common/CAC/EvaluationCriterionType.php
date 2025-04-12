@@ -23,7 +23,7 @@ class EvaluationCriterionType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\EvaluationCriterionTypeCode $evaluationCriterionTypeCode
+     * @var \App\UBL\Common\CBC\EvaluationCriterionTypeCode $evaluationCriterionTypeCode
      */
     private $evaluationCriterionTypeCode = null;
 
@@ -37,7 +37,7 @@ class EvaluationCriterionType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -54,7 +54,7 @@ class EvaluationCriterionType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\ThresholdAmount $thresholdAmount
+     * @var \App\UBL\Common\CBC\ThresholdAmount $thresholdAmount
      */
     private $thresholdAmount = null;
 
@@ -69,7 +69,7 @@ class EvaluationCriterionType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ThresholdQuantity $thresholdQuantity
+     * @var \App\UBL\Common\CBC\ThresholdQuantity $thresholdQuantity
      */
     private $thresholdQuantity = null;
 
@@ -83,7 +83,7 @@ class EvaluationCriterionType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ExpressionCode $expressionCode
+     * @var \App\UBL\Common\CBC\ExpressionCode $expressionCode
      */
     private $expressionCode = null;
 
@@ -97,7 +97,7 @@ class EvaluationCriterionType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Expression[] $expression
+     * @var \App\UBL\Common\CBC\Expression[] $expression
      */
     private $expression = [
         
@@ -114,7 +114,7 @@ class EvaluationCriterionType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\DurationPeriod $durationPeriod
+     * @var \App\UBL\Common\CAC\DurationPeriod $durationPeriod
      */
     private $durationPeriod = null;
 
@@ -129,7 +129,7 @@ class EvaluationCriterionType
      *  Evidence
      *  Evidence
      *
-     * @var \UBL\Common\CAC\SuggestedEvidence[] $suggestedEvidence
+     * @var \App\UBL\Common\CAC\SuggestedEvidence[] $suggestedEvidence
      */
     private $suggestedEvidence = [
         
@@ -147,7 +147,7 @@ class EvaluationCriterionType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\EvaluationCriterionTypeCode
+     * @return \App\UBL\Common\CBC\EvaluationCriterionTypeCode
      */
     public function getEvaluationCriterionTypeCode()
     {
@@ -166,10 +166,10 @@ class EvaluationCriterionType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\EvaluationCriterionTypeCode $evaluationCriterionTypeCode
+     * @param \App\UBL\Common\CBC\EvaluationCriterionTypeCode $evaluationCriterionTypeCode
      * @return self
      */
-    public function setEvaluationCriterionTypeCode(?\UBL\Common\CBC\EvaluationCriterionTypeCode $evaluationCriterionTypeCode = null)
+    public function setEvaluationCriterionTypeCode(?\App\UBL\Common\CBC\EvaluationCriterionTypeCode $evaluationCriterionTypeCode = null)
     {
         $this->evaluationCriterionTypeCode = $evaluationCriterionTypeCode;
         return $this;
@@ -188,9 +188,9 @@ class EvaluationCriterionType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -248,7 +248,7 @@ class EvaluationCriterionType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -267,7 +267,7 @@ class EvaluationCriterionType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -289,7 +289,7 @@ class EvaluationCriterionType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\ThresholdAmount
+     * @return \App\UBL\Common\CBC\ThresholdAmount
      */
     public function getThresholdAmount()
     {
@@ -309,10 +309,10 @@ class EvaluationCriterionType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\ThresholdAmount $thresholdAmount
+     * @param \App\UBL\Common\CBC\ThresholdAmount $thresholdAmount
      * @return self
      */
-    public function setThresholdAmount(?\UBL\Common\CBC\ThresholdAmount $thresholdAmount = null)
+    public function setThresholdAmount(?\App\UBL\Common\CBC\ThresholdAmount $thresholdAmount = null)
     {
         $this->thresholdAmount = $thresholdAmount;
         return $this;
@@ -331,7 +331,7 @@ class EvaluationCriterionType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ThresholdQuantity
+     * @return \App\UBL\Common\CBC\ThresholdQuantity
      */
     public function getThresholdQuantity()
     {
@@ -351,10 +351,10 @@ class EvaluationCriterionType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ThresholdQuantity $thresholdQuantity
+     * @param \App\UBL\Common\CBC\ThresholdQuantity $thresholdQuantity
      * @return self
      */
-    public function setThresholdQuantity(?\UBL\Common\CBC\ThresholdQuantity $thresholdQuantity = null)
+    public function setThresholdQuantity(?\App\UBL\Common\CBC\ThresholdQuantity $thresholdQuantity = null)
     {
         $this->thresholdQuantity = $thresholdQuantity;
         return $this;
@@ -372,7 +372,7 @@ class EvaluationCriterionType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ExpressionCode
+     * @return \App\UBL\Common\CBC\ExpressionCode
      */
     public function getExpressionCode()
     {
@@ -391,10 +391,10 @@ class EvaluationCriterionType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ExpressionCode $expressionCode
+     * @param \App\UBL\Common\CBC\ExpressionCode $expressionCode
      * @return self
      */
-    public function setExpressionCode(?\UBL\Common\CBC\ExpressionCode $expressionCode = null)
+    public function setExpressionCode(?\App\UBL\Common\CBC\ExpressionCode $expressionCode = null)
     {
         $this->expressionCode = $expressionCode;
         return $this;
@@ -413,9 +413,9 @@ class EvaluationCriterionType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Expression $expression
+     * @param \App\UBL\Common\CBC\Expression $expression
      */
-    public function addToExpression(\UBL\Common\CBC\Expression $expression)
+    public function addToExpression(\App\UBL\Common\CBC\Expression $expression)
     {
         $this->expression[] = $expression;
         return $this;
@@ -473,7 +473,7 @@ class EvaluationCriterionType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Expression[]
+     * @return \App\UBL\Common\CBC\Expression[]
      */
     public function getExpression()
     {
@@ -492,7 +492,7 @@ class EvaluationCriterionType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Expression[] $expression
+     * @param \App\UBL\Common\CBC\Expression[] $expression
      * @return self
      */
     public function setExpression(?array $expression = null)
@@ -514,7 +514,7 @@ class EvaluationCriterionType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\DurationPeriod
+     * @return \App\UBL\Common\CAC\DurationPeriod
      */
     public function getDurationPeriod()
     {
@@ -534,10 +534,10 @@ class EvaluationCriterionType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\DurationPeriod $durationPeriod
+     * @param \App\UBL\Common\CAC\DurationPeriod $durationPeriod
      * @return self
      */
-    public function setDurationPeriod(?\UBL\Common\CAC\DurationPeriod $durationPeriod = null)
+    public function setDurationPeriod(?\App\UBL\Common\CAC\DurationPeriod $durationPeriod = null)
     {
         $this->durationPeriod = $durationPeriod;
         return $this;
@@ -557,9 +557,9 @@ class EvaluationCriterionType
      *  Evidence
      *
      * @return self
-     * @param \UBL\Common\CAC\SuggestedEvidence $suggestedEvidence
+     * @param \App\UBL\Common\CAC\SuggestedEvidence $suggestedEvidence
      */
-    public function addToSuggestedEvidence(\UBL\Common\CAC\SuggestedEvidence $suggestedEvidence)
+    public function addToSuggestedEvidence(\App\UBL\Common\CAC\SuggestedEvidence $suggestedEvidence)
     {
         $this->suggestedEvidence[] = $suggestedEvidence;
         return $this;
@@ -620,7 +620,7 @@ class EvaluationCriterionType
      *  Evidence
      *  Evidence
      *
-     * @return \UBL\Common\CAC\SuggestedEvidence[]
+     * @return \App\UBL\Common\CAC\SuggestedEvidence[]
      */
     public function getSuggestedEvidence()
     {
@@ -640,7 +640,7 @@ class EvaluationCriterionType
      *  Evidence
      *  Evidence
      *
-     * @param \UBL\Common\CAC\SuggestedEvidence[] $suggestedEvidence
+     * @param \App\UBL\Common\CAC\SuggestedEvidence[] $suggestedEvidence
      * @return self
      */
     public function setSuggestedEvidence(?array $suggestedEvidence = null)
@@ -649,5 +649,4 @@ class EvaluationCriterionType
         return $this;
     }
 }
-
 

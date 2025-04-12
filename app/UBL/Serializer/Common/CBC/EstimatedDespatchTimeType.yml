@@ -1,4 +1,4 @@
-UBL\Common\CBC\EstimatedDespatchTimeType:
+App\UBL\Common\CBC\EstimatedDespatchTimeType:
     properties:
         __value:
             expose: true

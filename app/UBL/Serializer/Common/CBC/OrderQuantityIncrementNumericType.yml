@@ -1,2 +1,2 @@
-UBL\Common\CBC\OrderQuantityIncrementNumericType:
+App\UBL\Common\CBC\OrderQuantityIncrementNumericType:
     properties: {  }

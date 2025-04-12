@@ -1,4 +1,4 @@
-UBL\Common\CBC\RequestedPublicationDateType:
+App\UBL\Common\CBC\RequestedPublicationDateType:
     properties:
         __value:
             expose: true

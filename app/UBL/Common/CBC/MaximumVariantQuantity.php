@@ -9,4 +9,3 @@ class MaximumVariantQuantity extends MaximumVariantQuantityType
 {
 }
 
-

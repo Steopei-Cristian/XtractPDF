@@ -9,4 +9,3 @@ class MinimumInventoryQuantity extends MinimumInventoryQuantityType
 {
 }
 
-

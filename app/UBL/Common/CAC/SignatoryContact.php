@@ -9,4 +9,3 @@ class SignatoryContact extends ContactType
 {
 }
 
-

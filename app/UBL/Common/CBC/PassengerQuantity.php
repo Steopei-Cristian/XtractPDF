@@ -9,4 +9,3 @@ class PassengerQuantity extends PassengerQuantityType
 {
 }
 
-

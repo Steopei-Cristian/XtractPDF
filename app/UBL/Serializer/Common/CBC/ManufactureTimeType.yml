@@ -1,4 +1,4 @@
-UBL\Common\CBC\ManufactureTimeType:
+App\UBL\Common\CBC\ManufactureTimeType:
     properties:
         __value:
             expose: true

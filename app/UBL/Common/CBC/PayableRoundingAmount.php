@@ -9,4 +9,3 @@ class PayableRoundingAmount extends PayableRoundingAmountType
 {
 }
 
-

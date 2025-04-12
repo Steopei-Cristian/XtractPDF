@@ -9,4 +9,3 @@ class OriginAddress extends AddressType
 {
 }
 
-

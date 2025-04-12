@@ -9,4 +9,3 @@ class SubscriberParty extends PartyType
 {
 }
 
-

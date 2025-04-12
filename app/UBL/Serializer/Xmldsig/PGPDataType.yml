@@ -1,4 +1,4 @@
-UBL\Xmldsig\PGPDataType:
+App\UBL\Xmldsig\PGPDataType:
     properties:
         pGPKeyID:
             expose: true

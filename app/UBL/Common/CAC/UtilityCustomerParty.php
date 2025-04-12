@@ -9,4 +9,3 @@ class UtilityCustomerParty extends PartyType
 {
 }
 
-

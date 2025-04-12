@@ -9,4 +9,3 @@ class Response extends ResponseType
 {
 }
 
-

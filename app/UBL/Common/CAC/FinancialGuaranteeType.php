@@ -23,7 +23,7 @@ class FinancialGuaranteeType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\GuaranteeTypeCode $guaranteeTypeCode
+     * @var \App\UBL\Common\CBC\GuaranteeTypeCode $guaranteeTypeCode
      */
     private $guaranteeTypeCode = null;
 
@@ -37,7 +37,7 @@ class FinancialGuaranteeType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -53,7 +53,7 @@ class FinancialGuaranteeType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\LiabilityAmount $liabilityAmount
+     * @var \App\UBL\Common\CBC\LiabilityAmount $liabilityAmount
      */
     private $liabilityAmount = null;
 
@@ -67,7 +67,7 @@ class FinancialGuaranteeType
      *  Rate
      *  Rate. Type
      *
-     * @var \UBL\Common\CBC\AmountRate $amountRate
+     * @var \App\UBL\Common\CBC\AmountRate $amountRate
      */
     private $amountRate = null;
 
@@ -82,7 +82,7 @@ class FinancialGuaranteeType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ConstitutionPeriod $constitutionPeriod
+     * @var \App\UBL\Common\CAC\ConstitutionPeriod $constitutionPeriod
      */
     private $constitutionPeriod = null;
 
@@ -98,7 +98,7 @@ class FinancialGuaranteeType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\GuaranteeTypeCode
+     * @return \App\UBL\Common\CBC\GuaranteeTypeCode
      */
     public function getGuaranteeTypeCode()
     {
@@ -117,10 +117,10 @@ class FinancialGuaranteeType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\GuaranteeTypeCode $guaranteeTypeCode
+     * @param \App\UBL\Common\CBC\GuaranteeTypeCode $guaranteeTypeCode
      * @return self
      */
-    public function setGuaranteeTypeCode(\UBL\Common\CBC\GuaranteeTypeCode $guaranteeTypeCode)
+    public function setGuaranteeTypeCode(\App\UBL\Common\CBC\GuaranteeTypeCode $guaranteeTypeCode)
     {
         $this->guaranteeTypeCode = $guaranteeTypeCode;
         return $this;
@@ -139,9 +139,9 @@ class FinancialGuaranteeType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -199,7 +199,7 @@ class FinancialGuaranteeType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -218,7 +218,7 @@ class FinancialGuaranteeType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -239,7 +239,7 @@ class FinancialGuaranteeType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\LiabilityAmount
+     * @return \App\UBL\Common\CBC\LiabilityAmount
      */
     public function getLiabilityAmount()
     {
@@ -258,10 +258,10 @@ class FinancialGuaranteeType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\LiabilityAmount $liabilityAmount
+     * @param \App\UBL\Common\CBC\LiabilityAmount $liabilityAmount
      * @return self
      */
-    public function setLiabilityAmount(?\UBL\Common\CBC\LiabilityAmount $liabilityAmount = null)
+    public function setLiabilityAmount(?\App\UBL\Common\CBC\LiabilityAmount $liabilityAmount = null)
     {
         $this->liabilityAmount = $liabilityAmount;
         return $this;
@@ -279,7 +279,7 @@ class FinancialGuaranteeType
      *  Rate
      *  Rate. Type
      *
-     * @return \UBL\Common\CBC\AmountRate
+     * @return \App\UBL\Common\CBC\AmountRate
      */
     public function getAmountRate()
     {
@@ -298,10 +298,10 @@ class FinancialGuaranteeType
      *  Rate
      *  Rate. Type
      *
-     * @param \UBL\Common\CBC\AmountRate $amountRate
+     * @param \App\UBL\Common\CBC\AmountRate $amountRate
      * @return self
      */
-    public function setAmountRate(?\UBL\Common\CBC\AmountRate $amountRate = null)
+    public function setAmountRate(?\App\UBL\Common\CBC\AmountRate $amountRate = null)
     {
         $this->amountRate = $amountRate;
         return $this;
@@ -320,7 +320,7 @@ class FinancialGuaranteeType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ConstitutionPeriod
+     * @return \App\UBL\Common\CAC\ConstitutionPeriod
      */
     public function getConstitutionPeriod()
     {
@@ -340,14 +340,13 @@ class FinancialGuaranteeType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ConstitutionPeriod $constitutionPeriod
+     * @param \App\UBL\Common\CAC\ConstitutionPeriod $constitutionPeriod
      * @return self
      */
-    public function setConstitutionPeriod(?\UBL\Common\CAC\ConstitutionPeriod $constitutionPeriod = null)
+    public function setConstitutionPeriod(?\App\UBL\Common\CAC\ConstitutionPeriod $constitutionPeriod = null)
     {
         $this->constitutionPeriod = $constitutionPeriod;
         return $this;
     }
 }
-
 

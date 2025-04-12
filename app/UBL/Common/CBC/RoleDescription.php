@@ -9,4 +9,3 @@ class RoleDescription extends RoleDescriptionType
 {
 }
 
-

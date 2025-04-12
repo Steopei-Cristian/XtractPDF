@@ -9,4 +9,3 @@ class EndorserParty extends EndorserPartyType
 {
 }
 
-

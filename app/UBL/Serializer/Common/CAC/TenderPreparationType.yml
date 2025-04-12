@@ -1,4 +1,4 @@
-UBL\Common\CAC\TenderPreparationType:
+App\UBL\Common\CAC\TenderPreparationType:
     properties:
         tenderEnvelopeID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TenderPreparationType:
             accessor:
                 getter: getTenderEnvelopeID
                 setter: setTenderEnvelopeID
-            type: UBL\Common\CBC\TenderEnvelopeID
+            type: App\UBL\Common\CBC\TenderEnvelopeID
         tenderEnvelopeTypeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TenderPreparationType:
             accessor:
                 getter: getTenderEnvelopeTypeCode
                 setter: setTenderEnvelopeTypeCode
-            type: UBL\Common\CBC\TenderEnvelopeTypeCode
+            type: App\UBL\Common\CBC\TenderEnvelopeTypeCode
         description:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\TenderPreparationType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         openTenderID:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\TenderPreparationType:
             accessor:
                 getter: getOpenTenderID
                 setter: setOpenTenderID
-            type: UBL\Common\CBC\OpenTenderID
+            type: App\UBL\Common\CBC\OpenTenderID
         procurementProjectLot:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\TenderPreparationType:
                 inline: true
                 entry_name: ProcurementProjectLot
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ProcurementProjectLot>
+            type: array<App\UBL\Common\CAC\ProcurementProjectLot>
         documentTenderRequirement:
             expose: true
             access_type: public_method
@@ -71,4 +71,4 @@ UBL\Common\CAC\TenderPreparationType:
                 inline: true
                 entry_name: DocumentTenderRequirement
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentTenderRequirement>
+            type: array<App\UBL\Common\CAC\DocumentTenderRequirement>

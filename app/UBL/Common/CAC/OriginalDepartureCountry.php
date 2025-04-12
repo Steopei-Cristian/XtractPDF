@@ -9,4 +9,3 @@ class OriginalDepartureCountry extends CountryType
 {
 }
 
-

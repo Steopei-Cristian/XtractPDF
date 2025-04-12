@@ -9,4 +9,3 @@ class TypeCode extends TypeCodeType
 {
 }
 
-

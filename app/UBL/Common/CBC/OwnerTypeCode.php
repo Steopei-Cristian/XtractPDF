@@ -9,4 +9,3 @@ class OwnerTypeCode extends OwnerTypeCodeType
 {
 }
 
-

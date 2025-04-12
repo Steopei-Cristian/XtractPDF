@@ -1,2 +1,2 @@
-UBL\Common\CBC\DocumentationFeeAmountType:
+App\UBL\Common\CBC\DocumentationFeeAmountType:
     properties: {  }

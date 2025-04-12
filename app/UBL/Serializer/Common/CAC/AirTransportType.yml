@@ -1,4 +1,4 @@
-UBL\Common\CAC\AirTransportType:
+App\UBL\Common\CAC\AirTransportType:
     properties:
         aircraftID:
             expose: true
@@ -9,4 +9,4 @@ UBL\Common\CAC\AirTransportType:
             accessor:
                 getter: getAircraftID
                 setter: setAircraftID
-            type: UBL\Common\CBC\AircraftID
+            type: App\UBL\Common\CBC\AircraftID

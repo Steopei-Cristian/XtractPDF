@@ -1,3 +1,3 @@
-UBL\Common\CAC\SupportedCommodityClassification:
+App\UBL\Common\CAC\SupportedCommodityClassification:
     xml_root_name: SupportedCommodityClassification
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

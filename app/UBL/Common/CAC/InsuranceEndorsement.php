@@ -9,4 +9,3 @@ class InsuranceEndorsement extends EndorsementType
 {
 }
 
-

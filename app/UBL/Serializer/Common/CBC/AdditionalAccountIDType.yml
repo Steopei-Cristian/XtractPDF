@@ -1,2 +1,2 @@
-UBL\Common\CBC\AdditionalAccountIDType:
+App\UBL\Common\CBC\AdditionalAccountIDType:
     properties: {  }

@@ -1,4 +1,4 @@
-UBL\Common\CAC\CatalogueItemSpecificationUpdateLineType:
+App\UBL\Common\CAC\CatalogueItemSpecificationUpdateLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CatalogueItemSpecificationUpdateLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         contractorCustomerParty:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\CatalogueItemSpecificationUpdateLineType:
             accessor:
                 getter: getContractorCustomerParty
                 setter: setContractorCustomerParty
-            type: UBL\Common\CAC\ContractorCustomerParty
+            type: App\UBL\Common\CAC\ContractorCustomerParty
         sellerSupplierParty:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\CatalogueItemSpecificationUpdateLineType:
             accessor:
                 getter: getSellerSupplierParty
                 setter: setSellerSupplierParty
-            type: UBL\Common\CAC\SellerSupplierParty
+            type: App\UBL\Common\CAC\SellerSupplierParty
         item:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ UBL\Common\CAC\CatalogueItemSpecificationUpdateLineType:
             accessor:
                 getter: getItem
                 setter: setItem
-            type: UBL\Common\CAC\Item
+            type: App\UBL\Common\CAC\Item

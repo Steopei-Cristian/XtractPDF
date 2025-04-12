@@ -1,2 +1,2 @@
-UBL\Common\CBC\PostEventNotificationDurationMeasureType:
+App\UBL\Common\CBC\PostEventNotificationDurationMeasureType:
     properties: {  }

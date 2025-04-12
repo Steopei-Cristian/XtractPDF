@@ -23,7 +23,7 @@ class AppealTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -40,7 +40,7 @@ class AppealTermsType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\PresentationPeriod $presentationPeriod
+     * @var \App\UBL\Common\CAC\PresentationPeriod $presentationPeriod
      */
     private $presentationPeriod = null;
 
@@ -55,7 +55,7 @@ class AppealTermsType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\AppealInformationParty $appealInformationParty
+     * @var \App\UBL\Common\CAC\AppealInformationParty $appealInformationParty
      */
     private $appealInformationParty = null;
 
@@ -70,7 +70,7 @@ class AppealTermsType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\AppealReceiverParty $appealReceiverParty
+     * @var \App\UBL\Common\CAC\AppealReceiverParty $appealReceiverParty
      */
     private $appealReceiverParty = null;
 
@@ -85,7 +85,7 @@ class AppealTermsType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\MediationParty $mediationParty
+     * @var \App\UBL\Common\CAC\MediationParty $mediationParty
      */
     private $mediationParty = null;
 
@@ -102,9 +102,9 @@ class AppealTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -162,7 +162,7 @@ class AppealTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -181,7 +181,7 @@ class AppealTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -203,7 +203,7 @@ class AppealTermsType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\PresentationPeriod
+     * @return \App\UBL\Common\CAC\PresentationPeriod
      */
     public function getPresentationPeriod()
     {
@@ -223,10 +223,10 @@ class AppealTermsType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\PresentationPeriod $presentationPeriod
+     * @param \App\UBL\Common\CAC\PresentationPeriod $presentationPeriod
      * @return self
      */
-    public function setPresentationPeriod(?\UBL\Common\CAC\PresentationPeriod $presentationPeriod = null)
+    public function setPresentationPeriod(?\App\UBL\Common\CAC\PresentationPeriod $presentationPeriod = null)
     {
         $this->presentationPeriod = $presentationPeriod;
         return $this;
@@ -245,7 +245,7 @@ class AppealTermsType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\AppealInformationParty
+     * @return \App\UBL\Common\CAC\AppealInformationParty
      */
     public function getAppealInformationParty()
     {
@@ -265,10 +265,10 @@ class AppealTermsType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\AppealInformationParty $appealInformationParty
+     * @param \App\UBL\Common\CAC\AppealInformationParty $appealInformationParty
      * @return self
      */
-    public function setAppealInformationParty(?\UBL\Common\CAC\AppealInformationParty $appealInformationParty = null)
+    public function setAppealInformationParty(?\App\UBL\Common\CAC\AppealInformationParty $appealInformationParty = null)
     {
         $this->appealInformationParty = $appealInformationParty;
         return $this;
@@ -287,7 +287,7 @@ class AppealTermsType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\AppealReceiverParty
+     * @return \App\UBL\Common\CAC\AppealReceiverParty
      */
     public function getAppealReceiverParty()
     {
@@ -307,10 +307,10 @@ class AppealTermsType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\AppealReceiverParty $appealReceiverParty
+     * @param \App\UBL\Common\CAC\AppealReceiverParty $appealReceiverParty
      * @return self
      */
-    public function setAppealReceiverParty(?\UBL\Common\CAC\AppealReceiverParty $appealReceiverParty = null)
+    public function setAppealReceiverParty(?\App\UBL\Common\CAC\AppealReceiverParty $appealReceiverParty = null)
     {
         $this->appealReceiverParty = $appealReceiverParty;
         return $this;
@@ -329,7 +329,7 @@ class AppealTermsType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\MediationParty
+     * @return \App\UBL\Common\CAC\MediationParty
      */
     public function getMediationParty()
     {
@@ -349,14 +349,13 @@ class AppealTermsType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\MediationParty $mediationParty
+     * @param \App\UBL\Common\CAC\MediationParty $mediationParty
      * @return self
      */
-    public function setMediationParty(?\UBL\Common\CAC\MediationParty $mediationParty = null)
+    public function setMediationParty(?\App\UBL\Common\CAC\MediationParty $mediationParty = null)
     {
         $this->mediationParty = $mediationParty;
         return $this;
     }
 }
-
 

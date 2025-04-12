@@ -9,4 +9,3 @@ class MandateTypeCode extends MandateTypeCodeType
 {
 }
 
-

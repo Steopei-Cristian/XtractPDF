@@ -1,4 +1,4 @@
-UBL\Common\CAC\PickupType:
+App\UBL\Common\CAC\PickupType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PickupType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         actualPickupDate:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\CAC\PickupType:
             accessor:
                 getter: getPickupLocation
                 setter: setPickupLocation
-            type: UBL\Common\CAC\PickupLocation
+            type: App\UBL\Common\CAC\PickupLocation
         pickupParty:
             expose: true
             access_type: public_method
@@ -89,4 +89,4 @@ UBL\Common\CAC\PickupType:
             accessor:
                 getter: getPickupParty
                 setter: setPickupParty
-            type: UBL\Common\CAC\PickupParty
+            type: App\UBL\Common\CAC\PickupParty

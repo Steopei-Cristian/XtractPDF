@@ -1,4 +1,4 @@
-UBL\Common\CAC\EndorserPartyType:
+App\UBL\Common\CAC\EndorserPartyType:
     properties:
         roleCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\EndorserPartyType:
             accessor:
                 getter: getRoleCode
                 setter: setRoleCode
-            type: UBL\Common\CBC\RoleCode
+            type: App\UBL\Common\CBC\RoleCode
         sequenceNumeric:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\EndorserPartyType:
             accessor:
                 getter: getSequenceNumeric
                 setter: setSequenceNumeric
-            type: UBL\Common\CBC\SequenceNumeric
+            type: App\UBL\Common\CBC\SequenceNumeric
         party:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\EndorserPartyType:
             accessor:
                 getter: getParty
                 setter: setParty
-            type: UBL\Common\CAC\Party
+            type: App\UBL\Common\CAC\Party
         signatoryContact:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ UBL\Common\CAC\EndorserPartyType:
             accessor:
                 getter: getSignatoryContact
                 setter: setSignatoryContact
-            type: UBL\Common\CAC\SignatoryContact
+            type: App\UBL\Common\CAC\SignatoryContact

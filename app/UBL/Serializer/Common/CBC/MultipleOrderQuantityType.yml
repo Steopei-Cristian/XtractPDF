@@ -1,2 +1,2 @@
-UBL\Common\CBC\MultipleOrderQuantityType:
+App\UBL\Common\CBC\MultipleOrderQuantityType:
     properties: {  }

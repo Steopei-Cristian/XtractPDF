@@ -9,4 +9,3 @@ class EstimatedArrivalTransportEvent extends TransportEventType
 {
 }
 
-

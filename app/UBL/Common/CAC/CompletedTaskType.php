@@ -24,7 +24,7 @@ class CompletedTaskType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\AnnualAverageAmount $annualAverageAmount
+     * @var \App\UBL\Common\CBC\AnnualAverageAmount $annualAverageAmount
      */
     private $annualAverageAmount = null;
 
@@ -38,7 +38,7 @@ class CompletedTaskType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\TotalTaskAmount $totalTaskAmount
+     * @var \App\UBL\Common\CBC\TotalTaskAmount $totalTaskAmount
      */
     private $totalTaskAmount = null;
 
@@ -52,7 +52,7 @@ class CompletedTaskType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\PartyCapacityAmount $partyCapacityAmount
+     * @var \App\UBL\Common\CBC\PartyCapacityAmount $partyCapacityAmount
      */
     private $partyCapacityAmount = null;
 
@@ -66,7 +66,7 @@ class CompletedTaskType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -82,7 +82,7 @@ class CompletedTaskType
      *  Evidence Supplied
      *  Evidence Supplied
      *
-     * @var \UBL\Common\CAC\EvidenceSupplied[] $evidenceSupplied
+     * @var \App\UBL\Common\CAC\EvidenceSupplied[] $evidenceSupplied
      */
     private $evidenceSupplied = [
         
@@ -98,7 +98,7 @@ class CompletedTaskType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\Period $period
+     * @var \App\UBL\Common\CAC\Period $period
      */
     private $period = null;
 
@@ -113,7 +113,7 @@ class CompletedTaskType
      *  Customer Party
      *  Customer Party
      *
-     * @var \UBL\Common\CAC\RecipientCustomerParty $recipientCustomerParty
+     * @var \App\UBL\Common\CAC\RecipientCustomerParty $recipientCustomerParty
      */
     private $recipientCustomerParty = null;
 
@@ -130,7 +130,7 @@ class CompletedTaskType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\AnnualAverageAmount
+     * @return \App\UBL\Common\CBC\AnnualAverageAmount
      */
     public function getAnnualAverageAmount()
     {
@@ -150,10 +150,10 @@ class CompletedTaskType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\AnnualAverageAmount $annualAverageAmount
+     * @param \App\UBL\Common\CBC\AnnualAverageAmount $annualAverageAmount
      * @return self
      */
-    public function setAnnualAverageAmount(?\UBL\Common\CBC\AnnualAverageAmount $annualAverageAmount = null)
+    public function setAnnualAverageAmount(?\App\UBL\Common\CBC\AnnualAverageAmount $annualAverageAmount = null)
     {
         $this->annualAverageAmount = $annualAverageAmount;
         return $this;
@@ -171,7 +171,7 @@ class CompletedTaskType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\TotalTaskAmount
+     * @return \App\UBL\Common\CBC\TotalTaskAmount
      */
     public function getTotalTaskAmount()
     {
@@ -190,10 +190,10 @@ class CompletedTaskType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\TotalTaskAmount $totalTaskAmount
+     * @param \App\UBL\Common\CBC\TotalTaskAmount $totalTaskAmount
      * @return self
      */
-    public function setTotalTaskAmount(?\UBL\Common\CBC\TotalTaskAmount $totalTaskAmount = null)
+    public function setTotalTaskAmount(?\App\UBL\Common\CBC\TotalTaskAmount $totalTaskAmount = null)
     {
         $this->totalTaskAmount = $totalTaskAmount;
         return $this;
@@ -211,7 +211,7 @@ class CompletedTaskType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\PartyCapacityAmount
+     * @return \App\UBL\Common\CBC\PartyCapacityAmount
      */
     public function getPartyCapacityAmount()
     {
@@ -230,10 +230,10 @@ class CompletedTaskType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\PartyCapacityAmount $partyCapacityAmount
+     * @param \App\UBL\Common\CBC\PartyCapacityAmount $partyCapacityAmount
      * @return self
      */
-    public function setPartyCapacityAmount(?\UBL\Common\CBC\PartyCapacityAmount $partyCapacityAmount = null)
+    public function setPartyCapacityAmount(?\App\UBL\Common\CBC\PartyCapacityAmount $partyCapacityAmount = null)
     {
         $this->partyCapacityAmount = $partyCapacityAmount;
         return $this;
@@ -252,9 +252,9 @@ class CompletedTaskType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -312,7 +312,7 @@ class CompletedTaskType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -331,7 +331,7 @@ class CompletedTaskType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -353,9 +353,9 @@ class CompletedTaskType
      *  Evidence Supplied
      *
      * @return self
-     * @param \UBL\Common\CAC\EvidenceSupplied $evidenceSupplied
+     * @param \App\UBL\Common\CAC\EvidenceSupplied $evidenceSupplied
      */
-    public function addToEvidenceSupplied(\UBL\Common\CAC\EvidenceSupplied $evidenceSupplied)
+    public function addToEvidenceSupplied(\App\UBL\Common\CAC\EvidenceSupplied $evidenceSupplied)
     {
         $this->evidenceSupplied[] = $evidenceSupplied;
         return $this;
@@ -413,7 +413,7 @@ class CompletedTaskType
      *  Evidence Supplied
      *  Evidence Supplied
      *
-     * @return \UBL\Common\CAC\EvidenceSupplied[]
+     * @return \App\UBL\Common\CAC\EvidenceSupplied[]
      */
     public function getEvidenceSupplied()
     {
@@ -432,7 +432,7 @@ class CompletedTaskType
      *  Evidence Supplied
      *  Evidence Supplied
      *
-     * @param \UBL\Common\CAC\EvidenceSupplied[] $evidenceSupplied
+     * @param \App\UBL\Common\CAC\EvidenceSupplied[] $evidenceSupplied
      * @return self
      */
     public function setEvidenceSupplied(?array $evidenceSupplied = null)
@@ -453,7 +453,7 @@ class CompletedTaskType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\Period
+     * @return \App\UBL\Common\CAC\Period
      */
     public function getPeriod()
     {
@@ -472,10 +472,10 @@ class CompletedTaskType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\Period $period
+     * @param \App\UBL\Common\CAC\Period $period
      * @return self
      */
-    public function setPeriod(?\UBL\Common\CAC\Period $period = null)
+    public function setPeriod(?\App\UBL\Common\CAC\Period $period = null)
     {
         $this->period = $period;
         return $this;
@@ -494,7 +494,7 @@ class CompletedTaskType
      *  Customer Party
      *  Customer Party
      *
-     * @return \UBL\Common\CAC\RecipientCustomerParty
+     * @return \App\UBL\Common\CAC\RecipientCustomerParty
      */
     public function getRecipientCustomerParty()
     {
@@ -514,14 +514,13 @@ class CompletedTaskType
      *  Customer Party
      *  Customer Party
      *
-     * @param \UBL\Common\CAC\RecipientCustomerParty $recipientCustomerParty
+     * @param \App\UBL\Common\CAC\RecipientCustomerParty $recipientCustomerParty
      * @return self
      */
-    public function setRecipientCustomerParty(?\UBL\Common\CAC\RecipientCustomerParty $recipientCustomerParty = null)
+    public function setRecipientCustomerParty(?\App\UBL\Common\CAC\RecipientCustomerParty $recipientCustomerParty = null)
     {
         $this->recipientCustomerParty = $recipientCustomerParty;
         return $this;
     }
 }
-
 

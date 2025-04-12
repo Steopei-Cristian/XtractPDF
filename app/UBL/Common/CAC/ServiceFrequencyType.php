@@ -24,7 +24,7 @@ class ServiceFrequencyType
      *  Week Day
      *  Week Day_ Code. Type
      *
-     * @var \UBL\Common\CBC\WeekDayCode $weekDayCode
+     * @var \App\UBL\Common\CBC\WeekDayCode $weekDayCode
      */
     private $weekDayCode = null;
 
@@ -41,7 +41,7 @@ class ServiceFrequencyType
      *  Week Day
      *  Week Day_ Code. Type
      *
-     * @return \UBL\Common\CBC\WeekDayCode
+     * @return \App\UBL\Common\CBC\WeekDayCode
      */
     public function getWeekDayCode()
     {
@@ -61,14 +61,13 @@ class ServiceFrequencyType
      *  Week Day
      *  Week Day_ Code. Type
      *
-     * @param \UBL\Common\CBC\WeekDayCode $weekDayCode
+     * @param \App\UBL\Common\CBC\WeekDayCode $weekDayCode
      * @return self
      */
-    public function setWeekDayCode(\UBL\Common\CBC\WeekDayCode $weekDayCode)
+    public function setWeekDayCode(\App\UBL\Common\CBC\WeekDayCode $weekDayCode)
     {
         $this->weekDayCode = $weekDayCode;
         return $this;
     }
 }
-
 

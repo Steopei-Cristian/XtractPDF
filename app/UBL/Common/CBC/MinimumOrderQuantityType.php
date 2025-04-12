@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\QuantityType;
+use App\UBL\Unqualified\QuantityType;
 
 /**
  * Class representing MinimumOrderQuantityType
@@ -13,5 +13,4 @@ use UBL\Unqualified\QuantityType;
 class MinimumOrderQuantityType extends QuantityType
 {
 }
-
 

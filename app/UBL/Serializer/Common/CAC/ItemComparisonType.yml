@@ -1,4 +1,4 @@
-UBL\Common\CAC\ItemComparisonType:
+App\UBL\Common\CAC\ItemComparisonType:
     properties:
         priceAmount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ItemComparisonType:
             accessor:
                 getter: getPriceAmount
                 setter: setPriceAmount
-            type: UBL\Common\CBC\PriceAmount
+            type: App\UBL\Common\CBC\PriceAmount
         quantity:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ UBL\Common\CAC\ItemComparisonType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity

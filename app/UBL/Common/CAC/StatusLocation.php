@@ -9,4 +9,3 @@ class StatusLocation extends LocationType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ConsolidatedShipment extends ShipmentType
 {
 }
 
-

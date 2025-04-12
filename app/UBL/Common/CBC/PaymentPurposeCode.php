@@ -9,4 +9,3 @@ class PaymentPurposeCode extends PaymentPurposeCodeType
 {
 }
 
-

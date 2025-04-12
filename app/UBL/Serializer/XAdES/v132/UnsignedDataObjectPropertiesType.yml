@@ -1,4 +1,4 @@
-UBL\XAdES\v132\UnsignedDataObjectPropertiesType:
+App\UBL\XAdES\v132\UnsignedDataObjectPropertiesType:
     properties:
         id:
             expose: true
@@ -22,4 +22,4 @@ UBL\XAdES\v132\UnsignedDataObjectPropertiesType:
                 inline: true
                 entry_name: UnsignedDataObjectProperty
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\AnyType>
+            type: array<App\UBL\XAdES\v132\AnyType>

@@ -24,7 +24,7 @@ class UnstructuredPriceType
      *  Amount. Type
      *  23.45
      *
-     * @var \UBL\Common\CBC\PriceAmount $priceAmount
+     * @var \App\UBL\Common\CBC\PriceAmount $priceAmount
      */
     private $priceAmount = null;
 
@@ -38,7 +38,7 @@ class UnstructuredPriceType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\TimeAmount $timeAmount
+     * @var \App\UBL\Common\CBC\TimeAmount $timeAmount
      */
     private $timeAmount = null;
 
@@ -55,7 +55,7 @@ class UnstructuredPriceType
      *  Amount. Type
      *  23.45
      *
-     * @return \UBL\Common\CBC\PriceAmount
+     * @return \App\UBL\Common\CBC\PriceAmount
      */
     public function getPriceAmount()
     {
@@ -75,10 +75,10 @@ class UnstructuredPriceType
      *  Amount. Type
      *  23.45
      *
-     * @param \UBL\Common\CBC\PriceAmount $priceAmount
+     * @param \App\UBL\Common\CBC\PriceAmount $priceAmount
      * @return self
      */
-    public function setPriceAmount(?\UBL\Common\CBC\PriceAmount $priceAmount = null)
+    public function setPriceAmount(?\App\UBL\Common\CBC\PriceAmount $priceAmount = null)
     {
         $this->priceAmount = $priceAmount;
         return $this;
@@ -96,7 +96,7 @@ class UnstructuredPriceType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\TimeAmount
+     * @return \App\UBL\Common\CBC\TimeAmount
      */
     public function getTimeAmount()
     {
@@ -115,14 +115,13 @@ class UnstructuredPriceType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\TimeAmount $timeAmount
+     * @param \App\UBL\Common\CBC\TimeAmount $timeAmount
      * @return self
      */
-    public function setTimeAmount(?\UBL\Common\CBC\TimeAmount $timeAmount = null)
+    public function setTimeAmount(?\App\UBL\Common\CBC\TimeAmount $timeAmount = null)
     {
         $this->timeAmount = $timeAmount;
         return $this;
     }
 }
-
 

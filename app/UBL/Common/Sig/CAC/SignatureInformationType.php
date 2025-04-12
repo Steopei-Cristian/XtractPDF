@@ -23,7 +23,7 @@ class SignatureInformationType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,14 +37,14 @@ class SignatureInformationType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\SIG\CBC\ReferencedSignatureID $referencedSignatureID
+     * @var \App\UBL\Common\SIG\CBC\ReferencedSignatureID $referencedSignatureID
      */
     private $referencedSignatureID = null;
 
     /**
      * This is a single digital signature as defined by the W3C specification.
      *
-     * @var \UBL\Xmldsig\Signature $signature
+     * @var \App\UBL\Xmldsig\Signature $signature
      */
     private $signature = null;
 
@@ -60,7 +60,7 @@ class SignatureInformationType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -79,10 +79,10 @@ class SignatureInformationType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -100,7 +100,7 @@ class SignatureInformationType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\SIG\CBC\ReferencedSignatureID
+     * @return \App\UBL\Common\SIG\CBC\ReferencedSignatureID
      */
     public function getReferencedSignatureID()
     {
@@ -119,10 +119,10 @@ class SignatureInformationType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\SIG\CBC\ReferencedSignatureID $referencedSignatureID
+     * @param \App\UBL\Common\SIG\CBC\ReferencedSignatureID $referencedSignatureID
      * @return self
      */
-    public function setReferencedSignatureID(?\UBL\Common\SIG\CBC\ReferencedSignatureID $referencedSignatureID = null)
+    public function setReferencedSignatureID(?\App\UBL\Common\SIG\CBC\ReferencedSignatureID $referencedSignatureID = null)
     {
         $this->referencedSignatureID = $referencedSignatureID;
         return $this;
@@ -133,7 +133,7 @@ class SignatureInformationType
      *
      * This is a single digital signature as defined by the W3C specification.
      *
-     * @return \UBL\Xmldsig\Signature
+     * @return \App\UBL\Xmldsig\Signature
      */
     public function getSignature()
     {
@@ -145,14 +145,13 @@ class SignatureInformationType
      *
      * This is a single digital signature as defined by the W3C specification.
      *
-     * @param \UBL\Xmldsig\Signature $signature
+     * @param \App\UBL\Xmldsig\Signature $signature
      * @return self
      */
-    public function setSignature(?\UBL\Xmldsig\Signature $signature = null)
+    public function setSignature(?\App\UBL\Xmldsig\Signature $signature = null)
     {
         $this->signature = $signature;
         return $this;
     }
 }
-
 

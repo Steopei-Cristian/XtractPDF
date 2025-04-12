@@ -16,17 +16,17 @@ class RevocationValuesType
     private $id = null;
 
     /**
-     * @var \UBL\XAdES\v132\EncapsulatedPKIDataType[] $cRLValues
+     * @var \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $cRLValues
      */
     private $cRLValues = null;
 
     /**
-     * @var \UBL\XAdES\v132\EncapsulatedPKIDataType[] $oCSPValues
+     * @var \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $oCSPValues
      */
     private $oCSPValues = null;
 
     /**
-     * @var \UBL\XAdES\v132\AnyType[] $otherValues
+     * @var \App\UBL\XAdES\v132\AnyType[] $otherValues
      */
     private $otherValues = null;
 
@@ -56,9 +56,9 @@ class RevocationValuesType
      * Adds as encapsulatedCRLValue
      *
      * @return self
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedCRLValue
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedCRLValue
      */
-    public function addToCRLValues(\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedCRLValue)
+    public function addToCRLValues(\App\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedCRLValue)
     {
         $this->cRLValues[] = $encapsulatedCRLValue;
         return $this;
@@ -89,7 +89,7 @@ class RevocationValuesType
     /**
      * Gets as cRLValues
      *
-     * @return \UBL\XAdES\v132\EncapsulatedPKIDataType[]
+     * @return \App\UBL\XAdES\v132\EncapsulatedPKIDataType[]
      */
     public function getCRLValues()
     {
@@ -99,7 +99,7 @@ class RevocationValuesType
     /**
      * Sets a new cRLValues
      *
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType[] $cRLValues
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $cRLValues
      * @return self
      */
     public function setCRLValues(?array $cRLValues = null)
@@ -112,9 +112,9 @@ class RevocationValuesType
      * Adds as encapsulatedOCSPValue
      *
      * @return self
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedOCSPValue
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedOCSPValue
      */
-    public function addToOCSPValues(\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedOCSPValue)
+    public function addToOCSPValues(\App\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedOCSPValue)
     {
         $this->oCSPValues[] = $encapsulatedOCSPValue;
         return $this;
@@ -145,7 +145,7 @@ class RevocationValuesType
     /**
      * Gets as oCSPValues
      *
-     * @return \UBL\XAdES\v132\EncapsulatedPKIDataType[]
+     * @return \App\UBL\XAdES\v132\EncapsulatedPKIDataType[]
      */
     public function getOCSPValues()
     {
@@ -155,7 +155,7 @@ class RevocationValuesType
     /**
      * Sets a new oCSPValues
      *
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType[] $oCSPValues
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $oCSPValues
      * @return self
      */
     public function setOCSPValues(?array $oCSPValues = null)
@@ -168,9 +168,9 @@ class RevocationValuesType
      * Adds as otherValue
      *
      * @return self
-     * @param \UBL\XAdES\v132\AnyType $otherValue
+     * @param \App\UBL\XAdES\v132\AnyType $otherValue
      */
-    public function addToOtherValues(\UBL\XAdES\v132\AnyType $otherValue)
+    public function addToOtherValues(\App\UBL\XAdES\v132\AnyType $otherValue)
     {
         $this->otherValues[] = $otherValue;
         return $this;
@@ -201,7 +201,7 @@ class RevocationValuesType
     /**
      * Gets as otherValues
      *
-     * @return \UBL\XAdES\v132\AnyType[]
+     * @return \App\UBL\XAdES\v132\AnyType[]
      */
     public function getOtherValues()
     {
@@ -211,7 +211,7 @@ class RevocationValuesType
     /**
      * Sets a new otherValues
      *
-     * @param \UBL\XAdES\v132\AnyType[] $otherValues
+     * @param \App\UBL\XAdES\v132\AnyType[] $otherValues
      * @return self
      */
     public function setOtherValues(?array $otherValues = null)
@@ -220,5 +220,4 @@ class RevocationValuesType
         return $this;
     }
 }
-
 

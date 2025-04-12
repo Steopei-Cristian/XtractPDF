@@ -9,4 +9,3 @@ class ClassificationCategory extends ClassificationCategoryType
 {
 }
 
-

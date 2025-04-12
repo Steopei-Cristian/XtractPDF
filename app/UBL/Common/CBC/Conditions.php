@@ -9,4 +9,3 @@ class Conditions extends ConditionsType
 {
 }
 
-

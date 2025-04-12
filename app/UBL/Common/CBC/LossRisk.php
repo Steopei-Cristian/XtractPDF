@@ -9,4 +9,3 @@ class LossRisk extends LossRiskType
 {
 }
 
-

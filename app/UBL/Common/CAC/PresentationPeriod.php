@@ -9,4 +9,3 @@ class PresentationPeriod extends PeriodType
 {
 }
 
-

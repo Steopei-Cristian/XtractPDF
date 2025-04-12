@@ -9,4 +9,3 @@ class CharacterSetCode extends CharacterSetCodeType
 {
 }
 
-

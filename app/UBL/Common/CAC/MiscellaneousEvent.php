@@ -9,4 +9,3 @@ class MiscellaneousEvent extends MiscellaneousEventType
 {
 }
 
-

@@ -23,7 +23,7 @@ class AllowanceChargeType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -53,7 +53,7 @@ class AllowanceChargeType
      *  Allowance Charge Reason
      *  Allowance Charge Reason_ Code. Type
      *
-     * @var \UBL\Common\CBC\AllowanceChargeReasonCode $allowanceChargeReasonCode
+     * @var \App\UBL\Common\CBC\AllowanceChargeReasonCode $allowanceChargeReasonCode
      */
     private $allowanceChargeReasonCode = null;
 
@@ -68,7 +68,7 @@ class AllowanceChargeType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\AllowanceChargeReason[] $allowanceChargeReason
+     * @var \App\UBL\Common\CBC\AllowanceChargeReason[] $allowanceChargeReason
      */
     private $allowanceChargeReason = [
         
@@ -86,7 +86,7 @@ class AllowanceChargeType
      *  Numeric. Type
      *  0.20
      *
-     * @var \UBL\Common\CBC\MultiplierFactorNumeric $multiplierFactorNumeric
+     * @var \App\UBL\Common\CBC\MultiplierFactorNumeric $multiplierFactorNumeric
      */
     private $multiplierFactorNumeric = null;
 
@@ -116,7 +116,7 @@ class AllowanceChargeType
      *  Numeric. Type
      *  1, 2, 3, 4, etc.
      *
-     * @var \UBL\Common\CBC\SequenceNumeric $sequenceNumeric
+     * @var \App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric
      */
     private $sequenceNumeric = null;
 
@@ -131,7 +131,7 @@ class AllowanceChargeType
      *  Amount. Type
      *  35,23
      *
-     * @var \UBL\Common\CBC\Amount $amount
+     * @var \App\UBL\Common\CBC\Amount $amount
      */
     private $amount = null;
 
@@ -146,7 +146,7 @@ class AllowanceChargeType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\BaseAmount $baseAmount
+     * @var \App\UBL\Common\CBC\BaseAmount $baseAmount
      */
     private $baseAmount = null;
 
@@ -160,7 +160,7 @@ class AllowanceChargeType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\AccountingCostCode $accountingCostCode
+     * @var \App\UBL\Common\CBC\AccountingCostCode $accountingCostCode
      */
     private $accountingCostCode = null;
 
@@ -174,7 +174,7 @@ class AllowanceChargeType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\AccountingCost $accountingCost
+     * @var \App\UBL\Common\CBC\AccountingCost $accountingCost
      */
     private $accountingCost = null;
 
@@ -189,7 +189,7 @@ class AllowanceChargeType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\PerUnitAmount $perUnitAmount
+     * @var \App\UBL\Common\CBC\PerUnitAmount $perUnitAmount
      */
     private $perUnitAmount = null;
 
@@ -203,7 +203,7 @@ class AllowanceChargeType
      *  Tax Category
      *  Tax Category
      *
-     * @var \UBL\Common\CAC\TaxCategory[] $taxCategory
+     * @var \App\UBL\Common\CAC\TaxCategory[] $taxCategory
      */
     private $taxCategory = [
         
@@ -219,7 +219,7 @@ class AllowanceChargeType
      *  Tax Total
      *  Tax Total
      *
-     * @var \UBL\Common\CAC\TaxTotal $taxTotal
+     * @var \App\UBL\Common\CAC\TaxTotal $taxTotal
      */
     private $taxTotal = null;
 
@@ -233,7 +233,7 @@ class AllowanceChargeType
      *  Payment Means
      *  Payment Means
      *
-     * @var \UBL\Common\CAC\PaymentMeans[] $paymentMeans
+     * @var \App\UBL\Common\CAC\PaymentMeans[] $paymentMeans
      */
     private $paymentMeans = [
         
@@ -251,7 +251,7 @@ class AllowanceChargeType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -270,10 +270,10 @@ class AllowanceChargeType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -334,7 +334,7 @@ class AllowanceChargeType
      *  Allowance Charge Reason
      *  Allowance Charge Reason_ Code. Type
      *
-     * @return \UBL\Common\CBC\AllowanceChargeReasonCode
+     * @return \App\UBL\Common\CBC\AllowanceChargeReasonCode
      */
     public function getAllowanceChargeReasonCode()
     {
@@ -354,10 +354,10 @@ class AllowanceChargeType
      *  Allowance Charge Reason
      *  Allowance Charge Reason_ Code. Type
      *
-     * @param \UBL\Common\CBC\AllowanceChargeReasonCode $allowanceChargeReasonCode
+     * @param \App\UBL\Common\CBC\AllowanceChargeReasonCode $allowanceChargeReasonCode
      * @return self
      */
-    public function setAllowanceChargeReasonCode(?\UBL\Common\CBC\AllowanceChargeReasonCode $allowanceChargeReasonCode = null)
+    public function setAllowanceChargeReasonCode(?\App\UBL\Common\CBC\AllowanceChargeReasonCode $allowanceChargeReasonCode = null)
     {
         $this->allowanceChargeReasonCode = $allowanceChargeReasonCode;
         return $this;
@@ -377,9 +377,9 @@ class AllowanceChargeType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\AllowanceChargeReason $allowanceChargeReason
+     * @param \App\UBL\Common\CBC\AllowanceChargeReason $allowanceChargeReason
      */
-    public function addToAllowanceChargeReason(\UBL\Common\CBC\AllowanceChargeReason $allowanceChargeReason)
+    public function addToAllowanceChargeReason(\App\UBL\Common\CBC\AllowanceChargeReason $allowanceChargeReason)
     {
         $this->allowanceChargeReason[] = $allowanceChargeReason;
         return $this;
@@ -440,7 +440,7 @@ class AllowanceChargeType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\AllowanceChargeReason[]
+     * @return \App\UBL\Common\CBC\AllowanceChargeReason[]
      */
     public function getAllowanceChargeReason()
     {
@@ -460,7 +460,7 @@ class AllowanceChargeType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\AllowanceChargeReason[] $allowanceChargeReason
+     * @param \App\UBL\Common\CBC\AllowanceChargeReason[] $allowanceChargeReason
      * @return self
      */
     public function setAllowanceChargeReason(?array $allowanceChargeReason = null)
@@ -483,7 +483,7 @@ class AllowanceChargeType
      *  Numeric. Type
      *  0.20
      *
-     * @return \UBL\Common\CBC\MultiplierFactorNumeric
+     * @return \App\UBL\Common\CBC\MultiplierFactorNumeric
      */
     public function getMultiplierFactorNumeric()
     {
@@ -504,10 +504,10 @@ class AllowanceChargeType
      *  Numeric. Type
      *  0.20
      *
-     * @param \UBL\Common\CBC\MultiplierFactorNumeric $multiplierFactorNumeric
+     * @param \App\UBL\Common\CBC\MultiplierFactorNumeric $multiplierFactorNumeric
      * @return self
      */
-    public function setMultiplierFactorNumeric(?\UBL\Common\CBC\MultiplierFactorNumeric $multiplierFactorNumeric = null)
+    public function setMultiplierFactorNumeric(?\App\UBL\Common\CBC\MultiplierFactorNumeric $multiplierFactorNumeric = null)
     {
         $this->multiplierFactorNumeric = $multiplierFactorNumeric;
         return $this;
@@ -568,7 +568,7 @@ class AllowanceChargeType
      *  Numeric. Type
      *  1, 2, 3, 4, etc.
      *
-     * @return \UBL\Common\CBC\SequenceNumeric
+     * @return \App\UBL\Common\CBC\SequenceNumeric
      */
     public function getSequenceNumeric()
     {
@@ -588,10 +588,10 @@ class AllowanceChargeType
      *  Numeric. Type
      *  1, 2, 3, 4, etc.
      *
-     * @param \UBL\Common\CBC\SequenceNumeric $sequenceNumeric
+     * @param \App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric
      * @return self
      */
-    public function setSequenceNumeric(?\UBL\Common\CBC\SequenceNumeric $sequenceNumeric = null)
+    public function setSequenceNumeric(?\App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric = null)
     {
         $this->sequenceNumeric = $sequenceNumeric;
         return $this;
@@ -610,7 +610,7 @@ class AllowanceChargeType
      *  Amount. Type
      *  35,23
      *
-     * @return \UBL\Common\CBC\Amount
+     * @return \App\UBL\Common\CBC\Amount
      */
     public function getAmount()
     {
@@ -630,10 +630,10 @@ class AllowanceChargeType
      *  Amount. Type
      *  35,23
      *
-     * @param \UBL\Common\CBC\Amount $amount
+     * @param \App\UBL\Common\CBC\Amount $amount
      * @return self
      */
-    public function setAmount(\UBL\Common\CBC\Amount $amount)
+    public function setAmount(\App\UBL\Common\CBC\Amount $amount)
     {
         $this->amount = $amount;
         return $this;
@@ -652,7 +652,7 @@ class AllowanceChargeType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\BaseAmount
+     * @return \App\UBL\Common\CBC\BaseAmount
      */
     public function getBaseAmount()
     {
@@ -672,10 +672,10 @@ class AllowanceChargeType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\BaseAmount $baseAmount
+     * @param \App\UBL\Common\CBC\BaseAmount $baseAmount
      * @return self
      */
-    public function setBaseAmount(?\UBL\Common\CBC\BaseAmount $baseAmount = null)
+    public function setBaseAmount(?\App\UBL\Common\CBC\BaseAmount $baseAmount = null)
     {
         $this->baseAmount = $baseAmount;
         return $this;
@@ -693,7 +693,7 @@ class AllowanceChargeType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\AccountingCostCode
+     * @return \App\UBL\Common\CBC\AccountingCostCode
      */
     public function getAccountingCostCode()
     {
@@ -712,10 +712,10 @@ class AllowanceChargeType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\AccountingCostCode $accountingCostCode
+     * @param \App\UBL\Common\CBC\AccountingCostCode $accountingCostCode
      * @return self
      */
-    public function setAccountingCostCode(?\UBL\Common\CBC\AccountingCostCode $accountingCostCode = null)
+    public function setAccountingCostCode(?\App\UBL\Common\CBC\AccountingCostCode $accountingCostCode = null)
     {
         $this->accountingCostCode = $accountingCostCode;
         return $this;
@@ -733,7 +733,7 @@ class AllowanceChargeType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\AccountingCost
+     * @return \App\UBL\Common\CBC\AccountingCost
      */
     public function getAccountingCost()
     {
@@ -752,10 +752,10 @@ class AllowanceChargeType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\AccountingCost $accountingCost
+     * @param \App\UBL\Common\CBC\AccountingCost $accountingCost
      * @return self
      */
-    public function setAccountingCost(?\UBL\Common\CBC\AccountingCost $accountingCost = null)
+    public function setAccountingCost(?\App\UBL\Common\CBC\AccountingCost $accountingCost = null)
     {
         $this->accountingCost = $accountingCost;
         return $this;
@@ -774,7 +774,7 @@ class AllowanceChargeType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\PerUnitAmount
+     * @return \App\UBL\Common\CBC\PerUnitAmount
      */
     public function getPerUnitAmount()
     {
@@ -794,10 +794,10 @@ class AllowanceChargeType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\PerUnitAmount $perUnitAmount
+     * @param \App\UBL\Common\CBC\PerUnitAmount $perUnitAmount
      * @return self
      */
-    public function setPerUnitAmount(?\UBL\Common\CBC\PerUnitAmount $perUnitAmount = null)
+    public function setPerUnitAmount(?\App\UBL\Common\CBC\PerUnitAmount $perUnitAmount = null)
     {
         $this->perUnitAmount = $perUnitAmount;
         return $this;
@@ -816,9 +816,9 @@ class AllowanceChargeType
      *  Tax Category
      *
      * @return self
-     * @param \UBL\Common\CAC\TaxCategory $taxCategory
+     * @param \App\UBL\Common\CAC\TaxCategory $taxCategory
      */
-    public function addToTaxCategory(\UBL\Common\CAC\TaxCategory $taxCategory)
+    public function addToTaxCategory(\App\UBL\Common\CAC\TaxCategory $taxCategory)
     {
         $this->taxCategory[] = $taxCategory;
         return $this;
@@ -876,7 +876,7 @@ class AllowanceChargeType
      *  Tax Category
      *  Tax Category
      *
-     * @return \UBL\Common\CAC\TaxCategory[]
+     * @return \App\UBL\Common\CAC\TaxCategory[]
      */
     public function getTaxCategory()
     {
@@ -895,7 +895,7 @@ class AllowanceChargeType
      *  Tax Category
      *  Tax Category
      *
-     * @param \UBL\Common\CAC\TaxCategory[] $taxCategory
+     * @param \App\UBL\Common\CAC\TaxCategory[] $taxCategory
      * @return self
      */
     public function setTaxCategory(?array $taxCategory = null)
@@ -916,7 +916,7 @@ class AllowanceChargeType
      *  Tax Total
      *  Tax Total
      *
-     * @return \UBL\Common\CAC\TaxTotal
+     * @return \App\UBL\Common\CAC\TaxTotal
      */
     public function getTaxTotal()
     {
@@ -935,10 +935,10 @@ class AllowanceChargeType
      *  Tax Total
      *  Tax Total
      *
-     * @param \UBL\Common\CAC\TaxTotal $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal $taxTotal
      * @return self
      */
-    public function setTaxTotal(?\UBL\Common\CAC\TaxTotal $taxTotal = null)
+    public function setTaxTotal(?\App\UBL\Common\CAC\TaxTotal $taxTotal = null)
     {
         $this->taxTotal = $taxTotal;
         return $this;
@@ -957,9 +957,9 @@ class AllowanceChargeType
      *  Payment Means
      *
      * @return self
-     * @param \UBL\Common\CAC\PaymentMeans $paymentMeans
+     * @param \App\UBL\Common\CAC\PaymentMeans $paymentMeans
      */
-    public function addToPaymentMeans(\UBL\Common\CAC\PaymentMeans $paymentMeans)
+    public function addToPaymentMeans(\App\UBL\Common\CAC\PaymentMeans $paymentMeans)
     {
         $this->paymentMeans[] = $paymentMeans;
         return $this;
@@ -1017,7 +1017,7 @@ class AllowanceChargeType
      *  Payment Means
      *  Payment Means
      *
-     * @return \UBL\Common\CAC\PaymentMeans[]
+     * @return \App\UBL\Common\CAC\PaymentMeans[]
      */
     public function getPaymentMeans()
     {
@@ -1036,7 +1036,7 @@ class AllowanceChargeType
      *  Payment Means
      *  Payment Means
      *
-     * @param \UBL\Common\CAC\PaymentMeans[] $paymentMeans
+     * @param \App\UBL\Common\CAC\PaymentMeans[] $paymentMeans
      * @return self
      */
     public function setPaymentMeans(?array $paymentMeans = null)
@@ -1045,5 +1045,4 @@ class AllowanceChargeType
         return $this;
     }
 }
-
 

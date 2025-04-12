@@ -9,4 +9,3 @@ class InvoiceLine extends InvoiceLineType
 {
 }
 
-

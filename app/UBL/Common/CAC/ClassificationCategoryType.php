@@ -25,7 +25,7 @@ class ClassificationCategoryType
      *  Code List Name
      *  UNSPSC Class , UNSPSC Segment , UNSPSC Family
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -41,7 +41,7 @@ class ClassificationCategoryType
      *  Code Value
      *  3420001, 3273666, HSJJD-213
      *
-     * @var \UBL\Common\CBC\CodeValue $codeValue
+     * @var \App\UBL\Common\CBC\CodeValue $codeValue
      */
     private $codeValue = null;
 
@@ -57,7 +57,7 @@ class ClassificationCategoryType
      *  Code Name
      *  Electrical Goods , Wooden Toys
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -74,7 +74,7 @@ class ClassificationCategoryType
      *  Classification Category
      *  Classification Category
      *
-     * @var \UBL\Common\CAC\CategorizesClassificationCategory[] $categorizesClassificationCategory
+     * @var \App\UBL\Common\CAC\CategorizesClassificationCategory[] $categorizesClassificationCategory
      */
     private $categorizesClassificationCategory = [
         
@@ -94,7 +94,7 @@ class ClassificationCategoryType
      *  Code List Name
      *  UNSPSC Class , UNSPSC Segment , UNSPSC Family
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -115,10 +115,10 @@ class ClassificationCategoryType
      *  Code List Name
      *  UNSPSC Class , UNSPSC Segment , UNSPSC Family
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -138,7 +138,7 @@ class ClassificationCategoryType
      *  Code Value
      *  3420001, 3273666, HSJJD-213
      *
-     * @return \UBL\Common\CBC\CodeValue
+     * @return \App\UBL\Common\CBC\CodeValue
      */
     public function getCodeValue()
     {
@@ -159,10 +159,10 @@ class ClassificationCategoryType
      *  Code Value
      *  3420001, 3273666, HSJJD-213
      *
-     * @param \UBL\Common\CBC\CodeValue $codeValue
+     * @param \App\UBL\Common\CBC\CodeValue $codeValue
      * @return self
      */
-    public function setCodeValue(?\UBL\Common\CBC\CodeValue $codeValue = null)
+    public function setCodeValue(?\App\UBL\Common\CBC\CodeValue $codeValue = null)
     {
         $this->codeValue = $codeValue;
         return $this;
@@ -183,9 +183,9 @@ class ClassificationCategoryType
      *  Electrical Goods , Wooden Toys
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -249,7 +249,7 @@ class ClassificationCategoryType
      *  Code Name
      *  Electrical Goods , Wooden Toys
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -270,7 +270,7 @@ class ClassificationCategoryType
      *  Code Name
      *  Electrical Goods , Wooden Toys
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -293,9 +293,9 @@ class ClassificationCategoryType
      *  Classification Category
      *
      * @return self
-     * @param \UBL\Common\CAC\CategorizesClassificationCategory $categorizesClassificationCategory
+     * @param \App\UBL\Common\CAC\CategorizesClassificationCategory $categorizesClassificationCategory
      */
-    public function addToCategorizesClassificationCategory(\UBL\Common\CAC\CategorizesClassificationCategory $categorizesClassificationCategory)
+    public function addToCategorizesClassificationCategory(\App\UBL\Common\CAC\CategorizesClassificationCategory $categorizesClassificationCategory)
     {
         $this->categorizesClassificationCategory[] = $categorizesClassificationCategory;
         return $this;
@@ -356,7 +356,7 @@ class ClassificationCategoryType
      *  Classification Category
      *  Classification Category
      *
-     * @return \UBL\Common\CAC\CategorizesClassificationCategory[]
+     * @return \App\UBL\Common\CAC\CategorizesClassificationCategory[]
      */
     public function getCategorizesClassificationCategory()
     {
@@ -376,7 +376,7 @@ class ClassificationCategoryType
      *  Classification Category
      *  Classification Category
      *
-     * @param \UBL\Common\CAC\CategorizesClassificationCategory[] $categorizesClassificationCategory
+     * @param \App\UBL\Common\CAC\CategorizesClassificationCategory[] $categorizesClassificationCategory
      * @return self
      */
     public function setCategorizesClassificationCategory(?array $categorizesClassificationCategory = null)
@@ -385,5 +385,4 @@ class ClassificationCategoryType
         return $this;
     }
 }
-
 

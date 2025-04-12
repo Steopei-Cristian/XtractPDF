@@ -1,4 +1,4 @@
-UBL\Common\CBC\OrderableIndicator:
+App\UBL\Common\CBC\OrderableIndicator:
     xml_root_name: OrderableIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

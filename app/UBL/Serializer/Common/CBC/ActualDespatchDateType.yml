@@ -1,4 +1,4 @@
-UBL\Common\CBC\ActualDespatchDateType:
+App\UBL\Common\CBC\ActualDespatchDateType:
     properties:
         __value:
             expose: true

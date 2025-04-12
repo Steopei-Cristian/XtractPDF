@@ -9,4 +9,3 @@ class TenderEnvelopeTypeCode extends TenderEnvelopeTypeCodeType
 {
 }
 
-

@@ -9,4 +9,3 @@ class CallDuty extends DutyType
 {
 }
 
-

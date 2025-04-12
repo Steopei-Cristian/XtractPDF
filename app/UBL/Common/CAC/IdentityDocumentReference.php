@@ -9,4 +9,3 @@ class IdentityDocumentReference extends DocumentReferenceType
 {
 }
 
-

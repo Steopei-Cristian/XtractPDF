@@ -1,4 +1,4 @@
-UBL\Common\CBC\BalanceBroughtForwardIndicatorType:
+App\UBL\Common\CBC\BalanceBroughtForwardIndicatorType:
     properties:
         __value:
             expose: true

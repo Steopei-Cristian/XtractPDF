@@ -23,7 +23,7 @@ class ProcurementProjectLotType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class ProcurementProjectLotType
      *  Tendering Terms
      *  Tendering Terms
      *
-     * @var \UBL\Common\CAC\TenderingTerms $tenderingTerms
+     * @var \App\UBL\Common\CAC\TenderingTerms $tenderingTerms
      */
     private $tenderingTerms = null;
 
@@ -51,7 +51,7 @@ class ProcurementProjectLotType
      *  Procurement Project
      *  Procurement Project
      *
-     * @var \UBL\Common\CAC\ProcurementProject $procurementProject
+     * @var \App\UBL\Common\CAC\ProcurementProject $procurementProject
      */
     private $procurementProject = null;
 
@@ -67,7 +67,7 @@ class ProcurementProjectLotType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -86,10 +86,10 @@ class ProcurementProjectLotType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -107,7 +107,7 @@ class ProcurementProjectLotType
      *  Tendering Terms
      *  Tendering Terms
      *
-     * @return \UBL\Common\CAC\TenderingTerms
+     * @return \App\UBL\Common\CAC\TenderingTerms
      */
     public function getTenderingTerms()
     {
@@ -126,10 +126,10 @@ class ProcurementProjectLotType
      *  Tendering Terms
      *  Tendering Terms
      *
-     * @param \UBL\Common\CAC\TenderingTerms $tenderingTerms
+     * @param \App\UBL\Common\CAC\TenderingTerms $tenderingTerms
      * @return self
      */
-    public function setTenderingTerms(?\UBL\Common\CAC\TenderingTerms $tenderingTerms = null)
+    public function setTenderingTerms(?\App\UBL\Common\CAC\TenderingTerms $tenderingTerms = null)
     {
         $this->tenderingTerms = $tenderingTerms;
         return $this;
@@ -147,7 +147,7 @@ class ProcurementProjectLotType
      *  Procurement Project
      *  Procurement Project
      *
-     * @return \UBL\Common\CAC\ProcurementProject
+     * @return \App\UBL\Common\CAC\ProcurementProject
      */
     public function getProcurementProject()
     {
@@ -166,14 +166,13 @@ class ProcurementProjectLotType
      *  Procurement Project
      *  Procurement Project
      *
-     * @param \UBL\Common\CAC\ProcurementProject $procurementProject
+     * @param \App\UBL\Common\CAC\ProcurementProject $procurementProject
      * @return self
      */
-    public function setProcurementProject(?\UBL\Common\CAC\ProcurementProject $procurementProject = null)
+    public function setProcurementProject(?\App\UBL\Common\CAC\ProcurementProject $procurementProject = null)
     {
         $this->procurementProject = $procurementProject;
         return $this;
     }
 }
-
 

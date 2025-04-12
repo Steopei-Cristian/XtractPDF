@@ -1,4 +1,4 @@
-UBL\Common\CBC\CompletionIndicatorType:
+App\UBL\Common\CBC\CompletionIndicatorType:
     properties:
         __value:
             expose: true

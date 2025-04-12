@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class CRLRefsType
 {
     /**
-     * @var \UBL\XAdES\v132\CRLRefType[] $cRLRef
+     * @var \App\UBL\XAdES\v132\CRLRefType[] $cRLRef
      */
     private $cRLRef = [
         
@@ -21,9 +21,9 @@ class CRLRefsType
      * Adds as cRLRef
      *
      * @return self
-     * @param \UBL\XAdES\v132\CRLRefType $cRLRef
+     * @param \App\UBL\XAdES\v132\CRLRefType $cRLRef
      */
-    public function addToCRLRef(\UBL\XAdES\v132\CRLRefType $cRLRef)
+    public function addToCRLRef(\App\UBL\XAdES\v132\CRLRefType $cRLRef)
     {
         $this->cRLRef[] = $cRLRef;
         return $this;
@@ -54,7 +54,7 @@ class CRLRefsType
     /**
      * Gets as cRLRef
      *
-     * @return \UBL\XAdES\v132\CRLRefType[]
+     * @return \App\UBL\XAdES\v132\CRLRefType[]
      */
     public function getCRLRef()
     {
@@ -64,7 +64,7 @@ class CRLRefsType
     /**
      * Sets a new cRLRef
      *
-     * @param \UBL\XAdES\v132\CRLRefType[] $cRLRef
+     * @param \App\UBL\XAdES\v132\CRLRefType[] $cRLRef
      * @return self
      */
     public function setCRLRef(array $cRLRef)
@@ -73,5 +73,4 @@ class CRLRefsType
         return $this;
     }
 }
-
 

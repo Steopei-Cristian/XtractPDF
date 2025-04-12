@@ -9,4 +9,3 @@ class MaximumOperatorQuantity extends MaximumOperatorQuantityType
 {
 }
 
-

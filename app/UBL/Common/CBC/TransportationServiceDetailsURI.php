@@ -9,4 +9,3 @@ class TransportationServiceDetailsURI extends TransportationServiceDetailsURITyp
 {
 }
 
-

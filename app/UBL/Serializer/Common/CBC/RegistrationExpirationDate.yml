@@ -1,4 +1,4 @@
-UBL\Common\CBC\RegistrationExpirationDate:
+App\UBL\Common\CBC\RegistrationExpirationDate:
     xml_root_name: RegistrationExpirationDate
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

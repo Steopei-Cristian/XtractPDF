@@ -9,4 +9,3 @@ class SpecialTransportRequirements extends SpecialTransportRequirementsType
 {
 }
 
-

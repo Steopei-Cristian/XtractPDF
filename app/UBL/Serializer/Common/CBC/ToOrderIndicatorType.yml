@@ -1,4 +1,4 @@
-UBL\Common\CBC\ToOrderIndicatorType:
+App\UBL\Common\CBC\ToOrderIndicatorType:
     properties:
         __value:
             expose: true

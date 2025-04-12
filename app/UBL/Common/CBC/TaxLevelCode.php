@@ -9,4 +9,3 @@ class TaxLevelCode extends TaxLevelCodeType
 {
 }
 
-

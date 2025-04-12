@@ -9,4 +9,3 @@ class AllowanceChargeReasonCode extends AllowanceChargeReasonCodeType
 {
 }
 
-

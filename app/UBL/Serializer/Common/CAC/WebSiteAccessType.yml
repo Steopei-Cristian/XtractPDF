@@ -1,4 +1,4 @@
-UBL\Common\CAC\WebSiteAccessType:
+App\UBL\Common\CAC\WebSiteAccessType:
     properties:
         uRI:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\WebSiteAccessType:
             accessor:
                 getter: getURI
                 setter: setURI
-            type: UBL\Common\CBC\URI
+            type: App\UBL\Common\CBC\URI
         password:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\WebSiteAccessType:
             accessor:
                 getter: getPassword
                 setter: setPassword
-            type: UBL\Common\CBC\Password
+            type: App\UBL\Common\CBC\Password
         login:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ UBL\Common\CAC\WebSiteAccessType:
             accessor:
                 getter: getLogin
                 setter: setLogin
-            type: UBL\Common\CBC\Login
+            type: App\UBL\Common\CBC\Login

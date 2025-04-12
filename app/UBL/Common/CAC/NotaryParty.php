@@ -9,4 +9,3 @@ class NotaryParty extends PartyType
 {
 }
 
-

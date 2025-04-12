@@ -1,4 +1,4 @@
-UBL\Common\CAC\CatalogueLineType:
+App\UBL\Common\CAC\CatalogueLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         actionCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getActionCode
                 setter: setActionCode
-            type: UBL\Common\CBC\ActionCode
+            type: App\UBL\Common\CBC\ActionCode
         lifeCycleStatusCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getLifeCycleStatusCode
                 setter: setLifeCycleStatusCode
-            type: UBL\Common\CBC\LifeCycleStatusCode
+            type: App\UBL\Common\CBC\LifeCycleStatusCode
         contractSubdivision:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getContractSubdivision
                 setter: setContractSubdivision
-            type: UBL\Common\CBC\ContractSubdivision
+            type: App\UBL\Common\CBC\ContractSubdivision
         note:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\CatalogueLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         orderableIndicator:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getOrderableUnit
                 setter: setOrderableUnit
-            type: UBL\Common\CBC\OrderableUnit
+            type: App\UBL\Common\CBC\OrderableUnit
         contentUnitQuantity:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getContentUnitQuantity
                 setter: setContentUnitQuantity
-            type: UBL\Common\CBC\ContentUnitQuantity
+            type: App\UBL\Common\CBC\ContentUnitQuantity
         orderQuantityIncrementNumeric:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getOrderQuantityIncrementNumeric
                 setter: setOrderQuantityIncrementNumeric
-            type: UBL\Common\CBC\OrderQuantityIncrementNumeric
+            type: App\UBL\Common\CBC\OrderQuantityIncrementNumeric
         minimumOrderQuantity:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getMinimumOrderQuantity
                 setter: setMinimumOrderQuantity
-            type: UBL\Common\CBC\MinimumOrderQuantity
+            type: App\UBL\Common\CBC\MinimumOrderQuantity
         maximumOrderQuantity:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getMaximumOrderQuantity
                 setter: setMaximumOrderQuantity
-            type: UBL\Common\CBC\MaximumOrderQuantity
+            type: App\UBL\Common\CBC\MaximumOrderQuantity
         warrantyInformation:
             expose: true
             access_type: public_method
@@ -127,7 +127,7 @@ UBL\Common\CAC\CatalogueLineType:
                 inline: true
                 entry_name: WarrantyInformation
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\WarrantyInformation>
+            type: array<App\UBL\Common\CBC\WarrantyInformation>
         packLevelCode:
             expose: true
             access_type: public_method
@@ -137,7 +137,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getPackLevelCode
                 setter: setPackLevelCode
-            type: UBL\Common\CBC\PackLevelCode
+            type: App\UBL\Common\CBC\PackLevelCode
         contractorCustomerParty:
             expose: true
             access_type: public_method
@@ -147,7 +147,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getContractorCustomerParty
                 setter: setContractorCustomerParty
-            type: UBL\Common\CAC\ContractorCustomerParty
+            type: App\UBL\Common\CAC\ContractorCustomerParty
         sellerSupplierParty:
             expose: true
             access_type: public_method
@@ -157,7 +157,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getSellerSupplierParty
                 setter: setSellerSupplierParty
-            type: UBL\Common\CAC\SellerSupplierParty
+            type: App\UBL\Common\CAC\SellerSupplierParty
         warrantyParty:
             expose: true
             access_type: public_method
@@ -167,7 +167,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getWarrantyParty
                 setter: setWarrantyParty
-            type: UBL\Common\CAC\WarrantyParty
+            type: App\UBL\Common\CAC\WarrantyParty
         warrantyValidityPeriod:
             expose: true
             access_type: public_method
@@ -177,7 +177,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getWarrantyValidityPeriod
                 setter: setWarrantyValidityPeriod
-            type: UBL\Common\CAC\WarrantyValidityPeriod
+            type: App\UBL\Common\CAC\WarrantyValidityPeriod
         lineValidityPeriod:
             expose: true
             access_type: public_method
@@ -187,7 +187,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getLineValidityPeriod
                 setter: setLineValidityPeriod
-            type: UBL\Common\CAC\LineValidityPeriod
+            type: App\UBL\Common\CAC\LineValidityPeriod
         itemComparison:
             expose: true
             access_type: public_method
@@ -201,7 +201,7 @@ UBL\Common\CAC\CatalogueLineType:
                 inline: true
                 entry_name: ItemComparison
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ItemComparison>
+            type: array<App\UBL\Common\CAC\ItemComparison>
         componentRelatedItem:
             expose: true
             access_type: public_method
@@ -215,7 +215,7 @@ UBL\Common\CAC\CatalogueLineType:
                 inline: true
                 entry_name: ComponentRelatedItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ComponentRelatedItem>
+            type: array<App\UBL\Common\CAC\ComponentRelatedItem>
         accessoryRelatedItem:
             expose: true
             access_type: public_method
@@ -229,7 +229,7 @@ UBL\Common\CAC\CatalogueLineType:
                 inline: true
                 entry_name: AccessoryRelatedItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AccessoryRelatedItem>
+            type: array<App\UBL\Common\CAC\AccessoryRelatedItem>
         requiredRelatedItem:
             expose: true
             access_type: public_method
@@ -243,7 +243,7 @@ UBL\Common\CAC\CatalogueLineType:
                 inline: true
                 entry_name: RequiredRelatedItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\RequiredRelatedItem>
+            type: array<App\UBL\Common\CAC\RequiredRelatedItem>
         replacementRelatedItem:
             expose: true
             access_type: public_method
@@ -257,7 +257,7 @@ UBL\Common\CAC\CatalogueLineType:
                 inline: true
                 entry_name: ReplacementRelatedItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ReplacementRelatedItem>
+            type: array<App\UBL\Common\CAC\ReplacementRelatedItem>
         complementaryRelatedItem:
             expose: true
             access_type: public_method
@@ -271,7 +271,7 @@ UBL\Common\CAC\CatalogueLineType:
                 inline: true
                 entry_name: ComplementaryRelatedItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ComplementaryRelatedItem>
+            type: array<App\UBL\Common\CAC\ComplementaryRelatedItem>
         replacedRelatedItem:
             expose: true
             access_type: public_method
@@ -285,7 +285,7 @@ UBL\Common\CAC\CatalogueLineType:
                 inline: true
                 entry_name: ReplacedRelatedItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ReplacedRelatedItem>
+            type: array<App\UBL\Common\CAC\ReplacedRelatedItem>
         requiredItemLocationQuantity:
             expose: true
             access_type: public_method
@@ -299,7 +299,7 @@ UBL\Common\CAC\CatalogueLineType:
                 inline: true
                 entry_name: RequiredItemLocationQuantity
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\RequiredItemLocationQuantity>
+            type: array<App\UBL\Common\CAC\RequiredItemLocationQuantity>
         documentReference:
             expose: true
             access_type: public_method
@@ -313,7 +313,7 @@ UBL\Common\CAC\CatalogueLineType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>
         item:
             expose: true
             access_type: public_method
@@ -323,7 +323,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getItem
                 setter: setItem
-            type: UBL\Common\CAC\Item
+            type: App\UBL\Common\CAC\Item
         keywordItemProperty:
             expose: true
             access_type: public_method
@@ -337,7 +337,7 @@ UBL\Common\CAC\CatalogueLineType:
                 inline: true
                 entry_name: KeywordItemProperty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\KeywordItemProperty>
+            type: array<App\UBL\Common\CAC\KeywordItemProperty>
         callForTendersLineReference:
             expose: true
             access_type: public_method
@@ -347,7 +347,7 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getCallForTendersLineReference
                 setter: setCallForTendersLineReference
-            type: UBL\Common\CAC\CallForTendersLineReference
+            type: App\UBL\Common\CAC\CallForTendersLineReference
         callForTendersDocumentReference:
             expose: true
             access_type: public_method
@@ -357,4 +357,4 @@ UBL\Common\CAC\CatalogueLineType:
             accessor:
                 getter: getCallForTendersDocumentReference
                 setter: setCallForTendersDocumentReference
-            type: UBL\Common\CAC\CallForTendersDocumentReference
+            type: App\UBL\Common\CAC\CallForTendersDocumentReference

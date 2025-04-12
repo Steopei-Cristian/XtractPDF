@@ -9,4 +9,3 @@ class HeatingType extends HeatingTypeType
 {
 }
 
-

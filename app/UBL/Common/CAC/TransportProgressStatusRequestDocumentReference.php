@@ -9,4 +9,3 @@ class TransportProgressStatusRequestDocumentReference extends DocumentReferenceT
 {
 }
 
-

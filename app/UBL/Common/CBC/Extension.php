@@ -9,4 +9,3 @@ class Extension extends ExtensionType
 {
 }
 
-

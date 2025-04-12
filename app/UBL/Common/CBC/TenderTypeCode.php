@@ -9,4 +9,3 @@ class TenderTypeCode extends TenderTypeCodeType
 {
 }
 
-

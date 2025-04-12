@@ -24,7 +24,7 @@ class ConsumptionHistoryType
      *  Text. Type
      *  61722x
      *
-     * @var \UBL\Common\CBC\MeterNumber $meterNumber
+     * @var \App\UBL\Common\CBC\MeterNumber $meterNumber
      */
     private $meterNumber = null;
 
@@ -39,7 +39,7 @@ class ConsumptionHistoryType
      *  Quantity. Type
      *  7621.00
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -53,7 +53,7 @@ class ConsumptionHistoryType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\Amount $amount
+     * @var \App\UBL\Common\CBC\Amount $amount
      */
     private $amount = null;
 
@@ -68,7 +68,7 @@ class ConsumptionHistoryType
      *  Code. Type
      *  B
      *
-     * @var \UBL\Common\CBC\ConsumptionLevelCode $consumptionLevelCode
+     * @var \App\UBL\Common\CBC\ConsumptionLevelCode $consumptionLevelCode
      */
     private $consumptionLevelCode = null;
 
@@ -83,7 +83,7 @@ class ConsumptionHistoryType
      *  Text. Type
      *  Average
      *
-     * @var \UBL\Common\CBC\ConsumptionLevel $consumptionLevel
+     * @var \App\UBL\Common\CBC\ConsumptionLevel $consumptionLevel
      */
     private $consumptionLevel = null;
 
@@ -98,7 +98,7 @@ class ConsumptionHistoryType
      *  Text. Type
      *  2004/2005
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -114,7 +114,7 @@ class ConsumptionHistoryType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\Period $period
+     * @var \App\UBL\Common\CAC\Period $period
      */
     private $period = null;
 
@@ -131,7 +131,7 @@ class ConsumptionHistoryType
      *  Text. Type
      *  61722x
      *
-     * @return \UBL\Common\CBC\MeterNumber
+     * @return \App\UBL\Common\CBC\MeterNumber
      */
     public function getMeterNumber()
     {
@@ -151,10 +151,10 @@ class ConsumptionHistoryType
      *  Text. Type
      *  61722x
      *
-     * @param \UBL\Common\CBC\MeterNumber $meterNumber
+     * @param \App\UBL\Common\CBC\MeterNumber $meterNumber
      * @return self
      */
-    public function setMeterNumber(?\UBL\Common\CBC\MeterNumber $meterNumber = null)
+    public function setMeterNumber(?\App\UBL\Common\CBC\MeterNumber $meterNumber = null)
     {
         $this->meterNumber = $meterNumber;
         return $this;
@@ -173,7 +173,7 @@ class ConsumptionHistoryType
      *  Quantity. Type
      *  7621.00
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -193,10 +193,10 @@ class ConsumptionHistoryType
      *  Quantity. Type
      *  7621.00
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(\UBL\Common\CBC\Quantity $quantity)
+    public function setQuantity(\App\UBL\Common\CBC\Quantity $quantity)
     {
         $this->quantity = $quantity;
         return $this;
@@ -214,7 +214,7 @@ class ConsumptionHistoryType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\Amount
+     * @return \App\UBL\Common\CBC\Amount
      */
     public function getAmount()
     {
@@ -233,10 +233,10 @@ class ConsumptionHistoryType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\Amount $amount
+     * @param \App\UBL\Common\CBC\Amount $amount
      * @return self
      */
-    public function setAmount(?\UBL\Common\CBC\Amount $amount = null)
+    public function setAmount(?\App\UBL\Common\CBC\Amount $amount = null)
     {
         $this->amount = $amount;
         return $this;
@@ -255,7 +255,7 @@ class ConsumptionHistoryType
      *  Code. Type
      *  B
      *
-     * @return \UBL\Common\CBC\ConsumptionLevelCode
+     * @return \App\UBL\Common\CBC\ConsumptionLevelCode
      */
     public function getConsumptionLevelCode()
     {
@@ -275,10 +275,10 @@ class ConsumptionHistoryType
      *  Code. Type
      *  B
      *
-     * @param \UBL\Common\CBC\ConsumptionLevelCode $consumptionLevelCode
+     * @param \App\UBL\Common\CBC\ConsumptionLevelCode $consumptionLevelCode
      * @return self
      */
-    public function setConsumptionLevelCode(?\UBL\Common\CBC\ConsumptionLevelCode $consumptionLevelCode = null)
+    public function setConsumptionLevelCode(?\App\UBL\Common\CBC\ConsumptionLevelCode $consumptionLevelCode = null)
     {
         $this->consumptionLevelCode = $consumptionLevelCode;
         return $this;
@@ -297,7 +297,7 @@ class ConsumptionHistoryType
      *  Text. Type
      *  Average
      *
-     * @return \UBL\Common\CBC\ConsumptionLevel
+     * @return \App\UBL\Common\CBC\ConsumptionLevel
      */
     public function getConsumptionLevel()
     {
@@ -317,10 +317,10 @@ class ConsumptionHistoryType
      *  Text. Type
      *  Average
      *
-     * @param \UBL\Common\CBC\ConsumptionLevel $consumptionLevel
+     * @param \App\UBL\Common\CBC\ConsumptionLevel $consumptionLevel
      * @return self
      */
-    public function setConsumptionLevel(?\UBL\Common\CBC\ConsumptionLevel $consumptionLevel = null)
+    public function setConsumptionLevel(?\App\UBL\Common\CBC\ConsumptionLevel $consumptionLevel = null)
     {
         $this->consumptionLevel = $consumptionLevel;
         return $this;
@@ -340,9 +340,9 @@ class ConsumptionHistoryType
      *  2004/2005
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -403,7 +403,7 @@ class ConsumptionHistoryType
      *  Text. Type
      *  2004/2005
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -423,7 +423,7 @@ class ConsumptionHistoryType
      *  Text. Type
      *  2004/2005
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -444,7 +444,7 @@ class ConsumptionHistoryType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\Period
+     * @return \App\UBL\Common\CAC\Period
      */
     public function getPeriod()
     {
@@ -463,14 +463,13 @@ class ConsumptionHistoryType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\Period $period
+     * @param \App\UBL\Common\CAC\Period $period
      * @return self
      */
-    public function setPeriod(\UBL\Common\CAC\Period $period)
+    public function setPeriod(\App\UBL\Common\CAC\Period $period)
     {
         $this->period = $period;
         return $this;
     }
 }
-
 

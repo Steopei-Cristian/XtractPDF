@@ -9,4 +9,3 @@ class AdditionalStreetName extends AdditionalStreetNameType
 {
 }
 
-

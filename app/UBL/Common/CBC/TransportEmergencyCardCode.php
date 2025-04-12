@@ -9,4 +9,3 @@ class TransportEmergencyCardCode extends TransportEmergencyCardCodeType
 {
 }
 
-

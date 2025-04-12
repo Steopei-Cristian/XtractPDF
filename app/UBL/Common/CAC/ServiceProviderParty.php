@@ -9,4 +9,3 @@ class ServiceProviderParty extends ServiceProviderPartyType
 {
 }
 
-

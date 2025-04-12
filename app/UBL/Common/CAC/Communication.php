@@ -9,4 +9,3 @@ class Communication extends CommunicationType
 {
 }
 
-

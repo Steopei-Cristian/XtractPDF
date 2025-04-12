@@ -1,4 +1,4 @@
-UBL\XAdES\v132\CompleteRevocationRefsType:
+App\UBL\XAdES\v132\CompleteRevocationRefsType:
     properties:
         id:
             expose: true
@@ -18,7 +18,7 @@ UBL\XAdES\v132\CompleteRevocationRefsType:
             accessor:
                 getter: getCRLRefs
                 setter: setCRLRefs
-            type: array<UBL\XAdES\v132\CRLRefType>
+            type: array<App\UBL\XAdES\v132\CRLRefType>
             xml_list:
                 inline: false
                 entry_name: CRLRef
@@ -33,7 +33,7 @@ UBL\XAdES\v132\CompleteRevocationRefsType:
             accessor:
                 getter: getOCSPRefs
                 setter: setOCSPRefs
-            type: array<UBL\XAdES\v132\OCSPRefType>
+            type: array<App\UBL\XAdES\v132\OCSPRefType>
             xml_list:
                 inline: false
                 entry_name: OCSPRef
@@ -48,7 +48,7 @@ UBL\XAdES\v132\CompleteRevocationRefsType:
             accessor:
                 getter: getOtherRefs
                 setter: setOtherRefs
-            type: array<UBL\XAdES\v132\AnyType>
+            type: array<App\UBL\XAdES\v132\AnyType>
             xml_list:
                 inline: false
                 entry_name: OtherRef

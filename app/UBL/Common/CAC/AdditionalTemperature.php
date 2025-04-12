@@ -9,4 +9,3 @@ class AdditionalTemperature extends TemperatureType
 {
 }
 
-

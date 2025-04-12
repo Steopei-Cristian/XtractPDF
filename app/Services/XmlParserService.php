@@ -12,7 +12,7 @@ class XmlParserService
 
     public function __construct()
     {
-        $this->serializer = SerializerBuilder::create()->build();
+        $this->serializer = SerializerBuilder::create()->addMetadataDir(base_path('app/UBL/Serializer'), 'App\\UBL')->build();
     }
 
     public function parseXmlFile(string $filePath): Invoice
@@ -20,8 +20,11 @@ class XmlParserService
         if (!file_exists($filePath)) {
             throw new \RuntimeException("XML file not found at path: {$filePath}");
         }
-
+        Log::info("filepath:");
+        Log::info($filePath);
         $xml = file_get_contents($filePath);
+        Log::info("xml:");
+        Log::info($xml);
         return $this->parseXml($xml);
     }
 
@@ -29,7 +32,11 @@ class XmlParserService
     {
         try {
             $invoice = $this->serializer->deserialize($xmlContent, Invoice::class, 'xml');
+            //dd($invoice);
+            Log::info("ID:");
             Log::info($invoice->getID());
+            Log::info("Issue Date");
+            Log::info($invoice->getIssueDate());
 
             /*Log::info('Invoice parsed successfully', [
                 'invoice_id' => $invoice->getId(),

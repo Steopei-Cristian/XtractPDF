@@ -9,4 +9,3 @@ class Department extends DepartmentType
 {
 }
 
-

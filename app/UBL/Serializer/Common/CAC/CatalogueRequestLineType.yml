@@ -1,4 +1,4 @@
-UBL\Common\CAC\CatalogueRequestLineType:
+App\UBL\Common\CAC\CatalogueRequestLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CatalogueRequestLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         contractSubdivision:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\CatalogueRequestLineType:
             accessor:
                 getter: getContractSubdivision
                 setter: setContractSubdivision
-            type: UBL\Common\CBC\ContractSubdivision
+            type: App\UBL\Common\CBC\ContractSubdivision
         note:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\CatalogueRequestLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         lineValidityPeriod:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\CatalogueRequestLineType:
             accessor:
                 getter: getLineValidityPeriod
                 setter: setLineValidityPeriod
-            type: UBL\Common\CAC\LineValidityPeriod
+            type: App\UBL\Common\CAC\LineValidityPeriod
         requiredItemLocationQuantity:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\CatalogueRequestLineType:
                 inline: true
                 entry_name: RequiredItemLocationQuantity
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\RequiredItemLocationQuantity>
+            type: array<App\UBL\Common\CAC\RequiredItemLocationQuantity>
         item:
             expose: true
             access_type: public_method
@@ -67,4 +67,4 @@ UBL\Common\CAC\CatalogueRequestLineType:
             accessor:
                 getter: getItem
                 setter: setItem
-            type: UBL\Common\CAC\Item
+            type: App\UBL\Common\CAC\Item

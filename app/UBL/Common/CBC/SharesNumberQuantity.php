@@ -9,4 +9,3 @@ class SharesNumberQuantity extends SharesNumberQuantityType
 {
 }
 
-

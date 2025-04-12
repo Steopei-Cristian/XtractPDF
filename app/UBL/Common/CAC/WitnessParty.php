@@ -9,4 +9,3 @@ class WitnessParty extends PartyType
 {
 }
 
-

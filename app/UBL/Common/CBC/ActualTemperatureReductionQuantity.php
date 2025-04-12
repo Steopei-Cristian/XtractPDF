@@ -9,4 +9,3 @@ class ActualTemperatureReductionQuantity extends ActualTemperatureReductionQuant
 {
 }
 
-

@@ -9,4 +9,3 @@ class TaxTotal extends TaxTotalType
 {
 }
 
-

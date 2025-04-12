@@ -1,4 +1,4 @@
-UBL\Common\CAC\MeterReadingType:
+App\UBL\Common\CAC\MeterReadingType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\MeterReadingType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         meterReadingType:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\MeterReadingType:
             accessor:
                 getter: getMeterReadingType
                 setter: setMeterReadingType
-            type: UBL\Common\CBC\MeterReadingType
+            type: App\UBL\Common\CBC\MeterReadingType
         meterReadingTypeCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\MeterReadingType:
             accessor:
                 getter: getMeterReadingTypeCode
                 setter: setMeterReadingTypeCode
-            type: UBL\Common\CBC\MeterReadingTypeCode
+            type: App\UBL\Common\CBC\MeterReadingTypeCode
         previousMeterReadingDate:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\MeterReadingType:
             accessor:
                 getter: getPreviousMeterQuantity
                 setter: setPreviousMeterQuantity
-            type: UBL\Common\CBC\PreviousMeterQuantity
+            type: App\UBL\Common\CBC\PreviousMeterQuantity
         latestMeterReadingDate:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\MeterReadingType:
             accessor:
                 getter: getLatestMeterQuantity
                 setter: setLatestMeterQuantity
-            type: UBL\Common\CBC\LatestMeterQuantity
+            type: App\UBL\Common\CBC\LatestMeterQuantity
         previousMeterReadingMethod:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\CAC\MeterReadingType:
             accessor:
                 getter: getPreviousMeterReadingMethod
                 setter: setPreviousMeterReadingMethod
-            type: UBL\Common\CBC\PreviousMeterReadingMethod
+            type: App\UBL\Common\CBC\PreviousMeterReadingMethod
         previousMeterReadingMethodCode:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ UBL\Common\CAC\MeterReadingType:
             accessor:
                 getter: getPreviousMeterReadingMethodCode
                 setter: setPreviousMeterReadingMethodCode
-            type: UBL\Common\CBC\PreviousMeterReadingMethodCode
+            type: App\UBL\Common\CBC\PreviousMeterReadingMethodCode
         latestMeterReadingMethod:
             expose: true
             access_type: public_method
@@ -99,7 +99,7 @@ UBL\Common\CAC\MeterReadingType:
             accessor:
                 getter: getLatestMeterReadingMethod
                 setter: setLatestMeterReadingMethod
-            type: UBL\Common\CBC\LatestMeterReadingMethod
+            type: App\UBL\Common\CBC\LatestMeterReadingMethod
         latestMeterReadingMethodCode:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ UBL\Common\CAC\MeterReadingType:
             accessor:
                 getter: getLatestMeterReadingMethodCode
                 setter: setLatestMeterReadingMethodCode
-            type: UBL\Common\CBC\LatestMeterReadingMethodCode
+            type: App\UBL\Common\CBC\LatestMeterReadingMethodCode
         meterReadingComments:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ UBL\Common\CAC\MeterReadingType:
                 inline: true
                 entry_name: MeterReadingComments
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\MeterReadingComments>
+            type: array<App\UBL\Common\CBC\MeterReadingComments>
         deliveredQuantity:
             expose: true
             access_type: public_method
@@ -133,4 +133,4 @@ UBL\Common\CAC\MeterReadingType:
             accessor:
                 getter: getDeliveredQuantity
                 setter: setDeliveredQuantity
-            type: UBL\Common\CBC\DeliveredQuantity
+            type: App\UBL\Common\CBC\DeliveredQuantity

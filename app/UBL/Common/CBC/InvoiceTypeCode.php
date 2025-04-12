@@ -9,4 +9,3 @@ class InvoiceTypeCode extends InvoiceTypeCodeType
 {
 }
 
-

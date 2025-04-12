@@ -1,4 +1,4 @@
-UBL\Unqualified\TimeType:
+App\UBL\Unqualified\TimeType:
     properties:
         __value:
             expose: true

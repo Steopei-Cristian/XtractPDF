@@ -9,4 +9,3 @@ class LatitudeMinutesMeasure extends LatitudeMinutesMeasureType
 {
 }
 
-

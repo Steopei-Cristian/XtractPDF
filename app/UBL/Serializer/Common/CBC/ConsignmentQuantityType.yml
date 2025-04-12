@@ -1,2 +1,2 @@
-UBL\Common\CBC\ConsignmentQuantityType:
+App\UBL\Common\CBC\ConsignmentQuantityType:
     properties: {  }

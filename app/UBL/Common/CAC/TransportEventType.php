@@ -23,7 +23,7 @@ class TransportEventType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\IdentificationID $identificationID
+     * @var \App\UBL\Common\CBC\IdentificationID $identificationID
      */
     private $identificationID = null;
 
@@ -65,7 +65,7 @@ class TransportEventType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TransportEventTypeCode $transportEventTypeCode
+     * @var \App\UBL\Common\CBC\TransportEventTypeCode $transportEventTypeCode
      */
     private $transportEventTypeCode = null;
 
@@ -79,7 +79,7 @@ class TransportEventType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -111,7 +111,7 @@ class TransportEventType
      *  Shipment
      *  Shipment
      *
-     * @var \UBL\Common\CAC\ReportedShipment $reportedShipment
+     * @var \App\UBL\Common\CAC\ReportedShipment $reportedShipment
      */
     private $reportedShipment = null;
 
@@ -126,7 +126,7 @@ class TransportEventType
      *  Status
      *  Status
      *
-     * @var \UBL\Common\CAC\CurrentStatus[] $currentStatus
+     * @var \App\UBL\Common\CAC\CurrentStatus[] $currentStatus
      */
     private $currentStatus = [
         
@@ -142,7 +142,7 @@ class TransportEventType
      *  Contact
      *  Contact
      *
-     * @var \UBL\Common\CAC\Contact[] $contact
+     * @var \App\UBL\Common\CAC\Contact[] $contact
      */
     private $contact = [
         
@@ -158,7 +158,7 @@ class TransportEventType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\Location $location
+     * @var \App\UBL\Common\CAC\Location $location
      */
     private $location = null;
 
@@ -172,7 +172,7 @@ class TransportEventType
      *  Signature
      *  Signature
      *
-     * @var \UBL\Common\CAC\Signature $signature
+     * @var \App\UBL\Common\CAC\Signature $signature
      */
     private $signature = null;
 
@@ -186,7 +186,7 @@ class TransportEventType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\Period[] $period
+     * @var \App\UBL\Common\CAC\Period[] $period
      */
     private $period = [
         
@@ -204,7 +204,7 @@ class TransportEventType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\IdentificationID
+     * @return \App\UBL\Common\CBC\IdentificationID
      */
     public function getIdentificationID()
     {
@@ -223,10 +223,10 @@ class TransportEventType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\IdentificationID $identificationID
+     * @param \App\UBL\Common\CBC\IdentificationID $identificationID
      * @return self
      */
-    public function setIdentificationID(?\UBL\Common\CBC\IdentificationID $identificationID = null)
+    public function setIdentificationID(?\App\UBL\Common\CBC\IdentificationID $identificationID = null)
     {
         $this->identificationID = $identificationID;
         return $this;
@@ -324,7 +324,7 @@ class TransportEventType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TransportEventTypeCode
+     * @return \App\UBL\Common\CBC\TransportEventTypeCode
      */
     public function getTransportEventTypeCode()
     {
@@ -343,10 +343,10 @@ class TransportEventType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TransportEventTypeCode $transportEventTypeCode
+     * @param \App\UBL\Common\CBC\TransportEventTypeCode $transportEventTypeCode
      * @return self
      */
-    public function setTransportEventTypeCode(?\UBL\Common\CBC\TransportEventTypeCode $transportEventTypeCode = null)
+    public function setTransportEventTypeCode(?\App\UBL\Common\CBC\TransportEventTypeCode $transportEventTypeCode = null)
     {
         $this->transportEventTypeCode = $transportEventTypeCode;
         return $this;
@@ -365,9 +365,9 @@ class TransportEventType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -425,7 +425,7 @@ class TransportEventType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -444,7 +444,7 @@ class TransportEventType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -508,7 +508,7 @@ class TransportEventType
      *  Shipment
      *  Shipment
      *
-     * @return \UBL\Common\CAC\ReportedShipment
+     * @return \App\UBL\Common\CAC\ReportedShipment
      */
     public function getReportedShipment()
     {
@@ -528,10 +528,10 @@ class TransportEventType
      *  Shipment
      *  Shipment
      *
-     * @param \UBL\Common\CAC\ReportedShipment $reportedShipment
+     * @param \App\UBL\Common\CAC\ReportedShipment $reportedShipment
      * @return self
      */
-    public function setReportedShipment(?\UBL\Common\CAC\ReportedShipment $reportedShipment = null)
+    public function setReportedShipment(?\App\UBL\Common\CAC\ReportedShipment $reportedShipment = null)
     {
         $this->reportedShipment = $reportedShipment;
         return $this;
@@ -551,9 +551,9 @@ class TransportEventType
      *  Status
      *
      * @return self
-     * @param \UBL\Common\CAC\CurrentStatus $currentStatus
+     * @param \App\UBL\Common\CAC\CurrentStatus $currentStatus
      */
-    public function addToCurrentStatus(\UBL\Common\CAC\CurrentStatus $currentStatus)
+    public function addToCurrentStatus(\App\UBL\Common\CAC\CurrentStatus $currentStatus)
     {
         $this->currentStatus[] = $currentStatus;
         return $this;
@@ -614,7 +614,7 @@ class TransportEventType
      *  Status
      *  Status
      *
-     * @return \UBL\Common\CAC\CurrentStatus[]
+     * @return \App\UBL\Common\CAC\CurrentStatus[]
      */
     public function getCurrentStatus()
     {
@@ -634,7 +634,7 @@ class TransportEventType
      *  Status
      *  Status
      *
-     * @param \UBL\Common\CAC\CurrentStatus[] $currentStatus
+     * @param \App\UBL\Common\CAC\CurrentStatus[] $currentStatus
      * @return self
      */
     public function setCurrentStatus(?array $currentStatus = null)
@@ -656,9 +656,9 @@ class TransportEventType
      *  Contact
      *
      * @return self
-     * @param \UBL\Common\CAC\Contact $contact
+     * @param \App\UBL\Common\CAC\Contact $contact
      */
-    public function addToContact(\UBL\Common\CAC\Contact $contact)
+    public function addToContact(\App\UBL\Common\CAC\Contact $contact)
     {
         $this->contact[] = $contact;
         return $this;
@@ -716,7 +716,7 @@ class TransportEventType
      *  Contact
      *  Contact
      *
-     * @return \UBL\Common\CAC\Contact[]
+     * @return \App\UBL\Common\CAC\Contact[]
      */
     public function getContact()
     {
@@ -735,7 +735,7 @@ class TransportEventType
      *  Contact
      *  Contact
      *
-     * @param \UBL\Common\CAC\Contact[] $contact
+     * @param \App\UBL\Common\CAC\Contact[] $contact
      * @return self
      */
     public function setContact(?array $contact = null)
@@ -756,7 +756,7 @@ class TransportEventType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\Location
+     * @return \App\UBL\Common\CAC\Location
      */
     public function getLocation()
     {
@@ -775,10 +775,10 @@ class TransportEventType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\Location $location
+     * @param \App\UBL\Common\CAC\Location $location
      * @return self
      */
-    public function setLocation(?\UBL\Common\CAC\Location $location = null)
+    public function setLocation(?\App\UBL\Common\CAC\Location $location = null)
     {
         $this->location = $location;
         return $this;
@@ -796,7 +796,7 @@ class TransportEventType
      *  Signature
      *  Signature
      *
-     * @return \UBL\Common\CAC\Signature
+     * @return \App\UBL\Common\CAC\Signature
      */
     public function getSignature()
     {
@@ -815,10 +815,10 @@ class TransportEventType
      *  Signature
      *  Signature
      *
-     * @param \UBL\Common\CAC\Signature $signature
+     * @param \App\UBL\Common\CAC\Signature $signature
      * @return self
      */
-    public function setSignature(?\UBL\Common\CAC\Signature $signature = null)
+    public function setSignature(?\App\UBL\Common\CAC\Signature $signature = null)
     {
         $this->signature = $signature;
         return $this;
@@ -837,9 +837,9 @@ class TransportEventType
      *  Period
      *
      * @return self
-     * @param \UBL\Common\CAC\Period $period
+     * @param \App\UBL\Common\CAC\Period $period
      */
-    public function addToPeriod(\UBL\Common\CAC\Period $period)
+    public function addToPeriod(\App\UBL\Common\CAC\Period $period)
     {
         $this->period[] = $period;
         return $this;
@@ -897,7 +897,7 @@ class TransportEventType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\Period[]
+     * @return \App\UBL\Common\CAC\Period[]
      */
     public function getPeriod()
     {
@@ -916,7 +916,7 @@ class TransportEventType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\Period[] $period
+     * @param \App\UBL\Common\CAC\Period[] $period
      * @return self
      */
     public function setPeriod(?array $period = null)
@@ -925,5 +925,4 @@ class TransportEventType
         return $this;
     }
 }
-
 

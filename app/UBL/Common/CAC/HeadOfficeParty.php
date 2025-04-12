@@ -9,4 +9,3 @@ class HeadOfficeParty extends PartyType
 {
 }
 
-

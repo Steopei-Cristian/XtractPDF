@@ -9,4 +9,3 @@ class ItemManagementProfile extends ItemManagementProfileType
 {
 }
 
-

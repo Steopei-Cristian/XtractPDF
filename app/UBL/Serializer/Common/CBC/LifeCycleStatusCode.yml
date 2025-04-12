@@ -1,3 +1,3 @@
-UBL\Common\CBC\LifeCycleStatusCode:
+App\UBL\Common\CBC\LifeCycleStatusCode:
     xml_root_name: LifeCycleStatusCode
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

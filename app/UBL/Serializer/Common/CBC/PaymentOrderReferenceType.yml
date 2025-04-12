@@ -1,2 +1,2 @@
-UBL\Common\CBC\PaymentOrderReferenceType:
+App\UBL\Common\CBC\PaymentOrderReferenceType:
     properties: {  }

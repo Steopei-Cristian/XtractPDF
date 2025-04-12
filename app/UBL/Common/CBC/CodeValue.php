@@ -9,4 +9,3 @@ class CodeValue extends CodeValueType
 {
 }
 
-

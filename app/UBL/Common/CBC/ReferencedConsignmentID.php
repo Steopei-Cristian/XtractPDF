@@ -9,4 +9,3 @@ class ReferencedConsignmentID extends ReferencedConsignmentIDType
 {
 }
 
-

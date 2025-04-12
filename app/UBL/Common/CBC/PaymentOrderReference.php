@@ -9,4 +9,3 @@ class PaymentOrderReference extends PaymentOrderReferenceType
 {
 }
 
-

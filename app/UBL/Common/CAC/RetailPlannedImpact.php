@@ -9,4 +9,3 @@ class RetailPlannedImpact extends RetailPlannedImpactType
 {
 }
 
-

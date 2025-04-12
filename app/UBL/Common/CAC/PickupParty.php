@@ -9,4 +9,3 @@ class PickupParty extends PartyType
 {
 }
 
-

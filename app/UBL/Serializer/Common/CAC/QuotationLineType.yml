@@ -1,4 +1,4 @@
-UBL\Common\CAC\QuotationLineType:
+App\UBL\Common\CAC\QuotationLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\QuotationLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         note:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\QuotationLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         quantity:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\QuotationLineType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         lineExtensionAmount:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\QuotationLineType:
             accessor:
                 getter: getLineExtensionAmount
                 setter: setLineExtensionAmount
-            type: UBL\Common\CBC\LineExtensionAmount
+            type: App\UBL\Common\CBC\LineExtensionAmount
         totalTaxAmount:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\QuotationLineType:
             accessor:
                 getter: getTotalTaxAmount
                 setter: setTotalTaxAmount
-            type: UBL\Common\CBC\TotalTaxAmount
+            type: App\UBL\Common\CBC\TotalTaxAmount
         requestForQuotationLineID:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\QuotationLineType:
             accessor:
                 getter: getRequestForQuotationLineID
                 setter: setRequestForQuotationLineID
-            type: UBL\Common\CBC\RequestForQuotationLineID
+            type: App\UBL\Common\CBC\RequestForQuotationLineID
         documentReference:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\QuotationLineType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>
         lineItem:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\QuotationLineType:
             accessor:
                 getter: getLineItem
                 setter: setLineItem
-            type: UBL\Common\CAC\LineItem
+            type: App\UBL\Common\CAC\LineItem
         sellerProposedSubstituteLineItem:
             expose: true
             access_type: public_method
@@ -101,7 +101,7 @@ UBL\Common\CAC\QuotationLineType:
                 inline: true
                 entry_name: SellerProposedSubstituteLineItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SellerProposedSubstituteLineItem>
+            type: array<App\UBL\Common\CAC\SellerProposedSubstituteLineItem>
         alternativeLineItem:
             expose: true
             access_type: public_method
@@ -115,7 +115,7 @@ UBL\Common\CAC\QuotationLineType:
                 inline: true
                 entry_name: AlternativeLineItem
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AlternativeLineItem>
+            type: array<App\UBL\Common\CAC\AlternativeLineItem>
         requestLineReference:
             expose: true
             access_type: public_method
@@ -125,4 +125,4 @@ UBL\Common\CAC\QuotationLineType:
             accessor:
                 getter: getRequestLineReference
                 setter: setRequestLineReference
-            type: UBL\Common\CAC\RequestLineReference
+            type: App\UBL\Common\CAC\RequestLineReference

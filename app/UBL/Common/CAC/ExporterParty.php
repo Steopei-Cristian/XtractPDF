@@ -9,4 +9,3 @@ class ExporterParty extends PartyType
 {
 }
 
-

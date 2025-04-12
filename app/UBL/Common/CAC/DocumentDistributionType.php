@@ -24,7 +24,7 @@ class DocumentDistributionType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\PrintQualifier $printQualifier
+     * @var \App\UBL\Common\CBC\PrintQualifier $printQualifier
      */
     private $printQualifier = null;
 
@@ -39,7 +39,7 @@ class DocumentDistributionType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\MaximumCopiesNumeric $maximumCopiesNumeric
+     * @var \App\UBL\Common\CBC\MaximumCopiesNumeric $maximumCopiesNumeric
      */
     private $maximumCopiesNumeric = null;
 
@@ -53,7 +53,7 @@ class DocumentDistributionType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\Party $party
+     * @var \App\UBL\Common\CAC\Party $party
      */
     private $party = null;
 
@@ -70,7 +70,7 @@ class DocumentDistributionType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\PrintQualifier
+     * @return \App\UBL\Common\CBC\PrintQualifier
      */
     public function getPrintQualifier()
     {
@@ -90,10 +90,10 @@ class DocumentDistributionType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\PrintQualifier $printQualifier
+     * @param \App\UBL\Common\CBC\PrintQualifier $printQualifier
      * @return self
      */
-    public function setPrintQualifier(\UBL\Common\CBC\PrintQualifier $printQualifier)
+    public function setPrintQualifier(\App\UBL\Common\CBC\PrintQualifier $printQualifier)
     {
         $this->printQualifier = $printQualifier;
         return $this;
@@ -112,7 +112,7 @@ class DocumentDistributionType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\MaximumCopiesNumeric
+     * @return \App\UBL\Common\CBC\MaximumCopiesNumeric
      */
     public function getMaximumCopiesNumeric()
     {
@@ -132,10 +132,10 @@ class DocumentDistributionType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\MaximumCopiesNumeric $maximumCopiesNumeric
+     * @param \App\UBL\Common\CBC\MaximumCopiesNumeric $maximumCopiesNumeric
      * @return self
      */
-    public function setMaximumCopiesNumeric(\UBL\Common\CBC\MaximumCopiesNumeric $maximumCopiesNumeric)
+    public function setMaximumCopiesNumeric(\App\UBL\Common\CBC\MaximumCopiesNumeric $maximumCopiesNumeric)
     {
         $this->maximumCopiesNumeric = $maximumCopiesNumeric;
         return $this;
@@ -153,7 +153,7 @@ class DocumentDistributionType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\Party
+     * @return \App\UBL\Common\CAC\Party
      */
     public function getParty()
     {
@@ -172,14 +172,13 @@ class DocumentDistributionType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\Party $party
+     * @param \App\UBL\Common\CAC\Party $party
      * @return self
      */
-    public function setParty(\UBL\Common\CAC\Party $party)
+    public function setParty(\App\UBL\Common\CAC\Party $party)
     {
         $this->party = $party;
         return $this;
     }
 }
-
 

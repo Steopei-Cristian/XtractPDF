@@ -1,4 +1,4 @@
-UBL\Common\CAC\DespatchType:
+App\UBL\Common\CAC\DespatchType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\DespatchType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         requestedDespatchDate:
             expose: true
             access_type: public_method
@@ -99,7 +99,7 @@ UBL\Common\CAC\DespatchType:
             accessor:
                 getter: getReleaseID
                 setter: setReleaseID
-            type: UBL\Common\CBC\ReleaseID
+            type: App\UBL\Common\CBC\ReleaseID
         instructions:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\DespatchType:
                 inline: true
                 entry_name: Instructions
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Instructions>
+            type: array<App\UBL\Common\CBC\Instructions>
         despatchAddress:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ UBL\Common\CAC\DespatchType:
             accessor:
                 getter: getDespatchAddress
                 setter: setDespatchAddress
-            type: UBL\Common\CAC\DespatchAddress
+            type: App\UBL\Common\CAC\DespatchAddress
         despatchLocation:
             expose: true
             access_type: public_method
@@ -133,7 +133,7 @@ UBL\Common\CAC\DespatchType:
             accessor:
                 getter: getDespatchLocation
                 setter: setDespatchLocation
-            type: UBL\Common\CAC\DespatchLocation
+            type: App\UBL\Common\CAC\DespatchLocation
         despatchParty:
             expose: true
             access_type: public_method
@@ -143,7 +143,7 @@ UBL\Common\CAC\DespatchType:
             accessor:
                 getter: getDespatchParty
                 setter: setDespatchParty
-            type: UBL\Common\CAC\DespatchParty
+            type: App\UBL\Common\CAC\DespatchParty
         carrierParty:
             expose: true
             access_type: public_method
@@ -153,7 +153,7 @@ UBL\Common\CAC\DespatchType:
             accessor:
                 getter: getCarrierParty
                 setter: setCarrierParty
-            type: UBL\Common\CAC\CarrierParty
+            type: App\UBL\Common\CAC\CarrierParty
         notifyParty:
             expose: true
             access_type: public_method
@@ -167,7 +167,7 @@ UBL\Common\CAC\DespatchType:
                 inline: true
                 entry_name: NotifyParty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\NotifyParty>
+            type: array<App\UBL\Common\CAC\NotifyParty>
         contact:
             expose: true
             access_type: public_method
@@ -177,7 +177,7 @@ UBL\Common\CAC\DespatchType:
             accessor:
                 getter: getContact
                 setter: setContact
-            type: UBL\Common\CAC\Contact
+            type: App\UBL\Common\CAC\Contact
         estimatedDespatchPeriod:
             expose: true
             access_type: public_method
@@ -187,7 +187,7 @@ UBL\Common\CAC\DespatchType:
             accessor:
                 getter: getEstimatedDespatchPeriod
                 setter: setEstimatedDespatchPeriod
-            type: UBL\Common\CAC\EstimatedDespatchPeriod
+            type: App\UBL\Common\CAC\EstimatedDespatchPeriod
         requestedDespatchPeriod:
             expose: true
             access_type: public_method
@@ -197,4 +197,4 @@ UBL\Common\CAC\DespatchType:
             accessor:
                 getter: getRequestedDespatchPeriod
                 setter: setRequestedDespatchPeriod
-            type: UBL\Common\CAC\RequestedDespatchPeriod
+            type: App\UBL\Common\CAC\RequestedDespatchPeriod

@@ -9,4 +9,3 @@ class ItemPriceExtension extends PriceExtensionType
 {
 }
 
-

@@ -9,4 +9,3 @@ class NotificationLocation extends LocationType
 {
 }
 
-

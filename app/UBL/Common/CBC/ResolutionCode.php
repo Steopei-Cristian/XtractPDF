@@ -9,4 +9,3 @@ class ResolutionCode extends ResolutionCodeType
 {
 }
 
-

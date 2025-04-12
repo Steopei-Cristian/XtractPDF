@@ -9,4 +9,3 @@ class IndustryClassificationCode extends IndustryClassificationCodeType
 {
 }
 
-

@@ -9,4 +9,3 @@ class RequestForTenderLine extends RequestForTenderLineType
 {
 }
 
-

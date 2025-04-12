@@ -1,4 +1,4 @@
-UBL\Common\CAC\ForecastExceptionType:
+App\UBL\Common\CAC\ForecastExceptionType:
     properties:
         forecastPurposeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ForecastExceptionType:
             accessor:
                 getter: getForecastPurposeCode
                 setter: setForecastPurposeCode
-            type: UBL\Common\CBC\ForecastPurposeCode
+            type: App\UBL\Common\CBC\ForecastPurposeCode
         forecastTypeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ForecastExceptionType:
             accessor:
                 getter: getForecastTypeCode
                 setter: setForecastTypeCode
-            type: UBL\Common\CBC\ForecastTypeCode
+            type: App\UBL\Common\CBC\ForecastTypeCode
         issueDate:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\ForecastExceptionType:
             accessor:
                 getter: getDataSourceCode
                 setter: setDataSourceCode
-            type: UBL\Common\CBC\DataSourceCode
+            type: App\UBL\Common\CBC\DataSourceCode
         comparisonDataCode:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\ForecastExceptionType:
             accessor:
                 getter: getComparisonDataCode
                 setter: setComparisonDataCode
-            type: UBL\Common\CBC\ComparisonDataCode
+            type: App\UBL\Common\CBC\ComparisonDataCode
         comparisonForecastIssueTime:
             expose: true
             access_type: public_method

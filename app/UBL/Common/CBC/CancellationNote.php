@@ -9,4 +9,3 @@ class CancellationNote extends CancellationNoteType
 {
 }
 
-

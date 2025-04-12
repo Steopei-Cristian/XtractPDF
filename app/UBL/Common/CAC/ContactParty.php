@@ -9,4 +9,3 @@ class ContactParty extends PartyType
 {
 }
 
-

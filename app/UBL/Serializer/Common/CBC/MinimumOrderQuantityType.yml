@@ -1,2 +1,2 @@
-UBL\Common\CBC\MinimumOrderQuantityType:
+App\UBL\Common\CBC\MinimumOrderQuantityType:
     properties: {  }

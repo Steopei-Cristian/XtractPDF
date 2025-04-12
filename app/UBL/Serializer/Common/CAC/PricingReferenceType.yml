@@ -1,4 +1,4 @@
-UBL\Common\CAC\PricingReferenceType:
+App\UBL\Common\CAC\PricingReferenceType:
     properties:
         originalItemLocationQuantity:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PricingReferenceType:
             accessor:
                 getter: getOriginalItemLocationQuantity
                 setter: setOriginalItemLocationQuantity
-            type: UBL\Common\CAC\OriginalItemLocationQuantity
+            type: App\UBL\Common\CAC\OriginalItemLocationQuantity
         alternativeConditionPrice:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ UBL\Common\CAC\PricingReferenceType:
                 inline: true
                 entry_name: AlternativeConditionPrice
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AlternativeConditionPrice>
+            type: array<App\UBL\Common\CAC\AlternativeConditionPrice>

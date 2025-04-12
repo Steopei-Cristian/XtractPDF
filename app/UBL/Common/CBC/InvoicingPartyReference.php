@@ -9,4 +9,3 @@ class InvoicingPartyReference extends InvoicingPartyReferenceType
 {
 }
 
-

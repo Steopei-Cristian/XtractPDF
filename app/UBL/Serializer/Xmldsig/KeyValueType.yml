@@ -1,4 +1,4 @@
-UBL\Xmldsig\KeyValueType:
+App\UBL\Xmldsig\KeyValueType:
     properties:
         dSAKeyValue:
             expose: true
@@ -9,7 +9,7 @@ UBL\Xmldsig\KeyValueType:
             accessor:
                 getter: getDSAKeyValue
                 setter: setDSAKeyValue
-            type: UBL\Xmldsig\DSAKeyValue
+            type: App\UBL\Xmldsig\DSAKeyValue
         rSAKeyValue:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ UBL\Xmldsig\KeyValueType:
             accessor:
                 getter: getRSAKeyValue
                 setter: setRSAKeyValue
-            type: UBL\Xmldsig\RSAKeyValue
+            type: App\UBL\Xmldsig\RSAKeyValue

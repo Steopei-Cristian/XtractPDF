@@ -9,4 +9,3 @@ class RegistrationID extends RegistrationIDType
 {
 }
 
-

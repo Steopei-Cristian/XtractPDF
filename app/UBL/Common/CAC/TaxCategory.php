@@ -9,4 +9,3 @@ class TaxCategory extends TaxCategoryType
 {
 }
 
-

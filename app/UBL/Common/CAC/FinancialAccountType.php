@@ -24,7 +24,7 @@ class FinancialAccountType
      *  Identifier. Type
      *  SWIFT(BIC) and IBAN are defined in ISO 9362 and ISO 13616.
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class FinancialAccountType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -53,7 +53,7 @@ class FinancialAccountType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\AliasName $aliasName
+     * @var \App\UBL\Common\CBC\AliasName $aliasName
      */
     private $aliasName = null;
 
@@ -67,7 +67,7 @@ class FinancialAccountType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\AccountTypeCode $accountTypeCode
+     * @var \App\UBL\Common\CBC\AccountTypeCode $accountTypeCode
      */
     private $accountTypeCode = null;
 
@@ -82,7 +82,7 @@ class FinancialAccountType
      *  Code. Type
      *  ISO20022 Clearing System Identification Code
      *
-     * @var \UBL\Common\CBC\AccountFormatCode $accountFormatCode
+     * @var \App\UBL\Common\CBC\AccountFormatCode $accountFormatCode
      */
     private $accountFormatCode = null;
 
@@ -97,7 +97,7 @@ class FinancialAccountType
      *  Currency
      *  Currency_ Code. Type
      *
-     * @var \UBL\Common\CBC\CurrencyCode $currencyCode
+     * @var \App\UBL\Common\CBC\CurrencyCode $currencyCode
      */
     private $currencyCode = null;
 
@@ -112,7 +112,7 @@ class FinancialAccountType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\PaymentNote[] $paymentNote
+     * @var \App\UBL\Common\CBC\PaymentNote[] $paymentNote
      */
     private $paymentNote = [
         
@@ -129,7 +129,7 @@ class FinancialAccountType
      *  Branch
      *  Branch
      *
-     * @var \UBL\Common\CAC\FinancialInstitutionBranch $financialInstitutionBranch
+     * @var \App\UBL\Common\CAC\FinancialInstitutionBranch $financialInstitutionBranch
      */
     private $financialInstitutionBranch = null;
 
@@ -143,7 +143,7 @@ class FinancialAccountType
      *  Country
      *  Country
      *
-     * @var \UBL\Common\CAC\Country $country
+     * @var \App\UBL\Common\CAC\Country $country
      */
     private $country = null;
 
@@ -160,7 +160,7 @@ class FinancialAccountType
      *  Identifier. Type
      *  SWIFT(BIC) and IBAN are defined in ISO 9362 and ISO 13616.
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -180,10 +180,10 @@ class FinancialAccountType
      *  Identifier. Type
      *  SWIFT(BIC) and IBAN are defined in ISO 9362 and ISO 13616.
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -201,7 +201,7 @@ class FinancialAccountType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -220,10 +220,10 @@ class FinancialAccountType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -242,7 +242,7 @@ class FinancialAccountType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\AliasName
+     * @return \App\UBL\Common\CBC\AliasName
      */
     public function getAliasName()
     {
@@ -262,10 +262,10 @@ class FinancialAccountType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\AliasName $aliasName
+     * @param \App\UBL\Common\CBC\AliasName $aliasName
      * @return self
      */
-    public function setAliasName(?\UBL\Common\CBC\AliasName $aliasName = null)
+    public function setAliasName(?\App\UBL\Common\CBC\AliasName $aliasName = null)
     {
         $this->aliasName = $aliasName;
         return $this;
@@ -283,7 +283,7 @@ class FinancialAccountType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\AccountTypeCode
+     * @return \App\UBL\Common\CBC\AccountTypeCode
      */
     public function getAccountTypeCode()
     {
@@ -302,10 +302,10 @@ class FinancialAccountType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\AccountTypeCode $accountTypeCode
+     * @param \App\UBL\Common\CBC\AccountTypeCode $accountTypeCode
      * @return self
      */
-    public function setAccountTypeCode(?\UBL\Common\CBC\AccountTypeCode $accountTypeCode = null)
+    public function setAccountTypeCode(?\App\UBL\Common\CBC\AccountTypeCode $accountTypeCode = null)
     {
         $this->accountTypeCode = $accountTypeCode;
         return $this;
@@ -324,7 +324,7 @@ class FinancialAccountType
      *  Code. Type
      *  ISO20022 Clearing System Identification Code
      *
-     * @return \UBL\Common\CBC\AccountFormatCode
+     * @return \App\UBL\Common\CBC\AccountFormatCode
      */
     public function getAccountFormatCode()
     {
@@ -344,10 +344,10 @@ class FinancialAccountType
      *  Code. Type
      *  ISO20022 Clearing System Identification Code
      *
-     * @param \UBL\Common\CBC\AccountFormatCode $accountFormatCode
+     * @param \App\UBL\Common\CBC\AccountFormatCode $accountFormatCode
      * @return self
      */
-    public function setAccountFormatCode(?\UBL\Common\CBC\AccountFormatCode $accountFormatCode = null)
+    public function setAccountFormatCode(?\App\UBL\Common\CBC\AccountFormatCode $accountFormatCode = null)
     {
         $this->accountFormatCode = $accountFormatCode;
         return $this;
@@ -366,7 +366,7 @@ class FinancialAccountType
      *  Currency
      *  Currency_ Code. Type
      *
-     * @return \UBL\Common\CBC\CurrencyCode
+     * @return \App\UBL\Common\CBC\CurrencyCode
      */
     public function getCurrencyCode()
     {
@@ -386,10 +386,10 @@ class FinancialAccountType
      *  Currency
      *  Currency_ Code. Type
      *
-     * @param \UBL\Common\CBC\CurrencyCode $currencyCode
+     * @param \App\UBL\Common\CBC\CurrencyCode $currencyCode
      * @return self
      */
-    public function setCurrencyCode(?\UBL\Common\CBC\CurrencyCode $currencyCode = null)
+    public function setCurrencyCode(?\App\UBL\Common\CBC\CurrencyCode $currencyCode = null)
     {
         $this->currencyCode = $currencyCode;
         return $this;
@@ -409,9 +409,9 @@ class FinancialAccountType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\PaymentNote $paymentNote
+     * @param \App\UBL\Common\CBC\PaymentNote $paymentNote
      */
-    public function addToPaymentNote(\UBL\Common\CBC\PaymentNote $paymentNote)
+    public function addToPaymentNote(\App\UBL\Common\CBC\PaymentNote $paymentNote)
     {
         $this->paymentNote[] = $paymentNote;
         return $this;
@@ -472,7 +472,7 @@ class FinancialAccountType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\PaymentNote[]
+     * @return \App\UBL\Common\CBC\PaymentNote[]
      */
     public function getPaymentNote()
     {
@@ -492,7 +492,7 @@ class FinancialAccountType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\PaymentNote[] $paymentNote
+     * @param \App\UBL\Common\CBC\PaymentNote[] $paymentNote
      * @return self
      */
     public function setPaymentNote(?array $paymentNote = null)
@@ -514,7 +514,7 @@ class FinancialAccountType
      *  Branch
      *  Branch
      *
-     * @return \UBL\Common\CAC\FinancialInstitutionBranch
+     * @return \App\UBL\Common\CAC\FinancialInstitutionBranch
      */
     public function getFinancialInstitutionBranch()
     {
@@ -534,10 +534,10 @@ class FinancialAccountType
      *  Branch
      *  Branch
      *
-     * @param \UBL\Common\CAC\FinancialInstitutionBranch $financialInstitutionBranch
+     * @param \App\UBL\Common\CAC\FinancialInstitutionBranch $financialInstitutionBranch
      * @return self
      */
-    public function setFinancialInstitutionBranch(?\UBL\Common\CAC\FinancialInstitutionBranch $financialInstitutionBranch = null)
+    public function setFinancialInstitutionBranch(?\App\UBL\Common\CAC\FinancialInstitutionBranch $financialInstitutionBranch = null)
     {
         $this->financialInstitutionBranch = $financialInstitutionBranch;
         return $this;
@@ -555,7 +555,7 @@ class FinancialAccountType
      *  Country
      *  Country
      *
-     * @return \UBL\Common\CAC\Country
+     * @return \App\UBL\Common\CAC\Country
      */
     public function getCountry()
     {
@@ -574,14 +574,13 @@ class FinancialAccountType
      *  Country
      *  Country
      *
-     * @param \UBL\Common\CAC\Country $country
+     * @param \App\UBL\Common\CAC\Country $country
      * @return self
      */
-    public function setCountry(?\UBL\Common\CAC\Country $country = null)
+    public function setCountry(?\App\UBL\Common\CAC\Country $country = null)
     {
         $this->country = $country;
         return $this;
     }
 }
-
 

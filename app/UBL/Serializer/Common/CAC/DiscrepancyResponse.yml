@@ -1,3 +1,3 @@
-UBL\Common\CAC\DiscrepancyResponse:
+App\UBL\Common\CAC\DiscrepancyResponse:
     xml_root_name: DiscrepancyResponse
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

@@ -1,2 +1,2 @@
-UBL\Common\CBC\CustomsTariffQuantityType:
+App\UBL\Common\CBC\CustomsTariffQuantityType:
     properties: {  }

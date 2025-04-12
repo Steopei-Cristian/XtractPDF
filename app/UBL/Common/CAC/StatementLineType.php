@@ -23,7 +23,7 @@ class StatementLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class StatementLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -53,7 +53,7 @@ class StatementLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -83,7 +83,7 @@ class StatementLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\DebitLineAmount $debitLineAmount
+     * @var \App\UBL\Common\CBC\DebitLineAmount $debitLineAmount
      */
     private $debitLineAmount = null;
 
@@ -98,7 +98,7 @@ class StatementLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\CreditLineAmount $creditLineAmount
+     * @var \App\UBL\Common\CBC\CreditLineAmount $creditLineAmount
      */
     private $creditLineAmount = null;
 
@@ -112,7 +112,7 @@ class StatementLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\BalanceAmount $balanceAmount
+     * @var \App\UBL\Common\CBC\BalanceAmount $balanceAmount
      */
     private $balanceAmount = null;
 
@@ -126,7 +126,7 @@ class StatementLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
+     * @var \App\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
      */
     private $paymentPurposeCode = null;
 
@@ -140,7 +140,7 @@ class StatementLineType
      *  Payment Means
      *  Payment Means
      *
-     * @var \UBL\Common\CAC\PaymentMeans $paymentMeans
+     * @var \App\UBL\Common\CAC\PaymentMeans $paymentMeans
      */
     private $paymentMeans = null;
 
@@ -154,7 +154,7 @@ class StatementLineType
      *  Payment Terms
      *  Payment Terms
      *
-     * @var \UBL\Common\CAC\PaymentTerms[] $paymentTerms
+     * @var \App\UBL\Common\CAC\PaymentTerms[] $paymentTerms
      */
     private $paymentTerms = [
         
@@ -171,7 +171,7 @@ class StatementLineType
      *  Customer Party
      *  Customer Party
      *
-     * @var \UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty
+     * @var \App\UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty
      */
     private $buyerCustomerParty = null;
 
@@ -186,7 +186,7 @@ class StatementLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @var \UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
+     * @var \App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
      */
     private $sellerSupplierParty = null;
 
@@ -201,7 +201,7 @@ class StatementLineType
      *  Customer Party
      *  Customer Party
      *
-     * @var \UBL\Common\CAC\OriginatorCustomerParty $originatorCustomerParty
+     * @var \App\UBL\Common\CAC\OriginatorCustomerParty $originatorCustomerParty
      */
     private $originatorCustomerParty = null;
 
@@ -216,7 +216,7 @@ class StatementLineType
      *  Customer Party
      *  Customer Party
      *
-     * @var \UBL\Common\CAC\AccountingCustomerParty $accountingCustomerParty
+     * @var \App\UBL\Common\CAC\AccountingCustomerParty $accountingCustomerParty
      */
     private $accountingCustomerParty = null;
 
@@ -231,7 +231,7 @@ class StatementLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @var \UBL\Common\CAC\AccountingSupplierParty $accountingSupplierParty
+     * @var \App\UBL\Common\CAC\AccountingSupplierParty $accountingSupplierParty
      */
     private $accountingSupplierParty = null;
 
@@ -246,7 +246,7 @@ class StatementLineType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\PayeeParty $payeeParty
+     * @var \App\UBL\Common\CAC\PayeeParty $payeeParty
      */
     private $payeeParty = null;
 
@@ -261,7 +261,7 @@ class StatementLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\InvoicePeriod[] $invoicePeriod
+     * @var \App\UBL\Common\CAC\InvoicePeriod[] $invoicePeriod
      */
     private $invoicePeriod = [
         
@@ -277,7 +277,7 @@ class StatementLineType
      *  Billing Reference
      *  Billing Reference
      *
-     * @var \UBL\Common\CAC\BillingReference[] $billingReference
+     * @var \App\UBL\Common\CAC\BillingReference[] $billingReference
      */
     private $billingReference = [
         
@@ -293,7 +293,7 @@ class StatementLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -309,7 +309,7 @@ class StatementLineType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @var \UBL\Common\CAC\ExchangeRate $exchangeRate
+     * @var \App\UBL\Common\CAC\ExchangeRate $exchangeRate
      */
     private $exchangeRate = null;
 
@@ -323,7 +323,7 @@ class StatementLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @var \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      */
     private $allowanceCharge = [
         
@@ -340,7 +340,7 @@ class StatementLineType
      *  Payment
      *  Payment
      *
-     * @var \UBL\Common\CAC\CollectedPayment[] $collectedPayment
+     * @var \App\UBL\Common\CAC\CollectedPayment[] $collectedPayment
      */
     private $collectedPayment = [
         
@@ -358,7 +358,7 @@ class StatementLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -377,10 +377,10 @@ class StatementLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -399,9 +399,9 @@ class StatementLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -459,7 +459,7 @@ class StatementLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -478,7 +478,7 @@ class StatementLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -499,7 +499,7 @@ class StatementLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -518,10 +518,10 @@ class StatementLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -582,7 +582,7 @@ class StatementLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\DebitLineAmount
+     * @return \App\UBL\Common\CBC\DebitLineAmount
      */
     public function getDebitLineAmount()
     {
@@ -602,10 +602,10 @@ class StatementLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\DebitLineAmount $debitLineAmount
+     * @param \App\UBL\Common\CBC\DebitLineAmount $debitLineAmount
      * @return self
      */
-    public function setDebitLineAmount(?\UBL\Common\CBC\DebitLineAmount $debitLineAmount = null)
+    public function setDebitLineAmount(?\App\UBL\Common\CBC\DebitLineAmount $debitLineAmount = null)
     {
         $this->debitLineAmount = $debitLineAmount;
         return $this;
@@ -624,7 +624,7 @@ class StatementLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\CreditLineAmount
+     * @return \App\UBL\Common\CBC\CreditLineAmount
      */
     public function getCreditLineAmount()
     {
@@ -644,10 +644,10 @@ class StatementLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\CreditLineAmount $creditLineAmount
+     * @param \App\UBL\Common\CBC\CreditLineAmount $creditLineAmount
      * @return self
      */
-    public function setCreditLineAmount(?\UBL\Common\CBC\CreditLineAmount $creditLineAmount = null)
+    public function setCreditLineAmount(?\App\UBL\Common\CBC\CreditLineAmount $creditLineAmount = null)
     {
         $this->creditLineAmount = $creditLineAmount;
         return $this;
@@ -665,7 +665,7 @@ class StatementLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\BalanceAmount
+     * @return \App\UBL\Common\CBC\BalanceAmount
      */
     public function getBalanceAmount()
     {
@@ -684,10 +684,10 @@ class StatementLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\BalanceAmount $balanceAmount
+     * @param \App\UBL\Common\CBC\BalanceAmount $balanceAmount
      * @return self
      */
-    public function setBalanceAmount(?\UBL\Common\CBC\BalanceAmount $balanceAmount = null)
+    public function setBalanceAmount(?\App\UBL\Common\CBC\BalanceAmount $balanceAmount = null)
     {
         $this->balanceAmount = $balanceAmount;
         return $this;
@@ -705,7 +705,7 @@ class StatementLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PaymentPurposeCode
+     * @return \App\UBL\Common\CBC\PaymentPurposeCode
      */
     public function getPaymentPurposeCode()
     {
@@ -724,10 +724,10 @@ class StatementLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
+     * @param \App\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
      * @return self
      */
-    public function setPaymentPurposeCode(?\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode = null)
+    public function setPaymentPurposeCode(?\App\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode = null)
     {
         $this->paymentPurposeCode = $paymentPurposeCode;
         return $this;
@@ -745,7 +745,7 @@ class StatementLineType
      *  Payment Means
      *  Payment Means
      *
-     * @return \UBL\Common\CAC\PaymentMeans
+     * @return \App\UBL\Common\CAC\PaymentMeans
      */
     public function getPaymentMeans()
     {
@@ -764,10 +764,10 @@ class StatementLineType
      *  Payment Means
      *  Payment Means
      *
-     * @param \UBL\Common\CAC\PaymentMeans $paymentMeans
+     * @param \App\UBL\Common\CAC\PaymentMeans $paymentMeans
      * @return self
      */
-    public function setPaymentMeans(?\UBL\Common\CAC\PaymentMeans $paymentMeans = null)
+    public function setPaymentMeans(?\App\UBL\Common\CAC\PaymentMeans $paymentMeans = null)
     {
         $this->paymentMeans = $paymentMeans;
         return $this;
@@ -786,9 +786,9 @@ class StatementLineType
      *  Payment Terms
      *
      * @return self
-     * @param \UBL\Common\CAC\PaymentTerms $paymentTerms
+     * @param \App\UBL\Common\CAC\PaymentTerms $paymentTerms
      */
-    public function addToPaymentTerms(\UBL\Common\CAC\PaymentTerms $paymentTerms)
+    public function addToPaymentTerms(\App\UBL\Common\CAC\PaymentTerms $paymentTerms)
     {
         $this->paymentTerms[] = $paymentTerms;
         return $this;
@@ -846,7 +846,7 @@ class StatementLineType
      *  Payment Terms
      *  Payment Terms
      *
-     * @return \UBL\Common\CAC\PaymentTerms[]
+     * @return \App\UBL\Common\CAC\PaymentTerms[]
      */
     public function getPaymentTerms()
     {
@@ -865,7 +865,7 @@ class StatementLineType
      *  Payment Terms
      *  Payment Terms
      *
-     * @param \UBL\Common\CAC\PaymentTerms[] $paymentTerms
+     * @param \App\UBL\Common\CAC\PaymentTerms[] $paymentTerms
      * @return self
      */
     public function setPaymentTerms(?array $paymentTerms = null)
@@ -887,7 +887,7 @@ class StatementLineType
      *  Customer Party
      *  Customer Party
      *
-     * @return \UBL\Common\CAC\BuyerCustomerParty
+     * @return \App\UBL\Common\CAC\BuyerCustomerParty
      */
     public function getBuyerCustomerParty()
     {
@@ -907,10 +907,10 @@ class StatementLineType
      *  Customer Party
      *  Customer Party
      *
-     * @param \UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty
+     * @param \App\UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty
      * @return self
      */
-    public function setBuyerCustomerParty(?\UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty = null)
+    public function setBuyerCustomerParty(?\App\UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty = null)
     {
         $this->buyerCustomerParty = $buyerCustomerParty;
         return $this;
@@ -929,7 +929,7 @@ class StatementLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @return \UBL\Common\CAC\SellerSupplierParty
+     * @return \App\UBL\Common\CAC\SellerSupplierParty
      */
     public function getSellerSupplierParty()
     {
@@ -949,10 +949,10 @@ class StatementLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @param \UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
+     * @param \App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
      * @return self
      */
-    public function setSellerSupplierParty(?\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty = null)
+    public function setSellerSupplierParty(?\App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty = null)
     {
         $this->sellerSupplierParty = $sellerSupplierParty;
         return $this;
@@ -971,7 +971,7 @@ class StatementLineType
      *  Customer Party
      *  Customer Party
      *
-     * @return \UBL\Common\CAC\OriginatorCustomerParty
+     * @return \App\UBL\Common\CAC\OriginatorCustomerParty
      */
     public function getOriginatorCustomerParty()
     {
@@ -991,10 +991,10 @@ class StatementLineType
      *  Customer Party
      *  Customer Party
      *
-     * @param \UBL\Common\CAC\OriginatorCustomerParty $originatorCustomerParty
+     * @param \App\UBL\Common\CAC\OriginatorCustomerParty $originatorCustomerParty
      * @return self
      */
-    public function setOriginatorCustomerParty(?\UBL\Common\CAC\OriginatorCustomerParty $originatorCustomerParty = null)
+    public function setOriginatorCustomerParty(?\App\UBL\Common\CAC\OriginatorCustomerParty $originatorCustomerParty = null)
     {
         $this->originatorCustomerParty = $originatorCustomerParty;
         return $this;
@@ -1013,7 +1013,7 @@ class StatementLineType
      *  Customer Party
      *  Customer Party
      *
-     * @return \UBL\Common\CAC\AccountingCustomerParty
+     * @return \App\UBL\Common\CAC\AccountingCustomerParty
      */
     public function getAccountingCustomerParty()
     {
@@ -1033,10 +1033,10 @@ class StatementLineType
      *  Customer Party
      *  Customer Party
      *
-     * @param \UBL\Common\CAC\AccountingCustomerParty $accountingCustomerParty
+     * @param \App\UBL\Common\CAC\AccountingCustomerParty $accountingCustomerParty
      * @return self
      */
-    public function setAccountingCustomerParty(?\UBL\Common\CAC\AccountingCustomerParty $accountingCustomerParty = null)
+    public function setAccountingCustomerParty(?\App\UBL\Common\CAC\AccountingCustomerParty $accountingCustomerParty = null)
     {
         $this->accountingCustomerParty = $accountingCustomerParty;
         return $this;
@@ -1055,7 +1055,7 @@ class StatementLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @return \UBL\Common\CAC\AccountingSupplierParty
+     * @return \App\UBL\Common\CAC\AccountingSupplierParty
      */
     public function getAccountingSupplierParty()
     {
@@ -1075,10 +1075,10 @@ class StatementLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @param \UBL\Common\CAC\AccountingSupplierParty $accountingSupplierParty
+     * @param \App\UBL\Common\CAC\AccountingSupplierParty $accountingSupplierParty
      * @return self
      */
-    public function setAccountingSupplierParty(?\UBL\Common\CAC\AccountingSupplierParty $accountingSupplierParty = null)
+    public function setAccountingSupplierParty(?\App\UBL\Common\CAC\AccountingSupplierParty $accountingSupplierParty = null)
     {
         $this->accountingSupplierParty = $accountingSupplierParty;
         return $this;
@@ -1097,7 +1097,7 @@ class StatementLineType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\PayeeParty
+     * @return \App\UBL\Common\CAC\PayeeParty
      */
     public function getPayeeParty()
     {
@@ -1117,10 +1117,10 @@ class StatementLineType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\PayeeParty $payeeParty
+     * @param \App\UBL\Common\CAC\PayeeParty $payeeParty
      * @return self
      */
-    public function setPayeeParty(?\UBL\Common\CAC\PayeeParty $payeeParty = null)
+    public function setPayeeParty(?\App\UBL\Common\CAC\PayeeParty $payeeParty = null)
     {
         $this->payeeParty = $payeeParty;
         return $this;
@@ -1140,9 +1140,9 @@ class StatementLineType
      *  Period
      *
      * @return self
-     * @param \UBL\Common\CAC\InvoicePeriod $invoicePeriod
+     * @param \App\UBL\Common\CAC\InvoicePeriod $invoicePeriod
      */
-    public function addToInvoicePeriod(\UBL\Common\CAC\InvoicePeriod $invoicePeriod)
+    public function addToInvoicePeriod(\App\UBL\Common\CAC\InvoicePeriod $invoicePeriod)
     {
         $this->invoicePeriod[] = $invoicePeriod;
         return $this;
@@ -1203,7 +1203,7 @@ class StatementLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\InvoicePeriod[]
+     * @return \App\UBL\Common\CAC\InvoicePeriod[]
      */
     public function getInvoicePeriod()
     {
@@ -1223,7 +1223,7 @@ class StatementLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\InvoicePeriod[] $invoicePeriod
+     * @param \App\UBL\Common\CAC\InvoicePeriod[] $invoicePeriod
      * @return self
      */
     public function setInvoicePeriod(?array $invoicePeriod = null)
@@ -1245,9 +1245,9 @@ class StatementLineType
      *  Billing Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\BillingReference $billingReference
+     * @param \App\UBL\Common\CAC\BillingReference $billingReference
      */
-    public function addToBillingReference(\UBL\Common\CAC\BillingReference $billingReference)
+    public function addToBillingReference(\App\UBL\Common\CAC\BillingReference $billingReference)
     {
         $this->billingReference[] = $billingReference;
         return $this;
@@ -1305,7 +1305,7 @@ class StatementLineType
      *  Billing Reference
      *  Billing Reference
      *
-     * @return \UBL\Common\CAC\BillingReference[]
+     * @return \App\UBL\Common\CAC\BillingReference[]
      */
     public function getBillingReference()
     {
@@ -1324,7 +1324,7 @@ class StatementLineType
      *  Billing Reference
      *  Billing Reference
      *
-     * @param \UBL\Common\CAC\BillingReference[] $billingReference
+     * @param \App\UBL\Common\CAC\BillingReference[] $billingReference
      * @return self
      */
     public function setBillingReference(?array $billingReference = null)
@@ -1346,9 +1346,9 @@ class StatementLineType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -1406,7 +1406,7 @@ class StatementLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -1425,7 +1425,7 @@ class StatementLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -1446,7 +1446,7 @@ class StatementLineType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @return \UBL\Common\CAC\ExchangeRate
+     * @return \App\UBL\Common\CAC\ExchangeRate
      */
     public function getExchangeRate()
     {
@@ -1465,10 +1465,10 @@ class StatementLineType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @param \UBL\Common\CAC\ExchangeRate $exchangeRate
+     * @param \App\UBL\Common\CAC\ExchangeRate $exchangeRate
      * @return self
      */
-    public function setExchangeRate(?\UBL\Common\CAC\ExchangeRate $exchangeRate = null)
+    public function setExchangeRate(?\App\UBL\Common\CAC\ExchangeRate $exchangeRate = null)
     {
         $this->exchangeRate = $exchangeRate;
         return $this;
@@ -1487,9 +1487,9 @@ class StatementLineType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\AllowanceCharge $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge $allowanceCharge
      */
-    public function addToAllowanceCharge(\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
+    public function addToAllowanceCharge(\App\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
     {
         $this->allowanceCharge[] = $allowanceCharge;
         return $this;
@@ -1547,7 +1547,7 @@ class StatementLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\AllowanceCharge[]
+     * @return \App\UBL\Common\CAC\AllowanceCharge[]
      */
     public function getAllowanceCharge()
     {
@@ -1566,7 +1566,7 @@ class StatementLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      * @return self
      */
     public function setAllowanceCharge(?array $allowanceCharge = null)
@@ -1589,9 +1589,9 @@ class StatementLineType
      *  Payment
      *
      * @return self
-     * @param \UBL\Common\CAC\CollectedPayment $collectedPayment
+     * @param \App\UBL\Common\CAC\CollectedPayment $collectedPayment
      */
-    public function addToCollectedPayment(\UBL\Common\CAC\CollectedPayment $collectedPayment)
+    public function addToCollectedPayment(\App\UBL\Common\CAC\CollectedPayment $collectedPayment)
     {
         $this->collectedPayment[] = $collectedPayment;
         return $this;
@@ -1652,7 +1652,7 @@ class StatementLineType
      *  Payment
      *  Payment
      *
-     * @return \UBL\Common\CAC\CollectedPayment[]
+     * @return \App\UBL\Common\CAC\CollectedPayment[]
      */
     public function getCollectedPayment()
     {
@@ -1672,7 +1672,7 @@ class StatementLineType
      *  Payment
      *  Payment
      *
-     * @param \UBL\Common\CAC\CollectedPayment[] $collectedPayment
+     * @param \App\UBL\Common\CAC\CollectedPayment[] $collectedPayment
      * @return self
      */
     public function setCollectedPayment(?array $collectedPayment = null)
@@ -1681,5 +1681,4 @@ class StatementLineType
         return $this;
     }
 }
-
 

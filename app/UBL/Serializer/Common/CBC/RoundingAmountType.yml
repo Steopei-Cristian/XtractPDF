@@ -1,2 +1,2 @@
-UBL\Common\CBC\RoundingAmountType:
+App\UBL\Common\CBC\RoundingAmountType:
     properties: {  }

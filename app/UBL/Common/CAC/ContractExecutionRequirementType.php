@@ -23,7 +23,7 @@ class ContractExecutionRequirementType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\Name[] $name
+     * @var \App\UBL\Common\CBC\Name[] $name
      */
     private $name = [
         
@@ -39,7 +39,7 @@ class ContractExecutionRequirementType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ExecutionRequirementCode $executionRequirementCode
+     * @var \App\UBL\Common\CBC\ExecutionRequirementCode $executionRequirementCode
      */
     private $executionRequirementCode = null;
 
@@ -53,7 +53,7 @@ class ContractExecutionRequirementType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -72,9 +72,9 @@ class ContractExecutionRequirementType
      *  Name. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      */
-    public function addToName(\UBL\Common\CBC\Name $name)
+    public function addToName(\App\UBL\Common\CBC\Name $name)
     {
         $this->name[] = $name;
         return $this;
@@ -132,7 +132,7 @@ class ContractExecutionRequirementType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\Name[]
+     * @return \App\UBL\Common\CBC\Name[]
      */
     public function getName()
     {
@@ -151,7 +151,7 @@ class ContractExecutionRequirementType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\Name[] $name
+     * @param \App\UBL\Common\CBC\Name[] $name
      * @return self
      */
     public function setName(?array $name = null)
@@ -172,7 +172,7 @@ class ContractExecutionRequirementType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ExecutionRequirementCode
+     * @return \App\UBL\Common\CBC\ExecutionRequirementCode
      */
     public function getExecutionRequirementCode()
     {
@@ -191,10 +191,10 @@ class ContractExecutionRequirementType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ExecutionRequirementCode $executionRequirementCode
+     * @param \App\UBL\Common\CBC\ExecutionRequirementCode $executionRequirementCode
      * @return self
      */
-    public function setExecutionRequirementCode(?\UBL\Common\CBC\ExecutionRequirementCode $executionRequirementCode = null)
+    public function setExecutionRequirementCode(?\App\UBL\Common\CBC\ExecutionRequirementCode $executionRequirementCode = null)
     {
         $this->executionRequirementCode = $executionRequirementCode;
         return $this;
@@ -213,9 +213,9 @@ class ContractExecutionRequirementType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -273,7 +273,7 @@ class ContractExecutionRequirementType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -292,7 +292,7 @@ class ContractExecutionRequirementType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -301,5 +301,4 @@ class ContractExecutionRequirementType
         return $this;
     }
 }
-
 

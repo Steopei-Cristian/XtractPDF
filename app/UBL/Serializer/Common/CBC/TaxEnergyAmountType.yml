@@ -1,2 +1,2 @@
-UBL\Common\CBC\TaxEnergyAmountType:
+App\UBL\Common\CBC\TaxEnergyAmountType:
     properties: {  }

@@ -23,7 +23,7 @@ class ItemInformationRequestLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TimeFrequencyCode $timeFrequencyCode
+     * @var \App\UBL\Common\CBC\TimeFrequencyCode $timeFrequencyCode
      */
     private $timeFrequencyCode = null;
 
@@ -37,7 +37,7 @@ class ItemInformationRequestLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
+     * @var \App\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
      */
     private $supplyChainActivityTypeCode = null;
 
@@ -51,7 +51,7 @@ class ItemInformationRequestLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
+     * @var \App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
      */
     private $forecastTypeCode = null;
 
@@ -65,7 +65,7 @@ class ItemInformationRequestLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
+     * @var \App\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
      */
     private $performanceMetricTypeCode = null;
 
@@ -79,7 +79,7 @@ class ItemInformationRequestLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\Period[] $period
+     * @var \App\UBL\Common\CAC\Period[] $period
      */
     private $period = [
         
@@ -95,7 +95,7 @@ class ItemInformationRequestLineType
      *  Sales Item
      *  Sales Item
      *
-     * @var \UBL\Common\CAC\SalesItem[] $salesItem
+     * @var \App\UBL\Common\CAC\SalesItem[] $salesItem
      */
     private $salesItem = [
         
@@ -113,7 +113,7 @@ class ItemInformationRequestLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TimeFrequencyCode
+     * @return \App\UBL\Common\CBC\TimeFrequencyCode
      */
     public function getTimeFrequencyCode()
     {
@@ -132,10 +132,10 @@ class ItemInformationRequestLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TimeFrequencyCode $timeFrequencyCode
+     * @param \App\UBL\Common\CBC\TimeFrequencyCode $timeFrequencyCode
      * @return self
      */
-    public function setTimeFrequencyCode(?\UBL\Common\CBC\TimeFrequencyCode $timeFrequencyCode = null)
+    public function setTimeFrequencyCode(?\App\UBL\Common\CBC\TimeFrequencyCode $timeFrequencyCode = null)
     {
         $this->timeFrequencyCode = $timeFrequencyCode;
         return $this;
@@ -153,7 +153,7 @@ class ItemInformationRequestLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\SupplyChainActivityTypeCode
+     * @return \App\UBL\Common\CBC\SupplyChainActivityTypeCode
      */
     public function getSupplyChainActivityTypeCode()
     {
@@ -172,10 +172,10 @@ class ItemInformationRequestLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
+     * @param \App\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode
      * @return self
      */
-    public function setSupplyChainActivityTypeCode(?\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode = null)
+    public function setSupplyChainActivityTypeCode(?\App\UBL\Common\CBC\SupplyChainActivityTypeCode $supplyChainActivityTypeCode = null)
     {
         $this->supplyChainActivityTypeCode = $supplyChainActivityTypeCode;
         return $this;
@@ -193,7 +193,7 @@ class ItemInformationRequestLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ForecastTypeCode
+     * @return \App\UBL\Common\CBC\ForecastTypeCode
      */
     public function getForecastTypeCode()
     {
@@ -212,10 +212,10 @@ class ItemInformationRequestLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
+     * @param \App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
      * @return self
      */
-    public function setForecastTypeCode(?\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode = null)
+    public function setForecastTypeCode(?\App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode = null)
     {
         $this->forecastTypeCode = $forecastTypeCode;
         return $this;
@@ -233,7 +233,7 @@ class ItemInformationRequestLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PerformanceMetricTypeCode
+     * @return \App\UBL\Common\CBC\PerformanceMetricTypeCode
      */
     public function getPerformanceMetricTypeCode()
     {
@@ -252,10 +252,10 @@ class ItemInformationRequestLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
+     * @param \App\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode
      * @return self
      */
-    public function setPerformanceMetricTypeCode(?\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode = null)
+    public function setPerformanceMetricTypeCode(?\App\UBL\Common\CBC\PerformanceMetricTypeCode $performanceMetricTypeCode = null)
     {
         $this->performanceMetricTypeCode = $performanceMetricTypeCode;
         return $this;
@@ -274,9 +274,9 @@ class ItemInformationRequestLineType
      *  Period
      *
      * @return self
-     * @param \UBL\Common\CAC\Period $period
+     * @param \App\UBL\Common\CAC\Period $period
      */
-    public function addToPeriod(\UBL\Common\CAC\Period $period)
+    public function addToPeriod(\App\UBL\Common\CAC\Period $period)
     {
         $this->period[] = $period;
         return $this;
@@ -334,7 +334,7 @@ class ItemInformationRequestLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\Period[]
+     * @return \App\UBL\Common\CAC\Period[]
      */
     public function getPeriod()
     {
@@ -353,7 +353,7 @@ class ItemInformationRequestLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\Period[] $period
+     * @param \App\UBL\Common\CAC\Period[] $period
      * @return self
      */
     public function setPeriod(array $period)
@@ -375,9 +375,9 @@ class ItemInformationRequestLineType
      *  Sales Item
      *
      * @return self
-     * @param \UBL\Common\CAC\SalesItem $salesItem
+     * @param \App\UBL\Common\CAC\SalesItem $salesItem
      */
-    public function addToSalesItem(\UBL\Common\CAC\SalesItem $salesItem)
+    public function addToSalesItem(\App\UBL\Common\CAC\SalesItem $salesItem)
     {
         $this->salesItem[] = $salesItem;
         return $this;
@@ -435,7 +435,7 @@ class ItemInformationRequestLineType
      *  Sales Item
      *  Sales Item
      *
-     * @return \UBL\Common\CAC\SalesItem[]
+     * @return \App\UBL\Common\CAC\SalesItem[]
      */
     public function getSalesItem()
     {
@@ -454,7 +454,7 @@ class ItemInformationRequestLineType
      *  Sales Item
      *  Sales Item
      *
-     * @param \UBL\Common\CAC\SalesItem[] $salesItem
+     * @param \App\UBL\Common\CAC\SalesItem[] $salesItem
      * @return self
      */
     public function setSalesItem(array $salesItem)
@@ -463,5 +463,4 @@ class ItemInformationRequestLineType
         return $this;
     }
 }
-
 

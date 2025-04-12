@@ -9,4 +9,3 @@ class GrossWeightMeasure extends GrossWeightMeasureType
 {
 }
 
-

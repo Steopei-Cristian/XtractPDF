@@ -9,4 +9,3 @@ class LocationCoordinate extends LocationCoordinateType
 {
 }
 
-

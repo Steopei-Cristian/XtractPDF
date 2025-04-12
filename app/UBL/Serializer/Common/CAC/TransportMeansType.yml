@@ -1,4 +1,4 @@
-UBL\Common\CAC\TransportMeansType:
+App\UBL\Common\CAC\TransportMeansType:
     properties:
         journeyID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TransportMeansType:
             accessor:
                 getter: getJourneyID
                 setter: setJourneyID
-            type: UBL\Common\CBC\JourneyID
+            type: App\UBL\Common\CBC\JourneyID
         registrationNationalityID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TransportMeansType:
             accessor:
                 getter: getRegistrationNationalityID
                 setter: setRegistrationNationalityID
-            type: UBL\Common\CBC\RegistrationNationalityID
+            type: App\UBL\Common\CBC\RegistrationNationalityID
         registrationNationality:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\TransportMeansType:
                 inline: true
                 entry_name: RegistrationNationality
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\RegistrationNationality>
+            type: array<App\UBL\Common\CBC\RegistrationNationality>
         directionCode:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\TransportMeansType:
             accessor:
                 getter: getDirectionCode
                 setter: setDirectionCode
-            type: UBL\Common\CBC\DirectionCode
+            type: App\UBL\Common\CBC\DirectionCode
         transportMeansTypeCode:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\TransportMeansType:
             accessor:
                 getter: getTransportMeansTypeCode
                 setter: setTransportMeansTypeCode
-            type: UBL\Common\CBC\TransportMeansTypeCode
+            type: App\UBL\Common\CBC\TransportMeansTypeCode
         tradeServiceCode:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\TransportMeansType:
             accessor:
                 getter: getTradeServiceCode
                 setter: setTradeServiceCode
-            type: UBL\Common\CBC\TradeServiceCode
+            type: App\UBL\Common\CBC\TradeServiceCode
         stowage:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\TransportMeansType:
             accessor:
                 getter: getStowage
                 setter: setStowage
-            type: UBL\Common\CAC\Stowage
+            type: App\UBL\Common\CAC\Stowage
         airTransport:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\TransportMeansType:
             accessor:
                 getter: getAirTransport
                 setter: setAirTransport
-            type: UBL\Common\CAC\AirTransport
+            type: App\UBL\Common\CAC\AirTransport
         roadTransport:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\TransportMeansType:
             accessor:
                 getter: getRoadTransport
                 setter: setRoadTransport
-            type: UBL\Common\CAC\RoadTransport
+            type: App\UBL\Common\CAC\RoadTransport
         railTransport:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\TransportMeansType:
             accessor:
                 getter: getRailTransport
                 setter: setRailTransport
-            type: UBL\Common\CAC\RailTransport
+            type: App\UBL\Common\CAC\RailTransport
         maritimeTransport:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\TransportMeansType:
             accessor:
                 getter: getMaritimeTransport
                 setter: setMaritimeTransport
-            type: UBL\Common\CAC\MaritimeTransport
+            type: App\UBL\Common\CAC\MaritimeTransport
         ownerParty:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ UBL\Common\CAC\TransportMeansType:
             accessor:
                 getter: getOwnerParty
                 setter: setOwnerParty
-            type: UBL\Common\CAC\OwnerParty
+            type: App\UBL\Common\CAC\OwnerParty
         measurementDimension:
             expose: true
             access_type: public_method
@@ -137,4 +137,4 @@ UBL\Common\CAC\TransportMeansType:
                 inline: true
                 entry_name: MeasurementDimension
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\MeasurementDimension>
+            type: array<App\UBL\Common\CAC\MeasurementDimension>

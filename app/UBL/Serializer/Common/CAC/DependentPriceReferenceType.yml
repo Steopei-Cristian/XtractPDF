@@ -1,4 +1,4 @@
-UBL\Common\CAC\DependentPriceReferenceType:
+App\UBL\Common\CAC\DependentPriceReferenceType:
     properties:
         percent:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\DependentPriceReferenceType:
             accessor:
                 getter: getPercent
                 setter: setPercent
-            type: UBL\Common\CBC\Percent
+            type: App\UBL\Common\CBC\Percent
         locationAddress:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\DependentPriceReferenceType:
             accessor:
                 getter: getLocationAddress
                 setter: setLocationAddress
-            type: UBL\Common\CAC\LocationAddress
+            type: App\UBL\Common\CAC\LocationAddress
         dependentLineReference:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ UBL\Common\CAC\DependentPriceReferenceType:
             accessor:
                 getter: getDependentLineReference
                 setter: setDependentLineReference
-            type: UBL\Common\CAC\DependentLineReference
+            type: App\UBL\Common\CAC\DependentLineReference

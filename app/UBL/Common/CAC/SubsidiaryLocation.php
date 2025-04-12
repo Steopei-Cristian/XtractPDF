@@ -9,4 +9,3 @@ class SubsidiaryLocation extends LocationType
 {
 }
 
-

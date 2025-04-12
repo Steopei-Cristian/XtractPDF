@@ -9,4 +9,3 @@ class TerminalOperatorParty extends PartyType
 {
 }
 
-

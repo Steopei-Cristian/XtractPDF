@@ -1,4 +1,4 @@
-UBL\Common\CBC\CallDateType:
+App\UBL\Common\CBC\CallDateType:
     properties:
         __value:
             expose: true

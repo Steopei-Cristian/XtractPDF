@@ -1,4 +1,4 @@
-UBL\Common\CAC\TransportEventType:
+App\UBL\Common\CAC\TransportEventType:
     properties:
         identificationID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TransportEventType:
             accessor:
                 getter: getIdentificationID
                 setter: setIdentificationID
-            type: UBL\Common\CBC\IdentificationID
+            type: App\UBL\Common\CBC\IdentificationID
         occurrenceDate:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\TransportEventType:
             accessor:
                 getter: getTransportEventTypeCode
                 setter: setTransportEventTypeCode
-            type: UBL\Common\CBC\TransportEventTypeCode
+            type: App\UBL\Common\CBC\TransportEventTypeCode
         description:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\TransportEventType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         completionIndicator:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\TransportEventType:
             accessor:
                 getter: getReportedShipment
                 setter: setReportedShipment
-            type: UBL\Common\CAC\ReportedShipment
+            type: App\UBL\Common\CAC\ReportedShipment
         currentStatus:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\TransportEventType:
                 inline: true
                 entry_name: CurrentStatus
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\CurrentStatus>
+            type: array<App\UBL\Common\CAC\CurrentStatus>
         contact:
             expose: true
             access_type: public_method
@@ -101,7 +101,7 @@ UBL\Common\CAC\TransportEventType:
                 inline: true
                 entry_name: Contact
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Contact>
+            type: array<App\UBL\Common\CAC\Contact>
         location:
             expose: true
             access_type: public_method
@@ -111,7 +111,7 @@ UBL\Common\CAC\TransportEventType:
             accessor:
                 getter: getLocation
                 setter: setLocation
-            type: UBL\Common\CAC\Location
+            type: App\UBL\Common\CAC\Location
         signature:
             expose: true
             access_type: public_method
@@ -121,7 +121,7 @@ UBL\Common\CAC\TransportEventType:
             accessor:
                 getter: getSignature
                 setter: setSignature
-            type: UBL\Common\CAC\Signature
+            type: App\UBL\Common\CAC\Signature
         period:
             expose: true
             access_type: public_method
@@ -135,4 +135,4 @@ UBL\Common\CAC\TransportEventType:
                 inline: true
                 entry_name: Period
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Period>
+            type: array<App\UBL\Common\CAC\Period>

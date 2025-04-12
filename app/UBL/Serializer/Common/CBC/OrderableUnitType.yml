@@ -1,2 +1,2 @@
-UBL\Common\CBC\OrderableUnitType:
+App\UBL\Common\CBC\OrderableUnitType:
     properties: {  }

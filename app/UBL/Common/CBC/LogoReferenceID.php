@@ -9,4 +9,3 @@ class LogoReferenceID extends LogoReferenceIDType
 {
 }
 
-

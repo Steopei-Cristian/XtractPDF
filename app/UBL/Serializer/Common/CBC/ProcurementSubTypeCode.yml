@@ -1,3 +1,3 @@
-UBL\Common\CBC\ProcurementSubTypeCode:
+App\UBL\Common\CBC\ProcurementSubTypeCode:
     xml_root_name: ProcurementSubTypeCode
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

@@ -1,3 +1,3 @@
-UBL\Common\CBC\EstimatedConsumedQuantity:
+App\UBL\Common\CBC\EstimatedConsumedQuantity:
     xml_root_name: EstimatedConsumedQuantity
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

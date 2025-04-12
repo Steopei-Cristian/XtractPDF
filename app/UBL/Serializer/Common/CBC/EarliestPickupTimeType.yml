@@ -1,4 +1,4 @@
-UBL\Common\CBC\EarliestPickupTimeType:
+App\UBL\Common\CBC\EarliestPickupTimeType:
     properties:
         __value:
             expose: true

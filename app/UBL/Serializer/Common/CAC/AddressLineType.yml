@@ -1,4 +1,4 @@
-UBL\Common\CAC\AddressLineType:
+App\UBL\Common\CAC\AddressLineType:
     properties:
         line:
             expose: true
@@ -9,4 +9,4 @@ UBL\Common\CAC\AddressLineType:
             accessor:
                 getter: getLine
                 setter: setLine
-            type: UBL\Common\CBC\Line
+            type: App\UBL\Common\CBC\Line

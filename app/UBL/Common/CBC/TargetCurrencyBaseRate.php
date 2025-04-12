@@ -9,4 +9,3 @@ class TargetCurrencyBaseRate extends TargetCurrencyBaseRateType
 {
 }
 
-

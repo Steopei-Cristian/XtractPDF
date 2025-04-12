@@ -9,4 +9,3 @@ class TaxEnergyBalanceAmount extends TaxEnergyBalanceAmountType
 {
 }
 
-

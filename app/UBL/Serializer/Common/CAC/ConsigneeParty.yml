@@ -1,3 +1,3 @@
-UBL\Common\CAC\ConsigneeParty:
+App\UBL\Common\CAC\ConsigneeParty:
     xml_root_name: ConsigneeParty
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

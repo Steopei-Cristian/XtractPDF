@@ -9,4 +9,3 @@ class OpenTenderEvent extends EventType
 {
 }
 
-

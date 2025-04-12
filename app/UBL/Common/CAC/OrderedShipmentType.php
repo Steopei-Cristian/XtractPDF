@@ -23,7 +23,7 @@ class OrderedShipmentType
      *  Shipment
      *  Shipment
      *
-     * @var \UBL\Common\CAC\Shipment $shipment
+     * @var \App\UBL\Common\CAC\Shipment $shipment
      */
     private $shipment = null;
 
@@ -37,7 +37,7 @@ class OrderedShipmentType
      *  Package
      *  Package
      *
-     * @var \UBL\Common\CAC\Package[] $package
+     * @var \App\UBL\Common\CAC\Package[] $package
      */
     private $package = [
         
@@ -55,7 +55,7 @@ class OrderedShipmentType
      *  Shipment
      *  Shipment
      *
-     * @return \UBL\Common\CAC\Shipment
+     * @return \App\UBL\Common\CAC\Shipment
      */
     public function getShipment()
     {
@@ -74,10 +74,10 @@ class OrderedShipmentType
      *  Shipment
      *  Shipment
      *
-     * @param \UBL\Common\CAC\Shipment $shipment
+     * @param \App\UBL\Common\CAC\Shipment $shipment
      * @return self
      */
-    public function setShipment(\UBL\Common\CAC\Shipment $shipment)
+    public function setShipment(\App\UBL\Common\CAC\Shipment $shipment)
     {
         $this->shipment = $shipment;
         return $this;
@@ -96,9 +96,9 @@ class OrderedShipmentType
      *  Package
      *
      * @return self
-     * @param \UBL\Common\CAC\Package $package
+     * @param \App\UBL\Common\CAC\Package $package
      */
-    public function addToPackage(\UBL\Common\CAC\Package $package)
+    public function addToPackage(\App\UBL\Common\CAC\Package $package)
     {
         $this->package[] = $package;
         return $this;
@@ -156,7 +156,7 @@ class OrderedShipmentType
      *  Package
      *  Package
      *
-     * @return \UBL\Common\CAC\Package[]
+     * @return \App\UBL\Common\CAC\Package[]
      */
     public function getPackage()
     {
@@ -175,7 +175,7 @@ class OrderedShipmentType
      *  Package
      *  Package
      *
-     * @param \UBL\Common\CAC\Package[] $package
+     * @param \App\UBL\Common\CAC\Package[] $package
      * @return self
      */
     public function setPackage(?array $package = null)
@@ -184,5 +184,4 @@ class OrderedShipmentType
         return $this;
     }
 }
-
 

@@ -1,4 +1,4 @@
-UBL\Common\CBC\ReturnabilityIndicatorType:
+App\UBL\Common\CBC\ReturnabilityIndicatorType:
     properties:
         __value:
             expose: true

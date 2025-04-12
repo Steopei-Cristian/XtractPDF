@@ -23,7 +23,7 @@ class TransportationServiceType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TransportServiceCode $transportServiceCode
+     * @var \App\UBL\Common\CBC\TransportServiceCode $transportServiceCode
      */
     private $transportServiceCode = null;
 
@@ -38,7 +38,7 @@ class TransportationServiceType
      *  Code. Type
      *  Tariff Class Specifier
      *
-     * @var \UBL\Common\CBC\TariffClassCode $tariffClassCode
+     * @var \App\UBL\Common\CBC\TariffClassCode $tariffClassCode
      */
     private $tariffClassCode = null;
 
@@ -52,7 +52,7 @@ class TransportationServiceType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Priority $priority
+     * @var \App\UBL\Common\CBC\Priority $priority
      */
     private $priority = null;
 
@@ -67,7 +67,7 @@ class TransportationServiceType
      *  Code. Type
      *  Charge Basis
      *
-     * @var \UBL\Common\CBC\FreightRateClassCode $freightRateClassCode
+     * @var \App\UBL\Common\CBC\FreightRateClassCode $freightRateClassCode
      */
     private $freightRateClassCode = null;
 
@@ -81,7 +81,7 @@ class TransportationServiceType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\TransportationServiceDescription[] $transportationServiceDescription
+     * @var \App\UBL\Common\CBC\TransportationServiceDescription[] $transportationServiceDescription
      */
     private $transportationServiceDescription = [
         
@@ -97,7 +97,7 @@ class TransportationServiceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\TransportationServiceDetailsURI $transportationServiceDetailsURI
+     * @var \App\UBL\Common\CBC\TransportationServiceDetailsURI $transportationServiceDetailsURI
      */
     private $transportationServiceDetailsURI = null;
 
@@ -139,7 +139,7 @@ class TransportationServiceType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -153,7 +153,7 @@ class TransportationServiceType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\SequenceNumeric $sequenceNumeric
+     * @var \App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric
      */
     private $sequenceNumeric = null;
 
@@ -167,7 +167,7 @@ class TransportationServiceType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @var \UBL\Common\CAC\TransportEquipment[] $transportEquipment
+     * @var \App\UBL\Common\CAC\TransportEquipment[] $transportEquipment
      */
     private $transportEquipment = [
         
@@ -184,7 +184,7 @@ class TransportationServiceType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @var \UBL\Common\CAC\SupportedTransportEquipment[] $supportedTransportEquipment
+     * @var \App\UBL\Common\CAC\SupportedTransportEquipment[] $supportedTransportEquipment
      */
     private $supportedTransportEquipment = [
         
@@ -201,7 +201,7 @@ class TransportationServiceType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @var \UBL\Common\CAC\UnsupportedTransportEquipment[] $unsupportedTransportEquipment
+     * @var \App\UBL\Common\CAC\UnsupportedTransportEquipment[] $unsupportedTransportEquipment
      */
     private $unsupportedTransportEquipment = [
         
@@ -217,7 +217,7 @@ class TransportationServiceType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @var \UBL\Common\CAC\CommodityClassification[] $commodityClassification
+     * @var \App\UBL\Common\CAC\CommodityClassification[] $commodityClassification
      */
     private $commodityClassification = [
         
@@ -234,7 +234,7 @@ class TransportationServiceType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @var \UBL\Common\CAC\SupportedCommodityClassification[] $supportedCommodityClassification
+     * @var \App\UBL\Common\CAC\SupportedCommodityClassification[] $supportedCommodityClassification
      */
     private $supportedCommodityClassification = [
         
@@ -251,7 +251,7 @@ class TransportationServiceType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @var \UBL\Common\CAC\UnsupportedCommodityClassification[] $unsupportedCommodityClassification
+     * @var \App\UBL\Common\CAC\UnsupportedCommodityClassification[] $unsupportedCommodityClassification
      */
     private $unsupportedCommodityClassification = [
         
@@ -268,7 +268,7 @@ class TransportationServiceType
      *  Dimension
      *  Dimension
      *
-     * @var \UBL\Common\CAC\TotalCapacityDimension $totalCapacityDimension
+     * @var \App\UBL\Common\CAC\TotalCapacityDimension $totalCapacityDimension
      */
     private $totalCapacityDimension = null;
 
@@ -282,7 +282,7 @@ class TransportationServiceType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @var \UBL\Common\CAC\ShipmentStage[] $shipmentStage
+     * @var \App\UBL\Common\CAC\ShipmentStage[] $shipmentStage
      */
     private $shipmentStage = [
         
@@ -298,7 +298,7 @@ class TransportationServiceType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\TransportEvent[] $transportEvent
+     * @var \App\UBL\Common\CAC\TransportEvent[] $transportEvent
      */
     private $transportEvent = [
         
@@ -315,7 +315,7 @@ class TransportationServiceType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\ResponsibleTransportServiceProviderParty $responsibleTransportServiceProviderParty
+     * @var \App\UBL\Common\CAC\ResponsibleTransportServiceProviderParty $responsibleTransportServiceProviderParty
      */
     private $responsibleTransportServiceProviderParty = null;
 
@@ -329,7 +329,7 @@ class TransportationServiceType
      *  Environmental Emission
      *  Environmental Emission
      *
-     * @var \UBL\Common\CAC\EnvironmentalEmission[] $environmentalEmission
+     * @var \App\UBL\Common\CAC\EnvironmentalEmission[] $environmentalEmission
      */
     private $environmentalEmission = [
         
@@ -346,7 +346,7 @@ class TransportationServiceType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\EstimatedDurationPeriod $estimatedDurationPeriod
+     * @var \App\UBL\Common\CAC\EstimatedDurationPeriod $estimatedDurationPeriod
      */
     private $estimatedDurationPeriod = null;
 
@@ -361,7 +361,7 @@ class TransportationServiceType
      *  Service Frequency
      *  Service Frequency
      *
-     * @var \UBL\Common\CAC\ScheduledServiceFrequency[] $scheduledServiceFrequency
+     * @var \App\UBL\Common\CAC\ScheduledServiceFrequency[] $scheduledServiceFrequency
      */
     private $scheduledServiceFrequency = [
         
@@ -379,7 +379,7 @@ class TransportationServiceType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TransportServiceCode
+     * @return \App\UBL\Common\CBC\TransportServiceCode
      */
     public function getTransportServiceCode()
     {
@@ -398,10 +398,10 @@ class TransportationServiceType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TransportServiceCode $transportServiceCode
+     * @param \App\UBL\Common\CBC\TransportServiceCode $transportServiceCode
      * @return self
      */
-    public function setTransportServiceCode(\UBL\Common\CBC\TransportServiceCode $transportServiceCode)
+    public function setTransportServiceCode(\App\UBL\Common\CBC\TransportServiceCode $transportServiceCode)
     {
         $this->transportServiceCode = $transportServiceCode;
         return $this;
@@ -420,7 +420,7 @@ class TransportationServiceType
      *  Code. Type
      *  Tariff Class Specifier
      *
-     * @return \UBL\Common\CBC\TariffClassCode
+     * @return \App\UBL\Common\CBC\TariffClassCode
      */
     public function getTariffClassCode()
     {
@@ -440,10 +440,10 @@ class TransportationServiceType
      *  Code. Type
      *  Tariff Class Specifier
      *
-     * @param \UBL\Common\CBC\TariffClassCode $tariffClassCode
+     * @param \App\UBL\Common\CBC\TariffClassCode $tariffClassCode
      * @return self
      */
-    public function setTariffClassCode(?\UBL\Common\CBC\TariffClassCode $tariffClassCode = null)
+    public function setTariffClassCode(?\App\UBL\Common\CBC\TariffClassCode $tariffClassCode = null)
     {
         $this->tariffClassCode = $tariffClassCode;
         return $this;
@@ -461,7 +461,7 @@ class TransportationServiceType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Priority
+     * @return \App\UBL\Common\CBC\Priority
      */
     public function getPriority()
     {
@@ -480,10 +480,10 @@ class TransportationServiceType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Priority $priority
+     * @param \App\UBL\Common\CBC\Priority $priority
      * @return self
      */
-    public function setPriority(?\UBL\Common\CBC\Priority $priority = null)
+    public function setPriority(?\App\UBL\Common\CBC\Priority $priority = null)
     {
         $this->priority = $priority;
         return $this;
@@ -502,7 +502,7 @@ class TransportationServiceType
      *  Code. Type
      *  Charge Basis
      *
-     * @return \UBL\Common\CBC\FreightRateClassCode
+     * @return \App\UBL\Common\CBC\FreightRateClassCode
      */
     public function getFreightRateClassCode()
     {
@@ -522,10 +522,10 @@ class TransportationServiceType
      *  Code. Type
      *  Charge Basis
      *
-     * @param \UBL\Common\CBC\FreightRateClassCode $freightRateClassCode
+     * @param \App\UBL\Common\CBC\FreightRateClassCode $freightRateClassCode
      * @return self
      */
-    public function setFreightRateClassCode(?\UBL\Common\CBC\FreightRateClassCode $freightRateClassCode = null)
+    public function setFreightRateClassCode(?\App\UBL\Common\CBC\FreightRateClassCode $freightRateClassCode = null)
     {
         $this->freightRateClassCode = $freightRateClassCode;
         return $this;
@@ -544,9 +544,9 @@ class TransportationServiceType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\TransportationServiceDescription $transportationServiceDescription
+     * @param \App\UBL\Common\CBC\TransportationServiceDescription $transportationServiceDescription
      */
-    public function addToTransportationServiceDescription(\UBL\Common\CBC\TransportationServiceDescription $transportationServiceDescription)
+    public function addToTransportationServiceDescription(\App\UBL\Common\CBC\TransportationServiceDescription $transportationServiceDescription)
     {
         $this->transportationServiceDescription[] = $transportationServiceDescription;
         return $this;
@@ -604,7 +604,7 @@ class TransportationServiceType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\TransportationServiceDescription[]
+     * @return \App\UBL\Common\CBC\TransportationServiceDescription[]
      */
     public function getTransportationServiceDescription()
     {
@@ -623,7 +623,7 @@ class TransportationServiceType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\TransportationServiceDescription[] $transportationServiceDescription
+     * @param \App\UBL\Common\CBC\TransportationServiceDescription[] $transportationServiceDescription
      * @return self
      */
     public function setTransportationServiceDescription(?array $transportationServiceDescription = null)
@@ -644,7 +644,7 @@ class TransportationServiceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\TransportationServiceDetailsURI
+     * @return \App\UBL\Common\CBC\TransportationServiceDetailsURI
      */
     public function getTransportationServiceDetailsURI()
     {
@@ -663,10 +663,10 @@ class TransportationServiceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\TransportationServiceDetailsURI $transportationServiceDetailsURI
+     * @param \App\UBL\Common\CBC\TransportationServiceDetailsURI $transportationServiceDetailsURI
      * @return self
      */
-    public function setTransportationServiceDetailsURI(?\UBL\Common\CBC\TransportationServiceDetailsURI $transportationServiceDetailsURI = null)
+    public function setTransportationServiceDetailsURI(?\App\UBL\Common\CBC\TransportationServiceDetailsURI $transportationServiceDetailsURI = null)
     {
         $this->transportationServiceDetailsURI = $transportationServiceDetailsURI;
         return $this;
@@ -764,7 +764,7 @@ class TransportationServiceType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -783,10 +783,10 @@ class TransportationServiceType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -804,7 +804,7 @@ class TransportationServiceType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\SequenceNumeric
+     * @return \App\UBL\Common\CBC\SequenceNumeric
      */
     public function getSequenceNumeric()
     {
@@ -823,10 +823,10 @@ class TransportationServiceType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\SequenceNumeric $sequenceNumeric
+     * @param \App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric
      * @return self
      */
-    public function setSequenceNumeric(?\UBL\Common\CBC\SequenceNumeric $sequenceNumeric = null)
+    public function setSequenceNumeric(?\App\UBL\Common\CBC\SequenceNumeric $sequenceNumeric = null)
     {
         $this->sequenceNumeric = $sequenceNumeric;
         return $this;
@@ -845,9 +845,9 @@ class TransportationServiceType
      *  Transport Equipment
      *
      * @return self
-     * @param \UBL\Common\CAC\TransportEquipment $transportEquipment
+     * @param \App\UBL\Common\CAC\TransportEquipment $transportEquipment
      */
-    public function addToTransportEquipment(\UBL\Common\CAC\TransportEquipment $transportEquipment)
+    public function addToTransportEquipment(\App\UBL\Common\CAC\TransportEquipment $transportEquipment)
     {
         $this->transportEquipment[] = $transportEquipment;
         return $this;
@@ -905,7 +905,7 @@ class TransportationServiceType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @return \UBL\Common\CAC\TransportEquipment[]
+     * @return \App\UBL\Common\CAC\TransportEquipment[]
      */
     public function getTransportEquipment()
     {
@@ -924,7 +924,7 @@ class TransportationServiceType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @param \UBL\Common\CAC\TransportEquipment[] $transportEquipment
+     * @param \App\UBL\Common\CAC\TransportEquipment[] $transportEquipment
      * @return self
      */
     public function setTransportEquipment(?array $transportEquipment = null)
@@ -947,9 +947,9 @@ class TransportationServiceType
      *  Transport Equipment
      *
      * @return self
-     * @param \UBL\Common\CAC\SupportedTransportEquipment $supportedTransportEquipment
+     * @param \App\UBL\Common\CAC\SupportedTransportEquipment $supportedTransportEquipment
      */
-    public function addToSupportedTransportEquipment(\UBL\Common\CAC\SupportedTransportEquipment $supportedTransportEquipment)
+    public function addToSupportedTransportEquipment(\App\UBL\Common\CAC\SupportedTransportEquipment $supportedTransportEquipment)
     {
         $this->supportedTransportEquipment[] = $supportedTransportEquipment;
         return $this;
@@ -1010,7 +1010,7 @@ class TransportationServiceType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @return \UBL\Common\CAC\SupportedTransportEquipment[]
+     * @return \App\UBL\Common\CAC\SupportedTransportEquipment[]
      */
     public function getSupportedTransportEquipment()
     {
@@ -1030,7 +1030,7 @@ class TransportationServiceType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @param \UBL\Common\CAC\SupportedTransportEquipment[] $supportedTransportEquipment
+     * @param \App\UBL\Common\CAC\SupportedTransportEquipment[] $supportedTransportEquipment
      * @return self
      */
     public function setSupportedTransportEquipment(?array $supportedTransportEquipment = null)
@@ -1053,9 +1053,9 @@ class TransportationServiceType
      *  Transport Equipment
      *
      * @return self
-     * @param \UBL\Common\CAC\UnsupportedTransportEquipment $unsupportedTransportEquipment
+     * @param \App\UBL\Common\CAC\UnsupportedTransportEquipment $unsupportedTransportEquipment
      */
-    public function addToUnsupportedTransportEquipment(\UBL\Common\CAC\UnsupportedTransportEquipment $unsupportedTransportEquipment)
+    public function addToUnsupportedTransportEquipment(\App\UBL\Common\CAC\UnsupportedTransportEquipment $unsupportedTransportEquipment)
     {
         $this->unsupportedTransportEquipment[] = $unsupportedTransportEquipment;
         return $this;
@@ -1116,7 +1116,7 @@ class TransportationServiceType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @return \UBL\Common\CAC\UnsupportedTransportEquipment[]
+     * @return \App\UBL\Common\CAC\UnsupportedTransportEquipment[]
      */
     public function getUnsupportedTransportEquipment()
     {
@@ -1136,7 +1136,7 @@ class TransportationServiceType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @param \UBL\Common\CAC\UnsupportedTransportEquipment[] $unsupportedTransportEquipment
+     * @param \App\UBL\Common\CAC\UnsupportedTransportEquipment[] $unsupportedTransportEquipment
      * @return self
      */
     public function setUnsupportedTransportEquipment(?array $unsupportedTransportEquipment = null)
@@ -1158,9 +1158,9 @@ class TransportationServiceType
      *  Commodity Classification
      *
      * @return self
-     * @param \UBL\Common\CAC\CommodityClassification $commodityClassification
+     * @param \App\UBL\Common\CAC\CommodityClassification $commodityClassification
      */
-    public function addToCommodityClassification(\UBL\Common\CAC\CommodityClassification $commodityClassification)
+    public function addToCommodityClassification(\App\UBL\Common\CAC\CommodityClassification $commodityClassification)
     {
         $this->commodityClassification[] = $commodityClassification;
         return $this;
@@ -1218,7 +1218,7 @@ class TransportationServiceType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @return \UBL\Common\CAC\CommodityClassification[]
+     * @return \App\UBL\Common\CAC\CommodityClassification[]
      */
     public function getCommodityClassification()
     {
@@ -1237,7 +1237,7 @@ class TransportationServiceType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @param \UBL\Common\CAC\CommodityClassification[] $commodityClassification
+     * @param \App\UBL\Common\CAC\CommodityClassification[] $commodityClassification
      * @return self
      */
     public function setCommodityClassification(?array $commodityClassification = null)
@@ -1260,9 +1260,9 @@ class TransportationServiceType
      *  Commodity Classification
      *
      * @return self
-     * @param \UBL\Common\CAC\SupportedCommodityClassification $supportedCommodityClassification
+     * @param \App\UBL\Common\CAC\SupportedCommodityClassification $supportedCommodityClassification
      */
-    public function addToSupportedCommodityClassification(\UBL\Common\CAC\SupportedCommodityClassification $supportedCommodityClassification)
+    public function addToSupportedCommodityClassification(\App\UBL\Common\CAC\SupportedCommodityClassification $supportedCommodityClassification)
     {
         $this->supportedCommodityClassification[] = $supportedCommodityClassification;
         return $this;
@@ -1323,7 +1323,7 @@ class TransportationServiceType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @return \UBL\Common\CAC\SupportedCommodityClassification[]
+     * @return \App\UBL\Common\CAC\SupportedCommodityClassification[]
      */
     public function getSupportedCommodityClassification()
     {
@@ -1343,7 +1343,7 @@ class TransportationServiceType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @param \UBL\Common\CAC\SupportedCommodityClassification[] $supportedCommodityClassification
+     * @param \App\UBL\Common\CAC\SupportedCommodityClassification[] $supportedCommodityClassification
      * @return self
      */
     public function setSupportedCommodityClassification(?array $supportedCommodityClassification = null)
@@ -1366,9 +1366,9 @@ class TransportationServiceType
      *  Commodity Classification
      *
      * @return self
-     * @param \UBL\Common\CAC\UnsupportedCommodityClassification $unsupportedCommodityClassification
+     * @param \App\UBL\Common\CAC\UnsupportedCommodityClassification $unsupportedCommodityClassification
      */
-    public function addToUnsupportedCommodityClassification(\UBL\Common\CAC\UnsupportedCommodityClassification $unsupportedCommodityClassification)
+    public function addToUnsupportedCommodityClassification(\App\UBL\Common\CAC\UnsupportedCommodityClassification $unsupportedCommodityClassification)
     {
         $this->unsupportedCommodityClassification[] = $unsupportedCommodityClassification;
         return $this;
@@ -1429,7 +1429,7 @@ class TransportationServiceType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @return \UBL\Common\CAC\UnsupportedCommodityClassification[]
+     * @return \App\UBL\Common\CAC\UnsupportedCommodityClassification[]
      */
     public function getUnsupportedCommodityClassification()
     {
@@ -1449,7 +1449,7 @@ class TransportationServiceType
      *  Commodity Classification
      *  Commodity Classification
      *
-     * @param \UBL\Common\CAC\UnsupportedCommodityClassification[] $unsupportedCommodityClassification
+     * @param \App\UBL\Common\CAC\UnsupportedCommodityClassification[] $unsupportedCommodityClassification
      * @return self
      */
     public function setUnsupportedCommodityClassification(?array $unsupportedCommodityClassification = null)
@@ -1471,7 +1471,7 @@ class TransportationServiceType
      *  Dimension
      *  Dimension
      *
-     * @return \UBL\Common\CAC\TotalCapacityDimension
+     * @return \App\UBL\Common\CAC\TotalCapacityDimension
      */
     public function getTotalCapacityDimension()
     {
@@ -1491,10 +1491,10 @@ class TransportationServiceType
      *  Dimension
      *  Dimension
      *
-     * @param \UBL\Common\CAC\TotalCapacityDimension $totalCapacityDimension
+     * @param \App\UBL\Common\CAC\TotalCapacityDimension $totalCapacityDimension
      * @return self
      */
-    public function setTotalCapacityDimension(?\UBL\Common\CAC\TotalCapacityDimension $totalCapacityDimension = null)
+    public function setTotalCapacityDimension(?\App\UBL\Common\CAC\TotalCapacityDimension $totalCapacityDimension = null)
     {
         $this->totalCapacityDimension = $totalCapacityDimension;
         return $this;
@@ -1513,9 +1513,9 @@ class TransportationServiceType
      *  Shipment Stage
      *
      * @return self
-     * @param \UBL\Common\CAC\ShipmentStage $shipmentStage
+     * @param \App\UBL\Common\CAC\ShipmentStage $shipmentStage
      */
-    public function addToShipmentStage(\UBL\Common\CAC\ShipmentStage $shipmentStage)
+    public function addToShipmentStage(\App\UBL\Common\CAC\ShipmentStage $shipmentStage)
     {
         $this->shipmentStage[] = $shipmentStage;
         return $this;
@@ -1573,7 +1573,7 @@ class TransportationServiceType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @return \UBL\Common\CAC\ShipmentStage[]
+     * @return \App\UBL\Common\CAC\ShipmentStage[]
      */
     public function getShipmentStage()
     {
@@ -1592,7 +1592,7 @@ class TransportationServiceType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @param \UBL\Common\CAC\ShipmentStage[] $shipmentStage
+     * @param \App\UBL\Common\CAC\ShipmentStage[] $shipmentStage
      * @return self
      */
     public function setShipmentStage(?array $shipmentStage = null)
@@ -1614,9 +1614,9 @@ class TransportationServiceType
      *  Transport Event
      *
      * @return self
-     * @param \UBL\Common\CAC\TransportEvent $transportEvent
+     * @param \App\UBL\Common\CAC\TransportEvent $transportEvent
      */
-    public function addToTransportEvent(\UBL\Common\CAC\TransportEvent $transportEvent)
+    public function addToTransportEvent(\App\UBL\Common\CAC\TransportEvent $transportEvent)
     {
         $this->transportEvent[] = $transportEvent;
         return $this;
@@ -1674,7 +1674,7 @@ class TransportationServiceType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\TransportEvent[]
+     * @return \App\UBL\Common\CAC\TransportEvent[]
      */
     public function getTransportEvent()
     {
@@ -1693,7 +1693,7 @@ class TransportationServiceType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\TransportEvent[] $transportEvent
+     * @param \App\UBL\Common\CAC\TransportEvent[] $transportEvent
      * @return self
      */
     public function setTransportEvent(?array $transportEvent = null)
@@ -1715,7 +1715,7 @@ class TransportationServiceType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\ResponsibleTransportServiceProviderParty
+     * @return \App\UBL\Common\CAC\ResponsibleTransportServiceProviderParty
      */
     public function getResponsibleTransportServiceProviderParty()
     {
@@ -1735,10 +1735,10 @@ class TransportationServiceType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\ResponsibleTransportServiceProviderParty $responsibleTransportServiceProviderParty
+     * @param \App\UBL\Common\CAC\ResponsibleTransportServiceProviderParty $responsibleTransportServiceProviderParty
      * @return self
      */
-    public function setResponsibleTransportServiceProviderParty(?\UBL\Common\CAC\ResponsibleTransportServiceProviderParty $responsibleTransportServiceProviderParty = null)
+    public function setResponsibleTransportServiceProviderParty(?\App\UBL\Common\CAC\ResponsibleTransportServiceProviderParty $responsibleTransportServiceProviderParty = null)
     {
         $this->responsibleTransportServiceProviderParty = $responsibleTransportServiceProviderParty;
         return $this;
@@ -1757,9 +1757,9 @@ class TransportationServiceType
      *  Environmental Emission
      *
      * @return self
-     * @param \UBL\Common\CAC\EnvironmentalEmission $environmentalEmission
+     * @param \App\UBL\Common\CAC\EnvironmentalEmission $environmentalEmission
      */
-    public function addToEnvironmentalEmission(\UBL\Common\CAC\EnvironmentalEmission $environmentalEmission)
+    public function addToEnvironmentalEmission(\App\UBL\Common\CAC\EnvironmentalEmission $environmentalEmission)
     {
         $this->environmentalEmission[] = $environmentalEmission;
         return $this;
@@ -1817,7 +1817,7 @@ class TransportationServiceType
      *  Environmental Emission
      *  Environmental Emission
      *
-     * @return \UBL\Common\CAC\EnvironmentalEmission[]
+     * @return \App\UBL\Common\CAC\EnvironmentalEmission[]
      */
     public function getEnvironmentalEmission()
     {
@@ -1836,7 +1836,7 @@ class TransportationServiceType
      *  Environmental Emission
      *  Environmental Emission
      *
-     * @param \UBL\Common\CAC\EnvironmentalEmission[] $environmentalEmission
+     * @param \App\UBL\Common\CAC\EnvironmentalEmission[] $environmentalEmission
      * @return self
      */
     public function setEnvironmentalEmission(?array $environmentalEmission = null)
@@ -1858,7 +1858,7 @@ class TransportationServiceType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\EstimatedDurationPeriod
+     * @return \App\UBL\Common\CAC\EstimatedDurationPeriod
      */
     public function getEstimatedDurationPeriod()
     {
@@ -1878,10 +1878,10 @@ class TransportationServiceType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\EstimatedDurationPeriod $estimatedDurationPeriod
+     * @param \App\UBL\Common\CAC\EstimatedDurationPeriod $estimatedDurationPeriod
      * @return self
      */
-    public function setEstimatedDurationPeriod(?\UBL\Common\CAC\EstimatedDurationPeriod $estimatedDurationPeriod = null)
+    public function setEstimatedDurationPeriod(?\App\UBL\Common\CAC\EstimatedDurationPeriod $estimatedDurationPeriod = null)
     {
         $this->estimatedDurationPeriod = $estimatedDurationPeriod;
         return $this;
@@ -1901,9 +1901,9 @@ class TransportationServiceType
      *  Service Frequency
      *
      * @return self
-     * @param \UBL\Common\CAC\ScheduledServiceFrequency $scheduledServiceFrequency
+     * @param \App\UBL\Common\CAC\ScheduledServiceFrequency $scheduledServiceFrequency
      */
-    public function addToScheduledServiceFrequency(\UBL\Common\CAC\ScheduledServiceFrequency $scheduledServiceFrequency)
+    public function addToScheduledServiceFrequency(\App\UBL\Common\CAC\ScheduledServiceFrequency $scheduledServiceFrequency)
     {
         $this->scheduledServiceFrequency[] = $scheduledServiceFrequency;
         return $this;
@@ -1964,7 +1964,7 @@ class TransportationServiceType
      *  Service Frequency
      *  Service Frequency
      *
-     * @return \UBL\Common\CAC\ScheduledServiceFrequency[]
+     * @return \App\UBL\Common\CAC\ScheduledServiceFrequency[]
      */
     public function getScheduledServiceFrequency()
     {
@@ -1984,7 +1984,7 @@ class TransportationServiceType
      *  Service Frequency
      *  Service Frequency
      *
-     * @param \UBL\Common\CAC\ScheduledServiceFrequency[] $scheduledServiceFrequency
+     * @param \App\UBL\Common\CAC\ScheduledServiceFrequency[] $scheduledServiceFrequency
      * @return self
      */
     public function setScheduledServiceFrequency(?array $scheduledServiceFrequency = null)
@@ -1993,5 +1993,4 @@ class TransportationServiceType
         return $this;
     }
 }
-
 

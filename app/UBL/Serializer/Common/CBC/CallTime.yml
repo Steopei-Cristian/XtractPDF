@@ -1,4 +1,4 @@
-UBL\Common\CBC\CallTime:
+App\UBL\Common\CBC\CallTime:
     xml_root_name: CallTime
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

@@ -9,4 +9,3 @@ class ShippingPriorityLevelCode extends ShippingPriorityLevelCodeType
 {
 }
 
-

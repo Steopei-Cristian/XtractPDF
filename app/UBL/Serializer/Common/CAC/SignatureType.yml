@@ -1,4 +1,4 @@
-UBL\Common\CAC\SignatureType:
+App\UBL\Common\CAC\SignatureType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\SignatureType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         note:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\SignatureType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         validationDate:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\SignatureType:
             accessor:
                 getter: getValidatorID
                 setter: setValidatorID
-            type: UBL\Common\CBC\ValidatorID
+            type: App\UBL\Common\CBC\ValidatorID
         canonicalizationMethod:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\SignatureType:
             accessor:
                 getter: getCanonicalizationMethod
                 setter: setCanonicalizationMethod
-            type: UBL\Common\CBC\CanonicalizationMethod
+            type: App\UBL\Common\CBC\CanonicalizationMethod
         signatureMethod:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\SignatureType:
             accessor:
                 getter: getSignatureMethod
                 setter: setSignatureMethod
-            type: UBL\Common\CBC\SignatureMethod
+            type: App\UBL\Common\CBC\SignatureMethod
         signatoryParty:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\SignatureType:
             accessor:
                 getter: getSignatoryParty
                 setter: setSignatoryParty
-            type: UBL\Common\CAC\SignatoryParty
+            type: App\UBL\Common\CAC\SignatoryParty
         digitalSignatureAttachment:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\SignatureType:
             accessor:
                 getter: getDigitalSignatureAttachment
                 setter: setDigitalSignatureAttachment
-            type: UBL\Common\CAC\DigitalSignatureAttachment
+            type: App\UBL\Common\CAC\DigitalSignatureAttachment
         originalDocumentReference:
             expose: true
             access_type: public_method
@@ -103,4 +103,4 @@ UBL\Common\CAC\SignatureType:
             accessor:
                 getter: getOriginalDocumentReference
                 setter: setOriginalDocumentReference
-            type: UBL\Common\CAC\OriginalDocumentReference
+            type: App\UBL\Common\CAC\OriginalDocumentReference

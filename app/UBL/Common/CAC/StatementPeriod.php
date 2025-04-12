@@ -9,4 +9,3 @@ class StatementPeriod extends PeriodType
 {
 }
 
-

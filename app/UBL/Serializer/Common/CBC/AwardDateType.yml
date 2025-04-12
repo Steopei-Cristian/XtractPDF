@@ -1,4 +1,4 @@
-UBL\Common\CBC\AwardDateType:
+App\UBL\Common\CBC\AwardDateType:
     properties:
         __value:
             expose: true

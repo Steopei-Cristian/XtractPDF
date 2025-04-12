@@ -9,4 +9,3 @@ class MonetaryTotal extends MonetaryTotalType
 {
 }
 
-

@@ -9,4 +9,3 @@ class CorporateStockAmount extends CorporateStockAmountType
 {
 }
 
-

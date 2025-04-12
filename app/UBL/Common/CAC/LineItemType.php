@@ -23,7 +23,7 @@ class LineItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class LineItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\SalesOrderID $salesOrderID
+     * @var \App\UBL\Common\CBC\SalesOrderID $salesOrderID
      */
     private $salesOrderID = null;
 
@@ -52,7 +52,7 @@ class LineItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -66,7 +66,7 @@ class LineItemType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -83,7 +83,7 @@ class LineItemType
      *  Line Status
      *  Line Status_ Code. Type
      *
-     * @var \UBL\Common\CBC\LineStatusCode $lineStatusCode
+     * @var \App\UBL\Common\CBC\LineStatusCode $lineStatusCode
      */
     private $lineStatusCode = null;
 
@@ -97,7 +97,7 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -111,7 +111,7 @@ class LineItemType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @var \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      */
     private $lineExtensionAmount = null;
 
@@ -126,7 +126,7 @@ class LineItemType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\TotalTaxAmount $totalTaxAmount
+     * @var \App\UBL\Common\CBC\TotalTaxAmount $totalTaxAmount
      */
     private $totalTaxAmount = null;
 
@@ -141,7 +141,7 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MinimumQuantity $minimumQuantity
+     * @var \App\UBL\Common\CBC\MinimumQuantity $minimumQuantity
      */
     private $minimumQuantity = null;
 
@@ -156,7 +156,7 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MaximumQuantity $maximumQuantity
+     * @var \App\UBL\Common\CBC\MaximumQuantity $maximumQuantity
      */
     private $maximumQuantity = null;
 
@@ -171,7 +171,7 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MinimumBackorderQuantity $minimumBackorderQuantity
+     * @var \App\UBL\Common\CBC\MinimumBackorderQuantity $minimumBackorderQuantity
      */
     private $minimumBackorderQuantity = null;
 
@@ -186,7 +186,7 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MaximumBackorderQuantity $maximumBackorderQuantity
+     * @var \App\UBL\Common\CBC\MaximumBackorderQuantity $maximumBackorderQuantity
      */
     private $maximumBackorderQuantity = null;
 
@@ -200,7 +200,7 @@ class LineItemType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\InspectionMethodCode $inspectionMethodCode
+     * @var \App\UBL\Common\CBC\InspectionMethodCode $inspectionMethodCode
      */
     private $inspectionMethodCode = null;
 
@@ -242,7 +242,7 @@ class LineItemType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\AccountingCostCode $accountingCostCode
+     * @var \App\UBL\Common\CBC\AccountingCostCode $accountingCostCode
      */
     private $accountingCostCode = null;
 
@@ -256,7 +256,7 @@ class LineItemType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\AccountingCost $accountingCost
+     * @var \App\UBL\Common\CBC\AccountingCost $accountingCost
      */
     private $accountingCost = null;
 
@@ -272,7 +272,7 @@ class LineItemType
      *  Text. Type
      *  Unless specified otherwise and in addition to any rights the Customer may have under statute, Dell warrants to the Customer that Dell branded Products (excluding third party products and software), will be free from defects in materials and workmanship affecting normal use for a period of one year from invoice date ( Standard Warranty ).
      *
-     * @var \UBL\Common\CBC\WarrantyInformation[] $warrantyInformation
+     * @var \App\UBL\Common\CBC\WarrantyInformation[] $warrantyInformation
      */
     private $warrantyInformation = [
         
@@ -288,7 +288,7 @@ class LineItemType
      *  Delivery
      *  Delivery
      *
-     * @var \UBL\Common\CAC\Delivery[] $delivery
+     * @var \App\UBL\Common\CAC\Delivery[] $delivery
      */
     private $delivery = [
         
@@ -304,7 +304,7 @@ class LineItemType
      *  Delivery Terms
      *  Delivery Terms
      *
-     * @var \UBL\Common\CAC\DeliveryTerms $deliveryTerms
+     * @var \App\UBL\Common\CAC\DeliveryTerms $deliveryTerms
      */
     private $deliveryTerms = null;
 
@@ -319,7 +319,7 @@ class LineItemType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\OriginatorParty $originatorParty
+     * @var \App\UBL\Common\CAC\OriginatorParty $originatorParty
      */
     private $originatorParty = null;
 
@@ -333,7 +333,7 @@ class LineItemType
      *  Ordered Shipment
      *  Ordered Shipment
      *
-     * @var \UBL\Common\CAC\OrderedShipment[] $orderedShipment
+     * @var \App\UBL\Common\CAC\OrderedShipment[] $orderedShipment
      */
     private $orderedShipment = [
         
@@ -349,7 +349,7 @@ class LineItemType
      *  Pricing Reference
      *  Pricing Reference
      *
-     * @var \UBL\Common\CAC\PricingReference $pricingReference
+     * @var \App\UBL\Common\CAC\PricingReference $pricingReference
      */
     private $pricingReference = null;
 
@@ -363,7 +363,7 @@ class LineItemType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @var \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      */
     private $allowanceCharge = [
         
@@ -379,7 +379,7 @@ class LineItemType
      *  Price
      *  Price
      *
-     * @var \UBL\Common\CAC\Price $price
+     * @var \App\UBL\Common\CAC\Price $price
      */
     private $price = null;
 
@@ -393,7 +393,7 @@ class LineItemType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item $item
+     * @var \App\UBL\Common\CAC\Item $item
      */
     private $item = null;
 
@@ -408,7 +408,7 @@ class LineItemType
      *  Line Item
      *  Line Item
      *
-     * @var \UBL\Common\CAC\SubLineItem[] $subLineItem
+     * @var \App\UBL\Common\CAC\SubLineItem[] $subLineItem
      */
     private $subLineItem = [
         
@@ -425,7 +425,7 @@ class LineItemType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
+     * @var \App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
      */
     private $warrantyValidityPeriod = null;
 
@@ -440,7 +440,7 @@ class LineItemType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\WarrantyParty $warrantyParty
+     * @var \App\UBL\Common\CAC\WarrantyParty $warrantyParty
      */
     private $warrantyParty = null;
 
@@ -454,7 +454,7 @@ class LineItemType
      *  Tax Total
      *  Tax Total
      *
-     * @var \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @var \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      */
     private $taxTotal = [
         
@@ -471,7 +471,7 @@ class LineItemType
      *  Price Extension
      *  Price Extension
      *
-     * @var \UBL\Common\CAC\ItemPriceExtension $itemPriceExtension
+     * @var \App\UBL\Common\CAC\ItemPriceExtension $itemPriceExtension
      */
     private $itemPriceExtension = null;
 
@@ -485,7 +485,7 @@ class LineItemType
      *  Line Reference
      *  Line Reference
      *
-     * @var \UBL\Common\CAC\LineReference[] $lineReference
+     * @var \App\UBL\Common\CAC\LineReference[] $lineReference
      */
     private $lineReference = [
         
@@ -503,7 +503,7 @@ class LineItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -522,10 +522,10 @@ class LineItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -544,7 +544,7 @@ class LineItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\SalesOrderID
+     * @return \App\UBL\Common\CBC\SalesOrderID
      */
     public function getSalesOrderID()
     {
@@ -564,10 +564,10 @@ class LineItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\SalesOrderID $salesOrderID
+     * @param \App\UBL\Common\CBC\SalesOrderID $salesOrderID
      * @return self
      */
-    public function setSalesOrderID(?\UBL\Common\CBC\SalesOrderID $salesOrderID = null)
+    public function setSalesOrderID(?\App\UBL\Common\CBC\SalesOrderID $salesOrderID = null)
     {
         $this->salesOrderID = $salesOrderID;
         return $this;
@@ -585,7 +585,7 @@ class LineItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -604,10 +604,10 @@ class LineItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -626,9 +626,9 @@ class LineItemType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -686,7 +686,7 @@ class LineItemType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -705,7 +705,7 @@ class LineItemType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -727,7 +727,7 @@ class LineItemType
      *  Line Status
      *  Line Status_ Code. Type
      *
-     * @return \UBL\Common\CBC\LineStatusCode
+     * @return \App\UBL\Common\CBC\LineStatusCode
      */
     public function getLineStatusCode()
     {
@@ -747,10 +747,10 @@ class LineItemType
      *  Line Status
      *  Line Status_ Code. Type
      *
-     * @param \UBL\Common\CBC\LineStatusCode $lineStatusCode
+     * @param \App\UBL\Common\CBC\LineStatusCode $lineStatusCode
      * @return self
      */
-    public function setLineStatusCode(?\UBL\Common\CBC\LineStatusCode $lineStatusCode = null)
+    public function setLineStatusCode(?\App\UBL\Common\CBC\LineStatusCode $lineStatusCode = null)
     {
         $this->lineStatusCode = $lineStatusCode;
         return $this;
@@ -768,7 +768,7 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -787,10 +787,10 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
@@ -808,7 +808,7 @@ class LineItemType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\LineExtensionAmount
+     * @return \App\UBL\Common\CBC\LineExtensionAmount
      */
     public function getLineExtensionAmount()
     {
@@ -827,10 +827,10 @@ class LineItemType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @param \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      * @return self
      */
-    public function setLineExtensionAmount(?\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount = null)
+    public function setLineExtensionAmount(?\App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount = null)
     {
         $this->lineExtensionAmount = $lineExtensionAmount;
         return $this;
@@ -849,7 +849,7 @@ class LineItemType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\TotalTaxAmount
+     * @return \App\UBL\Common\CBC\TotalTaxAmount
      */
     public function getTotalTaxAmount()
     {
@@ -869,10 +869,10 @@ class LineItemType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\TotalTaxAmount $totalTaxAmount
+     * @param \App\UBL\Common\CBC\TotalTaxAmount $totalTaxAmount
      * @return self
      */
-    public function setTotalTaxAmount(?\UBL\Common\CBC\TotalTaxAmount $totalTaxAmount = null)
+    public function setTotalTaxAmount(?\App\UBL\Common\CBC\TotalTaxAmount $totalTaxAmount = null)
     {
         $this->totalTaxAmount = $totalTaxAmount;
         return $this;
@@ -891,7 +891,7 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MinimumQuantity
+     * @return \App\UBL\Common\CBC\MinimumQuantity
      */
     public function getMinimumQuantity()
     {
@@ -911,10 +911,10 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MinimumQuantity $minimumQuantity
+     * @param \App\UBL\Common\CBC\MinimumQuantity $minimumQuantity
      * @return self
      */
-    public function setMinimumQuantity(?\UBL\Common\CBC\MinimumQuantity $minimumQuantity = null)
+    public function setMinimumQuantity(?\App\UBL\Common\CBC\MinimumQuantity $minimumQuantity = null)
     {
         $this->minimumQuantity = $minimumQuantity;
         return $this;
@@ -933,7 +933,7 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MaximumQuantity
+     * @return \App\UBL\Common\CBC\MaximumQuantity
      */
     public function getMaximumQuantity()
     {
@@ -953,10 +953,10 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MaximumQuantity $maximumQuantity
+     * @param \App\UBL\Common\CBC\MaximumQuantity $maximumQuantity
      * @return self
      */
-    public function setMaximumQuantity(?\UBL\Common\CBC\MaximumQuantity $maximumQuantity = null)
+    public function setMaximumQuantity(?\App\UBL\Common\CBC\MaximumQuantity $maximumQuantity = null)
     {
         $this->maximumQuantity = $maximumQuantity;
         return $this;
@@ -975,7 +975,7 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MinimumBackorderQuantity
+     * @return \App\UBL\Common\CBC\MinimumBackorderQuantity
      */
     public function getMinimumBackorderQuantity()
     {
@@ -995,10 +995,10 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MinimumBackorderQuantity $minimumBackorderQuantity
+     * @param \App\UBL\Common\CBC\MinimumBackorderQuantity $minimumBackorderQuantity
      * @return self
      */
-    public function setMinimumBackorderQuantity(?\UBL\Common\CBC\MinimumBackorderQuantity $minimumBackorderQuantity = null)
+    public function setMinimumBackorderQuantity(?\App\UBL\Common\CBC\MinimumBackorderQuantity $minimumBackorderQuantity = null)
     {
         $this->minimumBackorderQuantity = $minimumBackorderQuantity;
         return $this;
@@ -1017,7 +1017,7 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MaximumBackorderQuantity
+     * @return \App\UBL\Common\CBC\MaximumBackorderQuantity
      */
     public function getMaximumBackorderQuantity()
     {
@@ -1037,10 +1037,10 @@ class LineItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MaximumBackorderQuantity $maximumBackorderQuantity
+     * @param \App\UBL\Common\CBC\MaximumBackorderQuantity $maximumBackorderQuantity
      * @return self
      */
-    public function setMaximumBackorderQuantity(?\UBL\Common\CBC\MaximumBackorderQuantity $maximumBackorderQuantity = null)
+    public function setMaximumBackorderQuantity(?\App\UBL\Common\CBC\MaximumBackorderQuantity $maximumBackorderQuantity = null)
     {
         $this->maximumBackorderQuantity = $maximumBackorderQuantity;
         return $this;
@@ -1058,7 +1058,7 @@ class LineItemType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\InspectionMethodCode
+     * @return \App\UBL\Common\CBC\InspectionMethodCode
      */
     public function getInspectionMethodCode()
     {
@@ -1077,10 +1077,10 @@ class LineItemType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\InspectionMethodCode $inspectionMethodCode
+     * @param \App\UBL\Common\CBC\InspectionMethodCode $inspectionMethodCode
      * @return self
      */
-    public function setInspectionMethodCode(?\UBL\Common\CBC\InspectionMethodCode $inspectionMethodCode = null)
+    public function setInspectionMethodCode(?\App\UBL\Common\CBC\InspectionMethodCode $inspectionMethodCode = null)
     {
         $this->inspectionMethodCode = $inspectionMethodCode;
         return $this;
@@ -1178,7 +1178,7 @@ class LineItemType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\AccountingCostCode
+     * @return \App\UBL\Common\CBC\AccountingCostCode
      */
     public function getAccountingCostCode()
     {
@@ -1197,10 +1197,10 @@ class LineItemType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\AccountingCostCode $accountingCostCode
+     * @param \App\UBL\Common\CBC\AccountingCostCode $accountingCostCode
      * @return self
      */
-    public function setAccountingCostCode(?\UBL\Common\CBC\AccountingCostCode $accountingCostCode = null)
+    public function setAccountingCostCode(?\App\UBL\Common\CBC\AccountingCostCode $accountingCostCode = null)
     {
         $this->accountingCostCode = $accountingCostCode;
         return $this;
@@ -1218,7 +1218,7 @@ class LineItemType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\AccountingCost
+     * @return \App\UBL\Common\CBC\AccountingCost
      */
     public function getAccountingCost()
     {
@@ -1237,10 +1237,10 @@ class LineItemType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\AccountingCost $accountingCost
+     * @param \App\UBL\Common\CBC\AccountingCost $accountingCost
      * @return self
      */
-    public function setAccountingCost(?\UBL\Common\CBC\AccountingCost $accountingCost = null)
+    public function setAccountingCost(?\App\UBL\Common\CBC\AccountingCost $accountingCost = null)
     {
         $this->accountingCost = $accountingCost;
         return $this;
@@ -1261,9 +1261,9 @@ class LineItemType
      *  Unless specified otherwise and in addition to any rights the Customer may have under statute, Dell warrants to the Customer that Dell branded Products (excluding third party products and software), will be free from defects in materials and workmanship affecting normal use for a period of one year from invoice date ( Standard Warranty ).
      *
      * @return self
-     * @param \UBL\Common\CBC\WarrantyInformation $warrantyInformation
+     * @param \App\UBL\Common\CBC\WarrantyInformation $warrantyInformation
      */
-    public function addToWarrantyInformation(\UBL\Common\CBC\WarrantyInformation $warrantyInformation)
+    public function addToWarrantyInformation(\App\UBL\Common\CBC\WarrantyInformation $warrantyInformation)
     {
         $this->warrantyInformation[] = $warrantyInformation;
         return $this;
@@ -1327,7 +1327,7 @@ class LineItemType
      *  Text. Type
      *  Unless specified otherwise and in addition to any rights the Customer may have under statute, Dell warrants to the Customer that Dell branded Products (excluding third party products and software), will be free from defects in materials and workmanship affecting normal use for a period of one year from invoice date ( Standard Warranty ).
      *
-     * @return \UBL\Common\CBC\WarrantyInformation[]
+     * @return \App\UBL\Common\CBC\WarrantyInformation[]
      */
     public function getWarrantyInformation()
     {
@@ -1348,7 +1348,7 @@ class LineItemType
      *  Text. Type
      *  Unless specified otherwise and in addition to any rights the Customer may have under statute, Dell warrants to the Customer that Dell branded Products (excluding third party products and software), will be free from defects in materials and workmanship affecting normal use for a period of one year from invoice date ( Standard Warranty ).
      *
-     * @param \UBL\Common\CBC\WarrantyInformation[] $warrantyInformation
+     * @param \App\UBL\Common\CBC\WarrantyInformation[] $warrantyInformation
      * @return self
      */
     public function setWarrantyInformation(?array $warrantyInformation = null)
@@ -1370,9 +1370,9 @@ class LineItemType
      *  Delivery
      *
      * @return self
-     * @param \UBL\Common\CAC\Delivery $delivery
+     * @param \App\UBL\Common\CAC\Delivery $delivery
      */
-    public function addToDelivery(\UBL\Common\CAC\Delivery $delivery)
+    public function addToDelivery(\App\UBL\Common\CAC\Delivery $delivery)
     {
         $this->delivery[] = $delivery;
         return $this;
@@ -1430,7 +1430,7 @@ class LineItemType
      *  Delivery
      *  Delivery
      *
-     * @return \UBL\Common\CAC\Delivery[]
+     * @return \App\UBL\Common\CAC\Delivery[]
      */
     public function getDelivery()
     {
@@ -1449,7 +1449,7 @@ class LineItemType
      *  Delivery
      *  Delivery
      *
-     * @param \UBL\Common\CAC\Delivery[] $delivery
+     * @param \App\UBL\Common\CAC\Delivery[] $delivery
      * @return self
      */
     public function setDelivery(?array $delivery = null)
@@ -1470,7 +1470,7 @@ class LineItemType
      *  Delivery Terms
      *  Delivery Terms
      *
-     * @return \UBL\Common\CAC\DeliveryTerms
+     * @return \App\UBL\Common\CAC\DeliveryTerms
      */
     public function getDeliveryTerms()
     {
@@ -1489,10 +1489,10 @@ class LineItemType
      *  Delivery Terms
      *  Delivery Terms
      *
-     * @param \UBL\Common\CAC\DeliveryTerms $deliveryTerms
+     * @param \App\UBL\Common\CAC\DeliveryTerms $deliveryTerms
      * @return self
      */
-    public function setDeliveryTerms(?\UBL\Common\CAC\DeliveryTerms $deliveryTerms = null)
+    public function setDeliveryTerms(?\App\UBL\Common\CAC\DeliveryTerms $deliveryTerms = null)
     {
         $this->deliveryTerms = $deliveryTerms;
         return $this;
@@ -1511,7 +1511,7 @@ class LineItemType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\OriginatorParty
+     * @return \App\UBL\Common\CAC\OriginatorParty
      */
     public function getOriginatorParty()
     {
@@ -1531,10 +1531,10 @@ class LineItemType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\OriginatorParty $originatorParty
+     * @param \App\UBL\Common\CAC\OriginatorParty $originatorParty
      * @return self
      */
-    public function setOriginatorParty(?\UBL\Common\CAC\OriginatorParty $originatorParty = null)
+    public function setOriginatorParty(?\App\UBL\Common\CAC\OriginatorParty $originatorParty = null)
     {
         $this->originatorParty = $originatorParty;
         return $this;
@@ -1553,9 +1553,9 @@ class LineItemType
      *  Ordered Shipment
      *
      * @return self
-     * @param \UBL\Common\CAC\OrderedShipment $orderedShipment
+     * @param \App\UBL\Common\CAC\OrderedShipment $orderedShipment
      */
-    public function addToOrderedShipment(\UBL\Common\CAC\OrderedShipment $orderedShipment)
+    public function addToOrderedShipment(\App\UBL\Common\CAC\OrderedShipment $orderedShipment)
     {
         $this->orderedShipment[] = $orderedShipment;
         return $this;
@@ -1613,7 +1613,7 @@ class LineItemType
      *  Ordered Shipment
      *  Ordered Shipment
      *
-     * @return \UBL\Common\CAC\OrderedShipment[]
+     * @return \App\UBL\Common\CAC\OrderedShipment[]
      */
     public function getOrderedShipment()
     {
@@ -1632,7 +1632,7 @@ class LineItemType
      *  Ordered Shipment
      *  Ordered Shipment
      *
-     * @param \UBL\Common\CAC\OrderedShipment[] $orderedShipment
+     * @param \App\UBL\Common\CAC\OrderedShipment[] $orderedShipment
      * @return self
      */
     public function setOrderedShipment(?array $orderedShipment = null)
@@ -1653,7 +1653,7 @@ class LineItemType
      *  Pricing Reference
      *  Pricing Reference
      *
-     * @return \UBL\Common\CAC\PricingReference
+     * @return \App\UBL\Common\CAC\PricingReference
      */
     public function getPricingReference()
     {
@@ -1672,10 +1672,10 @@ class LineItemType
      *  Pricing Reference
      *  Pricing Reference
      *
-     * @param \UBL\Common\CAC\PricingReference $pricingReference
+     * @param \App\UBL\Common\CAC\PricingReference $pricingReference
      * @return self
      */
-    public function setPricingReference(?\UBL\Common\CAC\PricingReference $pricingReference = null)
+    public function setPricingReference(?\App\UBL\Common\CAC\PricingReference $pricingReference = null)
     {
         $this->pricingReference = $pricingReference;
         return $this;
@@ -1694,9 +1694,9 @@ class LineItemType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\AllowanceCharge $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge $allowanceCharge
      */
-    public function addToAllowanceCharge(\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
+    public function addToAllowanceCharge(\App\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
     {
         $this->allowanceCharge[] = $allowanceCharge;
         return $this;
@@ -1754,7 +1754,7 @@ class LineItemType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\AllowanceCharge[]
+     * @return \App\UBL\Common\CAC\AllowanceCharge[]
      */
     public function getAllowanceCharge()
     {
@@ -1773,7 +1773,7 @@ class LineItemType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      * @return self
      */
     public function setAllowanceCharge(?array $allowanceCharge = null)
@@ -1794,7 +1794,7 @@ class LineItemType
      *  Price
      *  Price
      *
-     * @return \UBL\Common\CAC\Price
+     * @return \App\UBL\Common\CAC\Price
      */
     public function getPrice()
     {
@@ -1813,10 +1813,10 @@ class LineItemType
      *  Price
      *  Price
      *
-     * @param \UBL\Common\CAC\Price $price
+     * @param \App\UBL\Common\CAC\Price $price
      * @return self
      */
-    public function setPrice(?\UBL\Common\CAC\Price $price = null)
+    public function setPrice(?\App\UBL\Common\CAC\Price $price = null)
     {
         $this->price = $price;
         return $this;
@@ -1834,7 +1834,7 @@ class LineItemType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item
+     * @return \App\UBL\Common\CAC\Item
      */
     public function getItem()
     {
@@ -1853,10 +1853,10 @@ class LineItemType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      * @return self
      */
-    public function setItem(\UBL\Common\CAC\Item $item)
+    public function setItem(\App\UBL\Common\CAC\Item $item)
     {
         $this->item = $item;
         return $this;
@@ -1876,9 +1876,9 @@ class LineItemType
      *  Line Item
      *
      * @return self
-     * @param \UBL\Common\CAC\SubLineItem $subLineItem
+     * @param \App\UBL\Common\CAC\SubLineItem $subLineItem
      */
-    public function addToSubLineItem(\UBL\Common\CAC\SubLineItem $subLineItem)
+    public function addToSubLineItem(\App\UBL\Common\CAC\SubLineItem $subLineItem)
     {
         $this->subLineItem[] = $subLineItem;
         return $this;
@@ -1939,7 +1939,7 @@ class LineItemType
      *  Line Item
      *  Line Item
      *
-     * @return \UBL\Common\CAC\SubLineItem[]
+     * @return \App\UBL\Common\CAC\SubLineItem[]
      */
     public function getSubLineItem()
     {
@@ -1959,7 +1959,7 @@ class LineItemType
      *  Line Item
      *  Line Item
      *
-     * @param \UBL\Common\CAC\SubLineItem[] $subLineItem
+     * @param \App\UBL\Common\CAC\SubLineItem[] $subLineItem
      * @return self
      */
     public function setSubLineItem(?array $subLineItem = null)
@@ -1981,7 +1981,7 @@ class LineItemType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\WarrantyValidityPeriod
+     * @return \App\UBL\Common\CAC\WarrantyValidityPeriod
      */
     public function getWarrantyValidityPeriod()
     {
@@ -2001,10 +2001,10 @@ class LineItemType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
+     * @param \App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
      * @return self
      */
-    public function setWarrantyValidityPeriod(?\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod = null)
+    public function setWarrantyValidityPeriod(?\App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod = null)
     {
         $this->warrantyValidityPeriod = $warrantyValidityPeriod;
         return $this;
@@ -2023,7 +2023,7 @@ class LineItemType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\WarrantyParty
+     * @return \App\UBL\Common\CAC\WarrantyParty
      */
     public function getWarrantyParty()
     {
@@ -2043,10 +2043,10 @@ class LineItemType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\WarrantyParty $warrantyParty
+     * @param \App\UBL\Common\CAC\WarrantyParty $warrantyParty
      * @return self
      */
-    public function setWarrantyParty(?\UBL\Common\CAC\WarrantyParty $warrantyParty = null)
+    public function setWarrantyParty(?\App\UBL\Common\CAC\WarrantyParty $warrantyParty = null)
     {
         $this->warrantyParty = $warrantyParty;
         return $this;
@@ -2065,9 +2065,9 @@ class LineItemType
      *  Tax Total
      *
      * @return self
-     * @param \UBL\Common\CAC\TaxTotal $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal $taxTotal
      */
-    public function addToTaxTotal(\UBL\Common\CAC\TaxTotal $taxTotal)
+    public function addToTaxTotal(\App\UBL\Common\CAC\TaxTotal $taxTotal)
     {
         $this->taxTotal[] = $taxTotal;
         return $this;
@@ -2125,7 +2125,7 @@ class LineItemType
      *  Tax Total
      *  Tax Total
      *
-     * @return \UBL\Common\CAC\TaxTotal[]
+     * @return \App\UBL\Common\CAC\TaxTotal[]
      */
     public function getTaxTotal()
     {
@@ -2144,7 +2144,7 @@ class LineItemType
      *  Tax Total
      *  Tax Total
      *
-     * @param \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      * @return self
      */
     public function setTaxTotal(?array $taxTotal = null)
@@ -2166,7 +2166,7 @@ class LineItemType
      *  Price Extension
      *  Price Extension
      *
-     * @return \UBL\Common\CAC\ItemPriceExtension
+     * @return \App\UBL\Common\CAC\ItemPriceExtension
      */
     public function getItemPriceExtension()
     {
@@ -2186,10 +2186,10 @@ class LineItemType
      *  Price Extension
      *  Price Extension
      *
-     * @param \UBL\Common\CAC\ItemPriceExtension $itemPriceExtension
+     * @param \App\UBL\Common\CAC\ItemPriceExtension $itemPriceExtension
      * @return self
      */
-    public function setItemPriceExtension(?\UBL\Common\CAC\ItemPriceExtension $itemPriceExtension = null)
+    public function setItemPriceExtension(?\App\UBL\Common\CAC\ItemPriceExtension $itemPriceExtension = null)
     {
         $this->itemPriceExtension = $itemPriceExtension;
         return $this;
@@ -2208,9 +2208,9 @@ class LineItemType
      *  Line Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\LineReference $lineReference
+     * @param \App\UBL\Common\CAC\LineReference $lineReference
      */
-    public function addToLineReference(\UBL\Common\CAC\LineReference $lineReference)
+    public function addToLineReference(\App\UBL\Common\CAC\LineReference $lineReference)
     {
         $this->lineReference[] = $lineReference;
         return $this;
@@ -2268,7 +2268,7 @@ class LineItemType
      *  Line Reference
      *  Line Reference
      *
-     * @return \UBL\Common\CAC\LineReference[]
+     * @return \App\UBL\Common\CAC\LineReference[]
      */
     public function getLineReference()
     {
@@ -2287,7 +2287,7 @@ class LineItemType
      *  Line Reference
      *  Line Reference
      *
-     * @param \UBL\Common\CAC\LineReference[] $lineReference
+     * @param \App\UBL\Common\CAC\LineReference[] $lineReference
      * @return self
      */
     public function setLineReference(?array $lineReference = null)
@@ -2296,5 +2296,4 @@ class LineItemType
         return $this;
     }
 }
-
 

@@ -1,4 +1,4 @@
-UBL\CCTS\QuantityType:
+App\UBL\CCTS\QuantityType:
     properties:
         __value:
             expose: true

@@ -9,4 +9,3 @@ class PromotionalSpecification extends PromotionalSpecificationType
 {
 }
 
-

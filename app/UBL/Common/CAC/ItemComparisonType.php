@@ -23,7 +23,7 @@ class ItemComparisonType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\PriceAmount $priceAmount
+     * @var \App\UBL\Common\CBC\PriceAmount $priceAmount
      */
     private $priceAmount = null;
 
@@ -38,7 +38,7 @@ class ItemComparisonType
      *  Quantity. Type
      *  per unit
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -54,7 +54,7 @@ class ItemComparisonType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\PriceAmount
+     * @return \App\UBL\Common\CBC\PriceAmount
      */
     public function getPriceAmount()
     {
@@ -73,10 +73,10 @@ class ItemComparisonType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\PriceAmount $priceAmount
+     * @param \App\UBL\Common\CBC\PriceAmount $priceAmount
      * @return self
      */
-    public function setPriceAmount(?\UBL\Common\CBC\PriceAmount $priceAmount = null)
+    public function setPriceAmount(?\App\UBL\Common\CBC\PriceAmount $priceAmount = null)
     {
         $this->priceAmount = $priceAmount;
         return $this;
@@ -95,7 +95,7 @@ class ItemComparisonType
      *  Quantity. Type
      *  per unit
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -115,14 +115,13 @@ class ItemComparisonType
      *  Quantity. Type
      *  per unit
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
     }
 }
-
 

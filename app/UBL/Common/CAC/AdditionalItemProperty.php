@@ -9,4 +9,3 @@ class AdditionalItemProperty extends ItemPropertyType
 {
 }
 
-

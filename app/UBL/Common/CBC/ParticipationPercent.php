@@ -9,4 +9,3 @@ class ParticipationPercent extends ParticipationPercentType
 {
 }
 
-

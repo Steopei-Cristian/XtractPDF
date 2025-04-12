@@ -1,2 +1,2 @@
-UBL\Common\CBC\CorrectionAmountType:
+App\UBL\Common\CBC\CorrectionAmountType:
     properties: {  }

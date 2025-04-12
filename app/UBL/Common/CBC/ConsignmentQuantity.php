@@ -9,4 +9,3 @@ class ConsignmentQuantity extends ConsignmentQuantityType
 {
 }
 
-

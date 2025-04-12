@@ -1,4 +1,4 @@
-UBL\Common\CAC\RequestForQuotationLineType:
+App\UBL\Common\CAC\RequestForQuotationLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\RequestForQuotationLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         uUID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\RequestForQuotationLineType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         note:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\RequestForQuotationLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         optionalLineItemIndicator:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\RequestForQuotationLineType:
             accessor:
                 getter: getPrivacyCode
                 setter: setPrivacyCode
-            type: UBL\Common\CBC\PrivacyCode
+            type: App\UBL\Common\CBC\PrivacyCode
         securityClassificationCode:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\RequestForQuotationLineType:
             accessor:
                 getter: getSecurityClassificationCode
                 setter: setSecurityClassificationCode
-            type: UBL\Common\CBC\SecurityClassificationCode
+            type: App\UBL\Common\CBC\SecurityClassificationCode
         documentReference:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\RequestForQuotationLineType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>
         lineItem:
             expose: true
             access_type: public_method
@@ -87,4 +87,4 @@ UBL\Common\CAC\RequestForQuotationLineType:
             accessor:
                 getter: getLineItem
                 setter: setLineItem
-            type: UBL\Common\CAC\LineItem
+            type: App\UBL\Common\CAC\LineItem

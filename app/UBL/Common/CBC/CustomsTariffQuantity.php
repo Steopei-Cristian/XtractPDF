@@ -9,4 +9,3 @@ class CustomsTariffQuantity extends CustomsTariffQuantityType
 {
 }
 
-

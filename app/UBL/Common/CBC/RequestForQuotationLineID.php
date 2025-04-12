@@ -9,4 +9,3 @@ class RequestForQuotationLineID extends RequestForQuotationLineIDType
 {
 }
 
-

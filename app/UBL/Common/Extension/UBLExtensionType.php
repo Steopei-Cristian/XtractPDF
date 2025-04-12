@@ -13,70 +13,70 @@ class UBLExtensionType
     /**
      * An identifier for the Extension assigned by the creator of the extension.
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
     /**
      * A name for the Extension assigned by the creator of the extension.
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
     /**
      * An agency that maintains one or more Extensions.
      *
-     * @var \UBL\Common\Extension\ExtensionAgencyID $extensionAgencyID
+     * @var \App\UBL\Common\Extension\ExtensionAgencyID $extensionAgencyID
      */
     private $extensionAgencyID = null;
 
     /**
      * The name of the agency that maintains the Extension.
      *
-     * @var \UBL\Common\Extension\ExtensionAgencyName $extensionAgencyName
+     * @var \App\UBL\Common\Extension\ExtensionAgencyName $extensionAgencyName
      */
     private $extensionAgencyName = null;
 
     /**
      * The version of the Extension.
      *
-     * @var \UBL\Common\Extension\ExtensionVersionID $extensionVersionID
+     * @var \App\UBL\Common\Extension\ExtensionVersionID $extensionVersionID
      */
     private $extensionVersionID = null;
 
     /**
      * A URI for the Agency that maintains the Extension.
      *
-     * @var \UBL\Common\Extension\ExtensionAgencyURI $extensionAgencyURI
+     * @var \App\UBL\Common\Extension\ExtensionAgencyURI $extensionAgencyURI
      */
     private $extensionAgencyURI = null;
 
     /**
      * A URI for the Extension.
      *
-     * @var \UBL\Common\Extension\ExtensionURI $extensionURI
+     * @var \App\UBL\Common\Extension\ExtensionURI $extensionURI
      */
     private $extensionURI = null;
 
     /**
      * A code for reason the Extension is being included.
      *
-     * @var \UBL\Common\Extension\ExtensionReasonCode $extensionReasonCode
+     * @var \App\UBL\Common\Extension\ExtensionReasonCode $extensionReasonCode
      */
     private $extensionReasonCode = null;
 
     /**
      * A description of the reason for the Extension.
      *
-     * @var \UBL\Common\Extension\ExtensionReason $extensionReason
+     * @var \App\UBL\Common\Extension\ExtensionReason $extensionReason
      */
     private $extensionReason = null;
 
     /**
      * The definition of the extension content.
      *
-     * @var \UBL\Common\Extension\ExtensionContent $extensionContent
+     * @var \App\UBL\Common\Extension\ExtensionContent $extensionContent
      */
     private $extensionContent = null;
 
@@ -85,7 +85,7 @@ class UBLExtensionType
      *
      * An identifier for the Extension assigned by the creator of the extension.
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -97,10 +97,10 @@ class UBLExtensionType
      *
      * An identifier for the Extension assigned by the creator of the extension.
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -111,7 +111,7 @@ class UBLExtensionType
      *
      * A name for the Extension assigned by the creator of the extension.
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -123,10 +123,10 @@ class UBLExtensionType
      *
      * A name for the Extension assigned by the creator of the extension.
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -137,7 +137,7 @@ class UBLExtensionType
      *
      * An agency that maintains one or more Extensions.
      *
-     * @return \UBL\Common\Extension\ExtensionAgencyID
+     * @return \App\UBL\Common\Extension\ExtensionAgencyID
      */
     public function getExtensionAgencyID()
     {
@@ -149,10 +149,10 @@ class UBLExtensionType
      *
      * An agency that maintains one or more Extensions.
      *
-     * @param \UBL\Common\Extension\ExtensionAgencyID $extensionAgencyID
+     * @param \App\UBL\Common\Extension\ExtensionAgencyID $extensionAgencyID
      * @return self
      */
-    public function setExtensionAgencyID(?\UBL\Common\Extension\ExtensionAgencyID $extensionAgencyID = null)
+    public function setExtensionAgencyID(?\App\UBL\Common\Extension\ExtensionAgencyID $extensionAgencyID = null)
     {
         $this->extensionAgencyID = $extensionAgencyID;
         return $this;
@@ -163,7 +163,7 @@ class UBLExtensionType
      *
      * The name of the agency that maintains the Extension.
      *
-     * @return \UBL\Common\Extension\ExtensionAgencyName
+     * @return \App\UBL\Common\Extension\ExtensionAgencyName
      */
     public function getExtensionAgencyName()
     {
@@ -175,10 +175,10 @@ class UBLExtensionType
      *
      * The name of the agency that maintains the Extension.
      *
-     * @param \UBL\Common\Extension\ExtensionAgencyName $extensionAgencyName
+     * @param \App\UBL\Common\Extension\ExtensionAgencyName $extensionAgencyName
      * @return self
      */
-    public function setExtensionAgencyName(?\UBL\Common\Extension\ExtensionAgencyName $extensionAgencyName = null)
+    public function setExtensionAgencyName(?\App\UBL\Common\Extension\ExtensionAgencyName $extensionAgencyName = null)
     {
         $this->extensionAgencyName = $extensionAgencyName;
         return $this;
@@ -189,7 +189,7 @@ class UBLExtensionType
      *
      * The version of the Extension.
      *
-     * @return \UBL\Common\Extension\ExtensionVersionID
+     * @return \App\UBL\Common\Extension\ExtensionVersionID
      */
     public function getExtensionVersionID()
     {
@@ -201,10 +201,10 @@ class UBLExtensionType
      *
      * The version of the Extension.
      *
-     * @param \UBL\Common\Extension\ExtensionVersionID $extensionVersionID
+     * @param \App\UBL\Common\Extension\ExtensionVersionID $extensionVersionID
      * @return self
      */
-    public function setExtensionVersionID(?\UBL\Common\Extension\ExtensionVersionID $extensionVersionID = null)
+    public function setExtensionVersionID(?\App\UBL\Common\Extension\ExtensionVersionID $extensionVersionID = null)
     {
         $this->extensionVersionID = $extensionVersionID;
         return $this;
@@ -215,7 +215,7 @@ class UBLExtensionType
      *
      * A URI for the Agency that maintains the Extension.
      *
-     * @return \UBL\Common\Extension\ExtensionAgencyURI
+     * @return \App\UBL\Common\Extension\ExtensionAgencyURI
      */
     public function getExtensionAgencyURI()
     {
@@ -227,10 +227,10 @@ class UBLExtensionType
      *
      * A URI for the Agency that maintains the Extension.
      *
-     * @param \UBL\Common\Extension\ExtensionAgencyURI $extensionAgencyURI
+     * @param \App\UBL\Common\Extension\ExtensionAgencyURI $extensionAgencyURI
      * @return self
      */
-    public function setExtensionAgencyURI(?\UBL\Common\Extension\ExtensionAgencyURI $extensionAgencyURI = null)
+    public function setExtensionAgencyURI(?\App\UBL\Common\Extension\ExtensionAgencyURI $extensionAgencyURI = null)
     {
         $this->extensionAgencyURI = $extensionAgencyURI;
         return $this;
@@ -241,7 +241,7 @@ class UBLExtensionType
      *
      * A URI for the Extension.
      *
-     * @return \UBL\Common\Extension\ExtensionURI
+     * @return \App\UBL\Common\Extension\ExtensionURI
      */
     public function getExtensionURI()
     {
@@ -253,10 +253,10 @@ class UBLExtensionType
      *
      * A URI for the Extension.
      *
-     * @param \UBL\Common\Extension\ExtensionURI $extensionURI
+     * @param \App\UBL\Common\Extension\ExtensionURI $extensionURI
      * @return self
      */
-    public function setExtensionURI(?\UBL\Common\Extension\ExtensionURI $extensionURI = null)
+    public function setExtensionURI(?\App\UBL\Common\Extension\ExtensionURI $extensionURI = null)
     {
         $this->extensionURI = $extensionURI;
         return $this;
@@ -267,7 +267,7 @@ class UBLExtensionType
      *
      * A code for reason the Extension is being included.
      *
-     * @return \UBL\Common\Extension\ExtensionReasonCode
+     * @return \App\UBL\Common\Extension\ExtensionReasonCode
      */
     public function getExtensionReasonCode()
     {
@@ -279,10 +279,10 @@ class UBLExtensionType
      *
      * A code for reason the Extension is being included.
      *
-     * @param \UBL\Common\Extension\ExtensionReasonCode $extensionReasonCode
+     * @param \App\UBL\Common\Extension\ExtensionReasonCode $extensionReasonCode
      * @return self
      */
-    public function setExtensionReasonCode(?\UBL\Common\Extension\ExtensionReasonCode $extensionReasonCode = null)
+    public function setExtensionReasonCode(?\App\UBL\Common\Extension\ExtensionReasonCode $extensionReasonCode = null)
     {
         $this->extensionReasonCode = $extensionReasonCode;
         return $this;
@@ -293,7 +293,7 @@ class UBLExtensionType
      *
      * A description of the reason for the Extension.
      *
-     * @return \UBL\Common\Extension\ExtensionReason
+     * @return \App\UBL\Common\Extension\ExtensionReason
      */
     public function getExtensionReason()
     {
@@ -305,10 +305,10 @@ class UBLExtensionType
      *
      * A description of the reason for the Extension.
      *
-     * @param \UBL\Common\Extension\ExtensionReason $extensionReason
+     * @param \App\UBL\Common\Extension\ExtensionReason $extensionReason
      * @return self
      */
-    public function setExtensionReason(?\UBL\Common\Extension\ExtensionReason $extensionReason = null)
+    public function setExtensionReason(?\App\UBL\Common\Extension\ExtensionReason $extensionReason = null)
     {
         $this->extensionReason = $extensionReason;
         return $this;
@@ -319,7 +319,7 @@ class UBLExtensionType
      *
      * The definition of the extension content.
      *
-     * @return \UBL\Common\Extension\ExtensionContent
+     * @return \App\UBL\Common\Extension\ExtensionContent
      */
     public function getExtensionContent()
     {
@@ -331,14 +331,13 @@ class UBLExtensionType
      *
      * The definition of the extension content.
      *
-     * @param \UBL\Common\Extension\ExtensionContent $extensionContent
+     * @param \App\UBL\Common\Extension\ExtensionContent $extensionContent
      * @return self
      */
-    public function setExtensionContent(\UBL\Common\Extension\ExtensionContent $extensionContent)
+    public function setExtensionContent(\App\UBL\Common\Extension\ExtensionContent $extensionContent)
     {
         $this->extensionContent = $extensionContent;
         return $this;
     }
 }
-
 

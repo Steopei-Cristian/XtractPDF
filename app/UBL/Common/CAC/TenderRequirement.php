@@ -9,4 +9,3 @@ class TenderRequirement extends TenderRequirementType
 {
 }
 
-

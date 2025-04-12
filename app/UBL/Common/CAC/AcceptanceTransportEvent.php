@@ -9,4 +9,3 @@ class AcceptanceTransportEvent extends TransportEventType
 {
 }
 
-

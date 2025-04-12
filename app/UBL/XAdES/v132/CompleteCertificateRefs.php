@@ -9,4 +9,3 @@ class CompleteCertificateRefs extends CompleteCertificateRefsType
 {
 }
 
-

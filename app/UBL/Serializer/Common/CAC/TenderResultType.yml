@@ -1,4 +1,4 @@
-UBL\Common\CAC\TenderResultType:
+App\UBL\Common\CAC\TenderResultType:
     properties:
         tenderResultCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TenderResultType:
             accessor:
                 getter: getTenderResultCode
                 setter: setTenderResultCode
-            type: UBL\Common\CBC\TenderResultCode
+            type: App\UBL\Common\CBC\TenderResultCode
         description:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\TenderResultType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         advertisementAmount:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\TenderResultType:
             accessor:
                 getter: getAdvertisementAmount
                 setter: setAdvertisementAmount
-            type: UBL\Common\CBC\AdvertisementAmount
+            type: App\UBL\Common\CBC\AdvertisementAmount
         awardDate:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\TenderResultType:
             accessor:
                 getter: getReceivedTenderQuantity
                 setter: setReceivedTenderQuantity
-            type: UBL\Common\CBC\ReceivedTenderQuantity
+            type: App\UBL\Common\CBC\ReceivedTenderQuantity
         lowerTenderAmount:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\TenderResultType:
             accessor:
                 getter: getLowerTenderAmount
                 setter: setLowerTenderAmount
-            type: UBL\Common\CBC\LowerTenderAmount
+            type: App\UBL\Common\CBC\LowerTenderAmount
         higherTenderAmount:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\TenderResultType:
             accessor:
                 getter: getHigherTenderAmount
                 setter: setHigherTenderAmount
-            type: UBL\Common\CBC\HigherTenderAmount
+            type: App\UBL\Common\CBC\HigherTenderAmount
         startDate:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\TenderResultType:
             accessor:
                 getter: getReceivedElectronicTenderQuantity
                 setter: setReceivedElectronicTenderQuantity
-            type: UBL\Common\CBC\ReceivedElectronicTenderQuantity
+            type: App\UBL\Common\CBC\ReceivedElectronicTenderQuantity
         receivedForeignTenderQuantity:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\TenderResultType:
             accessor:
                 getter: getReceivedForeignTenderQuantity
                 setter: setReceivedForeignTenderQuantity
-            type: UBL\Common\CBC\ReceivedForeignTenderQuantity
+            type: App\UBL\Common\CBC\ReceivedForeignTenderQuantity
         contract:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ UBL\Common\CAC\TenderResultType:
             accessor:
                 getter: getContract
                 setter: setContract
-            type: UBL\Common\CAC\Contract
+            type: App\UBL\Common\CAC\Contract
         awardedTenderedProject:
             expose: true
             access_type: public_method
@@ -133,7 +133,7 @@ UBL\Common\CAC\TenderResultType:
             accessor:
                 getter: getAwardedTenderedProject
                 setter: setAwardedTenderedProject
-            type: UBL\Common\CAC\AwardedTenderedProject
+            type: App\UBL\Common\CAC\AwardedTenderedProject
         contractFormalizationPeriod:
             expose: true
             access_type: public_method
@@ -143,7 +143,7 @@ UBL\Common\CAC\TenderResultType:
             accessor:
                 getter: getContractFormalizationPeriod
                 setter: setContractFormalizationPeriod
-            type: UBL\Common\CAC\ContractFormalizationPeriod
+            type: App\UBL\Common\CAC\ContractFormalizationPeriod
         subcontractTerms:
             expose: true
             access_type: public_method
@@ -157,7 +157,7 @@ UBL\Common\CAC\TenderResultType:
                 inline: true
                 entry_name: SubcontractTerms
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SubcontractTerms>
+            type: array<App\UBL\Common\CAC\SubcontractTerms>
         winningParty:
             expose: true
             access_type: public_method
@@ -171,4 +171,4 @@ UBL\Common\CAC\TenderResultType:
                 inline: true
                 entry_name: WinningParty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\WinningParty>
+            type: array<App\UBL\Common\CAC\WinningParty>

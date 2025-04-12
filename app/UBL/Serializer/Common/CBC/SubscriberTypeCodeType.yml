@@ -1,2 +1,2 @@
-UBL\Common\CBC\SubscriberTypeCodeType:
+App\UBL\Common\CBC\SubscriberTypeCodeType:
     properties: {  }

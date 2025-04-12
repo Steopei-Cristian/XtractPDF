@@ -1,4 +1,4 @@
-UBL\Common\CAC\FrameworkAgreementType:
+App\UBL\Common\CAC\FrameworkAgreementType:
     properties:
         expectedOperatorQuantity:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\FrameworkAgreementType:
             accessor:
                 getter: getExpectedOperatorQuantity
                 setter: setExpectedOperatorQuantity
-            type: UBL\Common\CBC\ExpectedOperatorQuantity
+            type: App\UBL\Common\CBC\ExpectedOperatorQuantity
         maximumOperatorQuantity:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\FrameworkAgreementType:
             accessor:
                 getter: getMaximumOperatorQuantity
                 setter: setMaximumOperatorQuantity
-            type: UBL\Common\CBC\MaximumOperatorQuantity
+            type: App\UBL\Common\CBC\MaximumOperatorQuantity
         justification:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\FrameworkAgreementType:
                 inline: true
                 entry_name: Justification
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Justification>
+            type: array<App\UBL\Common\CBC\Justification>
         frequency:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ UBL\Common\CAC\FrameworkAgreementType:
                 inline: true
                 entry_name: Frequency
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Frequency>
+            type: array<App\UBL\Common\CBC\Frequency>
         durationPeriod:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\FrameworkAgreementType:
             accessor:
                 getter: getDurationPeriod
                 setter: setDurationPeriod
-            type: UBL\Common\CAC\DurationPeriod
+            type: App\UBL\Common\CAC\DurationPeriod
         subsequentProcessTenderRequirement:
             expose: true
             access_type: public_method
@@ -71,4 +71,4 @@ UBL\Common\CAC\FrameworkAgreementType:
                 inline: true
                 entry_name: SubsequentProcessTenderRequirement
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SubsequentProcessTenderRequirement>
+            type: array<App\UBL\Common\CAC\SubsequentProcessTenderRequirement>

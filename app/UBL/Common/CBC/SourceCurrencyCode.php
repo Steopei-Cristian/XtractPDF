@@ -9,4 +9,3 @@ class SourceCurrencyCode extends SourceCurrencyCodeType
 {
 }
 
-

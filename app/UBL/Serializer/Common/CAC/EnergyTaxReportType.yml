@@ -1,4 +1,4 @@
-UBL\Common\CAC\EnergyTaxReportType:
+App\UBL\Common\CAC\EnergyTaxReportType:
     properties:
         taxEnergyAmount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\EnergyTaxReportType:
             accessor:
                 getter: getTaxEnergyAmount
                 setter: setTaxEnergyAmount
-            type: UBL\Common\CBC\TaxEnergyAmount
+            type: App\UBL\Common\CBC\TaxEnergyAmount
         taxEnergyOnAccountAmount:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\EnergyTaxReportType:
             accessor:
                 getter: getTaxEnergyOnAccountAmount
                 setter: setTaxEnergyOnAccountAmount
-            type: UBL\Common\CBC\TaxEnergyOnAccountAmount
+            type: App\UBL\Common\CBC\TaxEnergyOnAccountAmount
         taxEnergyBalanceAmount:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\EnergyTaxReportType:
             accessor:
                 getter: getTaxEnergyBalanceAmount
                 setter: setTaxEnergyBalanceAmount
-            type: UBL\Common\CBC\TaxEnergyBalanceAmount
+            type: App\UBL\Common\CBC\TaxEnergyBalanceAmount
         taxScheme:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ UBL\Common\CAC\EnergyTaxReportType:
             accessor:
                 getter: getTaxScheme
                 setter: setTaxScheme
-            type: UBL\Common\CAC\TaxScheme
+            type: App\UBL\Common\CAC\TaxScheme

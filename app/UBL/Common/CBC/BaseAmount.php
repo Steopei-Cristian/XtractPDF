@@ -9,4 +9,3 @@ class BaseAmount extends BaseAmountType
 {
 }
 
-

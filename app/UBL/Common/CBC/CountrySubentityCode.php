@@ -9,4 +9,3 @@ class CountrySubentityCode extends CountrySubentityCodeType
 {
 }
 
-

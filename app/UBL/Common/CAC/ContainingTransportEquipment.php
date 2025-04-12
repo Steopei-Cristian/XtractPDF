@@ -9,4 +9,3 @@ class ContainingTransportEquipment extends TransportEquipmentType
 {
 }
 
-

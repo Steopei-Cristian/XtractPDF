@@ -16,7 +16,7 @@ class OCSPIdentifierType
     private $uRI = null;
 
     /**
-     * @var \UBL\XAdES\v132\ResponderIDType $responderID
+     * @var \App\UBL\XAdES\v132\ResponderIDType $responderID
      */
     private $responderID = null;
 
@@ -50,7 +50,7 @@ class OCSPIdentifierType
     /**
      * Gets as responderID
      *
-     * @return \UBL\XAdES\v132\ResponderIDType
+     * @return \App\UBL\XAdES\v132\ResponderIDType
      */
     public function getResponderID()
     {
@@ -60,10 +60,10 @@ class OCSPIdentifierType
     /**
      * Sets a new responderID
      *
-     * @param \UBL\XAdES\v132\ResponderIDType $responderID
+     * @param \App\UBL\XAdES\v132\ResponderIDType $responderID
      * @return self
      */
-    public function setResponderID(\UBL\XAdES\v132\ResponderIDType $responderID)
+    public function setResponderID(\App\UBL\XAdES\v132\ResponderIDType $responderID)
     {
         $this->responderID = $responderID;
         return $this;
@@ -91,5 +91,4 @@ class OCSPIdentifierType
         return $this;
     }
 }
-
 

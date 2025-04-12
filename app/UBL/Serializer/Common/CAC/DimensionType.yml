@@ -1,4 +1,4 @@
-UBL\Common\CAC\DimensionType:
+App\UBL\Common\CAC\DimensionType:
     properties:
         attributeID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\DimensionType:
             accessor:
                 getter: getAttributeID
                 setter: setAttributeID
-            type: UBL\Common\CBC\AttributeID
+            type: App\UBL\Common\CBC\AttributeID
         measure:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\DimensionType:
             accessor:
                 getter: getMeasure
                 setter: setMeasure
-            type: UBL\Common\CBC\Measure
+            type: App\UBL\Common\CBC\Measure
         description:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\DimensionType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         minimumMeasure:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\DimensionType:
             accessor:
                 getter: getMinimumMeasure
                 setter: setMinimumMeasure
-            type: UBL\Common\CBC\MinimumMeasure
+            type: App\UBL\Common\CBC\MinimumMeasure
         maximumMeasure:
             expose: true
             access_type: public_method
@@ -53,4 +53,4 @@ UBL\Common\CAC\DimensionType:
             accessor:
                 getter: getMaximumMeasure
                 setter: setMaximumMeasure
-            type: UBL\Common\CBC\MaximumMeasure
+            type: App\UBL\Common\CBC\MaximumMeasure

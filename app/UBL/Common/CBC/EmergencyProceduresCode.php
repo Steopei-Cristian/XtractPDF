@@ -9,4 +9,3 @@ class EmergencyProceduresCode extends EmergencyProceduresCodeType
 {
 }
 
-

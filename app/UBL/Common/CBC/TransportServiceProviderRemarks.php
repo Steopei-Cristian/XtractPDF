@@ -9,4 +9,3 @@ class TransportServiceProviderRemarks extends TransportServiceProviderRemarksTyp
 {
 }
 
-

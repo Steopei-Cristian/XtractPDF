@@ -9,4 +9,3 @@ class GuidanceDocumentReference extends DocumentReferenceType
 {
 }
 
-

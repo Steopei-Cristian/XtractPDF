@@ -9,4 +9,3 @@ class UtilityStatementTypeCode extends UtilityStatementTypeCodeType
 {
 }
 
-

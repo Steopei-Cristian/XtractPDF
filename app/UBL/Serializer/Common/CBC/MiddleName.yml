@@ -1,3 +1,3 @@
-UBL\Common\CBC\MiddleName:
+App\UBL\Common\CBC\MiddleName:
     xml_root_name: MiddleName
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

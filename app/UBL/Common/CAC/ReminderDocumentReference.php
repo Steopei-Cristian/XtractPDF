@@ -9,4 +9,3 @@ class ReminderDocumentReference extends DocumentReferenceType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\XAdES\v132\CompleteCertificateRefsType:
+App\UBL\XAdES\v132\CompleteCertificateRefsType:
     properties:
         id:
             expose: true
@@ -18,7 +18,7 @@ UBL\XAdES\v132\CompleteCertificateRefsType:
             accessor:
                 getter: getCertRefs
                 setter: setCertRefs
-            type: array<UBL\XAdES\v132\CertIDType>
+            type: array<App\UBL\XAdES\v132\CertIDType>
             xml_list:
                 inline: false
                 entry_name: Cert

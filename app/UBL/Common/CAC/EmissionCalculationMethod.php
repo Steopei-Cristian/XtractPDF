@@ -9,4 +9,3 @@ class EmissionCalculationMethod extends EmissionCalculationMethodType
 {
 }
 
-

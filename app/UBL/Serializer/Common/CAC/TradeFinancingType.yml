@@ -1,4 +1,4 @@
-UBL\Common\CAC\TradeFinancingType:
+App\UBL\Common\CAC\TradeFinancingType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TradeFinancingType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         financingInstrumentCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TradeFinancingType:
             accessor:
                 getter: getFinancingInstrumentCode
                 setter: setFinancingInstrumentCode
-            type: UBL\Common\CBC\FinancingInstrumentCode
+            type: App\UBL\Common\CBC\FinancingInstrumentCode
         contractDocumentReference:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\TradeFinancingType:
             accessor:
                 getter: getContractDocumentReference
                 setter: setContractDocumentReference
-            type: UBL\Common\CAC\ContractDocumentReference
+            type: App\UBL\Common\CAC\ContractDocumentReference
         documentReference:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\TradeFinancingType:
                 inline: true
                 entry_name: DocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentReference>
+            type: array<App\UBL\Common\CAC\DocumentReference>
         financingParty:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\TradeFinancingType:
             accessor:
                 getter: getFinancingParty
                 setter: setFinancingParty
-            type: UBL\Common\CAC\FinancingParty
+            type: App\UBL\Common\CAC\FinancingParty
         financingFinancialAccount:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\TradeFinancingType:
             accessor:
                 getter: getFinancingFinancialAccount
                 setter: setFinancingFinancialAccount
-            type: UBL\Common\CAC\FinancingFinancialAccount
+            type: App\UBL\Common\CAC\FinancingFinancialAccount
         clause:
             expose: true
             access_type: public_method
@@ -77,4 +77,4 @@ UBL\Common\CAC\TradeFinancingType:
                 inline: true
                 entry_name: Clause
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Clause>
+            type: array<App\UBL\Common\CAC\Clause>

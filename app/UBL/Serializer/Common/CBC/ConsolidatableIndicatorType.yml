@@ -1,4 +1,4 @@
-UBL\Common\CBC\ConsolidatableIndicatorType:
+App\UBL\Common\CBC\ConsolidatableIndicatorType:
     properties:
         __value:
             expose: true

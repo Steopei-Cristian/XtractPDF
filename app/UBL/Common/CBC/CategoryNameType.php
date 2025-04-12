@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\NameType;
+use App\UBL\Unqualified\NameType;
 
 /**
  * Class representing CategoryNameType
@@ -13,5 +13,4 @@ use UBL\Unqualified\NameType;
 class CategoryNameType extends NameType
 {
 }
-
 

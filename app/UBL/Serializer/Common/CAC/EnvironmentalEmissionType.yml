@@ -1,4 +1,4 @@
-UBL\Common\CAC\EnvironmentalEmissionType:
+App\UBL\Common\CAC\EnvironmentalEmissionType:
     properties:
         environmentalEmissionTypeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\EnvironmentalEmissionType:
             accessor:
                 getter: getEnvironmentalEmissionTypeCode
                 setter: setEnvironmentalEmissionTypeCode
-            type: UBL\Common\CBC\EnvironmentalEmissionTypeCode
+            type: App\UBL\Common\CBC\EnvironmentalEmissionTypeCode
         valueMeasure:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\EnvironmentalEmissionType:
             accessor:
                 getter: getValueMeasure
                 setter: setValueMeasure
-            type: UBL\Common\CBC\ValueMeasure
+            type: App\UBL\Common\CBC\ValueMeasure
         description:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\EnvironmentalEmissionType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         emissionCalculationMethod:
             expose: true
             access_type: public_method
@@ -47,4 +47,4 @@ UBL\Common\CAC\EnvironmentalEmissionType:
                 inline: true
                 entry_name: EmissionCalculationMethod
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\EmissionCalculationMethod>
+            type: array<App\UBL\Common\CAC\EmissionCalculationMethod>

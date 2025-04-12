@@ -1,4 +1,4 @@
-UBL\XAdES\v132\OCSPIdentifierType:
+App\UBL\XAdES\v132\OCSPIdentifierType:
     properties:
         uRI:
             expose: true
@@ -18,7 +18,7 @@ UBL\XAdES\v132\OCSPIdentifierType:
             accessor:
                 getter: getResponderID
                 setter: setResponderID
-            type: UBL\XAdES\v132\ResponderIDType
+            type: App\UBL\XAdES\v132\ResponderIDType
         producedAt:
             expose: true
             access_type: public_method

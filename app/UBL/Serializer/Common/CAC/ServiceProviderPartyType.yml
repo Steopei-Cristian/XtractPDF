@@ -1,4 +1,4 @@
-UBL\Common\CAC\ServiceProviderPartyType:
+App\UBL\Common\CAC\ServiceProviderPartyType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ServiceProviderPartyType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         serviceTypeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ServiceProviderPartyType:
             accessor:
                 getter: getServiceTypeCode
                 setter: setServiceTypeCode
-            type: UBL\Common\CBC\ServiceTypeCode
+            type: App\UBL\Common\CBC\ServiceTypeCode
         serviceType:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\ServiceProviderPartyType:
                 inline: true
                 entry_name: ServiceType
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\ServiceType>
+            type: array<App\UBL\Common\CBC\ServiceType>
         party:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\ServiceProviderPartyType:
             accessor:
                 getter: getParty
                 setter: setParty
-            type: UBL\Common\CAC\Party
+            type: App\UBL\Common\CAC\Party
         sellerContact:
             expose: true
             access_type: public_method
@@ -53,4 +53,4 @@ UBL\Common\CAC\ServiceProviderPartyType:
             accessor:
                 getter: getSellerContact
                 setter: setSellerContact
-            type: UBL\Common\CAC\SellerContact
+            type: App\UBL\Common\CAC\SellerContact

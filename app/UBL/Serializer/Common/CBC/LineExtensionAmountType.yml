@@ -1,2 +1,2 @@
-UBL\Common\CBC\LineExtensionAmountType:
+App\UBL\Common\CBC\LineExtensionAmountType:
     properties: {  }

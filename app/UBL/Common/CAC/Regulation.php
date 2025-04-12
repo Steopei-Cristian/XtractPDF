@@ -9,4 +9,3 @@ class Regulation extends RegulationType
 {
 }
 
-

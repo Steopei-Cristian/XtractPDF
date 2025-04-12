@@ -23,7 +23,7 @@ class BudgetAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class BudgetAccountType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\BudgetYearNumeric $budgetYearNumeric
+     * @var \App\UBL\Common\CBC\BudgetYearNumeric $budgetYearNumeric
      */
     private $budgetYearNumeric = null;
 
@@ -52,7 +52,7 @@ class BudgetAccountType
      *  Classification Scheme
      *  Classification Scheme
      *
-     * @var \UBL\Common\CAC\RequiredClassificationScheme $requiredClassificationScheme
+     * @var \App\UBL\Common\CAC\RequiredClassificationScheme $requiredClassificationScheme
      */
     private $requiredClassificationScheme = null;
 
@@ -68,7 +68,7 @@ class BudgetAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -87,10 +87,10 @@ class BudgetAccountType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -108,7 +108,7 @@ class BudgetAccountType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\BudgetYearNumeric
+     * @return \App\UBL\Common\CBC\BudgetYearNumeric
      */
     public function getBudgetYearNumeric()
     {
@@ -127,10 +127,10 @@ class BudgetAccountType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\BudgetYearNumeric $budgetYearNumeric
+     * @param \App\UBL\Common\CBC\BudgetYearNumeric $budgetYearNumeric
      * @return self
      */
-    public function setBudgetYearNumeric(?\UBL\Common\CBC\BudgetYearNumeric $budgetYearNumeric = null)
+    public function setBudgetYearNumeric(?\App\UBL\Common\CBC\BudgetYearNumeric $budgetYearNumeric = null)
     {
         $this->budgetYearNumeric = $budgetYearNumeric;
         return $this;
@@ -149,7 +149,7 @@ class BudgetAccountType
      *  Classification Scheme
      *  Classification Scheme
      *
-     * @return \UBL\Common\CAC\RequiredClassificationScheme
+     * @return \App\UBL\Common\CAC\RequiredClassificationScheme
      */
     public function getRequiredClassificationScheme()
     {
@@ -169,14 +169,13 @@ class BudgetAccountType
      *  Classification Scheme
      *  Classification Scheme
      *
-     * @param \UBL\Common\CAC\RequiredClassificationScheme $requiredClassificationScheme
+     * @param \App\UBL\Common\CAC\RequiredClassificationScheme $requiredClassificationScheme
      * @return self
      */
-    public function setRequiredClassificationScheme(?\UBL\Common\CAC\RequiredClassificationScheme $requiredClassificationScheme = null)
+    public function setRequiredClassificationScheme(?\App\UBL\Common\CAC\RequiredClassificationScheme $requiredClassificationScheme = null)
     {
         $this->requiredClassificationScheme = $requiredClassificationScheme;
         return $this;
     }
 }
-
 

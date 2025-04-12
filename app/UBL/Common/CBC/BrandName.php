@@ -9,4 +9,3 @@ class BrandName extends BrandNameType
 {
 }
 
-

@@ -9,4 +9,3 @@ class RangeDimension extends DimensionType
 {
 }
 
-

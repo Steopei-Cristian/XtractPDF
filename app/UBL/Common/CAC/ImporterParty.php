@@ -9,4 +9,3 @@ class ImporterParty extends PartyType
 {
 }
 
-

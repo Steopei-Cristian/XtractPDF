@@ -9,4 +9,3 @@ class AccountFormatCode extends AccountFormatCodeType
 {
 }
 
-

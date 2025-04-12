@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class SPUserNoticeType
 {
     /**
-     * @var \UBL\XAdES\v132\NoticeReferenceType $noticeRef
+     * @var \App\UBL\XAdES\v132\NoticeReferenceType $noticeRef
      */
     private $noticeRef = null;
 
@@ -23,7 +23,7 @@ class SPUserNoticeType
     /**
      * Gets as noticeRef
      *
-     * @return \UBL\XAdES\v132\NoticeReferenceType
+     * @return \App\UBL\XAdES\v132\NoticeReferenceType
      */
     public function getNoticeRef()
     {
@@ -33,10 +33,10 @@ class SPUserNoticeType
     /**
      * Sets a new noticeRef
      *
-     * @param \UBL\XAdES\v132\NoticeReferenceType $noticeRef
+     * @param \App\UBL\XAdES\v132\NoticeReferenceType $noticeRef
      * @return self
      */
-    public function setNoticeRef(?\UBL\XAdES\v132\NoticeReferenceType $noticeRef = null)
+    public function setNoticeRef(?\App\UBL\XAdES\v132\NoticeReferenceType $noticeRef = null)
     {
         $this->noticeRef = $noticeRef;
         return $this;
@@ -64,5 +64,4 @@ class SPUserNoticeType
         return $this;
     }
 }
-
 

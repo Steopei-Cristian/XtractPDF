@@ -9,4 +9,3 @@ class ConsumptionReportID extends ConsumptionReportIDType
 {
 }
 
-

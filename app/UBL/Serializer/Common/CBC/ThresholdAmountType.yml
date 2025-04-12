@@ -1,2 +1,2 @@
-UBL\Common\CBC\ThresholdAmountType:
+App\UBL\Common\CBC\ThresholdAmountType:
     properties: {  }

@@ -1,4 +1,4 @@
-UBL\XAdES\v132\OtherCertStatusValuesType:
+App\UBL\XAdES\v132\OtherCertStatusValuesType:
     properties:
         otherValue:
             expose: true
@@ -13,4 +13,4 @@ UBL\XAdES\v132\OtherCertStatusValuesType:
                 inline: true
                 entry_name: OtherValue
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\AnyType>
+            type: array<App\UBL\XAdES\v132\AnyType>

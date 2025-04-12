@@ -9,4 +9,3 @@ class UtilityItem extends UtilityItemType
 {
 }
 
-

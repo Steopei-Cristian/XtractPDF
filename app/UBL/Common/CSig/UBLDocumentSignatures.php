@@ -9,4 +9,3 @@ class UBLDocumentSignatures extends UBLDocumentSignaturesType
 {
 }
 
-

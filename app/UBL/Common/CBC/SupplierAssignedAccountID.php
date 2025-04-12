@@ -9,4 +9,3 @@ class SupplierAssignedAccountID extends SupplierAssignedAccountIDType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CAC\ForecastLineType:
+App\UBL\Common\CAC\ForecastLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ForecastLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         note:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\ForecastLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         frozenDocumentIndicator:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\ForecastLineType:
             accessor:
                 getter: getForecastTypeCode
                 setter: setForecastTypeCode
-            type: UBL\Common\CBC\ForecastTypeCode
+            type: App\UBL\Common\CBC\ForecastTypeCode
         forecastPeriod:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\ForecastLineType:
             accessor:
                 getter: getForecastPeriod
                 setter: setForecastPeriod
-            type: UBL\Common\CAC\ForecastPeriod
+            type: App\UBL\Common\CAC\ForecastPeriod
         salesItem:
             expose: true
             access_type: public_method
@@ -63,4 +63,4 @@ UBL\Common\CAC\ForecastLineType:
             accessor:
                 getter: getSalesItem
                 setter: setSalesItem
-            type: UBL\Common\CAC\SalesItem
+            type: App\UBL\Common\CAC\SalesItem

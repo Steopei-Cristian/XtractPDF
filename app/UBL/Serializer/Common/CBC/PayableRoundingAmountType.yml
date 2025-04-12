@@ -1,2 +1,2 @@
-UBL\Common\CBC\PayableRoundingAmountType:
+App\UBL\Common\CBC\PayableRoundingAmountType:
     properties: {  }

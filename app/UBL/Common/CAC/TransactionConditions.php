@@ -9,4 +9,3 @@ class TransactionConditions extends TransactionConditionsType
 {
 }
 
-

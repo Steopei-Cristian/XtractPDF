@@ -1,4 +1,4 @@
-UBL\Common\CAC\TransportExecutionTermsType:
+App\UBL\Common\CAC\TransportExecutionTermsType:
     properties:
         transportUserSpecialTerms:
             expose: true
@@ -13,7 +13,7 @@ UBL\Common\CAC\TransportExecutionTermsType:
                 inline: true
                 entry_name: TransportUserSpecialTerms
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\TransportUserSpecialTerms>
+            type: array<App\UBL\Common\CBC\TransportUserSpecialTerms>
         transportServiceProviderSpecialTerms:
             expose: true
             access_type: public_method
@@ -27,7 +27,7 @@ UBL\Common\CAC\TransportExecutionTermsType:
                 inline: true
                 entry_name: TransportServiceProviderSpecialTerms
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\TransportServiceProviderSpecialTerms>
+            type: array<App\UBL\Common\CBC\TransportServiceProviderSpecialTerms>
         changeConditions:
             expose: true
             access_type: public_method
@@ -41,7 +41,7 @@ UBL\Common\CAC\TransportExecutionTermsType:
                 inline: true
                 entry_name: ChangeConditions
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\ChangeConditions>
+            type: array<App\UBL\Common\CBC\ChangeConditions>
         paymentTerms:
             expose: true
             access_type: public_method
@@ -55,7 +55,7 @@ UBL\Common\CAC\TransportExecutionTermsType:
                 inline: true
                 entry_name: PaymentTerms
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PaymentTerms>
+            type: array<App\UBL\Common\CAC\PaymentTerms>
         deliveryTerms:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\TransportExecutionTermsType:
                 inline: true
                 entry_name: DeliveryTerms
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DeliveryTerms>
+            type: array<App\UBL\Common\CAC\DeliveryTerms>
         bonusPaymentTerms:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\CAC\TransportExecutionTermsType:
             accessor:
                 getter: getBonusPaymentTerms
                 setter: setBonusPaymentTerms
-            type: UBL\Common\CAC\BonusPaymentTerms
+            type: App\UBL\Common\CAC\BonusPaymentTerms
         commissionPaymentTerms:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ UBL\Common\CAC\TransportExecutionTermsType:
             accessor:
                 getter: getCommissionPaymentTerms
                 setter: setCommissionPaymentTerms
-            type: UBL\Common\CAC\CommissionPaymentTerms
+            type: App\UBL\Common\CAC\CommissionPaymentTerms
         penaltyPaymentTerms:
             expose: true
             access_type: public_method
@@ -99,7 +99,7 @@ UBL\Common\CAC\TransportExecutionTermsType:
             accessor:
                 getter: getPenaltyPaymentTerms
                 setter: setPenaltyPaymentTerms
-            type: UBL\Common\CAC\PenaltyPaymentTerms
+            type: App\UBL\Common\CAC\PenaltyPaymentTerms
         environmentalEmission:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\TransportExecutionTermsType:
                 inline: true
                 entry_name: EnvironmentalEmission
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\EnvironmentalEmission>
+            type: array<App\UBL\Common\CAC\EnvironmentalEmission>
         notificationRequirement:
             expose: true
             access_type: public_method
@@ -127,7 +127,7 @@ UBL\Common\CAC\TransportExecutionTermsType:
                 inline: true
                 entry_name: NotificationRequirement
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\NotificationRequirement>
+            type: array<App\UBL\Common\CAC\NotificationRequirement>
         serviceChargePaymentTerms:
             expose: true
             access_type: public_method
@@ -137,4 +137,4 @@ UBL\Common\CAC\TransportExecutionTermsType:
             accessor:
                 getter: getServiceChargePaymentTerms
                 setter: setServiceChargePaymentTerms
-            type: UBL\Common\CAC\ServiceChargePaymentTerms
+            type: App\UBL\Common\CAC\ServiceChargePaymentTerms

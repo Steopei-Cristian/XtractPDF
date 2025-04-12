@@ -9,4 +9,3 @@ class ExceptionResolutionCode extends ExceptionResolutionCodeType
 {
 }
 
-

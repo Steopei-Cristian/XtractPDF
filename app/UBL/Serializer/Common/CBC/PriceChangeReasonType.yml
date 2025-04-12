@@ -1,2 +1,2 @@
-UBL\Common\CBC\PriceChangeReasonType:
+App\UBL\Common\CBC\PriceChangeReasonType:
     properties: {  }

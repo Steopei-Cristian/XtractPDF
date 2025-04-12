@@ -9,4 +9,3 @@ class AdditionalTransportationService extends TransportationServiceType
 {
 }
 
-

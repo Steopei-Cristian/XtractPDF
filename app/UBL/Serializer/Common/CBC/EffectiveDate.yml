@@ -1,4 +1,4 @@
-UBL\Common\CBC\EffectiveDate:
+App\UBL\Common\CBC\EffectiveDate:
     xml_root_name: EffectiveDate
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

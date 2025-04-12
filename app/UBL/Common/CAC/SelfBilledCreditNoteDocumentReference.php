@@ -9,4 +9,3 @@ class SelfBilledCreditNoteDocumentReference extends DocumentReferenceType
 {
 }
 
-

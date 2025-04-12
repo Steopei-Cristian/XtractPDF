@@ -9,4 +9,3 @@ class CorrectionType extends CorrectionTypeType
 {
 }
 
-

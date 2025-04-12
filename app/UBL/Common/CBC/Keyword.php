@@ -9,4 +9,3 @@ class Keyword extends KeywordType
 {
 }
 
-

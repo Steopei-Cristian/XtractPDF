@@ -1,4 +1,4 @@
-UBL\Common\CBC\HazardousRiskIndicatorType:
+App\UBL\Common\CBC\HazardousRiskIndicatorType:
     properties:
         __value:
             expose: true

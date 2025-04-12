@@ -9,4 +9,3 @@ class TotalCapacityDimension extends DimensionType
 {
 }
 
-

@@ -9,4 +9,3 @@ class DeliveryTerms extends DeliveryTermsType
 {
 }
 
-

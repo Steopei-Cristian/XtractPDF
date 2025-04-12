@@ -1,4 +1,4 @@
-UBL\XAdES\v132\IdentifierType:
+App\UBL\XAdES\v132\IdentifierType:
     properties:
         __value:
             expose: true

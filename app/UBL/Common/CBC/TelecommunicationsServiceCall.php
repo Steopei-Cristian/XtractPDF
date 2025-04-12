@@ -9,4 +9,3 @@ class TelecommunicationsServiceCall extends TelecommunicationsServiceCallType
 {
 }
 
-

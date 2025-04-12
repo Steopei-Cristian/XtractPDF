@@ -23,7 +23,7 @@ class PersonType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class PersonType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\FirstName $firstName
+     * @var \App\UBL\Common\CBC\FirstName $firstName
      */
     private $firstName = null;
 
@@ -53,7 +53,7 @@ class PersonType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\FamilyName $familyName
+     * @var \App\UBL\Common\CBC\FamilyName $familyName
      */
     private $familyName = null;
 
@@ -67,7 +67,7 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Title $title
+     * @var \App\UBL\Common\CBC\Title $title
      */
     private $title = null;
 
@@ -82,7 +82,7 @@ class PersonType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\MiddleName $middleName
+     * @var \App\UBL\Common\CBC\MiddleName $middleName
      */
     private $middleName = null;
 
@@ -98,7 +98,7 @@ class PersonType
      *  Name. Type
      *  Delivery Dock
      *
-     * @var \UBL\Common\CBC\OtherName $otherName
+     * @var \App\UBL\Common\CBC\OtherName $otherName
      */
     private $otherName = null;
 
@@ -112,7 +112,7 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\NameSuffix $nameSuffix
+     * @var \App\UBL\Common\CBC\NameSuffix $nameSuffix
      */
     private $nameSuffix = null;
 
@@ -126,7 +126,7 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\JobTitle $jobTitle
+     * @var \App\UBL\Common\CBC\JobTitle $jobTitle
      */
     private $jobTitle = null;
 
@@ -140,7 +140,7 @@ class PersonType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\NationalityID $nationalityID
+     * @var \App\UBL\Common\CBC\NationalityID $nationalityID
      */
     private $nationalityID = null;
 
@@ -154,7 +154,7 @@ class PersonType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\GenderCode $genderCode
+     * @var \App\UBL\Common\CBC\GenderCode $genderCode
      */
     private $genderCode = null;
 
@@ -182,7 +182,7 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\BirthplaceName $birthplaceName
+     * @var \App\UBL\Common\CBC\BirthplaceName $birthplaceName
      */
     private $birthplaceName = null;
 
@@ -197,7 +197,7 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\OrganizationDepartment $organizationDepartment
+     * @var \App\UBL\Common\CBC\OrganizationDepartment $organizationDepartment
      */
     private $organizationDepartment = null;
 
@@ -211,7 +211,7 @@ class PersonType
      *  Contact
      *  Contact
      *
-     * @var \UBL\Common\CAC\Contact $contact
+     * @var \App\UBL\Common\CAC\Contact $contact
      */
     private $contact = null;
 
@@ -225,7 +225,7 @@ class PersonType
      *  Financial Account
      *  Financial Account
      *
-     * @var \UBL\Common\CAC\FinancialAccount $financialAccount
+     * @var \App\UBL\Common\CAC\FinancialAccount $financialAccount
      */
     private $financialAccount = null;
 
@@ -240,7 +240,7 @@ class PersonType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\IdentityDocumentReference[] $identityDocumentReference
+     * @var \App\UBL\Common\CAC\IdentityDocumentReference[] $identityDocumentReference
      */
     private $identityDocumentReference = [
         
@@ -257,7 +257,7 @@ class PersonType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\ResidenceAddress $residenceAddress
+     * @var \App\UBL\Common\CAC\ResidenceAddress $residenceAddress
      */
     private $residenceAddress = null;
 
@@ -273,7 +273,7 @@ class PersonType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -292,10 +292,10 @@ class PersonType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -314,7 +314,7 @@ class PersonType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\FirstName
+     * @return \App\UBL\Common\CBC\FirstName
      */
     public function getFirstName()
     {
@@ -334,10 +334,10 @@ class PersonType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\FirstName $firstName
+     * @param \App\UBL\Common\CBC\FirstName $firstName
      * @return self
      */
-    public function setFirstName(?\UBL\Common\CBC\FirstName $firstName = null)
+    public function setFirstName(?\App\UBL\Common\CBC\FirstName $firstName = null)
     {
         $this->firstName = $firstName;
         return $this;
@@ -356,7 +356,7 @@ class PersonType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\FamilyName
+     * @return \App\UBL\Common\CBC\FamilyName
      */
     public function getFamilyName()
     {
@@ -376,10 +376,10 @@ class PersonType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\FamilyName $familyName
+     * @param \App\UBL\Common\CBC\FamilyName $familyName
      * @return self
      */
-    public function setFamilyName(?\UBL\Common\CBC\FamilyName $familyName = null)
+    public function setFamilyName(?\App\UBL\Common\CBC\FamilyName $familyName = null)
     {
         $this->familyName = $familyName;
         return $this;
@@ -397,7 +397,7 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Title
+     * @return \App\UBL\Common\CBC\Title
      */
     public function getTitle()
     {
@@ -416,10 +416,10 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Title $title
+     * @param \App\UBL\Common\CBC\Title $title
      * @return self
      */
-    public function setTitle(?\UBL\Common\CBC\Title $title = null)
+    public function setTitle(?\App\UBL\Common\CBC\Title $title = null)
     {
         $this->title = $title;
         return $this;
@@ -438,7 +438,7 @@ class PersonType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\MiddleName
+     * @return \App\UBL\Common\CBC\MiddleName
      */
     public function getMiddleName()
     {
@@ -458,10 +458,10 @@ class PersonType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\MiddleName $middleName
+     * @param \App\UBL\Common\CBC\MiddleName $middleName
      * @return self
      */
-    public function setMiddleName(?\UBL\Common\CBC\MiddleName $middleName = null)
+    public function setMiddleName(?\App\UBL\Common\CBC\MiddleName $middleName = null)
     {
         $this->middleName = $middleName;
         return $this;
@@ -481,7 +481,7 @@ class PersonType
      *  Name. Type
      *  Delivery Dock
      *
-     * @return \UBL\Common\CBC\OtherName
+     * @return \App\UBL\Common\CBC\OtherName
      */
     public function getOtherName()
     {
@@ -502,10 +502,10 @@ class PersonType
      *  Name. Type
      *  Delivery Dock
      *
-     * @param \UBL\Common\CBC\OtherName $otherName
+     * @param \App\UBL\Common\CBC\OtherName $otherName
      * @return self
      */
-    public function setOtherName(?\UBL\Common\CBC\OtherName $otherName = null)
+    public function setOtherName(?\App\UBL\Common\CBC\OtherName $otherName = null)
     {
         $this->otherName = $otherName;
         return $this;
@@ -523,7 +523,7 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\NameSuffix
+     * @return \App\UBL\Common\CBC\NameSuffix
      */
     public function getNameSuffix()
     {
@@ -542,10 +542,10 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\NameSuffix $nameSuffix
+     * @param \App\UBL\Common\CBC\NameSuffix $nameSuffix
      * @return self
      */
-    public function setNameSuffix(?\UBL\Common\CBC\NameSuffix $nameSuffix = null)
+    public function setNameSuffix(?\App\UBL\Common\CBC\NameSuffix $nameSuffix = null)
     {
         $this->nameSuffix = $nameSuffix;
         return $this;
@@ -563,7 +563,7 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\JobTitle
+     * @return \App\UBL\Common\CBC\JobTitle
      */
     public function getJobTitle()
     {
@@ -582,10 +582,10 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\JobTitle $jobTitle
+     * @param \App\UBL\Common\CBC\JobTitle $jobTitle
      * @return self
      */
-    public function setJobTitle(?\UBL\Common\CBC\JobTitle $jobTitle = null)
+    public function setJobTitle(?\App\UBL\Common\CBC\JobTitle $jobTitle = null)
     {
         $this->jobTitle = $jobTitle;
         return $this;
@@ -603,7 +603,7 @@ class PersonType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\NationalityID
+     * @return \App\UBL\Common\CBC\NationalityID
      */
     public function getNationalityID()
     {
@@ -622,10 +622,10 @@ class PersonType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\NationalityID $nationalityID
+     * @param \App\UBL\Common\CBC\NationalityID $nationalityID
      * @return self
      */
-    public function setNationalityID(?\UBL\Common\CBC\NationalityID $nationalityID = null)
+    public function setNationalityID(?\App\UBL\Common\CBC\NationalityID $nationalityID = null)
     {
         $this->nationalityID = $nationalityID;
         return $this;
@@ -643,7 +643,7 @@ class PersonType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\GenderCode
+     * @return \App\UBL\Common\CBC\GenderCode
      */
     public function getGenderCode()
     {
@@ -662,10 +662,10 @@ class PersonType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\GenderCode $genderCode
+     * @param \App\UBL\Common\CBC\GenderCode $genderCode
      * @return self
      */
-    public function setGenderCode(?\UBL\Common\CBC\GenderCode $genderCode = null)
+    public function setGenderCode(?\App\UBL\Common\CBC\GenderCode $genderCode = null)
     {
         $this->genderCode = $genderCode;
         return $this;
@@ -723,7 +723,7 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\BirthplaceName
+     * @return \App\UBL\Common\CBC\BirthplaceName
      */
     public function getBirthplaceName()
     {
@@ -742,10 +742,10 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\BirthplaceName $birthplaceName
+     * @param \App\UBL\Common\CBC\BirthplaceName $birthplaceName
      * @return self
      */
-    public function setBirthplaceName(?\UBL\Common\CBC\BirthplaceName $birthplaceName = null)
+    public function setBirthplaceName(?\App\UBL\Common\CBC\BirthplaceName $birthplaceName = null)
     {
         $this->birthplaceName = $birthplaceName;
         return $this;
@@ -764,7 +764,7 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\OrganizationDepartment
+     * @return \App\UBL\Common\CBC\OrganizationDepartment
      */
     public function getOrganizationDepartment()
     {
@@ -784,10 +784,10 @@ class PersonType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\OrganizationDepartment $organizationDepartment
+     * @param \App\UBL\Common\CBC\OrganizationDepartment $organizationDepartment
      * @return self
      */
-    public function setOrganizationDepartment(?\UBL\Common\CBC\OrganizationDepartment $organizationDepartment = null)
+    public function setOrganizationDepartment(?\App\UBL\Common\CBC\OrganizationDepartment $organizationDepartment = null)
     {
         $this->organizationDepartment = $organizationDepartment;
         return $this;
@@ -805,7 +805,7 @@ class PersonType
      *  Contact
      *  Contact
      *
-     * @return \UBL\Common\CAC\Contact
+     * @return \App\UBL\Common\CAC\Contact
      */
     public function getContact()
     {
@@ -824,10 +824,10 @@ class PersonType
      *  Contact
      *  Contact
      *
-     * @param \UBL\Common\CAC\Contact $contact
+     * @param \App\UBL\Common\CAC\Contact $contact
      * @return self
      */
-    public function setContact(?\UBL\Common\CAC\Contact $contact = null)
+    public function setContact(?\App\UBL\Common\CAC\Contact $contact = null)
     {
         $this->contact = $contact;
         return $this;
@@ -845,7 +845,7 @@ class PersonType
      *  Financial Account
      *  Financial Account
      *
-     * @return \UBL\Common\CAC\FinancialAccount
+     * @return \App\UBL\Common\CAC\FinancialAccount
      */
     public function getFinancialAccount()
     {
@@ -864,10 +864,10 @@ class PersonType
      *  Financial Account
      *  Financial Account
      *
-     * @param \UBL\Common\CAC\FinancialAccount $financialAccount
+     * @param \App\UBL\Common\CAC\FinancialAccount $financialAccount
      * @return self
      */
-    public function setFinancialAccount(?\UBL\Common\CAC\FinancialAccount $financialAccount = null)
+    public function setFinancialAccount(?\App\UBL\Common\CAC\FinancialAccount $financialAccount = null)
     {
         $this->financialAccount = $financialAccount;
         return $this;
@@ -887,9 +887,9 @@ class PersonType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\IdentityDocumentReference $identityDocumentReference
+     * @param \App\UBL\Common\CAC\IdentityDocumentReference $identityDocumentReference
      */
-    public function addToIdentityDocumentReference(\UBL\Common\CAC\IdentityDocumentReference $identityDocumentReference)
+    public function addToIdentityDocumentReference(\App\UBL\Common\CAC\IdentityDocumentReference $identityDocumentReference)
     {
         $this->identityDocumentReference[] = $identityDocumentReference;
         return $this;
@@ -950,7 +950,7 @@ class PersonType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\IdentityDocumentReference[]
+     * @return \App\UBL\Common\CAC\IdentityDocumentReference[]
      */
     public function getIdentityDocumentReference()
     {
@@ -970,7 +970,7 @@ class PersonType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\IdentityDocumentReference[] $identityDocumentReference
+     * @param \App\UBL\Common\CAC\IdentityDocumentReference[] $identityDocumentReference
      * @return self
      */
     public function setIdentityDocumentReference(?array $identityDocumentReference = null)
@@ -992,7 +992,7 @@ class PersonType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\ResidenceAddress
+     * @return \App\UBL\Common\CAC\ResidenceAddress
      */
     public function getResidenceAddress()
     {
@@ -1012,14 +1012,13 @@ class PersonType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\ResidenceAddress $residenceAddress
+     * @param \App\UBL\Common\CAC\ResidenceAddress $residenceAddress
      * @return self
      */
-    public function setResidenceAddress(?\UBL\Common\CAC\ResidenceAddress $residenceAddress = null)
+    public function setResidenceAddress(?\App\UBL\Common\CAC\ResidenceAddress $residenceAddress = null)
     {
         $this->residenceAddress = $residenceAddress;
         return $this;
     }
 }
-
 

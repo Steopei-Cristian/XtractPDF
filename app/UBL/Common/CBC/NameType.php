@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\NameType as NameTypeBase;
+use App\UBL\Unqualified\NameType as NameTypeBase;
 
 /**
  * Class representing NameType
@@ -13,5 +13,4 @@ use UBL\Unqualified\NameType as NameTypeBase;
 class NameType extends NameTypeBase
 {
 }
-
 

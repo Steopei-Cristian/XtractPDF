@@ -1,2 +1,2 @@
-UBL\Common\CBC\HigherTenderAmountType:
+App\UBL\Common\CBC\HigherTenderAmountType:
     properties: {  }

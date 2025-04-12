@@ -9,4 +9,3 @@ class ActivityPeriod extends PeriodType
 {
 }
 
-

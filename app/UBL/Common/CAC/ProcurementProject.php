@@ -9,4 +9,3 @@ class ProcurementProject extends ProcurementProjectType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ImmobilizationCertificateID extends ImmobilizationCertificateIDType
 {
 }
 
-

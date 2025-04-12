@@ -1,4 +1,4 @@
-UBL\Common\CBC\OptionalLineItemIndicatorType:
+App\UBL\Common\CBC\OptionalLineItemIndicatorType:
     properties:
         __value:
             expose: true

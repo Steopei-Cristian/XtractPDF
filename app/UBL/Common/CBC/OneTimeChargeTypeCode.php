@@ -9,4 +9,3 @@ class OneTimeChargeTypeCode extends OneTimeChargeTypeCodeType
 {
 }
 
-

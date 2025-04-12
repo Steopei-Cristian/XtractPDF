@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\NumericType;
+use App\UBL\Unqualified\NumericType;
 
 /**
  * Class representing BudgetYearNumericType
@@ -13,5 +13,4 @@ use UBL\Unqualified\NumericType;
 class BudgetYearNumericType extends NumericType
 {
 }
-
 

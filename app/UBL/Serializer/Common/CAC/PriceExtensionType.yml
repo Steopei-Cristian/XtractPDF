@@ -1,4 +1,4 @@
-UBL\Common\CAC\PriceExtensionType:
+App\UBL\Common\CAC\PriceExtensionType:
     properties:
         amount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PriceExtensionType:
             accessor:
                 getter: getAmount
                 setter: setAmount
-            type: UBL\Common\CBC\Amount
+            type: App\UBL\Common\CBC\Amount
         taxTotal:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ UBL\Common\CAC\PriceExtensionType:
                 inline: true
                 entry_name: TaxTotal
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TaxTotal>
+            type: array<App\UBL\Common\CAC\TaxTotal>

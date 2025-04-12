@@ -1,2 +1,2 @@
-UBL\Common\CBC\TotalBalanceAmountType:
+App\UBL\Common\CBC\TotalBalanceAmountType:
     properties: {  }

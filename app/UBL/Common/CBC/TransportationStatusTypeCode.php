@@ -9,4 +9,3 @@ class TransportationStatusTypeCode extends TransportationStatusTypeCodeType
 {
 }
 
-

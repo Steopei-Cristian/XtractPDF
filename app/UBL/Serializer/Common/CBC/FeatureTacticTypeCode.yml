@@ -1,3 +1,3 @@
-UBL\Common\CBC\FeatureTacticTypeCode:
+App\UBL\Common\CBC\FeatureTacticTypeCode:
     xml_root_name: FeatureTacticTypeCode
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

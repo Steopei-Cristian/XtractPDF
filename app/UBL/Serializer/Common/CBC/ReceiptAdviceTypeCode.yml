@@ -1,3 +1,3 @@
-UBL\Common\CBC\ReceiptAdviceTypeCode:
+App\UBL\Common\CBC\ReceiptAdviceTypeCode:
     xml_root_name: ReceiptAdviceTypeCode
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

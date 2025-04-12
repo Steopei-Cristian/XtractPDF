@@ -9,4 +9,3 @@ class Rate extends RateType
 {
 }
 
-

@@ -9,4 +9,3 @@ class Endorsement extends EndorsementType
 {
 }
 
-

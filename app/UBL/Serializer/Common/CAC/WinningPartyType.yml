@@ -1,4 +1,4 @@
-UBL\Common\CAC\WinningPartyType:
+App\UBL\Common\CAC\WinningPartyType:
     properties:
         rank:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\WinningPartyType:
             accessor:
                 getter: getRank
                 setter: setRank
-            type: UBL\Common\CBC\Rank
+            type: App\UBL\Common\CBC\Rank
         party:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ UBL\Common\CAC\WinningPartyType:
             accessor:
                 getter: getParty
                 setter: setParty
-            type: UBL\Common\CAC\Party
+            type: App\UBL\Common\CAC\Party

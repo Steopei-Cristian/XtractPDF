@@ -23,7 +23,7 @@ class ImmobilizedSecurityType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ImmobilizationCertificateID $immobilizationCertificateID
+     * @var \App\UBL\Common\CBC\ImmobilizationCertificateID $immobilizationCertificateID
      */
     private $immobilizationCertificateID = null;
 
@@ -37,7 +37,7 @@ class ImmobilizedSecurityType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\SecurityID $securityID
+     * @var \App\UBL\Common\CBC\SecurityID $securityID
      */
     private $securityID = null;
 
@@ -65,7 +65,7 @@ class ImmobilizedSecurityType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\FaceValueAmount $faceValueAmount
+     * @var \App\UBL\Common\CBC\FaceValueAmount $faceValueAmount
      */
     private $faceValueAmount = null;
 
@@ -79,7 +79,7 @@ class ImmobilizedSecurityType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\MarketValueAmount $marketValueAmount
+     * @var \App\UBL\Common\CBC\MarketValueAmount $marketValueAmount
      */
     private $marketValueAmount = null;
 
@@ -93,7 +93,7 @@ class ImmobilizedSecurityType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\SharesNumberQuantity $sharesNumberQuantity
+     * @var \App\UBL\Common\CBC\SharesNumberQuantity $sharesNumberQuantity
      */
     private $sharesNumberQuantity = null;
 
@@ -108,7 +108,7 @@ class ImmobilizedSecurityType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\IssuerParty $issuerParty
+     * @var \App\UBL\Common\CAC\IssuerParty $issuerParty
      */
     private $issuerParty = null;
 
@@ -124,7 +124,7 @@ class ImmobilizedSecurityType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ImmobilizationCertificateID
+     * @return \App\UBL\Common\CBC\ImmobilizationCertificateID
      */
     public function getImmobilizationCertificateID()
     {
@@ -143,10 +143,10 @@ class ImmobilizedSecurityType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ImmobilizationCertificateID $immobilizationCertificateID
+     * @param \App\UBL\Common\CBC\ImmobilizationCertificateID $immobilizationCertificateID
      * @return self
      */
-    public function setImmobilizationCertificateID(?\UBL\Common\CBC\ImmobilizationCertificateID $immobilizationCertificateID = null)
+    public function setImmobilizationCertificateID(?\App\UBL\Common\CBC\ImmobilizationCertificateID $immobilizationCertificateID = null)
     {
         $this->immobilizationCertificateID = $immobilizationCertificateID;
         return $this;
@@ -164,7 +164,7 @@ class ImmobilizedSecurityType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\SecurityID
+     * @return \App\UBL\Common\CBC\SecurityID
      */
     public function getSecurityID()
     {
@@ -183,10 +183,10 @@ class ImmobilizedSecurityType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\SecurityID $securityID
+     * @param \App\UBL\Common\CBC\SecurityID $securityID
      * @return self
      */
-    public function setSecurityID(?\UBL\Common\CBC\SecurityID $securityID = null)
+    public function setSecurityID(?\App\UBL\Common\CBC\SecurityID $securityID = null)
     {
         $this->securityID = $securityID;
         return $this;
@@ -244,7 +244,7 @@ class ImmobilizedSecurityType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\FaceValueAmount
+     * @return \App\UBL\Common\CBC\FaceValueAmount
      */
     public function getFaceValueAmount()
     {
@@ -263,10 +263,10 @@ class ImmobilizedSecurityType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\FaceValueAmount $faceValueAmount
+     * @param \App\UBL\Common\CBC\FaceValueAmount $faceValueAmount
      * @return self
      */
-    public function setFaceValueAmount(?\UBL\Common\CBC\FaceValueAmount $faceValueAmount = null)
+    public function setFaceValueAmount(?\App\UBL\Common\CBC\FaceValueAmount $faceValueAmount = null)
     {
         $this->faceValueAmount = $faceValueAmount;
         return $this;
@@ -284,7 +284,7 @@ class ImmobilizedSecurityType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\MarketValueAmount
+     * @return \App\UBL\Common\CBC\MarketValueAmount
      */
     public function getMarketValueAmount()
     {
@@ -303,10 +303,10 @@ class ImmobilizedSecurityType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\MarketValueAmount $marketValueAmount
+     * @param \App\UBL\Common\CBC\MarketValueAmount $marketValueAmount
      * @return self
      */
-    public function setMarketValueAmount(?\UBL\Common\CBC\MarketValueAmount $marketValueAmount = null)
+    public function setMarketValueAmount(?\App\UBL\Common\CBC\MarketValueAmount $marketValueAmount = null)
     {
         $this->marketValueAmount = $marketValueAmount;
         return $this;
@@ -324,7 +324,7 @@ class ImmobilizedSecurityType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\SharesNumberQuantity
+     * @return \App\UBL\Common\CBC\SharesNumberQuantity
      */
     public function getSharesNumberQuantity()
     {
@@ -343,10 +343,10 @@ class ImmobilizedSecurityType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\SharesNumberQuantity $sharesNumberQuantity
+     * @param \App\UBL\Common\CBC\SharesNumberQuantity $sharesNumberQuantity
      * @return self
      */
-    public function setSharesNumberQuantity(?\UBL\Common\CBC\SharesNumberQuantity $sharesNumberQuantity = null)
+    public function setSharesNumberQuantity(?\App\UBL\Common\CBC\SharesNumberQuantity $sharesNumberQuantity = null)
     {
         $this->sharesNumberQuantity = $sharesNumberQuantity;
         return $this;
@@ -365,7 +365,7 @@ class ImmobilizedSecurityType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\IssuerParty
+     * @return \App\UBL\Common\CAC\IssuerParty
      */
     public function getIssuerParty()
     {
@@ -385,14 +385,13 @@ class ImmobilizedSecurityType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\IssuerParty $issuerParty
+     * @param \App\UBL\Common\CAC\IssuerParty $issuerParty
      * @return self
      */
-    public function setIssuerParty(?\UBL\Common\CAC\IssuerParty $issuerParty = null)
+    public function setIssuerParty(?\App\UBL\Common\CAC\IssuerParty $issuerParty = null)
     {
         $this->issuerParty = $issuerParty;
         return $this;
     }
 }
-
 

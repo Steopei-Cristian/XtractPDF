@@ -1,3 +1,3 @@
-UBL\Common\CSig\UBLDocumentSignatures:
+App\UBL\Common\CSig\UBLDocumentSignatures:
     xml_root_name: UBLDocumentSignatures
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2'

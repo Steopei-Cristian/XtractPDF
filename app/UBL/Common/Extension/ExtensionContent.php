@@ -9,4 +9,3 @@ class ExtensionContent extends ExtensionContentType
 {
 }
 
-

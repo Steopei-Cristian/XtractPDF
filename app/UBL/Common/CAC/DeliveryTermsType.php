@@ -24,7 +24,7 @@ class DeliveryTermsType
      *  Identifier. Type
      *  CIF, FOB, or EXW from the INCOTERMS Terms of Delivery. (2000 version preferred.)
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class DeliveryTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\SpecialTerms[] $specialTerms
+     * @var \App\UBL\Common\CBC\SpecialTerms[] $specialTerms
      */
     private $specialTerms = [
         
@@ -55,7 +55,7 @@ class DeliveryTermsType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\LossRiskResponsibilityCode $lossRiskResponsibilityCode
+     * @var \App\UBL\Common\CBC\LossRiskResponsibilityCode $lossRiskResponsibilityCode
      */
     private $lossRiskResponsibilityCode = null;
 
@@ -69,7 +69,7 @@ class DeliveryTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\LossRisk[] $lossRisk
+     * @var \App\UBL\Common\CBC\LossRisk[] $lossRisk
      */
     private $lossRisk = [
         
@@ -85,7 +85,7 @@ class DeliveryTermsType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\Amount $amount
+     * @var \App\UBL\Common\CBC\Amount $amount
      */
     private $amount = null;
 
@@ -100,7 +100,7 @@ class DeliveryTermsType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\DeliveryLocation $deliveryLocation
+     * @var \App\UBL\Common\CAC\DeliveryLocation $deliveryLocation
      */
     private $deliveryLocation = null;
 
@@ -114,7 +114,7 @@ class DeliveryTermsType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\AllowanceCharge $allowanceCharge
+     * @var \App\UBL\Common\CAC\AllowanceCharge $allowanceCharge
      */
     private $allowanceCharge = null;
 
@@ -131,7 +131,7 @@ class DeliveryTermsType
      *  Identifier. Type
      *  CIF, FOB, or EXW from the INCOTERMS Terms of Delivery. (2000 version preferred.)
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -151,10 +151,10 @@ class DeliveryTermsType
      *  Identifier. Type
      *  CIF, FOB, or EXW from the INCOTERMS Terms of Delivery. (2000 version preferred.)
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -174,9 +174,9 @@ class DeliveryTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\SpecialTerms $specialTerms
+     * @param \App\UBL\Common\CBC\SpecialTerms $specialTerms
      */
-    public function addToSpecialTerms(\UBL\Common\CBC\SpecialTerms $specialTerms)
+    public function addToSpecialTerms(\App\UBL\Common\CBC\SpecialTerms $specialTerms)
     {
         $this->specialTerms[] = $specialTerms;
         return $this;
@@ -237,7 +237,7 @@ class DeliveryTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\SpecialTerms[]
+     * @return \App\UBL\Common\CBC\SpecialTerms[]
      */
     public function getSpecialTerms()
     {
@@ -257,7 +257,7 @@ class DeliveryTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\SpecialTerms[] $specialTerms
+     * @param \App\UBL\Common\CBC\SpecialTerms[] $specialTerms
      * @return self
      */
     public function setSpecialTerms(?array $specialTerms = null)
@@ -278,7 +278,7 @@ class DeliveryTermsType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\LossRiskResponsibilityCode
+     * @return \App\UBL\Common\CBC\LossRiskResponsibilityCode
      */
     public function getLossRiskResponsibilityCode()
     {
@@ -297,10 +297,10 @@ class DeliveryTermsType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\LossRiskResponsibilityCode $lossRiskResponsibilityCode
+     * @param \App\UBL\Common\CBC\LossRiskResponsibilityCode $lossRiskResponsibilityCode
      * @return self
      */
-    public function setLossRiskResponsibilityCode(?\UBL\Common\CBC\LossRiskResponsibilityCode $lossRiskResponsibilityCode = null)
+    public function setLossRiskResponsibilityCode(?\App\UBL\Common\CBC\LossRiskResponsibilityCode $lossRiskResponsibilityCode = null)
     {
         $this->lossRiskResponsibilityCode = $lossRiskResponsibilityCode;
         return $this;
@@ -319,9 +319,9 @@ class DeliveryTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\LossRisk $lossRisk
+     * @param \App\UBL\Common\CBC\LossRisk $lossRisk
      */
-    public function addToLossRisk(\UBL\Common\CBC\LossRisk $lossRisk)
+    public function addToLossRisk(\App\UBL\Common\CBC\LossRisk $lossRisk)
     {
         $this->lossRisk[] = $lossRisk;
         return $this;
@@ -379,7 +379,7 @@ class DeliveryTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\LossRisk[]
+     * @return \App\UBL\Common\CBC\LossRisk[]
      */
     public function getLossRisk()
     {
@@ -398,7 +398,7 @@ class DeliveryTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\LossRisk[] $lossRisk
+     * @param \App\UBL\Common\CBC\LossRisk[] $lossRisk
      * @return self
      */
     public function setLossRisk(?array $lossRisk = null)
@@ -419,7 +419,7 @@ class DeliveryTermsType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\Amount
+     * @return \App\UBL\Common\CBC\Amount
      */
     public function getAmount()
     {
@@ -438,10 +438,10 @@ class DeliveryTermsType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\Amount $amount
+     * @param \App\UBL\Common\CBC\Amount $amount
      * @return self
      */
-    public function setAmount(?\UBL\Common\CBC\Amount $amount = null)
+    public function setAmount(?\App\UBL\Common\CBC\Amount $amount = null)
     {
         $this->amount = $amount;
         return $this;
@@ -460,7 +460,7 @@ class DeliveryTermsType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\DeliveryLocation
+     * @return \App\UBL\Common\CAC\DeliveryLocation
      */
     public function getDeliveryLocation()
     {
@@ -480,10 +480,10 @@ class DeliveryTermsType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\DeliveryLocation $deliveryLocation
+     * @param \App\UBL\Common\CAC\DeliveryLocation $deliveryLocation
      * @return self
      */
-    public function setDeliveryLocation(?\UBL\Common\CAC\DeliveryLocation $deliveryLocation = null)
+    public function setDeliveryLocation(?\App\UBL\Common\CAC\DeliveryLocation $deliveryLocation = null)
     {
         $this->deliveryLocation = $deliveryLocation;
         return $this;
@@ -501,7 +501,7 @@ class DeliveryTermsType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\AllowanceCharge
+     * @return \App\UBL\Common\CAC\AllowanceCharge
      */
     public function getAllowanceCharge()
     {
@@ -520,14 +520,13 @@ class DeliveryTermsType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\AllowanceCharge $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge $allowanceCharge
      * @return self
      */
-    public function setAllowanceCharge(?\UBL\Common\CAC\AllowanceCharge $allowanceCharge = null)
+    public function setAllowanceCharge(?\App\UBL\Common\CAC\AllowanceCharge $allowanceCharge = null)
     {
         $this->allowanceCharge = $allowanceCharge;
         return $this;
     }
 }
-
 

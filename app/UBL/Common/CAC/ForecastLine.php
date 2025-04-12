@@ -9,4 +9,3 @@ class ForecastLine extends ForecastLineType
 {
 }
 
-

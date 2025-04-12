@@ -9,4 +9,3 @@ class EvaluationCriterion extends EvaluationCriterionType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CBC\SubmissionDueDateType:
+App\UBL\Common\CBC\SubmissionDueDateType:
     properties:
         __value:
             expose: true

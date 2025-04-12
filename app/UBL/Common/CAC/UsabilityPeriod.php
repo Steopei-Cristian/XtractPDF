@@ -9,4 +9,3 @@ class UsabilityPeriod extends PeriodType
 {
 }
 
-

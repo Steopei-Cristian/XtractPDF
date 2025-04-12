@@ -9,4 +9,3 @@ class AccessoryRelatedItem extends RelatedItemType
 {
 }
 
-

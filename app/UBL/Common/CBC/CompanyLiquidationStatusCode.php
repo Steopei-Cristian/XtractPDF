@@ -9,4 +9,3 @@ class CompanyLiquidationStatusCode extends CompanyLiquidationStatusCodeType
 {
 }
 
-

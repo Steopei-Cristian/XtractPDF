@@ -9,4 +9,3 @@ class TenderRecipientParty extends PartyType
 {
 }
 
-

@@ -23,7 +23,7 @@ class RequestForTenderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class RequestForTenderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -51,7 +51,7 @@ class RequestForTenderLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -67,7 +67,7 @@ class RequestForTenderLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -82,7 +82,7 @@ class RequestForTenderLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MinimumQuantity $minimumQuantity
+     * @var \App\UBL\Common\CBC\MinimumQuantity $minimumQuantity
      */
     private $minimumQuantity = null;
 
@@ -97,7 +97,7 @@ class RequestForTenderLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MaximumQuantity $maximumQuantity
+     * @var \App\UBL\Common\CBC\MaximumQuantity $maximumQuantity
      */
     private $maximumQuantity = null;
 
@@ -127,7 +127,7 @@ class RequestForTenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\MinimumAmount $minimumAmount
+     * @var \App\UBL\Common\CBC\MinimumAmount $minimumAmount
      */
     private $minimumAmount = null;
 
@@ -142,7 +142,7 @@ class RequestForTenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\MaximumAmount $maximumAmount
+     * @var \App\UBL\Common\CBC\MaximumAmount $maximumAmount
      */
     private $maximumAmount = null;
 
@@ -157,7 +157,7 @@ class RequestForTenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\EstimatedAmount $estimatedAmount
+     * @var \App\UBL\Common\CBC\EstimatedAmount $estimatedAmount
      */
     private $estimatedAmount = null;
 
@@ -171,7 +171,7 @@ class RequestForTenderLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -188,7 +188,7 @@ class RequestForTenderLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\DeliveryPeriod[] $deliveryPeriod
+     * @var \App\UBL\Common\CAC\DeliveryPeriod[] $deliveryPeriod
      */
     private $deliveryPeriod = [
         
@@ -205,7 +205,7 @@ class RequestForTenderLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @var \UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
+     * @var \App\UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
      */
     private $requiredItemLocationQuantity = [
         
@@ -222,7 +222,7 @@ class RequestForTenderLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
+     * @var \App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
      */
     private $warrantyValidityPeriod = null;
 
@@ -236,7 +236,7 @@ class RequestForTenderLineType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item $item
+     * @var \App\UBL\Common\CAC\Item $item
      */
     private $item = null;
 
@@ -251,7 +251,7 @@ class RequestForTenderLineType
      *  Request For Tender Line
      *  Request For Tender Line
      *
-     * @var \UBL\Common\CAC\SubRequestForTenderLine[] $subRequestForTenderLine
+     * @var \App\UBL\Common\CAC\SubRequestForTenderLine[] $subRequestForTenderLine
      */
     private $subRequestForTenderLine = [
         
@@ -269,7 +269,7 @@ class RequestForTenderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -288,10 +288,10 @@ class RequestForTenderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -309,7 +309,7 @@ class RequestForTenderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -328,10 +328,10 @@ class RequestForTenderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -350,9 +350,9 @@ class RequestForTenderLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -410,7 +410,7 @@ class RequestForTenderLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -429,7 +429,7 @@ class RequestForTenderLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -450,7 +450,7 @@ class RequestForTenderLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -469,10 +469,10 @@ class RequestForTenderLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
@@ -491,7 +491,7 @@ class RequestForTenderLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MinimumQuantity
+     * @return \App\UBL\Common\CBC\MinimumQuantity
      */
     public function getMinimumQuantity()
     {
@@ -511,10 +511,10 @@ class RequestForTenderLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MinimumQuantity $minimumQuantity
+     * @param \App\UBL\Common\CBC\MinimumQuantity $minimumQuantity
      * @return self
      */
-    public function setMinimumQuantity(?\UBL\Common\CBC\MinimumQuantity $minimumQuantity = null)
+    public function setMinimumQuantity(?\App\UBL\Common\CBC\MinimumQuantity $minimumQuantity = null)
     {
         $this->minimumQuantity = $minimumQuantity;
         return $this;
@@ -533,7 +533,7 @@ class RequestForTenderLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MaximumQuantity
+     * @return \App\UBL\Common\CBC\MaximumQuantity
      */
     public function getMaximumQuantity()
     {
@@ -553,10 +553,10 @@ class RequestForTenderLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MaximumQuantity $maximumQuantity
+     * @param \App\UBL\Common\CBC\MaximumQuantity $maximumQuantity
      * @return self
      */
-    public function setMaximumQuantity(?\UBL\Common\CBC\MaximumQuantity $maximumQuantity = null)
+    public function setMaximumQuantity(?\App\UBL\Common\CBC\MaximumQuantity $maximumQuantity = null)
     {
         $this->maximumQuantity = $maximumQuantity;
         return $this;
@@ -617,7 +617,7 @@ class RequestForTenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\MinimumAmount
+     * @return \App\UBL\Common\CBC\MinimumAmount
      */
     public function getMinimumAmount()
     {
@@ -637,10 +637,10 @@ class RequestForTenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\MinimumAmount $minimumAmount
+     * @param \App\UBL\Common\CBC\MinimumAmount $minimumAmount
      * @return self
      */
-    public function setMinimumAmount(?\UBL\Common\CBC\MinimumAmount $minimumAmount = null)
+    public function setMinimumAmount(?\App\UBL\Common\CBC\MinimumAmount $minimumAmount = null)
     {
         $this->minimumAmount = $minimumAmount;
         return $this;
@@ -659,7 +659,7 @@ class RequestForTenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\MaximumAmount
+     * @return \App\UBL\Common\CBC\MaximumAmount
      */
     public function getMaximumAmount()
     {
@@ -679,10 +679,10 @@ class RequestForTenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\MaximumAmount $maximumAmount
+     * @param \App\UBL\Common\CBC\MaximumAmount $maximumAmount
      * @return self
      */
-    public function setMaximumAmount(?\UBL\Common\CBC\MaximumAmount $maximumAmount = null)
+    public function setMaximumAmount(?\App\UBL\Common\CBC\MaximumAmount $maximumAmount = null)
     {
         $this->maximumAmount = $maximumAmount;
         return $this;
@@ -701,7 +701,7 @@ class RequestForTenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\EstimatedAmount
+     * @return \App\UBL\Common\CBC\EstimatedAmount
      */
     public function getEstimatedAmount()
     {
@@ -721,10 +721,10 @@ class RequestForTenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\EstimatedAmount $estimatedAmount
+     * @param \App\UBL\Common\CBC\EstimatedAmount $estimatedAmount
      * @return self
      */
-    public function setEstimatedAmount(?\UBL\Common\CBC\EstimatedAmount $estimatedAmount = null)
+    public function setEstimatedAmount(?\App\UBL\Common\CBC\EstimatedAmount $estimatedAmount = null)
     {
         $this->estimatedAmount = $estimatedAmount;
         return $this;
@@ -743,9 +743,9 @@ class RequestForTenderLineType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -803,7 +803,7 @@ class RequestForTenderLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -822,7 +822,7 @@ class RequestForTenderLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -845,9 +845,9 @@ class RequestForTenderLineType
      *  Period
      *
      * @return self
-     * @param \UBL\Common\CAC\DeliveryPeriod $deliveryPeriod
+     * @param \App\UBL\Common\CAC\DeliveryPeriod $deliveryPeriod
      */
-    public function addToDeliveryPeriod(\UBL\Common\CAC\DeliveryPeriod $deliveryPeriod)
+    public function addToDeliveryPeriod(\App\UBL\Common\CAC\DeliveryPeriod $deliveryPeriod)
     {
         $this->deliveryPeriod[] = $deliveryPeriod;
         return $this;
@@ -908,7 +908,7 @@ class RequestForTenderLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\DeliveryPeriod[]
+     * @return \App\UBL\Common\CAC\DeliveryPeriod[]
      */
     public function getDeliveryPeriod()
     {
@@ -928,7 +928,7 @@ class RequestForTenderLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\DeliveryPeriod[] $deliveryPeriod
+     * @param \App\UBL\Common\CAC\DeliveryPeriod[] $deliveryPeriod
      * @return self
      */
     public function setDeliveryPeriod(?array $deliveryPeriod = null)
@@ -951,9 +951,9 @@ class RequestForTenderLineType
      *  Item Location Quantity
      *
      * @return self
-     * @param \UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity
+     * @param \App\UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity
      */
-    public function addToRequiredItemLocationQuantity(\UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity)
+    public function addToRequiredItemLocationQuantity(\App\UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity)
     {
         $this->requiredItemLocationQuantity[] = $requiredItemLocationQuantity;
         return $this;
@@ -1014,7 +1014,7 @@ class RequestForTenderLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @return \UBL\Common\CAC\RequiredItemLocationQuantity[]
+     * @return \App\UBL\Common\CAC\RequiredItemLocationQuantity[]
      */
     public function getRequiredItemLocationQuantity()
     {
@@ -1034,7 +1034,7 @@ class RequestForTenderLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @param \UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
+     * @param \App\UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
      * @return self
      */
     public function setRequiredItemLocationQuantity(?array $requiredItemLocationQuantity = null)
@@ -1056,7 +1056,7 @@ class RequestForTenderLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\WarrantyValidityPeriod
+     * @return \App\UBL\Common\CAC\WarrantyValidityPeriod
      */
     public function getWarrantyValidityPeriod()
     {
@@ -1076,10 +1076,10 @@ class RequestForTenderLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
+     * @param \App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
      * @return self
      */
-    public function setWarrantyValidityPeriod(?\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod = null)
+    public function setWarrantyValidityPeriod(?\App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod = null)
     {
         $this->warrantyValidityPeriod = $warrantyValidityPeriod;
         return $this;
@@ -1097,7 +1097,7 @@ class RequestForTenderLineType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item
+     * @return \App\UBL\Common\CAC\Item
      */
     public function getItem()
     {
@@ -1116,10 +1116,10 @@ class RequestForTenderLineType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      * @return self
      */
-    public function setItem(\UBL\Common\CAC\Item $item)
+    public function setItem(\App\UBL\Common\CAC\Item $item)
     {
         $this->item = $item;
         return $this;
@@ -1139,9 +1139,9 @@ class RequestForTenderLineType
      *  Request For Tender Line
      *
      * @return self
-     * @param \UBL\Common\CAC\SubRequestForTenderLine $subRequestForTenderLine
+     * @param \App\UBL\Common\CAC\SubRequestForTenderLine $subRequestForTenderLine
      */
-    public function addToSubRequestForTenderLine(\UBL\Common\CAC\SubRequestForTenderLine $subRequestForTenderLine)
+    public function addToSubRequestForTenderLine(\App\UBL\Common\CAC\SubRequestForTenderLine $subRequestForTenderLine)
     {
         $this->subRequestForTenderLine[] = $subRequestForTenderLine;
         return $this;
@@ -1202,7 +1202,7 @@ class RequestForTenderLineType
      *  Request For Tender Line
      *  Request For Tender Line
      *
-     * @return \UBL\Common\CAC\SubRequestForTenderLine[]
+     * @return \App\UBL\Common\CAC\SubRequestForTenderLine[]
      */
     public function getSubRequestForTenderLine()
     {
@@ -1222,7 +1222,7 @@ class RequestForTenderLineType
      *  Request For Tender Line
      *  Request For Tender Line
      *
-     * @param \UBL\Common\CAC\SubRequestForTenderLine[] $subRequestForTenderLine
+     * @param \App\UBL\Common\CAC\SubRequestForTenderLine[] $subRequestForTenderLine
      * @return self
      */
     public function setSubRequestForTenderLine(?array $subRequestForTenderLine = null)
@@ -1231,5 +1231,4 @@ class RequestForTenderLineType
         return $this;
     }
 }
-
 

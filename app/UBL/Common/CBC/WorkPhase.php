@@ -9,4 +9,3 @@ class WorkPhase extends WorkPhaseType
 {
 }
 
-

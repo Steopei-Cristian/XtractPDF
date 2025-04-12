@@ -21,12 +21,12 @@ class QualifyingPropertiesType
     private $id = null;
 
     /**
-     * @var \UBL\XAdES\v132\SignedPropertiesType $signedProperties
+     * @var \App\UBL\XAdES\v132\SignedPropertiesType $signedProperties
      */
     private $signedProperties = null;
 
     /**
-     * @var \UBL\XAdES\v132\UnsignedPropertiesType $unsignedProperties
+     * @var \App\UBL\XAdES\v132\UnsignedPropertiesType $unsignedProperties
      */
     private $unsignedProperties = null;
 
@@ -77,7 +77,7 @@ class QualifyingPropertiesType
     /**
      * Gets as signedProperties
      *
-     * @return \UBL\XAdES\v132\SignedPropertiesType
+     * @return \App\UBL\XAdES\v132\SignedPropertiesType
      */
     public function getSignedProperties()
     {
@@ -87,10 +87,10 @@ class QualifyingPropertiesType
     /**
      * Sets a new signedProperties
      *
-     * @param \UBL\XAdES\v132\SignedPropertiesType $signedProperties
+     * @param \App\UBL\XAdES\v132\SignedPropertiesType $signedProperties
      * @return self
      */
-    public function setSignedProperties(?\UBL\XAdES\v132\SignedPropertiesType $signedProperties = null)
+    public function setSignedProperties(?\App\UBL\XAdES\v132\SignedPropertiesType $signedProperties = null)
     {
         $this->signedProperties = $signedProperties;
         return $this;
@@ -99,7 +99,7 @@ class QualifyingPropertiesType
     /**
      * Gets as unsignedProperties
      *
-     * @return \UBL\XAdES\v132\UnsignedPropertiesType
+     * @return \App\UBL\XAdES\v132\UnsignedPropertiesType
      */
     public function getUnsignedProperties()
     {
@@ -109,14 +109,13 @@ class QualifyingPropertiesType
     /**
      * Sets a new unsignedProperties
      *
-     * @param \UBL\XAdES\v132\UnsignedPropertiesType $unsignedProperties
+     * @param \App\UBL\XAdES\v132\UnsignedPropertiesType $unsignedProperties
      * @return self
      */
-    public function setUnsignedProperties(?\UBL\XAdES\v132\UnsignedPropertiesType $unsignedProperties = null)
+    public function setUnsignedProperties(?\App\UBL\XAdES\v132\UnsignedPropertiesType $unsignedProperties = null)
     {
         $this->unsignedProperties = $unsignedProperties;
         return $this;
     }
 }
-
 

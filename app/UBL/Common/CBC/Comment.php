@@ -9,4 +9,3 @@ class Comment extends CommentType
 {
 }
 
-

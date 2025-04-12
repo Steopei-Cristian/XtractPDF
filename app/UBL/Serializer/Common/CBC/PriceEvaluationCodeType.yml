@@ -1,2 +1,2 @@
-UBL\Common\CBC\PriceEvaluationCodeType:
+App\UBL\Common\CBC\PriceEvaluationCodeType:
     properties: {  }

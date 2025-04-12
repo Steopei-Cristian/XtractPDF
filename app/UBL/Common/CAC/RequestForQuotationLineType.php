@@ -23,7 +23,7 @@ class RequestForQuotationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class RequestForQuotationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -51,7 +51,7 @@ class RequestForQuotationLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -82,7 +82,7 @@ class RequestForQuotationLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PrivacyCode $privacyCode
+     * @var \App\UBL\Common\CBC\PrivacyCode $privacyCode
      */
     private $privacyCode = null;
 
@@ -96,7 +96,7 @@ class RequestForQuotationLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\SecurityClassificationCode $securityClassificationCode
+     * @var \App\UBL\Common\CBC\SecurityClassificationCode $securityClassificationCode
      */
     private $securityClassificationCode = null;
 
@@ -110,7 +110,7 @@ class RequestForQuotationLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -126,7 +126,7 @@ class RequestForQuotationLineType
      *  Line Item
      *  Line Item
      *
-     * @var \UBL\Common\CAC\LineItem $lineItem
+     * @var \App\UBL\Common\CAC\LineItem $lineItem
      */
     private $lineItem = null;
 
@@ -142,7 +142,7 @@ class RequestForQuotationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -161,10 +161,10 @@ class RequestForQuotationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -182,7 +182,7 @@ class RequestForQuotationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -201,10 +201,10 @@ class RequestForQuotationLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -223,9 +223,9 @@ class RequestForQuotationLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -283,7 +283,7 @@ class RequestForQuotationLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -302,7 +302,7 @@ class RequestForQuotationLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -365,7 +365,7 @@ class RequestForQuotationLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PrivacyCode
+     * @return \App\UBL\Common\CBC\PrivacyCode
      */
     public function getPrivacyCode()
     {
@@ -384,10 +384,10 @@ class RequestForQuotationLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PrivacyCode $privacyCode
+     * @param \App\UBL\Common\CBC\PrivacyCode $privacyCode
      * @return self
      */
-    public function setPrivacyCode(?\UBL\Common\CBC\PrivacyCode $privacyCode = null)
+    public function setPrivacyCode(?\App\UBL\Common\CBC\PrivacyCode $privacyCode = null)
     {
         $this->privacyCode = $privacyCode;
         return $this;
@@ -405,7 +405,7 @@ class RequestForQuotationLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\SecurityClassificationCode
+     * @return \App\UBL\Common\CBC\SecurityClassificationCode
      */
     public function getSecurityClassificationCode()
     {
@@ -424,10 +424,10 @@ class RequestForQuotationLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\SecurityClassificationCode $securityClassificationCode
+     * @param \App\UBL\Common\CBC\SecurityClassificationCode $securityClassificationCode
      * @return self
      */
-    public function setSecurityClassificationCode(?\UBL\Common\CBC\SecurityClassificationCode $securityClassificationCode = null)
+    public function setSecurityClassificationCode(?\App\UBL\Common\CBC\SecurityClassificationCode $securityClassificationCode = null)
     {
         $this->securityClassificationCode = $securityClassificationCode;
         return $this;
@@ -446,9 +446,9 @@ class RequestForQuotationLineType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -506,7 +506,7 @@ class RequestForQuotationLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -525,7 +525,7 @@ class RequestForQuotationLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -546,7 +546,7 @@ class RequestForQuotationLineType
      *  Line Item
      *  Line Item
      *
-     * @return \UBL\Common\CAC\LineItem
+     * @return \App\UBL\Common\CAC\LineItem
      */
     public function getLineItem()
     {
@@ -565,14 +565,13 @@ class RequestForQuotationLineType
      *  Line Item
      *  Line Item
      *
-     * @param \UBL\Common\CAC\LineItem $lineItem
+     * @param \App\UBL\Common\CAC\LineItem $lineItem
      * @return self
      */
-    public function setLineItem(\UBL\Common\CAC\LineItem $lineItem)
+    public function setLineItem(\App\UBL\Common\CAC\LineItem $lineItem)
     {
         $this->lineItem = $lineItem;
         return $this;
     }
 }
-
 

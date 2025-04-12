@@ -9,4 +9,3 @@ class AccountingContact extends ContactType
 {
 }
 
-

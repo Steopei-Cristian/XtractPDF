@@ -1,4 +1,4 @@
-UBL\Common\CBC\RefrigerationOnIndicatorType:
+App\UBL\Common\CBC\RefrigerationOnIndicatorType:
     properties:
         __value:
             expose: true

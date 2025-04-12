@@ -9,4 +9,3 @@ class ExpectedOperatorQuantity extends ExpectedOperatorQuantityType
 {
 }
 
-

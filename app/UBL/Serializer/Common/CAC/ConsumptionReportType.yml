@@ -1,4 +1,4 @@
-UBL\Common\CAC\ConsumptionReportType:
+App\UBL\Common\CAC\ConsumptionReportType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         consumptionType:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getConsumptionType
                 setter: setConsumptionType
-            type: UBL\Common\CBC\ConsumptionType
+            type: App\UBL\Common\CBC\ConsumptionType
         consumptionTypeCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getConsumptionTypeCode
                 setter: setConsumptionTypeCode
-            type: UBL\Common\CBC\ConsumptionTypeCode
+            type: App\UBL\Common\CBC\ConsumptionTypeCode
         description:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\ConsumptionReportType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         totalConsumedQuantity:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getTotalConsumedQuantity
                 setter: setTotalConsumedQuantity
-            type: UBL\Common\CBC\TotalConsumedQuantity
+            type: App\UBL\Common\CBC\TotalConsumedQuantity
         basicConsumedQuantity:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getBasicConsumedQuantity
                 setter: setBasicConsumedQuantity
-            type: UBL\Common\CBC\BasicConsumedQuantity
+            type: App\UBL\Common\CBC\BasicConsumedQuantity
         residentOccupantsNumeric:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getResidentOccupantsNumeric
                 setter: setResidentOccupantsNumeric
-            type: UBL\Common\CBC\ResidentOccupantsNumeric
+            type: App\UBL\Common\CBC\ResidentOccupantsNumeric
         consumersEnergyLevelCode:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getConsumersEnergyLevelCode
                 setter: setConsumersEnergyLevelCode
-            type: UBL\Common\CBC\ConsumersEnergyLevelCode
+            type: App\UBL\Common\CBC\ConsumersEnergyLevelCode
         consumersEnergyLevel:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getConsumersEnergyLevel
                 setter: setConsumersEnergyLevel
-            type: UBL\Common\CBC\ConsumersEnergyLevel
+            type: App\UBL\Common\CBC\ConsumersEnergyLevel
         residenceType:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getResidenceType
                 setter: setResidenceType
-            type: UBL\Common\CBC\ResidenceType
+            type: App\UBL\Common\CBC\ResidenceType
         residenceTypeCode:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getResidenceTypeCode
                 setter: setResidenceTypeCode
-            type: UBL\Common\CBC\ResidenceTypeCode
+            type: App\UBL\Common\CBC\ResidenceTypeCode
         heatingType:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getHeatingType
                 setter: setHeatingType
-            type: UBL\Common\CBC\HeatingType
+            type: App\UBL\Common\CBC\HeatingType
         heatingTypeCode:
             expose: true
             access_type: public_method
@@ -133,7 +133,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getHeatingTypeCode
                 setter: setHeatingTypeCode
-            type: UBL\Common\CBC\HeatingTypeCode
+            type: App\UBL\Common\CBC\HeatingTypeCode
         period:
             expose: true
             access_type: public_method
@@ -143,7 +143,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getPeriod
                 setter: setPeriod
-            type: UBL\Common\CAC\Period
+            type: App\UBL\Common\CAC\Period
         guidanceDocumentReference:
             expose: true
             access_type: public_method
@@ -153,7 +153,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getGuidanceDocumentReference
                 setter: setGuidanceDocumentReference
-            type: UBL\Common\CAC\GuidanceDocumentReference
+            type: App\UBL\Common\CAC\GuidanceDocumentReference
         documentReference:
             expose: true
             access_type: public_method
@@ -163,7 +163,7 @@ UBL\Common\CAC\ConsumptionReportType:
             accessor:
                 getter: getDocumentReference
                 setter: setDocumentReference
-            type: UBL\Common\CAC\DocumentReference
+            type: App\UBL\Common\CAC\DocumentReference
         consumptionReportReference:
             expose: true
             access_type: public_method
@@ -177,7 +177,7 @@ UBL\Common\CAC\ConsumptionReportType:
                 inline: true
                 entry_name: ConsumptionReportReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ConsumptionReportReference>
+            type: array<App\UBL\Common\CAC\ConsumptionReportReference>
         consumptionHistory:
             expose: true
             access_type: public_method
@@ -191,4 +191,4 @@ UBL\Common\CAC\ConsumptionReportType:
                 inline: true
                 entry_name: ConsumptionHistory
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ConsumptionHistory>
+            type: array<App\UBL\Common\CAC\ConsumptionHistory>

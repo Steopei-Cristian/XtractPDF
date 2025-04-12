@@ -9,4 +9,3 @@ class OpenTenderID extends OpenTenderIDType
 {
 }
 
-

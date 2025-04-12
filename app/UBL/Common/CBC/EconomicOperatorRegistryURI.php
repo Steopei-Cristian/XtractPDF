@@ -9,4 +9,3 @@ class EconomicOperatorRegistryURI extends EconomicOperatorRegistryURIType
 {
 }
 
-

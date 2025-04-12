@@ -9,4 +9,3 @@ class MeterReading extends MeterReadingType
 {
 }
 
-

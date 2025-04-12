@@ -9,4 +9,3 @@ class Capability extends CapabilityType
 {
 }
 
-

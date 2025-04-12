@@ -16,7 +16,7 @@ class UnsignedDataObjectPropertiesType
     private $id = null;
 
     /**
-     * @var \UBL\XAdES\v132\AnyType[] $unsignedDataObjectProperty
+     * @var \App\UBL\XAdES\v132\AnyType[] $unsignedDataObjectProperty
      */
     private $unsignedDataObjectProperty = [
         
@@ -48,9 +48,9 @@ class UnsignedDataObjectPropertiesType
      * Adds as unsignedDataObjectProperty
      *
      * @return self
-     * @param \UBL\XAdES\v132\AnyType $unsignedDataObjectProperty
+     * @param \App\UBL\XAdES\v132\AnyType $unsignedDataObjectProperty
      */
-    public function addToUnsignedDataObjectProperty(\UBL\XAdES\v132\AnyType $unsignedDataObjectProperty)
+    public function addToUnsignedDataObjectProperty(\App\UBL\XAdES\v132\AnyType $unsignedDataObjectProperty)
     {
         $this->unsignedDataObjectProperty[] = $unsignedDataObjectProperty;
         return $this;
@@ -81,7 +81,7 @@ class UnsignedDataObjectPropertiesType
     /**
      * Gets as unsignedDataObjectProperty
      *
-     * @return \UBL\XAdES\v132\AnyType[]
+     * @return \App\UBL\XAdES\v132\AnyType[]
      */
     public function getUnsignedDataObjectProperty()
     {
@@ -91,7 +91,7 @@ class UnsignedDataObjectPropertiesType
     /**
      * Sets a new unsignedDataObjectProperty
      *
-     * @param \UBL\XAdES\v132\AnyType[] $unsignedDataObjectProperty
+     * @param \App\UBL\XAdES\v132\AnyType[] $unsignedDataObjectProperty
      * @return self
      */
     public function setUnsignedDataObjectProperty(array $unsignedDataObjectProperty)
@@ -100,5 +100,4 @@ class UnsignedDataObjectPropertiesType
         return $this;
     }
 }
-
 

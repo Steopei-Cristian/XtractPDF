@@ -1,4 +1,4 @@
-UBL\Xmldsig\SignaturePropertyType:
+App\UBL\Xmldsig\SignaturePropertyType:
     properties:
         target:
             expose: true

@@ -9,4 +9,3 @@ class CollectPaymentTerms extends PaymentTermsType
 {
 }
 
-

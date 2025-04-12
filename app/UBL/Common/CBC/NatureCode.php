@@ -9,4 +9,3 @@ class NatureCode extends NatureCodeType
 {
 }
 
-

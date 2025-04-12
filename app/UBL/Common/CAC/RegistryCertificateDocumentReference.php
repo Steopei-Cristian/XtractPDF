@@ -9,4 +9,3 @@ class RegistryCertificateDocumentReference extends DocumentReferenceType
 {
 }
 
-

@@ -9,4 +9,3 @@ class Channel extends ChannelType
 {
 }
 
-

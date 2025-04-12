@@ -9,4 +9,3 @@ class SubDebitNoteLine extends DebitNoteLineType
 {
 }
 
-

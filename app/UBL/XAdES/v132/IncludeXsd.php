@@ -9,4 +9,3 @@ class IncludeXsd extends IncludeType
 {
 }
 
-

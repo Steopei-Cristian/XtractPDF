@@ -9,4 +9,3 @@ class SpecificTendererRequirement extends TendererRequirementType
 {
 }
 
-

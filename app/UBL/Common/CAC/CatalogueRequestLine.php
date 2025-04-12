@@ -9,4 +9,3 @@ class CatalogueRequestLine extends CatalogueRequestLineType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CAC\ContractExtensionType:
+App\UBL\Common\CAC\ContractExtensionType:
     properties:
         optionsDescription:
             expose: true
@@ -13,7 +13,7 @@ UBL\Common\CAC\ContractExtensionType:
                 inline: true
                 entry_name: OptionsDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\OptionsDescription>
+            type: array<App\UBL\Common\CBC\OptionsDescription>
         minimumNumberNumeric:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\ContractExtensionType:
             accessor:
                 getter: getMinimumNumberNumeric
                 setter: setMinimumNumberNumeric
-            type: UBL\Common\CBC\MinimumNumberNumeric
+            type: App\UBL\Common\CBC\MinimumNumberNumeric
         maximumNumberNumeric:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\ContractExtensionType:
             accessor:
                 getter: getMaximumNumberNumeric
                 setter: setMaximumNumberNumeric
-            type: UBL\Common\CBC\MaximumNumberNumeric
+            type: App\UBL\Common\CBC\MaximumNumberNumeric
         optionValidityPeriod:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\ContractExtensionType:
             accessor:
                 getter: getOptionValidityPeriod
                 setter: setOptionValidityPeriod
-            type: UBL\Common\CAC\OptionValidityPeriod
+            type: App\UBL\Common\CAC\OptionValidityPeriod
         renewal:
             expose: true
             access_type: public_method
@@ -57,4 +57,4 @@ UBL\Common\CAC\ContractExtensionType:
                 inline: true
                 entry_name: Renewal
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Renewal>
+            type: array<App\UBL\Common\CAC\Renewal>

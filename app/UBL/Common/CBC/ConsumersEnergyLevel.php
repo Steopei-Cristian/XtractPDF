@@ -9,4 +9,3 @@ class ConsumersEnergyLevel extends ConsumersEnergyLevelType
 {
 }
 
-

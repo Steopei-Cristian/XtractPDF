@@ -1,2 +1,2 @@
-UBL\Common\CBC\FrozenPeriodDaysNumericType:
+App\UBL\Common\CBC\FrozenPeriodDaysNumericType:
     properties: {  }

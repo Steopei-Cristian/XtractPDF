@@ -1,4 +1,4 @@
-UBL\Common\CAC\DutyType:
+App\UBL\Common\CAC\DutyType:
     properties:
         amount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\DutyType:
             accessor:
                 getter: getAmount
                 setter: setAmount
-            type: UBL\Common\CBC\Amount
+            type: App\UBL\Common\CBC\Amount
         duty:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\DutyType:
             accessor:
                 getter: getDuty
                 setter: setDuty
-            type: UBL\Common\CBC\Duty
+            type: App\UBL\Common\CBC\Duty
         dutyCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\DutyType:
             accessor:
                 getter: getDutyCode
                 setter: setDutyCode
-            type: UBL\Common\CBC\DutyCode
+            type: App\UBL\Common\CBC\DutyCode
         taxCategory:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ UBL\Common\CAC\DutyType:
             accessor:
                 getter: getTaxCategory
                 setter: setTaxCategory
-            type: UBL\Common\CAC\TaxCategory
+            type: App\UBL\Common\CAC\TaxCategory

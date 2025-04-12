@@ -1,4 +1,4 @@
-UBL\Invoice\InvoiceType:
+App\UBL\Invoice\InvoiceType:
     properties:
         uBLExtensions:
             expose: true
@@ -9,7 +9,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getUBLExtensions
                 setter: setUBLExtensions
-            type: array<UBL\Common\Extension\UBLExtension>
+            type: array<App\UBL\Common\Extension\UBLExtension>
             xml_list:
                 inline: false
                 entry_name: UBLExtension
@@ -24,7 +24,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getUBLVersionID
                 setter: setUBLVersionID
-            type: UBL\Common\CBC\UBLVersionID
+            type: App\UBL\Common\CBC\UBLVersionID
         customizationID:
             expose: true
             access_type: public_method
@@ -34,7 +34,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getCustomizationID
                 setter: setCustomizationID
-            type: UBL\Common\CBC\CustomizationID
+            type: App\UBL\Common\CBC\CustomizationID
         profileID:
             expose: true
             access_type: public_method
@@ -44,7 +44,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getProfileID
                 setter: setProfileID
-            type: UBL\Common\CBC\ProfileID
+            type: App\UBL\Common\CBC\ProfileID
         profileExecutionID:
             expose: true
             access_type: public_method
@@ -54,7 +54,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getProfileExecutionID
                 setter: setProfileExecutionID
-            type: UBL\Common\CBC\ProfileExecutionID
+            type: App\UBL\Common\CBC\ProfileExecutionID
         iD:
             expose: true
             access_type: public_method
@@ -64,7 +64,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         copyIndicator:
             expose: true
             access_type: public_method
@@ -84,7 +84,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getUUID
                 setter: setUUID
-            type: UBL\Common\CBC\UUID
+            type: App\UBL\Common\CBC\UUID
         issueDate:
             expose: true
             access_type: public_method
@@ -94,7 +94,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getIssueDate
                 setter: setIssueDate
-            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+            type: App\UBL\Common\CBC\IssueDate
         issueTime:
             expose: true
             access_type: public_method
@@ -104,7 +104,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getIssueTime
                 setter: setIssueTime
-            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+            type: App\UBL\Common\CBC\IssueTime
         dueDate:
             expose: true
             access_type: public_method
@@ -114,7 +114,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getDueDate
                 setter: setDueDate
-            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+            type: App\UBL\Common\CBC\DueDate
         invoiceTypeCode:
             expose: true
             access_type: public_method
@@ -124,7 +124,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getInvoiceTypeCode
                 setter: setInvoiceTypeCode
-            type: UBL\Common\CBC\InvoiceTypeCode
+            type: App\UBL\Common\CBC\InvoiceTypeCode
         note:
             expose: true
             access_type: public_method
@@ -138,7 +138,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         taxPointDate:
             expose: true
             access_type: public_method
@@ -158,7 +158,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getDocumentCurrencyCode
                 setter: setDocumentCurrencyCode
-            type: UBL\Common\CBC\DocumentCurrencyCode
+            type: App\UBL\Common\CBC\DocumentCurrencyCode
         taxCurrencyCode:
             expose: true
             access_type: public_method
@@ -168,7 +168,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getTaxCurrencyCode
                 setter: setTaxCurrencyCode
-            type: UBL\Common\CBC\TaxCurrencyCode
+            type: App\UBL\Common\CBC\TaxCurrencyCode
         pricingCurrencyCode:
             expose: true
             access_type: public_method
@@ -178,7 +178,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getPricingCurrencyCode
                 setter: setPricingCurrencyCode
-            type: UBL\Common\CBC\PricingCurrencyCode
+            type: App\UBL\Common\CBC\PricingCurrencyCode
         paymentCurrencyCode:
             expose: true
             access_type: public_method
@@ -188,7 +188,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getPaymentCurrencyCode
                 setter: setPaymentCurrencyCode
-            type: UBL\Common\CBC\PaymentCurrencyCode
+            type: App\UBL\Common\CBC\PaymentCurrencyCode
         paymentAlternativeCurrencyCode:
             expose: true
             access_type: public_method
@@ -198,7 +198,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getPaymentAlternativeCurrencyCode
                 setter: setPaymentAlternativeCurrencyCode
-            type: UBL\Common\CBC\PaymentAlternativeCurrencyCode
+            type: App\UBL\Common\CBC\PaymentAlternativeCurrencyCode
         accountingCostCode:
             expose: true
             access_type: public_method
@@ -208,7 +208,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getAccountingCostCode
                 setter: setAccountingCostCode
-            type: UBL\Common\CBC\AccountingCostCode
+            type: App\UBL\Common\CBC\AccountingCostCode
         accountingCost:
             expose: true
             access_type: public_method
@@ -218,7 +218,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getAccountingCost
                 setter: setAccountingCost
-            type: UBL\Common\CBC\AccountingCost
+            type: App\UBL\Common\CBC\AccountingCost
         lineCountNumeric:
             expose: true
             access_type: public_method
@@ -228,7 +228,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getLineCountNumeric
                 setter: setLineCountNumeric
-            type: UBL\Common\CBC\LineCountNumeric
+            type: App\UBL\Common\CBC\LineCountNumeric
         buyerReference:
             expose: true
             access_type: public_method
@@ -238,7 +238,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getBuyerReference
                 setter: setBuyerReference
-            type: UBL\Common\CBC\BuyerReference
+            type: App\UBL\Common\CBC\BuyerReference
         invoicePeriod:
             expose: true
             access_type: public_method
@@ -252,7 +252,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: InvoicePeriod
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\InvoicePeriod>
+            type: array<App\UBL\Common\CAC\InvoicePeriod>
         orderReference:
             expose: true
             access_type: public_method
@@ -262,7 +262,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getOrderReference
                 setter: setOrderReference
-            type: UBL\Common\CAC\OrderReference
+            type: App\UBL\Common\CAC\OrderReference
         billingReference:
             expose: true
             access_type: public_method
@@ -276,7 +276,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: BillingReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\BillingReference>
+            type: array<App\UBL\Common\CAC\BillingReference>
         despatchDocumentReference:
             expose: true
             access_type: public_method
@@ -290,7 +290,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: DespatchDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DespatchDocumentReference>
+            type: array<App\UBL\Common\CAC\DespatchDocumentReference>
         receiptDocumentReference:
             expose: true
             access_type: public_method
@@ -304,7 +304,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: ReceiptDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ReceiptDocumentReference>
+            type: array<App\UBL\Common\CAC\ReceiptDocumentReference>
         statementDocumentReference:
             expose: true
             access_type: public_method
@@ -318,7 +318,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: StatementDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\StatementDocumentReference>
+            type: array<App\UBL\Common\CAC\StatementDocumentReference>
         originatorDocumentReference:
             expose: true
             access_type: public_method
@@ -332,7 +332,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: OriginatorDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\OriginatorDocumentReference>
+            type: array<App\UBL\Common\CAC\OriginatorDocumentReference>
         contractDocumentReference:
             expose: true
             access_type: public_method
@@ -346,7 +346,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: ContractDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ContractDocumentReference>
+            type: array<App\UBL\Common\CAC\ContractDocumentReference>
         additionalDocumentReference:
             expose: true
             access_type: public_method
@@ -360,7 +360,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: AdditionalDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AdditionalDocumentReference>
+            type: array<App\UBL\Common\CAC\AdditionalDocumentReference>
         projectReference:
             expose: true
             access_type: public_method
@@ -374,7 +374,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: ProjectReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ProjectReference>
+            type: array<App\UBL\Common\CAC\ProjectReference>
         signature:
             expose: true
             access_type: public_method
@@ -388,7 +388,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: Signature
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Signature>
+            type: array<App\UBL\Common\CAC\Signature>
         accountingSupplierParty:
             expose: true
             access_type: public_method
@@ -398,7 +398,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getAccountingSupplierParty
                 setter: setAccountingSupplierParty
-            type: UBL\Common\CAC\AccountingSupplierParty
+            type: App\UBL\Common\CAC\AccountingSupplierParty
         accountingCustomerParty:
             expose: true
             access_type: public_method
@@ -408,7 +408,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getAccountingCustomerParty
                 setter: setAccountingCustomerParty
-            type: UBL\Common\CAC\AccountingCustomerParty
+            type: App\UBL\Common\CAC\AccountingCustomerParty
         payeeParty:
             expose: true
             access_type: public_method
@@ -418,7 +418,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getPayeeParty
                 setter: setPayeeParty
-            type: UBL\Common\CAC\PayeeParty
+            type: App\UBL\Common\CAC\PayeeParty
         buyerCustomerParty:
             expose: true
             access_type: public_method
@@ -428,7 +428,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getBuyerCustomerParty
                 setter: setBuyerCustomerParty
-            type: UBL\Common\CAC\BuyerCustomerParty
+            type: App\UBL\Common\CAC\BuyerCustomerParty
         sellerSupplierParty:
             expose: true
             access_type: public_method
@@ -438,7 +438,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getSellerSupplierParty
                 setter: setSellerSupplierParty
-            type: UBL\Common\CAC\SellerSupplierParty
+            type: App\UBL\Common\CAC\SellerSupplierParty
         taxRepresentativeParty:
             expose: true
             access_type: public_method
@@ -448,7 +448,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getTaxRepresentativeParty
                 setter: setTaxRepresentativeParty
-            type: UBL\Common\CAC\TaxRepresentativeParty
+            type: App\UBL\Common\CAC\TaxRepresentativeParty
         delivery:
             expose: true
             access_type: public_method
@@ -462,7 +462,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: Delivery
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Delivery>
+            type: array<App\UBL\Common\CAC\Delivery>
         deliveryTerms:
             expose: true
             access_type: public_method
@@ -472,7 +472,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getDeliveryTerms
                 setter: setDeliveryTerms
-            type: UBL\Common\CAC\DeliveryTerms
+            type: App\UBL\Common\CAC\DeliveryTerms
         paymentMeans:
             expose: true
             access_type: public_method
@@ -486,7 +486,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: PaymentMeans
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PaymentMeans>
+            type: array<App\UBL\Common\CAC\PaymentMeans>
         paymentTerms:
             expose: true
             access_type: public_method
@@ -500,7 +500,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: PaymentTerms
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PaymentTerms>
+            type: array<App\UBL\Common\CAC\PaymentTerms>
         prepaidPayment:
             expose: true
             access_type: public_method
@@ -514,7 +514,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: PrepaidPayment
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PrepaidPayment>
+            type: array<App\UBL\Common\CAC\PrepaidPayment>
         allowanceCharge:
             expose: true
             access_type: public_method
@@ -528,7 +528,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: AllowanceCharge
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AllowanceCharge>
+            type: array<App\UBL\Common\CAC\AllowanceCharge>
         taxExchangeRate:
             expose: true
             access_type: public_method
@@ -538,7 +538,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getTaxExchangeRate
                 setter: setTaxExchangeRate
-            type: UBL\Common\CAC\TaxExchangeRate
+            type: App\UBL\Common\CAC\TaxExchangeRate
         pricingExchangeRate:
             expose: true
             access_type: public_method
@@ -548,7 +548,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getPricingExchangeRate
                 setter: setPricingExchangeRate
-            type: UBL\Common\CAC\PricingExchangeRate
+            type: App\UBL\Common\CAC\PricingExchangeRate
         paymentExchangeRate:
             expose: true
             access_type: public_method
@@ -558,7 +558,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getPaymentExchangeRate
                 setter: setPaymentExchangeRate
-            type: UBL\Common\CAC\PaymentExchangeRate
+            type: App\UBL\Common\CAC\PaymentExchangeRate
         paymentAlternativeExchangeRate:
             expose: true
             access_type: public_method
@@ -568,7 +568,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getPaymentAlternativeExchangeRate
                 setter: setPaymentAlternativeExchangeRate
-            type: UBL\Common\CAC\PaymentAlternativeExchangeRate
+            type: App\UBL\Common\CAC\PaymentAlternativeExchangeRate
         taxTotal:
             expose: true
             access_type: public_method
@@ -582,7 +582,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: TaxTotal
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TaxTotal>
+            type: array<App\UBL\Common\CAC\TaxTotal>
         withholdingTaxTotal:
             expose: true
             access_type: public_method
@@ -596,7 +596,7 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: WithholdingTaxTotal
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\WithholdingTaxTotal>
+            type: array<App\UBL\Common\CAC\WithholdingTaxTotal>
         legalMonetaryTotal:
             expose: true
             access_type: public_method
@@ -606,7 +606,7 @@ UBL\Invoice\InvoiceType:
             accessor:
                 getter: getLegalMonetaryTotal
                 setter: setLegalMonetaryTotal
-            type: UBL\Common\CAC\LegalMonetaryTotal
+            type: App\UBL\Common\CAC\LegalMonetaryTotal
         invoiceLine:
             expose: true
             access_type: public_method
@@ -620,4 +620,4 @@ UBL\Invoice\InvoiceType:
                 inline: true
                 entry_name: InvoiceLine
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\InvoiceLine>
+            type: array<App\UBL\Common\CAC\InvoiceLine>

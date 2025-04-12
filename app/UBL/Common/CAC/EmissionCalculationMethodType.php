@@ -23,7 +23,7 @@ class EmissionCalculationMethodType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\CalculationMethodCode $calculationMethodCode
+     * @var \App\UBL\Common\CBC\CalculationMethodCode $calculationMethodCode
      */
     private $calculationMethodCode = null;
 
@@ -37,7 +37,7 @@ class EmissionCalculationMethodType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\FullnessIndicationCode $fullnessIndicationCode
+     * @var \App\UBL\Common\CBC\FullnessIndicationCode $fullnessIndicationCode
      */
     private $fullnessIndicationCode = null;
 
@@ -52,7 +52,7 @@ class EmissionCalculationMethodType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\MeasurementFromLocation $measurementFromLocation
+     * @var \App\UBL\Common\CAC\MeasurementFromLocation $measurementFromLocation
      */
     private $measurementFromLocation = null;
 
@@ -67,7 +67,7 @@ class EmissionCalculationMethodType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\MeasurementToLocation $measurementToLocation
+     * @var \App\UBL\Common\CAC\MeasurementToLocation $measurementToLocation
      */
     private $measurementToLocation = null;
 
@@ -83,7 +83,7 @@ class EmissionCalculationMethodType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\CalculationMethodCode
+     * @return \App\UBL\Common\CBC\CalculationMethodCode
      */
     public function getCalculationMethodCode()
     {
@@ -102,10 +102,10 @@ class EmissionCalculationMethodType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\CalculationMethodCode $calculationMethodCode
+     * @param \App\UBL\Common\CBC\CalculationMethodCode $calculationMethodCode
      * @return self
      */
-    public function setCalculationMethodCode(?\UBL\Common\CBC\CalculationMethodCode $calculationMethodCode = null)
+    public function setCalculationMethodCode(?\App\UBL\Common\CBC\CalculationMethodCode $calculationMethodCode = null)
     {
         $this->calculationMethodCode = $calculationMethodCode;
         return $this;
@@ -123,7 +123,7 @@ class EmissionCalculationMethodType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\FullnessIndicationCode
+     * @return \App\UBL\Common\CBC\FullnessIndicationCode
      */
     public function getFullnessIndicationCode()
     {
@@ -142,10 +142,10 @@ class EmissionCalculationMethodType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\FullnessIndicationCode $fullnessIndicationCode
+     * @param \App\UBL\Common\CBC\FullnessIndicationCode $fullnessIndicationCode
      * @return self
      */
-    public function setFullnessIndicationCode(?\UBL\Common\CBC\FullnessIndicationCode $fullnessIndicationCode = null)
+    public function setFullnessIndicationCode(?\App\UBL\Common\CBC\FullnessIndicationCode $fullnessIndicationCode = null)
     {
         $this->fullnessIndicationCode = $fullnessIndicationCode;
         return $this;
@@ -164,7 +164,7 @@ class EmissionCalculationMethodType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\MeasurementFromLocation
+     * @return \App\UBL\Common\CAC\MeasurementFromLocation
      */
     public function getMeasurementFromLocation()
     {
@@ -184,10 +184,10 @@ class EmissionCalculationMethodType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\MeasurementFromLocation $measurementFromLocation
+     * @param \App\UBL\Common\CAC\MeasurementFromLocation $measurementFromLocation
      * @return self
      */
-    public function setMeasurementFromLocation(?\UBL\Common\CAC\MeasurementFromLocation $measurementFromLocation = null)
+    public function setMeasurementFromLocation(?\App\UBL\Common\CAC\MeasurementFromLocation $measurementFromLocation = null)
     {
         $this->measurementFromLocation = $measurementFromLocation;
         return $this;
@@ -206,7 +206,7 @@ class EmissionCalculationMethodType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\MeasurementToLocation
+     * @return \App\UBL\Common\CAC\MeasurementToLocation
      */
     public function getMeasurementToLocation()
     {
@@ -226,14 +226,13 @@ class EmissionCalculationMethodType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\MeasurementToLocation $measurementToLocation
+     * @param \App\UBL\Common\CAC\MeasurementToLocation $measurementToLocation
      * @return self
      */
-    public function setMeasurementToLocation(?\UBL\Common\CAC\MeasurementToLocation $measurementToLocation = null)
+    public function setMeasurementToLocation(?\App\UBL\Common\CAC\MeasurementToLocation $measurementToLocation = null)
     {
         $this->measurementToLocation = $measurementToLocation;
         return $this;
     }
 }
-
 

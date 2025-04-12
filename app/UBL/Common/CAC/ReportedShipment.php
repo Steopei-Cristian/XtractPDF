@@ -9,4 +9,3 @@ class ReportedShipment extends ShipmentType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CAC\ContractExecutionRequirementType:
+App\UBL\Common\CAC\ContractExecutionRequirementType:
     properties:
         name:
             expose: true
@@ -13,7 +13,7 @@ UBL\Common\CAC\ContractExecutionRequirementType:
                 inline: true
                 entry_name: Name
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Name>
+            type: array<App\UBL\Common\CBC\Name>
         executionRequirementCode:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\ContractExecutionRequirementType:
             accessor:
                 getter: getExecutionRequirementCode
                 setter: setExecutionRequirementCode
-            type: UBL\Common\CBC\ExecutionRequirementCode
+            type: App\UBL\Common\CBC\ExecutionRequirementCode
         description:
             expose: true
             access_type: public_method
@@ -37,4 +37,4 @@ UBL\Common\CAC\ContractExecutionRequirementType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>

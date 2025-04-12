@@ -23,7 +23,7 @@ class InstructionForReturnsLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class InstructionForReturnsLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -53,7 +53,7 @@ class InstructionForReturnsLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -68,7 +68,7 @@ class InstructionForReturnsLineType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\ManufacturerParty $manufacturerParty
+     * @var \App\UBL\Common\CAC\ManufacturerParty $manufacturerParty
      */
     private $manufacturerParty = null;
 
@@ -82,7 +82,7 @@ class InstructionForReturnsLineType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item $item
+     * @var \App\UBL\Common\CAC\Item $item
      */
     private $item = null;
 
@@ -98,7 +98,7 @@ class InstructionForReturnsLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -117,10 +117,10 @@ class InstructionForReturnsLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -139,9 +139,9 @@ class InstructionForReturnsLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -199,7 +199,7 @@ class InstructionForReturnsLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -218,7 +218,7 @@ class InstructionForReturnsLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -239,7 +239,7 @@ class InstructionForReturnsLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -258,10 +258,10 @@ class InstructionForReturnsLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(\UBL\Common\CBC\Quantity $quantity)
+    public function setQuantity(\App\UBL\Common\CBC\Quantity $quantity)
     {
         $this->quantity = $quantity;
         return $this;
@@ -280,7 +280,7 @@ class InstructionForReturnsLineType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\ManufacturerParty
+     * @return \App\UBL\Common\CAC\ManufacturerParty
      */
     public function getManufacturerParty()
     {
@@ -300,10 +300,10 @@ class InstructionForReturnsLineType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\ManufacturerParty $manufacturerParty
+     * @param \App\UBL\Common\CAC\ManufacturerParty $manufacturerParty
      * @return self
      */
-    public function setManufacturerParty(?\UBL\Common\CAC\ManufacturerParty $manufacturerParty = null)
+    public function setManufacturerParty(?\App\UBL\Common\CAC\ManufacturerParty $manufacturerParty = null)
     {
         $this->manufacturerParty = $manufacturerParty;
         return $this;
@@ -321,7 +321,7 @@ class InstructionForReturnsLineType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item
+     * @return \App\UBL\Common\CAC\Item
      */
     public function getItem()
     {
@@ -340,14 +340,13 @@ class InstructionForReturnsLineType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      * @return self
      */
-    public function setItem(\UBL\Common\CAC\Item $item)
+    public function setItem(\App\UBL\Common\CAC\Item $item)
     {
         $this->item = $item;
         return $this;
     }
 }
-
 

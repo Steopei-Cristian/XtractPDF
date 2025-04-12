@@ -9,4 +9,3 @@ class LongitudeDegreesMeasure extends LongitudeDegreesMeasureType
 {
 }
 
-

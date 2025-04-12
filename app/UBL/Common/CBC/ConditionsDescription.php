@@ -9,4 +9,3 @@ class ConditionsDescription extends ConditionsDescriptionType
 {
 }
 
-

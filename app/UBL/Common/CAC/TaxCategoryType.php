@@ -24,7 +24,7 @@ class TaxCategoryType
      *  Identifier. Type
      *  http://www.unece.org/uncefact/codelist/standard/UNECE_DutyorTaxorFeeCategoryCode_D09B.xsd
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class TaxCategoryType
      *  Name. Type
      *  Luxury Goods , Wine Equalization , Exempt
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -53,7 +53,7 @@ class TaxCategoryType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\Percent $percent
+     * @var \App\UBL\Common\CBC\Percent $percent
      */
     private $percent = null;
 
@@ -67,7 +67,7 @@ class TaxCategoryType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\BaseUnitMeasure $baseUnitMeasure
+     * @var \App\UBL\Common\CBC\BaseUnitMeasure $baseUnitMeasure
      */
     private $baseUnitMeasure = null;
 
@@ -82,7 +82,7 @@ class TaxCategoryType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\PerUnitAmount $perUnitAmount
+     * @var \App\UBL\Common\CBC\PerUnitAmount $perUnitAmount
      */
     private $perUnitAmount = null;
 
@@ -97,7 +97,7 @@ class TaxCategoryType
      *  Code. Type
      *  http://www.unece.org/uncefact/codelist/standard/UNECE_DutyTaxFeeTypeCode_D09B.xsd
      *
-     * @var \UBL\Common\CBC\TaxExemptionReasonCode $taxExemptionReasonCode
+     * @var \App\UBL\Common\CBC\TaxExemptionReasonCode $taxExemptionReasonCode
      */
     private $taxExemptionReasonCode = null;
 
@@ -111,7 +111,7 @@ class TaxCategoryType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\TaxExemptionReason[] $taxExemptionReason
+     * @var \App\UBL\Common\CBC\TaxExemptionReason[] $taxExemptionReason
      */
     private $taxExemptionReason = [
         
@@ -127,7 +127,7 @@ class TaxCategoryType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\TierRange $tierRange
+     * @var \App\UBL\Common\CBC\TierRange $tierRange
      */
     private $tierRange = null;
 
@@ -141,7 +141,7 @@ class TaxCategoryType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\TierRatePercent $tierRatePercent
+     * @var \App\UBL\Common\CBC\TierRatePercent $tierRatePercent
      */
     private $tierRatePercent = null;
 
@@ -155,7 +155,7 @@ class TaxCategoryType
      *  Tax Scheme
      *  Tax Scheme
      *
-     * @var \UBL\Common\CAC\TaxScheme $taxScheme
+     * @var \App\UBL\Common\CAC\TaxScheme $taxScheme
      */
     private $taxScheme = null;
 
@@ -172,7 +172,7 @@ class TaxCategoryType
      *  Identifier. Type
      *  http://www.unece.org/uncefact/codelist/standard/UNECE_DutyorTaxorFeeCategoryCode_D09B.xsd
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -192,10 +192,10 @@ class TaxCategoryType
      *  Identifier. Type
      *  http://www.unece.org/uncefact/codelist/standard/UNECE_DutyorTaxorFeeCategoryCode_D09B.xsd
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -214,7 +214,7 @@ class TaxCategoryType
      *  Name. Type
      *  Luxury Goods , Wine Equalization , Exempt
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -234,10 +234,10 @@ class TaxCategoryType
      *  Name. Type
      *  Luxury Goods , Wine Equalization , Exempt
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -255,7 +255,7 @@ class TaxCategoryType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\Percent
+     * @return \App\UBL\Common\CBC\Percent
      */
     public function getPercent()
     {
@@ -274,10 +274,10 @@ class TaxCategoryType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\Percent $percent
+     * @param \App\UBL\Common\CBC\Percent $percent
      * @return self
      */
-    public function setPercent(?\UBL\Common\CBC\Percent $percent = null)
+    public function setPercent(?\App\UBL\Common\CBC\Percent $percent = null)
     {
         $this->percent = $percent;
         return $this;
@@ -295,7 +295,7 @@ class TaxCategoryType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\BaseUnitMeasure
+     * @return \App\UBL\Common\CBC\BaseUnitMeasure
      */
     public function getBaseUnitMeasure()
     {
@@ -314,10 +314,10 @@ class TaxCategoryType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\BaseUnitMeasure $baseUnitMeasure
+     * @param \App\UBL\Common\CBC\BaseUnitMeasure $baseUnitMeasure
      * @return self
      */
-    public function setBaseUnitMeasure(?\UBL\Common\CBC\BaseUnitMeasure $baseUnitMeasure = null)
+    public function setBaseUnitMeasure(?\App\UBL\Common\CBC\BaseUnitMeasure $baseUnitMeasure = null)
     {
         $this->baseUnitMeasure = $baseUnitMeasure;
         return $this;
@@ -336,7 +336,7 @@ class TaxCategoryType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\PerUnitAmount
+     * @return \App\UBL\Common\CBC\PerUnitAmount
      */
     public function getPerUnitAmount()
     {
@@ -356,10 +356,10 @@ class TaxCategoryType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\PerUnitAmount $perUnitAmount
+     * @param \App\UBL\Common\CBC\PerUnitAmount $perUnitAmount
      * @return self
      */
-    public function setPerUnitAmount(?\UBL\Common\CBC\PerUnitAmount $perUnitAmount = null)
+    public function setPerUnitAmount(?\App\UBL\Common\CBC\PerUnitAmount $perUnitAmount = null)
     {
         $this->perUnitAmount = $perUnitAmount;
         return $this;
@@ -378,7 +378,7 @@ class TaxCategoryType
      *  Code. Type
      *  http://www.unece.org/uncefact/codelist/standard/UNECE_DutyTaxFeeTypeCode_D09B.xsd
      *
-     * @return \UBL\Common\CBC\TaxExemptionReasonCode
+     * @return \App\UBL\Common\CBC\TaxExemptionReasonCode
      */
     public function getTaxExemptionReasonCode()
     {
@@ -398,10 +398,10 @@ class TaxCategoryType
      *  Code. Type
      *  http://www.unece.org/uncefact/codelist/standard/UNECE_DutyTaxFeeTypeCode_D09B.xsd
      *
-     * @param \UBL\Common\CBC\TaxExemptionReasonCode $taxExemptionReasonCode
+     * @param \App\UBL\Common\CBC\TaxExemptionReasonCode $taxExemptionReasonCode
      * @return self
      */
-    public function setTaxExemptionReasonCode(?\UBL\Common\CBC\TaxExemptionReasonCode $taxExemptionReasonCode = null)
+    public function setTaxExemptionReasonCode(?\App\UBL\Common\CBC\TaxExemptionReasonCode $taxExemptionReasonCode = null)
     {
         $this->taxExemptionReasonCode = $taxExemptionReasonCode;
         return $this;
@@ -420,9 +420,9 @@ class TaxCategoryType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\TaxExemptionReason $taxExemptionReason
+     * @param \App\UBL\Common\CBC\TaxExemptionReason $taxExemptionReason
      */
-    public function addToTaxExemptionReason(\UBL\Common\CBC\TaxExemptionReason $taxExemptionReason)
+    public function addToTaxExemptionReason(\App\UBL\Common\CBC\TaxExemptionReason $taxExemptionReason)
     {
         $this->taxExemptionReason[] = $taxExemptionReason;
         return $this;
@@ -480,7 +480,7 @@ class TaxCategoryType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\TaxExemptionReason[]
+     * @return \App\UBL\Common\CBC\TaxExemptionReason[]
      */
     public function getTaxExemptionReason()
     {
@@ -499,7 +499,7 @@ class TaxCategoryType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\TaxExemptionReason[] $taxExemptionReason
+     * @param \App\UBL\Common\CBC\TaxExemptionReason[] $taxExemptionReason
      * @return self
      */
     public function setTaxExemptionReason(?array $taxExemptionReason = null)
@@ -520,7 +520,7 @@ class TaxCategoryType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\TierRange
+     * @return \App\UBL\Common\CBC\TierRange
      */
     public function getTierRange()
     {
@@ -539,10 +539,10 @@ class TaxCategoryType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\TierRange $tierRange
+     * @param \App\UBL\Common\CBC\TierRange $tierRange
      * @return self
      */
-    public function setTierRange(?\UBL\Common\CBC\TierRange $tierRange = null)
+    public function setTierRange(?\App\UBL\Common\CBC\TierRange $tierRange = null)
     {
         $this->tierRange = $tierRange;
         return $this;
@@ -560,7 +560,7 @@ class TaxCategoryType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\TierRatePercent
+     * @return \App\UBL\Common\CBC\TierRatePercent
      */
     public function getTierRatePercent()
     {
@@ -579,10 +579,10 @@ class TaxCategoryType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\TierRatePercent $tierRatePercent
+     * @param \App\UBL\Common\CBC\TierRatePercent $tierRatePercent
      * @return self
      */
-    public function setTierRatePercent(?\UBL\Common\CBC\TierRatePercent $tierRatePercent = null)
+    public function setTierRatePercent(?\App\UBL\Common\CBC\TierRatePercent $tierRatePercent = null)
     {
         $this->tierRatePercent = $tierRatePercent;
         return $this;
@@ -600,7 +600,7 @@ class TaxCategoryType
      *  Tax Scheme
      *  Tax Scheme
      *
-     * @return \UBL\Common\CAC\TaxScheme
+     * @return \App\UBL\Common\CAC\TaxScheme
      */
     public function getTaxScheme()
     {
@@ -619,14 +619,13 @@ class TaxCategoryType
      *  Tax Scheme
      *  Tax Scheme
      *
-     * @param \UBL\Common\CAC\TaxScheme $taxScheme
+     * @param \App\UBL\Common\CAC\TaxScheme $taxScheme
      * @return self
      */
-    public function setTaxScheme(\UBL\Common\CAC\TaxScheme $taxScheme)
+    public function setTaxScheme(\App\UBL\Common\CAC\TaxScheme $taxScheme)
     {
         $this->taxScheme = $taxScheme;
         return $this;
     }
 }
-
 

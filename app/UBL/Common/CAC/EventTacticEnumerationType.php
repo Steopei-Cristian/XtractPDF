@@ -23,7 +23,7 @@ class EventTacticEnumerationType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ConsumerIncentiveTacticTypeCode $consumerIncentiveTacticTypeCode
+     * @var \App\UBL\Common\CBC\ConsumerIncentiveTacticTypeCode $consumerIncentiveTacticTypeCode
      */
     private $consumerIncentiveTacticTypeCode = null;
 
@@ -37,7 +37,7 @@ class EventTacticEnumerationType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\DisplayTacticTypeCode $displayTacticTypeCode
+     * @var \App\UBL\Common\CBC\DisplayTacticTypeCode $displayTacticTypeCode
      */
     private $displayTacticTypeCode = null;
 
@@ -51,7 +51,7 @@ class EventTacticEnumerationType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\FeatureTacticTypeCode $featureTacticTypeCode
+     * @var \App\UBL\Common\CBC\FeatureTacticTypeCode $featureTacticTypeCode
      */
     private $featureTacticTypeCode = null;
 
@@ -65,7 +65,7 @@ class EventTacticEnumerationType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TradeItemPackingLabelingTypeCode $tradeItemPackingLabelingTypeCode
+     * @var \App\UBL\Common\CBC\TradeItemPackingLabelingTypeCode $tradeItemPackingLabelingTypeCode
      */
     private $tradeItemPackingLabelingTypeCode = null;
 
@@ -81,7 +81,7 @@ class EventTacticEnumerationType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ConsumerIncentiveTacticTypeCode
+     * @return \App\UBL\Common\CBC\ConsumerIncentiveTacticTypeCode
      */
     public function getConsumerIncentiveTacticTypeCode()
     {
@@ -100,10 +100,10 @@ class EventTacticEnumerationType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ConsumerIncentiveTacticTypeCode $consumerIncentiveTacticTypeCode
+     * @param \App\UBL\Common\CBC\ConsumerIncentiveTacticTypeCode $consumerIncentiveTacticTypeCode
      * @return self
      */
-    public function setConsumerIncentiveTacticTypeCode(?\UBL\Common\CBC\ConsumerIncentiveTacticTypeCode $consumerIncentiveTacticTypeCode = null)
+    public function setConsumerIncentiveTacticTypeCode(?\App\UBL\Common\CBC\ConsumerIncentiveTacticTypeCode $consumerIncentiveTacticTypeCode = null)
     {
         $this->consumerIncentiveTacticTypeCode = $consumerIncentiveTacticTypeCode;
         return $this;
@@ -121,7 +121,7 @@ class EventTacticEnumerationType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\DisplayTacticTypeCode
+     * @return \App\UBL\Common\CBC\DisplayTacticTypeCode
      */
     public function getDisplayTacticTypeCode()
     {
@@ -140,10 +140,10 @@ class EventTacticEnumerationType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\DisplayTacticTypeCode $displayTacticTypeCode
+     * @param \App\UBL\Common\CBC\DisplayTacticTypeCode $displayTacticTypeCode
      * @return self
      */
-    public function setDisplayTacticTypeCode(?\UBL\Common\CBC\DisplayTacticTypeCode $displayTacticTypeCode = null)
+    public function setDisplayTacticTypeCode(?\App\UBL\Common\CBC\DisplayTacticTypeCode $displayTacticTypeCode = null)
     {
         $this->displayTacticTypeCode = $displayTacticTypeCode;
         return $this;
@@ -161,7 +161,7 @@ class EventTacticEnumerationType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\FeatureTacticTypeCode
+     * @return \App\UBL\Common\CBC\FeatureTacticTypeCode
      */
     public function getFeatureTacticTypeCode()
     {
@@ -180,10 +180,10 @@ class EventTacticEnumerationType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\FeatureTacticTypeCode $featureTacticTypeCode
+     * @param \App\UBL\Common\CBC\FeatureTacticTypeCode $featureTacticTypeCode
      * @return self
      */
-    public function setFeatureTacticTypeCode(?\UBL\Common\CBC\FeatureTacticTypeCode $featureTacticTypeCode = null)
+    public function setFeatureTacticTypeCode(?\App\UBL\Common\CBC\FeatureTacticTypeCode $featureTacticTypeCode = null)
     {
         $this->featureTacticTypeCode = $featureTacticTypeCode;
         return $this;
@@ -201,7 +201,7 @@ class EventTacticEnumerationType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TradeItemPackingLabelingTypeCode
+     * @return \App\UBL\Common\CBC\TradeItemPackingLabelingTypeCode
      */
     public function getTradeItemPackingLabelingTypeCode()
     {
@@ -220,14 +220,13 @@ class EventTacticEnumerationType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TradeItemPackingLabelingTypeCode $tradeItemPackingLabelingTypeCode
+     * @param \App\UBL\Common\CBC\TradeItemPackingLabelingTypeCode $tradeItemPackingLabelingTypeCode
      * @return self
      */
-    public function setTradeItemPackingLabelingTypeCode(?\UBL\Common\CBC\TradeItemPackingLabelingTypeCode $tradeItemPackingLabelingTypeCode = null)
+    public function setTradeItemPackingLabelingTypeCode(?\App\UBL\Common\CBC\TradeItemPackingLabelingTypeCode $tradeItemPackingLabelingTypeCode = null)
     {
         $this->tradeItemPackingLabelingTypeCode = $tradeItemPackingLabelingTypeCode;
         return $this;
     }
 }
-
 

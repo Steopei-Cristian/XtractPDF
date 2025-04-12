@@ -9,4 +9,3 @@ class TendererQualificationRequest extends TendererQualificationRequestType
 {
 }
 
-

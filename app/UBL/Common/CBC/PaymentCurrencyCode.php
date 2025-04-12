@@ -9,4 +9,3 @@ class PaymentCurrencyCode extends PaymentCurrencyCodeType
 {
 }
 
-

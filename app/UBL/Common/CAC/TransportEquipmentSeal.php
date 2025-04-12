@@ -9,4 +9,3 @@ class TransportEquipmentSeal extends TransportEquipmentSealType
 {
 }
 
-

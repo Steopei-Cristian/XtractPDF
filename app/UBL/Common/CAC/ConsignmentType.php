@@ -24,7 +24,7 @@ class ConsignmentType
      *  Identifier. Type
      *  Unique consignment reference number (UCR)
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\CarrierAssignedID $carrierAssignedID
+     * @var \App\UBL\Common\CBC\CarrierAssignedID $carrierAssignedID
      */
     private $carrierAssignedID = null;
 
@@ -54,7 +54,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ConsigneeAssignedID $consigneeAssignedID
+     * @var \App\UBL\Common\CBC\ConsigneeAssignedID $consigneeAssignedID
      */
     private $consigneeAssignedID = null;
 
@@ -69,7 +69,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ConsignorAssignedID $consignorAssignedID
+     * @var \App\UBL\Common\CBC\ConsignorAssignedID $consignorAssignedID
      */
     private $consignorAssignedID = null;
 
@@ -84,7 +84,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\FreightForwarderAssignedID $freightForwarderAssignedID
+     * @var \App\UBL\Common\CBC\FreightForwarderAssignedID $freightForwarderAssignedID
      */
     private $freightForwarderAssignedID = null;
 
@@ -99,7 +99,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\BrokerAssignedID $brokerAssignedID
+     * @var \App\UBL\Common\CBC\BrokerAssignedID $brokerAssignedID
      */
     private $brokerAssignedID = null;
 
@@ -114,7 +114,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ContractedCarrierAssignedID $contractedCarrierAssignedID
+     * @var \App\UBL\Common\CBC\ContractedCarrierAssignedID $contractedCarrierAssignedID
      */
     private $contractedCarrierAssignedID = null;
 
@@ -129,7 +129,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\PerformingCarrierAssignedID $performingCarrierAssignedID
+     * @var \App\UBL\Common\CBC\PerformingCarrierAssignedID $performingCarrierAssignedID
      */
     private $performingCarrierAssignedID = null;
 
@@ -144,7 +144,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\SummaryDescription[] $summaryDescription
+     * @var \App\UBL\Common\CBC\SummaryDescription[] $summaryDescription
      */
     private $summaryDescription = [
         
@@ -161,7 +161,7 @@ class ConsignmentType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\TotalInvoiceAmount $totalInvoiceAmount
+     * @var \App\UBL\Common\CBC\TotalInvoiceAmount $totalInvoiceAmount
      */
     private $totalInvoiceAmount = null;
 
@@ -176,7 +176,7 @@ class ConsignmentType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount
+     * @var \App\UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount
      */
     private $declaredCustomsValueAmount = null;
 
@@ -190,7 +190,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\TariffDescription[] $tariffDescription
+     * @var \App\UBL\Common\CBC\TariffDescription[] $tariffDescription
      */
     private $tariffDescription = [
         
@@ -207,7 +207,7 @@ class ConsignmentType
      *  Code. Type
      *  Tariff code number (WCO ID 145)
      *
-     * @var \UBL\Common\CBC\TariffCode $tariffCode
+     * @var \App\UBL\Common\CBC\TariffCode $tariffCode
      */
     private $tariffCode = null;
 
@@ -222,7 +222,7 @@ class ConsignmentType
      *  Amount. Type
      *  Insurance Cost
      *
-     * @var \UBL\Common\CBC\InsurancePremiumAmount $insurancePremiumAmount
+     * @var \App\UBL\Common\CBC\InsurancePremiumAmount $insurancePremiumAmount
      */
     private $insurancePremiumAmount = null;
 
@@ -239,7 +239,7 @@ class ConsignmentType
      *  Total gross weight (WCO ID 131)
      *  Total cube of all goods items referred to as one consignment.
      *
-     * @var \UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
+     * @var \App\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
      */
     private $grossWeightMeasure = null;
 
@@ -254,7 +254,7 @@ class ConsignmentType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
+     * @var \App\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
      */
     private $netWeightMeasure = null;
 
@@ -269,7 +269,7 @@ class ConsignmentType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure
+     * @var \App\UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure
      */
     private $netNetWeightMeasure = null;
 
@@ -285,7 +285,7 @@ class ConsignmentType
      *  Measure. Type
      *  Chargeable Weight. Basis.Measure
      *
-     * @var \UBL\Common\CBC\ChargeableWeightMeasure $chargeableWeightMeasure
+     * @var \App\UBL\Common\CBC\ChargeableWeightMeasure $chargeableWeightMeasure
      */
     private $chargeableWeightMeasure = null;
 
@@ -301,7 +301,7 @@ class ConsignmentType
      *  Measure. Type
      *  Cube
      *
-     * @var \UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
+     * @var \App\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
      */
     private $grossVolumeMeasure = null;
 
@@ -316,7 +316,7 @@ class ConsignmentType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
+     * @var \App\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
      */
     private $netVolumeMeasure = null;
 
@@ -331,7 +331,7 @@ class ConsignmentType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\LoadingLengthMeasure $loadingLengthMeasure
+     * @var \App\UBL\Common\CBC\LoadingLengthMeasure $loadingLengthMeasure
      */
     private $loadingLengthMeasure = null;
 
@@ -345,7 +345,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Remarks[] $remarks
+     * @var \App\UBL\Common\CBC\Remarks[] $remarks
      */
     private $remarks = [
         
@@ -507,7 +507,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\CarrierServiceInstructions[] $carrierServiceInstructions
+     * @var \App\UBL\Common\CBC\CarrierServiceInstructions[] $carrierServiceInstructions
      */
     private $carrierServiceInstructions = [
         
@@ -524,7 +524,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\CustomsClearanceServiceInstructions[] $customsClearanceServiceInstructions
+     * @var \App\UBL\Common\CBC\CustomsClearanceServiceInstructions[] $customsClearanceServiceInstructions
      */
     private $customsClearanceServiceInstructions = [
         
@@ -541,7 +541,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ForwarderServiceInstructions[] $forwarderServiceInstructions
+     * @var \App\UBL\Common\CBC\ForwarderServiceInstructions[] $forwarderServiceInstructions
      */
     private $forwarderServiceInstructions = [
         
@@ -558,7 +558,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\SpecialServiceInstructions[] $specialServiceInstructions
+     * @var \App\UBL\Common\CBC\SpecialServiceInstructions[] $specialServiceInstructions
      */
     private $specialServiceInstructions = [
         
@@ -574,7 +574,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\SequenceID $sequenceID
+     * @var \App\UBL\Common\CBC\SequenceID $sequenceID
      */
     private $sequenceID = null;
 
@@ -588,7 +588,7 @@ class ConsignmentType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ShippingPriorityLevelCode $shippingPriorityLevelCode
+     * @var \App\UBL\Common\CBC\ShippingPriorityLevelCode $shippingPriorityLevelCode
      */
     private $shippingPriorityLevelCode = null;
 
@@ -603,7 +603,7 @@ class ConsignmentType
      *  Code. Type
      *  Special Handling
      *
-     * @var \UBL\Common\CBC\HandlingCode $handlingCode
+     * @var \App\UBL\Common\CBC\HandlingCode $handlingCode
      */
     private $handlingCode = null;
 
@@ -618,7 +618,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\HandlingInstructions[] $handlingInstructions
+     * @var \App\UBL\Common\CBC\HandlingInstructions[] $handlingInstructions
      */
     private $handlingInstructions = [
         
@@ -634,7 +634,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Information[] $information
+     * @var \App\UBL\Common\CBC\Information[] $information
      */
     private $information = [
         
@@ -651,7 +651,7 @@ class ConsignmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity
+     * @var \App\UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity
      */
     private $totalGoodsItemQuantity = null;
 
@@ -667,7 +667,7 @@ class ConsignmentType
      *  Quantity. Type
      *  Number of THUs
      *
-     * @var \UBL\Common\CBC\TotalTransportHandlingUnitQuantity $totalTransportHandlingUnitQuantity
+     * @var \App\UBL\Common\CBC\TotalTransportHandlingUnitQuantity $totalTransportHandlingUnitQuantity
      */
     private $totalTransportHandlingUnitQuantity = null;
 
@@ -683,7 +683,7 @@ class ConsignmentType
      *  Amount. Type
      *  Value Insured
      *
-     * @var \UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount
+     * @var \App\UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount
      */
     private $insuranceValueAmount = null;
 
@@ -699,7 +699,7 @@ class ConsignmentType
      *  Amount. Type
      *  Declared value for carriage, Interest in delivery
      *
-     * @var \UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount
+     * @var \App\UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount
      */
     private $declaredForCarriageValueAmount = null;
 
@@ -715,7 +715,7 @@ class ConsignmentType
      *  Amount. Type
      *  Statistical Value
      *
-     * @var \UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount
+     * @var \App\UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount
      */
     private $declaredStatisticsValueAmount = null;
 
@@ -731,7 +731,7 @@ class ConsignmentType
      *  Amount. Type
      *  FOB Value
      *
-     * @var \UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount
+     * @var \App\UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount
      */
     private $freeOnBoardValueAmount = null;
 
@@ -746,7 +746,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\SpecialInstructions[] $specialInstructions
+     * @var \App\UBL\Common\CBC\SpecialInstructions[] $specialInstructions
      */
     private $specialInstructions = [
         
@@ -778,7 +778,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\DeliveryInstructions[] $deliveryInstructions
+     * @var \App\UBL\Common\CBC\DeliveryInstructions[] $deliveryInstructions
      */
     private $deliveryInstructions = [
         
@@ -795,7 +795,7 @@ class ConsignmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ConsignmentQuantity $consignmentQuantity
+     * @var \App\UBL\Common\CBC\ConsignmentQuantity $consignmentQuantity
      */
     private $consignmentQuantity = null;
 
@@ -826,7 +826,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\HaulageInstructions[] $haulageInstructions
+     * @var \App\UBL\Common\CBC\HaulageInstructions[] $haulageInstructions
      */
     private $haulageInstructions = [
         
@@ -843,7 +843,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\LoadingSequenceID $loadingSequenceID
+     * @var \App\UBL\Common\CBC\LoadingSequenceID $loadingSequenceID
      */
     private $loadingSequenceID = null;
 
@@ -857,7 +857,7 @@ class ConsignmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ChildConsignmentQuantity $childConsignmentQuantity
+     * @var \App\UBL\Common\CBC\ChildConsignmentQuantity $childConsignmentQuantity
      */
     private $childConsignmentQuantity = null;
 
@@ -872,7 +872,7 @@ class ConsignmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\TotalPackagesQuantity $totalPackagesQuantity
+     * @var \App\UBL\Common\CBC\TotalPackagesQuantity $totalPackagesQuantity
      */
     private $totalPackagesQuantity = null;
 
@@ -887,7 +887,7 @@ class ConsignmentType
      *  Shipment
      *  Shipment
      *
-     * @var \UBL\Common\CAC\ConsolidatedShipment[] $consolidatedShipment
+     * @var \App\UBL\Common\CAC\ConsolidatedShipment[] $consolidatedShipment
      */
     private $consolidatedShipment = [
         
@@ -903,7 +903,7 @@ class ConsignmentType
      *  Customs Declaration
      *  Customs Declaration
      *
-     * @var \UBL\Common\CAC\CustomsDeclaration[] $customsDeclaration
+     * @var \App\UBL\Common\CAC\CustomsDeclaration[] $customsDeclaration
      */
     private $customsDeclaration = [
         
@@ -920,7 +920,7 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\RequestedPickupTransportEvent $requestedPickupTransportEvent
+     * @var \App\UBL\Common\CAC\RequestedPickupTransportEvent $requestedPickupTransportEvent
      */
     private $requestedPickupTransportEvent = null;
 
@@ -935,7 +935,7 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\RequestedDeliveryTransportEvent $requestedDeliveryTransportEvent
+     * @var \App\UBL\Common\CAC\RequestedDeliveryTransportEvent $requestedDeliveryTransportEvent
      */
     private $requestedDeliveryTransportEvent = null;
 
@@ -950,7 +950,7 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\PlannedPickupTransportEvent $plannedPickupTransportEvent
+     * @var \App\UBL\Common\CAC\PlannedPickupTransportEvent $plannedPickupTransportEvent
      */
     private $plannedPickupTransportEvent = null;
 
@@ -965,7 +965,7 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\PlannedDeliveryTransportEvent $plannedDeliveryTransportEvent
+     * @var \App\UBL\Common\CAC\PlannedDeliveryTransportEvent $plannedDeliveryTransportEvent
      */
     private $plannedDeliveryTransportEvent = null;
 
@@ -979,7 +979,7 @@ class ConsignmentType
      *  Status
      *  Status
      *
-     * @var \UBL\Common\CAC\Status[] $status
+     * @var \App\UBL\Common\CAC\Status[] $status
      */
     private $status = [
         
@@ -996,7 +996,7 @@ class ConsignmentType
      *  Consignment
      *  Consignment
      *
-     * @var \UBL\Common\CAC\ChildConsignment[] $childConsignment
+     * @var \App\UBL\Common\CAC\ChildConsignment[] $childConsignment
      */
     private $childConsignment = [
         
@@ -1014,7 +1014,7 @@ class ConsignmentType
      *  Party
      *  Consignee (WCO ID 51 and 52)
      *
-     * @var \UBL\Common\CAC\ConsigneeParty $consigneeParty
+     * @var \App\UBL\Common\CAC\ConsigneeParty $consigneeParty
      */
     private $consigneeParty = null;
 
@@ -1030,7 +1030,7 @@ class ConsignmentType
      *  Party
      *  Exporter (WCO ID 41 and 42)
      *
-     * @var \UBL\Common\CAC\ExporterParty $exporterParty
+     * @var \App\UBL\Common\CAC\ExporterParty $exporterParty
      */
     private $exporterParty = null;
 
@@ -1046,7 +1046,7 @@ class ConsignmentType
      *  Party
      *  Consignor (WCO ID 71 and 72)
      *
-     * @var \UBL\Common\CAC\ConsignorParty $consignorParty
+     * @var \App\UBL\Common\CAC\ConsignorParty $consignorParty
      */
     private $consignorParty = null;
 
@@ -1062,7 +1062,7 @@ class ConsignmentType
      *  Party
      *  Importer (WCO ID 39 and 40)
      *
-     * @var \UBL\Common\CAC\ImporterParty $importerParty
+     * @var \App\UBL\Common\CAC\ImporterParty $importerParty
      */
     private $importerParty = null;
 
@@ -1078,7 +1078,7 @@ class ConsignmentType
      *  Party
      *  Transport Company, Shipping Line, NVOCC, Airline, Haulier, Courier, Carrier (WCO ID 49 and 50)
      *
-     * @var \UBL\Common\CAC\CarrierParty $carrierParty
+     * @var \App\UBL\Common\CAC\CarrierParty $carrierParty
      */
     private $carrierParty = null;
 
@@ -1094,7 +1094,7 @@ class ConsignmentType
      *  Party
      *  Consolidator (WCO ID 192 AND 193)
      *
-     * @var \UBL\Common\CAC\FreightForwarderParty $freightForwarderParty
+     * @var \App\UBL\Common\CAC\FreightForwarderParty $freightForwarderParty
      */
     private $freightForwarderParty = null;
 
@@ -1110,7 +1110,7 @@ class ConsignmentType
      *  Party
      *  WCO ID 57 and 58
      *
-     * @var \UBL\Common\CAC\NotifyParty $notifyParty
+     * @var \App\UBL\Common\CAC\NotifyParty $notifyParty
      */
     private $notifyParty = null;
 
@@ -1125,7 +1125,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\OriginalDespatchParty $originalDespatchParty
+     * @var \App\UBL\Common\CAC\OriginalDespatchParty $originalDespatchParty
      */
     private $originalDespatchParty = null;
 
@@ -1140,7 +1140,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\FinalDeliveryParty $finalDeliveryParty
+     * @var \App\UBL\Common\CAC\FinalDeliveryParty $finalDeliveryParty
      */
     private $finalDeliveryParty = null;
 
@@ -1155,7 +1155,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\PerformingCarrierParty $performingCarrierParty
+     * @var \App\UBL\Common\CAC\PerformingCarrierParty $performingCarrierParty
      */
     private $performingCarrierParty = null;
 
@@ -1170,7 +1170,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\SubstituteCarrierParty $substituteCarrierParty
+     * @var \App\UBL\Common\CAC\SubstituteCarrierParty $substituteCarrierParty
      */
     private $substituteCarrierParty = null;
 
@@ -1185,7 +1185,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\LogisticsOperatorParty $logisticsOperatorParty
+     * @var \App\UBL\Common\CAC\LogisticsOperatorParty $logisticsOperatorParty
      */
     private $logisticsOperatorParty = null;
 
@@ -1200,7 +1200,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\TransportAdvisorParty $transportAdvisorParty
+     * @var \App\UBL\Common\CAC\TransportAdvisorParty $transportAdvisorParty
      */
     private $transportAdvisorParty = null;
 
@@ -1215,7 +1215,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\HazardousItemNotificationParty $hazardousItemNotificationParty
+     * @var \App\UBL\Common\CAC\HazardousItemNotificationParty $hazardousItemNotificationParty
      */
     private $hazardousItemNotificationParty = null;
 
@@ -1230,7 +1230,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\InsuranceParty $insuranceParty
+     * @var \App\UBL\Common\CAC\InsuranceParty $insuranceParty
      */
     private $insuranceParty = null;
 
@@ -1245,7 +1245,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\MortgageHolderParty $mortgageHolderParty
+     * @var \App\UBL\Common\CAC\MortgageHolderParty $mortgageHolderParty
      */
     private $mortgageHolderParty = null;
 
@@ -1260,7 +1260,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\BillOfLadingHolderParty $billOfLadingHolderParty
+     * @var \App\UBL\Common\CAC\BillOfLadingHolderParty $billOfLadingHolderParty
      */
     private $billOfLadingHolderParty = null;
 
@@ -1276,7 +1276,7 @@ class ConsignmentType
      *  Country
      *  Country of origin (WCO ID 062)
      *
-     * @var \UBL\Common\CAC\OriginalDepartureCountry $originalDepartureCountry
+     * @var \App\UBL\Common\CAC\OriginalDepartureCountry $originalDepartureCountry
      */
     private $originalDepartureCountry = null;
 
@@ -1292,7 +1292,7 @@ class ConsignmentType
      *  Country
      *  Ultimate Destination Country, Country of Final Arrival, Country of Destination
      *
-     * @var \UBL\Common\CAC\FinalDestinationCountry $finalDestinationCountry
+     * @var \App\UBL\Common\CAC\FinalDestinationCountry $finalDestinationCountry
      */
     private $finalDestinationCountry = null;
 
@@ -1308,7 +1308,7 @@ class ConsignmentType
      *  Country
      *  Country(ies) of routing (WCO ID 064)
      *
-     * @var \UBL\Common\CAC\TransitCountry[] $transitCountry
+     * @var \App\UBL\Common\CAC\TransitCountry[] $transitCountry
      */
     private $transitCountry = [
         
@@ -1325,7 +1325,7 @@ class ConsignmentType
      *  Contract
      *  Contract
      *
-     * @var \UBL\Common\CAC\TransportContract $transportContract
+     * @var \App\UBL\Common\CAC\TransportContract $transportContract
      */
     private $transportContract = null;
 
@@ -1339,7 +1339,7 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\TransportEvent[] $transportEvent
+     * @var \App\UBL\Common\CAC\TransportEvent[] $transportEvent
      */
     private $transportEvent = [
         
@@ -1357,7 +1357,7 @@ class ConsignmentType
      *  Transportation Service
      *  Door-to-door , Pier-to-door
      *
-     * @var \UBL\Common\CAC\OriginalDespatchTransportationService $originalDespatchTransportationService
+     * @var \App\UBL\Common\CAC\OriginalDespatchTransportationService $originalDespatchTransportationService
      */
     private $originalDespatchTransportationService = null;
 
@@ -1373,7 +1373,7 @@ class ConsignmentType
      *  Transportation Service
      *  Door-to-door , Pier-to-door
      *
-     * @var \UBL\Common\CAC\FinalDeliveryTransportationService $finalDeliveryTransportationService
+     * @var \App\UBL\Common\CAC\FinalDeliveryTransportationService $finalDeliveryTransportationService
      */
     private $finalDeliveryTransportationService = null;
 
@@ -1388,7 +1388,7 @@ class ConsignmentType
      *  Delivery Terms
      *  Trade Terms, INCOTERMS
      *
-     * @var \UBL\Common\CAC\DeliveryTerms $deliveryTerms
+     * @var \App\UBL\Common\CAC\DeliveryTerms $deliveryTerms
      */
     private $deliveryTerms = null;
 
@@ -1402,7 +1402,7 @@ class ConsignmentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @var \UBL\Common\CAC\PaymentTerms $paymentTerms
+     * @var \App\UBL\Common\CAC\PaymentTerms $paymentTerms
      */
     private $paymentTerms = null;
 
@@ -1417,7 +1417,7 @@ class ConsignmentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @var \UBL\Common\CAC\CollectPaymentTerms $collectPaymentTerms
+     * @var \App\UBL\Common\CAC\CollectPaymentTerms $collectPaymentTerms
      */
     private $collectPaymentTerms = null;
 
@@ -1432,7 +1432,7 @@ class ConsignmentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @var \UBL\Common\CAC\DisbursementPaymentTerms $disbursementPaymentTerms
+     * @var \App\UBL\Common\CAC\DisbursementPaymentTerms $disbursementPaymentTerms
      */
     private $disbursementPaymentTerms = null;
 
@@ -1447,7 +1447,7 @@ class ConsignmentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @var \UBL\Common\CAC\PrepaidPaymentTerms $prepaidPaymentTerms
+     * @var \App\UBL\Common\CAC\PrepaidPaymentTerms $prepaidPaymentTerms
      */
     private $prepaidPaymentTerms = null;
 
@@ -1463,7 +1463,7 @@ class ConsignmentType
      *  Allowance Charge
      *  Freight Costs
      *
-     * @var \UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
+     * @var \App\UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
      */
     private $freightAllowanceCharge = [
         
@@ -1480,7 +1480,7 @@ class ConsignmentType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\ExtraAllowanceCharge[] $extraAllowanceCharge
+     * @var \App\UBL\Common\CAC\ExtraAllowanceCharge[] $extraAllowanceCharge
      */
     private $extraAllowanceCharge = [
         
@@ -1497,7 +1497,7 @@ class ConsignmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @var \UBL\Common\CAC\MainCarriageShipmentStage[] $mainCarriageShipmentStage
+     * @var \App\UBL\Common\CAC\MainCarriageShipmentStage[] $mainCarriageShipmentStage
      */
     private $mainCarriageShipmentStage = [
         
@@ -1514,7 +1514,7 @@ class ConsignmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @var \UBL\Common\CAC\PreCarriageShipmentStage[] $preCarriageShipmentStage
+     * @var \App\UBL\Common\CAC\PreCarriageShipmentStage[] $preCarriageShipmentStage
      */
     private $preCarriageShipmentStage = [
         
@@ -1531,7 +1531,7 @@ class ConsignmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @var \UBL\Common\CAC\OnCarriageShipmentStage[] $onCarriageShipmentStage
+     * @var \App\UBL\Common\CAC\OnCarriageShipmentStage[] $onCarriageShipmentStage
      */
     private $onCarriageShipmentStage = [
         
@@ -1547,7 +1547,7 @@ class ConsignmentType
      *  Transport Handling Unit
      *  Transport Handling Unit
      *
-     * @var \UBL\Common\CAC\TransportHandlingUnit[] $transportHandlingUnit
+     * @var \App\UBL\Common\CAC\TransportHandlingUnit[] $transportHandlingUnit
      */
     private $transportHandlingUnit = [
         
@@ -1564,7 +1564,7 @@ class ConsignmentType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\FirstArrivalPortLocation $firstArrivalPortLocation
+     * @var \App\UBL\Common\CAC\FirstArrivalPortLocation $firstArrivalPortLocation
      */
     private $firstArrivalPortLocation = null;
 
@@ -1579,7 +1579,7 @@ class ConsignmentType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\LastExitPortLocation $lastExitPortLocation
+     * @var \App\UBL\Common\CAC\LastExitPortLocation $lastExitPortLocation
      */
     private $lastExitPortLocation = null;
 
@@ -1596,7 +1596,7 @@ class ConsignmentType
      *  Identifier. Type
      *  Unique consignment reference number (UCR)
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -1616,10 +1616,10 @@ class ConsignmentType
      *  Identifier. Type
      *  Unique consignment reference number (UCR)
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -1638,7 +1638,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\CarrierAssignedID
+     * @return \App\UBL\Common\CBC\CarrierAssignedID
      */
     public function getCarrierAssignedID()
     {
@@ -1658,10 +1658,10 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\CarrierAssignedID $carrierAssignedID
+     * @param \App\UBL\Common\CBC\CarrierAssignedID $carrierAssignedID
      * @return self
      */
-    public function setCarrierAssignedID(?\UBL\Common\CBC\CarrierAssignedID $carrierAssignedID = null)
+    public function setCarrierAssignedID(?\App\UBL\Common\CBC\CarrierAssignedID $carrierAssignedID = null)
     {
         $this->carrierAssignedID = $carrierAssignedID;
         return $this;
@@ -1680,7 +1680,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ConsigneeAssignedID
+     * @return \App\UBL\Common\CBC\ConsigneeAssignedID
      */
     public function getConsigneeAssignedID()
     {
@@ -1700,10 +1700,10 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ConsigneeAssignedID $consigneeAssignedID
+     * @param \App\UBL\Common\CBC\ConsigneeAssignedID $consigneeAssignedID
      * @return self
      */
-    public function setConsigneeAssignedID(?\UBL\Common\CBC\ConsigneeAssignedID $consigneeAssignedID = null)
+    public function setConsigneeAssignedID(?\App\UBL\Common\CBC\ConsigneeAssignedID $consigneeAssignedID = null)
     {
         $this->consigneeAssignedID = $consigneeAssignedID;
         return $this;
@@ -1722,7 +1722,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ConsignorAssignedID
+     * @return \App\UBL\Common\CBC\ConsignorAssignedID
      */
     public function getConsignorAssignedID()
     {
@@ -1742,10 +1742,10 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ConsignorAssignedID $consignorAssignedID
+     * @param \App\UBL\Common\CBC\ConsignorAssignedID $consignorAssignedID
      * @return self
      */
-    public function setConsignorAssignedID(?\UBL\Common\CBC\ConsignorAssignedID $consignorAssignedID = null)
+    public function setConsignorAssignedID(?\App\UBL\Common\CBC\ConsignorAssignedID $consignorAssignedID = null)
     {
         $this->consignorAssignedID = $consignorAssignedID;
         return $this;
@@ -1764,7 +1764,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\FreightForwarderAssignedID
+     * @return \App\UBL\Common\CBC\FreightForwarderAssignedID
      */
     public function getFreightForwarderAssignedID()
     {
@@ -1784,10 +1784,10 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\FreightForwarderAssignedID $freightForwarderAssignedID
+     * @param \App\UBL\Common\CBC\FreightForwarderAssignedID $freightForwarderAssignedID
      * @return self
      */
-    public function setFreightForwarderAssignedID(?\UBL\Common\CBC\FreightForwarderAssignedID $freightForwarderAssignedID = null)
+    public function setFreightForwarderAssignedID(?\App\UBL\Common\CBC\FreightForwarderAssignedID $freightForwarderAssignedID = null)
     {
         $this->freightForwarderAssignedID = $freightForwarderAssignedID;
         return $this;
@@ -1806,7 +1806,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\BrokerAssignedID
+     * @return \App\UBL\Common\CBC\BrokerAssignedID
      */
     public function getBrokerAssignedID()
     {
@@ -1826,10 +1826,10 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\BrokerAssignedID $brokerAssignedID
+     * @param \App\UBL\Common\CBC\BrokerAssignedID $brokerAssignedID
      * @return self
      */
-    public function setBrokerAssignedID(?\UBL\Common\CBC\BrokerAssignedID $brokerAssignedID = null)
+    public function setBrokerAssignedID(?\App\UBL\Common\CBC\BrokerAssignedID $brokerAssignedID = null)
     {
         $this->brokerAssignedID = $brokerAssignedID;
         return $this;
@@ -1848,7 +1848,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ContractedCarrierAssignedID
+     * @return \App\UBL\Common\CBC\ContractedCarrierAssignedID
      */
     public function getContractedCarrierAssignedID()
     {
@@ -1868,10 +1868,10 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ContractedCarrierAssignedID $contractedCarrierAssignedID
+     * @param \App\UBL\Common\CBC\ContractedCarrierAssignedID $contractedCarrierAssignedID
      * @return self
      */
-    public function setContractedCarrierAssignedID(?\UBL\Common\CBC\ContractedCarrierAssignedID $contractedCarrierAssignedID = null)
+    public function setContractedCarrierAssignedID(?\App\UBL\Common\CBC\ContractedCarrierAssignedID $contractedCarrierAssignedID = null)
     {
         $this->contractedCarrierAssignedID = $contractedCarrierAssignedID;
         return $this;
@@ -1890,7 +1890,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\PerformingCarrierAssignedID
+     * @return \App\UBL\Common\CBC\PerformingCarrierAssignedID
      */
     public function getPerformingCarrierAssignedID()
     {
@@ -1910,10 +1910,10 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\PerformingCarrierAssignedID $performingCarrierAssignedID
+     * @param \App\UBL\Common\CBC\PerformingCarrierAssignedID $performingCarrierAssignedID
      * @return self
      */
-    public function setPerformingCarrierAssignedID(?\UBL\Common\CBC\PerformingCarrierAssignedID $performingCarrierAssignedID = null)
+    public function setPerformingCarrierAssignedID(?\App\UBL\Common\CBC\PerformingCarrierAssignedID $performingCarrierAssignedID = null)
     {
         $this->performingCarrierAssignedID = $performingCarrierAssignedID;
         return $this;
@@ -1933,9 +1933,9 @@ class ConsignmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\SummaryDescription $summaryDescription
+     * @param \App\UBL\Common\CBC\SummaryDescription $summaryDescription
      */
-    public function addToSummaryDescription(\UBL\Common\CBC\SummaryDescription $summaryDescription)
+    public function addToSummaryDescription(\App\UBL\Common\CBC\SummaryDescription $summaryDescription)
     {
         $this->summaryDescription[] = $summaryDescription;
         return $this;
@@ -1996,7 +1996,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\SummaryDescription[]
+     * @return \App\UBL\Common\CBC\SummaryDescription[]
      */
     public function getSummaryDescription()
     {
@@ -2016,7 +2016,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\SummaryDescription[] $summaryDescription
+     * @param \App\UBL\Common\CBC\SummaryDescription[] $summaryDescription
      * @return self
      */
     public function setSummaryDescription(?array $summaryDescription = null)
@@ -2038,7 +2038,7 @@ class ConsignmentType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\TotalInvoiceAmount
+     * @return \App\UBL\Common\CBC\TotalInvoiceAmount
      */
     public function getTotalInvoiceAmount()
     {
@@ -2058,10 +2058,10 @@ class ConsignmentType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\TotalInvoiceAmount $totalInvoiceAmount
+     * @param \App\UBL\Common\CBC\TotalInvoiceAmount $totalInvoiceAmount
      * @return self
      */
-    public function setTotalInvoiceAmount(?\UBL\Common\CBC\TotalInvoiceAmount $totalInvoiceAmount = null)
+    public function setTotalInvoiceAmount(?\App\UBL\Common\CBC\TotalInvoiceAmount $totalInvoiceAmount = null)
     {
         $this->totalInvoiceAmount = $totalInvoiceAmount;
         return $this;
@@ -2080,7 +2080,7 @@ class ConsignmentType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\DeclaredCustomsValueAmount
+     * @return \App\UBL\Common\CBC\DeclaredCustomsValueAmount
      */
     public function getDeclaredCustomsValueAmount()
     {
@@ -2100,10 +2100,10 @@ class ConsignmentType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount
+     * @param \App\UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount
      * @return self
      */
-    public function setDeclaredCustomsValueAmount(?\UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount = null)
+    public function setDeclaredCustomsValueAmount(?\App\UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount = null)
     {
         $this->declaredCustomsValueAmount = $declaredCustomsValueAmount;
         return $this;
@@ -2122,9 +2122,9 @@ class ConsignmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\TariffDescription $tariffDescription
+     * @param \App\UBL\Common\CBC\TariffDescription $tariffDescription
      */
-    public function addToTariffDescription(\UBL\Common\CBC\TariffDescription $tariffDescription)
+    public function addToTariffDescription(\App\UBL\Common\CBC\TariffDescription $tariffDescription)
     {
         $this->tariffDescription[] = $tariffDescription;
         return $this;
@@ -2182,7 +2182,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\TariffDescription[]
+     * @return \App\UBL\Common\CBC\TariffDescription[]
      */
     public function getTariffDescription()
     {
@@ -2201,7 +2201,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\TariffDescription[] $tariffDescription
+     * @param \App\UBL\Common\CBC\TariffDescription[] $tariffDescription
      * @return self
      */
     public function setTariffDescription(?array $tariffDescription = null)
@@ -2223,7 +2223,7 @@ class ConsignmentType
      *  Code. Type
      *  Tariff code number (WCO ID 145)
      *
-     * @return \UBL\Common\CBC\TariffCode
+     * @return \App\UBL\Common\CBC\TariffCode
      */
     public function getTariffCode()
     {
@@ -2243,10 +2243,10 @@ class ConsignmentType
      *  Code. Type
      *  Tariff code number (WCO ID 145)
      *
-     * @param \UBL\Common\CBC\TariffCode $tariffCode
+     * @param \App\UBL\Common\CBC\TariffCode $tariffCode
      * @return self
      */
-    public function setTariffCode(?\UBL\Common\CBC\TariffCode $tariffCode = null)
+    public function setTariffCode(?\App\UBL\Common\CBC\TariffCode $tariffCode = null)
     {
         $this->tariffCode = $tariffCode;
         return $this;
@@ -2265,7 +2265,7 @@ class ConsignmentType
      *  Amount. Type
      *  Insurance Cost
      *
-     * @return \UBL\Common\CBC\InsurancePremiumAmount
+     * @return \App\UBL\Common\CBC\InsurancePremiumAmount
      */
     public function getInsurancePremiumAmount()
     {
@@ -2285,10 +2285,10 @@ class ConsignmentType
      *  Amount. Type
      *  Insurance Cost
      *
-     * @param \UBL\Common\CBC\InsurancePremiumAmount $insurancePremiumAmount
+     * @param \App\UBL\Common\CBC\InsurancePremiumAmount $insurancePremiumAmount
      * @return self
      */
-    public function setInsurancePremiumAmount(?\UBL\Common\CBC\InsurancePremiumAmount $insurancePremiumAmount = null)
+    public function setInsurancePremiumAmount(?\App\UBL\Common\CBC\InsurancePremiumAmount $insurancePremiumAmount = null)
     {
         $this->insurancePremiumAmount = $insurancePremiumAmount;
         return $this;
@@ -2309,7 +2309,7 @@ class ConsignmentType
      *  Total gross weight (WCO ID 131)
      *  Total cube of all goods items referred to as one consignment.
      *
-     * @return \UBL\Common\CBC\GrossWeightMeasure
+     * @return \App\UBL\Common\CBC\GrossWeightMeasure
      */
     public function getGrossWeightMeasure()
     {
@@ -2331,10 +2331,10 @@ class ConsignmentType
      *  Total gross weight (WCO ID 131)
      *  Total cube of all goods items referred to as one consignment.
      *
-     * @param \UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
+     * @param \App\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
      * @return self
      */
-    public function setGrossWeightMeasure(?\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure = null)
+    public function setGrossWeightMeasure(?\App\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure = null)
     {
         $this->grossWeightMeasure = $grossWeightMeasure;
         return $this;
@@ -2353,7 +2353,7 @@ class ConsignmentType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\NetWeightMeasure
+     * @return \App\UBL\Common\CBC\NetWeightMeasure
      */
     public function getNetWeightMeasure()
     {
@@ -2373,10 +2373,10 @@ class ConsignmentType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
+     * @param \App\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
      * @return self
      */
-    public function setNetWeightMeasure(?\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure = null)
+    public function setNetWeightMeasure(?\App\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure = null)
     {
         $this->netWeightMeasure = $netWeightMeasure;
         return $this;
@@ -2395,7 +2395,7 @@ class ConsignmentType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\NetNetWeightMeasure
+     * @return \App\UBL\Common\CBC\NetNetWeightMeasure
      */
     public function getNetNetWeightMeasure()
     {
@@ -2415,10 +2415,10 @@ class ConsignmentType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure
+     * @param \App\UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure
      * @return self
      */
-    public function setNetNetWeightMeasure(?\UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure = null)
+    public function setNetNetWeightMeasure(?\App\UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure = null)
     {
         $this->netNetWeightMeasure = $netNetWeightMeasure;
         return $this;
@@ -2438,7 +2438,7 @@ class ConsignmentType
      *  Measure. Type
      *  Chargeable Weight. Basis.Measure
      *
-     * @return \UBL\Common\CBC\ChargeableWeightMeasure
+     * @return \App\UBL\Common\CBC\ChargeableWeightMeasure
      */
     public function getChargeableWeightMeasure()
     {
@@ -2459,10 +2459,10 @@ class ConsignmentType
      *  Measure. Type
      *  Chargeable Weight. Basis.Measure
      *
-     * @param \UBL\Common\CBC\ChargeableWeightMeasure $chargeableWeightMeasure
+     * @param \App\UBL\Common\CBC\ChargeableWeightMeasure $chargeableWeightMeasure
      * @return self
      */
-    public function setChargeableWeightMeasure(?\UBL\Common\CBC\ChargeableWeightMeasure $chargeableWeightMeasure = null)
+    public function setChargeableWeightMeasure(?\App\UBL\Common\CBC\ChargeableWeightMeasure $chargeableWeightMeasure = null)
     {
         $this->chargeableWeightMeasure = $chargeableWeightMeasure;
         return $this;
@@ -2482,7 +2482,7 @@ class ConsignmentType
      *  Measure. Type
      *  Cube
      *
-     * @return \UBL\Common\CBC\GrossVolumeMeasure
+     * @return \App\UBL\Common\CBC\GrossVolumeMeasure
      */
     public function getGrossVolumeMeasure()
     {
@@ -2503,10 +2503,10 @@ class ConsignmentType
      *  Measure. Type
      *  Cube
      *
-     * @param \UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
+     * @param \App\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
      * @return self
      */
-    public function setGrossVolumeMeasure(?\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure = null)
+    public function setGrossVolumeMeasure(?\App\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure = null)
     {
         $this->grossVolumeMeasure = $grossVolumeMeasure;
         return $this;
@@ -2525,7 +2525,7 @@ class ConsignmentType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\NetVolumeMeasure
+     * @return \App\UBL\Common\CBC\NetVolumeMeasure
      */
     public function getNetVolumeMeasure()
     {
@@ -2545,10 +2545,10 @@ class ConsignmentType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
+     * @param \App\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
      * @return self
      */
-    public function setNetVolumeMeasure(?\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure = null)
+    public function setNetVolumeMeasure(?\App\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure = null)
     {
         $this->netVolumeMeasure = $netVolumeMeasure;
         return $this;
@@ -2567,7 +2567,7 @@ class ConsignmentType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\LoadingLengthMeasure
+     * @return \App\UBL\Common\CBC\LoadingLengthMeasure
      */
     public function getLoadingLengthMeasure()
     {
@@ -2587,10 +2587,10 @@ class ConsignmentType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\LoadingLengthMeasure $loadingLengthMeasure
+     * @param \App\UBL\Common\CBC\LoadingLengthMeasure $loadingLengthMeasure
      * @return self
      */
-    public function setLoadingLengthMeasure(?\UBL\Common\CBC\LoadingLengthMeasure $loadingLengthMeasure = null)
+    public function setLoadingLengthMeasure(?\App\UBL\Common\CBC\LoadingLengthMeasure $loadingLengthMeasure = null)
     {
         $this->loadingLengthMeasure = $loadingLengthMeasure;
         return $this;
@@ -2609,9 +2609,9 @@ class ConsignmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Remarks $remarks
+     * @param \App\UBL\Common\CBC\Remarks $remarks
      */
-    public function addToRemarks(\UBL\Common\CBC\Remarks $remarks)
+    public function addToRemarks(\App\UBL\Common\CBC\Remarks $remarks)
     {
         $this->remarks[] = $remarks;
         return $this;
@@ -2669,7 +2669,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Remarks[]
+     * @return \App\UBL\Common\CBC\Remarks[]
      */
     public function getRemarks()
     {
@@ -2688,7 +2688,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Remarks[] $remarks
+     * @param \App\UBL\Common\CBC\Remarks[] $remarks
      * @return self
      */
     public function setRemarks(?array $remarks = null)
@@ -3109,9 +3109,9 @@ class ConsignmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\CarrierServiceInstructions $carrierServiceInstructions
+     * @param \App\UBL\Common\CBC\CarrierServiceInstructions $carrierServiceInstructions
      */
-    public function addToCarrierServiceInstructions(\UBL\Common\CBC\CarrierServiceInstructions $carrierServiceInstructions)
+    public function addToCarrierServiceInstructions(\App\UBL\Common\CBC\CarrierServiceInstructions $carrierServiceInstructions)
     {
         $this->carrierServiceInstructions[] = $carrierServiceInstructions;
         return $this;
@@ -3172,7 +3172,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\CarrierServiceInstructions[]
+     * @return \App\UBL\Common\CBC\CarrierServiceInstructions[]
      */
     public function getCarrierServiceInstructions()
     {
@@ -3192,7 +3192,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\CarrierServiceInstructions[] $carrierServiceInstructions
+     * @param \App\UBL\Common\CBC\CarrierServiceInstructions[] $carrierServiceInstructions
      * @return self
      */
     public function setCarrierServiceInstructions(?array $carrierServiceInstructions = null)
@@ -3215,9 +3215,9 @@ class ConsignmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\CustomsClearanceServiceInstructions $customsClearanceServiceInstructions
+     * @param \App\UBL\Common\CBC\CustomsClearanceServiceInstructions $customsClearanceServiceInstructions
      */
-    public function addToCustomsClearanceServiceInstructions(\UBL\Common\CBC\CustomsClearanceServiceInstructions $customsClearanceServiceInstructions)
+    public function addToCustomsClearanceServiceInstructions(\App\UBL\Common\CBC\CustomsClearanceServiceInstructions $customsClearanceServiceInstructions)
     {
         $this->customsClearanceServiceInstructions[] = $customsClearanceServiceInstructions;
         return $this;
@@ -3278,7 +3278,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\CustomsClearanceServiceInstructions[]
+     * @return \App\UBL\Common\CBC\CustomsClearanceServiceInstructions[]
      */
     public function getCustomsClearanceServiceInstructions()
     {
@@ -3298,7 +3298,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\CustomsClearanceServiceInstructions[] $customsClearanceServiceInstructions
+     * @param \App\UBL\Common\CBC\CustomsClearanceServiceInstructions[] $customsClearanceServiceInstructions
      * @return self
      */
     public function setCustomsClearanceServiceInstructions(?array $customsClearanceServiceInstructions = null)
@@ -3321,9 +3321,9 @@ class ConsignmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ForwarderServiceInstructions $forwarderServiceInstructions
+     * @param \App\UBL\Common\CBC\ForwarderServiceInstructions $forwarderServiceInstructions
      */
-    public function addToForwarderServiceInstructions(\UBL\Common\CBC\ForwarderServiceInstructions $forwarderServiceInstructions)
+    public function addToForwarderServiceInstructions(\App\UBL\Common\CBC\ForwarderServiceInstructions $forwarderServiceInstructions)
     {
         $this->forwarderServiceInstructions[] = $forwarderServiceInstructions;
         return $this;
@@ -3384,7 +3384,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ForwarderServiceInstructions[]
+     * @return \App\UBL\Common\CBC\ForwarderServiceInstructions[]
      */
     public function getForwarderServiceInstructions()
     {
@@ -3404,7 +3404,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ForwarderServiceInstructions[] $forwarderServiceInstructions
+     * @param \App\UBL\Common\CBC\ForwarderServiceInstructions[] $forwarderServiceInstructions
      * @return self
      */
     public function setForwarderServiceInstructions(?array $forwarderServiceInstructions = null)
@@ -3427,9 +3427,9 @@ class ConsignmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\SpecialServiceInstructions $specialServiceInstructions
+     * @param \App\UBL\Common\CBC\SpecialServiceInstructions $specialServiceInstructions
      */
-    public function addToSpecialServiceInstructions(\UBL\Common\CBC\SpecialServiceInstructions $specialServiceInstructions)
+    public function addToSpecialServiceInstructions(\App\UBL\Common\CBC\SpecialServiceInstructions $specialServiceInstructions)
     {
         $this->specialServiceInstructions[] = $specialServiceInstructions;
         return $this;
@@ -3490,7 +3490,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\SpecialServiceInstructions[]
+     * @return \App\UBL\Common\CBC\SpecialServiceInstructions[]
      */
     public function getSpecialServiceInstructions()
     {
@@ -3510,7 +3510,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\SpecialServiceInstructions[] $specialServiceInstructions
+     * @param \App\UBL\Common\CBC\SpecialServiceInstructions[] $specialServiceInstructions
      * @return self
      */
     public function setSpecialServiceInstructions(?array $specialServiceInstructions = null)
@@ -3531,7 +3531,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\SequenceID
+     * @return \App\UBL\Common\CBC\SequenceID
      */
     public function getSequenceID()
     {
@@ -3550,10 +3550,10 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\SequenceID $sequenceID
+     * @param \App\UBL\Common\CBC\SequenceID $sequenceID
      * @return self
      */
-    public function setSequenceID(?\UBL\Common\CBC\SequenceID $sequenceID = null)
+    public function setSequenceID(?\App\UBL\Common\CBC\SequenceID $sequenceID = null)
     {
         $this->sequenceID = $sequenceID;
         return $this;
@@ -3571,7 +3571,7 @@ class ConsignmentType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ShippingPriorityLevelCode
+     * @return \App\UBL\Common\CBC\ShippingPriorityLevelCode
      */
     public function getShippingPriorityLevelCode()
     {
@@ -3590,10 +3590,10 @@ class ConsignmentType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ShippingPriorityLevelCode $shippingPriorityLevelCode
+     * @param \App\UBL\Common\CBC\ShippingPriorityLevelCode $shippingPriorityLevelCode
      * @return self
      */
-    public function setShippingPriorityLevelCode(?\UBL\Common\CBC\ShippingPriorityLevelCode $shippingPriorityLevelCode = null)
+    public function setShippingPriorityLevelCode(?\App\UBL\Common\CBC\ShippingPriorityLevelCode $shippingPriorityLevelCode = null)
     {
         $this->shippingPriorityLevelCode = $shippingPriorityLevelCode;
         return $this;
@@ -3612,7 +3612,7 @@ class ConsignmentType
      *  Code. Type
      *  Special Handling
      *
-     * @return \UBL\Common\CBC\HandlingCode
+     * @return \App\UBL\Common\CBC\HandlingCode
      */
     public function getHandlingCode()
     {
@@ -3632,10 +3632,10 @@ class ConsignmentType
      *  Code. Type
      *  Special Handling
      *
-     * @param \UBL\Common\CBC\HandlingCode $handlingCode
+     * @param \App\UBL\Common\CBC\HandlingCode $handlingCode
      * @return self
      */
-    public function setHandlingCode(?\UBL\Common\CBC\HandlingCode $handlingCode = null)
+    public function setHandlingCode(?\App\UBL\Common\CBC\HandlingCode $handlingCode = null)
     {
         $this->handlingCode = $handlingCode;
         return $this;
@@ -3655,9 +3655,9 @@ class ConsignmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\HandlingInstructions $handlingInstructions
+     * @param \App\UBL\Common\CBC\HandlingInstructions $handlingInstructions
      */
-    public function addToHandlingInstructions(\UBL\Common\CBC\HandlingInstructions $handlingInstructions)
+    public function addToHandlingInstructions(\App\UBL\Common\CBC\HandlingInstructions $handlingInstructions)
     {
         $this->handlingInstructions[] = $handlingInstructions;
         return $this;
@@ -3718,7 +3718,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\HandlingInstructions[]
+     * @return \App\UBL\Common\CBC\HandlingInstructions[]
      */
     public function getHandlingInstructions()
     {
@@ -3738,7 +3738,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\HandlingInstructions[] $handlingInstructions
+     * @param \App\UBL\Common\CBC\HandlingInstructions[] $handlingInstructions
      * @return self
      */
     public function setHandlingInstructions(?array $handlingInstructions = null)
@@ -3760,9 +3760,9 @@ class ConsignmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Information $information
+     * @param \App\UBL\Common\CBC\Information $information
      */
-    public function addToInformation(\UBL\Common\CBC\Information $information)
+    public function addToInformation(\App\UBL\Common\CBC\Information $information)
     {
         $this->information[] = $information;
         return $this;
@@ -3820,7 +3820,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Information[]
+     * @return \App\UBL\Common\CBC\Information[]
      */
     public function getInformation()
     {
@@ -3839,7 +3839,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Information[] $information
+     * @param \App\UBL\Common\CBC\Information[] $information
      * @return self
      */
     public function setInformation(?array $information = null)
@@ -3861,7 +3861,7 @@ class ConsignmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\TotalGoodsItemQuantity
+     * @return \App\UBL\Common\CBC\TotalGoodsItemQuantity
      */
     public function getTotalGoodsItemQuantity()
     {
@@ -3881,10 +3881,10 @@ class ConsignmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity
+     * @param \App\UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity
      * @return self
      */
-    public function setTotalGoodsItemQuantity(?\UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity = null)
+    public function setTotalGoodsItemQuantity(?\App\UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity = null)
     {
         $this->totalGoodsItemQuantity = $totalGoodsItemQuantity;
         return $this;
@@ -3904,7 +3904,7 @@ class ConsignmentType
      *  Quantity. Type
      *  Number of THUs
      *
-     * @return \UBL\Common\CBC\TotalTransportHandlingUnitQuantity
+     * @return \App\UBL\Common\CBC\TotalTransportHandlingUnitQuantity
      */
     public function getTotalTransportHandlingUnitQuantity()
     {
@@ -3925,10 +3925,10 @@ class ConsignmentType
      *  Quantity. Type
      *  Number of THUs
      *
-     * @param \UBL\Common\CBC\TotalTransportHandlingUnitQuantity $totalTransportHandlingUnitQuantity
+     * @param \App\UBL\Common\CBC\TotalTransportHandlingUnitQuantity $totalTransportHandlingUnitQuantity
      * @return self
      */
-    public function setTotalTransportHandlingUnitQuantity(?\UBL\Common\CBC\TotalTransportHandlingUnitQuantity $totalTransportHandlingUnitQuantity = null)
+    public function setTotalTransportHandlingUnitQuantity(?\App\UBL\Common\CBC\TotalTransportHandlingUnitQuantity $totalTransportHandlingUnitQuantity = null)
     {
         $this->totalTransportHandlingUnitQuantity = $totalTransportHandlingUnitQuantity;
         return $this;
@@ -3948,7 +3948,7 @@ class ConsignmentType
      *  Amount. Type
      *  Value Insured
      *
-     * @return \UBL\Common\CBC\InsuranceValueAmount
+     * @return \App\UBL\Common\CBC\InsuranceValueAmount
      */
     public function getInsuranceValueAmount()
     {
@@ -3969,10 +3969,10 @@ class ConsignmentType
      *  Amount. Type
      *  Value Insured
      *
-     * @param \UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount
+     * @param \App\UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount
      * @return self
      */
-    public function setInsuranceValueAmount(?\UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount = null)
+    public function setInsuranceValueAmount(?\App\UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount = null)
     {
         $this->insuranceValueAmount = $insuranceValueAmount;
         return $this;
@@ -3992,7 +3992,7 @@ class ConsignmentType
      *  Amount. Type
      *  Declared value for carriage, Interest in delivery
      *
-     * @return \UBL\Common\CBC\DeclaredForCarriageValueAmount
+     * @return \App\UBL\Common\CBC\DeclaredForCarriageValueAmount
      */
     public function getDeclaredForCarriageValueAmount()
     {
@@ -4013,10 +4013,10 @@ class ConsignmentType
      *  Amount. Type
      *  Declared value for carriage, Interest in delivery
      *
-     * @param \UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount
+     * @param \App\UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount
      * @return self
      */
-    public function setDeclaredForCarriageValueAmount(?\UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount = null)
+    public function setDeclaredForCarriageValueAmount(?\App\UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount = null)
     {
         $this->declaredForCarriageValueAmount = $declaredForCarriageValueAmount;
         return $this;
@@ -4036,7 +4036,7 @@ class ConsignmentType
      *  Amount. Type
      *  Statistical Value
      *
-     * @return \UBL\Common\CBC\DeclaredStatisticsValueAmount
+     * @return \App\UBL\Common\CBC\DeclaredStatisticsValueAmount
      */
     public function getDeclaredStatisticsValueAmount()
     {
@@ -4057,10 +4057,10 @@ class ConsignmentType
      *  Amount. Type
      *  Statistical Value
      *
-     * @param \UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount
+     * @param \App\UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount
      * @return self
      */
-    public function setDeclaredStatisticsValueAmount(?\UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount = null)
+    public function setDeclaredStatisticsValueAmount(?\App\UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount = null)
     {
         $this->declaredStatisticsValueAmount = $declaredStatisticsValueAmount;
         return $this;
@@ -4080,7 +4080,7 @@ class ConsignmentType
      *  Amount. Type
      *  FOB Value
      *
-     * @return \UBL\Common\CBC\FreeOnBoardValueAmount
+     * @return \App\UBL\Common\CBC\FreeOnBoardValueAmount
      */
     public function getFreeOnBoardValueAmount()
     {
@@ -4101,10 +4101,10 @@ class ConsignmentType
      *  Amount. Type
      *  FOB Value
      *
-     * @param \UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount
+     * @param \App\UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount
      * @return self
      */
-    public function setFreeOnBoardValueAmount(?\UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount = null)
+    public function setFreeOnBoardValueAmount(?\App\UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount = null)
     {
         $this->freeOnBoardValueAmount = $freeOnBoardValueAmount;
         return $this;
@@ -4124,9 +4124,9 @@ class ConsignmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\SpecialInstructions $specialInstructions
+     * @param \App\UBL\Common\CBC\SpecialInstructions $specialInstructions
      */
-    public function addToSpecialInstructions(\UBL\Common\CBC\SpecialInstructions $specialInstructions)
+    public function addToSpecialInstructions(\App\UBL\Common\CBC\SpecialInstructions $specialInstructions)
     {
         $this->specialInstructions[] = $specialInstructions;
         return $this;
@@ -4187,7 +4187,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\SpecialInstructions[]
+     * @return \App\UBL\Common\CBC\SpecialInstructions[]
      */
     public function getSpecialInstructions()
     {
@@ -4207,7 +4207,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\SpecialInstructions[] $specialInstructions
+     * @param \App\UBL\Common\CBC\SpecialInstructions[] $specialInstructions
      * @return self
      */
     public function setSpecialInstructions(?array $specialInstructions = null)
@@ -4272,9 +4272,9 @@ class ConsignmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\DeliveryInstructions $deliveryInstructions
+     * @param \App\UBL\Common\CBC\DeliveryInstructions $deliveryInstructions
      */
-    public function addToDeliveryInstructions(\UBL\Common\CBC\DeliveryInstructions $deliveryInstructions)
+    public function addToDeliveryInstructions(\App\UBL\Common\CBC\DeliveryInstructions $deliveryInstructions)
     {
         $this->deliveryInstructions[] = $deliveryInstructions;
         return $this;
@@ -4335,7 +4335,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\DeliveryInstructions[]
+     * @return \App\UBL\Common\CBC\DeliveryInstructions[]
      */
     public function getDeliveryInstructions()
     {
@@ -4355,7 +4355,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\DeliveryInstructions[] $deliveryInstructions
+     * @param \App\UBL\Common\CBC\DeliveryInstructions[] $deliveryInstructions
      * @return self
      */
     public function setDeliveryInstructions(?array $deliveryInstructions = null)
@@ -4377,7 +4377,7 @@ class ConsignmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ConsignmentQuantity
+     * @return \App\UBL\Common\CBC\ConsignmentQuantity
      */
     public function getConsignmentQuantity()
     {
@@ -4397,10 +4397,10 @@ class ConsignmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ConsignmentQuantity $consignmentQuantity
+     * @param \App\UBL\Common\CBC\ConsignmentQuantity $consignmentQuantity
      * @return self
      */
-    public function setConsignmentQuantity(?\UBL\Common\CBC\ConsignmentQuantity $consignmentQuantity = null)
+    public function setConsignmentQuantity(?\App\UBL\Common\CBC\ConsignmentQuantity $consignmentQuantity = null)
     {
         $this->consignmentQuantity = $consignmentQuantity;
         return $this;
@@ -4464,9 +4464,9 @@ class ConsignmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\HaulageInstructions $haulageInstructions
+     * @param \App\UBL\Common\CBC\HaulageInstructions $haulageInstructions
      */
-    public function addToHaulageInstructions(\UBL\Common\CBC\HaulageInstructions $haulageInstructions)
+    public function addToHaulageInstructions(\App\UBL\Common\CBC\HaulageInstructions $haulageInstructions)
     {
         $this->haulageInstructions[] = $haulageInstructions;
         return $this;
@@ -4527,7 +4527,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\HaulageInstructions[]
+     * @return \App\UBL\Common\CBC\HaulageInstructions[]
      */
     public function getHaulageInstructions()
     {
@@ -4547,7 +4547,7 @@ class ConsignmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\HaulageInstructions[] $haulageInstructions
+     * @param \App\UBL\Common\CBC\HaulageInstructions[] $haulageInstructions
      * @return self
      */
     public function setHaulageInstructions(?array $haulageInstructions = null)
@@ -4569,7 +4569,7 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\LoadingSequenceID
+     * @return \App\UBL\Common\CBC\LoadingSequenceID
      */
     public function getLoadingSequenceID()
     {
@@ -4589,10 +4589,10 @@ class ConsignmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\LoadingSequenceID $loadingSequenceID
+     * @param \App\UBL\Common\CBC\LoadingSequenceID $loadingSequenceID
      * @return self
      */
-    public function setLoadingSequenceID(?\UBL\Common\CBC\LoadingSequenceID $loadingSequenceID = null)
+    public function setLoadingSequenceID(?\App\UBL\Common\CBC\LoadingSequenceID $loadingSequenceID = null)
     {
         $this->loadingSequenceID = $loadingSequenceID;
         return $this;
@@ -4610,7 +4610,7 @@ class ConsignmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ChildConsignmentQuantity
+     * @return \App\UBL\Common\CBC\ChildConsignmentQuantity
      */
     public function getChildConsignmentQuantity()
     {
@@ -4629,10 +4629,10 @@ class ConsignmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ChildConsignmentQuantity $childConsignmentQuantity
+     * @param \App\UBL\Common\CBC\ChildConsignmentQuantity $childConsignmentQuantity
      * @return self
      */
-    public function setChildConsignmentQuantity(?\UBL\Common\CBC\ChildConsignmentQuantity $childConsignmentQuantity = null)
+    public function setChildConsignmentQuantity(?\App\UBL\Common\CBC\ChildConsignmentQuantity $childConsignmentQuantity = null)
     {
         $this->childConsignmentQuantity = $childConsignmentQuantity;
         return $this;
@@ -4651,7 +4651,7 @@ class ConsignmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\TotalPackagesQuantity
+     * @return \App\UBL\Common\CBC\TotalPackagesQuantity
      */
     public function getTotalPackagesQuantity()
     {
@@ -4671,10 +4671,10 @@ class ConsignmentType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\TotalPackagesQuantity $totalPackagesQuantity
+     * @param \App\UBL\Common\CBC\TotalPackagesQuantity $totalPackagesQuantity
      * @return self
      */
-    public function setTotalPackagesQuantity(?\UBL\Common\CBC\TotalPackagesQuantity $totalPackagesQuantity = null)
+    public function setTotalPackagesQuantity(?\App\UBL\Common\CBC\TotalPackagesQuantity $totalPackagesQuantity = null)
     {
         $this->totalPackagesQuantity = $totalPackagesQuantity;
         return $this;
@@ -4694,9 +4694,9 @@ class ConsignmentType
      *  Shipment
      *
      * @return self
-     * @param \UBL\Common\CAC\ConsolidatedShipment $consolidatedShipment
+     * @param \App\UBL\Common\CAC\ConsolidatedShipment $consolidatedShipment
      */
-    public function addToConsolidatedShipment(\UBL\Common\CAC\ConsolidatedShipment $consolidatedShipment)
+    public function addToConsolidatedShipment(\App\UBL\Common\CAC\ConsolidatedShipment $consolidatedShipment)
     {
         $this->consolidatedShipment[] = $consolidatedShipment;
         return $this;
@@ -4757,7 +4757,7 @@ class ConsignmentType
      *  Shipment
      *  Shipment
      *
-     * @return \UBL\Common\CAC\ConsolidatedShipment[]
+     * @return \App\UBL\Common\CAC\ConsolidatedShipment[]
      */
     public function getConsolidatedShipment()
     {
@@ -4777,7 +4777,7 @@ class ConsignmentType
      *  Shipment
      *  Shipment
      *
-     * @param \UBL\Common\CAC\ConsolidatedShipment[] $consolidatedShipment
+     * @param \App\UBL\Common\CAC\ConsolidatedShipment[] $consolidatedShipment
      * @return self
      */
     public function setConsolidatedShipment(?array $consolidatedShipment = null)
@@ -4799,9 +4799,9 @@ class ConsignmentType
      *  Customs Declaration
      *
      * @return self
-     * @param \UBL\Common\CAC\CustomsDeclaration $customsDeclaration
+     * @param \App\UBL\Common\CAC\CustomsDeclaration $customsDeclaration
      */
-    public function addToCustomsDeclaration(\UBL\Common\CAC\CustomsDeclaration $customsDeclaration)
+    public function addToCustomsDeclaration(\App\UBL\Common\CAC\CustomsDeclaration $customsDeclaration)
     {
         $this->customsDeclaration[] = $customsDeclaration;
         return $this;
@@ -4859,7 +4859,7 @@ class ConsignmentType
      *  Customs Declaration
      *  Customs Declaration
      *
-     * @return \UBL\Common\CAC\CustomsDeclaration[]
+     * @return \App\UBL\Common\CAC\CustomsDeclaration[]
      */
     public function getCustomsDeclaration()
     {
@@ -4878,7 +4878,7 @@ class ConsignmentType
      *  Customs Declaration
      *  Customs Declaration
      *
-     * @param \UBL\Common\CAC\CustomsDeclaration[] $customsDeclaration
+     * @param \App\UBL\Common\CAC\CustomsDeclaration[] $customsDeclaration
      * @return self
      */
     public function setCustomsDeclaration(?array $customsDeclaration = null)
@@ -4900,7 +4900,7 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\RequestedPickupTransportEvent
+     * @return \App\UBL\Common\CAC\RequestedPickupTransportEvent
      */
     public function getRequestedPickupTransportEvent()
     {
@@ -4920,10 +4920,10 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\RequestedPickupTransportEvent $requestedPickupTransportEvent
+     * @param \App\UBL\Common\CAC\RequestedPickupTransportEvent $requestedPickupTransportEvent
      * @return self
      */
-    public function setRequestedPickupTransportEvent(?\UBL\Common\CAC\RequestedPickupTransportEvent $requestedPickupTransportEvent = null)
+    public function setRequestedPickupTransportEvent(?\App\UBL\Common\CAC\RequestedPickupTransportEvent $requestedPickupTransportEvent = null)
     {
         $this->requestedPickupTransportEvent = $requestedPickupTransportEvent;
         return $this;
@@ -4942,7 +4942,7 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\RequestedDeliveryTransportEvent
+     * @return \App\UBL\Common\CAC\RequestedDeliveryTransportEvent
      */
     public function getRequestedDeliveryTransportEvent()
     {
@@ -4962,10 +4962,10 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\RequestedDeliveryTransportEvent $requestedDeliveryTransportEvent
+     * @param \App\UBL\Common\CAC\RequestedDeliveryTransportEvent $requestedDeliveryTransportEvent
      * @return self
      */
-    public function setRequestedDeliveryTransportEvent(?\UBL\Common\CAC\RequestedDeliveryTransportEvent $requestedDeliveryTransportEvent = null)
+    public function setRequestedDeliveryTransportEvent(?\App\UBL\Common\CAC\RequestedDeliveryTransportEvent $requestedDeliveryTransportEvent = null)
     {
         $this->requestedDeliveryTransportEvent = $requestedDeliveryTransportEvent;
         return $this;
@@ -4984,7 +4984,7 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\PlannedPickupTransportEvent
+     * @return \App\UBL\Common\CAC\PlannedPickupTransportEvent
      */
     public function getPlannedPickupTransportEvent()
     {
@@ -5004,10 +5004,10 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\PlannedPickupTransportEvent $plannedPickupTransportEvent
+     * @param \App\UBL\Common\CAC\PlannedPickupTransportEvent $plannedPickupTransportEvent
      * @return self
      */
-    public function setPlannedPickupTransportEvent(?\UBL\Common\CAC\PlannedPickupTransportEvent $plannedPickupTransportEvent = null)
+    public function setPlannedPickupTransportEvent(?\App\UBL\Common\CAC\PlannedPickupTransportEvent $plannedPickupTransportEvent = null)
     {
         $this->plannedPickupTransportEvent = $plannedPickupTransportEvent;
         return $this;
@@ -5026,7 +5026,7 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\PlannedDeliveryTransportEvent
+     * @return \App\UBL\Common\CAC\PlannedDeliveryTransportEvent
      */
     public function getPlannedDeliveryTransportEvent()
     {
@@ -5046,10 +5046,10 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\PlannedDeliveryTransportEvent $plannedDeliveryTransportEvent
+     * @param \App\UBL\Common\CAC\PlannedDeliveryTransportEvent $plannedDeliveryTransportEvent
      * @return self
      */
-    public function setPlannedDeliveryTransportEvent(?\UBL\Common\CAC\PlannedDeliveryTransportEvent $plannedDeliveryTransportEvent = null)
+    public function setPlannedDeliveryTransportEvent(?\App\UBL\Common\CAC\PlannedDeliveryTransportEvent $plannedDeliveryTransportEvent = null)
     {
         $this->plannedDeliveryTransportEvent = $plannedDeliveryTransportEvent;
         return $this;
@@ -5068,9 +5068,9 @@ class ConsignmentType
      *  Status
      *
      * @return self
-     * @param \UBL\Common\CAC\Status $status
+     * @param \App\UBL\Common\CAC\Status $status
      */
-    public function addToStatus(\UBL\Common\CAC\Status $status)
+    public function addToStatus(\App\UBL\Common\CAC\Status $status)
     {
         $this->status[] = $status;
         return $this;
@@ -5128,7 +5128,7 @@ class ConsignmentType
      *  Status
      *  Status
      *
-     * @return \UBL\Common\CAC\Status[]
+     * @return \App\UBL\Common\CAC\Status[]
      */
     public function getStatus()
     {
@@ -5147,7 +5147,7 @@ class ConsignmentType
      *  Status
      *  Status
      *
-     * @param \UBL\Common\CAC\Status[] $status
+     * @param \App\UBL\Common\CAC\Status[] $status
      * @return self
      */
     public function setStatus(?array $status = null)
@@ -5170,9 +5170,9 @@ class ConsignmentType
      *  Consignment
      *
      * @return self
-     * @param \UBL\Common\CAC\ChildConsignment $childConsignment
+     * @param \App\UBL\Common\CAC\ChildConsignment $childConsignment
      */
-    public function addToChildConsignment(\UBL\Common\CAC\ChildConsignment $childConsignment)
+    public function addToChildConsignment(\App\UBL\Common\CAC\ChildConsignment $childConsignment)
     {
         $this->childConsignment[] = $childConsignment;
         return $this;
@@ -5233,7 +5233,7 @@ class ConsignmentType
      *  Consignment
      *  Consignment
      *
-     * @return \UBL\Common\CAC\ChildConsignment[]
+     * @return \App\UBL\Common\CAC\ChildConsignment[]
      */
     public function getChildConsignment()
     {
@@ -5253,7 +5253,7 @@ class ConsignmentType
      *  Consignment
      *  Consignment
      *
-     * @param \UBL\Common\CAC\ChildConsignment[] $childConsignment
+     * @param \App\UBL\Common\CAC\ChildConsignment[] $childConsignment
      * @return self
      */
     public function setChildConsignment(?array $childConsignment = null)
@@ -5276,7 +5276,7 @@ class ConsignmentType
      *  Party
      *  Consignee (WCO ID 51 and 52)
      *
-     * @return \UBL\Common\CAC\ConsigneeParty
+     * @return \App\UBL\Common\CAC\ConsigneeParty
      */
     public function getConsigneeParty()
     {
@@ -5297,10 +5297,10 @@ class ConsignmentType
      *  Party
      *  Consignee (WCO ID 51 and 52)
      *
-     * @param \UBL\Common\CAC\ConsigneeParty $consigneeParty
+     * @param \App\UBL\Common\CAC\ConsigneeParty $consigneeParty
      * @return self
      */
-    public function setConsigneeParty(?\UBL\Common\CAC\ConsigneeParty $consigneeParty = null)
+    public function setConsigneeParty(?\App\UBL\Common\CAC\ConsigneeParty $consigneeParty = null)
     {
         $this->consigneeParty = $consigneeParty;
         return $this;
@@ -5320,7 +5320,7 @@ class ConsignmentType
      *  Party
      *  Exporter (WCO ID 41 and 42)
      *
-     * @return \UBL\Common\CAC\ExporterParty
+     * @return \App\UBL\Common\CAC\ExporterParty
      */
     public function getExporterParty()
     {
@@ -5341,10 +5341,10 @@ class ConsignmentType
      *  Party
      *  Exporter (WCO ID 41 and 42)
      *
-     * @param \UBL\Common\CAC\ExporterParty $exporterParty
+     * @param \App\UBL\Common\CAC\ExporterParty $exporterParty
      * @return self
      */
-    public function setExporterParty(?\UBL\Common\CAC\ExporterParty $exporterParty = null)
+    public function setExporterParty(?\App\UBL\Common\CAC\ExporterParty $exporterParty = null)
     {
         $this->exporterParty = $exporterParty;
         return $this;
@@ -5364,7 +5364,7 @@ class ConsignmentType
      *  Party
      *  Consignor (WCO ID 71 and 72)
      *
-     * @return \UBL\Common\CAC\ConsignorParty
+     * @return \App\UBL\Common\CAC\ConsignorParty
      */
     public function getConsignorParty()
     {
@@ -5385,10 +5385,10 @@ class ConsignmentType
      *  Party
      *  Consignor (WCO ID 71 and 72)
      *
-     * @param \UBL\Common\CAC\ConsignorParty $consignorParty
+     * @param \App\UBL\Common\CAC\ConsignorParty $consignorParty
      * @return self
      */
-    public function setConsignorParty(?\UBL\Common\CAC\ConsignorParty $consignorParty = null)
+    public function setConsignorParty(?\App\UBL\Common\CAC\ConsignorParty $consignorParty = null)
     {
         $this->consignorParty = $consignorParty;
         return $this;
@@ -5408,7 +5408,7 @@ class ConsignmentType
      *  Party
      *  Importer (WCO ID 39 and 40)
      *
-     * @return \UBL\Common\CAC\ImporterParty
+     * @return \App\UBL\Common\CAC\ImporterParty
      */
     public function getImporterParty()
     {
@@ -5429,10 +5429,10 @@ class ConsignmentType
      *  Party
      *  Importer (WCO ID 39 and 40)
      *
-     * @param \UBL\Common\CAC\ImporterParty $importerParty
+     * @param \App\UBL\Common\CAC\ImporterParty $importerParty
      * @return self
      */
-    public function setImporterParty(?\UBL\Common\CAC\ImporterParty $importerParty = null)
+    public function setImporterParty(?\App\UBL\Common\CAC\ImporterParty $importerParty = null)
     {
         $this->importerParty = $importerParty;
         return $this;
@@ -5452,7 +5452,7 @@ class ConsignmentType
      *  Party
      *  Transport Company, Shipping Line, NVOCC, Airline, Haulier, Courier, Carrier (WCO ID 49 and 50)
      *
-     * @return \UBL\Common\CAC\CarrierParty
+     * @return \App\UBL\Common\CAC\CarrierParty
      */
     public function getCarrierParty()
     {
@@ -5473,10 +5473,10 @@ class ConsignmentType
      *  Party
      *  Transport Company, Shipping Line, NVOCC, Airline, Haulier, Courier, Carrier (WCO ID 49 and 50)
      *
-     * @param \UBL\Common\CAC\CarrierParty $carrierParty
+     * @param \App\UBL\Common\CAC\CarrierParty $carrierParty
      * @return self
      */
-    public function setCarrierParty(?\UBL\Common\CAC\CarrierParty $carrierParty = null)
+    public function setCarrierParty(?\App\UBL\Common\CAC\CarrierParty $carrierParty = null)
     {
         $this->carrierParty = $carrierParty;
         return $this;
@@ -5496,7 +5496,7 @@ class ConsignmentType
      *  Party
      *  Consolidator (WCO ID 192 AND 193)
      *
-     * @return \UBL\Common\CAC\FreightForwarderParty
+     * @return \App\UBL\Common\CAC\FreightForwarderParty
      */
     public function getFreightForwarderParty()
     {
@@ -5517,10 +5517,10 @@ class ConsignmentType
      *  Party
      *  Consolidator (WCO ID 192 AND 193)
      *
-     * @param \UBL\Common\CAC\FreightForwarderParty $freightForwarderParty
+     * @param \App\UBL\Common\CAC\FreightForwarderParty $freightForwarderParty
      * @return self
      */
-    public function setFreightForwarderParty(?\UBL\Common\CAC\FreightForwarderParty $freightForwarderParty = null)
+    public function setFreightForwarderParty(?\App\UBL\Common\CAC\FreightForwarderParty $freightForwarderParty = null)
     {
         $this->freightForwarderParty = $freightForwarderParty;
         return $this;
@@ -5540,7 +5540,7 @@ class ConsignmentType
      *  Party
      *  WCO ID 57 and 58
      *
-     * @return \UBL\Common\CAC\NotifyParty
+     * @return \App\UBL\Common\CAC\NotifyParty
      */
     public function getNotifyParty()
     {
@@ -5561,10 +5561,10 @@ class ConsignmentType
      *  Party
      *  WCO ID 57 and 58
      *
-     * @param \UBL\Common\CAC\NotifyParty $notifyParty
+     * @param \App\UBL\Common\CAC\NotifyParty $notifyParty
      * @return self
      */
-    public function setNotifyParty(?\UBL\Common\CAC\NotifyParty $notifyParty = null)
+    public function setNotifyParty(?\App\UBL\Common\CAC\NotifyParty $notifyParty = null)
     {
         $this->notifyParty = $notifyParty;
         return $this;
@@ -5583,7 +5583,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\OriginalDespatchParty
+     * @return \App\UBL\Common\CAC\OriginalDespatchParty
      */
     public function getOriginalDespatchParty()
     {
@@ -5603,10 +5603,10 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\OriginalDespatchParty $originalDespatchParty
+     * @param \App\UBL\Common\CAC\OriginalDespatchParty $originalDespatchParty
      * @return self
      */
-    public function setOriginalDespatchParty(?\UBL\Common\CAC\OriginalDespatchParty $originalDespatchParty = null)
+    public function setOriginalDespatchParty(?\App\UBL\Common\CAC\OriginalDespatchParty $originalDespatchParty = null)
     {
         $this->originalDespatchParty = $originalDespatchParty;
         return $this;
@@ -5625,7 +5625,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\FinalDeliveryParty
+     * @return \App\UBL\Common\CAC\FinalDeliveryParty
      */
     public function getFinalDeliveryParty()
     {
@@ -5645,10 +5645,10 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\FinalDeliveryParty $finalDeliveryParty
+     * @param \App\UBL\Common\CAC\FinalDeliveryParty $finalDeliveryParty
      * @return self
      */
-    public function setFinalDeliveryParty(?\UBL\Common\CAC\FinalDeliveryParty $finalDeliveryParty = null)
+    public function setFinalDeliveryParty(?\App\UBL\Common\CAC\FinalDeliveryParty $finalDeliveryParty = null)
     {
         $this->finalDeliveryParty = $finalDeliveryParty;
         return $this;
@@ -5667,7 +5667,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\PerformingCarrierParty
+     * @return \App\UBL\Common\CAC\PerformingCarrierParty
      */
     public function getPerformingCarrierParty()
     {
@@ -5687,10 +5687,10 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\PerformingCarrierParty $performingCarrierParty
+     * @param \App\UBL\Common\CAC\PerformingCarrierParty $performingCarrierParty
      * @return self
      */
-    public function setPerformingCarrierParty(?\UBL\Common\CAC\PerformingCarrierParty $performingCarrierParty = null)
+    public function setPerformingCarrierParty(?\App\UBL\Common\CAC\PerformingCarrierParty $performingCarrierParty = null)
     {
         $this->performingCarrierParty = $performingCarrierParty;
         return $this;
@@ -5709,7 +5709,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\SubstituteCarrierParty
+     * @return \App\UBL\Common\CAC\SubstituteCarrierParty
      */
     public function getSubstituteCarrierParty()
     {
@@ -5729,10 +5729,10 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\SubstituteCarrierParty $substituteCarrierParty
+     * @param \App\UBL\Common\CAC\SubstituteCarrierParty $substituteCarrierParty
      * @return self
      */
-    public function setSubstituteCarrierParty(?\UBL\Common\CAC\SubstituteCarrierParty $substituteCarrierParty = null)
+    public function setSubstituteCarrierParty(?\App\UBL\Common\CAC\SubstituteCarrierParty $substituteCarrierParty = null)
     {
         $this->substituteCarrierParty = $substituteCarrierParty;
         return $this;
@@ -5751,7 +5751,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\LogisticsOperatorParty
+     * @return \App\UBL\Common\CAC\LogisticsOperatorParty
      */
     public function getLogisticsOperatorParty()
     {
@@ -5771,10 +5771,10 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\LogisticsOperatorParty $logisticsOperatorParty
+     * @param \App\UBL\Common\CAC\LogisticsOperatorParty $logisticsOperatorParty
      * @return self
      */
-    public function setLogisticsOperatorParty(?\UBL\Common\CAC\LogisticsOperatorParty $logisticsOperatorParty = null)
+    public function setLogisticsOperatorParty(?\App\UBL\Common\CAC\LogisticsOperatorParty $logisticsOperatorParty = null)
     {
         $this->logisticsOperatorParty = $logisticsOperatorParty;
         return $this;
@@ -5793,7 +5793,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\TransportAdvisorParty
+     * @return \App\UBL\Common\CAC\TransportAdvisorParty
      */
     public function getTransportAdvisorParty()
     {
@@ -5813,10 +5813,10 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\TransportAdvisorParty $transportAdvisorParty
+     * @param \App\UBL\Common\CAC\TransportAdvisorParty $transportAdvisorParty
      * @return self
      */
-    public function setTransportAdvisorParty(?\UBL\Common\CAC\TransportAdvisorParty $transportAdvisorParty = null)
+    public function setTransportAdvisorParty(?\App\UBL\Common\CAC\TransportAdvisorParty $transportAdvisorParty = null)
     {
         $this->transportAdvisorParty = $transportAdvisorParty;
         return $this;
@@ -5835,7 +5835,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\HazardousItemNotificationParty
+     * @return \App\UBL\Common\CAC\HazardousItemNotificationParty
      */
     public function getHazardousItemNotificationParty()
     {
@@ -5855,10 +5855,10 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\HazardousItemNotificationParty $hazardousItemNotificationParty
+     * @param \App\UBL\Common\CAC\HazardousItemNotificationParty $hazardousItemNotificationParty
      * @return self
      */
-    public function setHazardousItemNotificationParty(?\UBL\Common\CAC\HazardousItemNotificationParty $hazardousItemNotificationParty = null)
+    public function setHazardousItemNotificationParty(?\App\UBL\Common\CAC\HazardousItemNotificationParty $hazardousItemNotificationParty = null)
     {
         $this->hazardousItemNotificationParty = $hazardousItemNotificationParty;
         return $this;
@@ -5877,7 +5877,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\InsuranceParty
+     * @return \App\UBL\Common\CAC\InsuranceParty
      */
     public function getInsuranceParty()
     {
@@ -5897,10 +5897,10 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\InsuranceParty $insuranceParty
+     * @param \App\UBL\Common\CAC\InsuranceParty $insuranceParty
      * @return self
      */
-    public function setInsuranceParty(?\UBL\Common\CAC\InsuranceParty $insuranceParty = null)
+    public function setInsuranceParty(?\App\UBL\Common\CAC\InsuranceParty $insuranceParty = null)
     {
         $this->insuranceParty = $insuranceParty;
         return $this;
@@ -5919,7 +5919,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\MortgageHolderParty
+     * @return \App\UBL\Common\CAC\MortgageHolderParty
      */
     public function getMortgageHolderParty()
     {
@@ -5939,10 +5939,10 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\MortgageHolderParty $mortgageHolderParty
+     * @param \App\UBL\Common\CAC\MortgageHolderParty $mortgageHolderParty
      * @return self
      */
-    public function setMortgageHolderParty(?\UBL\Common\CAC\MortgageHolderParty $mortgageHolderParty = null)
+    public function setMortgageHolderParty(?\App\UBL\Common\CAC\MortgageHolderParty $mortgageHolderParty = null)
     {
         $this->mortgageHolderParty = $mortgageHolderParty;
         return $this;
@@ -5961,7 +5961,7 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\BillOfLadingHolderParty
+     * @return \App\UBL\Common\CAC\BillOfLadingHolderParty
      */
     public function getBillOfLadingHolderParty()
     {
@@ -5981,10 +5981,10 @@ class ConsignmentType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\BillOfLadingHolderParty $billOfLadingHolderParty
+     * @param \App\UBL\Common\CAC\BillOfLadingHolderParty $billOfLadingHolderParty
      * @return self
      */
-    public function setBillOfLadingHolderParty(?\UBL\Common\CAC\BillOfLadingHolderParty $billOfLadingHolderParty = null)
+    public function setBillOfLadingHolderParty(?\App\UBL\Common\CAC\BillOfLadingHolderParty $billOfLadingHolderParty = null)
     {
         $this->billOfLadingHolderParty = $billOfLadingHolderParty;
         return $this;
@@ -6004,7 +6004,7 @@ class ConsignmentType
      *  Country
      *  Country of origin (WCO ID 062)
      *
-     * @return \UBL\Common\CAC\OriginalDepartureCountry
+     * @return \App\UBL\Common\CAC\OriginalDepartureCountry
      */
     public function getOriginalDepartureCountry()
     {
@@ -6025,10 +6025,10 @@ class ConsignmentType
      *  Country
      *  Country of origin (WCO ID 062)
      *
-     * @param \UBL\Common\CAC\OriginalDepartureCountry $originalDepartureCountry
+     * @param \App\UBL\Common\CAC\OriginalDepartureCountry $originalDepartureCountry
      * @return self
      */
-    public function setOriginalDepartureCountry(?\UBL\Common\CAC\OriginalDepartureCountry $originalDepartureCountry = null)
+    public function setOriginalDepartureCountry(?\App\UBL\Common\CAC\OriginalDepartureCountry $originalDepartureCountry = null)
     {
         $this->originalDepartureCountry = $originalDepartureCountry;
         return $this;
@@ -6048,7 +6048,7 @@ class ConsignmentType
      *  Country
      *  Ultimate Destination Country, Country of Final Arrival, Country of Destination
      *
-     * @return \UBL\Common\CAC\FinalDestinationCountry
+     * @return \App\UBL\Common\CAC\FinalDestinationCountry
      */
     public function getFinalDestinationCountry()
     {
@@ -6069,10 +6069,10 @@ class ConsignmentType
      *  Country
      *  Ultimate Destination Country, Country of Final Arrival, Country of Destination
      *
-     * @param \UBL\Common\CAC\FinalDestinationCountry $finalDestinationCountry
+     * @param \App\UBL\Common\CAC\FinalDestinationCountry $finalDestinationCountry
      * @return self
      */
-    public function setFinalDestinationCountry(?\UBL\Common\CAC\FinalDestinationCountry $finalDestinationCountry = null)
+    public function setFinalDestinationCountry(?\App\UBL\Common\CAC\FinalDestinationCountry $finalDestinationCountry = null)
     {
         $this->finalDestinationCountry = $finalDestinationCountry;
         return $this;
@@ -6093,9 +6093,9 @@ class ConsignmentType
      *  Country(ies) of routing (WCO ID 064)
      *
      * @return self
-     * @param \UBL\Common\CAC\TransitCountry $transitCountry
+     * @param \App\UBL\Common\CAC\TransitCountry $transitCountry
      */
-    public function addToTransitCountry(\UBL\Common\CAC\TransitCountry $transitCountry)
+    public function addToTransitCountry(\App\UBL\Common\CAC\TransitCountry $transitCountry)
     {
         $this->transitCountry[] = $transitCountry;
         return $this;
@@ -6159,7 +6159,7 @@ class ConsignmentType
      *  Country
      *  Country(ies) of routing (WCO ID 064)
      *
-     * @return \UBL\Common\CAC\TransitCountry[]
+     * @return \App\UBL\Common\CAC\TransitCountry[]
      */
     public function getTransitCountry()
     {
@@ -6180,7 +6180,7 @@ class ConsignmentType
      *  Country
      *  Country(ies) of routing (WCO ID 064)
      *
-     * @param \UBL\Common\CAC\TransitCountry[] $transitCountry
+     * @param \App\UBL\Common\CAC\TransitCountry[] $transitCountry
      * @return self
      */
     public function setTransitCountry(?array $transitCountry = null)
@@ -6202,7 +6202,7 @@ class ConsignmentType
      *  Contract
      *  Contract
      *
-     * @return \UBL\Common\CAC\TransportContract
+     * @return \App\UBL\Common\CAC\TransportContract
      */
     public function getTransportContract()
     {
@@ -6222,10 +6222,10 @@ class ConsignmentType
      *  Contract
      *  Contract
      *
-     * @param \UBL\Common\CAC\TransportContract $transportContract
+     * @param \App\UBL\Common\CAC\TransportContract $transportContract
      * @return self
      */
-    public function setTransportContract(?\UBL\Common\CAC\TransportContract $transportContract = null)
+    public function setTransportContract(?\App\UBL\Common\CAC\TransportContract $transportContract = null)
     {
         $this->transportContract = $transportContract;
         return $this;
@@ -6244,9 +6244,9 @@ class ConsignmentType
      *  Transport Event
      *
      * @return self
-     * @param \UBL\Common\CAC\TransportEvent $transportEvent
+     * @param \App\UBL\Common\CAC\TransportEvent $transportEvent
      */
-    public function addToTransportEvent(\UBL\Common\CAC\TransportEvent $transportEvent)
+    public function addToTransportEvent(\App\UBL\Common\CAC\TransportEvent $transportEvent)
     {
         $this->transportEvent[] = $transportEvent;
         return $this;
@@ -6304,7 +6304,7 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\TransportEvent[]
+     * @return \App\UBL\Common\CAC\TransportEvent[]
      */
     public function getTransportEvent()
     {
@@ -6323,7 +6323,7 @@ class ConsignmentType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\TransportEvent[] $transportEvent
+     * @param \App\UBL\Common\CAC\TransportEvent[] $transportEvent
      * @return self
      */
     public function setTransportEvent(?array $transportEvent = null)
@@ -6346,7 +6346,7 @@ class ConsignmentType
      *  Transportation Service
      *  Door-to-door , Pier-to-door
      *
-     * @return \UBL\Common\CAC\OriginalDespatchTransportationService
+     * @return \App\UBL\Common\CAC\OriginalDespatchTransportationService
      */
     public function getOriginalDespatchTransportationService()
     {
@@ -6367,10 +6367,10 @@ class ConsignmentType
      *  Transportation Service
      *  Door-to-door , Pier-to-door
      *
-     * @param \UBL\Common\CAC\OriginalDespatchTransportationService $originalDespatchTransportationService
+     * @param \App\UBL\Common\CAC\OriginalDespatchTransportationService $originalDespatchTransportationService
      * @return self
      */
-    public function setOriginalDespatchTransportationService(?\UBL\Common\CAC\OriginalDespatchTransportationService $originalDespatchTransportationService = null)
+    public function setOriginalDespatchTransportationService(?\App\UBL\Common\CAC\OriginalDespatchTransportationService $originalDespatchTransportationService = null)
     {
         $this->originalDespatchTransportationService = $originalDespatchTransportationService;
         return $this;
@@ -6390,7 +6390,7 @@ class ConsignmentType
      *  Transportation Service
      *  Door-to-door , Pier-to-door
      *
-     * @return \UBL\Common\CAC\FinalDeliveryTransportationService
+     * @return \App\UBL\Common\CAC\FinalDeliveryTransportationService
      */
     public function getFinalDeliveryTransportationService()
     {
@@ -6411,10 +6411,10 @@ class ConsignmentType
      *  Transportation Service
      *  Door-to-door , Pier-to-door
      *
-     * @param \UBL\Common\CAC\FinalDeliveryTransportationService $finalDeliveryTransportationService
+     * @param \App\UBL\Common\CAC\FinalDeliveryTransportationService $finalDeliveryTransportationService
      * @return self
      */
-    public function setFinalDeliveryTransportationService(?\UBL\Common\CAC\FinalDeliveryTransportationService $finalDeliveryTransportationService = null)
+    public function setFinalDeliveryTransportationService(?\App\UBL\Common\CAC\FinalDeliveryTransportationService $finalDeliveryTransportationService = null)
     {
         $this->finalDeliveryTransportationService = $finalDeliveryTransportationService;
         return $this;
@@ -6433,7 +6433,7 @@ class ConsignmentType
      *  Delivery Terms
      *  Trade Terms, INCOTERMS
      *
-     * @return \UBL\Common\CAC\DeliveryTerms
+     * @return \App\UBL\Common\CAC\DeliveryTerms
      */
     public function getDeliveryTerms()
     {
@@ -6453,10 +6453,10 @@ class ConsignmentType
      *  Delivery Terms
      *  Trade Terms, INCOTERMS
      *
-     * @param \UBL\Common\CAC\DeliveryTerms $deliveryTerms
+     * @param \App\UBL\Common\CAC\DeliveryTerms $deliveryTerms
      * @return self
      */
-    public function setDeliveryTerms(?\UBL\Common\CAC\DeliveryTerms $deliveryTerms = null)
+    public function setDeliveryTerms(?\App\UBL\Common\CAC\DeliveryTerms $deliveryTerms = null)
     {
         $this->deliveryTerms = $deliveryTerms;
         return $this;
@@ -6474,7 +6474,7 @@ class ConsignmentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @return \UBL\Common\CAC\PaymentTerms
+     * @return \App\UBL\Common\CAC\PaymentTerms
      */
     public function getPaymentTerms()
     {
@@ -6493,10 +6493,10 @@ class ConsignmentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @param \UBL\Common\CAC\PaymentTerms $paymentTerms
+     * @param \App\UBL\Common\CAC\PaymentTerms $paymentTerms
      * @return self
      */
-    public function setPaymentTerms(?\UBL\Common\CAC\PaymentTerms $paymentTerms = null)
+    public function setPaymentTerms(?\App\UBL\Common\CAC\PaymentTerms $paymentTerms = null)
     {
         $this->paymentTerms = $paymentTerms;
         return $this;
@@ -6515,7 +6515,7 @@ class ConsignmentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @return \UBL\Common\CAC\CollectPaymentTerms
+     * @return \App\UBL\Common\CAC\CollectPaymentTerms
      */
     public function getCollectPaymentTerms()
     {
@@ -6535,10 +6535,10 @@ class ConsignmentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @param \UBL\Common\CAC\CollectPaymentTerms $collectPaymentTerms
+     * @param \App\UBL\Common\CAC\CollectPaymentTerms $collectPaymentTerms
      * @return self
      */
-    public function setCollectPaymentTerms(?\UBL\Common\CAC\CollectPaymentTerms $collectPaymentTerms = null)
+    public function setCollectPaymentTerms(?\App\UBL\Common\CAC\CollectPaymentTerms $collectPaymentTerms = null)
     {
         $this->collectPaymentTerms = $collectPaymentTerms;
         return $this;
@@ -6557,7 +6557,7 @@ class ConsignmentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @return \UBL\Common\CAC\DisbursementPaymentTerms
+     * @return \App\UBL\Common\CAC\DisbursementPaymentTerms
      */
     public function getDisbursementPaymentTerms()
     {
@@ -6577,10 +6577,10 @@ class ConsignmentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @param \UBL\Common\CAC\DisbursementPaymentTerms $disbursementPaymentTerms
+     * @param \App\UBL\Common\CAC\DisbursementPaymentTerms $disbursementPaymentTerms
      * @return self
      */
-    public function setDisbursementPaymentTerms(?\UBL\Common\CAC\DisbursementPaymentTerms $disbursementPaymentTerms = null)
+    public function setDisbursementPaymentTerms(?\App\UBL\Common\CAC\DisbursementPaymentTerms $disbursementPaymentTerms = null)
     {
         $this->disbursementPaymentTerms = $disbursementPaymentTerms;
         return $this;
@@ -6599,7 +6599,7 @@ class ConsignmentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @return \UBL\Common\CAC\PrepaidPaymentTerms
+     * @return \App\UBL\Common\CAC\PrepaidPaymentTerms
      */
     public function getPrepaidPaymentTerms()
     {
@@ -6619,10 +6619,10 @@ class ConsignmentType
      *  Payment Terms
      *  Payment Terms
      *
-     * @param \UBL\Common\CAC\PrepaidPaymentTerms $prepaidPaymentTerms
+     * @param \App\UBL\Common\CAC\PrepaidPaymentTerms $prepaidPaymentTerms
      * @return self
      */
-    public function setPrepaidPaymentTerms(?\UBL\Common\CAC\PrepaidPaymentTerms $prepaidPaymentTerms = null)
+    public function setPrepaidPaymentTerms(?\App\UBL\Common\CAC\PrepaidPaymentTerms $prepaidPaymentTerms = null)
     {
         $this->prepaidPaymentTerms = $prepaidPaymentTerms;
         return $this;
@@ -6643,9 +6643,9 @@ class ConsignmentType
      *  Freight Costs
      *
      * @return self
-     * @param \UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge
+     * @param \App\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge
      */
-    public function addToFreightAllowanceCharge(\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge)
+    public function addToFreightAllowanceCharge(\App\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge)
     {
         $this->freightAllowanceCharge[] = $freightAllowanceCharge;
         return $this;
@@ -6709,7 +6709,7 @@ class ConsignmentType
      *  Allowance Charge
      *  Freight Costs
      *
-     * @return \UBL\Common\CAC\FreightAllowanceCharge[]
+     * @return \App\UBL\Common\CAC\FreightAllowanceCharge[]
      */
     public function getFreightAllowanceCharge()
     {
@@ -6730,7 +6730,7 @@ class ConsignmentType
      *  Allowance Charge
      *  Freight Costs
      *
-     * @param \UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
+     * @param \App\UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
      * @return self
      */
     public function setFreightAllowanceCharge(?array $freightAllowanceCharge = null)
@@ -6753,9 +6753,9 @@ class ConsignmentType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\ExtraAllowanceCharge $extraAllowanceCharge
+     * @param \App\UBL\Common\CAC\ExtraAllowanceCharge $extraAllowanceCharge
      */
-    public function addToExtraAllowanceCharge(\UBL\Common\CAC\ExtraAllowanceCharge $extraAllowanceCharge)
+    public function addToExtraAllowanceCharge(\App\UBL\Common\CAC\ExtraAllowanceCharge $extraAllowanceCharge)
     {
         $this->extraAllowanceCharge[] = $extraAllowanceCharge;
         return $this;
@@ -6816,7 +6816,7 @@ class ConsignmentType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\ExtraAllowanceCharge[]
+     * @return \App\UBL\Common\CAC\ExtraAllowanceCharge[]
      */
     public function getExtraAllowanceCharge()
     {
@@ -6836,7 +6836,7 @@ class ConsignmentType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\ExtraAllowanceCharge[] $extraAllowanceCharge
+     * @param \App\UBL\Common\CAC\ExtraAllowanceCharge[] $extraAllowanceCharge
      * @return self
      */
     public function setExtraAllowanceCharge(?array $extraAllowanceCharge = null)
@@ -6859,9 +6859,9 @@ class ConsignmentType
      *  Shipment Stage
      *
      * @return self
-     * @param \UBL\Common\CAC\MainCarriageShipmentStage $mainCarriageShipmentStage
+     * @param \App\UBL\Common\CAC\MainCarriageShipmentStage $mainCarriageShipmentStage
      */
-    public function addToMainCarriageShipmentStage(\UBL\Common\CAC\MainCarriageShipmentStage $mainCarriageShipmentStage)
+    public function addToMainCarriageShipmentStage(\App\UBL\Common\CAC\MainCarriageShipmentStage $mainCarriageShipmentStage)
     {
         $this->mainCarriageShipmentStage[] = $mainCarriageShipmentStage;
         return $this;
@@ -6922,7 +6922,7 @@ class ConsignmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @return \UBL\Common\CAC\MainCarriageShipmentStage[]
+     * @return \App\UBL\Common\CAC\MainCarriageShipmentStage[]
      */
     public function getMainCarriageShipmentStage()
     {
@@ -6942,7 +6942,7 @@ class ConsignmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @param \UBL\Common\CAC\MainCarriageShipmentStage[] $mainCarriageShipmentStage
+     * @param \App\UBL\Common\CAC\MainCarriageShipmentStage[] $mainCarriageShipmentStage
      * @return self
      */
     public function setMainCarriageShipmentStage(?array $mainCarriageShipmentStage = null)
@@ -6965,9 +6965,9 @@ class ConsignmentType
      *  Shipment Stage
      *
      * @return self
-     * @param \UBL\Common\CAC\PreCarriageShipmentStage $preCarriageShipmentStage
+     * @param \App\UBL\Common\CAC\PreCarriageShipmentStage $preCarriageShipmentStage
      */
-    public function addToPreCarriageShipmentStage(\UBL\Common\CAC\PreCarriageShipmentStage $preCarriageShipmentStage)
+    public function addToPreCarriageShipmentStage(\App\UBL\Common\CAC\PreCarriageShipmentStage $preCarriageShipmentStage)
     {
         $this->preCarriageShipmentStage[] = $preCarriageShipmentStage;
         return $this;
@@ -7028,7 +7028,7 @@ class ConsignmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @return \UBL\Common\CAC\PreCarriageShipmentStage[]
+     * @return \App\UBL\Common\CAC\PreCarriageShipmentStage[]
      */
     public function getPreCarriageShipmentStage()
     {
@@ -7048,7 +7048,7 @@ class ConsignmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @param \UBL\Common\CAC\PreCarriageShipmentStage[] $preCarriageShipmentStage
+     * @param \App\UBL\Common\CAC\PreCarriageShipmentStage[] $preCarriageShipmentStage
      * @return self
      */
     public function setPreCarriageShipmentStage(?array $preCarriageShipmentStage = null)
@@ -7071,9 +7071,9 @@ class ConsignmentType
      *  Shipment Stage
      *
      * @return self
-     * @param \UBL\Common\CAC\OnCarriageShipmentStage $onCarriageShipmentStage
+     * @param \App\UBL\Common\CAC\OnCarriageShipmentStage $onCarriageShipmentStage
      */
-    public function addToOnCarriageShipmentStage(\UBL\Common\CAC\OnCarriageShipmentStage $onCarriageShipmentStage)
+    public function addToOnCarriageShipmentStage(\App\UBL\Common\CAC\OnCarriageShipmentStage $onCarriageShipmentStage)
     {
         $this->onCarriageShipmentStage[] = $onCarriageShipmentStage;
         return $this;
@@ -7134,7 +7134,7 @@ class ConsignmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @return \UBL\Common\CAC\OnCarriageShipmentStage[]
+     * @return \App\UBL\Common\CAC\OnCarriageShipmentStage[]
      */
     public function getOnCarriageShipmentStage()
     {
@@ -7154,7 +7154,7 @@ class ConsignmentType
      *  Shipment Stage
      *  Shipment Stage
      *
-     * @param \UBL\Common\CAC\OnCarriageShipmentStage[] $onCarriageShipmentStage
+     * @param \App\UBL\Common\CAC\OnCarriageShipmentStage[] $onCarriageShipmentStage
      * @return self
      */
     public function setOnCarriageShipmentStage(?array $onCarriageShipmentStage = null)
@@ -7176,9 +7176,9 @@ class ConsignmentType
      *  Transport Handling Unit
      *
      * @return self
-     * @param \UBL\Common\CAC\TransportHandlingUnit $transportHandlingUnit
+     * @param \App\UBL\Common\CAC\TransportHandlingUnit $transportHandlingUnit
      */
-    public function addToTransportHandlingUnit(\UBL\Common\CAC\TransportHandlingUnit $transportHandlingUnit)
+    public function addToTransportHandlingUnit(\App\UBL\Common\CAC\TransportHandlingUnit $transportHandlingUnit)
     {
         $this->transportHandlingUnit[] = $transportHandlingUnit;
         return $this;
@@ -7236,7 +7236,7 @@ class ConsignmentType
      *  Transport Handling Unit
      *  Transport Handling Unit
      *
-     * @return \UBL\Common\CAC\TransportHandlingUnit[]
+     * @return \App\UBL\Common\CAC\TransportHandlingUnit[]
      */
     public function getTransportHandlingUnit()
     {
@@ -7255,7 +7255,7 @@ class ConsignmentType
      *  Transport Handling Unit
      *  Transport Handling Unit
      *
-     * @param \UBL\Common\CAC\TransportHandlingUnit[] $transportHandlingUnit
+     * @param \App\UBL\Common\CAC\TransportHandlingUnit[] $transportHandlingUnit
      * @return self
      */
     public function setTransportHandlingUnit(?array $transportHandlingUnit = null)
@@ -7277,7 +7277,7 @@ class ConsignmentType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\FirstArrivalPortLocation
+     * @return \App\UBL\Common\CAC\FirstArrivalPortLocation
      */
     public function getFirstArrivalPortLocation()
     {
@@ -7297,10 +7297,10 @@ class ConsignmentType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\FirstArrivalPortLocation $firstArrivalPortLocation
+     * @param \App\UBL\Common\CAC\FirstArrivalPortLocation $firstArrivalPortLocation
      * @return self
      */
-    public function setFirstArrivalPortLocation(?\UBL\Common\CAC\FirstArrivalPortLocation $firstArrivalPortLocation = null)
+    public function setFirstArrivalPortLocation(?\App\UBL\Common\CAC\FirstArrivalPortLocation $firstArrivalPortLocation = null)
     {
         $this->firstArrivalPortLocation = $firstArrivalPortLocation;
         return $this;
@@ -7319,7 +7319,7 @@ class ConsignmentType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\LastExitPortLocation
+     * @return \App\UBL\Common\CAC\LastExitPortLocation
      */
     public function getLastExitPortLocation()
     {
@@ -7339,14 +7339,13 @@ class ConsignmentType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\LastExitPortLocation $lastExitPortLocation
+     * @param \App\UBL\Common\CAC\LastExitPortLocation $lastExitPortLocation
      * @return self
      */
-    public function setLastExitPortLocation(?\UBL\Common\CAC\LastExitPortLocation $lastExitPortLocation = null)
+    public function setLastExitPortLocation(?\App\UBL\Common\CAC\LastExitPortLocation $lastExitPortLocation = null)
     {
         $this->lastExitPortLocation = $lastExitPortLocation;
         return $this;
     }
 }
-
 

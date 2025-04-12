@@ -1,3 +1,3 @@
-UBL\Common\CAC\AcceptanceTransportEvent:
+App\UBL\Common\CAC\AcceptanceTransportEvent:
     xml_root_name: AcceptanceTransportEvent
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

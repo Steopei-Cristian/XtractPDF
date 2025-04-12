@@ -9,4 +9,3 @@ class ServiceFrequency extends ServiceFrequencyType
 {
 }
 
-

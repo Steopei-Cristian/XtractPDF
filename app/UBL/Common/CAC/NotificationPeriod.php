@@ -9,4 +9,3 @@ class NotificationPeriod extends PeriodType
 {
 }
 
-

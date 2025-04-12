@@ -9,4 +9,3 @@ class PreparationParty extends PartyType
 {
 }
 
-

@@ -9,4 +9,3 @@ class Quantity extends QuantityType
 {
 }
 
-

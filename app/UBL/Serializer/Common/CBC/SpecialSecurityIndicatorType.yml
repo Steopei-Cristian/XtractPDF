@@ -1,4 +1,4 @@
-UBL\Common\CBC\SpecialSecurityIndicatorType:
+App\UBL\Common\CBC\SpecialSecurityIndicatorType:
     properties:
         __value:
             expose: true

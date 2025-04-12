@@ -9,4 +9,3 @@ class CityName extends CityNameType
 {
 }
 
-

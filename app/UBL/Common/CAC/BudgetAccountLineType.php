@@ -23,7 +23,7 @@ class BudgetAccountLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class BudgetAccountLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\TotalAmount $totalAmount
+     * @var \App\UBL\Common\CBC\TotalAmount $totalAmount
      */
     private $totalAmount = null;
 
@@ -52,7 +52,7 @@ class BudgetAccountLineType
      *  Budget Account
      *  Budget Account
      *
-     * @var \UBL\Common\CAC\BudgetAccount[] $budgetAccount
+     * @var \App\UBL\Common\CAC\BudgetAccount[] $budgetAccount
      */
     private $budgetAccount = [
         
@@ -70,7 +70,7 @@ class BudgetAccountLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -89,10 +89,10 @@ class BudgetAccountLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -111,7 +111,7 @@ class BudgetAccountLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\TotalAmount
+     * @return \App\UBL\Common\CBC\TotalAmount
      */
     public function getTotalAmount()
     {
@@ -131,10 +131,10 @@ class BudgetAccountLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\TotalAmount $totalAmount
+     * @param \App\UBL\Common\CBC\TotalAmount $totalAmount
      * @return self
      */
-    public function setTotalAmount(?\UBL\Common\CBC\TotalAmount $totalAmount = null)
+    public function setTotalAmount(?\App\UBL\Common\CBC\TotalAmount $totalAmount = null)
     {
         $this->totalAmount = $totalAmount;
         return $this;
@@ -153,9 +153,9 @@ class BudgetAccountLineType
      *  Budget Account
      *
      * @return self
-     * @param \UBL\Common\CAC\BudgetAccount $budgetAccount
+     * @param \App\UBL\Common\CAC\BudgetAccount $budgetAccount
      */
-    public function addToBudgetAccount(\UBL\Common\CAC\BudgetAccount $budgetAccount)
+    public function addToBudgetAccount(\App\UBL\Common\CAC\BudgetAccount $budgetAccount)
     {
         $this->budgetAccount[] = $budgetAccount;
         return $this;
@@ -213,7 +213,7 @@ class BudgetAccountLineType
      *  Budget Account
      *  Budget Account
      *
-     * @return \UBL\Common\CAC\BudgetAccount[]
+     * @return \App\UBL\Common\CAC\BudgetAccount[]
      */
     public function getBudgetAccount()
     {
@@ -232,7 +232,7 @@ class BudgetAccountLineType
      *  Budget Account
      *  Budget Account
      *
-     * @param \UBL\Common\CAC\BudgetAccount[] $budgetAccount
+     * @param \App\UBL\Common\CAC\BudgetAccount[] $budgetAccount
      * @return self
      */
     public function setBudgetAccount(?array $budgetAccount = null)
@@ -241,5 +241,4 @@ class BudgetAccountLineType
         return $this;
     }
 }
-
 

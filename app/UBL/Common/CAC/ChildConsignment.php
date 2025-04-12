@@ -9,4 +9,3 @@ class ChildConsignment extends ConsignmentType
 {
 }
 
-

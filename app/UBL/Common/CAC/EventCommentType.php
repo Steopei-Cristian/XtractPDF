@@ -23,7 +23,7 @@ class EventCommentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Comment $comment
+     * @var \App\UBL\Common\CBC\Comment $comment
      */
     private $comment = null;
 
@@ -67,7 +67,7 @@ class EventCommentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Comment
+     * @return \App\UBL\Common\CBC\Comment
      */
     public function getComment()
     {
@@ -86,10 +86,10 @@ class EventCommentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Comment $comment
+     * @param \App\UBL\Common\CBC\Comment $comment
      * @return self
      */
-    public function setComment(\UBL\Common\CBC\Comment $comment)
+    public function setComment(\App\UBL\Common\CBC\Comment $comment)
     {
         $this->comment = $comment;
         return $this;
@@ -175,5 +175,4 @@ class EventCommentType
         return $this;
     }
 }
-
 

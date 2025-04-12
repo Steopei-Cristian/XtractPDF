@@ -23,7 +23,7 @@ class ActivityPropertyType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -37,7 +37,7 @@ class ActivityPropertyType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Value $value
+     * @var \App\UBL\Common\CBC\Value $value
      */
     private $value = null;
 
@@ -53,7 +53,7 @@ class ActivityPropertyType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -72,10 +72,10 @@ class ActivityPropertyType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(\UBL\Common\CBC\Name $name)
+    public function setName(\App\UBL\Common\CBC\Name $name)
     {
         $this->name = $name;
         return $this;
@@ -93,7 +93,7 @@ class ActivityPropertyType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Value
+     * @return \App\UBL\Common\CBC\Value
      */
     public function getValue()
     {
@@ -112,14 +112,13 @@ class ActivityPropertyType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Value $value
+     * @param \App\UBL\Common\CBC\Value $value
      * @return self
      */
-    public function setValue(\UBL\Common\CBC\Value $value)
+    public function setValue(\App\UBL\Common\CBC\Value $value)
     {
         $this->value = $value;
         return $this;
     }
 }
-
 

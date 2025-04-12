@@ -9,4 +9,3 @@ class RejectedQuantity extends RejectedQuantityType
 {
 }
 
-

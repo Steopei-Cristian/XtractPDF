@@ -9,4 +9,3 @@ class ShipsRequirements extends ShipsRequirementsType
 {
 }
 
-

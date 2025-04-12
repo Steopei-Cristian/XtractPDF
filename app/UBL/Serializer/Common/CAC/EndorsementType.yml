@@ -1,4 +1,4 @@
-UBL\Common\CAC\EndorsementType:
+App\UBL\Common\CAC\EndorsementType:
     properties:
         documentID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\EndorsementType:
             accessor:
                 getter: getDocumentID
                 setter: setDocumentID
-            type: UBL\Common\CBC\DocumentID
+            type: App\UBL\Common\CBC\DocumentID
         approvalStatus:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\EndorsementType:
             accessor:
                 getter: getApprovalStatus
                 setter: setApprovalStatus
-            type: UBL\Common\CBC\ApprovalStatus
+            type: App\UBL\Common\CBC\ApprovalStatus
         remarks:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\EndorsementType:
                 inline: true
                 entry_name: Remarks
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Remarks>
+            type: array<App\UBL\Common\CBC\Remarks>
         endorserParty:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\EndorsementType:
             accessor:
                 getter: getEndorserParty
                 setter: setEndorserParty
-            type: UBL\Common\CAC\EndorserParty
+            type: App\UBL\Common\CAC\EndorserParty
         signature:
             expose: true
             access_type: public_method
@@ -57,4 +57,4 @@ UBL\Common\CAC\EndorsementType:
                 inline: true
                 entry_name: Signature
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Signature>
+            type: array<App\UBL\Common\CAC\Signature>

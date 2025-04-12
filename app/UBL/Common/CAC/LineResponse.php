@@ -9,4 +9,3 @@ class LineResponse extends LineResponseType
 {
 }
 
-

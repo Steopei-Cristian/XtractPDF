@@ -24,7 +24,7 @@ class CatalogueRequestLineType
      *  Identifier. Type
      *  1
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class CatalogueRequestLineType
      *  Text. Type
      *  Installation , Phase One , Support and Maintenance
      *
-     * @var \UBL\Common\CBC\ContractSubdivision $contractSubdivision
+     * @var \App\UBL\Common\CBC\ContractSubdivision $contractSubdivision
      */
     private $contractSubdivision = null;
 
@@ -53,7 +53,7 @@ class CatalogueRequestLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -70,7 +70,7 @@ class CatalogueRequestLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\LineValidityPeriod $lineValidityPeriod
+     * @var \App\UBL\Common\CAC\LineValidityPeriod $lineValidityPeriod
      */
     private $lineValidityPeriod = null;
 
@@ -85,7 +85,7 @@ class CatalogueRequestLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @var \UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
+     * @var \App\UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
      */
     private $requiredItemLocationQuantity = [
         
@@ -101,7 +101,7 @@ class CatalogueRequestLineType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item $item
+     * @var \App\UBL\Common\CAC\Item $item
      */
     private $item = null;
 
@@ -118,7 +118,7 @@ class CatalogueRequestLineType
      *  Identifier. Type
      *  1
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -138,10 +138,10 @@ class CatalogueRequestLineType
      *  Identifier. Type
      *  1
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -160,7 +160,7 @@ class CatalogueRequestLineType
      *  Text. Type
      *  Installation , Phase One , Support and Maintenance
      *
-     * @return \UBL\Common\CBC\ContractSubdivision
+     * @return \App\UBL\Common\CBC\ContractSubdivision
      */
     public function getContractSubdivision()
     {
@@ -180,10 +180,10 @@ class CatalogueRequestLineType
      *  Text. Type
      *  Installation , Phase One , Support and Maintenance
      *
-     * @param \UBL\Common\CBC\ContractSubdivision $contractSubdivision
+     * @param \App\UBL\Common\CBC\ContractSubdivision $contractSubdivision
      * @return self
      */
-    public function setContractSubdivision(?\UBL\Common\CBC\ContractSubdivision $contractSubdivision = null)
+    public function setContractSubdivision(?\App\UBL\Common\CBC\ContractSubdivision $contractSubdivision = null)
     {
         $this->contractSubdivision = $contractSubdivision;
         return $this;
@@ -202,9 +202,9 @@ class CatalogueRequestLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -262,7 +262,7 @@ class CatalogueRequestLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -281,7 +281,7 @@ class CatalogueRequestLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -303,7 +303,7 @@ class CatalogueRequestLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\LineValidityPeriod
+     * @return \App\UBL\Common\CAC\LineValidityPeriod
      */
     public function getLineValidityPeriod()
     {
@@ -323,10 +323,10 @@ class CatalogueRequestLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\LineValidityPeriod $lineValidityPeriod
+     * @param \App\UBL\Common\CAC\LineValidityPeriod $lineValidityPeriod
      * @return self
      */
-    public function setLineValidityPeriod(?\UBL\Common\CAC\LineValidityPeriod $lineValidityPeriod = null)
+    public function setLineValidityPeriod(?\App\UBL\Common\CAC\LineValidityPeriod $lineValidityPeriod = null)
     {
         $this->lineValidityPeriod = $lineValidityPeriod;
         return $this;
@@ -346,9 +346,9 @@ class CatalogueRequestLineType
      *  Item Location Quantity
      *
      * @return self
-     * @param \UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity
+     * @param \App\UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity
      */
-    public function addToRequiredItemLocationQuantity(\UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity)
+    public function addToRequiredItemLocationQuantity(\App\UBL\Common\CAC\RequiredItemLocationQuantity $requiredItemLocationQuantity)
     {
         $this->requiredItemLocationQuantity[] = $requiredItemLocationQuantity;
         return $this;
@@ -409,7 +409,7 @@ class CatalogueRequestLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @return \UBL\Common\CAC\RequiredItemLocationQuantity[]
+     * @return \App\UBL\Common\CAC\RequiredItemLocationQuantity[]
      */
     public function getRequiredItemLocationQuantity()
     {
@@ -429,7 +429,7 @@ class CatalogueRequestLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @param \UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
+     * @param \App\UBL\Common\CAC\RequiredItemLocationQuantity[] $requiredItemLocationQuantity
      * @return self
      */
     public function setRequiredItemLocationQuantity(?array $requiredItemLocationQuantity = null)
@@ -450,7 +450,7 @@ class CatalogueRequestLineType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item
+     * @return \App\UBL\Common\CAC\Item
      */
     public function getItem()
     {
@@ -469,14 +469,13 @@ class CatalogueRequestLineType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      * @return self
      */
-    public function setItem(\UBL\Common\CAC\Item $item)
+    public function setItem(\App\UBL\Common\CAC\Item $item)
     {
         $this->item = $item;
         return $this;
     }
 }
-
 

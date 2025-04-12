@@ -9,4 +9,3 @@ class CompletedTask extends CompletedTaskType
 {
 }
 
-

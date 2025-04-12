@@ -1,3 +1,3 @@
-UBL\Common\CBC\MeterReadingComments:
+App\UBL\Common\CBC\MeterReadingComments:
     xml_root_name: MeterReadingComments
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

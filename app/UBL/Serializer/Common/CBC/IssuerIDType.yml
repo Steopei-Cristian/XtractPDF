@@ -1,2 +1,2 @@
-UBL\Common\CBC\IssuerIDType:
+App\UBL\Common\CBC\IssuerIDType:
     properties: {  }

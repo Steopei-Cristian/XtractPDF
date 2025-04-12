@@ -1,4 +1,4 @@
-UBL\Common\CBC\TaxPointDateType:
+App\UBL\Common\CBC\TaxPointDateType:
     properties:
         __value:
             expose: true

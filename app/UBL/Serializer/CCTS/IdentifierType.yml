@@ -1,4 +1,4 @@
-UBL\CCTS\IdentifierType:
+App\UBL\CCTS\IdentifierType:
     properties:
         __value:
             expose: true

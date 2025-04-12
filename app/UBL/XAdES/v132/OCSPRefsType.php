@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class OCSPRefsType
 {
     /**
-     * @var \UBL\XAdES\v132\OCSPRefType[] $oCSPRef
+     * @var \App\UBL\XAdES\v132\OCSPRefType[] $oCSPRef
      */
     private $oCSPRef = [
         
@@ -21,9 +21,9 @@ class OCSPRefsType
      * Adds as oCSPRef
      *
      * @return self
-     * @param \UBL\XAdES\v132\OCSPRefType $oCSPRef
+     * @param \App\UBL\XAdES\v132\OCSPRefType $oCSPRef
      */
-    public function addToOCSPRef(\UBL\XAdES\v132\OCSPRefType $oCSPRef)
+    public function addToOCSPRef(\App\UBL\XAdES\v132\OCSPRefType $oCSPRef)
     {
         $this->oCSPRef[] = $oCSPRef;
         return $this;
@@ -54,7 +54,7 @@ class OCSPRefsType
     /**
      * Gets as oCSPRef
      *
-     * @return \UBL\XAdES\v132\OCSPRefType[]
+     * @return \App\UBL\XAdES\v132\OCSPRefType[]
      */
     public function getOCSPRef()
     {
@@ -64,7 +64,7 @@ class OCSPRefsType
     /**
      * Sets a new oCSPRef
      *
-     * @param \UBL\XAdES\v132\OCSPRefType[] $oCSPRef
+     * @param \App\UBL\XAdES\v132\OCSPRefType[] $oCSPRef
      * @return self
      */
     public function setOCSPRef(array $oCSPRef)
@@ -73,5 +73,4 @@ class OCSPRefsType
         return $this;
     }
 }
-
 

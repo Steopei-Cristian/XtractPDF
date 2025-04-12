@@ -23,7 +23,7 @@ class RemittanceAdviceLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class RemittanceAdviceLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -53,7 +53,7 @@ class RemittanceAdviceLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -68,7 +68,7 @@ class RemittanceAdviceLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\DebitLineAmount $debitLineAmount
+     * @var \App\UBL\Common\CBC\DebitLineAmount $debitLineAmount
      */
     private $debitLineAmount = null;
 
@@ -83,7 +83,7 @@ class RemittanceAdviceLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\CreditLineAmount $creditLineAmount
+     * @var \App\UBL\Common\CBC\CreditLineAmount $creditLineAmount
      */
     private $creditLineAmount = null;
 
@@ -97,7 +97,7 @@ class RemittanceAdviceLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\BalanceAmount $balanceAmount
+     * @var \App\UBL\Common\CBC\BalanceAmount $balanceAmount
      */
     private $balanceAmount = null;
 
@@ -111,7 +111,7 @@ class RemittanceAdviceLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
+     * @var \App\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
      */
     private $paymentPurposeCode = null;
 
@@ -126,7 +126,7 @@ class RemittanceAdviceLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\InvoicingPartyReference $invoicingPartyReference
+     * @var \App\UBL\Common\CBC\InvoicingPartyReference $invoicingPartyReference
      */
     private $invoicingPartyReference = null;
 
@@ -141,7 +141,7 @@ class RemittanceAdviceLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @var \UBL\Common\CAC\AccountingSupplierParty $accountingSupplierParty
+     * @var \App\UBL\Common\CAC\AccountingSupplierParty $accountingSupplierParty
      */
     private $accountingSupplierParty = null;
 
@@ -156,7 +156,7 @@ class RemittanceAdviceLineType
      *  Customer Party
      *  Customer Party
      *
-     * @var \UBL\Common\CAC\AccountingCustomerParty $accountingCustomerParty
+     * @var \App\UBL\Common\CAC\AccountingCustomerParty $accountingCustomerParty
      */
     private $accountingCustomerParty = null;
 
@@ -171,7 +171,7 @@ class RemittanceAdviceLineType
      *  Customer Party
      *  Customer Party
      *
-     * @var \UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty
+     * @var \App\UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty
      */
     private $buyerCustomerParty = null;
 
@@ -186,7 +186,7 @@ class RemittanceAdviceLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @var \UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
+     * @var \App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
      */
     private $sellerSupplierParty = null;
 
@@ -201,7 +201,7 @@ class RemittanceAdviceLineType
      *  Customer Party
      *  Customer Party
      *
-     * @var \UBL\Common\CAC\OriginatorCustomerParty $originatorCustomerParty
+     * @var \App\UBL\Common\CAC\OriginatorCustomerParty $originatorCustomerParty
      */
     private $originatorCustomerParty = null;
 
@@ -216,7 +216,7 @@ class RemittanceAdviceLineType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\PayeeParty $payeeParty
+     * @var \App\UBL\Common\CAC\PayeeParty $payeeParty
      */
     private $payeeParty = null;
 
@@ -231,7 +231,7 @@ class RemittanceAdviceLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\InvoicePeriod[] $invoicePeriod
+     * @var \App\UBL\Common\CAC\InvoicePeriod[] $invoicePeriod
      */
     private $invoicePeriod = [
         
@@ -247,7 +247,7 @@ class RemittanceAdviceLineType
      *  Billing Reference
      *  Billing Reference
      *
-     * @var \UBL\Common\CAC\BillingReference[] $billingReference
+     * @var \App\UBL\Common\CAC\BillingReference[] $billingReference
      */
     private $billingReference = [
         
@@ -263,7 +263,7 @@ class RemittanceAdviceLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -279,7 +279,7 @@ class RemittanceAdviceLineType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @var \UBL\Common\CAC\ExchangeRate $exchangeRate
+     * @var \App\UBL\Common\CAC\ExchangeRate $exchangeRate
      */
     private $exchangeRate = null;
 
@@ -295,7 +295,7 @@ class RemittanceAdviceLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -314,10 +314,10 @@ class RemittanceAdviceLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -336,9 +336,9 @@ class RemittanceAdviceLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -396,7 +396,7 @@ class RemittanceAdviceLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -415,7 +415,7 @@ class RemittanceAdviceLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -436,7 +436,7 @@ class RemittanceAdviceLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -455,10 +455,10 @@ class RemittanceAdviceLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -477,7 +477,7 @@ class RemittanceAdviceLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\DebitLineAmount
+     * @return \App\UBL\Common\CBC\DebitLineAmount
      */
     public function getDebitLineAmount()
     {
@@ -497,10 +497,10 @@ class RemittanceAdviceLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\DebitLineAmount $debitLineAmount
+     * @param \App\UBL\Common\CBC\DebitLineAmount $debitLineAmount
      * @return self
      */
-    public function setDebitLineAmount(?\UBL\Common\CBC\DebitLineAmount $debitLineAmount = null)
+    public function setDebitLineAmount(?\App\UBL\Common\CBC\DebitLineAmount $debitLineAmount = null)
     {
         $this->debitLineAmount = $debitLineAmount;
         return $this;
@@ -519,7 +519,7 @@ class RemittanceAdviceLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\CreditLineAmount
+     * @return \App\UBL\Common\CBC\CreditLineAmount
      */
     public function getCreditLineAmount()
     {
@@ -539,10 +539,10 @@ class RemittanceAdviceLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\CreditLineAmount $creditLineAmount
+     * @param \App\UBL\Common\CBC\CreditLineAmount $creditLineAmount
      * @return self
      */
-    public function setCreditLineAmount(?\UBL\Common\CBC\CreditLineAmount $creditLineAmount = null)
+    public function setCreditLineAmount(?\App\UBL\Common\CBC\CreditLineAmount $creditLineAmount = null)
     {
         $this->creditLineAmount = $creditLineAmount;
         return $this;
@@ -560,7 +560,7 @@ class RemittanceAdviceLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\BalanceAmount
+     * @return \App\UBL\Common\CBC\BalanceAmount
      */
     public function getBalanceAmount()
     {
@@ -579,10 +579,10 @@ class RemittanceAdviceLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\BalanceAmount $balanceAmount
+     * @param \App\UBL\Common\CBC\BalanceAmount $balanceAmount
      * @return self
      */
-    public function setBalanceAmount(?\UBL\Common\CBC\BalanceAmount $balanceAmount = null)
+    public function setBalanceAmount(?\App\UBL\Common\CBC\BalanceAmount $balanceAmount = null)
     {
         $this->balanceAmount = $balanceAmount;
         return $this;
@@ -600,7 +600,7 @@ class RemittanceAdviceLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PaymentPurposeCode
+     * @return \App\UBL\Common\CBC\PaymentPurposeCode
      */
     public function getPaymentPurposeCode()
     {
@@ -619,10 +619,10 @@ class RemittanceAdviceLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
+     * @param \App\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode
      * @return self
      */
-    public function setPaymentPurposeCode(?\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode = null)
+    public function setPaymentPurposeCode(?\App\UBL\Common\CBC\PaymentPurposeCode $paymentPurposeCode = null)
     {
         $this->paymentPurposeCode = $paymentPurposeCode;
         return $this;
@@ -641,7 +641,7 @@ class RemittanceAdviceLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\InvoicingPartyReference
+     * @return \App\UBL\Common\CBC\InvoicingPartyReference
      */
     public function getInvoicingPartyReference()
     {
@@ -661,10 +661,10 @@ class RemittanceAdviceLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\InvoicingPartyReference $invoicingPartyReference
+     * @param \App\UBL\Common\CBC\InvoicingPartyReference $invoicingPartyReference
      * @return self
      */
-    public function setInvoicingPartyReference(?\UBL\Common\CBC\InvoicingPartyReference $invoicingPartyReference = null)
+    public function setInvoicingPartyReference(?\App\UBL\Common\CBC\InvoicingPartyReference $invoicingPartyReference = null)
     {
         $this->invoicingPartyReference = $invoicingPartyReference;
         return $this;
@@ -683,7 +683,7 @@ class RemittanceAdviceLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @return \UBL\Common\CAC\AccountingSupplierParty
+     * @return \App\UBL\Common\CAC\AccountingSupplierParty
      */
     public function getAccountingSupplierParty()
     {
@@ -703,10 +703,10 @@ class RemittanceAdviceLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @param \UBL\Common\CAC\AccountingSupplierParty $accountingSupplierParty
+     * @param \App\UBL\Common\CAC\AccountingSupplierParty $accountingSupplierParty
      * @return self
      */
-    public function setAccountingSupplierParty(?\UBL\Common\CAC\AccountingSupplierParty $accountingSupplierParty = null)
+    public function setAccountingSupplierParty(?\App\UBL\Common\CAC\AccountingSupplierParty $accountingSupplierParty = null)
     {
         $this->accountingSupplierParty = $accountingSupplierParty;
         return $this;
@@ -725,7 +725,7 @@ class RemittanceAdviceLineType
      *  Customer Party
      *  Customer Party
      *
-     * @return \UBL\Common\CAC\AccountingCustomerParty
+     * @return \App\UBL\Common\CAC\AccountingCustomerParty
      */
     public function getAccountingCustomerParty()
     {
@@ -745,10 +745,10 @@ class RemittanceAdviceLineType
      *  Customer Party
      *  Customer Party
      *
-     * @param \UBL\Common\CAC\AccountingCustomerParty $accountingCustomerParty
+     * @param \App\UBL\Common\CAC\AccountingCustomerParty $accountingCustomerParty
      * @return self
      */
-    public function setAccountingCustomerParty(?\UBL\Common\CAC\AccountingCustomerParty $accountingCustomerParty = null)
+    public function setAccountingCustomerParty(?\App\UBL\Common\CAC\AccountingCustomerParty $accountingCustomerParty = null)
     {
         $this->accountingCustomerParty = $accountingCustomerParty;
         return $this;
@@ -767,7 +767,7 @@ class RemittanceAdviceLineType
      *  Customer Party
      *  Customer Party
      *
-     * @return \UBL\Common\CAC\BuyerCustomerParty
+     * @return \App\UBL\Common\CAC\BuyerCustomerParty
      */
     public function getBuyerCustomerParty()
     {
@@ -787,10 +787,10 @@ class RemittanceAdviceLineType
      *  Customer Party
      *  Customer Party
      *
-     * @param \UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty
+     * @param \App\UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty
      * @return self
      */
-    public function setBuyerCustomerParty(?\UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty = null)
+    public function setBuyerCustomerParty(?\App\UBL\Common\CAC\BuyerCustomerParty $buyerCustomerParty = null)
     {
         $this->buyerCustomerParty = $buyerCustomerParty;
         return $this;
@@ -809,7 +809,7 @@ class RemittanceAdviceLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @return \UBL\Common\CAC\SellerSupplierParty
+     * @return \App\UBL\Common\CAC\SellerSupplierParty
      */
     public function getSellerSupplierParty()
     {
@@ -829,10 +829,10 @@ class RemittanceAdviceLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @param \UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
+     * @param \App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
      * @return self
      */
-    public function setSellerSupplierParty(?\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty = null)
+    public function setSellerSupplierParty(?\App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty = null)
     {
         $this->sellerSupplierParty = $sellerSupplierParty;
         return $this;
@@ -851,7 +851,7 @@ class RemittanceAdviceLineType
      *  Customer Party
      *  Customer Party
      *
-     * @return \UBL\Common\CAC\OriginatorCustomerParty
+     * @return \App\UBL\Common\CAC\OriginatorCustomerParty
      */
     public function getOriginatorCustomerParty()
     {
@@ -871,10 +871,10 @@ class RemittanceAdviceLineType
      *  Customer Party
      *  Customer Party
      *
-     * @param \UBL\Common\CAC\OriginatorCustomerParty $originatorCustomerParty
+     * @param \App\UBL\Common\CAC\OriginatorCustomerParty $originatorCustomerParty
      * @return self
      */
-    public function setOriginatorCustomerParty(?\UBL\Common\CAC\OriginatorCustomerParty $originatorCustomerParty = null)
+    public function setOriginatorCustomerParty(?\App\UBL\Common\CAC\OriginatorCustomerParty $originatorCustomerParty = null)
     {
         $this->originatorCustomerParty = $originatorCustomerParty;
         return $this;
@@ -893,7 +893,7 @@ class RemittanceAdviceLineType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\PayeeParty
+     * @return \App\UBL\Common\CAC\PayeeParty
      */
     public function getPayeeParty()
     {
@@ -913,10 +913,10 @@ class RemittanceAdviceLineType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\PayeeParty $payeeParty
+     * @param \App\UBL\Common\CAC\PayeeParty $payeeParty
      * @return self
      */
-    public function setPayeeParty(?\UBL\Common\CAC\PayeeParty $payeeParty = null)
+    public function setPayeeParty(?\App\UBL\Common\CAC\PayeeParty $payeeParty = null)
     {
         $this->payeeParty = $payeeParty;
         return $this;
@@ -936,9 +936,9 @@ class RemittanceAdviceLineType
      *  Period
      *
      * @return self
-     * @param \UBL\Common\CAC\InvoicePeriod $invoicePeriod
+     * @param \App\UBL\Common\CAC\InvoicePeriod $invoicePeriod
      */
-    public function addToInvoicePeriod(\UBL\Common\CAC\InvoicePeriod $invoicePeriod)
+    public function addToInvoicePeriod(\App\UBL\Common\CAC\InvoicePeriod $invoicePeriod)
     {
         $this->invoicePeriod[] = $invoicePeriod;
         return $this;
@@ -999,7 +999,7 @@ class RemittanceAdviceLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\InvoicePeriod[]
+     * @return \App\UBL\Common\CAC\InvoicePeriod[]
      */
     public function getInvoicePeriod()
     {
@@ -1019,7 +1019,7 @@ class RemittanceAdviceLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\InvoicePeriod[] $invoicePeriod
+     * @param \App\UBL\Common\CAC\InvoicePeriod[] $invoicePeriod
      * @return self
      */
     public function setInvoicePeriod(?array $invoicePeriod = null)
@@ -1041,9 +1041,9 @@ class RemittanceAdviceLineType
      *  Billing Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\BillingReference $billingReference
+     * @param \App\UBL\Common\CAC\BillingReference $billingReference
      */
-    public function addToBillingReference(\UBL\Common\CAC\BillingReference $billingReference)
+    public function addToBillingReference(\App\UBL\Common\CAC\BillingReference $billingReference)
     {
         $this->billingReference[] = $billingReference;
         return $this;
@@ -1101,7 +1101,7 @@ class RemittanceAdviceLineType
      *  Billing Reference
      *  Billing Reference
      *
-     * @return \UBL\Common\CAC\BillingReference[]
+     * @return \App\UBL\Common\CAC\BillingReference[]
      */
     public function getBillingReference()
     {
@@ -1120,7 +1120,7 @@ class RemittanceAdviceLineType
      *  Billing Reference
      *  Billing Reference
      *
-     * @param \UBL\Common\CAC\BillingReference[] $billingReference
+     * @param \App\UBL\Common\CAC\BillingReference[] $billingReference
      * @return self
      */
     public function setBillingReference(?array $billingReference = null)
@@ -1142,9 +1142,9 @@ class RemittanceAdviceLineType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -1202,7 +1202,7 @@ class RemittanceAdviceLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -1221,7 +1221,7 @@ class RemittanceAdviceLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -1242,7 +1242,7 @@ class RemittanceAdviceLineType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @return \UBL\Common\CAC\ExchangeRate
+     * @return \App\UBL\Common\CAC\ExchangeRate
      */
     public function getExchangeRate()
     {
@@ -1261,14 +1261,13 @@ class RemittanceAdviceLineType
      *  Exchange Rate
      *  Exchange Rate
      *
-     * @param \UBL\Common\CAC\ExchangeRate $exchangeRate
+     * @param \App\UBL\Common\CAC\ExchangeRate $exchangeRate
      * @return self
      */
-    public function setExchangeRate(?\UBL\Common\CAC\ExchangeRate $exchangeRate = null)
+    public function setExchangeRate(?\App\UBL\Common\CAC\ExchangeRate $exchangeRate = null)
     {
         $this->exchangeRate = $exchangeRate;
         return $this;
     }
 }
-
 

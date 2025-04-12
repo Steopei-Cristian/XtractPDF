@@ -9,4 +9,3 @@ class ItemComparison extends ItemComparisonType
 {
 }
 
-

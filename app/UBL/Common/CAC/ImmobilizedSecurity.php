@@ -9,4 +9,3 @@ class ImmobilizedSecurity extends ImmobilizedSecurityType
 {
 }
 
-

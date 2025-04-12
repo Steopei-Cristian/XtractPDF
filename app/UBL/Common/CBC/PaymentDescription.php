@@ -9,4 +9,3 @@ class PaymentDescription extends PaymentDescriptionType
 {
 }
 
-

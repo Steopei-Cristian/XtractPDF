@@ -9,4 +9,3 @@ class AvailabilityTransportEvent extends TransportEventType
 {
 }
 
-

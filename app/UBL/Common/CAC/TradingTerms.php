@@ -9,4 +9,3 @@ class TradingTerms extends TradingTermsType
 {
 }
 
-

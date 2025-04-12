@@ -9,4 +9,3 @@ class ShippingMarks extends ShippingMarksType
 {
 }
 
-

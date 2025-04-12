@@ -9,4 +9,3 @@ class ConsumptionWaterQuantity extends ConsumptionWaterQuantityType
 {
 }
 
-

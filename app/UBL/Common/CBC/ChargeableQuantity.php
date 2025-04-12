@@ -9,4 +9,3 @@ class ChargeableQuantity extends ChargeableQuantityType
 {
 }
 
-

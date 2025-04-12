@@ -1,2 +1,2 @@
-UBL\Common\CBC\SalesOrderIDType:
+App\UBL\Common\CBC\SalesOrderIDType:
     properties: {  }

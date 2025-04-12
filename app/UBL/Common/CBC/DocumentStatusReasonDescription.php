@@ -9,4 +9,3 @@ class DocumentStatusReasonDescription extends DocumentStatusReasonDescriptionTyp
 {
 }
 
-

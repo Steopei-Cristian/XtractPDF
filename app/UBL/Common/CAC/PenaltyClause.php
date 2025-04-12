@@ -9,4 +9,3 @@ class PenaltyClause extends ClauseType
 {
 }
 
-

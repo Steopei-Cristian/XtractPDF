@@ -23,7 +23,7 @@ class SubcontractTermsType
      *  Rate
      *  Rate. Type
      *
-     * @var \UBL\Common\CBC\Rate $rate
+     * @var \App\UBL\Common\CBC\Rate $rate
      */
     private $rate = null;
 
@@ -52,7 +52,7 @@ class SubcontractTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -68,7 +68,7 @@ class SubcontractTermsType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\Amount $amount
+     * @var \App\UBL\Common\CBC\Amount $amount
      */
     private $amount = null;
 
@@ -82,7 +82,7 @@ class SubcontractTermsType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\SubcontractingConditionsCode $subcontractingConditionsCode
+     * @var \App\UBL\Common\CBC\SubcontractingConditionsCode $subcontractingConditionsCode
      */
     private $subcontractingConditionsCode = null;
 
@@ -97,7 +97,7 @@ class SubcontractTermsType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\MaximumPercent $maximumPercent
+     * @var \App\UBL\Common\CBC\MaximumPercent $maximumPercent
      */
     private $maximumPercent = null;
 
@@ -112,7 +112,7 @@ class SubcontractTermsType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\MinimumPercent $minimumPercent
+     * @var \App\UBL\Common\CBC\MinimumPercent $minimumPercent
      */
     private $minimumPercent = null;
 
@@ -128,7 +128,7 @@ class SubcontractTermsType
      *  Rate
      *  Rate. Type
      *
-     * @return \UBL\Common\CBC\Rate
+     * @return \App\UBL\Common\CBC\Rate
      */
     public function getRate()
     {
@@ -147,10 +147,10 @@ class SubcontractTermsType
      *  Rate
      *  Rate. Type
      *
-     * @param \UBL\Common\CBC\Rate $rate
+     * @param \App\UBL\Common\CBC\Rate $rate
      * @return self
      */
-    public function setRate(?\UBL\Common\CBC\Rate $rate = null)
+    public function setRate(?\App\UBL\Common\CBC\Rate $rate = null)
     {
         $this->rate = $rate;
         return $this;
@@ -211,9 +211,9 @@ class SubcontractTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -271,7 +271,7 @@ class SubcontractTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -290,7 +290,7 @@ class SubcontractTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -311,7 +311,7 @@ class SubcontractTermsType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\Amount
+     * @return \App\UBL\Common\CBC\Amount
      */
     public function getAmount()
     {
@@ -330,10 +330,10 @@ class SubcontractTermsType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\Amount $amount
+     * @param \App\UBL\Common\CBC\Amount $amount
      * @return self
      */
-    public function setAmount(?\UBL\Common\CBC\Amount $amount = null)
+    public function setAmount(?\App\UBL\Common\CBC\Amount $amount = null)
     {
         $this->amount = $amount;
         return $this;
@@ -351,7 +351,7 @@ class SubcontractTermsType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\SubcontractingConditionsCode
+     * @return \App\UBL\Common\CBC\SubcontractingConditionsCode
      */
     public function getSubcontractingConditionsCode()
     {
@@ -370,10 +370,10 @@ class SubcontractTermsType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\SubcontractingConditionsCode $subcontractingConditionsCode
+     * @param \App\UBL\Common\CBC\SubcontractingConditionsCode $subcontractingConditionsCode
      * @return self
      */
-    public function setSubcontractingConditionsCode(?\UBL\Common\CBC\SubcontractingConditionsCode $subcontractingConditionsCode = null)
+    public function setSubcontractingConditionsCode(?\App\UBL\Common\CBC\SubcontractingConditionsCode $subcontractingConditionsCode = null)
     {
         $this->subcontractingConditionsCode = $subcontractingConditionsCode;
         return $this;
@@ -392,7 +392,7 @@ class SubcontractTermsType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\MaximumPercent
+     * @return \App\UBL\Common\CBC\MaximumPercent
      */
     public function getMaximumPercent()
     {
@@ -412,10 +412,10 @@ class SubcontractTermsType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\MaximumPercent $maximumPercent
+     * @param \App\UBL\Common\CBC\MaximumPercent $maximumPercent
      * @return self
      */
-    public function setMaximumPercent(?\UBL\Common\CBC\MaximumPercent $maximumPercent = null)
+    public function setMaximumPercent(?\App\UBL\Common\CBC\MaximumPercent $maximumPercent = null)
     {
         $this->maximumPercent = $maximumPercent;
         return $this;
@@ -434,7 +434,7 @@ class SubcontractTermsType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\MinimumPercent
+     * @return \App\UBL\Common\CBC\MinimumPercent
      */
     public function getMinimumPercent()
     {
@@ -454,14 +454,13 @@ class SubcontractTermsType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\MinimumPercent $minimumPercent
+     * @param \App\UBL\Common\CBC\MinimumPercent $minimumPercent
      * @return self
      */
-    public function setMinimumPercent(?\UBL\Common\CBC\MinimumPercent $minimumPercent = null)
+    public function setMinimumPercent(?\App\UBL\Common\CBC\MinimumPercent $minimumPercent = null)
     {
         $this->minimumPercent = $minimumPercent;
         return $this;
     }
 }
-
 

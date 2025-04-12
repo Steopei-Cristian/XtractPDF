@@ -23,7 +23,7 @@ class DeliveryType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class DeliveryType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -52,7 +52,7 @@ class DeliveryType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MinimumQuantity $minimumQuantity
+     * @var \App\UBL\Common\CBC\MinimumQuantity $minimumQuantity
      */
     private $minimumQuantity = null;
 
@@ -67,7 +67,7 @@ class DeliveryType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MaximumQuantity $maximumQuantity
+     * @var \App\UBL\Common\CBC\MaximumQuantity $maximumQuantity
      */
     private $maximumQuantity = null;
 
@@ -141,7 +141,7 @@ class DeliveryType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ReleaseID $releaseID
+     * @var \App\UBL\Common\CBC\ReleaseID $releaseID
      */
     private $releaseID = null;
 
@@ -155,7 +155,7 @@ class DeliveryType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\TrackingID $trackingID
+     * @var \App\UBL\Common\CBC\TrackingID $trackingID
      */
     private $trackingID = null;
 
@@ -170,7 +170,7 @@ class DeliveryType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\DeliveryAddress $deliveryAddress
+     * @var \App\UBL\Common\CAC\DeliveryAddress $deliveryAddress
      */
     private $deliveryAddress = null;
 
@@ -185,7 +185,7 @@ class DeliveryType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\DeliveryLocation $deliveryLocation
+     * @var \App\UBL\Common\CAC\DeliveryLocation $deliveryLocation
      */
     private $deliveryLocation = null;
 
@@ -200,7 +200,7 @@ class DeliveryType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\AlternativeDeliveryLocation $alternativeDeliveryLocation
+     * @var \App\UBL\Common\CAC\AlternativeDeliveryLocation $alternativeDeliveryLocation
      */
     private $alternativeDeliveryLocation = null;
 
@@ -215,7 +215,7 @@ class DeliveryType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\RequestedDeliveryPeriod $requestedDeliveryPeriod
+     * @var \App\UBL\Common\CAC\RequestedDeliveryPeriod $requestedDeliveryPeriod
      */
     private $requestedDeliveryPeriod = null;
 
@@ -230,7 +230,7 @@ class DeliveryType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\PromisedDeliveryPeriod $promisedDeliveryPeriod
+     * @var \App\UBL\Common\CAC\PromisedDeliveryPeriod $promisedDeliveryPeriod
      */
     private $promisedDeliveryPeriod = null;
 
@@ -245,7 +245,7 @@ class DeliveryType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\EstimatedDeliveryPeriod $estimatedDeliveryPeriod
+     * @var \App\UBL\Common\CAC\EstimatedDeliveryPeriod $estimatedDeliveryPeriod
      */
     private $estimatedDeliveryPeriod = null;
 
@@ -260,7 +260,7 @@ class DeliveryType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\CarrierParty $carrierParty
+     * @var \App\UBL\Common\CAC\CarrierParty $carrierParty
      */
     private $carrierParty = null;
 
@@ -275,7 +275,7 @@ class DeliveryType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\DeliveryParty $deliveryParty
+     * @var \App\UBL\Common\CAC\DeliveryParty $deliveryParty
      */
     private $deliveryParty = null;
 
@@ -290,7 +290,7 @@ class DeliveryType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\NotifyParty[] $notifyParty
+     * @var \App\UBL\Common\CAC\NotifyParty[] $notifyParty
      */
     private $notifyParty = [
         
@@ -306,7 +306,7 @@ class DeliveryType
      *  Despatch
      *  Despatch
      *
-     * @var \UBL\Common\CAC\Despatch $despatch
+     * @var \App\UBL\Common\CAC\Despatch $despatch
      */
     private $despatch = null;
 
@@ -320,7 +320,7 @@ class DeliveryType
      *  Delivery Terms
      *  Delivery Terms
      *
-     * @var \UBL\Common\CAC\DeliveryTerms[] $deliveryTerms
+     * @var \App\UBL\Common\CAC\DeliveryTerms[] $deliveryTerms
      */
     private $deliveryTerms = [
         
@@ -337,7 +337,7 @@ class DeliveryType
      *  Delivery Unit
      *  Delivery Unit
      *
-     * @var \UBL\Common\CAC\MinimumDeliveryUnit $minimumDeliveryUnit
+     * @var \App\UBL\Common\CAC\MinimumDeliveryUnit $minimumDeliveryUnit
      */
     private $minimumDeliveryUnit = null;
 
@@ -352,7 +352,7 @@ class DeliveryType
      *  Delivery Unit
      *  Delivery Unit
      *
-     * @var \UBL\Common\CAC\MaximumDeliveryUnit $maximumDeliveryUnit
+     * @var \App\UBL\Common\CAC\MaximumDeliveryUnit $maximumDeliveryUnit
      */
     private $maximumDeliveryUnit = null;
 
@@ -366,7 +366,7 @@ class DeliveryType
      *  Shipment
      *  Shipment
      *
-     * @var \UBL\Common\CAC\Shipment $shipment
+     * @var \App\UBL\Common\CAC\Shipment $shipment
      */
     private $shipment = null;
 
@@ -382,7 +382,7 @@ class DeliveryType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -401,10 +401,10 @@ class DeliveryType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -422,7 +422,7 @@ class DeliveryType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -441,10 +441,10 @@ class DeliveryType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
@@ -463,7 +463,7 @@ class DeliveryType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MinimumQuantity
+     * @return \App\UBL\Common\CBC\MinimumQuantity
      */
     public function getMinimumQuantity()
     {
@@ -483,10 +483,10 @@ class DeliveryType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MinimumQuantity $minimumQuantity
+     * @param \App\UBL\Common\CBC\MinimumQuantity $minimumQuantity
      * @return self
      */
-    public function setMinimumQuantity(?\UBL\Common\CBC\MinimumQuantity $minimumQuantity = null)
+    public function setMinimumQuantity(?\App\UBL\Common\CBC\MinimumQuantity $minimumQuantity = null)
     {
         $this->minimumQuantity = $minimumQuantity;
         return $this;
@@ -505,7 +505,7 @@ class DeliveryType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MaximumQuantity
+     * @return \App\UBL\Common\CBC\MaximumQuantity
      */
     public function getMaximumQuantity()
     {
@@ -525,10 +525,10 @@ class DeliveryType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MaximumQuantity $maximumQuantity
+     * @param \App\UBL\Common\CBC\MaximumQuantity $maximumQuantity
      * @return self
      */
-    public function setMaximumQuantity(?\UBL\Common\CBC\MaximumQuantity $maximumQuantity = null)
+    public function setMaximumQuantity(?\App\UBL\Common\CBC\MaximumQuantity $maximumQuantity = null)
     {
         $this->maximumQuantity = $maximumQuantity;
         return $this;
@@ -714,7 +714,7 @@ class DeliveryType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ReleaseID
+     * @return \App\UBL\Common\CBC\ReleaseID
      */
     public function getReleaseID()
     {
@@ -733,10 +733,10 @@ class DeliveryType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ReleaseID $releaseID
+     * @param \App\UBL\Common\CBC\ReleaseID $releaseID
      * @return self
      */
-    public function setReleaseID(?\UBL\Common\CBC\ReleaseID $releaseID = null)
+    public function setReleaseID(?\App\UBL\Common\CBC\ReleaseID $releaseID = null)
     {
         $this->releaseID = $releaseID;
         return $this;
@@ -754,7 +754,7 @@ class DeliveryType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\TrackingID
+     * @return \App\UBL\Common\CBC\TrackingID
      */
     public function getTrackingID()
     {
@@ -773,10 +773,10 @@ class DeliveryType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\TrackingID $trackingID
+     * @param \App\UBL\Common\CBC\TrackingID $trackingID
      * @return self
      */
-    public function setTrackingID(?\UBL\Common\CBC\TrackingID $trackingID = null)
+    public function setTrackingID(?\App\UBL\Common\CBC\TrackingID $trackingID = null)
     {
         $this->trackingID = $trackingID;
         return $this;
@@ -795,7 +795,7 @@ class DeliveryType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\DeliveryAddress
+     * @return \App\UBL\Common\CAC\DeliveryAddress
      */
     public function getDeliveryAddress()
     {
@@ -815,10 +815,10 @@ class DeliveryType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\DeliveryAddress $deliveryAddress
+     * @param \App\UBL\Common\CAC\DeliveryAddress $deliveryAddress
      * @return self
      */
-    public function setDeliveryAddress(?\UBL\Common\CAC\DeliveryAddress $deliveryAddress = null)
+    public function setDeliveryAddress(?\App\UBL\Common\CAC\DeliveryAddress $deliveryAddress = null)
     {
         $this->deliveryAddress = $deliveryAddress;
         return $this;
@@ -837,7 +837,7 @@ class DeliveryType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\DeliveryLocation
+     * @return \App\UBL\Common\CAC\DeliveryLocation
      */
     public function getDeliveryLocation()
     {
@@ -857,10 +857,10 @@ class DeliveryType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\DeliveryLocation $deliveryLocation
+     * @param \App\UBL\Common\CAC\DeliveryLocation $deliveryLocation
      * @return self
      */
-    public function setDeliveryLocation(?\UBL\Common\CAC\DeliveryLocation $deliveryLocation = null)
+    public function setDeliveryLocation(?\App\UBL\Common\CAC\DeliveryLocation $deliveryLocation = null)
     {
         $this->deliveryLocation = $deliveryLocation;
         return $this;
@@ -879,7 +879,7 @@ class DeliveryType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\AlternativeDeliveryLocation
+     * @return \App\UBL\Common\CAC\AlternativeDeliveryLocation
      */
     public function getAlternativeDeliveryLocation()
     {
@@ -899,10 +899,10 @@ class DeliveryType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\AlternativeDeliveryLocation $alternativeDeliveryLocation
+     * @param \App\UBL\Common\CAC\AlternativeDeliveryLocation $alternativeDeliveryLocation
      * @return self
      */
-    public function setAlternativeDeliveryLocation(?\UBL\Common\CAC\AlternativeDeliveryLocation $alternativeDeliveryLocation = null)
+    public function setAlternativeDeliveryLocation(?\App\UBL\Common\CAC\AlternativeDeliveryLocation $alternativeDeliveryLocation = null)
     {
         $this->alternativeDeliveryLocation = $alternativeDeliveryLocation;
         return $this;
@@ -921,7 +921,7 @@ class DeliveryType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\RequestedDeliveryPeriod
+     * @return \App\UBL\Common\CAC\RequestedDeliveryPeriod
      */
     public function getRequestedDeliveryPeriod()
     {
@@ -941,10 +941,10 @@ class DeliveryType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\RequestedDeliveryPeriod $requestedDeliveryPeriod
+     * @param \App\UBL\Common\CAC\RequestedDeliveryPeriod $requestedDeliveryPeriod
      * @return self
      */
-    public function setRequestedDeliveryPeriod(?\UBL\Common\CAC\RequestedDeliveryPeriod $requestedDeliveryPeriod = null)
+    public function setRequestedDeliveryPeriod(?\App\UBL\Common\CAC\RequestedDeliveryPeriod $requestedDeliveryPeriod = null)
     {
         $this->requestedDeliveryPeriod = $requestedDeliveryPeriod;
         return $this;
@@ -963,7 +963,7 @@ class DeliveryType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\PromisedDeliveryPeriod
+     * @return \App\UBL\Common\CAC\PromisedDeliveryPeriod
      */
     public function getPromisedDeliveryPeriod()
     {
@@ -983,10 +983,10 @@ class DeliveryType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\PromisedDeliveryPeriod $promisedDeliveryPeriod
+     * @param \App\UBL\Common\CAC\PromisedDeliveryPeriod $promisedDeliveryPeriod
      * @return self
      */
-    public function setPromisedDeliveryPeriod(?\UBL\Common\CAC\PromisedDeliveryPeriod $promisedDeliveryPeriod = null)
+    public function setPromisedDeliveryPeriod(?\App\UBL\Common\CAC\PromisedDeliveryPeriod $promisedDeliveryPeriod = null)
     {
         $this->promisedDeliveryPeriod = $promisedDeliveryPeriod;
         return $this;
@@ -1005,7 +1005,7 @@ class DeliveryType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\EstimatedDeliveryPeriod
+     * @return \App\UBL\Common\CAC\EstimatedDeliveryPeriod
      */
     public function getEstimatedDeliveryPeriod()
     {
@@ -1025,10 +1025,10 @@ class DeliveryType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\EstimatedDeliveryPeriod $estimatedDeliveryPeriod
+     * @param \App\UBL\Common\CAC\EstimatedDeliveryPeriod $estimatedDeliveryPeriod
      * @return self
      */
-    public function setEstimatedDeliveryPeriod(?\UBL\Common\CAC\EstimatedDeliveryPeriod $estimatedDeliveryPeriod = null)
+    public function setEstimatedDeliveryPeriod(?\App\UBL\Common\CAC\EstimatedDeliveryPeriod $estimatedDeliveryPeriod = null)
     {
         $this->estimatedDeliveryPeriod = $estimatedDeliveryPeriod;
         return $this;
@@ -1047,7 +1047,7 @@ class DeliveryType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\CarrierParty
+     * @return \App\UBL\Common\CAC\CarrierParty
      */
     public function getCarrierParty()
     {
@@ -1067,10 +1067,10 @@ class DeliveryType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\CarrierParty $carrierParty
+     * @param \App\UBL\Common\CAC\CarrierParty $carrierParty
      * @return self
      */
-    public function setCarrierParty(?\UBL\Common\CAC\CarrierParty $carrierParty = null)
+    public function setCarrierParty(?\App\UBL\Common\CAC\CarrierParty $carrierParty = null)
     {
         $this->carrierParty = $carrierParty;
         return $this;
@@ -1089,7 +1089,7 @@ class DeliveryType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\DeliveryParty
+     * @return \App\UBL\Common\CAC\DeliveryParty
      */
     public function getDeliveryParty()
     {
@@ -1109,10 +1109,10 @@ class DeliveryType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\DeliveryParty $deliveryParty
+     * @param \App\UBL\Common\CAC\DeliveryParty $deliveryParty
      * @return self
      */
-    public function setDeliveryParty(?\UBL\Common\CAC\DeliveryParty $deliveryParty = null)
+    public function setDeliveryParty(?\App\UBL\Common\CAC\DeliveryParty $deliveryParty = null)
     {
         $this->deliveryParty = $deliveryParty;
         return $this;
@@ -1132,9 +1132,9 @@ class DeliveryType
      *  Party
      *
      * @return self
-     * @param \UBL\Common\CAC\NotifyParty $notifyParty
+     * @param \App\UBL\Common\CAC\NotifyParty $notifyParty
      */
-    public function addToNotifyParty(\UBL\Common\CAC\NotifyParty $notifyParty)
+    public function addToNotifyParty(\App\UBL\Common\CAC\NotifyParty $notifyParty)
     {
         $this->notifyParty[] = $notifyParty;
         return $this;
@@ -1195,7 +1195,7 @@ class DeliveryType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\NotifyParty[]
+     * @return \App\UBL\Common\CAC\NotifyParty[]
      */
     public function getNotifyParty()
     {
@@ -1215,7 +1215,7 @@ class DeliveryType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\NotifyParty[] $notifyParty
+     * @param \App\UBL\Common\CAC\NotifyParty[] $notifyParty
      * @return self
      */
     public function setNotifyParty(?array $notifyParty = null)
@@ -1236,7 +1236,7 @@ class DeliveryType
      *  Despatch
      *  Despatch
      *
-     * @return \UBL\Common\CAC\Despatch
+     * @return \App\UBL\Common\CAC\Despatch
      */
     public function getDespatch()
     {
@@ -1255,10 +1255,10 @@ class DeliveryType
      *  Despatch
      *  Despatch
      *
-     * @param \UBL\Common\CAC\Despatch $despatch
+     * @param \App\UBL\Common\CAC\Despatch $despatch
      * @return self
      */
-    public function setDespatch(?\UBL\Common\CAC\Despatch $despatch = null)
+    public function setDespatch(?\App\UBL\Common\CAC\Despatch $despatch = null)
     {
         $this->despatch = $despatch;
         return $this;
@@ -1277,9 +1277,9 @@ class DeliveryType
      *  Delivery Terms
      *
      * @return self
-     * @param \UBL\Common\CAC\DeliveryTerms $deliveryTerms
+     * @param \App\UBL\Common\CAC\DeliveryTerms $deliveryTerms
      */
-    public function addToDeliveryTerms(\UBL\Common\CAC\DeliveryTerms $deliveryTerms)
+    public function addToDeliveryTerms(\App\UBL\Common\CAC\DeliveryTerms $deliveryTerms)
     {
         $this->deliveryTerms[] = $deliveryTerms;
         return $this;
@@ -1337,7 +1337,7 @@ class DeliveryType
      *  Delivery Terms
      *  Delivery Terms
      *
-     * @return \UBL\Common\CAC\DeliveryTerms[]
+     * @return \App\UBL\Common\CAC\DeliveryTerms[]
      */
     public function getDeliveryTerms()
     {
@@ -1356,7 +1356,7 @@ class DeliveryType
      *  Delivery Terms
      *  Delivery Terms
      *
-     * @param \UBL\Common\CAC\DeliveryTerms[] $deliveryTerms
+     * @param \App\UBL\Common\CAC\DeliveryTerms[] $deliveryTerms
      * @return self
      */
     public function setDeliveryTerms(?array $deliveryTerms = null)
@@ -1378,7 +1378,7 @@ class DeliveryType
      *  Delivery Unit
      *  Delivery Unit
      *
-     * @return \UBL\Common\CAC\MinimumDeliveryUnit
+     * @return \App\UBL\Common\CAC\MinimumDeliveryUnit
      */
     public function getMinimumDeliveryUnit()
     {
@@ -1398,10 +1398,10 @@ class DeliveryType
      *  Delivery Unit
      *  Delivery Unit
      *
-     * @param \UBL\Common\CAC\MinimumDeliveryUnit $minimumDeliveryUnit
+     * @param \App\UBL\Common\CAC\MinimumDeliveryUnit $minimumDeliveryUnit
      * @return self
      */
-    public function setMinimumDeliveryUnit(?\UBL\Common\CAC\MinimumDeliveryUnit $minimumDeliveryUnit = null)
+    public function setMinimumDeliveryUnit(?\App\UBL\Common\CAC\MinimumDeliveryUnit $minimumDeliveryUnit = null)
     {
         $this->minimumDeliveryUnit = $minimumDeliveryUnit;
         return $this;
@@ -1420,7 +1420,7 @@ class DeliveryType
      *  Delivery Unit
      *  Delivery Unit
      *
-     * @return \UBL\Common\CAC\MaximumDeliveryUnit
+     * @return \App\UBL\Common\CAC\MaximumDeliveryUnit
      */
     public function getMaximumDeliveryUnit()
     {
@@ -1440,10 +1440,10 @@ class DeliveryType
      *  Delivery Unit
      *  Delivery Unit
      *
-     * @param \UBL\Common\CAC\MaximumDeliveryUnit $maximumDeliveryUnit
+     * @param \App\UBL\Common\CAC\MaximumDeliveryUnit $maximumDeliveryUnit
      * @return self
      */
-    public function setMaximumDeliveryUnit(?\UBL\Common\CAC\MaximumDeliveryUnit $maximumDeliveryUnit = null)
+    public function setMaximumDeliveryUnit(?\App\UBL\Common\CAC\MaximumDeliveryUnit $maximumDeliveryUnit = null)
     {
         $this->maximumDeliveryUnit = $maximumDeliveryUnit;
         return $this;
@@ -1461,7 +1461,7 @@ class DeliveryType
      *  Shipment
      *  Shipment
      *
-     * @return \UBL\Common\CAC\Shipment
+     * @return \App\UBL\Common\CAC\Shipment
      */
     public function getShipment()
     {
@@ -1480,14 +1480,13 @@ class DeliveryType
      *  Shipment
      *  Shipment
      *
-     * @param \UBL\Common\CAC\Shipment $shipment
+     * @param \App\UBL\Common\CAC\Shipment $shipment
      * @return self
      */
-    public function setShipment(?\UBL\Common\CAC\Shipment $shipment = null)
+    public function setShipment(?\App\UBL\Common\CAC\Shipment $shipment = null)
     {
         $this->shipment = $shipment;
         return $this;
     }
 }
-
 

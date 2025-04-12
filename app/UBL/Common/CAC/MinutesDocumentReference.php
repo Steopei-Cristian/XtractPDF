@@ -9,4 +9,3 @@ class MinutesDocumentReference extends DocumentReferenceType
 {
 }
 
-

@@ -9,4 +9,3 @@ class RequestedTenderTotal extends RequestedTenderTotalType
 {
 }
 
-

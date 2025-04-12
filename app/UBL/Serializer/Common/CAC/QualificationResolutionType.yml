@@ -1,4 +1,4 @@
-UBL\Common\CAC\QualificationResolutionType:
+App\UBL\Common\CAC\QualificationResolutionType:
     properties:
         admissionCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\QualificationResolutionType:
             accessor:
                 getter: getAdmissionCode
                 setter: setAdmissionCode
-            type: UBL\Common\CBC\AdmissionCode
+            type: App\UBL\Common\CBC\AdmissionCode
         exclusionReason:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\QualificationResolutionType:
                 inline: true
                 entry_name: ExclusionReason
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\ExclusionReason>
+            type: array<App\UBL\Common\CBC\ExclusionReason>
         resolution:
             expose: true
             access_type: public_method
@@ -37,7 +37,7 @@ UBL\Common\CAC\QualificationResolutionType:
                 inline: true
                 entry_name: Resolution
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Resolution>
+            type: array<App\UBL\Common\CBC\Resolution>
         resolutionDate:
             expose: true
             access_type: public_method
@@ -67,4 +67,4 @@ UBL\Common\CAC\QualificationResolutionType:
             accessor:
                 getter: getProcurementProjectLot
                 setter: setProcurementProjectLot
-            type: UBL\Common\CAC\ProcurementProjectLot
+            type: App\UBL\Common\CAC\ProcurementProjectLot

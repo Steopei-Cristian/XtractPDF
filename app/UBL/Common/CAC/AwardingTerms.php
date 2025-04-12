@@ -9,4 +9,3 @@ class AwardingTerms extends AwardingTermsType
 {
 }
 
-

@@ -21,22 +21,22 @@ class SignedSignaturePropertiesType
     private $signingTime = null;
 
     /**
-     * @var \UBL\XAdES\v132\CertIDType[] $signingCertificate
+     * @var \App\UBL\XAdES\v132\CertIDType[] $signingCertificate
      */
     private $signingCertificate = null;
 
     /**
-     * @var \UBL\XAdES\v132\SignaturePolicyIdentifierType $signaturePolicyIdentifier
+     * @var \App\UBL\XAdES\v132\SignaturePolicyIdentifierType $signaturePolicyIdentifier
      */
     private $signaturePolicyIdentifier = null;
 
     /**
-     * @var \UBL\XAdES\v132\SignatureProductionPlaceType $signatureProductionPlace
+     * @var \App\UBL\XAdES\v132\SignatureProductionPlaceType $signatureProductionPlace
      */
     private $signatureProductionPlace = null;
 
     /**
-     * @var \UBL\XAdES\v132\SignerRoleType $signerRole
+     * @var \App\UBL\XAdES\v132\SignerRoleType $signerRole
      */
     private $signerRole = null;
 
@@ -88,9 +88,9 @@ class SignedSignaturePropertiesType
      * Adds as cert
      *
      * @return self
-     * @param \UBL\XAdES\v132\CertIDType $cert
+     * @param \App\UBL\XAdES\v132\CertIDType $cert
      */
-    public function addToSigningCertificate(\UBL\XAdES\v132\CertIDType $cert)
+    public function addToSigningCertificate(\App\UBL\XAdES\v132\CertIDType $cert)
     {
         $this->signingCertificate[] = $cert;
         return $this;
@@ -121,7 +121,7 @@ class SignedSignaturePropertiesType
     /**
      * Gets as signingCertificate
      *
-     * @return \UBL\XAdES\v132\CertIDType[]
+     * @return \App\UBL\XAdES\v132\CertIDType[]
      */
     public function getSigningCertificate()
     {
@@ -131,7 +131,7 @@ class SignedSignaturePropertiesType
     /**
      * Sets a new signingCertificate
      *
-     * @param \UBL\XAdES\v132\CertIDType[] $signingCertificate
+     * @param \App\UBL\XAdES\v132\CertIDType[] $signingCertificate
      * @return self
      */
     public function setSigningCertificate(?array $signingCertificate = null)
@@ -143,7 +143,7 @@ class SignedSignaturePropertiesType
     /**
      * Gets as signaturePolicyIdentifier
      *
-     * @return \UBL\XAdES\v132\SignaturePolicyIdentifierType
+     * @return \App\UBL\XAdES\v132\SignaturePolicyIdentifierType
      */
     public function getSignaturePolicyIdentifier()
     {
@@ -153,10 +153,10 @@ class SignedSignaturePropertiesType
     /**
      * Sets a new signaturePolicyIdentifier
      *
-     * @param \UBL\XAdES\v132\SignaturePolicyIdentifierType $signaturePolicyIdentifier
+     * @param \App\UBL\XAdES\v132\SignaturePolicyIdentifierType $signaturePolicyIdentifier
      * @return self
      */
-    public function setSignaturePolicyIdentifier(?\UBL\XAdES\v132\SignaturePolicyIdentifierType $signaturePolicyIdentifier = null)
+    public function setSignaturePolicyIdentifier(?\App\UBL\XAdES\v132\SignaturePolicyIdentifierType $signaturePolicyIdentifier = null)
     {
         $this->signaturePolicyIdentifier = $signaturePolicyIdentifier;
         return $this;
@@ -165,7 +165,7 @@ class SignedSignaturePropertiesType
     /**
      * Gets as signatureProductionPlace
      *
-     * @return \UBL\XAdES\v132\SignatureProductionPlaceType
+     * @return \App\UBL\XAdES\v132\SignatureProductionPlaceType
      */
     public function getSignatureProductionPlace()
     {
@@ -175,10 +175,10 @@ class SignedSignaturePropertiesType
     /**
      * Sets a new signatureProductionPlace
      *
-     * @param \UBL\XAdES\v132\SignatureProductionPlaceType $signatureProductionPlace
+     * @param \App\UBL\XAdES\v132\SignatureProductionPlaceType $signatureProductionPlace
      * @return self
      */
-    public function setSignatureProductionPlace(?\UBL\XAdES\v132\SignatureProductionPlaceType $signatureProductionPlace = null)
+    public function setSignatureProductionPlace(?\App\UBL\XAdES\v132\SignatureProductionPlaceType $signatureProductionPlace = null)
     {
         $this->signatureProductionPlace = $signatureProductionPlace;
         return $this;
@@ -187,7 +187,7 @@ class SignedSignaturePropertiesType
     /**
      * Gets as signerRole
      *
-     * @return \UBL\XAdES\v132\SignerRoleType
+     * @return \App\UBL\XAdES\v132\SignerRoleType
      */
     public function getSignerRole()
     {
@@ -197,14 +197,13 @@ class SignedSignaturePropertiesType
     /**
      * Sets a new signerRole
      *
-     * @param \UBL\XAdES\v132\SignerRoleType $signerRole
+     * @param \App\UBL\XAdES\v132\SignerRoleType $signerRole
      * @return self
      */
-    public function setSignerRole(?\UBL\XAdES\v132\SignerRoleType $signerRole = null)
+    public function setSignerRole(?\App\UBL\XAdES\v132\SignerRoleType $signerRole = null)
     {
         $this->signerRole = $signerRole;
         return $this;
     }
 }
-
 

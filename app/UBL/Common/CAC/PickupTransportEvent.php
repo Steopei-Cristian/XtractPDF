@@ -9,4 +9,3 @@ class PickupTransportEvent extends TransportEventType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ElectronicDeviceDescription extends ElectronicDeviceDescriptionType
 {
 }
 
-

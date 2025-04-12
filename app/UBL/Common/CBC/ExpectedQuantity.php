@@ -9,4 +9,3 @@ class ExpectedQuantity extends ExpectedQuantityType
 {
 }
 
-

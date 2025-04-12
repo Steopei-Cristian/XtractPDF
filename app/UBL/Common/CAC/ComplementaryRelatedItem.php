@@ -9,4 +9,3 @@ class ComplementaryRelatedItem extends RelatedItemType
 {
 }
 
-

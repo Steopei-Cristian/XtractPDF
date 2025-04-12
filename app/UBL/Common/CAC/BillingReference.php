@@ -9,4 +9,3 @@ class BillingReference extends BillingReferenceType
 {
 }
 
-

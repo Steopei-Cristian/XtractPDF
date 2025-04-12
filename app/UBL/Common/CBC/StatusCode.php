@@ -9,4 +9,3 @@ class StatusCode extends StatusCodeType
 {
 }
 
-

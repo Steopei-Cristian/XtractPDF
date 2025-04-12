@@ -1,2 +1,2 @@
-UBL\Common\CBC\SequenceNumberIDType:
+App\UBL\Common\CBC\SequenceNumberIDType:
     properties: {  }

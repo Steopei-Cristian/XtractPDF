@@ -24,7 +24,7 @@ class CreditAccountType
      *  Identifier. Type
      *  Customer Code 29
      *
-     * @var \UBL\Common\CBC\AccountID $accountID
+     * @var \App\UBL\Common\CBC\AccountID $accountID
      */
     private $accountID = null;
 
@@ -41,7 +41,7 @@ class CreditAccountType
      *  Identifier. Type
      *  Customer Code 29
      *
-     * @return \UBL\Common\CBC\AccountID
+     * @return \App\UBL\Common\CBC\AccountID
      */
     public function getAccountID()
     {
@@ -61,14 +61,13 @@ class CreditAccountType
      *  Identifier. Type
      *  Customer Code 29
      *
-     * @param \UBL\Common\CBC\AccountID $accountID
+     * @param \App\UBL\Common\CBC\AccountID $accountID
      * @return self
      */
-    public function setAccountID(\UBL\Common\CBC\AccountID $accountID)
+    public function setAccountID(\App\UBL\Common\CBC\AccountID $accountID)
     {
         $this->accountID = $accountID;
         return $this;
     }
 }
-
 

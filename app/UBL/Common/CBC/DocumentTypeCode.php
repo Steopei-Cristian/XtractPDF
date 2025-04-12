@@ -9,4 +9,3 @@ class DocumentTypeCode extends DocumentTypeCodeType
 {
 }
 
-

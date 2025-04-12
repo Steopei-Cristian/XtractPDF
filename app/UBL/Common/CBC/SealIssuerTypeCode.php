@@ -9,4 +9,3 @@ class SealIssuerTypeCode extends SealIssuerTypeCodeType
 {
 }
 
-

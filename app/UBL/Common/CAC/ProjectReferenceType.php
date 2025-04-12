@@ -23,7 +23,7 @@ class ProjectReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class ProjectReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -65,7 +65,7 @@ class ProjectReferenceType
      *  Work Phase Reference
      *  Work Phase Reference
      *
-     * @var \UBL\Common\CAC\WorkPhaseReference[] $workPhaseReference
+     * @var \App\UBL\Common\CAC\WorkPhaseReference[] $workPhaseReference
      */
     private $workPhaseReference = [
         
@@ -83,7 +83,7 @@ class ProjectReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -102,10 +102,10 @@ class ProjectReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -123,7 +123,7 @@ class ProjectReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -142,10 +142,10 @@ class ProjectReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -204,9 +204,9 @@ class ProjectReferenceType
      *  Work Phase Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\WorkPhaseReference $workPhaseReference
+     * @param \App\UBL\Common\CAC\WorkPhaseReference $workPhaseReference
      */
-    public function addToWorkPhaseReference(\UBL\Common\CAC\WorkPhaseReference $workPhaseReference)
+    public function addToWorkPhaseReference(\App\UBL\Common\CAC\WorkPhaseReference $workPhaseReference)
     {
         $this->workPhaseReference[] = $workPhaseReference;
         return $this;
@@ -264,7 +264,7 @@ class ProjectReferenceType
      *  Work Phase Reference
      *  Work Phase Reference
      *
-     * @return \UBL\Common\CAC\WorkPhaseReference[]
+     * @return \App\UBL\Common\CAC\WorkPhaseReference[]
      */
     public function getWorkPhaseReference()
     {
@@ -283,7 +283,7 @@ class ProjectReferenceType
      *  Work Phase Reference
      *  Work Phase Reference
      *
-     * @param \UBL\Common\CAC\WorkPhaseReference[] $workPhaseReference
+     * @param \App\UBL\Common\CAC\WorkPhaseReference[] $workPhaseReference
      * @return self
      */
     public function setWorkPhaseReference(?array $workPhaseReference = null)
@@ -292,5 +292,4 @@ class ProjectReferenceType
         return $this;
     }
 }
-
 

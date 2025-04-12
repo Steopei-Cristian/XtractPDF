@@ -9,4 +9,3 @@ class ResultOfVerification extends ResultOfVerificationType
 {
 }
 
-

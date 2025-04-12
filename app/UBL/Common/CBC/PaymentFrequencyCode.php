@@ -9,4 +9,3 @@ class PaymentFrequencyCode extends PaymentFrequencyCodeType
 {
 }
 
-

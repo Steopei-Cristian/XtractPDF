@@ -9,4 +9,3 @@ class DurationMeasure extends DurationMeasureType
 {
 }
 
-

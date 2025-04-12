@@ -9,4 +9,3 @@ class TransportEventTypeCode extends TransportEventTypeCodeType
 {
 }
 
-

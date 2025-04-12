@@ -1,4 +1,4 @@
-UBL\Common\CAC\CertificateOfOriginApplicationType:
+App\UBL\Common\CAC\CertificateOfOriginApplicationType:
     properties:
         referenceID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
             accessor:
                 getter: getReferenceID
                 setter: setReferenceID
-            type: UBL\Common\CBC\ReferenceID
+            type: App\UBL\Common\CBC\ReferenceID
         certificateType:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
             accessor:
                 getter: getCertificateType
                 setter: setCertificateType
-            type: UBL\Common\CBC\CertificateType
+            type: App\UBL\Common\CBC\CertificateType
         applicationStatusCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
             accessor:
                 getter: getApplicationStatusCode
                 setter: setApplicationStatusCode
-            type: UBL\Common\CBC\ApplicationStatusCode
+            type: App\UBL\Common\CBC\ApplicationStatusCode
         originalJobID:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
             accessor:
                 getter: getOriginalJobID
                 setter: setOriginalJobID
-            type: UBL\Common\CBC\OriginalJobID
+            type: App\UBL\Common\CBC\OriginalJobID
         previousJobID:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
             accessor:
                 getter: getPreviousJobID
                 setter: setPreviousJobID
-            type: UBL\Common\CBC\PreviousJobID
+            type: App\UBL\Common\CBC\PreviousJobID
         remarks:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
                 inline: true
                 entry_name: Remarks
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Remarks>
+            type: array<App\UBL\Common\CBC\Remarks>
         shipment:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
             accessor:
                 getter: getShipment
                 setter: setShipment
-            type: UBL\Common\CAC\Shipment
+            type: App\UBL\Common\CAC\Shipment
         endorserParty:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
                 inline: true
                 entry_name: EndorserParty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\EndorserParty>
+            type: array<App\UBL\Common\CAC\EndorserParty>
         preparationParty:
             expose: true
             access_type: public_method
@@ -97,7 +97,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
             accessor:
                 getter: getPreparationParty
                 setter: setPreparationParty
-            type: UBL\Common\CAC\PreparationParty
+            type: App\UBL\Common\CAC\PreparationParty
         issuerParty:
             expose: true
             access_type: public_method
@@ -107,7 +107,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
             accessor:
                 getter: getIssuerParty
                 setter: setIssuerParty
-            type: UBL\Common\CAC\IssuerParty
+            type: App\UBL\Common\CAC\IssuerParty
         exporterParty:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
             accessor:
                 getter: getExporterParty
                 setter: setExporterParty
-            type: UBL\Common\CAC\ExporterParty
+            type: App\UBL\Common\CAC\ExporterParty
         importerParty:
             expose: true
             access_type: public_method
@@ -127,7 +127,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
             accessor:
                 getter: getImporterParty
                 setter: setImporterParty
-            type: UBL\Common\CAC\ImporterParty
+            type: App\UBL\Common\CAC\ImporterParty
         issuingCountry:
             expose: true
             access_type: public_method
@@ -137,7 +137,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
             accessor:
                 getter: getIssuingCountry
                 setter: setIssuingCountry
-            type: UBL\Common\CAC\IssuingCountry
+            type: App\UBL\Common\CAC\IssuingCountry
         documentDistribution:
             expose: true
             access_type: public_method
@@ -151,7 +151,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
                 inline: true
                 entry_name: DocumentDistribution
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DocumentDistribution>
+            type: array<App\UBL\Common\CAC\DocumentDistribution>
         supportingDocumentReference:
             expose: true
             access_type: public_method
@@ -165,7 +165,7 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
                 inline: true
                 entry_name: SupportingDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SupportingDocumentReference>
+            type: array<App\UBL\Common\CAC\SupportingDocumentReference>
         signature:
             expose: true
             access_type: public_method
@@ -179,4 +179,4 @@ UBL\Common\CAC\CertificateOfOriginApplicationType:
                 inline: true
                 entry_name: Signature
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Signature>
+            type: array<App\UBL\Common\CAC\Signature>

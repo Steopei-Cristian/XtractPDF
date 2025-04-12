@@ -1,4 +1,4 @@
-UBL\Common\CBC\LastRevisionDateType:
+App\UBL\Common\CBC\LastRevisionDateType:
     properties:
         __value:
             expose: true

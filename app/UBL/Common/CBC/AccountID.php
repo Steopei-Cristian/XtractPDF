@@ -9,4 +9,3 @@ class AccountID extends AccountIDType
 {
 }
 
-

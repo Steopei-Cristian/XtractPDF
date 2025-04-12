@@ -9,4 +9,3 @@ class ActivityProperty extends ActivityPropertyType
 {
 }
 
-

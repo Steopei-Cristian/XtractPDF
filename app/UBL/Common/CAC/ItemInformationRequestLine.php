@@ -9,4 +9,3 @@ class ItemInformationRequestLine extends ItemInformationRequestLineType
 {
 }
 
-

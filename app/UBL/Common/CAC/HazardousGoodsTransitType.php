@@ -24,7 +24,7 @@ class HazardousGoodsTransitType
      *  Code. Type
      *  TREM card
      *
-     * @var \UBL\Common\CBC\TransportEmergencyCardCode $transportEmergencyCardCode
+     * @var \App\UBL\Common\CBC\TransportEmergencyCardCode $transportEmergencyCardCode
      */
     private $transportEmergencyCardCode = null;
 
@@ -39,7 +39,7 @@ class HazardousGoodsTransitType
      *  Code. Type
      *  Packing Group
      *
-     * @var \UBL\Common\CBC\PackingCriteriaCode $packingCriteriaCode
+     * @var \App\UBL\Common\CBC\PackingCriteriaCode $packingCriteriaCode
      */
     private $packingCriteriaCode = null;
 
@@ -53,7 +53,7 @@ class HazardousGoodsTransitType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\HazardousRegulationCode $hazardousRegulationCode
+     * @var \App\UBL\Common\CBC\HazardousRegulationCode $hazardousRegulationCode
      */
     private $hazardousRegulationCode = null;
 
@@ -67,7 +67,7 @@ class HazardousGoodsTransitType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\InhalationToxicityZoneCode $inhalationToxicityZoneCode
+     * @var \App\UBL\Common\CBC\InhalationToxicityZoneCode $inhalationToxicityZoneCode
      */
     private $inhalationToxicityZoneCode = null;
 
@@ -82,7 +82,7 @@ class HazardousGoodsTransitType
      *  Code. Type
      *  Permission for Transport
      *
-     * @var \UBL\Common\CBC\TransportAuthorizationCode $transportAuthorizationCode
+     * @var \App\UBL\Common\CBC\TransportAuthorizationCode $transportAuthorizationCode
      */
     private $transportAuthorizationCode = null;
 
@@ -97,7 +97,7 @@ class HazardousGoodsTransitType
      *  Temperature
      *  Temperature
      *
-     * @var \UBL\Common\CAC\MaximumTemperature $maximumTemperature
+     * @var \App\UBL\Common\CAC\MaximumTemperature $maximumTemperature
      */
     private $maximumTemperature = null;
 
@@ -112,7 +112,7 @@ class HazardousGoodsTransitType
      *  Temperature
      *  Temperature
      *
-     * @var \UBL\Common\CAC\MinimumTemperature $minimumTemperature
+     * @var \App\UBL\Common\CAC\MinimumTemperature $minimumTemperature
      */
     private $minimumTemperature = null;
 
@@ -129,7 +129,7 @@ class HazardousGoodsTransitType
      *  Code. Type
      *  TREM card
      *
-     * @return \UBL\Common\CBC\TransportEmergencyCardCode
+     * @return \App\UBL\Common\CBC\TransportEmergencyCardCode
      */
     public function getTransportEmergencyCardCode()
     {
@@ -149,10 +149,10 @@ class HazardousGoodsTransitType
      *  Code. Type
      *  TREM card
      *
-     * @param \UBL\Common\CBC\TransportEmergencyCardCode $transportEmergencyCardCode
+     * @param \App\UBL\Common\CBC\TransportEmergencyCardCode $transportEmergencyCardCode
      * @return self
      */
-    public function setTransportEmergencyCardCode(?\UBL\Common\CBC\TransportEmergencyCardCode $transportEmergencyCardCode = null)
+    public function setTransportEmergencyCardCode(?\App\UBL\Common\CBC\TransportEmergencyCardCode $transportEmergencyCardCode = null)
     {
         $this->transportEmergencyCardCode = $transportEmergencyCardCode;
         return $this;
@@ -171,7 +171,7 @@ class HazardousGoodsTransitType
      *  Code. Type
      *  Packing Group
      *
-     * @return \UBL\Common\CBC\PackingCriteriaCode
+     * @return \App\UBL\Common\CBC\PackingCriteriaCode
      */
     public function getPackingCriteriaCode()
     {
@@ -191,10 +191,10 @@ class HazardousGoodsTransitType
      *  Code. Type
      *  Packing Group
      *
-     * @param \UBL\Common\CBC\PackingCriteriaCode $packingCriteriaCode
+     * @param \App\UBL\Common\CBC\PackingCriteriaCode $packingCriteriaCode
      * @return self
      */
-    public function setPackingCriteriaCode(?\UBL\Common\CBC\PackingCriteriaCode $packingCriteriaCode = null)
+    public function setPackingCriteriaCode(?\App\UBL\Common\CBC\PackingCriteriaCode $packingCriteriaCode = null)
     {
         $this->packingCriteriaCode = $packingCriteriaCode;
         return $this;
@@ -212,7 +212,7 @@ class HazardousGoodsTransitType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\HazardousRegulationCode
+     * @return \App\UBL\Common\CBC\HazardousRegulationCode
      */
     public function getHazardousRegulationCode()
     {
@@ -231,10 +231,10 @@ class HazardousGoodsTransitType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\HazardousRegulationCode $hazardousRegulationCode
+     * @param \App\UBL\Common\CBC\HazardousRegulationCode $hazardousRegulationCode
      * @return self
      */
-    public function setHazardousRegulationCode(?\UBL\Common\CBC\HazardousRegulationCode $hazardousRegulationCode = null)
+    public function setHazardousRegulationCode(?\App\UBL\Common\CBC\HazardousRegulationCode $hazardousRegulationCode = null)
     {
         $this->hazardousRegulationCode = $hazardousRegulationCode;
         return $this;
@@ -252,7 +252,7 @@ class HazardousGoodsTransitType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\InhalationToxicityZoneCode
+     * @return \App\UBL\Common\CBC\InhalationToxicityZoneCode
      */
     public function getInhalationToxicityZoneCode()
     {
@@ -271,10 +271,10 @@ class HazardousGoodsTransitType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\InhalationToxicityZoneCode $inhalationToxicityZoneCode
+     * @param \App\UBL\Common\CBC\InhalationToxicityZoneCode $inhalationToxicityZoneCode
      * @return self
      */
-    public function setInhalationToxicityZoneCode(?\UBL\Common\CBC\InhalationToxicityZoneCode $inhalationToxicityZoneCode = null)
+    public function setInhalationToxicityZoneCode(?\App\UBL\Common\CBC\InhalationToxicityZoneCode $inhalationToxicityZoneCode = null)
     {
         $this->inhalationToxicityZoneCode = $inhalationToxicityZoneCode;
         return $this;
@@ -293,7 +293,7 @@ class HazardousGoodsTransitType
      *  Code. Type
      *  Permission for Transport
      *
-     * @return \UBL\Common\CBC\TransportAuthorizationCode
+     * @return \App\UBL\Common\CBC\TransportAuthorizationCode
      */
     public function getTransportAuthorizationCode()
     {
@@ -313,10 +313,10 @@ class HazardousGoodsTransitType
      *  Code. Type
      *  Permission for Transport
      *
-     * @param \UBL\Common\CBC\TransportAuthorizationCode $transportAuthorizationCode
+     * @param \App\UBL\Common\CBC\TransportAuthorizationCode $transportAuthorizationCode
      * @return self
      */
-    public function setTransportAuthorizationCode(?\UBL\Common\CBC\TransportAuthorizationCode $transportAuthorizationCode = null)
+    public function setTransportAuthorizationCode(?\App\UBL\Common\CBC\TransportAuthorizationCode $transportAuthorizationCode = null)
     {
         $this->transportAuthorizationCode = $transportAuthorizationCode;
         return $this;
@@ -335,7 +335,7 @@ class HazardousGoodsTransitType
      *  Temperature
      *  Temperature
      *
-     * @return \UBL\Common\CAC\MaximumTemperature
+     * @return \App\UBL\Common\CAC\MaximumTemperature
      */
     public function getMaximumTemperature()
     {
@@ -355,10 +355,10 @@ class HazardousGoodsTransitType
      *  Temperature
      *  Temperature
      *
-     * @param \UBL\Common\CAC\MaximumTemperature $maximumTemperature
+     * @param \App\UBL\Common\CAC\MaximumTemperature $maximumTemperature
      * @return self
      */
-    public function setMaximumTemperature(?\UBL\Common\CAC\MaximumTemperature $maximumTemperature = null)
+    public function setMaximumTemperature(?\App\UBL\Common\CAC\MaximumTemperature $maximumTemperature = null)
     {
         $this->maximumTemperature = $maximumTemperature;
         return $this;
@@ -377,7 +377,7 @@ class HazardousGoodsTransitType
      *  Temperature
      *  Temperature
      *
-     * @return \UBL\Common\CAC\MinimumTemperature
+     * @return \App\UBL\Common\CAC\MinimumTemperature
      */
     public function getMinimumTemperature()
     {
@@ -397,14 +397,13 @@ class HazardousGoodsTransitType
      *  Temperature
      *  Temperature
      *
-     * @param \UBL\Common\CAC\MinimumTemperature $minimumTemperature
+     * @param \App\UBL\Common\CAC\MinimumTemperature $minimumTemperature
      * @return self
      */
-    public function setMinimumTemperature(?\UBL\Common\CAC\MinimumTemperature $minimumTemperature = null)
+    public function setMinimumTemperature(?\App\UBL\Common\CAC\MinimumTemperature $minimumTemperature = null)
     {
         $this->minimumTemperature = $minimumTemperature;
         return $this;
     }
 }
-
 

@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\AmountType;
+use App\UBL\Unqualified\AmountType;
 
 /**
  * Class representing SettlementDiscountAmountType
@@ -13,5 +13,4 @@ use UBL\Unqualified\AmountType;
 class SettlementDiscountAmountType extends AmountType
 {
 }
-
 

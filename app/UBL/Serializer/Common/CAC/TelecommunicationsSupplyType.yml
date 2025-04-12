@@ -1,4 +1,4 @@
-UBL\Common\CAC\TelecommunicationsSupplyType:
+App\UBL\Common\CAC\TelecommunicationsSupplyType:
     properties:
         telecommunicationsSupplyType:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\TelecommunicationsSupplyType:
             accessor:
                 getter: getTelecommunicationsSupplyType
                 setter: setTelecommunicationsSupplyType
-            type: UBL\Common\CBC\TelecommunicationsSupplyType
+            type: App\UBL\Common\CBC\TelecommunicationsSupplyType
         telecommunicationsSupplyTypeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\TelecommunicationsSupplyType:
             accessor:
                 getter: getTelecommunicationsSupplyTypeCode
                 setter: setTelecommunicationsSupplyTypeCode
-            type: UBL\Common\CBC\TelecommunicationsSupplyTypeCode
+            type: App\UBL\Common\CBC\TelecommunicationsSupplyTypeCode
         privacyCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\TelecommunicationsSupplyType:
             accessor:
                 getter: getPrivacyCode
                 setter: setPrivacyCode
-            type: UBL\Common\CBC\PrivacyCode
+            type: App\UBL\Common\CBC\PrivacyCode
         description:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\TelecommunicationsSupplyType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         totalAmount:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\TelecommunicationsSupplyType:
             accessor:
                 getter: getTotalAmount
                 setter: setTotalAmount
-            type: UBL\Common\CBC\TotalAmount
+            type: App\UBL\Common\CBC\TotalAmount
         telecommunicationsSupplyLine:
             expose: true
             access_type: public_method
@@ -67,4 +67,4 @@ UBL\Common\CAC\TelecommunicationsSupplyType:
                 inline: true
                 entry_name: TelecommunicationsSupplyLine
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TelecommunicationsSupplyLine>
+            type: array<App\UBL\Common\CAC\TelecommunicationsSupplyLine>

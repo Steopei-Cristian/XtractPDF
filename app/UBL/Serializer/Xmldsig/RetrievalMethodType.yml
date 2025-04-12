@@ -1,4 +1,4 @@
-UBL\Xmldsig\RetrievalMethodType:
+App\UBL\Xmldsig\RetrievalMethodType:
     properties:
         uRI:
             expose: true
@@ -27,7 +27,7 @@ UBL\Xmldsig\RetrievalMethodType:
             accessor:
                 getter: getTransforms
                 setter: setTransforms
-            type: array<UBL\Xmldsig\Transform>
+            type: array<App\UBL\Xmldsig\Transform>
             xml_list:
                 inline: false
                 entry_name: Transform

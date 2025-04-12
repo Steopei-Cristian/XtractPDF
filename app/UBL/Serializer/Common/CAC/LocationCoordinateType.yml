@@ -1,4 +1,4 @@
-UBL\Common\CAC\LocationCoordinateType:
+App\UBL\Common\CAC\LocationCoordinateType:
     properties:
         coordinateSystemCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\LocationCoordinateType:
             accessor:
                 getter: getCoordinateSystemCode
                 setter: setCoordinateSystemCode
-            type: UBL\Common\CBC\CoordinateSystemCode
+            type: App\UBL\Common\CBC\CoordinateSystemCode
         latitudeDegreesMeasure:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\LocationCoordinateType:
             accessor:
                 getter: getLatitudeDegreesMeasure
                 setter: setLatitudeDegreesMeasure
-            type: UBL\Common\CBC\LatitudeDegreesMeasure
+            type: App\UBL\Common\CBC\LatitudeDegreesMeasure
         latitudeMinutesMeasure:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\LocationCoordinateType:
             accessor:
                 getter: getLatitudeMinutesMeasure
                 setter: setLatitudeMinutesMeasure
-            type: UBL\Common\CBC\LatitudeMinutesMeasure
+            type: App\UBL\Common\CBC\LatitudeMinutesMeasure
         latitudeDirectionCode:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\LocationCoordinateType:
             accessor:
                 getter: getLatitudeDirectionCode
                 setter: setLatitudeDirectionCode
-            type: UBL\Common\CBC\LatitudeDirectionCode
+            type: App\UBL\Common\CBC\LatitudeDirectionCode
         longitudeDegreesMeasure:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\LocationCoordinateType:
             accessor:
                 getter: getLongitudeDegreesMeasure
                 setter: setLongitudeDegreesMeasure
-            type: UBL\Common\CBC\LongitudeDegreesMeasure
+            type: App\UBL\Common\CBC\LongitudeDegreesMeasure
         longitudeMinutesMeasure:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\LocationCoordinateType:
             accessor:
                 getter: getLongitudeMinutesMeasure
                 setter: setLongitudeMinutesMeasure
-            type: UBL\Common\CBC\LongitudeMinutesMeasure
+            type: App\UBL\Common\CBC\LongitudeMinutesMeasure
         longitudeDirectionCode:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\LocationCoordinateType:
             accessor:
                 getter: getLongitudeDirectionCode
                 setter: setLongitudeDirectionCode
-            type: UBL\Common\CBC\LongitudeDirectionCode
+            type: App\UBL\Common\CBC\LongitudeDirectionCode
         altitudeMeasure:
             expose: true
             access_type: public_method
@@ -79,4 +79,4 @@ UBL\Common\CAC\LocationCoordinateType:
             accessor:
                 getter: getAltitudeMeasure
                 setter: setAltitudeMeasure
-            type: UBL\Common\CBC\AltitudeMeasure
+            type: App\UBL\Common\CBC\AltitudeMeasure

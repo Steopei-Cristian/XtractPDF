@@ -1,2 +1,2 @@
-UBL\Common\CBC\TransportAuthorizationCodeType:
+App\UBL\Common\CBC\TransportAuthorizationCodeType:
     properties: {  }

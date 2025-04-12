@@ -1,3 +1,3 @@
-UBL\Common\CAC\PreSelectedParty:
+App\UBL\Common\CAC\PreSelectedParty:
     xml_root_name: PreSelectedParty
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

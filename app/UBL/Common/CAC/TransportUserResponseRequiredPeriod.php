@@ -9,4 +9,3 @@ class TransportUserResponseRequiredPeriod extends PeriodType
 {
 }
 
-

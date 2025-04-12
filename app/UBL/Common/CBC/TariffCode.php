@@ -9,4 +9,3 @@ class TariffCode extends TariffCodeType
 {
 }
 
-

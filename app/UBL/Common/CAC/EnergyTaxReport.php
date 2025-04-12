@@ -9,4 +9,3 @@ class EnergyTaxReport extends EnergyTaxReportType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Xmldsig\DSAKeyValueType:
+App\UBL\Xmldsig\DSAKeyValueType:
     properties:
         p:
             expose: true

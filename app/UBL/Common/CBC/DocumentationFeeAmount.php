@@ -9,4 +9,3 @@ class DocumentationFeeAmount extends DocumentationFeeAmountType
 {
 }
 
-

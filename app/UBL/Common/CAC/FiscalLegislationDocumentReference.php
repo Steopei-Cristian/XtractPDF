@@ -9,4 +9,3 @@ class FiscalLegislationDocumentReference extends DocumentReferenceType
 {
 }
 
-

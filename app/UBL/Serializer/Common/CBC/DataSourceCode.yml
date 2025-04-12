@@ -1,3 +1,3 @@
-UBL\Common\CBC\DataSourceCode:
+App\UBL\Common\CBC\DataSourceCode:
     xml_root_name: DataSourceCode
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

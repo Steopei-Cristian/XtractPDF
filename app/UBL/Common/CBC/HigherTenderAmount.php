@@ -9,4 +9,3 @@ class HigherTenderAmount extends HigherTenderAmountType
 {
 }
 
-

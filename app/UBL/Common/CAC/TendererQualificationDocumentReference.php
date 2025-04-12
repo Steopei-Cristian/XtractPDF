@@ -9,4 +9,3 @@ class TendererQualificationDocumentReference extends DocumentReferenceType
 {
 }
 
-

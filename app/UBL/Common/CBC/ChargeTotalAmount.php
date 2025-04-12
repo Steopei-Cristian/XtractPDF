@@ -9,4 +9,3 @@ class ChargeTotalAmount extends ChargeTotalAmountType
 {
 }
 
-

@@ -1,2 +1,2 @@
-UBL\Common\CBC\ElectronicMailType:
+App\UBL\Common\CBC\ElectronicMailType:
     properties: {  }

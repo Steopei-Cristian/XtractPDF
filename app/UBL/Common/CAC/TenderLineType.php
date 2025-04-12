@@ -23,7 +23,7 @@ class TenderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class TenderLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -53,7 +53,7 @@ class TenderLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -67,7 +67,7 @@ class TenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @var \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      */
     private $lineExtensionAmount = null;
 
@@ -82,7 +82,7 @@ class TenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\TotalTaxAmount $totalTaxAmount
+     * @var \App\UBL\Common\CBC\TotalTaxAmount $totalTaxAmount
      */
     private $totalTaxAmount = null;
 
@@ -97,7 +97,7 @@ class TenderLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\OrderableUnit $orderableUnit
+     * @var \App\UBL\Common\CBC\OrderableUnit $orderableUnit
      */
     private $orderableUnit = null;
 
@@ -112,7 +112,7 @@ class TenderLineType
      *  Quantity. Type
      *  If order unit measure identifier is each , then content unit quantity is 1 .
      *
-     * @var \UBL\Common\CBC\ContentUnitQuantity $contentUnitQuantity
+     * @var \App\UBL\Common\CBC\ContentUnitQuantity $contentUnitQuantity
      */
     private $contentUnitQuantity = null;
 
@@ -126,7 +126,7 @@ class TenderLineType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\OrderQuantityIncrementNumeric $orderQuantityIncrementNumeric
+     * @var \App\UBL\Common\CBC\OrderQuantityIncrementNumeric $orderQuantityIncrementNumeric
      */
     private $orderQuantityIncrementNumeric = null;
 
@@ -142,7 +142,7 @@ class TenderLineType
      *  Quantity. Type
      *  10 boxes
      *
-     * @var \UBL\Common\CBC\MinimumOrderQuantity $minimumOrderQuantity
+     * @var \App\UBL\Common\CBC\MinimumOrderQuantity $minimumOrderQuantity
      */
     private $minimumOrderQuantity = null;
 
@@ -158,7 +158,7 @@ class TenderLineType
      *  Quantity. Type
      *  1 tonne
      *
-     * @var \UBL\Common\CBC\MaximumOrderQuantity $maximumOrderQuantity
+     * @var \App\UBL\Common\CBC\MaximumOrderQuantity $maximumOrderQuantity
      */
     private $maximumOrderQuantity = null;
 
@@ -174,7 +174,7 @@ class TenderLineType
      *  Text. Type
      *  Unless specified otherwise and in addition to any rights the Customer may have under statute, Dell warrants to the Customer that Dell branded Products (excluding third party products and software), will be free from defects in materials and workmanship affecting normal use for a period of one year from invoice date ( Standard Warranty ).
      *
-     * @var \UBL\Common\CBC\WarrantyInformation[] $warrantyInformation
+     * @var \App\UBL\Common\CBC\WarrantyInformation[] $warrantyInformation
      */
     private $warrantyInformation = [
         
@@ -192,7 +192,7 @@ class TenderLineType
      *  Consumer Unit, Trading Unit
      *  level 2 , Group 4
      *
-     * @var \UBL\Common\CBC\PackLevelCode $packLevelCode
+     * @var \App\UBL\Common\CBC\PackLevelCode $packLevelCode
      */
     private $packLevelCode = null;
 
@@ -206,7 +206,7 @@ class TenderLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -222,7 +222,7 @@ class TenderLineType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item $item
+     * @var \App\UBL\Common\CAC\Item $item
      */
     private $item = null;
 
@@ -237,7 +237,7 @@ class TenderLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @var \UBL\Common\CAC\OfferedItemLocationQuantity[] $offeredItemLocationQuantity
+     * @var \App\UBL\Common\CAC\OfferedItemLocationQuantity[] $offeredItemLocationQuantity
      */
     private $offeredItemLocationQuantity = [
         
@@ -254,7 +254,7 @@ class TenderLineType
      *  Related Item
      *  Related Item
      *
-     * @var \UBL\Common\CAC\ReplacementRelatedItem[] $replacementRelatedItem
+     * @var \App\UBL\Common\CAC\ReplacementRelatedItem[] $replacementRelatedItem
      */
     private $replacementRelatedItem = [
         
@@ -271,7 +271,7 @@ class TenderLineType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\WarrantyParty $warrantyParty
+     * @var \App\UBL\Common\CAC\WarrantyParty $warrantyParty
      */
     private $warrantyParty = null;
 
@@ -286,7 +286,7 @@ class TenderLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
+     * @var \App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
      */
     private $warrantyValidityPeriod = null;
 
@@ -301,7 +301,7 @@ class TenderLineType
      *  Tender Line
      *  Tender Line
      *
-     * @var \UBL\Common\CAC\SubTenderLine[] $subTenderLine
+     * @var \App\UBL\Common\CAC\SubTenderLine[] $subTenderLine
      */
     private $subTenderLine = [
         
@@ -318,7 +318,7 @@ class TenderLineType
      *  Line Reference
      *  Line Reference
      *
-     * @var \UBL\Common\CAC\CallForTendersLineReference $callForTendersLineReference
+     * @var \App\UBL\Common\CAC\CallForTendersLineReference $callForTendersLineReference
      */
     private $callForTendersLineReference = null;
 
@@ -333,7 +333,7 @@ class TenderLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference
+     * @var \App\UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference
      */
     private $callForTendersDocumentReference = null;
 
@@ -349,7 +349,7 @@ class TenderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -368,10 +368,10 @@ class TenderLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -390,9 +390,9 @@ class TenderLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -450,7 +450,7 @@ class TenderLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -469,7 +469,7 @@ class TenderLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -490,7 +490,7 @@ class TenderLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -509,10 +509,10 @@ class TenderLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
@@ -530,7 +530,7 @@ class TenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\LineExtensionAmount
+     * @return \App\UBL\Common\CBC\LineExtensionAmount
      */
     public function getLineExtensionAmount()
     {
@@ -549,10 +549,10 @@ class TenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @param \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      * @return self
      */
-    public function setLineExtensionAmount(?\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount = null)
+    public function setLineExtensionAmount(?\App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount = null)
     {
         $this->lineExtensionAmount = $lineExtensionAmount;
         return $this;
@@ -571,7 +571,7 @@ class TenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\TotalTaxAmount
+     * @return \App\UBL\Common\CBC\TotalTaxAmount
      */
     public function getTotalTaxAmount()
     {
@@ -591,10 +591,10 @@ class TenderLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\TotalTaxAmount $totalTaxAmount
+     * @param \App\UBL\Common\CBC\TotalTaxAmount $totalTaxAmount
      * @return self
      */
-    public function setTotalTaxAmount(?\UBL\Common\CBC\TotalTaxAmount $totalTaxAmount = null)
+    public function setTotalTaxAmount(?\App\UBL\Common\CBC\TotalTaxAmount $totalTaxAmount = null)
     {
         $this->totalTaxAmount = $totalTaxAmount;
         return $this;
@@ -613,7 +613,7 @@ class TenderLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\OrderableUnit
+     * @return \App\UBL\Common\CBC\OrderableUnit
      */
     public function getOrderableUnit()
     {
@@ -633,10 +633,10 @@ class TenderLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\OrderableUnit $orderableUnit
+     * @param \App\UBL\Common\CBC\OrderableUnit $orderableUnit
      * @return self
      */
-    public function setOrderableUnit(?\UBL\Common\CBC\OrderableUnit $orderableUnit = null)
+    public function setOrderableUnit(?\App\UBL\Common\CBC\OrderableUnit $orderableUnit = null)
     {
         $this->orderableUnit = $orderableUnit;
         return $this;
@@ -655,7 +655,7 @@ class TenderLineType
      *  Quantity. Type
      *  If order unit measure identifier is each , then content unit quantity is 1 .
      *
-     * @return \UBL\Common\CBC\ContentUnitQuantity
+     * @return \App\UBL\Common\CBC\ContentUnitQuantity
      */
     public function getContentUnitQuantity()
     {
@@ -675,10 +675,10 @@ class TenderLineType
      *  Quantity. Type
      *  If order unit measure identifier is each , then content unit quantity is 1 .
      *
-     * @param \UBL\Common\CBC\ContentUnitQuantity $contentUnitQuantity
+     * @param \App\UBL\Common\CBC\ContentUnitQuantity $contentUnitQuantity
      * @return self
      */
-    public function setContentUnitQuantity(?\UBL\Common\CBC\ContentUnitQuantity $contentUnitQuantity = null)
+    public function setContentUnitQuantity(?\App\UBL\Common\CBC\ContentUnitQuantity $contentUnitQuantity = null)
     {
         $this->contentUnitQuantity = $contentUnitQuantity;
         return $this;
@@ -696,7 +696,7 @@ class TenderLineType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\OrderQuantityIncrementNumeric
+     * @return \App\UBL\Common\CBC\OrderQuantityIncrementNumeric
      */
     public function getOrderQuantityIncrementNumeric()
     {
@@ -715,10 +715,10 @@ class TenderLineType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\OrderQuantityIncrementNumeric $orderQuantityIncrementNumeric
+     * @param \App\UBL\Common\CBC\OrderQuantityIncrementNumeric $orderQuantityIncrementNumeric
      * @return self
      */
-    public function setOrderQuantityIncrementNumeric(?\UBL\Common\CBC\OrderQuantityIncrementNumeric $orderQuantityIncrementNumeric = null)
+    public function setOrderQuantityIncrementNumeric(?\App\UBL\Common\CBC\OrderQuantityIncrementNumeric $orderQuantityIncrementNumeric = null)
     {
         $this->orderQuantityIncrementNumeric = $orderQuantityIncrementNumeric;
         return $this;
@@ -738,7 +738,7 @@ class TenderLineType
      *  Quantity. Type
      *  10 boxes
      *
-     * @return \UBL\Common\CBC\MinimumOrderQuantity
+     * @return \App\UBL\Common\CBC\MinimumOrderQuantity
      */
     public function getMinimumOrderQuantity()
     {
@@ -759,10 +759,10 @@ class TenderLineType
      *  Quantity. Type
      *  10 boxes
      *
-     * @param \UBL\Common\CBC\MinimumOrderQuantity $minimumOrderQuantity
+     * @param \App\UBL\Common\CBC\MinimumOrderQuantity $minimumOrderQuantity
      * @return self
      */
-    public function setMinimumOrderQuantity(?\UBL\Common\CBC\MinimumOrderQuantity $minimumOrderQuantity = null)
+    public function setMinimumOrderQuantity(?\App\UBL\Common\CBC\MinimumOrderQuantity $minimumOrderQuantity = null)
     {
         $this->minimumOrderQuantity = $minimumOrderQuantity;
         return $this;
@@ -782,7 +782,7 @@ class TenderLineType
      *  Quantity. Type
      *  1 tonne
      *
-     * @return \UBL\Common\CBC\MaximumOrderQuantity
+     * @return \App\UBL\Common\CBC\MaximumOrderQuantity
      */
     public function getMaximumOrderQuantity()
     {
@@ -803,10 +803,10 @@ class TenderLineType
      *  Quantity. Type
      *  1 tonne
      *
-     * @param \UBL\Common\CBC\MaximumOrderQuantity $maximumOrderQuantity
+     * @param \App\UBL\Common\CBC\MaximumOrderQuantity $maximumOrderQuantity
      * @return self
      */
-    public function setMaximumOrderQuantity(?\UBL\Common\CBC\MaximumOrderQuantity $maximumOrderQuantity = null)
+    public function setMaximumOrderQuantity(?\App\UBL\Common\CBC\MaximumOrderQuantity $maximumOrderQuantity = null)
     {
         $this->maximumOrderQuantity = $maximumOrderQuantity;
         return $this;
@@ -827,9 +827,9 @@ class TenderLineType
      *  Unless specified otherwise and in addition to any rights the Customer may have under statute, Dell warrants to the Customer that Dell branded Products (excluding third party products and software), will be free from defects in materials and workmanship affecting normal use for a period of one year from invoice date ( Standard Warranty ).
      *
      * @return self
-     * @param \UBL\Common\CBC\WarrantyInformation $warrantyInformation
+     * @param \App\UBL\Common\CBC\WarrantyInformation $warrantyInformation
      */
-    public function addToWarrantyInformation(\UBL\Common\CBC\WarrantyInformation $warrantyInformation)
+    public function addToWarrantyInformation(\App\UBL\Common\CBC\WarrantyInformation $warrantyInformation)
     {
         $this->warrantyInformation[] = $warrantyInformation;
         return $this;
@@ -893,7 +893,7 @@ class TenderLineType
      *  Text. Type
      *  Unless specified otherwise and in addition to any rights the Customer may have under statute, Dell warrants to the Customer that Dell branded Products (excluding third party products and software), will be free from defects in materials and workmanship affecting normal use for a period of one year from invoice date ( Standard Warranty ).
      *
-     * @return \UBL\Common\CBC\WarrantyInformation[]
+     * @return \App\UBL\Common\CBC\WarrantyInformation[]
      */
     public function getWarrantyInformation()
     {
@@ -914,7 +914,7 @@ class TenderLineType
      *  Text. Type
      *  Unless specified otherwise and in addition to any rights the Customer may have under statute, Dell warrants to the Customer that Dell branded Products (excluding third party products and software), will be free from defects in materials and workmanship affecting normal use for a period of one year from invoice date ( Standard Warranty ).
      *
-     * @param \UBL\Common\CBC\WarrantyInformation[] $warrantyInformation
+     * @param \App\UBL\Common\CBC\WarrantyInformation[] $warrantyInformation
      * @return self
      */
     public function setWarrantyInformation(?array $warrantyInformation = null)
@@ -937,7 +937,7 @@ class TenderLineType
      *  Consumer Unit, Trading Unit
      *  level 2 , Group 4
      *
-     * @return \UBL\Common\CBC\PackLevelCode
+     * @return \App\UBL\Common\CBC\PackLevelCode
      */
     public function getPackLevelCode()
     {
@@ -958,10 +958,10 @@ class TenderLineType
      *  Consumer Unit, Trading Unit
      *  level 2 , Group 4
      *
-     * @param \UBL\Common\CBC\PackLevelCode $packLevelCode
+     * @param \App\UBL\Common\CBC\PackLevelCode $packLevelCode
      * @return self
      */
-    public function setPackLevelCode(?\UBL\Common\CBC\PackLevelCode $packLevelCode = null)
+    public function setPackLevelCode(?\App\UBL\Common\CBC\PackLevelCode $packLevelCode = null)
     {
         $this->packLevelCode = $packLevelCode;
         return $this;
@@ -980,9 +980,9 @@ class TenderLineType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -1040,7 +1040,7 @@ class TenderLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -1059,7 +1059,7 @@ class TenderLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -1080,7 +1080,7 @@ class TenderLineType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item
+     * @return \App\UBL\Common\CAC\Item
      */
     public function getItem()
     {
@@ -1099,10 +1099,10 @@ class TenderLineType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      * @return self
      */
-    public function setItem(?\UBL\Common\CAC\Item $item = null)
+    public function setItem(?\App\UBL\Common\CAC\Item $item = null)
     {
         $this->item = $item;
         return $this;
@@ -1122,9 +1122,9 @@ class TenderLineType
      *  Item Location Quantity
      *
      * @return self
-     * @param \UBL\Common\CAC\OfferedItemLocationQuantity $offeredItemLocationQuantity
+     * @param \App\UBL\Common\CAC\OfferedItemLocationQuantity $offeredItemLocationQuantity
      */
-    public function addToOfferedItemLocationQuantity(\UBL\Common\CAC\OfferedItemLocationQuantity $offeredItemLocationQuantity)
+    public function addToOfferedItemLocationQuantity(\App\UBL\Common\CAC\OfferedItemLocationQuantity $offeredItemLocationQuantity)
     {
         $this->offeredItemLocationQuantity[] = $offeredItemLocationQuantity;
         return $this;
@@ -1185,7 +1185,7 @@ class TenderLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @return \UBL\Common\CAC\OfferedItemLocationQuantity[]
+     * @return \App\UBL\Common\CAC\OfferedItemLocationQuantity[]
      */
     public function getOfferedItemLocationQuantity()
     {
@@ -1205,7 +1205,7 @@ class TenderLineType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @param \UBL\Common\CAC\OfferedItemLocationQuantity[] $offeredItemLocationQuantity
+     * @param \App\UBL\Common\CAC\OfferedItemLocationQuantity[] $offeredItemLocationQuantity
      * @return self
      */
     public function setOfferedItemLocationQuantity(?array $offeredItemLocationQuantity = null)
@@ -1228,9 +1228,9 @@ class TenderLineType
      *  Related Item
      *
      * @return self
-     * @param \UBL\Common\CAC\ReplacementRelatedItem $replacementRelatedItem
+     * @param \App\UBL\Common\CAC\ReplacementRelatedItem $replacementRelatedItem
      */
-    public function addToReplacementRelatedItem(\UBL\Common\CAC\ReplacementRelatedItem $replacementRelatedItem)
+    public function addToReplacementRelatedItem(\App\UBL\Common\CAC\ReplacementRelatedItem $replacementRelatedItem)
     {
         $this->replacementRelatedItem[] = $replacementRelatedItem;
         return $this;
@@ -1291,7 +1291,7 @@ class TenderLineType
      *  Related Item
      *  Related Item
      *
-     * @return \UBL\Common\CAC\ReplacementRelatedItem[]
+     * @return \App\UBL\Common\CAC\ReplacementRelatedItem[]
      */
     public function getReplacementRelatedItem()
     {
@@ -1311,7 +1311,7 @@ class TenderLineType
      *  Related Item
      *  Related Item
      *
-     * @param \UBL\Common\CAC\ReplacementRelatedItem[] $replacementRelatedItem
+     * @param \App\UBL\Common\CAC\ReplacementRelatedItem[] $replacementRelatedItem
      * @return self
      */
     public function setReplacementRelatedItem(?array $replacementRelatedItem = null)
@@ -1333,7 +1333,7 @@ class TenderLineType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\WarrantyParty
+     * @return \App\UBL\Common\CAC\WarrantyParty
      */
     public function getWarrantyParty()
     {
@@ -1353,10 +1353,10 @@ class TenderLineType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\WarrantyParty $warrantyParty
+     * @param \App\UBL\Common\CAC\WarrantyParty $warrantyParty
      * @return self
      */
-    public function setWarrantyParty(?\UBL\Common\CAC\WarrantyParty $warrantyParty = null)
+    public function setWarrantyParty(?\App\UBL\Common\CAC\WarrantyParty $warrantyParty = null)
     {
         $this->warrantyParty = $warrantyParty;
         return $this;
@@ -1375,7 +1375,7 @@ class TenderLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\WarrantyValidityPeriod
+     * @return \App\UBL\Common\CAC\WarrantyValidityPeriod
      */
     public function getWarrantyValidityPeriod()
     {
@@ -1395,10 +1395,10 @@ class TenderLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
+     * @param \App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod
      * @return self
      */
-    public function setWarrantyValidityPeriod(?\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod = null)
+    public function setWarrantyValidityPeriod(?\App\UBL\Common\CAC\WarrantyValidityPeriod $warrantyValidityPeriod = null)
     {
         $this->warrantyValidityPeriod = $warrantyValidityPeriod;
         return $this;
@@ -1418,9 +1418,9 @@ class TenderLineType
      *  Tender Line
      *
      * @return self
-     * @param \UBL\Common\CAC\SubTenderLine $subTenderLine
+     * @param \App\UBL\Common\CAC\SubTenderLine $subTenderLine
      */
-    public function addToSubTenderLine(\UBL\Common\CAC\SubTenderLine $subTenderLine)
+    public function addToSubTenderLine(\App\UBL\Common\CAC\SubTenderLine $subTenderLine)
     {
         $this->subTenderLine[] = $subTenderLine;
         return $this;
@@ -1481,7 +1481,7 @@ class TenderLineType
      *  Tender Line
      *  Tender Line
      *
-     * @return \UBL\Common\CAC\SubTenderLine[]
+     * @return \App\UBL\Common\CAC\SubTenderLine[]
      */
     public function getSubTenderLine()
     {
@@ -1501,7 +1501,7 @@ class TenderLineType
      *  Tender Line
      *  Tender Line
      *
-     * @param \UBL\Common\CAC\SubTenderLine[] $subTenderLine
+     * @param \App\UBL\Common\CAC\SubTenderLine[] $subTenderLine
      * @return self
      */
     public function setSubTenderLine(?array $subTenderLine = null)
@@ -1523,7 +1523,7 @@ class TenderLineType
      *  Line Reference
      *  Line Reference
      *
-     * @return \UBL\Common\CAC\CallForTendersLineReference
+     * @return \App\UBL\Common\CAC\CallForTendersLineReference
      */
     public function getCallForTendersLineReference()
     {
@@ -1543,10 +1543,10 @@ class TenderLineType
      *  Line Reference
      *  Line Reference
      *
-     * @param \UBL\Common\CAC\CallForTendersLineReference $callForTendersLineReference
+     * @param \App\UBL\Common\CAC\CallForTendersLineReference $callForTendersLineReference
      * @return self
      */
-    public function setCallForTendersLineReference(?\UBL\Common\CAC\CallForTendersLineReference $callForTendersLineReference = null)
+    public function setCallForTendersLineReference(?\App\UBL\Common\CAC\CallForTendersLineReference $callForTendersLineReference = null)
     {
         $this->callForTendersLineReference = $callForTendersLineReference;
         return $this;
@@ -1565,7 +1565,7 @@ class TenderLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\CallForTendersDocumentReference
+     * @return \App\UBL\Common\CAC\CallForTendersDocumentReference
      */
     public function getCallForTendersDocumentReference()
     {
@@ -1585,14 +1585,13 @@ class TenderLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference
+     * @param \App\UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference
      * @return self
      */
-    public function setCallForTendersDocumentReference(?\UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference = null)
+    public function setCallForTendersDocumentReference(?\App\UBL\Common\CAC\CallForTendersDocumentReference $callForTendersDocumentReference = null)
     {
         $this->callForTendersDocumentReference = $callForTendersDocumentReference;
         return $this;
     }
 }
-
 

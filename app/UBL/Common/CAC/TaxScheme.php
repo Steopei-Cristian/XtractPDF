@@ -9,4 +9,3 @@ class TaxScheme extends TaxSchemeType
 {
 }
 
-

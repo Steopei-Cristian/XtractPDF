@@ -25,7 +25,7 @@ class TransportEquipmentType
      *  Identifier. Type
      *  OCLU 1234567
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -40,7 +40,7 @@ class TransportEquipmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ReferencedConsignmentID[] $referencedConsignmentID
+     * @var \App\UBL\Common\CBC\ReferencedConsignmentID[] $referencedConsignmentID
      */
     private $referencedConsignmentID = [
         
@@ -57,7 +57,7 @@ class TransportEquipmentType
      *  Transport Equipment Type
      *  Transport Equipment Type_ Code. Type
      *
-     * @var \UBL\Common\CBC\TransportEquipmentTypeCode $transportEquipmentTypeCode
+     * @var \App\UBL\Common\CBC\TransportEquipmentTypeCode $transportEquipmentTypeCode
      */
     private $transportEquipmentTypeCode = null;
 
@@ -71,7 +71,7 @@ class TransportEquipmentType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ProviderTypeCode $providerTypeCode
+     * @var \App\UBL\Common\CBC\ProviderTypeCode $providerTypeCode
      */
     private $providerTypeCode = null;
 
@@ -85,7 +85,7 @@ class TransportEquipmentType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\OwnerTypeCode $ownerTypeCode
+     * @var \App\UBL\Common\CBC\OwnerTypeCode $ownerTypeCode
      */
     private $ownerTypeCode = null;
 
@@ -100,7 +100,7 @@ class TransportEquipmentType
      *  Code. Type
      *  Container Size Type Code
      *
-     * @var \UBL\Common\CBC\SizeTypeCode $sizeTypeCode
+     * @var \App\UBL\Common\CBC\SizeTypeCode $sizeTypeCode
      */
     private $sizeTypeCode = null;
 
@@ -115,7 +115,7 @@ class TransportEquipmentType
      *  Code. Type
      *  Status
      *
-     * @var \UBL\Common\CBC\DispositionCode $dispositionCode
+     * @var \App\UBL\Common\CBC\DispositionCode $dispositionCode
      */
     private $dispositionCode = null;
 
@@ -129,7 +129,7 @@ class TransportEquipmentType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\FullnessIndicationCode $fullnessIndicationCode
+     * @var \App\UBL\Common\CBC\FullnessIndicationCode $fullnessIndicationCode
      */
     private $fullnessIndicationCode = null;
 
@@ -158,7 +158,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Information[] $information
+     * @var \App\UBL\Common\CBC\Information[] $information
      */
     private $information = [
         
@@ -204,7 +204,7 @@ class TransportEquipmentType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\AirFlowPercent $airFlowPercent
+     * @var \App\UBL\Common\CBC\AirFlowPercent $airFlowPercent
      */
     private $airFlowPercent = null;
 
@@ -218,7 +218,7 @@ class TransportEquipmentType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\HumidityPercent $humidityPercent
+     * @var \App\UBL\Common\CBC\HumidityPercent $humidityPercent
      */
     private $humidityPercent = null;
 
@@ -292,7 +292,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Characteristics $characteristics
+     * @var \App\UBL\Common\CBC\Characteristics $characteristics
      */
     private $characteristics = null;
 
@@ -307,7 +307,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\DamageRemarks[] $damageRemarks
+     * @var \App\UBL\Common\CBC\DamageRemarks[] $damageRemarks
      */
     private $damageRemarks = [
         
@@ -323,7 +323,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -340,7 +340,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\SpecialTransportRequirements[] $specialTransportRequirements
+     * @var \App\UBL\Common\CBC\SpecialTransportRequirements[] $specialTransportRequirements
      */
     private $specialTransportRequirements = [
         
@@ -357,7 +357,7 @@ class TransportEquipmentType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
+     * @var \App\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
      */
     private $grossWeightMeasure = null;
 
@@ -372,7 +372,7 @@ class TransportEquipmentType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
+     * @var \App\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
      */
     private $grossVolumeMeasure = null;
 
@@ -387,7 +387,7 @@ class TransportEquipmentType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\TareWeightMeasure $tareWeightMeasure
+     * @var \App\UBL\Common\CBC\TareWeightMeasure $tareWeightMeasure
      */
     private $tareWeightMeasure = null;
 
@@ -401,7 +401,7 @@ class TransportEquipmentType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TrackingDeviceCode $trackingDeviceCode
+     * @var \App\UBL\Common\CBC\TrackingDeviceCode $trackingDeviceCode
      */
     private $trackingDeviceCode = null;
 
@@ -430,7 +430,7 @@ class TransportEquipmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\TraceID $traceID
+     * @var \App\UBL\Common\CBC\TraceID $traceID
      */
     private $traceID = null;
 
@@ -445,7 +445,7 @@ class TransportEquipmentType
      *  Dimension
      *  Dimension
      *
-     * @var \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @var \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      */
     private $measurementDimension = [
         
@@ -461,7 +461,7 @@ class TransportEquipmentType
      *  Transport Equipment Seal
      *  Transport Equipment Seal
      *
-     * @var \UBL\Common\CAC\TransportEquipmentSeal[] $transportEquipmentSeal
+     * @var \App\UBL\Common\CAC\TransportEquipmentSeal[] $transportEquipmentSeal
      */
     private $transportEquipmentSeal = [
         
@@ -478,7 +478,7 @@ class TransportEquipmentType
      *  Temperature
      *  Temperature
      *
-     * @var \UBL\Common\CAC\MinimumTemperature $minimumTemperature
+     * @var \App\UBL\Common\CAC\MinimumTemperature $minimumTemperature
      */
     private $minimumTemperature = null;
 
@@ -493,7 +493,7 @@ class TransportEquipmentType
      *  Temperature
      *  Temperature
      *
-     * @var \UBL\Common\CAC\MaximumTemperature $maximumTemperature
+     * @var \App\UBL\Common\CAC\MaximumTemperature $maximumTemperature
      */
     private $maximumTemperature = null;
 
@@ -508,7 +508,7 @@ class TransportEquipmentType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\ProviderParty $providerParty
+     * @var \App\UBL\Common\CAC\ProviderParty $providerParty
      */
     private $providerParty = null;
 
@@ -524,7 +524,7 @@ class TransportEquipmentType
      *  Party
      *  Party responsible for proof of vanning (WCO ID 059)
      *
-     * @var \UBL\Common\CAC\LoadingProofParty $loadingProofParty
+     * @var \App\UBL\Common\CAC\LoadingProofParty $loadingProofParty
      */
     private $loadingProofParty = null;
 
@@ -539,7 +539,7 @@ class TransportEquipmentType
      *  Supplier Party
      *  Party responsible for proof of vanning (WCO ID 059)
      *
-     * @var \UBL\Common\CAC\SupplierParty $supplierParty
+     * @var \App\UBL\Common\CAC\SupplierParty $supplierParty
      */
     private $supplierParty = null;
 
@@ -555,7 +555,7 @@ class TransportEquipmentType
      *  Party
      *  Party responsible for proof of vanning (WCO ID 059)
      *
-     * @var \UBL\Common\CAC\OwnerParty $ownerParty
+     * @var \App\UBL\Common\CAC\OwnerParty $ownerParty
      */
     private $ownerParty = null;
 
@@ -571,7 +571,7 @@ class TransportEquipmentType
      *  Party
      *  Party responsible for proof of vanning (WCO ID 059)
      *
-     * @var \UBL\Common\CAC\OperatingParty $operatingParty
+     * @var \App\UBL\Common\CAC\OperatingParty $operatingParty
      */
     private $operatingParty = null;
 
@@ -587,7 +587,7 @@ class TransportEquipmentType
      *  Location
      *  Vanning address (WCO ID 068), Stuffing location
      *
-     * @var \UBL\Common\CAC\LoadingLocation $loadingLocation
+     * @var \App\UBL\Common\CAC\LoadingLocation $loadingLocation
      */
     private $loadingLocation = null;
 
@@ -602,7 +602,7 @@ class TransportEquipmentType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\UnloadingLocation $unloadingLocation
+     * @var \App\UBL\Common\CAC\UnloadingLocation $unloadingLocation
      */
     private $unloadingLocation = null;
 
@@ -617,7 +617,7 @@ class TransportEquipmentType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\StorageLocation $storageLocation
+     * @var \App\UBL\Common\CAC\StorageLocation $storageLocation
      */
     private $storageLocation = null;
 
@@ -632,7 +632,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\PositioningTransportEvent[] $positioningTransportEvent
+     * @var \App\UBL\Common\CAC\PositioningTransportEvent[] $positioningTransportEvent
      */
     private $positioningTransportEvent = [
         
@@ -649,7 +649,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\QuarantineTransportEvent[] $quarantineTransportEvent
+     * @var \App\UBL\Common\CAC\QuarantineTransportEvent[] $quarantineTransportEvent
      */
     private $quarantineTransportEvent = [
         
@@ -666,7 +666,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\DeliveryTransportEvent[] $deliveryTransportEvent
+     * @var \App\UBL\Common\CAC\DeliveryTransportEvent[] $deliveryTransportEvent
      */
     private $deliveryTransportEvent = [
         
@@ -683,7 +683,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\PickupTransportEvent[] $pickupTransportEvent
+     * @var \App\UBL\Common\CAC\PickupTransportEvent[] $pickupTransportEvent
      */
     private $pickupTransportEvent = [
         
@@ -700,7 +700,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\HandlingTransportEvent[] $handlingTransportEvent
+     * @var \App\UBL\Common\CAC\HandlingTransportEvent[] $handlingTransportEvent
      */
     private $handlingTransportEvent = [
         
@@ -717,7 +717,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\LoadingTransportEvent[] $loadingTransportEvent
+     * @var \App\UBL\Common\CAC\LoadingTransportEvent[] $loadingTransportEvent
      */
     private $loadingTransportEvent = [
         
@@ -733,7 +733,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @var \UBL\Common\CAC\TransportEvent[] $transportEvent
+     * @var \App\UBL\Common\CAC\TransportEvent[] $transportEvent
      */
     private $transportEvent = [
         
@@ -750,7 +750,7 @@ class TransportEquipmentType
      *  Transport Means
      *  Transport Means
      *
-     * @var \UBL\Common\CAC\ApplicableTransportMeans $applicableTransportMeans
+     * @var \App\UBL\Common\CAC\ApplicableTransportMeans $applicableTransportMeans
      */
     private $applicableTransportMeans = null;
 
@@ -765,7 +765,7 @@ class TransportEquipmentType
      *  Trading Terms
      *  Trading Terms
      *
-     * @var \UBL\Common\CAC\HaulageTradingTerms[] $haulageTradingTerms
+     * @var \App\UBL\Common\CAC\HaulageTradingTerms[] $haulageTradingTerms
      */
     private $haulageTradingTerms = [
         
@@ -781,7 +781,7 @@ class TransportEquipmentType
      *  Hazardous Goods Transit
      *  Hazardous Goods Transit
      *
-     * @var \UBL\Common\CAC\HazardousGoodsTransit[] $hazardousGoodsTransit
+     * @var \App\UBL\Common\CAC\HazardousGoodsTransit[] $hazardousGoodsTransit
      */
     private $hazardousGoodsTransit = [
         
@@ -798,7 +798,7 @@ class TransportEquipmentType
      *  Transport Handling Unit
      *  Transport Handling Unit
      *
-     * @var \UBL\Common\CAC\PackagedTransportHandlingUnit[] $packagedTransportHandlingUnit
+     * @var \App\UBL\Common\CAC\PackagedTransportHandlingUnit[] $packagedTransportHandlingUnit
      */
     private $packagedTransportHandlingUnit = [
         
@@ -815,7 +815,7 @@ class TransportEquipmentType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\ServiceAllowanceCharge[] $serviceAllowanceCharge
+     * @var \App\UBL\Common\CAC\ServiceAllowanceCharge[] $serviceAllowanceCharge
      */
     private $serviceAllowanceCharge = [
         
@@ -832,7 +832,7 @@ class TransportEquipmentType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
+     * @var \App\UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
      */
     private $freightAllowanceCharge = [
         
@@ -849,7 +849,7 @@ class TransportEquipmentType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @var \UBL\Common\CAC\AttachedTransportEquipment[] $attachedTransportEquipment
+     * @var \App\UBL\Common\CAC\AttachedTransportEquipment[] $attachedTransportEquipment
      */
     private $attachedTransportEquipment = [
         
@@ -865,7 +865,7 @@ class TransportEquipmentType
      *  Delivery
      *  Delivery
      *
-     * @var \UBL\Common\CAC\Delivery $delivery
+     * @var \App\UBL\Common\CAC\Delivery $delivery
      */
     private $delivery = null;
 
@@ -879,7 +879,7 @@ class TransportEquipmentType
      *  Pickup
      *  Pickup
      *
-     * @var \UBL\Common\CAC\Pickup $pickup
+     * @var \App\UBL\Common\CAC\Pickup $pickup
      */
     private $pickup = null;
 
@@ -893,7 +893,7 @@ class TransportEquipmentType
      *  Despatch
      *  Despatch
      *
-     * @var \UBL\Common\CAC\Despatch $despatch
+     * @var \App\UBL\Common\CAC\Despatch $despatch
      */
     private $despatch = null;
 
@@ -908,7 +908,7 @@ class TransportEquipmentType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\ShipmentDocumentReference[] $shipmentDocumentReference
+     * @var \App\UBL\Common\CAC\ShipmentDocumentReference[] $shipmentDocumentReference
      */
     private $shipmentDocumentReference = [
         
@@ -926,7 +926,7 @@ class TransportEquipmentType
      *  Transport Equipment
      *  e.g. pallets inside containers
      *
-     * @var \UBL\Common\CAC\ContainedInTransportEquipment[] $containedInTransportEquipment
+     * @var \App\UBL\Common\CAC\ContainedInTransportEquipment[] $containedInTransportEquipment
      */
     private $containedInTransportEquipment = [
         
@@ -942,7 +942,7 @@ class TransportEquipmentType
      *  Package
      *  Package
      *
-     * @var \UBL\Common\CAC\Package[] $package
+     * @var \App\UBL\Common\CAC\Package[] $package
      */
     private $package = [
         
@@ -958,7 +958,7 @@ class TransportEquipmentType
      *  Goods Item
      *  Goods Item
      *
-     * @var \UBL\Common\CAC\GoodsItem[] $goodsItem
+     * @var \App\UBL\Common\CAC\GoodsItem[] $goodsItem
      */
     private $goodsItem = [
         
@@ -977,7 +977,7 @@ class TransportEquipmentType
      *  Identifier. Type
      *  OCLU 1234567
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -997,10 +997,10 @@ class TransportEquipmentType
      *  Identifier. Type
      *  OCLU 1234567
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -1020,9 +1020,9 @@ class TransportEquipmentType
      *  Identifier. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ReferencedConsignmentID $referencedConsignmentID
+     * @param \App\UBL\Common\CBC\ReferencedConsignmentID $referencedConsignmentID
      */
-    public function addToReferencedConsignmentID(\UBL\Common\CBC\ReferencedConsignmentID $referencedConsignmentID)
+    public function addToReferencedConsignmentID(\App\UBL\Common\CBC\ReferencedConsignmentID $referencedConsignmentID)
     {
         $this->referencedConsignmentID[] = $referencedConsignmentID;
         return $this;
@@ -1083,7 +1083,7 @@ class TransportEquipmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ReferencedConsignmentID[]
+     * @return \App\UBL\Common\CBC\ReferencedConsignmentID[]
      */
     public function getReferencedConsignmentID()
     {
@@ -1103,7 +1103,7 @@ class TransportEquipmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ReferencedConsignmentID[] $referencedConsignmentID
+     * @param \App\UBL\Common\CBC\ReferencedConsignmentID[] $referencedConsignmentID
      * @return self
      */
     public function setReferencedConsignmentID(?array $referencedConsignmentID = null)
@@ -1125,7 +1125,7 @@ class TransportEquipmentType
      *  Transport Equipment Type
      *  Transport Equipment Type_ Code. Type
      *
-     * @return \UBL\Common\CBC\TransportEquipmentTypeCode
+     * @return \App\UBL\Common\CBC\TransportEquipmentTypeCode
      */
     public function getTransportEquipmentTypeCode()
     {
@@ -1145,10 +1145,10 @@ class TransportEquipmentType
      *  Transport Equipment Type
      *  Transport Equipment Type_ Code. Type
      *
-     * @param \UBL\Common\CBC\TransportEquipmentTypeCode $transportEquipmentTypeCode
+     * @param \App\UBL\Common\CBC\TransportEquipmentTypeCode $transportEquipmentTypeCode
      * @return self
      */
-    public function setTransportEquipmentTypeCode(?\UBL\Common\CBC\TransportEquipmentTypeCode $transportEquipmentTypeCode = null)
+    public function setTransportEquipmentTypeCode(?\App\UBL\Common\CBC\TransportEquipmentTypeCode $transportEquipmentTypeCode = null)
     {
         $this->transportEquipmentTypeCode = $transportEquipmentTypeCode;
         return $this;
@@ -1166,7 +1166,7 @@ class TransportEquipmentType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ProviderTypeCode
+     * @return \App\UBL\Common\CBC\ProviderTypeCode
      */
     public function getProviderTypeCode()
     {
@@ -1185,10 +1185,10 @@ class TransportEquipmentType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ProviderTypeCode $providerTypeCode
+     * @param \App\UBL\Common\CBC\ProviderTypeCode $providerTypeCode
      * @return self
      */
-    public function setProviderTypeCode(?\UBL\Common\CBC\ProviderTypeCode $providerTypeCode = null)
+    public function setProviderTypeCode(?\App\UBL\Common\CBC\ProviderTypeCode $providerTypeCode = null)
     {
         $this->providerTypeCode = $providerTypeCode;
         return $this;
@@ -1206,7 +1206,7 @@ class TransportEquipmentType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\OwnerTypeCode
+     * @return \App\UBL\Common\CBC\OwnerTypeCode
      */
     public function getOwnerTypeCode()
     {
@@ -1225,10 +1225,10 @@ class TransportEquipmentType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\OwnerTypeCode $ownerTypeCode
+     * @param \App\UBL\Common\CBC\OwnerTypeCode $ownerTypeCode
      * @return self
      */
-    public function setOwnerTypeCode(?\UBL\Common\CBC\OwnerTypeCode $ownerTypeCode = null)
+    public function setOwnerTypeCode(?\App\UBL\Common\CBC\OwnerTypeCode $ownerTypeCode = null)
     {
         $this->ownerTypeCode = $ownerTypeCode;
         return $this;
@@ -1247,7 +1247,7 @@ class TransportEquipmentType
      *  Code. Type
      *  Container Size Type Code
      *
-     * @return \UBL\Common\CBC\SizeTypeCode
+     * @return \App\UBL\Common\CBC\SizeTypeCode
      */
     public function getSizeTypeCode()
     {
@@ -1267,10 +1267,10 @@ class TransportEquipmentType
      *  Code. Type
      *  Container Size Type Code
      *
-     * @param \UBL\Common\CBC\SizeTypeCode $sizeTypeCode
+     * @param \App\UBL\Common\CBC\SizeTypeCode $sizeTypeCode
      * @return self
      */
-    public function setSizeTypeCode(?\UBL\Common\CBC\SizeTypeCode $sizeTypeCode = null)
+    public function setSizeTypeCode(?\App\UBL\Common\CBC\SizeTypeCode $sizeTypeCode = null)
     {
         $this->sizeTypeCode = $sizeTypeCode;
         return $this;
@@ -1289,7 +1289,7 @@ class TransportEquipmentType
      *  Code. Type
      *  Status
      *
-     * @return \UBL\Common\CBC\DispositionCode
+     * @return \App\UBL\Common\CBC\DispositionCode
      */
     public function getDispositionCode()
     {
@@ -1309,10 +1309,10 @@ class TransportEquipmentType
      *  Code. Type
      *  Status
      *
-     * @param \UBL\Common\CBC\DispositionCode $dispositionCode
+     * @param \App\UBL\Common\CBC\DispositionCode $dispositionCode
      * @return self
      */
-    public function setDispositionCode(?\UBL\Common\CBC\DispositionCode $dispositionCode = null)
+    public function setDispositionCode(?\App\UBL\Common\CBC\DispositionCode $dispositionCode = null)
     {
         $this->dispositionCode = $dispositionCode;
         return $this;
@@ -1330,7 +1330,7 @@ class TransportEquipmentType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\FullnessIndicationCode
+     * @return \App\UBL\Common\CBC\FullnessIndicationCode
      */
     public function getFullnessIndicationCode()
     {
@@ -1349,10 +1349,10 @@ class TransportEquipmentType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\FullnessIndicationCode $fullnessIndicationCode
+     * @param \App\UBL\Common\CBC\FullnessIndicationCode $fullnessIndicationCode
      * @return self
      */
-    public function setFullnessIndicationCode(?\UBL\Common\CBC\FullnessIndicationCode $fullnessIndicationCode = null)
+    public function setFullnessIndicationCode(?\App\UBL\Common\CBC\FullnessIndicationCode $fullnessIndicationCode = null)
     {
         $this->fullnessIndicationCode = $fullnessIndicationCode;
         return $this;
@@ -1413,9 +1413,9 @@ class TransportEquipmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Information $information
+     * @param \App\UBL\Common\CBC\Information $information
      */
-    public function addToInformation(\UBL\Common\CBC\Information $information)
+    public function addToInformation(\App\UBL\Common\CBC\Information $information)
     {
         $this->information[] = $information;
         return $this;
@@ -1473,7 +1473,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Information[]
+     * @return \App\UBL\Common\CBC\Information[]
      */
     public function getInformation()
     {
@@ -1492,7 +1492,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Information[] $information
+     * @param \App\UBL\Common\CBC\Information[] $information
      * @return self
      */
     public function setInformation(?array $information = null)
@@ -1597,7 +1597,7 @@ class TransportEquipmentType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\AirFlowPercent
+     * @return \App\UBL\Common\CBC\AirFlowPercent
      */
     public function getAirFlowPercent()
     {
@@ -1616,10 +1616,10 @@ class TransportEquipmentType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\AirFlowPercent $airFlowPercent
+     * @param \App\UBL\Common\CBC\AirFlowPercent $airFlowPercent
      * @return self
      */
-    public function setAirFlowPercent(?\UBL\Common\CBC\AirFlowPercent $airFlowPercent = null)
+    public function setAirFlowPercent(?\App\UBL\Common\CBC\AirFlowPercent $airFlowPercent = null)
     {
         $this->airFlowPercent = $airFlowPercent;
         return $this;
@@ -1637,7 +1637,7 @@ class TransportEquipmentType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\HumidityPercent
+     * @return \App\UBL\Common\CBC\HumidityPercent
      */
     public function getHumidityPercent()
     {
@@ -1656,10 +1656,10 @@ class TransportEquipmentType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\HumidityPercent $humidityPercent
+     * @param \App\UBL\Common\CBC\HumidityPercent $humidityPercent
      * @return self
      */
-    public function setHumidityPercent(?\UBL\Common\CBC\HumidityPercent $humidityPercent = null)
+    public function setHumidityPercent(?\App\UBL\Common\CBC\HumidityPercent $humidityPercent = null)
     {
         $this->humidityPercent = $humidityPercent;
         return $this;
@@ -1845,7 +1845,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Characteristics
+     * @return \App\UBL\Common\CBC\Characteristics
      */
     public function getCharacteristics()
     {
@@ -1864,10 +1864,10 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Characteristics $characteristics
+     * @param \App\UBL\Common\CBC\Characteristics $characteristics
      * @return self
      */
-    public function setCharacteristics(?\UBL\Common\CBC\Characteristics $characteristics = null)
+    public function setCharacteristics(?\App\UBL\Common\CBC\Characteristics $characteristics = null)
     {
         $this->characteristics = $characteristics;
         return $this;
@@ -1887,9 +1887,9 @@ class TransportEquipmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\DamageRemarks $damageRemarks
+     * @param \App\UBL\Common\CBC\DamageRemarks $damageRemarks
      */
-    public function addToDamageRemarks(\UBL\Common\CBC\DamageRemarks $damageRemarks)
+    public function addToDamageRemarks(\App\UBL\Common\CBC\DamageRemarks $damageRemarks)
     {
         $this->damageRemarks[] = $damageRemarks;
         return $this;
@@ -1950,7 +1950,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\DamageRemarks[]
+     * @return \App\UBL\Common\CBC\DamageRemarks[]
      */
     public function getDamageRemarks()
     {
@@ -1970,7 +1970,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\DamageRemarks[] $damageRemarks
+     * @param \App\UBL\Common\CBC\DamageRemarks[] $damageRemarks
      * @return self
      */
     public function setDamageRemarks(?array $damageRemarks = null)
@@ -1992,9 +1992,9 @@ class TransportEquipmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -2052,7 +2052,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -2071,7 +2071,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -2094,9 +2094,9 @@ class TransportEquipmentType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\SpecialTransportRequirements $specialTransportRequirements
+     * @param \App\UBL\Common\CBC\SpecialTransportRequirements $specialTransportRequirements
      */
-    public function addToSpecialTransportRequirements(\UBL\Common\CBC\SpecialTransportRequirements $specialTransportRequirements)
+    public function addToSpecialTransportRequirements(\App\UBL\Common\CBC\SpecialTransportRequirements $specialTransportRequirements)
     {
         $this->specialTransportRequirements[] = $specialTransportRequirements;
         return $this;
@@ -2157,7 +2157,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\SpecialTransportRequirements[]
+     * @return \App\UBL\Common\CBC\SpecialTransportRequirements[]
      */
     public function getSpecialTransportRequirements()
     {
@@ -2177,7 +2177,7 @@ class TransportEquipmentType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\SpecialTransportRequirements[] $specialTransportRequirements
+     * @param \App\UBL\Common\CBC\SpecialTransportRequirements[] $specialTransportRequirements
      * @return self
      */
     public function setSpecialTransportRequirements(?array $specialTransportRequirements = null)
@@ -2199,7 +2199,7 @@ class TransportEquipmentType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\GrossWeightMeasure
+     * @return \App\UBL\Common\CBC\GrossWeightMeasure
      */
     public function getGrossWeightMeasure()
     {
@@ -2219,10 +2219,10 @@ class TransportEquipmentType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
+     * @param \App\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
      * @return self
      */
-    public function setGrossWeightMeasure(?\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure = null)
+    public function setGrossWeightMeasure(?\App\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure = null)
     {
         $this->grossWeightMeasure = $grossWeightMeasure;
         return $this;
@@ -2241,7 +2241,7 @@ class TransportEquipmentType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\GrossVolumeMeasure
+     * @return \App\UBL\Common\CBC\GrossVolumeMeasure
      */
     public function getGrossVolumeMeasure()
     {
@@ -2261,10 +2261,10 @@ class TransportEquipmentType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
+     * @param \App\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
      * @return self
      */
-    public function setGrossVolumeMeasure(?\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure = null)
+    public function setGrossVolumeMeasure(?\App\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure = null)
     {
         $this->grossVolumeMeasure = $grossVolumeMeasure;
         return $this;
@@ -2283,7 +2283,7 @@ class TransportEquipmentType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\TareWeightMeasure
+     * @return \App\UBL\Common\CBC\TareWeightMeasure
      */
     public function getTareWeightMeasure()
     {
@@ -2303,10 +2303,10 @@ class TransportEquipmentType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\TareWeightMeasure $tareWeightMeasure
+     * @param \App\UBL\Common\CBC\TareWeightMeasure $tareWeightMeasure
      * @return self
      */
-    public function setTareWeightMeasure(?\UBL\Common\CBC\TareWeightMeasure $tareWeightMeasure = null)
+    public function setTareWeightMeasure(?\App\UBL\Common\CBC\TareWeightMeasure $tareWeightMeasure = null)
     {
         $this->tareWeightMeasure = $tareWeightMeasure;
         return $this;
@@ -2324,7 +2324,7 @@ class TransportEquipmentType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TrackingDeviceCode
+     * @return \App\UBL\Common\CBC\TrackingDeviceCode
      */
     public function getTrackingDeviceCode()
     {
@@ -2343,10 +2343,10 @@ class TransportEquipmentType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TrackingDeviceCode $trackingDeviceCode
+     * @param \App\UBL\Common\CBC\TrackingDeviceCode $trackingDeviceCode
      * @return self
      */
-    public function setTrackingDeviceCode(?\UBL\Common\CBC\TrackingDeviceCode $trackingDeviceCode = null)
+    public function setTrackingDeviceCode(?\App\UBL\Common\CBC\TrackingDeviceCode $trackingDeviceCode = null)
     {
         $this->trackingDeviceCode = $trackingDeviceCode;
         return $this;
@@ -2405,7 +2405,7 @@ class TransportEquipmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\TraceID
+     * @return \App\UBL\Common\CBC\TraceID
      */
     public function getTraceID()
     {
@@ -2425,10 +2425,10 @@ class TransportEquipmentType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\TraceID $traceID
+     * @param \App\UBL\Common\CBC\TraceID $traceID
      * @return self
      */
-    public function setTraceID(?\UBL\Common\CBC\TraceID $traceID = null)
+    public function setTraceID(?\App\UBL\Common\CBC\TraceID $traceID = null)
     {
         $this->traceID = $traceID;
         return $this;
@@ -2448,9 +2448,9 @@ class TransportEquipmentType
      *  Dimension
      *
      * @return self
-     * @param \UBL\Common\CAC\MeasurementDimension $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension $measurementDimension
      */
-    public function addToMeasurementDimension(\UBL\Common\CAC\MeasurementDimension $measurementDimension)
+    public function addToMeasurementDimension(\App\UBL\Common\CAC\MeasurementDimension $measurementDimension)
     {
         $this->measurementDimension[] = $measurementDimension;
         return $this;
@@ -2511,7 +2511,7 @@ class TransportEquipmentType
      *  Dimension
      *  Dimension
      *
-     * @return \UBL\Common\CAC\MeasurementDimension[]
+     * @return \App\UBL\Common\CAC\MeasurementDimension[]
      */
     public function getMeasurementDimension()
     {
@@ -2531,7 +2531,7 @@ class TransportEquipmentType
      *  Dimension
      *  Dimension
      *
-     * @param \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      * @return self
      */
     public function setMeasurementDimension(?array $measurementDimension = null)
@@ -2553,9 +2553,9 @@ class TransportEquipmentType
      *  Transport Equipment Seal
      *
      * @return self
-     * @param \UBL\Common\CAC\TransportEquipmentSeal $transportEquipmentSeal
+     * @param \App\UBL\Common\CAC\TransportEquipmentSeal $transportEquipmentSeal
      */
-    public function addToTransportEquipmentSeal(\UBL\Common\CAC\TransportEquipmentSeal $transportEquipmentSeal)
+    public function addToTransportEquipmentSeal(\App\UBL\Common\CAC\TransportEquipmentSeal $transportEquipmentSeal)
     {
         $this->transportEquipmentSeal[] = $transportEquipmentSeal;
         return $this;
@@ -2613,7 +2613,7 @@ class TransportEquipmentType
      *  Transport Equipment Seal
      *  Transport Equipment Seal
      *
-     * @return \UBL\Common\CAC\TransportEquipmentSeal[]
+     * @return \App\UBL\Common\CAC\TransportEquipmentSeal[]
      */
     public function getTransportEquipmentSeal()
     {
@@ -2632,7 +2632,7 @@ class TransportEquipmentType
      *  Transport Equipment Seal
      *  Transport Equipment Seal
      *
-     * @param \UBL\Common\CAC\TransportEquipmentSeal[] $transportEquipmentSeal
+     * @param \App\UBL\Common\CAC\TransportEquipmentSeal[] $transportEquipmentSeal
      * @return self
      */
     public function setTransportEquipmentSeal(?array $transportEquipmentSeal = null)
@@ -2654,7 +2654,7 @@ class TransportEquipmentType
      *  Temperature
      *  Temperature
      *
-     * @return \UBL\Common\CAC\MinimumTemperature
+     * @return \App\UBL\Common\CAC\MinimumTemperature
      */
     public function getMinimumTemperature()
     {
@@ -2674,10 +2674,10 @@ class TransportEquipmentType
      *  Temperature
      *  Temperature
      *
-     * @param \UBL\Common\CAC\MinimumTemperature $minimumTemperature
+     * @param \App\UBL\Common\CAC\MinimumTemperature $minimumTemperature
      * @return self
      */
-    public function setMinimumTemperature(?\UBL\Common\CAC\MinimumTemperature $minimumTemperature = null)
+    public function setMinimumTemperature(?\App\UBL\Common\CAC\MinimumTemperature $minimumTemperature = null)
     {
         $this->minimumTemperature = $minimumTemperature;
         return $this;
@@ -2696,7 +2696,7 @@ class TransportEquipmentType
      *  Temperature
      *  Temperature
      *
-     * @return \UBL\Common\CAC\MaximumTemperature
+     * @return \App\UBL\Common\CAC\MaximumTemperature
      */
     public function getMaximumTemperature()
     {
@@ -2716,10 +2716,10 @@ class TransportEquipmentType
      *  Temperature
      *  Temperature
      *
-     * @param \UBL\Common\CAC\MaximumTemperature $maximumTemperature
+     * @param \App\UBL\Common\CAC\MaximumTemperature $maximumTemperature
      * @return self
      */
-    public function setMaximumTemperature(?\UBL\Common\CAC\MaximumTemperature $maximumTemperature = null)
+    public function setMaximumTemperature(?\App\UBL\Common\CAC\MaximumTemperature $maximumTemperature = null)
     {
         $this->maximumTemperature = $maximumTemperature;
         return $this;
@@ -2738,7 +2738,7 @@ class TransportEquipmentType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\ProviderParty
+     * @return \App\UBL\Common\CAC\ProviderParty
      */
     public function getProviderParty()
     {
@@ -2758,10 +2758,10 @@ class TransportEquipmentType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\ProviderParty $providerParty
+     * @param \App\UBL\Common\CAC\ProviderParty $providerParty
      * @return self
      */
-    public function setProviderParty(?\UBL\Common\CAC\ProviderParty $providerParty = null)
+    public function setProviderParty(?\App\UBL\Common\CAC\ProviderParty $providerParty = null)
     {
         $this->providerParty = $providerParty;
         return $this;
@@ -2781,7 +2781,7 @@ class TransportEquipmentType
      *  Party
      *  Party responsible for proof of vanning (WCO ID 059)
      *
-     * @return \UBL\Common\CAC\LoadingProofParty
+     * @return \App\UBL\Common\CAC\LoadingProofParty
      */
     public function getLoadingProofParty()
     {
@@ -2802,10 +2802,10 @@ class TransportEquipmentType
      *  Party
      *  Party responsible for proof of vanning (WCO ID 059)
      *
-     * @param \UBL\Common\CAC\LoadingProofParty $loadingProofParty
+     * @param \App\UBL\Common\CAC\LoadingProofParty $loadingProofParty
      * @return self
      */
-    public function setLoadingProofParty(?\UBL\Common\CAC\LoadingProofParty $loadingProofParty = null)
+    public function setLoadingProofParty(?\App\UBL\Common\CAC\LoadingProofParty $loadingProofParty = null)
     {
         $this->loadingProofParty = $loadingProofParty;
         return $this;
@@ -2824,7 +2824,7 @@ class TransportEquipmentType
      *  Supplier Party
      *  Party responsible for proof of vanning (WCO ID 059)
      *
-     * @return \UBL\Common\CAC\SupplierParty
+     * @return \App\UBL\Common\CAC\SupplierParty
      */
     public function getSupplierParty()
     {
@@ -2844,10 +2844,10 @@ class TransportEquipmentType
      *  Supplier Party
      *  Party responsible for proof of vanning (WCO ID 059)
      *
-     * @param \UBL\Common\CAC\SupplierParty $supplierParty
+     * @param \App\UBL\Common\CAC\SupplierParty $supplierParty
      * @return self
      */
-    public function setSupplierParty(?\UBL\Common\CAC\SupplierParty $supplierParty = null)
+    public function setSupplierParty(?\App\UBL\Common\CAC\SupplierParty $supplierParty = null)
     {
         $this->supplierParty = $supplierParty;
         return $this;
@@ -2867,7 +2867,7 @@ class TransportEquipmentType
      *  Party
      *  Party responsible for proof of vanning (WCO ID 059)
      *
-     * @return \UBL\Common\CAC\OwnerParty
+     * @return \App\UBL\Common\CAC\OwnerParty
      */
     public function getOwnerParty()
     {
@@ -2888,10 +2888,10 @@ class TransportEquipmentType
      *  Party
      *  Party responsible for proof of vanning (WCO ID 059)
      *
-     * @param \UBL\Common\CAC\OwnerParty $ownerParty
+     * @param \App\UBL\Common\CAC\OwnerParty $ownerParty
      * @return self
      */
-    public function setOwnerParty(?\UBL\Common\CAC\OwnerParty $ownerParty = null)
+    public function setOwnerParty(?\App\UBL\Common\CAC\OwnerParty $ownerParty = null)
     {
         $this->ownerParty = $ownerParty;
         return $this;
@@ -2911,7 +2911,7 @@ class TransportEquipmentType
      *  Party
      *  Party responsible for proof of vanning (WCO ID 059)
      *
-     * @return \UBL\Common\CAC\OperatingParty
+     * @return \App\UBL\Common\CAC\OperatingParty
      */
     public function getOperatingParty()
     {
@@ -2932,10 +2932,10 @@ class TransportEquipmentType
      *  Party
      *  Party responsible for proof of vanning (WCO ID 059)
      *
-     * @param \UBL\Common\CAC\OperatingParty $operatingParty
+     * @param \App\UBL\Common\CAC\OperatingParty $operatingParty
      * @return self
      */
-    public function setOperatingParty(?\UBL\Common\CAC\OperatingParty $operatingParty = null)
+    public function setOperatingParty(?\App\UBL\Common\CAC\OperatingParty $operatingParty = null)
     {
         $this->operatingParty = $operatingParty;
         return $this;
@@ -2955,7 +2955,7 @@ class TransportEquipmentType
      *  Location
      *  Vanning address (WCO ID 068), Stuffing location
      *
-     * @return \UBL\Common\CAC\LoadingLocation
+     * @return \App\UBL\Common\CAC\LoadingLocation
      */
     public function getLoadingLocation()
     {
@@ -2976,10 +2976,10 @@ class TransportEquipmentType
      *  Location
      *  Vanning address (WCO ID 068), Stuffing location
      *
-     * @param \UBL\Common\CAC\LoadingLocation $loadingLocation
+     * @param \App\UBL\Common\CAC\LoadingLocation $loadingLocation
      * @return self
      */
-    public function setLoadingLocation(?\UBL\Common\CAC\LoadingLocation $loadingLocation = null)
+    public function setLoadingLocation(?\App\UBL\Common\CAC\LoadingLocation $loadingLocation = null)
     {
         $this->loadingLocation = $loadingLocation;
         return $this;
@@ -2998,7 +2998,7 @@ class TransportEquipmentType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\UnloadingLocation
+     * @return \App\UBL\Common\CAC\UnloadingLocation
      */
     public function getUnloadingLocation()
     {
@@ -3018,10 +3018,10 @@ class TransportEquipmentType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\UnloadingLocation $unloadingLocation
+     * @param \App\UBL\Common\CAC\UnloadingLocation $unloadingLocation
      * @return self
      */
-    public function setUnloadingLocation(?\UBL\Common\CAC\UnloadingLocation $unloadingLocation = null)
+    public function setUnloadingLocation(?\App\UBL\Common\CAC\UnloadingLocation $unloadingLocation = null)
     {
         $this->unloadingLocation = $unloadingLocation;
         return $this;
@@ -3040,7 +3040,7 @@ class TransportEquipmentType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\StorageLocation
+     * @return \App\UBL\Common\CAC\StorageLocation
      */
     public function getStorageLocation()
     {
@@ -3060,10 +3060,10 @@ class TransportEquipmentType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\StorageLocation $storageLocation
+     * @param \App\UBL\Common\CAC\StorageLocation $storageLocation
      * @return self
      */
-    public function setStorageLocation(?\UBL\Common\CAC\StorageLocation $storageLocation = null)
+    public function setStorageLocation(?\App\UBL\Common\CAC\StorageLocation $storageLocation = null)
     {
         $this->storageLocation = $storageLocation;
         return $this;
@@ -3083,9 +3083,9 @@ class TransportEquipmentType
      *  Transport Event
      *
      * @return self
-     * @param \UBL\Common\CAC\PositioningTransportEvent $positioningTransportEvent
+     * @param \App\UBL\Common\CAC\PositioningTransportEvent $positioningTransportEvent
      */
-    public function addToPositioningTransportEvent(\UBL\Common\CAC\PositioningTransportEvent $positioningTransportEvent)
+    public function addToPositioningTransportEvent(\App\UBL\Common\CAC\PositioningTransportEvent $positioningTransportEvent)
     {
         $this->positioningTransportEvent[] = $positioningTransportEvent;
         return $this;
@@ -3146,7 +3146,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\PositioningTransportEvent[]
+     * @return \App\UBL\Common\CAC\PositioningTransportEvent[]
      */
     public function getPositioningTransportEvent()
     {
@@ -3166,7 +3166,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\PositioningTransportEvent[] $positioningTransportEvent
+     * @param \App\UBL\Common\CAC\PositioningTransportEvent[] $positioningTransportEvent
      * @return self
      */
     public function setPositioningTransportEvent(?array $positioningTransportEvent = null)
@@ -3189,9 +3189,9 @@ class TransportEquipmentType
      *  Transport Event
      *
      * @return self
-     * @param \UBL\Common\CAC\QuarantineTransportEvent $quarantineTransportEvent
+     * @param \App\UBL\Common\CAC\QuarantineTransportEvent $quarantineTransportEvent
      */
-    public function addToQuarantineTransportEvent(\UBL\Common\CAC\QuarantineTransportEvent $quarantineTransportEvent)
+    public function addToQuarantineTransportEvent(\App\UBL\Common\CAC\QuarantineTransportEvent $quarantineTransportEvent)
     {
         $this->quarantineTransportEvent[] = $quarantineTransportEvent;
         return $this;
@@ -3252,7 +3252,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\QuarantineTransportEvent[]
+     * @return \App\UBL\Common\CAC\QuarantineTransportEvent[]
      */
     public function getQuarantineTransportEvent()
     {
@@ -3272,7 +3272,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\QuarantineTransportEvent[] $quarantineTransportEvent
+     * @param \App\UBL\Common\CAC\QuarantineTransportEvent[] $quarantineTransportEvent
      * @return self
      */
     public function setQuarantineTransportEvent(?array $quarantineTransportEvent = null)
@@ -3295,9 +3295,9 @@ class TransportEquipmentType
      *  Transport Event
      *
      * @return self
-     * @param \UBL\Common\CAC\DeliveryTransportEvent $deliveryTransportEvent
+     * @param \App\UBL\Common\CAC\DeliveryTransportEvent $deliveryTransportEvent
      */
-    public function addToDeliveryTransportEvent(\UBL\Common\CAC\DeliveryTransportEvent $deliveryTransportEvent)
+    public function addToDeliveryTransportEvent(\App\UBL\Common\CAC\DeliveryTransportEvent $deliveryTransportEvent)
     {
         $this->deliveryTransportEvent[] = $deliveryTransportEvent;
         return $this;
@@ -3358,7 +3358,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\DeliveryTransportEvent[]
+     * @return \App\UBL\Common\CAC\DeliveryTransportEvent[]
      */
     public function getDeliveryTransportEvent()
     {
@@ -3378,7 +3378,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\DeliveryTransportEvent[] $deliveryTransportEvent
+     * @param \App\UBL\Common\CAC\DeliveryTransportEvent[] $deliveryTransportEvent
      * @return self
      */
     public function setDeliveryTransportEvent(?array $deliveryTransportEvent = null)
@@ -3401,9 +3401,9 @@ class TransportEquipmentType
      *  Transport Event
      *
      * @return self
-     * @param \UBL\Common\CAC\PickupTransportEvent $pickupTransportEvent
+     * @param \App\UBL\Common\CAC\PickupTransportEvent $pickupTransportEvent
      */
-    public function addToPickupTransportEvent(\UBL\Common\CAC\PickupTransportEvent $pickupTransportEvent)
+    public function addToPickupTransportEvent(\App\UBL\Common\CAC\PickupTransportEvent $pickupTransportEvent)
     {
         $this->pickupTransportEvent[] = $pickupTransportEvent;
         return $this;
@@ -3464,7 +3464,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\PickupTransportEvent[]
+     * @return \App\UBL\Common\CAC\PickupTransportEvent[]
      */
     public function getPickupTransportEvent()
     {
@@ -3484,7 +3484,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\PickupTransportEvent[] $pickupTransportEvent
+     * @param \App\UBL\Common\CAC\PickupTransportEvent[] $pickupTransportEvent
      * @return self
      */
     public function setPickupTransportEvent(?array $pickupTransportEvent = null)
@@ -3507,9 +3507,9 @@ class TransportEquipmentType
      *  Transport Event
      *
      * @return self
-     * @param \UBL\Common\CAC\HandlingTransportEvent $handlingTransportEvent
+     * @param \App\UBL\Common\CAC\HandlingTransportEvent $handlingTransportEvent
      */
-    public function addToHandlingTransportEvent(\UBL\Common\CAC\HandlingTransportEvent $handlingTransportEvent)
+    public function addToHandlingTransportEvent(\App\UBL\Common\CAC\HandlingTransportEvent $handlingTransportEvent)
     {
         $this->handlingTransportEvent[] = $handlingTransportEvent;
         return $this;
@@ -3570,7 +3570,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\HandlingTransportEvent[]
+     * @return \App\UBL\Common\CAC\HandlingTransportEvent[]
      */
     public function getHandlingTransportEvent()
     {
@@ -3590,7 +3590,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\HandlingTransportEvent[] $handlingTransportEvent
+     * @param \App\UBL\Common\CAC\HandlingTransportEvent[] $handlingTransportEvent
      * @return self
      */
     public function setHandlingTransportEvent(?array $handlingTransportEvent = null)
@@ -3613,9 +3613,9 @@ class TransportEquipmentType
      *  Transport Event
      *
      * @return self
-     * @param \UBL\Common\CAC\LoadingTransportEvent $loadingTransportEvent
+     * @param \App\UBL\Common\CAC\LoadingTransportEvent $loadingTransportEvent
      */
-    public function addToLoadingTransportEvent(\UBL\Common\CAC\LoadingTransportEvent $loadingTransportEvent)
+    public function addToLoadingTransportEvent(\App\UBL\Common\CAC\LoadingTransportEvent $loadingTransportEvent)
     {
         $this->loadingTransportEvent[] = $loadingTransportEvent;
         return $this;
@@ -3676,7 +3676,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\LoadingTransportEvent[]
+     * @return \App\UBL\Common\CAC\LoadingTransportEvent[]
      */
     public function getLoadingTransportEvent()
     {
@@ -3696,7 +3696,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\LoadingTransportEvent[] $loadingTransportEvent
+     * @param \App\UBL\Common\CAC\LoadingTransportEvent[] $loadingTransportEvent
      * @return self
      */
     public function setLoadingTransportEvent(?array $loadingTransportEvent = null)
@@ -3718,9 +3718,9 @@ class TransportEquipmentType
      *  Transport Event
      *
      * @return self
-     * @param \UBL\Common\CAC\TransportEvent $transportEvent
+     * @param \App\UBL\Common\CAC\TransportEvent $transportEvent
      */
-    public function addToTransportEvent(\UBL\Common\CAC\TransportEvent $transportEvent)
+    public function addToTransportEvent(\App\UBL\Common\CAC\TransportEvent $transportEvent)
     {
         $this->transportEvent[] = $transportEvent;
         return $this;
@@ -3778,7 +3778,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @return \UBL\Common\CAC\TransportEvent[]
+     * @return \App\UBL\Common\CAC\TransportEvent[]
      */
     public function getTransportEvent()
     {
@@ -3797,7 +3797,7 @@ class TransportEquipmentType
      *  Transport Event
      *  Transport Event
      *
-     * @param \UBL\Common\CAC\TransportEvent[] $transportEvent
+     * @param \App\UBL\Common\CAC\TransportEvent[] $transportEvent
      * @return self
      */
     public function setTransportEvent(?array $transportEvent = null)
@@ -3819,7 +3819,7 @@ class TransportEquipmentType
      *  Transport Means
      *  Transport Means
      *
-     * @return \UBL\Common\CAC\ApplicableTransportMeans
+     * @return \App\UBL\Common\CAC\ApplicableTransportMeans
      */
     public function getApplicableTransportMeans()
     {
@@ -3839,10 +3839,10 @@ class TransportEquipmentType
      *  Transport Means
      *  Transport Means
      *
-     * @param \UBL\Common\CAC\ApplicableTransportMeans $applicableTransportMeans
+     * @param \App\UBL\Common\CAC\ApplicableTransportMeans $applicableTransportMeans
      * @return self
      */
-    public function setApplicableTransportMeans(?\UBL\Common\CAC\ApplicableTransportMeans $applicableTransportMeans = null)
+    public function setApplicableTransportMeans(?\App\UBL\Common\CAC\ApplicableTransportMeans $applicableTransportMeans = null)
     {
         $this->applicableTransportMeans = $applicableTransportMeans;
         return $this;
@@ -3862,9 +3862,9 @@ class TransportEquipmentType
      *  Trading Terms
      *
      * @return self
-     * @param \UBL\Common\CAC\HaulageTradingTerms $haulageTradingTerms
+     * @param \App\UBL\Common\CAC\HaulageTradingTerms $haulageTradingTerms
      */
-    public function addToHaulageTradingTerms(\UBL\Common\CAC\HaulageTradingTerms $haulageTradingTerms)
+    public function addToHaulageTradingTerms(\App\UBL\Common\CAC\HaulageTradingTerms $haulageTradingTerms)
     {
         $this->haulageTradingTerms[] = $haulageTradingTerms;
         return $this;
@@ -3925,7 +3925,7 @@ class TransportEquipmentType
      *  Trading Terms
      *  Trading Terms
      *
-     * @return \UBL\Common\CAC\HaulageTradingTerms[]
+     * @return \App\UBL\Common\CAC\HaulageTradingTerms[]
      */
     public function getHaulageTradingTerms()
     {
@@ -3945,7 +3945,7 @@ class TransportEquipmentType
      *  Trading Terms
      *  Trading Terms
      *
-     * @param \UBL\Common\CAC\HaulageTradingTerms[] $haulageTradingTerms
+     * @param \App\UBL\Common\CAC\HaulageTradingTerms[] $haulageTradingTerms
      * @return self
      */
     public function setHaulageTradingTerms(?array $haulageTradingTerms = null)
@@ -3967,9 +3967,9 @@ class TransportEquipmentType
      *  Hazardous Goods Transit
      *
      * @return self
-     * @param \UBL\Common\CAC\HazardousGoodsTransit $hazardousGoodsTransit
+     * @param \App\UBL\Common\CAC\HazardousGoodsTransit $hazardousGoodsTransit
      */
-    public function addToHazardousGoodsTransit(\UBL\Common\CAC\HazardousGoodsTransit $hazardousGoodsTransit)
+    public function addToHazardousGoodsTransit(\App\UBL\Common\CAC\HazardousGoodsTransit $hazardousGoodsTransit)
     {
         $this->hazardousGoodsTransit[] = $hazardousGoodsTransit;
         return $this;
@@ -4027,7 +4027,7 @@ class TransportEquipmentType
      *  Hazardous Goods Transit
      *  Hazardous Goods Transit
      *
-     * @return \UBL\Common\CAC\HazardousGoodsTransit[]
+     * @return \App\UBL\Common\CAC\HazardousGoodsTransit[]
      */
     public function getHazardousGoodsTransit()
     {
@@ -4046,7 +4046,7 @@ class TransportEquipmentType
      *  Hazardous Goods Transit
      *  Hazardous Goods Transit
      *
-     * @param \UBL\Common\CAC\HazardousGoodsTransit[] $hazardousGoodsTransit
+     * @param \App\UBL\Common\CAC\HazardousGoodsTransit[] $hazardousGoodsTransit
      * @return self
      */
     public function setHazardousGoodsTransit(?array $hazardousGoodsTransit = null)
@@ -4069,9 +4069,9 @@ class TransportEquipmentType
      *  Transport Handling Unit
      *
      * @return self
-     * @param \UBL\Common\CAC\PackagedTransportHandlingUnit $packagedTransportHandlingUnit
+     * @param \App\UBL\Common\CAC\PackagedTransportHandlingUnit $packagedTransportHandlingUnit
      */
-    public function addToPackagedTransportHandlingUnit(\UBL\Common\CAC\PackagedTransportHandlingUnit $packagedTransportHandlingUnit)
+    public function addToPackagedTransportHandlingUnit(\App\UBL\Common\CAC\PackagedTransportHandlingUnit $packagedTransportHandlingUnit)
     {
         $this->packagedTransportHandlingUnit[] = $packagedTransportHandlingUnit;
         return $this;
@@ -4132,7 +4132,7 @@ class TransportEquipmentType
      *  Transport Handling Unit
      *  Transport Handling Unit
      *
-     * @return \UBL\Common\CAC\PackagedTransportHandlingUnit[]
+     * @return \App\UBL\Common\CAC\PackagedTransportHandlingUnit[]
      */
     public function getPackagedTransportHandlingUnit()
     {
@@ -4152,7 +4152,7 @@ class TransportEquipmentType
      *  Transport Handling Unit
      *  Transport Handling Unit
      *
-     * @param \UBL\Common\CAC\PackagedTransportHandlingUnit[] $packagedTransportHandlingUnit
+     * @param \App\UBL\Common\CAC\PackagedTransportHandlingUnit[] $packagedTransportHandlingUnit
      * @return self
      */
     public function setPackagedTransportHandlingUnit(?array $packagedTransportHandlingUnit = null)
@@ -4175,9 +4175,9 @@ class TransportEquipmentType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\ServiceAllowanceCharge $serviceAllowanceCharge
+     * @param \App\UBL\Common\CAC\ServiceAllowanceCharge $serviceAllowanceCharge
      */
-    public function addToServiceAllowanceCharge(\UBL\Common\CAC\ServiceAllowanceCharge $serviceAllowanceCharge)
+    public function addToServiceAllowanceCharge(\App\UBL\Common\CAC\ServiceAllowanceCharge $serviceAllowanceCharge)
     {
         $this->serviceAllowanceCharge[] = $serviceAllowanceCharge;
         return $this;
@@ -4238,7 +4238,7 @@ class TransportEquipmentType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\ServiceAllowanceCharge[]
+     * @return \App\UBL\Common\CAC\ServiceAllowanceCharge[]
      */
     public function getServiceAllowanceCharge()
     {
@@ -4258,7 +4258,7 @@ class TransportEquipmentType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\ServiceAllowanceCharge[] $serviceAllowanceCharge
+     * @param \App\UBL\Common\CAC\ServiceAllowanceCharge[] $serviceAllowanceCharge
      * @return self
      */
     public function setServiceAllowanceCharge(?array $serviceAllowanceCharge = null)
@@ -4281,9 +4281,9 @@ class TransportEquipmentType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge
+     * @param \App\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge
      */
-    public function addToFreightAllowanceCharge(\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge)
+    public function addToFreightAllowanceCharge(\App\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge)
     {
         $this->freightAllowanceCharge[] = $freightAllowanceCharge;
         return $this;
@@ -4344,7 +4344,7 @@ class TransportEquipmentType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\FreightAllowanceCharge[]
+     * @return \App\UBL\Common\CAC\FreightAllowanceCharge[]
      */
     public function getFreightAllowanceCharge()
     {
@@ -4364,7 +4364,7 @@ class TransportEquipmentType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
+     * @param \App\UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
      * @return self
      */
     public function setFreightAllowanceCharge(?array $freightAllowanceCharge = null)
@@ -4387,9 +4387,9 @@ class TransportEquipmentType
      *  Transport Equipment
      *
      * @return self
-     * @param \UBL\Common\CAC\AttachedTransportEquipment $attachedTransportEquipment
+     * @param \App\UBL\Common\CAC\AttachedTransportEquipment $attachedTransportEquipment
      */
-    public function addToAttachedTransportEquipment(\UBL\Common\CAC\AttachedTransportEquipment $attachedTransportEquipment)
+    public function addToAttachedTransportEquipment(\App\UBL\Common\CAC\AttachedTransportEquipment $attachedTransportEquipment)
     {
         $this->attachedTransportEquipment[] = $attachedTransportEquipment;
         return $this;
@@ -4450,7 +4450,7 @@ class TransportEquipmentType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @return \UBL\Common\CAC\AttachedTransportEquipment[]
+     * @return \App\UBL\Common\CAC\AttachedTransportEquipment[]
      */
     public function getAttachedTransportEquipment()
     {
@@ -4470,7 +4470,7 @@ class TransportEquipmentType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @param \UBL\Common\CAC\AttachedTransportEquipment[] $attachedTransportEquipment
+     * @param \App\UBL\Common\CAC\AttachedTransportEquipment[] $attachedTransportEquipment
      * @return self
      */
     public function setAttachedTransportEquipment(?array $attachedTransportEquipment = null)
@@ -4491,7 +4491,7 @@ class TransportEquipmentType
      *  Delivery
      *  Delivery
      *
-     * @return \UBL\Common\CAC\Delivery
+     * @return \App\UBL\Common\CAC\Delivery
      */
     public function getDelivery()
     {
@@ -4510,10 +4510,10 @@ class TransportEquipmentType
      *  Delivery
      *  Delivery
      *
-     * @param \UBL\Common\CAC\Delivery $delivery
+     * @param \App\UBL\Common\CAC\Delivery $delivery
      * @return self
      */
-    public function setDelivery(?\UBL\Common\CAC\Delivery $delivery = null)
+    public function setDelivery(?\App\UBL\Common\CAC\Delivery $delivery = null)
     {
         $this->delivery = $delivery;
         return $this;
@@ -4531,7 +4531,7 @@ class TransportEquipmentType
      *  Pickup
      *  Pickup
      *
-     * @return \UBL\Common\CAC\Pickup
+     * @return \App\UBL\Common\CAC\Pickup
      */
     public function getPickup()
     {
@@ -4550,10 +4550,10 @@ class TransportEquipmentType
      *  Pickup
      *  Pickup
      *
-     * @param \UBL\Common\CAC\Pickup $pickup
+     * @param \App\UBL\Common\CAC\Pickup $pickup
      * @return self
      */
-    public function setPickup(?\UBL\Common\CAC\Pickup $pickup = null)
+    public function setPickup(?\App\UBL\Common\CAC\Pickup $pickup = null)
     {
         $this->pickup = $pickup;
         return $this;
@@ -4571,7 +4571,7 @@ class TransportEquipmentType
      *  Despatch
      *  Despatch
      *
-     * @return \UBL\Common\CAC\Despatch
+     * @return \App\UBL\Common\CAC\Despatch
      */
     public function getDespatch()
     {
@@ -4590,10 +4590,10 @@ class TransportEquipmentType
      *  Despatch
      *  Despatch
      *
-     * @param \UBL\Common\CAC\Despatch $despatch
+     * @param \App\UBL\Common\CAC\Despatch $despatch
      * @return self
      */
-    public function setDespatch(?\UBL\Common\CAC\Despatch $despatch = null)
+    public function setDespatch(?\App\UBL\Common\CAC\Despatch $despatch = null)
     {
         $this->despatch = $despatch;
         return $this;
@@ -4613,9 +4613,9 @@ class TransportEquipmentType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference
+     * @param \App\UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference
      */
-    public function addToShipmentDocumentReference(\UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference)
+    public function addToShipmentDocumentReference(\App\UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference)
     {
         $this->shipmentDocumentReference[] = $shipmentDocumentReference;
         return $this;
@@ -4676,7 +4676,7 @@ class TransportEquipmentType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\ShipmentDocumentReference[]
+     * @return \App\UBL\Common\CAC\ShipmentDocumentReference[]
      */
     public function getShipmentDocumentReference()
     {
@@ -4696,7 +4696,7 @@ class TransportEquipmentType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\ShipmentDocumentReference[] $shipmentDocumentReference
+     * @param \App\UBL\Common\CAC\ShipmentDocumentReference[] $shipmentDocumentReference
      * @return self
      */
     public function setShipmentDocumentReference(?array $shipmentDocumentReference = null)
@@ -4720,9 +4720,9 @@ class TransportEquipmentType
      *  e.g. pallets inside containers
      *
      * @return self
-     * @param \UBL\Common\CAC\ContainedInTransportEquipment $containedInTransportEquipment
+     * @param \App\UBL\Common\CAC\ContainedInTransportEquipment $containedInTransportEquipment
      */
-    public function addToContainedInTransportEquipment(\UBL\Common\CAC\ContainedInTransportEquipment $containedInTransportEquipment)
+    public function addToContainedInTransportEquipment(\App\UBL\Common\CAC\ContainedInTransportEquipment $containedInTransportEquipment)
     {
         $this->containedInTransportEquipment[] = $containedInTransportEquipment;
         return $this;
@@ -4786,7 +4786,7 @@ class TransportEquipmentType
      *  Transport Equipment
      *  e.g. pallets inside containers
      *
-     * @return \UBL\Common\CAC\ContainedInTransportEquipment[]
+     * @return \App\UBL\Common\CAC\ContainedInTransportEquipment[]
      */
     public function getContainedInTransportEquipment()
     {
@@ -4807,7 +4807,7 @@ class TransportEquipmentType
      *  Transport Equipment
      *  e.g. pallets inside containers
      *
-     * @param \UBL\Common\CAC\ContainedInTransportEquipment[] $containedInTransportEquipment
+     * @param \App\UBL\Common\CAC\ContainedInTransportEquipment[] $containedInTransportEquipment
      * @return self
      */
     public function setContainedInTransportEquipment(?array $containedInTransportEquipment = null)
@@ -4829,9 +4829,9 @@ class TransportEquipmentType
      *  Package
      *
      * @return self
-     * @param \UBL\Common\CAC\Package $package
+     * @param \App\UBL\Common\CAC\Package $package
      */
-    public function addToPackage(\UBL\Common\CAC\Package $package)
+    public function addToPackage(\App\UBL\Common\CAC\Package $package)
     {
         $this->package[] = $package;
         return $this;
@@ -4889,7 +4889,7 @@ class TransportEquipmentType
      *  Package
      *  Package
      *
-     * @return \UBL\Common\CAC\Package[]
+     * @return \App\UBL\Common\CAC\Package[]
      */
     public function getPackage()
     {
@@ -4908,7 +4908,7 @@ class TransportEquipmentType
      *  Package
      *  Package
      *
-     * @param \UBL\Common\CAC\Package[] $package
+     * @param \App\UBL\Common\CAC\Package[] $package
      * @return self
      */
     public function setPackage(?array $package = null)
@@ -4930,9 +4930,9 @@ class TransportEquipmentType
      *  Goods Item
      *
      * @return self
-     * @param \UBL\Common\CAC\GoodsItem $goodsItem
+     * @param \App\UBL\Common\CAC\GoodsItem $goodsItem
      */
-    public function addToGoodsItem(\UBL\Common\CAC\GoodsItem $goodsItem)
+    public function addToGoodsItem(\App\UBL\Common\CAC\GoodsItem $goodsItem)
     {
         $this->goodsItem[] = $goodsItem;
         return $this;
@@ -4990,7 +4990,7 @@ class TransportEquipmentType
      *  Goods Item
      *  Goods Item
      *
-     * @return \UBL\Common\CAC\GoodsItem[]
+     * @return \App\UBL\Common\CAC\GoodsItem[]
      */
     public function getGoodsItem()
     {
@@ -5009,7 +5009,7 @@ class TransportEquipmentType
      *  Goods Item
      *  Goods Item
      *
-     * @param \UBL\Common\CAC\GoodsItem[] $goodsItem
+     * @param \App\UBL\Common\CAC\GoodsItem[] $goodsItem
      * @return self
      */
     public function setGoodsItem(?array $goodsItem = null)
@@ -5018,5 +5018,4 @@ class TransportEquipmentType
         return $this;
     }
 }
-
 

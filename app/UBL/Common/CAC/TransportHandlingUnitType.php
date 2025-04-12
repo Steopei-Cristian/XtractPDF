@@ -24,7 +24,7 @@ class TransportHandlingUnitType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class TransportHandlingUnitType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TransportHandlingUnitTypeCode $transportHandlingUnitTypeCode
+     * @var \App\UBL\Common\CBC\TransportHandlingUnitTypeCode $transportHandlingUnitTypeCode
      */
     private $transportHandlingUnitTypeCode = null;
 
@@ -53,7 +53,7 @@ class TransportHandlingUnitType
      *  Code. Type
      *  Special Handling
      *
-     * @var \UBL\Common\CBC\HandlingCode $handlingCode
+     * @var \App\UBL\Common\CBC\HandlingCode $handlingCode
      */
     private $handlingCode = null;
 
@@ -68,7 +68,7 @@ class TransportHandlingUnitType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\HandlingInstructions[] $handlingInstructions
+     * @var \App\UBL\Common\CBC\HandlingInstructions[] $handlingInstructions
      */
     private $handlingInstructions = [
         
@@ -101,7 +101,7 @@ class TransportHandlingUnitType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity
+     * @var \App\UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity
      */
     private $totalGoodsItemQuantity = null;
 
@@ -116,7 +116,7 @@ class TransportHandlingUnitType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\TotalPackageQuantity $totalPackageQuantity
+     * @var \App\UBL\Common\CBC\TotalPackageQuantity $totalPackageQuantity
      */
     private $totalPackageQuantity = null;
 
@@ -131,7 +131,7 @@ class TransportHandlingUnitType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\DamageRemarks[] $damageRemarks
+     * @var \App\UBL\Common\CBC\DamageRemarks[] $damageRemarks
      */
     private $damageRemarks = [
         
@@ -149,7 +149,7 @@ class TransportHandlingUnitType
      *  Text. Type
      *  Marks and Numbers, Shipping Marks
      *
-     * @var \UBL\Common\CBC\ShippingMarks[] $shippingMarks
+     * @var \App\UBL\Common\CBC\ShippingMarks[] $shippingMarks
      */
     private $shippingMarks = [
         
@@ -166,7 +166,7 @@ class TransportHandlingUnitType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\TraceID $traceID
+     * @var \App\UBL\Common\CBC\TraceID $traceID
      */
     private $traceID = null;
 
@@ -181,7 +181,7 @@ class TransportHandlingUnitType
      *  Despatch Line
      *  Despatch Line
      *
-     * @var \UBL\Common\CAC\HandlingUnitDespatchLine[] $handlingUnitDespatchLine
+     * @var \App\UBL\Common\CAC\HandlingUnitDespatchLine[] $handlingUnitDespatchLine
      */
     private $handlingUnitDespatchLine = [
         
@@ -198,7 +198,7 @@ class TransportHandlingUnitType
      *  Package
      *  Package
      *
-     * @var \UBL\Common\CAC\ActualPackage[] $actualPackage
+     * @var \App\UBL\Common\CAC\ActualPackage[] $actualPackage
      */
     private $actualPackage = [
         
@@ -215,7 +215,7 @@ class TransportHandlingUnitType
      *  Receipt Line
      *  Receipt Line
      *
-     * @var \UBL\Common\CAC\ReceivedHandlingUnitReceiptLine[] $receivedHandlingUnitReceiptLine
+     * @var \App\UBL\Common\CAC\ReceivedHandlingUnitReceiptLine[] $receivedHandlingUnitReceiptLine
      */
     private $receivedHandlingUnitReceiptLine = [
         
@@ -231,7 +231,7 @@ class TransportHandlingUnitType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @var \UBL\Common\CAC\TransportEquipment[] $transportEquipment
+     * @var \App\UBL\Common\CAC\TransportEquipment[] $transportEquipment
      */
     private $transportEquipment = [
         
@@ -247,7 +247,7 @@ class TransportHandlingUnitType
      *  Transport Means
      *  Transport Means
      *
-     * @var \UBL\Common\CAC\TransportMeans[] $transportMeans
+     * @var \App\UBL\Common\CAC\TransportMeans[] $transportMeans
      */
     private $transportMeans = [
         
@@ -263,7 +263,7 @@ class TransportHandlingUnitType
      *  Hazardous Goods Transit
      *  Hazardous Goods Transit
      *
-     * @var \UBL\Common\CAC\HazardousGoodsTransit[] $hazardousGoodsTransit
+     * @var \App\UBL\Common\CAC\HazardousGoodsTransit[] $hazardousGoodsTransit
      */
     private $hazardousGoodsTransit = [
         
@@ -280,7 +280,7 @@ class TransportHandlingUnitType
      *  Dimension
      *  Dimension
      *
-     * @var \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @var \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      */
     private $measurementDimension = [
         
@@ -297,7 +297,7 @@ class TransportHandlingUnitType
      *  Temperature
      *  Temperature
      *
-     * @var \UBL\Common\CAC\MinimumTemperature $minimumTemperature
+     * @var \App\UBL\Common\CAC\MinimumTemperature $minimumTemperature
      */
     private $minimumTemperature = null;
 
@@ -312,7 +312,7 @@ class TransportHandlingUnitType
      *  Temperature
      *  Temperature
      *
-     * @var \UBL\Common\CAC\MaximumTemperature $maximumTemperature
+     * @var \App\UBL\Common\CAC\MaximumTemperature $maximumTemperature
      */
     private $maximumTemperature = null;
 
@@ -326,7 +326,7 @@ class TransportHandlingUnitType
      *  Goods Item
      *  Goods Item
      *
-     * @var \UBL\Common\CAC\GoodsItem[] $goodsItem
+     * @var \App\UBL\Common\CAC\GoodsItem[] $goodsItem
      */
     private $goodsItem = [
         
@@ -343,7 +343,7 @@ class TransportHandlingUnitType
      *  Dimension
      *  Dimension
      *
-     * @var \UBL\Common\CAC\FloorSpaceMeasurementDimension $floorSpaceMeasurementDimension
+     * @var \App\UBL\Common\CAC\FloorSpaceMeasurementDimension $floorSpaceMeasurementDimension
      */
     private $floorSpaceMeasurementDimension = null;
 
@@ -358,7 +358,7 @@ class TransportHandlingUnitType
      *  Dimension
      *  Dimension
      *
-     * @var \UBL\Common\CAC\PalletSpaceMeasurementDimension $palletSpaceMeasurementDimension
+     * @var \App\UBL\Common\CAC\PalletSpaceMeasurementDimension $palletSpaceMeasurementDimension
      */
     private $palletSpaceMeasurementDimension = null;
 
@@ -373,7 +373,7 @@ class TransportHandlingUnitType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\ShipmentDocumentReference[] $shipmentDocumentReference
+     * @var \App\UBL\Common\CAC\ShipmentDocumentReference[] $shipmentDocumentReference
      */
     private $shipmentDocumentReference = [
         
@@ -389,7 +389,7 @@ class TransportHandlingUnitType
      *  Status
      *  Status
      *
-     * @var \UBL\Common\CAC\Status[] $status
+     * @var \App\UBL\Common\CAC\Status[] $status
      */
     private $status = [
         
@@ -405,7 +405,7 @@ class TransportHandlingUnitType
      *  Customs Declaration
      *  Customs Declaration
      *
-     * @var \UBL\Common\CAC\CustomsDeclaration[] $customsDeclaration
+     * @var \App\UBL\Common\CAC\CustomsDeclaration[] $customsDeclaration
      */
     private $customsDeclaration = [
         
@@ -422,7 +422,7 @@ class TransportHandlingUnitType
      *  Shipment
      *  Shipment
      *
-     * @var \UBL\Common\CAC\ReferencedShipment[] $referencedShipment
+     * @var \App\UBL\Common\CAC\ReferencedShipment[] $referencedShipment
      */
     private $referencedShipment = [
         
@@ -438,7 +438,7 @@ class TransportHandlingUnitType
      *  Package
      *  Package
      *
-     * @var \UBL\Common\CAC\Package[] $package
+     * @var \App\UBL\Common\CAC\Package[] $package
      */
     private $package = [
         
@@ -456,7 +456,7 @@ class TransportHandlingUnitType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -475,10 +475,10 @@ class TransportHandlingUnitType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -496,7 +496,7 @@ class TransportHandlingUnitType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TransportHandlingUnitTypeCode
+     * @return \App\UBL\Common\CBC\TransportHandlingUnitTypeCode
      */
     public function getTransportHandlingUnitTypeCode()
     {
@@ -515,10 +515,10 @@ class TransportHandlingUnitType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TransportHandlingUnitTypeCode $transportHandlingUnitTypeCode
+     * @param \App\UBL\Common\CBC\TransportHandlingUnitTypeCode $transportHandlingUnitTypeCode
      * @return self
      */
-    public function setTransportHandlingUnitTypeCode(?\UBL\Common\CBC\TransportHandlingUnitTypeCode $transportHandlingUnitTypeCode = null)
+    public function setTransportHandlingUnitTypeCode(?\App\UBL\Common\CBC\TransportHandlingUnitTypeCode $transportHandlingUnitTypeCode = null)
     {
         $this->transportHandlingUnitTypeCode = $transportHandlingUnitTypeCode;
         return $this;
@@ -537,7 +537,7 @@ class TransportHandlingUnitType
      *  Code. Type
      *  Special Handling
      *
-     * @return \UBL\Common\CBC\HandlingCode
+     * @return \App\UBL\Common\CBC\HandlingCode
      */
     public function getHandlingCode()
     {
@@ -557,10 +557,10 @@ class TransportHandlingUnitType
      *  Code. Type
      *  Special Handling
      *
-     * @param \UBL\Common\CBC\HandlingCode $handlingCode
+     * @param \App\UBL\Common\CBC\HandlingCode $handlingCode
      * @return self
      */
-    public function setHandlingCode(?\UBL\Common\CBC\HandlingCode $handlingCode = null)
+    public function setHandlingCode(?\App\UBL\Common\CBC\HandlingCode $handlingCode = null)
     {
         $this->handlingCode = $handlingCode;
         return $this;
@@ -580,9 +580,9 @@ class TransportHandlingUnitType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\HandlingInstructions $handlingInstructions
+     * @param \App\UBL\Common\CBC\HandlingInstructions $handlingInstructions
      */
-    public function addToHandlingInstructions(\UBL\Common\CBC\HandlingInstructions $handlingInstructions)
+    public function addToHandlingInstructions(\App\UBL\Common\CBC\HandlingInstructions $handlingInstructions)
     {
         $this->handlingInstructions[] = $handlingInstructions;
         return $this;
@@ -643,7 +643,7 @@ class TransportHandlingUnitType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\HandlingInstructions[]
+     * @return \App\UBL\Common\CBC\HandlingInstructions[]
      */
     public function getHandlingInstructions()
     {
@@ -663,7 +663,7 @@ class TransportHandlingUnitType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\HandlingInstructions[] $handlingInstructions
+     * @param \App\UBL\Common\CBC\HandlingInstructions[] $handlingInstructions
      * @return self
      */
     public function setHandlingInstructions(?array $handlingInstructions = null)
@@ -729,7 +729,7 @@ class TransportHandlingUnitType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\TotalGoodsItemQuantity
+     * @return \App\UBL\Common\CBC\TotalGoodsItemQuantity
      */
     public function getTotalGoodsItemQuantity()
     {
@@ -749,10 +749,10 @@ class TransportHandlingUnitType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity
+     * @param \App\UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity
      * @return self
      */
-    public function setTotalGoodsItemQuantity(?\UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity = null)
+    public function setTotalGoodsItemQuantity(?\App\UBL\Common\CBC\TotalGoodsItemQuantity $totalGoodsItemQuantity = null)
     {
         $this->totalGoodsItemQuantity = $totalGoodsItemQuantity;
         return $this;
@@ -771,7 +771,7 @@ class TransportHandlingUnitType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\TotalPackageQuantity
+     * @return \App\UBL\Common\CBC\TotalPackageQuantity
      */
     public function getTotalPackageQuantity()
     {
@@ -791,10 +791,10 @@ class TransportHandlingUnitType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\TotalPackageQuantity $totalPackageQuantity
+     * @param \App\UBL\Common\CBC\TotalPackageQuantity $totalPackageQuantity
      * @return self
      */
-    public function setTotalPackageQuantity(?\UBL\Common\CBC\TotalPackageQuantity $totalPackageQuantity = null)
+    public function setTotalPackageQuantity(?\App\UBL\Common\CBC\TotalPackageQuantity $totalPackageQuantity = null)
     {
         $this->totalPackageQuantity = $totalPackageQuantity;
         return $this;
@@ -814,9 +814,9 @@ class TransportHandlingUnitType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\DamageRemarks $damageRemarks
+     * @param \App\UBL\Common\CBC\DamageRemarks $damageRemarks
      */
-    public function addToDamageRemarks(\UBL\Common\CBC\DamageRemarks $damageRemarks)
+    public function addToDamageRemarks(\App\UBL\Common\CBC\DamageRemarks $damageRemarks)
     {
         $this->damageRemarks[] = $damageRemarks;
         return $this;
@@ -877,7 +877,7 @@ class TransportHandlingUnitType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\DamageRemarks[]
+     * @return \App\UBL\Common\CBC\DamageRemarks[]
      */
     public function getDamageRemarks()
     {
@@ -897,7 +897,7 @@ class TransportHandlingUnitType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\DamageRemarks[] $damageRemarks
+     * @param \App\UBL\Common\CBC\DamageRemarks[] $damageRemarks
      * @return self
      */
     public function setDamageRemarks(?array $damageRemarks = null)
@@ -921,9 +921,9 @@ class TransportHandlingUnitType
      *  Marks and Numbers, Shipping Marks
      *
      * @return self
-     * @param \UBL\Common\CBC\ShippingMarks $shippingMarks
+     * @param \App\UBL\Common\CBC\ShippingMarks $shippingMarks
      */
-    public function addToShippingMarks(\UBL\Common\CBC\ShippingMarks $shippingMarks)
+    public function addToShippingMarks(\App\UBL\Common\CBC\ShippingMarks $shippingMarks)
     {
         $this->shippingMarks[] = $shippingMarks;
         return $this;
@@ -987,7 +987,7 @@ class TransportHandlingUnitType
      *  Text. Type
      *  Marks and Numbers, Shipping Marks
      *
-     * @return \UBL\Common\CBC\ShippingMarks[]
+     * @return \App\UBL\Common\CBC\ShippingMarks[]
      */
     public function getShippingMarks()
     {
@@ -1008,7 +1008,7 @@ class TransportHandlingUnitType
      *  Text. Type
      *  Marks and Numbers, Shipping Marks
      *
-     * @param \UBL\Common\CBC\ShippingMarks[] $shippingMarks
+     * @param \App\UBL\Common\CBC\ShippingMarks[] $shippingMarks
      * @return self
      */
     public function setShippingMarks(?array $shippingMarks = null)
@@ -1030,7 +1030,7 @@ class TransportHandlingUnitType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\TraceID
+     * @return \App\UBL\Common\CBC\TraceID
      */
     public function getTraceID()
     {
@@ -1050,10 +1050,10 @@ class TransportHandlingUnitType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\TraceID $traceID
+     * @param \App\UBL\Common\CBC\TraceID $traceID
      * @return self
      */
-    public function setTraceID(?\UBL\Common\CBC\TraceID $traceID = null)
+    public function setTraceID(?\App\UBL\Common\CBC\TraceID $traceID = null)
     {
         $this->traceID = $traceID;
         return $this;
@@ -1073,9 +1073,9 @@ class TransportHandlingUnitType
      *  Despatch Line
      *
      * @return self
-     * @param \UBL\Common\CAC\HandlingUnitDespatchLine $handlingUnitDespatchLine
+     * @param \App\UBL\Common\CAC\HandlingUnitDespatchLine $handlingUnitDespatchLine
      */
-    public function addToHandlingUnitDespatchLine(\UBL\Common\CAC\HandlingUnitDespatchLine $handlingUnitDespatchLine)
+    public function addToHandlingUnitDespatchLine(\App\UBL\Common\CAC\HandlingUnitDespatchLine $handlingUnitDespatchLine)
     {
         $this->handlingUnitDespatchLine[] = $handlingUnitDespatchLine;
         return $this;
@@ -1136,7 +1136,7 @@ class TransportHandlingUnitType
      *  Despatch Line
      *  Despatch Line
      *
-     * @return \UBL\Common\CAC\HandlingUnitDespatchLine[]
+     * @return \App\UBL\Common\CAC\HandlingUnitDespatchLine[]
      */
     public function getHandlingUnitDespatchLine()
     {
@@ -1156,7 +1156,7 @@ class TransportHandlingUnitType
      *  Despatch Line
      *  Despatch Line
      *
-     * @param \UBL\Common\CAC\HandlingUnitDespatchLine[] $handlingUnitDespatchLine
+     * @param \App\UBL\Common\CAC\HandlingUnitDespatchLine[] $handlingUnitDespatchLine
      * @return self
      */
     public function setHandlingUnitDespatchLine(?array $handlingUnitDespatchLine = null)
@@ -1179,9 +1179,9 @@ class TransportHandlingUnitType
      *  Package
      *
      * @return self
-     * @param \UBL\Common\CAC\ActualPackage $actualPackage
+     * @param \App\UBL\Common\CAC\ActualPackage $actualPackage
      */
-    public function addToActualPackage(\UBL\Common\CAC\ActualPackage $actualPackage)
+    public function addToActualPackage(\App\UBL\Common\CAC\ActualPackage $actualPackage)
     {
         $this->actualPackage[] = $actualPackage;
         return $this;
@@ -1242,7 +1242,7 @@ class TransportHandlingUnitType
      *  Package
      *  Package
      *
-     * @return \UBL\Common\CAC\ActualPackage[]
+     * @return \App\UBL\Common\CAC\ActualPackage[]
      */
     public function getActualPackage()
     {
@@ -1262,7 +1262,7 @@ class TransportHandlingUnitType
      *  Package
      *  Package
      *
-     * @param \UBL\Common\CAC\ActualPackage[] $actualPackage
+     * @param \App\UBL\Common\CAC\ActualPackage[] $actualPackage
      * @return self
      */
     public function setActualPackage(?array $actualPackage = null)
@@ -1285,9 +1285,9 @@ class TransportHandlingUnitType
      *  Receipt Line
      *
      * @return self
-     * @param \UBL\Common\CAC\ReceivedHandlingUnitReceiptLine $receivedHandlingUnitReceiptLine
+     * @param \App\UBL\Common\CAC\ReceivedHandlingUnitReceiptLine $receivedHandlingUnitReceiptLine
      */
-    public function addToReceivedHandlingUnitReceiptLine(\UBL\Common\CAC\ReceivedHandlingUnitReceiptLine $receivedHandlingUnitReceiptLine)
+    public function addToReceivedHandlingUnitReceiptLine(\App\UBL\Common\CAC\ReceivedHandlingUnitReceiptLine $receivedHandlingUnitReceiptLine)
     {
         $this->receivedHandlingUnitReceiptLine[] = $receivedHandlingUnitReceiptLine;
         return $this;
@@ -1348,7 +1348,7 @@ class TransportHandlingUnitType
      *  Receipt Line
      *  Receipt Line
      *
-     * @return \UBL\Common\CAC\ReceivedHandlingUnitReceiptLine[]
+     * @return \App\UBL\Common\CAC\ReceivedHandlingUnitReceiptLine[]
      */
     public function getReceivedHandlingUnitReceiptLine()
     {
@@ -1368,7 +1368,7 @@ class TransportHandlingUnitType
      *  Receipt Line
      *  Receipt Line
      *
-     * @param \UBL\Common\CAC\ReceivedHandlingUnitReceiptLine[] $receivedHandlingUnitReceiptLine
+     * @param \App\UBL\Common\CAC\ReceivedHandlingUnitReceiptLine[] $receivedHandlingUnitReceiptLine
      * @return self
      */
     public function setReceivedHandlingUnitReceiptLine(?array $receivedHandlingUnitReceiptLine = null)
@@ -1390,9 +1390,9 @@ class TransportHandlingUnitType
      *  Transport Equipment
      *
      * @return self
-     * @param \UBL\Common\CAC\TransportEquipment $transportEquipment
+     * @param \App\UBL\Common\CAC\TransportEquipment $transportEquipment
      */
-    public function addToTransportEquipment(\UBL\Common\CAC\TransportEquipment $transportEquipment)
+    public function addToTransportEquipment(\App\UBL\Common\CAC\TransportEquipment $transportEquipment)
     {
         $this->transportEquipment[] = $transportEquipment;
         return $this;
@@ -1450,7 +1450,7 @@ class TransportHandlingUnitType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @return \UBL\Common\CAC\TransportEquipment[]
+     * @return \App\UBL\Common\CAC\TransportEquipment[]
      */
     public function getTransportEquipment()
     {
@@ -1469,7 +1469,7 @@ class TransportHandlingUnitType
      *  Transport Equipment
      *  Transport Equipment
      *
-     * @param \UBL\Common\CAC\TransportEquipment[] $transportEquipment
+     * @param \App\UBL\Common\CAC\TransportEquipment[] $transportEquipment
      * @return self
      */
     public function setTransportEquipment(?array $transportEquipment = null)
@@ -1491,9 +1491,9 @@ class TransportHandlingUnitType
      *  Transport Means
      *
      * @return self
-     * @param \UBL\Common\CAC\TransportMeans $transportMeans
+     * @param \App\UBL\Common\CAC\TransportMeans $transportMeans
      */
-    public function addToTransportMeans(\UBL\Common\CAC\TransportMeans $transportMeans)
+    public function addToTransportMeans(\App\UBL\Common\CAC\TransportMeans $transportMeans)
     {
         $this->transportMeans[] = $transportMeans;
         return $this;
@@ -1551,7 +1551,7 @@ class TransportHandlingUnitType
      *  Transport Means
      *  Transport Means
      *
-     * @return \UBL\Common\CAC\TransportMeans[]
+     * @return \App\UBL\Common\CAC\TransportMeans[]
      */
     public function getTransportMeans()
     {
@@ -1570,7 +1570,7 @@ class TransportHandlingUnitType
      *  Transport Means
      *  Transport Means
      *
-     * @param \UBL\Common\CAC\TransportMeans[] $transportMeans
+     * @param \App\UBL\Common\CAC\TransportMeans[] $transportMeans
      * @return self
      */
     public function setTransportMeans(?array $transportMeans = null)
@@ -1592,9 +1592,9 @@ class TransportHandlingUnitType
      *  Hazardous Goods Transit
      *
      * @return self
-     * @param \UBL\Common\CAC\HazardousGoodsTransit $hazardousGoodsTransit
+     * @param \App\UBL\Common\CAC\HazardousGoodsTransit $hazardousGoodsTransit
      */
-    public function addToHazardousGoodsTransit(\UBL\Common\CAC\HazardousGoodsTransit $hazardousGoodsTransit)
+    public function addToHazardousGoodsTransit(\App\UBL\Common\CAC\HazardousGoodsTransit $hazardousGoodsTransit)
     {
         $this->hazardousGoodsTransit[] = $hazardousGoodsTransit;
         return $this;
@@ -1652,7 +1652,7 @@ class TransportHandlingUnitType
      *  Hazardous Goods Transit
      *  Hazardous Goods Transit
      *
-     * @return \UBL\Common\CAC\HazardousGoodsTransit[]
+     * @return \App\UBL\Common\CAC\HazardousGoodsTransit[]
      */
     public function getHazardousGoodsTransit()
     {
@@ -1671,7 +1671,7 @@ class TransportHandlingUnitType
      *  Hazardous Goods Transit
      *  Hazardous Goods Transit
      *
-     * @param \UBL\Common\CAC\HazardousGoodsTransit[] $hazardousGoodsTransit
+     * @param \App\UBL\Common\CAC\HazardousGoodsTransit[] $hazardousGoodsTransit
      * @return self
      */
     public function setHazardousGoodsTransit(?array $hazardousGoodsTransit = null)
@@ -1694,9 +1694,9 @@ class TransportHandlingUnitType
      *  Dimension
      *
      * @return self
-     * @param \UBL\Common\CAC\MeasurementDimension $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension $measurementDimension
      */
-    public function addToMeasurementDimension(\UBL\Common\CAC\MeasurementDimension $measurementDimension)
+    public function addToMeasurementDimension(\App\UBL\Common\CAC\MeasurementDimension $measurementDimension)
     {
         $this->measurementDimension[] = $measurementDimension;
         return $this;
@@ -1757,7 +1757,7 @@ class TransportHandlingUnitType
      *  Dimension
      *  Dimension
      *
-     * @return \UBL\Common\CAC\MeasurementDimension[]
+     * @return \App\UBL\Common\CAC\MeasurementDimension[]
      */
     public function getMeasurementDimension()
     {
@@ -1777,7 +1777,7 @@ class TransportHandlingUnitType
      *  Dimension
      *  Dimension
      *
-     * @param \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      * @return self
      */
     public function setMeasurementDimension(?array $measurementDimension = null)
@@ -1799,7 +1799,7 @@ class TransportHandlingUnitType
      *  Temperature
      *  Temperature
      *
-     * @return \UBL\Common\CAC\MinimumTemperature
+     * @return \App\UBL\Common\CAC\MinimumTemperature
      */
     public function getMinimumTemperature()
     {
@@ -1819,10 +1819,10 @@ class TransportHandlingUnitType
      *  Temperature
      *  Temperature
      *
-     * @param \UBL\Common\CAC\MinimumTemperature $minimumTemperature
+     * @param \App\UBL\Common\CAC\MinimumTemperature $minimumTemperature
      * @return self
      */
-    public function setMinimumTemperature(?\UBL\Common\CAC\MinimumTemperature $minimumTemperature = null)
+    public function setMinimumTemperature(?\App\UBL\Common\CAC\MinimumTemperature $minimumTemperature = null)
     {
         $this->minimumTemperature = $minimumTemperature;
         return $this;
@@ -1841,7 +1841,7 @@ class TransportHandlingUnitType
      *  Temperature
      *  Temperature
      *
-     * @return \UBL\Common\CAC\MaximumTemperature
+     * @return \App\UBL\Common\CAC\MaximumTemperature
      */
     public function getMaximumTemperature()
     {
@@ -1861,10 +1861,10 @@ class TransportHandlingUnitType
      *  Temperature
      *  Temperature
      *
-     * @param \UBL\Common\CAC\MaximumTemperature $maximumTemperature
+     * @param \App\UBL\Common\CAC\MaximumTemperature $maximumTemperature
      * @return self
      */
-    public function setMaximumTemperature(?\UBL\Common\CAC\MaximumTemperature $maximumTemperature = null)
+    public function setMaximumTemperature(?\App\UBL\Common\CAC\MaximumTemperature $maximumTemperature = null)
     {
         $this->maximumTemperature = $maximumTemperature;
         return $this;
@@ -1883,9 +1883,9 @@ class TransportHandlingUnitType
      *  Goods Item
      *
      * @return self
-     * @param \UBL\Common\CAC\GoodsItem $goodsItem
+     * @param \App\UBL\Common\CAC\GoodsItem $goodsItem
      */
-    public function addToGoodsItem(\UBL\Common\CAC\GoodsItem $goodsItem)
+    public function addToGoodsItem(\App\UBL\Common\CAC\GoodsItem $goodsItem)
     {
         $this->goodsItem[] = $goodsItem;
         return $this;
@@ -1943,7 +1943,7 @@ class TransportHandlingUnitType
      *  Goods Item
      *  Goods Item
      *
-     * @return \UBL\Common\CAC\GoodsItem[]
+     * @return \App\UBL\Common\CAC\GoodsItem[]
      */
     public function getGoodsItem()
     {
@@ -1962,7 +1962,7 @@ class TransportHandlingUnitType
      *  Goods Item
      *  Goods Item
      *
-     * @param \UBL\Common\CAC\GoodsItem[] $goodsItem
+     * @param \App\UBL\Common\CAC\GoodsItem[] $goodsItem
      * @return self
      */
     public function setGoodsItem(?array $goodsItem = null)
@@ -1984,7 +1984,7 @@ class TransportHandlingUnitType
      *  Dimension
      *  Dimension
      *
-     * @return \UBL\Common\CAC\FloorSpaceMeasurementDimension
+     * @return \App\UBL\Common\CAC\FloorSpaceMeasurementDimension
      */
     public function getFloorSpaceMeasurementDimension()
     {
@@ -2004,10 +2004,10 @@ class TransportHandlingUnitType
      *  Dimension
      *  Dimension
      *
-     * @param \UBL\Common\CAC\FloorSpaceMeasurementDimension $floorSpaceMeasurementDimension
+     * @param \App\UBL\Common\CAC\FloorSpaceMeasurementDimension $floorSpaceMeasurementDimension
      * @return self
      */
-    public function setFloorSpaceMeasurementDimension(?\UBL\Common\CAC\FloorSpaceMeasurementDimension $floorSpaceMeasurementDimension = null)
+    public function setFloorSpaceMeasurementDimension(?\App\UBL\Common\CAC\FloorSpaceMeasurementDimension $floorSpaceMeasurementDimension = null)
     {
         $this->floorSpaceMeasurementDimension = $floorSpaceMeasurementDimension;
         return $this;
@@ -2026,7 +2026,7 @@ class TransportHandlingUnitType
      *  Dimension
      *  Dimension
      *
-     * @return \UBL\Common\CAC\PalletSpaceMeasurementDimension
+     * @return \App\UBL\Common\CAC\PalletSpaceMeasurementDimension
      */
     public function getPalletSpaceMeasurementDimension()
     {
@@ -2046,10 +2046,10 @@ class TransportHandlingUnitType
      *  Dimension
      *  Dimension
      *
-     * @param \UBL\Common\CAC\PalletSpaceMeasurementDimension $palletSpaceMeasurementDimension
+     * @param \App\UBL\Common\CAC\PalletSpaceMeasurementDimension $palletSpaceMeasurementDimension
      * @return self
      */
-    public function setPalletSpaceMeasurementDimension(?\UBL\Common\CAC\PalletSpaceMeasurementDimension $palletSpaceMeasurementDimension = null)
+    public function setPalletSpaceMeasurementDimension(?\App\UBL\Common\CAC\PalletSpaceMeasurementDimension $palletSpaceMeasurementDimension = null)
     {
         $this->palletSpaceMeasurementDimension = $palletSpaceMeasurementDimension;
         return $this;
@@ -2069,9 +2069,9 @@ class TransportHandlingUnitType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference
+     * @param \App\UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference
      */
-    public function addToShipmentDocumentReference(\UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference)
+    public function addToShipmentDocumentReference(\App\UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference)
     {
         $this->shipmentDocumentReference[] = $shipmentDocumentReference;
         return $this;
@@ -2132,7 +2132,7 @@ class TransportHandlingUnitType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\ShipmentDocumentReference[]
+     * @return \App\UBL\Common\CAC\ShipmentDocumentReference[]
      */
     public function getShipmentDocumentReference()
     {
@@ -2152,7 +2152,7 @@ class TransportHandlingUnitType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\ShipmentDocumentReference[] $shipmentDocumentReference
+     * @param \App\UBL\Common\CAC\ShipmentDocumentReference[] $shipmentDocumentReference
      * @return self
      */
     public function setShipmentDocumentReference(?array $shipmentDocumentReference = null)
@@ -2174,9 +2174,9 @@ class TransportHandlingUnitType
      *  Status
      *
      * @return self
-     * @param \UBL\Common\CAC\Status $status
+     * @param \App\UBL\Common\CAC\Status $status
      */
-    public function addToStatus(\UBL\Common\CAC\Status $status)
+    public function addToStatus(\App\UBL\Common\CAC\Status $status)
     {
         $this->status[] = $status;
         return $this;
@@ -2234,7 +2234,7 @@ class TransportHandlingUnitType
      *  Status
      *  Status
      *
-     * @return \UBL\Common\CAC\Status[]
+     * @return \App\UBL\Common\CAC\Status[]
      */
     public function getStatus()
     {
@@ -2253,7 +2253,7 @@ class TransportHandlingUnitType
      *  Status
      *  Status
      *
-     * @param \UBL\Common\CAC\Status[] $status
+     * @param \App\UBL\Common\CAC\Status[] $status
      * @return self
      */
     public function setStatus(?array $status = null)
@@ -2275,9 +2275,9 @@ class TransportHandlingUnitType
      *  Customs Declaration
      *
      * @return self
-     * @param \UBL\Common\CAC\CustomsDeclaration $customsDeclaration
+     * @param \App\UBL\Common\CAC\CustomsDeclaration $customsDeclaration
      */
-    public function addToCustomsDeclaration(\UBL\Common\CAC\CustomsDeclaration $customsDeclaration)
+    public function addToCustomsDeclaration(\App\UBL\Common\CAC\CustomsDeclaration $customsDeclaration)
     {
         $this->customsDeclaration[] = $customsDeclaration;
         return $this;
@@ -2335,7 +2335,7 @@ class TransportHandlingUnitType
      *  Customs Declaration
      *  Customs Declaration
      *
-     * @return \UBL\Common\CAC\CustomsDeclaration[]
+     * @return \App\UBL\Common\CAC\CustomsDeclaration[]
      */
     public function getCustomsDeclaration()
     {
@@ -2354,7 +2354,7 @@ class TransportHandlingUnitType
      *  Customs Declaration
      *  Customs Declaration
      *
-     * @param \UBL\Common\CAC\CustomsDeclaration[] $customsDeclaration
+     * @param \App\UBL\Common\CAC\CustomsDeclaration[] $customsDeclaration
      * @return self
      */
     public function setCustomsDeclaration(?array $customsDeclaration = null)
@@ -2377,9 +2377,9 @@ class TransportHandlingUnitType
      *  Shipment
      *
      * @return self
-     * @param \UBL\Common\CAC\ReferencedShipment $referencedShipment
+     * @param \App\UBL\Common\CAC\ReferencedShipment $referencedShipment
      */
-    public function addToReferencedShipment(\UBL\Common\CAC\ReferencedShipment $referencedShipment)
+    public function addToReferencedShipment(\App\UBL\Common\CAC\ReferencedShipment $referencedShipment)
     {
         $this->referencedShipment[] = $referencedShipment;
         return $this;
@@ -2440,7 +2440,7 @@ class TransportHandlingUnitType
      *  Shipment
      *  Shipment
      *
-     * @return \UBL\Common\CAC\ReferencedShipment[]
+     * @return \App\UBL\Common\CAC\ReferencedShipment[]
      */
     public function getReferencedShipment()
     {
@@ -2460,7 +2460,7 @@ class TransportHandlingUnitType
      *  Shipment
      *  Shipment
      *
-     * @param \UBL\Common\CAC\ReferencedShipment[] $referencedShipment
+     * @param \App\UBL\Common\CAC\ReferencedShipment[] $referencedShipment
      * @return self
      */
     public function setReferencedShipment(?array $referencedShipment = null)
@@ -2482,9 +2482,9 @@ class TransportHandlingUnitType
      *  Package
      *
      * @return self
-     * @param \UBL\Common\CAC\Package $package
+     * @param \App\UBL\Common\CAC\Package $package
      */
-    public function addToPackage(\UBL\Common\CAC\Package $package)
+    public function addToPackage(\App\UBL\Common\CAC\Package $package)
     {
         $this->package[] = $package;
         return $this;
@@ -2542,7 +2542,7 @@ class TransportHandlingUnitType
      *  Package
      *  Package
      *
-     * @return \UBL\Common\CAC\Package[]
+     * @return \App\UBL\Common\CAC\Package[]
      */
     public function getPackage()
     {
@@ -2561,7 +2561,7 @@ class TransportHandlingUnitType
      *  Package
      *  Package
      *
-     * @param \UBL\Common\CAC\Package[] $package
+     * @param \App\UBL\Common\CAC\Package[] $package
      * @return self
      */
     public function setPackage(?array $package = null)
@@ -2570,5 +2570,4 @@ class TransportHandlingUnitType
         return $this;
     }
 }
-
 

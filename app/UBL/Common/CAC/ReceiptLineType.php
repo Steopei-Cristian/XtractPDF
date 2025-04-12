@@ -23,7 +23,7 @@ class ReceiptLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class ReceiptLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -51,7 +51,7 @@ class ReceiptLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -68,7 +68,7 @@ class ReceiptLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ReceivedQuantity $receivedQuantity
+     * @var \App\UBL\Common\CBC\ReceivedQuantity $receivedQuantity
      */
     private $receivedQuantity = null;
 
@@ -83,7 +83,7 @@ class ReceiptLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ShortQuantity $shortQuantity
+     * @var \App\UBL\Common\CBC\ShortQuantity $shortQuantity
      */
     private $shortQuantity = null;
 
@@ -97,7 +97,7 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ShortageActionCode $shortageActionCode
+     * @var \App\UBL\Common\CBC\ShortageActionCode $shortageActionCode
      */
     private $shortageActionCode = null;
 
@@ -112,7 +112,7 @@ class ReceiptLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\RejectedQuantity $rejectedQuantity
+     * @var \App\UBL\Common\CBC\RejectedQuantity $rejectedQuantity
      */
     private $rejectedQuantity = null;
 
@@ -126,7 +126,7 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\RejectReasonCode $rejectReasonCode
+     * @var \App\UBL\Common\CBC\RejectReasonCode $rejectReasonCode
      */
     private $rejectReasonCode = null;
 
@@ -141,7 +141,7 @@ class ReceiptLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\RejectReason[] $rejectReason
+     * @var \App\UBL\Common\CBC\RejectReason[] $rejectReason
      */
     private $rejectReason = [
         
@@ -157,7 +157,7 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\RejectActionCode $rejectActionCode
+     * @var \App\UBL\Common\CBC\RejectActionCode $rejectActionCode
      */
     private $rejectActionCode = null;
 
@@ -171,7 +171,7 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\QuantityDiscrepancyCode $quantityDiscrepancyCode
+     * @var \App\UBL\Common\CBC\QuantityDiscrepancyCode $quantityDiscrepancyCode
      */
     private $quantityDiscrepancyCode = null;
 
@@ -186,7 +186,7 @@ class ReceiptLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\OversupplyQuantity $oversupplyQuantity
+     * @var \App\UBL\Common\CBC\OversupplyQuantity $oversupplyQuantity
      */
     private $oversupplyQuantity = null;
 
@@ -215,7 +215,7 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\TimingComplaintCode $timingComplaintCode
+     * @var \App\UBL\Common\CBC\TimingComplaintCode $timingComplaintCode
      */
     private $timingComplaintCode = null;
 
@@ -229,7 +229,7 @@ class ReceiptLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\TimingComplaint $timingComplaint
+     * @var \App\UBL\Common\CBC\TimingComplaint $timingComplaint
      */
     private $timingComplaint = null;
 
@@ -243,7 +243,7 @@ class ReceiptLineType
      *  Order Line Reference
      *  Order Line Reference
      *
-     * @var \UBL\Common\CAC\OrderLineReference $orderLineReference
+     * @var \App\UBL\Common\CAC\OrderLineReference $orderLineReference
      */
     private $orderLineReference = null;
 
@@ -258,7 +258,7 @@ class ReceiptLineType
      *  Line Reference
      *  Line Reference
      *
-     * @var \UBL\Common\CAC\DespatchLineReference[] $despatchLineReference
+     * @var \App\UBL\Common\CAC\DespatchLineReference[] $despatchLineReference
      */
     private $despatchLineReference = [
         
@@ -274,7 +274,7 @@ class ReceiptLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -290,7 +290,7 @@ class ReceiptLineType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item[] $item
+     * @var \App\UBL\Common\CAC\Item[] $item
      */
     private $item = [
         
@@ -306,7 +306,7 @@ class ReceiptLineType
      *  Shipment
      *  Shipment
      *
-     * @var \UBL\Common\CAC\Shipment[] $shipment
+     * @var \App\UBL\Common\CAC\Shipment[] $shipment
      */
     private $shipment = [
         
@@ -324,7 +324,7 @@ class ReceiptLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -343,10 +343,10 @@ class ReceiptLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -364,7 +364,7 @@ class ReceiptLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -383,10 +383,10 @@ class ReceiptLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -405,9 +405,9 @@ class ReceiptLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -465,7 +465,7 @@ class ReceiptLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -484,7 +484,7 @@ class ReceiptLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -506,7 +506,7 @@ class ReceiptLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ReceivedQuantity
+     * @return \App\UBL\Common\CBC\ReceivedQuantity
      */
     public function getReceivedQuantity()
     {
@@ -526,10 +526,10 @@ class ReceiptLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ReceivedQuantity $receivedQuantity
+     * @param \App\UBL\Common\CBC\ReceivedQuantity $receivedQuantity
      * @return self
      */
-    public function setReceivedQuantity(?\UBL\Common\CBC\ReceivedQuantity $receivedQuantity = null)
+    public function setReceivedQuantity(?\App\UBL\Common\CBC\ReceivedQuantity $receivedQuantity = null)
     {
         $this->receivedQuantity = $receivedQuantity;
         return $this;
@@ -548,7 +548,7 @@ class ReceiptLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ShortQuantity
+     * @return \App\UBL\Common\CBC\ShortQuantity
      */
     public function getShortQuantity()
     {
@@ -568,10 +568,10 @@ class ReceiptLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ShortQuantity $shortQuantity
+     * @param \App\UBL\Common\CBC\ShortQuantity $shortQuantity
      * @return self
      */
-    public function setShortQuantity(?\UBL\Common\CBC\ShortQuantity $shortQuantity = null)
+    public function setShortQuantity(?\App\UBL\Common\CBC\ShortQuantity $shortQuantity = null)
     {
         $this->shortQuantity = $shortQuantity;
         return $this;
@@ -589,7 +589,7 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ShortageActionCode
+     * @return \App\UBL\Common\CBC\ShortageActionCode
      */
     public function getShortageActionCode()
     {
@@ -608,10 +608,10 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ShortageActionCode $shortageActionCode
+     * @param \App\UBL\Common\CBC\ShortageActionCode $shortageActionCode
      * @return self
      */
-    public function setShortageActionCode(?\UBL\Common\CBC\ShortageActionCode $shortageActionCode = null)
+    public function setShortageActionCode(?\App\UBL\Common\CBC\ShortageActionCode $shortageActionCode = null)
     {
         $this->shortageActionCode = $shortageActionCode;
         return $this;
@@ -630,7 +630,7 @@ class ReceiptLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\RejectedQuantity
+     * @return \App\UBL\Common\CBC\RejectedQuantity
      */
     public function getRejectedQuantity()
     {
@@ -650,10 +650,10 @@ class ReceiptLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\RejectedQuantity $rejectedQuantity
+     * @param \App\UBL\Common\CBC\RejectedQuantity $rejectedQuantity
      * @return self
      */
-    public function setRejectedQuantity(?\UBL\Common\CBC\RejectedQuantity $rejectedQuantity = null)
+    public function setRejectedQuantity(?\App\UBL\Common\CBC\RejectedQuantity $rejectedQuantity = null)
     {
         $this->rejectedQuantity = $rejectedQuantity;
         return $this;
@@ -671,7 +671,7 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\RejectReasonCode
+     * @return \App\UBL\Common\CBC\RejectReasonCode
      */
     public function getRejectReasonCode()
     {
@@ -690,10 +690,10 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\RejectReasonCode $rejectReasonCode
+     * @param \App\UBL\Common\CBC\RejectReasonCode $rejectReasonCode
      * @return self
      */
-    public function setRejectReasonCode(?\UBL\Common\CBC\RejectReasonCode $rejectReasonCode = null)
+    public function setRejectReasonCode(?\App\UBL\Common\CBC\RejectReasonCode $rejectReasonCode = null)
     {
         $this->rejectReasonCode = $rejectReasonCode;
         return $this;
@@ -713,9 +713,9 @@ class ReceiptLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\RejectReason $rejectReason
+     * @param \App\UBL\Common\CBC\RejectReason $rejectReason
      */
-    public function addToRejectReason(\UBL\Common\CBC\RejectReason $rejectReason)
+    public function addToRejectReason(\App\UBL\Common\CBC\RejectReason $rejectReason)
     {
         $this->rejectReason[] = $rejectReason;
         return $this;
@@ -776,7 +776,7 @@ class ReceiptLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\RejectReason[]
+     * @return \App\UBL\Common\CBC\RejectReason[]
      */
     public function getRejectReason()
     {
@@ -796,7 +796,7 @@ class ReceiptLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\RejectReason[] $rejectReason
+     * @param \App\UBL\Common\CBC\RejectReason[] $rejectReason
      * @return self
      */
     public function setRejectReason(?array $rejectReason = null)
@@ -817,7 +817,7 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\RejectActionCode
+     * @return \App\UBL\Common\CBC\RejectActionCode
      */
     public function getRejectActionCode()
     {
@@ -836,10 +836,10 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\RejectActionCode $rejectActionCode
+     * @param \App\UBL\Common\CBC\RejectActionCode $rejectActionCode
      * @return self
      */
-    public function setRejectActionCode(?\UBL\Common\CBC\RejectActionCode $rejectActionCode = null)
+    public function setRejectActionCode(?\App\UBL\Common\CBC\RejectActionCode $rejectActionCode = null)
     {
         $this->rejectActionCode = $rejectActionCode;
         return $this;
@@ -857,7 +857,7 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\QuantityDiscrepancyCode
+     * @return \App\UBL\Common\CBC\QuantityDiscrepancyCode
      */
     public function getQuantityDiscrepancyCode()
     {
@@ -876,10 +876,10 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\QuantityDiscrepancyCode $quantityDiscrepancyCode
+     * @param \App\UBL\Common\CBC\QuantityDiscrepancyCode $quantityDiscrepancyCode
      * @return self
      */
-    public function setQuantityDiscrepancyCode(?\UBL\Common\CBC\QuantityDiscrepancyCode $quantityDiscrepancyCode = null)
+    public function setQuantityDiscrepancyCode(?\App\UBL\Common\CBC\QuantityDiscrepancyCode $quantityDiscrepancyCode = null)
     {
         $this->quantityDiscrepancyCode = $quantityDiscrepancyCode;
         return $this;
@@ -898,7 +898,7 @@ class ReceiptLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\OversupplyQuantity
+     * @return \App\UBL\Common\CBC\OversupplyQuantity
      */
     public function getOversupplyQuantity()
     {
@@ -918,10 +918,10 @@ class ReceiptLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\OversupplyQuantity $oversupplyQuantity
+     * @param \App\UBL\Common\CBC\OversupplyQuantity $oversupplyQuantity
      * @return self
      */
-    public function setOversupplyQuantity(?\UBL\Common\CBC\OversupplyQuantity $oversupplyQuantity = null)
+    public function setOversupplyQuantity(?\App\UBL\Common\CBC\OversupplyQuantity $oversupplyQuantity = null)
     {
         $this->oversupplyQuantity = $oversupplyQuantity;
         return $this;
@@ -981,7 +981,7 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\TimingComplaintCode
+     * @return \App\UBL\Common\CBC\TimingComplaintCode
      */
     public function getTimingComplaintCode()
     {
@@ -1000,10 +1000,10 @@ class ReceiptLineType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\TimingComplaintCode $timingComplaintCode
+     * @param \App\UBL\Common\CBC\TimingComplaintCode $timingComplaintCode
      * @return self
      */
-    public function setTimingComplaintCode(?\UBL\Common\CBC\TimingComplaintCode $timingComplaintCode = null)
+    public function setTimingComplaintCode(?\App\UBL\Common\CBC\TimingComplaintCode $timingComplaintCode = null)
     {
         $this->timingComplaintCode = $timingComplaintCode;
         return $this;
@@ -1021,7 +1021,7 @@ class ReceiptLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\TimingComplaint
+     * @return \App\UBL\Common\CBC\TimingComplaint
      */
     public function getTimingComplaint()
     {
@@ -1040,10 +1040,10 @@ class ReceiptLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\TimingComplaint $timingComplaint
+     * @param \App\UBL\Common\CBC\TimingComplaint $timingComplaint
      * @return self
      */
-    public function setTimingComplaint(?\UBL\Common\CBC\TimingComplaint $timingComplaint = null)
+    public function setTimingComplaint(?\App\UBL\Common\CBC\TimingComplaint $timingComplaint = null)
     {
         $this->timingComplaint = $timingComplaint;
         return $this;
@@ -1061,7 +1061,7 @@ class ReceiptLineType
      *  Order Line Reference
      *  Order Line Reference
      *
-     * @return \UBL\Common\CAC\OrderLineReference
+     * @return \App\UBL\Common\CAC\OrderLineReference
      */
     public function getOrderLineReference()
     {
@@ -1080,10 +1080,10 @@ class ReceiptLineType
      *  Order Line Reference
      *  Order Line Reference
      *
-     * @param \UBL\Common\CAC\OrderLineReference $orderLineReference
+     * @param \App\UBL\Common\CAC\OrderLineReference $orderLineReference
      * @return self
      */
-    public function setOrderLineReference(?\UBL\Common\CAC\OrderLineReference $orderLineReference = null)
+    public function setOrderLineReference(?\App\UBL\Common\CAC\OrderLineReference $orderLineReference = null)
     {
         $this->orderLineReference = $orderLineReference;
         return $this;
@@ -1103,9 +1103,9 @@ class ReceiptLineType
      *  Line Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DespatchLineReference $despatchLineReference
+     * @param \App\UBL\Common\CAC\DespatchLineReference $despatchLineReference
      */
-    public function addToDespatchLineReference(\UBL\Common\CAC\DespatchLineReference $despatchLineReference)
+    public function addToDespatchLineReference(\App\UBL\Common\CAC\DespatchLineReference $despatchLineReference)
     {
         $this->despatchLineReference[] = $despatchLineReference;
         return $this;
@@ -1166,7 +1166,7 @@ class ReceiptLineType
      *  Line Reference
      *  Line Reference
      *
-     * @return \UBL\Common\CAC\DespatchLineReference[]
+     * @return \App\UBL\Common\CAC\DespatchLineReference[]
      */
     public function getDespatchLineReference()
     {
@@ -1186,7 +1186,7 @@ class ReceiptLineType
      *  Line Reference
      *  Line Reference
      *
-     * @param \UBL\Common\CAC\DespatchLineReference[] $despatchLineReference
+     * @param \App\UBL\Common\CAC\DespatchLineReference[] $despatchLineReference
      * @return self
      */
     public function setDespatchLineReference(?array $despatchLineReference = null)
@@ -1208,9 +1208,9 @@ class ReceiptLineType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -1268,7 +1268,7 @@ class ReceiptLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -1287,7 +1287,7 @@ class ReceiptLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -1309,9 +1309,9 @@ class ReceiptLineType
      *  Item
      *
      * @return self
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      */
-    public function addToItem(\UBL\Common\CAC\Item $item)
+    public function addToItem(\App\UBL\Common\CAC\Item $item)
     {
         $this->item[] = $item;
         return $this;
@@ -1369,7 +1369,7 @@ class ReceiptLineType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item[]
+     * @return \App\UBL\Common\CAC\Item[]
      */
     public function getItem()
     {
@@ -1388,7 +1388,7 @@ class ReceiptLineType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item[] $item
+     * @param \App\UBL\Common\CAC\Item[] $item
      * @return self
      */
     public function setItem(?array $item = null)
@@ -1410,9 +1410,9 @@ class ReceiptLineType
      *  Shipment
      *
      * @return self
-     * @param \UBL\Common\CAC\Shipment $shipment
+     * @param \App\UBL\Common\CAC\Shipment $shipment
      */
-    public function addToShipment(\UBL\Common\CAC\Shipment $shipment)
+    public function addToShipment(\App\UBL\Common\CAC\Shipment $shipment)
     {
         $this->shipment[] = $shipment;
         return $this;
@@ -1470,7 +1470,7 @@ class ReceiptLineType
      *  Shipment
      *  Shipment
      *
-     * @return \UBL\Common\CAC\Shipment[]
+     * @return \App\UBL\Common\CAC\Shipment[]
      */
     public function getShipment()
     {
@@ -1489,7 +1489,7 @@ class ReceiptLineType
      *  Shipment
      *  Shipment
      *
-     * @param \UBL\Common\CAC\Shipment[] $shipment
+     * @param \App\UBL\Common\CAC\Shipment[] $shipment
      * @return self
      */
     public function setShipment(?array $shipment = null)
@@ -1498,5 +1498,4 @@ class ReceiptLineType
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class DetentionTransportEvent extends TransportEventType
 {
 }
 
-

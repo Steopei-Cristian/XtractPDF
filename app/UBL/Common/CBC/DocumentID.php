@@ -9,4 +9,3 @@ class DocumentID extends DocumentIDType
 {
 }
 
-

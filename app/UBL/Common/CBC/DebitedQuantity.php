@@ -9,4 +9,3 @@ class DebitedQuantity extends DebitedQuantityType
 {
 }
 
-

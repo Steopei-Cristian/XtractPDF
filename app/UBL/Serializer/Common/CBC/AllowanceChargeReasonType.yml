@@ -1,2 +1,2 @@
-UBL\Common\CBC\AllowanceChargeReasonType:
+App\UBL\Common\CBC\AllowanceChargeReasonType:
     properties: {  }

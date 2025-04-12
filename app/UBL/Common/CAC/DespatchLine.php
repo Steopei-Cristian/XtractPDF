@@ -9,4 +9,3 @@ class DespatchLine extends DespatchLineType
 {
 }
 
-

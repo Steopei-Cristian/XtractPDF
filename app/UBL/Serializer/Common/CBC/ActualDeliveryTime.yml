@@ -1,4 +1,4 @@
-UBL\Common\CBC\ActualDeliveryTime:
+App\UBL\Common\CBC\ActualDeliveryTime:
     xml_root_name: ActualDeliveryTime
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

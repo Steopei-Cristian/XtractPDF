@@ -9,4 +9,3 @@ class FaceValueAmount extends FaceValueAmountType
 {
 }
 
-

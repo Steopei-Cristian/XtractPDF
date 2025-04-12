@@ -9,4 +9,3 @@ class SecondaryHazard extends SecondaryHazardType
 {
 }
 
-

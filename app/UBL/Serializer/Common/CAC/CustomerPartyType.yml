@@ -1,4 +1,4 @@
-UBL\Common\CAC\CustomerPartyType:
+App\UBL\Common\CAC\CustomerPartyType:
     properties:
         customerAssignedAccountID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CustomerPartyType:
             accessor:
                 getter: getCustomerAssignedAccountID
                 setter: setCustomerAssignedAccountID
-            type: UBL\Common\CBC\CustomerAssignedAccountID
+            type: App\UBL\Common\CBC\CustomerAssignedAccountID
         supplierAssignedAccountID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\CustomerPartyType:
             accessor:
                 getter: getSupplierAssignedAccountID
                 setter: setSupplierAssignedAccountID
-            type: UBL\Common\CBC\SupplierAssignedAccountID
+            type: App\UBL\Common\CBC\SupplierAssignedAccountID
         additionalAccountID:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\CustomerPartyType:
                 inline: true
                 entry_name: AdditionalAccountID
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\AdditionalAccountID>
+            type: array<App\UBL\Common\CBC\AdditionalAccountID>
         party:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\CustomerPartyType:
             accessor:
                 getter: getParty
                 setter: setParty
-            type: UBL\Common\CAC\Party
+            type: App\UBL\Common\CAC\Party
         deliveryContact:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\CustomerPartyType:
             accessor:
                 getter: getDeliveryContact
                 setter: setDeliveryContact
-            type: UBL\Common\CAC\DeliveryContact
+            type: App\UBL\Common\CAC\DeliveryContact
         accountingContact:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\CustomerPartyType:
             accessor:
                 getter: getAccountingContact
                 setter: setAccountingContact
-            type: UBL\Common\CAC\AccountingContact
+            type: App\UBL\Common\CAC\AccountingContact
         buyerContact:
             expose: true
             access_type: public_method
@@ -73,4 +73,4 @@ UBL\Common\CAC\CustomerPartyType:
             accessor:
                 getter: getBuyerContact
                 setter: setBuyerContact
-            type: UBL\Common\CAC\BuyerContact
+            type: App\UBL\Common\CAC\BuyerContact

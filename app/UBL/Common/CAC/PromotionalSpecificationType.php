@@ -23,7 +23,7 @@ class PromotionalSpecificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\SpecificationID $specificationID
+     * @var \App\UBL\Common\CBC\SpecificationID $specificationID
      */
     private $specificationID = null;
 
@@ -37,7 +37,7 @@ class PromotionalSpecificationType
      *  Promotional Event Line Item
      *  Promotional Event Line Item
      *
-     * @var \UBL\Common\CAC\PromotionalEventLineItem[] $promotionalEventLineItem
+     * @var \App\UBL\Common\CAC\PromotionalEventLineItem[] $promotionalEventLineItem
      */
     private $promotionalEventLineItem = [
         
@@ -53,7 +53,7 @@ class PromotionalSpecificationType
      *  Event Tactic
      *  Event Tactic
      *
-     * @var \UBL\Common\CAC\EventTactic[] $eventTactic
+     * @var \App\UBL\Common\CAC\EventTactic[] $eventTactic
      */
     private $eventTactic = [
         
@@ -71,7 +71,7 @@ class PromotionalSpecificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\SpecificationID
+     * @return \App\UBL\Common\CBC\SpecificationID
      */
     public function getSpecificationID()
     {
@@ -90,10 +90,10 @@ class PromotionalSpecificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\SpecificationID $specificationID
+     * @param \App\UBL\Common\CBC\SpecificationID $specificationID
      * @return self
      */
-    public function setSpecificationID(?\UBL\Common\CBC\SpecificationID $specificationID = null)
+    public function setSpecificationID(?\App\UBL\Common\CBC\SpecificationID $specificationID = null)
     {
         $this->specificationID = $specificationID;
         return $this;
@@ -112,9 +112,9 @@ class PromotionalSpecificationType
      *  Promotional Event Line Item
      *
      * @return self
-     * @param \UBL\Common\CAC\PromotionalEventLineItem $promotionalEventLineItem
+     * @param \App\UBL\Common\CAC\PromotionalEventLineItem $promotionalEventLineItem
      */
-    public function addToPromotionalEventLineItem(\UBL\Common\CAC\PromotionalEventLineItem $promotionalEventLineItem)
+    public function addToPromotionalEventLineItem(\App\UBL\Common\CAC\PromotionalEventLineItem $promotionalEventLineItem)
     {
         $this->promotionalEventLineItem[] = $promotionalEventLineItem;
         return $this;
@@ -172,7 +172,7 @@ class PromotionalSpecificationType
      *  Promotional Event Line Item
      *  Promotional Event Line Item
      *
-     * @return \UBL\Common\CAC\PromotionalEventLineItem[]
+     * @return \App\UBL\Common\CAC\PromotionalEventLineItem[]
      */
     public function getPromotionalEventLineItem()
     {
@@ -191,7 +191,7 @@ class PromotionalSpecificationType
      *  Promotional Event Line Item
      *  Promotional Event Line Item
      *
-     * @param \UBL\Common\CAC\PromotionalEventLineItem[] $promotionalEventLineItem
+     * @param \App\UBL\Common\CAC\PromotionalEventLineItem[] $promotionalEventLineItem
      * @return self
      */
     public function setPromotionalEventLineItem(array $promotionalEventLineItem)
@@ -213,9 +213,9 @@ class PromotionalSpecificationType
      *  Event Tactic
      *
      * @return self
-     * @param \UBL\Common\CAC\EventTactic $eventTactic
+     * @param \App\UBL\Common\CAC\EventTactic $eventTactic
      */
-    public function addToEventTactic(\UBL\Common\CAC\EventTactic $eventTactic)
+    public function addToEventTactic(\App\UBL\Common\CAC\EventTactic $eventTactic)
     {
         $this->eventTactic[] = $eventTactic;
         return $this;
@@ -273,7 +273,7 @@ class PromotionalSpecificationType
      *  Event Tactic
      *  Event Tactic
      *
-     * @return \UBL\Common\CAC\EventTactic[]
+     * @return \App\UBL\Common\CAC\EventTactic[]
      */
     public function getEventTactic()
     {
@@ -292,7 +292,7 @@ class PromotionalSpecificationType
      *  Event Tactic
      *  Event Tactic
      *
-     * @param \UBL\Common\CAC\EventTactic[] $eventTactic
+     * @param \App\UBL\Common\CAC\EventTactic[] $eventTactic
      * @return self
      */
     public function setEventTactic(?array $eventTactic = null)
@@ -301,5 +301,4 @@ class PromotionalSpecificationType
         return $this;
     }
 }
-
 

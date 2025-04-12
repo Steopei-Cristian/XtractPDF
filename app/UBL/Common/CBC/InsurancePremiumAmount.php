@@ -9,4 +9,3 @@ class InsurancePremiumAmount extends InsurancePremiumAmountType
 {
 }
 
-

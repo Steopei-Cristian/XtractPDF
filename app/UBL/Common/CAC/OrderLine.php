@@ -9,4 +9,3 @@ class OrderLine extends OrderLineType
 {
 }
 
-

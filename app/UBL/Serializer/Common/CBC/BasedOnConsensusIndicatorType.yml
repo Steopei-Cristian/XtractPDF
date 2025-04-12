@@ -1,4 +1,4 @@
-UBL\Common\CBC\BasedOnConsensusIndicatorType:
+App\UBL\Common\CBC\BasedOnConsensusIndicatorType:
     properties:
         __value:
             expose: true

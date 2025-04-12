@@ -2,7 +2,7 @@
 
 namespace App\UBL\XAdES\v141;
 
-use UBL\XAdES\v132\XAdESTimeStampType;
+use App\UBL\XAdES\v132\XAdESTimeStampType;
 
 /**
  * Class representing ArchiveTimeStampV2
@@ -10,5 +10,4 @@ use UBL\XAdES\v132\XAdESTimeStampType;
 class ArchiveTimeStampV2 extends XAdESTimeStampType
 {
 }
-
 

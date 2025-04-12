@@ -1,3 +1,3 @@
-UBL\Common\CBC\PaymentDescription:
+App\UBL\Common\CBC\PaymentDescription:
     xml_root_name: PaymentDescription
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

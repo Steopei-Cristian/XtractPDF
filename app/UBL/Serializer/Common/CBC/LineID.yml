@@ -1,3 +1,3 @@
-UBL\Common\CBC\LineID:
+App\UBL\Common\CBC\LineID:
     xml_root_name: LineID
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

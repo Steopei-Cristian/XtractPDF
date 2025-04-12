@@ -9,4 +9,3 @@ class TransportHandlingUnitTypeCode extends TransportHandlingUnitTypeCodeType
 {
 }
 
-

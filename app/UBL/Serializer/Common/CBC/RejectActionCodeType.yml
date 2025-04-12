@@ -1,2 +1,2 @@
-UBL\Common\CBC\RejectActionCodeType:
+App\UBL\Common\CBC\RejectActionCodeType:
     properties: {  }

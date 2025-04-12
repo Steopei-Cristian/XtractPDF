@@ -1,4 +1,4 @@
-UBL\Common\CAC\StatusType:
+App\UBL\Common\CAC\StatusType:
     properties:
         conditionCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\StatusType:
             accessor:
                 getter: getConditionCode
                 setter: setConditionCode
-            type: UBL\Common\CBC\ConditionCode
+            type: App\UBL\Common\CBC\ConditionCode
         referenceDate:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\StatusType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         statusReasonCode:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\StatusType:
             accessor:
                 getter: getStatusReasonCode
                 setter: setStatusReasonCode
-            type: UBL\Common\CBC\StatusReasonCode
+            type: App\UBL\Common\CBC\StatusReasonCode
         statusReason:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\StatusType:
                 inline: true
                 entry_name: StatusReason
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\StatusReason>
+            type: array<App\UBL\Common\CBC\StatusReason>
         sequenceID:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\StatusType:
             accessor:
                 getter: getSequenceID
                 setter: setSequenceID
-            type: UBL\Common\CBC\SequenceID
+            type: App\UBL\Common\CBC\SequenceID
         text:
             expose: true
             access_type: public_method
@@ -91,7 +91,7 @@ UBL\Common\CAC\StatusType:
                 inline: true
                 entry_name: Text
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Text>
+            type: array<App\UBL\Common\CBC\Text>
         indicationIndicator:
             expose: true
             access_type: public_method
@@ -111,7 +111,7 @@ UBL\Common\CAC\StatusType:
             accessor:
                 getter: getPercent
                 setter: setPercent
-            type: UBL\Common\CBC\Percent
+            type: App\UBL\Common\CBC\Percent
         reliabilityPercent:
             expose: true
             access_type: public_method
@@ -121,7 +121,7 @@ UBL\Common\CAC\StatusType:
             accessor:
                 getter: getReliabilityPercent
                 setter: setReliabilityPercent
-            type: UBL\Common\CBC\ReliabilityPercent
+            type: App\UBL\Common\CBC\ReliabilityPercent
         condition:
             expose: true
             access_type: public_method
@@ -135,4 +135,4 @@ UBL\Common\CAC\StatusType:
                 inline: true
                 entry_name: Condition
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Condition>
+            type: array<App\UBL\Common\CAC\Condition>

@@ -9,4 +9,3 @@ class ResidenceTypeCode extends ResidenceTypeCodeType
 {
 }
 
-

@@ -9,4 +9,3 @@ class DropoffTransportEvent extends TransportEventType
 {
 }
 
-

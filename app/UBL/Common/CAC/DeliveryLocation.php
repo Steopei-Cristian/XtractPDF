@@ -9,4 +9,3 @@ class DeliveryLocation extends LocationType
 {
 }
 
-

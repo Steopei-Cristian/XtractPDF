@@ -9,4 +9,3 @@ class LongitudeMinutesMeasure extends LongitudeMinutesMeasureType
 {
 }
 
-

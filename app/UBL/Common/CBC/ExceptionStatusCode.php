@@ -9,4 +9,3 @@ class ExceptionStatusCode extends ExceptionStatusCodeType
 {
 }
 
-

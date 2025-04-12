@@ -9,4 +9,3 @@ class FromLocation extends LocationType
 {
 }
 
-

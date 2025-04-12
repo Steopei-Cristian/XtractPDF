@@ -9,4 +9,3 @@ class TotalTaskAmount extends TotalTaskAmountType
 {
 }
 
-

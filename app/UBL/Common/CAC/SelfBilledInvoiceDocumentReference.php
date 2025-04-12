@@ -9,4 +9,3 @@ class SelfBilledInvoiceDocumentReference extends DocumentReferenceType
 {
 }
 
-

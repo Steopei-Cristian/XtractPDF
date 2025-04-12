@@ -1,4 +1,4 @@
-UBL\Common\CAC\RenewalType:
+App\UBL\Common\CAC\RenewalType:
     properties:
         amount:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\RenewalType:
             accessor:
                 getter: getAmount
                 setter: setAmount
-            type: UBL\Common\CBC\Amount
+            type: App\UBL\Common\CBC\Amount
         period:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ UBL\Common\CAC\RenewalType:
             accessor:
                 getter: getPeriod
                 setter: setPeriod
-            type: UBL\Common\CAC\Period
+            type: App\UBL\Common\CAC\Period

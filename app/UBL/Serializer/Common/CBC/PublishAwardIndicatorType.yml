@@ -1,4 +1,4 @@
-UBL\Common\CBC\PublishAwardIndicatorType:
+App\UBL\Common\CBC\PublishAwardIndicatorType:
     properties:
         __value:
             expose: true

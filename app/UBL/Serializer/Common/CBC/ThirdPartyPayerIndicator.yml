@@ -1,4 +1,4 @@
-UBL\Common\CBC\ThirdPartyPayerIndicator:
+App\UBL\Common\CBC\ThirdPartyPayerIndicator:
     xml_root_name: ThirdPartyPayerIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

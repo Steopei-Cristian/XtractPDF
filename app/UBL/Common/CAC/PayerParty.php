@@ -9,4 +9,3 @@ class PayerParty extends PartyType
 {
 }
 
-

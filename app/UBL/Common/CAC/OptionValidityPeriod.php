@@ -9,4 +9,3 @@ class OptionValidityPeriod extends PeriodType
 {
 }
 
-

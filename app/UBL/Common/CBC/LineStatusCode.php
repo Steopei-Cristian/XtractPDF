@@ -9,4 +9,3 @@ class LineStatusCode extends LineStatusCodeType
 {
 }
 
-

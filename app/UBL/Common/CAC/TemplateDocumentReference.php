@@ -9,4 +9,3 @@ class TemplateDocumentReference extends DocumentReferenceType
 {
 }
 
-

@@ -9,4 +9,3 @@ class Priority extends PriorityType
 {
 }
 
-

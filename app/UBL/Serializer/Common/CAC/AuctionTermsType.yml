@@ -1,4 +1,4 @@
-UBL\Common\CAC\AuctionTermsType:
+App\UBL\Common\CAC\AuctionTermsType:
     properties:
         auctionConstraintIndicator:
             expose: true
@@ -23,7 +23,7 @@ UBL\Common\CAC\AuctionTermsType:
                 inline: true
                 entry_name: JustificationDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\JustificationDescription>
+            type: array<App\UBL\Common\CBC\JustificationDescription>
         description:
             expose: true
             access_type: public_method
@@ -37,7 +37,7 @@ UBL\Common\CAC\AuctionTermsType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         processDescription:
             expose: true
             access_type: public_method
@@ -51,7 +51,7 @@ UBL\Common\CAC\AuctionTermsType:
                 inline: true
                 entry_name: ProcessDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\ProcessDescription>
+            type: array<App\UBL\Common\CBC\ProcessDescription>
         conditionsDescription:
             expose: true
             access_type: public_method
@@ -65,7 +65,7 @@ UBL\Common\CAC\AuctionTermsType:
                 inline: true
                 entry_name: ConditionsDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\ConditionsDescription>
+            type: array<App\UBL\Common\CBC\ConditionsDescription>
         electronicDeviceDescription:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\CAC\AuctionTermsType:
                 inline: true
                 entry_name: ElectronicDeviceDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\ElectronicDeviceDescription>
+            type: array<App\UBL\Common\CBC\ElectronicDeviceDescription>
         auctionURI:
             expose: true
             access_type: public_method
@@ -89,4 +89,4 @@ UBL\Common\CAC\AuctionTermsType:
             accessor:
                 getter: getAuctionURI
                 setter: setAuctionURI
-            type: UBL\Common\CBC\AuctionURI
+            type: App\UBL\Common\CBC\AuctionURI

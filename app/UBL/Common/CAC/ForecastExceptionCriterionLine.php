@@ -9,4 +9,3 @@ class ForecastExceptionCriterionLine extends ForecastExceptionCriterionLineType
 {
 }
 
-

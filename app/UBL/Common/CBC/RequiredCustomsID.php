@@ -9,4 +9,3 @@ class RequiredCustomsID extends RequiredCustomsIDType
 {
 }
 
-

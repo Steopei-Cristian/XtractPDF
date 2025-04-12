@@ -1,4 +1,4 @@
-UBL\Common\CAC\PhysicalAttributeType:
+App\UBL\Common\CAC\PhysicalAttributeType:
     properties:
         attributeID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PhysicalAttributeType:
             accessor:
                 getter: getAttributeID
                 setter: setAttributeID
-            type: UBL\Common\CBC\AttributeID
+            type: App\UBL\Common\CBC\AttributeID
         positionCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\PhysicalAttributeType:
             accessor:
                 getter: getPositionCode
                 setter: setPositionCode
-            type: UBL\Common\CBC\PositionCode
+            type: App\UBL\Common\CBC\PositionCode
         descriptionCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\PhysicalAttributeType:
             accessor:
                 getter: getDescriptionCode
                 setter: setDescriptionCode
-            type: UBL\Common\CBC\DescriptionCode
+            type: App\UBL\Common\CBC\DescriptionCode
         description:
             expose: true
             access_type: public_method
@@ -43,4 +43,4 @@ UBL\Common\CAC\PhysicalAttributeType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>

@@ -1,2 +1,2 @@
-UBL\Common\CBC\InvoicingPartyReferenceType:
+App\UBL\Common\CBC\InvoicingPartyReferenceType:
     properties: {  }

@@ -1,4 +1,4 @@
-UBL\Common\CAC\AddressType:
+App\UBL\Common\CAC\AddressType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         addressTypeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getAddressTypeCode
                 setter: setAddressTypeCode
-            type: UBL\Common\CBC\AddressTypeCode
+            type: App\UBL\Common\CBC\AddressTypeCode
         addressFormatCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getAddressFormatCode
                 setter: setAddressFormatCode
-            type: UBL\Common\CBC\AddressFormatCode
+            type: App\UBL\Common\CBC\AddressFormatCode
         postbox:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getPostbox
                 setter: setPostbox
-            type: UBL\Common\CBC\Postbox
+            type: App\UBL\Common\CBC\Postbox
         floor:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getFloor
                 setter: setFloor
-            type: UBL\Common\CBC\Floor
+            type: App\UBL\Common\CBC\Floor
         room:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getRoom
                 setter: setRoom
-            type: UBL\Common\CBC\Room
+            type: App\UBL\Common\CBC\Room
         streetName:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getStreetName
                 setter: setStreetName
-            type: UBL\Common\CBC\StreetName
+            type: App\UBL\Common\CBC\StreetName
         additionalStreetName:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getAdditionalStreetName
                 setter: setAdditionalStreetName
-            type: UBL\Common\CBC\AdditionalStreetName
+            type: App\UBL\Common\CBC\AdditionalStreetName
         blockName:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getBlockName
                 setter: setBlockName
-            type: UBL\Common\CBC\BlockName
+            type: App\UBL\Common\CBC\BlockName
         buildingName:
             expose: true
             access_type: public_method
@@ -99,7 +99,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getBuildingName
                 setter: setBuildingName
-            type: UBL\Common\CBC\BuildingName
+            type: App\UBL\Common\CBC\BuildingName
         buildingNumber:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getBuildingNumber
                 setter: setBuildingNumber
-            type: UBL\Common\CBC\BuildingNumber
+            type: App\UBL\Common\CBC\BuildingNumber
         inhouseMail:
             expose: true
             access_type: public_method
@@ -119,7 +119,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getInhouseMail
                 setter: setInhouseMail
-            type: UBL\Common\CBC\InhouseMail
+            type: App\UBL\Common\CBC\InhouseMail
         department:
             expose: true
             access_type: public_method
@@ -129,7 +129,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getDepartment
                 setter: setDepartment
-            type: UBL\Common\CBC\Department
+            type: App\UBL\Common\CBC\Department
         markAttention:
             expose: true
             access_type: public_method
@@ -139,7 +139,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getMarkAttention
                 setter: setMarkAttention
-            type: UBL\Common\CBC\MarkAttention
+            type: App\UBL\Common\CBC\MarkAttention
         markCare:
             expose: true
             access_type: public_method
@@ -149,7 +149,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getMarkCare
                 setter: setMarkCare
-            type: UBL\Common\CBC\MarkCare
+            type: App\UBL\Common\CBC\MarkCare
         plotIdentification:
             expose: true
             access_type: public_method
@@ -159,7 +159,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getPlotIdentification
                 setter: setPlotIdentification
-            type: UBL\Common\CBC\PlotIdentification
+            type: App\UBL\Common\CBC\PlotIdentification
         citySubdivisionName:
             expose: true
             access_type: public_method
@@ -169,7 +169,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getCitySubdivisionName
                 setter: setCitySubdivisionName
-            type: UBL\Common\CBC\CitySubdivisionName
+            type: App\UBL\Common\CBC\CitySubdivisionName
         cityName:
             expose: true
             access_type: public_method
@@ -179,7 +179,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getCityName
                 setter: setCityName
-            type: UBL\Common\CBC\CityName
+            type: App\UBL\Common\CBC\CityName
         postalZone:
             expose: true
             access_type: public_method
@@ -189,7 +189,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getPostalZone
                 setter: setPostalZone
-            type: UBL\Common\CBC\PostalZone
+            type: App\UBL\Common\CBC\PostalZone
         countrySubentity:
             expose: true
             access_type: public_method
@@ -199,7 +199,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getCountrySubentity
                 setter: setCountrySubentity
-            type: UBL\Common\CBC\CountrySubentity
+            type: App\UBL\Common\CBC\CountrySubentity
         countrySubentityCode:
             expose: true
             access_type: public_method
@@ -209,7 +209,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getCountrySubentityCode
                 setter: setCountrySubentityCode
-            type: UBL\Common\CBC\CountrySubentityCode
+            type: App\UBL\Common\CBC\CountrySubentityCode
         region:
             expose: true
             access_type: public_method
@@ -219,7 +219,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getRegion
                 setter: setRegion
-            type: UBL\Common\CBC\Region
+            type: App\UBL\Common\CBC\Region
         district:
             expose: true
             access_type: public_method
@@ -229,7 +229,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getDistrict
                 setter: setDistrict
-            type: UBL\Common\CBC\District
+            type: App\UBL\Common\CBC\District
         timezoneOffset:
             expose: true
             access_type: public_method
@@ -239,7 +239,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getTimezoneOffset
                 setter: setTimezoneOffset
-            type: UBL\Common\CBC\TimezoneOffset
+            type: App\UBL\Common\CBC\TimezoneOffset
         addressLine:
             expose: true
             access_type: public_method
@@ -253,7 +253,7 @@ UBL\Common\CAC\AddressType:
                 inline: true
                 entry_name: AddressLine
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AddressLine>
+            type: array<App\UBL\Common\CAC\AddressLine>
         country:
             expose: true
             access_type: public_method
@@ -263,7 +263,7 @@ UBL\Common\CAC\AddressType:
             accessor:
                 getter: getCountry
                 setter: setCountry
-            type: UBL\Common\CAC\Country
+            type: App\UBL\Common\CAC\Country
         locationCoordinate:
             expose: true
             access_type: public_method
@@ -277,4 +277,4 @@ UBL\Common\CAC\AddressType:
                 inline: true
                 entry_name: LocationCoordinate
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\LocationCoordinate>
+            type: array<App\UBL\Common\CAC\LocationCoordinate>

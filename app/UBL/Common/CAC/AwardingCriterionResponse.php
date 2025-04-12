@@ -9,4 +9,3 @@ class AwardingCriterionResponse extends AwardingCriterionResponseType
 {
 }
 
-

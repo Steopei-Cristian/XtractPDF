@@ -9,4 +9,3 @@ class SellersItemIdentification extends ItemIdentificationType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ManufacturersItemIdentification extends ItemIdentificationType
 {
 }
 
-

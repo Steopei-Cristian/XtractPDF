@@ -1,4 +1,4 @@
-UBL\Common\CAC\CommodityClassificationType:
+App\UBL\Common\CAC\CommodityClassificationType:
     properties:
         natureCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CommodityClassificationType:
             accessor:
                 getter: getNatureCode
                 setter: setNatureCode
-            type: UBL\Common\CBC\NatureCode
+            type: App\UBL\Common\CBC\NatureCode
         cargoTypeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\CommodityClassificationType:
             accessor:
                 getter: getCargoTypeCode
                 setter: setCargoTypeCode
-            type: UBL\Common\CBC\CargoTypeCode
+            type: App\UBL\Common\CBC\CargoTypeCode
         commodityCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\CommodityClassificationType:
             accessor:
                 getter: getCommodityCode
                 setter: setCommodityCode
-            type: UBL\Common\CBC\CommodityCode
+            type: App\UBL\Common\CBC\CommodityCode
         itemClassificationCode:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ UBL\Common\CAC\CommodityClassificationType:
             accessor:
                 getter: getItemClassificationCode
                 setter: setItemClassificationCode
-            type: UBL\Common\CBC\ItemClassificationCode
+            type: App\UBL\Common\CBC\ItemClassificationCode

@@ -9,4 +9,3 @@ class TotalPaymentAmount extends TotalPaymentAmountType
 {
 }
 
-

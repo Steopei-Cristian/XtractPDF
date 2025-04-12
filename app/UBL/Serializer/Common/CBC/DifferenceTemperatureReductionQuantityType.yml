@@ -1,2 +1,2 @@
-UBL\Common\CBC\DifferenceTemperatureReductionQuantityType:
+App\UBL\Common\CBC\DifferenceTemperatureReductionQuantityType:
     properties: {  }

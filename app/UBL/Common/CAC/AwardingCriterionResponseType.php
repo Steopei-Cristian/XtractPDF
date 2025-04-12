@@ -23,7 +23,7 @@ class AwardingCriterionResponseType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class AwardingCriterionResponseType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\AwardingCriterionID $awardingCriterionID
+     * @var \App\UBL\Common\CBC\AwardingCriterionID $awardingCriterionID
      */
     private $awardingCriterionID = null;
 
@@ -52,7 +52,7 @@ class AwardingCriterionResponseType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\AwardingCriterionDescription[] $awardingCriterionDescription
+     * @var \App\UBL\Common\CBC\AwardingCriterionDescription[] $awardingCriterionDescription
      */
     private $awardingCriterionDescription = [
         
@@ -68,7 +68,7 @@ class AwardingCriterionResponseType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -84,7 +84,7 @@ class AwardingCriterionResponseType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -98,7 +98,7 @@ class AwardingCriterionResponseType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\Amount $amount
+     * @var \App\UBL\Common\CBC\Amount $amount
      */
     private $amount = null;
 
@@ -113,7 +113,7 @@ class AwardingCriterionResponseType
      *  Awarding Criterion Response
      *  Awarding Criterion Response
      *
-     * @var \UBL\Common\CAC\SubordinateAwardingCriterionResponse[] $subordinateAwardingCriterionResponse
+     * @var \App\UBL\Common\CAC\SubordinateAwardingCriterionResponse[] $subordinateAwardingCriterionResponse
      */
     private $subordinateAwardingCriterionResponse = [
         
@@ -131,7 +131,7 @@ class AwardingCriterionResponseType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -150,10 +150,10 @@ class AwardingCriterionResponseType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -171,7 +171,7 @@ class AwardingCriterionResponseType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\AwardingCriterionID
+     * @return \App\UBL\Common\CBC\AwardingCriterionID
      */
     public function getAwardingCriterionID()
     {
@@ -190,10 +190,10 @@ class AwardingCriterionResponseType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\AwardingCriterionID $awardingCriterionID
+     * @param \App\UBL\Common\CBC\AwardingCriterionID $awardingCriterionID
      * @return self
      */
-    public function setAwardingCriterionID(?\UBL\Common\CBC\AwardingCriterionID $awardingCriterionID = null)
+    public function setAwardingCriterionID(?\App\UBL\Common\CBC\AwardingCriterionID $awardingCriterionID = null)
     {
         $this->awardingCriterionID = $awardingCriterionID;
         return $this;
@@ -213,9 +213,9 @@ class AwardingCriterionResponseType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\AwardingCriterionDescription $awardingCriterionDescription
+     * @param \App\UBL\Common\CBC\AwardingCriterionDescription $awardingCriterionDescription
      */
-    public function addToAwardingCriterionDescription(\UBL\Common\CBC\AwardingCriterionDescription $awardingCriterionDescription)
+    public function addToAwardingCriterionDescription(\App\UBL\Common\CBC\AwardingCriterionDescription $awardingCriterionDescription)
     {
         $this->awardingCriterionDescription[] = $awardingCriterionDescription;
         return $this;
@@ -276,7 +276,7 @@ class AwardingCriterionResponseType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\AwardingCriterionDescription[]
+     * @return \App\UBL\Common\CBC\AwardingCriterionDescription[]
      */
     public function getAwardingCriterionDescription()
     {
@@ -296,7 +296,7 @@ class AwardingCriterionResponseType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\AwardingCriterionDescription[] $awardingCriterionDescription
+     * @param \App\UBL\Common\CBC\AwardingCriterionDescription[] $awardingCriterionDescription
      * @return self
      */
     public function setAwardingCriterionDescription(?array $awardingCriterionDescription = null)
@@ -318,9 +318,9 @@ class AwardingCriterionResponseType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -378,7 +378,7 @@ class AwardingCriterionResponseType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -397,7 +397,7 @@ class AwardingCriterionResponseType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -418,7 +418,7 @@ class AwardingCriterionResponseType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -437,10 +437,10 @@ class AwardingCriterionResponseType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
@@ -458,7 +458,7 @@ class AwardingCriterionResponseType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\Amount
+     * @return \App\UBL\Common\CBC\Amount
      */
     public function getAmount()
     {
@@ -477,10 +477,10 @@ class AwardingCriterionResponseType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\Amount $amount
+     * @param \App\UBL\Common\CBC\Amount $amount
      * @return self
      */
-    public function setAmount(?\UBL\Common\CBC\Amount $amount = null)
+    public function setAmount(?\App\UBL\Common\CBC\Amount $amount = null)
     {
         $this->amount = $amount;
         return $this;
@@ -500,9 +500,9 @@ class AwardingCriterionResponseType
      *  Awarding Criterion Response
      *
      * @return self
-     * @param \UBL\Common\CAC\SubordinateAwardingCriterionResponse $subordinateAwardingCriterionResponse
+     * @param \App\UBL\Common\CAC\SubordinateAwardingCriterionResponse $subordinateAwardingCriterionResponse
      */
-    public function addToSubordinateAwardingCriterionResponse(\UBL\Common\CAC\SubordinateAwardingCriterionResponse $subordinateAwardingCriterionResponse)
+    public function addToSubordinateAwardingCriterionResponse(\App\UBL\Common\CAC\SubordinateAwardingCriterionResponse $subordinateAwardingCriterionResponse)
     {
         $this->subordinateAwardingCriterionResponse[] = $subordinateAwardingCriterionResponse;
         return $this;
@@ -563,7 +563,7 @@ class AwardingCriterionResponseType
      *  Awarding Criterion Response
      *  Awarding Criterion Response
      *
-     * @return \UBL\Common\CAC\SubordinateAwardingCriterionResponse[]
+     * @return \App\UBL\Common\CAC\SubordinateAwardingCriterionResponse[]
      */
     public function getSubordinateAwardingCriterionResponse()
     {
@@ -583,7 +583,7 @@ class AwardingCriterionResponseType
      *  Awarding Criterion Response
      *  Awarding Criterion Response
      *
-     * @param \UBL\Common\CAC\SubordinateAwardingCriterionResponse[] $subordinateAwardingCriterionResponse
+     * @param \App\UBL\Common\CAC\SubordinateAwardingCriterionResponse[] $subordinateAwardingCriterionResponse
      * @return self
      */
     public function setSubordinateAwardingCriterionResponse(?array $subordinateAwardingCriterionResponse = null)
@@ -592,5 +592,4 @@ class AwardingCriterionResponseType
         return $this;
     }
 }
-
 

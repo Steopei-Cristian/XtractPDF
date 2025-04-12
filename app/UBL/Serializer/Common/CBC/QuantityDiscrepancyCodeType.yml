@@ -1,2 +1,2 @@
-UBL\Common\CBC\QuantityDiscrepancyCodeType:
+App\UBL\Common\CBC\QuantityDiscrepancyCodeType:
     properties: {  }

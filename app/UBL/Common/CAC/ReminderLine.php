@@ -9,4 +9,3 @@ class ReminderLine extends ReminderLineType
 {
 }
 
-

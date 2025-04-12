@@ -1,2 +1,2 @@
-UBL\Common\CBC\StatusReasonCodeType:
+App\UBL\Common\CBC\StatusReasonCodeType:
     properties: {  }

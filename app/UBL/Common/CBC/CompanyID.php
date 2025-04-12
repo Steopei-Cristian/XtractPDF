@@ -9,4 +9,3 @@ class CompanyID extends CompanyIDType
 {
 }
 
-

@@ -11,4 +11,3 @@ class Invoice extends InvoiceType
 {
 }
 
-

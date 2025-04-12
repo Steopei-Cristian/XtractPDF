@@ -9,4 +9,3 @@ class MeasurementDimension extends DimensionType
 {
 }
 
-

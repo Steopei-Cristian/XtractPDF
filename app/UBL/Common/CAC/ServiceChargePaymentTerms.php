@@ -9,4 +9,3 @@ class ServiceChargePaymentTerms extends PaymentTermsType
 {
 }
 
-

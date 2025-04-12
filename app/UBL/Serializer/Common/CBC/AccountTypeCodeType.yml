@@ -1,2 +1,2 @@
-UBL\Common\CBC\AccountTypeCodeType:
+App\UBL\Common\CBC\AccountTypeCodeType:
     properties: {  }

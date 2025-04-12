@@ -1,4 +1,4 @@
-UBL\Xmldsig\SignedInfoType:
+App\UBL\Xmldsig\SignedInfoType:
     properties:
         id:
             expose: true
@@ -18,7 +18,7 @@ UBL\Xmldsig\SignedInfoType:
             accessor:
                 getter: getCanonicalizationMethod
                 setter: setCanonicalizationMethod
-            type: UBL\Xmldsig\CanonicalizationMethod
+            type: App\UBL\Xmldsig\CanonicalizationMethod
         signatureMethod:
             expose: true
             access_type: public_method
@@ -28,7 +28,7 @@ UBL\Xmldsig\SignedInfoType:
             accessor:
                 getter: getSignatureMethod
                 setter: setSignatureMethod
-            type: UBL\Xmldsig\SignatureMethod
+            type: App\UBL\Xmldsig\SignatureMethod
         reference:
             expose: true
             access_type: public_method
@@ -42,4 +42,4 @@ UBL\Xmldsig\SignedInfoType:
                 inline: true
                 entry_name: Reference
                 namespace: 'http://www.w3.org/2000/09/xmldsig#'
-            type: array<UBL\Xmldsig\Reference>
+            type: array<App\UBL\Xmldsig\Reference>

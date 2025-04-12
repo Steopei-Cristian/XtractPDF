@@ -9,4 +9,3 @@ class ScheduledServiceFrequency extends ServiceFrequencyType
 {
 }
 
-

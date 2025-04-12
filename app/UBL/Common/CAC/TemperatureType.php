@@ -23,7 +23,7 @@ class TemperatureType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\AttributeID $attributeID
+     * @var \App\UBL\Common\CBC\AttributeID $attributeID
      */
     private $attributeID = null;
 
@@ -37,7 +37,7 @@ class TemperatureType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\Measure $measure
+     * @var \App\UBL\Common\CBC\Measure $measure
      */
     private $measure = null;
 
@@ -52,7 +52,7 @@ class TemperatureType
      *  Text. Type
      *  at sea level
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -70,7 +70,7 @@ class TemperatureType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\AttributeID
+     * @return \App\UBL\Common\CBC\AttributeID
      */
     public function getAttributeID()
     {
@@ -89,10 +89,10 @@ class TemperatureType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\AttributeID $attributeID
+     * @param \App\UBL\Common\CBC\AttributeID $attributeID
      * @return self
      */
-    public function setAttributeID(\UBL\Common\CBC\AttributeID $attributeID)
+    public function setAttributeID(\App\UBL\Common\CBC\AttributeID $attributeID)
     {
         $this->attributeID = $attributeID;
         return $this;
@@ -110,7 +110,7 @@ class TemperatureType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\Measure
+     * @return \App\UBL\Common\CBC\Measure
      */
     public function getMeasure()
     {
@@ -129,10 +129,10 @@ class TemperatureType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\Measure $measure
+     * @param \App\UBL\Common\CBC\Measure $measure
      * @return self
      */
-    public function setMeasure(\UBL\Common\CBC\Measure $measure)
+    public function setMeasure(\App\UBL\Common\CBC\Measure $measure)
     {
         $this->measure = $measure;
         return $this;
@@ -152,9 +152,9 @@ class TemperatureType
      *  at sea level
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -215,7 +215,7 @@ class TemperatureType
      *  Text. Type
      *  at sea level
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -235,7 +235,7 @@ class TemperatureType
      *  Text. Type
      *  at sea level
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -244,5 +244,4 @@ class TemperatureType
         return $this;
     }
 }
-
 

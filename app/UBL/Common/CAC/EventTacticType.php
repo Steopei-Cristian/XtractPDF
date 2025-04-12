@@ -23,7 +23,7 @@ class EventTacticType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Comment $comment
+     * @var \App\UBL\Common\CBC\Comment $comment
      */
     private $comment = null;
 
@@ -37,7 +37,7 @@ class EventTacticType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -51,7 +51,7 @@ class EventTacticType
      *  Event Tactic Enumeration
      *  Event Tactic Enumeration
      *
-     * @var \UBL\Common\CAC\EventTacticEnumeration $eventTacticEnumeration
+     * @var \App\UBL\Common\CAC\EventTacticEnumeration $eventTacticEnumeration
      */
     private $eventTacticEnumeration = null;
 
@@ -65,7 +65,7 @@ class EventTacticType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\Period $period
+     * @var \App\UBL\Common\CAC\Period $period
      */
     private $period = null;
 
@@ -81,7 +81,7 @@ class EventTacticType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Comment
+     * @return \App\UBL\Common\CBC\Comment
      */
     public function getComment()
     {
@@ -100,10 +100,10 @@ class EventTacticType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Comment $comment
+     * @param \App\UBL\Common\CBC\Comment $comment
      * @return self
      */
-    public function setComment(?\UBL\Common\CBC\Comment $comment = null)
+    public function setComment(?\App\UBL\Common\CBC\Comment $comment = null)
     {
         $this->comment = $comment;
         return $this;
@@ -121,7 +121,7 @@ class EventTacticType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -140,10 +140,10 @@ class EventTacticType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
@@ -161,7 +161,7 @@ class EventTacticType
      *  Event Tactic Enumeration
      *  Event Tactic Enumeration
      *
-     * @return \UBL\Common\CAC\EventTacticEnumeration
+     * @return \App\UBL\Common\CAC\EventTacticEnumeration
      */
     public function getEventTacticEnumeration()
     {
@@ -180,10 +180,10 @@ class EventTacticType
      *  Event Tactic Enumeration
      *  Event Tactic Enumeration
      *
-     * @param \UBL\Common\CAC\EventTacticEnumeration $eventTacticEnumeration
+     * @param \App\UBL\Common\CAC\EventTacticEnumeration $eventTacticEnumeration
      * @return self
      */
-    public function setEventTacticEnumeration(\UBL\Common\CAC\EventTacticEnumeration $eventTacticEnumeration)
+    public function setEventTacticEnumeration(\App\UBL\Common\CAC\EventTacticEnumeration $eventTacticEnumeration)
     {
         $this->eventTacticEnumeration = $eventTacticEnumeration;
         return $this;
@@ -201,7 +201,7 @@ class EventTacticType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\Period
+     * @return \App\UBL\Common\CAC\Period
      */
     public function getPeriod()
     {
@@ -220,14 +220,13 @@ class EventTacticType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\Period $period
+     * @param \App\UBL\Common\CAC\Period $period
      * @return self
      */
-    public function setPeriod(?\UBL\Common\CAC\Period $period = null)
+    public function setPeriod(?\App\UBL\Common\CAC\Period $period = null)
     {
         $this->period = $period;
         return $this;
     }
 }
-
 

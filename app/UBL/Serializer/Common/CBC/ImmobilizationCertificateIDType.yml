@@ -1,2 +1,2 @@
-UBL\Common\CBC\ImmobilizationCertificateIDType:
+App\UBL\Common\CBC\ImmobilizationCertificateIDType:
     properties: {  }

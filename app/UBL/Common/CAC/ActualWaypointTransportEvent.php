@@ -9,4 +9,3 @@ class ActualWaypointTransportEvent extends TransportEventType
 {
 }
 
-

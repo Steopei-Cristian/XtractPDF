@@ -23,7 +23,7 @@ class ItemPropertyType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class ItemPropertyType
      *  Name. Type
      *  Energy Rating , Collar Size , Fat Content
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -52,7 +52,7 @@ class ItemPropertyType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\NameCode $nameCode
+     * @var \App\UBL\Common\CBC\NameCode $nameCode
      */
     private $nameCode = null;
 
@@ -67,7 +67,7 @@ class ItemPropertyType
      *  Text. Type
      *  100 watts , 15 European , 20% +/- 5%
      *
-     * @var \UBL\Common\CBC\TestMethod $testMethod
+     * @var \App\UBL\Common\CBC\TestMethod $testMethod
      */
     private $testMethod = null;
 
@@ -82,7 +82,7 @@ class ItemPropertyType
      *  Text. Type
      *  100 watts , 15 European , 20% +/- 5%
      *
-     * @var \UBL\Common\CBC\Value $value
+     * @var \App\UBL\Common\CBC\Value $value
      */
     private $value = null;
 
@@ -97,7 +97,7 @@ class ItemPropertyType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ValueQuantity $valueQuantity
+     * @var \App\UBL\Common\CBC\ValueQuantity $valueQuantity
      */
     private $valueQuantity = null;
 
@@ -111,7 +111,7 @@ class ItemPropertyType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ValueQualifier[] $valueQualifier
+     * @var \App\UBL\Common\CBC\ValueQualifier[] $valueQualifier
      */
     private $valueQualifier = [
         
@@ -127,7 +127,7 @@ class ItemPropertyType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ImportanceCode $importanceCode
+     * @var \App\UBL\Common\CBC\ImportanceCode $importanceCode
      */
     private $importanceCode = null;
 
@@ -141,7 +141,7 @@ class ItemPropertyType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ListValue[] $listValue
+     * @var \App\UBL\Common\CBC\ListValue[] $listValue
      */
     private $listValue = [
         
@@ -158,7 +158,7 @@ class ItemPropertyType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\UsabilityPeriod $usabilityPeriod
+     * @var \App\UBL\Common\CAC\UsabilityPeriod $usabilityPeriod
      */
     private $usabilityPeriod = null;
 
@@ -172,7 +172,7 @@ class ItemPropertyType
      *  Item Property Group
      *  Item Property Group
      *
-     * @var \UBL\Common\CAC\ItemPropertyGroup[] $itemPropertyGroup
+     * @var \App\UBL\Common\CAC\ItemPropertyGroup[] $itemPropertyGroup
      */
     private $itemPropertyGroup = [
         
@@ -189,7 +189,7 @@ class ItemPropertyType
      *  Dimension
      *  Dimension
      *
-     * @var \UBL\Common\CAC\RangeDimension $rangeDimension
+     * @var \App\UBL\Common\CAC\RangeDimension $rangeDimension
      */
     private $rangeDimension = null;
 
@@ -203,7 +203,7 @@ class ItemPropertyType
      *  Item Property Range
      *  Item Property Range
      *
-     * @var \UBL\Common\CAC\ItemPropertyRange $itemPropertyRange
+     * @var \App\UBL\Common\CAC\ItemPropertyRange $itemPropertyRange
      */
     private $itemPropertyRange = null;
 
@@ -219,7 +219,7 @@ class ItemPropertyType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -238,10 +238,10 @@ class ItemPropertyType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -260,7 +260,7 @@ class ItemPropertyType
      *  Name. Type
      *  Energy Rating , Collar Size , Fat Content
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -280,10 +280,10 @@ class ItemPropertyType
      *  Name. Type
      *  Energy Rating , Collar Size , Fat Content
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(\UBL\Common\CBC\Name $name)
+    public function setName(\App\UBL\Common\CBC\Name $name)
     {
         $this->name = $name;
         return $this;
@@ -301,7 +301,7 @@ class ItemPropertyType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\NameCode
+     * @return \App\UBL\Common\CBC\NameCode
      */
     public function getNameCode()
     {
@@ -320,10 +320,10 @@ class ItemPropertyType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\NameCode $nameCode
+     * @param \App\UBL\Common\CBC\NameCode $nameCode
      * @return self
      */
-    public function setNameCode(?\UBL\Common\CBC\NameCode $nameCode = null)
+    public function setNameCode(?\App\UBL\Common\CBC\NameCode $nameCode = null)
     {
         $this->nameCode = $nameCode;
         return $this;
@@ -342,7 +342,7 @@ class ItemPropertyType
      *  Text. Type
      *  100 watts , 15 European , 20% +/- 5%
      *
-     * @return \UBL\Common\CBC\TestMethod
+     * @return \App\UBL\Common\CBC\TestMethod
      */
     public function getTestMethod()
     {
@@ -362,10 +362,10 @@ class ItemPropertyType
      *  Text. Type
      *  100 watts , 15 European , 20% +/- 5%
      *
-     * @param \UBL\Common\CBC\TestMethod $testMethod
+     * @param \App\UBL\Common\CBC\TestMethod $testMethod
      * @return self
      */
-    public function setTestMethod(?\UBL\Common\CBC\TestMethod $testMethod = null)
+    public function setTestMethod(?\App\UBL\Common\CBC\TestMethod $testMethod = null)
     {
         $this->testMethod = $testMethod;
         return $this;
@@ -384,7 +384,7 @@ class ItemPropertyType
      *  Text. Type
      *  100 watts , 15 European , 20% +/- 5%
      *
-     * @return \UBL\Common\CBC\Value
+     * @return \App\UBL\Common\CBC\Value
      */
     public function getValue()
     {
@@ -404,10 +404,10 @@ class ItemPropertyType
      *  Text. Type
      *  100 watts , 15 European , 20% +/- 5%
      *
-     * @param \UBL\Common\CBC\Value $value
+     * @param \App\UBL\Common\CBC\Value $value
      * @return self
      */
-    public function setValue(?\UBL\Common\CBC\Value $value = null)
+    public function setValue(?\App\UBL\Common\CBC\Value $value = null)
     {
         $this->value = $value;
         return $this;
@@ -426,7 +426,7 @@ class ItemPropertyType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ValueQuantity
+     * @return \App\UBL\Common\CBC\ValueQuantity
      */
     public function getValueQuantity()
     {
@@ -446,10 +446,10 @@ class ItemPropertyType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ValueQuantity $valueQuantity
+     * @param \App\UBL\Common\CBC\ValueQuantity $valueQuantity
      * @return self
      */
-    public function setValueQuantity(?\UBL\Common\CBC\ValueQuantity $valueQuantity = null)
+    public function setValueQuantity(?\App\UBL\Common\CBC\ValueQuantity $valueQuantity = null)
     {
         $this->valueQuantity = $valueQuantity;
         return $this;
@@ -468,9 +468,9 @@ class ItemPropertyType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ValueQualifier $valueQualifier
+     * @param \App\UBL\Common\CBC\ValueQualifier $valueQualifier
      */
-    public function addToValueQualifier(\UBL\Common\CBC\ValueQualifier $valueQualifier)
+    public function addToValueQualifier(\App\UBL\Common\CBC\ValueQualifier $valueQualifier)
     {
         $this->valueQualifier[] = $valueQualifier;
         return $this;
@@ -528,7 +528,7 @@ class ItemPropertyType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ValueQualifier[]
+     * @return \App\UBL\Common\CBC\ValueQualifier[]
      */
     public function getValueQualifier()
     {
@@ -547,7 +547,7 @@ class ItemPropertyType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ValueQualifier[] $valueQualifier
+     * @param \App\UBL\Common\CBC\ValueQualifier[] $valueQualifier
      * @return self
      */
     public function setValueQualifier(?array $valueQualifier = null)
@@ -568,7 +568,7 @@ class ItemPropertyType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ImportanceCode
+     * @return \App\UBL\Common\CBC\ImportanceCode
      */
     public function getImportanceCode()
     {
@@ -587,10 +587,10 @@ class ItemPropertyType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ImportanceCode $importanceCode
+     * @param \App\UBL\Common\CBC\ImportanceCode $importanceCode
      * @return self
      */
-    public function setImportanceCode(?\UBL\Common\CBC\ImportanceCode $importanceCode = null)
+    public function setImportanceCode(?\App\UBL\Common\CBC\ImportanceCode $importanceCode = null)
     {
         $this->importanceCode = $importanceCode;
         return $this;
@@ -609,9 +609,9 @@ class ItemPropertyType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ListValue $listValue
+     * @param \App\UBL\Common\CBC\ListValue $listValue
      */
-    public function addToListValue(\UBL\Common\CBC\ListValue $listValue)
+    public function addToListValue(\App\UBL\Common\CBC\ListValue $listValue)
     {
         $this->listValue[] = $listValue;
         return $this;
@@ -669,7 +669,7 @@ class ItemPropertyType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ListValue[]
+     * @return \App\UBL\Common\CBC\ListValue[]
      */
     public function getListValue()
     {
@@ -688,7 +688,7 @@ class ItemPropertyType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ListValue[] $listValue
+     * @param \App\UBL\Common\CBC\ListValue[] $listValue
      * @return self
      */
     public function setListValue(?array $listValue = null)
@@ -710,7 +710,7 @@ class ItemPropertyType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\UsabilityPeriod
+     * @return \App\UBL\Common\CAC\UsabilityPeriod
      */
     public function getUsabilityPeriod()
     {
@@ -730,10 +730,10 @@ class ItemPropertyType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\UsabilityPeriod $usabilityPeriod
+     * @param \App\UBL\Common\CAC\UsabilityPeriod $usabilityPeriod
      * @return self
      */
-    public function setUsabilityPeriod(?\UBL\Common\CAC\UsabilityPeriod $usabilityPeriod = null)
+    public function setUsabilityPeriod(?\App\UBL\Common\CAC\UsabilityPeriod $usabilityPeriod = null)
     {
         $this->usabilityPeriod = $usabilityPeriod;
         return $this;
@@ -752,9 +752,9 @@ class ItemPropertyType
      *  Item Property Group
      *
      * @return self
-     * @param \UBL\Common\CAC\ItemPropertyGroup $itemPropertyGroup
+     * @param \App\UBL\Common\CAC\ItemPropertyGroup $itemPropertyGroup
      */
-    public function addToItemPropertyGroup(\UBL\Common\CAC\ItemPropertyGroup $itemPropertyGroup)
+    public function addToItemPropertyGroup(\App\UBL\Common\CAC\ItemPropertyGroup $itemPropertyGroup)
     {
         $this->itemPropertyGroup[] = $itemPropertyGroup;
         return $this;
@@ -812,7 +812,7 @@ class ItemPropertyType
      *  Item Property Group
      *  Item Property Group
      *
-     * @return \UBL\Common\CAC\ItemPropertyGroup[]
+     * @return \App\UBL\Common\CAC\ItemPropertyGroup[]
      */
     public function getItemPropertyGroup()
     {
@@ -831,7 +831,7 @@ class ItemPropertyType
      *  Item Property Group
      *  Item Property Group
      *
-     * @param \UBL\Common\CAC\ItemPropertyGroup[] $itemPropertyGroup
+     * @param \App\UBL\Common\CAC\ItemPropertyGroup[] $itemPropertyGroup
      * @return self
      */
     public function setItemPropertyGroup(?array $itemPropertyGroup = null)
@@ -853,7 +853,7 @@ class ItemPropertyType
      *  Dimension
      *  Dimension
      *
-     * @return \UBL\Common\CAC\RangeDimension
+     * @return \App\UBL\Common\CAC\RangeDimension
      */
     public function getRangeDimension()
     {
@@ -873,10 +873,10 @@ class ItemPropertyType
      *  Dimension
      *  Dimension
      *
-     * @param \UBL\Common\CAC\RangeDimension $rangeDimension
+     * @param \App\UBL\Common\CAC\RangeDimension $rangeDimension
      * @return self
      */
-    public function setRangeDimension(?\UBL\Common\CAC\RangeDimension $rangeDimension = null)
+    public function setRangeDimension(?\App\UBL\Common\CAC\RangeDimension $rangeDimension = null)
     {
         $this->rangeDimension = $rangeDimension;
         return $this;
@@ -894,7 +894,7 @@ class ItemPropertyType
      *  Item Property Range
      *  Item Property Range
      *
-     * @return \UBL\Common\CAC\ItemPropertyRange
+     * @return \App\UBL\Common\CAC\ItemPropertyRange
      */
     public function getItemPropertyRange()
     {
@@ -913,14 +913,13 @@ class ItemPropertyType
      *  Item Property Range
      *  Item Property Range
      *
-     * @param \UBL\Common\CAC\ItemPropertyRange $itemPropertyRange
+     * @param \App\UBL\Common\CAC\ItemPropertyRange $itemPropertyRange
      * @return self
      */
-    public function setItemPropertyRange(?\UBL\Common\CAC\ItemPropertyRange $itemPropertyRange = null)
+    public function setItemPropertyRange(?\App\UBL\Common\CAC\ItemPropertyRange $itemPropertyRange = null)
     {
         $this->itemPropertyRange = $itemPropertyRange;
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class TenderResultCode extends TenderResultCodeType
 {
 }
 
-

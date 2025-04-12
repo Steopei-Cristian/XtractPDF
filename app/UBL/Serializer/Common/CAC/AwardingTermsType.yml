@@ -1,4 +1,4 @@
-UBL\Common\CAC\AwardingTermsType:
+App\UBL\Common\CAC\AwardingTermsType:
     properties:
         weightingAlgorithmCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\AwardingTermsType:
             accessor:
                 getter: getWeightingAlgorithmCode
                 setter: setWeightingAlgorithmCode
-            type: UBL\Common\CBC\WeightingAlgorithmCode
+            type: App\UBL\Common\CBC\WeightingAlgorithmCode
         description:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\AwardingTermsType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         technicalCommitteeDescription:
             expose: true
             access_type: public_method
@@ -37,7 +37,7 @@ UBL\Common\CAC\AwardingTermsType:
                 inline: true
                 entry_name: TechnicalCommitteeDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\TechnicalCommitteeDescription>
+            type: array<App\UBL\Common\CBC\TechnicalCommitteeDescription>
         lowTendersDescription:
             expose: true
             access_type: public_method
@@ -51,7 +51,7 @@ UBL\Common\CAC\AwardingTermsType:
                 inline: true
                 entry_name: LowTendersDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\LowTendersDescription>
+            type: array<App\UBL\Common\CBC\LowTendersDescription>
         prizeIndicator:
             expose: true
             access_type: public_method
@@ -75,7 +75,7 @@ UBL\Common\CAC\AwardingTermsType:
                 inline: true
                 entry_name: PrizeDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\PrizeDescription>
+            type: array<App\UBL\Common\CBC\PrizeDescription>
         paymentDescription:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ UBL\Common\CAC\AwardingTermsType:
                 inline: true
                 entry_name: PaymentDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\PaymentDescription>
+            type: array<App\UBL\Common\CBC\PaymentDescription>
         followupContractIndicator:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ UBL\Common\CAC\AwardingTermsType:
                 inline: true
                 entry_name: AwardingCriterion
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AwardingCriterion>
+            type: array<App\UBL\Common\CAC\AwardingCriterion>
         technicalCommitteePerson:
             expose: true
             access_type: public_method
@@ -137,4 +137,4 @@ UBL\Common\CAC\AwardingTermsType:
                 inline: true
                 entry_name: TechnicalCommitteePerson
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TechnicalCommitteePerson>
+            type: array<App\UBL\Common\CAC\TechnicalCommitteePerson>

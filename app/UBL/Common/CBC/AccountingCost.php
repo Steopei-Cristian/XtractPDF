@@ -9,4 +9,3 @@ class AccountingCost extends AccountingCostType
 {
 }
 
-

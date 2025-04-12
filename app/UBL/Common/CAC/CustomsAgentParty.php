@@ -9,4 +9,3 @@ class CustomsAgentParty extends PartyType
 {
 }
 
-

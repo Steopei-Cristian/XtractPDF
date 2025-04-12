@@ -1,2 +1,2 @@
-UBL\Common\CBC\TotalConsumedQuantityType:
+App\UBL\Common\CBC\TotalConsumedQuantityType:
     properties: {  }

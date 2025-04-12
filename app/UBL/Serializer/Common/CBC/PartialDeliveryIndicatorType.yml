@@ -1,4 +1,4 @@
-UBL\Common\CBC\PartialDeliveryIndicatorType:
+App\UBL\Common\CBC\PartialDeliveryIndicatorType:
     properties:
         __value:
             expose: true

@@ -9,4 +9,3 @@ class Instructions extends InstructionsType
 {
 }
 
-

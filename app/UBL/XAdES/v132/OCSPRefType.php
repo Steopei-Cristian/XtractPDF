@@ -11,19 +11,19 @@ namespace App\UBL\XAdES\v132;
 class OCSPRefType
 {
     /**
-     * @var \UBL\XAdES\v132\OCSPIdentifierType $oCSPIdentifier
+     * @var \App\UBL\XAdES\v132\OCSPIdentifierType $oCSPIdentifier
      */
     private $oCSPIdentifier = null;
 
     /**
-     * @var \UBL\XAdES\v132\DigestAlgAndValueType $digestAlgAndValue
+     * @var \App\UBL\XAdES\v132\DigestAlgAndValueType $digestAlgAndValue
      */
     private $digestAlgAndValue = null;
 
     /**
      * Gets as oCSPIdentifier
      *
-     * @return \UBL\XAdES\v132\OCSPIdentifierType
+     * @return \App\UBL\XAdES\v132\OCSPIdentifierType
      */
     public function getOCSPIdentifier()
     {
@@ -33,10 +33,10 @@ class OCSPRefType
     /**
      * Sets a new oCSPIdentifier
      *
-     * @param \UBL\XAdES\v132\OCSPIdentifierType $oCSPIdentifier
+     * @param \App\UBL\XAdES\v132\OCSPIdentifierType $oCSPIdentifier
      * @return self
      */
-    public function setOCSPIdentifier(\UBL\XAdES\v132\OCSPIdentifierType $oCSPIdentifier)
+    public function setOCSPIdentifier(\App\UBL\XAdES\v132\OCSPIdentifierType $oCSPIdentifier)
     {
         $this->oCSPIdentifier = $oCSPIdentifier;
         return $this;
@@ -45,7 +45,7 @@ class OCSPRefType
     /**
      * Gets as digestAlgAndValue
      *
-     * @return \UBL\XAdES\v132\DigestAlgAndValueType
+     * @return \App\UBL\XAdES\v132\DigestAlgAndValueType
      */
     public function getDigestAlgAndValue()
     {
@@ -55,14 +55,13 @@ class OCSPRefType
     /**
      * Sets a new digestAlgAndValue
      *
-     * @param \UBL\XAdES\v132\DigestAlgAndValueType $digestAlgAndValue
+     * @param \App\UBL\XAdES\v132\DigestAlgAndValueType $digestAlgAndValue
      * @return self
      */
-    public function setDigestAlgAndValue(?\UBL\XAdES\v132\DigestAlgAndValueType $digestAlgAndValue = null)
+    public function setDigestAlgAndValue(?\App\UBL\XAdES\v132\DigestAlgAndValueType $digestAlgAndValue = null)
     {
         $this->digestAlgAndValue = $digestAlgAndValue;
         return $this;
     }
 }
-
 

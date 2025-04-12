@@ -9,4 +9,3 @@ class RejectReason extends RejectReasonType
 {
 }
 
-

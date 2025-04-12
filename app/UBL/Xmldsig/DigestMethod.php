@@ -9,4 +9,3 @@ class DigestMethod extends DigestMethodType
 {
 }
 
-

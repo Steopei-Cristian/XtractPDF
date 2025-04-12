@@ -9,4 +9,3 @@ class ChipApplicationID extends ChipApplicationIDType
 {
 }
 
-

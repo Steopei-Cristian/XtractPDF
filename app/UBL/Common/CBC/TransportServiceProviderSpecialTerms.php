@@ -9,4 +9,3 @@ class TransportServiceProviderSpecialTerms extends TransportServiceProviderSpeci
 {
 }
 
-

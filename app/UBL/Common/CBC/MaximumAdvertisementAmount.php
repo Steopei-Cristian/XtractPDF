@@ -9,4 +9,3 @@ class MaximumAdvertisementAmount extends MaximumAdvertisementAmountType
 {
 }
 
-

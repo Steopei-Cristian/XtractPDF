@@ -9,4 +9,3 @@ class CarrierParty extends PartyType
 {
 }
 
-

@@ -1,2 +1,2 @@
-UBL\Common\CBC\DeliveredQuantityType:
+App\UBL\Common\CBC\DeliveredQuantityType:
     properties: {  }

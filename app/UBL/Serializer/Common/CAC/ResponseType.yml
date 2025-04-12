@@ -1,4 +1,4 @@
-UBL\Common\CAC\ResponseType:
+App\UBL\Common\CAC\ResponseType:
     properties:
         referenceID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ResponseType:
             accessor:
                 getter: getReferenceID
                 setter: setReferenceID
-            type: UBL\Common\CBC\ReferenceID
+            type: App\UBL\Common\CBC\ReferenceID
         responseCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ResponseType:
             accessor:
                 getter: getResponseCode
                 setter: setResponseCode
-            type: UBL\Common\CBC\ResponseCode
+            type: App\UBL\Common\CBC\ResponseCode
         description:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\ResponseType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         effectiveDate:
             expose: true
             access_type: public_method
@@ -67,4 +67,4 @@ UBL\Common\CAC\ResponseType:
                 inline: true
                 entry_name: Status
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Status>
+            type: array<App\UBL\Common\CAC\Status>

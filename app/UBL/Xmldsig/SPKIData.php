@@ -9,4 +9,3 @@ class SPKIData extends SPKIDataType
 {
 }
 
-

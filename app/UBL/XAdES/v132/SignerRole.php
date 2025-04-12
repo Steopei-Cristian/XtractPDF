@@ -9,4 +9,3 @@ class SignerRole extends SignerRoleType
 {
 }
 
-

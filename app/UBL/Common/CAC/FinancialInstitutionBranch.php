@@ -9,4 +9,3 @@ class FinancialInstitutionBranch extends BranchType
 {
 }
 
-

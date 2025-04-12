@@ -16,7 +16,7 @@ class CompleteCertificateRefsType
     private $id = null;
 
     /**
-     * @var \UBL\XAdES\v132\CertIDType[] $certRefs
+     * @var \App\UBL\XAdES\v132\CertIDType[] $certRefs
      */
     private $certRefs = null;
 
@@ -46,9 +46,9 @@ class CompleteCertificateRefsType
      * Adds as cert
      *
      * @return self
-     * @param \UBL\XAdES\v132\CertIDType $cert
+     * @param \App\UBL\XAdES\v132\CertIDType $cert
      */
-    public function addToCertRefs(\UBL\XAdES\v132\CertIDType $cert)
+    public function addToCertRefs(\App\UBL\XAdES\v132\CertIDType $cert)
     {
         $this->certRefs[] = $cert;
         return $this;
@@ -79,7 +79,7 @@ class CompleteCertificateRefsType
     /**
      * Gets as certRefs
      *
-     * @return \UBL\XAdES\v132\CertIDType[]
+     * @return \App\UBL\XAdES\v132\CertIDType[]
      */
     public function getCertRefs()
     {
@@ -89,7 +89,7 @@ class CompleteCertificateRefsType
     /**
      * Sets a new certRefs
      *
-     * @param \UBL\XAdES\v132\CertIDType[] $certRefs
+     * @param \App\UBL\XAdES\v132\CertIDType[] $certRefs
      * @return self
      */
     public function setCertRefs(array $certRefs)
@@ -98,5 +98,4 @@ class CompleteCertificateRefsType
         return $this;
     }
 }
-
 

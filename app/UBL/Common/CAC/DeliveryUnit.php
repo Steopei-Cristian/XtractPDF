@@ -9,4 +9,3 @@ class DeliveryUnit extends DeliveryUnitType
 {
 }
 
-

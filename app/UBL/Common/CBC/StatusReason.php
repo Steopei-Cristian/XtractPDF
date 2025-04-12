@@ -9,4 +9,3 @@ class StatusReason extends StatusReasonType
 {
 }
 
-

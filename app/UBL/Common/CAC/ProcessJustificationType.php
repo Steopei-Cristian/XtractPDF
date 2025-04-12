@@ -24,7 +24,7 @@ class ProcessJustificationType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PreviousCancellationReasonCode $previousCancellationReasonCode
+     * @var \App\UBL\Common\CBC\PreviousCancellationReasonCode $previousCancellationReasonCode
      */
     private $previousCancellationReasonCode = null;
 
@@ -39,7 +39,7 @@ class ProcessJustificationType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ProcessReasonCode $processReasonCode
+     * @var \App\UBL\Common\CBC\ProcessReasonCode $processReasonCode
      */
     private $processReasonCode = null;
 
@@ -54,7 +54,7 @@ class ProcessJustificationType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ProcessReason[] $processReason
+     * @var \App\UBL\Common\CBC\ProcessReason[] $processReason
      */
     private $processReason = [
         
@@ -70,7 +70,7 @@ class ProcessJustificationType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -89,7 +89,7 @@ class ProcessJustificationType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PreviousCancellationReasonCode
+     * @return \App\UBL\Common\CBC\PreviousCancellationReasonCode
      */
     public function getPreviousCancellationReasonCode()
     {
@@ -109,10 +109,10 @@ class ProcessJustificationType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PreviousCancellationReasonCode $previousCancellationReasonCode
+     * @param \App\UBL\Common\CBC\PreviousCancellationReasonCode $previousCancellationReasonCode
      * @return self
      */
-    public function setPreviousCancellationReasonCode(?\UBL\Common\CBC\PreviousCancellationReasonCode $previousCancellationReasonCode = null)
+    public function setPreviousCancellationReasonCode(?\App\UBL\Common\CBC\PreviousCancellationReasonCode $previousCancellationReasonCode = null)
     {
         $this->previousCancellationReasonCode = $previousCancellationReasonCode;
         return $this;
@@ -131,7 +131,7 @@ class ProcessJustificationType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ProcessReasonCode
+     * @return \App\UBL\Common\CBC\ProcessReasonCode
      */
     public function getProcessReasonCode()
     {
@@ -151,10 +151,10 @@ class ProcessJustificationType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ProcessReasonCode $processReasonCode
+     * @param \App\UBL\Common\CBC\ProcessReasonCode $processReasonCode
      * @return self
      */
-    public function setProcessReasonCode(?\UBL\Common\CBC\ProcessReasonCode $processReasonCode = null)
+    public function setProcessReasonCode(?\App\UBL\Common\CBC\ProcessReasonCode $processReasonCode = null)
     {
         $this->processReasonCode = $processReasonCode;
         return $this;
@@ -174,9 +174,9 @@ class ProcessJustificationType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ProcessReason $processReason
+     * @param \App\UBL\Common\CBC\ProcessReason $processReason
      */
-    public function addToProcessReason(\UBL\Common\CBC\ProcessReason $processReason)
+    public function addToProcessReason(\App\UBL\Common\CBC\ProcessReason $processReason)
     {
         $this->processReason[] = $processReason;
         return $this;
@@ -237,7 +237,7 @@ class ProcessJustificationType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ProcessReason[]
+     * @return \App\UBL\Common\CBC\ProcessReason[]
      */
     public function getProcessReason()
     {
@@ -257,7 +257,7 @@ class ProcessJustificationType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ProcessReason[] $processReason
+     * @param \App\UBL\Common\CBC\ProcessReason[] $processReason
      * @return self
      */
     public function setProcessReason(?array $processReason = null)
@@ -279,9 +279,9 @@ class ProcessJustificationType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -339,7 +339,7 @@ class ProcessJustificationType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -358,7 +358,7 @@ class ProcessJustificationType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -367,5 +367,4 @@ class ProcessJustificationType
         return $this;
     }
 }
-
 

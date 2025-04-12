@@ -9,4 +9,3 @@ class Delivery extends DeliveryType
 {
 }
 
-

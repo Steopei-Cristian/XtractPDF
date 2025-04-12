@@ -9,4 +9,3 @@ class ApplicationStatusCode extends ApplicationStatusCodeType
 {
 }
 
-

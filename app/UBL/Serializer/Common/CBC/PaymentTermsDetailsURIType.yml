@@ -1,2 +1,2 @@
-UBL\Common\CBC\PaymentTermsDetailsURIType:
+App\UBL\Common\CBC\PaymentTermsDetailsURIType:
     properties: {  }

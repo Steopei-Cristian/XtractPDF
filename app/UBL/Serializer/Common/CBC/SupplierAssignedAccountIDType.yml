@@ -1,2 +1,2 @@
-UBL\Common\CBC\SupplierAssignedAccountIDType:
+App\UBL\Common\CBC\SupplierAssignedAccountIDType:
     properties: {  }

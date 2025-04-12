@@ -1,4 +1,4 @@
-UBL\Common\CBC\ReferenceTimeType:
+App\UBL\Common\CBC\ReferenceTimeType:
     properties:
         __value:
             expose: true

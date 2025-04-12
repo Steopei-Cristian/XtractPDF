@@ -1,4 +1,4 @@
-UBL\Common\CAC\EnergyWaterSupplyType:
+App\UBL\Common\CAC\EnergyWaterSupplyType:
     properties:
         consumptionReport:
             expose: true
@@ -13,7 +13,7 @@ UBL\Common\CAC\EnergyWaterSupplyType:
                 inline: true
                 entry_name: ConsumptionReport
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ConsumptionReport>
+            type: array<App\UBL\Common\CAC\ConsumptionReport>
         energyTaxReport:
             expose: true
             access_type: public_method
@@ -27,7 +27,7 @@ UBL\Common\CAC\EnergyWaterSupplyType:
                 inline: true
                 entry_name: EnergyTaxReport
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\EnergyTaxReport>
+            type: array<App\UBL\Common\CAC\EnergyTaxReport>
         consumptionAverage:
             expose: true
             access_type: public_method
@@ -41,7 +41,7 @@ UBL\Common\CAC\EnergyWaterSupplyType:
                 inline: true
                 entry_name: ConsumptionAverage
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ConsumptionAverage>
+            type: array<App\UBL\Common\CAC\ConsumptionAverage>
         energyWaterConsumptionCorrection:
             expose: true
             access_type: public_method
@@ -55,4 +55,4 @@ UBL\Common\CAC\EnergyWaterSupplyType:
                 inline: true
                 entry_name: EnergyWaterConsumptionCorrection
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\EnergyWaterConsumptionCorrection>
+            type: array<App\UBL\Common\CAC\EnergyWaterConsumptionCorrection>

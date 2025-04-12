@@ -9,4 +9,3 @@ class LifeCycleStatusCode extends LifeCycleStatusCodeType
 {
 }
 
-

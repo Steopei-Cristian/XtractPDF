@@ -9,4 +9,3 @@ class BuyerReference extends BuyerReferenceType
 {
 }
 
-

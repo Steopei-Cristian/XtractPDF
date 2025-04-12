@@ -1,2 +1,2 @@
-UBL\Common\CBC\PaymentPurposeCodeType:
+App\UBL\Common\CBC\PaymentPurposeCodeType:
     properties: {  }

@@ -1,4 +1,4 @@
-UBL\Common\CAC\RoadTransportType:
+App\UBL\Common\CAC\RoadTransportType:
     properties:
         licensePlateID:
             expose: true
@@ -9,4 +9,4 @@ UBL\Common\CAC\RoadTransportType:
             accessor:
                 getter: getLicensePlateID
                 setter: setLicensePlateID
-            type: UBL\Common\CBC\LicensePlateID
+            type: App\UBL\Common\CBC\LicensePlateID

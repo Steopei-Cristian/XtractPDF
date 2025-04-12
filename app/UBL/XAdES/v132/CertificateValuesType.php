@@ -16,14 +16,14 @@ class CertificateValuesType
     private $id = null;
 
     /**
-     * @var \UBL\XAdES\v132\EncapsulatedPKIDataType[] $encapsulatedX509Certificate
+     * @var \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $encapsulatedX509Certificate
      */
     private $encapsulatedX509Certificate = [
         
     ];
 
     /**
-     * @var \UBL\XAdES\v132\AnyType[] $otherCertificate
+     * @var \App\UBL\XAdES\v132\AnyType[] $otherCertificate
      */
     private $otherCertificate = [
         
@@ -55,9 +55,9 @@ class CertificateValuesType
      * Adds as encapsulatedX509Certificate
      *
      * @return self
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedX509Certificate
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedX509Certificate
      */
-    public function addToEncapsulatedX509Certificate(\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedX509Certificate)
+    public function addToEncapsulatedX509Certificate(\App\UBL\XAdES\v132\EncapsulatedPKIDataType $encapsulatedX509Certificate)
     {
         $this->encapsulatedX509Certificate[] = $encapsulatedX509Certificate;
         return $this;
@@ -88,7 +88,7 @@ class CertificateValuesType
     /**
      * Gets as encapsulatedX509Certificate
      *
-     * @return \UBL\XAdES\v132\EncapsulatedPKIDataType[]
+     * @return \App\UBL\XAdES\v132\EncapsulatedPKIDataType[]
      */
     public function getEncapsulatedX509Certificate()
     {
@@ -98,7 +98,7 @@ class CertificateValuesType
     /**
      * Sets a new encapsulatedX509Certificate
      *
-     * @param \UBL\XAdES\v132\EncapsulatedPKIDataType[] $encapsulatedX509Certificate
+     * @param \App\UBL\XAdES\v132\EncapsulatedPKIDataType[] $encapsulatedX509Certificate
      * @return self
      */
     public function setEncapsulatedX509Certificate(?array $encapsulatedX509Certificate = null)
@@ -111,9 +111,9 @@ class CertificateValuesType
      * Adds as otherCertificate
      *
      * @return self
-     * @param \UBL\XAdES\v132\AnyType $otherCertificate
+     * @param \App\UBL\XAdES\v132\AnyType $otherCertificate
      */
-    public function addToOtherCertificate(\UBL\XAdES\v132\AnyType $otherCertificate)
+    public function addToOtherCertificate(\App\UBL\XAdES\v132\AnyType $otherCertificate)
     {
         $this->otherCertificate[] = $otherCertificate;
         return $this;
@@ -144,7 +144,7 @@ class CertificateValuesType
     /**
      * Gets as otherCertificate
      *
-     * @return \UBL\XAdES\v132\AnyType[]
+     * @return \App\UBL\XAdES\v132\AnyType[]
      */
     public function getOtherCertificate()
     {
@@ -154,7 +154,7 @@ class CertificateValuesType
     /**
      * Sets a new otherCertificate
      *
-     * @param \UBL\XAdES\v132\AnyType[] $otherCertificate
+     * @param \App\UBL\XAdES\v132\AnyType[] $otherCertificate
      * @return self
      */
     public function setOtherCertificate(?array $otherCertificate = null)
@@ -163,5 +163,4 @@ class CertificateValuesType
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class OrderLineReference extends OrderLineReferenceType
 {
 }
 
-

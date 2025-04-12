@@ -1,4 +1,4 @@
-UBL\Common\CBC\LatestMeterReadingDateType:
+App\UBL\Common\CBC\LatestMeterReadingDateType:
     properties:
         __value:
             expose: true

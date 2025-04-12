@@ -9,4 +9,3 @@ class OperatingParty extends PartyType
 {
 }
 
-

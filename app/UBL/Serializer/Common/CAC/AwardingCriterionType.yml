@@ -1,4 +1,4 @@
-UBL\Common\CAC\AwardingCriterionType:
+App\UBL\Common\CAC\AwardingCriterionType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\AwardingCriterionType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         awardingCriterionTypeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\AwardingCriterionType:
             accessor:
                 getter: getAwardingCriterionTypeCode
                 setter: setAwardingCriterionTypeCode
-            type: UBL\Common\CBC\AwardingCriterionTypeCode
+            type: App\UBL\Common\CBC\AwardingCriterionTypeCode
         description:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\AwardingCriterionType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         weightNumeric:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\AwardingCriterionType:
             accessor:
                 getter: getWeightNumeric
                 setter: setWeightNumeric
-            type: UBL\Common\CBC\WeightNumeric
+            type: App\UBL\Common\CBC\WeightNumeric
         weight:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\AwardingCriterionType:
                 inline: true
                 entry_name: Weight
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Weight>
+            type: array<App\UBL\Common\CBC\Weight>
         calculationExpression:
             expose: true
             access_type: public_method
@@ -71,7 +71,7 @@ UBL\Common\CAC\AwardingCriterionType:
                 inline: true
                 entry_name: CalculationExpression
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\CalculationExpression>
+            type: array<App\UBL\Common\CBC\CalculationExpression>
         calculationExpressionCode:
             expose: true
             access_type: public_method
@@ -81,7 +81,7 @@ UBL\Common\CAC\AwardingCriterionType:
             accessor:
                 getter: getCalculationExpressionCode
                 setter: setCalculationExpressionCode
-            type: UBL\Common\CBC\CalculationExpressionCode
+            type: App\UBL\Common\CBC\CalculationExpressionCode
         minimumQuantity:
             expose: true
             access_type: public_method
@@ -91,7 +91,7 @@ UBL\Common\CAC\AwardingCriterionType:
             accessor:
                 getter: getMinimumQuantity
                 setter: setMinimumQuantity
-            type: UBL\Common\CBC\MinimumQuantity
+            type: App\UBL\Common\CBC\MinimumQuantity
         maximumQuantity:
             expose: true
             access_type: public_method
@@ -101,7 +101,7 @@ UBL\Common\CAC\AwardingCriterionType:
             accessor:
                 getter: getMaximumQuantity
                 setter: setMaximumQuantity
-            type: UBL\Common\CBC\MaximumQuantity
+            type: App\UBL\Common\CBC\MaximumQuantity
         minimumAmount:
             expose: true
             access_type: public_method
@@ -111,7 +111,7 @@ UBL\Common\CAC\AwardingCriterionType:
             accessor:
                 getter: getMinimumAmount
                 setter: setMinimumAmount
-            type: UBL\Common\CBC\MinimumAmount
+            type: App\UBL\Common\CBC\MinimumAmount
         maximumAmount:
             expose: true
             access_type: public_method
@@ -121,7 +121,7 @@ UBL\Common\CAC\AwardingCriterionType:
             accessor:
                 getter: getMaximumAmount
                 setter: setMaximumAmount
-            type: UBL\Common\CBC\MaximumAmount
+            type: App\UBL\Common\CBC\MaximumAmount
         minimumImprovementBid:
             expose: true
             access_type: public_method
@@ -135,7 +135,7 @@ UBL\Common\CAC\AwardingCriterionType:
                 inline: true
                 entry_name: MinimumImprovementBid
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\MinimumImprovementBid>
+            type: array<App\UBL\Common\CBC\MinimumImprovementBid>
         subordinateAwardingCriterion:
             expose: true
             access_type: public_method
@@ -149,4 +149,4 @@ UBL\Common\CAC\AwardingCriterionType:
                 inline: true
                 entry_name: SubordinateAwardingCriterion
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SubordinateAwardingCriterion>
+            type: array<App\UBL\Common\CAC\SubordinateAwardingCriterion>

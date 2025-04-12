@@ -1,2 +1,2 @@
-UBL\Common\CBC\PaymentNoteType:
+App\UBL\Common\CBC\PaymentNoteType:
     properties: {  }

@@ -1,4 +1,4 @@
-UBL\Xmldsig\X509IssuerSerialType:
+App\UBL\Xmldsig\X509IssuerSerialType:
     properties:
         x509IssuerName:
             expose: true

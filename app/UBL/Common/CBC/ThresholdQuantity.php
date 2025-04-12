@@ -9,4 +9,3 @@ class ThresholdQuantity extends ThresholdQuantityType
 {
 }
 
-

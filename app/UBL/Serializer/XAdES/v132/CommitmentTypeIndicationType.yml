@@ -1,4 +1,4 @@
-UBL\XAdES\v132\CommitmentTypeIndicationType:
+App\UBL\XAdES\v132\CommitmentTypeIndicationType:
     properties:
         commitmentTypeId:
             expose: true
@@ -9,7 +9,7 @@ UBL\XAdES\v132\CommitmentTypeIndicationType:
             accessor:
                 getter: getCommitmentTypeId
                 setter: setCommitmentTypeId
-            type: UBL\XAdES\v132\ObjectIdentifierType
+            type: App\UBL\XAdES\v132\ObjectIdentifierType
         objectReference:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\XAdES\v132\CommitmentTypeIndicationType:
             accessor:
                 getter: getCommitmentTypeQualifiers
                 setter: setCommitmentTypeQualifiers
-            type: array<UBL\XAdES\v132\AnyType>
+            type: array<App\UBL\XAdES\v132\AnyType>
             xml_list:
                 inline: false
                 entry_name: CommitmentTypeQualifier

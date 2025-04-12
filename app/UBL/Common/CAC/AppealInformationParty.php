@@ -9,4 +9,3 @@ class AppealInformationParty extends PartyType
 {
 }
 
-

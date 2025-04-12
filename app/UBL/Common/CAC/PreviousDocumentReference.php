@@ -9,4 +9,3 @@ class PreviousDocumentReference extends DocumentReferenceType
 {
 }
 
-

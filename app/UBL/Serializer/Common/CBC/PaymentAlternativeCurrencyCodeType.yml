@@ -1,2 +1,2 @@
-UBL\Common\CBC\PaymentAlternativeCurrencyCodeType:
+App\UBL\Common\CBC\PaymentAlternativeCurrencyCodeType:
     properties: {  }

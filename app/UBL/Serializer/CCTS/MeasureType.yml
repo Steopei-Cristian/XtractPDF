@@ -1,4 +1,4 @@
-UBL\CCTS\MeasureType:
+App\UBL\CCTS\MeasureType:
     properties:
         __value:
             expose: true

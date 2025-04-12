@@ -1,4 +1,4 @@
-UBL\Common\CBC\ItemUpdateRequestIndicatorType:
+App\UBL\Common\CBC\ItemUpdateRequestIndicatorType:
     properties:
         __value:
             expose: true

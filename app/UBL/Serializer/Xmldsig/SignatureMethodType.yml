@@ -1,4 +1,4 @@
-UBL\Xmldsig\SignatureMethodType:
+App\UBL\Xmldsig\SignatureMethodType:
     properties:
         algorithm:
             expose: true

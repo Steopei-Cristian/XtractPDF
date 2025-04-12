@@ -9,4 +9,3 @@ class HazardousGoodsTransit extends HazardousGoodsTransitType
 {
 }
 
-

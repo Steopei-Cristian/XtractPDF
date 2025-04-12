@@ -9,4 +9,3 @@ class LatestMeterReadingMethodCode extends LatestMeterReadingMethodCodeType
 {
 }
 
-

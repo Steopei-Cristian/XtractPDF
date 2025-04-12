@@ -1,4 +1,4 @@
-UBL\Common\CBC\SourceForecastIssueTimeType:
+App\UBL\Common\CBC\SourceForecastIssueTimeType:
     properties:
         __value:
             expose: true

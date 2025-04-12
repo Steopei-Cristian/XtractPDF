@@ -1,4 +1,4 @@
-UBL\Common\CBC\LatestPickupDate:
+App\UBL\Common\CBC\LatestPickupDate:
     xml_root_name: LatestPickupDate
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

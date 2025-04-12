@@ -9,4 +9,3 @@ class MasterPerson extends PersonType
 {
 }
 
-

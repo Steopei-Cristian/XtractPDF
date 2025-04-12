@@ -24,7 +24,7 @@ class MeterReadingType
      *  Identifier. Type
      *  7411013716x
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class MeterReadingType
      *  Text. Type
      *  Electricity
      *
-     * @var \UBL\Common\CBC\MeterReadingType $meterReadingType
+     * @var \App\UBL\Common\CBC\MeterReadingType $meterReadingType
      */
     private $meterReadingType = null;
 
@@ -54,7 +54,7 @@ class MeterReadingType
      *  Code. Type
      *  Electricity
      *
-     * @var \UBL\Common\CBC\MeterReadingTypeCode $meterReadingTypeCode
+     * @var \App\UBL\Common\CBC\MeterReadingTypeCode $meterReadingTypeCode
      */
     private $meterReadingTypeCode = null;
 
@@ -86,7 +86,7 @@ class MeterReadingType
      *  Quantity. Type
      *  122604.00
      *
-     * @var \UBL\Common\CBC\PreviousMeterQuantity $previousMeterQuantity
+     * @var \App\UBL\Common\CBC\PreviousMeterQuantity $previousMeterQuantity
      */
     private $previousMeterQuantity = null;
 
@@ -118,7 +118,7 @@ class MeterReadingType
      *  Quantity. Type
      *  128365.00
      *
-     * @var \UBL\Common\CBC\LatestMeterQuantity $latestMeterQuantity
+     * @var \App\UBL\Common\CBC\LatestMeterQuantity $latestMeterQuantity
      */
     private $latestMeterQuantity = null;
 
@@ -134,7 +134,7 @@ class MeterReadingType
      *  Text. Type
      *  Manuel
      *
-     * @var \UBL\Common\CBC\PreviousMeterReadingMethod $previousMeterReadingMethod
+     * @var \App\UBL\Common\CBC\PreviousMeterReadingMethod $previousMeterReadingMethod
      */
     private $previousMeterReadingMethod = null;
 
@@ -150,7 +150,7 @@ class MeterReadingType
      *  Code. Type
      *  Estimated
      *
-     * @var \UBL\Common\CBC\PreviousMeterReadingMethodCode $previousMeterReadingMethodCode
+     * @var \App\UBL\Common\CBC\PreviousMeterReadingMethodCode $previousMeterReadingMethodCode
      */
     private $previousMeterReadingMethodCode = null;
 
@@ -166,7 +166,7 @@ class MeterReadingType
      *  Text. Type
      *  Manuel
      *
-     * @var \UBL\Common\CBC\LatestMeterReadingMethod $latestMeterReadingMethod
+     * @var \App\UBL\Common\CBC\LatestMeterReadingMethod $latestMeterReadingMethod
      */
     private $latestMeterReadingMethod = null;
 
@@ -182,7 +182,7 @@ class MeterReadingType
      *  Code. Type
      *  Estimated
      *
-     * @var \UBL\Common\CBC\LatestMeterReadingMethodCode $latestMeterReadingMethodCode
+     * @var \App\UBL\Common\CBC\LatestMeterReadingMethodCode $latestMeterReadingMethodCode
      */
     private $latestMeterReadingMethodCode = null;
 
@@ -198,7 +198,7 @@ class MeterReadingType
      *  Text. Type
      *  The last stated meterstand is estimated
      *
-     * @var \UBL\Common\CBC\MeterReadingComments[] $meterReadingComments
+     * @var \App\UBL\Common\CBC\MeterReadingComments[] $meterReadingComments
      */
     private $meterReadingComments = [
         
@@ -215,7 +215,7 @@ class MeterReadingType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\DeliveredQuantity $deliveredQuantity
+     * @var \App\UBL\Common\CBC\DeliveredQuantity $deliveredQuantity
      */
     private $deliveredQuantity = null;
 
@@ -232,7 +232,7 @@ class MeterReadingType
      *  Identifier. Type
      *  7411013716x
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -252,10 +252,10 @@ class MeterReadingType
      *  Identifier. Type
      *  7411013716x
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -274,7 +274,7 @@ class MeterReadingType
      *  Text. Type
      *  Electricity
      *
-     * @return \UBL\Common\CBC\MeterReadingType
+     * @return \App\UBL\Common\CBC\MeterReadingType
      */
     public function getMeterReadingType()
     {
@@ -294,10 +294,10 @@ class MeterReadingType
      *  Text. Type
      *  Electricity
      *
-     * @param \UBL\Common\CBC\MeterReadingType $meterReadingType
+     * @param \App\UBL\Common\CBC\MeterReadingType $meterReadingType
      * @return self
      */
-    public function setMeterReadingType(?\UBL\Common\CBC\MeterReadingType $meterReadingType = null)
+    public function setMeterReadingType(?\App\UBL\Common\CBC\MeterReadingType $meterReadingType = null)
     {
         $this->meterReadingType = $meterReadingType;
         return $this;
@@ -316,7 +316,7 @@ class MeterReadingType
      *  Code. Type
      *  Electricity
      *
-     * @return \UBL\Common\CBC\MeterReadingTypeCode
+     * @return \App\UBL\Common\CBC\MeterReadingTypeCode
      */
     public function getMeterReadingTypeCode()
     {
@@ -336,10 +336,10 @@ class MeterReadingType
      *  Code. Type
      *  Electricity
      *
-     * @param \UBL\Common\CBC\MeterReadingTypeCode $meterReadingTypeCode
+     * @param \App\UBL\Common\CBC\MeterReadingTypeCode $meterReadingTypeCode
      * @return self
      */
-    public function setMeterReadingTypeCode(?\UBL\Common\CBC\MeterReadingTypeCode $meterReadingTypeCode = null)
+    public function setMeterReadingTypeCode(?\App\UBL\Common\CBC\MeterReadingTypeCode $meterReadingTypeCode = null)
     {
         $this->meterReadingTypeCode = $meterReadingTypeCode;
         return $this;
@@ -403,7 +403,7 @@ class MeterReadingType
      *  Quantity. Type
      *  122604.00
      *
-     * @return \UBL\Common\CBC\PreviousMeterQuantity
+     * @return \App\UBL\Common\CBC\PreviousMeterQuantity
      */
     public function getPreviousMeterQuantity()
     {
@@ -424,10 +424,10 @@ class MeterReadingType
      *  Quantity. Type
      *  122604.00
      *
-     * @param \UBL\Common\CBC\PreviousMeterQuantity $previousMeterQuantity
+     * @param \App\UBL\Common\CBC\PreviousMeterQuantity $previousMeterQuantity
      * @return self
      */
-    public function setPreviousMeterQuantity(\UBL\Common\CBC\PreviousMeterQuantity $previousMeterQuantity)
+    public function setPreviousMeterQuantity(\App\UBL\Common\CBC\PreviousMeterQuantity $previousMeterQuantity)
     {
         $this->previousMeterQuantity = $previousMeterQuantity;
         return $this;
@@ -491,7 +491,7 @@ class MeterReadingType
      *  Quantity. Type
      *  128365.00
      *
-     * @return \UBL\Common\CBC\LatestMeterQuantity
+     * @return \App\UBL\Common\CBC\LatestMeterQuantity
      */
     public function getLatestMeterQuantity()
     {
@@ -512,10 +512,10 @@ class MeterReadingType
      *  Quantity. Type
      *  128365.00
      *
-     * @param \UBL\Common\CBC\LatestMeterQuantity $latestMeterQuantity
+     * @param \App\UBL\Common\CBC\LatestMeterQuantity $latestMeterQuantity
      * @return self
      */
-    public function setLatestMeterQuantity(\UBL\Common\CBC\LatestMeterQuantity $latestMeterQuantity)
+    public function setLatestMeterQuantity(\App\UBL\Common\CBC\LatestMeterQuantity $latestMeterQuantity)
     {
         $this->latestMeterQuantity = $latestMeterQuantity;
         return $this;
@@ -535,7 +535,7 @@ class MeterReadingType
      *  Text. Type
      *  Manuel
      *
-     * @return \UBL\Common\CBC\PreviousMeterReadingMethod
+     * @return \App\UBL\Common\CBC\PreviousMeterReadingMethod
      */
     public function getPreviousMeterReadingMethod()
     {
@@ -556,10 +556,10 @@ class MeterReadingType
      *  Text. Type
      *  Manuel
      *
-     * @param \UBL\Common\CBC\PreviousMeterReadingMethod $previousMeterReadingMethod
+     * @param \App\UBL\Common\CBC\PreviousMeterReadingMethod $previousMeterReadingMethod
      * @return self
      */
-    public function setPreviousMeterReadingMethod(?\UBL\Common\CBC\PreviousMeterReadingMethod $previousMeterReadingMethod = null)
+    public function setPreviousMeterReadingMethod(?\App\UBL\Common\CBC\PreviousMeterReadingMethod $previousMeterReadingMethod = null)
     {
         $this->previousMeterReadingMethod = $previousMeterReadingMethod;
         return $this;
@@ -579,7 +579,7 @@ class MeterReadingType
      *  Code. Type
      *  Estimated
      *
-     * @return \UBL\Common\CBC\PreviousMeterReadingMethodCode
+     * @return \App\UBL\Common\CBC\PreviousMeterReadingMethodCode
      */
     public function getPreviousMeterReadingMethodCode()
     {
@@ -600,10 +600,10 @@ class MeterReadingType
      *  Code. Type
      *  Estimated
      *
-     * @param \UBL\Common\CBC\PreviousMeterReadingMethodCode $previousMeterReadingMethodCode
+     * @param \App\UBL\Common\CBC\PreviousMeterReadingMethodCode $previousMeterReadingMethodCode
      * @return self
      */
-    public function setPreviousMeterReadingMethodCode(?\UBL\Common\CBC\PreviousMeterReadingMethodCode $previousMeterReadingMethodCode = null)
+    public function setPreviousMeterReadingMethodCode(?\App\UBL\Common\CBC\PreviousMeterReadingMethodCode $previousMeterReadingMethodCode = null)
     {
         $this->previousMeterReadingMethodCode = $previousMeterReadingMethodCode;
         return $this;
@@ -623,7 +623,7 @@ class MeterReadingType
      *  Text. Type
      *  Manuel
      *
-     * @return \UBL\Common\CBC\LatestMeterReadingMethod
+     * @return \App\UBL\Common\CBC\LatestMeterReadingMethod
      */
     public function getLatestMeterReadingMethod()
     {
@@ -644,10 +644,10 @@ class MeterReadingType
      *  Text. Type
      *  Manuel
      *
-     * @param \UBL\Common\CBC\LatestMeterReadingMethod $latestMeterReadingMethod
+     * @param \App\UBL\Common\CBC\LatestMeterReadingMethod $latestMeterReadingMethod
      * @return self
      */
-    public function setLatestMeterReadingMethod(?\UBL\Common\CBC\LatestMeterReadingMethod $latestMeterReadingMethod = null)
+    public function setLatestMeterReadingMethod(?\App\UBL\Common\CBC\LatestMeterReadingMethod $latestMeterReadingMethod = null)
     {
         $this->latestMeterReadingMethod = $latestMeterReadingMethod;
         return $this;
@@ -667,7 +667,7 @@ class MeterReadingType
      *  Code. Type
      *  Estimated
      *
-     * @return \UBL\Common\CBC\LatestMeterReadingMethodCode
+     * @return \App\UBL\Common\CBC\LatestMeterReadingMethodCode
      */
     public function getLatestMeterReadingMethodCode()
     {
@@ -688,10 +688,10 @@ class MeterReadingType
      *  Code. Type
      *  Estimated
      *
-     * @param \UBL\Common\CBC\LatestMeterReadingMethodCode $latestMeterReadingMethodCode
+     * @param \App\UBL\Common\CBC\LatestMeterReadingMethodCode $latestMeterReadingMethodCode
      * @return self
      */
-    public function setLatestMeterReadingMethodCode(?\UBL\Common\CBC\LatestMeterReadingMethodCode $latestMeterReadingMethodCode = null)
+    public function setLatestMeterReadingMethodCode(?\App\UBL\Common\CBC\LatestMeterReadingMethodCode $latestMeterReadingMethodCode = null)
     {
         $this->latestMeterReadingMethodCode = $latestMeterReadingMethodCode;
         return $this;
@@ -712,9 +712,9 @@ class MeterReadingType
      *  The last stated meterstand is estimated
      *
      * @return self
-     * @param \UBL\Common\CBC\MeterReadingComments $meterReadingComments
+     * @param \App\UBL\Common\CBC\MeterReadingComments $meterReadingComments
      */
-    public function addToMeterReadingComments(\UBL\Common\CBC\MeterReadingComments $meterReadingComments)
+    public function addToMeterReadingComments(\App\UBL\Common\CBC\MeterReadingComments $meterReadingComments)
     {
         $this->meterReadingComments[] = $meterReadingComments;
         return $this;
@@ -778,7 +778,7 @@ class MeterReadingType
      *  Text. Type
      *  The last stated meterstand is estimated
      *
-     * @return \UBL\Common\CBC\MeterReadingComments[]
+     * @return \App\UBL\Common\CBC\MeterReadingComments[]
      */
     public function getMeterReadingComments()
     {
@@ -799,7 +799,7 @@ class MeterReadingType
      *  Text. Type
      *  The last stated meterstand is estimated
      *
-     * @param \UBL\Common\CBC\MeterReadingComments[] $meterReadingComments
+     * @param \App\UBL\Common\CBC\MeterReadingComments[] $meterReadingComments
      * @return self
      */
     public function setMeterReadingComments(?array $meterReadingComments = null)
@@ -821,7 +821,7 @@ class MeterReadingType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\DeliveredQuantity
+     * @return \App\UBL\Common\CBC\DeliveredQuantity
      */
     public function getDeliveredQuantity()
     {
@@ -841,14 +841,13 @@ class MeterReadingType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\DeliveredQuantity $deliveredQuantity
+     * @param \App\UBL\Common\CBC\DeliveredQuantity $deliveredQuantity
      * @return self
      */
-    public function setDeliveredQuantity(\UBL\Common\CBC\DeliveredQuantity $deliveredQuantity)
+    public function setDeliveredQuantity(\App\UBL\Common\CBC\DeliveredQuantity $deliveredQuantity)
     {
         $this->deliveredQuantity = $deliveredQuantity;
         return $this;
     }
 }
-
 

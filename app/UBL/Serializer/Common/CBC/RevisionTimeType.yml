@@ -1,4 +1,4 @@
-UBL\Common\CBC\RevisionTimeType:
+App\UBL\Common\CBC\RevisionTimeType:
     properties:
         __value:
             expose: true

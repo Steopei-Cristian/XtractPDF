@@ -9,4 +9,3 @@ class ActivityOriginLocation extends LocationType
 {
 }
 
-

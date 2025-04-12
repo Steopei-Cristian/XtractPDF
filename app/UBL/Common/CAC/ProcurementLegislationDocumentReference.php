@@ -9,4 +9,3 @@ class ProcurementLegislationDocumentReference extends DocumentReferenceType
 {
 }
 
-

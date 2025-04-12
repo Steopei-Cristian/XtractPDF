@@ -9,4 +9,3 @@ class EnvironmentalEmissionTypeCode extends EnvironmentalEmissionTypeCodeType
 {
 }
 
-

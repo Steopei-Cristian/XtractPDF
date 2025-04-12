@@ -9,4 +9,3 @@ class SubordinateAwardingCriterion extends AwardingCriterionType
 {
 }
 
-

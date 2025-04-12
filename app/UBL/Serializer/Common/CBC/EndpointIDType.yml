@@ -1,2 +1,2 @@
-UBL\Common\CBC\EndpointIDType:
+App\UBL\Common\CBC\EndpointIDType:
     properties: {  }

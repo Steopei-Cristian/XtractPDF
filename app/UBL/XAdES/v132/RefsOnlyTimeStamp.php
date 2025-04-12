@@ -9,4 +9,3 @@ class RefsOnlyTimeStamp extends XAdESTimeStampType
 {
 }
 
-

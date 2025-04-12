@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\CBC;
 
-use UBL\Unqualified\MeasureType as MeasureTypeBase;
+use App\UBL\Unqualified\MeasureType as MeasureTypeBase;
 
 /**
  * Class representing MeasureType
@@ -13,5 +13,4 @@ use UBL\Unqualified\MeasureType as MeasureTypeBase;
 class MeasureType extends MeasureTypeBase
 {
 }
-
 

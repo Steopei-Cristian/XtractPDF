@@ -1,4 +1,4 @@
-UBL\Common\CBC\BirthDateType:
+App\UBL\Common\CBC\BirthDateType:
     properties:
         __value:
             expose: true

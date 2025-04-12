@@ -9,4 +9,3 @@ class ConsumptionLevelCode extends ConsumptionLevelCodeType
 {
 }
 
-

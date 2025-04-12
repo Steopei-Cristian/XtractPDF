@@ -1,3 +1,3 @@
-UBL\Common\CAC\PlannedDeliveryTransportEvent:
+App\UBL\Common\CAC\PlannedDeliveryTransportEvent:
     xml_root_name: PlannedDeliveryTransportEvent
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

@@ -1,4 +1,4 @@
-UBL\Common\CBC\PricingUpdateRequestIndicatorType:
+App\UBL\Common\CBC\PricingUpdateRequestIndicatorType:
     properties:
         __value:
             expose: true

@@ -1,2 +1,2 @@
-UBL\Common\CBC\DataSendingCapabilityType:
+App\UBL\Common\CBC\DataSendingCapabilityType:
     properties: {  }

@@ -9,4 +9,3 @@ class TransportContract extends ContractType
 {
 }
 
-

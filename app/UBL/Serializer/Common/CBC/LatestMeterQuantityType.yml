@@ -1,2 +1,2 @@
-UBL\Common\CBC\LatestMeterQuantityType:
+App\UBL\Common\CBC\LatestMeterQuantityType:
     properties: {  }

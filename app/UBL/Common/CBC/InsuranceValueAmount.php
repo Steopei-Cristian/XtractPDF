@@ -9,4 +9,3 @@ class InsuranceValueAmount extends InsuranceValueAmountType
 {
 }
 
-

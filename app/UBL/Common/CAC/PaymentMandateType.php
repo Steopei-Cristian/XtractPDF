@@ -23,7 +23,7 @@ class PaymentMandateType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class PaymentMandateType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\MandateTypeCode $mandateTypeCode
+     * @var \App\UBL\Common\CBC\MandateTypeCode $mandateTypeCode
      */
     private $mandateTypeCode = null;
 
@@ -51,7 +51,7 @@ class PaymentMandateType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\MaximumPaymentInstructionsNumeric $maximumPaymentInstructionsNumeric
+     * @var \App\UBL\Common\CBC\MaximumPaymentInstructionsNumeric $maximumPaymentInstructionsNumeric
      */
     private $maximumPaymentInstructionsNumeric = null;
 
@@ -66,7 +66,7 @@ class PaymentMandateType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\MaximumPaidAmount $maximumPaidAmount
+     * @var \App\UBL\Common\CBC\MaximumPaidAmount $maximumPaidAmount
      */
     private $maximumPaidAmount = null;
 
@@ -80,7 +80,7 @@ class PaymentMandateType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\SignatureID $signatureID
+     * @var \App\UBL\Common\CBC\SignatureID $signatureID
      */
     private $signatureID = null;
 
@@ -95,7 +95,7 @@ class PaymentMandateType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\PayerParty $payerParty
+     * @var \App\UBL\Common\CAC\PayerParty $payerParty
      */
     private $payerParty = null;
 
@@ -110,7 +110,7 @@ class PaymentMandateType
      *  Financial Account
      *  Financial Account
      *
-     * @var \UBL\Common\CAC\PayerFinancialAccount $payerFinancialAccount
+     * @var \App\UBL\Common\CAC\PayerFinancialAccount $payerFinancialAccount
      */
     private $payerFinancialAccount = null;
 
@@ -125,7 +125,7 @@ class PaymentMandateType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ValidityPeriod $validityPeriod
+     * @var \App\UBL\Common\CAC\ValidityPeriod $validityPeriod
      */
     private $validityPeriod = null;
 
@@ -140,7 +140,7 @@ class PaymentMandateType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\PaymentReversalPeriod $paymentReversalPeriod
+     * @var \App\UBL\Common\CAC\PaymentReversalPeriod $paymentReversalPeriod
      */
     private $paymentReversalPeriod = null;
 
@@ -154,7 +154,7 @@ class PaymentMandateType
      *  Clause
      *  Clause
      *
-     * @var \UBL\Common\CAC\Clause[] $clause
+     * @var \App\UBL\Common\CAC\Clause[] $clause
      */
     private $clause = [
         
@@ -172,7 +172,7 @@ class PaymentMandateType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -191,10 +191,10 @@ class PaymentMandateType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -212,7 +212,7 @@ class PaymentMandateType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\MandateTypeCode
+     * @return \App\UBL\Common\CBC\MandateTypeCode
      */
     public function getMandateTypeCode()
     {
@@ -231,10 +231,10 @@ class PaymentMandateType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\MandateTypeCode $mandateTypeCode
+     * @param \App\UBL\Common\CBC\MandateTypeCode $mandateTypeCode
      * @return self
      */
-    public function setMandateTypeCode(?\UBL\Common\CBC\MandateTypeCode $mandateTypeCode = null)
+    public function setMandateTypeCode(?\App\UBL\Common\CBC\MandateTypeCode $mandateTypeCode = null)
     {
         $this->mandateTypeCode = $mandateTypeCode;
         return $this;
@@ -252,7 +252,7 @@ class PaymentMandateType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\MaximumPaymentInstructionsNumeric
+     * @return \App\UBL\Common\CBC\MaximumPaymentInstructionsNumeric
      */
     public function getMaximumPaymentInstructionsNumeric()
     {
@@ -271,10 +271,10 @@ class PaymentMandateType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\MaximumPaymentInstructionsNumeric $maximumPaymentInstructionsNumeric
+     * @param \App\UBL\Common\CBC\MaximumPaymentInstructionsNumeric $maximumPaymentInstructionsNumeric
      * @return self
      */
-    public function setMaximumPaymentInstructionsNumeric(?\UBL\Common\CBC\MaximumPaymentInstructionsNumeric $maximumPaymentInstructionsNumeric = null)
+    public function setMaximumPaymentInstructionsNumeric(?\App\UBL\Common\CBC\MaximumPaymentInstructionsNumeric $maximumPaymentInstructionsNumeric = null)
     {
         $this->maximumPaymentInstructionsNumeric = $maximumPaymentInstructionsNumeric;
         return $this;
@@ -293,7 +293,7 @@ class PaymentMandateType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\MaximumPaidAmount
+     * @return \App\UBL\Common\CBC\MaximumPaidAmount
      */
     public function getMaximumPaidAmount()
     {
@@ -313,10 +313,10 @@ class PaymentMandateType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\MaximumPaidAmount $maximumPaidAmount
+     * @param \App\UBL\Common\CBC\MaximumPaidAmount $maximumPaidAmount
      * @return self
      */
-    public function setMaximumPaidAmount(?\UBL\Common\CBC\MaximumPaidAmount $maximumPaidAmount = null)
+    public function setMaximumPaidAmount(?\App\UBL\Common\CBC\MaximumPaidAmount $maximumPaidAmount = null)
     {
         $this->maximumPaidAmount = $maximumPaidAmount;
         return $this;
@@ -334,7 +334,7 @@ class PaymentMandateType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\SignatureID
+     * @return \App\UBL\Common\CBC\SignatureID
      */
     public function getSignatureID()
     {
@@ -353,10 +353,10 @@ class PaymentMandateType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\SignatureID $signatureID
+     * @param \App\UBL\Common\CBC\SignatureID $signatureID
      * @return self
      */
-    public function setSignatureID(?\UBL\Common\CBC\SignatureID $signatureID = null)
+    public function setSignatureID(?\App\UBL\Common\CBC\SignatureID $signatureID = null)
     {
         $this->signatureID = $signatureID;
         return $this;
@@ -375,7 +375,7 @@ class PaymentMandateType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\PayerParty
+     * @return \App\UBL\Common\CAC\PayerParty
      */
     public function getPayerParty()
     {
@@ -395,10 +395,10 @@ class PaymentMandateType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\PayerParty $payerParty
+     * @param \App\UBL\Common\CAC\PayerParty $payerParty
      * @return self
      */
-    public function setPayerParty(?\UBL\Common\CAC\PayerParty $payerParty = null)
+    public function setPayerParty(?\App\UBL\Common\CAC\PayerParty $payerParty = null)
     {
         $this->payerParty = $payerParty;
         return $this;
@@ -417,7 +417,7 @@ class PaymentMandateType
      *  Financial Account
      *  Financial Account
      *
-     * @return \UBL\Common\CAC\PayerFinancialAccount
+     * @return \App\UBL\Common\CAC\PayerFinancialAccount
      */
     public function getPayerFinancialAccount()
     {
@@ -437,10 +437,10 @@ class PaymentMandateType
      *  Financial Account
      *  Financial Account
      *
-     * @param \UBL\Common\CAC\PayerFinancialAccount $payerFinancialAccount
+     * @param \App\UBL\Common\CAC\PayerFinancialAccount $payerFinancialAccount
      * @return self
      */
-    public function setPayerFinancialAccount(?\UBL\Common\CAC\PayerFinancialAccount $payerFinancialAccount = null)
+    public function setPayerFinancialAccount(?\App\UBL\Common\CAC\PayerFinancialAccount $payerFinancialAccount = null)
     {
         $this->payerFinancialAccount = $payerFinancialAccount;
         return $this;
@@ -459,7 +459,7 @@ class PaymentMandateType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ValidityPeriod
+     * @return \App\UBL\Common\CAC\ValidityPeriod
      */
     public function getValidityPeriod()
     {
@@ -479,10 +479,10 @@ class PaymentMandateType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ValidityPeriod $validityPeriod
+     * @param \App\UBL\Common\CAC\ValidityPeriod $validityPeriod
      * @return self
      */
-    public function setValidityPeriod(?\UBL\Common\CAC\ValidityPeriod $validityPeriod = null)
+    public function setValidityPeriod(?\App\UBL\Common\CAC\ValidityPeriod $validityPeriod = null)
     {
         $this->validityPeriod = $validityPeriod;
         return $this;
@@ -501,7 +501,7 @@ class PaymentMandateType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\PaymentReversalPeriod
+     * @return \App\UBL\Common\CAC\PaymentReversalPeriod
      */
     public function getPaymentReversalPeriod()
     {
@@ -521,10 +521,10 @@ class PaymentMandateType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\PaymentReversalPeriod $paymentReversalPeriod
+     * @param \App\UBL\Common\CAC\PaymentReversalPeriod $paymentReversalPeriod
      * @return self
      */
-    public function setPaymentReversalPeriod(?\UBL\Common\CAC\PaymentReversalPeriod $paymentReversalPeriod = null)
+    public function setPaymentReversalPeriod(?\App\UBL\Common\CAC\PaymentReversalPeriod $paymentReversalPeriod = null)
     {
         $this->paymentReversalPeriod = $paymentReversalPeriod;
         return $this;
@@ -543,9 +543,9 @@ class PaymentMandateType
      *  Clause
      *
      * @return self
-     * @param \UBL\Common\CAC\Clause $clause
+     * @param \App\UBL\Common\CAC\Clause $clause
      */
-    public function addToClause(\UBL\Common\CAC\Clause $clause)
+    public function addToClause(\App\UBL\Common\CAC\Clause $clause)
     {
         $this->clause[] = $clause;
         return $this;
@@ -603,7 +603,7 @@ class PaymentMandateType
      *  Clause
      *  Clause
      *
-     * @return \UBL\Common\CAC\Clause[]
+     * @return \App\UBL\Common\CAC\Clause[]
      */
     public function getClause()
     {
@@ -622,7 +622,7 @@ class PaymentMandateType
      *  Clause
      *  Clause
      *
-     * @param \UBL\Common\CAC\Clause[] $clause
+     * @param \App\UBL\Common\CAC\Clause[] $clause
      * @return self
      */
     public function setClause(?array $clause = null)
@@ -631,5 +631,4 @@ class PaymentMandateType
         return $this;
     }
 }
-
 

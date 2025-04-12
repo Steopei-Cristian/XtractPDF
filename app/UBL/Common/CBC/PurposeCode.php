@@ -9,4 +9,3 @@ class PurposeCode extends PurposeCodeType
 {
 }
 
-

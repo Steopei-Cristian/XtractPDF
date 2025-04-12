@@ -1,2 +1,2 @@
-UBL\Common\CBC\ConsumptionWaterQuantityType:
+App\UBL\Common\CBC\ConsumptionWaterQuantityType:
     properties: {  }

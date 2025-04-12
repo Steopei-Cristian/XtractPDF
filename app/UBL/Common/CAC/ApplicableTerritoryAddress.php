@@ -9,4 +9,3 @@ class ApplicableTerritoryAddress extends AddressType
 {
 }
 
-

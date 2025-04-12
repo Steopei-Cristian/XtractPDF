@@ -9,4 +9,3 @@ class SuggestedEvidence extends EvidenceType
 {
 }
 
-

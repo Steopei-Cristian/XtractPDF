@@ -1,3 +1,3 @@
-UBL\Common\CAC\PickupLocation:
+App\UBL\Common\CAC\PickupLocation:
     xml_root_name: PickupLocation
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

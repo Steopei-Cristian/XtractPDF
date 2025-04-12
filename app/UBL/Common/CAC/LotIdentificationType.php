@@ -23,7 +23,7 @@ class LotIdentificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\LotNumberID $lotNumberID
+     * @var \App\UBL\Common\CBC\LotNumberID $lotNumberID
      */
     private $lotNumberID = null;
 
@@ -52,7 +52,7 @@ class LotIdentificationType
      *  Item Property
      *  Item Property
      *
-     * @var \UBL\Common\CAC\AdditionalItemProperty[] $additionalItemProperty
+     * @var \App\UBL\Common\CAC\AdditionalItemProperty[] $additionalItemProperty
      */
     private $additionalItemProperty = [
         
@@ -70,7 +70,7 @@ class LotIdentificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\LotNumberID
+     * @return \App\UBL\Common\CBC\LotNumberID
      */
     public function getLotNumberID()
     {
@@ -89,10 +89,10 @@ class LotIdentificationType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\LotNumberID $lotNumberID
+     * @param \App\UBL\Common\CBC\LotNumberID $lotNumberID
      * @return self
      */
-    public function setLotNumberID(?\UBL\Common\CBC\LotNumberID $lotNumberID = null)
+    public function setLotNumberID(?\App\UBL\Common\CBC\LotNumberID $lotNumberID = null)
     {
         $this->lotNumberID = $lotNumberID;
         return $this;
@@ -152,9 +152,9 @@ class LotIdentificationType
      *  Item Property
      *
      * @return self
-     * @param \UBL\Common\CAC\AdditionalItemProperty $additionalItemProperty
+     * @param \App\UBL\Common\CAC\AdditionalItemProperty $additionalItemProperty
      */
-    public function addToAdditionalItemProperty(\UBL\Common\CAC\AdditionalItemProperty $additionalItemProperty)
+    public function addToAdditionalItemProperty(\App\UBL\Common\CAC\AdditionalItemProperty $additionalItemProperty)
     {
         $this->additionalItemProperty[] = $additionalItemProperty;
         return $this;
@@ -215,7 +215,7 @@ class LotIdentificationType
      *  Item Property
      *  Item Property
      *
-     * @return \UBL\Common\CAC\AdditionalItemProperty[]
+     * @return \App\UBL\Common\CAC\AdditionalItemProperty[]
      */
     public function getAdditionalItemProperty()
     {
@@ -235,7 +235,7 @@ class LotIdentificationType
      *  Item Property
      *  Item Property
      *
-     * @param \UBL\Common\CAC\AdditionalItemProperty[] $additionalItemProperty
+     * @param \App\UBL\Common\CAC\AdditionalItemProperty[] $additionalItemProperty
      * @return self
      */
     public function setAdditionalItemProperty(?array $additionalItemProperty = null)
@@ -244,5 +244,4 @@ class LotIdentificationType
         return $this;
     }
 }
-
 

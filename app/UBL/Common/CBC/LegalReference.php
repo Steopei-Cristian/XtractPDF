@@ -9,4 +9,3 @@ class LegalReference extends LegalReferenceType
 {
 }
 
-

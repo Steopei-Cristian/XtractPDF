@@ -9,4 +9,3 @@ class TimingComplaint extends TimingComplaintType
 {
 }
 
-

@@ -9,4 +9,3 @@ class WeightingAlgorithmCode extends WeightingAlgorithmCodeType
 {
 }
 
-

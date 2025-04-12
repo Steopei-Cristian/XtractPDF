@@ -9,4 +9,3 @@ class HashAlgorithmMethod extends HashAlgorithmMethodType
 {
 }
 
-

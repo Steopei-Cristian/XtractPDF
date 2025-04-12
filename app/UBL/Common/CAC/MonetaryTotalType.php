@@ -23,7 +23,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @var \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      */
     private $lineExtensionAmount = null;
 
@@ -37,7 +37,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\TaxExclusiveAmount $taxExclusiveAmount
+     * @var \App\UBL\Common\CBC\TaxExclusiveAmount $taxExclusiveAmount
      */
     private $taxExclusiveAmount = null;
 
@@ -51,7 +51,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\TaxInclusiveAmount $taxInclusiveAmount
+     * @var \App\UBL\Common\CBC\TaxInclusiveAmount $taxInclusiveAmount
      */
     private $taxInclusiveAmount = null;
 
@@ -66,7 +66,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\AllowanceTotalAmount $allowanceTotalAmount
+     * @var \App\UBL\Common\CBC\AllowanceTotalAmount $allowanceTotalAmount
      */
     private $allowanceTotalAmount = null;
 
@@ -81,7 +81,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\ChargeTotalAmount $chargeTotalAmount
+     * @var \App\UBL\Common\CBC\ChargeTotalAmount $chargeTotalAmount
      */
     private $chargeTotalAmount = null;
 
@@ -95,7 +95,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\PrepaidAmount $prepaidAmount
+     * @var \App\UBL\Common\CBC\PrepaidAmount $prepaidAmount
      */
     private $prepaidAmount = null;
 
@@ -110,7 +110,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\PayableRoundingAmount $payableRoundingAmount
+     * @var \App\UBL\Common\CBC\PayableRoundingAmount $payableRoundingAmount
      */
     private $payableRoundingAmount = null;
 
@@ -125,7 +125,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\PayableAmount $payableAmount
+     * @var \App\UBL\Common\CBC\PayableAmount $payableAmount
      */
     private $payableAmount = null;
 
@@ -140,7 +140,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\PayableAlternativeAmount $payableAlternativeAmount
+     * @var \App\UBL\Common\CBC\PayableAlternativeAmount $payableAlternativeAmount
      */
     private $payableAlternativeAmount = null;
 
@@ -156,7 +156,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\LineExtensionAmount
+     * @return \App\UBL\Common\CBC\LineExtensionAmount
      */
     public function getLineExtensionAmount()
     {
@@ -175,10 +175,10 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @param \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      * @return self
      */
-    public function setLineExtensionAmount(?\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount = null)
+    public function setLineExtensionAmount(?\App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount = null)
     {
         $this->lineExtensionAmount = $lineExtensionAmount;
         return $this;
@@ -196,7 +196,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\TaxExclusiveAmount
+     * @return \App\UBL\Common\CBC\TaxExclusiveAmount
      */
     public function getTaxExclusiveAmount()
     {
@@ -215,10 +215,10 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\TaxExclusiveAmount $taxExclusiveAmount
+     * @param \App\UBL\Common\CBC\TaxExclusiveAmount $taxExclusiveAmount
      * @return self
      */
-    public function setTaxExclusiveAmount(?\UBL\Common\CBC\TaxExclusiveAmount $taxExclusiveAmount = null)
+    public function setTaxExclusiveAmount(?\App\UBL\Common\CBC\TaxExclusiveAmount $taxExclusiveAmount = null)
     {
         $this->taxExclusiveAmount = $taxExclusiveAmount;
         return $this;
@@ -236,7 +236,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\TaxInclusiveAmount
+     * @return \App\UBL\Common\CBC\TaxInclusiveAmount
      */
     public function getTaxInclusiveAmount()
     {
@@ -255,10 +255,10 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\TaxInclusiveAmount $taxInclusiveAmount
+     * @param \App\UBL\Common\CBC\TaxInclusiveAmount $taxInclusiveAmount
      * @return self
      */
-    public function setTaxInclusiveAmount(?\UBL\Common\CBC\TaxInclusiveAmount $taxInclusiveAmount = null)
+    public function setTaxInclusiveAmount(?\App\UBL\Common\CBC\TaxInclusiveAmount $taxInclusiveAmount = null)
     {
         $this->taxInclusiveAmount = $taxInclusiveAmount;
         return $this;
@@ -277,7 +277,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\AllowanceTotalAmount
+     * @return \App\UBL\Common\CBC\AllowanceTotalAmount
      */
     public function getAllowanceTotalAmount()
     {
@@ -297,10 +297,10 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\AllowanceTotalAmount $allowanceTotalAmount
+     * @param \App\UBL\Common\CBC\AllowanceTotalAmount $allowanceTotalAmount
      * @return self
      */
-    public function setAllowanceTotalAmount(?\UBL\Common\CBC\AllowanceTotalAmount $allowanceTotalAmount = null)
+    public function setAllowanceTotalAmount(?\App\UBL\Common\CBC\AllowanceTotalAmount $allowanceTotalAmount = null)
     {
         $this->allowanceTotalAmount = $allowanceTotalAmount;
         return $this;
@@ -319,7 +319,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\ChargeTotalAmount
+     * @return \App\UBL\Common\CBC\ChargeTotalAmount
      */
     public function getChargeTotalAmount()
     {
@@ -339,10 +339,10 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\ChargeTotalAmount $chargeTotalAmount
+     * @param \App\UBL\Common\CBC\ChargeTotalAmount $chargeTotalAmount
      * @return self
      */
-    public function setChargeTotalAmount(?\UBL\Common\CBC\ChargeTotalAmount $chargeTotalAmount = null)
+    public function setChargeTotalAmount(?\App\UBL\Common\CBC\ChargeTotalAmount $chargeTotalAmount = null)
     {
         $this->chargeTotalAmount = $chargeTotalAmount;
         return $this;
@@ -360,7 +360,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\PrepaidAmount
+     * @return \App\UBL\Common\CBC\PrepaidAmount
      */
     public function getPrepaidAmount()
     {
@@ -379,10 +379,10 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\PrepaidAmount $prepaidAmount
+     * @param \App\UBL\Common\CBC\PrepaidAmount $prepaidAmount
      * @return self
      */
-    public function setPrepaidAmount(?\UBL\Common\CBC\PrepaidAmount $prepaidAmount = null)
+    public function setPrepaidAmount(?\App\UBL\Common\CBC\PrepaidAmount $prepaidAmount = null)
     {
         $this->prepaidAmount = $prepaidAmount;
         return $this;
@@ -401,7 +401,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\PayableRoundingAmount
+     * @return \App\UBL\Common\CBC\PayableRoundingAmount
      */
     public function getPayableRoundingAmount()
     {
@@ -421,10 +421,10 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\PayableRoundingAmount $payableRoundingAmount
+     * @param \App\UBL\Common\CBC\PayableRoundingAmount $payableRoundingAmount
      * @return self
      */
-    public function setPayableRoundingAmount(?\UBL\Common\CBC\PayableRoundingAmount $payableRoundingAmount = null)
+    public function setPayableRoundingAmount(?\App\UBL\Common\CBC\PayableRoundingAmount $payableRoundingAmount = null)
     {
         $this->payableRoundingAmount = $payableRoundingAmount;
         return $this;
@@ -443,7 +443,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\PayableAmount
+     * @return \App\UBL\Common\CBC\PayableAmount
      */
     public function getPayableAmount()
     {
@@ -463,10 +463,10 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\PayableAmount $payableAmount
+     * @param \App\UBL\Common\CBC\PayableAmount $payableAmount
      * @return self
      */
-    public function setPayableAmount(\UBL\Common\CBC\PayableAmount $payableAmount)
+    public function setPayableAmount(\App\UBL\Common\CBC\PayableAmount $payableAmount)
     {
         $this->payableAmount = $payableAmount;
         return $this;
@@ -485,7 +485,7 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\PayableAlternativeAmount
+     * @return \App\UBL\Common\CBC\PayableAlternativeAmount
      */
     public function getPayableAlternativeAmount()
     {
@@ -505,14 +505,13 @@ class MonetaryTotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\PayableAlternativeAmount $payableAlternativeAmount
+     * @param \App\UBL\Common\CBC\PayableAlternativeAmount $payableAlternativeAmount
      * @return self
      */
-    public function setPayableAlternativeAmount(?\UBL\Common\CBC\PayableAlternativeAmount $payableAlternativeAmount = null)
+    public function setPayableAlternativeAmount(?\App\UBL\Common\CBC\PayableAlternativeAmount $payableAlternativeAmount = null)
     {
         $this->payableAlternativeAmount = $payableAlternativeAmount;
         return $this;
     }
 }
-
 

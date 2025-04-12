@@ -9,4 +9,3 @@ class PerformingCarrierParty extends PartyType
 {
 }
 
-

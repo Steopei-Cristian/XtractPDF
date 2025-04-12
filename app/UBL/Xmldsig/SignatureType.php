@@ -16,22 +16,22 @@ class SignatureType
     private $id = null;
 
     /**
-     * @var \UBL\Xmldsig\SignedInfo $signedInfo
+     * @var \App\UBL\Xmldsig\SignedInfo $signedInfo
      */
     private $signedInfo = null;
 
     /**
-     * @var \UBL\Xmldsig\SignatureValue $signatureValue
+     * @var \App\UBL\Xmldsig\SignatureValue $signatureValue
      */
     private $signatureValue = null;
 
     /**
-     * @var \UBL\Xmldsig\KeyInfo $keyInfo
+     * @var \App\UBL\Xmldsig\KeyInfo $keyInfo
      */
     private $keyInfo = null;
 
     /**
-     * @var \UBL\Xmldsig\ObjectXsd[] $object
+     * @var \App\UBL\Xmldsig\ObjectXsd[] $object
      */
     private $object = [
         
@@ -62,7 +62,7 @@ class SignatureType
     /**
      * Gets as signedInfo
      *
-     * @return \UBL\Xmldsig\SignedInfo
+     * @return \App\UBL\Xmldsig\SignedInfo
      */
     public function getSignedInfo()
     {
@@ -72,10 +72,10 @@ class SignatureType
     /**
      * Sets a new signedInfo
      *
-     * @param \UBL\Xmldsig\SignedInfo $signedInfo
+     * @param \App\UBL\Xmldsig\SignedInfo $signedInfo
      * @return self
      */
-    public function setSignedInfo(\UBL\Xmldsig\SignedInfo $signedInfo)
+    public function setSignedInfo(\App\UBL\Xmldsig\SignedInfo $signedInfo)
     {
         $this->signedInfo = $signedInfo;
         return $this;
@@ -84,7 +84,7 @@ class SignatureType
     /**
      * Gets as signatureValue
      *
-     * @return \UBL\Xmldsig\SignatureValue
+     * @return \App\UBL\Xmldsig\SignatureValue
      */
     public function getSignatureValue()
     {
@@ -94,10 +94,10 @@ class SignatureType
     /**
      * Sets a new signatureValue
      *
-     * @param \UBL\Xmldsig\SignatureValue $signatureValue
+     * @param \App\UBL\Xmldsig\SignatureValue $signatureValue
      * @return self
      */
-    public function setSignatureValue(\UBL\Xmldsig\SignatureValue $signatureValue)
+    public function setSignatureValue(\App\UBL\Xmldsig\SignatureValue $signatureValue)
     {
         $this->signatureValue = $signatureValue;
         return $this;
@@ -106,7 +106,7 @@ class SignatureType
     /**
      * Gets as keyInfo
      *
-     * @return \UBL\Xmldsig\KeyInfo
+     * @return \App\UBL\Xmldsig\KeyInfo
      */
     public function getKeyInfo()
     {
@@ -116,10 +116,10 @@ class SignatureType
     /**
      * Sets a new keyInfo
      *
-     * @param \UBL\Xmldsig\KeyInfo $keyInfo
+     * @param \App\UBL\Xmldsig\KeyInfo $keyInfo
      * @return self
      */
-    public function setKeyInfo(?\UBL\Xmldsig\KeyInfo $keyInfo = null)
+    public function setKeyInfo(?\App\UBL\Xmldsig\KeyInfo $keyInfo = null)
     {
         $this->keyInfo = $keyInfo;
         return $this;
@@ -129,9 +129,9 @@ class SignatureType
      * Adds as object
      *
      * @return self
-     * @param \UBL\Xmldsig\ObjectXsd $object
+     * @param \App\UBL\Xmldsig\ObjectXsd $object
      */
-    public function addToObject(\UBL\Xmldsig\ObjectXsd $object)
+    public function addToObject(\App\UBL\Xmldsig\ObjectXsd $object)
     {
         $this->object[] = $object;
         return $this;
@@ -162,7 +162,7 @@ class SignatureType
     /**
      * Gets as object
      *
-     * @return \UBL\Xmldsig\ObjectXsd[]
+     * @return \App\UBL\Xmldsig\ObjectXsd[]
      */
     public function getObject()
     {
@@ -172,7 +172,7 @@ class SignatureType
     /**
      * Sets a new object
      *
-     * @param \UBL\Xmldsig\ObjectXsd[] $object
+     * @param \App\UBL\Xmldsig\ObjectXsd[] $object
      * @return self
      */
     public function setObject(?array $object = null)
@@ -181,5 +181,4 @@ class SignatureType
         return $this;
     }
 }
-
 

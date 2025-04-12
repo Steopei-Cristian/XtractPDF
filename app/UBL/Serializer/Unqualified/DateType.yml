@@ -1,4 +1,4 @@
-UBL\Unqualified\DateType:
+App\UBL\Unqualified\DateType:
     properties:
         __value:
             expose: true

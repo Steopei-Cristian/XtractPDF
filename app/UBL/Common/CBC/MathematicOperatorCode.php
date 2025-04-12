@@ -9,4 +9,3 @@ class MathematicOperatorCode extends MathematicOperatorCodeType
 {
 }
 
-

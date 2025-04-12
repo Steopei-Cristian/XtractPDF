@@ -1,4 +1,4 @@
-UBL\Common\CAC\PaymentTermsType:
+App\UBL\Common\CAC\PaymentTermsType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         paymentMeansID:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\PaymentTermsType:
                 inline: true
                 entry_name: PaymentMeansID
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\PaymentMeansID>
+            type: array<App\UBL\Common\CBC\PaymentMeansID>
         prepaidPaymentReferenceID:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getPrepaidPaymentReferenceID
                 setter: setPrepaidPaymentReferenceID
-            type: UBL\Common\CBC\PrepaidPaymentReferenceID
+            type: App\UBL\Common\CBC\PrepaidPaymentReferenceID
         note:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ UBL\Common\CAC\PaymentTermsType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         referenceEventCode:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getReferenceEventCode
                 setter: setReferenceEventCode
-            type: UBL\Common\CBC\ReferenceEventCode
+            type: App\UBL\Common\CBC\ReferenceEventCode
         settlementDiscountPercent:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getSettlementDiscountPercent
                 setter: setSettlementDiscountPercent
-            type: UBL\Common\CBC\SettlementDiscountPercent
+            type: App\UBL\Common\CBC\SettlementDiscountPercent
         penaltySurchargePercent:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getPenaltySurchargePercent
                 setter: setPenaltySurchargePercent
-            type: UBL\Common\CBC\PenaltySurchargePercent
+            type: App\UBL\Common\CBC\PenaltySurchargePercent
         paymentPercent:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getPaymentPercent
                 setter: setPaymentPercent
-            type: UBL\Common\CBC\PaymentPercent
+            type: App\UBL\Common\CBC\PaymentPercent
         amount:
             expose: true
             access_type: public_method
@@ -97,7 +97,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getAmount
                 setter: setAmount
-            type: UBL\Common\CBC\Amount
+            type: App\UBL\Common\CBC\Amount
         settlementDiscountAmount:
             expose: true
             access_type: public_method
@@ -107,7 +107,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getSettlementDiscountAmount
                 setter: setSettlementDiscountAmount
-            type: UBL\Common\CBC\SettlementDiscountAmount
+            type: App\UBL\Common\CBC\SettlementDiscountAmount
         penaltyAmount:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getPenaltyAmount
                 setter: setPenaltyAmount
-            type: UBL\Common\CBC\PenaltyAmount
+            type: App\UBL\Common\CBC\PenaltyAmount
         paymentTermsDetailsURI:
             expose: true
             access_type: public_method
@@ -127,7 +127,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getPaymentTermsDetailsURI
                 setter: setPaymentTermsDetailsURI
-            type: UBL\Common\CBC\PaymentTermsDetailsURI
+            type: App\UBL\Common\CBC\PaymentTermsDetailsURI
         paymentDueDate:
             expose: true
             access_type: public_method
@@ -157,7 +157,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getInvoicingPartyReference
                 setter: setInvoicingPartyReference
-            type: UBL\Common\CBC\InvoicingPartyReference
+            type: App\UBL\Common\CBC\InvoicingPartyReference
         settlementPeriod:
             expose: true
             access_type: public_method
@@ -167,7 +167,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getSettlementPeriod
                 setter: setSettlementPeriod
-            type: UBL\Common\CAC\SettlementPeriod
+            type: App\UBL\Common\CAC\SettlementPeriod
         penaltyPeriod:
             expose: true
             access_type: public_method
@@ -177,7 +177,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getPenaltyPeriod
                 setter: setPenaltyPeriod
-            type: UBL\Common\CAC\PenaltyPeriod
+            type: App\UBL\Common\CAC\PenaltyPeriod
         exchangeRate:
             expose: true
             access_type: public_method
@@ -187,7 +187,7 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getExchangeRate
                 setter: setExchangeRate
-            type: UBL\Common\CAC\ExchangeRate
+            type: App\UBL\Common\CAC\ExchangeRate
         validityPeriod:
             expose: true
             access_type: public_method
@@ -197,4 +197,4 @@ UBL\Common\CAC\PaymentTermsType:
             accessor:
                 getter: getValidityPeriod
                 setter: setValidityPeriod
-            type: UBL\Common\CAC\ValidityPeriod
+            type: App\UBL\Common\CAC\ValidityPeriod

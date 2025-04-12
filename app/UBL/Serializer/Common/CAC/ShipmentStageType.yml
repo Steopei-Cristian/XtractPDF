@@ -1,4 +1,4 @@
-UBL\Common\CAC\ShipmentStageType:
+App\UBL\Common\CAC\ShipmentStageType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         transportModeCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getTransportModeCode
                 setter: setTransportModeCode
-            type: UBL\Common\CBC\TransportModeCode
+            type: App\UBL\Common\CBC\TransportModeCode
         transportMeansTypeCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getTransportMeansTypeCode
                 setter: setTransportMeansTypeCode
-            type: UBL\Common\CBC\TransportMeansTypeCode
+            type: App\UBL\Common\CBC\TransportMeansTypeCode
         transitDirectionCode:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getTransitDirectionCode
                 setter: setTransitDirectionCode
-            type: UBL\Common\CBC\TransitDirectionCode
+            type: App\UBL\Common\CBC\TransitDirectionCode
         preCarriageIndicator:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getLoadingSequenceID
                 setter: setLoadingSequenceID
-            type: UBL\Common\CBC\LoadingSequenceID
+            type: App\UBL\Common\CBC\LoadingSequenceID
         successiveSequenceID:
             expose: true
             access_type: public_method
@@ -119,7 +119,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getSuccessiveSequenceID
                 setter: setSuccessiveSequenceID
-            type: UBL\Common\CBC\SuccessiveSequenceID
+            type: App\UBL\Common\CBC\SuccessiveSequenceID
         instructions:
             expose: true
             access_type: public_method
@@ -133,7 +133,7 @@ UBL\Common\CAC\ShipmentStageType:
                 inline: true
                 entry_name: Instructions
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Instructions>
+            type: array<App\UBL\Common\CBC\Instructions>
         demurrageInstructions:
             expose: true
             access_type: public_method
@@ -147,7 +147,7 @@ UBL\Common\CAC\ShipmentStageType:
                 inline: true
                 entry_name: DemurrageInstructions
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\DemurrageInstructions>
+            type: array<App\UBL\Common\CBC\DemurrageInstructions>
         crewQuantity:
             expose: true
             access_type: public_method
@@ -157,7 +157,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getCrewQuantity
                 setter: setCrewQuantity
-            type: UBL\Common\CBC\CrewQuantity
+            type: App\UBL\Common\CBC\CrewQuantity
         passengerQuantity:
             expose: true
             access_type: public_method
@@ -167,7 +167,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getPassengerQuantity
                 setter: setPassengerQuantity
-            type: UBL\Common\CBC\PassengerQuantity
+            type: App\UBL\Common\CBC\PassengerQuantity
         transitPeriod:
             expose: true
             access_type: public_method
@@ -177,7 +177,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getTransitPeriod
                 setter: setTransitPeriod
-            type: UBL\Common\CAC\TransitPeriod
+            type: App\UBL\Common\CAC\TransitPeriod
         carrierParty:
             expose: true
             access_type: public_method
@@ -191,7 +191,7 @@ UBL\Common\CAC\ShipmentStageType:
                 inline: true
                 entry_name: CarrierParty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\CarrierParty>
+            type: array<App\UBL\Common\CAC\CarrierParty>
         transportMeans:
             expose: true
             access_type: public_method
@@ -201,7 +201,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getTransportMeans
                 setter: setTransportMeans
-            type: UBL\Common\CAC\TransportMeans
+            type: App\UBL\Common\CAC\TransportMeans
         loadingPortLocation:
             expose: true
             access_type: public_method
@@ -211,7 +211,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getLoadingPortLocation
                 setter: setLoadingPortLocation
-            type: UBL\Common\CAC\LoadingPortLocation
+            type: App\UBL\Common\CAC\LoadingPortLocation
         unloadingPortLocation:
             expose: true
             access_type: public_method
@@ -221,7 +221,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getUnloadingPortLocation
                 setter: setUnloadingPortLocation
-            type: UBL\Common\CAC\UnloadingPortLocation
+            type: App\UBL\Common\CAC\UnloadingPortLocation
         transshipPortLocation:
             expose: true
             access_type: public_method
@@ -231,7 +231,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getTransshipPortLocation
                 setter: setTransshipPortLocation
-            type: UBL\Common\CAC\TransshipPortLocation
+            type: App\UBL\Common\CAC\TransshipPortLocation
         loadingTransportEvent:
             expose: true
             access_type: public_method
@@ -241,7 +241,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getLoadingTransportEvent
                 setter: setLoadingTransportEvent
-            type: UBL\Common\CAC\LoadingTransportEvent
+            type: App\UBL\Common\CAC\LoadingTransportEvent
         examinationTransportEvent:
             expose: true
             access_type: public_method
@@ -251,7 +251,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getExaminationTransportEvent
                 setter: setExaminationTransportEvent
-            type: UBL\Common\CAC\ExaminationTransportEvent
+            type: App\UBL\Common\CAC\ExaminationTransportEvent
         availabilityTransportEvent:
             expose: true
             access_type: public_method
@@ -261,7 +261,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getAvailabilityTransportEvent
                 setter: setAvailabilityTransportEvent
-            type: UBL\Common\CAC\AvailabilityTransportEvent
+            type: App\UBL\Common\CAC\AvailabilityTransportEvent
         exportationTransportEvent:
             expose: true
             access_type: public_method
@@ -271,7 +271,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getExportationTransportEvent
                 setter: setExportationTransportEvent
-            type: UBL\Common\CAC\ExportationTransportEvent
+            type: App\UBL\Common\CAC\ExportationTransportEvent
         dischargeTransportEvent:
             expose: true
             access_type: public_method
@@ -281,7 +281,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getDischargeTransportEvent
                 setter: setDischargeTransportEvent
-            type: UBL\Common\CAC\DischargeTransportEvent
+            type: App\UBL\Common\CAC\DischargeTransportEvent
         warehousingTransportEvent:
             expose: true
             access_type: public_method
@@ -291,7 +291,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getWarehousingTransportEvent
                 setter: setWarehousingTransportEvent
-            type: UBL\Common\CAC\WarehousingTransportEvent
+            type: App\UBL\Common\CAC\WarehousingTransportEvent
         takeoverTransportEvent:
             expose: true
             access_type: public_method
@@ -301,7 +301,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getTakeoverTransportEvent
                 setter: setTakeoverTransportEvent
-            type: UBL\Common\CAC\TakeoverTransportEvent
+            type: App\UBL\Common\CAC\TakeoverTransportEvent
         optionalTakeoverTransportEvent:
             expose: true
             access_type: public_method
@@ -311,7 +311,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getOptionalTakeoverTransportEvent
                 setter: setOptionalTakeoverTransportEvent
-            type: UBL\Common\CAC\OptionalTakeoverTransportEvent
+            type: App\UBL\Common\CAC\OptionalTakeoverTransportEvent
         dropoffTransportEvent:
             expose: true
             access_type: public_method
@@ -321,7 +321,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getDropoffTransportEvent
                 setter: setDropoffTransportEvent
-            type: UBL\Common\CAC\DropoffTransportEvent
+            type: App\UBL\Common\CAC\DropoffTransportEvent
         actualPickupTransportEvent:
             expose: true
             access_type: public_method
@@ -331,7 +331,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getActualPickupTransportEvent
                 setter: setActualPickupTransportEvent
-            type: UBL\Common\CAC\ActualPickupTransportEvent
+            type: App\UBL\Common\CAC\ActualPickupTransportEvent
         deliveryTransportEvent:
             expose: true
             access_type: public_method
@@ -341,7 +341,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getDeliveryTransportEvent
                 setter: setDeliveryTransportEvent
-            type: UBL\Common\CAC\DeliveryTransportEvent
+            type: App\UBL\Common\CAC\DeliveryTransportEvent
         receiptTransportEvent:
             expose: true
             access_type: public_method
@@ -351,7 +351,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getReceiptTransportEvent
                 setter: setReceiptTransportEvent
-            type: UBL\Common\CAC\ReceiptTransportEvent
+            type: App\UBL\Common\CAC\ReceiptTransportEvent
         storageTransportEvent:
             expose: true
             access_type: public_method
@@ -361,7 +361,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getStorageTransportEvent
                 setter: setStorageTransportEvent
-            type: UBL\Common\CAC\StorageTransportEvent
+            type: App\UBL\Common\CAC\StorageTransportEvent
         acceptanceTransportEvent:
             expose: true
             access_type: public_method
@@ -371,7 +371,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getAcceptanceTransportEvent
                 setter: setAcceptanceTransportEvent
-            type: UBL\Common\CAC\AcceptanceTransportEvent
+            type: App\UBL\Common\CAC\AcceptanceTransportEvent
         terminalOperatorParty:
             expose: true
             access_type: public_method
@@ -381,7 +381,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getTerminalOperatorParty
                 setter: setTerminalOperatorParty
-            type: UBL\Common\CAC\TerminalOperatorParty
+            type: App\UBL\Common\CAC\TerminalOperatorParty
         customsAgentParty:
             expose: true
             access_type: public_method
@@ -391,7 +391,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getCustomsAgentParty
                 setter: setCustomsAgentParty
-            type: UBL\Common\CAC\CustomsAgentParty
+            type: App\UBL\Common\CAC\CustomsAgentParty
         estimatedTransitPeriod:
             expose: true
             access_type: public_method
@@ -401,7 +401,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getEstimatedTransitPeriod
                 setter: setEstimatedTransitPeriod
-            type: UBL\Common\CAC\EstimatedTransitPeriod
+            type: App\UBL\Common\CAC\EstimatedTransitPeriod
         freightAllowanceCharge:
             expose: true
             access_type: public_method
@@ -415,7 +415,7 @@ UBL\Common\CAC\ShipmentStageType:
                 inline: true
                 entry_name: FreightAllowanceCharge
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\FreightAllowanceCharge>
+            type: array<App\UBL\Common\CAC\FreightAllowanceCharge>
         freightChargeLocation:
             expose: true
             access_type: public_method
@@ -425,7 +425,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getFreightChargeLocation
                 setter: setFreightChargeLocation
-            type: UBL\Common\CAC\FreightChargeLocation
+            type: App\UBL\Common\CAC\FreightChargeLocation
         detentionTransportEvent:
             expose: true
             access_type: public_method
@@ -439,7 +439,7 @@ UBL\Common\CAC\ShipmentStageType:
                 inline: true
                 entry_name: DetentionTransportEvent
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DetentionTransportEvent>
+            type: array<App\UBL\Common\CAC\DetentionTransportEvent>
         requestedDepartureTransportEvent:
             expose: true
             access_type: public_method
@@ -449,7 +449,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getRequestedDepartureTransportEvent
                 setter: setRequestedDepartureTransportEvent
-            type: UBL\Common\CAC\RequestedDepartureTransportEvent
+            type: App\UBL\Common\CAC\RequestedDepartureTransportEvent
         requestedArrivalTransportEvent:
             expose: true
             access_type: public_method
@@ -459,7 +459,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getRequestedArrivalTransportEvent
                 setter: setRequestedArrivalTransportEvent
-            type: UBL\Common\CAC\RequestedArrivalTransportEvent
+            type: App\UBL\Common\CAC\RequestedArrivalTransportEvent
         requestedWaypointTransportEvent:
             expose: true
             access_type: public_method
@@ -473,7 +473,7 @@ UBL\Common\CAC\ShipmentStageType:
                 inline: true
                 entry_name: RequestedWaypointTransportEvent
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\RequestedWaypointTransportEvent>
+            type: array<App\UBL\Common\CAC\RequestedWaypointTransportEvent>
         plannedDepartureTransportEvent:
             expose: true
             access_type: public_method
@@ -483,7 +483,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getPlannedDepartureTransportEvent
                 setter: setPlannedDepartureTransportEvent
-            type: UBL\Common\CAC\PlannedDepartureTransportEvent
+            type: App\UBL\Common\CAC\PlannedDepartureTransportEvent
         plannedArrivalTransportEvent:
             expose: true
             access_type: public_method
@@ -493,7 +493,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getPlannedArrivalTransportEvent
                 setter: setPlannedArrivalTransportEvent
-            type: UBL\Common\CAC\PlannedArrivalTransportEvent
+            type: App\UBL\Common\CAC\PlannedArrivalTransportEvent
         plannedWaypointTransportEvent:
             expose: true
             access_type: public_method
@@ -507,7 +507,7 @@ UBL\Common\CAC\ShipmentStageType:
                 inline: true
                 entry_name: PlannedWaypointTransportEvent
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PlannedWaypointTransportEvent>
+            type: array<App\UBL\Common\CAC\PlannedWaypointTransportEvent>
         actualDepartureTransportEvent:
             expose: true
             access_type: public_method
@@ -517,7 +517,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getActualDepartureTransportEvent
                 setter: setActualDepartureTransportEvent
-            type: UBL\Common\CAC\ActualDepartureTransportEvent
+            type: App\UBL\Common\CAC\ActualDepartureTransportEvent
         actualWaypointTransportEvent:
             expose: true
             access_type: public_method
@@ -527,7 +527,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getActualWaypointTransportEvent
                 setter: setActualWaypointTransportEvent
-            type: UBL\Common\CAC\ActualWaypointTransportEvent
+            type: App\UBL\Common\CAC\ActualWaypointTransportEvent
         actualArrivalTransportEvent:
             expose: true
             access_type: public_method
@@ -537,7 +537,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getActualArrivalTransportEvent
                 setter: setActualArrivalTransportEvent
-            type: UBL\Common\CAC\ActualArrivalTransportEvent
+            type: App\UBL\Common\CAC\ActualArrivalTransportEvent
         transportEvent:
             expose: true
             access_type: public_method
@@ -551,7 +551,7 @@ UBL\Common\CAC\ShipmentStageType:
                 inline: true
                 entry_name: TransportEvent
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TransportEvent>
+            type: array<App\UBL\Common\CAC\TransportEvent>
         estimatedDepartureTransportEvent:
             expose: true
             access_type: public_method
@@ -561,7 +561,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getEstimatedDepartureTransportEvent
                 setter: setEstimatedDepartureTransportEvent
-            type: UBL\Common\CAC\EstimatedDepartureTransportEvent
+            type: App\UBL\Common\CAC\EstimatedDepartureTransportEvent
         estimatedArrivalTransportEvent:
             expose: true
             access_type: public_method
@@ -571,7 +571,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getEstimatedArrivalTransportEvent
                 setter: setEstimatedArrivalTransportEvent
-            type: UBL\Common\CAC\EstimatedArrivalTransportEvent
+            type: App\UBL\Common\CAC\EstimatedArrivalTransportEvent
         passengerPerson:
             expose: true
             access_type: public_method
@@ -585,7 +585,7 @@ UBL\Common\CAC\ShipmentStageType:
                 inline: true
                 entry_name: PassengerPerson
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PassengerPerson>
+            type: array<App\UBL\Common\CAC\PassengerPerson>
         driverPerson:
             expose: true
             access_type: public_method
@@ -599,7 +599,7 @@ UBL\Common\CAC\ShipmentStageType:
                 inline: true
                 entry_name: DriverPerson
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\DriverPerson>
+            type: array<App\UBL\Common\CAC\DriverPerson>
         reportingPerson:
             expose: true
             access_type: public_method
@@ -609,7 +609,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getReportingPerson
                 setter: setReportingPerson
-            type: UBL\Common\CAC\ReportingPerson
+            type: App\UBL\Common\CAC\ReportingPerson
         crewMemberPerson:
             expose: true
             access_type: public_method
@@ -623,7 +623,7 @@ UBL\Common\CAC\ShipmentStageType:
                 inline: true
                 entry_name: CrewMemberPerson
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\CrewMemberPerson>
+            type: array<App\UBL\Common\CAC\CrewMemberPerson>
         securityOfficerPerson:
             expose: true
             access_type: public_method
@@ -633,7 +633,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getSecurityOfficerPerson
                 setter: setSecurityOfficerPerson
-            type: UBL\Common\CAC\SecurityOfficerPerson
+            type: App\UBL\Common\CAC\SecurityOfficerPerson
         masterPerson:
             expose: true
             access_type: public_method
@@ -643,7 +643,7 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getMasterPerson
                 setter: setMasterPerson
-            type: UBL\Common\CAC\MasterPerson
+            type: App\UBL\Common\CAC\MasterPerson
         shipsSurgeonPerson:
             expose: true
             access_type: public_method
@@ -653,4 +653,4 @@ UBL\Common\CAC\ShipmentStageType:
             accessor:
                 getter: getShipsSurgeonPerson
                 setter: setShipsSurgeonPerson
-            type: UBL\Common\CAC\ShipsSurgeonPerson
+            type: App\UBL\Common\CAC\ShipsSurgeonPerson

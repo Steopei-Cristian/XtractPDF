@@ -9,4 +9,3 @@ class MinimumBackorderQuantity extends MinimumBackorderQuantityType
 {
 }
 
-

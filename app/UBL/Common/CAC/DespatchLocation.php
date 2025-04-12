@@ -9,4 +9,3 @@ class DespatchLocation extends LocationType
 {
 }
 
-

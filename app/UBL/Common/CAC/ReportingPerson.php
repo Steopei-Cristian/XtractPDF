@@ -9,4 +9,3 @@ class ReportingPerson extends PersonType
 {
 }
 
-

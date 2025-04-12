@@ -9,4 +9,3 @@ class RegulatoryDomain extends RegulatoryDomainType
 {
 }
 
-

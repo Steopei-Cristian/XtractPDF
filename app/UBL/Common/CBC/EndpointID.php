@@ -9,4 +9,3 @@ class EndpointID extends EndpointIDType
 {
 }
 
-

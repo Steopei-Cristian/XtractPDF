@@ -1,4 +1,4 @@
-UBL\Common\CAC\PartyTaxSchemeType:
+App\UBL\Common\CAC\PartyTaxSchemeType:
     properties:
         registrationName:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PartyTaxSchemeType:
             accessor:
                 getter: getRegistrationName
                 setter: setRegistrationName
-            type: UBL\Common\CBC\RegistrationName
+            type: App\UBL\Common\CBC\RegistrationName
         companyID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\PartyTaxSchemeType:
             accessor:
                 getter: getCompanyID
                 setter: setCompanyID
-            type: UBL\Common\CBC\CompanyID
+            type: App\UBL\Common\CBC\CompanyID
         taxLevelCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\PartyTaxSchemeType:
             accessor:
                 getter: getTaxLevelCode
                 setter: setTaxLevelCode
-            type: UBL\Common\CBC\TaxLevelCode
+            type: App\UBL\Common\CBC\TaxLevelCode
         exemptionReasonCode:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\PartyTaxSchemeType:
             accessor:
                 getter: getExemptionReasonCode
                 setter: setExemptionReasonCode
-            type: UBL\Common\CBC\ExemptionReasonCode
+            type: App\UBL\Common\CBC\ExemptionReasonCode
         exemptionReason:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\PartyTaxSchemeType:
                 inline: true
                 entry_name: ExemptionReason
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\ExemptionReason>
+            type: array<App\UBL\Common\CBC\ExemptionReason>
         registrationAddress:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\PartyTaxSchemeType:
             accessor:
                 getter: getRegistrationAddress
                 setter: setRegistrationAddress
-            type: UBL\Common\CAC\RegistrationAddress
+            type: App\UBL\Common\CAC\RegistrationAddress
         taxScheme:
             expose: true
             access_type: public_method
@@ -73,4 +73,4 @@ UBL\Common\CAC\PartyTaxSchemeType:
             accessor:
                 getter: getTaxScheme
                 setter: setTaxScheme
-            type: UBL\Common\CAC\TaxScheme
+            type: App\UBL\Common\CAC\TaxScheme

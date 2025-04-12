@@ -1,4 +1,4 @@
-UBL\Common\CAC\ItemPropertyRangeType:
+App\UBL\Common\CAC\ItemPropertyRangeType:
     properties:
         minimumValue:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ItemPropertyRangeType:
             accessor:
                 getter: getMinimumValue
                 setter: setMinimumValue
-            type: UBL\Common\CBC\MinimumValue
+            type: App\UBL\Common\CBC\MinimumValue
         maximumValue:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ UBL\Common\CAC\ItemPropertyRangeType:
             accessor:
                 getter: getMaximumValue
                 setter: setMaximumValue
-            type: UBL\Common\CBC\MaximumValue
+            type: App\UBL\Common\CBC\MaximumValue

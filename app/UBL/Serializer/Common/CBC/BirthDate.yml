@@ -1,4 +1,4 @@
-UBL\Common\CBC\BirthDate:
+App\UBL\Common\CBC\BirthDate:
     xml_root_name: BirthDate
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

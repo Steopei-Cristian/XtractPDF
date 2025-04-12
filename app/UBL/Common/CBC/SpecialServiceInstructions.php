@@ -9,4 +9,3 @@ class SpecialServiceInstructions extends SpecialServiceInstructionsType
 {
 }
 
-

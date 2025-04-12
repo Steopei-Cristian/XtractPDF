@@ -1,4 +1,4 @@
-UBL\Common\CBC\SplitConsignmentIndicator:
+App\UBL\Common\CBC\SplitConsignmentIndicator:
     xml_root_name: SplitConsignmentIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

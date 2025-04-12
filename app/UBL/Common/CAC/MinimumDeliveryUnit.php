@@ -9,4 +9,3 @@ class MinimumDeliveryUnit extends DeliveryUnitType
 {
 }
 
-

@@ -9,4 +9,3 @@ class DriverPerson extends PersonType
 {
 }
 
-

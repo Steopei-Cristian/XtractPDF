@@ -1,4 +1,4 @@
-UBL\XAdES\v132\SignedSignaturePropertiesType:
+App\UBL\XAdES\v132\SignedSignaturePropertiesType:
     properties:
         id:
             expose: true
@@ -28,7 +28,7 @@ UBL\XAdES\v132\SignedSignaturePropertiesType:
             accessor:
                 getter: getSigningCertificate
                 setter: setSigningCertificate
-            type: array<UBL\XAdES\v132\CertIDType>
+            type: array<App\UBL\XAdES\v132\CertIDType>
             xml_list:
                 inline: false
                 entry_name: Cert
@@ -43,7 +43,7 @@ UBL\XAdES\v132\SignedSignaturePropertiesType:
             accessor:
                 getter: getSignaturePolicyIdentifier
                 setter: setSignaturePolicyIdentifier
-            type: UBL\XAdES\v132\SignaturePolicyIdentifierType
+            type: App\UBL\XAdES\v132\SignaturePolicyIdentifierType
         signatureProductionPlace:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\XAdES\v132\SignedSignaturePropertiesType:
             accessor:
                 getter: getSignatureProductionPlace
                 setter: setSignatureProductionPlace
-            type: UBL\XAdES\v132\SignatureProductionPlaceType
+            type: App\UBL\XAdES\v132\SignatureProductionPlaceType
         signerRole:
             expose: true
             access_type: public_method
@@ -63,4 +63,4 @@ UBL\XAdES\v132\SignedSignaturePropertiesType:
             accessor:
                 getter: getSignerRole
                 setter: setSignerRole
-            type: UBL\XAdES\v132\SignerRoleType
+            type: App\UBL\XAdES\v132\SignerRoleType

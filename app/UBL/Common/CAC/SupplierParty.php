@@ -9,4 +9,3 @@ class SupplierParty extends SupplierPartyType
 {
 }
 
-

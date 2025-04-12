@@ -9,4 +9,3 @@ class InterestedProcurementProjectLot extends ProcurementProjectLotType
 {
 }
 
-

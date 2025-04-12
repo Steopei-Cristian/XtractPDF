@@ -24,7 +24,7 @@ class SupplierPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\CustomerAssignedAccountID $customerAssignedAccountID
+     * @var \App\UBL\Common\CBC\CustomerAssignedAccountID $customerAssignedAccountID
      */
     private $customerAssignedAccountID = null;
 
@@ -39,7 +39,7 @@ class SupplierPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\AdditionalAccountID[] $additionalAccountID
+     * @var \App\UBL\Common\CBC\AdditionalAccountID[] $additionalAccountID
      */
     private $additionalAccountID = [
         
@@ -55,7 +55,7 @@ class SupplierPartyType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\DataSendingCapability $dataSendingCapability
+     * @var \App\UBL\Common\CBC\DataSendingCapability $dataSendingCapability
      */
     private $dataSendingCapability = null;
 
@@ -69,7 +69,7 @@ class SupplierPartyType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\Party $party
+     * @var \App\UBL\Common\CAC\Party $party
      */
     private $party = null;
 
@@ -84,7 +84,7 @@ class SupplierPartyType
      *  Contact
      *  Contact
      *
-     * @var \UBL\Common\CAC\DespatchContact $despatchContact
+     * @var \App\UBL\Common\CAC\DespatchContact $despatchContact
      */
     private $despatchContact = null;
 
@@ -99,7 +99,7 @@ class SupplierPartyType
      *  Contact
      *  Contact
      *
-     * @var \UBL\Common\CAC\AccountingContact $accountingContact
+     * @var \App\UBL\Common\CAC\AccountingContact $accountingContact
      */
     private $accountingContact = null;
 
@@ -114,7 +114,7 @@ class SupplierPartyType
      *  Contact
      *  Contact
      *
-     * @var \UBL\Common\CAC\SellerContact $sellerContact
+     * @var \App\UBL\Common\CAC\SellerContact $sellerContact
      */
     private $sellerContact = null;
 
@@ -131,7 +131,7 @@ class SupplierPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\CustomerAssignedAccountID
+     * @return \App\UBL\Common\CBC\CustomerAssignedAccountID
      */
     public function getCustomerAssignedAccountID()
     {
@@ -151,10 +151,10 @@ class SupplierPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\CustomerAssignedAccountID $customerAssignedAccountID
+     * @param \App\UBL\Common\CBC\CustomerAssignedAccountID $customerAssignedAccountID
      * @return self
      */
-    public function setCustomerAssignedAccountID(?\UBL\Common\CBC\CustomerAssignedAccountID $customerAssignedAccountID = null)
+    public function setCustomerAssignedAccountID(?\App\UBL\Common\CBC\CustomerAssignedAccountID $customerAssignedAccountID = null)
     {
         $this->customerAssignedAccountID = $customerAssignedAccountID;
         return $this;
@@ -174,9 +174,9 @@ class SupplierPartyType
      *  Identifier. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\AdditionalAccountID $additionalAccountID
+     * @param \App\UBL\Common\CBC\AdditionalAccountID $additionalAccountID
      */
-    public function addToAdditionalAccountID(\UBL\Common\CBC\AdditionalAccountID $additionalAccountID)
+    public function addToAdditionalAccountID(\App\UBL\Common\CBC\AdditionalAccountID $additionalAccountID)
     {
         $this->additionalAccountID[] = $additionalAccountID;
         return $this;
@@ -237,7 +237,7 @@ class SupplierPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\AdditionalAccountID[]
+     * @return \App\UBL\Common\CBC\AdditionalAccountID[]
      */
     public function getAdditionalAccountID()
     {
@@ -257,7 +257,7 @@ class SupplierPartyType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\AdditionalAccountID[] $additionalAccountID
+     * @param \App\UBL\Common\CBC\AdditionalAccountID[] $additionalAccountID
      * @return self
      */
     public function setAdditionalAccountID(?array $additionalAccountID = null)
@@ -278,7 +278,7 @@ class SupplierPartyType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\DataSendingCapability
+     * @return \App\UBL\Common\CBC\DataSendingCapability
      */
     public function getDataSendingCapability()
     {
@@ -297,10 +297,10 @@ class SupplierPartyType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\DataSendingCapability $dataSendingCapability
+     * @param \App\UBL\Common\CBC\DataSendingCapability $dataSendingCapability
      * @return self
      */
-    public function setDataSendingCapability(?\UBL\Common\CBC\DataSendingCapability $dataSendingCapability = null)
+    public function setDataSendingCapability(?\App\UBL\Common\CBC\DataSendingCapability $dataSendingCapability = null)
     {
         $this->dataSendingCapability = $dataSendingCapability;
         return $this;
@@ -318,7 +318,7 @@ class SupplierPartyType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\Party
+     * @return \App\UBL\Common\CAC\Party
      */
     public function getParty()
     {
@@ -337,10 +337,10 @@ class SupplierPartyType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\Party $party
+     * @param \App\UBL\Common\CAC\Party $party
      * @return self
      */
-    public function setParty(?\UBL\Common\CAC\Party $party = null)
+    public function setParty(?\App\UBL\Common\CAC\Party $party = null)
     {
         $this->party = $party;
         return $this;
@@ -359,7 +359,7 @@ class SupplierPartyType
      *  Contact
      *  Contact
      *
-     * @return \UBL\Common\CAC\DespatchContact
+     * @return \App\UBL\Common\CAC\DespatchContact
      */
     public function getDespatchContact()
     {
@@ -379,10 +379,10 @@ class SupplierPartyType
      *  Contact
      *  Contact
      *
-     * @param \UBL\Common\CAC\DespatchContact $despatchContact
+     * @param \App\UBL\Common\CAC\DespatchContact $despatchContact
      * @return self
      */
-    public function setDespatchContact(?\UBL\Common\CAC\DespatchContact $despatchContact = null)
+    public function setDespatchContact(?\App\UBL\Common\CAC\DespatchContact $despatchContact = null)
     {
         $this->despatchContact = $despatchContact;
         return $this;
@@ -401,7 +401,7 @@ class SupplierPartyType
      *  Contact
      *  Contact
      *
-     * @return \UBL\Common\CAC\AccountingContact
+     * @return \App\UBL\Common\CAC\AccountingContact
      */
     public function getAccountingContact()
     {
@@ -421,10 +421,10 @@ class SupplierPartyType
      *  Contact
      *  Contact
      *
-     * @param \UBL\Common\CAC\AccountingContact $accountingContact
+     * @param \App\UBL\Common\CAC\AccountingContact $accountingContact
      * @return self
      */
-    public function setAccountingContact(?\UBL\Common\CAC\AccountingContact $accountingContact = null)
+    public function setAccountingContact(?\App\UBL\Common\CAC\AccountingContact $accountingContact = null)
     {
         $this->accountingContact = $accountingContact;
         return $this;
@@ -443,7 +443,7 @@ class SupplierPartyType
      *  Contact
      *  Contact
      *
-     * @return \UBL\Common\CAC\SellerContact
+     * @return \App\UBL\Common\CAC\SellerContact
      */
     public function getSellerContact()
     {
@@ -463,14 +463,13 @@ class SupplierPartyType
      *  Contact
      *  Contact
      *
-     * @param \UBL\Common\CAC\SellerContact $sellerContact
+     * @param \App\UBL\Common\CAC\SellerContact $sellerContact
      * @return self
      */
-    public function setSellerContact(?\UBL\Common\CAC\SellerContact $sellerContact = null)
+    public function setSellerContact(?\App\UBL\Common\CAC\SellerContact $sellerContact = null)
     {
         $this->sellerContact = $sellerContact;
         return $this;
     }
 }
-
 

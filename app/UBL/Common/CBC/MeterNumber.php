@@ -9,4 +9,3 @@ class MeterNumber extends MeterNumberType
 {
 }
 
-

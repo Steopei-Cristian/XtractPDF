@@ -23,7 +23,7 @@ class ContractingActivityType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ActivityTypeCode $activityTypeCode
+     * @var \App\UBL\Common\CBC\ActivityTypeCode $activityTypeCode
      */
     private $activityTypeCode = null;
 
@@ -37,7 +37,7 @@ class ContractingActivityType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ActivityType $activityType
+     * @var \App\UBL\Common\CBC\ActivityType $activityType
      */
     private $activityType = null;
 
@@ -53,7 +53,7 @@ class ContractingActivityType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ActivityTypeCode
+     * @return \App\UBL\Common\CBC\ActivityTypeCode
      */
     public function getActivityTypeCode()
     {
@@ -72,10 +72,10 @@ class ContractingActivityType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ActivityTypeCode $activityTypeCode
+     * @param \App\UBL\Common\CBC\ActivityTypeCode $activityTypeCode
      * @return self
      */
-    public function setActivityTypeCode(?\UBL\Common\CBC\ActivityTypeCode $activityTypeCode = null)
+    public function setActivityTypeCode(?\App\UBL\Common\CBC\ActivityTypeCode $activityTypeCode = null)
     {
         $this->activityTypeCode = $activityTypeCode;
         return $this;
@@ -93,7 +93,7 @@ class ContractingActivityType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ActivityType
+     * @return \App\UBL\Common\CBC\ActivityType
      */
     public function getActivityType()
     {
@@ -112,14 +112,13 @@ class ContractingActivityType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ActivityType $activityType
+     * @param \App\UBL\Common\CBC\ActivityType $activityType
      * @return self
      */
-    public function setActivityType(?\UBL\Common\CBC\ActivityType $activityType = null)
+    public function setActivityType(?\App\UBL\Common\CBC\ActivityType $activityType = null)
     {
         $this->activityType = $activityType;
         return $this;
     }
 }
-
 

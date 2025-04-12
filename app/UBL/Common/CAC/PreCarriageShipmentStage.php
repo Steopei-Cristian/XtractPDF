@@ -9,4 +9,3 @@ class PreCarriageShipmentStage extends ShipmentStageType
 {
 }
 
-

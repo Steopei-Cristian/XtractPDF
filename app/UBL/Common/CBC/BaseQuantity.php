@@ -9,4 +9,3 @@ class BaseQuantity extends BaseQuantityType
 {
 }
 
-

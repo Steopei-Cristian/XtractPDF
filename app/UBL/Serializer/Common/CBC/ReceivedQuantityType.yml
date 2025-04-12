@@ -1,2 +1,2 @@
-UBL\Common\CBC\ReceivedQuantityType:
+App\UBL\Common\CBC\ReceivedQuantityType:
     properties: {  }

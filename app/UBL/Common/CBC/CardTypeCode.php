@@ -9,4 +9,3 @@ class CardTypeCode extends CardTypeCodeType
 {
 }
 
-

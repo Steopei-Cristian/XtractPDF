@@ -1,3 +1,3 @@
-UBL\Common\CAC\MainCarriageShipmentStage:
+App\UBL\Common\CAC\MainCarriageShipmentStage:
     xml_root_name: MainCarriageShipmentStage
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

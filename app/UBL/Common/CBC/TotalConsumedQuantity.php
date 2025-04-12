@@ -9,4 +9,3 @@ class TotalConsumedQuantity extends TotalConsumedQuantityType
 {
 }
 
-

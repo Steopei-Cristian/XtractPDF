@@ -9,4 +9,3 @@ class PhoneNumber extends PhoneNumberType
 {
 }
 
-

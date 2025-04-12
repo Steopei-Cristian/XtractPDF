@@ -1,4 +1,4 @@
-UBL\Common\CBC\ExpiryDateType:
+App\UBL\Common\CBC\ExpiryDateType:
     properties:
         __value:
             expose: true

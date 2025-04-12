@@ -9,4 +9,3 @@ class WeightNumeric extends WeightNumericType
 {
 }
 
-

@@ -9,4 +9,3 @@ class DeclaredCarriageValueAmount extends DeclaredCarriageValueAmountType
 {
 }
 
-

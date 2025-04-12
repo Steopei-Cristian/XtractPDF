@@ -9,4 +9,3 @@ class PaymentMeans extends PaymentMeansType
 {
 }
 
-

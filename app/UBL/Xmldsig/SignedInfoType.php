@@ -16,17 +16,17 @@ class SignedInfoType
     private $id = null;
 
     /**
-     * @var \UBL\Xmldsig\CanonicalizationMethod $canonicalizationMethod
+     * @var \App\UBL\Xmldsig\CanonicalizationMethod $canonicalizationMethod
      */
     private $canonicalizationMethod = null;
 
     /**
-     * @var \UBL\Xmldsig\SignatureMethod $signatureMethod
+     * @var \App\UBL\Xmldsig\SignatureMethod $signatureMethod
      */
     private $signatureMethod = null;
 
     /**
-     * @var \UBL\Xmldsig\Reference[] $reference
+     * @var \App\UBL\Xmldsig\Reference[] $reference
      */
     private $reference = [
         
@@ -57,7 +57,7 @@ class SignedInfoType
     /**
      * Gets as canonicalizationMethod
      *
-     * @return \UBL\Xmldsig\CanonicalizationMethod
+     * @return \App\UBL\Xmldsig\CanonicalizationMethod
      */
     public function getCanonicalizationMethod()
     {
@@ -67,10 +67,10 @@ class SignedInfoType
     /**
      * Sets a new canonicalizationMethod
      *
-     * @param \UBL\Xmldsig\CanonicalizationMethod $canonicalizationMethod
+     * @param \App\UBL\Xmldsig\CanonicalizationMethod $canonicalizationMethod
      * @return self
      */
-    public function setCanonicalizationMethod(\UBL\Xmldsig\CanonicalizationMethod $canonicalizationMethod)
+    public function setCanonicalizationMethod(\App\UBL\Xmldsig\CanonicalizationMethod $canonicalizationMethod)
     {
         $this->canonicalizationMethod = $canonicalizationMethod;
         return $this;
@@ -79,7 +79,7 @@ class SignedInfoType
     /**
      * Gets as signatureMethod
      *
-     * @return \UBL\Xmldsig\SignatureMethod
+     * @return \App\UBL\Xmldsig\SignatureMethod
      */
     public function getSignatureMethod()
     {
@@ -89,10 +89,10 @@ class SignedInfoType
     /**
      * Sets a new signatureMethod
      *
-     * @param \UBL\Xmldsig\SignatureMethod $signatureMethod
+     * @param \App\UBL\Xmldsig\SignatureMethod $signatureMethod
      * @return self
      */
-    public function setSignatureMethod(\UBL\Xmldsig\SignatureMethod $signatureMethod)
+    public function setSignatureMethod(\App\UBL\Xmldsig\SignatureMethod $signatureMethod)
     {
         $this->signatureMethod = $signatureMethod;
         return $this;
@@ -102,9 +102,9 @@ class SignedInfoType
      * Adds as reference
      *
      * @return self
-     * @param \UBL\Xmldsig\Reference $reference
+     * @param \App\UBL\Xmldsig\Reference $reference
      */
-    public function addToReference(\UBL\Xmldsig\Reference $reference)
+    public function addToReference(\App\UBL\Xmldsig\Reference $reference)
     {
         $this->reference[] = $reference;
         return $this;
@@ -135,7 +135,7 @@ class SignedInfoType
     /**
      * Gets as reference
      *
-     * @return \UBL\Xmldsig\Reference[]
+     * @return \App\UBL\Xmldsig\Reference[]
      */
     public function getReference()
     {
@@ -145,7 +145,7 @@ class SignedInfoType
     /**
      * Sets a new reference
      *
-     * @param \UBL\Xmldsig\Reference[] $reference
+     * @param \App\UBL\Xmldsig\Reference[] $reference
      * @return self
      */
     public function setReference(array $reference)
@@ -154,5 +154,4 @@ class SignedInfoType
         return $this;
     }
 }
-
 

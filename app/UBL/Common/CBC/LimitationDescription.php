@@ -9,4 +9,3 @@ class LimitationDescription extends LimitationDescriptionType
 {
 }
 
-

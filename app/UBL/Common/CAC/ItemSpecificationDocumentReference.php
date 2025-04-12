@@ -9,4 +9,3 @@ class ItemSpecificationDocumentReference extends DocumentReferenceType
 {
 }
 
-

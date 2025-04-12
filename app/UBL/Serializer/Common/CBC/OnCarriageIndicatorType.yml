@@ -1,4 +1,4 @@
-UBL\Common\CBC\OnCarriageIndicatorType:
+App\UBL\Common\CBC\OnCarriageIndicatorType:
     properties:
         __value:
             expose: true

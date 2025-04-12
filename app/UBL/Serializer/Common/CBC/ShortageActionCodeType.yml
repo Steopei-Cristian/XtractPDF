@@ -1,2 +1,2 @@
-UBL\Common\CBC\ShortageActionCodeType:
+App\UBL\Common\CBC\ShortageActionCodeType:
     properties: {  }

@@ -9,4 +9,3 @@ class PlotIdentification extends PlotIdentificationType
 {
 }
 
-

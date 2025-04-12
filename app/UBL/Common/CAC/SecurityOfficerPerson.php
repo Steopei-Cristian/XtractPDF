@@ -9,4 +9,3 @@ class SecurityOfficerPerson extends PersonType
 {
 }
 
-

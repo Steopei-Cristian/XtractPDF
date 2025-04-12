@@ -9,4 +9,3 @@ class Title extends TitleType
 {
 }
 
-

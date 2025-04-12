@@ -16,12 +16,12 @@ class UnsignedPropertiesType
     private $id = null;
 
     /**
-     * @var \UBL\XAdES\v132\UnsignedSignaturePropertiesType $unsignedSignatureProperties
+     * @var \App\UBL\XAdES\v132\UnsignedSignaturePropertiesType $unsignedSignatureProperties
      */
     private $unsignedSignatureProperties = null;
 
     /**
-     * @var \UBL\XAdES\v132\UnsignedDataObjectPropertiesType $unsignedDataObjectProperties
+     * @var \App\UBL\XAdES\v132\UnsignedDataObjectPropertiesType $unsignedDataObjectProperties
      */
     private $unsignedDataObjectProperties = null;
 
@@ -50,7 +50,7 @@ class UnsignedPropertiesType
     /**
      * Gets as unsignedSignatureProperties
      *
-     * @return \UBL\XAdES\v132\UnsignedSignaturePropertiesType
+     * @return \App\UBL\XAdES\v132\UnsignedSignaturePropertiesType
      */
     public function getUnsignedSignatureProperties()
     {
@@ -60,10 +60,10 @@ class UnsignedPropertiesType
     /**
      * Sets a new unsignedSignatureProperties
      *
-     * @param \UBL\XAdES\v132\UnsignedSignaturePropertiesType $unsignedSignatureProperties
+     * @param \App\UBL\XAdES\v132\UnsignedSignaturePropertiesType $unsignedSignatureProperties
      * @return self
      */
-    public function setUnsignedSignatureProperties(?\UBL\XAdES\v132\UnsignedSignaturePropertiesType $unsignedSignatureProperties = null)
+    public function setUnsignedSignatureProperties(?\App\UBL\XAdES\v132\UnsignedSignaturePropertiesType $unsignedSignatureProperties = null)
     {
         $this->unsignedSignatureProperties = $unsignedSignatureProperties;
         return $this;
@@ -72,7 +72,7 @@ class UnsignedPropertiesType
     /**
      * Gets as unsignedDataObjectProperties
      *
-     * @return \UBL\XAdES\v132\UnsignedDataObjectPropertiesType
+     * @return \App\UBL\XAdES\v132\UnsignedDataObjectPropertiesType
      */
     public function getUnsignedDataObjectProperties()
     {
@@ -82,14 +82,13 @@ class UnsignedPropertiesType
     /**
      * Sets a new unsignedDataObjectProperties
      *
-     * @param \UBL\XAdES\v132\UnsignedDataObjectPropertiesType $unsignedDataObjectProperties
+     * @param \App\UBL\XAdES\v132\UnsignedDataObjectPropertiesType $unsignedDataObjectProperties
      * @return self
      */
-    public function setUnsignedDataObjectProperties(?\UBL\XAdES\v132\UnsignedDataObjectPropertiesType $unsignedDataObjectProperties = null)
+    public function setUnsignedDataObjectProperties(?\App\UBL\XAdES\v132\UnsignedDataObjectPropertiesType $unsignedDataObjectProperties = null)
     {
         $this->unsignedDataObjectProperties = $unsignedDataObjectProperties;
         return $this;
     }
 }
-
 

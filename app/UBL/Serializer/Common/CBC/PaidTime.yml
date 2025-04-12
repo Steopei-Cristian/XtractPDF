@@ -1,4 +1,4 @@
-UBL\Common\CBC\PaidTime:
+App\UBL\Common\CBC\PaidTime:
     xml_root_name: PaidTime
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

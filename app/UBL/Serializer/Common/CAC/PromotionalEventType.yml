@@ -1,4 +1,4 @@
-UBL\Common\CAC\PromotionalEventType:
+App\UBL\Common\CAC\PromotionalEventType:
     properties:
         promotionalEventTypeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\PromotionalEventType:
             accessor:
                 getter: getPromotionalEventTypeCode
                 setter: setPromotionalEventTypeCode
-            type: UBL\Common\CBC\PromotionalEventTypeCode
+            type: App\UBL\Common\CBC\PromotionalEventTypeCode
         submissionDate:
             expose: true
             access_type: public_method
@@ -53,4 +53,4 @@ UBL\Common\CAC\PromotionalEventType:
                 inline: true
                 entry_name: PromotionalSpecification
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PromotionalSpecification>
+            type: array<App\UBL\Common\CAC\PromotionalSpecification>

@@ -1,4 +1,4 @@
-UBL\Common\CBC\TaxIncludedIndicatorType:
+App\UBL\Common\CBC\TaxIncludedIndicatorType:
     properties:
         __value:
             expose: true

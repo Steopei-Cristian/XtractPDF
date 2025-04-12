@@ -1,4 +1,4 @@
-UBL\Common\CAC\PartyNameType:
+App\UBL\Common\CAC\PartyNameType:
     properties:
         name:
             expose: true
@@ -9,4 +9,4 @@ UBL\Common\CAC\PartyNameType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name

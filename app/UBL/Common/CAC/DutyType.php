@@ -24,7 +24,7 @@ class DutyType
      *  Amount. Type
      *  88.23
      *
-     * @var \UBL\Common\CBC\Amount $amount
+     * @var \App\UBL\Common\CBC\Amount $amount
      */
     private $amount = null;
 
@@ -39,7 +39,7 @@ class DutyType
      *  Text. Type
      *  ConnectionFee
      *
-     * @var \UBL\Common\CBC\Duty $duty
+     * @var \App\UBL\Common\CBC\Duty $duty
      */
     private $duty = null;
 
@@ -54,7 +54,7 @@ class DutyType
      *  Code. Type
      *  ConnectionFee
      *
-     * @var \UBL\Common\CBC\DutyCode $dutyCode
+     * @var \App\UBL\Common\CBC\DutyCode $dutyCode
      */
     private $dutyCode = null;
 
@@ -68,7 +68,7 @@ class DutyType
      *  Tax Category
      *  Tax Category
      *
-     * @var \UBL\Common\CAC\TaxCategory $taxCategory
+     * @var \App\UBL\Common\CAC\TaxCategory $taxCategory
      */
     private $taxCategory = null;
 
@@ -85,7 +85,7 @@ class DutyType
      *  Amount. Type
      *  88.23
      *
-     * @return \UBL\Common\CBC\Amount
+     * @return \App\UBL\Common\CBC\Amount
      */
     public function getAmount()
     {
@@ -105,10 +105,10 @@ class DutyType
      *  Amount. Type
      *  88.23
      *
-     * @param \UBL\Common\CBC\Amount $amount
+     * @param \App\UBL\Common\CBC\Amount $amount
      * @return self
      */
-    public function setAmount(\UBL\Common\CBC\Amount $amount)
+    public function setAmount(\App\UBL\Common\CBC\Amount $amount)
     {
         $this->amount = $amount;
         return $this;
@@ -127,7 +127,7 @@ class DutyType
      *  Text. Type
      *  ConnectionFee
      *
-     * @return \UBL\Common\CBC\Duty
+     * @return \App\UBL\Common\CBC\Duty
      */
     public function getDuty()
     {
@@ -147,10 +147,10 @@ class DutyType
      *  Text. Type
      *  ConnectionFee
      *
-     * @param \UBL\Common\CBC\Duty $duty
+     * @param \App\UBL\Common\CBC\Duty $duty
      * @return self
      */
-    public function setDuty(?\UBL\Common\CBC\Duty $duty = null)
+    public function setDuty(?\App\UBL\Common\CBC\Duty $duty = null)
     {
         $this->duty = $duty;
         return $this;
@@ -169,7 +169,7 @@ class DutyType
      *  Code. Type
      *  ConnectionFee
      *
-     * @return \UBL\Common\CBC\DutyCode
+     * @return \App\UBL\Common\CBC\DutyCode
      */
     public function getDutyCode()
     {
@@ -189,10 +189,10 @@ class DutyType
      *  Code. Type
      *  ConnectionFee
      *
-     * @param \UBL\Common\CBC\DutyCode $dutyCode
+     * @param \App\UBL\Common\CBC\DutyCode $dutyCode
      * @return self
      */
-    public function setDutyCode(?\UBL\Common\CBC\DutyCode $dutyCode = null)
+    public function setDutyCode(?\App\UBL\Common\CBC\DutyCode $dutyCode = null)
     {
         $this->dutyCode = $dutyCode;
         return $this;
@@ -210,7 +210,7 @@ class DutyType
      *  Tax Category
      *  Tax Category
      *
-     * @return \UBL\Common\CAC\TaxCategory
+     * @return \App\UBL\Common\CAC\TaxCategory
      */
     public function getTaxCategory()
     {
@@ -229,14 +229,13 @@ class DutyType
      *  Tax Category
      *  Tax Category
      *
-     * @param \UBL\Common\CAC\TaxCategory $taxCategory
+     * @param \App\UBL\Common\CAC\TaxCategory $taxCategory
      * @return self
      */
-    public function setTaxCategory(?\UBL\Common\CAC\TaxCategory $taxCategory = null)
+    public function setTaxCategory(?\App\UBL\Common\CAC\TaxCategory $taxCategory = null)
     {
         $this->taxCategory = $taxCategory;
         return $this;
     }
 }
-
 

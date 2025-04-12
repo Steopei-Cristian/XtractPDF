@@ -1,4 +1,4 @@
-UBL\Common\CAC\ClauseType:
+App\UBL\Common\CAC\ClauseType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ClauseType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         content:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ UBL\Common\CAC\ClauseType:
                 inline: true
                 entry_name: Content
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Content>
+            type: array<App\UBL\Common\CBC\Content>

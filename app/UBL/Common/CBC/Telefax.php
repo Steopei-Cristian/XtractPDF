@@ -9,4 +9,3 @@ class Telefax extends TelefaxType
 {
 }
 
-

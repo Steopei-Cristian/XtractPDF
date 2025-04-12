@@ -1,2 +1,2 @@
-UBL\Common\CBC\ContractedCarrierAssignedIDType:
+App\UBL\Common\CBC\ContractedCarrierAssignedIDType:
     properties: {  }

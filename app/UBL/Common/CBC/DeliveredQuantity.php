@@ -9,4 +9,3 @@ class DeliveredQuantity extends DeliveredQuantityType
 {
 }
 
-

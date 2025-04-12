@@ -11,7 +11,7 @@ namespace App\UBL\Xmldsig;
 class TransformsType
 {
     /**
-     * @var \UBL\Xmldsig\Transform[] $transform
+     * @var \App\UBL\Xmldsig\Transform[] $transform
      */
     private $transform = [
         
@@ -21,9 +21,9 @@ class TransformsType
      * Adds as transform
      *
      * @return self
-     * @param \UBL\Xmldsig\Transform $transform
+     * @param \App\UBL\Xmldsig\Transform $transform
      */
-    public function addToTransform(\UBL\Xmldsig\Transform $transform)
+    public function addToTransform(\App\UBL\Xmldsig\Transform $transform)
     {
         $this->transform[] = $transform;
         return $this;
@@ -54,7 +54,7 @@ class TransformsType
     /**
      * Gets as transform
      *
-     * @return \UBL\Xmldsig\Transform[]
+     * @return \App\UBL\Xmldsig\Transform[]
      */
     public function getTransform()
     {
@@ -64,7 +64,7 @@ class TransformsType
     /**
      * Sets a new transform
      *
-     * @param \UBL\Xmldsig\Transform[] $transform
+     * @param \App\UBL\Xmldsig\Transform[] $transform
      * @return self
      */
     public function setTransform(array $transform)
@@ -73,5 +73,4 @@ class TransformsType
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class TotalBalanceAmount extends TotalBalanceAmountType
 {
 }
 
-

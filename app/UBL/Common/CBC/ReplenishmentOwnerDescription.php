@@ -9,4 +9,3 @@ class ReplenishmentOwnerDescription extends ReplenishmentOwnerDescriptionType
 {
 }
 
-

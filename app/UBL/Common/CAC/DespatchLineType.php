@@ -23,7 +23,7 @@ class DespatchLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class DespatchLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -51,7 +51,7 @@ class DespatchLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -68,7 +68,7 @@ class DespatchLineType
      *  Line Status
      *  Line Status_ Code. Type
      *
-     * @var \UBL\Common\CBC\LineStatusCode $lineStatusCode
+     * @var \App\UBL\Common\CBC\LineStatusCode $lineStatusCode
      */
     private $lineStatusCode = null;
 
@@ -83,7 +83,7 @@ class DespatchLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\DeliveredQuantity $deliveredQuantity
+     * @var \App\UBL\Common\CBC\DeliveredQuantity $deliveredQuantity
      */
     private $deliveredQuantity = null;
 
@@ -98,7 +98,7 @@ class DespatchLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\BackorderQuantity $backorderQuantity
+     * @var \App\UBL\Common\CBC\BackorderQuantity $backorderQuantity
      */
     private $backorderQuantity = null;
 
@@ -113,7 +113,7 @@ class DespatchLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\BackorderReason[] $backorderReason
+     * @var \App\UBL\Common\CBC\BackorderReason[] $backorderReason
      */
     private $backorderReason = [
         
@@ -130,7 +130,7 @@ class DespatchLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\OutstandingQuantity $outstandingQuantity
+     * @var \App\UBL\Common\CBC\OutstandingQuantity $outstandingQuantity
      */
     private $outstandingQuantity = null;
 
@@ -145,7 +145,7 @@ class DespatchLineType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\OutstandingReason[] $outstandingReason
+     * @var \App\UBL\Common\CBC\OutstandingReason[] $outstandingReason
      */
     private $outstandingReason = [
         
@@ -162,7 +162,7 @@ class DespatchLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\OversupplyQuantity $oversupplyQuantity
+     * @var \App\UBL\Common\CBC\OversupplyQuantity $oversupplyQuantity
      */
     private $oversupplyQuantity = null;
 
@@ -176,7 +176,7 @@ class DespatchLineType
      *  Order Line Reference
      *  Order Line Reference
      *
-     * @var \UBL\Common\CAC\OrderLineReference[] $orderLineReference
+     * @var \App\UBL\Common\CAC\OrderLineReference[] $orderLineReference
      */
     private $orderLineReference = [
         
@@ -192,7 +192,7 @@ class DespatchLineType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -208,7 +208,7 @@ class DespatchLineType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item $item
+     * @var \App\UBL\Common\CAC\Item $item
      */
     private $item = null;
 
@@ -222,7 +222,7 @@ class DespatchLineType
      *  Shipment
      *  Shipment
      *
-     * @var \UBL\Common\CAC\Shipment[] $shipment
+     * @var \App\UBL\Common\CAC\Shipment[] $shipment
      */
     private $shipment = [
         
@@ -240,7 +240,7 @@ class DespatchLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -259,10 +259,10 @@ class DespatchLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -280,7 +280,7 @@ class DespatchLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -299,10 +299,10 @@ class DespatchLineType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -321,9 +321,9 @@ class DespatchLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -381,7 +381,7 @@ class DespatchLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -400,7 +400,7 @@ class DespatchLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -422,7 +422,7 @@ class DespatchLineType
      *  Line Status
      *  Line Status_ Code. Type
      *
-     * @return \UBL\Common\CBC\LineStatusCode
+     * @return \App\UBL\Common\CBC\LineStatusCode
      */
     public function getLineStatusCode()
     {
@@ -442,10 +442,10 @@ class DespatchLineType
      *  Line Status
      *  Line Status_ Code. Type
      *
-     * @param \UBL\Common\CBC\LineStatusCode $lineStatusCode
+     * @param \App\UBL\Common\CBC\LineStatusCode $lineStatusCode
      * @return self
      */
-    public function setLineStatusCode(?\UBL\Common\CBC\LineStatusCode $lineStatusCode = null)
+    public function setLineStatusCode(?\App\UBL\Common\CBC\LineStatusCode $lineStatusCode = null)
     {
         $this->lineStatusCode = $lineStatusCode;
         return $this;
@@ -464,7 +464,7 @@ class DespatchLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\DeliveredQuantity
+     * @return \App\UBL\Common\CBC\DeliveredQuantity
      */
     public function getDeliveredQuantity()
     {
@@ -484,10 +484,10 @@ class DespatchLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\DeliveredQuantity $deliveredQuantity
+     * @param \App\UBL\Common\CBC\DeliveredQuantity $deliveredQuantity
      * @return self
      */
-    public function setDeliveredQuantity(?\UBL\Common\CBC\DeliveredQuantity $deliveredQuantity = null)
+    public function setDeliveredQuantity(?\App\UBL\Common\CBC\DeliveredQuantity $deliveredQuantity = null)
     {
         $this->deliveredQuantity = $deliveredQuantity;
         return $this;
@@ -506,7 +506,7 @@ class DespatchLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\BackorderQuantity
+     * @return \App\UBL\Common\CBC\BackorderQuantity
      */
     public function getBackorderQuantity()
     {
@@ -526,10 +526,10 @@ class DespatchLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\BackorderQuantity $backorderQuantity
+     * @param \App\UBL\Common\CBC\BackorderQuantity $backorderQuantity
      * @return self
      */
-    public function setBackorderQuantity(?\UBL\Common\CBC\BackorderQuantity $backorderQuantity = null)
+    public function setBackorderQuantity(?\App\UBL\Common\CBC\BackorderQuantity $backorderQuantity = null)
     {
         $this->backorderQuantity = $backorderQuantity;
         return $this;
@@ -549,9 +549,9 @@ class DespatchLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\BackorderReason $backorderReason
+     * @param \App\UBL\Common\CBC\BackorderReason $backorderReason
      */
-    public function addToBackorderReason(\UBL\Common\CBC\BackorderReason $backorderReason)
+    public function addToBackorderReason(\App\UBL\Common\CBC\BackorderReason $backorderReason)
     {
         $this->backorderReason[] = $backorderReason;
         return $this;
@@ -612,7 +612,7 @@ class DespatchLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\BackorderReason[]
+     * @return \App\UBL\Common\CBC\BackorderReason[]
      */
     public function getBackorderReason()
     {
@@ -632,7 +632,7 @@ class DespatchLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\BackorderReason[] $backorderReason
+     * @param \App\UBL\Common\CBC\BackorderReason[] $backorderReason
      * @return self
      */
     public function setBackorderReason(?array $backorderReason = null)
@@ -654,7 +654,7 @@ class DespatchLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\OutstandingQuantity
+     * @return \App\UBL\Common\CBC\OutstandingQuantity
      */
     public function getOutstandingQuantity()
     {
@@ -674,10 +674,10 @@ class DespatchLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\OutstandingQuantity $outstandingQuantity
+     * @param \App\UBL\Common\CBC\OutstandingQuantity $outstandingQuantity
      * @return self
      */
-    public function setOutstandingQuantity(?\UBL\Common\CBC\OutstandingQuantity $outstandingQuantity = null)
+    public function setOutstandingQuantity(?\App\UBL\Common\CBC\OutstandingQuantity $outstandingQuantity = null)
     {
         $this->outstandingQuantity = $outstandingQuantity;
         return $this;
@@ -697,9 +697,9 @@ class DespatchLineType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\OutstandingReason $outstandingReason
+     * @param \App\UBL\Common\CBC\OutstandingReason $outstandingReason
      */
-    public function addToOutstandingReason(\UBL\Common\CBC\OutstandingReason $outstandingReason)
+    public function addToOutstandingReason(\App\UBL\Common\CBC\OutstandingReason $outstandingReason)
     {
         $this->outstandingReason[] = $outstandingReason;
         return $this;
@@ -760,7 +760,7 @@ class DespatchLineType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\OutstandingReason[]
+     * @return \App\UBL\Common\CBC\OutstandingReason[]
      */
     public function getOutstandingReason()
     {
@@ -780,7 +780,7 @@ class DespatchLineType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\OutstandingReason[] $outstandingReason
+     * @param \App\UBL\Common\CBC\OutstandingReason[] $outstandingReason
      * @return self
      */
     public function setOutstandingReason(?array $outstandingReason = null)
@@ -802,7 +802,7 @@ class DespatchLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\OversupplyQuantity
+     * @return \App\UBL\Common\CBC\OversupplyQuantity
      */
     public function getOversupplyQuantity()
     {
@@ -822,10 +822,10 @@ class DespatchLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\OversupplyQuantity $oversupplyQuantity
+     * @param \App\UBL\Common\CBC\OversupplyQuantity $oversupplyQuantity
      * @return self
      */
-    public function setOversupplyQuantity(?\UBL\Common\CBC\OversupplyQuantity $oversupplyQuantity = null)
+    public function setOversupplyQuantity(?\App\UBL\Common\CBC\OversupplyQuantity $oversupplyQuantity = null)
     {
         $this->oversupplyQuantity = $oversupplyQuantity;
         return $this;
@@ -844,9 +844,9 @@ class DespatchLineType
      *  Order Line Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\OrderLineReference $orderLineReference
+     * @param \App\UBL\Common\CAC\OrderLineReference $orderLineReference
      */
-    public function addToOrderLineReference(\UBL\Common\CAC\OrderLineReference $orderLineReference)
+    public function addToOrderLineReference(\App\UBL\Common\CAC\OrderLineReference $orderLineReference)
     {
         $this->orderLineReference[] = $orderLineReference;
         return $this;
@@ -904,7 +904,7 @@ class DespatchLineType
      *  Order Line Reference
      *  Order Line Reference
      *
-     * @return \UBL\Common\CAC\OrderLineReference[]
+     * @return \App\UBL\Common\CAC\OrderLineReference[]
      */
     public function getOrderLineReference()
     {
@@ -923,7 +923,7 @@ class DespatchLineType
      *  Order Line Reference
      *  Order Line Reference
      *
-     * @param \UBL\Common\CAC\OrderLineReference[] $orderLineReference
+     * @param \App\UBL\Common\CAC\OrderLineReference[] $orderLineReference
      * @return self
      */
     public function setOrderLineReference(array $orderLineReference)
@@ -945,9 +945,9 @@ class DespatchLineType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -1005,7 +1005,7 @@ class DespatchLineType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -1024,7 +1024,7 @@ class DespatchLineType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -1045,7 +1045,7 @@ class DespatchLineType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item
+     * @return \App\UBL\Common\CAC\Item
      */
     public function getItem()
     {
@@ -1064,10 +1064,10 @@ class DespatchLineType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      * @return self
      */
-    public function setItem(\UBL\Common\CAC\Item $item)
+    public function setItem(\App\UBL\Common\CAC\Item $item)
     {
         $this->item = $item;
         return $this;
@@ -1086,9 +1086,9 @@ class DespatchLineType
      *  Shipment
      *
      * @return self
-     * @param \UBL\Common\CAC\Shipment $shipment
+     * @param \App\UBL\Common\CAC\Shipment $shipment
      */
-    public function addToShipment(\UBL\Common\CAC\Shipment $shipment)
+    public function addToShipment(\App\UBL\Common\CAC\Shipment $shipment)
     {
         $this->shipment[] = $shipment;
         return $this;
@@ -1146,7 +1146,7 @@ class DespatchLineType
      *  Shipment
      *  Shipment
      *
-     * @return \UBL\Common\CAC\Shipment[]
+     * @return \App\UBL\Common\CAC\Shipment[]
      */
     public function getShipment()
     {
@@ -1165,7 +1165,7 @@ class DespatchLineType
      *  Shipment
      *  Shipment
      *
-     * @param \UBL\Common\CAC\Shipment[] $shipment
+     * @param \App\UBL\Common\CAC\Shipment[] $shipment
      * @return self
      */
     public function setShipment(?array $shipment = null)
@@ -1174,5 +1174,4 @@ class DespatchLineType
         return $this;
     }
 }
-
 

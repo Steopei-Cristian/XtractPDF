@@ -9,4 +9,3 @@ class ParticipationRequestReceptionPeriod extends PeriodType
 {
 }
 
-

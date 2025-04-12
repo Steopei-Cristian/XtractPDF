@@ -9,4 +9,3 @@ class TareWeightMeasure extends TareWeightMeasureType
 {
 }
 
-

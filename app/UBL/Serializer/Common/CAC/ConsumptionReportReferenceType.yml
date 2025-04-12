@@ -1,4 +1,4 @@
-UBL\Common\CAC\ConsumptionReportReferenceType:
+App\UBL\Common\CAC\ConsumptionReportReferenceType:
     properties:
         consumptionReportID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ConsumptionReportReferenceType:
             accessor:
                 getter: getConsumptionReportID
                 setter: setConsumptionReportID
-            type: UBL\Common\CBC\ConsumptionReportID
+            type: App\UBL\Common\CBC\ConsumptionReportID
         consumptionType:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ConsumptionReportReferenceType:
             accessor:
                 getter: getConsumptionType
                 setter: setConsumptionType
-            type: UBL\Common\CBC\ConsumptionType
+            type: App\UBL\Common\CBC\ConsumptionType
         consumptionTypeCode:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\ConsumptionReportReferenceType:
             accessor:
                 getter: getConsumptionTypeCode
                 setter: setConsumptionTypeCode
-            type: UBL\Common\CBC\ConsumptionTypeCode
+            type: App\UBL\Common\CBC\ConsumptionTypeCode
         totalConsumedQuantity:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\ConsumptionReportReferenceType:
             accessor:
                 getter: getTotalConsumedQuantity
                 setter: setTotalConsumedQuantity
-            type: UBL\Common\CBC\TotalConsumedQuantity
+            type: App\UBL\Common\CBC\TotalConsumedQuantity
         period:
             expose: true
             access_type: public_method
@@ -49,4 +49,4 @@ UBL\Common\CAC\ConsumptionReportReferenceType:
             accessor:
                 getter: getPeriod
                 setter: setPeriod
-            type: UBL\Common\CAC\Period
+            type: App\UBL\Common\CAC\Period

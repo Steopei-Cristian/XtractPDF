@@ -2,7 +2,7 @@
 
 namespace App\UBL\Unqualified;
 
-use UBL\CCTS\CodeType as CodeTypeBase;
+use App\UBL\CCTS\CodeType as CodeTypeBase;
 
 /**
  * Class representing CodeType
@@ -20,5 +20,4 @@ use UBL\CCTS\CodeType as CodeTypeBase;
 class CodeType extends CodeTypeBase
 {
 }
-
 

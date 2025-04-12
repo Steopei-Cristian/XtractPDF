@@ -24,7 +24,7 @@ class PickupType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -129,7 +129,7 @@ class PickupType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\PickupLocation $pickupLocation
+     * @var \App\UBL\Common\CAC\PickupLocation $pickupLocation
      */
     private $pickupLocation = null;
 
@@ -144,7 +144,7 @@ class PickupType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\PickupParty $pickupParty
+     * @var \App\UBL\Common\CAC\PickupParty $pickupParty
      */
     private $pickupParty = null;
 
@@ -160,7 +160,7 @@ class PickupType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -179,10 +179,10 @@ class PickupType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -453,7 +453,7 @@ class PickupType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\PickupLocation
+     * @return \App\UBL\Common\CAC\PickupLocation
      */
     public function getPickupLocation()
     {
@@ -473,10 +473,10 @@ class PickupType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\PickupLocation $pickupLocation
+     * @param \App\UBL\Common\CAC\PickupLocation $pickupLocation
      * @return self
      */
-    public function setPickupLocation(?\UBL\Common\CAC\PickupLocation $pickupLocation = null)
+    public function setPickupLocation(?\App\UBL\Common\CAC\PickupLocation $pickupLocation = null)
     {
         $this->pickupLocation = $pickupLocation;
         return $this;
@@ -495,7 +495,7 @@ class PickupType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\PickupParty
+     * @return \App\UBL\Common\CAC\PickupParty
      */
     public function getPickupParty()
     {
@@ -515,14 +515,13 @@ class PickupType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\PickupParty $pickupParty
+     * @param \App\UBL\Common\CAC\PickupParty $pickupParty
      * @return self
      */
-    public function setPickupParty(?\UBL\Common\CAC\PickupParty $pickupParty = null)
+    public function setPickupParty(?\App\UBL\Common\CAC\PickupParty $pickupParty = null)
     {
         $this->pickupParty = $pickupParty;
         return $this;
     }
 }
-
 

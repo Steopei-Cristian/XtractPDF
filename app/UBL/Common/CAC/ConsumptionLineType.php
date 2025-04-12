@@ -24,7 +24,7 @@ class ConsumptionLineType
      *  Identifier. Type
      *  1
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -40,7 +40,7 @@ class ConsumptionLineType
      *  Identifier. Type
      *  Consumption
      *
-     * @var \UBL\Common\CBC\ParentDocumentLineReferenceID $parentDocumentLineReferenceID
+     * @var \App\UBL\Common\CBC\ParentDocumentLineReferenceID $parentDocumentLineReferenceID
      */
     private $parentDocumentLineReferenceID = null;
 
@@ -55,7 +55,7 @@ class ConsumptionLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\InvoicedQuantity $invoicedQuantity
+     * @var \App\UBL\Common\CBC\InvoicedQuantity $invoicedQuantity
      */
     private $invoicedQuantity = null;
 
@@ -69,7 +69,7 @@ class ConsumptionLineType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @var \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      */
     private $lineExtensionAmount = null;
 
@@ -83,7 +83,7 @@ class ConsumptionLineType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\Period $period
+     * @var \App\UBL\Common\CAC\Period $period
      */
     private $period = null;
 
@@ -97,7 +97,7 @@ class ConsumptionLineType
      *  Delivery
      *  Delivery
      *
-     * @var \UBL\Common\CAC\Delivery[] $delivery
+     * @var \App\UBL\Common\CAC\Delivery[] $delivery
      */
     private $delivery = [
         
@@ -113,7 +113,7 @@ class ConsumptionLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @var \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @var \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      */
     private $allowanceCharge = [
         
@@ -129,7 +129,7 @@ class ConsumptionLineType
      *  Tax Total
      *  Tax Total
      *
-     * @var \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @var \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      */
     private $taxTotal = [
         
@@ -145,7 +145,7 @@ class ConsumptionLineType
      *  Utility Item
      *  Utility Item
      *
-     * @var \UBL\Common\CAC\UtilityItem $utilityItem
+     * @var \App\UBL\Common\CAC\UtilityItem $utilityItem
      */
     private $utilityItem = null;
 
@@ -159,7 +159,7 @@ class ConsumptionLineType
      *  Price
      *  Price
      *
-     * @var \UBL\Common\CAC\Price $price
+     * @var \App\UBL\Common\CAC\Price $price
      */
     private $price = null;
 
@@ -173,7 +173,7 @@ class ConsumptionLineType
      *  Unstructured Price
      *  Unstructured Price
      *
-     * @var \UBL\Common\CAC\UnstructuredPrice $unstructuredPrice
+     * @var \App\UBL\Common\CAC\UnstructuredPrice $unstructuredPrice
      */
     private $unstructuredPrice = null;
 
@@ -190,7 +190,7 @@ class ConsumptionLineType
      *  Identifier. Type
      *  1
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -210,10 +210,10 @@ class ConsumptionLineType
      *  Identifier. Type
      *  1
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -233,7 +233,7 @@ class ConsumptionLineType
      *  Identifier. Type
      *  Consumption
      *
-     * @return \UBL\Common\CBC\ParentDocumentLineReferenceID
+     * @return \App\UBL\Common\CBC\ParentDocumentLineReferenceID
      */
     public function getParentDocumentLineReferenceID()
     {
@@ -254,10 +254,10 @@ class ConsumptionLineType
      *  Identifier. Type
      *  Consumption
      *
-     * @param \UBL\Common\CBC\ParentDocumentLineReferenceID $parentDocumentLineReferenceID
+     * @param \App\UBL\Common\CBC\ParentDocumentLineReferenceID $parentDocumentLineReferenceID
      * @return self
      */
-    public function setParentDocumentLineReferenceID(?\UBL\Common\CBC\ParentDocumentLineReferenceID $parentDocumentLineReferenceID = null)
+    public function setParentDocumentLineReferenceID(?\App\UBL\Common\CBC\ParentDocumentLineReferenceID $parentDocumentLineReferenceID = null)
     {
         $this->parentDocumentLineReferenceID = $parentDocumentLineReferenceID;
         return $this;
@@ -276,7 +276,7 @@ class ConsumptionLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\InvoicedQuantity
+     * @return \App\UBL\Common\CBC\InvoicedQuantity
      */
     public function getInvoicedQuantity()
     {
@@ -296,10 +296,10 @@ class ConsumptionLineType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\InvoicedQuantity $invoicedQuantity
+     * @param \App\UBL\Common\CBC\InvoicedQuantity $invoicedQuantity
      * @return self
      */
-    public function setInvoicedQuantity(\UBL\Common\CBC\InvoicedQuantity $invoicedQuantity)
+    public function setInvoicedQuantity(\App\UBL\Common\CBC\InvoicedQuantity $invoicedQuantity)
     {
         $this->invoicedQuantity = $invoicedQuantity;
         return $this;
@@ -317,7 +317,7 @@ class ConsumptionLineType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\LineExtensionAmount
+     * @return \App\UBL\Common\CBC\LineExtensionAmount
      */
     public function getLineExtensionAmount()
     {
@@ -336,10 +336,10 @@ class ConsumptionLineType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
+     * @param \App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount
      * @return self
      */
-    public function setLineExtensionAmount(\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount)
+    public function setLineExtensionAmount(\App\UBL\Common\CBC\LineExtensionAmount $lineExtensionAmount)
     {
         $this->lineExtensionAmount = $lineExtensionAmount;
         return $this;
@@ -357,7 +357,7 @@ class ConsumptionLineType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\Period
+     * @return \App\UBL\Common\CAC\Period
      */
     public function getPeriod()
     {
@@ -376,10 +376,10 @@ class ConsumptionLineType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\Period $period
+     * @param \App\UBL\Common\CAC\Period $period
      * @return self
      */
-    public function setPeriod(?\UBL\Common\CAC\Period $period = null)
+    public function setPeriod(?\App\UBL\Common\CAC\Period $period = null)
     {
         $this->period = $period;
         return $this;
@@ -398,9 +398,9 @@ class ConsumptionLineType
      *  Delivery
      *
      * @return self
-     * @param \UBL\Common\CAC\Delivery $delivery
+     * @param \App\UBL\Common\CAC\Delivery $delivery
      */
-    public function addToDelivery(\UBL\Common\CAC\Delivery $delivery)
+    public function addToDelivery(\App\UBL\Common\CAC\Delivery $delivery)
     {
         $this->delivery[] = $delivery;
         return $this;
@@ -458,7 +458,7 @@ class ConsumptionLineType
      *  Delivery
      *  Delivery
      *
-     * @return \UBL\Common\CAC\Delivery[]
+     * @return \App\UBL\Common\CAC\Delivery[]
      */
     public function getDelivery()
     {
@@ -477,7 +477,7 @@ class ConsumptionLineType
      *  Delivery
      *  Delivery
      *
-     * @param \UBL\Common\CAC\Delivery[] $delivery
+     * @param \App\UBL\Common\CAC\Delivery[] $delivery
      * @return self
      */
     public function setDelivery(?array $delivery = null)
@@ -499,9 +499,9 @@ class ConsumptionLineType
      *  Allowance Charge
      *
      * @return self
-     * @param \UBL\Common\CAC\AllowanceCharge $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge $allowanceCharge
      */
-    public function addToAllowanceCharge(\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
+    public function addToAllowanceCharge(\App\UBL\Common\CAC\AllowanceCharge $allowanceCharge)
     {
         $this->allowanceCharge[] = $allowanceCharge;
         return $this;
@@ -559,7 +559,7 @@ class ConsumptionLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @return \UBL\Common\CAC\AllowanceCharge[]
+     * @return \App\UBL\Common\CAC\AllowanceCharge[]
      */
     public function getAllowanceCharge()
     {
@@ -578,7 +578,7 @@ class ConsumptionLineType
      *  Allowance Charge
      *  Allowance Charge
      *
-     * @param \UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
+     * @param \App\UBL\Common\CAC\AllowanceCharge[] $allowanceCharge
      * @return self
      */
     public function setAllowanceCharge(?array $allowanceCharge = null)
@@ -600,9 +600,9 @@ class ConsumptionLineType
      *  Tax Total
      *
      * @return self
-     * @param \UBL\Common\CAC\TaxTotal $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal $taxTotal
      */
-    public function addToTaxTotal(\UBL\Common\CAC\TaxTotal $taxTotal)
+    public function addToTaxTotal(\App\UBL\Common\CAC\TaxTotal $taxTotal)
     {
         $this->taxTotal[] = $taxTotal;
         return $this;
@@ -660,7 +660,7 @@ class ConsumptionLineType
      *  Tax Total
      *  Tax Total
      *
-     * @return \UBL\Common\CAC\TaxTotal[]
+     * @return \App\UBL\Common\CAC\TaxTotal[]
      */
     public function getTaxTotal()
     {
@@ -679,7 +679,7 @@ class ConsumptionLineType
      *  Tax Total
      *  Tax Total
      *
-     * @param \UBL\Common\CAC\TaxTotal[] $taxTotal
+     * @param \App\UBL\Common\CAC\TaxTotal[] $taxTotal
      * @return self
      */
     public function setTaxTotal(?array $taxTotal = null)
@@ -700,7 +700,7 @@ class ConsumptionLineType
      *  Utility Item
      *  Utility Item
      *
-     * @return \UBL\Common\CAC\UtilityItem
+     * @return \App\UBL\Common\CAC\UtilityItem
      */
     public function getUtilityItem()
     {
@@ -719,10 +719,10 @@ class ConsumptionLineType
      *  Utility Item
      *  Utility Item
      *
-     * @param \UBL\Common\CAC\UtilityItem $utilityItem
+     * @param \App\UBL\Common\CAC\UtilityItem $utilityItem
      * @return self
      */
-    public function setUtilityItem(\UBL\Common\CAC\UtilityItem $utilityItem)
+    public function setUtilityItem(\App\UBL\Common\CAC\UtilityItem $utilityItem)
     {
         $this->utilityItem = $utilityItem;
         return $this;
@@ -740,7 +740,7 @@ class ConsumptionLineType
      *  Price
      *  Price
      *
-     * @return \UBL\Common\CAC\Price
+     * @return \App\UBL\Common\CAC\Price
      */
     public function getPrice()
     {
@@ -759,10 +759,10 @@ class ConsumptionLineType
      *  Price
      *  Price
      *
-     * @param \UBL\Common\CAC\Price $price
+     * @param \App\UBL\Common\CAC\Price $price
      * @return self
      */
-    public function setPrice(?\UBL\Common\CAC\Price $price = null)
+    public function setPrice(?\App\UBL\Common\CAC\Price $price = null)
     {
         $this->price = $price;
         return $this;
@@ -780,7 +780,7 @@ class ConsumptionLineType
      *  Unstructured Price
      *  Unstructured Price
      *
-     * @return \UBL\Common\CAC\UnstructuredPrice
+     * @return \App\UBL\Common\CAC\UnstructuredPrice
      */
     public function getUnstructuredPrice()
     {
@@ -799,14 +799,13 @@ class ConsumptionLineType
      *  Unstructured Price
      *  Unstructured Price
      *
-     * @param \UBL\Common\CAC\UnstructuredPrice $unstructuredPrice
+     * @param \App\UBL\Common\CAC\UnstructuredPrice $unstructuredPrice
      * @return self
      */
-    public function setUnstructuredPrice(?\UBL\Common\CAC\UnstructuredPrice $unstructuredPrice = null)
+    public function setUnstructuredPrice(?\App\UBL\Common\CAC\UnstructuredPrice $unstructuredPrice = null)
     {
         $this->unstructuredPrice = $unstructuredPrice;
         return $this;
     }
 }
-
 

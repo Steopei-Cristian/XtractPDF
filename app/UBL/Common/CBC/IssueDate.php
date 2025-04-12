@@ -2,6 +2,8 @@
 
 namespace App\UBL\Common\CBC;
 
+use JMS\Serializer\Annotation as JMS;
+
 /**
  * Class representing IssueDate
  */
@@ -9,6 +11,8 @@ class IssueDate
 {
     /**
      * @var \DateTime $__value
+     * @JMS\Type("DateTime<'Y-m-d'>")
+     * @JMS\XmlValue
      */
     private $__value = null;
 
@@ -17,9 +21,11 @@ class IssueDate
      *
      * @param \DateTime $value
      */
-    public function __construct(\DateTime $value)
+    public function __construct(\DateTime $value = null)
     {
-        $this->value($value);
+        if ($value !== null) {
+            $this->value($value);
+        }
     }
 
     /**
@@ -43,8 +49,7 @@ class IssueDate
      */
     public function __toString()
     {
-        return strval($this->__value);
+        return $this->__value ? $this->__value->format('Y-m-d') : '';
     }
 }
-
 

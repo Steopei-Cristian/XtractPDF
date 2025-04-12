@@ -9,4 +9,3 @@ class EncapsulatedPKIData extends EncapsulatedPKIDataType
 {
 }
 
-

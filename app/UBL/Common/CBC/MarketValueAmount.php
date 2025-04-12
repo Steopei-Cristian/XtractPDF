@@ -9,4 +9,3 @@ class MarketValueAmount extends MarketValueAmountType
 {
 }
 
-

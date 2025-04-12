@@ -9,4 +9,3 @@ class TransportationServiceDescription extends TransportationServiceDescriptionT
 {
 }
 
-

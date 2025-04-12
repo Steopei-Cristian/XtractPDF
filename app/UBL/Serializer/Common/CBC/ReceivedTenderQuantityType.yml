@@ -1,2 +1,2 @@
-UBL\Common\CBC\ReceivedTenderQuantityType:
+App\UBL\Common\CBC\ReceivedTenderQuantityType:
     properties: {  }

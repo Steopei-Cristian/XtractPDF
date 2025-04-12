@@ -1,4 +1,4 @@
-UBL\Common\CAC\ConsumptionPointType:
+App\UBL\Common\CAC\ConsumptionPointType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ConsumptionPointType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         description:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\ConsumptionPointType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         subscriberID:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\ConsumptionPointType:
             accessor:
                 getter: getSubscriberID
                 setter: setSubscriberID
-            type: UBL\Common\CBC\SubscriberID
+            type: App\UBL\Common\CBC\SubscriberID
         subscriberType:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\ConsumptionPointType:
             accessor:
                 getter: getSubscriberType
                 setter: setSubscriberType
-            type: UBL\Common\CBC\SubscriberType
+            type: App\UBL\Common\CBC\SubscriberType
         subscriberTypeCode:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\ConsumptionPointType:
             accessor:
                 getter: getSubscriberTypeCode
                 setter: setSubscriberTypeCode
-            type: UBL\Common\CBC\SubscriberTypeCode
+            type: App\UBL\Common\CBC\SubscriberTypeCode
         totalDeliveredQuantity:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\ConsumptionPointType:
             accessor:
                 getter: getTotalDeliveredQuantity
                 setter: setTotalDeliveredQuantity
-            type: UBL\Common\CBC\TotalDeliveredQuantity
+            type: App\UBL\Common\CBC\TotalDeliveredQuantity
         address:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\ConsumptionPointType:
             accessor:
                 getter: getAddress
                 setter: setAddress
-            type: UBL\Common\CAC\Address
+            type: App\UBL\Common\CAC\Address
         webSiteAccess:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\ConsumptionPointType:
             accessor:
                 getter: getWebSiteAccess
                 setter: setWebSiteAccess
-            type: UBL\Common\CAC\WebSiteAccess
+            type: App\UBL\Common\CAC\WebSiteAccess
         utilityMeter:
             expose: true
             access_type: public_method
@@ -97,4 +97,4 @@ UBL\Common\CAC\ConsumptionPointType:
                 inline: true
                 entry_name: UtilityMeter
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\UtilityMeter>
+            type: array<App\UBL\Common\CAC\UtilityMeter>

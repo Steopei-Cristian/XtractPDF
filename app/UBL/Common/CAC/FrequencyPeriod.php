@@ -9,4 +9,3 @@ class FrequencyPeriod extends PeriodType
 {
 }
 
-

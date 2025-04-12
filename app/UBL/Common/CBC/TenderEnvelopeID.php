@@ -9,4 +9,3 @@ class TenderEnvelopeID extends TenderEnvelopeIDType
 {
 }
 
-

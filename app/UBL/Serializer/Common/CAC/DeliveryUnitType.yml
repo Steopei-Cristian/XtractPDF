@@ -1,4 +1,4 @@
-UBL\Common\CAC\DeliveryUnitType:
+App\UBL\Common\CAC\DeliveryUnitType:
     properties:
         batchQuantity:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\DeliveryUnitType:
             accessor:
                 getter: getBatchQuantity
                 setter: setBatchQuantity
-            type: UBL\Common\CBC\BatchQuantity
+            type: App\UBL\Common\CBC\BatchQuantity
         consumerUnitQuantity:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\DeliveryUnitType:
             accessor:
                 getter: getConsumerUnitQuantity
                 setter: setConsumerUnitQuantity
-            type: UBL\Common\CBC\ConsumerUnitQuantity
+            type: App\UBL\Common\CBC\ConsumerUnitQuantity
         hazardousRiskIndicator:
             expose: true
             access_type: public_method

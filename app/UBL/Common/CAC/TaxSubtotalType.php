@@ -24,7 +24,7 @@ class TaxSubtotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\TaxableAmount $taxableAmount
+     * @var \App\UBL\Common\CBC\TaxableAmount $taxableAmount
      */
     private $taxableAmount = null;
 
@@ -38,7 +38,7 @@ class TaxSubtotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\TaxAmount $taxAmount
+     * @var \App\UBL\Common\CBC\TaxAmount $taxAmount
      */
     private $taxAmount = null;
 
@@ -52,7 +52,7 @@ class TaxSubtotalType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\CalculationSequenceNumeric $calculationSequenceNumeric
+     * @var \App\UBL\Common\CBC\CalculationSequenceNumeric $calculationSequenceNumeric
      */
     private $calculationSequenceNumeric = null;
 
@@ -67,7 +67,7 @@ class TaxSubtotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\TransactionCurrencyTaxAmount $transactionCurrencyTaxAmount
+     * @var \App\UBL\Common\CBC\TransactionCurrencyTaxAmount $transactionCurrencyTaxAmount
      */
     private $transactionCurrencyTaxAmount = null;
 
@@ -81,7 +81,7 @@ class TaxSubtotalType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\Percent $percent
+     * @var \App\UBL\Common\CBC\Percent $percent
      */
     private $percent = null;
 
@@ -95,7 +95,7 @@ class TaxSubtotalType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\BaseUnitMeasure $baseUnitMeasure
+     * @var \App\UBL\Common\CBC\BaseUnitMeasure $baseUnitMeasure
      */
     private $baseUnitMeasure = null;
 
@@ -110,7 +110,7 @@ class TaxSubtotalType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\PerUnitAmount $perUnitAmount
+     * @var \App\UBL\Common\CBC\PerUnitAmount $perUnitAmount
      */
     private $perUnitAmount = null;
 
@@ -124,7 +124,7 @@ class TaxSubtotalType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\TierRange $tierRange
+     * @var \App\UBL\Common\CBC\TierRange $tierRange
      */
     private $tierRange = null;
 
@@ -138,7 +138,7 @@ class TaxSubtotalType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\TierRatePercent $tierRatePercent
+     * @var \App\UBL\Common\CBC\TierRatePercent $tierRatePercent
      */
     private $tierRatePercent = null;
 
@@ -152,7 +152,7 @@ class TaxSubtotalType
      *  Tax Category
      *  Tax Category
      *
-     * @var \UBL\Common\CAC\TaxCategory $taxCategory
+     * @var \App\UBL\Common\CAC\TaxCategory $taxCategory
      */
     private $taxCategory = null;
 
@@ -169,7 +169,7 @@ class TaxSubtotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\TaxableAmount
+     * @return \App\UBL\Common\CBC\TaxableAmount
      */
     public function getTaxableAmount()
     {
@@ -189,10 +189,10 @@ class TaxSubtotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\TaxableAmount $taxableAmount
+     * @param \App\UBL\Common\CBC\TaxableAmount $taxableAmount
      * @return self
      */
-    public function setTaxableAmount(?\UBL\Common\CBC\TaxableAmount $taxableAmount = null)
+    public function setTaxableAmount(?\App\UBL\Common\CBC\TaxableAmount $taxableAmount = null)
     {
         $this->taxableAmount = $taxableAmount;
         return $this;
@@ -210,7 +210,7 @@ class TaxSubtotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\TaxAmount
+     * @return \App\UBL\Common\CBC\TaxAmount
      */
     public function getTaxAmount()
     {
@@ -229,10 +229,10 @@ class TaxSubtotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\TaxAmount $taxAmount
+     * @param \App\UBL\Common\CBC\TaxAmount $taxAmount
      * @return self
      */
-    public function setTaxAmount(\UBL\Common\CBC\TaxAmount $taxAmount)
+    public function setTaxAmount(\App\UBL\Common\CBC\TaxAmount $taxAmount)
     {
         $this->taxAmount = $taxAmount;
         return $this;
@@ -250,7 +250,7 @@ class TaxSubtotalType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\CalculationSequenceNumeric
+     * @return \App\UBL\Common\CBC\CalculationSequenceNumeric
      */
     public function getCalculationSequenceNumeric()
     {
@@ -269,10 +269,10 @@ class TaxSubtotalType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\CalculationSequenceNumeric $calculationSequenceNumeric
+     * @param \App\UBL\Common\CBC\CalculationSequenceNumeric $calculationSequenceNumeric
      * @return self
      */
-    public function setCalculationSequenceNumeric(?\UBL\Common\CBC\CalculationSequenceNumeric $calculationSequenceNumeric = null)
+    public function setCalculationSequenceNumeric(?\App\UBL\Common\CBC\CalculationSequenceNumeric $calculationSequenceNumeric = null)
     {
         $this->calculationSequenceNumeric = $calculationSequenceNumeric;
         return $this;
@@ -291,7 +291,7 @@ class TaxSubtotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\TransactionCurrencyTaxAmount
+     * @return \App\UBL\Common\CBC\TransactionCurrencyTaxAmount
      */
     public function getTransactionCurrencyTaxAmount()
     {
@@ -311,10 +311,10 @@ class TaxSubtotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\TransactionCurrencyTaxAmount $transactionCurrencyTaxAmount
+     * @param \App\UBL\Common\CBC\TransactionCurrencyTaxAmount $transactionCurrencyTaxAmount
      * @return self
      */
-    public function setTransactionCurrencyTaxAmount(?\UBL\Common\CBC\TransactionCurrencyTaxAmount $transactionCurrencyTaxAmount = null)
+    public function setTransactionCurrencyTaxAmount(?\App\UBL\Common\CBC\TransactionCurrencyTaxAmount $transactionCurrencyTaxAmount = null)
     {
         $this->transactionCurrencyTaxAmount = $transactionCurrencyTaxAmount;
         return $this;
@@ -332,7 +332,7 @@ class TaxSubtotalType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\Percent
+     * @return \App\UBL\Common\CBC\Percent
      */
     public function getPercent()
     {
@@ -351,10 +351,10 @@ class TaxSubtotalType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\Percent $percent
+     * @param \App\UBL\Common\CBC\Percent $percent
      * @return self
      */
-    public function setPercent(?\UBL\Common\CBC\Percent $percent = null)
+    public function setPercent(?\App\UBL\Common\CBC\Percent $percent = null)
     {
         $this->percent = $percent;
         return $this;
@@ -372,7 +372,7 @@ class TaxSubtotalType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\BaseUnitMeasure
+     * @return \App\UBL\Common\CBC\BaseUnitMeasure
      */
     public function getBaseUnitMeasure()
     {
@@ -391,10 +391,10 @@ class TaxSubtotalType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\BaseUnitMeasure $baseUnitMeasure
+     * @param \App\UBL\Common\CBC\BaseUnitMeasure $baseUnitMeasure
      * @return self
      */
-    public function setBaseUnitMeasure(?\UBL\Common\CBC\BaseUnitMeasure $baseUnitMeasure = null)
+    public function setBaseUnitMeasure(?\App\UBL\Common\CBC\BaseUnitMeasure $baseUnitMeasure = null)
     {
         $this->baseUnitMeasure = $baseUnitMeasure;
         return $this;
@@ -413,7 +413,7 @@ class TaxSubtotalType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\PerUnitAmount
+     * @return \App\UBL\Common\CBC\PerUnitAmount
      */
     public function getPerUnitAmount()
     {
@@ -433,10 +433,10 @@ class TaxSubtotalType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\PerUnitAmount $perUnitAmount
+     * @param \App\UBL\Common\CBC\PerUnitAmount $perUnitAmount
      * @return self
      */
-    public function setPerUnitAmount(?\UBL\Common\CBC\PerUnitAmount $perUnitAmount = null)
+    public function setPerUnitAmount(?\App\UBL\Common\CBC\PerUnitAmount $perUnitAmount = null)
     {
         $this->perUnitAmount = $perUnitAmount;
         return $this;
@@ -454,7 +454,7 @@ class TaxSubtotalType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\TierRange
+     * @return \App\UBL\Common\CBC\TierRange
      */
     public function getTierRange()
     {
@@ -473,10 +473,10 @@ class TaxSubtotalType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\TierRange $tierRange
+     * @param \App\UBL\Common\CBC\TierRange $tierRange
      * @return self
      */
-    public function setTierRange(?\UBL\Common\CBC\TierRange $tierRange = null)
+    public function setTierRange(?\App\UBL\Common\CBC\TierRange $tierRange = null)
     {
         $this->tierRange = $tierRange;
         return $this;
@@ -494,7 +494,7 @@ class TaxSubtotalType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\TierRatePercent
+     * @return \App\UBL\Common\CBC\TierRatePercent
      */
     public function getTierRatePercent()
     {
@@ -513,10 +513,10 @@ class TaxSubtotalType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\TierRatePercent $tierRatePercent
+     * @param \App\UBL\Common\CBC\TierRatePercent $tierRatePercent
      * @return self
      */
-    public function setTierRatePercent(?\UBL\Common\CBC\TierRatePercent $tierRatePercent = null)
+    public function setTierRatePercent(?\App\UBL\Common\CBC\TierRatePercent $tierRatePercent = null)
     {
         $this->tierRatePercent = $tierRatePercent;
         return $this;
@@ -534,7 +534,7 @@ class TaxSubtotalType
      *  Tax Category
      *  Tax Category
      *
-     * @return \UBL\Common\CAC\TaxCategory
+     * @return \App\UBL\Common\CAC\TaxCategory
      */
     public function getTaxCategory()
     {
@@ -553,14 +553,13 @@ class TaxSubtotalType
      *  Tax Category
      *  Tax Category
      *
-     * @param \UBL\Common\CAC\TaxCategory $taxCategory
+     * @param \App\UBL\Common\CAC\TaxCategory $taxCategory
      * @return self
      */
-    public function setTaxCategory(\UBL\Common\CAC\TaxCategory $taxCategory)
+    public function setTaxCategory(\App\UBL\Common\CAC\TaxCategory $taxCategory)
     {
         $this->taxCategory = $taxCategory;
         return $this;
     }
 }
-
 

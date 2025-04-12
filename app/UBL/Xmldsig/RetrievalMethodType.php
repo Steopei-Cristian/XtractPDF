@@ -21,7 +21,7 @@ class RetrievalMethodType
     private $type = null;
 
     /**
-     * @var \UBL\Xmldsig\Transform[] $transforms
+     * @var \App\UBL\Xmldsig\Transform[] $transforms
      */
     private $transforms = null;
 
@@ -73,9 +73,9 @@ class RetrievalMethodType
      * Adds as transform
      *
      * @return self
-     * @param \UBL\Xmldsig\Transform $transform
+     * @param \App\UBL\Xmldsig\Transform $transform
      */
-    public function addToTransforms(\UBL\Xmldsig\Transform $transform)
+    public function addToTransforms(\App\UBL\Xmldsig\Transform $transform)
     {
         $this->transforms[] = $transform;
         return $this;
@@ -106,7 +106,7 @@ class RetrievalMethodType
     /**
      * Gets as transforms
      *
-     * @return \UBL\Xmldsig\Transform[]
+     * @return \App\UBL\Xmldsig\Transform[]
      */
     public function getTransforms()
     {
@@ -116,7 +116,7 @@ class RetrievalMethodType
     /**
      * Sets a new transforms
      *
-     * @param \UBL\Xmldsig\Transform[] $transforms
+     * @param \App\UBL\Xmldsig\Transform[] $transforms
      * @return self
      */
     public function setTransforms(?array $transforms = null)
@@ -125,5 +125,4 @@ class RetrievalMethodType
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class PartyCapacityAmount extends PartyCapacityAmountType
 {
 }
 
-

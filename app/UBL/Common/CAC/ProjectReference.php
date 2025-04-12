@@ -9,4 +9,3 @@ class ProjectReference extends ProjectReferenceType
 {
 }
 
-

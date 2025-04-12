@@ -1,4 +1,4 @@
-UBL\Common\CBC\ReturnableMaterialIndicator:
+App\UBL\Common\CBC\ReturnableMaterialIndicator:
     xml_root_name: ReturnableMaterialIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

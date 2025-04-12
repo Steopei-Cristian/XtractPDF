@@ -9,4 +9,3 @@ class FinancialCapability extends CapabilityType
 {
 }
 
-

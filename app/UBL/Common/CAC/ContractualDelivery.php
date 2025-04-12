@@ -9,4 +9,3 @@ class ContractualDelivery extends DeliveryType
 {
 }
 
-

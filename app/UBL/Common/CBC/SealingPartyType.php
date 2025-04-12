@@ -9,4 +9,3 @@ class SealingPartyType extends SealingPartyTypeType
 {
 }
 
-

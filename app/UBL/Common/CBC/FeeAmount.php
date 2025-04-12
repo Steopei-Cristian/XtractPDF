@@ -9,4 +9,3 @@ class FeeAmount extends FeeAmountType
 {
 }
 
-

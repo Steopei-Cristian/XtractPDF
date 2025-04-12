@@ -1,2 +1,2 @@
-UBL\Common\CBC\SignatureMethodType:
+App\UBL\Common\CBC\SignatureMethodType:
     properties: {  }

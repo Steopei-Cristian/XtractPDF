@@ -9,4 +9,3 @@ class RelatedItem extends RelatedItemType
 {
 }
 
-

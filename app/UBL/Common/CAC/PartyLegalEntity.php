@@ -9,4 +9,3 @@ class PartyLegalEntity extends PartyLegalEntityType
 {
 }
 
-

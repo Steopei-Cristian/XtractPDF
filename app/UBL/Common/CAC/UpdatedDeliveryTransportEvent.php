@@ -9,4 +9,3 @@ class UpdatedDeliveryTransportEvent extends TransportEventType
 {
 }
 
-

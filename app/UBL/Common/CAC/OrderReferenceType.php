@@ -24,7 +24,7 @@ class OrderReferenceType
      *  Identifier. Type
      *  PO-001 3333-44-123
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class OrderReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\SalesOrderID $salesOrderID
+     * @var \App\UBL\Common\CBC\SalesOrderID $salesOrderID
      */
     private $salesOrderID = null;
 
@@ -68,7 +68,7 @@ class OrderReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -111,7 +111,7 @@ class OrderReferenceType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\CustomerReference $customerReference
+     * @var \App\UBL\Common\CBC\CustomerReference $customerReference
      */
     private $customerReference = null;
 
@@ -125,7 +125,7 @@ class OrderReferenceType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\OrderTypeCode $orderTypeCode
+     * @var \App\UBL\Common\CBC\OrderTypeCode $orderTypeCode
      */
     private $orderTypeCode = null;
 
@@ -139,7 +139,7 @@ class OrderReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference $documentReference
      */
     private $documentReference = null;
 
@@ -156,7 +156,7 @@ class OrderReferenceType
      *  Identifier. Type
      *  PO-001 3333-44-123
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -176,10 +176,10 @@ class OrderReferenceType
      *  Identifier. Type
      *  PO-001 3333-44-123
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -198,7 +198,7 @@ class OrderReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\SalesOrderID
+     * @return \App\UBL\Common\CBC\SalesOrderID
      */
     public function getSalesOrderID()
     {
@@ -218,10 +218,10 @@ class OrderReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\SalesOrderID $salesOrderID
+     * @param \App\UBL\Common\CBC\SalesOrderID $salesOrderID
      * @return self
      */
-    public function setSalesOrderID(?\UBL\Common\CBC\SalesOrderID $salesOrderID = null)
+    public function setSalesOrderID(?\App\UBL\Common\CBC\SalesOrderID $salesOrderID = null)
     {
         $this->salesOrderID = $salesOrderID;
         return $this;
@@ -281,7 +281,7 @@ class OrderReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -300,10 +300,10 @@ class OrderReferenceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -402,7 +402,7 @@ class OrderReferenceType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\CustomerReference
+     * @return \App\UBL\Common\CBC\CustomerReference
      */
     public function getCustomerReference()
     {
@@ -422,10 +422,10 @@ class OrderReferenceType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\CustomerReference $customerReference
+     * @param \App\UBL\Common\CBC\CustomerReference $customerReference
      * @return self
      */
-    public function setCustomerReference(?\UBL\Common\CBC\CustomerReference $customerReference = null)
+    public function setCustomerReference(?\App\UBL\Common\CBC\CustomerReference $customerReference = null)
     {
         $this->customerReference = $customerReference;
         return $this;
@@ -443,7 +443,7 @@ class OrderReferenceType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\OrderTypeCode
+     * @return \App\UBL\Common\CBC\OrderTypeCode
      */
     public function getOrderTypeCode()
     {
@@ -462,10 +462,10 @@ class OrderReferenceType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\OrderTypeCode $orderTypeCode
+     * @param \App\UBL\Common\CBC\OrderTypeCode $orderTypeCode
      * @return self
      */
-    public function setOrderTypeCode(?\UBL\Common\CBC\OrderTypeCode $orderTypeCode = null)
+    public function setOrderTypeCode(?\App\UBL\Common\CBC\OrderTypeCode $orderTypeCode = null)
     {
         $this->orderTypeCode = $orderTypeCode;
         return $this;
@@ -483,7 +483,7 @@ class OrderReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference
+     * @return \App\UBL\Common\CAC\DocumentReference
      */
     public function getDocumentReference()
     {
@@ -502,14 +502,13 @@ class OrderReferenceType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      * @return self
      */
-    public function setDocumentReference(?\UBL\Common\CAC\DocumentReference $documentReference = null)
+    public function setDocumentReference(?\App\UBL\Common\CAC\DocumentReference $documentReference = null)
     {
         $this->documentReference = $documentReference;
         return $this;
     }
 }
-
 

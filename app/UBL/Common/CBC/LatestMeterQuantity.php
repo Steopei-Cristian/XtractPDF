@@ -9,4 +9,3 @@ class LatestMeterQuantity extends LatestMeterQuantityType
 {
 }
 
-

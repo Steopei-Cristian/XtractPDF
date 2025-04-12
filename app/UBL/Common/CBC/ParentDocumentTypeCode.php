@@ -9,4 +9,3 @@ class ParentDocumentTypeCode extends ParentDocumentTypeCodeType
 {
 }
 
-

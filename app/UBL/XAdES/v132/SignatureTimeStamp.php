@@ -9,4 +9,3 @@ class SignatureTimeStamp extends XAdESTimeStampType
 {
 }
 
-

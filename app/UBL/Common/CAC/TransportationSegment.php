@@ -9,4 +9,3 @@ class TransportationSegment extends TransportationSegmentType
 {
 }
 
-

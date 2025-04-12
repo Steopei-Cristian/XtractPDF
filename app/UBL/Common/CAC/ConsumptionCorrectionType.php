@@ -24,7 +24,7 @@ class ConsumptionCorrectionType
      *  Text. Type
      *  Heating Correction
      *
-     * @var \UBL\Common\CBC\CorrectionType $correctionType
+     * @var \App\UBL\Common\CBC\CorrectionType $correctionType
      */
     private $correctionType = null;
 
@@ -39,7 +39,7 @@ class ConsumptionCorrectionType
      *  Code. Type
      *  HeatingCorrection
      *
-     * @var \UBL\Common\CBC\CorrectionTypeCode $correctionTypeCode
+     * @var \App\UBL\Common\CBC\CorrectionTypeCode $correctionTypeCode
      */
     private $correctionTypeCode = null;
 
@@ -54,7 +54,7 @@ class ConsumptionCorrectionType
      *  Text. Type
      *  530071575
      *
-     * @var \UBL\Common\CBC\MeterNumber $meterNumber
+     * @var \App\UBL\Common\CBC\MeterNumber $meterNumber
      */
     private $meterNumber = null;
 
@@ -68,7 +68,7 @@ class ConsumptionCorrectionType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\GasPressureQuantity $gasPressureQuantity
+     * @var \App\UBL\Common\CBC\GasPressureQuantity $gasPressureQuantity
      */
     private $gasPressureQuantity = null;
 
@@ -84,7 +84,7 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  -36.69
      *
-     * @var \UBL\Common\CBC\ActualTemperatureReductionQuantity $actualTemperatureReductionQuantity
+     * @var \App\UBL\Common\CBC\ActualTemperatureReductionQuantity $actualTemperatureReductionQuantity
      */
     private $actualTemperatureReductionQuantity = null;
 
@@ -100,7 +100,7 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  -37.00
      *
-     * @var \UBL\Common\CBC\NormalTemperatureReductionQuantity $normalTemperatureReductionQuantity
+     * @var \App\UBL\Common\CBC\NormalTemperatureReductionQuantity $normalTemperatureReductionQuantity
      */
     private $normalTemperatureReductionQuantity = null;
 
@@ -116,7 +116,7 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  0.31
      *
-     * @var \UBL\Common\CBC\DifferenceTemperatureReductionQuantity $differenceTemperatureReductionQuantity
+     * @var \App\UBL\Common\CBC\DifferenceTemperatureReductionQuantity $differenceTemperatureReductionQuantity
      */
     private $differenceTemperatureReductionQuantity = null;
 
@@ -130,7 +130,7 @@ class ConsumptionCorrectionType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -147,7 +147,7 @@ class ConsumptionCorrectionType
      *  Amount. Type
      *  0.0000
      *
-     * @var \UBL\Common\CBC\CorrectionUnitAmount $correctionUnitAmount
+     * @var \App\UBL\Common\CBC\CorrectionUnitAmount $correctionUnitAmount
      */
     private $correctionUnitAmount = null;
 
@@ -162,7 +162,7 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  563.6240
      *
-     * @var \UBL\Common\CBC\ConsumptionEnergyQuantity $consumptionEnergyQuantity
+     * @var \App\UBL\Common\CBC\ConsumptionEnergyQuantity $consumptionEnergyQuantity
      */
     private $consumptionEnergyQuantity = null;
 
@@ -177,7 +177,7 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  13212.14
      *
-     * @var \UBL\Common\CBC\ConsumptionWaterQuantity $consumptionWaterQuantity
+     * @var \App\UBL\Common\CBC\ConsumptionWaterQuantity $consumptionWaterQuantity
      */
     private $consumptionWaterQuantity = null;
 
@@ -192,7 +192,7 @@ class ConsumptionCorrectionType
      *  Amount. Type
      *  0.00
      *
-     * @var \UBL\Common\CBC\CorrectionAmount $correctionAmount
+     * @var \App\UBL\Common\CBC\CorrectionAmount $correctionAmount
      */
     private $correctionAmount = null;
 
@@ -209,7 +209,7 @@ class ConsumptionCorrectionType
      *  Text. Type
      *  Heating Correction
      *
-     * @return \UBL\Common\CBC\CorrectionType
+     * @return \App\UBL\Common\CBC\CorrectionType
      */
     public function getCorrectionType()
     {
@@ -229,10 +229,10 @@ class ConsumptionCorrectionType
      *  Text. Type
      *  Heating Correction
      *
-     * @param \UBL\Common\CBC\CorrectionType $correctionType
+     * @param \App\UBL\Common\CBC\CorrectionType $correctionType
      * @return self
      */
-    public function setCorrectionType(?\UBL\Common\CBC\CorrectionType $correctionType = null)
+    public function setCorrectionType(?\App\UBL\Common\CBC\CorrectionType $correctionType = null)
     {
         $this->correctionType = $correctionType;
         return $this;
@@ -251,7 +251,7 @@ class ConsumptionCorrectionType
      *  Code. Type
      *  HeatingCorrection
      *
-     * @return \UBL\Common\CBC\CorrectionTypeCode
+     * @return \App\UBL\Common\CBC\CorrectionTypeCode
      */
     public function getCorrectionTypeCode()
     {
@@ -271,10 +271,10 @@ class ConsumptionCorrectionType
      *  Code. Type
      *  HeatingCorrection
      *
-     * @param \UBL\Common\CBC\CorrectionTypeCode $correctionTypeCode
+     * @param \App\UBL\Common\CBC\CorrectionTypeCode $correctionTypeCode
      * @return self
      */
-    public function setCorrectionTypeCode(?\UBL\Common\CBC\CorrectionTypeCode $correctionTypeCode = null)
+    public function setCorrectionTypeCode(?\App\UBL\Common\CBC\CorrectionTypeCode $correctionTypeCode = null)
     {
         $this->correctionTypeCode = $correctionTypeCode;
         return $this;
@@ -293,7 +293,7 @@ class ConsumptionCorrectionType
      *  Text. Type
      *  530071575
      *
-     * @return \UBL\Common\CBC\MeterNumber
+     * @return \App\UBL\Common\CBC\MeterNumber
      */
     public function getMeterNumber()
     {
@@ -313,10 +313,10 @@ class ConsumptionCorrectionType
      *  Text. Type
      *  530071575
      *
-     * @param \UBL\Common\CBC\MeterNumber $meterNumber
+     * @param \App\UBL\Common\CBC\MeterNumber $meterNumber
      * @return self
      */
-    public function setMeterNumber(?\UBL\Common\CBC\MeterNumber $meterNumber = null)
+    public function setMeterNumber(?\App\UBL\Common\CBC\MeterNumber $meterNumber = null)
     {
         $this->meterNumber = $meterNumber;
         return $this;
@@ -334,7 +334,7 @@ class ConsumptionCorrectionType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\GasPressureQuantity
+     * @return \App\UBL\Common\CBC\GasPressureQuantity
      */
     public function getGasPressureQuantity()
     {
@@ -353,10 +353,10 @@ class ConsumptionCorrectionType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\GasPressureQuantity $gasPressureQuantity
+     * @param \App\UBL\Common\CBC\GasPressureQuantity $gasPressureQuantity
      * @return self
      */
-    public function setGasPressureQuantity(?\UBL\Common\CBC\GasPressureQuantity $gasPressureQuantity = null)
+    public function setGasPressureQuantity(?\App\UBL\Common\CBC\GasPressureQuantity $gasPressureQuantity = null)
     {
         $this->gasPressureQuantity = $gasPressureQuantity;
         return $this;
@@ -376,7 +376,7 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  -36.69
      *
-     * @return \UBL\Common\CBC\ActualTemperatureReductionQuantity
+     * @return \App\UBL\Common\CBC\ActualTemperatureReductionQuantity
      */
     public function getActualTemperatureReductionQuantity()
     {
@@ -397,10 +397,10 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  -36.69
      *
-     * @param \UBL\Common\CBC\ActualTemperatureReductionQuantity $actualTemperatureReductionQuantity
+     * @param \App\UBL\Common\CBC\ActualTemperatureReductionQuantity $actualTemperatureReductionQuantity
      * @return self
      */
-    public function setActualTemperatureReductionQuantity(?\UBL\Common\CBC\ActualTemperatureReductionQuantity $actualTemperatureReductionQuantity = null)
+    public function setActualTemperatureReductionQuantity(?\App\UBL\Common\CBC\ActualTemperatureReductionQuantity $actualTemperatureReductionQuantity = null)
     {
         $this->actualTemperatureReductionQuantity = $actualTemperatureReductionQuantity;
         return $this;
@@ -420,7 +420,7 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  -37.00
      *
-     * @return \UBL\Common\CBC\NormalTemperatureReductionQuantity
+     * @return \App\UBL\Common\CBC\NormalTemperatureReductionQuantity
      */
     public function getNormalTemperatureReductionQuantity()
     {
@@ -441,10 +441,10 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  -37.00
      *
-     * @param \UBL\Common\CBC\NormalTemperatureReductionQuantity $normalTemperatureReductionQuantity
+     * @param \App\UBL\Common\CBC\NormalTemperatureReductionQuantity $normalTemperatureReductionQuantity
      * @return self
      */
-    public function setNormalTemperatureReductionQuantity(?\UBL\Common\CBC\NormalTemperatureReductionQuantity $normalTemperatureReductionQuantity = null)
+    public function setNormalTemperatureReductionQuantity(?\App\UBL\Common\CBC\NormalTemperatureReductionQuantity $normalTemperatureReductionQuantity = null)
     {
         $this->normalTemperatureReductionQuantity = $normalTemperatureReductionQuantity;
         return $this;
@@ -464,7 +464,7 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  0.31
      *
-     * @return \UBL\Common\CBC\DifferenceTemperatureReductionQuantity
+     * @return \App\UBL\Common\CBC\DifferenceTemperatureReductionQuantity
      */
     public function getDifferenceTemperatureReductionQuantity()
     {
@@ -485,10 +485,10 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  0.31
      *
-     * @param \UBL\Common\CBC\DifferenceTemperatureReductionQuantity $differenceTemperatureReductionQuantity
+     * @param \App\UBL\Common\CBC\DifferenceTemperatureReductionQuantity $differenceTemperatureReductionQuantity
      * @return self
      */
-    public function setDifferenceTemperatureReductionQuantity(?\UBL\Common\CBC\DifferenceTemperatureReductionQuantity $differenceTemperatureReductionQuantity = null)
+    public function setDifferenceTemperatureReductionQuantity(?\App\UBL\Common\CBC\DifferenceTemperatureReductionQuantity $differenceTemperatureReductionQuantity = null)
     {
         $this->differenceTemperatureReductionQuantity = $differenceTemperatureReductionQuantity;
         return $this;
@@ -507,9 +507,9 @@ class ConsumptionCorrectionType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -567,7 +567,7 @@ class ConsumptionCorrectionType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -586,7 +586,7 @@ class ConsumptionCorrectionType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -608,7 +608,7 @@ class ConsumptionCorrectionType
      *  Amount. Type
      *  0.0000
      *
-     * @return \UBL\Common\CBC\CorrectionUnitAmount
+     * @return \App\UBL\Common\CBC\CorrectionUnitAmount
      */
     public function getCorrectionUnitAmount()
     {
@@ -628,10 +628,10 @@ class ConsumptionCorrectionType
      *  Amount. Type
      *  0.0000
      *
-     * @param \UBL\Common\CBC\CorrectionUnitAmount $correctionUnitAmount
+     * @param \App\UBL\Common\CBC\CorrectionUnitAmount $correctionUnitAmount
      * @return self
      */
-    public function setCorrectionUnitAmount(?\UBL\Common\CBC\CorrectionUnitAmount $correctionUnitAmount = null)
+    public function setCorrectionUnitAmount(?\App\UBL\Common\CBC\CorrectionUnitAmount $correctionUnitAmount = null)
     {
         $this->correctionUnitAmount = $correctionUnitAmount;
         return $this;
@@ -650,7 +650,7 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  563.6240
      *
-     * @return \UBL\Common\CBC\ConsumptionEnergyQuantity
+     * @return \App\UBL\Common\CBC\ConsumptionEnergyQuantity
      */
     public function getConsumptionEnergyQuantity()
     {
@@ -670,10 +670,10 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  563.6240
      *
-     * @param \UBL\Common\CBC\ConsumptionEnergyQuantity $consumptionEnergyQuantity
+     * @param \App\UBL\Common\CBC\ConsumptionEnergyQuantity $consumptionEnergyQuantity
      * @return self
      */
-    public function setConsumptionEnergyQuantity(?\UBL\Common\CBC\ConsumptionEnergyQuantity $consumptionEnergyQuantity = null)
+    public function setConsumptionEnergyQuantity(?\App\UBL\Common\CBC\ConsumptionEnergyQuantity $consumptionEnergyQuantity = null)
     {
         $this->consumptionEnergyQuantity = $consumptionEnergyQuantity;
         return $this;
@@ -692,7 +692,7 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  13212.14
      *
-     * @return \UBL\Common\CBC\ConsumptionWaterQuantity
+     * @return \App\UBL\Common\CBC\ConsumptionWaterQuantity
      */
     public function getConsumptionWaterQuantity()
     {
@@ -712,10 +712,10 @@ class ConsumptionCorrectionType
      *  Quantity. Type
      *  13212.14
      *
-     * @param \UBL\Common\CBC\ConsumptionWaterQuantity $consumptionWaterQuantity
+     * @param \App\UBL\Common\CBC\ConsumptionWaterQuantity $consumptionWaterQuantity
      * @return self
      */
-    public function setConsumptionWaterQuantity(?\UBL\Common\CBC\ConsumptionWaterQuantity $consumptionWaterQuantity = null)
+    public function setConsumptionWaterQuantity(?\App\UBL\Common\CBC\ConsumptionWaterQuantity $consumptionWaterQuantity = null)
     {
         $this->consumptionWaterQuantity = $consumptionWaterQuantity;
         return $this;
@@ -734,7 +734,7 @@ class ConsumptionCorrectionType
      *  Amount. Type
      *  0.00
      *
-     * @return \UBL\Common\CBC\CorrectionAmount
+     * @return \App\UBL\Common\CBC\CorrectionAmount
      */
     public function getCorrectionAmount()
     {
@@ -754,14 +754,13 @@ class ConsumptionCorrectionType
      *  Amount. Type
      *  0.00
      *
-     * @param \UBL\Common\CBC\CorrectionAmount $correctionAmount
+     * @param \App\UBL\Common\CBC\CorrectionAmount $correctionAmount
      * @return self
      */
-    public function setCorrectionAmount(?\UBL\Common\CBC\CorrectionAmount $correctionAmount = null)
+    public function setCorrectionAmount(?\App\UBL\Common\CBC\CorrectionAmount $correctionAmount = null)
     {
         $this->correctionAmount = $correctionAmount;
         return $this;
     }
 }
-
 

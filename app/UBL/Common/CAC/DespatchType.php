@@ -23,7 +23,7 @@ class DespatchType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -157,7 +157,7 @@ class DespatchType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ReleaseID $releaseID
+     * @var \App\UBL\Common\CBC\ReleaseID $releaseID
      */
     private $releaseID = null;
 
@@ -171,7 +171,7 @@ class DespatchType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Instructions[] $instructions
+     * @var \App\UBL\Common\CBC\Instructions[] $instructions
      */
     private $instructions = [
         
@@ -188,7 +188,7 @@ class DespatchType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\DespatchAddress $despatchAddress
+     * @var \App\UBL\Common\CAC\DespatchAddress $despatchAddress
      */
     private $despatchAddress = null;
 
@@ -203,7 +203,7 @@ class DespatchType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\DespatchLocation $despatchLocation
+     * @var \App\UBL\Common\CAC\DespatchLocation $despatchLocation
      */
     private $despatchLocation = null;
 
@@ -218,7 +218,7 @@ class DespatchType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\DespatchParty $despatchParty
+     * @var \App\UBL\Common\CAC\DespatchParty $despatchParty
      */
     private $despatchParty = null;
 
@@ -233,7 +233,7 @@ class DespatchType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\CarrierParty $carrierParty
+     * @var \App\UBL\Common\CAC\CarrierParty $carrierParty
      */
     private $carrierParty = null;
 
@@ -248,7 +248,7 @@ class DespatchType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\NotifyParty[] $notifyParty
+     * @var \App\UBL\Common\CAC\NotifyParty[] $notifyParty
      */
     private $notifyParty = [
         
@@ -264,7 +264,7 @@ class DespatchType
      *  Contact
      *  Contact
      *
-     * @var \UBL\Common\CAC\Contact $contact
+     * @var \App\UBL\Common\CAC\Contact $contact
      */
     private $contact = null;
 
@@ -279,7 +279,7 @@ class DespatchType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\EstimatedDespatchPeriod $estimatedDespatchPeriod
+     * @var \App\UBL\Common\CAC\EstimatedDespatchPeriod $estimatedDespatchPeriod
      */
     private $estimatedDespatchPeriod = null;
 
@@ -294,7 +294,7 @@ class DespatchType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\RequestedDespatchPeriod $requestedDespatchPeriod
+     * @var \App\UBL\Common\CAC\RequestedDespatchPeriod $requestedDespatchPeriod
      */
     private $requestedDespatchPeriod = null;
 
@@ -310,7 +310,7 @@ class DespatchType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -329,10 +329,10 @@ class DespatchType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -686,7 +686,7 @@ class DespatchType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ReleaseID
+     * @return \App\UBL\Common\CBC\ReleaseID
      */
     public function getReleaseID()
     {
@@ -705,10 +705,10 @@ class DespatchType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ReleaseID $releaseID
+     * @param \App\UBL\Common\CBC\ReleaseID $releaseID
      * @return self
      */
-    public function setReleaseID(?\UBL\Common\CBC\ReleaseID $releaseID = null)
+    public function setReleaseID(?\App\UBL\Common\CBC\ReleaseID $releaseID = null)
     {
         $this->releaseID = $releaseID;
         return $this;
@@ -727,9 +727,9 @@ class DespatchType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Instructions $instructions
+     * @param \App\UBL\Common\CBC\Instructions $instructions
      */
-    public function addToInstructions(\UBL\Common\CBC\Instructions $instructions)
+    public function addToInstructions(\App\UBL\Common\CBC\Instructions $instructions)
     {
         $this->instructions[] = $instructions;
         return $this;
@@ -787,7 +787,7 @@ class DespatchType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Instructions[]
+     * @return \App\UBL\Common\CBC\Instructions[]
      */
     public function getInstructions()
     {
@@ -806,7 +806,7 @@ class DespatchType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Instructions[] $instructions
+     * @param \App\UBL\Common\CBC\Instructions[] $instructions
      * @return self
      */
     public function setInstructions(?array $instructions = null)
@@ -828,7 +828,7 @@ class DespatchType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\DespatchAddress
+     * @return \App\UBL\Common\CAC\DespatchAddress
      */
     public function getDespatchAddress()
     {
@@ -848,10 +848,10 @@ class DespatchType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\DespatchAddress $despatchAddress
+     * @param \App\UBL\Common\CAC\DespatchAddress $despatchAddress
      * @return self
      */
-    public function setDespatchAddress(?\UBL\Common\CAC\DespatchAddress $despatchAddress = null)
+    public function setDespatchAddress(?\App\UBL\Common\CAC\DespatchAddress $despatchAddress = null)
     {
         $this->despatchAddress = $despatchAddress;
         return $this;
@@ -870,7 +870,7 @@ class DespatchType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\DespatchLocation
+     * @return \App\UBL\Common\CAC\DespatchLocation
      */
     public function getDespatchLocation()
     {
@@ -890,10 +890,10 @@ class DespatchType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\DespatchLocation $despatchLocation
+     * @param \App\UBL\Common\CAC\DespatchLocation $despatchLocation
      * @return self
      */
-    public function setDespatchLocation(?\UBL\Common\CAC\DespatchLocation $despatchLocation = null)
+    public function setDespatchLocation(?\App\UBL\Common\CAC\DespatchLocation $despatchLocation = null)
     {
         $this->despatchLocation = $despatchLocation;
         return $this;
@@ -912,7 +912,7 @@ class DespatchType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\DespatchParty
+     * @return \App\UBL\Common\CAC\DespatchParty
      */
     public function getDespatchParty()
     {
@@ -932,10 +932,10 @@ class DespatchType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\DespatchParty $despatchParty
+     * @param \App\UBL\Common\CAC\DespatchParty $despatchParty
      * @return self
      */
-    public function setDespatchParty(?\UBL\Common\CAC\DespatchParty $despatchParty = null)
+    public function setDespatchParty(?\App\UBL\Common\CAC\DespatchParty $despatchParty = null)
     {
         $this->despatchParty = $despatchParty;
         return $this;
@@ -954,7 +954,7 @@ class DespatchType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\CarrierParty
+     * @return \App\UBL\Common\CAC\CarrierParty
      */
     public function getCarrierParty()
     {
@@ -974,10 +974,10 @@ class DespatchType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\CarrierParty $carrierParty
+     * @param \App\UBL\Common\CAC\CarrierParty $carrierParty
      * @return self
      */
-    public function setCarrierParty(?\UBL\Common\CAC\CarrierParty $carrierParty = null)
+    public function setCarrierParty(?\App\UBL\Common\CAC\CarrierParty $carrierParty = null)
     {
         $this->carrierParty = $carrierParty;
         return $this;
@@ -997,9 +997,9 @@ class DespatchType
      *  Party
      *
      * @return self
-     * @param \UBL\Common\CAC\NotifyParty $notifyParty
+     * @param \App\UBL\Common\CAC\NotifyParty $notifyParty
      */
-    public function addToNotifyParty(\UBL\Common\CAC\NotifyParty $notifyParty)
+    public function addToNotifyParty(\App\UBL\Common\CAC\NotifyParty $notifyParty)
     {
         $this->notifyParty[] = $notifyParty;
         return $this;
@@ -1060,7 +1060,7 @@ class DespatchType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\NotifyParty[]
+     * @return \App\UBL\Common\CAC\NotifyParty[]
      */
     public function getNotifyParty()
     {
@@ -1080,7 +1080,7 @@ class DespatchType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\NotifyParty[] $notifyParty
+     * @param \App\UBL\Common\CAC\NotifyParty[] $notifyParty
      * @return self
      */
     public function setNotifyParty(?array $notifyParty = null)
@@ -1101,7 +1101,7 @@ class DespatchType
      *  Contact
      *  Contact
      *
-     * @return \UBL\Common\CAC\Contact
+     * @return \App\UBL\Common\CAC\Contact
      */
     public function getContact()
     {
@@ -1120,10 +1120,10 @@ class DespatchType
      *  Contact
      *  Contact
      *
-     * @param \UBL\Common\CAC\Contact $contact
+     * @param \App\UBL\Common\CAC\Contact $contact
      * @return self
      */
-    public function setContact(?\UBL\Common\CAC\Contact $contact = null)
+    public function setContact(?\App\UBL\Common\CAC\Contact $contact = null)
     {
         $this->contact = $contact;
         return $this;
@@ -1142,7 +1142,7 @@ class DespatchType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\EstimatedDespatchPeriod
+     * @return \App\UBL\Common\CAC\EstimatedDespatchPeriod
      */
     public function getEstimatedDespatchPeriod()
     {
@@ -1162,10 +1162,10 @@ class DespatchType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\EstimatedDespatchPeriod $estimatedDespatchPeriod
+     * @param \App\UBL\Common\CAC\EstimatedDespatchPeriod $estimatedDespatchPeriod
      * @return self
      */
-    public function setEstimatedDespatchPeriod(?\UBL\Common\CAC\EstimatedDespatchPeriod $estimatedDespatchPeriod = null)
+    public function setEstimatedDespatchPeriod(?\App\UBL\Common\CAC\EstimatedDespatchPeriod $estimatedDespatchPeriod = null)
     {
         $this->estimatedDespatchPeriod = $estimatedDespatchPeriod;
         return $this;
@@ -1184,7 +1184,7 @@ class DespatchType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\RequestedDespatchPeriod
+     * @return \App\UBL\Common\CAC\RequestedDespatchPeriod
      */
     public function getRequestedDespatchPeriod()
     {
@@ -1204,14 +1204,13 @@ class DespatchType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\RequestedDespatchPeriod $requestedDespatchPeriod
+     * @param \App\UBL\Common\CAC\RequestedDespatchPeriod $requestedDespatchPeriod
      * @return self
      */
-    public function setRequestedDespatchPeriod(?\UBL\Common\CAC\RequestedDespatchPeriod $requestedDespatchPeriod = null)
+    public function setRequestedDespatchPeriod(?\App\UBL\Common\CAC\RequestedDespatchPeriod $requestedDespatchPeriod = null)
     {
         $this->requestedDespatchPeriod = $requestedDespatchPeriod;
         return $this;
     }
 }
-
 

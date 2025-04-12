@@ -9,4 +9,3 @@ class UBLVersionID extends UBLVersionIDType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ContractedCarrierAssignedID extends ContractedCarrierAssignedIDType
 {
 }
 
-

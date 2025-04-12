@@ -25,7 +25,7 @@ class TransportEquipmentSealType
      *  Identifier. Type
      *  ACS1234
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class TransportEquipmentSealType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\SealIssuerTypeCode $sealIssuerTypeCode
+     * @var \App\UBL\Common\CBC\SealIssuerTypeCode $sealIssuerTypeCode
      */
     private $sealIssuerTypeCode = null;
 
@@ -53,7 +53,7 @@ class TransportEquipmentSealType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Condition $condition
+     * @var \App\UBL\Common\CBC\Condition $condition
      */
     private $condition = null;
 
@@ -67,7 +67,7 @@ class TransportEquipmentSealType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\SealStatusCode $sealStatusCode
+     * @var \App\UBL\Common\CBC\SealStatusCode $sealStatusCode
      */
     private $sealStatusCode = null;
 
@@ -82,7 +82,7 @@ class TransportEquipmentSealType
      *  Text. Type
      *  Sealing Party
      *
-     * @var \UBL\Common\CBC\SealingPartyType $sealingPartyType
+     * @var \App\UBL\Common\CBC\SealingPartyType $sealingPartyType
      */
     private $sealingPartyType = null;
 
@@ -99,7 +99,7 @@ class TransportEquipmentSealType
      *  Identifier. Type
      *  ACS1234
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -119,10 +119,10 @@ class TransportEquipmentSealType
      *  Identifier. Type
      *  ACS1234
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -140,7 +140,7 @@ class TransportEquipmentSealType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\SealIssuerTypeCode
+     * @return \App\UBL\Common\CBC\SealIssuerTypeCode
      */
     public function getSealIssuerTypeCode()
     {
@@ -159,10 +159,10 @@ class TransportEquipmentSealType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\SealIssuerTypeCode $sealIssuerTypeCode
+     * @param \App\UBL\Common\CBC\SealIssuerTypeCode $sealIssuerTypeCode
      * @return self
      */
-    public function setSealIssuerTypeCode(?\UBL\Common\CBC\SealIssuerTypeCode $sealIssuerTypeCode = null)
+    public function setSealIssuerTypeCode(?\App\UBL\Common\CBC\SealIssuerTypeCode $sealIssuerTypeCode = null)
     {
         $this->sealIssuerTypeCode = $sealIssuerTypeCode;
         return $this;
@@ -180,7 +180,7 @@ class TransportEquipmentSealType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Condition
+     * @return \App\UBL\Common\CBC\Condition
      */
     public function getCondition()
     {
@@ -199,10 +199,10 @@ class TransportEquipmentSealType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Condition $condition
+     * @param \App\UBL\Common\CBC\Condition $condition
      * @return self
      */
-    public function setCondition(?\UBL\Common\CBC\Condition $condition = null)
+    public function setCondition(?\App\UBL\Common\CBC\Condition $condition = null)
     {
         $this->condition = $condition;
         return $this;
@@ -220,7 +220,7 @@ class TransportEquipmentSealType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\SealStatusCode
+     * @return \App\UBL\Common\CBC\SealStatusCode
      */
     public function getSealStatusCode()
     {
@@ -239,10 +239,10 @@ class TransportEquipmentSealType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\SealStatusCode $sealStatusCode
+     * @param \App\UBL\Common\CBC\SealStatusCode $sealStatusCode
      * @return self
      */
-    public function setSealStatusCode(?\UBL\Common\CBC\SealStatusCode $sealStatusCode = null)
+    public function setSealStatusCode(?\App\UBL\Common\CBC\SealStatusCode $sealStatusCode = null)
     {
         $this->sealStatusCode = $sealStatusCode;
         return $this;
@@ -261,7 +261,7 @@ class TransportEquipmentSealType
      *  Text. Type
      *  Sealing Party
      *
-     * @return \UBL\Common\CBC\SealingPartyType
+     * @return \App\UBL\Common\CBC\SealingPartyType
      */
     public function getSealingPartyType()
     {
@@ -281,14 +281,13 @@ class TransportEquipmentSealType
      *  Text. Type
      *  Sealing Party
      *
-     * @param \UBL\Common\CBC\SealingPartyType $sealingPartyType
+     * @param \App\UBL\Common\CBC\SealingPartyType $sealingPartyType
      * @return self
      */
-    public function setSealingPartyType(?\UBL\Common\CBC\SealingPartyType $sealingPartyType = null)
+    public function setSealingPartyType(?\App\UBL\Common\CBC\SealingPartyType $sealingPartyType = null)
     {
         $this->sealingPartyType = $sealingPartyType;
         return $this;
     }
 }
-
 

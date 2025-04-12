@@ -9,4 +9,3 @@ class EmbassyEndorsement extends EndorsementType
 {
 }
 
-

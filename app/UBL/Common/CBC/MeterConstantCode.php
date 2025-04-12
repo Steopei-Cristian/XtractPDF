@@ -9,4 +9,3 @@ class MeterConstantCode extends MeterConstantCodeType
 {
 }
 
-

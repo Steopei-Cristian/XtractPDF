@@ -9,4 +9,3 @@ class LocaleCode extends LocaleCodeType
 {
 }
 
-

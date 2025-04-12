@@ -9,4 +9,3 @@ class InstructionForReturnsLine extends InstructionForReturnsLineType
 {
 }
 
-

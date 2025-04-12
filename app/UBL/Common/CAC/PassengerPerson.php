@@ -9,4 +9,3 @@ class PassengerPerson extends PersonType
 {
 }
 
-

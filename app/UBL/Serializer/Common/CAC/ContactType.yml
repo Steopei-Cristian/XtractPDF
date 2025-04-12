@@ -1,4 +1,4 @@
-UBL\Common\CAC\ContactType:
+App\UBL\Common\CAC\ContactType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ContactType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         name:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ContactType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         telephone:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\ContactType:
             accessor:
                 getter: getTelephone
                 setter: setTelephone
-            type: UBL\Common\CBC\Telephone
+            type: App\UBL\Common\CBC\Telephone
         telefax:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\ContactType:
             accessor:
                 getter: getTelefax
                 setter: setTelefax
-            type: UBL\Common\CBC\Telefax
+            type: App\UBL\Common\CBC\Telefax
         electronicMail:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\ContactType:
             accessor:
                 getter: getElectronicMail
                 setter: setElectronicMail
-            type: UBL\Common\CBC\ElectronicMail
+            type: App\UBL\Common\CBC\ElectronicMail
         note:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\ContactType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         otherCommunication:
             expose: true
             access_type: public_method
@@ -77,4 +77,4 @@ UBL\Common\CAC\ContactType:
                 inline: true
                 entry_name: OtherCommunication
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\OtherCommunication>
+            type: array<App\UBL\Common\CAC\OtherCommunication>

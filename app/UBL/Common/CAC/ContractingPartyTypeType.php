@@ -23,7 +23,7 @@ class ContractingPartyTypeType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PartyTypeCode $partyTypeCode
+     * @var \App\UBL\Common\CBC\PartyTypeCode $partyTypeCode
      */
     private $partyTypeCode = null;
 
@@ -37,7 +37,7 @@ class ContractingPartyTypeType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\PartyType $partyType
+     * @var \App\UBL\Common\CBC\PartyType $partyType
      */
     private $partyType = null;
 
@@ -53,7 +53,7 @@ class ContractingPartyTypeType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PartyTypeCode
+     * @return \App\UBL\Common\CBC\PartyTypeCode
      */
     public function getPartyTypeCode()
     {
@@ -72,10 +72,10 @@ class ContractingPartyTypeType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PartyTypeCode $partyTypeCode
+     * @param \App\UBL\Common\CBC\PartyTypeCode $partyTypeCode
      * @return self
      */
-    public function setPartyTypeCode(?\UBL\Common\CBC\PartyTypeCode $partyTypeCode = null)
+    public function setPartyTypeCode(?\App\UBL\Common\CBC\PartyTypeCode $partyTypeCode = null)
     {
         $this->partyTypeCode = $partyTypeCode;
         return $this;
@@ -93,7 +93,7 @@ class ContractingPartyTypeType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\PartyType
+     * @return \App\UBL\Common\CBC\PartyType
      */
     public function getPartyType()
     {
@@ -112,14 +112,13 @@ class ContractingPartyTypeType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\PartyType $partyType
+     * @param \App\UBL\Common\CBC\PartyType $partyType
      * @return self
      */
-    public function setPartyType(?\UBL\Common\CBC\PartyType $partyType = null)
+    public function setPartyType(?\App\UBL\Common\CBC\PartyType $partyType = null)
     {
         $this->partyType = $partyType;
         return $this;
     }
 }
-
 

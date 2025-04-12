@@ -9,4 +9,3 @@ class PricingCurrencyCode extends PricingCurrencyCodeType
 {
 }
 
-

@@ -9,4 +9,3 @@ class RevisedForecastLineID extends RevisedForecastLineIDType
 {
 }
 
-

@@ -9,4 +9,3 @@ class Shipment extends ShipmentType
 {
 }
 
-

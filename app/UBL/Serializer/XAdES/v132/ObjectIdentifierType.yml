@@ -1,4 +1,4 @@
-UBL\XAdES\v132\ObjectIdentifierType:
+App\UBL\XAdES\v132\ObjectIdentifierType:
     properties:
         identifier:
             expose: true
@@ -9,7 +9,7 @@ UBL\XAdES\v132\ObjectIdentifierType:
             accessor:
                 getter: getIdentifier
                 setter: setIdentifier
-            type: UBL\XAdES\v132\IdentifierType
+            type: App\UBL\XAdES\v132\IdentifierType
         description:
             expose: true
             access_type: public_method

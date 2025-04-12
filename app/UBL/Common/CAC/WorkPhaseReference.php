@@ -9,4 +9,3 @@ class WorkPhaseReference extends WorkPhaseReferenceType
 {
 }
 
-

@@ -9,4 +9,3 @@ class XAdESTimeStamp extends XAdESTimeStampType
 {
 }
 
-

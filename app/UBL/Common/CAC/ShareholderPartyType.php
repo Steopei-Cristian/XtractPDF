@@ -23,7 +23,7 @@ class ShareholderPartyType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\PartecipationPercent $partecipationPercent
+     * @var \App\UBL\Common\CBC\PartecipationPercent $partecipationPercent
      */
     private $partecipationPercent = null;
 
@@ -37,7 +37,7 @@ class ShareholderPartyType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\Party $party
+     * @var \App\UBL\Common\CAC\Party $party
      */
     private $party = null;
 
@@ -53,7 +53,7 @@ class ShareholderPartyType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\PartecipationPercent
+     * @return \App\UBL\Common\CBC\PartecipationPercent
      */
     public function getPartecipationPercent()
     {
@@ -72,10 +72,10 @@ class ShareholderPartyType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\PartecipationPercent $partecipationPercent
+     * @param \App\UBL\Common\CBC\PartecipationPercent $partecipationPercent
      * @return self
      */
-    public function setPartecipationPercent(?\UBL\Common\CBC\PartecipationPercent $partecipationPercent = null)
+    public function setPartecipationPercent(?\App\UBL\Common\CBC\PartecipationPercent $partecipationPercent = null)
     {
         $this->partecipationPercent = $partecipationPercent;
         return $this;
@@ -93,7 +93,7 @@ class ShareholderPartyType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\Party
+     * @return \App\UBL\Common\CAC\Party
      */
     public function getParty()
     {
@@ -112,14 +112,13 @@ class ShareholderPartyType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\Party $party
+     * @param \App\UBL\Common\CAC\Party $party
      * @return self
      */
-    public function setParty(?\UBL\Common\CAC\Party $party = null)
+    public function setParty(?\App\UBL\Common\CAC\Party $party = null)
     {
         $this->party = $party;
         return $this;
     }
 }
-
 

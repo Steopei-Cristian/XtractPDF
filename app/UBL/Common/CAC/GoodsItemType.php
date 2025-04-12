@@ -23,7 +23,7 @@ class GoodsItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class GoodsItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\SequenceNumberID $sequenceNumberID
+     * @var \App\UBL\Common\CBC\SequenceNumberID $sequenceNumberID
      */
     private $sequenceNumberID = null;
 
@@ -52,7 +52,7 @@ class GoodsItemType
      *  Text. Type
      *  Description of goods (WCO ID 137)
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -86,7 +86,7 @@ class GoodsItemType
      *  Amount. Type
      *  For Customs Value (WCO ID 108)
      *
-     * @var \UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount
+     * @var \App\UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount
      */
     private $declaredCustomsValueAmount = null;
 
@@ -102,7 +102,7 @@ class GoodsItemType
      *  Amount. Type
      *  Interest in delivery, declared value for carriage
      *
-     * @var \UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount
+     * @var \App\UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount
      */
     private $declaredForCarriageValueAmount = null;
 
@@ -118,7 +118,7 @@ class GoodsItemType
      *  Amount. Type
      *  Statistical Value (WCO ID 114)
      *
-     * @var \UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount
+     * @var \App\UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount
      */
     private $declaredStatisticsValueAmount = null;
 
@@ -134,7 +134,7 @@ class GoodsItemType
      *  Amount. Type
      *  FOB Value
      *
-     * @var \UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount
+     * @var \App\UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount
      */
     private $freeOnBoardValueAmount = null;
 
@@ -150,7 +150,7 @@ class GoodsItemType
      *  Amount. Type
      *  Value Insured
      *
-     * @var \UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount
+     * @var \App\UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount
      */
     private $insuranceValueAmount = null;
 
@@ -164,7 +164,7 @@ class GoodsItemType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\ValueAmount $valueAmount
+     * @var \App\UBL\Common\CBC\ValueAmount $valueAmount
      */
     private $valueAmount = null;
 
@@ -180,7 +180,7 @@ class GoodsItemType
      *  Measure. Type
      *  Actual Gross Weight
      *
-     * @var \UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
+     * @var \App\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
      */
     private $grossWeightMeasure = null;
 
@@ -195,7 +195,7 @@ class GoodsItemType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
+     * @var \App\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
      */
     private $netWeightMeasure = null;
 
@@ -211,7 +211,7 @@ class GoodsItemType
      *  Measure. Type
      *  Customs Weight (WCO ID 128)
      *
-     * @var \UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure
+     * @var \App\UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure
      */
     private $netNetWeightMeasure = null;
 
@@ -226,7 +226,7 @@ class GoodsItemType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\ChargeableWeightMeasure $chargeableWeightMeasure
+     * @var \App\UBL\Common\CBC\ChargeableWeightMeasure $chargeableWeightMeasure
      */
     private $chargeableWeightMeasure = null;
 
@@ -242,7 +242,7 @@ class GoodsItemType
      *  Measure. Type
      *  Volume, Gross Measurement Cube (GMC), Cube (WCO ID 134)
      *
-     * @var \UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
+     * @var \App\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
      */
     private $grossVolumeMeasure = null;
 
@@ -257,7 +257,7 @@ class GoodsItemType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
+     * @var \App\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
      */
     private $netVolumeMeasure = null;
 
@@ -271,7 +271,7 @@ class GoodsItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\Quantity $quantity
+     * @var \App\UBL\Common\CBC\Quantity $quantity
      */
     private $quantity = null;
 
@@ -293,7 +293,7 @@ class GoodsItemType
      * F - The good is an originating agricultural good under preference criterion A,B, or C above and is not subjected to quantitative restriction in the importing NAFTA country because....
      * Thus, the column Preference Criterion will indicate either A, B, C,...
      *
-     * @var \UBL\Common\CBC\PreferenceCriterionCode $preferenceCriterionCode
+     * @var \App\UBL\Common\CBC\PreferenceCriterionCode $preferenceCriterionCode
      */
     private $preferenceCriterionCode = null;
 
@@ -309,7 +309,7 @@ class GoodsItemType
      *  Identifier. Type
      *  Tariff code extensions (WCO ID 255)
      *
-     * @var \UBL\Common\CBC\RequiredCustomsID $requiredCustomsID
+     * @var \App\UBL\Common\CBC\RequiredCustomsID $requiredCustomsID
      */
     private $requiredCustomsID = null;
 
@@ -324,7 +324,7 @@ class GoodsItemType
      *  Code. Type
      *  Customs status of goods (WCO ID 094)
      *
-     * @var \UBL\Common\CBC\CustomsStatusCode $customsStatusCode
+     * @var \App\UBL\Common\CBC\CustomsStatusCode $customsStatusCode
      */
     private $customsStatusCode = null;
 
@@ -338,7 +338,7 @@ class GoodsItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\CustomsTariffQuantity $customsTariffQuantity
+     * @var \App\UBL\Common\CBC\CustomsTariffQuantity $customsTariffQuantity
      */
     private $customsTariffQuantity = null;
 
@@ -368,7 +368,7 @@ class GoodsItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ChargeableQuantity $chargeableQuantity
+     * @var \App\UBL\Common\CBC\ChargeableQuantity $chargeableQuantity
      */
     private $chargeableQuantity = null;
 
@@ -383,7 +383,7 @@ class GoodsItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ReturnableQuantity $returnableQuantity
+     * @var \App\UBL\Common\CBC\ReturnableQuantity $returnableQuantity
      */
     private $returnableQuantity = null;
 
@@ -398,7 +398,7 @@ class GoodsItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\TraceID $traceID
+     * @var \App\UBL\Common\CBC\TraceID $traceID
      */
     private $traceID = null;
 
@@ -412,7 +412,7 @@ class GoodsItemType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item[] $item
+     * @var \App\UBL\Common\CAC\Item[] $item
      */
     private $item = [
         
@@ -428,7 +428,7 @@ class GoodsItemType
      *  Goods Item Container
      *  Goods Item Container
      *
-     * @var \UBL\Common\CAC\GoodsItemContainer[] $goodsItemContainer
+     * @var \App\UBL\Common\CAC\GoodsItemContainer[] $goodsItemContainer
      */
     private $goodsItemContainer = [
         
@@ -446,7 +446,7 @@ class GoodsItemType
      *  Allowance Charge
      *  Freight Costs
      *
-     * @var \UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
+     * @var \App\UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
      */
     private $freightAllowanceCharge = [
         
@@ -462,7 +462,7 @@ class GoodsItemType
      *  Invoice Line
      *  Invoice Line
      *
-     * @var \UBL\Common\CAC\InvoiceLine[] $invoiceLine
+     * @var \App\UBL\Common\CAC\InvoiceLine[] $invoiceLine
      */
     private $invoiceLine = [
         
@@ -479,7 +479,7 @@ class GoodsItemType
      *  Temperature
      *  maximum, storage, minimum
      *
-     * @var \UBL\Common\CAC\Temperature[] $temperature
+     * @var \App\UBL\Common\CAC\Temperature[] $temperature
      */
     private $temperature = [
         
@@ -496,7 +496,7 @@ class GoodsItemType
      *  Goods Item
      *  Goods Item
      *
-     * @var \UBL\Common\CAC\ContainedGoodsItem[] $containedGoodsItem
+     * @var \App\UBL\Common\CAC\ContainedGoodsItem[] $containedGoodsItem
      */
     private $containedGoodsItem = [
         
@@ -514,7 +514,7 @@ class GoodsItemType
      *  Address
      *  Region of origin (WCO ID 066)
      *
-     * @var \UBL\Common\CAC\OriginAddress $originAddress
+     * @var \App\UBL\Common\CAC\OriginAddress $originAddress
      */
     private $originAddress = null;
 
@@ -528,7 +528,7 @@ class GoodsItemType
      *  Delivery
      *  Delivery
      *
-     * @var \UBL\Common\CAC\Delivery $delivery
+     * @var \App\UBL\Common\CAC\Delivery $delivery
      */
     private $delivery = null;
 
@@ -542,7 +542,7 @@ class GoodsItemType
      *  Pickup
      *  Pickup
      *
-     * @var \UBL\Common\CAC\Pickup $pickup
+     * @var \App\UBL\Common\CAC\Pickup $pickup
      */
     private $pickup = null;
 
@@ -556,7 +556,7 @@ class GoodsItemType
      *  Despatch
      *  Despatch
      *
-     * @var \UBL\Common\CAC\Despatch $despatch
+     * @var \App\UBL\Common\CAC\Despatch $despatch
      */
     private $despatch = null;
 
@@ -571,7 +571,7 @@ class GoodsItemType
      *  Dimension
      *  Dimension
      *
-     * @var \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @var \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      */
     private $measurementDimension = [
         
@@ -588,7 +588,7 @@ class GoodsItemType
      *  Package
      *  Package
      *
-     * @var \UBL\Common\CAC\ContainingPackage[] $containingPackage
+     * @var \App\UBL\Common\CAC\ContainingPackage[] $containingPackage
      */
     private $containingPackage = [
         
@@ -605,7 +605,7 @@ class GoodsItemType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference
+     * @var \App\UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference
      */
     private $shipmentDocumentReference = null;
 
@@ -620,7 +620,7 @@ class GoodsItemType
      *  Temperature
      *  Temperature
      *
-     * @var \UBL\Common\CAC\MinimumTemperature $minimumTemperature
+     * @var \App\UBL\Common\CAC\MinimumTemperature $minimumTemperature
      */
     private $minimumTemperature = null;
 
@@ -635,7 +635,7 @@ class GoodsItemType
      *  Temperature
      *  Temperature
      *
-     * @var \UBL\Common\CAC\MaximumTemperature $maximumTemperature
+     * @var \App\UBL\Common\CAC\MaximumTemperature $maximumTemperature
      */
     private $maximumTemperature = null;
 
@@ -651,7 +651,7 @@ class GoodsItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -670,10 +670,10 @@ class GoodsItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -691,7 +691,7 @@ class GoodsItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\SequenceNumberID
+     * @return \App\UBL\Common\CBC\SequenceNumberID
      */
     public function getSequenceNumberID()
     {
@@ -710,10 +710,10 @@ class GoodsItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\SequenceNumberID $sequenceNumberID
+     * @param \App\UBL\Common\CBC\SequenceNumberID $sequenceNumberID
      * @return self
      */
-    public function setSequenceNumberID(?\UBL\Common\CBC\SequenceNumberID $sequenceNumberID = null)
+    public function setSequenceNumberID(?\App\UBL\Common\CBC\SequenceNumberID $sequenceNumberID = null)
     {
         $this->sequenceNumberID = $sequenceNumberID;
         return $this;
@@ -733,9 +733,9 @@ class GoodsItemType
      *  Description of goods (WCO ID 137)
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -796,7 +796,7 @@ class GoodsItemType
      *  Text. Type
      *  Description of goods (WCO ID 137)
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -816,7 +816,7 @@ class GoodsItemType
      *  Text. Type
      *  Description of goods (WCO ID 137)
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -883,7 +883,7 @@ class GoodsItemType
      *  Amount. Type
      *  For Customs Value (WCO ID 108)
      *
-     * @return \UBL\Common\CBC\DeclaredCustomsValueAmount
+     * @return \App\UBL\Common\CBC\DeclaredCustomsValueAmount
      */
     public function getDeclaredCustomsValueAmount()
     {
@@ -904,10 +904,10 @@ class GoodsItemType
      *  Amount. Type
      *  For Customs Value (WCO ID 108)
      *
-     * @param \UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount
+     * @param \App\UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount
      * @return self
      */
-    public function setDeclaredCustomsValueAmount(?\UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount = null)
+    public function setDeclaredCustomsValueAmount(?\App\UBL\Common\CBC\DeclaredCustomsValueAmount $declaredCustomsValueAmount = null)
     {
         $this->declaredCustomsValueAmount = $declaredCustomsValueAmount;
         return $this;
@@ -927,7 +927,7 @@ class GoodsItemType
      *  Amount. Type
      *  Interest in delivery, declared value for carriage
      *
-     * @return \UBL\Common\CBC\DeclaredForCarriageValueAmount
+     * @return \App\UBL\Common\CBC\DeclaredForCarriageValueAmount
      */
     public function getDeclaredForCarriageValueAmount()
     {
@@ -948,10 +948,10 @@ class GoodsItemType
      *  Amount. Type
      *  Interest in delivery, declared value for carriage
      *
-     * @param \UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount
+     * @param \App\UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount
      * @return self
      */
-    public function setDeclaredForCarriageValueAmount(?\UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount = null)
+    public function setDeclaredForCarriageValueAmount(?\App\UBL\Common\CBC\DeclaredForCarriageValueAmount $declaredForCarriageValueAmount = null)
     {
         $this->declaredForCarriageValueAmount = $declaredForCarriageValueAmount;
         return $this;
@@ -971,7 +971,7 @@ class GoodsItemType
      *  Amount. Type
      *  Statistical Value (WCO ID 114)
      *
-     * @return \UBL\Common\CBC\DeclaredStatisticsValueAmount
+     * @return \App\UBL\Common\CBC\DeclaredStatisticsValueAmount
      */
     public function getDeclaredStatisticsValueAmount()
     {
@@ -992,10 +992,10 @@ class GoodsItemType
      *  Amount. Type
      *  Statistical Value (WCO ID 114)
      *
-     * @param \UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount
+     * @param \App\UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount
      * @return self
      */
-    public function setDeclaredStatisticsValueAmount(?\UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount = null)
+    public function setDeclaredStatisticsValueAmount(?\App\UBL\Common\CBC\DeclaredStatisticsValueAmount $declaredStatisticsValueAmount = null)
     {
         $this->declaredStatisticsValueAmount = $declaredStatisticsValueAmount;
         return $this;
@@ -1015,7 +1015,7 @@ class GoodsItemType
      *  Amount. Type
      *  FOB Value
      *
-     * @return \UBL\Common\CBC\FreeOnBoardValueAmount
+     * @return \App\UBL\Common\CBC\FreeOnBoardValueAmount
      */
     public function getFreeOnBoardValueAmount()
     {
@@ -1036,10 +1036,10 @@ class GoodsItemType
      *  Amount. Type
      *  FOB Value
      *
-     * @param \UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount
+     * @param \App\UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount
      * @return self
      */
-    public function setFreeOnBoardValueAmount(?\UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount = null)
+    public function setFreeOnBoardValueAmount(?\App\UBL\Common\CBC\FreeOnBoardValueAmount $freeOnBoardValueAmount = null)
     {
         $this->freeOnBoardValueAmount = $freeOnBoardValueAmount;
         return $this;
@@ -1059,7 +1059,7 @@ class GoodsItemType
      *  Amount. Type
      *  Value Insured
      *
-     * @return \UBL\Common\CBC\InsuranceValueAmount
+     * @return \App\UBL\Common\CBC\InsuranceValueAmount
      */
     public function getInsuranceValueAmount()
     {
@@ -1080,10 +1080,10 @@ class GoodsItemType
      *  Amount. Type
      *  Value Insured
      *
-     * @param \UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount
+     * @param \App\UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount
      * @return self
      */
-    public function setInsuranceValueAmount(?\UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount = null)
+    public function setInsuranceValueAmount(?\App\UBL\Common\CBC\InsuranceValueAmount $insuranceValueAmount = null)
     {
         $this->insuranceValueAmount = $insuranceValueAmount;
         return $this;
@@ -1101,7 +1101,7 @@ class GoodsItemType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\ValueAmount
+     * @return \App\UBL\Common\CBC\ValueAmount
      */
     public function getValueAmount()
     {
@@ -1120,10 +1120,10 @@ class GoodsItemType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\ValueAmount $valueAmount
+     * @param \App\UBL\Common\CBC\ValueAmount $valueAmount
      * @return self
      */
-    public function setValueAmount(?\UBL\Common\CBC\ValueAmount $valueAmount = null)
+    public function setValueAmount(?\App\UBL\Common\CBC\ValueAmount $valueAmount = null)
     {
         $this->valueAmount = $valueAmount;
         return $this;
@@ -1143,7 +1143,7 @@ class GoodsItemType
      *  Measure. Type
      *  Actual Gross Weight
      *
-     * @return \UBL\Common\CBC\GrossWeightMeasure
+     * @return \App\UBL\Common\CBC\GrossWeightMeasure
      */
     public function getGrossWeightMeasure()
     {
@@ -1164,10 +1164,10 @@ class GoodsItemType
      *  Measure. Type
      *  Actual Gross Weight
      *
-     * @param \UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
+     * @param \App\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure
      * @return self
      */
-    public function setGrossWeightMeasure(?\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure = null)
+    public function setGrossWeightMeasure(?\App\UBL\Common\CBC\GrossWeightMeasure $grossWeightMeasure = null)
     {
         $this->grossWeightMeasure = $grossWeightMeasure;
         return $this;
@@ -1186,7 +1186,7 @@ class GoodsItemType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\NetWeightMeasure
+     * @return \App\UBL\Common\CBC\NetWeightMeasure
      */
     public function getNetWeightMeasure()
     {
@@ -1206,10 +1206,10 @@ class GoodsItemType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
+     * @param \App\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure
      * @return self
      */
-    public function setNetWeightMeasure(?\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure = null)
+    public function setNetWeightMeasure(?\App\UBL\Common\CBC\NetWeightMeasure $netWeightMeasure = null)
     {
         $this->netWeightMeasure = $netWeightMeasure;
         return $this;
@@ -1229,7 +1229,7 @@ class GoodsItemType
      *  Measure. Type
      *  Customs Weight (WCO ID 128)
      *
-     * @return \UBL\Common\CBC\NetNetWeightMeasure
+     * @return \App\UBL\Common\CBC\NetNetWeightMeasure
      */
     public function getNetNetWeightMeasure()
     {
@@ -1250,10 +1250,10 @@ class GoodsItemType
      *  Measure. Type
      *  Customs Weight (WCO ID 128)
      *
-     * @param \UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure
+     * @param \App\UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure
      * @return self
      */
-    public function setNetNetWeightMeasure(?\UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure = null)
+    public function setNetNetWeightMeasure(?\App\UBL\Common\CBC\NetNetWeightMeasure $netNetWeightMeasure = null)
     {
         $this->netNetWeightMeasure = $netNetWeightMeasure;
         return $this;
@@ -1272,7 +1272,7 @@ class GoodsItemType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\ChargeableWeightMeasure
+     * @return \App\UBL\Common\CBC\ChargeableWeightMeasure
      */
     public function getChargeableWeightMeasure()
     {
@@ -1292,10 +1292,10 @@ class GoodsItemType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\ChargeableWeightMeasure $chargeableWeightMeasure
+     * @param \App\UBL\Common\CBC\ChargeableWeightMeasure $chargeableWeightMeasure
      * @return self
      */
-    public function setChargeableWeightMeasure(?\UBL\Common\CBC\ChargeableWeightMeasure $chargeableWeightMeasure = null)
+    public function setChargeableWeightMeasure(?\App\UBL\Common\CBC\ChargeableWeightMeasure $chargeableWeightMeasure = null)
     {
         $this->chargeableWeightMeasure = $chargeableWeightMeasure;
         return $this;
@@ -1315,7 +1315,7 @@ class GoodsItemType
      *  Measure. Type
      *  Volume, Gross Measurement Cube (GMC), Cube (WCO ID 134)
      *
-     * @return \UBL\Common\CBC\GrossVolumeMeasure
+     * @return \App\UBL\Common\CBC\GrossVolumeMeasure
      */
     public function getGrossVolumeMeasure()
     {
@@ -1336,10 +1336,10 @@ class GoodsItemType
      *  Measure. Type
      *  Volume, Gross Measurement Cube (GMC), Cube (WCO ID 134)
      *
-     * @param \UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
+     * @param \App\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure
      * @return self
      */
-    public function setGrossVolumeMeasure(?\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure = null)
+    public function setGrossVolumeMeasure(?\App\UBL\Common\CBC\GrossVolumeMeasure $grossVolumeMeasure = null)
     {
         $this->grossVolumeMeasure = $grossVolumeMeasure;
         return $this;
@@ -1358,7 +1358,7 @@ class GoodsItemType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\NetVolumeMeasure
+     * @return \App\UBL\Common\CBC\NetVolumeMeasure
      */
     public function getNetVolumeMeasure()
     {
@@ -1378,10 +1378,10 @@ class GoodsItemType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
+     * @param \App\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure
      * @return self
      */
-    public function setNetVolumeMeasure(?\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure = null)
+    public function setNetVolumeMeasure(?\App\UBL\Common\CBC\NetVolumeMeasure $netVolumeMeasure = null)
     {
         $this->netVolumeMeasure = $netVolumeMeasure;
         return $this;
@@ -1399,7 +1399,7 @@ class GoodsItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\Quantity
+     * @return \App\UBL\Common\CBC\Quantity
      */
     public function getQuantity()
     {
@@ -1418,10 +1418,10 @@ class GoodsItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\Quantity $quantity
+     * @param \App\UBL\Common\CBC\Quantity $quantity
      * @return self
      */
-    public function setQuantity(?\UBL\Common\CBC\Quantity $quantity = null)
+    public function setQuantity(?\App\UBL\Common\CBC\Quantity $quantity = null)
     {
         $this->quantity = $quantity;
         return $this;
@@ -1447,7 +1447,7 @@ class GoodsItemType
      * F - The good is an originating agricultural good under preference criterion A,B, or C above and is not subjected to quantitative restriction in the importing NAFTA country because....
      * Thus, the column Preference Criterion will indicate either A, B, C,...
      *
-     * @return \UBL\Common\CBC\PreferenceCriterionCode
+     * @return \App\UBL\Common\CBC\PreferenceCriterionCode
      */
     public function getPreferenceCriterionCode()
     {
@@ -1474,10 +1474,10 @@ class GoodsItemType
      * F - The good is an originating agricultural good under preference criterion A,B, or C above and is not subjected to quantitative restriction in the importing NAFTA country because....
      * Thus, the column Preference Criterion will indicate either A, B, C,...
      *
-     * @param \UBL\Common\CBC\PreferenceCriterionCode $preferenceCriterionCode
+     * @param \App\UBL\Common\CBC\PreferenceCriterionCode $preferenceCriterionCode
      * @return self
      */
-    public function setPreferenceCriterionCode(?\UBL\Common\CBC\PreferenceCriterionCode $preferenceCriterionCode = null)
+    public function setPreferenceCriterionCode(?\App\UBL\Common\CBC\PreferenceCriterionCode $preferenceCriterionCode = null)
     {
         $this->preferenceCriterionCode = $preferenceCriterionCode;
         return $this;
@@ -1497,7 +1497,7 @@ class GoodsItemType
      *  Identifier. Type
      *  Tariff code extensions (WCO ID 255)
      *
-     * @return \UBL\Common\CBC\RequiredCustomsID
+     * @return \App\UBL\Common\CBC\RequiredCustomsID
      */
     public function getRequiredCustomsID()
     {
@@ -1518,10 +1518,10 @@ class GoodsItemType
      *  Identifier. Type
      *  Tariff code extensions (WCO ID 255)
      *
-     * @param \UBL\Common\CBC\RequiredCustomsID $requiredCustomsID
+     * @param \App\UBL\Common\CBC\RequiredCustomsID $requiredCustomsID
      * @return self
      */
-    public function setRequiredCustomsID(?\UBL\Common\CBC\RequiredCustomsID $requiredCustomsID = null)
+    public function setRequiredCustomsID(?\App\UBL\Common\CBC\RequiredCustomsID $requiredCustomsID = null)
     {
         $this->requiredCustomsID = $requiredCustomsID;
         return $this;
@@ -1540,7 +1540,7 @@ class GoodsItemType
      *  Code. Type
      *  Customs status of goods (WCO ID 094)
      *
-     * @return \UBL\Common\CBC\CustomsStatusCode
+     * @return \App\UBL\Common\CBC\CustomsStatusCode
      */
     public function getCustomsStatusCode()
     {
@@ -1560,10 +1560,10 @@ class GoodsItemType
      *  Code. Type
      *  Customs status of goods (WCO ID 094)
      *
-     * @param \UBL\Common\CBC\CustomsStatusCode $customsStatusCode
+     * @param \App\UBL\Common\CBC\CustomsStatusCode $customsStatusCode
      * @return self
      */
-    public function setCustomsStatusCode(?\UBL\Common\CBC\CustomsStatusCode $customsStatusCode = null)
+    public function setCustomsStatusCode(?\App\UBL\Common\CBC\CustomsStatusCode $customsStatusCode = null)
     {
         $this->customsStatusCode = $customsStatusCode;
         return $this;
@@ -1581,7 +1581,7 @@ class GoodsItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\CustomsTariffQuantity
+     * @return \App\UBL\Common\CBC\CustomsTariffQuantity
      */
     public function getCustomsTariffQuantity()
     {
@@ -1600,10 +1600,10 @@ class GoodsItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\CustomsTariffQuantity $customsTariffQuantity
+     * @param \App\UBL\Common\CBC\CustomsTariffQuantity $customsTariffQuantity
      * @return self
      */
-    public function setCustomsTariffQuantity(?\UBL\Common\CBC\CustomsTariffQuantity $customsTariffQuantity = null)
+    public function setCustomsTariffQuantity(?\App\UBL\Common\CBC\CustomsTariffQuantity $customsTariffQuantity = null)
     {
         $this->customsTariffQuantity = $customsTariffQuantity;
         return $this;
@@ -1664,7 +1664,7 @@ class GoodsItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ChargeableQuantity
+     * @return \App\UBL\Common\CBC\ChargeableQuantity
      */
     public function getChargeableQuantity()
     {
@@ -1684,10 +1684,10 @@ class GoodsItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ChargeableQuantity $chargeableQuantity
+     * @param \App\UBL\Common\CBC\ChargeableQuantity $chargeableQuantity
      * @return self
      */
-    public function setChargeableQuantity(?\UBL\Common\CBC\ChargeableQuantity $chargeableQuantity = null)
+    public function setChargeableQuantity(?\App\UBL\Common\CBC\ChargeableQuantity $chargeableQuantity = null)
     {
         $this->chargeableQuantity = $chargeableQuantity;
         return $this;
@@ -1706,7 +1706,7 @@ class GoodsItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ReturnableQuantity
+     * @return \App\UBL\Common\CBC\ReturnableQuantity
      */
     public function getReturnableQuantity()
     {
@@ -1726,10 +1726,10 @@ class GoodsItemType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ReturnableQuantity $returnableQuantity
+     * @param \App\UBL\Common\CBC\ReturnableQuantity $returnableQuantity
      * @return self
      */
-    public function setReturnableQuantity(?\UBL\Common\CBC\ReturnableQuantity $returnableQuantity = null)
+    public function setReturnableQuantity(?\App\UBL\Common\CBC\ReturnableQuantity $returnableQuantity = null)
     {
         $this->returnableQuantity = $returnableQuantity;
         return $this;
@@ -1748,7 +1748,7 @@ class GoodsItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\TraceID
+     * @return \App\UBL\Common\CBC\TraceID
      */
     public function getTraceID()
     {
@@ -1768,10 +1768,10 @@ class GoodsItemType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\TraceID $traceID
+     * @param \App\UBL\Common\CBC\TraceID $traceID
      * @return self
      */
-    public function setTraceID(?\UBL\Common\CBC\TraceID $traceID = null)
+    public function setTraceID(?\App\UBL\Common\CBC\TraceID $traceID = null)
     {
         $this->traceID = $traceID;
         return $this;
@@ -1790,9 +1790,9 @@ class GoodsItemType
      *  Item
      *
      * @return self
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      */
-    public function addToItem(\UBL\Common\CAC\Item $item)
+    public function addToItem(\App\UBL\Common\CAC\Item $item)
     {
         $this->item[] = $item;
         return $this;
@@ -1850,7 +1850,7 @@ class GoodsItemType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item[]
+     * @return \App\UBL\Common\CAC\Item[]
      */
     public function getItem()
     {
@@ -1869,7 +1869,7 @@ class GoodsItemType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item[] $item
+     * @param \App\UBL\Common\CAC\Item[] $item
      * @return self
      */
     public function setItem(?array $item = null)
@@ -1891,9 +1891,9 @@ class GoodsItemType
      *  Goods Item Container
      *
      * @return self
-     * @param \UBL\Common\CAC\GoodsItemContainer $goodsItemContainer
+     * @param \App\UBL\Common\CAC\GoodsItemContainer $goodsItemContainer
      */
-    public function addToGoodsItemContainer(\UBL\Common\CAC\GoodsItemContainer $goodsItemContainer)
+    public function addToGoodsItemContainer(\App\UBL\Common\CAC\GoodsItemContainer $goodsItemContainer)
     {
         $this->goodsItemContainer[] = $goodsItemContainer;
         return $this;
@@ -1951,7 +1951,7 @@ class GoodsItemType
      *  Goods Item Container
      *  Goods Item Container
      *
-     * @return \UBL\Common\CAC\GoodsItemContainer[]
+     * @return \App\UBL\Common\CAC\GoodsItemContainer[]
      */
     public function getGoodsItemContainer()
     {
@@ -1970,7 +1970,7 @@ class GoodsItemType
      *  Goods Item Container
      *  Goods Item Container
      *
-     * @param \UBL\Common\CAC\GoodsItemContainer[] $goodsItemContainer
+     * @param \App\UBL\Common\CAC\GoodsItemContainer[] $goodsItemContainer
      * @return self
      */
     public function setGoodsItemContainer(?array $goodsItemContainer = null)
@@ -1994,9 +1994,9 @@ class GoodsItemType
      *  Freight Costs
      *
      * @return self
-     * @param \UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge
+     * @param \App\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge
      */
-    public function addToFreightAllowanceCharge(\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge)
+    public function addToFreightAllowanceCharge(\App\UBL\Common\CAC\FreightAllowanceCharge $freightAllowanceCharge)
     {
         $this->freightAllowanceCharge[] = $freightAllowanceCharge;
         return $this;
@@ -2060,7 +2060,7 @@ class GoodsItemType
      *  Allowance Charge
      *  Freight Costs
      *
-     * @return \UBL\Common\CAC\FreightAllowanceCharge[]
+     * @return \App\UBL\Common\CAC\FreightAllowanceCharge[]
      */
     public function getFreightAllowanceCharge()
     {
@@ -2081,7 +2081,7 @@ class GoodsItemType
      *  Allowance Charge
      *  Freight Costs
      *
-     * @param \UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
+     * @param \App\UBL\Common\CAC\FreightAllowanceCharge[] $freightAllowanceCharge
      * @return self
      */
     public function setFreightAllowanceCharge(?array $freightAllowanceCharge = null)
@@ -2103,9 +2103,9 @@ class GoodsItemType
      *  Invoice Line
      *
      * @return self
-     * @param \UBL\Common\CAC\InvoiceLine $invoiceLine
+     * @param \App\UBL\Common\CAC\InvoiceLine $invoiceLine
      */
-    public function addToInvoiceLine(\UBL\Common\CAC\InvoiceLine $invoiceLine)
+    public function addToInvoiceLine(\App\UBL\Common\CAC\InvoiceLine $invoiceLine)
     {
         $this->invoiceLine[] = $invoiceLine;
         return $this;
@@ -2163,7 +2163,7 @@ class GoodsItemType
      *  Invoice Line
      *  Invoice Line
      *
-     * @return \UBL\Common\CAC\InvoiceLine[]
+     * @return \App\UBL\Common\CAC\InvoiceLine[]
      */
     public function getInvoiceLine()
     {
@@ -2182,7 +2182,7 @@ class GoodsItemType
      *  Invoice Line
      *  Invoice Line
      *
-     * @param \UBL\Common\CAC\InvoiceLine[] $invoiceLine
+     * @param \App\UBL\Common\CAC\InvoiceLine[] $invoiceLine
      * @return self
      */
     public function setInvoiceLine(?array $invoiceLine = null)
@@ -2205,9 +2205,9 @@ class GoodsItemType
      *  maximum, storage, minimum
      *
      * @return self
-     * @param \UBL\Common\CAC\Temperature $temperature
+     * @param \App\UBL\Common\CAC\Temperature $temperature
      */
-    public function addToTemperature(\UBL\Common\CAC\Temperature $temperature)
+    public function addToTemperature(\App\UBL\Common\CAC\Temperature $temperature)
     {
         $this->temperature[] = $temperature;
         return $this;
@@ -2268,7 +2268,7 @@ class GoodsItemType
      *  Temperature
      *  maximum, storage, minimum
      *
-     * @return \UBL\Common\CAC\Temperature[]
+     * @return \App\UBL\Common\CAC\Temperature[]
      */
     public function getTemperature()
     {
@@ -2288,7 +2288,7 @@ class GoodsItemType
      *  Temperature
      *  maximum, storage, minimum
      *
-     * @param \UBL\Common\CAC\Temperature[] $temperature
+     * @param \App\UBL\Common\CAC\Temperature[] $temperature
      * @return self
      */
     public function setTemperature(?array $temperature = null)
@@ -2311,9 +2311,9 @@ class GoodsItemType
      *  Goods Item
      *
      * @return self
-     * @param \UBL\Common\CAC\ContainedGoodsItem $containedGoodsItem
+     * @param \App\UBL\Common\CAC\ContainedGoodsItem $containedGoodsItem
      */
-    public function addToContainedGoodsItem(\UBL\Common\CAC\ContainedGoodsItem $containedGoodsItem)
+    public function addToContainedGoodsItem(\App\UBL\Common\CAC\ContainedGoodsItem $containedGoodsItem)
     {
         $this->containedGoodsItem[] = $containedGoodsItem;
         return $this;
@@ -2374,7 +2374,7 @@ class GoodsItemType
      *  Goods Item
      *  Goods Item
      *
-     * @return \UBL\Common\CAC\ContainedGoodsItem[]
+     * @return \App\UBL\Common\CAC\ContainedGoodsItem[]
      */
     public function getContainedGoodsItem()
     {
@@ -2394,7 +2394,7 @@ class GoodsItemType
      *  Goods Item
      *  Goods Item
      *
-     * @param \UBL\Common\CAC\ContainedGoodsItem[] $containedGoodsItem
+     * @param \App\UBL\Common\CAC\ContainedGoodsItem[] $containedGoodsItem
      * @return self
      */
     public function setContainedGoodsItem(?array $containedGoodsItem = null)
@@ -2417,7 +2417,7 @@ class GoodsItemType
      *  Address
      *  Region of origin (WCO ID 066)
      *
-     * @return \UBL\Common\CAC\OriginAddress
+     * @return \App\UBL\Common\CAC\OriginAddress
      */
     public function getOriginAddress()
     {
@@ -2438,10 +2438,10 @@ class GoodsItemType
      *  Address
      *  Region of origin (WCO ID 066)
      *
-     * @param \UBL\Common\CAC\OriginAddress $originAddress
+     * @param \App\UBL\Common\CAC\OriginAddress $originAddress
      * @return self
      */
-    public function setOriginAddress(?\UBL\Common\CAC\OriginAddress $originAddress = null)
+    public function setOriginAddress(?\App\UBL\Common\CAC\OriginAddress $originAddress = null)
     {
         $this->originAddress = $originAddress;
         return $this;
@@ -2459,7 +2459,7 @@ class GoodsItemType
      *  Delivery
      *  Delivery
      *
-     * @return \UBL\Common\CAC\Delivery
+     * @return \App\UBL\Common\CAC\Delivery
      */
     public function getDelivery()
     {
@@ -2478,10 +2478,10 @@ class GoodsItemType
      *  Delivery
      *  Delivery
      *
-     * @param \UBL\Common\CAC\Delivery $delivery
+     * @param \App\UBL\Common\CAC\Delivery $delivery
      * @return self
      */
-    public function setDelivery(?\UBL\Common\CAC\Delivery $delivery = null)
+    public function setDelivery(?\App\UBL\Common\CAC\Delivery $delivery = null)
     {
         $this->delivery = $delivery;
         return $this;
@@ -2499,7 +2499,7 @@ class GoodsItemType
      *  Pickup
      *  Pickup
      *
-     * @return \UBL\Common\CAC\Pickup
+     * @return \App\UBL\Common\CAC\Pickup
      */
     public function getPickup()
     {
@@ -2518,10 +2518,10 @@ class GoodsItemType
      *  Pickup
      *  Pickup
      *
-     * @param \UBL\Common\CAC\Pickup $pickup
+     * @param \App\UBL\Common\CAC\Pickup $pickup
      * @return self
      */
-    public function setPickup(?\UBL\Common\CAC\Pickup $pickup = null)
+    public function setPickup(?\App\UBL\Common\CAC\Pickup $pickup = null)
     {
         $this->pickup = $pickup;
         return $this;
@@ -2539,7 +2539,7 @@ class GoodsItemType
      *  Despatch
      *  Despatch
      *
-     * @return \UBL\Common\CAC\Despatch
+     * @return \App\UBL\Common\CAC\Despatch
      */
     public function getDespatch()
     {
@@ -2558,10 +2558,10 @@ class GoodsItemType
      *  Despatch
      *  Despatch
      *
-     * @param \UBL\Common\CAC\Despatch $despatch
+     * @param \App\UBL\Common\CAC\Despatch $despatch
      * @return self
      */
-    public function setDespatch(?\UBL\Common\CAC\Despatch $despatch = null)
+    public function setDespatch(?\App\UBL\Common\CAC\Despatch $despatch = null)
     {
         $this->despatch = $despatch;
         return $this;
@@ -2581,9 +2581,9 @@ class GoodsItemType
      *  Dimension
      *
      * @return self
-     * @param \UBL\Common\CAC\MeasurementDimension $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension $measurementDimension
      */
-    public function addToMeasurementDimension(\UBL\Common\CAC\MeasurementDimension $measurementDimension)
+    public function addToMeasurementDimension(\App\UBL\Common\CAC\MeasurementDimension $measurementDimension)
     {
         $this->measurementDimension[] = $measurementDimension;
         return $this;
@@ -2644,7 +2644,7 @@ class GoodsItemType
      *  Dimension
      *  Dimension
      *
-     * @return \UBL\Common\CAC\MeasurementDimension[]
+     * @return \App\UBL\Common\CAC\MeasurementDimension[]
      */
     public function getMeasurementDimension()
     {
@@ -2664,7 +2664,7 @@ class GoodsItemType
      *  Dimension
      *  Dimension
      *
-     * @param \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      * @return self
      */
     public function setMeasurementDimension(?array $measurementDimension = null)
@@ -2687,9 +2687,9 @@ class GoodsItemType
      *  Package
      *
      * @return self
-     * @param \UBL\Common\CAC\ContainingPackage $containingPackage
+     * @param \App\UBL\Common\CAC\ContainingPackage $containingPackage
      */
-    public function addToContainingPackage(\UBL\Common\CAC\ContainingPackage $containingPackage)
+    public function addToContainingPackage(\App\UBL\Common\CAC\ContainingPackage $containingPackage)
     {
         $this->containingPackage[] = $containingPackage;
         return $this;
@@ -2750,7 +2750,7 @@ class GoodsItemType
      *  Package
      *  Package
      *
-     * @return \UBL\Common\CAC\ContainingPackage[]
+     * @return \App\UBL\Common\CAC\ContainingPackage[]
      */
     public function getContainingPackage()
     {
@@ -2770,7 +2770,7 @@ class GoodsItemType
      *  Package
      *  Package
      *
-     * @param \UBL\Common\CAC\ContainingPackage[] $containingPackage
+     * @param \App\UBL\Common\CAC\ContainingPackage[] $containingPackage
      * @return self
      */
     public function setContainingPackage(?array $containingPackage = null)
@@ -2792,7 +2792,7 @@ class GoodsItemType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\ShipmentDocumentReference
+     * @return \App\UBL\Common\CAC\ShipmentDocumentReference
      */
     public function getShipmentDocumentReference()
     {
@@ -2812,10 +2812,10 @@ class GoodsItemType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference
+     * @param \App\UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference
      * @return self
      */
-    public function setShipmentDocumentReference(?\UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference = null)
+    public function setShipmentDocumentReference(?\App\UBL\Common\CAC\ShipmentDocumentReference $shipmentDocumentReference = null)
     {
         $this->shipmentDocumentReference = $shipmentDocumentReference;
         return $this;
@@ -2834,7 +2834,7 @@ class GoodsItemType
      *  Temperature
      *  Temperature
      *
-     * @return \UBL\Common\CAC\MinimumTemperature
+     * @return \App\UBL\Common\CAC\MinimumTemperature
      */
     public function getMinimumTemperature()
     {
@@ -2854,10 +2854,10 @@ class GoodsItemType
      *  Temperature
      *  Temperature
      *
-     * @param \UBL\Common\CAC\MinimumTemperature $minimumTemperature
+     * @param \App\UBL\Common\CAC\MinimumTemperature $minimumTemperature
      * @return self
      */
-    public function setMinimumTemperature(?\UBL\Common\CAC\MinimumTemperature $minimumTemperature = null)
+    public function setMinimumTemperature(?\App\UBL\Common\CAC\MinimumTemperature $minimumTemperature = null)
     {
         $this->minimumTemperature = $minimumTemperature;
         return $this;
@@ -2876,7 +2876,7 @@ class GoodsItemType
      *  Temperature
      *  Temperature
      *
-     * @return \UBL\Common\CAC\MaximumTemperature
+     * @return \App\UBL\Common\CAC\MaximumTemperature
      */
     public function getMaximumTemperature()
     {
@@ -2896,14 +2896,13 @@ class GoodsItemType
      *  Temperature
      *  Temperature
      *
-     * @param \UBL\Common\CAC\MaximumTemperature $maximumTemperature
+     * @param \App\UBL\Common\CAC\MaximumTemperature $maximumTemperature
      * @return self
      */
-    public function setMaximumTemperature(?\UBL\Common\CAC\MaximumTemperature $maximumTemperature = null)
+    public function setMaximumTemperature(?\App\UBL\Common\CAC\MaximumTemperature $maximumTemperature = null)
     {
         $this->maximumTemperature = $maximumTemperature;
         return $this;
     }
 }
-
 

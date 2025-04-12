@@ -1,3 +1,3 @@
-UBL\Common\CAC\SubLineItem:
+App\UBL\Common\CAC\SubLineItem:
     xml_root_name: SubLineItem
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

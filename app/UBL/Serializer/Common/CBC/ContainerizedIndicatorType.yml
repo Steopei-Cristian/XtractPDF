@@ -1,4 +1,4 @@
-UBL\Common\CBC\ContainerizedIndicatorType:
+App\UBL\Common\CBC\ContainerizedIndicatorType:
     properties:
         __value:
             expose: true

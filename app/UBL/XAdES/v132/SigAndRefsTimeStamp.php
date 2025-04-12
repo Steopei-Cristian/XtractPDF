@@ -9,4 +9,3 @@ class SigAndRefsTimeStamp extends XAdESTimeStampType
 {
 }
 
-

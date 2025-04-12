@@ -9,4 +9,3 @@ class MaximumPaymentInstructionsNumeric extends MaximumPaymentInstructionsNumeri
 {
 }
 
-

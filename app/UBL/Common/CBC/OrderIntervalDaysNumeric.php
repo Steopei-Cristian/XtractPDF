@@ -9,4 +9,3 @@ class OrderIntervalDaysNumeric extends OrderIntervalDaysNumericType
 {
 }
 
-

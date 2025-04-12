@@ -24,7 +24,7 @@ class ForecastExceptionType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode
+     * @var \App\UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode
      */
     private $forecastPurposeCode = null;
 
@@ -38,7 +38,7 @@ class ForecastExceptionType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
+     * @var \App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
      */
     private $forecastTypeCode = null;
 
@@ -80,7 +80,7 @@ class ForecastExceptionType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\DataSourceCode $dataSourceCode
+     * @var \App\UBL\Common\CBC\DataSourceCode $dataSourceCode
      */
     private $dataSourceCode = null;
 
@@ -94,7 +94,7 @@ class ForecastExceptionType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ComparisonDataCode $comparisonDataCode
+     * @var \App\UBL\Common\CBC\ComparisonDataCode $comparisonDataCode
      */
     private $comparisonDataCode = null;
 
@@ -139,7 +139,7 @@ class ForecastExceptionType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ForecastPurposeCode
+     * @return \App\UBL\Common\CBC\ForecastPurposeCode
      */
     public function getForecastPurposeCode()
     {
@@ -159,10 +159,10 @@ class ForecastExceptionType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode
+     * @param \App\UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode
      * @return self
      */
-    public function setForecastPurposeCode(\UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode)
+    public function setForecastPurposeCode(\App\UBL\Common\CBC\ForecastPurposeCode $forecastPurposeCode)
     {
         $this->forecastPurposeCode = $forecastPurposeCode;
         return $this;
@@ -180,7 +180,7 @@ class ForecastExceptionType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ForecastTypeCode
+     * @return \App\UBL\Common\CBC\ForecastTypeCode
      */
     public function getForecastTypeCode()
     {
@@ -199,10 +199,10 @@ class ForecastExceptionType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
+     * @param \App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode
      * @return self
      */
-    public function setForecastTypeCode(\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode)
+    public function setForecastTypeCode(\App\UBL\Common\CBC\ForecastTypeCode $forecastTypeCode)
     {
         $this->forecastTypeCode = $forecastTypeCode;
         return $this;
@@ -300,7 +300,7 @@ class ForecastExceptionType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\DataSourceCode
+     * @return \App\UBL\Common\CBC\DataSourceCode
      */
     public function getDataSourceCode()
     {
@@ -319,10 +319,10 @@ class ForecastExceptionType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\DataSourceCode $dataSourceCode
+     * @param \App\UBL\Common\CBC\DataSourceCode $dataSourceCode
      * @return self
      */
-    public function setDataSourceCode(\UBL\Common\CBC\DataSourceCode $dataSourceCode)
+    public function setDataSourceCode(\App\UBL\Common\CBC\DataSourceCode $dataSourceCode)
     {
         $this->dataSourceCode = $dataSourceCode;
         return $this;
@@ -340,7 +340,7 @@ class ForecastExceptionType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ComparisonDataCode
+     * @return \App\UBL\Common\CBC\ComparisonDataCode
      */
     public function getComparisonDataCode()
     {
@@ -359,10 +359,10 @@ class ForecastExceptionType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ComparisonDataCode $comparisonDataCode
+     * @param \App\UBL\Common\CBC\ComparisonDataCode $comparisonDataCode
      * @return self
      */
-    public function setComparisonDataCode(?\UBL\Common\CBC\ComparisonDataCode $comparisonDataCode = null)
+    public function setComparisonDataCode(?\App\UBL\Common\CBC\ComparisonDataCode $comparisonDataCode = null)
     {
         $this->comparisonDataCode = $comparisonDataCode;
         return $this;
@@ -448,5 +448,4 @@ class ForecastExceptionType
         return $this;
     }
 }
-
 

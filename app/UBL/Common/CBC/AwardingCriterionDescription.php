@@ -9,4 +9,3 @@ class AwardingCriterionDescription extends AwardingCriterionDescriptionType
 {
 }
 
-

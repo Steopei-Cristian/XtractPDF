@@ -9,4 +9,3 @@ class SellerEventID extends SellerEventIDType
 {
 }
 
-

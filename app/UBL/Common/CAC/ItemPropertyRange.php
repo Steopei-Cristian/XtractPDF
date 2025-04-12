@@ -9,4 +9,3 @@ class ItemPropertyRange extends ItemPropertyRangeType
 {
 }
 
-

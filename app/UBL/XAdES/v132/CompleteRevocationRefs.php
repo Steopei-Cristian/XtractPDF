@@ -9,4 +9,3 @@ class CompleteRevocationRefs extends CompleteRevocationRefsType
 {
 }
 
-

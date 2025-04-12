@@ -9,4 +9,3 @@ class OriginCountry extends CountryType
 {
 }
 
-

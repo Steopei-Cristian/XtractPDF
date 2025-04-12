@@ -1,2 +1,2 @@
-UBL\Common\CBC\BudgetYearNumericType:
+App\UBL\Common\CBC\BudgetYearNumericType:
     properties: {  }

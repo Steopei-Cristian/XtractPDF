@@ -9,4 +9,3 @@ class PenaltySurchargePercent extends PenaltySurchargePercentType
 {
 }
 
-

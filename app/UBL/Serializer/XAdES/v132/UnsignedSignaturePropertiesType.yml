@@ -1,4 +1,4 @@
-UBL\XAdES\v132\UnsignedSignaturePropertiesType:
+App\UBL\XAdES\v132\UnsignedSignaturePropertiesType:
     properties:
         id:
             expose: true
@@ -22,7 +22,7 @@ UBL\XAdES\v132\UnsignedSignaturePropertiesType:
                 inline: true
                 entry_name: CounterSignature
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\CounterSignatureType>
+            type: array<App\UBL\XAdES\v132\CounterSignatureType>
         signatureTimeStamp:
             expose: true
             access_type: public_method
@@ -36,7 +36,7 @@ UBL\XAdES\v132\UnsignedSignaturePropertiesType:
                 inline: true
                 entry_name: SignatureTimeStamp
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\XAdESTimeStampType>
+            type: array<App\UBL\XAdES\v132\XAdESTimeStampType>
         completeCertificateRefs:
             expose: true
             access_type: public_method
@@ -50,7 +50,7 @@ UBL\XAdES\v132\UnsignedSignaturePropertiesType:
                 inline: true
                 entry_name: CompleteCertificateRefs
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\CompleteCertificateRefsType>
+            type: array<App\UBL\XAdES\v132\CompleteCertificateRefsType>
         completeRevocationRefs:
             expose: true
             access_type: public_method
@@ -64,7 +64,7 @@ UBL\XAdES\v132\UnsignedSignaturePropertiesType:
                 inline: true
                 entry_name: CompleteRevocationRefs
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\CompleteRevocationRefsType>
+            type: array<App\UBL\XAdES\v132\CompleteRevocationRefsType>
         attributeCertificateRefs:
             expose: true
             access_type: public_method
@@ -78,7 +78,7 @@ UBL\XAdES\v132\UnsignedSignaturePropertiesType:
                 inline: true
                 entry_name: AttributeCertificateRefs
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\CompleteCertificateRefsType>
+            type: array<App\UBL\XAdES\v132\CompleteCertificateRefsType>
         attributeRevocationRefs:
             expose: true
             access_type: public_method
@@ -92,7 +92,7 @@ UBL\XAdES\v132\UnsignedSignaturePropertiesType:
                 inline: true
                 entry_name: AttributeRevocationRefs
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\CompleteRevocationRefsType>
+            type: array<App\UBL\XAdES\v132\CompleteRevocationRefsType>
         sigAndRefsTimeStamp:
             expose: true
             access_type: public_method
@@ -106,7 +106,7 @@ UBL\XAdES\v132\UnsignedSignaturePropertiesType:
                 inline: true
                 entry_name: SigAndRefsTimeStamp
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\XAdESTimeStampType>
+            type: array<App\UBL\XAdES\v132\XAdESTimeStampType>
         refsOnlyTimeStamp:
             expose: true
             access_type: public_method
@@ -120,7 +120,7 @@ UBL\XAdES\v132\UnsignedSignaturePropertiesType:
                 inline: true
                 entry_name: RefsOnlyTimeStamp
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\XAdESTimeStampType>
+            type: array<App\UBL\XAdES\v132\XAdESTimeStampType>
         certificateValues:
             expose: true
             access_type: public_method
@@ -134,7 +134,7 @@ UBL\XAdES\v132\UnsignedSignaturePropertiesType:
                 inline: true
                 entry_name: CertificateValues
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\CertificateValuesType>
+            type: array<App\UBL\XAdES\v132\CertificateValuesType>
         revocationValues:
             expose: true
             access_type: public_method
@@ -148,7 +148,7 @@ UBL\XAdES\v132\UnsignedSignaturePropertiesType:
                 inline: true
                 entry_name: RevocationValues
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\RevocationValuesType>
+            type: array<App\UBL\XAdES\v132\RevocationValuesType>
         attrAuthoritiesCertValues:
             expose: true
             access_type: public_method
@@ -162,7 +162,7 @@ UBL\XAdES\v132\UnsignedSignaturePropertiesType:
                 inline: true
                 entry_name: AttrAuthoritiesCertValues
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\CertificateValuesType>
+            type: array<App\UBL\XAdES\v132\CertificateValuesType>
         attributeRevocationValues:
             expose: true
             access_type: public_method
@@ -176,7 +176,7 @@ UBL\XAdES\v132\UnsignedSignaturePropertiesType:
                 inline: true
                 entry_name: AttributeRevocationValues
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\RevocationValuesType>
+            type: array<App\UBL\XAdES\v132\RevocationValuesType>
         archiveTimeStamp:
             expose: true
             access_type: public_method
@@ -190,4 +190,4 @@ UBL\XAdES\v132\UnsignedSignaturePropertiesType:
                 inline: true
                 entry_name: ArchiveTimeStamp
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\XAdESTimeStampType>
+            type: array<App\UBL\XAdES\v132\XAdESTimeStampType>

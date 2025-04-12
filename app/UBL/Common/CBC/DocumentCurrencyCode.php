@@ -9,4 +9,3 @@ class DocumentCurrencyCode extends DocumentCurrencyCodeType
 {
 }
 
-

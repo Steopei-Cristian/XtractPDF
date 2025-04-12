@@ -1,4 +1,4 @@
-UBL\Common\CBC\IndicationIndicator:
+App\UBL\Common\CBC\IndicationIndicator:
     xml_root_name: IndicationIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

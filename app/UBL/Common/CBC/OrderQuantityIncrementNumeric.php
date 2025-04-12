@@ -9,4 +9,3 @@ class OrderQuantityIncrementNumeric extends OrderQuantityIncrementNumericType
 {
 }
 
-

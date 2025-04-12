@@ -9,4 +9,3 @@ class EvidenceIssuingParty extends PartyType
 {
 }
 
-

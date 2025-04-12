@@ -9,4 +9,3 @@ class PriceRevisionFormulaDescription extends PriceRevisionFormulaDescriptionTyp
 {
 }
 
-

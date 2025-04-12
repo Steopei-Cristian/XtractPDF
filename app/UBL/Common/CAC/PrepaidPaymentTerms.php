@@ -9,4 +9,3 @@ class PrepaidPaymentTerms extends PaymentTermsType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Unqualified\VideoType:
+App\UBL\Unqualified\VideoType:
     properties:
         mimeCode:
             expose: true

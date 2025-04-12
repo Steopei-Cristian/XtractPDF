@@ -1,2 +1,2 @@
-UBL\Common\CBC\MaximumBackorderQuantityType:
+App\UBL\Common\CBC\MaximumBackorderQuantityType:
     properties: {  }

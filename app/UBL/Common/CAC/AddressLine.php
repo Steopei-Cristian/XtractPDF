@@ -9,4 +9,3 @@ class AddressLine extends AddressLineType
 {
 }
 
-

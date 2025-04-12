@@ -24,7 +24,7 @@ class CatalogueItemSpecificationUpdateLineType
      *  Identifier. Type
      *  1
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class CatalogueItemSpecificationUpdateLineType
      *  Customer Party
      *  Customer Party
      *
-     * @var \UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty
+     * @var \App\UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty
      */
     private $contractorCustomerParty = null;
 
@@ -54,7 +54,7 @@ class CatalogueItemSpecificationUpdateLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @var \UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
+     * @var \App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
      */
     private $sellerSupplierParty = null;
 
@@ -68,7 +68,7 @@ class CatalogueItemSpecificationUpdateLineType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item $item
+     * @var \App\UBL\Common\CAC\Item $item
      */
     private $item = null;
 
@@ -85,7 +85,7 @@ class CatalogueItemSpecificationUpdateLineType
      *  Identifier. Type
      *  1
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -105,10 +105,10 @@ class CatalogueItemSpecificationUpdateLineType
      *  Identifier. Type
      *  1
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -127,7 +127,7 @@ class CatalogueItemSpecificationUpdateLineType
      *  Customer Party
      *  Customer Party
      *
-     * @return \UBL\Common\CAC\ContractorCustomerParty
+     * @return \App\UBL\Common\CAC\ContractorCustomerParty
      */
     public function getContractorCustomerParty()
     {
@@ -147,10 +147,10 @@ class CatalogueItemSpecificationUpdateLineType
      *  Customer Party
      *  Customer Party
      *
-     * @param \UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty
+     * @param \App\UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty
      * @return self
      */
-    public function setContractorCustomerParty(?\UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty = null)
+    public function setContractorCustomerParty(?\App\UBL\Common\CAC\ContractorCustomerParty $contractorCustomerParty = null)
     {
         $this->contractorCustomerParty = $contractorCustomerParty;
         return $this;
@@ -169,7 +169,7 @@ class CatalogueItemSpecificationUpdateLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @return \UBL\Common\CAC\SellerSupplierParty
+     * @return \App\UBL\Common\CAC\SellerSupplierParty
      */
     public function getSellerSupplierParty()
     {
@@ -189,10 +189,10 @@ class CatalogueItemSpecificationUpdateLineType
      *  Supplier Party
      *  Supplier Party
      *
-     * @param \UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
+     * @param \App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty
      * @return self
      */
-    public function setSellerSupplierParty(?\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty = null)
+    public function setSellerSupplierParty(?\App\UBL\Common\CAC\SellerSupplierParty $sellerSupplierParty = null)
     {
         $this->sellerSupplierParty = $sellerSupplierParty;
         return $this;
@@ -210,7 +210,7 @@ class CatalogueItemSpecificationUpdateLineType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item
+     * @return \App\UBL\Common\CAC\Item
      */
     public function getItem()
     {
@@ -229,14 +229,13 @@ class CatalogueItemSpecificationUpdateLineType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      * @return self
      */
-    public function setItem(\UBL\Common\CAC\Item $item)
+    public function setItem(\App\UBL\Common\CAC\Item $item)
     {
         $this->item = $item;
         return $this;
     }
 }
-
 

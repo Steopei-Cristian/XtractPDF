@@ -24,7 +24,7 @@ class DeliveryUnitType
      *  Quantity. Type
      *  100 units , by the dozen
      *
-     * @var \UBL\Common\CBC\BatchQuantity $batchQuantity
+     * @var \App\UBL\Common\CBC\BatchQuantity $batchQuantity
      */
     private $batchQuantity = null;
 
@@ -40,7 +40,7 @@ class DeliveryUnitType
      *  Quantity. Type
      *  packs of 10
      *
-     * @var \UBL\Common\CBC\ConsumerUnitQuantity $consumerUnitQuantity
+     * @var \App\UBL\Common\CBC\ConsumerUnitQuantity $consumerUnitQuantity
      */
     private $consumerUnitQuantity = null;
 
@@ -73,7 +73,7 @@ class DeliveryUnitType
      *  Quantity. Type
      *  100 units , by the dozen
      *
-     * @return \UBL\Common\CBC\BatchQuantity
+     * @return \App\UBL\Common\CBC\BatchQuantity
      */
     public function getBatchQuantity()
     {
@@ -93,10 +93,10 @@ class DeliveryUnitType
      *  Quantity. Type
      *  100 units , by the dozen
      *
-     * @param \UBL\Common\CBC\BatchQuantity $batchQuantity
+     * @param \App\UBL\Common\CBC\BatchQuantity $batchQuantity
      * @return self
      */
-    public function setBatchQuantity(\UBL\Common\CBC\BatchQuantity $batchQuantity)
+    public function setBatchQuantity(\App\UBL\Common\CBC\BatchQuantity $batchQuantity)
     {
         $this->batchQuantity = $batchQuantity;
         return $this;
@@ -116,7 +116,7 @@ class DeliveryUnitType
      *  Quantity. Type
      *  packs of 10
      *
-     * @return \UBL\Common\CBC\ConsumerUnitQuantity
+     * @return \App\UBL\Common\CBC\ConsumerUnitQuantity
      */
     public function getConsumerUnitQuantity()
     {
@@ -137,10 +137,10 @@ class DeliveryUnitType
      *  Quantity. Type
      *  packs of 10
      *
-     * @param \UBL\Common\CBC\ConsumerUnitQuantity $consumerUnitQuantity
+     * @param \App\UBL\Common\CBC\ConsumerUnitQuantity $consumerUnitQuantity
      * @return self
      */
-    public function setConsumerUnitQuantity(?\UBL\Common\CBC\ConsumerUnitQuantity $consumerUnitQuantity = null)
+    public function setConsumerUnitQuantity(?\App\UBL\Common\CBC\ConsumerUnitQuantity $consumerUnitQuantity = null)
     {
         $this->consumerUnitQuantity = $consumerUnitQuantity;
         return $this;
@@ -190,5 +190,4 @@ class DeliveryUnitType
         return $this;
     }
 }
-
 

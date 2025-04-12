@@ -9,4 +9,3 @@ class Frequency extends FrequencyType
 {
 }
 
-

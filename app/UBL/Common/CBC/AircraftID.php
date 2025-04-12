@@ -9,4 +9,3 @@ class AircraftID extends AircraftIDType
 {
 }
 
-

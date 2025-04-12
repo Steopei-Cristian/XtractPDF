@@ -1,4 +1,4 @@
-UBL\Common\CAC\GoodsItemContainerType:
+App\UBL\Common\CAC\GoodsItemContainerType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\GoodsItemContainerType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         quantity:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\GoodsItemContainerType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         transportEquipment:
             expose: true
             access_type: public_method
@@ -33,4 +33,4 @@ UBL\Common\CAC\GoodsItemContainerType:
                 inline: true
                 entry_name: TransportEquipment
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TransportEquipment>
+            type: array<App\UBL\Common\CAC\TransportEquipment>

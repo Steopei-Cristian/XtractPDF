@@ -9,4 +9,3 @@ class PackQuantity extends PackQuantityType
 {
 }
 
-

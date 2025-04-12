@@ -1,4 +1,4 @@
-UBL\Common\CBC\PowerIndicatorType:
+App\UBL\Common\CBC\PowerIndicatorType:
     properties:
         __value:
             expose: true

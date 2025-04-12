@@ -9,4 +9,3 @@ class DependentLineReference extends LineReferenceType
 {
 }
 
-

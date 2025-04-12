@@ -9,4 +9,3 @@ class ApplicableRegulation extends RegulationType
 {
 }
 
-

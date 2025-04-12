@@ -1,4 +1,4 @@
-UBL\Common\CBC\FirstShipmentAvailibilityDateType:
+App\UBL\Common\CBC\FirstShipmentAvailibilityDateType:
     properties:
         __value:
             expose: true

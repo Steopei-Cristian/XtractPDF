@@ -1,4 +1,4 @@
-UBL\Common\CBC\GovernmentAgreementConstraintIndicatorType:
+App\UBL\Common\CBC\GovernmentAgreementConstraintIndicatorType:
     properties:
         __value:
             expose: true

@@ -9,4 +9,3 @@ class EnergyWaterConsumptionCorrection extends ConsumptionCorrectionType
 {
 }
 
-

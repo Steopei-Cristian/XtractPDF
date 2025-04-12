@@ -23,7 +23,7 @@ class EconomicOperatorRoleType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\RoleCode $roleCode
+     * @var \App\UBL\Common\CBC\RoleCode $roleCode
      */
     private $roleCode = null;
 
@@ -37,7 +37,7 @@ class EconomicOperatorRoleType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\RoleDescription[] $roleDescription
+     * @var \App\UBL\Common\CBC\RoleDescription[] $roleDescription
      */
     private $roleDescription = [
         
@@ -55,7 +55,7 @@ class EconomicOperatorRoleType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\RoleCode
+     * @return \App\UBL\Common\CBC\RoleCode
      */
     public function getRoleCode()
     {
@@ -74,10 +74,10 @@ class EconomicOperatorRoleType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\RoleCode $roleCode
+     * @param \App\UBL\Common\CBC\RoleCode $roleCode
      * @return self
      */
-    public function setRoleCode(?\UBL\Common\CBC\RoleCode $roleCode = null)
+    public function setRoleCode(?\App\UBL\Common\CBC\RoleCode $roleCode = null)
     {
         $this->roleCode = $roleCode;
         return $this;
@@ -96,9 +96,9 @@ class EconomicOperatorRoleType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\RoleDescription $roleDescription
+     * @param \App\UBL\Common\CBC\RoleDescription $roleDescription
      */
-    public function addToRoleDescription(\UBL\Common\CBC\RoleDescription $roleDescription)
+    public function addToRoleDescription(\App\UBL\Common\CBC\RoleDescription $roleDescription)
     {
         $this->roleDescription[] = $roleDescription;
         return $this;
@@ -156,7 +156,7 @@ class EconomicOperatorRoleType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\RoleDescription[]
+     * @return \App\UBL\Common\CBC\RoleDescription[]
      */
     public function getRoleDescription()
     {
@@ -175,7 +175,7 @@ class EconomicOperatorRoleType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\RoleDescription[] $roleDescription
+     * @param \App\UBL\Common\CBC\RoleDescription[] $roleDescription
      * @return self
      */
     public function setRoleDescription(?array $roleDescription = null)
@@ -184,5 +184,4 @@ class EconomicOperatorRoleType
         return $this;
     }
 }
-
 

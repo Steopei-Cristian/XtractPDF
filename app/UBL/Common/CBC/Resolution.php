@@ -9,4 +9,3 @@ class Resolution extends ResolutionType
 {
 }
 
-

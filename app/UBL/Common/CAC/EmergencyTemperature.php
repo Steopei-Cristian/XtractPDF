@@ -9,4 +9,3 @@ class EmergencyTemperature extends TemperatureType
 {
 }
 
-

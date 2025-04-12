@@ -23,7 +23,7 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\UUID $uUID
+     * @var \App\UBL\Common\CBC\UUID $uUID
      */
     private $uUID = null;
 
@@ -81,7 +81,7 @@ class ClassificationSchemeType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -98,7 +98,7 @@ class ClassificationSchemeType
      *  Name. Type
      *  UNSPSC
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -113,7 +113,7 @@ class ClassificationSchemeType
      *  Text. Type
      *  an open, global multi-sector standard for classification of products and services
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -130,7 +130,7 @@ class ClassificationSchemeType
      *  Identifier. Type
      *  Defaults to the UN/EDIFACT data element 3055 code list.
      *
-     * @var \UBL\Common\CBC\AgencyID $agencyID
+     * @var \App\UBL\Common\CBC\AgencyID $agencyID
      */
     private $agencyID = null;
 
@@ -144,7 +144,7 @@ class ClassificationSchemeType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\AgencyName $agencyName
+     * @var \App\UBL\Common\CBC\AgencyName $agencyName
      */
     private $agencyName = null;
 
@@ -158,7 +158,7 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\VersionID $versionID
+     * @var \App\UBL\Common\CBC\VersionID $versionID
      */
     private $versionID = null;
 
@@ -172,7 +172,7 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\URI $uRI
+     * @var \App\UBL\Common\CBC\URI $uRI
      */
     private $uRI = null;
 
@@ -187,7 +187,7 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\SchemeURI $schemeURI
+     * @var \App\UBL\Common\CBC\SchemeURI $schemeURI
      */
     private $schemeURI = null;
 
@@ -201,7 +201,7 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\LanguageID $languageID
+     * @var \App\UBL\Common\CBC\LanguageID $languageID
      */
     private $languageID = null;
 
@@ -215,7 +215,7 @@ class ClassificationSchemeType
      *  Classification Category
      *  Classification Category
      *
-     * @var \UBL\Common\CAC\ClassificationCategory[] $classificationCategory
+     * @var \App\UBL\Common\CAC\ClassificationCategory[] $classificationCategory
      */
     private $classificationCategory = [
         
@@ -233,7 +233,7 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -252,10 +252,10 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -273,7 +273,7 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\UUID
+     * @return \App\UBL\Common\CBC\UUID
      */
     public function getUUID()
     {
@@ -292,10 +292,10 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\UUID $uUID
+     * @param \App\UBL\Common\CBC\UUID $uUID
      * @return self
      */
-    public function setUUID(?\UBL\Common\CBC\UUID $uUID = null)
+    public function setUUID(?\App\UBL\Common\CBC\UUID $uUID = null)
     {
         $this->uUID = $uUID;
         return $this;
@@ -398,9 +398,9 @@ class ClassificationSchemeType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -458,7 +458,7 @@ class ClassificationSchemeType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -477,7 +477,7 @@ class ClassificationSchemeType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -499,7 +499,7 @@ class ClassificationSchemeType
      *  Name. Type
      *  UNSPSC
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -519,10 +519,10 @@ class ClassificationSchemeType
      *  Name. Type
      *  UNSPSC
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -542,9 +542,9 @@ class ClassificationSchemeType
      *  an open, global multi-sector standard for classification of products and services
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -605,7 +605,7 @@ class ClassificationSchemeType
      *  Text. Type
      *  an open, global multi-sector standard for classification of products and services
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -625,7 +625,7 @@ class ClassificationSchemeType
      *  Text. Type
      *  an open, global multi-sector standard for classification of products and services
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -647,7 +647,7 @@ class ClassificationSchemeType
      *  Identifier. Type
      *  Defaults to the UN/EDIFACT data element 3055 code list.
      *
-     * @return \UBL\Common\CBC\AgencyID
+     * @return \App\UBL\Common\CBC\AgencyID
      */
     public function getAgencyID()
     {
@@ -667,10 +667,10 @@ class ClassificationSchemeType
      *  Identifier. Type
      *  Defaults to the UN/EDIFACT data element 3055 code list.
      *
-     * @param \UBL\Common\CBC\AgencyID $agencyID
+     * @param \App\UBL\Common\CBC\AgencyID $agencyID
      * @return self
      */
-    public function setAgencyID(?\UBL\Common\CBC\AgencyID $agencyID = null)
+    public function setAgencyID(?\App\UBL\Common\CBC\AgencyID $agencyID = null)
     {
         $this->agencyID = $agencyID;
         return $this;
@@ -688,7 +688,7 @@ class ClassificationSchemeType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\AgencyName
+     * @return \App\UBL\Common\CBC\AgencyName
      */
     public function getAgencyName()
     {
@@ -707,10 +707,10 @@ class ClassificationSchemeType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\AgencyName $agencyName
+     * @param \App\UBL\Common\CBC\AgencyName $agencyName
      * @return self
      */
-    public function setAgencyName(?\UBL\Common\CBC\AgencyName $agencyName = null)
+    public function setAgencyName(?\App\UBL\Common\CBC\AgencyName $agencyName = null)
     {
         $this->agencyName = $agencyName;
         return $this;
@@ -728,7 +728,7 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\VersionID
+     * @return \App\UBL\Common\CBC\VersionID
      */
     public function getVersionID()
     {
@@ -747,10 +747,10 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\VersionID $versionID
+     * @param \App\UBL\Common\CBC\VersionID $versionID
      * @return self
      */
-    public function setVersionID(?\UBL\Common\CBC\VersionID $versionID = null)
+    public function setVersionID(?\App\UBL\Common\CBC\VersionID $versionID = null)
     {
         $this->versionID = $versionID;
         return $this;
@@ -768,7 +768,7 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\URI
+     * @return \App\UBL\Common\CBC\URI
      */
     public function getURI()
     {
@@ -787,10 +787,10 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\URI $uRI
+     * @param \App\UBL\Common\CBC\URI $uRI
      * @return self
      */
-    public function setURI(?\UBL\Common\CBC\URI $uRI = null)
+    public function setURI(?\App\UBL\Common\CBC\URI $uRI = null)
     {
         $this->uRI = $uRI;
         return $this;
@@ -809,7 +809,7 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\SchemeURI
+     * @return \App\UBL\Common\CBC\SchemeURI
      */
     public function getSchemeURI()
     {
@@ -829,10 +829,10 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\SchemeURI $schemeURI
+     * @param \App\UBL\Common\CBC\SchemeURI $schemeURI
      * @return self
      */
-    public function setSchemeURI(?\UBL\Common\CBC\SchemeURI $schemeURI = null)
+    public function setSchemeURI(?\App\UBL\Common\CBC\SchemeURI $schemeURI = null)
     {
         $this->schemeURI = $schemeURI;
         return $this;
@@ -850,7 +850,7 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\LanguageID
+     * @return \App\UBL\Common\CBC\LanguageID
      */
     public function getLanguageID()
     {
@@ -869,10 +869,10 @@ class ClassificationSchemeType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\LanguageID $languageID
+     * @param \App\UBL\Common\CBC\LanguageID $languageID
      * @return self
      */
-    public function setLanguageID(?\UBL\Common\CBC\LanguageID $languageID = null)
+    public function setLanguageID(?\App\UBL\Common\CBC\LanguageID $languageID = null)
     {
         $this->languageID = $languageID;
         return $this;
@@ -891,9 +891,9 @@ class ClassificationSchemeType
      *  Classification Category
      *
      * @return self
-     * @param \UBL\Common\CAC\ClassificationCategory $classificationCategory
+     * @param \App\UBL\Common\CAC\ClassificationCategory $classificationCategory
      */
-    public function addToClassificationCategory(\UBL\Common\CAC\ClassificationCategory $classificationCategory)
+    public function addToClassificationCategory(\App\UBL\Common\CAC\ClassificationCategory $classificationCategory)
     {
         $this->classificationCategory[] = $classificationCategory;
         return $this;
@@ -951,7 +951,7 @@ class ClassificationSchemeType
      *  Classification Category
      *  Classification Category
      *
-     * @return \UBL\Common\CAC\ClassificationCategory[]
+     * @return \App\UBL\Common\CAC\ClassificationCategory[]
      */
     public function getClassificationCategory()
     {
@@ -970,7 +970,7 @@ class ClassificationSchemeType
      *  Classification Category
      *  Classification Category
      *
-     * @param \UBL\Common\CAC\ClassificationCategory[] $classificationCategory
+     * @param \App\UBL\Common\CAC\ClassificationCategory[] $classificationCategory
      * @return self
      */
     public function setClassificationCategory(array $classificationCategory)
@@ -979,5 +979,4 @@ class ClassificationSchemeType
         return $this;
     }
 }
-
 

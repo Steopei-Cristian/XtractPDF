@@ -9,4 +9,3 @@ class Any extends AnyType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ContractType extends ContractTypeType
 {
 }
 
-

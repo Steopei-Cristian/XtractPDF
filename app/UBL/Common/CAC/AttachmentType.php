@@ -24,7 +24,7 @@ class AttachmentType
      *  Binary Object
      *  Binary Object. Type
      *
-     * @var \UBL\Common\CBC\EmbeddedDocumentBinaryObject $embeddedDocumentBinaryObject
+     * @var \App\UBL\Common\CBC\EmbeddedDocumentBinaryObject $embeddedDocumentBinaryObject
      */
     private $embeddedDocumentBinaryObject = null;
 
@@ -38,7 +38,7 @@ class AttachmentType
      *  External Reference
      *  External Reference
      *
-     * @var \UBL\Common\CAC\ExternalReference $externalReference
+     * @var \App\UBL\Common\CAC\ExternalReference $externalReference
      */
     private $externalReference = null;
 
@@ -55,7 +55,7 @@ class AttachmentType
      *  Binary Object
      *  Binary Object. Type
      *
-     * @return \UBL\Common\CBC\EmbeddedDocumentBinaryObject
+     * @return \App\UBL\Common\CBC\EmbeddedDocumentBinaryObject
      */
     public function getEmbeddedDocumentBinaryObject()
     {
@@ -75,10 +75,10 @@ class AttachmentType
      *  Binary Object
      *  Binary Object. Type
      *
-     * @param \UBL\Common\CBC\EmbeddedDocumentBinaryObject $embeddedDocumentBinaryObject
+     * @param \App\UBL\Common\CBC\EmbeddedDocumentBinaryObject $embeddedDocumentBinaryObject
      * @return self
      */
-    public function setEmbeddedDocumentBinaryObject(?\UBL\Common\CBC\EmbeddedDocumentBinaryObject $embeddedDocumentBinaryObject = null)
+    public function setEmbeddedDocumentBinaryObject(?\App\UBL\Common\CBC\EmbeddedDocumentBinaryObject $embeddedDocumentBinaryObject = null)
     {
         $this->embeddedDocumentBinaryObject = $embeddedDocumentBinaryObject;
         return $this;
@@ -96,7 +96,7 @@ class AttachmentType
      *  External Reference
      *  External Reference
      *
-     * @return \UBL\Common\CAC\ExternalReference
+     * @return \App\UBL\Common\CAC\ExternalReference
      */
     public function getExternalReference()
     {
@@ -115,14 +115,13 @@ class AttachmentType
      *  External Reference
      *  External Reference
      *
-     * @param \UBL\Common\CAC\ExternalReference $externalReference
+     * @param \App\UBL\Common\CAC\ExternalReference $externalReference
      * @return self
      */
-    public function setExternalReference(?\UBL\Common\CAC\ExternalReference $externalReference = null)
+    public function setExternalReference(?\App\UBL\Common\CAC\ExternalReference $externalReference = null)
     {
         $this->externalReference = $externalReference;
         return $this;
     }
 }
-
 

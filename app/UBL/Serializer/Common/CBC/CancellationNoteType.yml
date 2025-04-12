@@ -1,2 +1,2 @@
-UBL\Common\CBC\CancellationNoteType:
+App\UBL\Common\CBC\CancellationNoteType:
     properties: {  }

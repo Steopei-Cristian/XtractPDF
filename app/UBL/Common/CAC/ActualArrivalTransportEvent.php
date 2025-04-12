@@ -9,4 +9,3 @@ class ActualArrivalTransportEvent extends TransportEventType
 {
 }
 
-

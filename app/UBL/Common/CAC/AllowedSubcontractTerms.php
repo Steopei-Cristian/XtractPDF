@@ -9,4 +9,3 @@ class AllowedSubcontractTerms extends SubcontractTermsType
 {
 }
 
-

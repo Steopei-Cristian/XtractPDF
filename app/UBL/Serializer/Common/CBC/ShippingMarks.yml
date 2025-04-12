@@ -1,3 +1,3 @@
-UBL\Common\CBC\ShippingMarks:
+App\UBL\Common\CBC\ShippingMarks:
     xml_root_name: ShippingMarks
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

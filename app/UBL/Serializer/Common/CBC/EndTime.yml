@@ -1,4 +1,4 @@
-UBL\Common\CBC\EndTime:
+App\UBL\Common\CBC\EndTime:
     xml_root_name: EndTime
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

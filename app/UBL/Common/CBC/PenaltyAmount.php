@@ -9,4 +9,3 @@ class PenaltyAmount extends PenaltyAmountType
 {
 }
 
-

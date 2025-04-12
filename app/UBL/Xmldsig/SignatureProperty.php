@@ -9,4 +9,3 @@ class SignatureProperty extends SignaturePropertyType
 {
 }
 
-

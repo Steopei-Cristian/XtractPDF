@@ -1,4 +1,4 @@
-UBL\Common\CBC\PaymentDueDate:
+App\UBL\Common\CBC\PaymentDueDate:
     xml_root_name: PaymentDueDate
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

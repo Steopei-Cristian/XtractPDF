@@ -9,4 +9,3 @@ class TransportServiceProviderResponseRequiredPeriod extends PeriodType
 {
 }
 
-

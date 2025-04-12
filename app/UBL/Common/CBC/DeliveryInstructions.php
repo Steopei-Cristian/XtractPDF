@@ -9,4 +9,3 @@ class DeliveryInstructions extends DeliveryInstructionsType
 {
 }
 
-

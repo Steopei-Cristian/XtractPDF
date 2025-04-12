@@ -1,2 +1,2 @@
-UBL\Common\CBC\ResidentOccupantsNumericType:
+App\UBL\Common\CBC\ResidentOccupantsNumericType:
     properties: {  }

@@ -9,4 +9,3 @@ class PaidAmount extends PaidAmountType
 {
 }
 
-

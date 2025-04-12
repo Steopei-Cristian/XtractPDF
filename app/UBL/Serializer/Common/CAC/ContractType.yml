@@ -1,4 +1,4 @@
-UBL\Common\CAC\ContractType:
+App\UBL\Common\CAC\ContractType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ContractType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         issueDate:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\ContractType:
             accessor:
                 getter: getContractTypeCode
                 setter: setContractTypeCode
-            type: UBL\Common\CBC\ContractTypeCode
+            type: App\UBL\Common\CBC\ContractTypeCode
         contractType:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\ContractType:
             accessor:
                 getter: getContractType
                 setter: setContractType
-            type: UBL\Common\CBC\ContractType
+            type: App\UBL\Common\CBC\ContractType
         note:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ UBL\Common\CAC\ContractType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         versionID:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ UBL\Common\CAC\ContractType:
             accessor:
                 getter: getVersionID
                 setter: setVersionID
-            type: UBL\Common\CBC\VersionID
+            type: App\UBL\Common\CBC\VersionID
         description:
             expose: true
             access_type: public_method
@@ -107,7 +107,7 @@ UBL\Common\CAC\ContractType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         validityPeriod:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ UBL\Common\CAC\ContractType:
             accessor:
                 getter: getValidityPeriod
                 setter: setValidityPeriod
-            type: UBL\Common\CAC\ValidityPeriod
+            type: App\UBL\Common\CAC\ValidityPeriod
         contractDocumentReference:
             expose: true
             access_type: public_method
@@ -131,7 +131,7 @@ UBL\Common\CAC\ContractType:
                 inline: true
                 entry_name: ContractDocumentReference
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ContractDocumentReference>
+            type: array<App\UBL\Common\CAC\ContractDocumentReference>
         nominationPeriod:
             expose: true
             access_type: public_method
@@ -141,7 +141,7 @@ UBL\Common\CAC\ContractType:
             accessor:
                 getter: getNominationPeriod
                 setter: setNominationPeriod
-            type: UBL\Common\CAC\NominationPeriod
+            type: App\UBL\Common\CAC\NominationPeriod
         contractualDelivery:
             expose: true
             access_type: public_method
@@ -151,4 +151,4 @@ UBL\Common\CAC\ContractType:
             accessor:
                 getter: getContractualDelivery
                 setter: setContractualDelivery
-            type: UBL\Common\CAC\ContractualDelivery
+            type: App\UBL\Common\CAC\ContractualDelivery

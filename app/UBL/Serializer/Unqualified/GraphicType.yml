@@ -1,4 +1,4 @@
-UBL\Unqualified\GraphicType:
+App\UBL\Unqualified\GraphicType:
     properties:
         mimeCode:
             expose: true

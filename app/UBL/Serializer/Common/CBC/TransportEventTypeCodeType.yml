@@ -1,2 +1,2 @@
-UBL\Common\CBC\TransportEventTypeCodeType:
+App\UBL\Common\CBC\TransportEventTypeCodeType:
     properties: {  }

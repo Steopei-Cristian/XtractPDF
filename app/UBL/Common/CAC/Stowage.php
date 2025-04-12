@@ -9,4 +9,3 @@ class Stowage extends StowageType
 {
 }
 
-

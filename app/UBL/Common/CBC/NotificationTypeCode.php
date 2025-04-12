@@ -9,4 +9,3 @@ class NotificationTypeCode extends NotificationTypeCodeType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ReleaseID extends ReleaseIDType
 {
 }
 
-

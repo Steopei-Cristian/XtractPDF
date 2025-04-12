@@ -24,7 +24,7 @@ class ItemInstanceType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ProductTraceID $productTraceID
+     * @var \App\UBL\Common\CBC\ProductTraceID $productTraceID
      */
     private $productTraceID = null;
 
@@ -81,7 +81,7 @@ class ItemInstanceType
      *  Identifier. Type
      *  car registration or licensing number
      *
-     * @var \UBL\Common\CBC\RegistrationID $registrationID
+     * @var \App\UBL\Common\CBC\RegistrationID $registrationID
      */
     private $registrationID = null;
 
@@ -96,7 +96,7 @@ class ItemInstanceType
      *  Identifier. Type
      *  chassis number of a car
      *
-     * @var \UBL\Common\CBC\SerialID $serialID
+     * @var \App\UBL\Common\CBC\SerialID $serialID
      */
     private $serialID = null;
 
@@ -111,7 +111,7 @@ class ItemInstanceType
      *  Item Property
      *  Item Property
      *
-     * @var \UBL\Common\CAC\AdditionalItemProperty[] $additionalItemProperty
+     * @var \App\UBL\Common\CAC\AdditionalItemProperty[] $additionalItemProperty
      */
     private $additionalItemProperty = [
         
@@ -127,7 +127,7 @@ class ItemInstanceType
      *  Lot Identification
      *  Lot Identification
      *
-     * @var \UBL\Common\CAC\LotIdentification $lotIdentification
+     * @var \App\UBL\Common\CAC\LotIdentification $lotIdentification
      */
     private $lotIdentification = null;
 
@@ -144,7 +144,7 @@ class ItemInstanceType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ProductTraceID
+     * @return \App\UBL\Common\CBC\ProductTraceID
      */
     public function getProductTraceID()
     {
@@ -164,10 +164,10 @@ class ItemInstanceType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ProductTraceID $productTraceID
+     * @param \App\UBL\Common\CBC\ProductTraceID $productTraceID
      * @return self
      */
-    public function setProductTraceID(?\UBL\Common\CBC\ProductTraceID $productTraceID = null)
+    public function setProductTraceID(?\App\UBL\Common\CBC\ProductTraceID $productTraceID = null)
     {
         $this->productTraceID = $productTraceID;
         return $this;
@@ -306,7 +306,7 @@ class ItemInstanceType
      *  Identifier. Type
      *  car registration or licensing number
      *
-     * @return \UBL\Common\CBC\RegistrationID
+     * @return \App\UBL\Common\CBC\RegistrationID
      */
     public function getRegistrationID()
     {
@@ -326,10 +326,10 @@ class ItemInstanceType
      *  Identifier. Type
      *  car registration or licensing number
      *
-     * @param \UBL\Common\CBC\RegistrationID $registrationID
+     * @param \App\UBL\Common\CBC\RegistrationID $registrationID
      * @return self
      */
-    public function setRegistrationID(?\UBL\Common\CBC\RegistrationID $registrationID = null)
+    public function setRegistrationID(?\App\UBL\Common\CBC\RegistrationID $registrationID = null)
     {
         $this->registrationID = $registrationID;
         return $this;
@@ -348,7 +348,7 @@ class ItemInstanceType
      *  Identifier. Type
      *  chassis number of a car
      *
-     * @return \UBL\Common\CBC\SerialID
+     * @return \App\UBL\Common\CBC\SerialID
      */
     public function getSerialID()
     {
@@ -368,10 +368,10 @@ class ItemInstanceType
      *  Identifier. Type
      *  chassis number of a car
      *
-     * @param \UBL\Common\CBC\SerialID $serialID
+     * @param \App\UBL\Common\CBC\SerialID $serialID
      * @return self
      */
-    public function setSerialID(?\UBL\Common\CBC\SerialID $serialID = null)
+    public function setSerialID(?\App\UBL\Common\CBC\SerialID $serialID = null)
     {
         $this->serialID = $serialID;
         return $this;
@@ -391,9 +391,9 @@ class ItemInstanceType
      *  Item Property
      *
      * @return self
-     * @param \UBL\Common\CAC\AdditionalItemProperty $additionalItemProperty
+     * @param \App\UBL\Common\CAC\AdditionalItemProperty $additionalItemProperty
      */
-    public function addToAdditionalItemProperty(\UBL\Common\CAC\AdditionalItemProperty $additionalItemProperty)
+    public function addToAdditionalItemProperty(\App\UBL\Common\CAC\AdditionalItemProperty $additionalItemProperty)
     {
         $this->additionalItemProperty[] = $additionalItemProperty;
         return $this;
@@ -454,7 +454,7 @@ class ItemInstanceType
      *  Item Property
      *  Item Property
      *
-     * @return \UBL\Common\CAC\AdditionalItemProperty[]
+     * @return \App\UBL\Common\CAC\AdditionalItemProperty[]
      */
     public function getAdditionalItemProperty()
     {
@@ -474,7 +474,7 @@ class ItemInstanceType
      *  Item Property
      *  Item Property
      *
-     * @param \UBL\Common\CAC\AdditionalItemProperty[] $additionalItemProperty
+     * @param \App\UBL\Common\CAC\AdditionalItemProperty[] $additionalItemProperty
      * @return self
      */
     public function setAdditionalItemProperty(?array $additionalItemProperty = null)
@@ -495,7 +495,7 @@ class ItemInstanceType
      *  Lot Identification
      *  Lot Identification
      *
-     * @return \UBL\Common\CAC\LotIdentification
+     * @return \App\UBL\Common\CAC\LotIdentification
      */
     public function getLotIdentification()
     {
@@ -514,14 +514,13 @@ class ItemInstanceType
      *  Lot Identification
      *  Lot Identification
      *
-     * @param \UBL\Common\CAC\LotIdentification $lotIdentification
+     * @param \App\UBL\Common\CAC\LotIdentification $lotIdentification
      * @return self
      */
-    public function setLotIdentification(?\UBL\Common\CAC\LotIdentification $lotIdentification = null)
+    public function setLotIdentification(?\App\UBL\Common\CAC\LotIdentification $lotIdentification = null)
     {
         $this->lotIdentification = $lotIdentification;
         return $this;
     }
 }
-
 

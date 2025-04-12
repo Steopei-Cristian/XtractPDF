@@ -9,4 +9,3 @@ class BusinessIdentityEvidenceID extends BusinessIdentityEvidenceIDType
 {
 }
 
-

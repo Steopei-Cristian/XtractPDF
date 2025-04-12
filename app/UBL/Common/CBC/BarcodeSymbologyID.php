@@ -9,4 +9,3 @@ class BarcodeSymbologyID extends BarcodeSymbologyIDType
 {
 }
 
-

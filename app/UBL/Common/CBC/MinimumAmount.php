@@ -9,4 +9,3 @@ class MinimumAmount extends MinimumAmountType
 {
 }
 
-

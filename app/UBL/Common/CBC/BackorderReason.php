@@ -9,4 +9,3 @@ class BackorderReason extends BackorderReasonType
 {
 }
 
-

@@ -1,2 +1,2 @@
-UBL\Common\CBC\InhouseMailType:
+App\UBL\Common\CBC\InhouseMailType:
     properties: {  }

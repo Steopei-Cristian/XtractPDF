@@ -1,4 +1,4 @@
-UBL\Common\CAC\InventoryReportLineType:
+App\UBL\Common\CAC\InventoryReportLineType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\InventoryReportLineType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         note:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\InventoryReportLineType:
                 inline: true
                 entry_name: Note
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Note>
+            type: array<App\UBL\Common\CBC\Note>
         quantity:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\InventoryReportLineType:
             accessor:
                 getter: getQuantity
                 setter: setQuantity
-            type: UBL\Common\CBC\Quantity
+            type: App\UBL\Common\CBC\Quantity
         inventoryValueAmount:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\InventoryReportLineType:
             accessor:
                 getter: getInventoryValueAmount
                 setter: setInventoryValueAmount
-            type: UBL\Common\CBC\InventoryValueAmount
+            type: App\UBL\Common\CBC\InventoryValueAmount
         availabilityDate:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ UBL\Common\CAC\InventoryReportLineType:
             accessor:
                 getter: getAvailabilityStatusCode
                 setter: setAvailabilityStatusCode
-            type: UBL\Common\CBC\AvailabilityStatusCode
+            type: App\UBL\Common\CBC\AvailabilityStatusCode
         item:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\InventoryReportLineType:
             accessor:
                 getter: getItem
                 setter: setItem
-            type: UBL\Common\CAC\Item
+            type: App\UBL\Common\CAC\Item
         inventoryLocation:
             expose: true
             access_type: public_method
@@ -83,4 +83,4 @@ UBL\Common\CAC\InventoryReportLineType:
             accessor:
                 getter: getInventoryLocation
                 setter: setInventoryLocation
-            type: UBL\Common\CAC\InventoryLocation
+            type: App\UBL\Common\CAC\InventoryLocation

@@ -9,4 +9,3 @@ class ResolutionDocumentReference extends DocumentReferenceType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\XAdES\v132\SignedPropertiesType:
+App\UBL\XAdES\v132\SignedPropertiesType:
     properties:
         id:
             expose: true
@@ -18,7 +18,7 @@ UBL\XAdES\v132\SignedPropertiesType:
             accessor:
                 getter: getSignedSignatureProperties
                 setter: setSignedSignatureProperties
-            type: UBL\XAdES\v132\SignedSignaturePropertiesType
+            type: App\UBL\XAdES\v132\SignedSignaturePropertiesType
         signedDataObjectProperties:
             expose: true
             access_type: public_method
@@ -28,4 +28,4 @@ UBL\XAdES\v132\SignedPropertiesType:
             accessor:
                 getter: getSignedDataObjectProperties
                 setter: setSignedDataObjectProperties
-            type: UBL\XAdES\v132\SignedDataObjectPropertiesType
+            type: App\UBL\XAdES\v132\SignedDataObjectPropertiesType

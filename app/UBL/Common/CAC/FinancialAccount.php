@@ -9,4 +9,3 @@ class FinancialAccount extends FinancialAccountType
 {
 }
 
-

@@ -1,4 +1,4 @@
-UBL\Common\CAC\ConsumptionType:
+App\UBL\Common\CAC\ConsumptionType:
     properties:
         utilityStatementTypeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ConsumptionType:
             accessor:
                 getter: getUtilityStatementTypeCode
                 setter: setUtilityStatementTypeCode
-            type: UBL\Common\CBC\UtilityStatementTypeCode
+            type: App\UBL\Common\CBC\UtilityStatementTypeCode
         mainPeriod:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ConsumptionType:
             accessor:
                 getter: getMainPeriod
                 setter: setMainPeriod
-            type: UBL\Common\CAC\MainPeriod
+            type: App\UBL\Common\CAC\MainPeriod
         allowanceCharge:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\ConsumptionType:
                 inline: true
                 entry_name: AllowanceCharge
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AllowanceCharge>
+            type: array<App\UBL\Common\CAC\AllowanceCharge>
         taxTotal:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ UBL\Common\CAC\ConsumptionType:
                 inline: true
                 entry_name: TaxTotal
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\TaxTotal>
+            type: array<App\UBL\Common\CAC\TaxTotal>
         energyWaterSupply:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\ConsumptionType:
             accessor:
                 getter: getEnergyWaterSupply
                 setter: setEnergyWaterSupply
-            type: UBL\Common\CAC\EnergyWaterSupply
+            type: App\UBL\Common\CAC\EnergyWaterSupply
         telecommunicationsSupply:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\ConsumptionType:
             accessor:
                 getter: getTelecommunicationsSupply
                 setter: setTelecommunicationsSupply
-            type: UBL\Common\CAC\TelecommunicationsSupply
+            type: App\UBL\Common\CAC\TelecommunicationsSupply
         legalMonetaryTotal:
             expose: true
             access_type: public_method
@@ -77,4 +77,4 @@ UBL\Common\CAC\ConsumptionType:
             accessor:
                 getter: getLegalMonetaryTotal
                 setter: setLegalMonetaryTotal
-            type: UBL\Common\CAC\LegalMonetaryTotal
+            type: App\UBL\Common\CAC\LegalMonetaryTotal

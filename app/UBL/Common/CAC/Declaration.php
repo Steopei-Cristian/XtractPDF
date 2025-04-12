@@ -9,4 +9,3 @@ class Declaration extends DeclarationType
 {
 }
 
-

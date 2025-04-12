@@ -1,4 +1,4 @@
-UBL\Common\CBC\CandidateReductionConstraintIndicator:
+App\UBL\Common\CBC\CandidateReductionConstraintIndicator:
     xml_root_name: CandidateReductionConstraintIndicator
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
     properties:

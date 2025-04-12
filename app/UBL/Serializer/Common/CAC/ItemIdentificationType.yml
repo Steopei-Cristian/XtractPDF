@@ -1,4 +1,4 @@
-UBL\Common\CAC\ItemIdentificationType:
+App\UBL\Common\CAC\ItemIdentificationType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ItemIdentificationType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         extendedID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ItemIdentificationType:
             accessor:
                 getter: getExtendedID
                 setter: setExtendedID
-            type: UBL\Common\CBC\ExtendedID
+            type: App\UBL\Common\CBC\ExtendedID
         barcodeSymbologyID:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\ItemIdentificationType:
             accessor:
                 getter: getBarcodeSymbologyID
                 setter: setBarcodeSymbologyID
-            type: UBL\Common\CBC\BarcodeSymbologyID
+            type: App\UBL\Common\CBC\BarcodeSymbologyID
         physicalAttribute:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\ItemIdentificationType:
                 inline: true
                 entry_name: PhysicalAttribute
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PhysicalAttribute>
+            type: array<App\UBL\Common\CAC\PhysicalAttribute>
         measurementDimension:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\ItemIdentificationType:
                 inline: true
                 entry_name: MeasurementDimension
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\MeasurementDimension>
+            type: array<App\UBL\Common\CAC\MeasurementDimension>
         issuerParty:
             expose: true
             access_type: public_method
@@ -67,4 +67,4 @@ UBL\Common\CAC\ItemIdentificationType:
             accessor:
                 getter: getIssuerParty
                 setter: setIssuerParty
-            type: UBL\Common\CAC\IssuerParty
+            type: App\UBL\Common\CAC\IssuerParty

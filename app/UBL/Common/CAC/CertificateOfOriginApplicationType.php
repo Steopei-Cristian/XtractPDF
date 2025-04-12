@@ -23,7 +23,7 @@ class CertificateOfOriginApplicationType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ReferenceID $referenceID
+     * @var \App\UBL\Common\CBC\ReferenceID $referenceID
      */
     private $referenceID = null;
 
@@ -37,7 +37,7 @@ class CertificateOfOriginApplicationType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\CertificateType $certificateType
+     * @var \App\UBL\Common\CBC\CertificateType $certificateType
      */
     private $certificateType = null;
 
@@ -51,7 +51,7 @@ class CertificateOfOriginApplicationType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ApplicationStatusCode $applicationStatusCode
+     * @var \App\UBL\Common\CBC\ApplicationStatusCode $applicationStatusCode
      */
     private $applicationStatusCode = null;
 
@@ -66,7 +66,7 @@ class CertificateOfOriginApplicationType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\OriginalJobID $originalJobID
+     * @var \App\UBL\Common\CBC\OriginalJobID $originalJobID
      */
     private $originalJobID = null;
 
@@ -81,7 +81,7 @@ class CertificateOfOriginApplicationType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\PreviousJobID $previousJobID
+     * @var \App\UBL\Common\CBC\PreviousJobID $previousJobID
      */
     private $previousJobID = null;
 
@@ -95,7 +95,7 @@ class CertificateOfOriginApplicationType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Remarks[] $remarks
+     * @var \App\UBL\Common\CBC\Remarks[] $remarks
      */
     private $remarks = [
         
@@ -111,7 +111,7 @@ class CertificateOfOriginApplicationType
      *  Shipment
      *  Shipment
      *
-     * @var \UBL\Common\CAC\Shipment $shipment
+     * @var \App\UBL\Common\CAC\Shipment $shipment
      */
     private $shipment = null;
 
@@ -125,7 +125,7 @@ class CertificateOfOriginApplicationType
      *  Endorser Party
      *  Endorser Party
      *
-     * @var \UBL\Common\CAC\EndorserParty[] $endorserParty
+     * @var \App\UBL\Common\CAC\EndorserParty[] $endorserParty
      */
     private $endorserParty = [
         
@@ -142,7 +142,7 @@ class CertificateOfOriginApplicationType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\PreparationParty $preparationParty
+     * @var \App\UBL\Common\CAC\PreparationParty $preparationParty
      */
     private $preparationParty = null;
 
@@ -157,7 +157,7 @@ class CertificateOfOriginApplicationType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\IssuerParty $issuerParty
+     * @var \App\UBL\Common\CAC\IssuerParty $issuerParty
      */
     private $issuerParty = null;
 
@@ -173,7 +173,7 @@ class CertificateOfOriginApplicationType
      *  Party
      *  Exporter (WCO ID 41 and 42)
      *
-     * @var \UBL\Common\CAC\ExporterParty $exporterParty
+     * @var \App\UBL\Common\CAC\ExporterParty $exporterParty
      */
     private $exporterParty = null;
 
@@ -189,7 +189,7 @@ class CertificateOfOriginApplicationType
      *  Party
      *  Importer (WCO ID 39 and 40)
      *
-     * @var \UBL\Common\CAC\ImporterParty $importerParty
+     * @var \App\UBL\Common\CAC\ImporterParty $importerParty
      */
     private $importerParty = null;
 
@@ -204,7 +204,7 @@ class CertificateOfOriginApplicationType
      *  Country
      *  Country
      *
-     * @var \UBL\Common\CAC\IssuingCountry $issuingCountry
+     * @var \App\UBL\Common\CAC\IssuingCountry $issuingCountry
      */
     private $issuingCountry = null;
 
@@ -218,7 +218,7 @@ class CertificateOfOriginApplicationType
      *  Document Distribution
      *  Document Distribution
      *
-     * @var \UBL\Common\CAC\DocumentDistribution[] $documentDistribution
+     * @var \App\UBL\Common\CAC\DocumentDistribution[] $documentDistribution
      */
     private $documentDistribution = [
         
@@ -235,7 +235,7 @@ class CertificateOfOriginApplicationType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\SupportingDocumentReference[] $supportingDocumentReference
+     * @var \App\UBL\Common\CAC\SupportingDocumentReference[] $supportingDocumentReference
      */
     private $supportingDocumentReference = [
         
@@ -251,7 +251,7 @@ class CertificateOfOriginApplicationType
      *  Signature
      *  Signature
      *
-     * @var \UBL\Common\CAC\Signature[] $signature
+     * @var \App\UBL\Common\CAC\Signature[] $signature
      */
     private $signature = [
         
@@ -269,7 +269,7 @@ class CertificateOfOriginApplicationType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ReferenceID
+     * @return \App\UBL\Common\CBC\ReferenceID
      */
     public function getReferenceID()
     {
@@ -288,10 +288,10 @@ class CertificateOfOriginApplicationType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ReferenceID $referenceID
+     * @param \App\UBL\Common\CBC\ReferenceID $referenceID
      * @return self
      */
-    public function setReferenceID(\UBL\Common\CBC\ReferenceID $referenceID)
+    public function setReferenceID(\App\UBL\Common\CBC\ReferenceID $referenceID)
     {
         $this->referenceID = $referenceID;
         return $this;
@@ -309,7 +309,7 @@ class CertificateOfOriginApplicationType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\CertificateType
+     * @return \App\UBL\Common\CBC\CertificateType
      */
     public function getCertificateType()
     {
@@ -328,10 +328,10 @@ class CertificateOfOriginApplicationType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\CertificateType $certificateType
+     * @param \App\UBL\Common\CBC\CertificateType $certificateType
      * @return self
      */
-    public function setCertificateType(\UBL\Common\CBC\CertificateType $certificateType)
+    public function setCertificateType(\App\UBL\Common\CBC\CertificateType $certificateType)
     {
         $this->certificateType = $certificateType;
         return $this;
@@ -349,7 +349,7 @@ class CertificateOfOriginApplicationType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ApplicationStatusCode
+     * @return \App\UBL\Common\CBC\ApplicationStatusCode
      */
     public function getApplicationStatusCode()
     {
@@ -368,10 +368,10 @@ class CertificateOfOriginApplicationType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ApplicationStatusCode $applicationStatusCode
+     * @param \App\UBL\Common\CBC\ApplicationStatusCode $applicationStatusCode
      * @return self
      */
-    public function setApplicationStatusCode(?\UBL\Common\CBC\ApplicationStatusCode $applicationStatusCode = null)
+    public function setApplicationStatusCode(?\App\UBL\Common\CBC\ApplicationStatusCode $applicationStatusCode = null)
     {
         $this->applicationStatusCode = $applicationStatusCode;
         return $this;
@@ -390,7 +390,7 @@ class CertificateOfOriginApplicationType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\OriginalJobID
+     * @return \App\UBL\Common\CBC\OriginalJobID
      */
     public function getOriginalJobID()
     {
@@ -410,10 +410,10 @@ class CertificateOfOriginApplicationType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\OriginalJobID $originalJobID
+     * @param \App\UBL\Common\CBC\OriginalJobID $originalJobID
      * @return self
      */
-    public function setOriginalJobID(\UBL\Common\CBC\OriginalJobID $originalJobID)
+    public function setOriginalJobID(\App\UBL\Common\CBC\OriginalJobID $originalJobID)
     {
         $this->originalJobID = $originalJobID;
         return $this;
@@ -432,7 +432,7 @@ class CertificateOfOriginApplicationType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\PreviousJobID
+     * @return \App\UBL\Common\CBC\PreviousJobID
      */
     public function getPreviousJobID()
     {
@@ -452,10 +452,10 @@ class CertificateOfOriginApplicationType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\PreviousJobID $previousJobID
+     * @param \App\UBL\Common\CBC\PreviousJobID $previousJobID
      * @return self
      */
-    public function setPreviousJobID(?\UBL\Common\CBC\PreviousJobID $previousJobID = null)
+    public function setPreviousJobID(?\App\UBL\Common\CBC\PreviousJobID $previousJobID = null)
     {
         $this->previousJobID = $previousJobID;
         return $this;
@@ -474,9 +474,9 @@ class CertificateOfOriginApplicationType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Remarks $remarks
+     * @param \App\UBL\Common\CBC\Remarks $remarks
      */
-    public function addToRemarks(\UBL\Common\CBC\Remarks $remarks)
+    public function addToRemarks(\App\UBL\Common\CBC\Remarks $remarks)
     {
         $this->remarks[] = $remarks;
         return $this;
@@ -534,7 +534,7 @@ class CertificateOfOriginApplicationType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Remarks[]
+     * @return \App\UBL\Common\CBC\Remarks[]
      */
     public function getRemarks()
     {
@@ -553,7 +553,7 @@ class CertificateOfOriginApplicationType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Remarks[] $remarks
+     * @param \App\UBL\Common\CBC\Remarks[] $remarks
      * @return self
      */
     public function setRemarks(?array $remarks = null)
@@ -574,7 +574,7 @@ class CertificateOfOriginApplicationType
      *  Shipment
      *  Shipment
      *
-     * @return \UBL\Common\CAC\Shipment
+     * @return \App\UBL\Common\CAC\Shipment
      */
     public function getShipment()
     {
@@ -593,10 +593,10 @@ class CertificateOfOriginApplicationType
      *  Shipment
      *  Shipment
      *
-     * @param \UBL\Common\CAC\Shipment $shipment
+     * @param \App\UBL\Common\CAC\Shipment $shipment
      * @return self
      */
-    public function setShipment(\UBL\Common\CAC\Shipment $shipment)
+    public function setShipment(\App\UBL\Common\CAC\Shipment $shipment)
     {
         $this->shipment = $shipment;
         return $this;
@@ -615,9 +615,9 @@ class CertificateOfOriginApplicationType
      *  Endorser Party
      *
      * @return self
-     * @param \UBL\Common\CAC\EndorserParty $endorserParty
+     * @param \App\UBL\Common\CAC\EndorserParty $endorserParty
      */
-    public function addToEndorserParty(\UBL\Common\CAC\EndorserParty $endorserParty)
+    public function addToEndorserParty(\App\UBL\Common\CAC\EndorserParty $endorserParty)
     {
         $this->endorserParty[] = $endorserParty;
         return $this;
@@ -675,7 +675,7 @@ class CertificateOfOriginApplicationType
      *  Endorser Party
      *  Endorser Party
      *
-     * @return \UBL\Common\CAC\EndorserParty[]
+     * @return \App\UBL\Common\CAC\EndorserParty[]
      */
     public function getEndorserParty()
     {
@@ -694,7 +694,7 @@ class CertificateOfOriginApplicationType
      *  Endorser Party
      *  Endorser Party
      *
-     * @param \UBL\Common\CAC\EndorserParty[] $endorserParty
+     * @param \App\UBL\Common\CAC\EndorserParty[] $endorserParty
      * @return self
      */
     public function setEndorserParty(array $endorserParty)
@@ -716,7 +716,7 @@ class CertificateOfOriginApplicationType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\PreparationParty
+     * @return \App\UBL\Common\CAC\PreparationParty
      */
     public function getPreparationParty()
     {
@@ -736,10 +736,10 @@ class CertificateOfOriginApplicationType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\PreparationParty $preparationParty
+     * @param \App\UBL\Common\CAC\PreparationParty $preparationParty
      * @return self
      */
-    public function setPreparationParty(\UBL\Common\CAC\PreparationParty $preparationParty)
+    public function setPreparationParty(\App\UBL\Common\CAC\PreparationParty $preparationParty)
     {
         $this->preparationParty = $preparationParty;
         return $this;
@@ -758,7 +758,7 @@ class CertificateOfOriginApplicationType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\IssuerParty
+     * @return \App\UBL\Common\CAC\IssuerParty
      */
     public function getIssuerParty()
     {
@@ -778,10 +778,10 @@ class CertificateOfOriginApplicationType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\IssuerParty $issuerParty
+     * @param \App\UBL\Common\CAC\IssuerParty $issuerParty
      * @return self
      */
-    public function setIssuerParty(\UBL\Common\CAC\IssuerParty $issuerParty)
+    public function setIssuerParty(\App\UBL\Common\CAC\IssuerParty $issuerParty)
     {
         $this->issuerParty = $issuerParty;
         return $this;
@@ -801,7 +801,7 @@ class CertificateOfOriginApplicationType
      *  Party
      *  Exporter (WCO ID 41 and 42)
      *
-     * @return \UBL\Common\CAC\ExporterParty
+     * @return \App\UBL\Common\CAC\ExporterParty
      */
     public function getExporterParty()
     {
@@ -822,10 +822,10 @@ class CertificateOfOriginApplicationType
      *  Party
      *  Exporter (WCO ID 41 and 42)
      *
-     * @param \UBL\Common\CAC\ExporterParty $exporterParty
+     * @param \App\UBL\Common\CAC\ExporterParty $exporterParty
      * @return self
      */
-    public function setExporterParty(?\UBL\Common\CAC\ExporterParty $exporterParty = null)
+    public function setExporterParty(?\App\UBL\Common\CAC\ExporterParty $exporterParty = null)
     {
         $this->exporterParty = $exporterParty;
         return $this;
@@ -845,7 +845,7 @@ class CertificateOfOriginApplicationType
      *  Party
      *  Importer (WCO ID 39 and 40)
      *
-     * @return \UBL\Common\CAC\ImporterParty
+     * @return \App\UBL\Common\CAC\ImporterParty
      */
     public function getImporterParty()
     {
@@ -866,10 +866,10 @@ class CertificateOfOriginApplicationType
      *  Party
      *  Importer (WCO ID 39 and 40)
      *
-     * @param \UBL\Common\CAC\ImporterParty $importerParty
+     * @param \App\UBL\Common\CAC\ImporterParty $importerParty
      * @return self
      */
-    public function setImporterParty(?\UBL\Common\CAC\ImporterParty $importerParty = null)
+    public function setImporterParty(?\App\UBL\Common\CAC\ImporterParty $importerParty = null)
     {
         $this->importerParty = $importerParty;
         return $this;
@@ -888,7 +888,7 @@ class CertificateOfOriginApplicationType
      *  Country
      *  Country
      *
-     * @return \UBL\Common\CAC\IssuingCountry
+     * @return \App\UBL\Common\CAC\IssuingCountry
      */
     public function getIssuingCountry()
     {
@@ -908,10 +908,10 @@ class CertificateOfOriginApplicationType
      *  Country
      *  Country
      *
-     * @param \UBL\Common\CAC\IssuingCountry $issuingCountry
+     * @param \App\UBL\Common\CAC\IssuingCountry $issuingCountry
      * @return self
      */
-    public function setIssuingCountry(\UBL\Common\CAC\IssuingCountry $issuingCountry)
+    public function setIssuingCountry(\App\UBL\Common\CAC\IssuingCountry $issuingCountry)
     {
         $this->issuingCountry = $issuingCountry;
         return $this;
@@ -930,9 +930,9 @@ class CertificateOfOriginApplicationType
      *  Document Distribution
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentDistribution $documentDistribution
+     * @param \App\UBL\Common\CAC\DocumentDistribution $documentDistribution
      */
-    public function addToDocumentDistribution(\UBL\Common\CAC\DocumentDistribution $documentDistribution)
+    public function addToDocumentDistribution(\App\UBL\Common\CAC\DocumentDistribution $documentDistribution)
     {
         $this->documentDistribution[] = $documentDistribution;
         return $this;
@@ -990,7 +990,7 @@ class CertificateOfOriginApplicationType
      *  Document Distribution
      *  Document Distribution
      *
-     * @return \UBL\Common\CAC\DocumentDistribution[]
+     * @return \App\UBL\Common\CAC\DocumentDistribution[]
      */
     public function getDocumentDistribution()
     {
@@ -1009,7 +1009,7 @@ class CertificateOfOriginApplicationType
      *  Document Distribution
      *  Document Distribution
      *
-     * @param \UBL\Common\CAC\DocumentDistribution[] $documentDistribution
+     * @param \App\UBL\Common\CAC\DocumentDistribution[] $documentDistribution
      * @return self
      */
     public function setDocumentDistribution(?array $documentDistribution = null)
@@ -1032,9 +1032,9 @@ class CertificateOfOriginApplicationType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\SupportingDocumentReference $supportingDocumentReference
+     * @param \App\UBL\Common\CAC\SupportingDocumentReference $supportingDocumentReference
      */
-    public function addToSupportingDocumentReference(\UBL\Common\CAC\SupportingDocumentReference $supportingDocumentReference)
+    public function addToSupportingDocumentReference(\App\UBL\Common\CAC\SupportingDocumentReference $supportingDocumentReference)
     {
         $this->supportingDocumentReference[] = $supportingDocumentReference;
         return $this;
@@ -1095,7 +1095,7 @@ class CertificateOfOriginApplicationType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\SupportingDocumentReference[]
+     * @return \App\UBL\Common\CAC\SupportingDocumentReference[]
      */
     public function getSupportingDocumentReference()
     {
@@ -1115,7 +1115,7 @@ class CertificateOfOriginApplicationType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\SupportingDocumentReference[] $supportingDocumentReference
+     * @param \App\UBL\Common\CAC\SupportingDocumentReference[] $supportingDocumentReference
      * @return self
      */
     public function setSupportingDocumentReference(?array $supportingDocumentReference = null)
@@ -1137,9 +1137,9 @@ class CertificateOfOriginApplicationType
      *  Signature
      *
      * @return self
-     * @param \UBL\Common\CAC\Signature $signature
+     * @param \App\UBL\Common\CAC\Signature $signature
      */
-    public function addToSignature(\UBL\Common\CAC\Signature $signature)
+    public function addToSignature(\App\UBL\Common\CAC\Signature $signature)
     {
         $this->signature[] = $signature;
         return $this;
@@ -1197,7 +1197,7 @@ class CertificateOfOriginApplicationType
      *  Signature
      *  Signature
      *
-     * @return \UBL\Common\CAC\Signature[]
+     * @return \App\UBL\Common\CAC\Signature[]
      */
     public function getSignature()
     {
@@ -1216,7 +1216,7 @@ class CertificateOfOriginApplicationType
      *  Signature
      *  Signature
      *
-     * @param \UBL\Common\CAC\Signature[] $signature
+     * @param \App\UBL\Common\CAC\Signature[] $signature
      * @return self
      */
     public function setSignature(?array $signature = null)
@@ -1225,5 +1225,4 @@ class CertificateOfOriginApplicationType
         return $this;
     }
 }
-
 

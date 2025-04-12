@@ -9,4 +9,3 @@ class ExceptionCriteriaLine extends ExceptionCriteriaLineType
 {
 }
 
-

@@ -9,4 +9,3 @@ class ReceiptLine extends ReceiptLineType
 {
 }
 
-

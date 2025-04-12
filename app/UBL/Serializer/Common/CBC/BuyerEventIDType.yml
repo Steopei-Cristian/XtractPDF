@@ -1,2 +1,2 @@
-UBL\Common\CBC\BuyerEventIDType:
+App\UBL\Common\CBC\BuyerEventIDType:
     properties: {  }

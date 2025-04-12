@@ -23,7 +23,7 @@ class QualificationResolutionType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\AdmissionCode $admissionCode
+     * @var \App\UBL\Common\CBC\AdmissionCode $admissionCode
      */
     private $admissionCode = null;
 
@@ -37,7 +37,7 @@ class QualificationResolutionType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ExclusionReason[] $exclusionReason
+     * @var \App\UBL\Common\CBC\ExclusionReason[] $exclusionReason
      */
     private $exclusionReason = [
         
@@ -53,7 +53,7 @@ class QualificationResolutionType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Resolution[] $resolution
+     * @var \App\UBL\Common\CBC\Resolution[] $resolution
      */
     private $resolution = [
         
@@ -97,7 +97,7 @@ class QualificationResolutionType
      *  Procurement Project Lot
      *  Procurement Project Lot
      *
-     * @var \UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot
+     * @var \App\UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot
      */
     private $procurementProjectLot = null;
 
@@ -113,7 +113,7 @@ class QualificationResolutionType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\AdmissionCode
+     * @return \App\UBL\Common\CBC\AdmissionCode
      */
     public function getAdmissionCode()
     {
@@ -132,10 +132,10 @@ class QualificationResolutionType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\AdmissionCode $admissionCode
+     * @param \App\UBL\Common\CBC\AdmissionCode $admissionCode
      * @return self
      */
-    public function setAdmissionCode(\UBL\Common\CBC\AdmissionCode $admissionCode)
+    public function setAdmissionCode(\App\UBL\Common\CBC\AdmissionCode $admissionCode)
     {
         $this->admissionCode = $admissionCode;
         return $this;
@@ -154,9 +154,9 @@ class QualificationResolutionType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ExclusionReason $exclusionReason
+     * @param \App\UBL\Common\CBC\ExclusionReason $exclusionReason
      */
-    public function addToExclusionReason(\UBL\Common\CBC\ExclusionReason $exclusionReason)
+    public function addToExclusionReason(\App\UBL\Common\CBC\ExclusionReason $exclusionReason)
     {
         $this->exclusionReason[] = $exclusionReason;
         return $this;
@@ -214,7 +214,7 @@ class QualificationResolutionType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ExclusionReason[]
+     * @return \App\UBL\Common\CBC\ExclusionReason[]
      */
     public function getExclusionReason()
     {
@@ -233,7 +233,7 @@ class QualificationResolutionType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ExclusionReason[] $exclusionReason
+     * @param \App\UBL\Common\CBC\ExclusionReason[] $exclusionReason
      * @return self
      */
     public function setExclusionReason(?array $exclusionReason = null)
@@ -255,9 +255,9 @@ class QualificationResolutionType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Resolution $resolution
+     * @param \App\UBL\Common\CBC\Resolution $resolution
      */
-    public function addToResolution(\UBL\Common\CBC\Resolution $resolution)
+    public function addToResolution(\App\UBL\Common\CBC\Resolution $resolution)
     {
         $this->resolution[] = $resolution;
         return $this;
@@ -315,7 +315,7 @@ class QualificationResolutionType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Resolution[]
+     * @return \App\UBL\Common\CBC\Resolution[]
      */
     public function getResolution()
     {
@@ -334,7 +334,7 @@ class QualificationResolutionType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Resolution[] $resolution
+     * @param \App\UBL\Common\CBC\Resolution[] $resolution
      * @return self
      */
     public function setResolution(?array $resolution = null)
@@ -435,7 +435,7 @@ class QualificationResolutionType
      *  Procurement Project Lot
      *  Procurement Project Lot
      *
-     * @return \UBL\Common\CAC\ProcurementProjectLot
+     * @return \App\UBL\Common\CAC\ProcurementProjectLot
      */
     public function getProcurementProjectLot()
     {
@@ -454,14 +454,13 @@ class QualificationResolutionType
      *  Procurement Project Lot
      *  Procurement Project Lot
      *
-     * @param \UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot
+     * @param \App\UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot
      * @return self
      */
-    public function setProcurementProjectLot(?\UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot = null)
+    public function setProcurementProjectLot(?\App\UBL\Common\CAC\ProcurementProjectLot $procurementProjectLot = null)
     {
         $this->procurementProjectLot = $procurementProjectLot;
         return $this;
     }
 }
-
 

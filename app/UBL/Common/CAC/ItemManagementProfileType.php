@@ -23,7 +23,7 @@ class ItemManagementProfileType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\FrozenPeriodDaysNumeric $frozenPeriodDaysNumeric
+     * @var \App\UBL\Common\CBC\FrozenPeriodDaysNumeric $frozenPeriodDaysNumeric
      */
     private $frozenPeriodDaysNumeric = null;
 
@@ -38,7 +38,7 @@ class ItemManagementProfileType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MinimumInventoryQuantity $minimumInventoryQuantity
+     * @var \App\UBL\Common\CBC\MinimumInventoryQuantity $minimumInventoryQuantity
      */
     private $minimumInventoryQuantity = null;
 
@@ -53,7 +53,7 @@ class ItemManagementProfileType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MultipleOrderQuantity $multipleOrderQuantity
+     * @var \App\UBL\Common\CBC\MultipleOrderQuantity $multipleOrderQuantity
      */
     private $multipleOrderQuantity = null;
 
@@ -67,7 +67,7 @@ class ItemManagementProfileType
      *  Numeric
      *  Numeric. Type
      *
-     * @var \UBL\Common\CBC\OrderIntervalDaysNumeric $orderIntervalDaysNumeric
+     * @var \App\UBL\Common\CBC\OrderIntervalDaysNumeric $orderIntervalDaysNumeric
      */
     private $orderIntervalDaysNumeric = null;
 
@@ -81,7 +81,7 @@ class ItemManagementProfileType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ReplenishmentOwnerDescription[] $replenishmentOwnerDescription
+     * @var \App\UBL\Common\CBC\ReplenishmentOwnerDescription[] $replenishmentOwnerDescription
      */
     private $replenishmentOwnerDescription = [
         
@@ -97,7 +97,7 @@ class ItemManagementProfileType
      *  Percent
      *  Percent. Type
      *
-     * @var \UBL\Common\CBC\TargetServicePercent $targetServicePercent
+     * @var \App\UBL\Common\CBC\TargetServicePercent $targetServicePercent
      */
     private $targetServicePercent = null;
 
@@ -112,7 +112,7 @@ class ItemManagementProfileType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\TargetInventoryQuantity $targetInventoryQuantity
+     * @var \App\UBL\Common\CBC\TargetInventoryQuantity $targetInventoryQuantity
      */
     private $targetInventoryQuantity = null;
 
@@ -127,7 +127,7 @@ class ItemManagementProfileType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\EffectivePeriod $effectivePeriod
+     * @var \App\UBL\Common\CAC\EffectivePeriod $effectivePeriod
      */
     private $effectivePeriod = null;
 
@@ -141,7 +141,7 @@ class ItemManagementProfileType
      *  Item
      *  Item
      *
-     * @var \UBL\Common\CAC\Item $item
+     * @var \App\UBL\Common\CAC\Item $item
      */
     private $item = null;
 
@@ -155,7 +155,7 @@ class ItemManagementProfileType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @var \UBL\Common\CAC\ItemLocationQuantity $itemLocationQuantity
+     * @var \App\UBL\Common\CAC\ItemLocationQuantity $itemLocationQuantity
      */
     private $itemLocationQuantity = null;
 
@@ -171,7 +171,7 @@ class ItemManagementProfileType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\FrozenPeriodDaysNumeric
+     * @return \App\UBL\Common\CBC\FrozenPeriodDaysNumeric
      */
     public function getFrozenPeriodDaysNumeric()
     {
@@ -190,10 +190,10 @@ class ItemManagementProfileType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\FrozenPeriodDaysNumeric $frozenPeriodDaysNumeric
+     * @param \App\UBL\Common\CBC\FrozenPeriodDaysNumeric $frozenPeriodDaysNumeric
      * @return self
      */
-    public function setFrozenPeriodDaysNumeric(?\UBL\Common\CBC\FrozenPeriodDaysNumeric $frozenPeriodDaysNumeric = null)
+    public function setFrozenPeriodDaysNumeric(?\App\UBL\Common\CBC\FrozenPeriodDaysNumeric $frozenPeriodDaysNumeric = null)
     {
         $this->frozenPeriodDaysNumeric = $frozenPeriodDaysNumeric;
         return $this;
@@ -212,7 +212,7 @@ class ItemManagementProfileType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MinimumInventoryQuantity
+     * @return \App\UBL\Common\CBC\MinimumInventoryQuantity
      */
     public function getMinimumInventoryQuantity()
     {
@@ -232,10 +232,10 @@ class ItemManagementProfileType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MinimumInventoryQuantity $minimumInventoryQuantity
+     * @param \App\UBL\Common\CBC\MinimumInventoryQuantity $minimumInventoryQuantity
      * @return self
      */
-    public function setMinimumInventoryQuantity(?\UBL\Common\CBC\MinimumInventoryQuantity $minimumInventoryQuantity = null)
+    public function setMinimumInventoryQuantity(?\App\UBL\Common\CBC\MinimumInventoryQuantity $minimumInventoryQuantity = null)
     {
         $this->minimumInventoryQuantity = $minimumInventoryQuantity;
         return $this;
@@ -254,7 +254,7 @@ class ItemManagementProfileType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MultipleOrderQuantity
+     * @return \App\UBL\Common\CBC\MultipleOrderQuantity
      */
     public function getMultipleOrderQuantity()
     {
@@ -274,10 +274,10 @@ class ItemManagementProfileType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MultipleOrderQuantity $multipleOrderQuantity
+     * @param \App\UBL\Common\CBC\MultipleOrderQuantity $multipleOrderQuantity
      * @return self
      */
-    public function setMultipleOrderQuantity(?\UBL\Common\CBC\MultipleOrderQuantity $multipleOrderQuantity = null)
+    public function setMultipleOrderQuantity(?\App\UBL\Common\CBC\MultipleOrderQuantity $multipleOrderQuantity = null)
     {
         $this->multipleOrderQuantity = $multipleOrderQuantity;
         return $this;
@@ -295,7 +295,7 @@ class ItemManagementProfileType
      *  Numeric
      *  Numeric. Type
      *
-     * @return \UBL\Common\CBC\OrderIntervalDaysNumeric
+     * @return \App\UBL\Common\CBC\OrderIntervalDaysNumeric
      */
     public function getOrderIntervalDaysNumeric()
     {
@@ -314,10 +314,10 @@ class ItemManagementProfileType
      *  Numeric
      *  Numeric. Type
      *
-     * @param \UBL\Common\CBC\OrderIntervalDaysNumeric $orderIntervalDaysNumeric
+     * @param \App\UBL\Common\CBC\OrderIntervalDaysNumeric $orderIntervalDaysNumeric
      * @return self
      */
-    public function setOrderIntervalDaysNumeric(?\UBL\Common\CBC\OrderIntervalDaysNumeric $orderIntervalDaysNumeric = null)
+    public function setOrderIntervalDaysNumeric(?\App\UBL\Common\CBC\OrderIntervalDaysNumeric $orderIntervalDaysNumeric = null)
     {
         $this->orderIntervalDaysNumeric = $orderIntervalDaysNumeric;
         return $this;
@@ -336,9 +336,9 @@ class ItemManagementProfileType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ReplenishmentOwnerDescription $replenishmentOwnerDescription
+     * @param \App\UBL\Common\CBC\ReplenishmentOwnerDescription $replenishmentOwnerDescription
      */
-    public function addToReplenishmentOwnerDescription(\UBL\Common\CBC\ReplenishmentOwnerDescription $replenishmentOwnerDescription)
+    public function addToReplenishmentOwnerDescription(\App\UBL\Common\CBC\ReplenishmentOwnerDescription $replenishmentOwnerDescription)
     {
         $this->replenishmentOwnerDescription[] = $replenishmentOwnerDescription;
         return $this;
@@ -396,7 +396,7 @@ class ItemManagementProfileType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ReplenishmentOwnerDescription[]
+     * @return \App\UBL\Common\CBC\ReplenishmentOwnerDescription[]
      */
     public function getReplenishmentOwnerDescription()
     {
@@ -415,7 +415,7 @@ class ItemManagementProfileType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ReplenishmentOwnerDescription[] $replenishmentOwnerDescription
+     * @param \App\UBL\Common\CBC\ReplenishmentOwnerDescription[] $replenishmentOwnerDescription
      * @return self
      */
     public function setReplenishmentOwnerDescription(?array $replenishmentOwnerDescription = null)
@@ -436,7 +436,7 @@ class ItemManagementProfileType
      *  Percent
      *  Percent. Type
      *
-     * @return \UBL\Common\CBC\TargetServicePercent
+     * @return \App\UBL\Common\CBC\TargetServicePercent
      */
     public function getTargetServicePercent()
     {
@@ -455,10 +455,10 @@ class ItemManagementProfileType
      *  Percent
      *  Percent. Type
      *
-     * @param \UBL\Common\CBC\TargetServicePercent $targetServicePercent
+     * @param \App\UBL\Common\CBC\TargetServicePercent $targetServicePercent
      * @return self
      */
-    public function setTargetServicePercent(?\UBL\Common\CBC\TargetServicePercent $targetServicePercent = null)
+    public function setTargetServicePercent(?\App\UBL\Common\CBC\TargetServicePercent $targetServicePercent = null)
     {
         $this->targetServicePercent = $targetServicePercent;
         return $this;
@@ -477,7 +477,7 @@ class ItemManagementProfileType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\TargetInventoryQuantity
+     * @return \App\UBL\Common\CBC\TargetInventoryQuantity
      */
     public function getTargetInventoryQuantity()
     {
@@ -497,10 +497,10 @@ class ItemManagementProfileType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\TargetInventoryQuantity $targetInventoryQuantity
+     * @param \App\UBL\Common\CBC\TargetInventoryQuantity $targetInventoryQuantity
      * @return self
      */
-    public function setTargetInventoryQuantity(?\UBL\Common\CBC\TargetInventoryQuantity $targetInventoryQuantity = null)
+    public function setTargetInventoryQuantity(?\App\UBL\Common\CBC\TargetInventoryQuantity $targetInventoryQuantity = null)
     {
         $this->targetInventoryQuantity = $targetInventoryQuantity;
         return $this;
@@ -519,7 +519,7 @@ class ItemManagementProfileType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\EffectivePeriod
+     * @return \App\UBL\Common\CAC\EffectivePeriod
      */
     public function getEffectivePeriod()
     {
@@ -539,10 +539,10 @@ class ItemManagementProfileType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\EffectivePeriod $effectivePeriod
+     * @param \App\UBL\Common\CAC\EffectivePeriod $effectivePeriod
      * @return self
      */
-    public function setEffectivePeriod(\UBL\Common\CAC\EffectivePeriod $effectivePeriod)
+    public function setEffectivePeriod(\App\UBL\Common\CAC\EffectivePeriod $effectivePeriod)
     {
         $this->effectivePeriod = $effectivePeriod;
         return $this;
@@ -560,7 +560,7 @@ class ItemManagementProfileType
      *  Item
      *  Item
      *
-     * @return \UBL\Common\CAC\Item
+     * @return \App\UBL\Common\CAC\Item
      */
     public function getItem()
     {
@@ -579,10 +579,10 @@ class ItemManagementProfileType
      *  Item
      *  Item
      *
-     * @param \UBL\Common\CAC\Item $item
+     * @param \App\UBL\Common\CAC\Item $item
      * @return self
      */
-    public function setItem(\UBL\Common\CAC\Item $item)
+    public function setItem(\App\UBL\Common\CAC\Item $item)
     {
         $this->item = $item;
         return $this;
@@ -600,7 +600,7 @@ class ItemManagementProfileType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @return \UBL\Common\CAC\ItemLocationQuantity
+     * @return \App\UBL\Common\CAC\ItemLocationQuantity
      */
     public function getItemLocationQuantity()
     {
@@ -619,14 +619,13 @@ class ItemManagementProfileType
      *  Item Location Quantity
      *  Item Location Quantity
      *
-     * @param \UBL\Common\CAC\ItemLocationQuantity $itemLocationQuantity
+     * @param \App\UBL\Common\CAC\ItemLocationQuantity $itemLocationQuantity
      * @return self
      */
-    public function setItemLocationQuantity(?\UBL\Common\CAC\ItemLocationQuantity $itemLocationQuantity = null)
+    public function setItemLocationQuantity(?\App\UBL\Common\CAC\ItemLocationQuantity $itemLocationQuantity = null)
     {
         $this->itemLocationQuantity = $itemLocationQuantity;
         return $this;
     }
 }
-
 

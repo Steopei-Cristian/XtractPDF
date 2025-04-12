@@ -9,4 +9,3 @@ class TaxExclusivePrice extends PriceType
 {
 }
 
-

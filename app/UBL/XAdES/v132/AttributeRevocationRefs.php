@@ -9,4 +9,3 @@ class AttributeRevocationRefs extends CompleteRevocationRefsType
 {
 }
 
-

@@ -24,7 +24,7 @@ class ContractType
      *  Identifier. Type
      *  CC23
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -94,7 +94,7 @@ class ContractType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\ContractTypeCode $contractTypeCode
+     * @var \App\UBL\Common\CBC\ContractTypeCode $contractTypeCode
      */
     private $contractTypeCode = null;
 
@@ -108,7 +108,7 @@ class ContractType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ContractType $contractType
+     * @var \App\UBL\Common\CBC\ContractType $contractType
      */
     private $contractType = null;
 
@@ -123,7 +123,7 @@ class ContractType
      *  Text. Type
      *  Remarks
      *
-     * @var \UBL\Common\CBC\Note[] $note
+     * @var \App\UBL\Common\CBC\Note[] $note
      */
     private $note = [
         
@@ -139,7 +139,7 @@ class ContractType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\VersionID $versionID
+     * @var \App\UBL\Common\CBC\VersionID $versionID
      */
     private $versionID = null;
 
@@ -153,7 +153,7 @@ class ContractType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -170,7 +170,7 @@ class ContractType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ValidityPeriod $validityPeriod
+     * @var \App\UBL\Common\CAC\ValidityPeriod $validityPeriod
      */
     private $validityPeriod = null;
 
@@ -185,7 +185,7 @@ class ContractType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\ContractDocumentReference[] $contractDocumentReference
+     * @var \App\UBL\Common\CAC\ContractDocumentReference[] $contractDocumentReference
      */
     private $contractDocumentReference = [
         
@@ -202,7 +202,7 @@ class ContractType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\NominationPeriod $nominationPeriod
+     * @var \App\UBL\Common\CAC\NominationPeriod $nominationPeriod
      */
     private $nominationPeriod = null;
 
@@ -217,7 +217,7 @@ class ContractType
      *  Delivery
      *  Delivery
      *
-     * @var \UBL\Common\CAC\ContractualDelivery $contractualDelivery
+     * @var \App\UBL\Common\CAC\ContractualDelivery $contractualDelivery
      */
     private $contractualDelivery = null;
 
@@ -234,7 +234,7 @@ class ContractType
      *  Identifier. Type
      *  CC23
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -254,10 +254,10 @@ class ContractType
      *  Identifier. Type
      *  CC23
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -435,7 +435,7 @@ class ContractType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\ContractTypeCode
+     * @return \App\UBL\Common\CBC\ContractTypeCode
      */
     public function getContractTypeCode()
     {
@@ -454,10 +454,10 @@ class ContractType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\ContractTypeCode $contractTypeCode
+     * @param \App\UBL\Common\CBC\ContractTypeCode $contractTypeCode
      * @return self
      */
-    public function setContractTypeCode(?\UBL\Common\CBC\ContractTypeCode $contractTypeCode = null)
+    public function setContractTypeCode(?\App\UBL\Common\CBC\ContractTypeCode $contractTypeCode = null)
     {
         $this->contractTypeCode = $contractTypeCode;
         return $this;
@@ -475,7 +475,7 @@ class ContractType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ContractType
+     * @return \App\UBL\Common\CBC\ContractType
      */
     public function getContractType()
     {
@@ -494,10 +494,10 @@ class ContractType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ContractType $contractType
+     * @param \App\UBL\Common\CBC\ContractType $contractType
      * @return self
      */
-    public function setContractType(?\UBL\Common\CBC\ContractType $contractType = null)
+    public function setContractType(?\App\UBL\Common\CBC\ContractType $contractType = null)
     {
         $this->contractType = $contractType;
         return $this;
@@ -517,9 +517,9 @@ class ContractType
      *  Remarks
      *
      * @return self
-     * @param \UBL\Common\CBC\Note $note
+     * @param \App\UBL\Common\CBC\Note $note
      */
-    public function addToNote(\UBL\Common\CBC\Note $note)
+    public function addToNote(\App\UBL\Common\CBC\Note $note)
     {
         $this->note[] = $note;
         return $this;
@@ -580,7 +580,7 @@ class ContractType
      *  Text. Type
      *  Remarks
      *
-     * @return \UBL\Common\CBC\Note[]
+     * @return \App\UBL\Common\CBC\Note[]
      */
     public function getNote()
     {
@@ -600,7 +600,7 @@ class ContractType
      *  Text. Type
      *  Remarks
      *
-     * @param \UBL\Common\CBC\Note[] $note
+     * @param \App\UBL\Common\CBC\Note[] $note
      * @return self
      */
     public function setNote(?array $note = null)
@@ -621,7 +621,7 @@ class ContractType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\VersionID
+     * @return \App\UBL\Common\CBC\VersionID
      */
     public function getVersionID()
     {
@@ -640,10 +640,10 @@ class ContractType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\VersionID $versionID
+     * @param \App\UBL\Common\CBC\VersionID $versionID
      * @return self
      */
-    public function setVersionID(?\UBL\Common\CBC\VersionID $versionID = null)
+    public function setVersionID(?\App\UBL\Common\CBC\VersionID $versionID = null)
     {
         $this->versionID = $versionID;
         return $this;
@@ -662,9 +662,9 @@ class ContractType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -722,7 +722,7 @@ class ContractType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -741,7 +741,7 @@ class ContractType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -763,7 +763,7 @@ class ContractType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ValidityPeriod
+     * @return \App\UBL\Common\CAC\ValidityPeriod
      */
     public function getValidityPeriod()
     {
@@ -783,10 +783,10 @@ class ContractType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ValidityPeriod $validityPeriod
+     * @param \App\UBL\Common\CAC\ValidityPeriod $validityPeriod
      * @return self
      */
-    public function setValidityPeriod(?\UBL\Common\CAC\ValidityPeriod $validityPeriod = null)
+    public function setValidityPeriod(?\App\UBL\Common\CAC\ValidityPeriod $validityPeriod = null)
     {
         $this->validityPeriod = $validityPeriod;
         return $this;
@@ -806,9 +806,9 @@ class ContractType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\ContractDocumentReference $contractDocumentReference
+     * @param \App\UBL\Common\CAC\ContractDocumentReference $contractDocumentReference
      */
-    public function addToContractDocumentReference(\UBL\Common\CAC\ContractDocumentReference $contractDocumentReference)
+    public function addToContractDocumentReference(\App\UBL\Common\CAC\ContractDocumentReference $contractDocumentReference)
     {
         $this->contractDocumentReference[] = $contractDocumentReference;
         return $this;
@@ -869,7 +869,7 @@ class ContractType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\ContractDocumentReference[]
+     * @return \App\UBL\Common\CAC\ContractDocumentReference[]
      */
     public function getContractDocumentReference()
     {
@@ -889,7 +889,7 @@ class ContractType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\ContractDocumentReference[] $contractDocumentReference
+     * @param \App\UBL\Common\CAC\ContractDocumentReference[] $contractDocumentReference
      * @return self
      */
     public function setContractDocumentReference(?array $contractDocumentReference = null)
@@ -911,7 +911,7 @@ class ContractType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\NominationPeriod
+     * @return \App\UBL\Common\CAC\NominationPeriod
      */
     public function getNominationPeriod()
     {
@@ -931,10 +931,10 @@ class ContractType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\NominationPeriod $nominationPeriod
+     * @param \App\UBL\Common\CAC\NominationPeriod $nominationPeriod
      * @return self
      */
-    public function setNominationPeriod(?\UBL\Common\CAC\NominationPeriod $nominationPeriod = null)
+    public function setNominationPeriod(?\App\UBL\Common\CAC\NominationPeriod $nominationPeriod = null)
     {
         $this->nominationPeriod = $nominationPeriod;
         return $this;
@@ -953,7 +953,7 @@ class ContractType
      *  Delivery
      *  Delivery
      *
-     * @return \UBL\Common\CAC\ContractualDelivery
+     * @return \App\UBL\Common\CAC\ContractualDelivery
      */
     public function getContractualDelivery()
     {
@@ -973,14 +973,13 @@ class ContractType
      *  Delivery
      *  Delivery
      *
-     * @param \UBL\Common\CAC\ContractualDelivery $contractualDelivery
+     * @param \App\UBL\Common\CAC\ContractualDelivery $contractualDelivery
      * @return self
      */
-    public function setContractualDelivery(?\UBL\Common\CAC\ContractualDelivery $contractualDelivery = null)
+    public function setContractualDelivery(?\App\UBL\Common\CAC\ContractualDelivery $contractualDelivery = null)
     {
         $this->contractualDelivery = $contractualDelivery;
         return $this;
     }
 }
-
 

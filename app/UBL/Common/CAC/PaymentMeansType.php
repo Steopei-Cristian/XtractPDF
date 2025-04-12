@@ -23,7 +23,7 @@ class PaymentMeansType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -38,7 +38,7 @@ class PaymentMeansType
      *  Payment Means
      *  Payment Means_ Code. Type
      *
-     * @var \UBL\Common\CBC\PaymentMeansCode $paymentMeansCode
+     * @var \App\UBL\Common\CBC\PaymentMeansCode $paymentMeansCode
      */
     private $paymentMeansCode = null;
 
@@ -66,7 +66,7 @@ class PaymentMeansType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\PaymentChannelCode $paymentChannelCode
+     * @var \App\UBL\Common\CBC\PaymentChannelCode $paymentChannelCode
      */
     private $paymentChannelCode = null;
 
@@ -80,7 +80,7 @@ class PaymentMeansType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\InstructionID $instructionID
+     * @var \App\UBL\Common\CBC\InstructionID $instructionID
      */
     private $instructionID = null;
 
@@ -95,7 +95,7 @@ class PaymentMeansType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\InstructionNote[] $instructionNote
+     * @var \App\UBL\Common\CBC\InstructionNote[] $instructionNote
      */
     private $instructionNote = [
         
@@ -111,7 +111,7 @@ class PaymentMeansType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\PaymentID[] $paymentID
+     * @var \App\UBL\Common\CBC\PaymentID[] $paymentID
      */
     private $paymentID = [
         
@@ -127,7 +127,7 @@ class PaymentMeansType
      *  Card Account
      *  Card Account
      *
-     * @var \UBL\Common\CAC\CardAccount $cardAccount
+     * @var \App\UBL\Common\CAC\CardAccount $cardAccount
      */
     private $cardAccount = null;
 
@@ -142,7 +142,7 @@ class PaymentMeansType
      *  Financial Account
      *  Financial Account
      *
-     * @var \UBL\Common\CAC\PayerFinancialAccount $payerFinancialAccount
+     * @var \App\UBL\Common\CAC\PayerFinancialAccount $payerFinancialAccount
      */
     private $payerFinancialAccount = null;
 
@@ -157,7 +157,7 @@ class PaymentMeansType
      *  Financial Account
      *  Financial Account
      *
-     * @var \UBL\Common\CAC\PayeeFinancialAccount $payeeFinancialAccount
+     * @var \App\UBL\Common\CAC\PayeeFinancialAccount $payeeFinancialAccount
      */
     private $payeeFinancialAccount = null;
 
@@ -171,7 +171,7 @@ class PaymentMeansType
      *  Credit Account
      *  Credit Account
      *
-     * @var \UBL\Common\CAC\CreditAccount $creditAccount
+     * @var \App\UBL\Common\CAC\CreditAccount $creditAccount
      */
     private $creditAccount = null;
 
@@ -185,7 +185,7 @@ class PaymentMeansType
      *  Payment Mandate
      *  Payment Mandate
      *
-     * @var \UBL\Common\CAC\PaymentMandate $paymentMandate
+     * @var \App\UBL\Common\CAC\PaymentMandate $paymentMandate
      */
     private $paymentMandate = null;
 
@@ -199,7 +199,7 @@ class PaymentMeansType
      *  Trade Financing
      *  Trade Financing
      *
-     * @var \UBL\Common\CAC\TradeFinancing $tradeFinancing
+     * @var \App\UBL\Common\CAC\TradeFinancing $tradeFinancing
      */
     private $tradeFinancing = null;
 
@@ -215,7 +215,7 @@ class PaymentMeansType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -234,10 +234,10 @@ class PaymentMeansType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -256,7 +256,7 @@ class PaymentMeansType
      *  Payment Means
      *  Payment Means_ Code. Type
      *
-     * @return \UBL\Common\CBC\PaymentMeansCode
+     * @return \App\UBL\Common\CBC\PaymentMeansCode
      */
     public function getPaymentMeansCode()
     {
@@ -276,10 +276,10 @@ class PaymentMeansType
      *  Payment Means
      *  Payment Means_ Code. Type
      *
-     * @param \UBL\Common\CBC\PaymentMeansCode $paymentMeansCode
+     * @param \App\UBL\Common\CBC\PaymentMeansCode $paymentMeansCode
      * @return self
      */
-    public function setPaymentMeansCode(\UBL\Common\CBC\PaymentMeansCode $paymentMeansCode)
+    public function setPaymentMeansCode(\App\UBL\Common\CBC\PaymentMeansCode $paymentMeansCode)
     {
         $this->paymentMeansCode = $paymentMeansCode;
         return $this;
@@ -337,7 +337,7 @@ class PaymentMeansType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\PaymentChannelCode
+     * @return \App\UBL\Common\CBC\PaymentChannelCode
      */
     public function getPaymentChannelCode()
     {
@@ -356,10 +356,10 @@ class PaymentMeansType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\PaymentChannelCode $paymentChannelCode
+     * @param \App\UBL\Common\CBC\PaymentChannelCode $paymentChannelCode
      * @return self
      */
-    public function setPaymentChannelCode(?\UBL\Common\CBC\PaymentChannelCode $paymentChannelCode = null)
+    public function setPaymentChannelCode(?\App\UBL\Common\CBC\PaymentChannelCode $paymentChannelCode = null)
     {
         $this->paymentChannelCode = $paymentChannelCode;
         return $this;
@@ -377,7 +377,7 @@ class PaymentMeansType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\InstructionID
+     * @return \App\UBL\Common\CBC\InstructionID
      */
     public function getInstructionID()
     {
@@ -396,10 +396,10 @@ class PaymentMeansType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\InstructionID $instructionID
+     * @param \App\UBL\Common\CBC\InstructionID $instructionID
      * @return self
      */
-    public function setInstructionID(?\UBL\Common\CBC\InstructionID $instructionID = null)
+    public function setInstructionID(?\App\UBL\Common\CBC\InstructionID $instructionID = null)
     {
         $this->instructionID = $instructionID;
         return $this;
@@ -419,9 +419,9 @@ class PaymentMeansType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\InstructionNote $instructionNote
+     * @param \App\UBL\Common\CBC\InstructionNote $instructionNote
      */
-    public function addToInstructionNote(\UBL\Common\CBC\InstructionNote $instructionNote)
+    public function addToInstructionNote(\App\UBL\Common\CBC\InstructionNote $instructionNote)
     {
         $this->instructionNote[] = $instructionNote;
         return $this;
@@ -482,7 +482,7 @@ class PaymentMeansType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\InstructionNote[]
+     * @return \App\UBL\Common\CBC\InstructionNote[]
      */
     public function getInstructionNote()
     {
@@ -502,7 +502,7 @@ class PaymentMeansType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\InstructionNote[] $instructionNote
+     * @param \App\UBL\Common\CBC\InstructionNote[] $instructionNote
      * @return self
      */
     public function setInstructionNote(?array $instructionNote = null)
@@ -524,9 +524,9 @@ class PaymentMeansType
      *  Identifier. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\PaymentID $paymentID
+     * @param \App\UBL\Common\CBC\PaymentID $paymentID
      */
-    public function addToPaymentID(\UBL\Common\CBC\PaymentID $paymentID)
+    public function addToPaymentID(\App\UBL\Common\CBC\PaymentID $paymentID)
     {
         $this->paymentID[] = $paymentID;
         return $this;
@@ -584,7 +584,7 @@ class PaymentMeansType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\PaymentID[]
+     * @return \App\UBL\Common\CBC\PaymentID[]
      */
     public function getPaymentID()
     {
@@ -603,7 +603,7 @@ class PaymentMeansType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\PaymentID[] $paymentID
+     * @param \App\UBL\Common\CBC\PaymentID[] $paymentID
      * @return self
      */
     public function setPaymentID(?array $paymentID = null)
@@ -624,7 +624,7 @@ class PaymentMeansType
      *  Card Account
      *  Card Account
      *
-     * @return \UBL\Common\CAC\CardAccount
+     * @return \App\UBL\Common\CAC\CardAccount
      */
     public function getCardAccount()
     {
@@ -643,10 +643,10 @@ class PaymentMeansType
      *  Card Account
      *  Card Account
      *
-     * @param \UBL\Common\CAC\CardAccount $cardAccount
+     * @param \App\UBL\Common\CAC\CardAccount $cardAccount
      * @return self
      */
-    public function setCardAccount(?\UBL\Common\CAC\CardAccount $cardAccount = null)
+    public function setCardAccount(?\App\UBL\Common\CAC\CardAccount $cardAccount = null)
     {
         $this->cardAccount = $cardAccount;
         return $this;
@@ -665,7 +665,7 @@ class PaymentMeansType
      *  Financial Account
      *  Financial Account
      *
-     * @return \UBL\Common\CAC\PayerFinancialAccount
+     * @return \App\UBL\Common\CAC\PayerFinancialAccount
      */
     public function getPayerFinancialAccount()
     {
@@ -685,10 +685,10 @@ class PaymentMeansType
      *  Financial Account
      *  Financial Account
      *
-     * @param \UBL\Common\CAC\PayerFinancialAccount $payerFinancialAccount
+     * @param \App\UBL\Common\CAC\PayerFinancialAccount $payerFinancialAccount
      * @return self
      */
-    public function setPayerFinancialAccount(?\UBL\Common\CAC\PayerFinancialAccount $payerFinancialAccount = null)
+    public function setPayerFinancialAccount(?\App\UBL\Common\CAC\PayerFinancialAccount $payerFinancialAccount = null)
     {
         $this->payerFinancialAccount = $payerFinancialAccount;
         return $this;
@@ -707,7 +707,7 @@ class PaymentMeansType
      *  Financial Account
      *  Financial Account
      *
-     * @return \UBL\Common\CAC\PayeeFinancialAccount
+     * @return \App\UBL\Common\CAC\PayeeFinancialAccount
      */
     public function getPayeeFinancialAccount()
     {
@@ -727,10 +727,10 @@ class PaymentMeansType
      *  Financial Account
      *  Financial Account
      *
-     * @param \UBL\Common\CAC\PayeeFinancialAccount $payeeFinancialAccount
+     * @param \App\UBL\Common\CAC\PayeeFinancialAccount $payeeFinancialAccount
      * @return self
      */
-    public function setPayeeFinancialAccount(?\UBL\Common\CAC\PayeeFinancialAccount $payeeFinancialAccount = null)
+    public function setPayeeFinancialAccount(?\App\UBL\Common\CAC\PayeeFinancialAccount $payeeFinancialAccount = null)
     {
         $this->payeeFinancialAccount = $payeeFinancialAccount;
         return $this;
@@ -748,7 +748,7 @@ class PaymentMeansType
      *  Credit Account
      *  Credit Account
      *
-     * @return \UBL\Common\CAC\CreditAccount
+     * @return \App\UBL\Common\CAC\CreditAccount
      */
     public function getCreditAccount()
     {
@@ -767,10 +767,10 @@ class PaymentMeansType
      *  Credit Account
      *  Credit Account
      *
-     * @param \UBL\Common\CAC\CreditAccount $creditAccount
+     * @param \App\UBL\Common\CAC\CreditAccount $creditAccount
      * @return self
      */
-    public function setCreditAccount(?\UBL\Common\CAC\CreditAccount $creditAccount = null)
+    public function setCreditAccount(?\App\UBL\Common\CAC\CreditAccount $creditAccount = null)
     {
         $this->creditAccount = $creditAccount;
         return $this;
@@ -788,7 +788,7 @@ class PaymentMeansType
      *  Payment Mandate
      *  Payment Mandate
      *
-     * @return \UBL\Common\CAC\PaymentMandate
+     * @return \App\UBL\Common\CAC\PaymentMandate
      */
     public function getPaymentMandate()
     {
@@ -807,10 +807,10 @@ class PaymentMeansType
      *  Payment Mandate
      *  Payment Mandate
      *
-     * @param \UBL\Common\CAC\PaymentMandate $paymentMandate
+     * @param \App\UBL\Common\CAC\PaymentMandate $paymentMandate
      * @return self
      */
-    public function setPaymentMandate(?\UBL\Common\CAC\PaymentMandate $paymentMandate = null)
+    public function setPaymentMandate(?\App\UBL\Common\CAC\PaymentMandate $paymentMandate = null)
     {
         $this->paymentMandate = $paymentMandate;
         return $this;
@@ -828,7 +828,7 @@ class PaymentMeansType
      *  Trade Financing
      *  Trade Financing
      *
-     * @return \UBL\Common\CAC\TradeFinancing
+     * @return \App\UBL\Common\CAC\TradeFinancing
      */
     public function getTradeFinancing()
     {
@@ -847,14 +847,13 @@ class PaymentMeansType
      *  Trade Financing
      *  Trade Financing
      *
-     * @param \UBL\Common\CAC\TradeFinancing $tradeFinancing
+     * @param \App\UBL\Common\CAC\TradeFinancing $tradeFinancing
      * @return self
      */
-    public function setTradeFinancing(?\UBL\Common\CAC\TradeFinancing $tradeFinancing = null)
+    public function setTradeFinancing(?\App\UBL\Common\CAC\TradeFinancing $tradeFinancing = null)
     {
         $this->tradeFinancing = $tradeFinancing;
         return $this;
     }
 }
-
 

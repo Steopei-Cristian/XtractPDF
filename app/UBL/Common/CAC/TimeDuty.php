@@ -9,4 +9,3 @@ class TimeDuty extends DutyType
 {
 }
 
-

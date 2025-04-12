@@ -9,4 +9,3 @@ class IdentificationID extends IdentificationIDType
 {
 }
 
-

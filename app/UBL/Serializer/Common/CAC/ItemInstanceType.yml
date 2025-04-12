@@ -1,4 +1,4 @@
-UBL\Common\CAC\ItemInstanceType:
+App\UBL\Common\CAC\ItemInstanceType:
     properties:
         productTraceID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ItemInstanceType:
             accessor:
                 getter: getProductTraceID
                 setter: setProductTraceID
-            type: UBL\Common\CBC\ProductTraceID
+            type: App\UBL\Common\CBC\ProductTraceID
         manufactureDate:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\ItemInstanceType:
             accessor:
                 getter: getRegistrationID
                 setter: setRegistrationID
-            type: UBL\Common\CBC\RegistrationID
+            type: App\UBL\Common\CBC\RegistrationID
         serialID:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\ItemInstanceType:
             accessor:
                 getter: getSerialID
                 setter: setSerialID
-            type: UBL\Common\CBC\SerialID
+            type: App\UBL\Common\CBC\SerialID
         additionalItemProperty:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\ItemInstanceType:
                 inline: true
                 entry_name: AdditionalItemProperty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\AdditionalItemProperty>
+            type: array<App\UBL\Common\CAC\AdditionalItemProperty>
         lotIdentification:
             expose: true
             access_type: public_method
@@ -83,4 +83,4 @@ UBL\Common\CAC\ItemInstanceType:
             accessor:
                 getter: getLotIdentification
                 setter: setLotIdentification
-            type: UBL\Common\CAC\LotIdentification
+            type: App\UBL\Common\CAC\LotIdentification

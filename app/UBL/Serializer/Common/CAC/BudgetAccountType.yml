@@ -1,4 +1,4 @@
-UBL\Common\CAC\BudgetAccountType:
+App\UBL\Common\CAC\BudgetAccountType:
     properties:
         iD:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\BudgetAccountType:
             accessor:
                 getter: getID
                 setter: setID
-            type: UBL\Common\CBC\ID
+            type: App\UBL\Common\CBC\ID
         budgetYearNumeric:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\BudgetAccountType:
             accessor:
                 getter: getBudgetYearNumeric
                 setter: setBudgetYearNumeric
-            type: UBL\Common\CBC\BudgetYearNumeric
+            type: App\UBL\Common\CBC\BudgetYearNumeric
         requiredClassificationScheme:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ UBL\Common\CAC\BudgetAccountType:
             accessor:
                 getter: getRequiredClassificationScheme
                 setter: setRequiredClassificationScheme
-            type: UBL\Common\CAC\RequiredClassificationScheme
+            type: App\UBL\Common\CAC\RequiredClassificationScheme

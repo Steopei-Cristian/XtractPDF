@@ -24,7 +24,7 @@ class ConsumptionReportType
      *  Identifier. Type
      *  n/a
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -39,7 +39,7 @@ class ConsumptionReportType
      *  Text. Type
      *  Consumption
      *
-     * @var \UBL\Common\CBC\ConsumptionType $consumptionType
+     * @var \App\UBL\Common\CBC\ConsumptionType $consumptionType
      */
     private $consumptionType = null;
 
@@ -54,7 +54,7 @@ class ConsumptionReportType
      *  Code. Type
      *  Consumption
      *
-     * @var \UBL\Common\CBC\ConsumptionTypeCode $consumptionTypeCode
+     * @var \App\UBL\Common\CBC\ConsumptionTypeCode $consumptionTypeCode
      */
     private $consumptionTypeCode = null;
 
@@ -69,7 +69,7 @@ class ConsumptionReportType
      *  Text. Type
      *  This report contain the latest year consumption
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -87,7 +87,7 @@ class ConsumptionReportType
      *  Quantity. Type
      *  20479.00
      *
-     * @var \UBL\Common\CBC\TotalConsumedQuantity $totalConsumedQuantity
+     * @var \App\UBL\Common\CBC\TotalConsumedQuantity $totalConsumedQuantity
      */
     private $totalConsumedQuantity = null;
 
@@ -103,7 +103,7 @@ class ConsumptionReportType
      *  Quantity. Type
      *  20000.00
      *
-     * @var \UBL\Common\CBC\BasicConsumedQuantity $basicConsumedQuantity
+     * @var \App\UBL\Common\CBC\BasicConsumedQuantity $basicConsumedQuantity
      */
     private $basicConsumedQuantity = null;
 
@@ -119,7 +119,7 @@ class ConsumptionReportType
      *  Numeric. Type
      *  4.0
      *
-     * @var \UBL\Common\CBC\ResidentOccupantsNumeric $residentOccupantsNumeric
+     * @var \App\UBL\Common\CBC\ResidentOccupantsNumeric $residentOccupantsNumeric
      */
     private $residentOccupantsNumeric = null;
 
@@ -135,7 +135,7 @@ class ConsumptionReportType
      *  Code. Type
      *  B
      *
-     * @var \UBL\Common\CBC\ConsumersEnergyLevelCode $consumersEnergyLevelCode
+     * @var \App\UBL\Common\CBC\ConsumersEnergyLevelCode $consumersEnergyLevelCode
      */
     private $consumersEnergyLevelCode = null;
 
@@ -151,7 +151,7 @@ class ConsumptionReportType
      *  Text. Type
      *  Middel
      *
-     * @var \UBL\Common\CBC\ConsumersEnergyLevel $consumersEnergyLevel
+     * @var \App\UBL\Common\CBC\ConsumersEnergyLevel $consumersEnergyLevel
      */
     private $consumersEnergyLevel = null;
 
@@ -166,7 +166,7 @@ class ConsumptionReportType
      *  Text. Type
      *  House
      *
-     * @var \UBL\Common\CBC\ResidenceType $residenceType
+     * @var \App\UBL\Common\CBC\ResidenceType $residenceType
      */
     private $residenceType = null;
 
@@ -181,7 +181,7 @@ class ConsumptionReportType
      *  Code. Type
      *  House
      *
-     * @var \UBL\Common\CBC\ResidenceTypeCode $residenceTypeCode
+     * @var \App\UBL\Common\CBC\ResidenceTypeCode $residenceTypeCode
      */
     private $residenceTypeCode = null;
 
@@ -196,7 +196,7 @@ class ConsumptionReportType
      *  Text. Type
      *  District heating
      *
-     * @var \UBL\Common\CBC\HeatingType $heatingType
+     * @var \App\UBL\Common\CBC\HeatingType $heatingType
      */
     private $heatingType = null;
 
@@ -211,7 +211,7 @@ class ConsumptionReportType
      *  Code. Type
      *  DistrictHeating
      *
-     * @var \UBL\Common\CBC\HeatingTypeCode $heatingTypeCode
+     * @var \App\UBL\Common\CBC\HeatingTypeCode $heatingTypeCode
      */
     private $heatingTypeCode = null;
 
@@ -225,7 +225,7 @@ class ConsumptionReportType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\Period $period
+     * @var \App\UBL\Common\CAC\Period $period
      */
     private $period = null;
 
@@ -240,7 +240,7 @@ class ConsumptionReportType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\GuidanceDocumentReference $guidanceDocumentReference
+     * @var \App\UBL\Common\CAC\GuidanceDocumentReference $guidanceDocumentReference
      */
     private $guidanceDocumentReference = null;
 
@@ -254,7 +254,7 @@ class ConsumptionReportType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference $documentReference
      */
     private $documentReference = null;
 
@@ -268,7 +268,7 @@ class ConsumptionReportType
      *  Consumption Report Reference
      *  Consumption Report Reference
      *
-     * @var \UBL\Common\CAC\ConsumptionReportReference[] $consumptionReportReference
+     * @var \App\UBL\Common\CAC\ConsumptionReportReference[] $consumptionReportReference
      */
     private $consumptionReportReference = [
         
@@ -284,7 +284,7 @@ class ConsumptionReportType
      *  Consumption History
      *  Consumption History
      *
-     * @var \UBL\Common\CAC\ConsumptionHistory[] $consumptionHistory
+     * @var \App\UBL\Common\CAC\ConsumptionHistory[] $consumptionHistory
      */
     private $consumptionHistory = [
         
@@ -303,7 +303,7 @@ class ConsumptionReportType
      *  Identifier. Type
      *  n/a
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -323,10 +323,10 @@ class ConsumptionReportType
      *  Identifier. Type
      *  n/a
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -345,7 +345,7 @@ class ConsumptionReportType
      *  Text. Type
      *  Consumption
      *
-     * @return \UBL\Common\CBC\ConsumptionType
+     * @return \App\UBL\Common\CBC\ConsumptionType
      */
     public function getConsumptionType()
     {
@@ -365,10 +365,10 @@ class ConsumptionReportType
      *  Text. Type
      *  Consumption
      *
-     * @param \UBL\Common\CBC\ConsumptionType $consumptionType
+     * @param \App\UBL\Common\CBC\ConsumptionType $consumptionType
      * @return self
      */
-    public function setConsumptionType(?\UBL\Common\CBC\ConsumptionType $consumptionType = null)
+    public function setConsumptionType(?\App\UBL\Common\CBC\ConsumptionType $consumptionType = null)
     {
         $this->consumptionType = $consumptionType;
         return $this;
@@ -387,7 +387,7 @@ class ConsumptionReportType
      *  Code. Type
      *  Consumption
      *
-     * @return \UBL\Common\CBC\ConsumptionTypeCode
+     * @return \App\UBL\Common\CBC\ConsumptionTypeCode
      */
     public function getConsumptionTypeCode()
     {
@@ -407,10 +407,10 @@ class ConsumptionReportType
      *  Code. Type
      *  Consumption
      *
-     * @param \UBL\Common\CBC\ConsumptionTypeCode $consumptionTypeCode
+     * @param \App\UBL\Common\CBC\ConsumptionTypeCode $consumptionTypeCode
      * @return self
      */
-    public function setConsumptionTypeCode(?\UBL\Common\CBC\ConsumptionTypeCode $consumptionTypeCode = null)
+    public function setConsumptionTypeCode(?\App\UBL\Common\CBC\ConsumptionTypeCode $consumptionTypeCode = null)
     {
         $this->consumptionTypeCode = $consumptionTypeCode;
         return $this;
@@ -430,9 +430,9 @@ class ConsumptionReportType
      *  This report contain the latest year consumption
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -493,7 +493,7 @@ class ConsumptionReportType
      *  Text. Type
      *  This report contain the latest year consumption
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -513,7 +513,7 @@ class ConsumptionReportType
      *  Text. Type
      *  This report contain the latest year consumption
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -536,7 +536,7 @@ class ConsumptionReportType
      *  Quantity. Type
      *  20479.00
      *
-     * @return \UBL\Common\CBC\TotalConsumedQuantity
+     * @return \App\UBL\Common\CBC\TotalConsumedQuantity
      */
     public function getTotalConsumedQuantity()
     {
@@ -557,10 +557,10 @@ class ConsumptionReportType
      *  Quantity. Type
      *  20479.00
      *
-     * @param \UBL\Common\CBC\TotalConsumedQuantity $totalConsumedQuantity
+     * @param \App\UBL\Common\CBC\TotalConsumedQuantity $totalConsumedQuantity
      * @return self
      */
-    public function setTotalConsumedQuantity(?\UBL\Common\CBC\TotalConsumedQuantity $totalConsumedQuantity = null)
+    public function setTotalConsumedQuantity(?\App\UBL\Common\CBC\TotalConsumedQuantity $totalConsumedQuantity = null)
     {
         $this->totalConsumedQuantity = $totalConsumedQuantity;
         return $this;
@@ -580,7 +580,7 @@ class ConsumptionReportType
      *  Quantity. Type
      *  20000.00
      *
-     * @return \UBL\Common\CBC\BasicConsumedQuantity
+     * @return \App\UBL\Common\CBC\BasicConsumedQuantity
      */
     public function getBasicConsumedQuantity()
     {
@@ -601,10 +601,10 @@ class ConsumptionReportType
      *  Quantity. Type
      *  20000.00
      *
-     * @param \UBL\Common\CBC\BasicConsumedQuantity $basicConsumedQuantity
+     * @param \App\UBL\Common\CBC\BasicConsumedQuantity $basicConsumedQuantity
      * @return self
      */
-    public function setBasicConsumedQuantity(?\UBL\Common\CBC\BasicConsumedQuantity $basicConsumedQuantity = null)
+    public function setBasicConsumedQuantity(?\App\UBL\Common\CBC\BasicConsumedQuantity $basicConsumedQuantity = null)
     {
         $this->basicConsumedQuantity = $basicConsumedQuantity;
         return $this;
@@ -624,7 +624,7 @@ class ConsumptionReportType
      *  Numeric. Type
      *  4.0
      *
-     * @return \UBL\Common\CBC\ResidentOccupantsNumeric
+     * @return \App\UBL\Common\CBC\ResidentOccupantsNumeric
      */
     public function getResidentOccupantsNumeric()
     {
@@ -645,10 +645,10 @@ class ConsumptionReportType
      *  Numeric. Type
      *  4.0
      *
-     * @param \UBL\Common\CBC\ResidentOccupantsNumeric $residentOccupantsNumeric
+     * @param \App\UBL\Common\CBC\ResidentOccupantsNumeric $residentOccupantsNumeric
      * @return self
      */
-    public function setResidentOccupantsNumeric(?\UBL\Common\CBC\ResidentOccupantsNumeric $residentOccupantsNumeric = null)
+    public function setResidentOccupantsNumeric(?\App\UBL\Common\CBC\ResidentOccupantsNumeric $residentOccupantsNumeric = null)
     {
         $this->residentOccupantsNumeric = $residentOccupantsNumeric;
         return $this;
@@ -668,7 +668,7 @@ class ConsumptionReportType
      *  Code. Type
      *  B
      *
-     * @return \UBL\Common\CBC\ConsumersEnergyLevelCode
+     * @return \App\UBL\Common\CBC\ConsumersEnergyLevelCode
      */
     public function getConsumersEnergyLevelCode()
     {
@@ -689,10 +689,10 @@ class ConsumptionReportType
      *  Code. Type
      *  B
      *
-     * @param \UBL\Common\CBC\ConsumersEnergyLevelCode $consumersEnergyLevelCode
+     * @param \App\UBL\Common\CBC\ConsumersEnergyLevelCode $consumersEnergyLevelCode
      * @return self
      */
-    public function setConsumersEnergyLevelCode(?\UBL\Common\CBC\ConsumersEnergyLevelCode $consumersEnergyLevelCode = null)
+    public function setConsumersEnergyLevelCode(?\App\UBL\Common\CBC\ConsumersEnergyLevelCode $consumersEnergyLevelCode = null)
     {
         $this->consumersEnergyLevelCode = $consumersEnergyLevelCode;
         return $this;
@@ -712,7 +712,7 @@ class ConsumptionReportType
      *  Text. Type
      *  Middel
      *
-     * @return \UBL\Common\CBC\ConsumersEnergyLevel
+     * @return \App\UBL\Common\CBC\ConsumersEnergyLevel
      */
     public function getConsumersEnergyLevel()
     {
@@ -733,10 +733,10 @@ class ConsumptionReportType
      *  Text. Type
      *  Middel
      *
-     * @param \UBL\Common\CBC\ConsumersEnergyLevel $consumersEnergyLevel
+     * @param \App\UBL\Common\CBC\ConsumersEnergyLevel $consumersEnergyLevel
      * @return self
      */
-    public function setConsumersEnergyLevel(?\UBL\Common\CBC\ConsumersEnergyLevel $consumersEnergyLevel = null)
+    public function setConsumersEnergyLevel(?\App\UBL\Common\CBC\ConsumersEnergyLevel $consumersEnergyLevel = null)
     {
         $this->consumersEnergyLevel = $consumersEnergyLevel;
         return $this;
@@ -755,7 +755,7 @@ class ConsumptionReportType
      *  Text. Type
      *  House
      *
-     * @return \UBL\Common\CBC\ResidenceType
+     * @return \App\UBL\Common\CBC\ResidenceType
      */
     public function getResidenceType()
     {
@@ -775,10 +775,10 @@ class ConsumptionReportType
      *  Text. Type
      *  House
      *
-     * @param \UBL\Common\CBC\ResidenceType $residenceType
+     * @param \App\UBL\Common\CBC\ResidenceType $residenceType
      * @return self
      */
-    public function setResidenceType(?\UBL\Common\CBC\ResidenceType $residenceType = null)
+    public function setResidenceType(?\App\UBL\Common\CBC\ResidenceType $residenceType = null)
     {
         $this->residenceType = $residenceType;
         return $this;
@@ -797,7 +797,7 @@ class ConsumptionReportType
      *  Code. Type
      *  House
      *
-     * @return \UBL\Common\CBC\ResidenceTypeCode
+     * @return \App\UBL\Common\CBC\ResidenceTypeCode
      */
     public function getResidenceTypeCode()
     {
@@ -817,10 +817,10 @@ class ConsumptionReportType
      *  Code. Type
      *  House
      *
-     * @param \UBL\Common\CBC\ResidenceTypeCode $residenceTypeCode
+     * @param \App\UBL\Common\CBC\ResidenceTypeCode $residenceTypeCode
      * @return self
      */
-    public function setResidenceTypeCode(?\UBL\Common\CBC\ResidenceTypeCode $residenceTypeCode = null)
+    public function setResidenceTypeCode(?\App\UBL\Common\CBC\ResidenceTypeCode $residenceTypeCode = null)
     {
         $this->residenceTypeCode = $residenceTypeCode;
         return $this;
@@ -839,7 +839,7 @@ class ConsumptionReportType
      *  Text. Type
      *  District heating
      *
-     * @return \UBL\Common\CBC\HeatingType
+     * @return \App\UBL\Common\CBC\HeatingType
      */
     public function getHeatingType()
     {
@@ -859,10 +859,10 @@ class ConsumptionReportType
      *  Text. Type
      *  District heating
      *
-     * @param \UBL\Common\CBC\HeatingType $heatingType
+     * @param \App\UBL\Common\CBC\HeatingType $heatingType
      * @return self
      */
-    public function setHeatingType(?\UBL\Common\CBC\HeatingType $heatingType = null)
+    public function setHeatingType(?\App\UBL\Common\CBC\HeatingType $heatingType = null)
     {
         $this->heatingType = $heatingType;
         return $this;
@@ -881,7 +881,7 @@ class ConsumptionReportType
      *  Code. Type
      *  DistrictHeating
      *
-     * @return \UBL\Common\CBC\HeatingTypeCode
+     * @return \App\UBL\Common\CBC\HeatingTypeCode
      */
     public function getHeatingTypeCode()
     {
@@ -901,10 +901,10 @@ class ConsumptionReportType
      *  Code. Type
      *  DistrictHeating
      *
-     * @param \UBL\Common\CBC\HeatingTypeCode $heatingTypeCode
+     * @param \App\UBL\Common\CBC\HeatingTypeCode $heatingTypeCode
      * @return self
      */
-    public function setHeatingTypeCode(?\UBL\Common\CBC\HeatingTypeCode $heatingTypeCode = null)
+    public function setHeatingTypeCode(?\App\UBL\Common\CBC\HeatingTypeCode $heatingTypeCode = null)
     {
         $this->heatingTypeCode = $heatingTypeCode;
         return $this;
@@ -922,7 +922,7 @@ class ConsumptionReportType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\Period
+     * @return \App\UBL\Common\CAC\Period
      */
     public function getPeriod()
     {
@@ -941,10 +941,10 @@ class ConsumptionReportType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\Period $period
+     * @param \App\UBL\Common\CAC\Period $period
      * @return self
      */
-    public function setPeriod(?\UBL\Common\CAC\Period $period = null)
+    public function setPeriod(?\App\UBL\Common\CAC\Period $period = null)
     {
         $this->period = $period;
         return $this;
@@ -963,7 +963,7 @@ class ConsumptionReportType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\GuidanceDocumentReference
+     * @return \App\UBL\Common\CAC\GuidanceDocumentReference
      */
     public function getGuidanceDocumentReference()
     {
@@ -983,10 +983,10 @@ class ConsumptionReportType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\GuidanceDocumentReference $guidanceDocumentReference
+     * @param \App\UBL\Common\CAC\GuidanceDocumentReference $guidanceDocumentReference
      * @return self
      */
-    public function setGuidanceDocumentReference(?\UBL\Common\CAC\GuidanceDocumentReference $guidanceDocumentReference = null)
+    public function setGuidanceDocumentReference(?\App\UBL\Common\CAC\GuidanceDocumentReference $guidanceDocumentReference = null)
     {
         $this->guidanceDocumentReference = $guidanceDocumentReference;
         return $this;
@@ -1004,7 +1004,7 @@ class ConsumptionReportType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference
+     * @return \App\UBL\Common\CAC\DocumentReference
      */
     public function getDocumentReference()
     {
@@ -1023,10 +1023,10 @@ class ConsumptionReportType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      * @return self
      */
-    public function setDocumentReference(?\UBL\Common\CAC\DocumentReference $documentReference = null)
+    public function setDocumentReference(?\App\UBL\Common\CAC\DocumentReference $documentReference = null)
     {
         $this->documentReference = $documentReference;
         return $this;
@@ -1045,9 +1045,9 @@ class ConsumptionReportType
      *  Consumption Report Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\ConsumptionReportReference $consumptionReportReference
+     * @param \App\UBL\Common\CAC\ConsumptionReportReference $consumptionReportReference
      */
-    public function addToConsumptionReportReference(\UBL\Common\CAC\ConsumptionReportReference $consumptionReportReference)
+    public function addToConsumptionReportReference(\App\UBL\Common\CAC\ConsumptionReportReference $consumptionReportReference)
     {
         $this->consumptionReportReference[] = $consumptionReportReference;
         return $this;
@@ -1105,7 +1105,7 @@ class ConsumptionReportType
      *  Consumption Report Reference
      *  Consumption Report Reference
      *
-     * @return \UBL\Common\CAC\ConsumptionReportReference[]
+     * @return \App\UBL\Common\CAC\ConsumptionReportReference[]
      */
     public function getConsumptionReportReference()
     {
@@ -1124,7 +1124,7 @@ class ConsumptionReportType
      *  Consumption Report Reference
      *  Consumption Report Reference
      *
-     * @param \UBL\Common\CAC\ConsumptionReportReference[] $consumptionReportReference
+     * @param \App\UBL\Common\CAC\ConsumptionReportReference[] $consumptionReportReference
      * @return self
      */
     public function setConsumptionReportReference(?array $consumptionReportReference = null)
@@ -1146,9 +1146,9 @@ class ConsumptionReportType
      *  Consumption History
      *
      * @return self
-     * @param \UBL\Common\CAC\ConsumptionHistory $consumptionHistory
+     * @param \App\UBL\Common\CAC\ConsumptionHistory $consumptionHistory
      */
-    public function addToConsumptionHistory(\UBL\Common\CAC\ConsumptionHistory $consumptionHistory)
+    public function addToConsumptionHistory(\App\UBL\Common\CAC\ConsumptionHistory $consumptionHistory)
     {
         $this->consumptionHistory[] = $consumptionHistory;
         return $this;
@@ -1206,7 +1206,7 @@ class ConsumptionReportType
      *  Consumption History
      *  Consumption History
      *
-     * @return \UBL\Common\CAC\ConsumptionHistory[]
+     * @return \App\UBL\Common\CAC\ConsumptionHistory[]
      */
     public function getConsumptionHistory()
     {
@@ -1225,7 +1225,7 @@ class ConsumptionReportType
      *  Consumption History
      *  Consumption History
      *
-     * @param \UBL\Common\CAC\ConsumptionHistory[] $consumptionHistory
+     * @param \App\UBL\Common\CAC\ConsumptionHistory[] $consumptionHistory
      * @return self
      */
     public function setConsumptionHistory(?array $consumptionHistory = null)
@@ -1234,5 +1234,4 @@ class ConsumptionReportType
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class Characteristics extends CharacteristicsType
 {
 }
 
-

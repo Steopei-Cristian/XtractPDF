@@ -9,4 +9,3 @@ class LoadingTransportEvent extends TransportEventType
 {
 }
 
-

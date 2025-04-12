@@ -9,4 +9,3 @@ class UpperOrangeHazardPlacardID extends UpperOrangeHazardPlacardIDType
 {
 }
 
-

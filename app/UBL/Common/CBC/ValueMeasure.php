@@ -9,4 +9,3 @@ class ValueMeasure extends ValueMeasureType
 {
 }
 
-

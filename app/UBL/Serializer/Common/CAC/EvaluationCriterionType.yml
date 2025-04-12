@@ -1,4 +1,4 @@
-UBL\Common\CAC\EvaluationCriterionType:
+App\UBL\Common\CAC\EvaluationCriterionType:
     properties:
         evaluationCriterionTypeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\EvaluationCriterionType:
             accessor:
                 getter: getEvaluationCriterionTypeCode
                 setter: setEvaluationCriterionTypeCode
-            type: UBL\Common\CBC\EvaluationCriterionTypeCode
+            type: App\UBL\Common\CBC\EvaluationCriterionTypeCode
         description:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\EvaluationCriterionType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         thresholdAmount:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\EvaluationCriterionType:
             accessor:
                 getter: getThresholdAmount
                 setter: setThresholdAmount
-            type: UBL\Common\CBC\ThresholdAmount
+            type: App\UBL\Common\CBC\ThresholdAmount
         thresholdQuantity:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\EvaluationCriterionType:
             accessor:
                 getter: getThresholdQuantity
                 setter: setThresholdQuantity
-            type: UBL\Common\CBC\ThresholdQuantity
+            type: App\UBL\Common\CBC\ThresholdQuantity
         expressionCode:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ UBL\Common\CAC\EvaluationCriterionType:
             accessor:
                 getter: getExpressionCode
                 setter: setExpressionCode
-            type: UBL\Common\CBC\ExpressionCode
+            type: App\UBL\Common\CBC\ExpressionCode
         expression:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ UBL\Common\CAC\EvaluationCriterionType:
                 inline: true
                 entry_name: Expression
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Expression>
+            type: array<App\UBL\Common\CBC\Expression>
         durationPeriod:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ UBL\Common\CAC\EvaluationCriterionType:
             accessor:
                 getter: getDurationPeriod
                 setter: setDurationPeriod
-            type: UBL\Common\CAC\DurationPeriod
+            type: App\UBL\Common\CAC\DurationPeriod
         suggestedEvidence:
             expose: true
             access_type: public_method
@@ -91,4 +91,4 @@ UBL\Common\CAC\EvaluationCriterionType:
                 inline: true
                 entry_name: SuggestedEvidence
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\SuggestedEvidence>
+            type: array<App\UBL\Common\CAC\SuggestedEvidence>

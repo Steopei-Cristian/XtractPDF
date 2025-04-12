@@ -9,4 +9,3 @@ class SupportedCommodityClassification extends CommodityClassificationType
 {
 }
 
-

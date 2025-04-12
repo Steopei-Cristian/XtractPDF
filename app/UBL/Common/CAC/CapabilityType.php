@@ -23,7 +23,7 @@ class CapabilityType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\CapabilityTypeCode $capabilityTypeCode
+     * @var \App\UBL\Common\CBC\CapabilityTypeCode $capabilityTypeCode
      */
     private $capabilityTypeCode = null;
 
@@ -37,7 +37,7 @@ class CapabilityType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Description[] $description
+     * @var \App\UBL\Common\CBC\Description[] $description
      */
     private $description = [
         
@@ -53,7 +53,7 @@ class CapabilityType
      *  Amount
      *  Amount. Type
      *
-     * @var \UBL\Common\CBC\ValueAmount $valueAmount
+     * @var \App\UBL\Common\CBC\ValueAmount $valueAmount
      */
     private $valueAmount = null;
 
@@ -68,7 +68,7 @@ class CapabilityType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ValueQuantity $valueQuantity
+     * @var \App\UBL\Common\CBC\ValueQuantity $valueQuantity
      */
     private $valueQuantity = null;
 
@@ -82,7 +82,7 @@ class CapabilityType
      *  Evidence Supplied
      *  Evidence Supplied
      *
-     * @var \UBL\Common\CAC\EvidenceSupplied[] $evidenceSupplied
+     * @var \App\UBL\Common\CAC\EvidenceSupplied[] $evidenceSupplied
      */
     private $evidenceSupplied = [
         
@@ -99,7 +99,7 @@ class CapabilityType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\ValidityPeriod $validityPeriod
+     * @var \App\UBL\Common\CAC\ValidityPeriod $validityPeriod
      */
     private $validityPeriod = null;
 
@@ -115,7 +115,7 @@ class CapabilityType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\CapabilityTypeCode
+     * @return \App\UBL\Common\CBC\CapabilityTypeCode
      */
     public function getCapabilityTypeCode()
     {
@@ -134,10 +134,10 @@ class CapabilityType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\CapabilityTypeCode $capabilityTypeCode
+     * @param \App\UBL\Common\CBC\CapabilityTypeCode $capabilityTypeCode
      * @return self
      */
-    public function setCapabilityTypeCode(?\UBL\Common\CBC\CapabilityTypeCode $capabilityTypeCode = null)
+    public function setCapabilityTypeCode(?\App\UBL\Common\CBC\CapabilityTypeCode $capabilityTypeCode = null)
     {
         $this->capabilityTypeCode = $capabilityTypeCode;
         return $this;
@@ -156,9 +156,9 @@ class CapabilityType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Description $description
+     * @param \App\UBL\Common\CBC\Description $description
      */
-    public function addToDescription(\UBL\Common\CBC\Description $description)
+    public function addToDescription(\App\UBL\Common\CBC\Description $description)
     {
         $this->description[] = $description;
         return $this;
@@ -216,7 +216,7 @@ class CapabilityType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Description[]
+     * @return \App\UBL\Common\CBC\Description[]
      */
     public function getDescription()
     {
@@ -235,7 +235,7 @@ class CapabilityType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Description[] $description
+     * @param \App\UBL\Common\CBC\Description[] $description
      * @return self
      */
     public function setDescription(?array $description = null)
@@ -256,7 +256,7 @@ class CapabilityType
      *  Amount
      *  Amount. Type
      *
-     * @return \UBL\Common\CBC\ValueAmount
+     * @return \App\UBL\Common\CBC\ValueAmount
      */
     public function getValueAmount()
     {
@@ -275,10 +275,10 @@ class CapabilityType
      *  Amount
      *  Amount. Type
      *
-     * @param \UBL\Common\CBC\ValueAmount $valueAmount
+     * @param \App\UBL\Common\CBC\ValueAmount $valueAmount
      * @return self
      */
-    public function setValueAmount(?\UBL\Common\CBC\ValueAmount $valueAmount = null)
+    public function setValueAmount(?\App\UBL\Common\CBC\ValueAmount $valueAmount = null)
     {
         $this->valueAmount = $valueAmount;
         return $this;
@@ -297,7 +297,7 @@ class CapabilityType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ValueQuantity
+     * @return \App\UBL\Common\CBC\ValueQuantity
      */
     public function getValueQuantity()
     {
@@ -317,10 +317,10 @@ class CapabilityType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ValueQuantity $valueQuantity
+     * @param \App\UBL\Common\CBC\ValueQuantity $valueQuantity
      * @return self
      */
-    public function setValueQuantity(?\UBL\Common\CBC\ValueQuantity $valueQuantity = null)
+    public function setValueQuantity(?\App\UBL\Common\CBC\ValueQuantity $valueQuantity = null)
     {
         $this->valueQuantity = $valueQuantity;
         return $this;
@@ -339,9 +339,9 @@ class CapabilityType
      *  Evidence Supplied
      *
      * @return self
-     * @param \UBL\Common\CAC\EvidenceSupplied $evidenceSupplied
+     * @param \App\UBL\Common\CAC\EvidenceSupplied $evidenceSupplied
      */
-    public function addToEvidenceSupplied(\UBL\Common\CAC\EvidenceSupplied $evidenceSupplied)
+    public function addToEvidenceSupplied(\App\UBL\Common\CAC\EvidenceSupplied $evidenceSupplied)
     {
         $this->evidenceSupplied[] = $evidenceSupplied;
         return $this;
@@ -399,7 +399,7 @@ class CapabilityType
      *  Evidence Supplied
      *  Evidence Supplied
      *
-     * @return \UBL\Common\CAC\EvidenceSupplied[]
+     * @return \App\UBL\Common\CAC\EvidenceSupplied[]
      */
     public function getEvidenceSupplied()
     {
@@ -418,7 +418,7 @@ class CapabilityType
      *  Evidence Supplied
      *  Evidence Supplied
      *
-     * @param \UBL\Common\CAC\EvidenceSupplied[] $evidenceSupplied
+     * @param \App\UBL\Common\CAC\EvidenceSupplied[] $evidenceSupplied
      * @return self
      */
     public function setEvidenceSupplied(?array $evidenceSupplied = null)
@@ -440,7 +440,7 @@ class CapabilityType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\ValidityPeriod
+     * @return \App\UBL\Common\CAC\ValidityPeriod
      */
     public function getValidityPeriod()
     {
@@ -460,14 +460,13 @@ class CapabilityType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\ValidityPeriod $validityPeriod
+     * @param \App\UBL\Common\CAC\ValidityPeriod $validityPeriod
      * @return self
      */
-    public function setValidityPeriod(?\UBL\Common\CAC\ValidityPeriod $validityPeriod = null)
+    public function setValidityPeriod(?\App\UBL\Common\CAC\ValidityPeriod $validityPeriod = null)
     {
         $this->validityPeriod = $validityPeriod;
         return $this;
     }
 }
-
 

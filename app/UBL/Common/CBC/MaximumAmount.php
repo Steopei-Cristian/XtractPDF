@@ -9,4 +9,3 @@ class MaximumAmount extends MaximumAmountType
 {
 }
 
-

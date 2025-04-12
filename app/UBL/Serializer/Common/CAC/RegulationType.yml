@@ -1,4 +1,4 @@
-UBL\Common\CAC\RegulationType:
+App\UBL\Common\CAC\RegulationType:
     properties:
         name:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\RegulationType:
             accessor:
                 getter: getName
                 setter: setName
-            type: UBL\Common\CBC\Name
+            type: App\UBL\Common\CBC\Name
         legalReference:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\RegulationType:
             accessor:
                 getter: getLegalReference
                 setter: setLegalReference
-            type: UBL\Common\CBC\LegalReference
+            type: App\UBL\Common\CBC\LegalReference
         ontologyURI:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ UBL\Common\CAC\RegulationType:
             accessor:
                 getter: getOntologyURI
                 setter: setOntologyURI
-            type: UBL\Common\CBC\OntologyURI
+            type: App\UBL\Common\CBC\OntologyURI

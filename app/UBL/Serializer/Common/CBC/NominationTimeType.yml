@@ -1,4 +1,4 @@
-UBL\Common\CBC\NominationTimeType:
+App\UBL\Common\CBC\NominationTimeType:
     properties:
         __value:
             expose: true

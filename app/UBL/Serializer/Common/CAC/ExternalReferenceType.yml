@@ -1,4 +1,4 @@
-UBL\Common\CAC\ExternalReferenceType:
+App\UBL\Common\CAC\ExternalReferenceType:
     properties:
         uRI:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ExternalReferenceType:
             accessor:
                 getter: getURI
                 setter: setURI
-            type: UBL\Common\CBC\URI
+            type: App\UBL\Common\CBC\URI
         documentHash:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ExternalReferenceType:
             accessor:
                 getter: getDocumentHash
                 setter: setDocumentHash
-            type: UBL\Common\CBC\DocumentHash
+            type: App\UBL\Common\CBC\DocumentHash
         hashAlgorithmMethod:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ UBL\Common\CAC\ExternalReferenceType:
             accessor:
                 getter: getHashAlgorithmMethod
                 setter: setHashAlgorithmMethod
-            type: UBL\Common\CBC\HashAlgorithmMethod
+            type: App\UBL\Common\CBC\HashAlgorithmMethod
         expiryDate:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\ExternalReferenceType:
             accessor:
                 getter: getMimeCode
                 setter: setMimeCode
-            type: UBL\Common\CBC\MimeCode
+            type: App\UBL\Common\CBC\MimeCode
         formatCode:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ UBL\Common\CAC\ExternalReferenceType:
             accessor:
                 getter: getFormatCode
                 setter: setFormatCode
-            type: UBL\Common\CBC\FormatCode
+            type: App\UBL\Common\CBC\FormatCode
         encodingCode:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ UBL\Common\CAC\ExternalReferenceType:
             accessor:
                 getter: getEncodingCode
                 setter: setEncodingCode
-            type: UBL\Common\CBC\EncodingCode
+            type: App\UBL\Common\CBC\EncodingCode
         characterSetCode:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ UBL\Common\CAC\ExternalReferenceType:
             accessor:
                 getter: getCharacterSetCode
                 setter: setCharacterSetCode
-            type: UBL\Common\CBC\CharacterSetCode
+            type: App\UBL\Common\CBC\CharacterSetCode
         fileName:
             expose: true
             access_type: public_method
@@ -99,7 +99,7 @@ UBL\Common\CAC\ExternalReferenceType:
             accessor:
                 getter: getFileName
                 setter: setFileName
-            type: UBL\Common\CBC\FileName
+            type: App\UBL\Common\CBC\FileName
         description:
             expose: true
             access_type: public_method
@@ -113,4 +113,4 @@ UBL\Common\CAC\ExternalReferenceType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>

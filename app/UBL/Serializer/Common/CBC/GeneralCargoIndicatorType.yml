@@ -1,4 +1,4 @@
-UBL\Common\CBC\GeneralCargoIndicatorType:
+App\UBL\Common\CBC\GeneralCargoIndicatorType:
     properties:
         __value:
             expose: true

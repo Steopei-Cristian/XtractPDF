@@ -9,4 +9,3 @@ class PartyTypeCode extends PartyTypeCodeType
 {
 }
 
-

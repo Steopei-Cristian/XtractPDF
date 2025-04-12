@@ -9,4 +9,3 @@ class FrozenPeriodDaysNumeric extends FrozenPeriodDaysNumericType
 {
 }
 
-

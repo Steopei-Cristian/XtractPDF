@@ -1,4 +1,4 @@
-UBL\Common\CBC\ValidityStartDateType:
+App\UBL\Common\CBC\ValidityStartDateType:
     properties:
         __value:
             expose: true

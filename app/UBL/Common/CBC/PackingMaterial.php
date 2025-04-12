@@ -9,4 +9,3 @@ class PackingMaterial extends PackingMaterialType
 {
 }
 
-

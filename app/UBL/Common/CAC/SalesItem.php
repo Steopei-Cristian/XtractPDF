@@ -9,4 +9,3 @@ class SalesItem extends SalesItemType
 {
 }
 
-

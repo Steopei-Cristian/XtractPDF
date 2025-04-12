@@ -2,7 +2,7 @@
 
 namespace App\UBL\Unqualified;
 
-use UBL\CCTS\NumericType as NumericTypeBase;
+use App\UBL\CCTS\NumericType as NumericTypeBase;
 
 /**
  * Class representing NumericType
@@ -19,5 +19,4 @@ use UBL\CCTS\NumericType as NumericTypeBase;
 class NumericType extends NumericTypeBase
 {
 }
-
 

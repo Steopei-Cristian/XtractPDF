@@ -1,3 +1,3 @@
-UBL\Common\CBC\LowerOrangeHazardPlacardID:
+App\UBL\Common\CBC\LowerOrangeHazardPlacardID:
     xml_root_name: LowerOrangeHazardPlacardID
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

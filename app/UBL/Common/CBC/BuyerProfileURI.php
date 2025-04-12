@@ -9,4 +9,3 @@ class BuyerProfileURI extends BuyerProfileURIType
 {
 }
 
-

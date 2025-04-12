@@ -9,4 +9,3 @@ class SettlementPeriod extends PeriodType
 {
 }
 
-

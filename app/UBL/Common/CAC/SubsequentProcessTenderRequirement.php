@@ -9,4 +9,3 @@ class SubsequentProcessTenderRequirement extends TenderRequirementType
 {
 }
 
-

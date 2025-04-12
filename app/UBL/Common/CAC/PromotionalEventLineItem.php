@@ -9,4 +9,3 @@ class PromotionalEventLineItem extends PromotionalEventLineItemType
 {
 }
 
-

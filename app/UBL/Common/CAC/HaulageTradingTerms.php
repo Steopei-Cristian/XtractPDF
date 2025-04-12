@@ -9,4 +9,3 @@ class HaulageTradingTerms extends TradingTermsType
 {
 }
 
-

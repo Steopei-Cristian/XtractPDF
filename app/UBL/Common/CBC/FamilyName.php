@@ -9,4 +9,3 @@ class FamilyName extends FamilyNameType
 {
 }
 
-

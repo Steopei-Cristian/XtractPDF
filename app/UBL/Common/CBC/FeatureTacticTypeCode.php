@@ -9,4 +9,3 @@ class FeatureTacticTypeCode extends FeatureTacticTypeCodeType
 {
 }
 
-

@@ -9,4 +9,3 @@ class HazardousItemNotificationParty extends PartyType
 {
 }
 
-

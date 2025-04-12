@@ -1,4 +1,4 @@
-UBL\Common\CAC\EconomicOperatorRoleType:
+App\UBL\Common\CAC\EconomicOperatorRoleType:
     properties:
         roleCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\EconomicOperatorRoleType:
             accessor:
                 getter: getRoleCode
                 setter: setRoleCode
-            type: UBL\Common\CBC\RoleCode
+            type: App\UBL\Common\CBC\RoleCode
         roleDescription:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ UBL\Common\CAC\EconomicOperatorRoleType:
                 inline: true
                 entry_name: RoleDescription
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\RoleDescription>
+            type: array<App\UBL\Common\CBC\RoleDescription>

@@ -9,4 +9,3 @@ class VariantID extends VariantIDType
 {
 }
 
-

@@ -9,4 +9,3 @@ class TradeItemPackingLabelingTypeCode extends TradeItemPackingLabelingTypeCodeT
 {
 }
 
-

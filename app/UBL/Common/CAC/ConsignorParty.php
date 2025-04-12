@@ -9,4 +9,3 @@ class ConsignorParty extends PartyType
 {
 }
 
-

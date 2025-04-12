@@ -1,4 +1,4 @@
-UBL\Common\CAC\ProcessJustificationType:
+App\UBL\Common\CAC\ProcessJustificationType:
     properties:
         previousCancellationReasonCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ProcessJustificationType:
             accessor:
                 getter: getPreviousCancellationReasonCode
                 setter: setPreviousCancellationReasonCode
-            type: UBL\Common\CBC\PreviousCancellationReasonCode
+            type: App\UBL\Common\CBC\PreviousCancellationReasonCode
         processReasonCode:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ProcessJustificationType:
             accessor:
                 getter: getProcessReasonCode
                 setter: setProcessReasonCode
-            type: UBL\Common\CBC\ProcessReasonCode
+            type: App\UBL\Common\CBC\ProcessReasonCode
         processReason:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\ProcessJustificationType:
                 inline: true
                 entry_name: ProcessReason
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\ProcessReason>
+            type: array<App\UBL\Common\CBC\ProcessReason>
         description:
             expose: true
             access_type: public_method
@@ -47,4 +47,4 @@ UBL\Common\CAC\ProcessJustificationType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>

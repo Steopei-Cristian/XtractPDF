@@ -9,4 +9,3 @@ class CallExtensionAmount extends CallExtensionAmountType
 {
 }
 
-

@@ -24,7 +24,7 @@ class FrameworkAgreementType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\ExpectedOperatorQuantity $expectedOperatorQuantity
+     * @var \App\UBL\Common\CBC\ExpectedOperatorQuantity $expectedOperatorQuantity
      */
     private $expectedOperatorQuantity = null;
 
@@ -39,7 +39,7 @@ class FrameworkAgreementType
      *  Quantity
      *  Quantity. Type
      *
-     * @var \UBL\Common\CBC\MaximumOperatorQuantity $maximumOperatorQuantity
+     * @var \App\UBL\Common\CBC\MaximumOperatorQuantity $maximumOperatorQuantity
      */
     private $maximumOperatorQuantity = null;
 
@@ -53,7 +53,7 @@ class FrameworkAgreementType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Justification[] $justification
+     * @var \App\UBL\Common\CBC\Justification[] $justification
      */
     private $justification = [
         
@@ -69,7 +69,7 @@ class FrameworkAgreementType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Frequency[] $frequency
+     * @var \App\UBL\Common\CBC\Frequency[] $frequency
      */
     private $frequency = [
         
@@ -86,7 +86,7 @@ class FrameworkAgreementType
      *  Period
      *  Period
      *
-     * @var \UBL\Common\CAC\DurationPeriod $durationPeriod
+     * @var \App\UBL\Common\CAC\DurationPeriod $durationPeriod
      */
     private $durationPeriod = null;
 
@@ -102,7 +102,7 @@ class FrameworkAgreementType
      *  Tender Requirement
      *  Curricula required
      *
-     * @var \UBL\Common\CAC\SubsequentProcessTenderRequirement[] $subsequentProcessTenderRequirement
+     * @var \App\UBL\Common\CAC\SubsequentProcessTenderRequirement[] $subsequentProcessTenderRequirement
      */
     private $subsequentProcessTenderRequirement = [
         
@@ -121,7 +121,7 @@ class FrameworkAgreementType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\ExpectedOperatorQuantity
+     * @return \App\UBL\Common\CBC\ExpectedOperatorQuantity
      */
     public function getExpectedOperatorQuantity()
     {
@@ -141,10 +141,10 @@ class FrameworkAgreementType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\ExpectedOperatorQuantity $expectedOperatorQuantity
+     * @param \App\UBL\Common\CBC\ExpectedOperatorQuantity $expectedOperatorQuantity
      * @return self
      */
-    public function setExpectedOperatorQuantity(?\UBL\Common\CBC\ExpectedOperatorQuantity $expectedOperatorQuantity = null)
+    public function setExpectedOperatorQuantity(?\App\UBL\Common\CBC\ExpectedOperatorQuantity $expectedOperatorQuantity = null)
     {
         $this->expectedOperatorQuantity = $expectedOperatorQuantity;
         return $this;
@@ -163,7 +163,7 @@ class FrameworkAgreementType
      *  Quantity
      *  Quantity. Type
      *
-     * @return \UBL\Common\CBC\MaximumOperatorQuantity
+     * @return \App\UBL\Common\CBC\MaximumOperatorQuantity
      */
     public function getMaximumOperatorQuantity()
     {
@@ -183,10 +183,10 @@ class FrameworkAgreementType
      *  Quantity
      *  Quantity. Type
      *
-     * @param \UBL\Common\CBC\MaximumOperatorQuantity $maximumOperatorQuantity
+     * @param \App\UBL\Common\CBC\MaximumOperatorQuantity $maximumOperatorQuantity
      * @return self
      */
-    public function setMaximumOperatorQuantity(?\UBL\Common\CBC\MaximumOperatorQuantity $maximumOperatorQuantity = null)
+    public function setMaximumOperatorQuantity(?\App\UBL\Common\CBC\MaximumOperatorQuantity $maximumOperatorQuantity = null)
     {
         $this->maximumOperatorQuantity = $maximumOperatorQuantity;
         return $this;
@@ -205,9 +205,9 @@ class FrameworkAgreementType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Justification $justification
+     * @param \App\UBL\Common\CBC\Justification $justification
      */
-    public function addToJustification(\UBL\Common\CBC\Justification $justification)
+    public function addToJustification(\App\UBL\Common\CBC\Justification $justification)
     {
         $this->justification[] = $justification;
         return $this;
@@ -265,7 +265,7 @@ class FrameworkAgreementType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Justification[]
+     * @return \App\UBL\Common\CBC\Justification[]
      */
     public function getJustification()
     {
@@ -284,7 +284,7 @@ class FrameworkAgreementType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Justification[] $justification
+     * @param \App\UBL\Common\CBC\Justification[] $justification
      * @return self
      */
     public function setJustification(?array $justification = null)
@@ -306,9 +306,9 @@ class FrameworkAgreementType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Frequency $frequency
+     * @param \App\UBL\Common\CBC\Frequency $frequency
      */
-    public function addToFrequency(\UBL\Common\CBC\Frequency $frequency)
+    public function addToFrequency(\App\UBL\Common\CBC\Frequency $frequency)
     {
         $this->frequency[] = $frequency;
         return $this;
@@ -366,7 +366,7 @@ class FrameworkAgreementType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Frequency[]
+     * @return \App\UBL\Common\CBC\Frequency[]
      */
     public function getFrequency()
     {
@@ -385,7 +385,7 @@ class FrameworkAgreementType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Frequency[] $frequency
+     * @param \App\UBL\Common\CBC\Frequency[] $frequency
      * @return self
      */
     public function setFrequency(?array $frequency = null)
@@ -407,7 +407,7 @@ class FrameworkAgreementType
      *  Period
      *  Period
      *
-     * @return \UBL\Common\CAC\DurationPeriod
+     * @return \App\UBL\Common\CAC\DurationPeriod
      */
     public function getDurationPeriod()
     {
@@ -427,10 +427,10 @@ class FrameworkAgreementType
      *  Period
      *  Period
      *
-     * @param \UBL\Common\CAC\DurationPeriod $durationPeriod
+     * @param \App\UBL\Common\CAC\DurationPeriod $durationPeriod
      * @return self
      */
-    public function setDurationPeriod(?\UBL\Common\CAC\DurationPeriod $durationPeriod = null)
+    public function setDurationPeriod(?\App\UBL\Common\CAC\DurationPeriod $durationPeriod = null)
     {
         $this->durationPeriod = $durationPeriod;
         return $this;
@@ -451,9 +451,9 @@ class FrameworkAgreementType
      *  Curricula required
      *
      * @return self
-     * @param \UBL\Common\CAC\SubsequentProcessTenderRequirement $subsequentProcessTenderRequirement
+     * @param \App\UBL\Common\CAC\SubsequentProcessTenderRequirement $subsequentProcessTenderRequirement
      */
-    public function addToSubsequentProcessTenderRequirement(\UBL\Common\CAC\SubsequentProcessTenderRequirement $subsequentProcessTenderRequirement)
+    public function addToSubsequentProcessTenderRequirement(\App\UBL\Common\CAC\SubsequentProcessTenderRequirement $subsequentProcessTenderRequirement)
     {
         $this->subsequentProcessTenderRequirement[] = $subsequentProcessTenderRequirement;
         return $this;
@@ -517,7 +517,7 @@ class FrameworkAgreementType
      *  Tender Requirement
      *  Curricula required
      *
-     * @return \UBL\Common\CAC\SubsequentProcessTenderRequirement[]
+     * @return \App\UBL\Common\CAC\SubsequentProcessTenderRequirement[]
      */
     public function getSubsequentProcessTenderRequirement()
     {
@@ -538,7 +538,7 @@ class FrameworkAgreementType
      *  Tender Requirement
      *  Curricula required
      *
-     * @param \UBL\Common\CAC\SubsequentProcessTenderRequirement[] $subsequentProcessTenderRequirement
+     * @param \App\UBL\Common\CAC\SubsequentProcessTenderRequirement[] $subsequentProcessTenderRequirement
      * @return self
      */
     public function setSubsequentProcessTenderRequirement(?array $subsequentProcessTenderRequirement = null)
@@ -547,5 +547,4 @@ class FrameworkAgreementType
         return $this;
     }
 }
-
 

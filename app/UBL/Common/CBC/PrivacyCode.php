@@ -9,4 +9,3 @@ class PrivacyCode extends PrivacyCodeType
 {
 }
 
-

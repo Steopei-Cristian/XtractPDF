@@ -9,4 +9,3 @@ class SecurityClassificationCode extends SecurityClassificationCodeType
 {
 }
 
-

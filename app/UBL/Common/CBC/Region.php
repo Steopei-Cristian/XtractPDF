@@ -9,4 +9,3 @@ class Region extends RegionType
 {
 }
 
-

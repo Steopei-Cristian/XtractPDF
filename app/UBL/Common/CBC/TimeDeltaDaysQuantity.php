@@ -9,4 +9,3 @@ class TimeDeltaDaysQuantity extends TimeDeltaDaysQuantityType
 {
 }
 
-

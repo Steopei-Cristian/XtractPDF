@@ -1,2 +1,2 @@
-UBL\Common\CBC\CreditLineAmountType:
+App\UBL\Common\CBC\CreditLineAmountType:
     properties: {  }

@@ -9,4 +9,3 @@ class TenderingTerms extends TenderingTermsType
 {
 }
 
-

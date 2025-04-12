@@ -2,7 +2,7 @@
 
 namespace App\UBL\Common\Extension;
 
-use UBL\Unqualified\IdentifierType;
+use App\UBL\Unqualified\IdentifierType;
 
 /**
  * Class representing ExtensionVersionIDType
@@ -13,5 +13,4 @@ use UBL\Unqualified\IdentifierType;
 class ExtensionVersionIDType extends IdentifierType
 {
 }
-
 

@@ -1,4 +1,4 @@
-UBL\Common\CAC\ImmobilizedSecurityType:
+App\UBL\Common\CAC\ImmobilizedSecurityType:
     properties:
         immobilizationCertificateID:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\ImmobilizedSecurityType:
             accessor:
                 getter: getImmobilizationCertificateID
                 setter: setImmobilizationCertificateID
-            type: UBL\Common\CBC\ImmobilizationCertificateID
+            type: App\UBL\Common\CBC\ImmobilizationCertificateID
         securityID:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\ImmobilizedSecurityType:
             accessor:
                 getter: getSecurityID
                 setter: setSecurityID
-            type: UBL\Common\CBC\SecurityID
+            type: App\UBL\Common\CBC\SecurityID
         issueDate:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\ImmobilizedSecurityType:
             accessor:
                 getter: getFaceValueAmount
                 setter: setFaceValueAmount
-            type: UBL\Common\CBC\FaceValueAmount
+            type: App\UBL\Common\CBC\FaceValueAmount
         marketValueAmount:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\ImmobilizedSecurityType:
             accessor:
                 getter: getMarketValueAmount
                 setter: setMarketValueAmount
-            type: UBL\Common\CBC\MarketValueAmount
+            type: App\UBL\Common\CBC\MarketValueAmount
         sharesNumberQuantity:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\ImmobilizedSecurityType:
             accessor:
                 getter: getSharesNumberQuantity
                 setter: setSharesNumberQuantity
-            type: UBL\Common\CBC\SharesNumberQuantity
+            type: App\UBL\Common\CBC\SharesNumberQuantity
         issuerParty:
             expose: true
             access_type: public_method
@@ -69,4 +69,4 @@ UBL\Common\CAC\ImmobilizedSecurityType:
             accessor:
                 getter: getIssuerParty
                 setter: setIssuerParty
-            type: UBL\Common\CAC\IssuerParty
+            type: App\UBL\Common\CAC\IssuerParty

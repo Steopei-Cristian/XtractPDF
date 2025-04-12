@@ -9,4 +9,3 @@ class TransportationStatusRequestDocumentReference extends DocumentReferenceType
 {
 }
 
-

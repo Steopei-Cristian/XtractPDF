@@ -9,4 +9,3 @@ class SettlementDiscountPercent extends SettlementDiscountPercentType
 {
 }
 
-

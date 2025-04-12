@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class SignaturePolicyIdentifierType
 {
     /**
-     * @var \UBL\XAdES\v132\SignaturePolicyIdType $signaturePolicyId
+     * @var \App\UBL\XAdES\v132\SignaturePolicyIdType $signaturePolicyId
      */
     private $signaturePolicyId = null;
 
@@ -23,7 +23,7 @@ class SignaturePolicyIdentifierType
     /**
      * Gets as signaturePolicyId
      *
-     * @return \UBL\XAdES\v132\SignaturePolicyIdType
+     * @return \App\UBL\XAdES\v132\SignaturePolicyIdType
      */
     public function getSignaturePolicyId()
     {
@@ -33,10 +33,10 @@ class SignaturePolicyIdentifierType
     /**
      * Sets a new signaturePolicyId
      *
-     * @param \UBL\XAdES\v132\SignaturePolicyIdType $signaturePolicyId
+     * @param \App\UBL\XAdES\v132\SignaturePolicyIdType $signaturePolicyId
      * @return self
      */
-    public function setSignaturePolicyId(?\UBL\XAdES\v132\SignaturePolicyIdType $signaturePolicyId = null)
+    public function setSignaturePolicyId(?\App\UBL\XAdES\v132\SignaturePolicyIdType $signaturePolicyId = null)
     {
         $this->signaturePolicyId = $signaturePolicyId;
         return $this;
@@ -64,5 +64,4 @@ class SignaturePolicyIdentifierType
         return $this;
     }
 }
-
 

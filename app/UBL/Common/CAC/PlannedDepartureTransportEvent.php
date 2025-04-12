@@ -9,4 +9,3 @@ class PlannedDepartureTransportEvent extends TransportEventType
 {
 }
 
-

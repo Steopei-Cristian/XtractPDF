@@ -9,4 +9,3 @@ class ServiceStartTimePeriod extends PeriodType
 {
 }
 
-

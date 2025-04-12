@@ -24,7 +24,7 @@ class TransportExecutionTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\TransportUserSpecialTerms[] $transportUserSpecialTerms
+     * @var \App\UBL\Common\CBC\TransportUserSpecialTerms[] $transportUserSpecialTerms
      */
     private $transportUserSpecialTerms = [
         
@@ -41,7 +41,7 @@ class TransportExecutionTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\TransportServiceProviderSpecialTerms[] $transportServiceProviderSpecialTerms
+     * @var \App\UBL\Common\CBC\TransportServiceProviderSpecialTerms[] $transportServiceProviderSpecialTerms
      */
     private $transportServiceProviderSpecialTerms = [
         
@@ -57,7 +57,7 @@ class TransportExecutionTermsType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ChangeConditions[] $changeConditions
+     * @var \App\UBL\Common\CBC\ChangeConditions[] $changeConditions
      */
     private $changeConditions = [
         
@@ -73,7 +73,7 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @var \UBL\Common\CAC\PaymentTerms[] $paymentTerms
+     * @var \App\UBL\Common\CAC\PaymentTerms[] $paymentTerms
      */
     private $paymentTerms = [
         
@@ -89,7 +89,7 @@ class TransportExecutionTermsType
      *  Delivery Terms
      *  Delivery Terms
      *
-     * @var \UBL\Common\CAC\DeliveryTerms[] $deliveryTerms
+     * @var \App\UBL\Common\CAC\DeliveryTerms[] $deliveryTerms
      */
     private $deliveryTerms = [
         
@@ -106,7 +106,7 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @var \UBL\Common\CAC\BonusPaymentTerms $bonusPaymentTerms
+     * @var \App\UBL\Common\CAC\BonusPaymentTerms $bonusPaymentTerms
      */
     private $bonusPaymentTerms = null;
 
@@ -121,7 +121,7 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @var \UBL\Common\CAC\CommissionPaymentTerms $commissionPaymentTerms
+     * @var \App\UBL\Common\CAC\CommissionPaymentTerms $commissionPaymentTerms
      */
     private $commissionPaymentTerms = null;
 
@@ -136,7 +136,7 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @var \UBL\Common\CAC\PenaltyPaymentTerms $penaltyPaymentTerms
+     * @var \App\UBL\Common\CAC\PenaltyPaymentTerms $penaltyPaymentTerms
      */
     private $penaltyPaymentTerms = null;
 
@@ -150,7 +150,7 @@ class TransportExecutionTermsType
      *  Environmental Emission
      *  Environmental Emission
      *
-     * @var \UBL\Common\CAC\EnvironmentalEmission[] $environmentalEmission
+     * @var \App\UBL\Common\CAC\EnvironmentalEmission[] $environmentalEmission
      */
     private $environmentalEmission = [
         
@@ -166,7 +166,7 @@ class TransportExecutionTermsType
      *  Notification Requirement
      *  Notification Requirement
      *
-     * @var \UBL\Common\CAC\NotificationRequirement[] $notificationRequirement
+     * @var \App\UBL\Common\CAC\NotificationRequirement[] $notificationRequirement
      */
     private $notificationRequirement = [
         
@@ -183,7 +183,7 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @var \UBL\Common\CAC\ServiceChargePaymentTerms $serviceChargePaymentTerms
+     * @var \App\UBL\Common\CAC\ServiceChargePaymentTerms $serviceChargePaymentTerms
      */
     private $serviceChargePaymentTerms = null;
 
@@ -201,9 +201,9 @@ class TransportExecutionTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\TransportUserSpecialTerms $transportUserSpecialTerms
+     * @param \App\UBL\Common\CBC\TransportUserSpecialTerms $transportUserSpecialTerms
      */
-    public function addToTransportUserSpecialTerms(\UBL\Common\CBC\TransportUserSpecialTerms $transportUserSpecialTerms)
+    public function addToTransportUserSpecialTerms(\App\UBL\Common\CBC\TransportUserSpecialTerms $transportUserSpecialTerms)
     {
         $this->transportUserSpecialTerms[] = $transportUserSpecialTerms;
         return $this;
@@ -264,7 +264,7 @@ class TransportExecutionTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\TransportUserSpecialTerms[]
+     * @return \App\UBL\Common\CBC\TransportUserSpecialTerms[]
      */
     public function getTransportUserSpecialTerms()
     {
@@ -284,7 +284,7 @@ class TransportExecutionTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\TransportUserSpecialTerms[] $transportUserSpecialTerms
+     * @param \App\UBL\Common\CBC\TransportUserSpecialTerms[] $transportUserSpecialTerms
      * @return self
      */
     public function setTransportUserSpecialTerms(?array $transportUserSpecialTerms = null)
@@ -307,9 +307,9 @@ class TransportExecutionTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\TransportServiceProviderSpecialTerms $transportServiceProviderSpecialTerms
+     * @param \App\UBL\Common\CBC\TransportServiceProviderSpecialTerms $transportServiceProviderSpecialTerms
      */
-    public function addToTransportServiceProviderSpecialTerms(\UBL\Common\CBC\TransportServiceProviderSpecialTerms $transportServiceProviderSpecialTerms)
+    public function addToTransportServiceProviderSpecialTerms(\App\UBL\Common\CBC\TransportServiceProviderSpecialTerms $transportServiceProviderSpecialTerms)
     {
         $this->transportServiceProviderSpecialTerms[] = $transportServiceProviderSpecialTerms;
         return $this;
@@ -370,7 +370,7 @@ class TransportExecutionTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\TransportServiceProviderSpecialTerms[]
+     * @return \App\UBL\Common\CBC\TransportServiceProviderSpecialTerms[]
      */
     public function getTransportServiceProviderSpecialTerms()
     {
@@ -390,7 +390,7 @@ class TransportExecutionTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\TransportServiceProviderSpecialTerms[] $transportServiceProviderSpecialTerms
+     * @param \App\UBL\Common\CBC\TransportServiceProviderSpecialTerms[] $transportServiceProviderSpecialTerms
      * @return self
      */
     public function setTransportServiceProviderSpecialTerms(?array $transportServiceProviderSpecialTerms = null)
@@ -412,9 +412,9 @@ class TransportExecutionTermsType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ChangeConditions $changeConditions
+     * @param \App\UBL\Common\CBC\ChangeConditions $changeConditions
      */
-    public function addToChangeConditions(\UBL\Common\CBC\ChangeConditions $changeConditions)
+    public function addToChangeConditions(\App\UBL\Common\CBC\ChangeConditions $changeConditions)
     {
         $this->changeConditions[] = $changeConditions;
         return $this;
@@ -472,7 +472,7 @@ class TransportExecutionTermsType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ChangeConditions[]
+     * @return \App\UBL\Common\CBC\ChangeConditions[]
      */
     public function getChangeConditions()
     {
@@ -491,7 +491,7 @@ class TransportExecutionTermsType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ChangeConditions[] $changeConditions
+     * @param \App\UBL\Common\CBC\ChangeConditions[] $changeConditions
      * @return self
      */
     public function setChangeConditions(?array $changeConditions = null)
@@ -513,9 +513,9 @@ class TransportExecutionTermsType
      *  Payment Terms
      *
      * @return self
-     * @param \UBL\Common\CAC\PaymentTerms $paymentTerms
+     * @param \App\UBL\Common\CAC\PaymentTerms $paymentTerms
      */
-    public function addToPaymentTerms(\UBL\Common\CAC\PaymentTerms $paymentTerms)
+    public function addToPaymentTerms(\App\UBL\Common\CAC\PaymentTerms $paymentTerms)
     {
         $this->paymentTerms[] = $paymentTerms;
         return $this;
@@ -573,7 +573,7 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @return \UBL\Common\CAC\PaymentTerms[]
+     * @return \App\UBL\Common\CAC\PaymentTerms[]
      */
     public function getPaymentTerms()
     {
@@ -592,7 +592,7 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @param \UBL\Common\CAC\PaymentTerms[] $paymentTerms
+     * @param \App\UBL\Common\CAC\PaymentTerms[] $paymentTerms
      * @return self
      */
     public function setPaymentTerms(?array $paymentTerms = null)
@@ -614,9 +614,9 @@ class TransportExecutionTermsType
      *  Delivery Terms
      *
      * @return self
-     * @param \UBL\Common\CAC\DeliveryTerms $deliveryTerms
+     * @param \App\UBL\Common\CAC\DeliveryTerms $deliveryTerms
      */
-    public function addToDeliveryTerms(\UBL\Common\CAC\DeliveryTerms $deliveryTerms)
+    public function addToDeliveryTerms(\App\UBL\Common\CAC\DeliveryTerms $deliveryTerms)
     {
         $this->deliveryTerms[] = $deliveryTerms;
         return $this;
@@ -674,7 +674,7 @@ class TransportExecutionTermsType
      *  Delivery Terms
      *  Delivery Terms
      *
-     * @return \UBL\Common\CAC\DeliveryTerms[]
+     * @return \App\UBL\Common\CAC\DeliveryTerms[]
      */
     public function getDeliveryTerms()
     {
@@ -693,7 +693,7 @@ class TransportExecutionTermsType
      *  Delivery Terms
      *  Delivery Terms
      *
-     * @param \UBL\Common\CAC\DeliveryTerms[] $deliveryTerms
+     * @param \App\UBL\Common\CAC\DeliveryTerms[] $deliveryTerms
      * @return self
      */
     public function setDeliveryTerms(?array $deliveryTerms = null)
@@ -715,7 +715,7 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @return \UBL\Common\CAC\BonusPaymentTerms
+     * @return \App\UBL\Common\CAC\BonusPaymentTerms
      */
     public function getBonusPaymentTerms()
     {
@@ -735,10 +735,10 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @param \UBL\Common\CAC\BonusPaymentTerms $bonusPaymentTerms
+     * @param \App\UBL\Common\CAC\BonusPaymentTerms $bonusPaymentTerms
      * @return self
      */
-    public function setBonusPaymentTerms(?\UBL\Common\CAC\BonusPaymentTerms $bonusPaymentTerms = null)
+    public function setBonusPaymentTerms(?\App\UBL\Common\CAC\BonusPaymentTerms $bonusPaymentTerms = null)
     {
         $this->bonusPaymentTerms = $bonusPaymentTerms;
         return $this;
@@ -757,7 +757,7 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @return \UBL\Common\CAC\CommissionPaymentTerms
+     * @return \App\UBL\Common\CAC\CommissionPaymentTerms
      */
     public function getCommissionPaymentTerms()
     {
@@ -777,10 +777,10 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @param \UBL\Common\CAC\CommissionPaymentTerms $commissionPaymentTerms
+     * @param \App\UBL\Common\CAC\CommissionPaymentTerms $commissionPaymentTerms
      * @return self
      */
-    public function setCommissionPaymentTerms(?\UBL\Common\CAC\CommissionPaymentTerms $commissionPaymentTerms = null)
+    public function setCommissionPaymentTerms(?\App\UBL\Common\CAC\CommissionPaymentTerms $commissionPaymentTerms = null)
     {
         $this->commissionPaymentTerms = $commissionPaymentTerms;
         return $this;
@@ -799,7 +799,7 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @return \UBL\Common\CAC\PenaltyPaymentTerms
+     * @return \App\UBL\Common\CAC\PenaltyPaymentTerms
      */
     public function getPenaltyPaymentTerms()
     {
@@ -819,10 +819,10 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @param \UBL\Common\CAC\PenaltyPaymentTerms $penaltyPaymentTerms
+     * @param \App\UBL\Common\CAC\PenaltyPaymentTerms $penaltyPaymentTerms
      * @return self
      */
-    public function setPenaltyPaymentTerms(?\UBL\Common\CAC\PenaltyPaymentTerms $penaltyPaymentTerms = null)
+    public function setPenaltyPaymentTerms(?\App\UBL\Common\CAC\PenaltyPaymentTerms $penaltyPaymentTerms = null)
     {
         $this->penaltyPaymentTerms = $penaltyPaymentTerms;
         return $this;
@@ -841,9 +841,9 @@ class TransportExecutionTermsType
      *  Environmental Emission
      *
      * @return self
-     * @param \UBL\Common\CAC\EnvironmentalEmission $environmentalEmission
+     * @param \App\UBL\Common\CAC\EnvironmentalEmission $environmentalEmission
      */
-    public function addToEnvironmentalEmission(\UBL\Common\CAC\EnvironmentalEmission $environmentalEmission)
+    public function addToEnvironmentalEmission(\App\UBL\Common\CAC\EnvironmentalEmission $environmentalEmission)
     {
         $this->environmentalEmission[] = $environmentalEmission;
         return $this;
@@ -901,7 +901,7 @@ class TransportExecutionTermsType
      *  Environmental Emission
      *  Environmental Emission
      *
-     * @return \UBL\Common\CAC\EnvironmentalEmission[]
+     * @return \App\UBL\Common\CAC\EnvironmentalEmission[]
      */
     public function getEnvironmentalEmission()
     {
@@ -920,7 +920,7 @@ class TransportExecutionTermsType
      *  Environmental Emission
      *  Environmental Emission
      *
-     * @param \UBL\Common\CAC\EnvironmentalEmission[] $environmentalEmission
+     * @param \App\UBL\Common\CAC\EnvironmentalEmission[] $environmentalEmission
      * @return self
      */
     public function setEnvironmentalEmission(?array $environmentalEmission = null)
@@ -942,9 +942,9 @@ class TransportExecutionTermsType
      *  Notification Requirement
      *
      * @return self
-     * @param \UBL\Common\CAC\NotificationRequirement $notificationRequirement
+     * @param \App\UBL\Common\CAC\NotificationRequirement $notificationRequirement
      */
-    public function addToNotificationRequirement(\UBL\Common\CAC\NotificationRequirement $notificationRequirement)
+    public function addToNotificationRequirement(\App\UBL\Common\CAC\NotificationRequirement $notificationRequirement)
     {
         $this->notificationRequirement[] = $notificationRequirement;
         return $this;
@@ -1002,7 +1002,7 @@ class TransportExecutionTermsType
      *  Notification Requirement
      *  Notification Requirement
      *
-     * @return \UBL\Common\CAC\NotificationRequirement[]
+     * @return \App\UBL\Common\CAC\NotificationRequirement[]
      */
     public function getNotificationRequirement()
     {
@@ -1021,7 +1021,7 @@ class TransportExecutionTermsType
      *  Notification Requirement
      *  Notification Requirement
      *
-     * @param \UBL\Common\CAC\NotificationRequirement[] $notificationRequirement
+     * @param \App\UBL\Common\CAC\NotificationRequirement[] $notificationRequirement
      * @return self
      */
     public function setNotificationRequirement(?array $notificationRequirement = null)
@@ -1043,7 +1043,7 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @return \UBL\Common\CAC\ServiceChargePaymentTerms
+     * @return \App\UBL\Common\CAC\ServiceChargePaymentTerms
      */
     public function getServiceChargePaymentTerms()
     {
@@ -1063,14 +1063,13 @@ class TransportExecutionTermsType
      *  Payment Terms
      *  Payment Terms
      *
-     * @param \UBL\Common\CAC\ServiceChargePaymentTerms $serviceChargePaymentTerms
+     * @param \App\UBL\Common\CAC\ServiceChargePaymentTerms $serviceChargePaymentTerms
      * @return self
      */
-    public function setServiceChargePaymentTerms(?\UBL\Common\CAC\ServiceChargePaymentTerms $serviceChargePaymentTerms = null)
+    public function setServiceChargePaymentTerms(?\App\UBL\Common\CAC\ServiceChargePaymentTerms $serviceChargePaymentTerms = null)
     {
         $this->serviceChargePaymentTerms = $serviceChargePaymentTerms;
         return $this;
     }
 }
-
 

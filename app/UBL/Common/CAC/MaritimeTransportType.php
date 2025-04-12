@@ -25,7 +25,7 @@ class MaritimeTransportType
      *  Lloyds Number, Registration Number (WCO ID 167)
      *  International Maritime Organisation number of a vessel
      *
-     * @var \UBL\Common\CBC\VesselID $vesselID
+     * @var \App\UBL\Common\CBC\VesselID $vesselID
      */
     private $vesselID = null;
 
@@ -40,7 +40,7 @@ class MaritimeTransportType
      *  Name. Type
      *  Ships Name
      *
-     * @var \UBL\Common\CBC\VesselName $vesselName
+     * @var \App\UBL\Common\CBC\VesselName $vesselName
      */
     private $vesselName = null;
 
@@ -55,7 +55,7 @@ class MaritimeTransportType
      *  Identifier. Type
      *  NES
      *
-     * @var \UBL\Common\CBC\RadioCallSignID $radioCallSignID
+     * @var \App\UBL\Common\CBC\RadioCallSignID $radioCallSignID
      */
     private $radioCallSignID = null;
 
@@ -69,7 +69,7 @@ class MaritimeTransportType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\ShipsRequirements[] $shipsRequirements
+     * @var \App\UBL\Common\CBC\ShipsRequirements[] $shipsRequirements
      */
     private $shipsRequirements = [
         
@@ -85,7 +85,7 @@ class MaritimeTransportType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\GrossTonnageMeasure $grossTonnageMeasure
+     * @var \App\UBL\Common\CBC\GrossTonnageMeasure $grossTonnageMeasure
      */
     private $grossTonnageMeasure = null;
 
@@ -99,7 +99,7 @@ class MaritimeTransportType
      *  Measure
      *  Measure. Type
      *
-     * @var \UBL\Common\CBC\NetTonnageMeasure $netTonnageMeasure
+     * @var \App\UBL\Common\CBC\NetTonnageMeasure $netTonnageMeasure
      */
     private $netTonnageMeasure = null;
 
@@ -114,7 +114,7 @@ class MaritimeTransportType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\RegistryCertificateDocumentReference $registryCertificateDocumentReference
+     * @var \App\UBL\Common\CAC\RegistryCertificateDocumentReference $registryCertificateDocumentReference
      */
     private $registryCertificateDocumentReference = null;
 
@@ -129,7 +129,7 @@ class MaritimeTransportType
      *  Location
      *  Location
      *
-     * @var \UBL\Common\CAC\RegistryPortLocation $registryPortLocation
+     * @var \App\UBL\Common\CAC\RegistryPortLocation $registryPortLocation
      */
     private $registryPortLocation = null;
 
@@ -147,7 +147,7 @@ class MaritimeTransportType
      *  Lloyds Number, Registration Number (WCO ID 167)
      *  International Maritime Organisation number of a vessel
      *
-     * @return \UBL\Common\CBC\VesselID
+     * @return \App\UBL\Common\CBC\VesselID
      */
     public function getVesselID()
     {
@@ -168,10 +168,10 @@ class MaritimeTransportType
      *  Lloyds Number, Registration Number (WCO ID 167)
      *  International Maritime Organisation number of a vessel
      *
-     * @param \UBL\Common\CBC\VesselID $vesselID
+     * @param \App\UBL\Common\CBC\VesselID $vesselID
      * @return self
      */
-    public function setVesselID(?\UBL\Common\CBC\VesselID $vesselID = null)
+    public function setVesselID(?\App\UBL\Common\CBC\VesselID $vesselID = null)
     {
         $this->vesselID = $vesselID;
         return $this;
@@ -190,7 +190,7 @@ class MaritimeTransportType
      *  Name. Type
      *  Ships Name
      *
-     * @return \UBL\Common\CBC\VesselName
+     * @return \App\UBL\Common\CBC\VesselName
      */
     public function getVesselName()
     {
@@ -210,10 +210,10 @@ class MaritimeTransportType
      *  Name. Type
      *  Ships Name
      *
-     * @param \UBL\Common\CBC\VesselName $vesselName
+     * @param \App\UBL\Common\CBC\VesselName $vesselName
      * @return self
      */
-    public function setVesselName(?\UBL\Common\CBC\VesselName $vesselName = null)
+    public function setVesselName(?\App\UBL\Common\CBC\VesselName $vesselName = null)
     {
         $this->vesselName = $vesselName;
         return $this;
@@ -232,7 +232,7 @@ class MaritimeTransportType
      *  Identifier. Type
      *  NES
      *
-     * @return \UBL\Common\CBC\RadioCallSignID
+     * @return \App\UBL\Common\CBC\RadioCallSignID
      */
     public function getRadioCallSignID()
     {
@@ -252,10 +252,10 @@ class MaritimeTransportType
      *  Identifier. Type
      *  NES
      *
-     * @param \UBL\Common\CBC\RadioCallSignID $radioCallSignID
+     * @param \App\UBL\Common\CBC\RadioCallSignID $radioCallSignID
      * @return self
      */
-    public function setRadioCallSignID(?\UBL\Common\CBC\RadioCallSignID $radioCallSignID = null)
+    public function setRadioCallSignID(?\App\UBL\Common\CBC\RadioCallSignID $radioCallSignID = null)
     {
         $this->radioCallSignID = $radioCallSignID;
         return $this;
@@ -274,9 +274,9 @@ class MaritimeTransportType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\ShipsRequirements $shipsRequirements
+     * @param \App\UBL\Common\CBC\ShipsRequirements $shipsRequirements
      */
-    public function addToShipsRequirements(\UBL\Common\CBC\ShipsRequirements $shipsRequirements)
+    public function addToShipsRequirements(\App\UBL\Common\CBC\ShipsRequirements $shipsRequirements)
     {
         $this->shipsRequirements[] = $shipsRequirements;
         return $this;
@@ -334,7 +334,7 @@ class MaritimeTransportType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\ShipsRequirements[]
+     * @return \App\UBL\Common\CBC\ShipsRequirements[]
      */
     public function getShipsRequirements()
     {
@@ -353,7 +353,7 @@ class MaritimeTransportType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\ShipsRequirements[] $shipsRequirements
+     * @param \App\UBL\Common\CBC\ShipsRequirements[] $shipsRequirements
      * @return self
      */
     public function setShipsRequirements(?array $shipsRequirements = null)
@@ -374,7 +374,7 @@ class MaritimeTransportType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\GrossTonnageMeasure
+     * @return \App\UBL\Common\CBC\GrossTonnageMeasure
      */
     public function getGrossTonnageMeasure()
     {
@@ -393,10 +393,10 @@ class MaritimeTransportType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\GrossTonnageMeasure $grossTonnageMeasure
+     * @param \App\UBL\Common\CBC\GrossTonnageMeasure $grossTonnageMeasure
      * @return self
      */
-    public function setGrossTonnageMeasure(?\UBL\Common\CBC\GrossTonnageMeasure $grossTonnageMeasure = null)
+    public function setGrossTonnageMeasure(?\App\UBL\Common\CBC\GrossTonnageMeasure $grossTonnageMeasure = null)
     {
         $this->grossTonnageMeasure = $grossTonnageMeasure;
         return $this;
@@ -414,7 +414,7 @@ class MaritimeTransportType
      *  Measure
      *  Measure. Type
      *
-     * @return \UBL\Common\CBC\NetTonnageMeasure
+     * @return \App\UBL\Common\CBC\NetTonnageMeasure
      */
     public function getNetTonnageMeasure()
     {
@@ -433,10 +433,10 @@ class MaritimeTransportType
      *  Measure
      *  Measure. Type
      *
-     * @param \UBL\Common\CBC\NetTonnageMeasure $netTonnageMeasure
+     * @param \App\UBL\Common\CBC\NetTonnageMeasure $netTonnageMeasure
      * @return self
      */
-    public function setNetTonnageMeasure(?\UBL\Common\CBC\NetTonnageMeasure $netTonnageMeasure = null)
+    public function setNetTonnageMeasure(?\App\UBL\Common\CBC\NetTonnageMeasure $netTonnageMeasure = null)
     {
         $this->netTonnageMeasure = $netTonnageMeasure;
         return $this;
@@ -455,7 +455,7 @@ class MaritimeTransportType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\RegistryCertificateDocumentReference
+     * @return \App\UBL\Common\CAC\RegistryCertificateDocumentReference
      */
     public function getRegistryCertificateDocumentReference()
     {
@@ -475,10 +475,10 @@ class MaritimeTransportType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\RegistryCertificateDocumentReference $registryCertificateDocumentReference
+     * @param \App\UBL\Common\CAC\RegistryCertificateDocumentReference $registryCertificateDocumentReference
      * @return self
      */
-    public function setRegistryCertificateDocumentReference(?\UBL\Common\CAC\RegistryCertificateDocumentReference $registryCertificateDocumentReference = null)
+    public function setRegistryCertificateDocumentReference(?\App\UBL\Common\CAC\RegistryCertificateDocumentReference $registryCertificateDocumentReference = null)
     {
         $this->registryCertificateDocumentReference = $registryCertificateDocumentReference;
         return $this;
@@ -497,7 +497,7 @@ class MaritimeTransportType
      *  Location
      *  Location
      *
-     * @return \UBL\Common\CAC\RegistryPortLocation
+     * @return \App\UBL\Common\CAC\RegistryPortLocation
      */
     public function getRegistryPortLocation()
     {
@@ -517,14 +517,13 @@ class MaritimeTransportType
      *  Location
      *  Location
      *
-     * @param \UBL\Common\CAC\RegistryPortLocation $registryPortLocation
+     * @param \App\UBL\Common\CAC\RegistryPortLocation $registryPortLocation
      * @return self
      */
-    public function setRegistryPortLocation(?\UBL\Common\CAC\RegistryPortLocation $registryPortLocation = null)
+    public function setRegistryPortLocation(?\App\UBL\Common\CAC\RegistryPortLocation $registryPortLocation = null)
     {
         $this->registryPortLocation = $registryPortLocation;
         return $this;
     }
 }
-
 

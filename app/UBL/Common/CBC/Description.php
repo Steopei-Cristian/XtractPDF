@@ -9,4 +9,3 @@ class Description extends DescriptionType
 {
 }
 
-

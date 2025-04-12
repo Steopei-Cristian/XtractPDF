@@ -9,4 +9,3 @@ class DataSendingCapability extends DataSendingCapabilityType
 {
 }
 
-

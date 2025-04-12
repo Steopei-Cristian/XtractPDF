@@ -1,3 +1,3 @@
-UBL\Common\CAC\AwardingCriterion:
+App\UBL\Common\CAC\AwardingCriterion:
     xml_root_name: AwardingCriterion
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'

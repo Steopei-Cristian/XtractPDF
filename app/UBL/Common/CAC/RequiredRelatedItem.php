@@ -9,4 +9,3 @@ class RequiredRelatedItem extends RelatedItemType
 {
 }
 
-

@@ -9,4 +9,3 @@ class SignatureID extends SignatureIDType
 {
 }
 
-

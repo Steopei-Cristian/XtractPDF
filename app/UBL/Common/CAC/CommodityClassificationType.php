@@ -24,7 +24,7 @@ class CommodityClassificationType
      *  Code. Type
      *  wooden products
      *
-     * @var \UBL\Common\CBC\NatureCode $natureCode
+     * @var \App\UBL\Common\CBC\NatureCode $natureCode
      */
     private $natureCode = null;
 
@@ -39,7 +39,7 @@ class CommodityClassificationType
      *  Code. Type
      *  Refrigerated
      *
-     * @var \UBL\Common\CBC\CargoTypeCode $cargoTypeCode
+     * @var \App\UBL\Common\CBC\CargoTypeCode $cargoTypeCode
      */
     private $cargoTypeCode = null;
 
@@ -55,7 +55,7 @@ class CommodityClassificationType
      *  Harmonized Code
      *  1102222883
      *
-     * @var \UBL\Common\CBC\CommodityCode $commodityCode
+     * @var \App\UBL\Common\CBC\CommodityCode $commodityCode
      */
     private $commodityCode = null;
 
@@ -71,7 +71,7 @@ class CommodityClassificationType
      *  UN/SPSC Code
      *  3440234
      *
-     * @var \UBL\Common\CBC\ItemClassificationCode $itemClassificationCode
+     * @var \App\UBL\Common\CBC\ItemClassificationCode $itemClassificationCode
      */
     private $itemClassificationCode = null;
 
@@ -88,7 +88,7 @@ class CommodityClassificationType
      *  Code. Type
      *  wooden products
      *
-     * @return \UBL\Common\CBC\NatureCode
+     * @return \App\UBL\Common\CBC\NatureCode
      */
     public function getNatureCode()
     {
@@ -108,10 +108,10 @@ class CommodityClassificationType
      *  Code. Type
      *  wooden products
      *
-     * @param \UBL\Common\CBC\NatureCode $natureCode
+     * @param \App\UBL\Common\CBC\NatureCode $natureCode
      * @return self
      */
-    public function setNatureCode(?\UBL\Common\CBC\NatureCode $natureCode = null)
+    public function setNatureCode(?\App\UBL\Common\CBC\NatureCode $natureCode = null)
     {
         $this->natureCode = $natureCode;
         return $this;
@@ -130,7 +130,7 @@ class CommodityClassificationType
      *  Code. Type
      *  Refrigerated
      *
-     * @return \UBL\Common\CBC\CargoTypeCode
+     * @return \App\UBL\Common\CBC\CargoTypeCode
      */
     public function getCargoTypeCode()
     {
@@ -150,10 +150,10 @@ class CommodityClassificationType
      *  Code. Type
      *  Refrigerated
      *
-     * @param \UBL\Common\CBC\CargoTypeCode $cargoTypeCode
+     * @param \App\UBL\Common\CBC\CargoTypeCode $cargoTypeCode
      * @return self
      */
-    public function setCargoTypeCode(?\UBL\Common\CBC\CargoTypeCode $cargoTypeCode = null)
+    public function setCargoTypeCode(?\App\UBL\Common\CBC\CargoTypeCode $cargoTypeCode = null)
     {
         $this->cargoTypeCode = $cargoTypeCode;
         return $this;
@@ -173,7 +173,7 @@ class CommodityClassificationType
      *  Harmonized Code
      *  1102222883
      *
-     * @return \UBL\Common\CBC\CommodityCode
+     * @return \App\UBL\Common\CBC\CommodityCode
      */
     public function getCommodityCode()
     {
@@ -194,10 +194,10 @@ class CommodityClassificationType
      *  Harmonized Code
      *  1102222883
      *
-     * @param \UBL\Common\CBC\CommodityCode $commodityCode
+     * @param \App\UBL\Common\CBC\CommodityCode $commodityCode
      * @return self
      */
-    public function setCommodityCode(?\UBL\Common\CBC\CommodityCode $commodityCode = null)
+    public function setCommodityCode(?\App\UBL\Common\CBC\CommodityCode $commodityCode = null)
     {
         $this->commodityCode = $commodityCode;
         return $this;
@@ -217,7 +217,7 @@ class CommodityClassificationType
      *  UN/SPSC Code
      *  3440234
      *
-     * @return \UBL\Common\CBC\ItemClassificationCode
+     * @return \App\UBL\Common\CBC\ItemClassificationCode
      */
     public function getItemClassificationCode()
     {
@@ -238,14 +238,13 @@ class CommodityClassificationType
      *  UN/SPSC Code
      *  3440234
      *
-     * @param \UBL\Common\CBC\ItemClassificationCode $itemClassificationCode
+     * @param \App\UBL\Common\CBC\ItemClassificationCode $itemClassificationCode
      * @return self
      */
-    public function setItemClassificationCode(?\UBL\Common\CBC\ItemClassificationCode $itemClassificationCode = null)
+    public function setItemClassificationCode(?\App\UBL\Common\CBC\ItemClassificationCode $itemClassificationCode = null)
     {
         $this->itemClassificationCode = $itemClassificationCode;
         return $this;
     }
 }
-
 

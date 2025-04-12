@@ -9,4 +9,3 @@ class PaymentAlternativeCurrencyCode extends PaymentAlternativeCurrencyCodeType
 {
 }
 
-

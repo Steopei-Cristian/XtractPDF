@@ -1,4 +1,4 @@
-UBL\Common\CAC\CommunicationType:
+App\UBL\Common\CAC\CommunicationType:
     properties:
         channelCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CommunicationType:
             accessor:
                 getter: getChannelCode
                 setter: setChannelCode
-            type: UBL\Common\CBC\ChannelCode
+            type: App\UBL\Common\CBC\ChannelCode
         channel:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ UBL\Common\CAC\CommunicationType:
             accessor:
                 getter: getChannel
                 setter: setChannel
-            type: UBL\Common\CBC\Channel
+            type: App\UBL\Common\CBC\Channel
         value:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ UBL\Common\CAC\CommunicationType:
             accessor:
                 getter: getValue
                 setter: setValue
-            type: UBL\Common\CBC\Value
+            type: App\UBL\Common\CBC\Value

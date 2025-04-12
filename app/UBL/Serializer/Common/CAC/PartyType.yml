@@ -1,4 +1,4 @@
-UBL\Common\CAC\PartyType:
+App\UBL\Common\CAC\PartyType:
     properties:
         markCareIndicator:
             expose: true
@@ -29,7 +29,7 @@ UBL\Common\CAC\PartyType:
             accessor:
                 getter: getWebsiteURI
                 setter: setWebsiteURI
-            type: UBL\Common\CBC\WebsiteURI
+            type: App\UBL\Common\CBC\WebsiteURI
         logoReferenceID:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ UBL\Common\CAC\PartyType:
             accessor:
                 getter: getLogoReferenceID
                 setter: setLogoReferenceID
-            type: UBL\Common\CBC\LogoReferenceID
+            type: App\UBL\Common\CBC\LogoReferenceID
         endpointID:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ UBL\Common\CAC\PartyType:
             accessor:
                 getter: getEndpointID
                 setter: setEndpointID
-            type: UBL\Common\CBC\EndpointID
+            type: App\UBL\Common\CBC\EndpointID
         industryClassificationCode:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ UBL\Common\CAC\PartyType:
             accessor:
                 getter: getIndustryClassificationCode
                 setter: setIndustryClassificationCode
-            type: UBL\Common\CBC\IndustryClassificationCode
+            type: App\UBL\Common\CBC\IndustryClassificationCode
         partyIdentification:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ UBL\Common\CAC\PartyType:
                 inline: true
                 entry_name: PartyIdentification
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PartyIdentification>
+            type: array<App\UBL\Common\CAC\PartyIdentification>
         partyName:
             expose: true
             access_type: public_method
@@ -87,7 +87,7 @@ UBL\Common\CAC\PartyType:
                 inline: true
                 entry_name: PartyName
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PartyName>
+            type: array<App\UBL\Common\CAC\PartyName>
         language:
             expose: true
             access_type: public_method
@@ -97,7 +97,7 @@ UBL\Common\CAC\PartyType:
             accessor:
                 getter: getLanguage
                 setter: setLanguage
-            type: UBL\Common\CAC\Language
+            type: App\UBL\Common\CAC\Language
         postalAddress:
             expose: true
             access_type: public_method
@@ -107,7 +107,7 @@ UBL\Common\CAC\PartyType:
             accessor:
                 getter: getPostalAddress
                 setter: setPostalAddress
-            type: UBL\Common\CAC\PostalAddress
+            type: App\UBL\Common\CAC\PostalAddress
         physicalLocation:
             expose: true
             access_type: public_method
@@ -117,7 +117,7 @@ UBL\Common\CAC\PartyType:
             accessor:
                 getter: getPhysicalLocation
                 setter: setPhysicalLocation
-            type: UBL\Common\CAC\PhysicalLocation
+            type: App\UBL\Common\CAC\PhysicalLocation
         partyTaxScheme:
             expose: true
             access_type: public_method
@@ -131,7 +131,7 @@ UBL\Common\CAC\PartyType:
                 inline: true
                 entry_name: PartyTaxScheme
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PartyTaxScheme>
+            type: array<App\UBL\Common\CAC\PartyTaxScheme>
         partyLegalEntity:
             expose: true
             access_type: public_method
@@ -145,7 +145,7 @@ UBL\Common\CAC\PartyType:
                 inline: true
                 entry_name: PartyLegalEntity
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PartyLegalEntity>
+            type: array<App\UBL\Common\CAC\PartyLegalEntity>
         contact:
             expose: true
             access_type: public_method
@@ -155,7 +155,7 @@ UBL\Common\CAC\PartyType:
             accessor:
                 getter: getContact
                 setter: setContact
-            type: UBL\Common\CAC\Contact
+            type: App\UBL\Common\CAC\Contact
         person:
             expose: true
             access_type: public_method
@@ -169,7 +169,7 @@ UBL\Common\CAC\PartyType:
                 inline: true
                 entry_name: Person
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\Person>
+            type: array<App\UBL\Common\CAC\Person>
         agentParty:
             expose: true
             access_type: public_method
@@ -179,7 +179,7 @@ UBL\Common\CAC\PartyType:
             accessor:
                 getter: getAgentParty
                 setter: setAgentParty
-            type: UBL\Common\CAC\AgentParty
+            type: App\UBL\Common\CAC\AgentParty
         serviceProviderParty:
             expose: true
             access_type: public_method
@@ -193,7 +193,7 @@ UBL\Common\CAC\PartyType:
                 inline: true
                 entry_name: ServiceProviderParty
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\ServiceProviderParty>
+            type: array<App\UBL\Common\CAC\ServiceProviderParty>
         powerOfAttorney:
             expose: true
             access_type: public_method
@@ -207,7 +207,7 @@ UBL\Common\CAC\PartyType:
                 inline: true
                 entry_name: PowerOfAttorney
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\PowerOfAttorney>
+            type: array<App\UBL\Common\CAC\PowerOfAttorney>
         financialAccount:
             expose: true
             access_type: public_method
@@ -217,4 +217,4 @@ UBL\Common\CAC\PartyType:
             accessor:
                 getter: getFinancialAccount
                 setter: setFinancialAccount
-            type: UBL\Common\CAC\FinancialAccount
+            type: App\UBL\Common\CAC\FinancialAccount

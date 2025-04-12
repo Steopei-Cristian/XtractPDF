@@ -9,4 +9,3 @@ class ContractFormalizationPeriod extends PeriodType
 {
 }
 
-

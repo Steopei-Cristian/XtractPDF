@@ -9,4 +9,3 @@ class NetworkID extends NetworkIDType
 {
 }
 
-

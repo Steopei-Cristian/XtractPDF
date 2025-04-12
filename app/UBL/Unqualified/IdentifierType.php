@@ -2,7 +2,7 @@
 
 namespace App\UBL\Unqualified;
 
-use UBL\CCTS\IdentifierType as IdentifierTypeBase;
+use App\UBL\CCTS\IdentifierType as IdentifierTypeBase;
 
 /**
  * Class representing IdentifierType
@@ -20,5 +20,4 @@ use UBL\CCTS\IdentifierType as IdentifierTypeBase;
 class IdentifierType extends IdentifierTypeBase
 {
 }
-
 

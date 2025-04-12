@@ -2,7 +2,7 @@
 
 namespace App\UBL\Unqualified;
 
-use UBL\CCTS\BinaryObjectType;
+use App\UBL\CCTS\BinaryObjectType;
 
 /**
  * Class representing PictureType
@@ -72,5 +72,4 @@ class PictureType extends BinaryObjectType
         return $this;
     }
 }
-
 

@@ -9,4 +9,3 @@ class PerformanceMetricTypeCode extends PerformanceMetricTypeCodeType
 {
 }
 
-

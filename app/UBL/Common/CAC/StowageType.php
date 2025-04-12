@@ -24,7 +24,7 @@ class StowageType
      *  Identifier. Type
      *  Cell Location, coded
      *
-     * @var \UBL\Common\CBC\LocationID $locationID
+     * @var \App\UBL\Common\CBC\LocationID $locationID
      */
     private $locationID = null;
 
@@ -39,7 +39,7 @@ class StowageType
      *  Text. Type
      *  Cell Location
      *
-     * @var \UBL\Common\CBC\Location[] $location
+     * @var \App\UBL\Common\CBC\Location[] $location
      */
     private $location = [
         
@@ -56,7 +56,7 @@ class StowageType
      *  Dimension
      *  Dimension
      *
-     * @var \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @var \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      */
     private $measurementDimension = [
         
@@ -75,7 +75,7 @@ class StowageType
      *  Identifier. Type
      *  Cell Location, coded
      *
-     * @return \UBL\Common\CBC\LocationID
+     * @return \App\UBL\Common\CBC\LocationID
      */
     public function getLocationID()
     {
@@ -95,10 +95,10 @@ class StowageType
      *  Identifier. Type
      *  Cell Location, coded
      *
-     * @param \UBL\Common\CBC\LocationID $locationID
+     * @param \App\UBL\Common\CBC\LocationID $locationID
      * @return self
      */
-    public function setLocationID(?\UBL\Common\CBC\LocationID $locationID = null)
+    public function setLocationID(?\App\UBL\Common\CBC\LocationID $locationID = null)
     {
         $this->locationID = $locationID;
         return $this;
@@ -118,9 +118,9 @@ class StowageType
      *  Cell Location
      *
      * @return self
-     * @param \UBL\Common\CBC\Location $location
+     * @param \App\UBL\Common\CBC\Location $location
      */
-    public function addToLocation(\UBL\Common\CBC\Location $location)
+    public function addToLocation(\App\UBL\Common\CBC\Location $location)
     {
         $this->location[] = $location;
         return $this;
@@ -181,7 +181,7 @@ class StowageType
      *  Text. Type
      *  Cell Location
      *
-     * @return \UBL\Common\CBC\Location[]
+     * @return \App\UBL\Common\CBC\Location[]
      */
     public function getLocation()
     {
@@ -201,7 +201,7 @@ class StowageType
      *  Text. Type
      *  Cell Location
      *
-     * @param \UBL\Common\CBC\Location[] $location
+     * @param \App\UBL\Common\CBC\Location[] $location
      * @return self
      */
     public function setLocation(?array $location = null)
@@ -224,9 +224,9 @@ class StowageType
      *  Dimension
      *
      * @return self
-     * @param \UBL\Common\CAC\MeasurementDimension $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension $measurementDimension
      */
-    public function addToMeasurementDimension(\UBL\Common\CAC\MeasurementDimension $measurementDimension)
+    public function addToMeasurementDimension(\App\UBL\Common\CAC\MeasurementDimension $measurementDimension)
     {
         $this->measurementDimension[] = $measurementDimension;
         return $this;
@@ -287,7 +287,7 @@ class StowageType
      *  Dimension
      *  Dimension
      *
-     * @return \UBL\Common\CAC\MeasurementDimension[]
+     * @return \App\UBL\Common\CAC\MeasurementDimension[]
      */
     public function getMeasurementDimension()
     {
@@ -307,7 +307,7 @@ class StowageType
      *  Dimension
      *  Dimension
      *
-     * @param \UBL\Common\CAC\MeasurementDimension[] $measurementDimension
+     * @param \App\UBL\Common\CAC\MeasurementDimension[] $measurementDimension
      * @return self
      */
     public function setMeasurementDimension(?array $measurementDimension = null)
@@ -316,5 +316,4 @@ class StowageType
         return $this;
     }
 }
-
 

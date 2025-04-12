@@ -9,4 +9,3 @@ class CompanyLegalFormCode extends CompanyLegalFormCodeType
 {
 }
 
-

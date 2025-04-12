@@ -9,4 +9,3 @@ class RequestedPickupTransportEvent extends TransportEventType
 {
 }
 
-

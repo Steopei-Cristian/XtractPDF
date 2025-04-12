@@ -2,7 +2,7 @@
 
 namespace App\UBL\Unqualified;
 
-use UBL\CCTS\BinaryObjectType as BinaryObjectTypeBase;
+use App\UBL\CCTS\BinaryObjectType as BinaryObjectTypeBase;
 
 /**
  * Class representing BinaryObjectType
@@ -72,5 +72,4 @@ class BinaryObjectType extends BinaryObjectTypeBase
         return $this;
     }
 }
-
 

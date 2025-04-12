@@ -9,4 +9,3 @@ class DischargeTransportEvent extends TransportEventType
 {
 }
 
-

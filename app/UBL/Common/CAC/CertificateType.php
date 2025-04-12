@@ -23,7 +23,7 @@ class CertificateType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class CertificateType
      *  Code
      *  Code. Type
      *
-     * @var \UBL\Common\CBC\CertificateTypeCode $certificateTypeCode
+     * @var \App\UBL\Common\CBC\CertificateTypeCode $certificateTypeCode
      */
     private $certificateTypeCode = null;
 
@@ -51,7 +51,7 @@ class CertificateType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\CertificateType $certificateType
+     * @var \App\UBL\Common\CBC\CertificateType $certificateType
      */
     private $certificateType = null;
 
@@ -65,7 +65,7 @@ class CertificateType
      *  Text
      *  Text. Type
      *
-     * @var \UBL\Common\CBC\Remarks[] $remarks
+     * @var \App\UBL\Common\CBC\Remarks[] $remarks
      */
     private $remarks = [
         
@@ -82,7 +82,7 @@ class CertificateType
      *  Party
      *  Party
      *
-     * @var \UBL\Common\CAC\IssuerParty $issuerParty
+     * @var \App\UBL\Common\CAC\IssuerParty $issuerParty
      */
     private $issuerParty = null;
 
@@ -96,7 +96,7 @@ class CertificateType
      *  Document Reference
      *  Document Reference
      *
-     * @var \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @var \App\UBL\Common\CAC\DocumentReference[] $documentReference
      */
     private $documentReference = [
         
@@ -112,7 +112,7 @@ class CertificateType
      *  Signature
      *  Signature
      *
-     * @var \UBL\Common\CAC\Signature[] $signature
+     * @var \App\UBL\Common\CAC\Signature[] $signature
      */
     private $signature = [
         
@@ -130,7 +130,7 @@ class CertificateType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -149,10 +149,10 @@ class CertificateType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(\UBL\Common\CBC\ID $iD)
+    public function setID(\App\UBL\Common\CBC\ID $iD)
     {
         $this->iD = $iD;
         return $this;
@@ -170,7 +170,7 @@ class CertificateType
      *  Code
      *  Code. Type
      *
-     * @return \UBL\Common\CBC\CertificateTypeCode
+     * @return \App\UBL\Common\CBC\CertificateTypeCode
      */
     public function getCertificateTypeCode()
     {
@@ -189,10 +189,10 @@ class CertificateType
      *  Code
      *  Code. Type
      *
-     * @param \UBL\Common\CBC\CertificateTypeCode $certificateTypeCode
+     * @param \App\UBL\Common\CBC\CertificateTypeCode $certificateTypeCode
      * @return self
      */
-    public function setCertificateTypeCode(\UBL\Common\CBC\CertificateTypeCode $certificateTypeCode)
+    public function setCertificateTypeCode(\App\UBL\Common\CBC\CertificateTypeCode $certificateTypeCode)
     {
         $this->certificateTypeCode = $certificateTypeCode;
         return $this;
@@ -210,7 +210,7 @@ class CertificateType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\CertificateType
+     * @return \App\UBL\Common\CBC\CertificateType
      */
     public function getCertificateType()
     {
@@ -229,10 +229,10 @@ class CertificateType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\CertificateType $certificateType
+     * @param \App\UBL\Common\CBC\CertificateType $certificateType
      * @return self
      */
-    public function setCertificateType(\UBL\Common\CBC\CertificateType $certificateType)
+    public function setCertificateType(\App\UBL\Common\CBC\CertificateType $certificateType)
     {
         $this->certificateType = $certificateType;
         return $this;
@@ -251,9 +251,9 @@ class CertificateType
      *  Text. Type
      *
      * @return self
-     * @param \UBL\Common\CBC\Remarks $remarks
+     * @param \App\UBL\Common\CBC\Remarks $remarks
      */
-    public function addToRemarks(\UBL\Common\CBC\Remarks $remarks)
+    public function addToRemarks(\App\UBL\Common\CBC\Remarks $remarks)
     {
         $this->remarks[] = $remarks;
         return $this;
@@ -311,7 +311,7 @@ class CertificateType
      *  Text
      *  Text. Type
      *
-     * @return \UBL\Common\CBC\Remarks[]
+     * @return \App\UBL\Common\CBC\Remarks[]
      */
     public function getRemarks()
     {
@@ -330,7 +330,7 @@ class CertificateType
      *  Text
      *  Text. Type
      *
-     * @param \UBL\Common\CBC\Remarks[] $remarks
+     * @param \App\UBL\Common\CBC\Remarks[] $remarks
      * @return self
      */
     public function setRemarks(?array $remarks = null)
@@ -352,7 +352,7 @@ class CertificateType
      *  Party
      *  Party
      *
-     * @return \UBL\Common\CAC\IssuerParty
+     * @return \App\UBL\Common\CAC\IssuerParty
      */
     public function getIssuerParty()
     {
@@ -372,10 +372,10 @@ class CertificateType
      *  Party
      *  Party
      *
-     * @param \UBL\Common\CAC\IssuerParty $issuerParty
+     * @param \App\UBL\Common\CAC\IssuerParty $issuerParty
      * @return self
      */
-    public function setIssuerParty(\UBL\Common\CAC\IssuerParty $issuerParty)
+    public function setIssuerParty(\App\UBL\Common\CAC\IssuerParty $issuerParty)
     {
         $this->issuerParty = $issuerParty;
         return $this;
@@ -394,9 +394,9 @@ class CertificateType
      *  Document Reference
      *
      * @return self
-     * @param \UBL\Common\CAC\DocumentReference $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference $documentReference
      */
-    public function addToDocumentReference(\UBL\Common\CAC\DocumentReference $documentReference)
+    public function addToDocumentReference(\App\UBL\Common\CAC\DocumentReference $documentReference)
     {
         $this->documentReference[] = $documentReference;
         return $this;
@@ -454,7 +454,7 @@ class CertificateType
      *  Document Reference
      *  Document Reference
      *
-     * @return \UBL\Common\CAC\DocumentReference[]
+     * @return \App\UBL\Common\CAC\DocumentReference[]
      */
     public function getDocumentReference()
     {
@@ -473,7 +473,7 @@ class CertificateType
      *  Document Reference
      *  Document Reference
      *
-     * @param \UBL\Common\CAC\DocumentReference[] $documentReference
+     * @param \App\UBL\Common\CAC\DocumentReference[] $documentReference
      * @return self
      */
     public function setDocumentReference(?array $documentReference = null)
@@ -495,9 +495,9 @@ class CertificateType
      *  Signature
      *
      * @return self
-     * @param \UBL\Common\CAC\Signature $signature
+     * @param \App\UBL\Common\CAC\Signature $signature
      */
-    public function addToSignature(\UBL\Common\CAC\Signature $signature)
+    public function addToSignature(\App\UBL\Common\CAC\Signature $signature)
     {
         $this->signature[] = $signature;
         return $this;
@@ -555,7 +555,7 @@ class CertificateType
      *  Signature
      *  Signature
      *
-     * @return \UBL\Common\CAC\Signature[]
+     * @return \App\UBL\Common\CAC\Signature[]
      */
     public function getSignature()
     {
@@ -574,7 +574,7 @@ class CertificateType
      *  Signature
      *  Signature
      *
-     * @param \UBL\Common\CAC\Signature[] $signature
+     * @param \App\UBL\Common\CAC\Signature[] $signature
      * @return self
      */
     public function setSignature(?array $signature = null)
@@ -583,5 +583,4 @@ class CertificateType
         return $this;
     }
 }
-
 

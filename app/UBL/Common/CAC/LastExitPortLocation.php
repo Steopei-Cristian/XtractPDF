@@ -9,4 +9,3 @@ class LastExitPortLocation extends LocationType
 {
 }
 
-

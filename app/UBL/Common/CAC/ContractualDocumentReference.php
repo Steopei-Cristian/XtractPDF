@@ -9,4 +9,3 @@ class ContractualDocumentReference extends DocumentReferenceType
 {
 }
 
-

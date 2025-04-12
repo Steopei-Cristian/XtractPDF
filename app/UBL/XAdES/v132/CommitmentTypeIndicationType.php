@@ -11,7 +11,7 @@ namespace App\UBL\XAdES\v132;
 class CommitmentTypeIndicationType
 {
     /**
-     * @var \UBL\XAdES\v132\ObjectIdentifierType $commitmentTypeId
+     * @var \App\UBL\XAdES\v132\ObjectIdentifierType $commitmentTypeId
      */
     private $commitmentTypeId = null;
 
@@ -28,14 +28,14 @@ class CommitmentTypeIndicationType
     private $allSignedDataObjects = null;
 
     /**
-     * @var \UBL\XAdES\v132\AnyType[] $commitmentTypeQualifiers
+     * @var \App\UBL\XAdES\v132\AnyType[] $commitmentTypeQualifiers
      */
     private $commitmentTypeQualifiers = null;
 
     /**
      * Gets as commitmentTypeId
      *
-     * @return \UBL\XAdES\v132\ObjectIdentifierType
+     * @return \App\UBL\XAdES\v132\ObjectIdentifierType
      */
     public function getCommitmentTypeId()
     {
@@ -45,10 +45,10 @@ class CommitmentTypeIndicationType
     /**
      * Sets a new commitmentTypeId
      *
-     * @param \UBL\XAdES\v132\ObjectIdentifierType $commitmentTypeId
+     * @param \App\UBL\XAdES\v132\ObjectIdentifierType $commitmentTypeId
      * @return self
      */
-    public function setCommitmentTypeId(\UBL\XAdES\v132\ObjectIdentifierType $commitmentTypeId)
+    public function setCommitmentTypeId(\App\UBL\XAdES\v132\ObjectIdentifierType $commitmentTypeId)
     {
         $this->commitmentTypeId = $commitmentTypeId;
         return $this;
@@ -136,9 +136,9 @@ class CommitmentTypeIndicationType
      * Adds as commitmentTypeQualifier
      *
      * @return self
-     * @param \UBL\XAdES\v132\AnyType $commitmentTypeQualifier
+     * @param \App\UBL\XAdES\v132\AnyType $commitmentTypeQualifier
      */
-    public function addToCommitmentTypeQualifiers(\UBL\XAdES\v132\AnyType $commitmentTypeQualifier)
+    public function addToCommitmentTypeQualifiers(\App\UBL\XAdES\v132\AnyType $commitmentTypeQualifier)
     {
         $this->commitmentTypeQualifiers[] = $commitmentTypeQualifier;
         return $this;
@@ -169,7 +169,7 @@ class CommitmentTypeIndicationType
     /**
      * Gets as commitmentTypeQualifiers
      *
-     * @return \UBL\XAdES\v132\AnyType[]
+     * @return \App\UBL\XAdES\v132\AnyType[]
      */
     public function getCommitmentTypeQualifiers()
     {
@@ -179,7 +179,7 @@ class CommitmentTypeIndicationType
     /**
      * Sets a new commitmentTypeQualifiers
      *
-     * @param \UBL\XAdES\v132\AnyType[] $commitmentTypeQualifiers
+     * @param \App\UBL\XAdES\v132\AnyType[] $commitmentTypeQualifiers
      * @return self
      */
     public function setCommitmentTypeQualifiers(?array $commitmentTypeQualifiers = null)
@@ -188,5 +188,4 @@ class CommitmentTypeIndicationType
         return $this;
     }
 }
-
 

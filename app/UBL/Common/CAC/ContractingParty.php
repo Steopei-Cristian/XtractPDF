@@ -9,4 +9,3 @@ class ContractingParty extends ContractingPartyType
 {
 }
 
-

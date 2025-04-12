@@ -9,4 +9,3 @@ class FinancingParty extends PartyType
 {
 }
 
-

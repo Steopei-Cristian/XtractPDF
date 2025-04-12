@@ -9,4 +9,3 @@ class ExchangeRate extends ExchangeRateType
 {
 }
 
-

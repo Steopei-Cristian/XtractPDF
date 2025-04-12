@@ -1,4 +1,4 @@
-UBL\Common\CAC\CapabilityType:
+App\UBL\Common\CAC\CapabilityType:
     properties:
         capabilityTypeCode:
             expose: true
@@ -9,7 +9,7 @@ UBL\Common\CAC\CapabilityType:
             accessor:
                 getter: getCapabilityTypeCode
                 setter: setCapabilityTypeCode
-            type: UBL\Common\CBC\CapabilityTypeCode
+            type: App\UBL\Common\CBC\CapabilityTypeCode
         description:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ UBL\Common\CAC\CapabilityType:
                 inline: true
                 entry_name: Description
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
-            type: array<UBL\Common\CBC\Description>
+            type: array<App\UBL\Common\CBC\Description>
         valueAmount:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ UBL\Common\CAC\CapabilityType:
             accessor:
                 getter: getValueAmount
                 setter: setValueAmount
-            type: UBL\Common\CBC\ValueAmount
+            type: App\UBL\Common\CBC\ValueAmount
         valueQuantity:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ UBL\Common\CAC\CapabilityType:
             accessor:
                 getter: getValueQuantity
                 setter: setValueQuantity
-            type: UBL\Common\CBC\ValueQuantity
+            type: App\UBL\Common\CBC\ValueQuantity
         evidenceSupplied:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ UBL\Common\CAC\CapabilityType:
                 inline: true
                 entry_name: EvidenceSupplied
                 namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
-            type: array<UBL\Common\CAC\EvidenceSupplied>
+            type: array<App\UBL\Common\CAC\EvidenceSupplied>
         validityPeriod:
             expose: true
             access_type: public_method
@@ -67,4 +67,4 @@ UBL\Common\CAC\CapabilityType:
             accessor:
                 getter: getValidityPeriod
                 setter: setValidityPeriod
-            type: UBL\Common\CAC\ValidityPeriod
+            type: App\UBL\Common\CAC\ValidityPeriod

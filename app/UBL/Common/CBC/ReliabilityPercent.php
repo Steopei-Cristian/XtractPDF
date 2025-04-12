@@ -9,4 +9,3 @@ class ReliabilityPercent extends ReliabilityPercentType
 {
 }
 
-

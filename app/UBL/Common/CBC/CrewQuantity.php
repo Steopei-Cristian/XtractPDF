@@ -9,4 +9,3 @@ class CrewQuantity extends CrewQuantityType
 {
 }
 
-

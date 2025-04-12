@@ -1,2 +1,2 @@
-UBL\Common\CBC\PayPerViewType:
+App\UBL\Common\CBC\PayPerViewType:
     properties: {  }

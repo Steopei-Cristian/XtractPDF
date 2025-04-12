@@ -1,4 +1,4 @@
-UBL\XAdES\v132\SignedDataObjectPropertiesType:
+App\UBL\XAdES\v132\SignedDataObjectPropertiesType:
     properties:
         id:
             expose: true
@@ -22,7 +22,7 @@ UBL\XAdES\v132\SignedDataObjectPropertiesType:
                 inline: true
                 entry_name: DataObjectFormat
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\DataObjectFormatType>
+            type: array<App\UBL\XAdES\v132\DataObjectFormatType>
         commitmentTypeIndication:
             expose: true
             access_type: public_method
@@ -36,7 +36,7 @@ UBL\XAdES\v132\SignedDataObjectPropertiesType:
                 inline: true
                 entry_name: CommitmentTypeIndication
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\CommitmentTypeIndicationType>
+            type: array<App\UBL\XAdES\v132\CommitmentTypeIndicationType>
         allDataObjectsTimeStamp:
             expose: true
             access_type: public_method
@@ -50,7 +50,7 @@ UBL\XAdES\v132\SignedDataObjectPropertiesType:
                 inline: true
                 entry_name: AllDataObjectsTimeStamp
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\XAdESTimeStampType>
+            type: array<App\UBL\XAdES\v132\XAdESTimeStampType>
         individualDataObjectsTimeStamp:
             expose: true
             access_type: public_method
@@ -64,4 +64,4 @@ UBL\XAdES\v132\SignedDataObjectPropertiesType:
                 inline: true
                 entry_name: IndividualDataObjectsTimeStamp
                 namespace: 'http://uri.etsi.org/01903/v1.3.2#'
-            type: array<UBL\XAdES\v132\XAdESTimeStampType>
+            type: array<App\UBL\XAdES\v132\XAdESTimeStampType>

@@ -9,4 +9,3 @@ class ConsumptionLevel extends ConsumptionLevelType
 {
 }
 
-

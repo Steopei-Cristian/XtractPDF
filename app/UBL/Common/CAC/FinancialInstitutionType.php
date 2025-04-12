@@ -23,7 +23,7 @@ class FinancialInstitutionType
      *  Identifier
      *  Identifier. Type
      *
-     * @var \UBL\Common\CBC\ID $iD
+     * @var \App\UBL\Common\CBC\ID $iD
      */
     private $iD = null;
 
@@ -37,7 +37,7 @@ class FinancialInstitutionType
      *  Name
      *  Name. Type
      *
-     * @var \UBL\Common\CBC\Name $name
+     * @var \App\UBL\Common\CBC\Name $name
      */
     private $name = null;
 
@@ -51,7 +51,7 @@ class FinancialInstitutionType
      *  Address
      *  Address
      *
-     * @var \UBL\Common\CAC\Address $address
+     * @var \App\UBL\Common\CAC\Address $address
      */
     private $address = null;
 
@@ -67,7 +67,7 @@ class FinancialInstitutionType
      *  Identifier
      *  Identifier. Type
      *
-     * @return \UBL\Common\CBC\ID
+     * @return \App\UBL\Common\CBC\ID
      */
     public function getID()
     {
@@ -86,10 +86,10 @@ class FinancialInstitutionType
      *  Identifier
      *  Identifier. Type
      *
-     * @param \UBL\Common\CBC\ID $iD
+     * @param \App\UBL\Common\CBC\ID $iD
      * @return self
      */
-    public function setID(?\UBL\Common\CBC\ID $iD = null)
+    public function setID(?\App\UBL\Common\CBC\ID $iD = null)
     {
         $this->iD = $iD;
         return $this;
@@ -107,7 +107,7 @@ class FinancialInstitutionType
      *  Name
      *  Name. Type
      *
-     * @return \UBL\Common\CBC\Name
+     * @return \App\UBL\Common\CBC\Name
      */
     public function getName()
     {
@@ -126,10 +126,10 @@ class FinancialInstitutionType
      *  Name
      *  Name. Type
      *
-     * @param \UBL\Common\CBC\Name $name
+     * @param \App\UBL\Common\CBC\Name $name
      * @return self
      */
-    public function setName(?\UBL\Common\CBC\Name $name = null)
+    public function setName(?\App\UBL\Common\CBC\Name $name = null)
     {
         $this->name = $name;
         return $this;
@@ -147,7 +147,7 @@ class FinancialInstitutionType
      *  Address
      *  Address
      *
-     * @return \UBL\Common\CAC\Address
+     * @return \App\UBL\Common\CAC\Address
      */
     public function getAddress()
     {
@@ -166,14 +166,13 @@ class FinancialInstitutionType
      *  Address
      *  Address
      *
-     * @param \UBL\Common\CAC\Address $address
+     * @param \App\UBL\Common\CAC\Address $address
      * @return self
      */
-    public function setAddress(?\UBL\Common\CAC\Address $address = null)
+    public function setAddress(?\App\UBL\Common\CAC\Address $address = null)
     {
         $this->address = $address;
         return $this;
     }
 }
-
 

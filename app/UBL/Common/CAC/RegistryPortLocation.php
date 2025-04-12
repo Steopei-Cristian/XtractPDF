@@ -9,4 +9,3 @@ class RegistryPortLocation extends LocationType
 {
 }
 
-

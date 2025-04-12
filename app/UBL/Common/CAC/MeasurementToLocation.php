@@ -9,4 +9,3 @@ class MeasurementToLocation extends LocationType
 {
 }
 
-

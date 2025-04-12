@@ -1,4 +1,4 @@
-UBL\CCTS\BinaryObjectType:
+App\UBL\CCTS\BinaryObjectType:
     properties:
         __value:
             expose: true

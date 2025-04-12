@@ -9,4 +9,3 @@ class TransportMeansTypeCode extends TransportMeansTypeCodeType
 {
 }
 
-

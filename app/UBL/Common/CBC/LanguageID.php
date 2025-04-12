@@ -9,4 +9,3 @@ class LanguageID extends LanguageIDType
 {
 }
 
-

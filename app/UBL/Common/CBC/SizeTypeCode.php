@@ -9,4 +9,3 @@ class SizeTypeCode extends SizeTypeCodeType
 {
 }
 
-

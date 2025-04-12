@@ -9,4 +9,3 @@ class BonusPaymentTerms extends PaymentTermsType
 {
 }
 
-

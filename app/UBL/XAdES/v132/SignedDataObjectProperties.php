@@ -9,4 +9,3 @@ class SignedDataObjectProperties extends SignedDataObjectPropertiesType
 {
 }
 
-

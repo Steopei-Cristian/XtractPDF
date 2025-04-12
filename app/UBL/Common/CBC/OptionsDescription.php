@@ -9,4 +9,3 @@ class OptionsDescription extends OptionsDescriptionType
 {
 }
 
-

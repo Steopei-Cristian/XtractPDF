@@ -9,4 +9,3 @@ class AnticipatedMonetaryTotal extends MonetaryTotalType
 {
 }
 
-

@@ -9,4 +9,3 @@ class PerformingCarrierAssignedID extends PerformingCarrierAssignedIDType
 {
 }
 
-

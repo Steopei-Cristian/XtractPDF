@@ -1,2 +1,2 @@
-UBL\Common\CBC\ChildConsignmentQuantityType:
+App\UBL\Common\CBC\ChildConsignmentQuantityType:
     properties: {  }

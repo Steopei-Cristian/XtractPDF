@@ -9,4 +9,3 @@ class UtilityConsumptionPoint extends ConsumptionPointType
 {
 }
 
-

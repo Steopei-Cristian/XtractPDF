@@ -1,3 +1,3 @@
-UBL\Common\CBC\TimeDeltaDaysQuantity:
+App\UBL\Common\CBC\TimeDeltaDaysQuantity:
     xml_root_name: TimeDeltaDaysQuantity
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'

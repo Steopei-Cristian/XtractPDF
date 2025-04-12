@@ -9,4 +9,3 @@ class Language extends LanguageType
 {
 }
 
-

@@ -9,4 +9,3 @@ class LiabilityAmount extends LiabilityAmountType
 {
 }
 
-
