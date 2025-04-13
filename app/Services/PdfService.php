@@ -68,17 +68,56 @@ class PdfService
         if ($supplierParty = $invoice->getAccountingSupplierParty()) {
             if ($party = $supplierParty->getParty()) {
                 $html .= '<tr><td colspan="2"><strong>Supplier Information</strong></td></tr>';
-                if ($legalEntities = $party->getPartyLegalEntity()) {
-                    foreach ($legalEntities as $legalEntity) {
-                        if ($registrationName = $legalEntity->getRegistrationName()) {
-                            $html .= '<tr><td><strong>Names:</strong></td><td>' . $registrationName . '</td></tr>';
-                        }
-                        if ($legalEntity->getCompanyID()) {
-                            $html .= '<tr><td><strong>Registration Number:</strong></td><td>' . $legalEntity->getCompanyID() . '</td></tr>';
+                
+                // Mark Care and Attention Indicators
+                if ($party->getMarkCareIndicator() !== null) {
+                    $html .= '<tr><td><strong>Mark Care:</strong></td><td>' . ($party->getMarkCareIndicator() ? 'Yes' : 'No') . '</td></tr>';
+                }
+                if ($party->getMarkAttentionIndicator() !== null) {
+                    $html .= '<tr><td><strong>Mark Attention:</strong></td><td>' . ($party->getMarkAttentionIndicator() ? 'Yes' : 'No') . '</td></tr>';
+                }
+
+                // Website and Logo
+                if ($websiteURI = $party->getWebsiteURI()) {
+                    $html .= '<tr><td><strong>Website:</strong></td><td>' . $websiteURI . '</td></tr>';
+                }
+                if ($logoReferenceID = $party->getLogoReferenceID()) {
+                    $html .= '<tr><td><strong>Logo Reference:</strong></td><td>' . $logoReferenceID . '</td></tr>';
+                }
+
+
+                // Party Identification
+                if ($partyIdentifications = $party->getPartyIdentification()) {
+                    $html .= '<tr><td><strong>Party Identifications:</strong></td><td>';
+                    $ids = [];
+                    foreach ($partyIdentifications as $identification) {
+                        if ($id = $identification->getID()) {
+                            $ids[] = $id;
                         }
                     }
+                    $html .= implode('<br>', $ids) . '</td></tr>';
                 }
+
+                // Party Name
+                if ($partyNames = $party->getPartyName()) {
+                    $html .= '<tr><td><strong>Party Names:</strong></td><td>';
+                    $names = [];
+                    foreach ($partyNames as $partyName) {
+                        if ($name = $partyName->getName()) {
+                            $names[] = $name;
+                        }
+                    }
+                    $html .= implode('<br>', $names) . '</td></tr>';
+                }
+
+                // Language
+                if ($language = $party->getLanguage()) {
+                    $html .= '<tr><td><strong>Language:</strong></td><td>' . $language . '</td></tr>';
+                }
+
+                // Postal Address
                 if ($postalAddress = $party->getPostalAddress()) {
+                    $html .= '<tr><td><strong>Postal Address:</strong></td><td>';
                     $address = [];
                     if ($streetName = $postalAddress->getStreetName()) {
                         $address[] = $streetName;
@@ -94,7 +133,87 @@ class PdfService
                             $address[] = $identificationCode;
                         }
                     }
-                    $html .= '<tr><td><strong>Address:</strong></td><td>' . implode(', ', $address) . '</td></tr>';
+                    $html .= implode(', ', $address) . '</td></tr>';
+                }
+
+                // Physical Location
+                if ($physicalLocation = $party->getPhysicalLocation()) {
+                    $html .= '<tr><td><strong>Physical Location:</strong></td><td>';
+                    $location = [];
+                    if ($description = $physicalLocation->getDescription()) {
+                        $location[] = $description;
+                    }
+                    if ($address = $physicalLocation->getAddress()) {
+                        if ($streetName = $address->getStreetName()) {
+                            $location[] = $streetName;
+                        }
+                        if ($cityName = $address->getCityName()) {
+                            $location[] = $cityName;
+                        }
+                    }
+                    $html .= implode(', ', $location) . '</td></tr>';
+                }
+
+                // Party Tax Scheme
+                if ($partyTaxSchemes = $party->getPartyTaxScheme()) {
+                    $html .= '<tr><td><strong>Tax Schemes:</strong></td><td>';
+                    $schemes = [];
+                    foreach ($partyTaxSchemes as $taxScheme) {
+                        if ($companyID = $taxScheme->getCompanyID()) {
+                            $schemes[] = $companyID;
+                        }
+                    }
+                    $html .= implode('<br>', $schemes) . '</td></tr>';
+                }
+
+                // Party Legal Entity
+                if ($legalEntities = $party->getPartyLegalEntity()) {
+                    foreach ($legalEntities as $legalEntity) {
+                        if ($registrationName = $legalEntity->getRegistrationName()) {
+                            $html .= '<tr><td><strong>Registration Name:</strong></td><td>' . $registrationName . '</td></tr>';
+                        }
+                        if ($legalEntity->getCompanyID()) {
+                            $html .= '<tr><td><strong>Company ID:</strong></td><td>' . $legalEntity->getCompanyID() . '</td></tr>';
+                        }
+                    }
+                }
+
+                // Contact
+                if ($contact = $party->getContact()) {
+                    $html .= '<tr><td><strong>Contact:</strong></td><td>';
+                    $contactInfo = [];
+                    if ($name = $contact->getName()) {
+                        $contactInfo[] = 'Name: ' . $name;
+                    }
+                    if ($telephone = $contact->getTelephone()) {
+                        $contactInfo[] = 'Phone: ' . $telephone;
+                    }
+                    if ($electronicMail = $contact->getElectronicMail()) {
+                        $contactInfo[] = 'Email: ' . $electronicMail;
+                    }
+                    $html .= implode('<br>', $contactInfo) . '</td></tr>';
+                }
+
+                // Person
+                if ($person = $party->getPerson()) {
+                    $html .= '<tr><td><strong>Person:</strong></td><td>';
+                    $personInfo = [];
+                    if ($firstName = $person->getFirstName()) {
+                        $personInfo[] = 'First Name: ' . $firstName;
+                    }
+                    if ($familyName = $person->getFamilyName()) {
+                        $personInfo[] = 'Family Name: ' . $familyName;
+                    }
+                    $html .= implode('<br>', $personInfo) . '</td></tr>';
+                }
+
+                // Agent Party
+                if ($agentParty = $party->getAgentParty()) {
+                    $html .= '<tr><td><strong>Agent Party:</strong></td><td>';
+                    if ($agentParty->getPartyName()) {
+                        $html .= $agentParty->getPartyName();
+                    }
+                    $html .= '</td></tr>';
                 }
             }
         }
@@ -103,22 +222,56 @@ class PdfService
         if ($customerParty = $invoice->getAccountingCustomerParty()) {
             if ($party = $customerParty->getParty()) {
                 $html .= '<tr><td colspan="2"><strong>Customer Information</strong></td></tr>';
-                if ($legalEntities = $party->getPartyLegalEntity()) {
-                    foreach ($legalEntities as $legalEntity) {
-                        if ($registrationNames = $legalEntity->getRegistrationName()) {
-                            $html .= '<tr><td><strong>Names:</strong></td><td>';
-                            $names = [];
-                            foreach ($registrationNames as $name) {
-                                $names[] = $name;
-                            }
-                            $html .= implode('<br>', $names) . '</td></tr>';
-                        }
-                        if ($legalEntity->getCompanyID()) {
-                            $html .= '<tr><td><strong>Company ID:</strong></td><td>' . $legalEntity->getCompanyID() . '</td></tr>';
+                
+                // Mark Care and Attention Indicators
+                if ($party->getMarkCareIndicator() !== null) {
+                    $html .= '<tr><td><strong>Mark Care:</strong></td><td>' . ($party->getMarkCareIndicator() ? 'Yes' : 'No') . '</td></tr>';
+                }
+                if ($party->getMarkAttentionIndicator() !== null) {
+                    $html .= '<tr><td><strong>Mark Attention:</strong></td><td>' . ($party->getMarkAttentionIndicator() ? 'Yes' : 'No') . '</td></tr>';
+                }
+
+                // Website and Logo
+                if ($websiteURI = $party->getWebsiteURI()) {
+                    $html .= '<tr><td><strong>Website:</strong></td><td>' . $websiteURI . '</td></tr>';
+                }
+                if ($logoReferenceID = $party->getLogoReferenceID()) {
+                    $html .= '<tr><td><strong>Logo Reference:</strong></td><td>' . $logoReferenceID . '</td></tr>';
+                }
+
+
+                // Party Identification
+                if ($partyIdentifications = $party->getPartyIdentification()) {
+                    $html .= '<tr><td><strong>Party Identifications:</strong></td><td>';
+                    $ids = [];
+                    foreach ($partyIdentifications as $identification) {
+                        if ($id = $identification->getID()) {
+                            $ids[] = $id;
                         }
                     }
+                    $html .= implode('<br>', $ids) . '</td></tr>';
                 }
+
+                // Party Name
+                if ($partyNames = $party->getPartyName()) {
+                    $html .= '<tr><td><strong>Party Names:</strong></td><td>';
+                    $names = [];
+                    foreach ($partyNames as $partyName) {
+                        if ($name = $partyName->getName()) {
+                            $names[] = $name;
+                        }
+                    }
+                    $html .= implode('<br>', $names) . '</td></tr>';
+                }
+
+                // Language
+                if ($language = $party->getLanguage()) {
+                    $html .= '<tr><td><strong>Language:</strong></td><td>' . $language . '</td></tr>';
+                }
+
+                // Postal Address
                 if ($postalAddress = $party->getPostalAddress()) {
+                    $html .= '<tr><td><strong>Postal Address:</strong></td><td>';
                     $address = [];
                     if ($streetName = $postalAddress->getStreetName()) {
                         $address[] = $streetName;
@@ -134,7 +287,87 @@ class PdfService
                             $address[] = $identificationCode;
                         }
                     }
-                    $html .= '<tr><td><strong>Address:</strong></td><td>' . implode(', ', $address) . '</td></tr>';
+                    $html .= implode(', ', $address) . '</td></tr>';
+                }
+
+                // Physical Location
+                if ($physicalLocation = $party->getPhysicalLocation()) {
+                    $html .= '<tr><td><strong>Physical Location:</strong></td><td>';
+                    $location = [];
+                    if ($description = $physicalLocation->getDescription()) {
+                        $location[] = $description;
+                    }
+                    if ($address = $physicalLocation->getAddress()) {
+                        if ($streetName = $address->getStreetName()) {
+                            $location[] = $streetName;
+                        }
+                        if ($cityName = $address->getCityName()) {
+                            $location[] = $cityName;
+                        }
+                    }
+                    $html .= implode(', ', $location) . '</td></tr>';
+                }
+
+                // Party Tax Scheme
+                if ($partyTaxSchemes = $party->getPartyTaxScheme()) {
+                    $html .= '<tr><td><strong>Tax Schemes:</strong></td><td>';
+                    $schemes = [];
+                    foreach ($partyTaxSchemes as $taxScheme) {
+                        if ($companyID = $taxScheme->getCompanyID()) {
+                            $schemes[] = $companyID;
+                        }
+                    }
+                    $html .= implode('<br>', $schemes) . '</td></tr>';
+                }
+
+                // Party Legal Entity
+                if ($legalEntities = $party->getPartyLegalEntity()) {
+                    foreach ($legalEntities as $legalEntity) {
+                        if ($registrationName = $legalEntity->getRegistrationName()) {
+                            $html .= '<tr><td><strong>Registration Name:</strong></td><td>' . $registrationName . '</td></tr>';
+                        }
+                        if ($legalEntity->getCompanyID()) {
+                            $html .= '<tr><td><strong>Company ID:</strong></td><td>' . $legalEntity->getCompanyID() . '</td></tr>';
+                        }
+                    }
+                }
+
+                // Contact
+                if ($contact = $party->getContact()) {
+                    $html .= '<tr><td><strong>Contact:</strong></td><td>';
+                    $contactInfo = [];
+                    if ($name = $contact->getName()) {
+                        $contactInfo[] = 'Name: ' . $name;
+                    }
+                    if ($telephone = $contact->getTelephone()) {
+                        $contactInfo[] = 'Phone: ' . $telephone;
+                    }
+                    if ($electronicMail = $contact->getElectronicMail()) {
+                        $contactInfo[] = 'Email: ' . $electronicMail;
+                    }
+                    $html .= implode('<br>', $contactInfo) . '</td></tr>';
+                }
+
+                // Person
+                if ($person = $party->getPerson()) {
+                    $html .= '<tr><td><strong>Person:</strong></td><td>';
+                    $personInfo = [];
+                    if ($firstName = $person->getFirstName()) {
+                        $personInfo[] = 'First Name: ' . $firstName;
+                    }
+                    if ($familyName = $person->getFamilyName()) {
+                        $personInfo[] = 'Family Name: ' . $familyName;
+                    }
+                    $html .= implode('<br>', $personInfo) . '</td></tr>';
+                }
+
+                // Agent Party
+                if ($agentParty = $party->getAgentParty()) {
+                    $html .= '<tr><td><strong>Agent Party:</strong></td><td>';
+                    if ($agentParty->getPartyName()) {
+                        $html .= $agentParty->getPartyName();
+                    }
+                    $html .= '</td></tr>';
                 }
             }
         }
