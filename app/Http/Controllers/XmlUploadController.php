@@ -36,7 +36,6 @@ class XmlUploadController extends Controller
             
             // Parse the XML file and create Invoice object
             $invoice = $this->xmlParserService->parseInvoiceFromFile($fullPath);
-            dd($invoice);
             
             // Log the parsed invoice details
             /*Log::info('Invoice parsed successfully', [
