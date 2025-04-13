@@ -361,19 +361,6 @@ class PdfService
                         }
                     }
                 }
-            } else {
-                $html .= '<tr>
-                    <td>Codul categoriei</td>
-                    <td>deO</td>
-                    <td>Cota TVA</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Baza de calcul</td>
-                    <td>' . ($formattedAmount ?? '0.00') . '</td>
-                    <td>Valoare TVA</td>
-                    <td>0.00</td>
-                </tr>';
             }
             
             $html .= '<tr>

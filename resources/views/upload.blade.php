@@ -37,20 +37,6 @@
                                 <p class="text-sm text-gray-600">Issue Date</p>
                                 <p class="font-medium">{{ session('invoice_details')['issue_date'] }}</p>
                             </div>
-                            {{--
-                            <div>
-                                <p class="text-sm text-gray-600">Supplier</p>
-                                <p class="font-medium">{{ session('invoice_details')['supplier'] }}</p>
-                            </div>
-                            <div>
-                                <p class="text-sm text-gray-600">Customer</p>
-                                <p class="font-medium">{{ session('invoice_details')['customer'] }}</p>
-                            </div>
-                            <div>
-                                <p class="text-sm text-gray-600">Total Lines</p>
-                                <p class="font-medium">{{ session('invoice_details')['total_lines'] }}</p>
-                            </div>
-                            --}}
                         </div>
                     </div>
                 @endif
@@ -79,14 +65,6 @@
                     </div>
                 </form>
 
-                <!-- Progress Bar (Hidden by default) -->
-                <div id="progressContainer" class="hidden mt-4">
-                    <div class="w-full bg-gray-200 rounded-full h-2.5">
-                        <div id="progressBar" class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
-                    </div>
-                    <p id="progressText" class="text-sm text-gray-600 mt-2 text-center">Processing...</p>
-                </div>
-
                 @if(isset($invoice))
                     <div class="mt-4">
                         <h2>Invoice Details</h2>
@@ -105,25 +83,5 @@
             </div>
         </div>
     </div>
-
-    <script>
-        document.getElementById('uploadForm').addEventListener('submit', function(e) {
-            const progressContainer = document.getElementById('progressContainer');
-            const progressBar = document.getElementById('progressBar');
-            const progressText = document.getElementById('progressText');
-            
-            progressContainer.classList.remove('hidden');
-            
-            // Simulate progress
-            let progress = 0;
-            const interval = setInterval(() => {
-                progress += 5;
-                if (progress <= 90) {
-                    progressBar.style.width = progress + '%';
-                    progressText.textContent = `Processing... ${progress}%`;
-                }
-            }, 100);
-        });
-    </script>
 </body>
 </html> 
