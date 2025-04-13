@@ -10,30 +10,20 @@ class PdfService
     public function generateInvoicePdf(Invoice $invoice): string
     {
         // Create new PDF document
-        $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
+        $pdf = new TCPDF('L', PDF_UNIT, 'A4', true, 'UTF-8', false);
+
+        // Remove default header/footer
+        $pdf->setPrintHeader(false);
+        $pdf->setPrintFooter(false);
 
         // Set document information
         $pdf->SetCreator(PDF_CREATOR);
         $pdf->SetAuthor('Your Company');
-        $pdf->SetTitle('Invoice ' . $invoice->getID());
+        $pdf->SetTitle('Factura ' . $invoice->getID());
 
-        // Set default header data
-        $pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, 'Invoice', 'Generated on ' . date('Y-m-d'));
-
-        // Set header and footer fonts
-        $pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
-        $pdf->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
-
-        // Set default monospaced font
-        $pdf->SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
-
-        // Set margins
-        $pdf->SetMargins(PDF_MARGIN_LEFT, PDF_MARGIN_TOP, PDF_MARGIN_RIGHT);
-        $pdf->SetHeaderMargin(PDF_MARGIN_HEADER);
-        $pdf->SetFooterMargin(PDF_MARGIN_FOOTER);
-
-        // Set auto page breaks
-        $pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM);
+        // Set margins - adjusted for landscape
+        $pdf->SetMargins(15, 10, 15);
+        $pdf->SetAutoPageBreak(TRUE, 10);
 
         // Add a page
         $pdf->AddPage();
@@ -41,389 +31,309 @@ class PdfService
         // Set font
         $pdf->SetFont('helvetica', '', 10);
 
-        // Invoice Header
-        $html = '<h1>Invoice</h1>';
-        $html .= '<table cellpadding="4" cellspacing="0" border="1">';
-        
-        // Basic Information
-        if ($invoice->getID()) {
-            $html .= '<tr><td><strong>Invoice Number:</strong></td><td>' . $invoice->getID() . '</td></tr>';
-        }
-        if ($invoice->getIssueDate()) {
-            $html .= '<tr><td><strong>Issue Date:</strong></td><td>' . $invoice->getIssueDate()->format('Y-m-d') . '</td></tr>';
-        }
-        /*
-        if ($invoice->getDueDate()) {
-            $html .= '<tr><td><strong>Due Date:</strong></td><td>' . $invoice->getDueDate()->format('Y-m-d') . '</td></tr>';
-        }
-        */
-        if ($invoice->getInvoiceTypeCode()) {
-            $html .= '<tr><td><strong>Invoice Type:</strong></td><td>' . $invoice->getInvoiceTypeCode() . '</td></tr>';
-        }
-        if ($invoice->getDocumentCurrencyCode()) {
-            $html .= '<tr><td><strong>Currency:</strong></td><td>' . $invoice->getDocumentCurrencyCode() . '</td></tr>';
-        }
+        // Start building the HTML content
+        $html = '<table cellpadding="2" cellspacing="0" border="0" style="width: 100%;">
+                    <tr>
+                        <td style="width: 40%;">
+                            <strong>VANZATOR</strong><br>
+                            <table cellpadding="2" cellspacing="0" border="0">';
 
         // Supplier Information
         if ($supplierParty = $invoice->getAccountingSupplierParty()) {
             if ($party = $supplierParty->getParty()) {
-                $html .= '<tr><td colspan="2"><strong>Supplier Information</strong></td></tr>';
-                
-                // Mark Care and Attention Indicators
-                if ($party->getMarkCareIndicator() !== null) {
-                    $html .= '<tr><td><strong>Mark Care:</strong></td><td>' . ($party->getMarkCareIndicator() ? 'Yes' : 'No') . '</td></tr>';
-                }
-                if ($party->getMarkAttentionIndicator() !== null) {
-                    $html .= '<tr><td><strong>Mark Attention:</strong></td><td>' . ($party->getMarkAttentionIndicator() ? 'Yes' : 'No') . '</td></tr>';
-                }
-
-                // Website and Logo
-                if ($websiteURI = $party->getWebsiteURI()) {
-                    $html .= '<tr><td><strong>Website:</strong></td><td>' . $websiteURI . '</td></tr>';
-                }
-                if ($logoReferenceID = $party->getLogoReferenceID()) {
-                    $html .= '<tr><td><strong>Logo Reference:</strong></td><td>' . $logoReferenceID . '</td></tr>';
-                }
-
-
-                // Party Identification
                 if ($partyIdentifications = $party->getPartyIdentification()) {
-                    $html .= '<tr><td><strong>Party Identifications:</strong></td><td>';
-                    $ids = [];
                     foreach ($partyIdentifications as $identification) {
                         if ($id = $identification->getID()) {
-                            $ids[] = $id;
+                            $html .= '<tr><td>Identificator: ' . $id . '</td></tr>';
                         }
                     }
-                    $html .= implode('<br>', $ids) . '</td></tr>';
                 }
 
-                // Party Name
-                if ($partyNames = $party->getPartyName()) {
-                    $html .= '<tr><td><strong>Party Names:</strong></td><td>';
-                    $names = [];
-                    foreach ($partyNames as $partyName) {
-                        if ($name = $partyName->getName()) {
-                            $names[] = $name;
-                        }
-                    }
-                    $html .= implode('<br>', $names) . '</td></tr>';
-                }
-
-                // Language
-                if ($language = $party->getLanguage()) {
-                    $html .= '<tr><td><strong>Language:</strong></td><td>' . $language . '</td></tr>';
-                }
-
-                // Postal Address
-                if ($postalAddress = $party->getPostalAddress()) {
-                    $html .= '<tr><td><strong>Postal Address:</strong></td><td>';
-                    $address = [];
-                    if ($streetName = $postalAddress->getStreetName()) {
-                        $address[] = $streetName;
-                    }
-                    if ($cityName = $postalAddress->getCityName()) {
-                        $address[] = $cityName;
-                    }
-                    if ($countrySubentity = $postalAddress->getCountrySubentity()) {
-                        $address[] = $countrySubentity;
-                    }
-                    if ($country = $postalAddress->getCountry()) {
-                        if ($identificationCode = $country->getIdentificationCode()) {
-                            $address[] = $identificationCode;
-                        }
-                    }
-                    $html .= implode(', ', $address) . '</td></tr>';
-                }
-
-                // Physical Location
-                if ($physicalLocation = $party->getPhysicalLocation()) {
-                    $html .= '<tr><td><strong>Physical Location:</strong></td><td>';
-                    $location = [];
-                    if ($description = $physicalLocation->getDescription()) {
-                        $location[] = $description;
-                    }
-                    if ($address = $physicalLocation->getAddress()) {
-                        if ($streetName = $address->getStreetName()) {
-                            $location[] = $streetName;
-                        }
-                        if ($cityName = $address->getCityName()) {
-                            $location[] = $cityName;
-                        }
-                    }
-                    $html .= implode(', ', $location) . '</td></tr>';
-                }
-
-                // Party Tax Scheme
-                if ($partyTaxSchemes = $party->getPartyTaxScheme()) {
-                    $html .= '<tr><td><strong>Tax Schemes:</strong></td><td>';
-                    $schemes = [];
-                    foreach ($partyTaxSchemes as $taxScheme) {
-                        if ($companyID = $taxScheme->getCompanyID()) {
-                            $schemes[] = $companyID;
-                        }
-                    }
-                    $html .= implode('<br>', $schemes) . '</td></tr>';
-                }
-
-                // Party Legal Entity
                 if ($legalEntities = $party->getPartyLegalEntity()) {
                     foreach ($legalEntities as $legalEntity) {
                         if ($registrationName = $legalEntity->getRegistrationName()) {
-                            $html .= '<tr><td><strong>Registration Name:</strong></td><td>' . $registrationName . '</td></tr>';
+                            $html .= '<tr><td>Nume: ' . $registrationName . '</td></tr>';
                         }
-                        if ($legalEntity->getCompanyID()) {
-                            $html .= '<tr><td><strong>Company ID:</strong></td><td>' . $legalEntity->getCompanyID() . '</td></tr>';
+                        if ($companyId = $legalEntity->getCompanyID()) {
+                            $html .= '<tr><td>Nr. inregistrare: ' . $companyId . '</td></tr>';
                         }
                     }
                 }
 
-                // Contact
+                if ($postalAddress = $party->getPostalAddress()) {
+                    if ($streetName = $postalAddress->getStreetName()) {
+                        $html .= '<tr><td>Strada: ' . $streetName . '</td></tr>';
+                    }
+                    if ($cityName = $postalAddress->getCityName()) {
+                        $html .= '<tr><td>Oras: ' . $cityName . '</td></tr>';
+                    }
+                    if ($country = $postalAddress->getCountry()) {
+                        if ($identificationCode = $country->getIdentificationCode()) {
+                            $html .= '<tr><td>Tara: ' . $identificationCode . '</td></tr>';
+                        }
+                    }
+                }
+
                 if ($contact = $party->getContact()) {
-                    $html .= '<tr><td><strong>Contact:</strong></td><td>';
-                    $contactInfo = [];
-                    if ($name = $contact->getName()) {
-                        $contactInfo[] = 'Name: ' . $name;
-                    }
                     if ($telephone = $contact->getTelephone()) {
-                        $contactInfo[] = 'Phone: ' . $telephone;
+                        $html .= '<tr><td>Telefon: ' . $telephone . '</td></tr>';
                     }
-                    if ($electronicMail = $contact->getElectronicMail()) {
-                        $contactInfo[] = 'Email: ' . $electronicMail;
+                    if ($email = $contact->getElectronicMail()) {
+                        $html .= '<tr><td>E-mail: ' . $email . '</td></tr>';
                     }
-                    $html .= implode('<br>', $contactInfo) . '</td></tr>';
-                }
-
-                // Person
-                if ($person = $party->getPerson()) {
-                    $html .= '<tr><td><strong>Person:</strong></td><td>';
-                    $personInfo = [];
-                    if ($firstName = $person->getFirstName()) {
-                        $personInfo[] = 'First Name: ' . $firstName;
-                    }
-                    if ($familyName = $person->getFamilyName()) {
-                        $personInfo[] = 'Family Name: ' . $familyName;
-                    }
-                    $html .= implode('<br>', $personInfo) . '</td></tr>';
-                }
-
-                // Agent Party
-                if ($agentParty = $party->getAgentParty()) {
-                    $html .= '<tr><td><strong>Agent Party:</strong></td><td>';
-                    if ($agentParty->getPartyName()) {
-                        $html .= $agentParty->getPartyName();
-                    }
-                    $html .= '</td></tr>';
                 }
             }
         }
+
+        $html .= '</table>
+                </td>
+                <td style="width: 20%; text-align: center;">
+                    <h2>RO eFactura</h2>
+                    <table cellpadding="2" cellspacing="0" border="0" style="width: 100%;">';
+
+        // Invoice Details
+        if ($invoice->getID()) {
+            $html .= '<tr><td>Nr. factura: ' . $invoice->getID() . '</td></tr>';
+        }
+        if ($invoice->getInvoiceTypeCode()) {
+            $html .= '<tr><td>Codul tipului: ' . $invoice->getInvoiceTypeCode() . '</td></tr>';
+        }
+        if ($invoice->getIssueDate()) {
+            $html .= '<tr><td>Data emitere: ' . $invoice->getIssueDate()->format('Y-m-d') . '</td></tr>';
+        }
+        /* 
+        if ($invoice->getDueDate()) {
+            $html .= '<tr><td>Data scadenta: ' . $invoice->getDueDate()->format('Y-m-d') . '</td></tr>';
+        }
+            */
+        if ($invoice->getDocumentCurrencyCode()) {
+            $html .= '<tr><td>Moneda facturii: ' . $invoice->getDocumentCurrencyCode() . '</td></tr>';
+        }
+
+        $html .= '</table>
+                </td>
+                <td style="width: 40%;">
+                    <strong>CUMPARATOR</strong><br>
+                    <table cellpadding="2" cellspacing="0" border="0">';
 
         // Customer Information
         if ($customerParty = $invoice->getAccountingCustomerParty()) {
             if ($party = $customerParty->getParty()) {
-                $html .= '<tr><td colspan="2"><strong>Customer Information</strong></td></tr>';
-                
-                // Mark Care and Attention Indicators
-                if ($party->getMarkCareIndicator() !== null) {
-                    $html .= '<tr><td><strong>Mark Care:</strong></td><td>' . ($party->getMarkCareIndicator() ? 'Yes' : 'No') . '</td></tr>';
-                }
-                if ($party->getMarkAttentionIndicator() !== null) {
-                    $html .= '<tr><td><strong>Mark Attention:</strong></td><td>' . ($party->getMarkAttentionIndicator() ? 'Yes' : 'No') . '</td></tr>';
-                }
-
-                // Website and Logo
-                if ($websiteURI = $party->getWebsiteURI()) {
-                    $html .= '<tr><td><strong>Website:</strong></td><td>' . $websiteURI . '</td></tr>';
-                }
-                if ($logoReferenceID = $party->getLogoReferenceID()) {
-                    $html .= '<tr><td><strong>Logo Reference:</strong></td><td>' . $logoReferenceID . '</td></tr>';
-                }
-
-
-                // Party Identification
                 if ($partyIdentifications = $party->getPartyIdentification()) {
-                    $html .= '<tr><td><strong>Party Identifications:</strong></td><td>';
-                    $ids = [];
                     foreach ($partyIdentifications as $identification) {
                         if ($id = $identification->getID()) {
-                            $ids[] = $id;
+                            $html .= '<tr><td>Identificator: ' . $id . '</td></tr>';
                         }
                     }
-                    $html .= implode('<br>', $ids) . '</td></tr>';
                 }
 
-                // Party Name
-                if ($partyNames = $party->getPartyName()) {
-                    $html .= '<tr><td><strong>Party Names:</strong></td><td>';
-                    $names = [];
-                    foreach ($partyNames as $partyName) {
-                        if ($name = $partyName->getName()) {
-                            $names[] = $name;
-                        }
-                    }
-                    $html .= implode('<br>', $names) . '</td></tr>';
-                }
-
-                // Language
-                if ($language = $party->getLanguage()) {
-                    $html .= '<tr><td><strong>Language:</strong></td><td>' . $language . '</td></tr>';
-                }
-
-                // Postal Address
-                if ($postalAddress = $party->getPostalAddress()) {
-                    $html .= '<tr><td><strong>Postal Address:</strong></td><td>';
-                    $address = [];
-                    if ($streetName = $postalAddress->getStreetName()) {
-                        $address[] = $streetName;
-                    }
-                    if ($cityName = $postalAddress->getCityName()) {
-                        $address[] = $cityName;
-                    }
-                    if ($countrySubentity = $postalAddress->getCountrySubentity()) {
-                        $address[] = $countrySubentity;
-                    }
-                    if ($country = $postalAddress->getCountry()) {
-                        if ($identificationCode = $country->getIdentificationCode()) {
-                            $address[] = $identificationCode;
-                        }
-                    }
-                    $html .= implode(', ', $address) . '</td></tr>';
-                }
-
-                // Physical Location
-                if ($physicalLocation = $party->getPhysicalLocation()) {
-                    $html .= '<tr><td><strong>Physical Location:</strong></td><td>';
-                    $location = [];
-                    if ($description = $physicalLocation->getDescription()) {
-                        $location[] = $description;
-                    }
-                    if ($address = $physicalLocation->getAddress()) {
-                        if ($streetName = $address->getStreetName()) {
-                            $location[] = $streetName;
-                        }
-                        if ($cityName = $address->getCityName()) {
-                            $location[] = $cityName;
-                        }
-                    }
-                    $html .= implode(', ', $location) . '</td></tr>';
-                }
-
-                // Party Tax Scheme
-                if ($partyTaxSchemes = $party->getPartyTaxScheme()) {
-                    $html .= '<tr><td><strong>Tax Schemes:</strong></td><td>';
-                    $schemes = [];
-                    foreach ($partyTaxSchemes as $taxScheme) {
-                        if ($companyID = $taxScheme->getCompanyID()) {
-                            $schemes[] = $companyID;
-                        }
-                    }
-                    $html .= implode('<br>', $schemes) . '</td></tr>';
-                }
-
-                // Party Legal Entity
                 if ($legalEntities = $party->getPartyLegalEntity()) {
                     foreach ($legalEntities as $legalEntity) {
                         if ($registrationName = $legalEntity->getRegistrationName()) {
-                            $html .= '<tr><td><strong>Registration Name:</strong></td><td>' . $registrationName . '</td></tr>';
+                            $html .= '<tr><td>Nume: ' . $registrationName . '</td></tr>';
                         }
-                        if ($legalEntity->getCompanyID()) {
-                            $html .= '<tr><td><strong>Company ID:</strong></td><td>' . $legalEntity->getCompanyID() . '</td></tr>';
+                        if ($companyId = $legalEntity->getCompanyID()) {
+                            $html .= '<tr><td>Nr. inregistrare: ' . $companyId . '</td></tr>';
                         }
                     }
                 }
 
-                // Contact
-                if ($contact = $party->getContact()) {
-                    $html .= '<tr><td><strong>Contact:</strong></td><td>';
-                    $contactInfo = [];
-                    if ($name = $contact->getName()) {
-                        $contactInfo[] = 'Name: ' . $name;
+                if ($postalAddress = $party->getPostalAddress()) {
+                    if ($streetName = $postalAddress->getStreetName()) {
+                        $html .= '<tr><td>Strada: ' . $streetName . '</td></tr>';
                     }
-                    if ($telephone = $contact->getTelephone()) {
-                        $contactInfo[] = 'Phone: ' . $telephone;
+                    if ($cityName = $postalAddress->getCityName()) {
+                        $html .= '<tr><td>Oras: ' . $cityName . '</td></tr>';
                     }
-                    if ($electronicMail = $contact->getElectronicMail()) {
-                        $contactInfo[] = 'Email: ' . $electronicMail;
+                    if ($country = $postalAddress->getCountry()) {
+                        if ($identificationCode = $country->getIdentificationCode()) {
+                            $html .= '<tr><td>Tara: ' . $identificationCode . '</td></tr>';
+                        }
                     }
-                    $html .= implode('<br>', $contactInfo) . '</td></tr>';
-                }
-
-                // Person
-                if ($person = $party->getPerson()) {
-                    $html .= '<tr><td><strong>Person:</strong></td><td>';
-                    $personInfo = [];
-                    if ($firstName = $person->getFirstName()) {
-                        $personInfo[] = 'First Name: ' . $firstName;
-                    }
-                    if ($familyName = $person->getFamilyName()) {
-                        $personInfo[] = 'Family Name: ' . $familyName;
-                    }
-                    $html .= implode('<br>', $personInfo) . '</td></tr>';
-                }
-
-                // Agent Party
-                if ($agentParty = $party->getAgentParty()) {
-                    $html .= '<tr><td><strong>Agent Party:</strong></td><td>';
-                    if ($agentParty->getPartyName()) {
-                        $html .= $agentParty->getPartyName();
-                    }
-                    $html .= '</td></tr>';
                 }
             }
         }
 
+        $html .= '</table>
+                </td>
+            </tr>
+        </table>';
+
         // Invoice Lines
         if ($invoiceLines = $invoice->getInvoiceLine()) {
-            $html .= '<tr><td colspan="2"><strong>Invoice Lines</strong></td></tr>';
-            $html .= '<tr><td colspan="2">';
-            $html .= '<table cellpadding="4" cellspacing="0" border="1">';
-            $html .= '<tr><th>Item</th><th>Description</th><th>Quantity</th><th>Price</th><th>Total</th></tr>';
+            $html .= '<br><table cellpadding="4" cellspacing="0" border="1" style="width: 100%;">
+                <tr style="background-color: #f0f0f0;">
+                    <th>Linia</th>
+                    <th>Nume articol/Descriere articol</th>
+                    <th>Tara provenienta</th>
+                    <th>Pretul net al articolului</th>
+                    <th>Moneda</th>
+                    <th>Cantitate de baza</th>
+                    <th>Cantitate facturata</th>
+                    <th>UM</th>
+                    <th>Cota TVA</th>
+                    <th>Valoare neta</th>
+                </tr>';
             
+            $lineNumber = 1;
             foreach ($invoiceLines as $line) {
                 $html .= '<tr>';
+                $html .= '<td>' . $lineNumber++ . '</td>';
+                
+                // Item name and description
                 if ($item = $line->getItem()) {
                     if ($name = $item->getName()) {
                         $html .= '<td>' . $name . '</td>';
+                    } else {
+                        $html .= '<td></td>';
                     }
-                    if ($description = $item->getDescription()) {
-                        $html .= '<td>' . $description . '</td>';
-                    }
+                } else {
+                    $html .= '<td></td>';
                 }
-                if ($invoicedQuantity = $line->getInvoicedQuantity()) {
-                    $html .= '<td>' . $invoicedQuantity . '</td>';
-                }
+
+                // Country of origin
+                $html .= '<td></td>';
+
+                // Net price
                 if ($price = $line->getPrice()) {
                     if ($priceAmount = $price->getPriceAmount()) {
-                        $html .= '<td>' . $priceAmount . '</td>';
+                        $amount = is_object($priceAmount) ? (string)$priceAmount : $priceAmount;
+                        $html .= '<td style="text-align: right;">' . number_format((float)$amount, 2) . '</td>';
+                    } else {
+                        $html .= '<td></td>';
                     }
+                } else {
+                    $html .= '<td></td>';
                 }
+
+                // Currency
+                $html .= '<td style="text-align: center;">' . $invoice->getDocumentCurrencyCode() . '</td>';
+
+                // Base quantity
+                $html .= '<td style="text-align: right;">1.000</td>';
+
+                // Invoiced quantity
+                if ($invoicedQuantity = $line->getInvoicedQuantity()) {
+                    $quantity = is_object($invoicedQuantity) ? (string)$invoicedQuantity : $invoicedQuantity;
+                    $html .= '<td style="text-align: right;">' . number_format((float)$quantity, 3) . '</td>';
+                } else {
+                    $html .= '<td></td>';
+                }
+
+                // Unit of measure
+                $html .= '<td style="text-align: center;">H87</td>';
+
+                // VAT rate
+                $html .= '<td></td>';
+
+                // Net value
                 if ($lineExtensionAmount = $line->getLineExtensionAmount()) {
-                    $html .= '<td>' . $lineExtensionAmount . '</td>';
+                    $amount = is_object($lineExtensionAmount) ? (string)$lineExtensionAmount : $lineExtensionAmount;
+                    $html .= '<td style="text-align: right;">' . number_format((float)$amount, 2) . '</td>';
+                } else {
+                    $html .= '<td></td>';
                 }
+                
                 $html .= '</tr>';
             }
             $html .= '</table>';
-            $html .= '</td></tr>';
         }
 
         // Totals
         if ($legalMonetaryTotal = $invoice->getLegalMonetaryTotal()) {
-            $html .= '<tr><td colspan="2"><strong>Totals</strong></td></tr>';
+            $html .= '<br><table cellpadding="2" cellspacing="0" border="1" style="width: 100%; font-size: 8pt;">
+                <tr style="text-align: center;">
+                    <th style="width: 14.28%;">TOTAL NET</th>
+                    <th style="width: 14.28%;">VALOARE TOTALA fara TVA</th>
+                    <th style="width: 14.28%;">VALOARE TOTALA cu TVA</th>
+                    <th style="width: 14.28%;">TOTAL DEDUCERI</th>
+                    <th style="width: 14.28%;">TOTAL TAXE SUPLIMENTARE</th>
+                    <th style="width: 14.28%;">SUMA PLATITA</th>
+                    <th style="width: 14.28%;">VALOARE DE ROTUNJIRE</th>
+                </tr>
+                <tr style="text-align: right;">';
+
             if ($lineExtensionAmount = $legalMonetaryTotal->getLineExtensionAmount()) {
-                $html .= '<tr><td><strong>Subtotal:</strong></td><td>' . $lineExtensionAmount . '</td></tr>';
+                $amount = is_object($lineExtensionAmount) ? (string)$lineExtensionAmount : $lineExtensionAmount;
+                $formattedAmount = number_format((float)$amount, 2);
+                $html .= '<td>' . $formattedAmount . '</td>';
+                $html .= '<td>' . $formattedAmount . '</td>';
+                $html .= '<td>' . $formattedAmount . '</td>';
+            } else {
+                $html .= '<td></td><td></td><td></td>';
             }
-            if ($taxExclusiveAmount = $legalMonetaryTotal->getTaxExclusiveAmount()) {
-                $html .= '<tr><td><strong>Tax Exclusive Amount:</strong></td><td>' . $taxExclusiveAmount . '</td></tr>';
+
+            // Empty cells for deductions and additional taxes
+            $html .= '<td></td><td></td>';
+
+            // Suma platita (same as total)
+            if ($lineExtensionAmount) {
+                $html .= '<td>' . $formattedAmount . '</td>';
+            } else {
+                $html .= '<td></td>';
             }
-            if ($taxInclusiveAmount = $legalMonetaryTotal->getTaxInclusiveAmount()) {
-                $html .= '<tr><td><strong>Tax Inclusive Amount:</strong></td><td>' . $taxInclusiveAmount . '</td></tr>';
-            }
-            if ($payableAmount = $legalMonetaryTotal->getPayableAmount()) {
-                $html .= '<tr><td><strong>Payable Amount:</strong></td><td>' . $payableAmount . '</td></tr>';
-            }
+
+            // Empty cell for rounding value
+            $html .= '<td></td>';
+
+            $html .= '</tr></table>';
+
+            // TOTAL PLATA row
+            $html .= '<table cellpadding="2" cellspacing="0" border="0" style="width: 100%; font-size: 8pt;">
+                <tr>
+                    <td><strong>TOTAL PLATA</strong></td>
+                    <td>' . $formattedAmount . '</td>
+                </tr>
+            </table>';
+
+            // TOTAL row with 0.00 RON
+            $html .= '<table cellpadding="2" cellspacing="0" border="0" style="width: 100%; font-size: 8pt;">
+                <tr>
+                    <td><strong>TOTAL</strong></td>
+                    <td>0.00</td>
+                    <td>RON</td>
+                </tr>
+            </table>';
+
+            // DETALIEREA TVA section
+            $html .= '<table cellpadding="2" cellspacing="0" border="0" style="width: 100%; font-size: 8pt;">
+                <tr>
+                    <td colspan="4"><strong>DETALIEREA TVA</strong></td>
+                </tr>
+                <tr>
+                    <td>Codul categoriei</td>
+                    <td>deO</td>
+                    <td>Cota TVA</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Baza de calcul</td>
+                    <td>' . $formattedAmount . '</td>
+                    <td>Valoare TVA</td>
+                    <td>0.00</td>
+                </tr>
+                <tr>
+                    <td colspan="4">Codul VATEX-EU-O motivul/Motivul scutirii: Entitatea nu este inregistrata in scopuri de TVA</td>
+                </tr>
+            </table>';
         }
 
-        $html .= '</table>';
+        // Payment Instructions
+        $html .= '<br><table cellpadding="4" cellspacing="0" border="0" style="width: 100%;">
+            <tr><td colspan="2"><strong>Instructiuni de plata</strong></td></tr>
+            <tr>
+                <td style="width: 30%;">Codul tipului de instrument de plata</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>Nr. cont de plata</td>
+                <td>RO70BTRLRONCRT0G3230701</td>
+            </tr>
+            <tr>
+                <td>Numele contului de plata</td>
+                <td>BANCA TRANSILVANIA</td>
+            </tr>
+        </table>';
 
         // Output the HTML content
         $pdf->writeHTML($html, true, false, true, false, '');
