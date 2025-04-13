@@ -23,9 +23,7 @@ class IssueDate
      */
     public function __construct(\DateTime $value = null)
     {
-        if ($value !== null) {
-            $this->value($value);
-        }
+        $this->value($value);
     }
 
     /**
@@ -49,7 +47,10 @@ class IssueDate
      */
     public function __toString()
     {
-        return $this->__value ? $this->__value->format('Y-m-d') : '';
+        if ($this->__value instanceof \DateTime) {
+            return $this->__value->format('Y-m-d');
+        }
+        return '';
     }
 }
 

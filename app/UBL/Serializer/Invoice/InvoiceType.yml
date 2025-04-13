@@ -65,6 +65,7 @@ App\UBL\Invoice\InvoiceType:
                 getter: getID
                 setter: setID
             type: App\UBL\Common\CBC\ID
+            xml_value: true
         copyIndicator:
             expose: true
             access_type: public_method
@@ -95,6 +96,7 @@ App\UBL\Invoice\InvoiceType:
                 getter: getIssueDate
                 setter: setIssueDate
             type: App\UBL\Common\CBC\IssueDate
+            xml_value: true
         issueTime:
             expose: true
             access_type: public_method
