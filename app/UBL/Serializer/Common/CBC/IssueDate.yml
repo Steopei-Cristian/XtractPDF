@@ -9,4 +9,4 @@ App\UBL\Common\CBC\IssueDate:
             accessor:
                 getter: value
                 setter: value
-            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+            type: DateTime<'Y-m-d'>

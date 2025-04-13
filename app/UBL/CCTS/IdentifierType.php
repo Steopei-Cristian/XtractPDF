@@ -2,6 +2,8 @@
 
 namespace App\UBL\CCTS;
 
+use JMS\Serializer\Annotation as JMS;
+
 /**
  * Class representing IdentifierType
  *
@@ -18,6 +20,8 @@ class IdentifierType
 {
     /**
      * @var string $__value
+     * @JMS\Type("string")
+     * @JMS\XmlValue
      */
     private $__value = null;
 
@@ -32,6 +36,8 @@ class IdentifierType
      *  string
      *
      * @var string $schemeID
+     * @JMS\Type("string")
+     * @JMS\XmlAttribute
      */
     private $schemeID = null;
 
@@ -46,6 +52,8 @@ class IdentifierType
      *  string
      *
      * @var string $schemeName
+     * @JMS\Type("string")
+     * @JMS\XmlAttribute
      */
     private $schemeName = null;
 
@@ -61,6 +69,8 @@ class IdentifierType
      *  Defaults to the UN/EDIFACT data element 3055 code list.
      *
      * @var string $schemeAgencyID
+     * @JMS\Type("string")
+     * @JMS\XmlAttribute
      */
     private $schemeAgencyID = null;
 
@@ -75,6 +85,8 @@ class IdentifierType
      *  string
      *
      * @var string $schemeAgencyName
+     * @JMS\Type("string")
+     * @JMS\XmlAttribute
      */
     private $schemeAgencyName = null;
 
@@ -89,6 +101,8 @@ class IdentifierType
      *  string
      *
      * @var string $schemeVersionID
+     * @JMS\Type("string")
+     * @JMS\XmlAttribute
      */
     private $schemeVersionID = null;
 
@@ -103,6 +117,8 @@ class IdentifierType
      *  string
      *
      * @var string $schemeDataURI
+     * @JMS\Type("string")
+     * @JMS\XmlAttribute
      */
     private $schemeDataURI = null;
 
@@ -117,6 +133,8 @@ class IdentifierType
      *  string
      *
      * @var string $schemeURI
+     * @JMS\Type("string")
+     * @JMS\XmlAttribute
      */
     private $schemeURI = null;
 
@@ -125,9 +143,11 @@ class IdentifierType
      *
      * @param string $value
      */
-    public function __construct($value)
+    public function __construct($value = null)
     {
-        $this->value($value);
+        if ($value !== null) {
+            $this->value($value);
+        }
     }
 
     /**

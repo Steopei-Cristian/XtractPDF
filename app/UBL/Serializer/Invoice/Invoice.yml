@@ -1,3 +1,11 @@
 App\UBL\Invoice\Invoice:
     xml_root_name: Invoice
     xml_root_namespace: 'urn:oasis:names:specification:ubl:schema:xsd:Invoice-2'
+    xml_namespaces:
+        "": "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+        "cac": "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+        "cbc": "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+        "qdt": "urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2"
+        "udt": "urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2"
+        "ccts": "urn:un:unece:uncefact:documentation:2"
+        "xsi": "http://www.w3.org/2001/XMLSchema-instance"
