@@ -423,20 +423,6 @@ class PdfService
                     }
                 }
             }
-        } else {
-            // Default payment instructions if none are provided
-            $html .= '<tr>
-                <td style="width: 30%;">Codul tipului de instrument de plata</td>
-                <td>42</td>
-            </tr>
-            <tr>
-                <td>Nr. cont de plata</td>
-                <td>RO70BTRLRONCRT0G3230701</td>
-            </tr>
-            <tr>
-                <td>Numele contului de plata</td>
-                <td>BANCA TRANSILVANIA</td>
-            </tr>';
         }
         $html .= '</table>';
 

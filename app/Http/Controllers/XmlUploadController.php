@@ -35,19 +35,16 @@ class XmlUploadController extends Controller
             $fullPath = Storage::disk('local')->path($path);
             
             // Parse the XML file and create Invoice object
-            $invoice = $this->xmlParserService->parseInvoiceFromFile($fullPath);
+            $result = $this->xmlParserService->parseInvoiceFromFile($fullPath);
+            $invoice = $result['invoice'];
+            $pdfPath = $result['pdf_path'];
             
-            // Log the parsed invoice details
-            /*Log::info('Invoice parsed successfully', [
-                'invoice_id' => $invoice->getId(),
-                'issue_date' => $invoice->getIssueDate(),
-                'supplier' => $invoice->getAccountingSupplierParty()->getName(),
-                'customer' => $invoice->getAccountingCustomerParty()->getName(),
-                'total_lines' => count($invoice->getInvoiceLines()),
-            ]);*/
+            // Clean up the temporary XML file
+            Storage::delete($path);
             
-            return redirect()->route('upload.xml')
-                ->with('success', 'XML file uploaded and parsed successfully!');
+            // Return the PDF file for download
+            return response()->download($pdfPath)->deleteFileAfterSend(true);
+
         } catch (\Exception $e) {
             Log::error('Failed to process XML file', [
                 'error' => $e->getMessage(),
